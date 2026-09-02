@@ -3,6 +3,8 @@
 
   "name": "Fenerbahçe",
 
+  "logo": "assets/logos/fener.png",
+
   "stadium": {
     "name": "Şükrü Saracoğlu Spor Kompleksi",
     "capacity": 47834
@@ -11,5 +13,224 @@
   "manager": {
     "name": "Teknik Direktör Adı",
     "country": "Türkiye"
+  },
+
+  "players": [
+    {
+      "slot": "P01",
+      "name": "Kaleci 1",
+      "number": 1,
+      "position": "GK",
+      "country": "Türkiye",
+      "status": "starter"
+    },
+    {
+      "slot": "P02",
+      "name": "Kaleci 2",
+      "number": 12,
+      "position": "GK",
+      "country": "Türkiye",
+      "status": "bench"
+    },
+    {
+      "slot": "P03",
+      "name": "Kaleci 3",
+      "number": 35,
+      "position": "GK",
+      "country": "Türkiye",
+      "status": "out"
+    },
+
+    {
+      "slot": "P04",
+      "name": "Sol Bek",
+      "number": 3,
+      "position": "LB",
+      "country": "Türkiye",
+      "status": "starter"
+    },
+    {
+      "slot": "P05",
+      "name": "Stoper 1",
+      "number": 4,
+      "position": "CB",
+      "country": "Türkiye",
+      "status": "starter"
+    },
+    {
+      "slot": "P06",
+      "name": "Stoper 2",
+      "number": 6,
+      "position": "CB",
+      "country": "Türkiye",
+      "status": "starter"
+    },
+    {
+      "slot": "P07",
+      "name": "Sağ Bek",
+      "number": 2,
+      "position": "RB",
+      "country": "Türkiye",
+      "status": "starter"
+    },
+    {
+      "slot": "P08",
+      "name": "Defansif Orta Saha 1",
+      "number": 5,
+      "position": "CDM",
+      "country": "Türkiye",
+      "status": "starter"
+    },
+    {
+      "slot": "P09",
+      "name": "Defansif Orta Saha 2",
+      "number": 8,
+      "position": "CDM",
+      "country": "Türkiye",
+      "status": "starter"
+    },
+    {
+      "slot": "P10",
+      "name": "Sol Kanat",
+      "number": 7,
+      "position": "LW",
+      "country": "Türkiye",
+      "status": "starter"
+    },
+    {
+      "slot": "P11",
+      "name": "Ofansif Orta Saha",
+      "number": 10,
+      "position": "CAM",
+      "country": "Türkiye",
+      "status": "starter"
+    },
+    {
+      "slot": "P12",
+      "name": "Sağ Kanat",
+      "number": 11,
+      "position": "RW",
+      "country": "Türkiye",
+      "status": "starter"
+    },
+    {
+      "slot": "P13",
+      "name": "Santrafor",
+      "number": 9,
+      "position": "ST",
+      "country": "Türkiye",
+      "status": "starter"
+    },
+
+    {
+      "slot": "P14",
+      "name": "Yedek Sol Bek",
+      "number": 13,
+      "position": "LB",
+      "country": "Türkiye",
+      "status": "bench"
+    },
+    {
+      "slot": "P15",
+      "name": "Yedek Stoper 1",
+      "number": 14,
+      "position": "CB",
+      "country": "Türkiye",
+      "status": "bench"
+    },
+    {
+      "slot": "P16",
+      "name": "Yedek Stoper 2",
+      "number": 15,
+      "position": "CB",
+      "country": "Türkiye",
+      "status": "bench"
+    },
+    {
+      "slot": "P17",
+      "name": "Yedek Sağ Bek",
+      "number": 16,
+      "position": "RB",
+      "country": "Türkiye",
+      "status": "bench"
+    },
+    {
+      "slot": "P18",
+      "name": "Yedek Orta Saha",
+      "number": 17,
+      "position": "CM",
+      "country": "Türkiye",
+      "status": "bench"
+    },
+    {
+      "slot": "P19",
+      "name": "Yedek Defansif Orta Saha",
+      "number": 18,
+      "position": "CDM",
+      "country": "Türkiye",
+      "status": "bench"
+    },
+    {
+      "slot": "P20",
+      "name": "Yedek Sol Kanat",
+      "number": 19,
+      "position": "LW",
+      "country": "Türkiye",
+      "status": "bench"
+    },
+    {
+      "slot": "P21",
+      "name": "Yedek Sağ Kanat",
+      "number": 20,
+      "position": "RW",
+      "country": "Türkiye",
+      "status": "bench"
+    },
+    {
+      "slot": "P22",
+      "name": "Yedek Santrafor",
+      "number": 21,
+      "position": "ST",
+      "country": "Türkiye",
+      "status": "bench"
+    },
+
+    {
+      "slot": "P23",
+      "name": "Kadro Dışı Orta Saha",
+      "number": 22,
+      "position": "CM",
+      "country": "Türkiye",
+      "status": "out"
+    },
+    {
+      "slot": "P24",
+      "name": "Kadro Dışı Kanat",
+      "number": 23,
+      "position": "LM",
+      "country": "Türkiye",
+      "status": "out"
+    },
+    {
+      "slot": "P25",
+      "name": "Kadro Dışı Forvet",
+      "number": 24,
+      "position": "ST",
+      "country": "Türkiye",
+      "status": "out"
+    }
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+
+    "captain": "P11",
+
+    "setPieces": {
+      "penalty": "P13",
+      "freeKick": "P11",
+      "cornerLeft": "P10",
+      "cornerRight": "P12"
+    }
   }
 }
