@@ -1,4 +1,15 @@
 {
   "teamKey": "Fener",
-  "name": "Fenerbahçe"
+
+  "name": "Fenerbahçe",
+
+  "stadium": {
+    "name": "Şükrü Saracoğlu Spor Kompleksi",
+    "capacity": 47834
+  },
+
+  "manager": {
+    "name": "Teknik Direktör Adı",
+    "country": "Türkiye"
+  }
 }
