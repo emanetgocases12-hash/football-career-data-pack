@@ -1,0 +1,12 @@
+{
+  "teamKey": "W Ham",
+
+  "name": "West Ham United",
+
+  "logo": "assets/logos/europe/england/WestHam.png",
+
+  "stadium": {
+    "name": "London Stadium",
+    "capacity": 62500
+  }
+}
