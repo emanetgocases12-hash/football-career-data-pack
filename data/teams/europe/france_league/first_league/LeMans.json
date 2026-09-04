@@ -1,0 +1,12 @@
+{
+  "teamKey": "LeMans",
+
+  "name": "Le Mans FC",
+
+  "logo": "assets/logos/europe/france/LeMans.png",
+
+  "stadium": {
+    "name": "Stade Marie-Marvingt",
+    "capacity": 25064
+  }
+}
