@@ -1,0 +1,12 @@
+{
+  "teamKey": "Cardif",
+
+  "name": "Cardiff City",
+
+  "logo": "assets/logos/europe/england/Cardiff.png",
+
+  "stadium": {
+    "name": "Cardiff City Stadium",
+    "capacity": 33280
+  }
+}
