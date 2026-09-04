@@ -1,0 +1,12 @@
+{
+  "teamKey": "Bayern",
+
+  "name": "Bayern Munich",
+
+  "logo": "assets/logos/europe/germany/Bayern.png",
+
+  "stadium": {
+    "name": "Allianz Arena",
+    "capacity": 75000
+  }
+}
