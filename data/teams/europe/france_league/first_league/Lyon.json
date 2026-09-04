@@ -1,0 +1,12 @@
+{
+  "teamKey": "Lyon",
+
+  "name": "Olympique Lyon",
+
+  "logo": "assets/logos/europe/france/Lyon.png",
+
+  "stadium": {
+    "name": "Groupama Stadium",
+    "capacity": 59186
+  }
+}
