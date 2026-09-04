@@ -1,0 +1,12 @@
+{
+  "teamKey": "PSG",
+
+  "name": "Paris Saint-Germain",
+
+  "logo": "assets/logos/europe/france/PSG.png",
+
+  "stadium": {
+    "name": "Parc des Princes",
+    "capacity": 48583
+  }
+}
