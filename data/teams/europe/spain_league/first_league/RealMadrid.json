@@ -1,0 +1,12 @@
+{
+  "teamKey": "Madrid",
+
+  "name": "Real Madrid",
+
+  "logo": "assets/logos/europe/spain/Real.png",
+
+  "stadium": {
+    "name": "Santiago Bernabéu",
+    "capacity": 83186
+  }
+}
