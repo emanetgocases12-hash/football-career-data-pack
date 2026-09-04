@@ -1,0 +1,12 @@
+{
+  "teamKey": "Köln",
+
+  "name": "1.FC Köln",
+
+  "logo": "assets/logos/europe/germany/Koln.png",
+
+  "stadium": {
+    "name": "RheinEnergieSTADION",
+    "capacity": 50000
+  }
+}
