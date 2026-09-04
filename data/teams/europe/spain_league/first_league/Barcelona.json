@@ -1,0 +1,12 @@
+{
+  "teamKey": "Barca",
+
+  "name": "FC Barcelona",
+
+  "logo": "assets/logos/europe/spain/Barcelona.png",
+
+  "stadium": {
+    "name": "Spotify Camp Nou",
+    "capacity": 62657
+  }
+}
