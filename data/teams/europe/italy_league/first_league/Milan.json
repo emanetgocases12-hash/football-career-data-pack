@@ -1,0 +1,12 @@
+{
+  "teamKey": "Milan",
+
+  "name": "AC Milan",
+
+  "logo": "assets/logos/europe/italy/Milan.png",
+
+  "stadium": {
+    "name": "Giuseppe Meazza",
+    "capacity": 75923
+  }
+}
