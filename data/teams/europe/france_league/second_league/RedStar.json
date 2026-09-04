@@ -1,0 +1,12 @@
+{
+  "teamKey": "RedStr",
+
+  "name": "Red Star FC",
+
+  "logo": "assets/logos/europe/france/RedStar.png",
+
+  "stadium": {
+    "name": "Stade Bauer",
+    "capacity": 5600
+  }
+}
