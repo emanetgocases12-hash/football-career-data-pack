@@ -1,0 +1,12 @@
+{
+  "teamKey": "Roma",
+
+  "name": "AS Roma",
+
+  "logo": "assets/logos/europe/italy/Roma.png",
+
+  "stadium": {
+    "name": "Olimpico di Roma",
+    "capacity": 70634
+  }
+}
