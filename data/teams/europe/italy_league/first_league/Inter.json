@@ -1,0 +1,12 @@
+{
+  "teamKey": "Inter",
+
+  "name": "Inter Milan",
+
+  "logo": "assets/logos/europe/italy/Inter.png",
+
+  "stadium": {
+    "name": "Giuseppe Meazza",
+    "capacity": 75923
+  }
+}
