@@ -1,0 +1,12 @@
+{
+  "teamKey": "Juve",
+
+  "name": "Juventus FC",
+
+  "logo": "assets/logos/europe/italy/Juventus.png",
+
+  "stadium": {
+    "name": "Allianz Stadium",
+    "capacity": 41507
+  }
+}
