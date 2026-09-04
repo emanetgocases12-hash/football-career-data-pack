@@ -1,0 +1,12 @@
+{
+  "teamKey": "Leeds",
+
+  "name": "Leeds United",
+
+  "logo": "assets/logos/europe/turkey/Leeds.png",
+
+  "stadium": {
+    "name": "Elland Road",
+    "capacity": 37890
+  }
+}
