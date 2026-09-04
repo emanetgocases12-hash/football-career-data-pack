@@ -1,0 +1,12 @@
+{
+  "teamKey": "PSV",
+
+  "name": "PSV Eindhoven",
+
+  "logo": "assets/logos/europe/netherlands/PSV.png",
+
+  "stadium": {
+    "name": "Philips Stadion",
+    "capacity": 35000
+  }
+}
