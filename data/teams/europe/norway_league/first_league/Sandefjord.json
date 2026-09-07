@@ -1,0 +1,12 @@
+{
+  "teamKey": "Sandef",
+
+  "name": "Sandefjord Fotball",
+
+  "logo": "assets/logos/europe/norway/Sandefjord.png",
+
+  "stadium": {
+    "name": "Jotun Arena",
+    "capacity": 8000
+  }
+}
