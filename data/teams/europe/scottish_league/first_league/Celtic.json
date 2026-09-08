@@ -1,0 +1,12 @@
+{
+  "teamKey": "Celtic",
+
+  "name": "Celtic FC",
+
+  "logo": "assets/logos/europe/scottish/Celtic.png",
+
+  "stadium": {
+    "name": "Celtic Park",
+    "capacity": 60411
+  }
+}
