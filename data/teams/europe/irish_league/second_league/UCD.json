@@ -1,0 +1,12 @@
+{
+  "teamKey": "UC Dbln",
+
+  "name": "University College Dublin",
+
+  "logo": "assets/logos/europe/irish/UCD.png",
+
+  "stadium": {
+    "name": "UCD Bowl",
+    "capacity": 3000
+  }
+}
