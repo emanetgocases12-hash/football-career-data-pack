@@ -1,0 +1,12 @@
+{
+  "teamKey": "Bohem",
+
+  "name": "Bohemian Football Club",
+
+  "logo": "assets/logos/europe/irish/Bohemian.png",
+
+  "stadium": {
+    "name": "Dalymount Park",
+    "capacity": 4500
+  }
+}
