@@ -1,0 +1,12 @@
+{
+  "teamKey": "Astana",
+
+  "name": "FC Astana",
+
+  "logo": "assets/logos/europe/kazak/Astana.png",
+
+  "stadium": {
+    "name": "Astana Arena",
+    "capacity":30000
+  }
+}
