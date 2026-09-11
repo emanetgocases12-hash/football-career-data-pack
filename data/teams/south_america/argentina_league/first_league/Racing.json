@@ -1,0 +1,12 @@
+{
+  "teamKey": "Racing",
+
+  "name": "Racing Club",
+
+  "logo": "assets/logos/south_america/argentina/Racing.png",
+
+  "stadium": {
+    "name": "Presidente Perón",
+    "capacity": 55000
+  }
+}
