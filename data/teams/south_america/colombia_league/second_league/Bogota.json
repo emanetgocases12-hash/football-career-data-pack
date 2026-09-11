@@ -1,0 +1,12 @@
+{
+  "teamKey": "Bogota",
+
+  "name": "Bogotá FC",
+
+  "logo": "assets/logos/south_america/colombia/Bogota.png",
+
+  "stadium": {
+    "name": "Estadio Metropolitano de Techo",
+    "capacity":8000
+  }
+}
