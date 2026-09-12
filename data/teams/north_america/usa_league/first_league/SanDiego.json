@@ -1,0 +1,12 @@
+{
+  "teamKey": "S Diego",
+
+  "name": "San Diego FC",
+
+  "logo": "assets/logos/north_america/usa/SanDiego.png",
+
+  "stadium": {
+    "name": "Snapdragon Stadium",
+    "capacity": 35000
+  }
+}
