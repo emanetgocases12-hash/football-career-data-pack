@@ -1,0 +1,12 @@
+{
+  "teamKey": "San Jose",
+
+  "name": "San Jose Earthquakes",
+
+  "logo": "assets/logos/north_america/usa/SanJose.png",
+
+  "stadium": {
+    "name": "PayPal Park",
+    "capacity": 18000
+  }
+}
