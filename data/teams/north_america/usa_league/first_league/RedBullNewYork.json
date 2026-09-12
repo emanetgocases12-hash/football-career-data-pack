@@ -1,0 +1,12 @@
+{
+  "teamKey": "NYRB",
+
+  "name": "Red Bull New York",
+
+  "logo": "assets/logos/north_america/usa/RB.png",
+
+  "stadium": {
+    "name": "Sports Illustrated Stadium",
+    "capacity": 25000
+  }
+}
