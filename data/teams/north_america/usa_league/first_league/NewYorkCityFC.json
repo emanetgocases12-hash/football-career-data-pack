@@ -1,0 +1,12 @@
+{
+  "teamKey": "NYC FC",
+
+  "name": "New York City FC",
+
+  "logo": "assets/logos/north_america/usa/NewYork.png",
+
+  "stadium": {
+    "name": "Yankee Stadium",
+    "capacity": 30321
+  }
+}
