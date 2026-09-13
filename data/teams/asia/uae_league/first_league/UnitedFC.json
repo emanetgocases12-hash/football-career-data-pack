@@ -1,0 +1,12 @@
+{
+  "teamKey": "UFC",
+
+  "name": "United FC",
+
+  "logo": "assets/logos/asia/uae/UFC.png",
+
+  "stadium": {
+    "name": "Al Maktoum Stadium",
+    "capacity": 15022
+  }
+}
