@@ -1,0 +1,12 @@
+{
+  "teamKey": "Stade T",
+
+  "name": "Stade Tunisien",
+
+  "logo": "assets/logos/africa/tunusia/StadeT.png",
+
+  "stadium": {
+    "name": "Stade Hédi Ennaifer",
+    "capacity": 11000
+  }
+}
