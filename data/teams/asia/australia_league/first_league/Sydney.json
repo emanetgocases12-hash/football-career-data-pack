@@ -1,0 +1,12 @@
+{
+  "teamKey": "Sydney",
+
+  "name": "Sydney FC",
+
+  "logo": "assets/logos/asia/australia/Sydney.png",
+
+  "stadium": {
+    "name": "Allianz Stadium",
+    "capacity": 42500
+  }
+}
