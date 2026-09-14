@@ -1,8 +1,9 @@
 {
-   "leagueKey": "English League",
-    "name": "Premier League",
-    "secondLeague": {
-      "key": "English Second League",
-      "name": "EFL Championship"
-    }
+  "leagueKey": "English League",
+  "name": "Premier League",
+
+  "secondLeague": {
+    "key": "English Second League",
+    "name": "EFL Championship"
+  }
 }
