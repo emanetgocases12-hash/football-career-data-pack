@@ -118,10 +118,10 @@
     },
     {
       "leagueKey": "Swiss League",
-      "name": "Brack Super League",
+      "name": "Super League",
       "secondLeague": {
         "key": "Swiss Second League",
-        "name": "dieci Challenge League"
+        "name": "Challenge League"
       }
     },
     {
@@ -182,7 +182,7 @@
     },
     {
       "leagueKey": "Bulgarian League",
-      "name": "efbet Liga"
+      "name": "First Professional League"
     },
     {
       "leagueKey": "Irish League",
@@ -251,6 +251,270 @@
     {
       "leagueKey": "Russian League",
       "name": "Russian Premier League"
+    },
+    {
+      "leagueKey": "Brazilian League",
+      "name": "Campeonato Brasileiro Série A",
+      "secondLeague": {
+        "key": "Brazilian Second League",
+        "name": "Campeonato Brasileiro Série B"
+      }
+    },
+    {
+      "leagueKey": "Argentine League",
+      "name": "Liga Profesional de Fútbol",
+      "secondLeague": {
+        "key": "Argentine Second League",
+        "name": "Primera Nacional"
+      }
+    },
+    {
+      "leagueKey": "Colombian League",
+      "name": "Liga BetPlay Dimayor",
+      "secondLeague": {
+        "key": "Colombian Second League",
+        "name": "Torneo BetPlay Dimayor"
+      }
+    },
+    {
+      "leagueKey": "Chilean League",
+      "name": "Liga de Primera",
+      "secondLeague": {
+        "key": "Chilean Second League",
+        "name": "Primera B"
+      }
+    },
+    {
+      "leagueKey": "Uruguayan League",
+      "name": "Liga AUF Uruguaya",
+      "secondLeague": {
+        "key": "Uruguayan Second League",
+        "name": "Segunda División"
+      }
+    },
+    {
+      "leagueKey": "Peruvian League",
+      "name": "Liga 1"
+    },
+    {
+      "leagueKey": "Ecuadorian League",
+      "name": "LigaPro Serie A"
+    },
+    {
+      "leagueKey": "Paraguayan League",
+      "name": "Primera División"
+    },
+    {
+      "leagueKey": "Venezuelan League",
+      "name": "Liga FUTVE"
+    },
+    {
+      "leagueKey": "Bolivian League",
+      "name": "División Profesional"
+    },
+    {
+      "leagueKey": "American League",
+      "name": "Major League Soccer"
+    },
+    {
+      "leagueKey": "Mexican League",
+      "name": "Liga MX",
+      "secondLeague": {
+        "key": "Mexican Second League",
+        "name": "Liga de Expansión MX"
+      }
+    },
+    {
+      "leagueKey": "Canadian League",
+      "name": "Canadian Premier League"
+    },
+    {
+      "leagueKey": "Costa Rican league",
+      "name": "Primera División de Costa Rica"
+    },
+    {
+      "leagueKey": "Dominican Republic League",
+      "name": "Liga Dominicana de Fútbol"
+    },
+    {
+      "leagueKey": "Puerto Rican league",
+      "name": "Liga Puerto Rico"
+    },
+    {
+      "leagueKey": "Panamanian League",
+      "name": "Liga Panameña de Fútbol"
+    },
+    {
+      "leagueKey": "Honduran League",
+      "name": "Liga Nacional de Honduras"
+    },
+    {
+      "leagueKey": "Guatemalan League",
+      "name": "Liga Nacional de Guatemala"
+    },
+    {
+      "leagueKey": "Salvadoran League",
+      "name": "Primera División de El Salvador"
+    },
+    {
+      "leagueKey": "Nicaraguan League",
+      "name": "Liga Primera"
+    },
+    {
+      "leagueKey": "Jamaican League",
+      "name": "Jamaica Premier League"
+    },
+    {
+      "leagueKey": "Egyptian League",
+      "name": "Egyptian Premier League"
+    },
+    {
+      "leagueKey": "Moroccan League",
+      "name": "Botola Pro"
+    },
+    {
+      "leagueKey": "South African League",
+      "name": "Betway Premiership"
+    },
+    {
+      "leagueKey": "Algerian League",
+      "name": "Ligue 1"
+    },
+    {
+      "leagueKey": "Tunisian League",
+      "name": "Ligue Professionnelle 1"
+    },
+    {
+      "leagueKey": "Ivorian league",
+      "name": "Ligue 1"
+    },
+    {
+      "leagueKey": "Angolan league",
+      "name": "Girabola"
+    },
+    {
+      "leagueKey": "Libyan league",
+      "name": "Libyan Premier League"
+    },
+    {
+      "leagueKey": "Nigerian League",
+      "name": "Nigeria Premier Football League"
+    },
+    {
+      "leagueKey": "Kenyan league",
+      "name": "Kenyan Premier League"
+    },
+    {
+      "leagueKey": "Senegalese league",
+      "name": "Ligue 1"
+    },
+    {
+      "leagueKey": "Ghanaian league",
+      "name": "Ghana Premier League"
+    },
+    {
+      "leagueKey": "South Korean League",
+      "name": "K League 1",
+      "secondLeague": {
+        "key": "South Korean Second League",
+        "name": "K League 2"
+      }
+    },
+    {
+      "leagueKey": "Japan League",
+      "name": "J1 League"
+    },
+    {
+      "leagueKey": "Thai League",
+      "name": "Thai League 1"
+    },
+    {
+      "leagueKey": "Chinese League",
+      "name": "Chinese Super League"
+    },
+    {
+      "leagueKey": "Australian League",
+      "name": "A-League Men"
+    },
+    {
+      "leagueKey": "Vietnam League",
+      "name": "V.League 1"
+    },
+    {
+      "leagueKey": "Malaysian League",
+      "name": "Malaysia Super League"
+    },
+    {
+      "leagueKey": "Singapore League",
+      "name": "Singapore Premier League"
+    },
+    {
+      "leagueKey": "Hong Kong League",
+      "name": "Hong Kong Premier League"
+    },
+    {
+      "leagueKey": "Indonesian League",
+      "name": "Indonesia Super League"
+    },
+    {
+      "leagueKey": "Philippines League",
+      "name": "Philippines Football League"
+    },
+    {
+      "leagueKey": "Saudi League",
+      "name": "Saudi Pro League",
+      "secondLeague": {
+        "key": "Saudi Second League",
+        "name": "Saudi First Division League"
+      }
+    },
+    {
+      "leagueKey": "United Arab Emirates League",
+      "name": "UAE Pro League"
+    },
+    {
+      "leagueKey": "Qatar League",
+      "name": "Qatar Stars League"
+    },
+    {
+      "leagueKey": "Uzbek League",
+      "name": "Uzbekistan Super League"
+    },
+    {
+      "leagueKey": "Iranian League",
+      "name": "Persian Gulf Pro League"
+    },
+    {
+      "leagueKey": "Jordanian League",
+      "name": "Jordanian Pro League"
+    },
+    {
+      "leagueKey": "Iraq League",
+      "name": "Iraq Stars League"
+    },
+    {
+      "leagueKey": "Bahrain League",
+      "name": "Bahraini Premier League"
+    },
+    {
+      "leagueKey": "Omani League",
+      "name": "Oman Professional League"
+    },
+    {
+      "leagueKey": "Kuwait League",
+      "name": "Kuwait Premier League"
+    },
+    {
+      "leagueKey": "Lebanese League",
+      "name": "Lebanese Premier League"
+    },
+    {
+      "leagueKey": "Indian League",
+      "name": "Indian Super League"
+    },
+    {
+      "leagueKey": "Bangladeshi league",
+      "name": "Bangladesh Premier League"
     }
   ]
 }
