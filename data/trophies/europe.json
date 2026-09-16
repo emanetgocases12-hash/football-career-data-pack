@@ -300,12 +300,6 @@
       "image": "assets/trophies/leagues/europe/cyprus1.png"
     },
     {
-      "trophy": "league_title",
-      "league": "Cypriot league",
-      "tier": 2,
-      "image": "assets/trophies/leagues/europe/cyprus2.png"
-    },
-    {
       "trophy": "national_cup",
       "league": "Cypriot league",
       "image": "assets/trophies/leagues/europe/cyprusCup.png"
@@ -390,12 +384,6 @@
       "image": "assets/trophies/leagues/europe/croatia1.png"
     },
     {
-      "trophy": "league_title",
-      "league": "Croatian League",
-      "tier": 2,
-      "image": "assets/trophies/leagues/europe/croatia2.png"
-    },
-    {
       "trophy": "national_cup",
       "league": "Croatian League",
       "image": "assets/trophies/leagues/europe/croatiaCup.png"
@@ -412,12 +400,6 @@
       "image": "assets/trophies/leagues/europe/hungary1.png"
     },
     {
-      "trophy": "league_title",
-      "league": "Hungarian League",
-      "tier": 2,
-      "image": "assets/trophies/leagues/europe/hungary2.png"
-    },
-    {
       "trophy": "national_cup",
       "league": "Hungarian League",
       "image": "assets/trophies/leagues/europe/hungaryCup.png"
@@ -427,12 +409,6 @@
       "league": "Ukrainian League",
       "tier": 1,
       "image": "assets/trophies/leagues/europe/ukrania1.png"
-    },
-    {
-      "trophy": "league_title",
-      "league": "Ukrainian League",
-      "tier": 2,
-      "image": "assets/trophies/leagues/europe/ukrania2.png"
     },
     {
       "trophy": "national_cup",
@@ -451,12 +427,6 @@
       "image": "assets/trophies/leagues/europe/serbia1.png"
     },
     {
-      "trophy": "league_title",
-      "league": "Serbian League",
-      "tier": 2,
-      "image": "assets/trophies/leagues/europe/serbia2.png"
-    },
-    {
       "trophy": "national_cup",
       "league": "Serbian League",
       "image": "assets/trophies/leagues/europe/serbiaCup.png"
@@ -466,12 +436,6 @@
       "league": "Romanian League",
       "tier": 1,
       "image": "assets/trophies/leagues/europe/romania1.png"
-    },
-    {
-      "trophy": "league_title",
-      "league": "Romanian League",
-      "tier": 2,
-      "image": "assets/trophies/leagues/europe/romania2.png"
     },
     {
       "trophy": "national_cup",
