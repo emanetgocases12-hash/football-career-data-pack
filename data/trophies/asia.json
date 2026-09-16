@@ -341,6 +341,17 @@
     },
     {
       "trophy": "league_title",
+      "league": "Indian League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/india1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Indian League",
+      "image": "assets/trophies/leagues/asia/indiaCup.png"
+    },
+    {
+      "trophy": "league_title",
       "league": "Lebanese League",
       "tier": 1,
       "image": "assets/trophies/leagues/asia/lebanon1.png"
