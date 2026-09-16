@@ -4,23 +4,23 @@
       "trophy": "league_title",
       "league": "South Korean League",
       "tier": 1,
-      "image": "assets/trophies/leagues/asia/southkorean1.png"
+      "image": "assets/trophies/leagues/asia/korean.png"
     },
     {
       "trophy": "league_title",
       "league": "South Korean League",
       "tier": 2,
-      "image": "assets/trophies/leagues/asia/southkorean2.png"
+      "image": "assets/trophies/leagues/asia/korean2.png"
     },
     {
       "trophy": "national_cup",
       "league": "South Korean League",
-      "image": "assets/trophies/leagues/asia/southkoreanCup.png"
+      "image": "assets/trophies/leagues/asia/koreanCup.png"
     },
     {
       "trophy": "super_cup",
       "league": "South Korean League",
-      "image": "assets/trophies/leagues/asia/southkoreanSuper.png"
+      "image": "assets/trophies/leagues/asia/koreanSuper.png"
     },
     {
       "trophy": "league_title",
@@ -42,17 +42,17 @@
       "trophy": "league_title",
       "league": "Thai League",
       "tier": 1,
-      "image": "assets/trophies/leagues/asia/thailand1.png"
+      "image": "assets/trophies/leagues/asia/thaliand1.png"
     },
     {
       "trophy": "national_cup",
       "league": "Thai League",
-      "image": "assets/trophies/leagues/asia/thailandCup.png"
+      "image": "assets/trophies/leagues/asia/thaliandCup.png"
     },
     {
       "trophy": "super_cup",
       "league": "Thai League",
-      "image": "assets/trophies/leagues/asia/thailandSuper.png"
+      "image": "assets/trophies/leagues/asia/thaliandSuper.png"
     },
     {
       "trophy": "league_title",
@@ -117,17 +117,17 @@
       "trophy": "league_title",
       "league": "Singapore League",
       "tier": 1,
-      "image": "assets/trophies/leagues/asia/singapor1.png"
+      "image": "assets/trophies/leagues/asia/singapore1.png"
     },
     {
       "trophy": "national_cup",
       "league": "Singapore League",
-      "image": "assets/trophies/leagues/asia/singaporCup.png"
+      "image": "assets/trophies/leagues/asia/singapoerCup.png"
     },
     {
       "trophy": "super_cup",
       "league": "Singapore League",
-      "image": "assets/trophies/leagues/asia/singaporSuper.png"
+      "image": "assets/trophies/leagues/asia/singaporeSuper.png"
     },
     {
       "trophy": "league_title",
@@ -343,17 +343,17 @@
       "trophy": "league_title",
       "league": "Lebanese League",
       "tier": 1,
-      "image": "assets/trophies/leagues/asia/lybnan1.png"
+      "image": "assets/trophies/leagues/asia/lebanon1.png"
     },
     {
       "trophy": "national_cup",
       "league": "Lebanese League",
-      "image": "assets/trophies/leagues/asia/lybnanCup.png"
+      "image": "assets/trophies/leagues/asia/lebanonCup.png"
     },
     {
       "trophy": "super_cup",
       "league": "Lebanese League",
-      "image": "assets/trophies/leagues/asia/lybnanSuper.png"
+      "image": "assets/trophies/leagues/asia/lebanonSuper.png"
     }
   ]
 }
