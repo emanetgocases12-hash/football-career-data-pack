@@ -1,0 +1,184 @@
+{
+  "trophies": [
+    {
+      "trophy": "league_title",
+      "league": "Brazilian League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/south_america/brazil1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Brazilian League",
+      "tier": 2,
+      "image": "assets/trophies/leagues/south_america/brazil2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Brazilian League",
+      "image": "assets/trophies/leagues/south_america/brazilCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Brazilian League",
+      "image": "assets/trophies/leagues/south_america/brazilSuper.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Argentine League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/south_america/argentina1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Argentine League",
+      "tier": 2,
+      "image": "assets/trophies/leagues/south_america/argentina2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Argentine League",
+      "image": "assets/trophies/leagues/south_america/argentinaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Argentine League",
+      "image": "assets/trophies/leagues/south_america/argentinaSuper.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Colombian League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/south_america/colombia1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Colombian League",
+      "tier": 2,
+      "image": "assets/trophies/leagues/south_america/colombia2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Colombian League",
+      "image": "assets/trophies/leagues/south_america/colombiaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Colombian League",
+      "image": "assets/trophies/leagues/south_america/colombiaSuper.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Chilean League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/south_america/chile1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Chilean League",
+      "tier": 2,
+      "image": "assets/trophies/leagues/south_america/chile2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Chilean League",
+      "image": "assets/trophies/leagues/south_america/chileCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Chilean League",
+      "image": "assets/trophies/leagues/south_america/chileSuper.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Uruguayan League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/south_america/uruguay1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Uruguayan League",
+      "tier": 2,
+      "image": "assets/trophies/leagues/south_america/uruguay2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Uruguayan League",
+      "image": "assets/trophies/leagues/south_america/uruguayCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Uruguayan League",
+      "image": "assets/trophies/leagues/south_america/uruguaySuper.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Peruvian League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/south_america/peru1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Peruvian League",
+      "image": "assets/trophies/leagues/south_america/peruCup.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Ecuadorian League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/south_america/ecuador1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Ecuadorian League",
+      "image": "assets/trophies/leagues/south_america/ecuadorCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Ecuadorian League",
+      "image": "assets/trophies/leagues/south_america/ecuadorSuper.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Paraguayan League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/south_america/paraguay1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Paraguayan League",
+      "image": "assets/trophies/leagues/south_america/paraguayCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Paraguayan League",
+      "image": "assets/trophies/leagues/south_america/paraguaySuper.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Venezuelan League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/south_america/venezuela1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Venezuelan League",
+      "image": "assets/trophies/leagues/south_america/venezuelaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Venezuelan League",
+      "image": "assets/trophies/leagues/south_america/venezuelaSuper.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Bolivian League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/south_america/bolivia1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Bolivian League",
+      "image": "assets/trophies/leagues/south_america/boliviaCup.png"
+    }
+  ]
+}
