@@ -329,6 +329,23 @@
       "image": "assets/trophies/leagues/asia/kuwaitSuper.png"
     },
     {
+      "trophy": "league_title",
+      "league": "Bangladeshi league",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/bangladesh1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Bangladeshi league",
+      "image": "assets/trophies/leagues/asia/bangladeshCup.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Lebanese League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/lybnan1.png"
+    },
+    {
       "trophy": "national_cup",
       "league": "Lebanese League",
       "image": "assets/trophies/leagues/asia/lybnanCup.png"
