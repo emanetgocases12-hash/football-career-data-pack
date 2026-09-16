@@ -1,0 +1,167 @@
+{
+  "trophies": [
+    {
+      "trophy": "league_title",
+      "league": "American League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/north_america/usa1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "American League",
+      "image": "assets/trophies/leagues/north_america/usaCup.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Mexican League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/north_america/mexico1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Mexican League",
+      "tier": 2,
+      "image": "assets/trophies/leagues/north_america/mexico2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Mexican League",
+      "image": "assets/trophies/leagues/north_america/mexicoCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Mexican League",
+      "image": "assets/trophies/leagues/north_america/mexicoSuper.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Canadian League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/north_america/canada1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Canadian League",
+      "image": "assets/trophies/leagues/north_america/canadaCup.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Costa Rican league",
+      "tier": 1,
+      "image": "assets/trophies/leagues/north_america/costarica1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Costa Rican league",
+      "image": "assets/trophies/leagues/north_america/costaricaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Costa Rican league",
+      "image": "assets/trophies/leagues/north_america/costaricaSuper.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Dominican Republic League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/north_america/dominic1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Dominican Republic League",
+      "image": "assets/trophies/leagues/north_america/dominicCup.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Puerto Rican league",
+      "tier": 1,
+      "image": "assets/trophies/leagues/north_america/portorico1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Puerto Rican league",
+      "image": "assets/trophies/leagues/north_america/portoricoCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Puerto Rican league",
+      "image": "assets/trophies/leagues/north_america/portoricoSuper.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Panamanian League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/north_america/panama1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Panamanian League",
+      "image": "assets/trophies/leagues/north_america/panamaCup.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Honduran League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/north_america/honduras1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Honduran League",
+      "image": "assets/trophies/leagues/north_america/hondurasCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Honduran League",
+      "image": "assets/trophies/leagues/north_america/hondurasSuper.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Guatemalan League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/north_america/guatemala1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Guatemalan League",
+      "image": "assets/trophies/leagues/north_america/guatemalaCup.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Salvadoran League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/north_america/elsalvador1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Salvadoran League",
+      "image": "assets/trophies/leagues/north_america/elsalvadorCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Salvadoran League",
+      "image": "assets/trophies/leagues/north_america/elsalvadorSuper.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Nicaraguan League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/north_america/nicaragua1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Nicaraguan League",
+      "image": "assets/trophies/leagues/north_america/nicaraguaCup.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Jamaican League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/north_america/jamaica1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Jamaican League",
+      "image": "assets/trophies/leagues/north_america/jamaicaCup.png"
+    }
+  ]
+}
