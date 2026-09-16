@@ -1,1 +1,103 @@
-
+{
+  "trophies": [
+    {
+      "trophy": "altinAyakkabi",
+      "image": "assets/trophies/common/altinayakkabi.png"
+    },
+    {
+      "trophy": "balondor",
+      "image": "assets/trophies/common/ballondor.png"
+    },
+    {
+      "trophy": "yilinKalecisi",
+      "image": "assets/trophies/common/altineldiven.png"
+    },
+    {
+      "trophy": "sampiyonlarKupasi",
+      "image": "assets/trophies/common/cl.png"
+    },
+    {
+      "trophy": "avrupaKupasi",
+      "image": "assets/trophies/common/uel.png"
+    },
+    {
+      "trophy": "konferansKupasi",
+      "image": "assets/trophies/common/konferans.png"
+    },
+    {
+      "trophy": "afcSampiyonlar",
+      "image": "assets/trophies/common/afc.png"
+    },
+    {
+      "trophy": "afcSampiyonlar2",
+      "image": "assets/trophies/common/afc2.png"
+    },
+    {
+      "trophy": "libertadores",
+      "image": "assets/trophies/common/libertadores.png"
+    },
+    {
+      "trophy": "sudamericana",
+      "image": "assets/trophies/common/sudamericana.png"
+    },
+    {
+      "trophy": "kuzeyAmerikaSampiyonlarKupasi",
+      "image": "assets/trophies/common/concacaf.png"
+    },
+    {
+      "trophy": "afrikaSampiyonlarKupasi",
+      "image": "assets/trophies/common/caf.png"
+    },
+    {
+      "trophy": "kuluplerDunyaKupasi",
+      "image": "assets/trophies/common/cwc.png"
+    },
+    {
+      "trophy": "kitalarArasiKupa",
+      "image": "assets/trophies/common/kitalar.png"
+    },
+    {
+      "trophy": "avrupaSuperKupa",
+      "continent": "Avrupa",
+      "image": "assets/trophies/common/europe_supercup.png"
+    },
+    {
+      "trophy": "avrupaSuperKupa",
+      "continent": "Asya",
+      "image": "assets/trophies/common/asian_supercup.png"
+    },
+    {
+      "trophy": "avrupaSuperKupa",
+      "continent": "Güney Amerika",
+      "image": "assets/trophies/common/sudamericana.png"
+    },
+    {
+      "trophy": "milliTakimKupasi",
+      "image": "assets/trophies/common/wc.png"
+    },
+    {
+      "trophy": "avrupaSampiyonasi",
+      "image": "assets/trophies/common/europe.png"
+    },
+    {
+      "trophy": "asyaSampiyonasi",
+      "image": "assets/trophies/common/asia.png"
+    },
+    {
+      "trophy": "guneyAmerikaSampiyonasi",
+      "image": "assets/trophies/common/south_america.png"
+    },
+    {
+      "trophy": "kuzeyAmerikaSampiyonasi",
+      "image": "assets/trophies/common/north_america.png"
+    },
+    {
+      "trophy": "afrikaSampiyonasi",
+      "image": "assets/trophies/common/africa.png"
+    },
+    {
+      "trophy": "avrupaUluslarKupasi",
+      "image": "assets/trophies/common/uluslar.png"
+    }
+  ]
+}
