@@ -1,0 +1,171 @@
+{
+"trophies": [
+{
+"trophy": "league_title",
+"league": "Egyptian League",
+"tier": 1,
+"image": "assets/trophies/leagues/africa/egypt1.png"
+},
+{
+"trophy": "national_cup",
+"league": "Egyptian League",
+"image": "assets/trophies/leagues/africa/egyptCup.png"
+},
+{
+"trophy": "super_cup",
+"league": "Egyptian League",
+"image": "assets/trophies/leagues/africa/egyptSuper.png"
+},
+{
+"trophy": "league_title",
+"league": "Moroccan League",
+"tier": 1,
+"image": "assets/trophies/leagues/africa/morocco1.png"
+},
+{
+"trophy": "national_cup",
+"league": "Moroccan League",
+"image": "assets/trophies/leagues/africa/moroccoCup.png"
+},
+{
+"trophy": "league_title",
+"league": "South African League",
+"tier": 1,
+"image": "assets/trophies/leagues/africa/southafrica1.png"
+},
+{
+"trophy": "national_cup",
+"league": "South African League",
+"image": "assets/trophies/leagues/africa/southafricaCup.png"
+},
+{
+"trophy": "league_title",
+"league": "Algerian League",
+"tier": 1,
+"image": "assets/trophies/leagues/africa/algeria1.png"
+},
+{
+"trophy": "national_cup",
+"league": "Algerian League",
+"image": "assets/trophies/leagues/africa/algeriaCup.png"
+},
+{
+"trophy": "super_cup",
+"league": "Algerian League",
+"image": "assets/trophies/leagues/africa/algeriaSuper.png"
+},
+{
+"trophy": "league_title",
+"league": "Tunisian League",
+"tier": 1,
+"image": "assets/trophies/leagues/africa/tunussia1.png"
+},
+{
+"trophy": "national_cup",
+"league": "Tunisian League",
+"image": "assets/trophies/leagues/africa/tunussiaCup.png"
+},
+{
+"trophy": "super_cup",
+"league": "Tunisian League",
+"image": "assets/trophies/leagues/africa/tunussiaSuper.png"
+},
+{
+"trophy": "league_title",
+"league": "Ivorian league",
+"tier": 1,
+"image": "assets/trophies/leagues/africa/ivory1.png"
+},
+{
+"trophy": "national_cup",
+"league": "Ivorian league",
+"image": "assets/trophies/leagues/africa/ivoryCup.png"
+},
+{
+"trophy": "super_cup",
+"league": "Ivorian league",
+"image": "assets/trophies/leagues/africa/ivorySuper.png"
+},
+{
+"trophy": "league_title",
+"league": "Angolan league",
+"tier": 1,
+"image": "assets/trophies/leagues/africa/angola1.png"
+},
+{
+"trophy": "national_cup",
+"league": "Angolan league",
+"image": "assets/trophies/leagues/africa/angolaCup.png"
+},
+{
+"trophy": "super_cup",
+"league": "Angolan league",
+"image": "assets/trophies/leagues/africa/angolaSuper.png"
+},
+{
+"trophy": "league_title",
+"league": "Libyan league",
+"tier": 1,
+"image": "assets/trophies/leagues/africa/libya1.png"
+},
+{
+"trophy": "national_cup",
+"league": "Libyan league",
+"image": "assets/trophies/leagues/africa/libyaCup.png"
+},
+{
+"trophy": "super_cup",
+"league": "Libyan league",
+"image": "assets/trophies/leagues/africa/libyaSuper.png"
+},
+{
+"trophy": "league_title",
+"league": "Nigerian League",
+"tier": 1,
+"image": "assets/trophies/leagues/africa/nigeria1.png"
+},
+{
+"trophy": "national_cup",
+"league": "Nigerian League",
+"image": "assets/trophies/leagues/africa/nigeriaCup.png"
+},
+{
+"trophy": "league_title",
+"league": "Kenyan league",
+"tier": 1,
+"image": "assets/trophies/leagues/africa/kenya1.png"
+},
+{
+"trophy": "national_cup",
+"league": "Kenyan league",
+"image": "assets/trophies/leagues/africa/kenyaCup.png"
+},
+{
+"trophy": "league_title",
+"league": "Senegalese league",
+"tier": 1,
+"image": "assets/trophies/leagues/africa/senegal1.png"
+},
+{
+"trophy": "national_cup",
+"league": "Senegalese league",
+"image": "assets/trophies/leagues/africa/senegalCup.png"
+},
+{
+"trophy": "league_title",
+"league": "Ghanaian league",
+"tier": 1,
+"image": "assets/trophies/leagues/africa/gana1.png"
+},
+{
+"trophy": "national_cup",
+"league": "Ghanaian league",
+"image": "assets/trophies/leagues/africa/ganaCup.png"
+},
+{
+"trophy": "super_cup",
+"league": "Ghanaian league",
+"image": "assets/trophies/leagues/africa/ganaSuper.png"
+}
+]
+}
