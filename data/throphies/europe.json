@@ -1,0 +1,790 @@
+{
+  "trophies": [
+    {
+      "trophy": "league_title",
+      "league": "English League",
+      "tier": 1,
+      "image": "assets/trophies/europe/england1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "English League",
+      "tier": 2,
+      "image": "assets/trophies/europe/england2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "English League",
+      "image": "assets/trophies/europe/englandCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "English League",
+      "image": "assets/trophies/europe/englandSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Spanish League",
+      "tier": 1,
+      "image": "assets/trophies/europe/spain1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Spanish League",
+      "tier": 2,
+      "image": "assets/trophies/europe/spain2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Spanish League",
+      "image": "assets/trophies/europe/spainCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Spanish League",
+      "image": "assets/trophies/europe/spainSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Italian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/italy1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Italian League",
+      "tier": 2,
+      "image": "assets/trophies/europe/italy2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Italian League",
+      "image": "assets/trophies/europe/italyCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Italian League",
+      "image": "assets/trophies/europe/italySuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "German League",
+      "tier": 1,
+      "image": "assets/trophies/europe/germany1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "German League",
+      "tier": 2,
+      "image": "assets/trophies/europe/germany2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "German League",
+      "image": "assets/trophies/europe/germanyCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "German League",
+      "image": "assets/trophies/europe/germanySuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "French League",
+      "tier": 1,
+      "image": "assets/trophies/europe/france1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "French League",
+      "tier": 2,
+      "image": "assets/trophies/europe/france2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "French League",
+      "image": "assets/trophies/europe/franceCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "French League",
+      "image": "assets/trophies/europe/franceSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Portuguese League",
+      "tier": 1,
+      "image": "assets/trophies/europe/portugal1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Portuguese League",
+      "tier": 2,
+      "image": "assets/trophies/europe/portugal2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Portuguese League",
+      "image": "assets/trophies/europe/portugalCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Portuguese League",
+      "image": "assets/trophies/europe/portugalSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Dutch League",
+      "tier": 1,
+      "image": "assets/trophies/europe/netherlands1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Dutch League",
+      "tier": 2,
+      "image": "assets/trophies/europe/netherlands2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Dutch League",
+      "image": "assets/trophies/europe/netherlandsCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Dutch League",
+      "image": "assets/trophies/europe/netherlandsSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Belgian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/belgium1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Belgian League",
+      "tier": 2,
+      "image": "assets/trophies/europe/belgium2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Belgian League",
+      "image": "assets/trophies/europe/belgiumCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Belgian League",
+      "image": "assets/trophies/europe/belgiumSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Turkish League",
+      "tier": 1,
+      "image": "assets/trophies/europe/turkey1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Turkish League",
+      "tier": 2,
+      "image": "assets/trophies/europe/turkey2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Turkish League",
+      "image": "assets/trophies/europe/turkeyCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Turkish League",
+      "image": "assets/trophies/europe/turkeySuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Czech League",
+      "tier": 1,
+      "image": "assets/trophies/europe/czech1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Czech League",
+      "tier": 2,
+      "image": "assets/trophies/europe/czech2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Czech League",
+      "image": "assets/trophies/europe/czechCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Greek League",
+      "tier": 1,
+      "image": "assets/trophies/europe/greece1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Greek League",
+      "tier": 2,
+      "image": "assets/trophies/europe/greece2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Greek League",
+      "image": "assets/trophies/europe/greeceCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Greek League",
+      "image": "assets/trophies/europe/greeceSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Polish League",
+      "tier": 1,
+      "image": "assets/trophies/europe/poland1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Polish League",
+      "tier": 2,
+      "image": "assets/trophies/europe/poland2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Polish League",
+      "image": "assets/trophies/europe/polandCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Polish League",
+      "image": "assets/trophies/europe/polandSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Danish League",
+      "tier": 1,
+      "image": "assets/trophies/europe/denmark1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Danish League",
+      "tier": 2,
+      "image": "assets/trophies/europe/denmark2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Danish League",
+      "image": "assets/trophies/europe/denmarkCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Norwegian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/norway1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Norwegian League",
+      "tier": 2,
+      "image": "assets/trophies/europe/norway2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Norwegian League",
+      "image": "assets/trophies/europe/norwayCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Cypriot league",
+      "tier": 1,
+      "image": "assets/trophies/europe/cyprus1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Cypriot league",
+      "image": "assets/trophies/europe/cyprusCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Cypriot league",
+      "image": "assets/trophies/europe/cyprusSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Swiss League",
+      "tier": 1,
+      "image": "assets/trophies/europe/switzerland1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Swiss League",
+      "tier": 2,
+      "image": "assets/trophies/europe/switzerland2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Swiss League",
+      "image": "assets/trophies/europe/switzerlandCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Austrian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/austria1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Austrian League",
+      "tier": 2,
+      "image": "assets/trophies/europe/austria2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Austrian League",
+      "image": "assets/trophies/europe/austriaCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Scottish League",
+      "tier": 1,
+      "image": "assets/trophies/europe/scotland1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Scottish League",
+      "tier": 2,
+      "image": "assets/trophies/europe/scotland2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Scottish League",
+      "image": "assets/trophies/europe/scotlandCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Swedish League",
+      "tier": 1,
+      "image": "assets/trophies/europe/sweden1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Swedish League",
+      "tier": 2,
+      "image": "assets/trophies/europe/sweden2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Swedish League",
+      "image": "assets/trophies/europe/swedenCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Croatian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/croatia1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Croatian League",
+      "image": "assets/trophies/europe/croatiaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Croatian League",
+      "image": "assets/trophies/europe/croatiaSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Hungarian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/hungary1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Hungarian League",
+      "image": "assets/trophies/europe/hungaryCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Ukrainian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/ukraine1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Ukrainian League",
+      "image": "assets/trophies/europe/ukraineCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Ukrainian League",
+      "image": "assets/trophies/europe/ukraineSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Serbian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/serbia1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Serbian League",
+      "image": "assets/trophies/europe/serbiaCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Romanian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/romania1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Romanian League",
+      "image": "assets/trophies/europe/romaniaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Romanian League",
+      "image": "assets/trophies/europe/romaniaSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Slovenian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/slovenia1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Slovenian League",
+      "image": "assets/trophies/europe/sloveniaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Slovenian League",
+      "image": "assets/trophies/europe/sloveniaSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Azerbaijani League",
+      "tier": 1,
+      "image": "assets/trophies/europe/azerbaijan1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Azerbaijani League",
+      "image": "assets/trophies/europe/azerbaijanCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Slovak League",
+      "tier": 1,
+      "image": "assets/trophies/europe/slovakia1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Slovak League",
+      "image": "assets/trophies/europe/slovakiaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Slovak League",
+      "image": "assets/trophies/europe/slovakiaSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Bulgarian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/bulgaria1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Bulgarian League",
+      "image": "assets/trophies/europe/bulgariaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Bulgarian League",
+      "image": "assets/trophies/europe/bulgariaSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Irish League",
+      "tier": 1,
+      "image": "assets/trophies/europe/ireland1.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Irish League",
+      "tier": 2,
+      "image": "assets/trophies/europe/ireland2.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Irish League",
+      "image": "assets/trophies/europe/irelandCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Icelandic League",
+      "tier": 1,
+      "image": "assets/trophies/europe/iceland1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Icelandic League",
+      "image": "assets/trophies/europe/icelandCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Icelandic League",
+      "image": "assets/trophies/europe/icelandSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Moldovan league",
+      "tier": 1,
+      "image": "assets/trophies/europe/moldova1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Moldovan league",
+      "image": "assets/trophies/europe/moldovaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Moldovan league",
+      "image": "assets/trophies/europe/moldovaSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Finnish League",
+      "tier": 1,
+      "image": "assets/trophies/europe/finland1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Finnish League",
+      "image": "assets/trophies/europe/finlandCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Kosovan league",
+      "tier": 1,
+      "image": "assets/trophies/europe/kosovo1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Kosovan league",
+      "image": "assets/trophies/europe/kosovoCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Kosovan league",
+      "image": "assets/trophies/europe/kosovoSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Kazakh League",
+      "tier": 1,
+      "image": "assets/trophies/europe/kazakhstan1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Kazakh League",
+      "image": "assets/trophies/europe/kazakhstanCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Kazakh League",
+      "image": "assets/trophies/europe/kazakhstanSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Bosnia and Herzegovina League",
+      "tier": 1,
+      "image": "assets/trophies/europe/bosnia1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Bosnia and Herzegovina League",
+      "image": "assets/trophies/europe/bosniaCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Latvian league",
+      "tier": 1,
+      "image": "assets/trophies/europe/latvia1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Latvian league",
+      "image": "assets/trophies/europe/latviaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Latvian league",
+      "image": "assets/trophies/europe/latviaSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Maltese League",
+      "tier": 1,
+      "image": "assets/trophies/europe/malta1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Maltese League",
+      "image": "assets/trophies/europe/maltaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Maltese League",
+      "image": "assets/trophies/europe/maltaSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Albanian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/albania1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Albanian League",
+      "image": "assets/trophies/europe/albaniaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Albanian League",
+      "image": "assets/trophies/europe/albaniaSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "North Macedonian league",
+      "tier": 1,
+      "image": "assets/trophies/europe/north_macedonia1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "North Macedonian league",
+      "image": "assets/trophies/europe/north_macedoniaCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Lithuanian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/lithuania1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Lithuanian League",
+      "image": "assets/trophies/europe/lithuaniaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Lithuanian League",
+      "image": "assets/trophies/europe/lithuaniaSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Belarusian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/belarus1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Belarusian League",
+      "image": "assets/trophies/europe/belarusCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Belarusian League",
+      "image": "assets/trophies/europe/belarusSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Montenegrin League",
+      "tier": 1,
+      "image": "assets/trophies/europe/montenegro1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Montenegrin League",
+      "image": "assets/trophies/europe/montenegroCup.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Georgian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/georgia1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Georgian League",
+      "image": "assets/trophies/europe/georgiaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Georgian League",
+      "image": "assets/trophies/europe/georgiaSuper.png"
+    },
+
+    {
+      "trophy": "league_title",
+      "league": "Russian League",
+      "tier": 1,
+      "image": "assets/trophies/europe/russia1.png"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Russian League",
+      "image": "assets/trophies/europe/russiaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Russian League",
+      "image": "assets/trophies/europe/russiaSuper.png"
+    }
+  ]
+}
