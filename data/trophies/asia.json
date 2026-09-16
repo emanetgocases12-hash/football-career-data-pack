@@ -340,15 +340,15 @@
       "image": "assets/trophies/leagues/asia/bangladeshCup.png"
     },
     {
-      "trophy": "league_title",
-      "league": "Indian League",
-      "tier": 1,
-      "image": "assets/trophies/leagues/asia/india1.png"
+  "trophy": "league_title",
+  "league": "Indian League",
+  "tier": 1,
+  "image": "assets/trophies/leagues/asia/india1.png"
     },
     {
-      "trophy": "national_cup",
-      "league": "Indian League",
-      "image": "assets/trophies/leagues/asia/indiaCup.png"
+  "trophy": "national_cup",
+  "league": "Indian League",
+  "image": "assets/trophies/leagues/asia/indiaCup.png"
     },
     {
       "trophy": "league_title",
