@@ -1,0 +1,342 @@
+{
+  "trophies": [
+    {
+      "trophy": "league_title",
+      "league": "South Korean League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/southkorean1.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "South Korean League",
+      "tier": 2,
+      "image": "assets/trophies/leagues/asia/southkorean2.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "South Korean League",
+      "image": "assets/trophies/leagues/asia/southkoreanCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "South Korean League",
+      "image": "assets/trophies/leagues/asia/southkoreanSuper.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Japan League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/japonya1.jpg"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Japan League",
+      "image": "assets/trophies/leagues/asia/japanCup.jpeg"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Japan League",
+      "image": "assets/trophies/leagues/asia/japanSuper.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Thai League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/thailand1.jpeg"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Thai League",
+      "image": "assets/trophies/leagues/asia/thailandCup.webp"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Thai League",
+      "image": "assets/trophies/leagues/asia/thailandSuper.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Chinese League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/china1.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Chinese League",
+      "image": "assets/trophies/leagues/asia/chinaCup.webp"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Chinese League",
+      "image": "assets/trophies/leagues/asia/chinaSuper.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Australian League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/australia1.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Australian League",
+      "image": "assets/trophies/leagues/asia/australiaCup.jpeg"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Vietnam League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/vietnam1.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Vietnam League",
+      "image": "assets/trophies/leagues/asia/vietnamCup.webp"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Vietnam League",
+      "image": "assets/trophies/leagues/asia/vietnamSuper.jpeg"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Malaysian League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/malaysia1.jpeg"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Malaysian League",
+      "image": "assets/trophies/leagues/asia/malaysiaCup.webp"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Malaysian League",
+      "image": "assets/trophies/leagues/asia/malaysiaSuper.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Singapore League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/singapor1.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Singapore League",
+      "image": "assets/trophies/leagues/asia/singaporCup.webp"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Singapore League",
+      "image": "assets/trophies/leagues/asia/singaporSuper.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Hong Kong League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/hongkong1.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Hong Kong League",
+      "image": "assets/trophies/leagues/asia/hongkongCup.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Indonesian League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/indonesia1.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Indonesian League",
+      "image": "assets/trophies/leagues/asia/indonesiaCup.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Philippines League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/philipinnes1.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Philippines League",
+      "image": "assets/trophies/leagues/asia/philipinnesCup.jpg"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Saudi League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/saudi1.jpeg"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Saudi League",
+      "tier": 2,
+      "image": "assets/trophies/leagues/asia/saudi2.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Saudi League",
+      "image": "assets/trophies/leagues/asia/saudiCup.jpeg"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Saudi League",
+      "image": "assets/trophies/leagues/asia/saudiSuper.jpeg"
+    },
+    {
+      "trophy": "league_title",
+      "league": "United Arab Emirates League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/uae1.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "United Arab Emirates League",
+      "image": "assets/trophies/leagues/asia/uaeCup.webp"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "United Arab Emirates League",
+      "image": "assets/trophies/leagues/asia/uaeSuper.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Qatar League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/qatar1.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Qatar League",
+      "image": "assets/trophies/leagues/asia/qatarCup.webp"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Qatar League",
+      "image": "assets/trophies/leagues/asia/qatarSuper.png"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Uzbek League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/uzbekistan1.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Uzbek League",
+      "image": "assets/trophies/leagues/asia/uzbekistanCup.webp"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Uzbek League",
+      "image": "assets/trophies/leagues/asia/uzbekistanSuper.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Iranian League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/iran1.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Iranian League",
+      "image": "assets/trophies/leagues/asia/iranCup.jpeg"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Iranian League",
+      "image": "assets/trophies/leagues/asia/iranSuper.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Jordanian League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/jordan1.jpeg"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Jordanian League",
+      "image": "assets/trophies/leagues/asia/jordanCup.webp"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Jordanian League",
+      "image": "assets/trophies/leagues/asia/jordanSuper.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Iraq League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/iraq1.jpg"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Iraq League",
+      "image": "assets/trophies/leagues/asia/iraqCup.webp"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Iraq League",
+      "image": "assets/trophies/leagues/asia/iraqSuper.jpg"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Bahrain League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/bahrain1.jpg"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Bahrain League",
+      "image": "assets/trophies/leagues/asia/bahrainCup.webp"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Bahrain League",
+      "image": "assets/trophies/leagues/asia/bahrainSuper.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Omani League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/omman1.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Omani League",
+      "image": "assets/trophies/leagues/asia/ommanCup.jpg"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Omani League",
+      "image": "assets/trophies/leagues/asia/ommanSuper.webp"
+    },
+    {
+      "trophy": "league_title",
+      "league": "Kuwait League",
+      "tier": 1,
+      "image": "assets/trophies/leagues/asia/kuwait1.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Kuwait League",
+      "image": "assets/trophies/leagues/asia/kuwaitCup.webp"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Kuwait League",
+      "image": "assets/trophies/leagues/asia/kuwaitSuper.webp"
+    },
+    {
+      "trophy": "national_cup",
+      "league": "Lebanese League",
+      "image": "assets/trophies/leagues/asia/lybnanCup.webp"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Lebanese League",
+      "image": "assets/trophies/leagues/asia/lybnanSuper.png"
+    }
+  ]
+}
