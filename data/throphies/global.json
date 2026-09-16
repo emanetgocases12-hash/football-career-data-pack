@@ -1,35 +1,35 @@
 {
   "trophies": [
     {
-      "trophy": "altinAyakkabi",
+      "trophy": "golden_boot",
       "image": "assets/trophies/common/altinayakkabi.png"
     },
     {
-      "trophy": "balondor",
+      "trophy": "ballon_dor",
       "image": "assets/trophies/common/ballondor.png"
     },
     {
-      "trophy": "yilinKalecisi",
+      "trophy": "goalkeeper_of_year",
       "image": "assets/trophies/common/altineldiven.png"
     },
     {
-      "trophy": "sampiyonlarKupasi",
+      "trophy": "champions_league",
       "image": "assets/trophies/common/cl.png"
     },
     {
-      "trophy": "avrupaKupasi",
+      "trophy": "europa_league",
       "image": "assets/trophies/common/uel.png"
     },
     {
-      "trophy": "konferansKupasi",
+      "trophy": "conference_league",
       "image": "assets/trophies/common/konferans.png"
     },
     {
-      "trophy": "afcSampiyonlar",
+      "trophy": "afc_champions",
       "image": "assets/trophies/common/afc.png"
     },
     {
-      "trophy": "afcSampiyonlar2",
+      "trophy": "afc_champions_2",
       "image": "assets/trophies/common/afc2.png"
     },
     {
@@ -41,62 +41,62 @@
       "image": "assets/trophies/common/sudamericana.png"
     },
     {
-      "trophy": "kuzeyAmerikaSampiyonlarKupasi",
+      "trophy": "concacaf_champions",
       "image": "assets/trophies/common/concacaf.png"
     },
     {
-      "trophy": "afrikaSampiyonlarKupasi",
+      "trophy": "caf_champions",
       "image": "assets/trophies/common/caf.png"
     },
     {
-      "trophy": "kuluplerDunyaKupasi",
+      "trophy": "club_world_cup",
       "image": "assets/trophies/common/cwc.png"
     },
     {
-      "trophy": "kitalarArasiKupa",
+      "trophy": "intercontinental_cup",
       "image": "assets/trophies/common/kitalar.png"
     },
     {
-      "trophy": "avrupaSuperKupa",
+      "trophy": "intercontinental_super_cup",
       "continent": "Avrupa",
       "image": "assets/trophies/common/europe_supercup.png"
     },
     {
-      "trophy": "avrupaSuperKupa",
+      "trophy": "intercontinental_super_cup",
       "continent": "Asya",
       "image": "assets/trophies/common/asian_supercup.png"
     },
     {
-      "trophy": "avrupaSuperKupa",
+      "trophy": "intercontinental_super_cup",
       "continent": "Güney Amerika",
       "image": "assets/trophies/common/sudamericana.png"
     },
     {
-      "trophy": "milliTakimKupasi",
+      "trophy": "world_cup",
       "image": "assets/trophies/common/wc.png"
     },
     {
-      "trophy": "avrupaSampiyonasi",
+      "trophy": "euro",
       "image": "assets/trophies/common/europe.png"
     },
     {
-      "trophy": "asyaSampiyonasi",
+      "trophy": "asian_cup",
       "image": "assets/trophies/common/asia.png"
     },
     {
-      "trophy": "guneyAmerikaSampiyonasi",
+      "trophy": "copa_america",
       "image": "assets/trophies/common/south_america.png"
     },
     {
-      "trophy": "kuzeyAmerikaSampiyonasi",
+      "trophy": "concacaf_cup",
       "image": "assets/trophies/common/north_america.png"
     },
     {
-      "trophy": "afrikaSampiyonasi",
+      "trophy": "africa_cup",
       "image": "assets/trophies/common/africa.png"
     },
     {
-      "trophy": "avrupaUluslarKupasi",
+      "trophy": "nations_league",
       "image": "assets/trophies/common/uluslar.png"
     }
   ]
