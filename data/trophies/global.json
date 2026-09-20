@@ -98,6 +98,34 @@
     {
       "trophy": "nations_league",
       "image": "assets/trophies/common/uluslar.png"
+    },
+    {
+      "trophy": "caf_nations_league",
+      "image": "assets/trophies/common/afrika_uluslar.png"
+    },
+    {
+      "trophy": "west_asian_championship",
+      "image": "assets/trophies/common/bati_asya.png"
+    },
+    {
+      "trophy": "central_asian_championship",
+      "image": "assets/trophies/common/orta_asya.png"
+    },
+    {
+      "trophy": "south_asian_championship",
+      "image": "assets/trophies/common/guney_asya.png"
+    },
+    {
+      "trophy": "southeast_asian_championship",
+      "image": "assets/trophies/common/guneydogu_asya.png"
+    },
+    {
+      "trophy": "east_asian_championship",
+      "image": "assets/trophies/common/dogu_asya.png"
+    },
+    {
+      "trophy": "asian_regional_championship",
+      "image": "assets/trophies/common/asya_bolge.png"
     }
   ]
 }
