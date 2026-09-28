@@ -1,12 +1,58 @@
 {
-  "teamKey": "Shffld",
+    "teamKey": "Shffld",
 
-  "name": "Sheffield United",
+    "name": "Sheffield United",
 
-  "logo": "assets/logos/europe/england/Sheffiled.png",
+    "logo": "assets/logos/europe/england/Sheffiled.png",
 
-  "stadium": {
-    "name": "Bramall Lane",
-    "capacity": 32702
+    "manager": {
+      "name": "Chris Wilder",
+      "country": "GB-ENG"
+    },
+
+    "stadium": {
+      "name": "Bramall Lane",
+      "capacity": 32702
+    },
+
+    "players": [
+      { "playerId": "player_en2_016_01", "name": "Michael Cooper", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_016_02", "name": "Japhet Tanganga", "number": 2, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_016_03", "name": "Tyler Bindon", "number": 6, "position": "CB", "country": "NZ", "status": "starter" },
+      { "playerId": "player_en2_016_04", "name": "Leo Hjelde", "number": 5, "position": "CB", "country": "NO", "status": "starter" },
+      { "playerId": "player_en2_016_05", "name": "Sam McCallum", "number": 3, "position": "LB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_016_06", "name": "Oliver Arblaster", "number": 4, "position": "CDM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_016_07", "name": "Gustavo Hamer", "number": 8, "position": "CM", "country": "NL", "status": "starter" },
+      { "playerId": "player_en2_016_08", "name": "Tom Cannon", "number": 7, "position": "RW", "country": "IE", "status": "starter" },
+      { "playerId": "player_en2_016_09", "name": "Callum O’Hare", "number": 10, "position": "CAM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_016_10", "name": "Andre Brooks", "number": 11, "position": "LW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_016_11", "name": "Danny Ings", "number": 9, "position": "ST", "country": "GB-ENG", "status": "starter" },
+
+      { "playerId": "player_en2_016_12", "name": "Adam Davies", "number": 17, "position": "GK", "country": "GB-WLS", "status": "bench" },
+      { "playerId": "player_en2_016_13", "name": "Anel Ahmedhodžić", "number": 15, "position": "CB", "country": "BA", "status": "bench" },
+      { "playerId": "player_en2_016_14", "name": "Harrison Burrows", "number": 14, "position": "LB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_016_15", "name": "Sydie Peck", "number": 21, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_016_16", "name": "Vinícius Souza", "number": 23, "position": "CDM", "country": "BR", "status": "bench" },
+      { "playerId": "player_en2_016_17", "name": "Jesurun Rak-Sakyi", "number": 24, "position": "RW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_016_18", "name": "Rhian Brewster", "number": 18, "position": "ST", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_016_19", "name": "Kieffer Moore", "number": 19, "position": "ST", "country": "GB-WLS", "status": "bench" },
+      { "playerId": "player_en2_016_20", "name": "Louie Marsh", "number": 28, "position": "ST", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_016_21", "name": "Femi Seriki", "number": 30, "position": "RB", "country": "GB-ENG", "status": "bench" },
+
+      { "playerId": "player_en2_016_22", "name": "Jordan Amissah", "number": 13, "position": "GK", "country": "DE", "status": "reserve" },
+      { "playerId": "player_en2_016_23", "name": "Sai Sachdev", "number": 27, "position": "RB", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_016_24", "name": "Ismaila Coulibaly", "number": 29, "position": "CM", "country": "ML", "status": "reserve" },
+      { "playerId": "player_en2_016_25", "name": "Antwoine Hackford", "number": 32, "position": "ST", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 10
+      }
+    }
   }
-}
