@@ -1,12 +1,58 @@
 {
-  "teamKey": "Cvntry",
+    "teamKey": "Cvntry",
 
-  "name": "Coventry City",
+    "name": "Coventry City",
 
-  "logo": "assets/logos/europe/england/Coventry.png",
+    "logo": "assets/logos/europe/england/Coventry.png",
 
-  "stadium": {
-    "name": "Coventry Building Society Arena",
-    "capacity": 32609
+    "manager": {
+      "name": "Frank Lampard",
+      "country": "GB-ENG"
+    },
+
+    "stadium": {
+      "name": "Coventry Building Society Arena",
+      "capacity": 32609
+    },
+
+    "players": [
+      { "playerId": "player_en_007_01", "name": "Carl Rushworth", "number": 19, "position": "GK", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_007_02", "name": "Milan van Ewijk", "number": 27, "position": "RB", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_007_03", "name": "Ethan Pinnock", "number": 2, "position": "CB", "country": "JM", "status": "starter" },
+      { "playerId": "player_en_007_04", "name": "Bobby Thomas", "number": 4, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_007_05", "name": "Jay Dasilva", "number": 3, "position": "LB", "country": "GB-WLS", "status": "starter" },
+      { "playerId": "player_en_007_06", "name": "Matt Grimes", "number": 6, "position": "CDM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_007_07", "name": "Frank Onyeka", "number": 16, "position": "CM", "country": "NG", "status": "starter" },
+      { "playerId": "player_en_007_08", "name": "Tatsuhiro Sakamoto", "number": 7, "position": "RW", "country": "JP", "status": "starter" },
+      { "playerId": "player_en_007_09", "name": "Jack Rudoni", "number": 5, "position": "CAM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_007_10", "name": "Ephron Mason-Clark", "number": 10, "position": "LW", "country": "JM", "status": "starter" },
+      { "playerId": "player_en_007_11", "name": "Haji Wright", "number": 11, "position": "ST", "country": "US", "status": "starter" },
+
+      { "playerId": "player_en_007_12", "name": "Dan Bentley", "number": 25, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_007_13", "name": "Kaine Kesler-Hayden", "number": 20, "position": "RB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_007_14", "name": "Joel Latibeaudiere", "number": 22, "position": "CB", "country": "JM", "status": "bench" },
+      { "playerId": "player_en_007_15", "name": "Aurèle Amenda", "number": 24, "position": "CB", "country": "CH", "status": "bench" },
+      { "playerId": "player_en_007_16", "name": "Jake Bidwell", "number": 21, "position": "LB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_007_17", "name": "Caleb Yirenkyi", "number": 8, "position": "CM", "country": "GH", "status": "bench" },
+      { "playerId": "player_en_007_18", "name": "Josh Eccles", "number": 28, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_007_19", "name": "Gustavo Hamer", "number": 38, "position": "CAM", "country": "NL", "status": "bench" },
+      { "playerId": "player_en_007_20", "name": "Loum Tchaouna", "number": 18, "position": "RW", "country": "FR", "status": "bench" },
+      { "playerId": "player_en_007_21", "name": "Taiwo Awoniyi", "number": 14, "position": "ST", "country": "NG", "status": "bench" },
+
+      { "playerId": "player_en_007_22", "name": "Ben Wilson", "number": 13, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_007_23", "name": "Luke Woolfenden", "number": 26, "position": "CB", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_007_24", "name": "Brandon Thomas-Asante", "number": 23, "position": "ST", "country": "GH", "status": "reserve" },
+      { "playerId": "player_en_007_25", "name": "Sidiki Cherif", "number": 49, "position": "ST", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 6,
+        "cornerLeft": 6,
+        "cornerRight": 5
+      }
+    }
   }
-}
