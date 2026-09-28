@@ -1,12 +1,58 @@
 {
-  "teamKey": "Burgos",
+    "teamKey": "Burgos",
 
-  "name": "Burgos CF",
+    "name": "Burgos CF",
 
-  "logo": "assets/logos/europe/spain/Burgos.png",
+    "logo": "assets/logos/europe/spain/Burgos.png",
 
-  "stadium": {
-    "name": "El Plantío",
-    "capacity": 12642
+    "manager": {
+      "name": "Sergio Francisco",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "El Plantío",
+      "capacity": 12642
+    },
+
+    "players": [
+      { "playerId": "player_es2_004_01", "name": "Ander Cantero", "number": 1, "position": "GK", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_004_02", "name": "Álex Lizancos", "number": 2, "position": "RB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_004_03", "name": "Grego Sierra", "number": 4, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_004_04", "name": "Oier Luengo", "number": 5, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_004_05", "name": "Brais Martínez", "number": 3, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_004_06", "name": "Kévin Appin", "number": 8, "position": "CM", "country": "FR", "status": "starter" },
+      { "playerId": "player_es2_004_07", "name": "Mario Cantero", "number": 14, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_004_08", "name": "Víctor Mollejo", "number": 7, "position": "RW", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_004_09", "name": "Santiago Lencina", "number": 10, "position": "CAM", "country": "AR", "status": "starter" },
+      { "playerId": "player_es2_004_10", "name": "Javi Llabrés", "number": 11, "position": "LW", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_004_11", "name": "Álex Forés", "number": 9, "position": "ST", "country": "ES", "status": "starter" },
+
+      { "playerId": "player_es2_004_12", "name": "Bruno Iribarne", "number": 13, "position": "GK", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_004_13", "name": "Alberto Dadie", "number": 22, "position": "RB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_004_14", "name": "Sergio González", "number": 15, "position": "CB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_004_15", "name": "Ignasi Vilarrasa", "number": 17, "position": "LB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_004_16", "name": "Pablo Galdames", "number": 19, "position": "CM", "country": "CL", "status": "bench" },
+      { "playerId": "player_es2_004_17", "name": "Marcelo Expósito", "number": 28, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_004_18", "name": "Saúl del Cerro", "number": 6, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_004_19", "name": "José Gragera", "number": 12, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_004_20", "name": "Unai Vencedor", "number": 16, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_004_21", "name": "Curro Sánchez", "number": 24, "position": "RW", "country": "ES", "status": "bench" },
+
+      { "playerId": "player_es2_004_22", "name": "Fermín García", "number": 18, "position": "RW", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es2_004_23", "name": "David González", "number": 20, "position": "RW", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es2_004_24", "name": "Jon Karrikaburu", "number": 29, "position": "ST", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es2_004_25", "name": "Fer Niño", "number": 99, "position": "ST", "country": "ES", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
