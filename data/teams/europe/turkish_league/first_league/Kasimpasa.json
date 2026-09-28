@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Kasimpasa.png",
 
+  "manager": {
+    "name": "Emre Belözoğlu",
+    "country": "TR"
+  },
+
   "stadium": {
     "name": "Recep Tayyip Erdoğan Stadyumu",
     "capacity": 13797
+  },
+
+  "players": [
+    { "playerId": "player_tr_013_01", "name": "Andreas Gianniotis", "number": 1, "position": "GK", "country": "GR", "status": "starter" },
+    { "playerId": "player_tr_013_02", "name": "Cláudio Winck", "number": 2, "position": "RB", "country": "BR", "status": "starter" },
+    { "playerId": "player_tr_013_03", "name": "Kévin Mouanga", "number": 14, "position": "CB", "country": "FR", "status": "starter" },
+    { "playerId": "player_tr_013_04", "name": "Matei Ilie", "number": 27, "position": "CB", "country": "RO", "status": "starter" },
+    { "playerId": "player_tr_013_05", "name": "Jakob Jessen", "number": 5, "position": "LB", "country": "DK", "status": "starter" },
+    { "playerId": "player_tr_013_06", "name": "Elson Mendes", "number": 51, "position": "CDM", "country": "CV", "status": "starter" },
+    { "playerId": "player_tr_013_07", "name": "Kerem Demirbay", "number": 26, "position": "CM", "country": "DE", "status": "starter" },
+    { "playerId": "player_tr_013_08", "name": "Jesurun Rak-Sakyi", "number": 17, "position": "RW", "country": "GB-ENG", "status": "starter" },
+    { "playerId": "player_tr_013_09", "name": "Haris Hajradinović", "number": 10, "position": "CAM", "country": "BA", "status": "starter" },
+    { "playerId": "player_tr_013_10", "name": "Ali Yavuz Kol", "number": 7, "position": "LW", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_013_11", "name": "Adrian Benedyczak", "number": 9, "position": "ST", "country": "PL", "status": "starter" },
+
+    { "playerId": "player_tr_013_12", "name": "Ali Emre Yanar", "number": 25, "position": "GK", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_013_13", "name": "Adam Arous", "number": 4, "position": "CB", "country": "TN", "status": "bench" },
+    { "playerId": "player_tr_013_14", "name": "Ayberk Karapo", "number": 45, "position": "RB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_013_15", "name": "Atakan Müjde", "number": 8, "position": "CDM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_013_16", "name": "Andri Baldursson", "number": 16, "position": "CM", "country": "IS", "status": "bench" },
+    { "playerId": "player_tr_013_17", "name": "Emirhan Boz", "number": 66, "position": "CDM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_013_18", "name": "Marcus Rafferty", "number": 19, "position": "CAM", "country": "SE", "status": "bench" },
+    { "playerId": "player_tr_013_19", "name": "Thiemoko Diarra", "number": 11, "position": "LW", "country": "ML", "status": "bench" },
+    { "playerId": "player_tr_013_20", "name": "Güven Yalçın", "number": 50, "position": "ST", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_013_21", "name": "Ömer Bayram", "number": 18, "position": "LB", "country": "TR", "status": "bench" },
+
+    { "playerId": "player_tr_013_22", "name": "Ege Albayrak", "number": 61, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_013_23", "name": "Ahmet Taha Dağbaşı", "number": 30, "position": "CB", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_013_24", "name": "Muhammed Emin Bektaş", "number": 99, "position": "ST", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_013_25", "name": "Kamil Ahmet Çörekçi", "number": 22, "position": "RB", "country": "TR", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 9,
+      "cornerLeft": 26,
+      "cornerRight": 26
+    }
   }
 }
