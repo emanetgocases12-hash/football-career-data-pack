@@ -1,12 +1,58 @@
 {
-  "teamKey": "Troyes",
+    "teamKey": "Troyes",
 
-  "name": "ESTAC Troyes",
+    "name": "ESTAC Troyes",
 
-  "logo": "assets/logos/europe/france/Troyes.png",
+    "logo": "assets/logos/europe/france/Troyes.png",
 
-  "stadium": {
-    "name": "Stade de l'Aube",
-    "capacity": 20460
+    "manager": {
+      "name": "Stéphane Dumont",
+      "country": "FR"
+    },
+
+    "stadium": {
+      "name": "Stade de l'Aube",
+      "capacity": 20460
+    },
+
+    "players": [
+      { "playerId": "player_fr1_018_01", "name": "Zacharie Boucher", "number": 1, "position": "GK", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_018_02", "name": "Ismaël Boura", "number": 8, "position": "RB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_018_03", "name": "Adrien Monfray", "number": 6, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_018_04", "name": "Mouhamed Diop", "number": 4, "position": "CB", "country": "SN", "status": "starter" },
+      { "playerId": "player_fr1_018_05", "name": "Mathis Hamdi", "number": 18, "position": "LB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_018_06", "name": "Renaud Ripart", "number": 20, "position": "CDM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_018_07", "name": "Xavier Chavalerin", "number": 24, "position": "CM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_018_08", "name": "Rafiki Saïd", "number": 11, "position": "RW", "country": "KM", "status": "starter" },
+      { "playerId": "player_fr1_018_09", "name": "Youssouf M'Changama", "number": 10, "position": "CAM", "country": "KM", "status": "starter" },
+      { "playerId": "player_fr1_018_10", "name": "Kyliane Dong", "number": 27, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_018_11", "name": "Nicolas de Préville", "number": 9, "position": "ST", "country": "FR", "status": "starter" },
+
+      { "playerId": "player_fr1_018_12", "name": "Nicolas Lemaître", "number": 16, "position": "GK", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_018_13", "name": "Mehdi Tahrat", "number": 5, "position": "CB", "country": "DZ", "status": "bench" },
+      { "playerId": "player_fr1_018_14", "name": "Thierno Baldé", "number": 22, "position": "RB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_018_15", "name": "Abdu Conté", "number": 12, "position": "LB", "country": "PT", "status": "bench" },
+      { "playerId": "player_fr1_018_16", "name": "Junior Olaitan", "number": 7, "position": "CM", "country": "BJ", "status": "bench" },
+      { "playerId": "player_fr1_018_17", "name": "Abdoulaye Kanté", "number": 42, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_018_18", "name": "Marouane El Azzouzi", "number": 14, "position": "CM", "country": "MA", "status": "bench" },
+      { "playerId": "player_fr1_018_19", "name": "Mamadou Camara", "number": 17, "position": "RW", "country": "ML", "status": "bench" },
+      { "playerId": "player_fr1_018_20", "name": "Pape Ibnou Ba", "number": 19, "position": "ST", "country": "SN", "status": "bench" },
+      { "playerId": "player_fr1_018_21", "name": "Jaures Assoumou", "number": 15, "position": "LW", "country": "CI", "status": "bench" },
+
+      { "playerId": "player_fr1_018_22", "name": "Corentin Michel", "number": 40, "position": "GK", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_018_23", "name": "Mathéo Bodmer", "number": 21, "position": "CM", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_018_24", "name": "Mouhamed Fofana", "number": 33, "position": "CB", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_018_25", "name": "Rudy Kohon", "number": 25, "position": "CB", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
   }
-}
