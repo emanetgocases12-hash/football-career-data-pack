@@ -1,12 +1,58 @@
 {
-  "teamKey": "Catanz",
+    "teamKey": "Catanz",
 
-  "name": "US Catanzaro",
+    "name": "US Catanzaro",
 
-  "logo": "assets/logos/europe/italy/Cataznzaro.png",
+    "logo": "assets/logos/europe/italy/Cataznzaro.png",
 
-  "stadium": {
-    "name": "Nicola Ceravolo",
-    "capacity": 14650
+    "manager": {
+      "name": "Giorgio Gorgone",
+      "country": "IT"
+    },
+
+    "stadium": {
+      "name": "Nicola Ceravolo",
+      "capacity": 14650
+    },
+
+    "players": [
+      { "playerId": "player_it2_006_01", "name": "Mirko Pigliacelli", "number": 22, "position": "GK", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_006_02", "name": "Marco Imperiale", "number": 3, "position": "CB", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_006_03", "name": "Matias Antonini", "number": 4, "position": "CB", "country": "BR", "status": "starter" },
+      { "playerId": "player_it2_006_04", "name": "Marco Ruggero", "number": 24, "position": "CB", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_006_05", "name": "Mehdi Dorval", "number": 93, "position": "RM", "country": "FR", "status": "starter" },
+      { "playerId": "player_it2_006_06", "name": "Jacopo Petriccione", "number": 10, "position": "CM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_006_07", "name": "Gabriele Alesi", "number": 30, "position": "CM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_006_08", "name": "Samuel Giovane", "number": 14, "position": "LM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_006_09", "name": "Simone Pafundi", "number": 20, "position": "CAM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_006_10", "name": "Nicola Mosti", "number": 98, "position": "CAM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_006_11", "name": "Pietro Iemmello", "number": 9, "position": "ST", "country": "IT", "status": "starter" },
+
+      { "playerId": "player_it2_006_12", "name": "Christian Marietta", "number": 1, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_006_13", "name": "Vito Madia", "number": 12, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_006_14", "name": "Bruno Verrengia", "number": 26, "position": "CB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_006_15", "name": "Nicolò Postiglione", "number": 6, "position": "CB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_006_16", "name": "Ervin Bashi", "number": 5, "position": "CB", "country": "AL", "status": "bench" },
+      { "playerId": "player_it2_006_17", "name": "Gonçalo Esteves", "number": 87, "position": "RB", "country": "PT", "status": "bench" },
+      { "playerId": "player_it2_006_18", "name": "Antonio Candela", "number": 27, "position": "RB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_006_19", "name": "Francesco Reita", "number": 80, "position": "CM", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_006_20", "name": "N'Dri Koffi", "number": 19, "position": "ST", "country": "CI", "status": "bench" },
+      { "playerId": "player_it2_006_21", "name": "Federico Di Francesco", "number": 29, "position": "LW", "country": "IT", "status": "bench" },
+
+      { "playerId": "player_it2_006_22", "name": "Nicolò Buso", "number": 7, "position": "LW", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it2_006_23", "name": "Franck Tchaouna", "number": 28, "position": "RW", "country": "FR", "status": "reserve" },
+      { "playerId": "player_it2_006_24", "name": "Alejo Garnica", "number": 18, "position": "RW", "country": "AR", "status": "reserve" },
+      { "playerId": "player_it2_006_25", "name": "Ruggero Frosinini", "number": 62, "position": "RB", "country": "IT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "3-4-2-1",
+      "captain": 9,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 20,
+        "cornerRight": 98
+      }
+    }
   }
-}
