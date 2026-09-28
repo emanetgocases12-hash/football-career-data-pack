@@ -1,12 +1,58 @@
 {
-  "teamKey": "Lille",
+    "teamKey": "Lille",
 
-  "name": "LOSC Lille",
+    "name": "LOSC Lille",
 
-  "logo": "assets/logos/europe/france/Lille.png",
+    "logo": "assets/logos/europe/france/Lille.png",
 
-  "stadium": {
-    "name": "Decathlon Arena-Stade Pierre-Mauroy",
-    "capacity": 50186
+    "manager": {
+      "name": "Davide Ancelotti",
+      "country": "IT"
+    },
+
+    "stadium": {
+      "name": "Decathlon Arena-Stade Pierre-Mauroy",
+      "capacity": 50186
+    },
+
+    "players": [
+      { "playerId": "player_fr1_007_01", "name": "Berke Özer", "number": 1, "position": "GK", "country": "TR", "status": "starter" },
+      { "playerId": "player_fr1_007_02", "name": "Thomas Meunier", "number": 12, "position": "RB", "country": "BE", "status": "starter" },
+      { "playerId": "player_fr1_007_03", "name": "Alexsandro Ribeiro", "number": 4, "position": "CB", "country": "BR", "status": "starter" },
+      { "playerId": "player_fr1_007_04", "name": "Nathan Ngoy", "number": 3, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_fr1_007_05", "name": "Romain Perraud", "number": 15, "position": "LB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_007_06", "name": "Nabil Bentaleb", "number": 6, "position": "CDM", "country": "DZ", "status": "starter" },
+      { "playerId": "player_fr1_007_07", "name": "Benjamin André", "number": 21, "position": "CM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_007_08", "name": "Hákon Arnar Haraldsson", "number": 7, "position": "RW", "country": "IS", "status": "starter" },
+      { "playerId": "player_fr1_007_09", "name": "Ethan Mbappé", "number": 8, "position": "CAM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_007_10", "name": "Matias Fernandez-Pardo", "number": 19, "position": "LW", "country": "BE", "status": "starter" },
+      { "playerId": "player_fr1_007_11", "name": "Olivier Giroud", "number": 9, "position": "ST", "country": "FR", "status": "starter" },
+
+      { "playerId": "player_fr1_007_12", "name": "Arnaud Bodart", "number": 16, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_fr1_007_13", "name": "Aïssa Mandi", "number": 2, "position": "CB", "country": "DZ", "status": "bench" },
+      { "playerId": "player_fr1_007_14", "name": "Tiago Santos", "number": 22, "position": "RB", "country": "PT", "status": "bench" },
+      { "playerId": "player_fr1_007_15", "name": "Gabriel Gudmundsson", "number": 5, "position": "LB", "country": "SE", "status": "bench" },
+      { "playerId": "player_fr1_007_16", "name": "André Gomes", "number": 26, "position": "CM", "country": "PT", "status": "bench" },
+      { "playerId": "player_fr1_007_17", "name": "Ayyoub Bouaddi", "number": 32, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_007_18", "name": "Rémy Cabella", "number": 10, "position": "CAM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_007_19", "name": "Osame Sahraoui", "number": 11, "position": "LW", "country": "NO", "status": "bench" },
+      { "playerId": "player_fr1_007_20", "name": "Chuba Akpom", "number": 29, "position": "ST", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_fr1_007_21", "name": "Mohamed Bayo", "number": 27, "position": "ST", "country": "GN", "status": "bench" },
+
+      { "playerId": "player_fr1_007_22", "name": "Vito Mannone", "number": 30, "position": "GK", "country": "IT", "status": "reserve" },
+      { "playerId": "player_fr1_007_23", "name": "Ousmane Touré", "number": 36, "position": "CB", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_007_24", "name": "Ichem Ferrah", "number": 34, "position": "RW", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_007_25", "name": "Amine Messoussa", "number": 40, "position": "ST", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
