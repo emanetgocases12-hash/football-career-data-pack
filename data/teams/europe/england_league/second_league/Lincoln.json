@@ -1,12 +1,58 @@
 {
-  "teamKey": "Lincln",
+    "teamKey": "Lincln",
 
-  "name": "Lincoln City",
+    "name": "Lincoln City",
 
-  "logo": "assets/logos/europe/england/Lincoln.png",
+    "logo": "assets/logos/europe/england/Lincoln.png",
 
-  "stadium": {
-    "name": "LNER Stadium",
-    "capacity": 10130
+    "manager": {
+      "name": "Chris Cohen",
+      "country": "GB-ENG"
+    },
+
+    "stadium": {
+      "name": "LNER Stadium",
+      "capacity": 10130
+    },
+
+    "players": [
+      { "playerId": "player_en2_009_01", "name": "George Wickens", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_009_02", "name": "Tendayi Darikwa", "number": 2, "position": "RB", "country": "ZW", "status": "starter" },
+      { "playerId": "player_en2_009_03", "name": "Andrei Coubiș", "number": 4, "position": "CB", "country": "RO", "status": "starter" },
+      { "playerId": "player_en2_009_04", "name": "Ryley Towler", "number": 6, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_009_05", "name": "Callum Elder", "number": 20, "position": "LB", "country": "AU", "status": "starter" },
+      { "playerId": "player_en2_009_06", "name": "Yunus Emre Konak", "number": 26, "position": "CDM", "country": "TR", "status": "starter" },
+      { "playerId": "player_en2_009_07", "name": "Tom Bayliss", "number": 8, "position": "CM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_009_08", "name": "Chiedozie Ogbene", "number": 27, "position": "RW", "country": "IE", "status": "starter" },
+      { "playerId": "player_en2_009_09", "name": "Adam Reach", "number": 3, "position": "CAM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_009_10", "name": "Reeco Hackett-Fairchild", "number": 7, "position": "LW", "country": "LC", "status": "starter" },
+      { "playerId": "player_en2_009_11", "name": "Mason Melia", "number": 10, "position": "ST", "country": "IE", "status": "starter" },
+
+      { "playerId": "player_en2_009_12", "name": "Joe Gauci", "number": 46, "position": "GK", "country": "AU", "status": "bench" },
+      { "playerId": "player_en2_009_13", "name": "Sonny Bradley", "number": 15, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_009_14", "name": "Deji Elerewe", "number": 25, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_009_15", "name": "Tom Hamer", "number": 22, "position": "RB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_009_16", "name": "Josh Honohan", "number": 23, "position": "LB", "country": "IE", "status": "bench" },
+      { "playerId": "player_en2_009_17", "name": "Conor McGrandles", "number": 14, "position": "CM", "country": "GB-SCT", "status": "bench" },
+      { "playerId": "player_en2_009_18", "name": "Dominic Jefferies", "number": 16, "position": "CM", "country": "GB-WLS", "status": "bench" },
+      { "playerId": "player_en2_009_19", "name": "Ivan Varfolomeyev", "number": 24, "position": "CM", "country": "UA", "status": "bench" },
+      { "playerId": "player_en2_009_20", "name": "Mikkel Ladefoged", "number": 11, "position": "ST", "country": "DK", "status": "bench" },
+      { "playerId": "player_en2_009_21", "name": "Ben House", "number": 18, "position": "ST", "country": "GB-SCT", "status": "bench" },
+
+      { "playerId": "player_en2_009_22", "name": "Jamie Pardington", "number": 21, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_009_23", "name": "Rob Street", "number": 17, "position": "ST", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_009_24", "name": "Isaac Olaofe", "number": 19, "position": "ST", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_009_25", "name": "Ethan Wheatley", "number": 29, "position": "ST", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 3
+      }
+    }
   }
-}
