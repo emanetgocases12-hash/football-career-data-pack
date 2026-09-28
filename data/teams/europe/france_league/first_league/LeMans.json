@@ -1,12 +1,58 @@
 {
-  "teamKey": "LeMans",
+    "teamKey": "LeMans",
 
-  "name": "Le Mans FC",
+    "name": "Le Mans FC",
 
-  "logo": "assets/logos/europe/france/LeMans.png",
+    "logo": "assets/logos/europe/france/LeMans.png",
 
-  "stadium": {
-    "name": "Stade Marie-Marvingt",
-    "capacity": 25064
+    "manager": {
+      "name": "Patrick Videira",
+      "country": "FR"
+    },
+
+    "stadium": {
+      "name": "Stade Marie-Marvingt",
+      "capacity": 25064
+    },
+
+    "players": [
+      { "playerId": "player_fr1_005_01", "name": "Ewan Hatfout", "number": 1, "position": "GK", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_005_02", "name": "Djibril Sidibé", "number": 19, "position": "RB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_005_03", "name": "Raúl Torrente", "number": 16, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_fr1_005_04", "name": "Samuel Yohou", "number": 17, "position": "CB", "country": "CI", "status": "starter" },
+      { "playerId": "player_fr1_005_05", "name": "Lucas Calodat", "number": 22, "position": "LB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_005_06", "name": "Edwin Quarshie", "number": 6, "position": "CDM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_005_07", "name": "Daouda Traoré", "number": 23, "position": "CM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_005_08", "name": "Billal Brahimi", "number": 7, "position": "RW", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_005_09", "name": "Jean Vercruysse", "number": 10, "position": "CAM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_005_10", "name": "Adil Bourabaa", "number": 11, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_005_11", "name": "Habib Diallo", "number": 13, "position": "ST", "country": "SN", "status": "starter" },
+
+      { "playerId": "player_fr1_005_12", "name": "Nicolas Kocik", "number": 30, "position": "GK", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_005_13", "name": "Harold Voyer", "number": 5, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_005_14", "name": "Théo Eyoum", "number": 21, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_005_15", "name": "Rayan Bamba", "number": 26, "position": "RB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_005_16", "name": "Alexandre Lauray", "number": 8, "position": "LB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_005_17", "name": "Martin Rossignol", "number": 27, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_005_18", "name": "Lucas Bretelle", "number": 29, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_005_19", "name": "Erwan Colas", "number": 28, "position": "RW", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_005_20", "name": "Antoine Rabillard", "number": 9, "position": "ST", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_005_21", "name": "Louis Mafouta", "number": 14, "position": "ST", "country": "CF", "status": "bench" },
+
+      { "playerId": "player_fr1_005_22", "name": "Mathieu Coutant", "number": 31, "position": "GK", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_005_23", "name": "Noa Boissé", "number": 15, "position": "CB", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_005_24", "name": "William Harhouz", "number": 20, "position": "ST", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_005_25", "name": "Dame Gueye", "number": 25, "position": "ST", "country": "SN", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 16,
+      "setPieces": {
+        "penalty": 13,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
