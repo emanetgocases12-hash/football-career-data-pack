@@ -1,12 +1,58 @@
 {
-  "teamKey": "H'Kiel",
+    "teamKey": "H'Kiel",
 
-  "name": "Holstein Kiel",
+    "name": "Holstein Kiel",
 
-  "logo": "assets/logos/europe/germany/Holstein.png",
+    "logo": "assets/logos/europe/germany/Holstein.png",
 
-  "stadium": {
-    "name": "Holstein-Stadion",
-    "capacity": 15034
+    "manager": {
+      "name": "Tim Walter",
+      "country": "DE"
+    },
+
+    "stadium": {
+      "name": "Holstein-Stadion",
+      "capacity": 15034
+    },
+
+    "players": [
+      { "playerId": "player_de2_011_01", "name": "Timon Weiner", "number": 1, "position": "GK", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_011_02", "name": "Rasmus Carstensen", "number": 2, "position": "RB", "country": "DK", "status": "starter" },
+      { "playerId": "player_de2_011_03", "name": "Patrick Erras", "number": 4, "position": "CB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_011_04", "name": "Carl Johansson", "number": 5, "position": "CB", "country": "SE", "status": "starter" },
+      { "playerId": "player_de2_011_05", "name": "John Tolkin", "number": 47, "position": "LB", "country": "US", "status": "starter" },
+      { "playerId": "player_de2_011_06", "name": "Lewis Holtby", "number": 10, "position": "CDM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_011_07", "name": "Magnus Knudsen", "number": 24, "position": "CM", "country": "NO", "status": "starter" },
+      { "playerId": "player_de2_011_08", "name": "Finn Porath", "number": 8, "position": "RW", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_011_09", "name": "Steven Skrzybski", "number": 7, "position": "CAM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_011_10", "name": "Alexander Bernhardsson", "number": 17, "position": "LW", "country": "SE", "status": "starter" },
+      { "playerId": "player_de2_011_11", "name": "Giorgi Kvilitaia", "number": 9, "position": "ST", "country": "GE", "status": "starter" },
+
+      { "playerId": "player_de2_011_12", "name": "Timon Engelhardt", "number": 31, "position": "GK", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_011_13", "name": "Schmit", "number": 49, "position": "GK", "country": "LU", "status": "bench" },
+      { "playerId": "player_de2_011_14", "name": "Takahashi", "number": 3, "position": "CB", "country": "JP", "status": "bench" },
+      { "playerId": "player_de2_011_15", "name": "Marco Komenda", "number": 15, "position": "CB", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_011_16", "name": "Timo Becker", "number": 23, "position": "RB", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_011_17", "name": "Mads Sander", "number": 28, "position": "CM", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_011_18", "name": "Phil Harres", "number": 19, "position": "ST", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_011_19", "name": "Armin Gigović", "number": 14, "position": "CM", "country": "BA", "status": "bench" },
+      { "playerId": "player_de2_011_20", "name": "Jann-Fiete Arp", "number": 20, "position": "ST", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_011_21", "name": "Lasse Rosenboom", "number": 25, "position": "RW", "country": "DE", "status": "bench" },
+
+      { "playerId": "player_de2_011_22", "name": "Benedikt Pichler", "number": 11, "position": "ST", "country": "AT", "status": "reserve" },
+      { "playerId": "player_de2_011_23", "name": "Marvin Schulz", "number": 16, "position": "CM", "country": "DE", "status": "reserve" },
+      { "playerId": "player_de2_011_24", "name": "Andu Kelati", "number": 18, "position": "LW", "country": "DE", "status": "reserve" },
+      { "playerId": "player_de2_011_25", "name": "Noah Awuku", "number": 27, "position": "ST", "country": "DE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 8
+      }
+    }
   }
-}
