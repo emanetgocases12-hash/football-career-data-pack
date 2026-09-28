@@ -1,12 +1,58 @@
 {
-  "teamKey": "Brghtn",
+    "teamKey": "Brghtn",
 
-  "name": "Brighton & Hove Albion",
+    "name": "Brighton & Hove Albion",
 
-  "logo": "assets/logos/europe/england/Brighton.png",
+    "logo": "assets/logos/europe/england/Brighton.png",
 
-  "stadium": {
-    "name": "AMEX Stadium",
-    "capacity": 31876
+    "manager": {
+      "name": "Fabian Hürzeler",
+      "country": "DE"
+    },
+
+    "stadium": {
+      "name": "AMEX Stadium",
+      "capacity": 31876
+    },
+
+    "players": [
+      { "playerId": "player_en_005_01", "name": "Bart Verbruggen", "number": 1, "position": "GK", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_005_02", "name": "Costinha", "number": 20, "position": "RB", "country": "PT", "status": "starter" },
+      { "playerId": "player_en_005_03", "name": "Pascal Struijk", "number": 4, "position": "CB", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_005_04", "name": "Lewis Dunk", "number": 5, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_005_05", "name": "Ferdi Kadıoğlu", "number": 24, "position": "LB", "country": "TR", "status": "starter" },
+      { "playerId": "player_en_005_06", "name": "Mats Wieffer", "number": 27, "position": "CDM", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_005_07", "name": "Pascal Groß", "number": 13, "position": "CM", "country": "DE", "status": "starter" },
+      { "playerId": "player_en_005_08", "name": "Yankuba Minteh", "number": 11, "position": "RW", "country": "GM", "status": "starter" },
+      { "playerId": "player_en_005_09", "name": "Georginio Rutter", "number": 10, "position": "CAM", "country": "FR", "status": "starter" },
+      { "playerId": "player_en_005_10", "name": "Kaoru Mitoma", "number": 7, "position": "LW", "country": "JP", "status": "starter" },
+      { "playerId": "player_en_005_11", "name": "Stefanos Tzimas", "number": 9, "position": "ST", "country": "GR", "status": "starter" },
+
+      { "playerId": "player_en_005_12", "name": "Jason Steele", "number": 23, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_005_13", "name": "Jaouen Hadjam", "number": 3, "position": "LB", "country": "DZ", "status": "bench" },
+      { "playerId": "player_en_005_14", "name": "Olivier Boscagli", "number": 21, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_en_005_15", "name": "Maxim De Cuyper", "number": 29, "position": "LB", "country": "BE", "status": "bench" },
+      { "playerId": "player_en_005_16", "name": "Luka Vušković", "number": 44, "position": "CB", "country": "HR", "status": "bench" },
+      { "playerId": "player_en_005_17", "name": "Jack Hinshelwood", "number": 8, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_005_18", "name": "Yasin Ayari", "number": 26, "position": "CM", "country": "SE", "status": "bench" },
+      { "playerId": "player_en_005_19", "name": "Diego Gómez", "number": 25, "position": "CM", "country": "PY", "status": "bench" },
+      { "playerId": "player_en_005_20", "name": "Ibrahim Osman", "number": 15, "position": "LW", "country": "GH", "status": "bench" },
+      { "playerId": "player_en_005_21", "name": "Promise David", "number": 12, "position": "ST", "country": "CA", "status": "bench" },
+
+      { "playerId": "player_en_005_22", "name": "Tom McGill", "number": 38, "position": "GK", "country": "CA", "status": "reserve" },
+      { "playerId": "player_en_005_23", "name": "Chema Andrés", "number": 14, "position": "CDM", "country": "ES", "status": "reserve" },
+      { "playerId": "player_en_005_24", "name": "Charalampos Kostoulas", "number": 19, "position": "ST", "country": "GR", "status": "reserve" },
+      { "playerId": "player_en_005_25", "name": "Amario Cozier-Duberry", "number": 22, "position": "RW", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 13,
+        "freeKick": 13,
+        "cornerLeft": 13,
+        "cornerRight": 13
+      }
+    }
   }
-}
