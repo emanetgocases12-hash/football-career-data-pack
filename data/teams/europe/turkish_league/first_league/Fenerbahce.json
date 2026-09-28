@@ -5,8 +5,163 @@
 
   "logo": "assets/logos/europe/turkey/Fener.png",
 
+  "manager": {
+    "name": "İsmail Kartal",
+    "country": "Türkiye"
+  },
+
   "stadium": {
     "name": "Şükrü Saracoğlu Spor Kompleksi",
     "capacity": 47834
-  }
+  },
+
+  "players": [
+    {
+      "name": "Ederson",
+      "number": 31,
+      "position": "GK",
+      "country": "Brezilya"
+    },
+    {
+      "name": "Mert Günok",
+      "number": 34,
+      "position": "GK",
+      "country": "Türkiye"
+    },
+    {
+      "name": "Tarık Çetin",
+      "number": 54,
+      "position": "GK",
+      "country": "Türkiye"
+    },
+
+    {
+      "name": "Nelson Semedo",
+      "number": 2,
+      "position": "RB",
+      "country": "Portekiz"
+    },
+    {
+      "name": "Mert Müldür",
+      "number": 16,
+      "position": "RB",
+      "country": "Türkiye"
+    },
+    {
+      "name": "Ognjen Mimovic",
+      "number": 22,
+      "position": "RB",
+      "country": "Sırbistan"
+    },
+    {
+      "name": "Nathan Aké",
+      "number": 6,
+      "position": "CB",
+      "country": "Hollanda"
+    },
+    {
+      "name": "Milan Skriniar",
+      "number": 37,
+      "position": "CB",
+      "country": "Slovakya"
+    },
+    {
+      "name": "Kojo Peprah Oppong",
+      "number": 4,
+      "position": "CB",
+      "country": "Gana"
+    },
+    {
+      "name": "Yiğit Efe Demir",
+      "number": 53,
+      "position": "CB",
+      "country": "Türkiye"
+    },
+    {
+      "name": "Archie Brown",
+      "number": 3,
+      "position": "LB",
+      "country": "İngiltere"
+    },
+    {
+      "name": "Levent Mercan",
+      "number": 18,
+      "position": "LB",
+      "country": "Türkiye"
+    },
+
+    {
+      "name": "N'Golo Kanté",
+      "number": 7,
+      "position": "CDM",
+      "country": "Fransa"
+    },
+    {
+      "name": "İsmail Yüksek",
+      "number": 5,
+      "position": "CDM",
+      "country": "Türkiye"
+    },
+    {
+      "name": "Matteo Guendouzi",
+      "number": 8,
+      "position": "CM",
+      "country": "Fransa"
+    },
+    {
+      "name": "Bartuğ Elmaz",
+      "number": 28,
+      "position": "CM",
+      "country": "Türkiye"
+    },
+    {
+      "name": "Marco Asensio",
+      "number": 10,
+      "position": "CAM",
+      "country": "İspanya"
+    },
+    {
+      "name": "İrfan Can Kahveci",
+      "number": 17,
+      "position": "CAM",
+      "country": "Türkiye"
+    },
+    {
+      "name": "Oğuz Aydın",
+      "number": 70,
+      "position": "RW",
+      "country": "Türkiye"
+    },
+
+    {
+      "name": "Mason Greenwood",
+      "number": 11,
+      "position": "RW",
+      "country": "İngiltere"
+    },
+    {
+      "name": "Kerem Aktürkoğlu",
+      "number": 9,
+      "position": "LW",
+      "country": "Türkiye"
+    },
+    {
+      "name": "Dorgeles Nene",
+      "number": 14,
+      "position": "LW",
+      "country": "Mali"
+    },
+    {
+      "name": "Romelu Lukaku",
+      "number": 90,
+      "position": "ST",
+      "country": "Belçika"
+    },
+    {
+      "name": "Vedat Muriqi",
+      "number": 19,
+      "position": "ST",
+      "country": "Kosova"
+    }
+  ]
 }
