@@ -42,7 +42,7 @@
     { "playerId": "player_tr_008_22", "name": "Erkan Anapa", "number": 17, "position": "GK", "country": "TR", "status": "reserve" },
     { "playerId": "player_tr_008_23", "name": "Emirhan Acar", "number": 21, "position": "CM", "country": "TR", "status": "reserve" },
     { "playerId": "player_tr_008_24", "name": "Ömer Arda Kara", "number": 25, "position": "CB", "country": "TR", "status": "reserve" },
-    { "playerId": "player_tr_008_25", "name": "Emre Erdem", "number": 0, "position": "CB", "country": "TR", "status": "reserve" }
+    { "playerId": "player_tr_008_25", "name": "Emre Erdem", "number": 35, "position": "CB", "country": "TR", "status": "reserve" }
   ],
 
   "tactics": {
