@@ -1,12 +1,58 @@
 {
-  "teamKey": "Modena",
+    "teamKey": "Modena",
 
-  "name": "Modena FC",
+    "name": "Modena FC",
 
-  "logo": "assets/logos/europe/italy/Modena.png",
+    "logo": "assets/logos/europe/italy/Modena.png",
 
-  "stadium": {
-    "name": "Alberto Braglia",
-    "capacity": 21151
+    "manager": {
+      "name": "Daniele Galloppa",
+      "country": "IT"
+    },
+
+    "stadium": {
+      "name": "Alberto Braglia",
+      "capacity": 21151
+    },
+
+    "players": [
+      { "playerId": "player_it2_014_01", "name": "Leandro Chichizola", "number": 1, "position": "GK", "country": "AR", "status": "starter" },
+      { "playerId": "player_it2_014_02", "name": "Steven Nador", "number": 6, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_it2_014_03", "name": "Bryant Nieling", "number": 20, "position": "CB", "country": "DE", "status": "starter" },
+      { "playerId": "player_it2_014_04", "name": "Daniel Tonoli", "number": 77, "position": "CB", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_014_05", "name": "Francesco Zampano", "number": 7, "position": "RM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_014_06", "name": "Simone Santoro", "number": 8, "position": "CM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_014_07", "name": "Gastón Brugman", "number": 16, "position": "CM", "country": "UY", "status": "starter" },
+      { "playerId": "player_it2_014_08", "name": "Alessandro Bianco", "number": 42, "position": "CM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_014_09", "name": "Giuseppe Caso", "number": 10, "position": "LM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_014_10", "name": "Pedro Mendes", "number": 11, "position": "ST", "country": "PT", "status": "starter" },
+      { "playerId": "player_it2_014_11", "name": "Giuseppe Ambrosino", "number": 70, "position": "ST", "country": "IT", "status": "starter" },
+
+      { "playerId": "player_it2_014_12", "name": "Leonardo Consiglio", "number": 22, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_014_13", "name": "Andrea Maran", "number": 12, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_014_14", "name": "Gady Beyuku", "number": 2, "position": "RB", "country": "FR", "status": "bench" },
+      { "playerId": "player_it2_014_15", "name": "Martino Odero", "number": 15, "position": "CB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_014_16", "name": "Davide Adorni", "number": 28, "position": "CB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_014_17", "name": "Antonio Imputato", "number": 26, "position": "CM", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_014_18", "name": "Paulo", "number": 27, "position": "CM", "country": "BR", "status": "bench" },
+      { "playerId": "player_it2_014_19", "name": "Stênio", "number": 33, "position": "RW", "country": "BR", "status": "bench" },
+      { "playerId": "player_it2_014_20", "name": "Kleis Bozhanaj", "number": 17, "position": "CAM", "country": "AL", "status": "bench" },
+      { "playerId": "player_it2_014_21", "name": "Giacomo Olzer", "number": 72, "position": "CAM", "country": "IT", "status": "bench" },
+
+      { "playerId": "player_it2_014_22", "name": "Daniele Montevago", "number": 9, "position": "ST", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it2_014_23", "name": "Treasure Egharevba", "number": 37, "position": "ST", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it2_014_24", "name": "Tito Fabbri", "number": 14, "position": "CB", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it2_014_25", "name": "Luca Bacchin", "number": 29, "position": "RW", "country": "IT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "3-5-2",
+      "captain": 16,
+      "setPieces": {
+        "penalty": 70,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 10
+      }
+    }
   }
-}
