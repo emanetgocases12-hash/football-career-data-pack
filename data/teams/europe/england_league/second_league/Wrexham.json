@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/england/Wrexham.png",
 
+  "manager": {
+    "name": "Phil Parkinson",
+    "country": "GB-ENG"
+  },
+
   "stadium": {
     "name": "STōK Cae Ras",
     "capacity": 13341
+  },
+
+  "players": [
+    { "playerId": "player_en2_024_01", "name": "Anthony Patterson", "number": 22, "position": "GK", "country": "GB-ENG", "status": "starter" },
+    { "playerId": "player_en2_024_02", "name": "Issa Kaboré", "number": 12, "position": "RB", "country": "BF", "status": "starter" },
+    { "playerId": "player_en2_024_03", "name": "Joe Worrall", "number": 6, "position": "CB", "country": "GB-ENG", "status": "starter" },
+    { "playerId": "player_en2_024_04", "name": "Dominic Hyam", "number": 5, "position": "CB", "country": "GB-SCT", "status": "starter" },
+    { "playerId": "player_en2_024_05", "name": "Liberato Cacace", "number": 13, "position": "LB", "country": "NZ", "status": "starter" },
+    { "playerId": "player_en2_024_06", "name": "Ben Sheaf", "number": 18, "position": "CDM", "country": "GB-ENG", "status": "starter" },
+    { "playerId": "player_en2_024_07", "name": "Ben Whiteman", "number": 8, "position": "CM", "country": "GB-ENG", "status": "starter" },
+    { "playerId": "player_en2_024_08", "name": "Nathan Broadhead", "number": 33, "position": "RW", "country": "GB-WLS", "status": "starter" },
+    { "playerId": "player_en2_024_09", "name": "Josh Windass", "number": 10, "position": "CAM", "country": "GB-ENG", "status": "starter" },
+    { "playerId": "player_en2_024_10", "name": "Callum O'Hare", "number": 17, "position": "LW", "country": "GB-ENG", "status": "starter" },
+    { "playerId": "player_en2_024_11", "name": "Kieffer Moore", "number": 19, "position": "ST", "country": "GB-WLS", "status": "starter" },
+
+    { "playerId": "player_en2_024_12", "name": "Danny Ward", "number": 21, "position": "GK", "country": "GB-WLS", "status": "bench" },
+    { "playerId": "player_en2_024_13", "name": "Callum Doyle", "number": 2, "position": "CB", "country": "GB-ENG", "status": "bench" },
+    { "playerId": "player_en2_024_14", "name": "Max Cleworth", "number": 4, "position": "CB", "country": "GB-ENG", "status": "bench" },
+    { "playerId": "player_en2_024_15", "name": "Jacques Ekomié", "number": 3, "position": "LB", "country": "GA", "status": "bench" },
+    { "playerId": "player_en2_024_16", "name": "Danny Imray", "number": 30, "position": "RB", "country": "GB-ENG", "status": "bench" },
+    { "playerId": "player_en2_024_17", "name": "George Thomason", "number": 14, "position": "CM", "country": "GB-ENG", "status": "bench" },
+    { "playerId": "player_en2_024_18", "name": "George Dobson", "number": 15, "position": "CM", "country": "GB-ENG", "status": "bench" },
+    { "playerId": "player_en2_024_19", "name": "Lewis O'Brien", "number": 27, "position": "CM", "country": "GB-ENG", "status": "bench" },
+    { "playerId": "player_en2_024_20", "name": "Sam Smith", "number": 28, "position": "ST", "country": "GB-ENG", "status": "bench" },
+    { "playerId": "player_en2_024_21", "name": "Bailey-Tye Cadamarteri", "number": 11, "position": "ST", "country": "GB-ENG", "status": "bench" },
+
+    { "playerId": "player_en2_024_22", "name": "Callum Burton", "number": 25, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+    { "playerId": "player_en2_024_23", "name": "Zak Vyner", "number": 26, "position": "CB", "country": "GB-ENG", "status": "reserve" },
+    { "playerId": "player_en2_024_24", "name": "Ollie Rathbone", "number": 20, "position": "CM", "country": "GB-ENG", "status": "reserve" },
+    { "playerId": "player_en2_024_25", "name": "Ryan Longman", "number": 47, "position": "RM", "country": "GB-ENG", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 19,
+      "freeKick": 10,
+      "cornerLeft": 33,
+      "cornerRight": 10
+    }
   }
 }
