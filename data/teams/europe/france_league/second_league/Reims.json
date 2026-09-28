@@ -1,12 +1,58 @@
 {
-  "teamKey": "Reims",
+    "teamKey": "Reims",
 
-  "name": "Stade Reims",
+    "name": "Stade Reims",
 
-  "logo": "assets/logos/europe/france/Reims.png",
+    "logo": "assets/logos/europe/france/Reims.png",
 
-  "stadium": {
-    "name": "Stade Auguste-Delaune",
-    "capacity": 20519
+    "manager": {
+      "name": "Nicolas Usaï",
+      "country": "FR"
+    },
+
+    "stadium": {
+      "name": "Stade Auguste-Delaune",
+      "capacity": 20519
+    },
+
+    "players": [
+      { "playerId": "player_fr2_016_01", "name": "Tom Ritzy Hülsmann", "number": 1, "position": "GK", "country": "DE", "status": "starter" },
+      { "playerId": "player_fr2_016_02", "name": "Armel Zohouri", "number": 63, "position": "RB", "country": "CI", "status": "starter" },
+      { "playerId": "player_fr2_016_03", "name": "Joseph Okumu", "number": 2, "position": "CB", "country": "KE", "status": "starter" },
+      { "playerId": "player_fr2_016_04", "name": "Samuel Kotto", "number": 22, "position": "CB", "country": "CM", "status": "starter" },
+      { "playerId": "player_fr2_016_05", "name": "Sergio Akieme", "number": 18, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_fr2_016_06", "name": "Mory Gbane", "number": 24, "position": "CDM", "country": "CI", "status": "starter" },
+      { "playerId": "player_fr2_016_07", "name": "Théo Leoni", "number": 6, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_fr2_016_08", "name": "Tidiane Diarrassouba", "number": 7, "position": "RW", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_016_09", "name": "Yaya Fofana", "number": 8, "position": "CAM", "country": "CI", "status": "starter" },
+      { "playerId": "player_fr2_016_10", "name": "Mohamed Daramy", "number": 9, "position": "LW", "country": "SL", "status": "starter" },
+      { "playerId": "player_fr2_016_11", "name": "Sambou Soumano", "number": 99, "position": "ST", "country": "SN", "status": "starter" },
+
+      { "playerId": "player_fr2_016_12", "name": "Edin Omeragic", "number": 12, "position": "GK", "country": "CH", "status": "bench" },
+      { "playerId": "player_fr2_016_13", "name": "Chouaib Bellaarouch", "number": 40, "position": "GK", "country": "MA", "status": "bench" },
+      { "playerId": "player_fr2_016_14", "name": "Jean-Tryfose Mambuku", "number": 21, "position": "RB", "country": "IT", "status": "bench" },
+      { "playerId": "player_fr2_016_15", "name": "Daouda Guindo", "number": 27, "position": "LB", "country": "ML", "status": "bench" },
+      { "playerId": "player_fr2_016_16", "name": "Elie N'Tamon", "number": 28, "position": "CB", "country": "CI", "status": "bench" },
+      { "playerId": "player_fr2_016_17", "name": "Manzur Okwaro", "number": 44, "position": "CB", "country": "KE", "status": "bench" },
+      { "playerId": "player_fr2_016_18", "name": "John Otomewo", "number": 5, "position": "CM", "country": "NG", "status": "bench" },
+      { "playerId": "player_fr2_016_19", "name": "John Patrick Finn", "number": 30, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_fr2_016_20", "name": "Chamsedin Kouranfal", "number": 61, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_016_21", "name": "Ange Martial Tia", "number": 87, "position": "CM", "country": "ML", "status": "bench" },
+
+      { "playerId": "player_fr2_016_22", "name": "Youssef El Kachati", "number": 10, "position": "ST", "country": "NL", "status": "reserve" },
+      { "playerId": "player_fr2_016_23", "name": "Amine Salama", "number": 11, "position": "ST", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr2_016_24", "name": "Lenny Sylla", "number": 25, "position": "LW", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr2_016_25", "name": "Hafiz Umar Ibrahim", "number": 85, "position": "ST", "country": "NG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 99,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
