@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bursa",
+    "teamKey": "Bursa",
 
-  "name": "Bursaspor",
+    "name": "Bursaspor",
 
-  "logo": "assets/logos/europe/turkey/Bursa.png",
+    "logo": "assets/logos/europe/turkey/Bursa.png",
 
-  "stadium": {
-    "name": "Atatürk Spor Kompleksi Matlı Stadyumu",
-    "capacity": 43361
+    "manager": {
+      "name": "Mustafa Er",
+      "country": "TR"
+    },
+
+    "stadium": {
+      "name": "Atatürk Spor Kompleksi Matlı Stadyumu",
+      "capacity": 43361
+    },
+
+    "players": [
+      { "playerId": "player_tr2_006_01", "name": "Anıl Atağ", "number": 1, "position": "GK", "country": "TR", "status": "starter" },
+      { "playerId": "player_tr2_006_02", "name": "Zeki Yavru", "number": 18, "position": "RB", "country": "TR", "status": "starter" },
+      { "playerId": "player_tr2_006_03", "name": "Ertuğrul Ersoy", "number": 4, "position": "CB", "country": "TR", "status": "starter" },
+      { "playerId": "player_tr2_006_04", "name": "Alperen Babacan", "number": 24, "position": "CB", "country": "TR", "status": "starter" },
+      { "playerId": "player_tr2_006_05", "name": "Toral Bayramov", "number": 27, "position": "LB", "country": "AZ", "status": "starter" },
+      { "playerId": "player_tr2_006_06", "name": "Juergen Farid Elitim Sepulveda", "number": 6, "position": "CDM", "country": "CO", "status": "starter" },
+      { "playerId": "player_tr2_006_07", "name": "Soner Aydoğdu", "number": 8, "position": "CM", "country": "TR", "status": "starter" },
+      { "playerId": "player_tr2_006_08", "name": "Halil Akbunar", "number": 7, "position": "RW", "country": "TR", "status": "starter" },
+      { "playerId": "player_tr2_006_09", "name": "Lincoln Henrique", "number": 10, "position": "CAM", "country": "BR", "status": "starter" },
+      { "playerId": "player_tr2_006_10", "name": "Amine Boutrah", "number": 73, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_tr2_006_11", "name": "Kelechi Promise Iheanacho", "number": 14, "position": "ST", "country": "NG", "status": "starter" },
+
+      { "playerId": "player_tr2_006_12", "name": "Ahmet Said Kıvanç", "number": 39, "position": "CB", "country": "TR", "status": "bench" },
+      { "playerId": "player_tr2_006_13", "name": "Baran Başyİğit", "number": 20, "position": "RB", "country": "TR", "status": "bench" },
+      { "playerId": "player_tr2_006_14", "name": "Barış Gök", "number": 93, "position": "LB", "country": "TR", "status": "bench" },
+      { "playerId": "player_tr2_006_15", "name": "Emir Kaan Gültekin", "number": 9, "position": "CDM", "country": "TR", "status": "bench" },
+      { "playerId": "player_tr2_006_16", "name": "Emirhan Başyİğit", "number": 5, "position": "CM", "country": "TR", "status": "bench" },
+      { "playerId": "player_tr2_006_17", "name": "Eray Duman", "number": 2, "position": "CAM", "country": "TR", "status": "bench" },
+      { "playerId": "player_tr2_006_18", "name": "Eyüp Akcan", "number": 34, "position": "RW", "country": "TR", "status": "bench" },
+      { "playerId": "player_tr2_006_19", "name": "Hüseyin Maldar", "number": 66, "position": "LW", "country": "TR", "status": "bench" },
+      { "playerId": "player_tr2_006_20", "name": "Ivan Saranic", "number": 80, "position": "ST", "country": "HR", "status": "bench" },
+      { "playerId": "player_tr2_006_21", "name": "Kerem Matışlı", "number": 98, "position": "CB", "country": "TR", "status": "bench" },
+
+      { "playerId": "player_tr2_006_22", "name": "Lewis Renard Baker", "number": 42, "position": "CM", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_tr2_006_23", "name": "Rahmetullah Berişbek", "number": 77, "position": "RW", "country": "TR", "status": "reserve" },
+      { "playerId": "player_tr2_006_24", "name": "Taha Batuhan Yayıkcı", "number": 57, "position": "ST", "country": "TR", "status": "reserve" },
+      { "playerId": "player_tr2_006_25", "name": "Tayfun Aydoğan", "number": 52, "position": "LB", "country": "TR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 14,
+        "freeKick": 10,
+        "cornerLeft": 73,
+        "cornerRight": 7
+      }
+    }
   }
-}
