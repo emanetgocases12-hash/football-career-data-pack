@@ -1,12 +1,58 @@
 {
-  "teamKey": "Southm",
+    "teamKey": "Southm",
 
-  "name": "Southampton FC",
+    "name": "Southampton FC",
 
-  "logo": "assets/logos/europe/england/Southampton.png",
+    "logo": "assets/logos/europe/england/Southampton.png",
 
-  "stadium": {
-    "name": "St Mary's Stadium",
-    "capacity": 32384
+    "manager": {
+      "name": "Tonda Eckert",
+      "country": "DE"
+    },
+
+    "stadium": {
+      "name": "St Mary's Stadium",
+      "capacity": 32384
+    },
+
+    "players": [
+      { "playerId": "player_en2_017_01", "name": "Daniel Peretz", "number": 1, "position": "GK", "country": "IL", "status": "starter" },
+      { "playerId": "player_en2_017_02", "name": "Mads Roerslev", "number": 2, "position": "RB", "country": "DK", "status": "starter" },
+      { "playerId": "player_en2_017_03", "name": "Jack Stephens", "number": 5, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_017_04", "name": "Keven Schlotterbeck", "number": 13, "position": "CB", "country": "DE", "status": "starter" },
+      { "playerId": "player_en2_017_05", "name": "Ryan Manning", "number": 3, "position": "LB", "country": "IE", "status": "starter" },
+      { "playerId": "player_en2_017_06", "name": "Flynn Downes", "number": 4, "position": "CDM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_017_07", "name": "James Ward-Prowse", "number": 30, "position": "CM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_017_08", "name": "Tom Fellows", "number": 18, "position": "RW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_017_09", "name": "Finn Azaz", "number": 10, "position": "CAM", "country": "IE", "status": "starter" },
+      { "playerId": "player_en2_017_10", "name": "Léo Scienza", "number": 7, "position": "LW", "country": "BR", "status": "starter" },
+      { "playerId": "player_en2_017_11", "name": "Cyle Larin", "number": 9, "position": "ST", "country": "CA", "status": "starter" },
+
+      { "playerId": "player_en2_017_12", "name": "Aaron Ramsdale", "number": 32, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_017_13", "name": "Zach Abbott", "number": 6, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_017_14", "name": "Nathan Wood", "number": 15, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_017_15", "name": "Welington", "number": 34, "position": "LB", "country": "BR", "status": "bench" },
+      { "playerId": "player_en2_017_16", "name": "James Bree", "number": 14, "position": "RB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_017_17", "name": "Caspar Jander", "number": 8, "position": "CM", "country": "DE", "status": "bench" },
+      { "playerId": "player_en2_017_18", "name": "Kuryu Matsuki", "number": 27, "position": "CAM", "country": "JP", "status": "bench" },
+      { "playerId": "player_en2_017_19", "name": "Lewis Dobbin", "number": 11, "position": "LW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_017_20", "name": "Samuel Edozie", "number": 23, "position": "RW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_017_21", "name": "Divin Mubama", "number": 28, "position": "ST", "country": "GB-ENG", "status": "bench" },
+
+      { "playerId": "player_en2_017_22", "name": "George Long", "number": 25, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_017_23", "name": "Cameron Bragg", "number": 26, "position": "CM", "country": "GB-SCT", "status": "reserve" },
+      { "playerId": "player_en2_017_24", "name": "Joachim Kayi Sanda", "number": 39, "position": "CB", "country": "FR", "status": "reserve" },
+      { "playerId": "player_en2_017_25", "name": "Princewill Ehibhatiomhan", "number": 40, "position": "ST", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 30,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 30,
+        "cornerLeft": 18,
+        "cornerRight": 30
+      }
+    }
   }
-}
