@@ -1,12 +1,58 @@
 {
-  "teamKey": "Grenob",
+    "teamKey": "Grenob",
 
-  "name": "Grenoble Foot 38",
+    "name": "Grenoble Foot 38",
 
-  "logo": "assets/logos/europe/france/Grenoble.png",
+    "logo": "assets/logos/europe/france/Grenoble.png",
 
-  "stadium": {
-    "name": "Stade des Alpes",
-    "capacity": 20068
+    "manager": {
+      "name": "Olivier Frapolli",
+      "country": "FR"
+    },
+
+    "stadium": {
+      "name": "Stade des Alpes",
+      "capacity": 20068
+    },
+
+    "players": [
+      { "playerId": "player_fr2_007_01", "name": "Alexandre Olliero", "number": 1, "position": "GK", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_007_02", "name": "Ange Loïc N’Gatta", "number": 22, "position": "RB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_007_03", "name": "Clément Vidal", "number": 5, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_007_04", "name": "Owen Kouassi", "number": 21, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_007_05", "name": "Matthéo Xantippe", "number": 27, "position": "LB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_007_06", "name": "Yohann Magnin", "number": 6, "position": "CDM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_007_07", "name": "Lucas Bernadou", "number": 8, "position": "CM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_007_08", "name": "Dillon Hoogewerf", "number": 23, "position": "RW", "country": "NL", "status": "starter" },
+      { "playerId": "player_fr2_007_09", "name": "Baptiste Mouazan", "number": 10, "position": "CAM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_007_10", "name": "Zé Leite", "number": 34, "position": "LW", "country": "PT", "status": "starter" },
+      { "playerId": "player_fr2_007_11", "name": "Arthur Lallias", "number": 9, "position": "ST", "country": "FR", "status": "starter" },
+
+      { "playerId": "player_fr2_007_12", "name": "Bobby Allain", "number": 16, "position": "GK", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_007_13", "name": "Théo Borne", "number": 25, "position": "GK", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_007_14", "name": "Farouq Limouri", "number": 3, "position": "CB", "country": "NL", "status": "bench" },
+      { "playerId": "player_fr2_007_15", "name": "Nesta Zahui", "number": 19, "position": "LB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_007_16", "name": "Aurélien Pelon", "number": 43, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_007_17", "name": "Mael Corboz", "number": 14, "position": "CM", "country": "US", "status": "bench" },
+      { "playerId": "player_fr2_007_18", "name": "Samba Diba", "number": 30, "position": "CM", "country": "SN", "status": "bench" },
+      { "playerId": "player_fr2_007_19", "name": "Owen Martinez-Jullien", "number": 44, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_007_20", "name": "Romain Da Silva", "number": 45, "position": "CM", "country": "PT", "status": "bench" },
+      { "playerId": "player_fr2_007_21", "name": "Jules Mouton", "number": 46, "position": "CM", "country": "FR", "status": "bench" },
+
+      { "playerId": "player_fr2_007_22", "name": "Moussa Djitté", "number": 2, "position": "ST", "country": "SN", "status": "reserve" },
+      { "playerId": "player_fr2_007_23", "name": "Ugo Bonnet", "number": 12, "position": "ST", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr2_007_24", "name": "Leonardo Cerri", "number": 17, "position": "ST", "country": "IT", "status": "reserve" },
+      { "playerId": "player_fr2_007_25", "name": "Mohamed Bechikh", "number": 37, "position": "ST", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 23,
+        "cornerLeft": 23,
+        "cornerRight": 23
+      }
+    }
   }
-}
