@@ -1,12 +1,58 @@
 {
-  "teamKey": "Evrton",
+    "teamKey": "Evrton",
 
-  "name": "Everton FC",
+    "name": "Everton FC",
 
-  "logo": "assets/logos/europe/england/Everton.png",
+    "logo": "assets/logos/europe/england/Everton.png",
 
-  "stadium": {
-    "name": "Hill Dickinson Stadium",
-    "capacity": 52769
+    "manager": {
+      "name": "David Moyes",
+      "country": "GB-SCT"
+    },
+
+    "stadium": {
+      "name": "Hill Dickinson Stadium",
+      "capacity": 52769
+    },
+
+    "players": [
+      { "playerId": "player_en_009_01", "name": "Jordan Pickford", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_009_02", "name": "Ainsley Maitland-Niles", "number": 2, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_009_03", "name": "James Tarkowski", "number": 6, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_009_04", "name": "Jarrad Branthwaite", "number": 4, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_009_05", "name": "Vitalii Mykolenko", "number": 16, "position": "LB", "country": "UA", "status": "starter" },
+      { "playerId": "player_en_009_06", "name": "Christian Nørgaard", "number": 23, "position": "CDM", "country": "DK", "status": "starter" },
+      { "playerId": "player_en_009_07", "name": "Hayden Hackney", "number": 30, "position": "CM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_009_08", "name": "Brennan Johnson", "number": 22, "position": "RW", "country": "GB-WLS", "status": "starter" },
+      { "playerId": "player_en_009_09", "name": "Kiernan Dewsbury-Hall", "number": 8, "position": "CAM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_009_10", "name": "Jack Grealish", "number": 10, "position": "LW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_009_11", "name": "Thierno Barry", "number": 11, "position": "ST", "country": "FR", "status": "starter" },
+
+      { "playerId": "player_en_009_12", "name": "Mark Travers", "number": 12, "position": "GK", "country": "IE", "status": "bench" },
+      { "playerId": "player_en_009_13", "name": "Jake O'Brien", "number": 15, "position": "CB", "country": "IE", "status": "bench" },
+      { "playerId": "player_en_009_14", "name": "Michael Keane", "number": 5, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_009_15", "name": "James Garner", "number": 37, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_009_16", "name": "Merlin Röhl", "number": 34, "position": "CM", "country": "DE", "status": "bench" },
+      { "playerId": "player_en_009_17", "name": "Charly Alcaraz", "number": 24, "position": "CAM", "country": "AR", "status": "bench" },
+      { "playerId": "player_en_009_18", "name": "Tyrique George", "number": 19, "position": "LW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_009_19", "name": "Tyler Dibling", "number": 20, "position": "RW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_009_20", "name": "Harrison Armstrong", "number": 45, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_009_21", "name": "Braiden Graham", "number": 58, "position": "ST", "country": "GB-NIR", "status": "bench" },
+
+      { "playerId": "player_en_009_22", "name": "Tom King", "number": 31, "position": "GK", "country": "GB-WLS", "status": "reserve" },
+      { "playerId": "player_en_009_23", "name": "Malik Olayiwola", "number": 76, "position": "CM", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_009_24", "name": "Harvey Foster", "number": 81, "position": "CM", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_009_25", "name": "George Pickford", "number": 50, "position": "GK", "country": "GB-NIR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 8,
+        "cornerRight": 10
+      }
+    }
   }
-}
