@@ -1,12 +1,58 @@
 {
-  "teamKey": "Tirana",
+    "teamKey": "Tirana",
 
-  "name": "KF Tirana",
+    "name": "KF Tirana",
 
-  "logo": "assets/logos/europe/albania/Tirana.png",
+    "logo": "assets/logos/europe/albania/Tirana.png",
 
-  "stadium": {
-    "name": "Selman Stërmasi",
-    "capacity": 4100
+    "manager": {
+      "name": "Dean Klafurić",
+      "country": "HR"
+    },
+
+    "stadium": {
+      "name": "Selman Stërmasi",
+      "capacity": 4100
+    },
+
+    "players": [
+      { "playerId": "player_al1_008_01", "name": "Visar Bekaj", "number": 1, "position": "GK", "country": "XK", "status": "starter" },
+      { "playerId": "player_al1_008_02", "name": "Patrick Stanić", "number": 2, "position": "RB", "country": "HR", "status": "starter" },
+      { "playerId": "player_al1_008_03", "name": "Joseph Colley", "number": 4, "position": "CB", "country": "SE", "status": "starter" },
+      { "playerId": "player_al1_008_04", "name": "Bojan Ilievski", "number": 6, "position": "CB", "country": "MK", "status": "starter" },
+      { "playerId": "player_al1_008_05", "name": "Basilio Ndong Nchama", "number": 3, "position": "LB", "country": "GQ", "status": "starter" },
+      { "playerId": "player_al1_008_06", "name": "Ardit Krymi", "number": 5, "position": "CDM", "country": "AL", "status": "starter" },
+      { "playerId": "player_al1_008_07", "name": "Patrik Myslovič", "number": 20, "position": "CM", "country": "SK", "status": "starter" },
+      { "playerId": "player_al1_008_08", "name": "Bernard Berisha", "number": 23, "position": "RW", "country": "XK", "status": "starter" },
+      { "playerId": "player_al1_008_09", "name": "Freddy Álvarez", "number": 14, "position": "CAM", "country": "CR", "status": "starter" },
+      { "playerId": "player_al1_008_10", "name": "Drilon Hazrollaj", "number": 10, "position": "LW", "country": "XK", "status": "starter" },
+      { "playerId": "player_al1_008_11", "name": "Redon Xhixha", "number": 19, "position": "ST", "country": "AL", "status": "starter" },
+
+      { "playerId": "player_al1_008_12", "name": "Klajdi Hasani", "number": 26, "position": "GK", "country": "AL", "status": "bench" },
+      { "playerId": "player_al1_008_13", "name": "Klajdi Kuka", "number": 12, "position": "GK", "country": "AL", "status": "bench" },
+      { "playerId": "player_al1_008_14", "name": "Rejan Çali", "number": 31, "position": "GK", "country": "AL", "status": "bench" },
+      { "playerId": "player_al1_008_15", "name": "Leonat Vitija", "number": 18, "position": "CB", "country": "XK", "status": "bench" },
+      { "playerId": "player_al1_008_16", "name": "Luciano Vera", "number": 15, "position": "RB", "country": "AR", "status": "bench" },
+      { "playerId": "player_al1_008_17", "name": "Kleo Lika", "number": 33, "position": "CB", "country": "AL", "status": "bench" },
+      { "playerId": "player_al1_008_18", "name": "Serxho Vogli", "number": 8, "position": "CM", "country": "AL", "status": "bench" },
+      { "playerId": "player_al1_008_19", "name": "Hugo Fresneda", "number": 21, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_al1_008_20", "name": "Mateo Maci", "number": 28, "position": "CM", "country": "AL", "status": "bench" },
+      { "playerId": "player_al1_008_21", "name": "Aimar Bami", "number": 24, "position": "CM", "country": "AL", "status": "bench" },
+
+      { "playerId": "player_al1_008_22", "name": "Ermal Meta", "number": 55, "position": "CM", "country": "AL", "status": "reserve" },
+      { "playerId": "player_al1_008_23", "name": "Olti Qerimaj", "number": 7, "position": "RW", "country": "AL", "status": "reserve" },
+      { "playerId": "player_al1_008_24", "name": "Erdon Daci", "number": 9, "position": "ST", "country": "MK", "status": "reserve" },
+      { "playerId": "player_al1_008_25", "name": "Tomislav Kiš", "number": 11, "position": "ST", "country": "HR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 23,
+        "cornerLeft": 23,
+        "cornerRight": 23
+      }
+    }
   }
-}
