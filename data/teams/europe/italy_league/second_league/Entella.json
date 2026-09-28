@@ -1,12 +1,58 @@
 {
-  "teamKey": "Entell",
+    "teamKey": "Entell",
 
-  "name": "Virtus Entella",
+    "name": "Virtus Entella",
 
-  "logo": "assets/logos/europe/italy/Entella.png",
+    "logo": "assets/logos/europe/italy/Entella.png",
 
-  "stadium": {
-    "name": "Enrico Sannazzari",
-    "capacity": 5535
+    "manager": {
+      "name": "Andrea Chiappella",
+      "country": "IT"
+    },
+
+    "stadium": {
+      "name": "Enrico Sannazzari",
+      "capacity": 5535
+    },
+
+    "players": [
+      { "playerId": "player_it2_010_01", "name": "Federico Del Frate", "number": 22, "position": "GK", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_010_02", "name": "Luca Vignali", "number": 8, "position": "CB", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_010_03", "name": "Andrea Tiritiello", "number": 6, "position": "CB", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_010_04", "name": "Luca Parodi", "number": 23, "position": "CB", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_010_05", "name": "Mattia Alborghetti", "number": 27, "position": "RM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_010_06", "name": "Niccolò Squizzato", "number": 5, "position": "CM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_010_07", "name": "Andrea Franzoni", "number": 24, "position": "CM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_010_08", "name": "Stefano Di Mario", "number": 26, "position": "LM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_010_09", "name": "Leonardo Benedetti", "number": 80, "position": "CAM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_010_10", "name": "Luigi Cuppone", "number": 10, "position": "ST", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_010_11", "name": "Francesco Forte", "number": 32, "position": "ST", "country": "IT", "status": "starter" },
+
+      { "playerId": "player_it2_010_12", "name": "Simone Colombi", "number": 91, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_010_13", "name": "Torrielli", "number": 12, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_010_14", "name": "Nicolas Previtali", "number": 3, "position": "CB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_010_15", "name": "Riccardo Turicchia", "number": 16, "position": "LB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_010_16", "name": "Ivan Marconi", "number": 15, "position": "CB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_010_17", "name": "Lucas Felippe", "number": 55, "position": "CM", "country": "BR", "status": "bench" },
+      { "playerId": "player_it2_010_18", "name": "Mattia Valori", "number": 28, "position": "CM", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_010_19", "name": "Bernat Guiu", "number": 11, "position": "ST", "country": "ES", "status": "bench" },
+      { "playerId": "player_it2_010_20", "name": "Giacomo Corona", "number": 9, "position": "ST", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_010_21", "name": "Mattia Tirelli", "number": 17, "position": "ST", "country": "IT", "status": "bench" },
+
+      { "playerId": "player_it2_010_22", "name": "Davide Bariti", "number": 7, "position": "RW", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it2_010_23", "name": "Andrea Corbari", "number": 14, "position": "CM", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it2_010_24", "name": "Giuseppe Di Noia", "number": 4, "position": "CM", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it2_010_25", "name": "Luca Clemenza", "number": 20, "position": "CAM", "country": "IT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "3-5-2",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 32,
+        "freeKick": 80,
+        "cornerLeft": 26,
+        "cornerRight": 80
+      }
+    }
   }
-}
