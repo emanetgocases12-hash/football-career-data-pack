@@ -1,12 +1,58 @@
 {
-  "teamKey": "Boulog",
+    "teamKey": "Boulog",
 
-  "name": "US Boulogne",
+    "name": "US Boulogne",
 
-  "logo": "assets/logos/europe/france/Boulogne.png",
+    "logo": "assets/logos/europe/france/Boulogne.png",
 
-  "stadium": {
-    "name": "Stade de la Libération",
-    "capacity": 15004
+    "manager": {
+      "name": "Fabien Dagneaux",
+      "country": "FR"
+    },
+
+    "stadium": {
+      "name": "Stade de la Libération",
+      "capacity": 15004
+    },
+
+    "players": [
+      { "playerId": "player_fr2_003_01", "name": "Xavier Lenogue", "number": 1, "position": "GK", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_003_02", "name": "Sonny Duflos", "number": 22, "position": "RB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_003_03", "name": "Jonathan Kapenga", "number": 4, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_003_04", "name": "Adrien Pinot", "number": 15, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_003_05", "name": "Julien Boyer", "number": 12, "position": "LB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_003_06", "name": "Jonas Martin", "number": 8, "position": "CDM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_003_07", "name": "Sohan Paillard", "number": 28, "position": "CM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_003_08", "name": "Noah Fatar", "number": 11, "position": "RW", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_003_09", "name": "Abdel Hbouch", "number": 10, "position": "CAM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_003_10", "name": "Aymane Nassiri", "number": 7, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_003_11", "name": "Martin Lecolier", "number": 9, "position": "ST", "country": "FR", "status": "starter" },
+
+      { "playerId": "player_fr2_003_12", "name": "Ibrahim Koné", "number": 16, "position": "GK", "country": "GN", "status": "bench" },
+      { "playerId": "player_fr2_003_13", "name": "Blondy Nna Noukeu", "number": 99, "position": "GK", "country": "CM", "status": "bench" },
+      { "playerId": "player_fr2_003_14", "name": "Demba Thiam", "number": 18, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_003_15", "name": "Théo Brusco", "number": 20, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_003_16", "name": "Aurélien Platret", "number": 21, "position": "LB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_003_17", "name": "Louis Siliadin", "number": 24, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_003_18", "name": "Antoine Kerriou", "number": 25, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_003_19", "name": "Nolan Binet", "number": 19, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_003_20", "name": "Joffrey Bultel", "number": 14, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_003_21", "name": "Mohamed Soumah", "number": 36, "position": "CM", "country": "FR", "status": "bench" },
+
+      { "playerId": "player_fr2_003_22", "name": "Ludéric Etonde", "number": 13, "position": "ST", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr2_003_23", "name": "Benjamin Bešić", "number": 17, "position": "ST", "country": "BA", "status": "reserve" },
+      { "playerId": "player_fr2_003_24", "name": "Cheikh Ibrahim Dia", "number": 35, "position": "ST", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr2_003_25", "name": "Théo Epailly", "number": 64, "position": "RW", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
   }
-}
