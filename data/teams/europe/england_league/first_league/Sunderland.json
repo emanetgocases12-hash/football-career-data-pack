@@ -1,12 +1,58 @@
 {
-  "teamKey": "Sunder",
+    "teamKey": "Sunder",
 
-  "name": "Sunderland AFC",
+    "name": "Sunderland AFC",
 
-  "logo": "assets/logos/europe/england/Sunderland.png",
+    "logo": "assets/logos/europe/england/Sunderland.png",
 
-  "stadium": {
-    "name": "Stadium of Light",
-    "capacity": 48707
+    "manager": {
+      "name": "Régis Le Bris",
+      "country": "FR"
+    },
+
+    "stadium": {
+      "name": "Stadium of Light",
+      "capacity": 48707
+    },
+
+    "players": [
+      { "playerId": "player_en_019_01", "name": "Robin Roefs", "number": 22, "position": "GK", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_019_02", "name": "Trai Hume", "number": 32, "position": "RB", "country": "GB-NIR", "status": "starter" },
+      { "playerId": "player_en_019_03", "name": "Kevin Danso", "number": 4, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_en_019_04", "name": "Omar Alderete", "number": 15, "position": "CB", "country": "PY", "status": "starter" },
+      { "playerId": "player_en_019_05", "name": "Reinildo Mandava", "number": 17, "position": "LB", "country": "MZ", "status": "starter" },
+      { "playerId": "player_en_019_06", "name": "Granit Xhaka", "number": 34, "position": "CDM", "country": "CH", "status": "starter" },
+      { "playerId": "player_en_019_07", "name": "Noah Sadiki", "number": 27, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_en_019_08", "name": "Chemsdine Talbi", "number": 7, "position": "RW", "country": "MA", "status": "starter" },
+      { "playerId": "player_en_019_09", "name": "Enzo Le Fée", "number": 28, "position": "CAM", "country": "FR", "status": "starter" },
+      { "playerId": "player_en_019_10", "name": "Malick Fofana", "number": 39, "position": "LW", "country": "BE", "status": "starter" },
+      { "playerId": "player_en_019_11", "name": "Wilson Isidor", "number": 18, "position": "ST", "country": "FR", "status": "starter" },
+
+      { "playerId": "player_en_019_12", "name": "Melker Ellborg", "number": 31, "position": "GK", "country": "SE", "status": "bench" },
+      { "playerId": "player_en_019_13", "name": "Thomas Meunier", "number": 12, "position": "RB", "country": "BE", "status": "bench" },
+      { "playerId": "player_en_019_14", "name": "Dan Ballard", "number": 5, "position": "CB", "country": "GB-NIR", "status": "bench" },
+      { "playerId": "player_en_019_15", "name": "Nordi Mukiele", "number": 20, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_en_019_16", "name": "Dayann Methalie", "number": 6, "position": "LB", "country": "FR", "status": "bench" },
+      { "playerId": "player_en_019_17", "name": "Habib Diarra", "number": 19, "position": "CM", "country": "SN", "status": "bench" },
+      { "playerId": "player_en_019_18", "name": "Chris Rigg", "number": 11, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_019_19", "name": "Nilson Angulo", "number": 10, "position": "LW", "country": "EC", "status": "bench" },
+      { "playerId": "player_en_019_20", "name": "Romaine Mundle", "number": 14, "position": "LW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_019_21", "name": "Brian Brobbey", "number": 9, "position": "ST", "country": "NL", "status": "bench" },
+
+      { "playerId": "player_en_019_22", "name": "Simon Moore", "number": 21, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_019_23", "name": "Luke O'Nien", "number": 13, "position": "CB", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_019_24", "name": "Jocelin Ta Bi", "number": 37, "position": "RW", "country": "CI", "status": "reserve" },
+      { "playerId": "player_en_019_25", "name": "Timur Tutierov", "number": 57, "position": "ST", "country": "UA", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 34,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 28,
+        "cornerLeft": 28,
+        "cornerRight": 34
+      }
+    }
   }
-}
