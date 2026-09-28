@@ -1,12 +1,58 @@
 {
-  "teamKey": "Eldens",
+    "teamKey": "Eldens",
 
-  "name": "CD Eldense",
+    "name": "CD Eldense",
 
-  "logo": "assets/logos/europe/spain/Eldense.png",
+    "logo": "assets/logos/europe/spain/Eldense.png",
 
-  "stadium": {
-    "name": "Nuevo Pepico Amat",
-    "capacity": 5776
+    "manager": {
+      "name": "Claudio Barragán",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "Nuevo Pepico Amat",
+      "capacity": 5776
+    },
+
+    "players": [
+      { "playerId": "player_es2_011_01", "name": "Ramón Vila", "number": 1, "position": "GK", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_011_02", "name": "Jesús Clemente", "number": 2, "position": "RB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_011_03", "name": "Floris Smand", "number": 4, "position": "CB", "country": "NL", "status": "starter" },
+      { "playerId": "player_es2_011_04", "name": "Álex Serradell", "number": 5, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_011_05", "name": "David Ruiz", "number": 3, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_011_06", "name": "Carlos Guirao", "number": 6, "position": "CDM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_011_07", "name": "Justin Smith", "number": 8, "position": "CM", "country": "CA", "status": "starter" },
+      { "playerId": "player_es2_011_08", "name": "Aingeru Olabarrieta", "number": 7, "position": "RW", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_011_09", "name": "Marcos Bustillo", "number": 10, "position": "CAM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_011_10", "name": "Fidel", "number": 11, "position": "LW", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_011_11", "name": "Manu Nieto", "number": 9, "position": "ST", "country": "ES", "status": "starter" },
+
+      { "playerId": "player_es2_011_12", "name": "Juan Palomares", "number": 13, "position": "GK", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_011_13", "name": "Alejandro Ibarrondo", "number": 22, "position": "RB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_011_14", "name": "Javier Olaizola", "number": 15, "position": "CB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_011_15", "name": "Iker Recio", "number": 16, "position": "CB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_011_16", "name": "Julien Yanda", "number": 17, "position": "LB", "country": "DE", "status": "bench" },
+      { "playerId": "player_es2_011_17", "name": "Jordi Martín", "number": 21, "position": "LB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_011_18", "name": "Guillermo Macho", "number": 14, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_011_19", "name": "Borja Calvo", "number": 19, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_011_20", "name": "Roberto López", "number": 18, "position": "CAM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_011_21", "name": "Javi Martínez", "number": 20, "position": "CAM", "country": "ES", "status": "bench" },
+
+      { "playerId": "player_es2_011_22", "name": "Jorge Rastrojo", "number": 23, "position": "LW", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es2_011_23", "name": "Waldo Rubio", "number": 12, "position": "LW", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es2_011_24", "name": "Mariano Carmona", "number": 29, "position": "ST", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es2_011_25", "name": "Pau Cabanes", "number": 99, "position": "ST", "country": "ES", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
