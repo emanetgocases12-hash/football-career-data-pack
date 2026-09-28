@@ -1,12 +1,58 @@
 {
-  "teamKey": "Chels",
+    "teamKey": "Chels",
 
-  "name": "Chelsea",
+    "name": "Chelsea",
 
-  "logo": "assets/logos/europe/england/Chelsea.png",
+    "logo": "assets/logos/europe/england/Chelsea.png",
 
-  "stadium": {
-    "name": "Stamford Bridge",
-    "capacity": 41631
+    "manager": {
+      "name": "Xabi Alonso",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "Stamford Bridge",
+      "capacity": 41631
+    },
+
+    "players": [
+      { "playerId": "player_en_006_01", "name": "Emiliano Martínez", "number": 1, "position": "GK", "country": "AR", "status": "starter" },
+      { "playerId": "player_en_006_02", "name": "Reece James", "number": 24, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_006_03", "name": "Wesley Fofana", "number": 3, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_en_006_04", "name": "Maxence Lacroix", "number": 5, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_en_006_05", "name": "Jorrel Hato", "number": 21, "position": "LB", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_006_06", "name": "Moisés Caicedo", "number": 25, "position": "CDM", "country": "EC", "status": "starter" },
+      { "playerId": "player_en_006_07", "name": "Jordan Henderson", "number": 14, "position": "CM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_006_08", "name": "Cole Palmer", "number": 10, "position": "RW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_006_09", "name": "Morgan Rogers", "number": 17, "position": "CAM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_006_10", "name": "Pedro Neto", "number": 7, "position": "LW", "country": "PT", "status": "starter" },
+      { "playerId": "player_en_006_11", "name": "João Pedro", "number": 9, "position": "ST", "country": "BR", "status": "starter" },
+
+      { "playerId": "player_en_006_12", "name": "Mike Penders", "number": 39, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_en_006_13", "name": "Malo Gusto", "number": 27, "position": "RB", "country": "FR", "status": "bench" },
+      { "playerId": "player_en_006_14", "name": "Levi Colwill", "number": 6, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_006_15", "name": "Valentín Barco", "number": 4, "position": "LB", "country": "AR", "status": "bench" },
+      { "playerId": "player_en_006_16", "name": "Marco Palestra", "number": 2, "position": "RB", "country": "IT", "status": "bench" },
+      { "playerId": "player_en_006_17", "name": "Romeo Lavia", "number": 45, "position": "CDM", "country": "BE", "status": "bench" },
+      { "playerId": "player_en_006_18", "name": "Estêvão", "number": 41, "position": "RW", "country": "BR", "status": "bench" },
+      { "playerId": "player_en_006_19", "name": "Jamie Gittens", "number": 11, "position": "LW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_006_20", "name": "Geovany Quenda", "number": 23, "position": "RW", "country": "PT", "status": "bench" },
+      { "playerId": "player_en_006_21", "name": "Danny Welbeck", "number": 18, "position": "ST", "country": "GB-ENG", "status": "bench" },
+
+      { "playerId": "player_en_006_22", "name": "Teddy Sharman-Lowe", "number": 28, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_006_23", "name": "Aaron Anselmino", "number": 30, "position": "CB", "country": "AR", "status": "reserve" },
+      { "playerId": "player_en_006_24", "name": "Emmanuel Emegha", "number": 22, "position": "ST", "country": "NL", "status": "reserve" },
+      { "playerId": "player_en_006_25", "name": "Josh Acheampong", "number": 34, "position": "CB", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 24,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
