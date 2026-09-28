@@ -1,12 +1,58 @@
 {
-  "teamKey": "Monaco",
+    "teamKey": "Monaco",
 
-  "name": "AS Monaco",
+    "name": "AS Monaco",
 
-  "logo": "assets/logos/europe/france/Monaco.png",
+    "logo": "assets/logos/europe/france/Monaco.png",
 
-  "stadium": {
-    "name": "Stade Louis-II",
-    "capacity": 18525
+    "manager": {
+      "name": "Filipe Luís",
+      "country": "BR"
+    },
+
+    "stadium": {
+      "name": "Stade Louis-II",
+      "capacity": 18525
+    },
+
+    "players": [
+      { "playerId": "player_fr1_011_01", "name": "Lukáš Hrádecký", "number": 1, "position": "GK", "country": "FI", "status": "starter" },
+      { "playerId": "player_fr1_011_02", "name": "Vanderson", "number": 2, "position": "RB", "country": "BR", "status": "starter" },
+      { "playerId": "player_fr1_011_03", "name": "Eric Dier", "number": 15, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_fr1_011_04", "name": "Mohammed Salisu", "number": 22, "position": "CB", "country": "GH", "status": "starter" },
+      { "playerId": "player_fr1_011_05", "name": "Flávio Nazinho", "number": 20, "position": "LB", "country": "PT", "status": "starter" },
+      { "playerId": "player_fr1_011_06", "name": "Denis Zakaria", "number": 6, "position": "CDM", "country": "CH", "status": "starter" },
+      { "playerId": "player_fr1_011_07", "name": "Lamine Camara", "number": 8, "position": "CM", "country": "SN", "status": "starter" },
+      { "playerId": "player_fr1_011_08", "name": "Takumi Minamino", "number": 18, "position": "RW", "country": "JP", "status": "starter" },
+      { "playerId": "player_fr1_011_09", "name": "Aleksandr Golovin", "number": 10, "position": "CAM", "country": "RU", "status": "starter" },
+      { "playerId": "player_fr1_011_10", "name": "Ansu Fati", "number": 31, "position": "LW", "country": "ES", "status": "starter" },
+      { "playerId": "player_fr1_011_11", "name": "Folarin Balogun", "number": 9, "position": "ST", "country": "US", "status": "starter" },
+
+      { "playerId": "player_fr1_011_12", "name": "Philipp Köhn", "number": 16, "position": "GK", "country": "CH", "status": "bench" },
+      { "playerId": "player_fr1_011_13", "name": "Jordan Teze", "number": 4, "position": "RB", "country": "NL", "status": "bench" },
+      { "playerId": "player_fr1_011_14", "name": "Christian Mawissa", "number": 13, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_011_15", "name": "Sadibou Sané", "number": 72, "position": "CB", "country": "SN", "status": "bench" },
+      { "playerId": "player_fr1_011_16", "name": "Samuel Nibombé", "number": 44, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_fr1_011_17", "name": "Stanis Idumbo", "number": 17, "position": "CAM", "country": "BE", "status": "bench" },
+      { "playerId": "player_fr1_011_18", "name": "Mamadou Coulibaly", "number": 28, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_011_19", "name": "Matthis Abline", "number": 11, "position": "ST", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_011_20", "name": "Mika Biereth", "number": 14, "position": "ST", "country": "DK", "status": "bench" },
+      { "playerId": "player_fr1_011_21", "name": "Paris Brunner", "number": 29, "position": "ST", "country": "DE", "status": "bench" },
+
+      { "playerId": "player_fr1_011_22", "name": "Jules Stawiecki", "number": 40, "position": "GK", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_011_23", "name": "Pape Cabral", "number": 19, "position": "CM", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_011_24", "name": "Edan Diop", "number": 37, "position": "CM", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_011_25", "name": "Mathys Detourbet", "number": 7, "position": "RW", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 15,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 18,
+        "cornerLeft": 18,
+        "cornerRight": 18
+      }
+    }
   }
-}
