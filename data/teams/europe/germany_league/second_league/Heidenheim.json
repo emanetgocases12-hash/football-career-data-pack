@@ -1,12 +1,58 @@
 {
-  "teamKey": "Heiden",
+    "teamKey": "Heiden",
 
-  "name": "1.FC Heidenheim 1846",
+    "name": "1.FC Heidenheim 1846",
 
-  "logo": "assets/logos/europe/germany/Heidenheim.png",
+    "logo": "assets/logos/europe/germany/Heidenheim.png",
 
-  "stadium": {
-    "name": "Voith-Arena",
-    "capacity": 15000
+    "manager": {
+      "name": "Frank Schmidt",
+      "country": "DE"
+    },
+
+    "stadium": {
+      "name": "Voith-Arena",
+      "capacity": 15000
+    },
+
+    "players": [
+      { "playerId": "player_de2_009_01", "name": "Frank Feller", "number": 1, "position": "GK", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_009_02", "name": "Omar Haktab Traorè", "number": 2, "position": "RB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_009_03", "name": "Patrick Mainka", "number": 6, "position": "CB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_009_04", "name": "Tim Siersleben", "number": 4, "position": "CB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_009_05", "name": "Jonas Föhrenbach", "number": 19, "position": "LB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_009_06", "name": "Jan Schöppner", "number": 3, "position": "CDM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_009_07", "name": "Luca Kerber", "number": 20, "position": "CM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_009_08", "name": "Christian Conteh", "number": 10, "position": "RW", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_009_09", "name": "Paul Wanner", "number": 8, "position": "CAM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_009_10", "name": "Mathias Honsak", "number": 17, "position": "LW", "country": "AT", "status": "starter" },
+      { "playerId": "player_de2_009_11", "name": "Budu Zivzivadze", "number": 11, "position": "ST", "country": "GE", "status": "starter" },
+
+      { "playerId": "player_de2_009_12", "name": "Thomas Dähne", "number": 33, "position": "GK", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_009_13", "name": "Paul Tschernuth", "number": 34, "position": "GK", "country": "AT", "status": "bench" },
+      { "playerId": "player_de2_009_14", "name": "Mhamdi", "number": 22, "position": "RB", "country": "MA", "status": "bench" },
+      { "playerId": "player_de2_009_15", "name": "Leart Paçarada", "number": 23, "position": "LB", "country": "XK", "status": "bench" },
+      { "playerId": "player_de2_009_16", "name": "Heule", "number": 27, "position": "LB", "country": "CH", "status": "bench" },
+      { "playerId": "player_de2_009_17", "name": "Julian Niehues", "number": 16, "position": "CM", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_009_18", "name": "Sirlord Conteh", "number": 31, "position": "RW", "country": "GH", "status": "bench" },
+      { "playerId": "player_de2_009_19", "name": "Maximilian Breunig", "number": 14, "position": "ST", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_009_20", "name": "Alessandro Vogt", "number": 18, "position": "ST", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_009_21", "name": "Marcel Costly", "number": 24, "position": "RW", "country": "PA", "status": "bench" },
+
+      { "playerId": "player_de2_009_22", "name": "Mikkel Kaufmann", "number": 29, "position": "ST", "country": "DK", "status": "reserve" },
+      { "playerId": "player_de2_009_23", "name": "Yannik Wagner", "number": 38, "position": "ST", "country": "DE", "status": "reserve" },
+      { "playerId": "player_de2_009_24", "name": "Marko Zrilić", "number": 41, "position": "CM", "country": "HR", "status": "reserve" },
+      { "playerId": "player_de2_009_25", "name": "Felix Mark", "number": 40, "position": "GK", "country": "DE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
