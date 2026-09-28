@@ -1,12 +1,58 @@
 {
-  "teamKey": "Vicenz",
+    "teamKey": "Vicenz",
 
-  "name": "LR Vicenza",
+    "name": "LR Vicenza",
 
-  "logo": "assets/logos/europe/italy/Vicenza.png",
+    "logo": "assets/logos/europe/italy/Vicenza.png",
 
-  "stadium": {
-    "name": "Romeo Menti",
-    "capacity": 13173
+    "manager": {
+      "name": "Fabio Gallo",
+      "country": "IT"
+    },
+
+    "stadium": {
+      "name": "Romeo Menti",
+      "capacity": 13173
+    },
+
+    "players": [
+      { "playerId": "player_it2_020_01", "name": "Riccardo Gagno", "number": 16, "position": "GK", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_020_02", "name": "Riccardo Marchizza", "number": 5, "position": "CB", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_020_03", "name": "Maxime Leverbe", "number": 6, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_it2_020_04", "name": "Giuseppe Cuomo", "number": 14, "position": "CB", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_020_05", "name": "Giulio Pellizzari", "number": 26, "position": "RM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_020_06", "name": "Loris Zonta", "number": 29, "position": "CM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_020_07", "name": "Lorenzo Caferri", "number": 28, "position": "CM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_020_08", "name": "Filippo Costa", "number": 32, "position": "LM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_020_09", "name": "Nicola Rauti", "number": 7, "position": "CAM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_020_10", "name": "Gabriele Moncini", "number": 11, "position": "ST", "country": "IT", "status": "starter" },
+      { "playerId": "player_it2_020_11", "name": "Claudio Morra", "number": 9, "position": "ST", "country": "IT", "status": "starter" },
+
+      { "playerId": "player_it2_020_12", "name": "Elia Tantalocchi", "number": 68, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_020_13", "name": "Samuele Massolo", "number": 12, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_020_14", "name": "Thomas Sandon", "number": 27, "position": "CB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_020_15", "name": "Matteo Vescovi", "number": 33, "position": "CB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_020_16", "name": "Nicolò Brighenti", "number": 23, "position": "CB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_020_17", "name": "Tommaso Corazza", "number": 21, "position": "LB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_020_18", "name": "Raul Talarico", "number": 44, "position": "CM", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_020_19", "name": "Mattia Valoti", "number": 8, "position": "CM", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_020_20", "name": "Alessandro Pietrelli", "number": 99, "position": "RW", "country": "IT", "status": "bench" },
+      { "playerId": "player_it2_020_21", "name": "Silvio Merkaj", "number": 17, "position": "ST", "country": "AL", "status": "bench" },
+
+      { "playerId": "player_it2_020_22", "name": "Frank Tsadjout", "number": 19, "position": "ST", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it2_020_23", "name": "Jacopo Romio", "number": 24, "position": "CM", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it2_020_24", "name": "Ettore Broggian", "number": 18, "position": "RW", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it2_020_25", "name": "Marco Carraro", "number": 4, "position": "CDM", "country": "IT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "3-5-2",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 7,
+        "cornerLeft": 32,
+        "cornerRight": 7
+      }
+    }
   }
-}
