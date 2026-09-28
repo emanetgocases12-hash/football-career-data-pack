@@ -1,12 +1,58 @@
 {
-  "teamKey": "Wolfsb",
+    "teamKey": "Wolfsb",
 
-  "name": "VfL Wolfsburg",
+    "name": "VfL Wolfsburg",
 
-  "logo": "assets/logos/europe/germany/Wolfsburg.png",
+    "logo": "assets/logos/europe/germany/Wolfsburg.png",
 
-  "stadium": {
-    "name": "Volkswagen Arena",
-    "capacity": 28917
+    "manager": {
+      "name": "Tobias Strobl",
+      "country": "DE"
+    },
+
+    "stadium": {
+      "name": "Volkswagen Arena",
+      "capacity": 28917
+    },
+
+    "players": [
+      { "playerId": "player_de2_018_01", "name": "Tim Wellenreuther", "number": 1, "position": "GK", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_018_02", "name": "Kilian Fischer", "number": 2, "position": "RB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_018_03", "name": "Wahl", "number": 6, "position": "CB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_018_04", "name": "Adjetey", "number": 18, "position": "CB", "country": "GH", "status": "starter" },
+      { "playerId": "player_de2_018_05", "name": "David Zehnter", "number": 25, "position": "LB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_018_06", "name": "Vinicius Souza", "number": 5, "position": "CDM", "country": "BR", "status": "starter" },
+      { "playerId": "player_de2_018_07", "name": "Maximilian Arnold", "number": 27, "position": "CM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_018_08", "name": "Andreas Skov Olsen", "number": 7, "position": "RW", "country": "DK", "status": "starter" },
+      { "playerId": "player_de2_018_09", "name": "Muhammed Damar", "number": 20, "position": "CAM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_018_10", "name": "Fabian Reese", "number": 11, "position": "LW", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_018_11", "name": "Robert Glatzel", "number": 19, "position": "ST", "country": "DE", "status": "starter" },
+
+      { "playerId": "player_de2_018_12", "name": "Pavao Pervan", "number": 12, "position": "GK", "country": "AT", "status": "bench" },
+      { "playerId": "player_de2_018_13", "name": "Zielinski", "number": 30, "position": "GK", "country": "PL", "status": "bench" },
+      { "playerId": "player_de2_018_14", "name": "Rogerio", "number": 13, "position": "LB", "country": "BR", "status": "bench" },
+      { "playerId": "player_de2_018_15", "name": "Joakim Mæhle", "number": 21, "position": "RB", "country": "DK", "status": "bench" },
+      { "playerId": "player_de2_018_16", "name": "Angély", "number": 22, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_de2_018_17", "name": "Kumbedi", "number": 26, "position": "RB", "country": "FR", "status": "bench" },
+      { "playerId": "player_de2_018_18", "name": "Bence Dárdai", "number": 8, "position": "CM", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_018_19", "name": "Yannick Gerhardt", "number": 31, "position": "CM", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_018_20", "name": "Mattias Svanberg", "number": 32, "position": "CM", "country": "SE", "status": "bench" },
+      { "playerId": "player_de2_018_21", "name": "Aster Vranckx", "number": 36, "position": "CM", "country": "BE", "status": "bench" },
+
+      { "playerId": "player_de2_018_22", "name": "Ryoya Shiogai", "number": 9, "position": "ST", "country": "JP", "status": "reserve" },
+      { "playerId": "player_de2_018_23", "name": "Fraser Hornby", "number": 10, "position": "ST", "country": "GB-SCT", "status": "reserve" },
+      { "playerId": "player_de2_018_24", "name": "Noah Weißhaupt Bernhardsson", "number": 17, "position": "RW", "country": "SE", "status": "reserve" },
+      { "playerId": "player_de2_018_25", "name": "Besio", "number": 23, "position": "ST", "country": "CH", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
