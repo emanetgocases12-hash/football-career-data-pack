@@ -1,12 +1,58 @@
 {
-  "teamKey": "B Lever",
+    "teamKey": "B Lever",
 
-  "name": "Bayer 04 Leverkusen",
+    "name": "Bayer 04 Leverkusen",
 
-  "logo": "assets/logos/europe/germany/Leverkusen.png",
+    "logo": "assets/logos/europe/germany/Leverkusen.png",
 
-  "stadium": {
-    "name": "BayArena",
-    "capacity": 30210
+    "manager": {
+      "name": "Carles Martínez",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "BayArena",
+      "capacity": 30210
+    },
+
+    "players": [
+      { "playerId": "player_de1_011_01", "name": "Mark Flekken", "number": 1, "position": "GK", "country": "NL", "status": "starter" },
+      { "playerId": "player_de1_011_02", "name": "Lucas Vázquez", "number": 17, "position": "RB", "country": "ES", "status": "starter" },
+      { "playerId": "player_de1_011_03", "name": "Jarell Quansah", "number": 4, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_de1_011_04", "name": "Loïc Badé", "number": 5, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_de1_011_05", "name": "Miguel Gutiérrez", "number": 3, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_de1_011_06", "name": "Robert Andrich", "number": 8, "position": "CDM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_011_07", "name": "Aleix García", "number": 24, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_de1_011_08", "name": "Moussa Diaby", "number": 19, "position": "RW", "country": "FR", "status": "starter" },
+      { "playerId": "player_de1_011_09", "name": "Malik Tillman", "number": 10, "position": "CAM", "country": "US", "status": "starter" },
+      { "playerId": "player_de1_011_10", "name": "Martin Terrier", "number": 11, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_de1_011_11", "name": "Patrik Schick", "number": 14, "position": "ST", "country": "CZ", "status": "starter" },
+
+      { "playerId": "player_de1_011_12", "name": "Janis Blaswich", "number": 28, "position": "GK", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_011_13", "name": "Niklas Lomb", "number": 36, "position": "GK", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_011_14", "name": "Facundo Medina", "number": 2, "position": "CB", "country": "AR", "status": "bench" },
+      { "playerId": "player_de1_011_15", "name": "Edmond Tapsoba", "number": 12, "position": "CB", "country": "BF", "status": "bench" },
+      { "playerId": "player_de1_011_16", "name": "Tim Oermann", "number": 15, "position": "CB", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_011_17", "name": "Guéla Doué", "number": 20, "position": "RB", "country": "CI", "status": "bench" },
+      { "playerId": "player_de1_011_18", "name": "Ezequiel Fernández", "number": 6, "position": "CM", "country": "AR", "status": "bench" },
+      { "playerId": "player_de1_011_19", "name": "Ibrahim Maza", "number": 30, "position": "CAM", "country": "DZ", "status": "bench" },
+      { "playerId": "player_de1_011_20", "name": "Eliesse Ben Seghir", "number": 29, "position": "CAM", "country": "MA", "status": "bench" },
+      { "playerId": "player_de1_011_21", "name": "Nathan Tella", "number": 23, "position": "RW", "country": "NG", "status": "bench" },
+
+      { "playerId": "player_de1_011_22", "name": "Victor Boniface", "number": 22, "position": "ST", "country": "NG", "status": "reserve" },
+      { "playerId": "player_de1_011_23", "name": "Afonso Moreira", "number": 9, "position": "LW", "country": "PT", "status": "reserve" },
+      { "playerId": "player_de1_011_24", "name": "Christian Kofane", "number": 35, "position": "ST", "country": "CM", "status": "reserve" },
+      { "playerId": "player_de1_011_25", "name": "Kennet Eichhorn", "number": 18, "position": "CM", "country": "DE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 14,
+        "freeKick": 19,
+        "cornerLeft": 19,
+        "cornerRight": 19
+      }
+    }
   }
-}
