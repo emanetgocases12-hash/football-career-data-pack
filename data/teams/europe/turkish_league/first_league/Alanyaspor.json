@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Alanya.png",
 
+  "manager": {
+    "name": "João Pereira",
+    "country": "PT"
+  },
+
   "stadium": {
     "name": "Alanya Oba Stadyumu",
     "capacity": 9727
+  },
+
+  "players": [
+    { "playerId": "player_tr_004_01", "name": "Paulo Victor", "number": 48, "position": "GK", "country": "BR", "status": "starter" },
+    { "playerId": "player_tr_004_02", "name": "Nuno Lima", "number": 3, "position": "CB", "country": "PT", "status": "starter" },
+    { "playerId": "player_tr_004_03", "name": "Fidan Aliti", "number": 5, "position": "CB", "country": "XK", "status": "starter" },
+    { "playerId": "player_tr_004_04", "name": "Fatih Aksoy", "number": 20, "position": "CB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_004_05", "name": "Florent Hadergjonaj", "number": 94, "position": "RM", "country": "XK", "status": "starter" },
+    { "playerId": "player_tr_004_06", "name": "Gaius Makouta", "number": 42, "position": "CDM", "country": "CG", "status": "starter" },
+    { "playerId": "player_tr_004_07", "name": "Baran Ali Gezek", "number": 55, "position": "CM", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_004_08", "name": "Ruan Duarte", "number": 11, "position": "LM", "country": "BR", "status": "starter" },
+    { "playerId": "player_tr_004_09", "name": "Paolo Fernandes", "number": 22, "position": "RW", "country": "ES", "status": "starter" },
+    { "playerId": "player_tr_004_10", "name": "Ui-jo Hwang", "number": 16, "position": "CAM", "country": "KR", "status": "starter" },
+    { "playerId": "player_tr_004_11", "name": "Ivan Cedric", "number": 19, "position": "ST", "country": "CM", "status": "starter" },
+
+    { "playerId": "player_tr_004_12", "name": "Mert Furkan Bayram", "number": 23, "position": "GK", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_004_13", "name": "Bedirhan Özyurt", "number": 4, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_004_14", "name": "Maestro", "number": 58, "position": "CDM", "country": "AO", "status": "bench" },
+    { "playerId": "player_tr_004_15", "name": "Yusuf Özdemir", "number": 88, "position": "LM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_004_16", "name": "Enes Keskin", "number": 8, "position": "RM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_004_17", "name": "İzzet Çelik", "number": 26, "position": "CM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_004_18", "name": "Ianis Hagi", "number": 10, "position": "CAM", "country": "RO", "status": "bench" },
+    { "playerId": "player_tr_004_19", "name": "İbrahim Kaya", "number": 7, "position": "CAM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_004_20", "name": "Meschack Elia", "number": 12, "position": "LW", "country": "CD", "status": "bench" },
+    { "playerId": "player_tr_004_21", "name": "Arda Usluoğlu", "number": 17, "position": "ST", "country": "TR", "status": "bench" },
+
+    { "playerId": "player_tr_004_22", "name": "Mahmut Can Kara", "number": 1, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_004_23", "name": "Emre Demir", "number": 14, "position": "CAM", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_004_24", "name": "Şahin Dik", "number": 28, "position": "CM", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_004_25", "name": "Omar Ben Ali", "number": 9, "position": "ST", "country": "TN", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "3-4-2-1",
+    "captain": 5,
+    "setPieces": {
+      "penalty": 16,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 94
+    }
   }
 }
