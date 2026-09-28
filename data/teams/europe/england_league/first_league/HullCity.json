@@ -1,12 +1,58 @@
 {
-  "teamKey": "Hull",
+    "teamKey": "Hull",
 
-  "name": "Hull City",
+    "name": "Hull City",
 
-  "logo": "assets/logos/europe/england/Hull.png",
+    "logo": "assets/logos/europe/england/Hull.png",
 
-  "stadium": {
-    "name": "MKM Stadium",
-    "capacity": 25586
+    "manager": {
+      "name": "Sergej Jakirović",
+      "country": "BA"
+    },
+
+    "stadium": {
+      "name": "MKM Stadium",
+      "capacity": 25586
+    },
+
+    "players": [
+      { "playerId": "player_en_011_01", "name": "Jack Butland", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_011_02", "name": "Lewie Coyle", "number": 2, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_011_03", "name": "Charlie Hughes", "number": 4, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_011_04", "name": "Semi Ajayi", "number": 6, "position": "CB", "country": "NG", "status": "starter" },
+      { "playerId": "player_en_011_05", "name": "Matt Targett", "number": 23, "position": "LB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_011_06", "name": "Hidemasa Morita", "number": 5, "position": "CDM", "country": "JP", "status": "starter" },
+      { "playerId": "player_en_011_07", "name": "Tim Iroegbunam", "number": 42, "position": "CM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_011_08", "name": "Sorba Thomas", "number": 7, "position": "RW", "country": "GB-WLS", "status": "starter" },
+      { "playerId": "player_en_011_09", "name": "Mohamed Belloumi", "number": 10, "position": "CAM", "country": "DZ", "status": "starter" },
+      { "playerId": "player_en_011_10", "name": "Mohamed-Ali Cho", "number": 50, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_en_011_11", "name": "Oliver McBurnie", "number": 9, "position": "ST", "country": "GB-SCT", "status": "starter" },
+
+      { "playerId": "player_en_011_12", "name": "Dillon Phillips", "number": 12, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_011_13", "name": "Paddy McNair", "number": 17, "position": "CB", "country": "GB-NIR", "status": "bench" },
+      { "playerId": "player_en_011_14", "name": "John Egan", "number": 15, "position": "CB", "country": "IE", "status": "bench" },
+      { "playerId": "player_en_011_15", "name": "Ryan Giles", "number": 3, "position": "LB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_011_16", "name": "Brooke Norton-Cuffy", "number": 18, "position": "RB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_011_17", "name": "Lucas Gourna-Douath", "number": 29, "position": "CDM", "country": "FR", "status": "bench" },
+      { "playerId": "player_en_011_18", "name": "Eliot Matazo", "number": 8, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_en_011_19", "name": "Matt Crooks", "number": 25, "position": "CAM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_011_20", "name": "Joe Gelhardt", "number": 11, "position": "RW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_011_21", "name": "Ilyas Ansah", "number": 28, "position": "LW", "country": "DE", "status": "bench" },
+
+      { "playerId": "player_en_011_22", "name": "Konstantinos Tzolakis", "number": 19, "position": "GK", "country": "GR", "status": "reserve" },
+      { "playerId": "player_en_011_23", "name": "Nobel Mendy", "number": 32, "position": "CB", "country": "SN", "status": "reserve" },
+      { "playerId": "player_en_011_24", "name": "Jens Hjerto-Dahl", "number": 14, "position": "CM", "country": "NO", "status": "reserve" },
+      { "playerId": "player_en_011_25", "name": "Elliot Stroud", "number": 21, "position": "LM", "country": "SE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
