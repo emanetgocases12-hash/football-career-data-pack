@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bayern",
+    "teamKey": "Bayern",
 
-  "name": "Bayern Munich",
+    "name": "Bayern Munich",
 
-  "logo": "assets/logos/europe/germany/Bayern.png",
+    "logo": "assets/logos/europe/germany/Bayern.png",
 
-  "stadium": {
-    "name": "Allianz Arena",
-    "capacity": 75000
+    "manager": {
+      "name": "Vincent Kompany",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "Allianz Arena",
+      "capacity": 75000
+    },
+
+    "players": [
+      { "playerId": "player_de1_002_01", "name": "Manuel Neuer", "number": 1, "position": "GK", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_002_02", "name": "Konrad Laimer", "number": 27, "position": "RB", "country": "AT", "status": "starter" },
+      { "playerId": "player_de1_002_03", "name": "Dayot Upamecano", "number": 2, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_de1_002_04", "name": "Jonathan Tah", "number": 4, "position": "CB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_002_05", "name": "Alphonso Davies", "number": 19, "position": "LB", "country": "CA", "status": "starter" },
+      { "playerId": "player_de1_002_06", "name": "Joshua Kimmich", "number": 6, "position": "CDM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_002_07", "name": "Aleksandar Pavlović", "number": 45, "position": "CM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_002_08", "name": "Michael Olise", "number": 17, "position": "RW", "country": "FR", "status": "starter" },
+      { "playerId": "player_de1_002_09", "name": "Jamal Musiala", "number": 10, "position": "CAM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_002_10", "name": "Luis Díaz", "number": 14, "position": "LW", "country": "CO", "status": "starter" },
+      { "playerId": "player_de1_002_11", "name": "Harry Kane", "number": 9, "position": "ST", "country": "GB-ENG", "status": "starter" },
+
+      { "playerId": "player_de1_002_12", "name": "Jonas Urbig", "number": 40, "position": "GK", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_002_13", "name": "Sven Ulreich", "number": 26, "position": "GK", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_002_14", "name": "Kim Min-Jae", "number": 3, "position": "CB", "country": "KR", "status": "bench" },
+      { "playerId": "player_de1_002_15", "name": "Hiroki Ito", "number": 21, "position": "CB", "country": "JP", "status": "bench" },
+      { "playerId": "player_de1_002_16", "name": "Josip Stanišić", "number": 44, "position": "RB", "country": "HR", "status": "bench" },
+      { "playerId": "player_de1_002_17", "name": "Nathaniel Brown", "number": 11, "position": "LB", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_002_18", "name": "Tom Bischof", "number": 8, "position": "CM", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_002_19", "name": "Ismael Saibari", "number": 34, "position": "CM", "country": "MA", "status": "bench" },
+      { "playerId": "player_de1_002_20", "name": "Serge Gnabry", "number": 7, "position": "RW", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_002_21", "name": "Lennart Karl", "number": 42, "position": "CAM", "country": "DE", "status": "bench" },
+
+      { "playerId": "player_de1_002_22", "name": "Bara Sapoko Ndiaye", "number": 39, "position": "CM", "country": "SN", "status": "reserve" },
+      { "playerId": "player_de1_002_23", "name": "David Santos Daiber", "number": 47, "position": "CM", "country": "PT", "status": "reserve" },
+      { "playerId": "player_de1_002_24", "name": "Maycon Cardozo", "number": 49, "position": "RW", "country": "BR", "status": "reserve" },
+      { "playerId": "player_de1_002_25", "name": "Wisdom Mike", "number": 36, "position": "LW", "country": "DE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 17,
+        "cornerLeft": 17,
+        "cornerRight": 17
+      }
+    }
   }
-}
