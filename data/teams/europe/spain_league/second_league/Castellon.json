@@ -1,12 +1,58 @@
 {
-  "teamKey": "Castel",
+    "teamKey": "Castel",
 
-  "name": "CD Castellón",
+    "name": "CD Castellón",
 
-  "logo": "assets/logos/europe/spain/Castellon.png",
+    "logo": "assets/logos/europe/spain/Castellon.png",
 
-  "stadium": {
-    "name": "SkyFi Castalia",
-    "capacity": 15500
+    "manager": {
+      "name": "Pablo Hernández",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "SkyFi Castalia",
+      "capacity": 15500
+    },
+
+    "players": [
+      { "playerId": "player_es2_006_01", "name": "Romain Matthys", "number": 1, "position": "GK", "country": "BE", "status": "starter" },
+      { "playerId": "player_es2_006_02", "name": "Jérémy Mellot", "number": 2, "position": "RB", "country": "FR", "status": "starter" },
+      { "playerId": "player_es2_006_03", "name": "Agustín Sienra", "number": 4, "position": "CB", "country": "AR", "status": "starter" },
+      { "playerId": "player_es2_006_04", "name": "Alberto Jiménez", "number": 5, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_006_05", "name": "Lucas Alcázar", "number": 3, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_006_06", "name": "Matías Orozco", "number": 6, "position": "CDM", "country": "CO", "status": "starter" },
+      { "playerId": "player_es2_006_07", "name": "Fran Castillo", "number": 8, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_006_08", "name": "Rodrigo Rêgo", "number": 7, "position": "RW", "country": "PT", "status": "starter" },
+      { "playerId": "player_es2_006_09", "name": "Israel Suero", "number": 10, "position": "CAM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_006_10", "name": "Iñigo Córdoba", "number": 11, "position": "LW", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_006_11", "name": "Ousmane Camara", "number": 9, "position": "ST", "country": "GN", "status": "starter" },
+
+      { "playerId": "player_es2_006_12", "name": "Sergi Torner", "number": 13, "position": "GK", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_006_13", "name": "Amir Saipi", "number": 25, "position": "GK", "country": "XK", "status": "bench" },
+      { "playerId": "player_es2_006_14", "name": "Juanjo Nieto", "number": 22, "position": "RB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_006_15", "name": "Fabrizio Brignani", "number": 15, "position": "CB", "country": "IT", "status": "bench" },
+      { "playerId": "player_es2_006_16", "name": "Ilias Kostis", "number": 16, "position": "CB", "country": "GR", "status": "bench" },
+      { "playerId": "player_es2_006_17", "name": "Federico Ceccherini", "number": 20, "position": "CB", "country": "IT", "status": "bench" },
+      { "playerId": "player_es2_006_18", "name": "Tincho Conde", "number": 17, "position": "LB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_006_19", "name": "Diego Barri", "number": 14, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_006_20", "name": "Jari Vlak", "number": 19, "position": "CM", "country": "NL", "status": "bench" },
+      { "playerId": "player_es2_006_21", "name": "Álvaro Martín", "number": 28, "position": "CM", "country": "ES", "status": "bench" },
+
+      { "playerId": "player_es2_006_22", "name": "Hamza Bellari", "number": 24, "position": "RW", "country": "MA", "status": "reserve" },
+      { "playerId": "player_es2_006_23", "name": "Raúl Sánchez", "number": 23, "position": "LW", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es2_006_24", "name": "Pablo Santiago", "number": 12, "position": "LW", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es2_006_25", "name": "Adam Jakobsen", "number": 18, "position": "ST", "country": "DK", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
