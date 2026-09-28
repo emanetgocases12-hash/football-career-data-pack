@@ -1,12 +1,58 @@
 {
-  "teamKey": "Teuta",
+    "teamKey": "Teuta",
 
-  "name": "KF Teuta",
+    "name": "KF Teuta",
 
-  "logo": "assets/logos/europe/albania/Teuta.png",
+    "logo": "assets/logos/europe/albania/Teuta.png",
 
-  "stadium": {
-    "name": "Stadiumi Niko Dovana",
-    "capacity": 12000
+    "manager": {
+      "name": "Edlir Tetova",
+      "country": "AL"
+    },
+
+    "stadium": {
+      "name": "Stadiumi Niko Dovana",
+      "capacity": 12000
+    },
+
+    "players": [
+      { "playerId": "player_al1_007_01", "name": "Paul Bernardoni", "number": 30, "position": "GK", "country": "FR", "status": "starter" },
+      { "playerId": "player_al1_007_02", "name": "A. Fangaj", "number": 44, "position": "RB", "country": "AL", "status": "starter" },
+      { "playerId": "player_al1_007_03", "name": "Ilir Kukleci", "number": 5, "position": "CB", "country": "XK", "status": "starter" },
+      { "playerId": "player_al1_007_04", "name": "V. Zogos", "number": 3, "position": "CB", "country": "AL", "status": "starter" },
+      { "playerId": "player_al1_007_05", "name": "F. Pergjoni", "number": 18, "position": "LB", "country": "AL", "status": "starter" },
+      { "playerId": "player_al1_007_06", "name": "X. Maçolli", "number": 8, "position": "CDM", "country": "AL", "status": "starter" },
+      { "playerId": "player_al1_007_07", "name": "E. Mala", "number": 20, "position": "CM", "country": "AL", "status": "starter" },
+      { "playerId": "player_al1_007_08", "name": "K. Daci", "number": 7, "position": "RW", "country": "AL", "status": "starter" },
+      { "playerId": "player_al1_007_09", "name": "Sherif Kallaku", "number": 10, "position": "CAM", "country": "AL", "status": "starter" },
+      { "playerId": "player_al1_007_10", "name": "M. Boçi", "number": 11, "position": "LW", "country": "AL", "status": "starter" },
+      { "playerId": "player_al1_007_11", "name": "Pedro Martelo", "number": 9, "position": "ST", "country": "PT", "status": "starter" },
+
+      { "playerId": "player_al1_007_12", "name": "Elton Vata", "number": 12, "position": "GK", "country": "AL", "status": "bench" },
+      { "playerId": "player_al1_007_13", "name": "Maycon Douglas Morales", "number": 73, "position": "GK", "country": "BR", "status": "bench" },
+      { "playerId": "player_al1_007_14", "name": "A. Jazxhi", "number": 4, "position": "CB", "country": "AL", "status": "bench" },
+      { "playerId": "player_al1_007_15", "name": "G. Bajrami", "number": 6, "position": "CB", "country": "AL", "status": "bench" },
+      { "playerId": "player_al1_007_16", "name": "Gledis Troplini", "number": 31, "position": "CB", "country": "AL", "status": "bench" },
+      { "playerId": "player_al1_007_17", "name": "Oliveira Vitinho", "number": 43, "position": "RB", "country": "BR", "status": "bench" },
+      { "playerId": "player_al1_007_18", "name": "M. A. Umejiego", "number": 99, "position": "CB", "country": "NG", "status": "bench" },
+      { "playerId": "player_al1_007_19", "name": "S. Huna", "number": 13, "position": "CM", "country": "AL", "status": "bench" },
+      { "playerId": "player_al1_007_20", "name": "Kliti Muha", "number": 27, "position": "CM", "country": "AL", "status": "bench" },
+      { "playerId": "player_al1_007_21", "name": "Eljano Qorrasi", "number": 28, "position": "CM", "country": "AL", "status": "bench" },
+
+      { "playerId": "player_al1_007_22", "name": "A. Toli", "number": 77, "position": "CM", "country": "AL", "status": "reserve" },
+      { "playerId": "player_al1_007_23", "name": "D. Wotlia", "number": 91, "position": "CM", "country": "GH", "status": "reserve" },
+      { "playerId": "player_al1_007_24", "name": "G. Kuqi", "number": 16, "position": "ST", "country": "AL", "status": "reserve" },
+      { "playerId": "player_al1_007_25", "name": "X. Trifoni", "number": 70, "position": "ST", "country": "AL", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
