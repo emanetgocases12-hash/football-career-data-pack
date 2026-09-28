@@ -1,12 +1,58 @@
 {
-  "teamKey": "Man C.",
+    "teamKey": "Man C.",
 
-  "name": "Manchester City",
+    "name": "Manchester City",
 
-  "logo": "assets/logos/europe/england/City.png",
+    "logo": "assets/logos/europe/england/City.png",
 
-  "stadium": {
-    "name": "Etihad Stadium",
-    "capacity": 61000
+    "manager": {
+      "name": "Enzo Maresca",
+      "country": "IT"
+    },
+
+    "stadium": {
+      "name": "Etihad Stadium",
+      "capacity": 61000
+    },
+
+    "players": [
+      { "playerId": "player_en_015_01", "name": "Gianluigi Donnarumma", "number": 1, "position": "GK", "country": "IT", "status": "starter" },
+      { "playerId": "player_en_015_02", "name": "Rico Lewis", "number": 82, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_015_03", "name": "Rúben Dias", "number": 3, "position": "CB", "country": "PT", "status": "starter" },
+      { "playerId": "player_en_015_04", "name": "Marc Guéhi", "number": 6, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_015_05", "name": "Joško Gvardiol", "number": 24, "position": "LB", "country": "HR", "status": "starter" },
+      { "playerId": "player_en_015_06", "name": "Elliot Anderson", "number": 5, "position": "CDM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_015_07", "name": "Enzo Fernández", "number": 17, "position": "CM", "country": "AR", "status": "starter" },
+      { "playerId": "player_en_015_08", "name": "Antoine Semenyo", "number": 42, "position": "RW", "country": "GH", "status": "starter" },
+      { "playerId": "player_en_015_09", "name": "Rayan Cherki", "number": 10, "position": "CAM", "country": "FR", "status": "starter" },
+      { "playerId": "player_en_015_10", "name": "Phil Foden", "number": 47, "position": "LW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_015_11", "name": "Erling Haaland", "number": 9, "position": "ST", "country": "NO", "status": "starter" },
+
+      { "playerId": "player_en_015_12", "name": "Gerónimo Rulli", "number": 28, "position": "GK", "country": "AR", "status": "bench" },
+      { "playerId": "player_en_015_13", "name": "Abdukodir Khusanov", "number": 45, "position": "CB", "country": "UZ", "status": "bench" },
+      { "playerId": "player_en_015_14", "name": "Rayan Aït-Nouri", "number": 21, "position": "LB", "country": "DZ", "status": "bench" },
+      { "playerId": "player_en_015_15", "name": "Matheus Nunes", "number": 27, "position": "RB", "country": "PT", "status": "bench" },
+      { "playerId": "player_en_015_16", "name": "Mateo Kovačić", "number": 8, "position": "CM", "country": "HR", "status": "bench" },
+      { "playerId": "player_en_015_17", "name": "Nico O'Reilly", "number": 33, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_015_18", "name": "Jérémy Doku", "number": 11, "position": "LW", "country": "BE", "status": "bench" },
+      { "playerId": "player_en_015_19", "name": "Iliman Ndiaye", "number": 7, "position": "RW", "country": "SN", "status": "bench" },
+      { "playerId": "player_en_015_20", "name": "Claudio Echeverri", "number": 30, "position": "CAM", "country": "AR", "status": "bench" },
+      { "playerId": "player_en_015_21", "name": "Vitor Reis", "number": 22, "position": "CB", "country": "BR", "status": "bench" },
+
+      { "playerId": "player_en_015_22", "name": "Marcus Bettinelli", "number": 13, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_015_23", "name": "Ayyoub Bouaddi", "number": 32, "position": "CM", "country": "FR", "status": "reserve" },
+      { "playerId": "player_en_015_24", "name": "Allan", "number": 37, "position": "RW", "country": "BR", "status": "reserve" },
+      { "playerId": "player_en_015_25", "name": "Ryan McAidoo", "number": 56, "position": "RW", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 47,
+        "cornerRight": 10
+      }
+    }
   }
-}
