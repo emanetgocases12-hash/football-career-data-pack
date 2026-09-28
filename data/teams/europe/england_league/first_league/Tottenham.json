@@ -1,12 +1,58 @@
-{
-  "teamKey": "Spurs",
+ {
+    "teamKey": "Spurs",
 
-  "name": "Tottenham Hotspur",
+    "name": "Tottenham Hotspur",
 
-  "logo": "assets/logos/europe/england/Tottenham.png",
+    "logo": "assets/logos/europe/england/Tottenham.png",
 
-  "stadium": {
-    "name": "Tottenham Hotspur Stadium",
-    "capacity": 62850
+    "manager": {
+      "name": "Roberto De Zerbi",
+      "country": "IT"
+    },
+
+    "stadium": {
+      "name": "Tottenham Hotspur Stadium",
+      "capacity": 62850
+    },
+
+    "players": [
+      { "playerId": "player_en_020_01", "name": "Antonín Kinský", "number": 31, "position": "GK", "country": "CZ", "status": "starter" },
+      { "playerId": "player_en_020_02", "name": "Pedro Porro", "number": 23, "position": "RB", "country": "ES", "status": "starter" },
+      { "playerId": "player_en_020_03", "name": "Jan Paul van Hecke", "number": 6, "position": "CB", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_020_04", "name": "Micky van de Ven", "number": 37, "position": "CB", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_020_05", "name": "Andy Robertson", "number": 3, "position": "LB", "country": "GB-SCT", "status": "starter" },
+      { "playerId": "player_en_020_06", "name": "Sandro Tonali", "number": 16, "position": "CDM", "country": "IT", "status": "starter" },
+      { "playerId": "player_en_020_07", "name": "Conor Gallagher", "number": 8, "position": "CM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_020_08", "name": "Sávio", "number": 17, "position": "RW", "country": "BR", "status": "starter" },
+      { "playerId": "player_en_020_09", "name": "James Maddison", "number": 10, "position": "CAM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_020_10", "name": "Xavi Simons", "number": 7, "position": "LW", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_020_11", "name": "Dominic Solanke", "number": 19, "position": "ST", "country": "GB-ENG", "status": "starter" },
+
+      { "playerId": "player_en_020_12", "name": "Martin Dúbravka", "number": 39, "position": "GK", "country": "SK", "status": "bench" },
+      { "playerId": "player_en_020_13", "name": "Tosin Adarabioyo", "number": 4, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_020_14", "name": "Marcos Senesi", "number": 5, "position": "CB", "country": "AR", "status": "bench" },
+      { "playerId": "player_en_020_15", "name": "Destiny Udogie", "number": 13, "position": "LB", "country": "IT", "status": "bench" },
+      { "playerId": "player_en_020_16", "name": "Rodrigo Bentancur", "number": 30, "position": "CM", "country": "UY", "status": "bench" },
+      { "playerId": "player_en_020_17", "name": "Mateus Fernandes", "number": 18, "position": "CM", "country": "PT", "status": "bench" },
+      { "playerId": "player_en_020_18", "name": "Mohammed Kudus", "number": 20, "position": "RW", "country": "GH", "status": "bench" },
+      { "playerId": "player_en_020_19", "name": "Dejan Kulusevski", "number": 21, "position": "RW", "country": "SE", "status": "bench" },
+      { "playerId": "player_en_020_20", "name": "Omar Marmoush", "number": 22, "position": "ST", "country": "EG", "status": "bench" },
+      { "playerId": "player_en_020_21", "name": "Mykhailo Mudryk", "number": 27, "position": "LW", "country": "UA", "status": "bench" },
+
+      { "playerId": "player_en_020_22", "name": "Brandon Austin", "number": 40, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_020_23", "name": "Ben Davies", "number": 33, "position": "CB", "country": "GB-WLS", "status": "reserve" },
+      { "playerId": "player_en_020_24", "name": "Wilson Odobert", "number": 28, "position": "RW", "country": "FR", "status": "reserve" },
+      { "playerId": "player_en_020_25", "name": "Mathys Tel", "number": 11, "position": "ST", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 37,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 23
+      }
+    }
   }
-}
