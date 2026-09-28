@@ -1,12 +1,58 @@
 {
-  "teamKey": "Monza",
+    "teamKey": "Monza",
 
-  "name": "AC Monza",
+    "name": "AC Monza",
 
-  "logo": "assets/logos/europe/italy/Monza.png",
+    "logo": "assets/logos/europe/italy/Monza.png",
 
-  "stadium": {
-    "name": "Brianteo",
-    "capacity": 17102
+    "manager": {
+      "name": "Ivan Jurić",
+      "country": "HR"
+    },
+
+    "stadium": {
+      "name": "Brianteo",
+      "capacity": 17102
+    },
+
+    "players": [
+      { "playerId": "player_it1_013_01", "name": "Noel Törnqvist", "number": 1, "position": "GK", "country": "SE", "status": "starter" },
+      { "playerId": "player_it1_013_02", "name": "Samuele Birindelli", "number": 19, "position": "CB", "country": "IT", "status": "starter" },
+      { "playerId": "player_it1_013_03", "name": "Andrea Carboni", "number": 44, "position": "CB", "country": "IT", "status": "starter" },
+      { "playerId": "player_it1_013_04", "name": "Lorenzo Lucchesi", "number": 3, "position": "CB", "country": "IT", "status": "starter" },
+      { "playerId": "player_it1_013_05", "name": "Eddy Kouadio", "number": 60, "position": "RM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it1_013_06", "name": "Michael Folorunsho", "number": 8, "position": "CM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it1_013_07", "name": "Ebenezer Akinsanmiro", "number": 21, "position": "CM", "country": "NG", "status": "starter" },
+      { "playerId": "player_it1_013_08", "name": "Ricardo Mangas", "number": 11, "position": "LM", "country": "PT", "status": "starter" },
+      { "playerId": "player_it1_013_09", "name": "Andrea Colpani", "number": 28, "position": "CAM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it1_013_10", "name": "Cyril Ngonge", "number": 10, "position": "CAM", "country": "BE", "status": "starter" },
+      { "playerId": "player_it1_013_11", "name": "Gustavo Varela", "number": 9, "position": "ST", "country": "PT", "status": "starter" },
+
+      { "playerId": "player_it1_013_12", "name": "Demba Thiam", "number": 20, "position": "GK", "country": "SN", "status": "bench" },
+      { "playerId": "player_it1_013_13", "name": "Aljaž Strajnar", "number": 43, "position": "GK", "country": "SI", "status": "bench" },
+      { "playerId": "player_it1_013_14", "name": "Valentin Antov", "number": 6, "position": "CB", "country": "BG", "status": "bench" },
+      { "playerId": "player_it1_013_15", "name": "Adam Bakoune", "number": 24, "position": "RB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_013_16", "name": "Saba Goglichidze", "number": 5, "position": "CB", "country": "GE", "status": "bench" },
+      { "playerId": "player_it1_013_17", "name": "Jan Ziółkowski", "number": 2, "position": "CB", "country": "PL", "status": "bench" },
+      { "playerId": "player_it1_013_18", "name": "Idrissa Touré", "number": 15, "position": "CM", "country": "DE", "status": "bench" },
+      { "playerId": "player_it1_013_19", "name": "Jay Robinson", "number": 17, "position": "RW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_it1_013_20", "name": "Exequiel Zeballos", "number": 7, "position": "LW", "country": "AR", "status": "bench" },
+      { "playerId": "player_it1_013_21", "name": "Patrick Cutrone", "number": 63, "position": "ST", "country": "IT", "status": "bench" },
+
+      { "playerId": "player_it1_013_22", "name": "Dany Mota", "number": 47, "position": "ST", "country": "PT", "status": "reserve" },
+      { "playerId": "player_it1_013_23", "name": "Yvan Maye", "number": 32, "position": "CB", "country": "FR", "status": "reserve" },
+      { "playerId": "player_it1_013_24", "name": "Pedro Obiang", "number": 14, "position": "CDM", "country": "GQ", "status": "reserve" },
+      { "playerId": "player_it1_013_25", "name": "Patrick Ciurria", "number": 26, "position": "RW", "country": "IT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "3-4-2-1",
+      "captain": 28,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 28,
+        "cornerLeft": 10,
+        "cornerRight": 28
+      }
+    }
   }
-}
