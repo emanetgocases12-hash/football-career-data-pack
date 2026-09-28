@@ -1,12 +1,58 @@
 {
-  "teamKey": "Gijon",
+    "teamKey": "Gijon",
 
-  "name": "Sporting Gijón",
+    "name": "Sporting Gijón",
 
-  "logo": "assets/logos/europe/spain/Gijon.png",
+    "logo": "assets/logos/europe/spain/Gijon.png",
 
-  "stadium": {
-    "name": "El Molinón - Enrique Castro 'Quini'",
-    "capacity": 29371
+    "manager": {
+      "name": "Nicolás Larcamón",
+      "country": "AR"
+    },
+
+    "stadium": {
+      "name": "El Molinón - Enrique Castro 'Quini'",
+      "capacity": 29371
+    },
+
+    "players": [
+      { "playerId": "player_es2_012_01", "name": "Rubén Yáñez", "number": 1, "position": "GK", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_012_02", "name": "Guille Rosas", "number": 2, "position": "RB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_012_03", "name": "Diego Sánchez", "number": 4, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_012_04", "name": "Jorge Sáenz", "number": 5, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_012_05", "name": "Pablo García", "number": 3, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_012_06", "name": "Mamadou Loum", "number": 6, "position": "CDM", "country": "SN", "status": "starter" },
+      { "playerId": "player_es2_012_07", "name": "Nacho Martín", "number": 8, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_012_08", "name": "César Gelabert", "number": 10, "position": "CAM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_012_09", "name": "Gaspar Campos", "number": 11, "position": "LW", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_012_10", "name": "Juan Otero", "number": 9, "position": "ST", "country": "CO", "status": "starter" },
+      { "playerId": "player_es2_012_11", "name": "Queipo", "number": 7, "position": "RW", "country": "ES", "status": "starter" },
+
+      { "playerId": "player_es2_012_12", "name": "Egoitz Arana", "number": 13, "position": "GK", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_012_13", "name": "Emanuel Gularte", "number": 15, "position": "CB", "country": "UY", "status": "bench" },
+      { "playerId": "player_es2_012_14", "name": "Aimar Duñabeitia", "number": 16, "position": "CB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_012_15", "name": "Pablo Vázquez", "number": 20, "position": "CB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_012_16", "name": "Andrés Cuenca", "number": 26, "position": "CB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_012_17", "name": "Hugo Guillamón", "number": 18, "position": "CDM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_012_18", "name": "Àlex Corredera", "number": 14, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_012_19", "name": "Manu Rodríguez", "number": 19, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_012_20", "name": "Nikita Iosifov", "number": 23, "position": "LW", "country": "RU", "status": "bench" },
+      { "playerId": "player_es2_012_21", "name": "Konrad de la Fuente", "number": 12, "position": "LW", "country": "US", "status": "bench" },
+
+      { "playerId": "player_es2_012_22", "name": "Alejo Sarco", "number": 29, "position": "ST", "country": "AR", "status": "reserve" },
+      { "playerId": "player_es2_012_23", "name": "Andrés Ferrari", "number": 99, "position": "ST", "country": "UY", "status": "reserve" },
+      { "playerId": "player_es2_012_24", "name": "Antonio Casas", "number": 17, "position": "ST", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es2_012_25", "name": "Nacho Méndez", "number": 28, "position": "CM", "country": "ES", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
