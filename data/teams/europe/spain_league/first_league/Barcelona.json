@@ -1,12 +1,58 @@
 {
-  "teamKey": "Barca",
+    "teamKey": "Barca",
 
-  "name": "FC Barcelona",
+    "name": "FC Barcelona",
 
-  "logo": "assets/logos/europe/spain/Barcelona.png",
+    "logo": "assets/logos/europe/spain/Barcelona.png",
 
-  "stadium": {
-    "name": "Spotify Camp Nou",
-    "capacity": 62657
+    "manager": {
+      "name": "Hansi Flick",
+      "country": "DE"
+    },
+
+    "stadium": {
+      "name": "Spotify Camp Nou",
+      "capacity": 62657
+    },
+
+    "players": [
+      { "playerId": "player_es_004_01", "name": "Joan García", "number": 1, "position": "GK", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_004_02", "name": "João Cancelo", "number": 2, "position": "RB", "country": "PT", "status": "starter" },
+      { "playerId": "player_es_004_03", "name": "Jules Koundé", "number": 23, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_es_004_04", "name": "Pau Cubarsí", "number": 5, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_004_05", "name": "Alejandro Balde", "number": 3, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_004_06", "name": "Rodri", "number": 16, "position": "CDM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_004_07", "name": "Pedri", "number": 8, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_004_08", "name": "Dani Olmo", "number": 20, "position": "CAM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_004_09", "name": "Lamine Yamal", "number": 10, "position": "RW", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_004_10", "name": "Raphinha", "number": 11, "position": "LW", "country": "BR", "status": "starter" },
+      { "playerId": "player_es_004_11", "name": "Gabriel Jesus", "number": 9, "position": "ST", "country": "BR", "status": "starter" },
+
+      { "playerId": "player_es_004_12", "name": "Wojciech Szczęsny", "number": 13, "position": "GK", "country": "PL", "status": "bench" },
+      { "playerId": "player_es_004_13", "name": "Andreas Christensen", "number": 15, "position": "CB", "country": "DK", "status": "bench" },
+      { "playerId": "player_es_004_14", "name": "Eric García", "number": 24, "position": "CB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es_004_15", "name": "Gerard Martín", "number": 18, "position": "LB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es_004_16", "name": "Gavi", "number": 6, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es_004_17", "name": "Frenkie de Jong", "number": 21, "position": "CM", "country": "NL", "status": "bench" },
+      { "playerId": "player_es_004_18", "name": "Fermín López", "number": 7, "position": "CAM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es_004_19", "name": "Karim Adeyemi", "number": 14, "position": "RW", "country": "DE", "status": "bench" },
+      { "playerId": "player_es_004_20", "name": "Anthony Gordon", "number": 17, "position": "LW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_es_004_21", "name": "Roony Bardghji", "number": 19, "position": "RW", "country": "SE", "status": "bench" },
+
+      { "playerId": "player_es_004_22", "name": "Dominik Livaković", "number": 25, "position": "GK", "country": "HR", "status": "reserve" },
+      { "playerId": "player_es_004_23", "name": "Brian Fariñas", "number": 4, "position": "CM", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es_004_24", "name": "Marc Bernal", "number": 22, "position": "CDM", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es_004_25", "name": "Xavi Espart", "number": 12, "position": "RB", "country": "ES", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 11,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
