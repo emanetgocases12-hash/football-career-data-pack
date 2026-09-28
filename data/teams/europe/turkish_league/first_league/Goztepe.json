@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Goztepe.png",
 
+  "manager": {
+    "name": "Stanimir Stoilov",
+    "country": "BG"
+  },
+
   "stadium": {
     "name": "Gürsel Aksel Stadyumu",
     "capacity": 23376
+  },
+
+  "players": [
+    { "playerId": "player_tr_012_01", "name": "Arda Özçimen", "number": 1, "position": "GK", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_012_02", "name": "Taha Altıkardeş", "number": 4, "position": "CB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_012_03", "name": "Ege Yıldırım", "number": 13, "position": "CB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_012_04", "name": "Malcom Bokele", "number": 26, "position": "CB", "country": "CM", "status": "starter" },
+    { "playerId": "player_tr_012_05", "name": "Arda Okan Kurtulan", "number": 2, "position": "RB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_012_06", "name": "Rhaldney", "number": 5, "position": "CDM", "country": "BR", "status": "starter" },
+    { "playerId": "player_tr_012_07", "name": "Alex Matos", "number": 6, "position": "CM", "country": "GB-ENG", "status": "starter" },
+    { "playerId": "player_tr_012_08", "name": "Richard Akonnor", "number": 12, "position": "LB", "country": "AE", "status": "starter" },
+    { "playerId": "player_tr_012_09", "name": "Efkan Bekiroğlu", "number": 10, "position": "CAM", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_012_10", "name": "Janderson", "number": 39, "position": "ST", "country": "BR", "status": "starter" },
+    { "playerId": "player_tr_012_11", "name": "Juan", "number": 9, "position": "ST", "country": "BR", "status": "starter" },
+
+    { "playerId": "player_tr_012_12", "name": "Luka Gugeshashvili", "number": 25, "position": "GK", "country": "GE", "status": "bench" },
+    { "playerId": "player_tr_012_13", "name": "Allan Godoi", "number": 3, "position": "CB", "country": "BR", "status": "bench" },
+    { "playerId": "player_tr_012_14", "name": "Furkan Bayır", "number": 23, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_012_15", "name": "Ogün Bayrak", "number": 16, "position": "RB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_012_16", "name": "Novatus Miroshi", "number": 20, "position": "CDM", "country": "TZ", "status": "bench" },
+    { "playerId": "player_tr_012_17", "name": "Alexis Antunes", "number": 8, "position": "CAM", "country": "CH", "status": "bench" },
+    { "playerId": "player_tr_012_18", "name": "Tino Anjorin", "number": 18, "position": "CM", "country": "GB-ENG", "status": "bench" },
+    { "playerId": "player_tr_012_19", "name": "Andre Henrique", "number": 7, "position": "ST", "country": "BR", "status": "bench" },
+    { "playerId": "player_tr_012_20", "name": "Sinclair Armstrong", "number": 22, "position": "ST", "country": "IE", "status": "bench" },
+    { "playerId": "player_tr_012_21", "name": "Gökdeniz Bayrakdar", "number": 17, "position": "LW", "country": "TR", "status": "bench" },
+
+    { "playerId": "player_tr_012_22", "name": "Mehmet Şamil Öztürk", "number": 33, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_012_23", "name": "Noah Sonko Sundberg", "number": 19, "position": "CB", "country": "GM", "status": "reserve" },
+    { "playerId": "player_tr_012_24", "name": "Bekir Turaç Böke", "number": 14, "position": "ST", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_012_25", "name": "Yusuf Ali Şirin", "number": 66, "position": "CAM", "country": "TR", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "3-5-2",
+    "captain": 2,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 10,
+      "cornerLeft": 5,
+      "cornerRight": 10
+    }
   }
 }
