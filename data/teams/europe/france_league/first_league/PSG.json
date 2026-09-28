@@ -1,12 +1,58 @@
 {
-  "teamKey": "PSG",
+    "teamKey": "PSG",
 
-  "name": "Paris Saint-Germain",
+    "name": "Paris Saint-Germain",
 
-  "logo": "assets/logos/europe/france/PSG.png",
+    "logo": "assets/logos/europe/france/PSG.png",
 
-  "stadium": {
-    "name": "Parc des Princes",
-    "capacity": 48583
+    "manager": {
+      "name": "Luis Enrique",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "Parc des Princes",
+      "capacity": 48583
+    },
+
+    "players": [
+      { "playerId": "player_fr1_013_01", "name": "Lucas Chevalier", "number": 30, "position": "GK", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_013_02", "name": "Achraf Hakimi", "number": 2, "position": "RB", "country": "MA", "status": "starter" },
+      { "playerId": "player_fr1_013_03", "name": "Marquinhos", "number": 5, "position": "CB", "country": "BR", "status": "starter" },
+      { "playerId": "player_fr1_013_04", "name": "Willian Pacho", "number": 51, "position": "CB", "country": "EC", "status": "starter" },
+      { "playerId": "player_fr1_013_05", "name": "Nuno Mendes", "number": 25, "position": "LB", "country": "PT", "status": "starter" },
+      { "playerId": "player_fr1_013_06", "name": "João Neves", "number": 87, "position": "CDM", "country": "PT", "status": "starter" },
+      { "playerId": "player_fr1_013_07", "name": "Vitinha", "number": 17, "position": "CM", "country": "PT", "status": "starter" },
+      { "playerId": "player_fr1_013_08", "name": "Ousmane Dembélé", "number": 10, "position": "RW", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_013_09", "name": "Maghnes Akliouche", "number": 11, "position": "CAM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_013_10", "name": "Khvicha Kvaratskhelia", "number": 7, "position": "LW", "country": "GE", "status": "starter" },
+      { "playerId": "player_fr1_013_11", "name": "Ferran Torres", "number": 9, "position": "ST", "country": "ES", "status": "starter" },
+
+      { "playerId": "player_fr1_013_12", "name": "Matvey Safonov", "number": 39, "position": "GK", "country": "RU", "status": "bench" },
+      { "playerId": "player_fr1_013_13", "name": "Lucas Beraldo", "number": 4, "position": "CB", "country": "BR", "status": "bench" },
+      { "playerId": "player_fr1_013_14", "name": "Illia Zabarnyi", "number": 6, "position": "CB", "country": "UA", "status": "bench" },
+      { "playerId": "player_fr1_013_15", "name": "Lucas Digne", "number": 12, "position": "LB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_013_16", "name": "Lucas Hernández", "number": 21, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_013_17", "name": "Fabián Ruiz", "number": 8, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_fr1_013_18", "name": "Warren Zaïre-Emery", "number": 33, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_013_19", "name": "Désiré Doué", "number": 14, "position": "CAM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_013_20", "name": "Mika Godts", "number": 22, "position": "LW", "country": "BE", "status": "bench" },
+      { "playerId": "player_fr1_013_21", "name": "Senny Mayulu", "number": 24, "position": "CM", "country": "FR", "status": "bench" },
+
+      { "playerId": "player_fr1_013_22", "name": "Alessandro Longoni", "number": 16, "position": "GK", "country": "IT", "status": "reserve" },
+      { "playerId": "player_fr1_013_23", "name": "Dro Fernández", "number": 27, "position": "CAM", "country": "ES", "status": "reserve" },
+      { "playerId": "player_fr1_013_24", "name": "Quentin Ndjantou", "number": 47, "position": "ST", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_013_25", "name": "Adam Mouak", "number": 80, "position": "CM", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
