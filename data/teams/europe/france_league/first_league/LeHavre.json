@@ -1,12 +1,58 @@
 {
-  "teamKey": "LeHavr",
+    "teamKey": "LeHavr",
 
-  "name": "Le Havre AC",
+    "name": "Le Havre AC",
 
-  "logo": "assets/logos/europe/france/LeHavre.png",
+    "logo": "assets/logos/europe/france/LeHavre.png",
 
-  "stadium": {
-    "name": "Stade Océane",
-    "capacity": 25178
+    "manager": {
+      "name": "Didier Digard",
+      "country": "FR"
+    },
+
+    "stadium": {
+      "name": "Stade Océane",
+      "capacity": 25178
+    },
+
+    "players": [
+      { "playerId": "player_fr1_004_01", "name": "Mory Diaw", "number": 1, "position": "GK", "country": "SN", "status": "starter" },
+      { "playerId": "player_fr1_004_02", "name": "Elias Jelert", "number": 12, "position": "RB", "country": "DK", "status": "starter" },
+      { "playerId": "player_fr1_004_03", "name": "Ahmed Touba", "number": 5, "position": "CB", "country": "DZ", "status": "starter" },
+      { "playerId": "player_fr1_004_04", "name": "Ayumu Seko", "number": 15, "position": "CB", "country": "JP", "status": "starter" },
+      { "playerId": "player_fr1_004_05", "name": "Timothée Pembele", "number": 32, "position": "LB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_004_06", "name": "Rassoul Ndiaye", "number": 14, "position": "CDM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_004_07", "name": "Amir Richardson", "number": 7, "position": "CM", "country": "MA", "status": "starter" },
+      { "playerId": "player_fr1_004_08", "name": "Sota Nakamura", "number": 30, "position": "RW", "country": "JP", "status": "starter" },
+      { "playerId": "player_fr1_004_09", "name": "Kaito Mizuta", "number": 17, "position": "CAM", "country": "JP", "status": "starter" },
+      { "playerId": "player_fr1_004_10", "name": "Felix Mambimbi", "number": 10, "position": "LW", "country": "CH", "status": "starter" },
+      { "playerId": "player_fr1_004_11", "name": "Josh Maja", "number": 9, "position": "ST", "country": "NG", "status": "starter" },
+
+      { "playerId": "player_fr1_004_12", "name": "Mathieu Gorgelin", "number": 16, "position": "GK", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_004_13", "name": "Vincent Sasso", "number": 23, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_004_14", "name": "Stephan Zagadou", "number": 29, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_004_15", "name": "Djibril Ouziad", "number": 20, "position": "LB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_004_16", "name": "Junior Mwanga", "number": 6, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_004_17", "name": "Mathéo Bodmer", "number": 21, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_004_18", "name": "Simon Ebonog", "number": 26, "position": "CM", "country": "CM", "status": "bench" },
+      { "playerId": "player_fr1_004_19", "name": "Guy Noël Zohouri", "number": 24, "position": "RM", "country": "CI", "status": "bench" },
+      { "playerId": "player_fr1_004_20", "name": "Joan Tincres", "number": 19, "position": "ST", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_004_21", "name": "Mbwana Samatta", "number": 25, "position": "ST", "country": "TZ", "status": "bench" },
+
+      { "playerId": "player_fr1_004_22", "name": "Arthur Desmas", "number": 40, "position": "GK", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_004_23", "name": "Enzo Koffi", "number": 27, "position": "LW", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_004_24", "name": "Rayan Fofana", "number": 38, "position": "ST", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_004_25", "name": "Yassine Kechta", "number": 8, "position": "CM", "country": "MA", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 30,
+        "cornerLeft": 30,
+        "cornerRight": 30
+      }
+    }
   }
-}
