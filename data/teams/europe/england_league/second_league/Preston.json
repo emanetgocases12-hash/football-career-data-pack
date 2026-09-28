@@ -1,12 +1,58 @@
 {
-  "teamKey": "Prestn",
+    "teamKey": "Prestn",
 
-  "name": "Preston North End",
+    "name": "Preston North End",
 
-  "logo": "assets/logos/europe/england/Preston.png",
+    "logo": "assets/logos/europe/england/Preston.png",
 
-  "stadium": {
-    "name": "Deepdale",
-    "capacity": 23408
+    "manager": {
+      "name": "Jason Euell",
+      "country": "JM"
+    },
+
+    "stadium": {
+      "name": "Deepdale",
+      "capacity": 23408
+    },
+
+    "players": [
+      { "playerId": "player_en2_014_01", "name": "Daniel Iversen", "number": 1, "position": "GK", "country": "DK", "status": "starter" },
+      { "playerId": "player_en2_014_02", "name": "Pol Valentín", "number": 2, "position": "RB", "country": "ES", "status": "starter" },
+      { "playerId": "player_en2_014_03", "name": "Jordan Storey", "number": 14, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_014_04", "name": "Liam Lindsay", "number": 6, "position": "CB", "country": "GB-SCT", "status": "starter" },
+      { "playerId": "player_en2_014_05", "name": "Caleb Wiley", "number": 12, "position": "LB", "country": "US", "status": "starter" },
+      { "playerId": "player_en2_014_06", "name": "Ali McCann", "number": 8, "position": "CDM", "country": "GB-NIR", "status": "starter" },
+      { "playerId": "player_en2_014_07", "name": "Léo Leroy", "number": 27, "position": "CM", "country": "FR", "status": "starter" },
+      { "playerId": "player_en2_014_08", "name": "Stanley Mills", "number": 17, "position": "RW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_014_09", "name": "Alfie Devine", "number": 7, "position": "CAM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_014_10", "name": "Thierry Small", "number": 11, "position": "LW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_014_11", "name": "Jusef Erabi", "number": 9, "position": "ST", "country": "SE", "status": "starter" },
+
+      { "playerId": "player_en2_014_12", "name": "Lee Nicholls", "number": 21, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_014_13", "name": "Harry Clarke", "number": 4, "position": "RB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_014_14", "name": "Andrew Hughes", "number": 16, "position": "CB", "country": "GB-WLS", "status": "bench" },
+      { "playerId": "player_en2_014_15", "name": "Lewis Gibson", "number": 19, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_014_16", "name": "Andrija Vukčević", "number": 3, "position": "LB", "country": "ME", "status": "bench" },
+      { "playerId": "player_en2_014_17", "name": "Liam Gibbs", "number": 20, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_014_18", "name": "Andy Moran", "number": 23, "position": "CAM", "country": "IE", "status": "bench" },
+      { "playerId": "player_en2_014_19", "name": "Brad Potts", "number": 44, "position": "RM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_014_20", "name": "Callum Lang", "number": 10, "position": "ST", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_014_21", "name": "Johnny Kenny", "number": 38, "position": "ST", "country": "IE", "status": "bench" },
+
+      { "playerId": "player_en2_014_22", "name": "Li-Bau Stowell", "number": 41, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_014_23", "name": "Odel Offiah", "number": 24, "position": "CB", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_014_24", "name": "Delano Burgzorg", "number": 37, "position": "LW", "country": "NL", "status": "reserve" },
+      { "playerId": "player_en2_014_25", "name": "George Gryba", "number": 30, "position": "ST", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 14,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 17,
+        "cornerRight": 7
+      }
+    }
   }
-}
