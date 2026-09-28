@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Erzurum.png",
 
+  "manager": {
+    "name": "Serkan Özbalta",
+    "country": "TR"
+  },
+
   "stadium": {
     "name": "Erzurum Kazım Karabekir",
     "capacity": 21374
+  },
+
+  "players": [
+    { "playerId": "player_tr_008_01", "name": "Ertuğrul Taşkıran", "number": 1, "position": "GK", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_008_02", "name": "Orhan Ovacıklı", "number": 53, "position": "RB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_008_03", "name": "Mustafa Yumlu", "number": 22, "position": "CB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_008_04", "name": "Amar Gerxhaliu", "number": 4, "position": "CB", "country": "XK", "status": "starter" },
+    { "playerId": "player_tr_008_05", "name": "Nihad Mujakić", "number": 18, "position": "CB", "country": "BA", "status": "starter" },
+    { "playerId": "player_tr_008_06", "name": "Guram Giorbelidze", "number": 15, "position": "LB", "country": "GE", "status": "starter" },
+    { "playerId": "player_tr_008_07", "name": "Brandon Baiye", "number": 6, "position": "CDM", "country": "BE", "status": "starter" },
+    { "playerId": "player_tr_008_08", "name": "Elisha Owusu", "number": 42, "position": "CM", "country": "GH", "status": "starter" },
+    { "playerId": "player_tr_008_09", "name": "Martín Rodríguez", "number": 65, "position": "RM", "country": "CL", "status": "starter" },
+    { "playerId": "player_tr_008_10", "name": "Miguel Cardoso", "number": 20, "position": "LM", "country": "PT", "status": "starter" },
+    { "playerId": "player_tr_008_11", "name": "Eren Tozlu", "number": 10, "position": "ST", "country": "TR", "status": "starter" },
+
+    { "playerId": "player_tr_008_12", "name": "Matija Orbanić", "number": 31, "position": "GK", "country": "HR", "status": "bench" },
+    { "playerId": "player_tr_008_13", "name": "Festy Ebosele", "number": 2, "position": "RB", "country": "IE", "status": "bench" },
+    { "playerId": "player_tr_008_14", "name": "Cengizhan Bayrak", "number": 23, "position": "LB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_008_15", "name": "Yakup Kırtay", "number": 3, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_008_16", "name": "Sefa Akgün", "number": 8, "position": "CM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_008_17", "name": "Lawrence Agyekum", "number": 77, "position": "CM", "country": "GH", "status": "bench" },
+    { "playerId": "player_tr_008_18", "name": "Mustafa Fettahoğlu", "number": 99, "position": "LW", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_008_19", "name": "Gyrano Kerk", "number": 9, "position": "RW", "country": "SR", "status": "bench" },
+    { "playerId": "player_tr_008_20", "name": "Ibrahim Diabaté", "number": 19, "position": "ST", "country": "CI", "status": "bench" },
+    { "playerId": "player_tr_008_21", "name": "Nariman Akhundzada", "number": 90, "position": "ST", "country": "AZ", "status": "bench" },
+
+    { "playerId": "player_tr_008_22", "name": "Erkan Anapa", "number": 17, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_008_23", "name": "Emirhan Acar", "number": 21, "position": "CM", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_008_24", "name": "Ömer Arda Kara", "number": 25, "position": "CB", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_008_25", "name": "Emre Erdem", "number": 0, "position": "CB", "country": "TR", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "5-4-1",
+    "captain": 22,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 10,
+      "cornerLeft": 20,
+      "cornerRight": 65
+    }
   }
 }
