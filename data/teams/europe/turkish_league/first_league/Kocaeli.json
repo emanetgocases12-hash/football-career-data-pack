@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Kocaeli.png",
 
+  "manager": {
+    "name": "Selçuk İnan",
+    "country": "TR"
+  },
+
   "stadium": {
     "name": "Turka Araç Muayene Kocaeli Stadyumu",
     "capacity": 34829
+  },
+
+  "players": [
+    { "playerId": "player_tr_014_01", "name": "Serhat Öztaşdelen", "number": 83, "position": "GK", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_014_02", "name": "Uğur Kaan Yıldız", "number": 22, "position": "RB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_014_03", "name": "Anfernee Dijksteel", "number": 2, "position": "CB", "country": "SR", "status": "starter" },
+    { "playerId": "player_tr_014_04", "name": "Emir Ortakaya", "number": 5, "position": "CB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_014_05", "name": "Massadio Haïdara", "number": 21, "position": "LB", "country": "ML", "status": "starter" },
+    { "playerId": "player_tr_014_06", "name": "Manuel Cafumana", "number": 14, "position": "CDM", "country": "AO", "status": "starter" },
+    { "playerId": "player_tr_014_07", "name": "Mahamadou Susoho", "number": 20, "position": "CM", "country": "ES", "status": "starter" },
+    { "playerId": "player_tr_014_08", "name": "Berkan Kutlu", "number": 10, "position": "CM", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_014_09", "name": "Daniel Agyei", "number": 7, "position": "RW", "country": "GH", "status": "starter" },
+    { "playerId": "player_tr_014_10", "name": "Gonçalo Sousa", "number": 11, "position": "LW", "country": "PT", "status": "starter" },
+    { "playerId": "player_tr_014_11", "name": "Bruno Petković", "number": 9, "position": "ST", "country": "HR", "status": "starter" },
+
+    { "playerId": "player_tr_014_12", "name": "Aleksandar Jovanović", "number": 1, "position": "GK", "country": "RS", "status": "bench" },
+    { "playerId": "player_tr_014_13", "name": "Tanguy Zoukrou", "number": 4, "position": "CB", "country": "FR", "status": "bench" },
+    { "playerId": "player_tr_014_14", "name": "Matej Maglica", "number": 6, "position": "CB", "country": "HR", "status": "bench" },
+    { "playerId": "player_tr_014_15", "name": "Muharrem Cinan", "number": 3, "position": "LB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_014_16", "name": "Tayfur Bingöl", "number": 75, "position": "RB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_014_17", "name": "Tobias Gulliksen", "number": 8, "position": "CAM", "country": "NO", "status": "bench" },
+    { "playerId": "player_tr_014_18", "name": "Makana Baku", "number": 32, "position": "LW", "country": "DE", "status": "bench" },
+    { "playerId": "player_tr_014_19", "name": "Florian Ayé", "number": 97, "position": "ST", "country": "FR", "status": "bench" },
+    { "playerId": "player_tr_014_20", "name": "Metehan Altunbaş", "number": 26, "position": "ST", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_014_21", "name": "Rigoberto Rivas", "number": 99, "position": "LW", "country": "HN", "status": "bench" },
+
+    { "playerId": "player_tr_014_22", "name": "Onurcan Piri", "number": 23, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_014_23", "name": "Onur Öztonga", "number": 41, "position": "CB", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_014_24", "name": "Mustafa Ege Bilim", "number": 27, "position": "CM", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_014_25", "name": "Bedirhan Yıldız", "number": 89, "position": "RW", "country": "TR", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 21,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 11
+    }
   }
 }
