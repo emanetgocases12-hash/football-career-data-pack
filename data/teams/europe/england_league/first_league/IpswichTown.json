@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ipswic",
+    "teamKey": "Ipswic",
 
-  "name": "Ipswich Town",
+    "name": "Ipswich Town",
 
-  "logo": "assets/logos/europe/england/Ipswich.png",
+    "logo": "assets/logos/europe/england/Ipswich.png",
 
-  "stadium": {
-    "name": "Portman Road",
-    "capacity": 30056
+    "manager": {
+      "name": "Gary O'Neil",
+      "country": "GB-ENG"
+    },
+
+    "stadium": {
+      "name": "Portman Road",
+      "capacity": 30056
+    },
+
+    "players": [
+      { "playerId": "player_en_012_01", "name": "Alex Palmer", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_012_02", "name": "Darnell Furlong", "number": 2, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_012_03", "name": "Dara O'Shea", "number": 26, "position": "CB", "country": "IE", "status": "starter" },
+      { "playerId": "player_en_012_04", "name": "Issa Diop", "number": 6, "position": "CB", "country": "MA", "status": "starter" },
+      { "playerId": "player_en_012_05", "name": "Leif Davis", "number": 3, "position": "LB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_012_06", "name": "Florentino", "number": 12, "position": "CDM", "country": "PT", "status": "starter" },
+      { "playerId": "player_en_012_07", "name": "Exequiel Palacios", "number": 25, "position": "CM", "country": "AR", "status": "starter" },
+      { "playerId": "player_en_012_08", "name": "Abdul Fatawu", "number": 7, "position": "RW", "country": "GH", "status": "starter" },
+      { "playerId": "player_en_012_09", "name": "Julio Enciso", "number": 10, "position": "CAM", "country": "PY", "status": "starter" },
+      { "playerId": "player_en_012_10", "name": "Jack Clarke", "number": 47, "position": "LW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_012_11", "name": "Zian Flemming", "number": 9, "position": "ST", "country": "NL", "status": "starter" },
+
+      { "playerId": "player_en_012_12", "name": "Kjell Scherpen", "number": 37, "position": "GK", "country": "NL", "status": "bench" },
+      { "playerId": "player_en_012_13", "name": "Cedric Kipré", "number": 4, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_en_012_14", "name": "Jacob Greaves", "number": 24, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_012_15", "name": "Azor Matusiwa", "number": 5, "position": "CDM", "country": "NL", "status": "bench" },
+      { "playerId": "player_en_012_16", "name": "Saša Lukić", "number": 23, "position": "CM", "country": "RS", "status": "bench" },
+      { "playerId": "player_en_012_17", "name": "Marcelino Núñez", "number": 32, "position": "CM", "country": "CL", "status": "bench" },
+      { "playerId": "player_en_012_18", "name": "Jaden Philogene", "number": 11, "position": "RW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_012_19", "name": "Daizen Maeda", "number": 38, "position": "LW", "country": "JP", "status": "bench" },
+      { "playerId": "player_en_012_20", "name": "Chuba Akpom", "number": 29, "position": "ST", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_012_21", "name": "Emersonn", "number": 19, "position": "ST", "country": "BR", "status": "bench" },
+
+      { "playerId": "player_en_012_22", "name": "David Button", "number": 27, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_012_23", "name": "Sindre Walle Egeli", "number": 8, "position": "RW", "country": "NO", "status": "reserve" },
+      { "playerId": "player_en_012_24", "name": "Anis Mehmeti", "number": 33, "position": "LW", "country": "AL", "status": "reserve" },
+      { "playerId": "player_en_012_25", "name": "Abdoul Ouattara", "number": 42, "position": "LB", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 26,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 3
+      }
+    }
   }
-}
