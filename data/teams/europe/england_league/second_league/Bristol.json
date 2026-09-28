@@ -1,12 +1,58 @@
 {
-  "teamKey": "Brstol",
+    "teamKey": "Brstol",
 
-  "name": "Bristol City",
+    "name": "Bristol City",
 
-  "logo": "assets/logos/europe/england/Bristol.png",
+    "logo": "assets/logos/europe/england/Bristol.png",
 
-  "stadium": {
-    "name": "Ashton Gate",
-    "capacity": 27000
+    "manager": {
+      "name": "Michael Skubala",
+      "country": "GB-ENG"
+    },
+
+    "stadium": {
+      "name": "Ashton Gate",
+      "capacity": 27000
+    },
+
+    "players": [
+      { "playerId": "player_en2_004_01", "name": "Sam Tickle", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_004_02", "name": "George Tanner", "number": 19, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_004_03", "name": "Rob Dickie", "number": 16, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_004_04", "name": "Luke McNally", "number": 15, "position": "CB", "country": "IE", "status": "starter" },
+      { "playerId": "player_en2_004_05", "name": "Cameron Pring", "number": 3, "position": "LB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_004_06", "name": "Brian De Keersmaecker", "number": 6, "position": "CDM", "country": "BE", "status": "starter" },
+      { "playerId": "player_en2_004_07", "name": "Jason Knight", "number": 12, "position": "CM", "country": "IE", "status": "starter" },
+      { "playerId": "player_en2_004_08", "name": "Yu Hirakawa", "number": 7, "position": "RW", "country": "JP", "status": "starter" },
+      { "playerId": "player_en2_004_09", "name": "Scott Twine", "number": 10, "position": "CAM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_004_10", "name": "Sam Bell", "number": 11, "position": "LW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_004_11", "name": "Elijah Adebayo", "number": 45, "position": "ST", "country": "GB-ENG", "status": "starter" },
+
+      { "playerId": "player_en2_004_12", "name": "Bradley Collins", "number": 40, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_004_13", "name": "Lisav Eissat", "number": 2, "position": "RB", "country": "RO", "status": "bench" },
+      { "playerId": "player_en2_004_14", "name": "Rob Atkinson", "number": 5, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_004_15", "name": "Noah Eile", "number": 38, "position": "CB", "country": "SE", "status": "bench" },
+      { "playerId": "player_en2_004_16", "name": "Adam Randell", "number": 4, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_004_17", "name": "Joe Williams", "number": 8, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_004_18", "name": "Tomi Horvat", "number": 14, "position": "CAM", "country": "SI", "status": "bench" },
+      { "playerId": "player_en2_004_19", "name": "Jed Wallace", "number": 17, "position": "RW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_004_20", "name": "Sam Greenwood", "number": 20, "position": "LW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_004_21", "name": "Lorent Tolaj", "number": 9, "position": "ST", "country": "CH", "status": "bench" },
+
+      { "playerId": "player_en2_004_22", "name": "Lewis Thomas", "number": 32, "position": "GK", "country": "GB-WLS", "status": "reserve" },
+      { "playerId": "player_en2_004_23", "name": "Rio Cardines", "number": 21, "position": "RB", "country": "TT", "status": "reserve" },
+      { "playerId": "player_en2_004_24", "name": "Dominic Ballard", "number": 23, "position": "ST", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_004_25", "name": "Gibson Yah", "number": 27, "position": "CM", "country": "NL", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 12,
+      "setPieces": {
+        "penalty": 45,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 10
+      }
+    }
   }
-}
