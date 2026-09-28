@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Gencler.png",
 
+  "manager": {
+    "name": "Metin Diyadin",
+    "country": "TR"
+  },
+
   "stadium": {
     "name": "Eryaman Stadyumu",
     "capacity": 20000
+  },
+
+  "players": [
+    { "playerId": "player_tr_011_01", "name": "İrfan Can Eğribayat", "number": 70, "position": "GK", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_011_02", "name": "Pedro Pereira", "number": 13, "position": "RB", "country": "PT", "status": "starter" },
+    { "playerId": "player_tr_011_03", "name": "Dimitrios Goutas", "number": 6, "position": "CB", "country": "GR", "status": "starter" },
+    { "playerId": "player_tr_011_04", "name": "Thalisson Kelven", "number": 2, "position": "CB", "country": "BR", "status": "starter" },
+    { "playerId": "player_tr_011_05", "name": "Abdurrahim Dursun", "number": 77, "position": "LB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_011_06", "name": "Oğulcan Ülgün", "number": 35, "position": "CDM", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_011_07", "name": "Ousmane Diabate", "number": 42, "position": "CM", "country": "GN", "status": "starter" },
+    { "playerId": "player_tr_011_08", "name": "Adama Traoré", "number": 14, "position": "CAM", "country": "ML", "status": "starter" },
+    { "playerId": "player_tr_011_09", "name": "Tiago Gouveia", "number": 7, "position": "RW", "country": "PT", "status": "starter" },
+    { "playerId": "player_tr_011_10", "name": "Franco Tongya", "number": 10, "position": "LW", "country": "IT", "status": "starter" },
+    { "playerId": "player_tr_011_11", "name": "Sékou Koïta", "number": 20, "position": "ST", "country": "ML", "status": "starter" },
+
+    { "playerId": "player_tr_011_12", "name": "Gökhan Akkan", "number": 23, "position": "GK", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_011_13", "name": "Metehan Baltacı", "number": 90, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_011_14", "name": "Kevin Rodrigues", "number": 11, "position": "LB", "country": "PT", "status": "bench" },
+    { "playerId": "player_tr_011_15", "name": "Cheikh Niasse", "number": 19, "position": "CDM", "country": "SN", "status": "bench" },
+    { "playerId": "player_tr_011_16", "name": "Salih Uçan", "number": 48, "position": "CM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_011_17", "name": "Rafael Luís", "number": 83, "position": "CM", "country": "PT", "status": "bench" },
+    { "playerId": "player_tr_011_18", "name": "Pedro Mendes", "number": 9, "position": "ST", "country": "PT", "status": "bench" },
+    { "playerId": "player_tr_011_19", "name": "Fıratcan Üzüm", "number": 88, "position": "RW", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_011_20", "name": "Victor Orakpo", "number": 12, "position": "ST", "country": "NG", "status": "bench" },
+    { "playerId": "player_tr_011_21", "name": "Prince Martor", "number": 45, "position": "ST", "country": "LR", "status": "bench" },
+
+    { "playerId": "player_tr_011_22", "name": "Berk Deniz Çukurcu", "number": 1, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_011_23", "name": "Yiğit Hamza Aydar", "number": 3, "position": "LB", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_011_24", "name": "Muhammet Ensar Çavuşoğlu", "number": 53, "position": "CB", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_011_25", "name": "Zafer Göktuğ Erdem", "number": 52, "position": "LW", "country": "TR", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-1-4-1",
+    "captain": 6,
+    "setPieces": {
+      "penalty": 20,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 7
+    }
   }
 }
