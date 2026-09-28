@@ -1,12 +1,58 @@
 {
-  "teamKey": "Brendf",
+    "teamKey": "Brendf",
 
-  "name": "Brentford FC",
+    "name": "Brentford FC",
 
-  "logo": "assets/logos/europe/england/Brentford.png",
+    "logo": "assets/logos/europe/england/Brentford.png",
 
-  "stadium": {
-    "name": "Gtech Community Stadium",
-    "capacity": 17250
+    "manager": {
+      "name": "Keith Andrews",
+      "country": "IE"
+    },
+
+    "stadium": {
+      "name": "Gtech Community Stadium",
+      "capacity": 17250
+    },
+
+    "players": [
+      { "playerId": "player_en_004_01", "name": "Caoimhín Kelleher", "number": 1, "position": "GK", "country": "IE", "status": "starter" },
+      { "playerId": "player_en_004_02", "name": "Michael Kayode", "number": 33, "position": "RB", "country": "IT", "status": "starter" },
+      { "playerId": "player_en_004_03", "name": "Nathan Collins", "number": 22, "position": "CB", "country": "IE", "status": "starter" },
+      { "playerId": "player_en_004_04", "name": "Sepp van den Berg", "number": 4, "position": "CB", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_004_05", "name": "Rico Henry", "number": 3, "position": "LB", "country": "JM", "status": "starter" },
+      { "playerId": "player_en_004_06", "name": "Yehor Yarmoliuk", "number": 6, "position": "CDM", "country": "UA", "status": "starter" },
+      { "playerId": "player_en_004_07", "name": "Mathias Jensen", "number": 8, "position": "CM", "country": "DK", "status": "starter" },
+      { "playerId": "player_en_004_08", "name": "Kevin Schade", "number": 7, "position": "RW", "country": "DE", "status": "starter" },
+      { "playerId": "player_en_004_09", "name": "Mikkel Damsgaard", "number": 24, "position": "CAM", "country": "DK", "status": "starter" },
+      { "playerId": "player_en_004_10", "name": "Dango Ouattara", "number": 11, "position": "LW", "country": "BF", "status": "starter" },
+      { "playerId": "player_en_004_11", "name": "Igor Thiago", "number": 9, "position": "ST", "country": "BR", "status": "starter" },
+
+      { "playerId": "player_en_004_12", "name": "Hákon Valdimarsson", "number": 12, "position": "GK", "country": "IS", "status": "bench" },
+      { "playerId": "player_en_004_13", "name": "Aaron Hickey", "number": 2, "position": "RB", "country": "GB-SCT", "status": "bench" },
+      { "playerId": "player_en_004_14", "name": "Ethan Pinnock", "number": 5, "position": "CB", "country": "JM", "status": "bench" },
+      { "playerId": "player_en_004_15", "name": "Kristoffer Ajer", "number": 20, "position": "CB", "country": "NO", "status": "bench" },
+      { "playerId": "player_en_004_16", "name": "El Hadji Malick Diouf", "number": 25, "position": "LB", "country": "SN", "status": "bench" },
+      { "playerId": "player_en_004_17", "name": "Vitaly Janelt", "number": 27, "position": "CDM", "country": "DE", "status": "bench" },
+      { "playerId": "player_en_004_18", "name": "Fábio Carvalho", "number": 14, "position": "CAM", "country": "PT", "status": "bench" },
+      { "playerId": "player_en_004_19", "name": "Antoni Milambo", "number": 17, "position": "CM", "country": "NL", "status": "bench" },
+      { "playerId": "player_en_004_20", "name": "Jaidon Anthony", "number": 19, "position": "LW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_004_21", "name": "Callum Wilson", "number": 13, "position": "ST", "country": "GB-ENG", "status": "bench" },
+
+      { "playerId": "player_en_004_22", "name": "Ellery Balcombe", "number": 31, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_004_23", "name": "Kim Ji-Soo", "number": 36, "position": "CB", "country": "KR", "status": "reserve" },
+      { "playerId": "player_en_004_24", "name": "Mamadou Sangaré", "number": 18, "position": "CM", "country": "ML", "status": "reserve" },
+      { "playerId": "player_en_004_25", "name": "Gustavo Nunes", "number": 39, "position": "RW", "country": "BR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 22,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 24
+      }
+    }
   }
-}
