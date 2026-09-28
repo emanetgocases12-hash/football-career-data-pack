@@ -1,12 +1,58 @@
 {
-  "teamKey": "RB Lzg",
+    "teamKey": "RB Lzg",
 
-  "name": "RB Leipzig",
+    "name": "RB Leipzig",
 
-  "logo": "assets/logos/europe/germany/Leipzig.png",
+    "logo": "assets/logos/europe/germany/Leipzig.png",
 
-  "stadium": {
-    "name": "Red Bull Arena",
-    "capacity": 47069
+    "manager": {
+      "name": "Martín Demichelis",
+      "country": "AR"
+    },
+
+    "stadium": {
+      "name": "Red Bull Arena",
+      "capacity": 47069
+    },
+
+    "players": [
+      { "playerId": "player_de1_010_01", "name": "Maarten Vandevoordt", "number": 26, "position": "GK", "country": "BE", "status": "starter" },
+      { "playerId": "player_de1_010_02", "name": "Ridle Baku", "number": 17, "position": "RB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_010_03", "name": "Willi Orbán", "number": 4, "position": "CB", "country": "HU", "status": "starter" },
+      { "playerId": "player_de1_010_04", "name": "Castello Lukeba", "number": 23, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_de1_010_05", "name": "David Raum", "number": 22, "position": "LB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_010_06", "name": "Nicolas Seiwald", "number": 13, "position": "CDM", "country": "AT", "status": "starter" },
+      { "playerId": "player_de1_010_07", "name": "Rocco Reitz", "number": 20, "position": "CM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_010_08", "name": "Johan Bakayoko", "number": 11, "position": "RW", "country": "BE", "status": "starter" },
+      { "playerId": "player_de1_010_09", "name": "Christopher Nkunku", "number": 28, "position": "CAM", "country": "FR", "status": "starter" },
+      { "playerId": "player_de1_010_10", "name": "Antonio Nusa", "number": 7, "position": "LW", "country": "NO", "status": "starter" },
+      { "playerId": "player_de1_010_11", "name": "Marc Guiu", "number": 9, "position": "ST", "country": "ES", "status": "starter" },
+
+      { "playerId": "player_de1_010_12", "name": "Ørjan Nyland", "number": 1, "position": "GK", "country": "NO", "status": "bench" },
+      { "playerId": "player_de1_010_13", "name": "Leopold Zingerle", "number": 25, "position": "GK", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_010_14", "name": "Maxime Estève", "number": 3, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_de1_010_15", "name": "Abdoul Koné", "number": 2, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_de1_010_16", "name": "Lukas Klostermann", "number": 16, "position": "RB", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_010_17", "name": "Benjamin Henrichs", "number": 39, "position": "RB", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_010_18", "name": "Ezechiel Banzuzi", "number": 6, "position": "CM", "country": "NL", "status": "bench" },
+      { "playerId": "player_de1_010_19", "name": "Assan Ouédraogo", "number": 8, "position": "CM", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_010_20", "name": "Neil El Aynaoui", "number": 21, "position": "CM", "country": "MA", "status": "bench" },
+      { "playerId": "player_de1_010_21", "name": "Brajan Gruda", "number": 10, "position": "CAM", "country": "DE", "status": "bench" },
+
+      { "playerId": "player_de1_010_22", "name": "Suleman Sani", "number": 18, "position": "RW", "country": "NG", "status": "reserve" },
+      { "playerId": "player_de1_010_23", "name": "Tidiam Gomis", "number": 27, "position": "LW", "country": "FR", "status": "reserve" },
+      { "playerId": "player_de1_010_24", "name": "Rômulo", "number": 40, "position": "ST", "country": "BR", "status": "reserve" },
+      { "playerId": "player_de1_010_25", "name": "Andrija Maksimović", "number": 30, "position": "CAM", "country": "RS", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
   }
-}
