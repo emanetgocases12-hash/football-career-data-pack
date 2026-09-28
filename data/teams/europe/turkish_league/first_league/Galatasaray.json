@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Galatasaray.png",
 
+  "manager": {
+    "name": "Okan Buruk",
+    "country": "TR"
+  },
+
   "stadium": {
     "name": "Ali Sami Yen Spor Kompleksi RAMS Park",
     "capacity": 53978
+  },
+
+  "players": [
+    { "playerId": "player_tr_002_01", "name": "Uğurcan Çakır", "number": 1, "position": "GK", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_002_02", "name": "Wilfried Singo", "number": 90, "position": "RB", "country": "CI", "status": "starter" },
+    { "playerId": "player_tr_002_03", "name": "Davinson Sánchez", "number": 6, "position": "CB", "country": "CO", "status": "starter" },
+    { "playerId": "player_tr_002_04", "name": "Abdülkerim Bardakcı", "number": 42, "position": "CB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_002_05", "name": "Ismail Jakobs", "number": 4, "position": "LB", "country": "SN", "status": "starter" },
+    { "playerId": "player_tr_002_06", "name": "Lucas Torreira", "number": 34, "position": "CDM", "country": "UY", "status": "starter" },
+    { "playerId": "player_tr_002_07", "name": "Gabriel Sara", "number": 8, "position": "CM", "country": "BR", "status": "starter" },
+    { "playerId": "player_tr_002_08", "name": "Leroy Sané", "number": 10, "position": "RW", "country": "DE", "status": "starter" },
+    { "playerId": "player_tr_002_09", "name": "Aleksey Batrakov", "number": 83, "position": "CAM", "country": "RU", "status": "starter" },
+    { "playerId": "player_tr_002_10", "name": "Rafael Leão", "number": 27, "position": "LW", "country": "PT", "status": "starter" },
+    { "playerId": "player_tr_002_11", "name": "Victor Osimhen", "number": 45, "position": "ST", "country": "NG", "status": "starter" },
+
+    { "playerId": "player_tr_002_12", "name": "Günay Güvenç", "number": 19, "position": "GK", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_002_13", "name": "Roland Sallai", "number": 7, "position": "RB", "country": "HU", "status": "bench" },
+    { "playerId": "player_tr_002_14", "name": "El Chadaille Bitshiabu", "number": 3, "position": "CB", "country": "FR", "status": "bench" },
+    { "playerId": "player_tr_002_15", "name": "Eren Elmalı", "number": 17, "position": "LB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_002_16", "name": "Lesley Ugochukwu", "number": 18, "position": "CDM", "country": "FR", "status": "bench" },
+    { "playerId": "player_tr_002_17", "name": "İlkay Gündoğan", "number": 20, "position": "CM", "country": "DE", "status": "bench" },
+    { "playerId": "player_tr_002_18", "name": "Mario Lemina", "number": 99, "position": "CM", "country": "GA", "status": "bench" },
+    { "playerId": "player_tr_002_19", "name": "Yunus Akgün", "number": 11, "position": "RW", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_002_20", "name": "Barış Alper Yılmaz", "number": 53, "position": "LW", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_002_21", "name": "Deniz Gül", "number": 21, "position": "ST", "country": "TR", "status": "bench" },
+
+    { "playerId": "player_tr_002_22", "name": "Jankat Yılmaz", "number": 24, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_002_23", "name": "Kaan Ayhan", "number": 23, "position": "RB", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_002_24", "name": "Renato Nhaga", "number": 74, "position": "CM", "country": "GW", "status": "reserve" },
+    { "playerId": "player_tr_002_25", "name": "Kazımcan Karataş", "number": 88, "position": "LB", "country": "TR", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 42,
+    "setPieces": {
+      "penalty": 45,
+      "freeKick": 83,
+      "cornerLeft": 8,
+      "cornerRight": 10
+    }
   }
 }
