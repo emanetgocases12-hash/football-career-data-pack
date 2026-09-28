@@ -1,12 +1,58 @@
 {
-  "teamKey": "Fulham",
+    "teamKey": "Fulham",
 
-  "name": "Fulham FC",
+    "name": "Fulham FC",
 
-  "logo": "assets/logos/europe/england/Fulham.png",
+    "logo": "assets/logos/europe/england/Fulham.png",
 
-  "stadium": {
-    "name": "Craven Cottage",
-    "capacity": 29589
+    "manager": {
+      "name": "Álvaro Arbeloa",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "Craven Cottage",
+      "capacity": 29589
+    },
+
+    "players": [
+      { "playerId": "player_en_010_01", "name": "Bernd Leno", "number": 1, "position": "GK", "country": "DE", "status": "starter" },
+      { "playerId": "player_en_010_02", "name": "Kenny Tete", "number": 2, "position": "RB", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_010_03", "name": "Joachim Andersen", "number": 5, "position": "CB", "country": "DK", "status": "starter" },
+      { "playerId": "player_en_010_04", "name": "Calvin Bassey", "number": 3, "position": "CB", "country": "NG", "status": "starter" },
+      { "playerId": "player_en_010_05", "name": "Antonee Robinson", "number": 33, "position": "LB", "country": "US", "status": "starter" },
+      { "playerId": "player_en_010_06", "name": "Sander Berge", "number": 16, "position": "CDM", "country": "NO", "status": "starter" },
+      { "playerId": "player_en_010_07", "name": "Hugo Larsson", "number": 15, "position": "CM", "country": "SE", "status": "starter" },
+      { "playerId": "player_en_010_08", "name": "Oscar Bobb", "number": 14, "position": "RW", "country": "NO", "status": "starter" },
+      { "playerId": "player_en_010_09", "name": "Tom Cairney", "number": 10, "position": "CAM", "country": "GB-SCT", "status": "starter" },
+      { "playerId": "player_en_010_10", "name": "Alex Iwobi", "number": 17, "position": "LW", "country": "NG", "status": "starter" },
+      { "playerId": "player_en_010_11", "name": "Rodrigo Muniz", "number": 9, "position": "ST", "country": "BR", "status": "starter" },
+
+      { "playerId": "player_en_010_12", "name": "Benjamin Lecomte", "number": 23, "position": "GK", "country": "FR", "status": "bench" },
+      { "playerId": "player_en_010_13", "name": "Timothy Castagne", "number": 21, "position": "RB", "country": "BE", "status": "bench" },
+      { "playerId": "player_en_010_14", "name": "Jorge Cuenca", "number": 4, "position": "CB", "country": "ES", "status": "bench" },
+      { "playerId": "player_en_010_15", "name": "David Affengruber", "number": 22, "position": "CB", "country": "AT", "status": "bench" },
+      { "playerId": "player_en_010_16", "name": "Ryan Sessegnon", "number": 30, "position": "LB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_010_17", "name": "Harrison Reed", "number": 6, "position": "CDM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_010_18", "name": "César Palacios", "number": 8, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_en_010_19", "name": "Emile Smith Rowe", "number": 32, "position": "CAM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_010_20", "name": "Kevin", "number": 11, "position": "LW", "country": "BR", "status": "bench" },
+      { "playerId": "player_en_010_21", "name": "Gonzalo García", "number": 7, "position": "ST", "country": "ES", "status": "bench" },
+
+      { "playerId": "player_en_010_22", "name": "Alex Borto", "number": 36, "position": "GK", "country": "US", "status": "reserve" },
+      { "playerId": "player_en_010_23", "name": "Shea Charles", "number": 19, "position": "CM", "country": "GB-NIR", "status": "reserve" },
+      { "playerId": "player_en_010_24", "name": "Jonah Kusi-Asare", "number": 18, "position": "ST", "country": "SE", "status": "reserve" },
+      { "playerId": "player_en_010_25", "name": "Josh King", "number": 24, "position": "CAM", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 14
+      }
+    }
   }
-}
