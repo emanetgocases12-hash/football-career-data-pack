@@ -10,3 +10,61 @@
     "capacity": 61276
   }
 }
+{
+    "teamKey": "L'Pool",
+
+    "name": "Liverpool",
+
+    "logo": "assets/logos/europe/england/Liverpool.png",
+
+    "manager": {
+      "name": "Andoni Iraola",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "Anfield",
+      "capacity": 61276
+    },
+
+    "players": [
+      { "playerId": "player_en_014_01", "name": "Alisson Becker", "number": 1, "position": "GK", "country": "BR", "status": "starter" },
+      { "playerId": "player_en_014_02", "name": "Jeremie Frimpong", "number": 30, "position": "RB", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_014_03", "name": "Ronald Araújo", "number": 33, "position": "CB", "country": "UY", "status": "starter" },
+      { "playerId": "player_en_014_04", "name": "Virgil van Dijk", "number": 4, "position": "CB", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_014_05", "name": "Miloš Kerkez", "number": 6, "position": "LB", "country": "HU", "status": "starter" },
+      { "playerId": "player_en_014_06", "name": "Ryan Gravenberch", "number": 38, "position": "CDM", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_014_07", "name": "Alexis Mac Allister", "number": 10, "position": "CM", "country": "AR", "status": "starter" },
+      { "playerId": "player_en_014_08", "name": "Dominik Szoboszlai", "number": 8, "position": "CAM", "country": "HU", "status": "starter" },
+      { "playerId": "player_en_014_09", "name": "Florian Wirtz", "number": 7, "position": "RW", "country": "DE", "status": "starter" },
+      { "playerId": "player_en_014_10", "name": "Bradley Barcola", "number": 29, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_en_014_11", "name": "Alexander Isak", "number": 9, "position": "ST", "country": "SE", "status": "starter" },
+
+      { "playerId": "player_en_014_12", "name": "Giorgi Mamardashvili", "number": 25, "position": "GK", "country": "GE", "status": "bench" },
+      { "playerId": "player_en_014_13", "name": "Conor Bradley", "number": 12, "position": "RB", "country": "GB-NIR", "status": "bench" },
+      { "playerId": "player_en_014_14", "name": "Jérémy Jacquet", "number": 5, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_en_014_15", "name": "Joe Gomez", "number": 2, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_014_16", "name": "Kostas Tsimikas", "number": 21, "position": "LB", "country": "GR", "status": "bench" },
+      { "playerId": "player_en_014_17", "name": "Wataru Endo", "number": 3, "position": "CDM", "country": "JP", "status": "bench" },
+      { "playerId": "player_en_014_18", "name": "Federico Chiesa", "number": 14, "position": "RW", "country": "IT", "status": "bench" },
+      { "playerId": "player_en_014_19", "name": "Cody Gakpo", "number": 18, "position": "LW", "country": "NL", "status": "bench" },
+      { "playerId": "player_en_014_20", "name": "Hugo Ekitiké", "number": 22, "position": "ST", "country": "FR", "status": "bench" },
+      { "playerId": "player_en_014_21", "name": "Víctor Muñoz", "number": 23, "position": "RW", "country": "ES", "status": "bench" },
+
+      { "playerId": "player_en_014_22", "name": "Freddie Woodman", "number": 28, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_014_23", "name": "Giovanni Leoni", "number": 15, "position": "CB", "country": "IT", "status": "reserve" },
+      { "playerId": "player_en_014_24", "name": "Trey Nyoni", "number": 42, "position": "CM", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_014_25", "name": "Rio Ngumoha", "number": 73, "position": "LW", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 7
+      }
+    }
+  }
