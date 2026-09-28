@@ -28,8 +28,8 @@
     { "playerId": "player_tr_001_10", "name": "Kerem Aktürkoğlu", "number": 7, "position": "LW", "country": "TR", "squadStatus": "starter" },
     { "playerId": "player_tr_001_11", "name": "Romelu Lukaku", "number": 9, "position": "ST", "country": "BE", "squadStatus": "starter" },
 
-    { "playerId": "player_tr_001_12", "name": "Mert Günok", "number": 34, "position": "GK", "country": "TR", "squadStatus": "bench" },
-    { "playerId": "player_tr_001_13", "name": "Mert Müldür", "number": 18, "position": "RB", "country": "TR", "squadStatus": "bench" },
+    { "playerId": "player_tr_001_12", "name": "Mert Günok", "number": 34, "position": "GK", "country": "TR", "squadStatus": "starter" },
+    { "playerId": "player_tr_001_13", "name": "Mert Müldür", "number": 18, "position": "RB", "country": "TR", "squadStatus": "starter" },
     { "playerId": "player_tr_001_14", "name": "Kojo Peprah Oppong", "number": 21, "position": "CB", "country": "GH", "squadStatus": "bench" },
     { "playerId": "player_tr_001_15", "name": "Yiğit Efe Demir", "number": 14, "position": "CB", "country": "TR", "squadStatus": "bench" },
     { "playerId": "player_tr_001_16", "name": "Levent Mercan", "number": 22, "position": "LB", "country": "TR", "squadStatus": "bench" },
