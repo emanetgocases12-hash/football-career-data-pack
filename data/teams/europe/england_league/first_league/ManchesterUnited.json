@@ -1,12 +1,58 @@
-{
-  "teamKey": "Man U.",
+ {
+    "teamKey": "Man U.",
 
-  "name": "Manchester United",
+    "name": "Manchester United",
 
-  "logo": "assets/logos/europe/england/United.png",
+    "logo": "assets/logos/europe/england/United.png",
 
-  "stadium": {
-    "name": "Old Trafford",
-    "capacity": 74879
+    "manager": {
+      "name": "Michael Carrick",
+      "country": "GB-ENG"
+    },
+
+    "stadium": {
+      "name": "Old Trafford",
+      "capacity": 74879
+    },
+
+    "players": [
+      { "playerId": "player_en_016_01", "name": "Senne Lammens", "number": 1, "position": "GK", "country": "BE", "status": "starter" },
+      { "playerId": "player_en_016_02", "name": "Diogo Dalot", "number": 2, "position": "RB", "country": "PT", "status": "starter" },
+      { "playerId": "player_en_016_03", "name": "Matthijs de Ligt", "number": 4, "position": "CB", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_016_04", "name": "Lisandro Martínez", "number": 6, "position": "CB", "country": "AR", "status": "starter" },
+      { "playerId": "player_en_016_05", "name": "Patrick Dorgu", "number": 13, "position": "LB", "country": "DK", "status": "starter" },
+      { "playerId": "player_en_016_06", "name": "Carlos Baleba", "number": 20, "position": "CDM", "country": "CM", "status": "starter" },
+      { "playerId": "player_en_016_07", "name": "Youri Tielemans", "number": 18, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_en_016_08", "name": "Bryan Mbeumo", "number": 19, "position": "RW", "country": "CM", "status": "starter" },
+      { "playerId": "player_en_016_09", "name": "Bruno Fernandes", "number": 8, "position": "CAM", "country": "PT", "status": "starter" },
+      { "playerId": "player_en_016_10", "name": "Matheus Cunha", "number": 10, "position": "LW", "country": "BR", "status": "starter" },
+      { "playerId": "player_en_016_11", "name": "Benjamin Šeško", "number": 30, "position": "ST", "country": "SI", "status": "starter" },
+
+      { "playerId": "player_en_016_12", "name": "Karl Darlow", "number": 12, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_016_13", "name": "Noussair Mazraoui", "number": 3, "position": "RB", "country": "MA", "status": "bench" },
+      { "playerId": "player_en_016_14", "name": "Leny Yoro", "number": 15, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_en_016_15", "name": "Luke Shaw", "number": 23, "position": "LB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_016_16", "name": "Manuel Ugarte", "number": 25, "position": "CDM", "country": "UY", "status": "bench" },
+      { "playerId": "player_en_016_17", "name": "Kobbie Mainoo", "number": 37, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_016_18", "name": "Amad Diallo", "number": 16, "position": "RW", "country": "CI", "status": "bench" },
+      { "playerId": "player_en_016_19", "name": "Mason Mount", "number": 7, "position": "CAM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_016_20", "name": "Marcus Rashford", "number": 9, "position": "LW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_016_21", "name": "Joshua Zirkzee", "number": 11, "position": "ST", "country": "NL", "status": "bench" },
+
+      { "playerId": "player_en_016_22", "name": "Tom Heaton", "number": 22, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_016_23", "name": "Harry Maguire", "number": 5, "position": "CB", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_016_24", "name": "Andrey Santos", "number": 17, "position": "CM", "country": "BR", "status": "reserve" },
+      { "playerId": "player_en_016_25", "name": "Ayden Heaven", "number": 26, "position": "CB", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 8,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 8
+      }
+    }
   }
-}
