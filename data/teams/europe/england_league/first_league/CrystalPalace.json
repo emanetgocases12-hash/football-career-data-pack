@@ -1,12 +1,58 @@
 {
-  "teamKey": "Palace",
+    "teamKey": "Palace",
 
-  "name": "Crystal Palace",
+    "name": "Crystal Palace",
 
-  "logo": "assets/logos/europe/england/Palace.png",
+    "logo": "assets/logos/europe/england/Palace.png",
 
-  "stadium": {
-    "name": "Selhurst Park",
-    "capacity": 25486
+    "manager": {
+      "name": "Pierre Sage",
+      "country": "FR"
+    },
+
+    "stadium": {
+      "name": "Selhurst Park",
+      "capacity": 25486
+    },
+
+    "players": [
+      { "playerId": "player_en_008_01", "name": "Dean Henderson", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_008_02", "name": "Óscar Mingueza", "number": 30, "position": "RB", "country": "ES", "status": "starter" },
+      { "playerId": "player_en_008_03", "name": "Axel Disasi", "number": 5, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_en_008_04", "name": "Chadi Riad", "number": 4, "position": "CB", "country": "MA", "status": "starter" },
+      { "playerId": "player_en_008_05", "name": "Tyrick Mitchell", "number": 3, "position": "LB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_008_06", "name": "Jefferson Lerma", "number": 8, "position": "CDM", "country": "CO", "status": "starter" },
+      { "playerId": "player_en_008_07", "name": "Adam Wharton", "number": 20, "position": "CM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_008_08", "name": "Ismaïla Sarr", "number": 7, "position": "RW", "country": "SN", "status": "starter" },
+      { "playerId": "player_en_008_09", "name": "Yeremy Pino", "number": 10, "position": "CAM", "country": "ES", "status": "starter" },
+      { "playerId": "player_en_008_10", "name": "Dwight McNeil", "number": 11, "position": "LW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_008_11", "name": "Jean-Philippe Mateta", "number": 14, "position": "ST", "country": "FR", "status": "starter" },
+
+      { "playerId": "player_en_008_12", "name": "Walter Benítez", "number": 44, "position": "GK", "country": "AR", "status": "bench" },
+      { "playerId": "player_en_008_13", "name": "Takehiro Tomiyasu", "number": 17, "position": "RB", "country": "JP", "status": "bench" },
+      { "playerId": "player_en_008_14", "name": "Chris Richards", "number": 26, "position": "CB", "country": "US", "status": "bench" },
+      { "playerId": "player_en_008_15", "name": "Ben Chilwell", "number": 33, "position": "LB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_008_16", "name": "Cheick Doucouré", "number": 28, "position": "CDM", "country": "ML", "status": "bench" },
+      { "playerId": "player_en_008_17", "name": "Daichi Kamada", "number": 18, "position": "CAM", "country": "JP", "status": "bench" },
+      { "playerId": "player_en_008_18", "name": "Quinten Timber", "number": 23, "position": "CM", "country": "NL", "status": "bench" },
+      { "playerId": "player_en_008_19", "name": "Evann Guessand", "number": 29, "position": "RW", "country": "CI", "status": "bench" },
+      { "playerId": "player_en_008_20", "name": "Jørgen Strand Larsen", "number": 22, "position": "ST", "country": "NO", "status": "bench" },
+      { "playerId": "player_en_008_21", "name": "Eddie Nketiah", "number": 9, "position": "ST", "country": "GB-ENG", "status": "bench" },
+
+      { "playerId": "player_en_008_22", "name": "Remi Matthews", "number": 31, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_008_23", "name": "Jaydee Canvot", "number": 6, "position": "CB", "country": "FR", "status": "reserve" },
+      { "playerId": "player_en_008_24", "name": "Darío Osorio", "number": 24, "position": "RW", "country": "CL", "status": "reserve" },
+      { "playerId": "player_en_008_25", "name": "Matheus França", "number": 27, "position": "CAM", "country": "BR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 14,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
