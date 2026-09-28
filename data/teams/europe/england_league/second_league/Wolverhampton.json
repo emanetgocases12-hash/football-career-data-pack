@@ -1,12 +1,58 @@
 {
-  "teamKey": "Wolves",
+    "teamKey": "Wolves",
 
-  "name": "Wolverhampton Wanderers",
+    "name": "Wolverhampton Wanderers",
 
-  "logo": "assets/logos/europe/england/Wolves.png",
+    "logo": "assets/logos/europe/england/Wolves.png",
 
-  "stadium": {
-    "name": "Molineux Stadium",
-    "capacity": 31750
+    "manager": {
+      "name": "César Peixoto",
+      "country": "PT"
+    },
+
+    "stadium": {
+      "name": "Molineux Stadium",
+      "capacity": 31750
+    },
+
+    "players": [
+      { "playerId": "player_en2_023_01", "name": "José Sá", "number": 1, "position": "GK", "country": "PT", "status": "starter" },
+      { "playerId": "player_en2_023_02", "name": "Kieran Trippier", "number": 2, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_023_03", "name": "Yerson Mosquera", "number": 15, "position": "CB", "country": "CO", "status": "starter" },
+      { "playerId": "player_en2_023_04", "name": "Ladislav Krejčí", "number": 37, "position": "CB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_en2_023_05", "name": "Hugo Bueno", "number": 3, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_en2_023_06", "name": "André", "number": 7, "position": "CDM", "country": "BR", "status": "starter" },
+      { "playerId": "player_en2_023_07", "name": "Marshall Munetsi", "number": 5, "position": "CM", "country": "ZW", "status": "starter" },
+      { "playerId": "player_en2_023_08", "name": "Rodrigo Gomes", "number": 21, "position": "RW", "country": "PT", "status": "starter" },
+      { "playerId": "player_en2_023_09", "name": "Fer López", "number": 28, "position": "CAM", "country": "ES", "status": "starter" },
+      { "playerId": "player_en2_023_10", "name": "Bertrand Traoré", "number": 11, "position": "LW", "country": "BF", "status": "starter" },
+      { "playerId": "player_en2_023_11", "name": "Raúl Jiménez", "number": 9, "position": "ST", "country": "MX", "status": "starter" },
+
+      { "playerId": "player_en2_023_12", "name": "João Virgínia", "number": 13, "position": "GK", "country": "PT", "status": "bench" },
+      { "playerId": "player_en2_023_13", "name": "Toti Gomes", "number": 24, "position": "CB", "country": "PT", "status": "bench" },
+      { "playerId": "player_en2_023_14", "name": "Nasser Djiga", "number": 34, "position": "CB", "country": "BF", "status": "bench" },
+      { "playerId": "player_en2_023_15", "name": "Jackson Tchatchoua", "number": 38, "position": "RB", "country": "CM", "status": "bench" },
+      { "playerId": "player_en2_023_16", "name": "Ghislain Konan", "number": 33, "position": "LB", "country": "CI", "status": "bench" },
+      { "playerId": "player_en2_023_17", "name": "Tommy Doyle", "number": 20, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_023_18", "name": "Jordan James", "number": 8, "position": "CM", "country": "GB-WLS", "status": "bench" },
+      { "playerId": "player_en2_023_19", "name": "Jean-Ricner Bellegarde", "number": 27, "position": "CAM", "country": "HT", "status": "bench" },
+      { "playerId": "player_en2_023_20", "name": "Adam Armstrong", "number": 10, "position": "ST", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_023_21", "name": "Rafiki Saïd", "number": 19, "position": "LW", "country": "KM", "status": "bench" },
+
+      { "playerId": "player_en2_023_22", "name": "John Ruddy", "number": 26, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_023_23", "name": "Enso González", "number": 30, "position": "LW", "country": "PY", "status": "reserve" },
+      { "playerId": "player_en2_023_24", "name": "Mateus Mané", "number": 36, "position": "CM", "country": "PT", "status": "reserve" },
+      { "playerId": "player_en2_023_25", "name": "Sean Neave", "number": 14, "position": "ST", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 28,
+        "cornerLeft": 21,
+        "cornerRight": 28
+      }
+    }
   }
-}
