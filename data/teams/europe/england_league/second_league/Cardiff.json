@@ -1,12 +1,58 @@
 {
-  "teamKey": "Cardif",
+    "teamKey": "Cardif",
 
-  "name": "Cardiff City",
+    "name": "Cardiff City",
 
-  "logo": "assets/logos/europe/england/Cardiff.png",
+    "logo": "assets/logos/europe/england/Cardiff.png",
 
-  "stadium": {
-    "name": "Cardiff City Stadium",
-    "capacity": 33280
+    "manager": {
+      "name": "Brian Barry-Murphy",
+      "country": "IE"
+    },
+
+    "stadium": {
+      "name": "Cardiff City Stadium",
+      "capacity": 33280
+    },
+
+    "players": [
+      { "playerId": "player_en2_006_01", "name": "Nathan Trott", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_006_02", "name": "Perry Ng", "number": 38, "position": "RB", "country": "SG", "status": "starter" },
+      { "playerId": "player_en2_006_03", "name": "Gabriel Osho", "number": 4, "position": "CB", "country": "NG", "status": "starter" },
+      { "playerId": "player_en2_006_04", "name": "Krystian Bielik", "number": 5, "position": "CB", "country": "PL", "status": "starter" },
+      { "playerId": "player_en2_006_05", "name": "Joel Bagan", "number": 3, "position": "LB", "country": "IE", "status": "starter" },
+      { "playerId": "player_en2_006_06", "name": "Alex Robertson", "number": 18, "position": "CDM", "country": "AU", "status": "starter" },
+      { "playerId": "player_en2_006_07", "name": "David Turnbull", "number": 14, "position": "CM", "country": "GB-SCT", "status": "starter" },
+      { "playerId": "player_en2_006_08", "name": "Ollie Tanner", "number": 11, "position": "RW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_006_09", "name": "Rubin Colwill", "number": 10, "position": "CAM", "country": "GB-WLS", "status": "starter" },
+      { "playerId": "player_en2_006_10", "name": "Chris Willock", "number": 16, "position": "LW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_006_11", "name": "Yousef Salech", "number": 9, "position": "ST", "country": "DK", "status": "starter" },
+
+      { "playerId": "player_en2_006_12", "name": "Harry Tyrer", "number": 30, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_006_13", "name": "William Fish", "number": 2, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_006_14", "name": "Calum Chambers", "number": 12, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_006_15", "name": "Calum Scanlon", "number": 23, "position": "LB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_006_16", "name": "Jack Moylan", "number": 8, "position": "CM", "country": "IE", "status": "bench" },
+      { "playerId": "player_en2_006_17", "name": "Joel Colwill", "number": 27, "position": "CM", "country": "GB-WLS", "status": "bench" },
+      { "playerId": "player_en2_006_18", "name": "Cian Ashford", "number": 45, "position": "RW", "country": "GB-WLS", "status": "bench" },
+      { "playerId": "player_en2_006_19", "name": "Callum Robinson", "number": 47, "position": "ST", "country": "IE", "status": "bench" },
+      { "playerId": "player_en2_006_20", "name": "Isaak Davies", "number": 39, "position": "ST", "country": "GB-WLS", "status": "bench" },
+      { "playerId": "player_en2_006_21", "name": "Rob Tankiewicz", "number": 33, "position": "CAM", "country": "GB-WLS", "status": "bench" },
+
+      { "playerId": "player_en2_006_22", "name": "Matthew Turner", "number": 41, "position": "GK", "country": "GB-WLS", "status": "reserve" },
+      { "playerId": "player_en2_006_23", "name": "Ronan Kpakio", "number": 44, "position": "RB", "country": "GB-WLS", "status": "reserve" },
+      { "playerId": "player_en2_006_24", "name": "Dylan Lawlor", "number": 48, "position": "CB", "country": "GB-WLS", "status": "reserve" },
+      { "playerId": "player_en2_006_25", "name": "Noah Anyadike", "number": 40, "position": "LB", "country": "GB-WLS", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 38,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
