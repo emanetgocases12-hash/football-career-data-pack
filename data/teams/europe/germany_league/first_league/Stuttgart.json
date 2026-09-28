@@ -1,12 +1,58 @@
 {
-  "teamKey": "Stuttg",
+    "teamKey": "Stuttg",
 
-  "name": "VfB Stuttgart",
+    "name": "VfB Stuttgart",
 
-  "logo": "assets/logos/europe/germany/Stuttgart.png",
+    "logo": "assets/logos/europe/germany/Stuttgart.png",
 
-  "stadium": {
-    "name": "MHPArena Stuttgart",
-    "capacity": 60449
+    "manager": {
+      "name": "Sebastian Hoeneß",
+      "country": "DE"
+    },
+
+    "stadium": {
+      "name": "MHPArena Stuttgart",
+      "capacity": 60449
+    },
+
+    "players": [
+      { "playerId": "player_de1_016_01", "name": "Dennis Seimen", "number": 41, "position": "GK", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_016_02", "name": "Josha Vagnoman", "number": 4, "position": "RB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_016_03", "name": "Ameen Al-Dakhil", "number": 2, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_de1_016_04", "name": "Jeff Chabot", "number": 24, "position": "CB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_016_05", "name": "Maximilian Mittelstädt", "number": 7, "position": "LB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_016_06", "name": "Atakan Karazor", "number": 16, "position": "CDM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_016_07", "name": "Angelo Stiller", "number": 6, "position": "CM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_016_08", "name": "Jamie Leweling", "number": 18, "position": "RW", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_016_09", "name": "Bilal El Khannouss", "number": 11, "position": "CAM", "country": "MA", "status": "starter" },
+      { "playerId": "player_de1_016_10", "name": "Chris Führich", "number": 10, "position": "LW", "country": "DE", "status": "starter" },
+      { "playerId": "player_de1_016_11", "name": "Ermedin Demirović", "number": 9, "position": "ST", "country": "BA", "status": "starter" },
+
+      { "playerId": "player_de1_016_12", "name": "Fabian Bredlow", "number": 1, "position": "GK", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_016_13", "name": "Stefan Drljača", "number": 21, "position": "GK", "country": "HR", "status": "bench" },
+      { "playerId": "player_de1_016_14", "name": "Ramon Hendriks", "number": 3, "position": "CB", "country": "NL", "status": "bench" },
+      { "playerId": "player_de1_016_15", "name": "Luca Jaquez", "number": 14, "position": "CB", "country": "CH", "status": "bench" },
+      { "playerId": "player_de1_016_16", "name": "Leonidas Stergiou", "number": 20, "position": "CB", "country": "CH", "status": "bench" },
+      { "playerId": "player_de1_016_17", "name": "Lorenz Assignon", "number": 22, "position": "RB", "country": "FR", "status": "bench" },
+      { "playerId": "player_de1_016_18", "name": "Dan-Axel Zagadou", "number": 23, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_de1_016_19", "name": "Grischa Prömel", "number": 28, "position": "CM", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_016_20", "name": "Finn Jeltsch", "number": 29, "position": "CM", "country": "DE", "status": "bench" },
+      { "playerId": "player_de1_016_21", "name": "Tiago Tomás", "number": 8, "position": "RW", "country": "PT", "status": "bench" },
+
+      { "playerId": "player_de1_016_22", "name": "Dženan Pejčinović", "number": 17, "position": "ST", "country": "DE", "status": "reserve" },
+      { "playerId": "player_de1_016_23", "name": "Deniz Undav", "number": 26, "position": "ST", "country": "DE", "status": "reserve" },
+      { "playerId": "player_de1_016_24", "name": "Leo Sauer", "number": 44, "position": "LW", "country": "SK", "status": "reserve" },
+      { "playerId": "player_de1_016_25", "name": "Justin Diehl", "number": 32, "position": "LW", "country": "DE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 18,
+        "cornerLeft": 18,
+        "cornerRight": 18
+      }
+    }
   }
-}
