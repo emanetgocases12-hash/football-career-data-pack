@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Corum.png",
 
+  "manager": {
+    "name": "Uğur Uçar",
+    "country": "TR"
+  },
+
   "stadium": {
     "name": "Çorum Şehir Stadyumu",
     "capacity": 15000
+  },
+
+  "players": [
+    { "playerId": "player_tr_007_01", "name": "Marcos Felipe", "number": 1, "position": "GK", "country": "BR", "status": "starter" },
+    { "playerId": "player_tr_007_02", "name": "Gökhan Sazdağı", "number": 11, "position": "RB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_007_03", "name": "Serdar Saatçı", "number": 4, "position": "CB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_007_04", "name": "Hrvoje Smolčić", "number": 6, "position": "CB", "country": "HR", "status": "starter" },
+    { "playerId": "player_tr_007_05", "name": "Andrei Borza", "number": 24, "position": "LB", "country": "RO", "status": "starter" },
+    { "playerId": "player_tr_007_06", "name": "Ylber Ramadani", "number": 20, "position": "CDM", "country": "AL", "status": "starter" },
+    { "playerId": "player_tr_007_07", "name": "Fredy", "number": 16, "position": "CM", "country": "AO", "status": "starter" },
+    { "playerId": "player_tr_007_08", "name": "Mohamed Diomande", "number": 10, "position": "CM", "country": "CI", "status": "starter" },
+    { "playerId": "player_tr_007_09", "name": "Cengiz Ünder", "number": 7, "position": "RW", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_007_10", "name": "Alexandros Kyziridis", "number": 89, "position": "LW", "country": "GR", "status": "starter" },
+    { "playerId": "player_tr_007_11", "name": "Mame Thiam", "number": 9, "position": "ST", "country": "SN", "status": "starter" },
+
+    { "playerId": "player_tr_007_12", "name": "Erhan Erentürk", "number": 18, "position": "GK", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_007_13", "name": "Çağlar Söyüncü", "number": 2, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_007_14", "name": "Alexandre Penetra", "number": 5, "position": "CB", "country": "PT", "status": "bench" },
+    { "playerId": "player_tr_007_15", "name": "Cemali Sertel", "number": 88, "position": "LB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_007_16", "name": "Berat Özdemir", "number": 3, "position": "CDM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_007_17", "name": "Ahmed Ildız", "number": 30, "position": "CM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_007_18", "name": "Markus Karlsbakk", "number": 8, "position": "CM", "country": "NO", "status": "bench" },
+    { "playerId": "player_tr_007_19", "name": "Göktan Gürpüz", "number": 21, "position": "CAM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_007_20", "name": "Youssoufa Moukoko", "number": 14, "position": "ST", "country": "DE", "status": "bench" },
+    { "playerId": "player_tr_007_21", "name": "Jesús Ramírez", "number": 19, "position": "ST", "country": "VE", "status": "bench" },
+
+    { "playerId": "player_tr_007_22", "name": "Arif Şimşir", "number": 54, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_007_23", "name": "Arda Hilmi Şengül", "number": 15, "position": "CB", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_007_24", "name": "Ermin Mahmić", "number": 26, "position": "CAM", "country": "BA", "status": "reserve" },
+    { "playerId": "player_tr_007_25", "name": "Emircan Gürlük", "number": 17, "position": "RW", "country": "TR", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 16,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 89,
+      "cornerRight": 7
+    }
   }
 }
