@@ -1,12 +1,58 @@
 {
-  "teamKey": "Furth",
+    "teamKey": "Furth",
 
-  "name": "SpVgg Greuther Fürth",
+    "name": "SpVgg Greuther Fürth",
 
-  "logo": "assets/logos/europe/germany/Furth.png",
+    "logo": "assets/logos/europe/germany/Furth.png",
 
-  "stadium": {
-    "name": "Sportpark Ronhof | Thomas Sommer",
-    "capacity": 16626
+    "manager": {
+      "name": "Heiko Vogel",
+      "country": "DE"
+    },
+
+    "stadium": {
+      "name": "Sportpark Ronhof | Thomas Sommer",
+      "capacity": 16626
+    },
+
+    "players": [
+      { "playerId": "player_de2_007_01", "name": "Nahuel Noll", "number": 1, "position": "GK", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_007_02", "name": "Jan Gyamerah", "number": 30, "position": "RB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_007_03", "name": "Malik Benkara", "number": 4, "position": "CB", "country": "DZ", "status": "starter" },
+      { "playerId": "player_de2_007_04", "name": "Maxim Dal", "number": 5, "position": "CB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_007_05", "name": "Luca Itter", "number": 27, "position": "LB", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_007_06", "name": "Niko Bansé", "number": 6, "position": "CDM", "country": "BF", "status": "starter" },
+      { "playerId": "player_de2_007_07", "name": "Shinta Appelkamp", "number": 8, "position": "CM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_007_08", "name": "Felix Klaus", "number": 2, "position": "RW", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_007_09", "name": "Ole Pohlmann", "number": 10, "position": "CAM", "country": "DE", "status": "starter" },
+      { "playerId": "player_de2_007_10", "name": "Julian Green", "number": 37, "position": "LW", "country": "US", "status": "starter" },
+      { "playerId": "player_de2_007_11", "name": "Jordan Siebatcheu", "number": 9, "position": "ST", "country": "US", "status": "starter" },
+
+      { "playerId": "player_de2_007_12", "name": "Nils Körber", "number": 39, "position": "GK", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_007_13", "name": "Prüfrock", "number": 43, "position": "GK", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_007_14", "name": "Noah König", "number": 3, "position": "RB", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_007_15", "name": "Gideon Jung", "number": 23, "position": "CB", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_007_16", "name": "Oualid Mhamdi", "number": 22, "position": "LB", "country": "MA", "status": "bench" },
+      { "playerId": "player_de2_007_17", "name": "Omar Megeed", "number": 18, "position": "CM", "country": "EG", "status": "bench" },
+      { "playerId": "player_de2_007_18", "name": "Doni Arifi", "number": 28, "position": "CM", "country": "FI", "status": "bench" },
+      { "playerId": "player_de2_007_19", "name": "Philipp Müller", "number": 36, "position": "CM", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_007_20", "name": "Dennis Srbeny", "number": 7, "position": "ST", "country": "DE", "status": "bench" },
+      { "playerId": "player_de2_007_21", "name": "Benjamin Zank", "number": 19, "position": "ST", "country": "DE", "status": "bench" },
+
+      { "playerId": "player_de2_007_22", "name": "Mika Wallentowitz", "number": 21, "position": "ST", "country": "DE", "status": "reserve" },
+      { "playerId": "player_de2_007_23", "name": "Omar Sillah", "number": 42, "position": "ST", "country": "DE", "status": "reserve" },
+      { "playerId": "player_de2_007_24", "name": "Olgherto Balliu", "number": 45, "position": "RW", "country": "IT", "status": "reserve" },
+      { "playerId": "player_de2_007_25", "name": "Raul Mariţa", "number": 38, "position": "CB", "country": "RO", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 2,
+        "cornerLeft": 2,
+        "cornerRight": 2
+      }
+    }
   }
-}
