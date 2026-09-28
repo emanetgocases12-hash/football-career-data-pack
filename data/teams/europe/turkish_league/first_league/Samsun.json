@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Samsun.png",
 
+  "manager": {
+    "name": "Thorsten Fink",
+    "country": "DE"
+  },
+
   "stadium": {
     "name": "Samsun Yeni 19 Mayıs",
     "capacity": 34303
+  },
+
+  "players": [
+    { "playerId": "player_tr_017_01", "name": "Okan Kocuk", "number": 1, "position": "GK", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_017_02", "name": "Joe Mendes", "number": 2, "position": "RB", "country": "SE", "status": "starter" },
+    { "playerId": "player_tr_017_03", "name": "Strahinja Eraković", "number": 16, "position": "CB", "country": "RS", "status": "starter" },
+    { "playerId": "player_tr_017_04", "name": "Gabriele Guarino", "number": 34, "position": "CB", "country": "IT", "status": "starter" },
+    { "playerId": "player_tr_017_05", "name": "Logi Tómasson", "number": 17, "position": "LB", "country": "IS", "status": "starter" },
+    { "playerId": "player_tr_017_06", "name": "Elliot Watt", "number": 4, "position": "CDM", "country": "GB-SCT", "status": "starter" },
+    { "playerId": "player_tr_017_07", "name": "Celil Yüksel", "number": 5, "position": "CM", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_017_08", "name": "Tanguy Coulibaly", "number": 10, "position": "RW", "country": "FR", "status": "starter" },
+    { "playerId": "player_tr_017_09", "name": "Afonso Sousa", "number": 77, "position": "CAM", "country": "PT", "status": "starter" },
+    { "playerId": "player_tr_017_10", "name": "Emre Kılınç", "number": 11, "position": "LW", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_017_11", "name": "Mohamed Bayo", "number": 18, "position": "ST", "country": "GN", "status": "starter" },
+
+    { "playerId": "player_tr_017_12", "name": "Bilal Bayazıt", "number": 25, "position": "GK", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_017_13", "name": "Igor Drapiński", "number": 3, "position": "CB", "country": "PL", "status": "bench" },
+    { "playerId": "player_tr_017_14", "name": "Yunus Emre Çift", "number": 22, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_017_15", "name": "Enes Albak", "number": 23, "position": "LB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_017_16", "name": "Samed Onur", "number": 8, "position": "CM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_017_17", "name": "Yalçın Kayan", "number": 20, "position": "CM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_017_18", "name": "Oskar Øhlenschlæger", "number": 19, "position": "CM", "country": "DK", "status": "bench" },
+    { "playerId": "player_tr_017_19", "name": "Elayis Tavsan", "number": 7, "position": "RW", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_017_20", "name": "Saikuba Jarju", "number": 30, "position": "LW", "country": "GM", "status": "bench" },
+    { "playerId": "player_tr_017_21", "name": "Fatih Kaya", "number": 14, "position": "ST", "country": "DE", "status": "bench" },
+
+    { "playerId": "player_tr_017_22", "name": "Efe Yiğit Üstün", "number": 13, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_017_23", "name": "Haluk Mustafa Tan", "number": 29, "position": "RB", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_017_24", "name": "Jaurès Assoumou", "number": 15, "position": "LW", "country": "CI", "status": "reserve" },
+    { "playerId": "player_tr_017_25", "name": "Yirigue Foungognan Sekongo", "number": 42, "position": "CAM", "country": "CI", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 11,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 11
+    }
   }
 }
