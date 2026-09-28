@@ -1,12 +1,58 @@
 {
-  "teamKey": "Pau",
+    "teamKey": "Pau",
 
-  "name": "Pau FC",
+    "name": "Pau FC",
 
-  "logo": "assets/logos/europe/france/Pau.png",
+    "logo": "assets/logos/europe/france/Pau.png",
 
-  "stadium": {
-    "name": "Nouste Camp",
-    "capacity": 4144
+    "manager": {
+      "name": "Thierry Debès",
+      "country": "FR"
+    },
+
+    "stadium": {
+      "name": "Nouste Camp",
+      "capacity": 4144
+    },
+
+    "players": [
+      { "playerId": "player_fr2_014_01", "name": "Brice Maubleu", "number": 1, "position": "GK", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_014_02", "name": "Tom Pouilly", "number": 2, "position": "RB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_014_03", "name": "Anthony Briançon", "number": 23, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_014_04", "name": "Rony Mimb Baheng", "number": 22, "position": "CB", "country": "CM", "status": "starter" },
+      { "playerId": "player_fr2_014_05", "name": "Souleymane Basse", "number": 8, "position": "LB", "country": "SN", "status": "starter" },
+      { "playerId": "player_fr2_014_06", "name": "Lorenzo Rajot", "number": 5, "position": "CDM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_014_07", "name": "Jessy Benet", "number": 21, "position": "CM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_014_08", "name": "Alexis Lefebvre", "number": 11, "position": "RW", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_014_09", "name": "Bilal Brahimi", "number": 10, "position": "CAM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr2_014_10", "name": "Hacène Benali", "number": 7, "position": "LW", "country": "DZ", "status": "starter" },
+      { "playerId": "player_fr2_014_11", "name": "Babacar Leye", "number": 9, "position": "ST", "country": "FR", "status": "starter" },
+
+      { "playerId": "player_fr2_014_12", "name": "Maxime Adam", "number": 16, "position": "GK", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_014_13", "name": "Esteban Salles", "number": 30, "position": "GK", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_014_14", "name": "Axel Dodote", "number": 4, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_014_15", "name": "Gaëtan Paquiez", "number": 29, "position": "RB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_014_16", "name": "Mathys Tourraine", "number": 39, "position": "LB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_014_17", "name": "Cheikh Fall", "number": 6, "position": "CM", "country": "SN", "status": "bench" },
+      { "playerId": "player_fr2_014_18", "name": "Quentin Daubin", "number": 25, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_014_19", "name": "Luan Gadegbeku", "number": 27, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_014_20", "name": "Kyllian Gasnier", "number": 90, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr2_014_21", "name": "Royce Openda", "number": 14, "position": "LW", "country": "GA", "status": "bench" },
+
+      { "playerId": "player_fr2_014_22", "name": "Jérémy Sebas", "number": 18, "position": "ST", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr2_014_23", "name": "Tom Saettel", "number": 19, "position": "RW", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr2_014_24", "name": "Abdoulaye Mbaye", "number": 56, "position": "ST", "country": "SN", "status": "reserve" },
+      { "playerId": "player_fr2_014_25", "name": "Hakim Abdallah", "number": 97, "position": "LB", "country": "KM", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 23,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
   }
-}
