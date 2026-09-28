@@ -15,153 +15,48 @@
     "capacity": 47834
   },
 
-  "players": [
-    {
-      "name": "Ederson",
-      "number": 31,
-      "position": "GK",
-      "country": "Brezilya"
-    },
-    {
-      "name": "Mert Günok",
-      "number": 34,
-      "position": "GK",
-      "country": "Türkiye"
-    },
-    {
-      "name": "Tarık Çetin",
-      "number": 54,
-      "position": "GK",
-      "country": "Türkiye"
+  "team_squad": {
+    "formation": "4-2-3-1",
+
+    "roles": {
+      "cap": 37,
+      "pen": 9,
+      "fr": 10,
+      "cor": 10
     },
 
-    {
-      "name": "Nelson Semedo",
-      "number": 2,
-      "position": "RB",
-      "country": "Portekiz"
-    },
-    {
-      "name": "Mert Müldür",
-      "number": 16,
-      "position": "RB",
-      "country": "Türkiye"
-    },
-    {
-      "name": "Ognjen Mimovic",
-      "number": 22,
-      "position": "RB",
-      "country": "Sırbistan"
-    },
-    {
-      "name": "Nathan Aké",
-      "number": 6,
-      "position": "CB",
-      "country": "Hollanda"
-    },
-    {
-      "name": "Milan Skriniar",
-      "number": 37,
-      "position": "CB",
-      "country": "Slovakya"
-    },
-    {
-      "name": "Kojo Peprah Oppong",
-      "number": 4,
-      "position": "CB",
-      "country": "Gana"
-    },
-    {
-      "name": "Yiğit Efe Demir",
-      "number": 53,
-      "position": "CB",
-      "country": "Türkiye"
-    },
-    {
-      "name": "Archie Brown",
-      "number": 3,
-      "position": "LB",
-      "country": "İngiltere"
-    },
-    {
-      "name": "Levent Mercan",
-      "number": 18,
-      "position": "LB",
-      "country": "Türkiye"
-    },
+    "squad": [
+      {"id":"P01","n":"Ederson","no":31,"gk":true,"pos":"GK","ctry":"Brezilya"},
+      {"id":"P02","n":"Nélson Semedo","no":27,"gk":false,"pos":"RB","ctry":"Portekiz"},
+      {"id":"P03","n":"Milan Škriniar","no":37,"gk":false,"pos":"CB","ctry":"Slovakya"},
+      {"id":"P04","n":"Nathan Aké","no":15,"gk":false,"pos":"CB","ctry":"Hollanda"},
+      {"id":"P05","n":"Archie Brown","no":3,"gk":false,"pos":"LB","ctry":"İngiltere"},
+      {"id":"P06","n":"N'Golo Kanté","no":91,"gk":false,"pos":"CDM","ctry":"Fransa"},
+      {"id":"P07","n":"Mattéo Guendouzi","no":6,"gk":false,"pos":"CM","ctry":"Fransa"},
+      {"id":"P08","n":"Mason Greenwood","no":11,"gk":false,"pos":"RW","ctry":"İngiltere"},
+      {"id":"P09","n":"Marco Asensio","no":10,"gk":false,"pos":"CAM","ctry":"İspanya"},
+      {"id":"P10","n":"Kerem Aktürkoğlu","no":7,"gk":false,"pos":"LW","ctry":"Türkiye"},
+      {"id":"P11","n":"Romelu Lukaku","no":9,"gk":false,"pos":"ST","ctry":"Belçika"}
+    ],
 
-    {
-      "name": "N'Golo Kanté",
-      "number": 7,
-      "position": "CDM",
-      "country": "Fransa"
-    },
-    {
-      "name": "İsmail Yüksek",
-      "number": 5,
-      "position": "CDM",
-      "country": "Türkiye"
-    },
-    {
-      "name": "Matteo Guendouzi",
-      "number": 8,
-      "position": "CM",
-      "country": "Fransa"
-    },
-    {
-      "name": "Bartuğ Elmaz",
-      "number": 28,
-      "position": "CM",
-      "country": "Türkiye"
-    },
-    {
-      "name": "Marco Asensio",
-      "number": 10,
-      "position": "CAM",
-      "country": "İspanya"
-    },
-    {
-      "name": "İrfan Can Kahveci",
-      "number": 17,
-      "position": "CAM",
-      "country": "Türkiye"
-    },
-    {
-      "name": "Oğuz Aydın",
-      "number": 70,
-      "position": "RW",
-      "country": "Türkiye"
-    },
+    "subs": [
+      {"id":"P12","n":"Mert Günok","no":34,"gk":true,"pos":"GK","ctry":"Türkiye"},
+      {"id":"P13","n":"Mert Müldür","no":18,"gk":false,"pos":"RB","ctry":"Türkiye"},
+      {"id":"P14","n":"Kojo Peprah Oppong","no":21,"gk":false,"pos":"CB","ctry":"Gana"},
+      {"id":"P15","n":"Yiğit Efe Demir","no":14,"gk":false,"pos":"CB","ctry":"Türkiye"},
+      {"id":"P16","n":"İsmail Yüksek","no":5,"gk":false,"pos":"CDM","ctry":"Türkiye"},
+      {"id":"P17","n":"Bartuğ Elmaz","no":28,"gk":false,"pos":"CM","ctry":"Türkiye"},
+      {"id":"P18","n":"İrfan Can Kahveci","no":17,"gk":false,"pos":"CAM","ctry":"Türkiye"},
+      {"id":"P19","n":"Oğuz Aydın","no":70,"gk":false,"pos":"RW","ctry":"Türkiye"},
+      {"id":"P20","n":"Dorgeles Nene","no":45,"gk":false,"pos":"LW","ctry":"Mali"},
+      {"id":"P21","n":"Vedat Muriqi","no":19,"gk":false,"pos":"ST","ctry":"Kosova"}
+    ],
 
-    {
-      "name": "Mason Greenwood",
-      "number": 11,
-      "position": "RW",
-      "country": "İngiltere"
-    },
-    {
-      "name": "Kerem Aktürkoğlu",
-      "number": 9,
-      "position": "LW",
-      "country": "Türkiye"
-    },
-    {
-      "name": "Dorgeles Nene",
-      "number": 14,
-      "position": "LW",
-      "country": "Mali"
-    },
-    {
-      "name": "Romelu Lukaku",
-      "number": 90,
-      "position": "ST",
-      "country": "Belçika"
-    },
-    {
-      "name": "Vedat Muriqi",
-      "number": 19,
-      "position": "ST",
-      "country": "Kosova"
-    }
-  ]
+    "out": [
+      {"id":"P22","n":"Tarık Çetin","no":13,"gk":true,"pos":"GK","ctry":"Türkiye"},
+      {"id":"P23","n":"Ognjen Mimović","no":77,"gk":false,"pos":"RB","ctry":"Sırbistan"},
+      {"id":"P24","n":"Levent Mercan","no":22,"gk":false,"pos":"LB","ctry":"Türkiye"},
+      {"id":"P25","n":"Talisca","no":94,"gk":false,"pos":"CAM","ctry":"Brezilya"}
+    ]
+  }
 }
