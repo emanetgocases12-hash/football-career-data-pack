@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Eyup.png",
 
+  "manager": {
+    "name": "Özhan Pulat",
+    "country": "TR"
+  },
+
   "stadium": {
     "name": "Esenyurt Necmi Kadıoğlu Stadı",
     "capacity": 4274
+  },
+
+  "players": [
+    { "playerId": "player_tr_009_01", "name": "Horațiu Moldovan", "number": 31, "position": "GK", "country": "RO", "status": "starter" },
+    { "playerId": "player_tr_009_02", "name": "Talha Ülvan", "number": 7, "position": "RB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_009_03", "name": "Jawad El Yamiq", "number": 5, "position": "CB", "country": "MA", "status": "starter" },
+    { "playerId": "player_tr_009_04", "name": "Zak Jules", "number": 33, "position": "CB", "country": "GB-SCT", "status": "starter" },
+    { "playerId": "player_tr_009_05", "name": "Simone Giordano", "number": 21, "position": "LB", "country": "IT", "status": "starter" },
+    { "playerId": "player_tr_009_06", "name": "Chandrel Massanga", "number": 88, "position": "CDM", "country": "CG", "status": "starter" },
+    { "playerId": "player_tr_009_07", "name": "Charles-André Raux-Yao", "number": 15, "position": "CM", "country": "FR", "status": "starter" },
+    { "playerId": "player_tr_009_08", "name": "Bilal Boutobba", "number": 98, "position": "RW", "country": "FR", "status": "starter" },
+    { "playerId": "player_tr_009_09", "name": "Abdelhamid Sabiri", "number": 10, "position": "CAM", "country": "MA", "status": "starter" },
+    { "playerId": "player_tr_009_10", "name": "Konrad Michalak", "number": 77, "position": "LW", "country": "PL", "status": "starter" },
+    { "playerId": "player_tr_009_11", "name": "Ahmed Abdullahi", "number": 29, "position": "ST", "country": "NG", "status": "starter" },
+
+    { "playerId": "player_tr_009_12", "name": "Emre Bilgin", "number": 1, "position": "GK", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_009_13", "name": "Seyfettin Anıl Yaşar", "number": 4, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_009_14", "name": "Arda Yavuz", "number": 3, "position": "LB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_009_15", "name": "Berhan Kutlay Şatlı", "number": 42, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_009_16", "name": "David Costa", "number": 8, "position": "CAM", "country": "CV", "status": "bench" },
+    { "playerId": "player_tr_009_17", "name": "Hamza Yiğit Akman", "number": 18, "position": "CM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_009_18", "name": "Taşkın İlter", "number": 28, "position": "CDM", "country": "AZ", "status": "bench" },
+    { "playerId": "player_tr_009_19", "name": "Lenny Pintor", "number": 11, "position": "LW", "country": "FR", "status": "bench" },
+    { "playerId": "player_tr_009_20", "name": "Yusuf Barası", "number": 9, "position": "ST", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_009_21", "name": "Mete Kaan Demir", "number": 70, "position": "RW", "country": "TR", "status": "bench" },
+
+    { "playerId": "player_tr_009_22", "name": "Umut Keseci", "number": 23, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_009_23", "name": "Yiğit Demir", "number": 27, "position": "CB", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_009_24", "name": "Christ Sadia", "number": 84, "position": "RW", "country": "CI", "status": "reserve" },
+    { "playerId": "player_tr_009_25", "name": "Abdou Khadre Sy", "number": 25, "position": "ST", "country": "SN", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 33,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 10,
+      "cornerLeft": 98,
+      "cornerRight": 10
+    }
   }
 }
