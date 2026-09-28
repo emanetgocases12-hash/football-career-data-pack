@@ -1,12 +1,58 @@
 {
-  "teamKey": "Albace",
+    "teamKey": "Albace",
 
-  "name": "Albacete Balompié",
+    "name": "Albacete Balompié",
 
-  "logo": "assets/logos/europe/spain/Albacete.png",
+    "logo": "assets/logos/europe/spain/Albacete.png",
 
-  "stadium": {
-    "name": "Carlos Belmonte",
-    "capacity": 16998
+    "manager": {
+      "name": "Alberto González",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "Carlos Belmonte",
+      "capacity": 16998
+    },
+
+    "players": [
+      { "playerId": "player_es2_001_01", "name": "Diego Mariño", "number": 1, "position": "GK", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_001_02", "name": "Lorenzo Aguado", "number": 2, "position": "RB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_001_03", "name": "Javi Moreno", "number": 4, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_001_04", "name": "Pepe Sánchez", "number": 5, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_001_05", "name": "Dani Bernabéu", "number": 3, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_001_06", "name": "Antonio David", "number": 8, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_001_07", "name": "Agus Medina", "number": 14, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_001_08", "name": "Sergio Ortuño", "number": 19, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_001_09", "name": "Antonio Puertas", "number": 7, "position": "RW", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_001_10", "name": "Agustín Albarracín", "number": 11, "position": "LW", "country": "UY", "status": "starter" },
+      { "playerId": "player_es2_001_11", "name": "Higinio Marín", "number": 9, "position": "ST", "country": "ES", "status": "starter" },
+
+      { "playerId": "player_es2_001_12", "name": "Carlos Marín", "number": 13, "position": "GK", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_001_13", "name": "Fran Gámez", "number": 22, "position": "RB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_001_14", "name": "Jesús Vallejo", "number": 15, "position": "CB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_001_15", "name": "Lluís López", "number": 16, "position": "CB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_001_16", "name": "Carlos Neva", "number": 17, "position": "LB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_001_17", "name": "Antonio Pacheco", "number": 28, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_001_18", "name": "Javi Villar", "number": 6, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_001_19", "name": "Capi", "number": 10, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_001_20", "name": "Víctor San Bartolomé", "number": 12, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_001_21", "name": "Victor Valverde", "number": 24, "position": "RW", "country": "ES", "status": "bench" },
+
+      { "playerId": "player_es2_001_22", "name": "José Corpas", "number": 18, "position": "RW", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es2_001_23", "name": "Rober González", "number": 20, "position": "RW", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es2_001_24", "name": "Munir El Haddadi", "number": 21, "position": "RW", "country": "MA", "status": "reserve" },
+      { "playerId": "player_es2_001_25", "name": "Mario Soberón", "number": 29, "position": "ST", "country": "ES", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
