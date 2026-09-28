@@ -1,12 +1,58 @@
 {
-  "teamKey": "Burnly",
+    "teamKey": "Burnly",
 
-  "name": "Burnley FC",
+    "name": "Burnley FC",
 
-  "logo": "assets/logos/europe/england/Burnley.png",
+    "logo": "assets/logos/europe/england/Burnley.png",
 
-  "stadium": {
-    "name": "Turf Moor",
-    "capacity": 21994
+    "manager": {
+      "name": "Nicky Hayen",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "Turf Moor",
+      "capacity": 21994
+    },
+
+    "players": [
+      { "playerId": "player_en2_005_01", "name": "Max Weiß", "number": 1, "position": "GK", "country": "DE", "status": "starter" },
+      { "playerId": "player_en2_005_02", "name": "Kyle Walker", "number": 2, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_005_03", "name": "Anel Ahmedhodžić", "number": 15, "position": "CB", "country": "BA", "status": "starter" },
+      { "playerId": "player_en2_005_04", "name": "Igor", "number": 44, "position": "CB", "country": "BR", "status": "starter" },
+      { "playerId": "player_en2_005_05", "name": "Lucas Pires", "number": 23, "position": "LB", "country": "BR", "status": "starter" },
+      { "playerId": "player_en2_005_06", "name": "Josh Cullen", "number": 24, "position": "CDM", "country": "IE", "status": "starter" },
+      { "playerId": "player_en2_005_07", "name": "Reo Hatate", "number": 5, "position": "CM", "country": "JP", "status": "starter" },
+      { "playerId": "player_en2_005_08", "name": "Marcus Edwards", "number": 10, "position": "RW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_005_09", "name": "Hannibal Mejbri", "number": 28, "position": "CAM", "country": "TN", "status": "starter" },
+      { "playerId": "player_en2_005_10", "name": "Jacob Bruun Larsen", "number": 7, "position": "LW", "country": "DK", "status": "starter" },
+      { "playerId": "player_en2_005_11", "name": "Jamie Vardy", "number": 9, "position": "ST", "country": "GB-ENG", "status": "starter" },
+
+      { "playerId": "player_en2_005_12", "name": "Ben Amos", "number": 13, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_005_13", "name": "Max Alleyne", "number": 3, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_005_14", "name": "Bashir Humphreys", "number": 6, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_005_15", "name": "Connor Roberts", "number": 14, "position": "RB", "country": "GB-WLS", "status": "bench" },
+      { "playerId": "player_en2_005_16", "name": "Oliver Sonne", "number": 22, "position": "LB", "country": "PE", "status": "bench" },
+      { "playerId": "player_en2_005_17", "name": "Ugo Raghouber", "number": 8, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_en2_005_18", "name": "Aaron Ramsey", "number": 21, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_005_19", "name": "Zeki Amdouni", "number": 11, "position": "CAM", "country": "CH", "status": "bench" },
+      { "playerId": "player_en2_005_20", "name": "Largie Ramazani", "number": 19, "position": "LW", "country": "BE", "status": "bench" },
+      { "playerId": "player_en2_005_21", "name": "Armando Broja", "number": 27, "position": "ST", "country": "AL", "status": "bench" },
+
+      { "playerId": "player_en2_005_22", "name": "Gregoire Coudert", "number": 37, "position": "GK", "country": "FR", "status": "reserve" },
+      { "playerId": "player_en2_005_23", "name": "Dastan Satpayev", "number": 12, "position": "ST", "country": "KZ", "status": "reserve" },
+      { "playerId": "player_en2_005_24", "name": "Andréas Hountondji", "number": 17, "position": "ST", "country": "BJ", "status": "reserve" },
+      { "playerId": "player_en2_005_25", "name": "Jaydon Banel", "number": 34, "position": "RW", "country": "NL", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 24,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 10
+      }
+    }
   }
-}
