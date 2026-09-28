@@ -1,12 +1,58 @@
 {
-  "teamKey": "AstVil",
+    "teamKey": "AstVil",
 
-  "name": "Aston Villa",
+    "name": "Aston Villa",
 
-  "logo": "assets/logos/europe/england/Aston.png",
+    "logo": "assets/logos/europe/england/Aston.png",
 
-  "stadium": {
-    "name": "Villa Park",
-    "capacity": 43205
+    "manager": {
+      "name": "Unai Emery",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "Villa Park",
+      "capacity": 43205
+    },
+
+    "players": [
+      { "playerId": "player_en_002_01", "name": "Zion Suzuki", "number": 1, "position": "GK", "country": "JP", "status": "starter" },
+      { "playerId": "player_en_002_02", "name": "Matty Cash", "number": 2, "position": "RB", "country": "PL", "status": "starter" },
+      { "playerId": "player_en_002_03", "name": "Taylor Harwood-Bellis", "number": 4, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_002_04", "name": "Pau Torres", "number": 14, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_en_002_05", "name": "Ian Maatsen", "number": 22, "position": "LB", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_002_06", "name": "Boubacar Kamara", "number": 8, "position": "CDM", "country": "FR", "status": "starter" },
+      { "playerId": "player_en_002_07", "name": "Leon Goretzka", "number": 27, "position": "CM", "country": "DE", "status": "starter" },
+      { "playerId": "player_en_002_08", "name": "John McGinn", "number": 7, "position": "RM", "country": "GB-SCT", "status": "starter" },
+      { "playerId": "player_en_002_09", "name": "Emiliano Buendía", "number": 10, "position": "CAM", "country": "AR", "status": "starter" },
+      { "playerId": "player_en_002_10", "name": "Alejandro Garnacho", "number": 17, "position": "LW", "country": "AR", "status": "starter" },
+      { "playerId": "player_en_002_11", "name": "Tammy Abraham", "number": 18, "position": "ST", "country": "GB-ENG", "status": "starter" },
+
+      { "playerId": "player_en_002_12", "name": "Marco Bizot", "number": 40, "position": "GK", "country": "NL", "status": "bench" },
+      { "playerId": "player_en_002_13", "name": "Victor Lindelöf", "number": 3, "position": "CB", "country": "SE", "status": "bench" },
+      { "playerId": "player_en_002_14", "name": "Tyrone Mings", "number": 5, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_002_15", "name": "Matteo Ruggeri", "number": 13, "position": "LB", "country": "IT", "status": "bench" },
+      { "playerId": "player_en_002_16", "name": "Aaron Wan-Bissaka", "number": 29, "position": "RB", "country": "CD", "status": "bench" },
+      { "playerId": "player_en_002_17", "name": "Amadou Onana", "number": 24, "position": "CDM", "country": "BE", "status": "bench" },
+      { "playerId": "player_en_002_18", "name": "João Gomes", "number": 35, "position": "CM", "country": "BR", "status": "bench" },
+      { "playerId": "player_en_002_19", "name": "Nicolas Jackson", "number": 11, "position": "ST", "country": "SN", "status": "bench" },
+      { "playerId": "player_en_002_20", "name": "Ibrahim Mbaye", "number": 19, "position": "RW", "country": "SN", "status": "bench" },
+      { "playerId": "player_en_002_21", "name": "Alysson", "number": 47, "position": "LW", "country": "BR", "status": "bench" },
+
+      { "playerId": "player_en_002_22", "name": "James Wright", "number": 42, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_002_23", "name": "Lamare Bogarde", "number": 26, "position": "CDM", "country": "NL", "status": "reserve" },
+      { "playerId": "player_en_002_24", "name": "Johan Manzambi", "number": 44, "position": "CM", "country": "CH", "status": "reserve" },
+      { "playerId": "player_en_002_25", "name": "Brian Madjo", "number": 39, "position": "ST", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
