@@ -1,12 +1,58 @@
 {
-  "teamKey": "Espany",
+    "teamKey": "Espany",
 
-  "name": "RCD Espanyol Barcelona",
+    "name": "RCD Espanyol Barcelona",
 
-  "logo": "assets/logos/europe/spain/Espanyol.png",
+    "logo": "assets/logos/europe/spain/Espanyol.png",
 
-  "stadium": {
-    "name": "RCDE Stadium",
-    "capacity": 37776
+    "manager": {
+      "name": "Manolo González",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "RCDE Stadium",
+      "capacity": 37776
+    },
+
+    "players": [
+      { "playerId": "player_es_008_01", "name": "Marko Dmitrović", "number": 13, "position": "GK", "country": "RS", "status": "starter" },
+      { "playerId": "player_es_008_02", "name": "Omar El Hilali", "number": 23, "position": "RB", "country": "MA", "status": "starter" },
+      { "playerId": "player_es_008_03", "name": "Leandro Cabrera", "number": 6, "position": "CB", "country": "UY", "status": "starter" },
+      { "playerId": "player_es_008_04", "name": "Unai Núñez", "number": 14, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_008_05", "name": "Quilindschy Hartman", "number": 3, "position": "LB", "country": "NL", "status": "starter" },
+      { "playerId": "player_es_008_06", "name": "Gabriel Moscardo", "number": 20, "position": "CDM", "country": "BR", "status": "starter" },
+      { "playerId": "player_es_008_07", "name": "Edu Expósito", "number": 8, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_008_08", "name": "Pol Lozano", "number": 10, "position": "CAM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_008_09", "name": "Tyrhys Dolan", "number": 24, "position": "RW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_es_008_10", "name": "Javi Puado", "number": 7, "position": "LW", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_008_11", "name": "Roberto Fernández", "number": 9, "position": "ST", "country": "ES", "status": "starter" },
+
+      { "playerId": "player_es_008_12", "name": "Ángel Fortuño", "number": 1, "position": "GK", "country": "ES", "status": "bench" },
+      { "playerId": "player_es_008_13", "name": "Clemens Riedel", "number": 5, "position": "CB", "country": "DE", "status": "bench" },
+      { "playerId": "player_es_008_14", "name": "Vanja Drkušić", "number": 16, "position": "CB", "country": "SI", "status": "bench" },
+      { "playerId": "player_es_008_15", "name": "Andoni Gorosabel", "number": 2, "position": "RB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es_008_16", "name": "Urko González", "number": 4, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es_008_17", "name": "Javi Hernández", "number": 28, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es_008_18", "name": "Rafael Bauzà", "number": 26, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es_008_19", "name": "Jofre Carreras", "number": 17, "position": "RW", "country": "ES", "status": "bench" },
+      { "playerId": "player_es_008_20", "name": "Kike García", "number": 19, "position": "ST", "country": "ES", "status": "bench" },
+      { "playerId": "player_es_008_21", "name": "Bryan Zaragoza", "number": 25, "position": "LW", "country": "ES", "status": "bench" },
+
+      { "playerId": "player_es_008_22", "name": "Pere Milla", "number": 11, "position": "CAM", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es_008_23", "name": "Cala", "number": 22, "position": "ST", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es_008_24", "name": "Adama Timera", "number": 27, "position": "LW", "country": "FR", "status": "reserve" },
+      { "playerId": "player_es_008_25", "name": "Marcos Fernández", "number": 18, "position": "ST", "country": "ES", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 24
+      }
+    }
   }
-}
