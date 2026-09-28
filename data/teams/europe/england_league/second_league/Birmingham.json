@@ -1,12 +1,58 @@
 {
-  "teamKey": "Birmng",
+    "teamKey": "Birmng",
 
-  "name": "Birmingham City",
+    "name": "Birmingham City",
 
-  "logo": "assets/logos/europe/england/Birmingham.png",
+    "logo": "assets/logos/europe/england/Birmingham.png",
 
-  "stadium": {
-    "name": "St. Andrew’s @ Knighthead Park",
-    "capacity": 29409
+    "manager": {
+      "name": "Chris Davies",
+      "country": "GB-WLS"
+    },
+
+    "stadium": {
+      "name": "St. Andrew’s @ Knighthead Park",
+      "capacity": 29409
+    },
+
+    "players": [
+      { "playerId": "player_en2_001_01", "name": "James Beadle", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_001_02", "name": "Ethan Laird", "number": 2, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_001_03", "name": "Christoph Klarer", "number": 4, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_en2_001_04", "name": "Phil Neumann", "number": 5, "position": "CB", "country": "DE", "status": "starter" },
+      { "playerId": "player_en2_001_05", "name": "Alex Cochrane", "number": 20, "position": "LB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_001_06", "name": "Tomoki Iwata", "number": 24, "position": "CDM", "country": "JP", "status": "starter" },
+      { "playerId": "player_en2_001_07", "name": "Paik Seung-Ho", "number": 8, "position": "CM", "country": "KR", "status": "starter" },
+      { "playerId": "player_en2_001_08", "name": "Carlos Vicente", "number": 7, "position": "RW", "country": "ES", "status": "starter" },
+      { "playerId": "player_en2_001_09", "name": "Demarai Gray", "number": 10, "position": "CAM", "country": "JM", "status": "starter" },
+      { "playerId": "player_en2_001_10", "name": "Scott Wright", "number": 11, "position": "LW", "country": "GB-SCT", "status": "starter" },
+      { "playerId": "player_en2_001_11", "name": "Jay Stansfield", "number": 28, "position": "ST", "country": "GB-ENG", "status": "starter" },
+
+      { "playerId": "player_en2_001_12", "name": "Ryan Allsop", "number": 21, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_001_13", "name": "Lee Buchanan", "number": 3, "position": "LB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_001_14", "name": "Dael Fry", "number": 23, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_001_15", "name": "Bright Osayi-Samuel", "number": 26, "position": "RB", "country": "NG", "status": "bench" },
+      { "playerId": "player_en2_001_16", "name": "Jhon Solís", "number": 14, "position": "CM", "country": "CO", "status": "bench" },
+      { "playerId": "player_en2_001_17", "name": "Marc Leonard", "number": 12, "position": "CM", "country": "GB-SCT", "status": "bench" },
+      { "playerId": "player_en2_001_18", "name": "Patrick Roberts", "number": 16, "position": "RW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_001_19", "name": "Liam Millar", "number": 17, "position": "LW", "country": "CA", "status": "bench" },
+      { "playerId": "player_en2_001_20", "name": "August Priske", "number": 9, "position": "ST", "country": "DK", "status": "bench" },
+      { "playerId": "player_en2_001_21", "name": "Marvin Ducksch", "number": 33, "position": "ST", "country": "DE", "status": "bench" },
+
+      { "playerId": "player_en2_001_22", "name": "Bradley Mayo", "number": 30, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_001_23", "name": "Taylor Gardner-Hickman", "number": 19, "position": "RB", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_001_24", "name": "Luis Vázquez", "number": 32, "position": "ST", "country": "AR", "status": "reserve" },
+      { "playerId": "player_en2_001_25", "name": "Menzi Mazwi", "number": 40, "position": "RW", "country": "GB-WLS", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 28,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 10
+      }
+    }
   }
-}
