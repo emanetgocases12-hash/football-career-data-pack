@@ -1,12 +1,58 @@
 {
-  "teamKey": "W Ham",
+    "teamKey": "W Ham",
 
-  "name": "West Ham United",
+    "name": "West Ham United",
 
-  "logo": "assets/logos/europe/england/WestHam.png",
+    "logo": "assets/logos/europe/england/WestHam.png",
 
-  "stadium": {
-    "name": "London Stadium",
-    "capacity": 62500
+    "manager": {
+      "name": "Nuno Espírito Santo",
+      "country": "PT"
+    },
+
+    "stadium": {
+      "name": "London Stadium",
+      "capacity": 62500
+    },
+
+    "players": [
+      { "playerId": "player_en2_022_01", "name": "Mads Hermansen", "number": 1, "position": "GK", "country": "DK", "status": "starter" },
+      { "playerId": "player_en2_022_02", "name": "Kyle Walker-Peters", "number": 2, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_022_03", "name": "Konstantinos Mavropanos", "number": 15, "position": "CB", "country": "GR", "status": "starter" },
+      { "playerId": "player_en2_022_04", "name": "Max Kilman", "number": 3, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_022_05", "name": "Adama Boiro", "number": 18, "position": "LB", "country": "SN", "status": "starter" },
+      { "playerId": "player_en2_022_06", "name": "Edson Álvarez", "number": 4, "position": "CDM", "country": "MX", "status": "starter" },
+      { "playerId": "player_en2_022_07", "name": "Tomáš Souček", "number": 28, "position": "CM", "country": "CZ", "status": "starter" },
+      { "playerId": "player_en2_022_08", "name": "Jarrod Bowen", "number": 20, "position": "RW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_022_09", "name": "Arne Engels", "number": 7, "position": "CAM", "country": "BE", "status": "starter" },
+      { "playerId": "player_en2_022_10", "name": "Manor Solomon", "number": 10, "position": "LW", "country": "IL", "status": "starter" },
+      { "playerId": "player_en2_022_11", "name": "Valentin Castellanos", "number": 11, "position": "ST", "country": "AR", "status": "starter" },
+
+      { "playerId": "player_en2_022_12", "name": "Alphonse Areola", "number": 23, "position": "GK", "country": "FR", "status": "bench" },
+      { "playerId": "player_en2_022_13", "name": "Morato", "number": 5, "position": "CB", "country": "BR", "status": "bench" },
+      { "playerId": "player_en2_022_14", "name": "Joël Veltman", "number": 34, "position": "RB", "country": "NL", "status": "bench" },
+      { "playerId": "player_en2_022_15", "name": "Oliver Scarles", "number": 30, "position": "LB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_022_16", "name": "Soungoutou Magassa", "number": 27, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_en2_022_17", "name": "Mohamadou Kanté", "number": 17, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_en2_022_18", "name": "Maxwel Cornet", "number": 22, "position": "LW", "country": "CI", "status": "bench" },
+      { "playerId": "player_en2_022_19", "name": "Joël Piroe", "number": 9, "position": "ST", "country": "SR", "status": "bench" },
+      { "playerId": "player_en2_022_20", "name": "Pablo", "number": 19, "position": "ST", "country": "BR", "status": "bench" },
+      { "playerId": "player_en2_022_21", "name": "Edvin Austbø", "number": 35, "position": "LW", "country": "NO", "status": "bench" },
+
+      { "playerId": "player_en2_022_22", "name": "Finlay Herrick", "number": 49, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_022_23", "name": "Lewis Orford", "number": 61, "position": "CM", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_022_24", "name": "Ezra Mayers", "number": 63, "position": "CB", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_022_25", "name": "Joshua Ajala", "number": 66, "position": "ST", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 20,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 20,
+        "cornerLeft": 10,
+        "cornerRight": 20
+      }
+    }
   }
-}
