@@ -1,12 +1,58 @@
 {
-  "teamKey": "BlackB",
+    "teamKey": "BlackB",
 
-  "name": "Blackburn Rovers",
+    "name": "Blackburn Rovers",
 
-  "logo": "assets/logos/europe/england/Blackburn.png",
+    "logo": "assets/logos/europe/england/Blackburn.png",
 
-  "stadium": {
-    "name": "Ewood Park",
-    "capacity": 31367
+    "manager": {
+      "name": "Tony Mowbray",
+      "country": "GB-ENG"
+    },
+
+    "stadium": {
+      "name": "Ewood Park",
+      "capacity": 31367
+    },
+
+    "players": [
+      { "playerId": "player_en2_002_01", "name": "Aynsley Pears", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_002_02", "name": "Ryan Alebiosu", "number": 2, "position": "RB", "country": "NG", "status": "starter" },
+      { "playerId": "player_en2_002_03", "name": "Scott Wharton", "number": 16, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_002_04", "name": "Hayden Carter", "number": 17, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_002_05", "name": "Harry Pickering", "number": 3, "position": "LB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_002_06", "name": "Sam Morsy", "number": 8, "position": "CDM", "country": "EG", "status": "starter" },
+      { "playerId": "player_en2_002_07", "name": "Adam Forshaw", "number": 28, "position": "CM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_002_08", "name": "Jayden Fevrier", "number": 11, "position": "RW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_002_09", "name": "Todd Cantwell", "number": 10, "position": "CAM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_002_10", "name": "Augustus Kargbo", "number": 7, "position": "LW", "country": "SL", "status": "starter" },
+      { "playerId": "player_en2_002_11", "name": "Andri Guðjohnsen", "number": 9, "position": "ST", "country": "IS", "status": "starter" },
+
+      { "playerId": "player_en2_002_12", "name": "Balázs Tóth", "number": 22, "position": "GK", "country": "HU", "status": "bench" },
+      { "playerId": "player_en2_002_13", "name": "Yuri Ribeiro", "number": 4, "position": "LB", "country": "PT", "status": "bench" },
+      { "playerId": "player_en2_002_14", "name": "Sean McLoughlin", "number": 15, "position": "CB", "country": "IE", "status": "bench" },
+      { "playerId": "player_en2_002_15", "name": "Lewis Miller", "number": 33, "position": "RB", "country": "AU", "status": "bench" },
+      { "playerId": "player_en2_002_16", "name": "Ryoya Morishita", "number": 25, "position": "LB", "country": "JP", "status": "bench" },
+      { "playerId": "player_en2_002_17", "name": "Moussa Baradji", "number": 24, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_en2_002_18", "name": "Dion De Neve", "number": 14, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_en2_002_19", "name": "Oladapo Afolayan", "number": 21, "position": "LW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_002_20", "name": "Yuki Ohashi", "number": 23, "position": "ST", "country": "JP", "status": "bench" },
+      { "playerId": "player_en2_002_21", "name": "Mathias Jørgensen", "number": 29, "position": "ST", "country": "DK", "status": "bench" },
+
+      { "playerId": "player_en2_002_22", "name": "Jack Barrett", "number": 34, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_002_23", "name": "Jake Garrett", "number": 30, "position": "CB", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_002_24", "name": "Kristi Montgomery", "number": 31, "position": "CM", "country": "GB-SCT", "status": "reserve" },
+      { "playerId": "player_en2_002_25", "name": "James Edmondson", "number": 36, "position": "CM", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
