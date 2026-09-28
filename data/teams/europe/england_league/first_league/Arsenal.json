@@ -1,12 +1,58 @@
 {
-  "teamKey": "Arsnl",
+    "teamKey": "Arsnl",
 
-  "name": "Arsenal",
+    "name": "Arsenal",
 
-  "logo": "assets/logos/europe/england/Arsenal.png",
+    "logo": "assets/logos/europe/england/Arsenal.png",
 
-  "stadium": {
-    "name": "Emirates Stadium",
-    "capacity": 60704
+    "manager": {
+      "name": "Mikel Arteta",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "Emirates Stadium",
+      "capacity": 60704
+    },
+
+    "players": [
+      { "playerId": "player_en_001_01", "name": "David Raya", "number": 1, "position": "GK", "country": "ES", "status": "starter" },
+      { "playerId": "player_en_001_02", "name": "Jurriën Timber", "number": 12, "position": "RB", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_001_03", "name": "William Saliba", "number": 2, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_en_001_04", "name": "Gabriel Magalhães", "number": 6, "position": "CB", "country": "BR", "status": "starter" },
+      { "playerId": "player_en_001_05", "name": "Riccardo Calafiori", "number": 33, "position": "LB", "country": "IT", "status": "starter" },
+      { "playerId": "player_en_001_06", "name": "Martín Zubimendi", "number": 36, "position": "CDM", "country": "ES", "status": "starter" },
+      { "playerId": "player_en_001_07", "name": "Declan Rice", "number": 41, "position": "CM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_001_08", "name": "Martin Ødegaard", "number": 8, "position": "CAM", "country": "NO", "status": "starter" },
+      { "playerId": "player_en_001_09", "name": "Bukayo Saka", "number": 7, "position": "RW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_001_10", "name": "Christos Tzolis", "number": 17, "position": "LW", "country": "GR", "status": "starter" },
+      { "playerId": "player_en_001_11", "name": "Viktor Gyökeres", "number": 14, "position": "ST", "country": "SE", "status": "starter" },
+
+      { "playerId": "player_en_001_12", "name": "Kepa Arrizabalaga", "number": 13, "position": "GK", "country": "ES", "status": "bench" },
+      { "playerId": "player_en_001_13", "name": "Ben White", "number": 4, "position": "RB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_001_14", "name": "Cristhian Mosquera", "number": 3, "position": "CB", "country": "ES", "status": "bench" },
+      { "playerId": "player_en_001_15", "name": "Piero Hincapié", "number": 5, "position": "LB", "country": "EC", "status": "bench" },
+      { "playerId": "player_en_001_16", "name": "Bruno Guimarães", "number": 39, "position": "CM", "country": "BR", "status": "bench" },
+      { "playerId": "player_en_001_17", "name": "Mikel Merino", "number": 23, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_en_001_18", "name": "Eberechi Eze", "number": 10, "position": "CAM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_001_19", "name": "Noni Madueke", "number": 20, "position": "RW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_001_20", "name": "Kai Havertz", "number": 29, "position": "ST", "country": "DE", "status": "bench" },
+      { "playerId": "player_en_001_21", "name": "Ethan Nwaneri", "number": 22, "position": "CAM", "country": "GB-ENG", "status": "bench" },
+
+      { "playerId": "player_en_001_22", "name": "Illan Meslier", "number": 30, "position": "GK", "country": "FR", "status": "reserve" },
+      { "playerId": "player_en_001_23", "name": "Ezri Konsa", "number": 15, "position": "CB", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_001_24", "name": "Myles Lewis-Skelly", "number": 49, "position": "LB", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_001_25", "name": "Max Dowman", "number": 56, "position": "CAM", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 41,
+        "cornerLeft": 41,
+        "cornerRight": 7
+      }
+    }
   }
-}
