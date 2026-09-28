@@ -1,12 +1,58 @@
 {
-  "teamKey": "Roma",
+    "teamKey": "Roma",
 
-  "name": "AS Roma",
+    "name": "AS Roma",
 
-  "logo": "assets/logos/europe/italy/Roma.png",
+    "logo": "assets/logos/europe/italy/Roma.png",
 
-  "stadium": {
-    "name": "Olimpico di Roma",
-    "capacity": 70634
+    "manager": {
+      "name": "Gian Piero Gasperini",
+      "country": "IT"
+    },
+
+    "stadium": {
+      "name": "Olimpico di Roma",
+      "capacity": 70634
+    },
+
+    "players": [
+      { "playerId": "player_it1_016_01", "name": "Mile Svilar", "number": 99, "position": "GK", "country": "RS", "status": "starter" },
+      { "playerId": "player_it1_016_02", "name": "Gianluca Mancini", "number": 23, "position": "CB", "country": "IT", "status": "starter" },
+      { "playerId": "player_it1_016_03", "name": "Konstantinos Koulierakis", "number": 3, "position": "CB", "country": "GR", "status": "starter" },
+      { "playerId": "player_it1_016_04", "name": "Leonardo Balerdi", "number": 26, "position": "CB", "country": "AR", "status": "starter" },
+      { "playerId": "player_it1_016_05", "name": "Wesley", "number": 2, "position": "RM", "country": "BR", "status": "starter" },
+      { "playerId": "player_it1_016_06", "name": "Marten de Roon", "number": 15, "position": "CM", "country": "NL", "status": "starter" },
+      { "playerId": "player_it1_016_07", "name": "Manu Koné", "number": 17, "position": "CM", "country": "FR", "status": "starter" },
+      { "playerId": "player_it1_016_08", "name": "Angeliño", "number": 19, "position": "LM", "country": "ES", "status": "starter" },
+      { "playerId": "player_it1_016_09", "name": "Matías Soulé", "number": 18, "position": "CAM", "country": "AR", "status": "starter" },
+      { "playerId": "player_it1_016_10", "name": "Paulo Dybala", "number": 21, "position": "CAM", "country": "AR", "status": "starter" },
+      { "playerId": "player_it1_016_11", "name": "Evan Ferguson", "number": 9, "position": "ST", "country": "IE", "status": "starter" },
+
+      { "playerId": "player_it1_016_12", "name": "Pierluigi Gollini", "number": 95, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_016_13", "name": "Devis Vásquez", "number": 1, "position": "GK", "country": "CO", "status": "bench" },
+      { "playerId": "player_it1_016_14", "name": "Daniele Ghilardi", "number": 87, "position": "CB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_016_15", "name": "Zeki Çelik", "number": 5, "position": "RB", "country": "TR", "status": "bench" },
+      { "playerId": "player_it1_016_16", "name": "Devayne Rensch", "number": 12, "position": "RB", "country": "NL", "status": "bench" },
+      { "playerId": "player_it1_016_17", "name": "Bryan Cristante", "number": 4, "position": "CM", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_016_18", "name": "Niccolò Pisilli", "number": 61, "position": "CM", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_016_19", "name": "Tommaso Baldanzi", "number": 35, "position": "CAM", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_016_20", "name": "Stephan El Shaarawy", "number": 92, "position": "LW", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_016_21", "name": "Artem Dovbyk", "number": 11, "position": "ST", "country": "UA", "status": "bench" },
+
+      { "playerId": "player_it1_016_22", "name": "Emanuele Lulli", "number": 77, "position": "CB", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it1_016_23", "name": "Giorgio De Marzi", "number": 70, "position": "GK", "country": "US", "status": "reserve" },
+      { "playerId": "player_it1_016_24", "name": "Lorenzo Pellegrini", "number": 7, "position": "CM", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it1_016_25", "name": "Jan Ziółkowski", "number": 24, "position": "CB", "country": "PL", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "3-4-2-1",
+      "captain": 23,
+      "setPieces": {
+        "penalty": 21,
+        "freeKick": 21,
+        "cornerLeft": 21,
+        "cornerRight": 18
+      }
+    }
   }
-}
