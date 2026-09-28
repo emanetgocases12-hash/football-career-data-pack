@@ -1,12 +1,58 @@
 {
-  "teamKey": "WestBr",
+    "teamKey": "WestBr",
 
-  "name": "West Bromwich Albion",
+    "name": "West Bromwich Albion",
 
-  "logo": "assets/logos/europe/england/Albion.png",
+    "logo": "assets/logos/europe/england/Albion.png",
 
-  "stadium": {
-    "name": "The Hawthorns",
-    "capacity": 26850
+    "manager": {
+      "name": "James Morrison",
+      "country": "GB-SCT"
+    },
+
+    "stadium": {
+      "name": "The Hawthorns",
+      "capacity": 26850
+    },
+
+    "players": [
+      { "playerId": "player_en2_021_01", "name": "Max O'Leary", "number": 1, "position": "GK", "country": "IE", "status": "starter" },
+      { "playerId": "player_en2_021_02", "name": "Brayann Pereira", "number": 18, "position": "RB", "country": "FR", "status": "starter" },
+      { "playerId": "player_en2_021_03", "name": "Chris Mepham", "number": 2, "position": "CB", "country": "GB-WLS", "status": "starter" },
+      { "playerId": "player_en2_021_04", "name": "Nathaniel Phillips", "number": 3, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_021_05", "name": "Conor Townsend", "number": 22, "position": "LB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_021_06", "name": "Toby Collyer", "number": 15, "position": "CDM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_021_07", "name": "Jayson Molumby", "number": 8, "position": "CM", "country": "IE", "status": "starter" },
+      { "playerId": "player_en2_021_08", "name": "Felix Horn Myhre", "number": 7, "position": "RW", "country": "NO", "status": "starter" },
+      { "playerId": "player_en2_021_09", "name": "Isaac Price", "number": 21, "position": "CAM", "country": "GB-NIR", "status": "starter" },
+      { "playerId": "player_en2_021_10", "name": "Mikey Johnston", "number": 10, "position": "LW", "country": "IE", "status": "starter" },
+      { "playerId": "player_en2_021_11", "name": "Aune Heggebø", "number": 19, "position": "ST", "country": "NO", "status": "starter" },
+
+      { "playerId": "player_en2_021_12", "name": "Matt Ingram", "number": 13, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_021_13", "name": "George Campbell", "number": 6, "position": "CB", "country": "US", "status": "bench" },
+      { "playerId": "player_en2_021_14", "name": "Nolan Galves", "number": 25, "position": "LB", "country": "FR", "status": "bench" },
+      { "playerId": "player_en2_021_15", "name": "Callum Styles", "number": 4, "position": "CM", "country": "HU", "status": "bench" },
+      { "playerId": "player_en2_021_16", "name": "Ousmane Diakité", "number": 17, "position": "CM", "country": "ML", "status": "bench" },
+      { "playerId": "player_en2_021_17", "name": "Rabby Nzingoula", "number": 20, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_en2_021_18", "name": "Tammer Bany", "number": 23, "position": "CAM", "country": "JO", "status": "bench" },
+      { "playerId": "player_en2_021_19", "name": "Jimmy Jay-Morgan", "number": 11, "position": "RW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_021_20", "name": "Kareem Tunde", "number": 26, "position": "ST", "country": "ES", "status": "bench" },
+      { "playerId": "player_en2_021_21", "name": "Barney Stewart", "number": 9, "position": "ST", "country": "GB-ENG", "status": "bench" },
+
+      { "playerId": "player_en2_021_22", "name": "Joe Wallis", "number": 30, "position": "GK", "country": "NZ", "status": "reserve" },
+      { "playerId": "player_en2_021_23", "name": "Harry Whitwell", "number": 29, "position": "CM", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_021_24", "name": "Alfie Maughan", "number": 31, "position": "CB", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_021_25", "name": "Uros Racic", "number": 27, "position": "CM", "country": "RS", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 10
+      }
+    }
   }
-}
