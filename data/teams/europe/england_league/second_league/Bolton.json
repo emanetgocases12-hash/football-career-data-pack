@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bolton",
+    "teamKey": "Bolton",
 
-  "name": "Bolton Wanderers",
+    "name": "Bolton Wanderers",
 
-  "logo": "assets/logos/europe/england/Bolton.png",
+    "logo": "assets/logos/europe/england/Bolton.png",
 
-  "stadium": {
-    "name": "Toughsheet Community Stadium",
-    "capacity": 28723
+    "manager": {
+      "name": "Steven Schumacher",
+      "country": "GB-ENG"
+    },
+
+    "stadium": {
+      "name": "Toughsheet Community Stadium",
+      "capacity": 28723
+    },
+
+    "players": [
+      { "playerId": "player_en2_003_01", "name": "Gavin Bazunu", "number": 31, "position": "GK", "country": "IE", "status": "starter" },
+      { "playerId": "player_en2_003_02", "name": "Gaizka Larrazabal", "number": 22, "position": "RB", "country": "ES", "status": "starter" },
+      { "playerId": "player_en2_003_03", "name": "Ben Davies", "number": 6, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_003_04", "name": "Eoin Toal", "number": 18, "position": "CB", "country": "GB-NIR", "status": "starter" },
+      { "playerId": "player_en2_003_05", "name": "Chris Forino-Joseph", "number": 3, "position": "LB", "country": "LC", "status": "starter" },
+      { "playerId": "player_en2_003_06", "name": "Ethan Erhahon", "number": 21, "position": "CDM", "country": "GB-SCT", "status": "starter" },
+      { "playerId": "player_en2_003_07", "name": "Josh Sheehan", "number": 8, "position": "CM", "country": "GB-WLS", "status": "starter" },
+      { "playerId": "player_en2_003_08", "name": "Rúben Rodrigues", "number": 20, "position": "RW", "country": "PT", "status": "starter" },
+      { "playerId": "player_en2_003_09", "name": "Xavier Simons", "number": 4, "position": "CAM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_003_10", "name": "Samuel Iling-Junior", "number": 16, "position": "LW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_003_11", "name": "Theo Bair", "number": 9, "position": "ST", "country": "CA", "status": "starter" },
+
+      { "playerId": "player_en2_003_12", "name": "Jack Bonham", "number": 1, "position": "GK", "country": "IE", "status": "bench" },
+      { "playerId": "player_en2_003_13", "name": "Lewis Brunt", "number": 5, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_003_14", "name": "Akin Famewo", "number": 14, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_003_15", "name": "Luca Stephenson", "number": 27, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_003_16", "name": "Atsuki Ito", "number": 17, "position": "CM", "country": "JP", "status": "bench" },
+      { "playerId": "player_en2_003_17", "name": "David Watson", "number": 12, "position": "CM", "country": "GB-SCT", "status": "bench" },
+      { "playerId": "player_en2_003_18", "name": "Kyliane Dong", "number": 7, "position": "RW", "country": "FR", "status": "bench" },
+      { "playerId": "player_en2_003_19", "name": "Thierry Gale", "number": 11, "position": "LW", "country": "BB", "status": "bench" },
+      { "playerId": "player_en2_003_20", "name": "Sam Dalby", "number": 10, "position": "ST", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_003_21", "name": "Ryan Hardie", "number": 39, "position": "ST", "country": "GB-SCT", "status": "bench" },
+
+      { "playerId": "player_en2_003_22", "name": "Nathan Broome", "number": 13, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_003_23", "name": "Max Conway", "number": 25, "position": "LM", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_003_24", "name": "Jayden Nelson", "number": 26, "position": "RW", "country": "CA", "status": "reserve" },
+      { "playerId": "player_en2_003_25", "name": "John McAtee", "number": 45, "position": "ST", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 16,
+        "cornerRight": 20
+      }
+    }
   }
-}
