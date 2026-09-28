@@ -1,12 +1,58 @@
 {
-  "teamKey": "Lorien",
+    "teamKey": "Lorien",
 
-  "name": "FC Lorient",
+    "name": "FC Lorient",
 
-  "logo": "assets/logos/europe/france/Lorient.png",
+    "logo": "assets/logos/europe/france/Lorient.png",
 
-  "stadium": {
-    "name": "Stade du Moustoir",
-    "capacity": 16787
+    "manager": {
+      "name": "Alexandre Dujeux",
+      "country": "FR"
+    },
+
+    "stadium": {
+      "name": "Stade du Moustoir",
+      "capacity": 16787
+    },
+
+    "players": [
+      { "playerId": "player_fr1_008_01", "name": "Benjamin Leroy", "number": 1, "position": "GK", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_008_02", "name": "Alec Georgen", "number": 2, "position": "RB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_008_03", "name": "Montassar Talbi", "number": 3, "position": "CB", "country": "TN", "status": "starter" },
+      { "playerId": "player_fr1_008_04", "name": "Formose Mendy", "number": 5, "position": "CB", "country": "SN", "status": "starter" },
+      { "playerId": "player_fr1_008_05", "name": "Dembo Sylla", "number": 20, "position": "LB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_008_06", "name": "Noah Cadiou", "number": 8, "position": "CDM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_008_07", "name": "Jean-Victor Makengo", "number": 17, "position": "CM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_008_08", "name": "Théo Le Bris", "number": 11, "position": "RW", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_008_09", "name": "Bandiougou Fadiga", "number": 7, "position": "CAM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_008_10", "name": "Isak Jensen", "number": 10, "position": "LW", "country": "DK", "status": "starter" },
+      { "playerId": "player_fr1_008_11", "name": "Mohamed Bamba", "number": 9, "position": "ST", "country": "CI", "status": "starter" },
+
+      { "playerId": "player_fr1_008_12", "name": "Bingourou Kamara", "number": 21, "position": "GK", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_008_13", "name": "Srdjan Kuzmić", "number": 30, "position": "RB", "country": "SI", "status": "bench" },
+      { "playerId": "player_fr1_008_14", "name": "Nathaniel Adjei", "number": 32, "position": "CB", "country": "GH", "status": "bench" },
+      { "playerId": "player_fr1_008_15", "name": "Julien Laporte", "number": 15, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_008_16", "name": "Darlin Yongwa", "number": 12, "position": "LB", "country": "CM", "status": "bench" },
+      { "playerId": "player_fr1_008_17", "name": "Daniel Semedo", "number": 23, "position": "CM", "country": "PT", "status": "bench" },
+      { "playerId": "player_fr1_008_18", "name": "Gabin Bernardeau", "number": 33, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_008_19", "name": "Souleymane Faye", "number": 19, "position": "RW", "country": "SN", "status": "bench" },
+      { "playerId": "player_fr1_008_20", "name": "Ibrahima Baldé", "number": 18, "position": "ST", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_008_21", "name": "Tosin Aiyegun", "number": 25, "position": "ST", "country": "BJ", "status": "bench" },
+
+      { "playerId": "player_fr1_008_22", "name": "Yvon Mvogo", "number": 40, "position": "GK", "country": "CH", "status": "reserve" },
+      { "playerId": "player_fr1_008_23", "name": "Ayman Kari", "number": 14, "position": "CM", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_008_24", "name": "Pablo Pagis", "number": 27, "position": "ST", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_008_25", "name": "Eli Junior Kroupi", "number": 22, "position": "ST", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
   }
-}
