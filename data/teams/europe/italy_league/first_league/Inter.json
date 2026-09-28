@@ -1,12 +1,58 @@
 {
-  "teamKey": "Inter",
+    "teamKey": "Inter",
 
-  "name": "Inter Milan",
+    "name": "Inter Milan",
 
-  "logo": "assets/logos/europe/italy/Inter.png",
+    "logo": "assets/logos/europe/italy/Inter.png",
 
-  "stadium": {
-    "name": "Giuseppe Meazza",
-    "capacity": 75923
+    "manager": {
+      "name": "Cristian Chivu",
+      "country": "RO"
+    },
+
+    "stadium": {
+      "name": "Giuseppe Meazza",
+      "capacity": 75923
+    },
+
+    "players": [
+      { "playerId": "player_it1_008_01", "name": "Josep Martínez", "number": 13, "position": "GK", "country": "ES", "status": "starter" },
+      { "playerId": "player_it1_008_02", "name": "Manuel Akanji", "number": 25, "position": "CB", "country": "CH", "status": "starter" },
+      { "playerId": "player_it1_008_03", "name": "Alessandro Bastoni", "number": 95, "position": "CB", "country": "IT", "status": "starter" },
+      { "playerId": "player_it1_008_04", "name": "John Stones", "number": 6, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_it1_008_05", "name": "Djed Spence", "number": 99, "position": "RM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_it1_008_06", "name": "Nicolò Barella", "number": 23, "position": "CM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it1_008_07", "name": "Hakan Çalhanoğlu", "number": 20, "position": "CDM", "country": "TR", "status": "starter" },
+      { "playerId": "player_it1_008_08", "name": "Federico Dimarco", "number": 32, "position": "LM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it1_008_09", "name": "Piotr Zieliński", "number": 7, "position": "CAM", "country": "PL", "status": "starter" },
+      { "playerId": "player_it1_008_10", "name": "Lautaro Martínez", "number": 10, "position": "ST", "country": "AR", "status": "starter" },
+      { "playerId": "player_it1_008_11", "name": "Marcus Thuram", "number": 9, "position": "ST", "country": "FR", "status": "starter" },
+
+      { "playerId": "player_it1_008_12", "name": "Ivan Provedel", "number": 49, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_008_13", "name": "Raffaele Di Gennaro", "number": 12, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_008_14", "name": "Yann Bisseck", "number": 31, "position": "CB", "country": "DE", "status": "bench" },
+      { "playerId": "player_it1_008_15", "name": "Benjamin Pavard", "number": 28, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_it1_008_16", "name": "Carlos Augusto", "number": 30, "position": "LB", "country": "BR", "status": "bench" },
+      { "playerId": "player_it1_008_17", "name": "Andy Diouf", "number": 17, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_it1_008_18", "name": "Curtis Jones", "number": 21, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_it1_008_19", "name": "Henrikh Mkhitaryan", "number": 22, "position": "CM", "country": "AM", "status": "bench" },
+      { "playerId": "player_it1_008_20", "name": "Luis Henrique", "number": 11, "position": "RW", "country": "BR", "status": "bench" },
+      { "playerId": "player_it1_008_21", "name": "Francesco Pio Esposito", "number": 94, "position": "ST", "country": "IT", "status": "bench" },
+
+      { "playerId": "player_it1_008_22", "name": "Aleksandar Stanković", "number": 5, "position": "CDM", "country": "RS", "status": "reserve" },
+      { "playerId": "player_it1_008_23", "name": "Alain Taho", "number": 60, "position": "GK", "country": "AL", "status": "reserve" },
+      { "playerId": "player_it1_008_24", "name": "Gabriele Re Cecconi", "number": 24, "position": "CB", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it1_008_25", "name": "Mike Aidoo", "number": 44, "position": "RB", "country": "IT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "3-5-2",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 20,
+        "cornerLeft": 32,
+        "cornerRight": 20
+      }
+    }
   }
-}
