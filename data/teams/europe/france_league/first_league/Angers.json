@@ -1,12 +1,58 @@
 {
-  "teamKey": "Angers",
+    "teamKey": "Angers",
 
-  "name": "Angers SCO",
+    "name": "Angers SCO",
 
-  "logo": "assets/logos/europe/france/Angers.png",
+    "logo": "assets/logos/europe/france/Angers.png",
 
-  "stadium": {
-    "name": "Stade Raymond-Kopa",
-    "capacity": 19350
+    "manager": {
+      "name": "Stéphane Gilli",
+      "country": "FR"
+    },
+
+    "stadium": {
+      "name": "Stade Raymond-Kopa",
+      "capacity": 19350
+    },
+
+    "players": [
+      { "playerId": "player_fr1_001_01", "name": "Anthony Lopes", "number": 1, "position": "GK", "country": "PT", "status": "starter" },
+      { "playerId": "player_fr1_001_02", "name": "Carlens Arcus", "number": 2, "position": "RB", "country": "HT", "status": "starter" },
+      { "playerId": "player_fr1_001_03", "name": "Ousmane Camara", "number": 4, "position": "CB", "country": "ML", "status": "starter" },
+      { "playerId": "player_fr1_001_04", "name": "Jordan Lefort", "number": 21, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_001_05", "name": "Lilian Raolisoa", "number": 27, "position": "LB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_001_06", "name": "Haris Belkebla", "number": 93, "position": "CDM", "country": "DZ", "status": "starter" },
+      { "playerId": "player_fr1_001_07", "name": "Branco van den Boomen", "number": 8, "position": "CM", "country": "NL", "status": "starter" },
+      { "playerId": "player_fr1_001_08", "name": "Jim Allevinah", "number": 18, "position": "RW", "country": "GA", "status": "starter" },
+      { "playerId": "player_fr1_001_09", "name": "Amine Sbaï", "number": 10, "position": "CAM", "country": "MA", "status": "starter" },
+      { "playerId": "player_fr1_001_10", "name": "Anthony Bermont", "number": 26, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_001_11", "name": "Amine El Ouazzani", "number": 19, "position": "ST", "country": "MA", "status": "starter" },
+
+      { "playerId": "player_fr1_001_12", "name": "Melvin Zinga", "number": 16, "position": "GK", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_001_13", "name": "Emmanuel Biumla", "number": 24, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_001_14", "name": "Joseph Kalulu", "number": 17, "position": "RB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_001_15", "name": "Marius Louër", "number": 20, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_001_16", "name": "Louis Mouton", "number": 6, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_001_17", "name": "Yassin Belkhdim", "number": 14, "position": "CM", "country": "MA", "status": "bench" },
+      { "playerId": "player_fr1_001_18", "name": "Usman Simbakoli", "number": 7, "position": "ST", "country": "CF", "status": "bench" },
+      { "playerId": "player_fr1_001_19", "name": "Prosper Peter", "number": 9, "position": "ST", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_001_20", "name": "Harouna Djibirin", "number": 11, "position": "RW", "country": "CM", "status": "bench" },
+      { "playerId": "player_fr1_001_21", "name": "Bané Diatta", "number": 36, "position": "CM", "country": "FR", "status": "bench" },
+
+      { "playerId": "player_fr1_001_22", "name": "Oumar Pona", "number": 40, "position": "GK", "country": "ML", "status": "reserve" },
+      { "playerId": "player_fr1_001_23", "name": "Maël Gernigon", "number": 34, "position": "CB", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_001_24", "name": "Jules Bouffandeau", "number": 37, "position": "CM", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_001_25", "name": "Mamadou Diallo", "number": 35, "position": "ST", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 18,
+        "cornerLeft": 18,
+        "cornerRight": 18
+      }
+    }
   }
-}
