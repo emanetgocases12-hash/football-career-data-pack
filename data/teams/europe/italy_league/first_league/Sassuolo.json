@@ -1,12 +1,58 @@
 {
-  "teamKey": "Sassuo",
+    "teamKey": "Sassuo",
 
-  "name": "US Sassuolo",
+    "name": "US Sassuolo",
 
-  "logo": "assets/logos/europe/italy/Sassuolo.png",
+    "logo": "assets/logos/europe/italy/Sassuolo.png",
 
-  "stadium": {
-    "name": "Mapei Stadium - Città del Tricolore",
-    "capacity": 21584
+    "manager": {
+      "name": "Alberto Aquilani",
+      "country": "IT"
+    },
+
+    "stadium": {
+      "name": "Mapei Stadium - Città del Tricolore",
+      "capacity": 21584
+    },
+
+    "players": [
+      { "playerId": "player_it1_017_01", "name": "Arijanet Murić", "number": 49, "position": "GK", "country": "XK", "status": "starter" },
+      { "playerId": "player_it1_017_02", "name": "Jeremy Toljan", "number": 22, "position": "RB", "country": "DE", "status": "starter" },
+      { "playerId": "player_it1_017_03", "name": "Jay Idzes", "number": 21, "position": "CB", "country": "ID", "status": "starter" },
+      { "playerId": "player_it1_017_04", "name": "Duje Ćaleta-Car", "number": 5, "position": "CB", "country": "HR", "status": "starter" },
+      { "playerId": "player_it1_017_05", "name": "Josh Doig", "number": 3, "position": "LB", "country": "GB-SCT", "status": "starter" },
+      { "playerId": "player_it1_017_06", "name": "Nemanja Matić", "number": 8, "position": "CDM", "country": "RS", "status": "starter" },
+      { "playerId": "player_it1_017_07", "name": "Luca Lipani", "number": 35, "position": "CM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it1_017_08", "name": "Domenico Berardi", "number": 10, "position": "RW", "country": "IT", "status": "starter" },
+      { "playerId": "player_it1_017_09", "name": "Vasilije Adžić", "number": 17, "position": "CAM", "country": "ME", "status": "starter" },
+      { "playerId": "player_it1_017_10", "name": "Armand Laurienté", "number": 45, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_it1_017_11", "name": "Kieron Bowie", "number": 9, "position": "ST", "country": "GB-SCT", "status": "starter" },
+
+      { "playerId": "player_it1_017_12", "name": "Stefano Turati", "number": 80, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_017_13", "name": "Giacomo Satalino", "number": 12, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_017_14", "name": "Fali Candé", "number": 6, "position": "CB", "country": "GW", "status": "bench" },
+      { "playerId": "player_it1_017_15", "name": "Fedde Leysen", "number": 16, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_it1_017_16", "name": "Filippo Romagna", "number": 19, "position": "CB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_017_17", "name": "Ibrahim Sulemana", "number": 18, "position": "CM", "country": "GH", "status": "bench" },
+      { "playerId": "player_it1_017_18", "name": "Kristian Thorstvedt", "number": 42, "position": "CM", "country": "NO", "status": "bench" },
+      { "playerId": "player_it1_017_19", "name": "Simone Cinquegrano", "number": 11, "position": "RM", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_017_20", "name": "Sebastiano Esposito", "number": 7, "position": "ST", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_017_21", "name": "Andrea Pinamonti", "number": 99, "position": "ST", "country": "IT", "status": "bench" },
+
+      { "playerId": "player_it1_017_22", "name": "Lorenzo Nyarko", "number": 23, "position": "GK", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it1_017_23", "name": "Alessandro Russo", "number": 1, "position": "GK", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it1_017_24", "name": "Yeferson Paz", "number": 24, "position": "RB", "country": "CO", "status": "reserve" },
+      { "playerId": "player_it1_017_25", "name": "Samuele Mulattieri", "number": 29, "position": "ST", "country": "IT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 10,
+        "cornerLeft": 45,
+        "cornerRight": 10
+      }
+    }
   }
-}
