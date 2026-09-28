@@ -1,12 +1,58 @@
 {
-  "teamKey": "Norwic",
+    "teamKey": "Norwic",
 
-  "name": "Norwich City",
+    "name": "Norwich City",
 
-  "logo": "assets/logos/europe/england/Norwich.png",
+    "logo": "assets/logos/europe/england/Norwich.png",
 
-  "stadium": {
-    "name": "Carrow Road",
-    "capacity": 27244
+    "manager": {
+      "name": "Philippe Clement",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "Carrow Road",
+      "capacity": 27244
+    },
+
+    "players": [
+      { "playerId": "player_en2_012_01", "name": "Vladan Kovačević", "number": 1, "position": "GK", "country": "BA", "status": "starter" },
+      { "playerId": "player_en2_012_02", "name": "Jack Stacey", "number": 3, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_012_03", "name": "Harry Darling", "number": 6, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_012_04", "name": "José Córdoba", "number": 33, "position": "CB", "country": "PA", "status": "starter" },
+      { "playerId": "player_en2_012_05", "name": "Darlin Yongwa", "number": 13, "position": "LB", "country": "CM", "status": "starter" },
+      { "playerId": "player_en2_012_06", "name": "Mirko Topić", "number": 22, "position": "CDM", "country": "RS", "status": "starter" },
+      { "playerId": "player_en2_012_07", "name": "Kenny McLean", "number": 23, "position": "CM", "country": "GB-SCT", "status": "starter" },
+      { "playerId": "player_en2_012_08", "name": "Andre Brooks", "number": 11, "position": "RW", "country": "JM", "status": "starter" },
+      { "playerId": "player_en2_012_09", "name": "Pelle Mattsson", "number": 7, "position": "CAM", "country": "DK", "status": "starter" },
+      { "playerId": "player_en2_012_10", "name": "Ali Ahmed", "number": 37, "position": "LW", "country": "CA", "status": "starter" },
+      { "playerId": "player_en2_012_11", "name": "Mathias Kvistgaarden", "number": 30, "position": "ST", "country": "DK", "status": "starter" },
+
+      { "playerId": "player_en2_012_12", "name": "Daniel Grimshaw", "number": 32, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_012_13", "name": "Ben Chrisene", "number": 14, "position": "LB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_012_14", "name": "Ruairi McConville", "number": 15, "position": "CB", "country": "GB-NIR", "status": "bench" },
+      { "playerId": "player_en2_012_15", "name": "Bruno Alves", "number": 28, "position": "CB", "country": "BR", "status": "bench" },
+      { "playerId": "player_en2_012_16", "name": "Jacob Wright", "number": 16, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_012_17", "name": "Forson Amankwah", "number": 18, "position": "CM", "country": "GH", "status": "bench" },
+      { "playerId": "player_en2_012_18", "name": "Anis Ben Slimane", "number": 20, "position": "CM", "country": "TN", "status": "bench" },
+      { "playerId": "player_en2_012_19", "name": "Papa Amadou Diallo", "number": 19, "position": "LW", "country": "SN", "status": "bench" },
+      { "playerId": "player_en2_012_20", "name": "Ante Crnac", "number": 17, "position": "ST", "country": "HR", "status": "bench" },
+      { "playerId": "player_en2_012_21", "name": "Mohamed Touré", "number": 21, "position": "ST", "country": "AU", "status": "bench" },
+
+      { "playerId": "player_en2_012_22", "name": "Vicente Reyes", "number": 34, "position": "GK", "country": "CL", "status": "reserve" },
+      { "playerId": "player_en2_012_23", "name": "Oscar Schwartau", "number": 29, "position": "CAM", "country": "DK", "status": "reserve" },
+      { "playerId": "player_en2_012_24", "name": "Anthony Musaba", "number": 49, "position": "RW", "country": "NL", "status": "reserve" },
+      { "playerId": "player_en2_012_25", "name": "Kellen Fisher", "number": 35, "position": "RB", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 23,
+      "setPieces": {
+        "penalty": 30,
+        "freeKick": 23,
+        "cornerLeft": 11,
+        "cornerRight": 37
+      }
+    }
   }
-}
