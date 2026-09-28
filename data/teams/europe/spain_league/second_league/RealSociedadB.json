@@ -1,12 +1,58 @@
 {
-  "teamKey": "R.S.B",
+    "teamKey": "R.S.B",
 
-  "name": "Real Sociedad B",
+    "name": "Real Sociedad B",
 
-  "logo": "assets/logos/europe/spain/Sociedad2.png",
+    "logo": "assets/logos/europe/spain/Sociedad2.png",
 
-  "stadium": {
-    "name": "Instalaciones de Zubieta",
-    "capacity": 2500
+    "manager": {
+      "name": "Jon Ansotegi",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "Instalaciones de Zubieta",
+      "capacity": 2500
+    },
+
+    "players": [
+      { "playerId": "player_es2_019_01", "name": "Aitor Fraga", "number": 1, "position": "GK", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_019_02", "name": "Jon Garro", "number": 2, "position": "RB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_019_03", "name": "Unax Ayo", "number": 4, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_019_04", "name": "Iker Calderon", "number": 5, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_019_05", "name": "Jon Balda", "number": 3, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_019_06", "name": "Gorka Gorosabel", "number": 8, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_019_07", "name": "Ibai Aguirre", "number": 14, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_019_08", "name": "Joan Oleaga", "number": 19, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_019_09", "name": "Lander Astiazaran", "number": 7, "position": "RW", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_019_10", "name": "Arkaitz Mariezkurrena", "number": 11, "position": "LW", "country": "ES", "status": "starter" },
+      { "playerId": "player_es2_019_11", "name": "Ekain Orobengoa", "number": 9, "position": "ST", "country": "ES", "status": "starter" },
+
+      { "playerId": "player_es2_019_12", "name": "Theo Folgado", "number": 13, "position": "GK", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_019_13", "name": "Iñaki Rupérez", "number": 22, "position": "RB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_019_14", "name": "Kazunari Kita", "number": 15, "position": "CB", "country": "JP", "status": "bench" },
+      { "playerId": "player_es2_019_15", "name": "Unax Agote", "number": 17, "position": "LB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_019_16", "name": "Alex Lebarbier", "number": 28, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_es2_019_17", "name": "Tomy Carbonell", "number": 6, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_019_18", "name": "Jon Eceizabarrena", "number": 10, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_019_19", "name": "Dani Díaz", "number": 24, "position": "RW", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_019_20", "name": "Alex Marchal", "number": 23, "position": "LW", "country": "ES", "status": "bench" },
+      { "playerId": "player_es2_019_21", "name": "Gorka Carrera", "number": 12, "position": "ST", "country": "ES", "status": "bench" },
+
+      { "playerId": "player_es2_019_22", "name": "Javier Soroeta", "number": 18, "position": "ST", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es2_019_23", "name": "Sydney Osazuwa", "number": 29, "position": "ST", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es2_019_24", "name": "Luken Beitia", "number": 16, "position": "CB", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es2_019_25", "name": "Peio Huestamendia", "number": 20, "position": "RW", "country": "ES", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
