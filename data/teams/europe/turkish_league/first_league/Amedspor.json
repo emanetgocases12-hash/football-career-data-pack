@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Amed.png",
 
+  "manager": {
+    "name": "Besnik Hasi",
+    "country": "AL"
+  },
+
   "stadium": {
     "name": "Diyarbakır Stadyumu",
     "capacity": 33000
+  },
+
+  "players": [
+    { "playerId": "player_tr_005_01", "name": "Alban Lafont", "number": 40, "position": "GK", "country": "CI", "status": "starter" },
+    { "playerId": "player_tr_005_02", "name": "Rayan Raveloson", "number": 22, "position": "RB", "country": "MG", "status": "starter" },
+    { "playerId": "player_tr_005_03", "name": "David Bates", "number": 4, "position": "CB", "country": "GB-SCT", "status": "starter" },
+    { "playerId": "player_tr_005_04", "name": "Lumbardh Dellova", "number": 5, "position": "CB", "country": "XK", "status": "starter" },
+    { "playerId": "player_tr_005_05", "name": "Umut Meraş", "number": 17, "position": "LB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_005_06", "name": "Gökhan Gül", "number": 18, "position": "CDM", "country": "DE", "status": "starter" },
+    { "playerId": "player_tr_005_07", "name": "Furkan Soyalp", "number": 8, "position": "CM", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_005_08", "name": "Samuel Ballet", "number": 10, "position": "RW", "country": "CH", "status": "starter" },
+    { "playerId": "player_tr_005_09", "name": "Dia Saba", "number": 91, "position": "CAM", "country": "IL", "status": "starter" },
+    { "playerId": "player_tr_005_10", "name": "Ermal Krasniqi", "number": 7, "position": "LW", "country": "XK", "status": "starter" },
+    { "playerId": "player_tr_005_11", "name": "Gift Orban", "number": 99, "position": "ST", "country": "NG", "status": "starter" },
+
+    { "playerId": "player_tr_005_12", "name": "Mustafa Burak Bozan", "number": 27, "position": "GK", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_005_13", "name": "Ali Turap Bülbül", "number": 81, "position": "RB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_005_14", "name": "Amadou Cissé", "number": 33, "position": "CB", "country": "GN", "status": "bench" },
+    { "playerId": "player_tr_005_15", "name": "Mehmet Yeşil", "number": 21, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_005_16", "name": "Cem Üstündağ", "number": 6, "position": "CM", "country": "AT", "status": "bench" },
+    { "playerId": "player_tr_005_17", "name": "Rayan Lutin", "number": 93, "position": "CAM", "country": "KM", "status": "bench" },
+    { "playerId": "player_tr_005_18", "name": "Mohamed Khalil", "number": 74, "position": "LW", "country": "SY", "status": "bench" },
+    { "playerId": "player_tr_005_19", "name": "Yira Sor", "number": 11, "position": "LW", "country": "NG", "status": "bench" },
+    { "playerId": "player_tr_005_20", "name": "Berk Kızıldemir", "number": 97, "position": "RW", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_005_21", "name": "Mbaye Diagne", "number": 45, "position": "ST", "country": "SN", "status": "bench" },
+
+    { "playerId": "player_tr_005_22", "name": "Yakup Girişen", "number": 92, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_005_23", "name": "Kahraman Demirtaş", "number": 47, "position": "CB", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_005_24", "name": "Miraç Acer", "number": 3, "position": "CB", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_005_25", "name": "Dilhan Demir", "number": 77, "position": "RW", "country": "DE", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 40,
+    "setPieces": {
+      "penalty": 99,
+      "freeKick": 91,
+      "cornerLeft": 91,
+      "cornerRight": 91
+    }
   }
 }
