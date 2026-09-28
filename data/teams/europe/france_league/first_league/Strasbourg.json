@@ -1,12 +1,58 @@
 {
-  "teamKey": "Stras",
+    "teamKey": "Stras",
 
-  "name": "RC Strasbourg Alsace",
+    "name": "RC Strasbourg Alsace",
 
-  "logo": "assets/logos/europe/france/Strasbourg.png",
+    "logo": "assets/logos/europe/france/Strasbourg.png",
 
-  "stadium": {
-    "name": "Stade de la Meinau",
-    "capacity": 32000
+    "manager": {
+      "name": "Hugo Oliveira",
+      "country": "PT"
+    },
+
+    "stadium": {
+      "name": "Stade de la Meinau",
+      "capacity": 32000
+    },
+
+    "players": [
+      { "playerId": "player_fr1_016_01", "name": "Filip Jörgensen", "number": 1, "position": "GK", "country": "DK", "status": "starter" },
+      { "playerId": "player_fr1_016_02", "name": "Genesis Antwi", "number": 16, "position": "RB", "country": "SE", "status": "starter" },
+      { "playerId": "player_fr1_016_03", "name": "Ismaël Doukouré", "number": 6, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_016_04", "name": "Lucas Høgsberg", "number": 24, "position": "CB", "country": "DK", "status": "starter" },
+      { "playerId": "player_fr1_016_05", "name": "Mateo Del Blanco", "number": 15, "position": "LB", "country": "AR", "status": "starter" },
+      { "playerId": "player_fr1_016_06", "name": "Dário Essugo", "number": 14, "position": "CDM", "country": "PT", "status": "starter" },
+      { "playerId": "player_fr1_016_07", "name": "Maxi Oyedele", "number": 8, "position": "CM", "country": "PL", "status": "starter" },
+      { "playerId": "player_fr1_016_08", "name": "Samuel Amo-Ameyaw", "number": 7, "position": "RW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_fr1_016_09", "name": "Giovanni Reyna", "number": 10, "position": "CAM", "country": "US", "status": "starter" },
+      { "playerId": "player_fr1_016_10", "name": "Sebastian Nanasi", "number": 11, "position": "LW", "country": "SE", "status": "starter" },
+      { "playerId": "player_fr1_016_11", "name": "Joaquín Panichelli", "number": 9, "position": "ST", "country": "AR", "status": "starter" },
+
+      { "playerId": "player_fr1_016_12", "name": "Miłosz Piekutowski", "number": 12, "position": "GK", "country": "PL", "status": "bench" },
+      { "playerId": "player_fr1_016_13", "name": "Jeyland Mitchell", "number": 4, "position": "CB", "country": "CR", "status": "bench" },
+      { "playerId": "player_fr1_016_14", "name": "Karim Coulibaly", "number": 31, "position": "CB", "country": "DE", "status": "bench" },
+      { "playerId": "player_fr1_016_15", "name": "Diogo Sousa", "number": 23, "position": "CM", "country": "PT", "status": "bench" },
+      { "playerId": "player_fr1_016_16", "name": "Pape Demba Diop", "number": 21, "position": "CM", "country": "SN", "status": "bench" },
+      { "playerId": "player_fr1_016_17", "name": "Martial Godo", "number": 20, "position": "LW", "country": "CI", "status": "bench" },
+      { "playerId": "player_fr1_016_18", "name": "Omari Kellyman", "number": 26, "position": "CAM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_fr1_016_19", "name": "Sékou Mara", "number": 18, "position": "ST", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_016_20", "name": "Deivid Washington", "number": 17, "position": "ST", "country": "BR", "status": "bench" },
+      { "playerId": "player_fr1_016_21", "name": "Fabio Baldé", "number": 19, "position": "LW", "country": "DE", "status": "bench" },
+
+      { "playerId": "player_fr1_016_22", "name": "Jacobo Ortega", "number": 30, "position": "ST", "country": "ES", "status": "reserve" },
+      { "playerId": "player_fr1_016_23", "name": "Samir El Mourabet", "number": 29, "position": "CM", "country": "MA", "status": "reserve" },
+      { "playerId": "player_fr1_016_24", "name": "Yaya Diémé", "number": 35, "position": "ST", "country": "SN", "status": "reserve" },
+      { "playerId": "player_fr1_016_25", "name": "Oso", "number": 36, "position": "RW", "country": "ES", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
