@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Basak.png",
 
+  "manager": {
+    "name": "Nuri Şahin",
+    "country": "TR"
+  },
+
   "stadium": {
     "name": "Başakşehir Fatih Terim",
     "capacity": 17067
+  },
+
+  "players": [
+    { "playerId": "player_tr_006_01", "name": "Muhammed Şengezer", "number": 16, "position": "GK", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_006_02", "name": "Ömer Ali Şahiner", "number": 42, "position": "RB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_006_03", "name": "Emin Bayram", "number": 23, "position": "CB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_006_04", "name": "Ousseynou Ba", "number": 27, "position": "CB", "country": "SN", "status": "starter" },
+    { "playerId": "player_tr_006_05", "name": "Christopher Operi", "number": 21, "position": "LB", "country": "CI", "status": "starter" },
+    { "playerId": "player_tr_006_06", "name": "Andreas Skov Olsen", "number": 70, "position": "RM", "country": "DK", "status": "starter" },
+    { "playerId": "player_tr_006_07", "name": "Olivier Kemen", "number": 8, "position": "CM", "country": "CM", "status": "starter" },
+    { "playerId": "player_tr_006_08", "name": "Umut Güneş", "number": 20, "position": "CM", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_006_09", "name": "Ivan Brnić", "number": 77, "position": "LM", "country": "HR", "status": "starter" },
+    { "playerId": "player_tr_006_10", "name": "Davie Selke", "number": 9, "position": "ST", "country": "DE", "status": "starter" },
+    { "playerId": "player_tr_006_11", "name": "Eldor Shomurodov", "number": 14, "position": "ST", "country": "UZ", "status": "starter" },
+
+    { "playerId": "player_tr_006_12", "name": "Deniz Dilmen", "number": 98, "position": "GK", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_006_13", "name": "Hamza Güreler", "number": 15, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_006_14", "name": "Jerome Opoku", "number": 3, "position": "CB", "country": "GH", "status": "bench" },
+    { "playerId": "player_tr_006_15", "name": "Michał Karbownik", "number": 33, "position": "LB", "country": "PL", "status": "bench" },
+    { "playerId": "player_tr_006_16", "name": "Saba Kharebashvili", "number": 38, "position": "LB", "country": "GE", "status": "bench" },
+    { "playerId": "player_tr_006_17", "name": "Jakub Kałuziński", "number": 18, "position": "CDM", "country": "PL", "status": "bench" },
+    { "playerId": "player_tr_006_18", "name": "Onur Ergün", "number": 4, "position": "CDM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_006_19", "name": "Abbosbek Fayzullaev", "number": 11, "position": "CAM", "country": "UZ", "status": "bench" },
+    { "playerId": "player_tr_006_20", "name": "Yusuf Sarı", "number": 7, "position": "RW", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_006_21", "name": "Bertuğ Yıldırım", "number": 91, "position": "ST", "country": "TR", "status": "bench" },
+
+    { "playerId": "player_tr_006_22", "name": "Volkan Babacan", "number": 1, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_006_23", "name": "Berkay Özcan", "number": 19, "position": "CM", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_006_24", "name": "Edin Višća", "number": 10, "position": "RW", "country": "BA", "status": "reserve" },
+    { "playerId": "player_tr_006_25", "name": "Umut Dilan Bozok", "number": 17, "position": "ST", "country": "TR", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-4-2",
+    "captain": 42,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 70,
+      "cornerLeft": 77,
+      "cornerRight": 70
+    }
   }
 }
