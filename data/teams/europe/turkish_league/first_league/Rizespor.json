@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Rize.png",
 
+  "manager": {
+    "name": "Recep Uçar",
+    "country": "TR"
+  },
+
   "stadium": {
     "name": "Çaykur Didi",
     "capacity": 14879
+  },
+
+  "players": [
+    { "playerId": "player_tr_016_01", "name": "Yahia Fofana", "number": 75, "position": "GK", "country": "CI", "status": "starter" },
+    { "playerId": "player_tr_016_02", "name": "Mithat Pala", "number": 54, "position": "RB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_016_03", "name": "Attila Mocsi", "number": 4, "position": "CB", "country": "HU", "status": "starter" },
+    { "playerId": "player_tr_016_04", "name": "Tayyip Talha Sanuç", "number": 5, "position": "CB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_016_05", "name": "Modibo Sagnan", "number": 93, "position": "LB", "country": "ML", "status": "starter" },
+    { "playerId": "player_tr_016_06", "name": "Taylan Antalyalı", "number": 14, "position": "CDM", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_016_07", "name": "Muhammet Taha Şahin", "number": 37, "position": "RM", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_016_08", "name": "Ibrahim Olawoyin", "number": 10, "position": "CM", "country": "NG", "status": "starter" },
+    { "playerId": "player_tr_016_09", "name": "Qazim Laçi", "number": 20, "position": "CM", "country": "AL", "status": "starter" },
+    { "playerId": "player_tr_016_10", "name": "Emrecan Bulut", "number": 99, "position": "LM", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_016_11", "name": "Ali Sowe", "number": 9, "position": "ST", "country": "GM", "status": "starter" },
+
+    { "playerId": "player_tr_016_12", "name": "Zafer Görgen", "number": 30, "position": "GK", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_016_13", "name": "Khusniddin Alikulov", "number": 2, "position": "CB", "country": "UZ", "status": "bench" },
+    { "playerId": "player_tr_016_14", "name": "Zakaria Ariss", "number": 17, "position": "LB", "country": "MA", "status": "bench" },
+    { "playerId": "player_tr_016_15", "name": "Siaka Bakayoko", "number": 21, "position": "CB", "country": "FR", "status": "bench" },
+    { "playerId": "player_tr_016_16", "name": "Moussa Diakite", "number": 6, "position": "CDM", "country": "ML", "status": "bench" },
+    { "playerId": "player_tr_016_17", "name": "Can Bozdoğan", "number": 70, "position": "CM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_016_18", "name": "Dal Varesanovic", "number": 8, "position": "CAM", "country": "BA", "status": "bench" },
+    { "playerId": "player_tr_016_19", "name": "Mihai-Valentin Mihaila", "number": 7, "position": "LW", "country": "RO", "status": "bench" },
+    { "playerId": "player_tr_016_20", "name": "Ahmed Kutucu", "number": 23, "position": "ST", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_016_21", "name": "Iustin Doicaru", "number": 79, "position": "RW", "country": "RO", "status": "bench" },
+
+    { "playerId": "player_tr_016_22", "name": "Efe Doğan", "number": 97, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_016_23", "name": "Adedire Mebude", "number": 11, "position": "RW", "country": "GB-SCT", "status": "reserve" },
+    { "playerId": "player_tr_016_24", "name": "Gennaro Borrelli", "number": 29, "position": "ST", "country": "IT", "status": "reserve" },
+    { "playerId": "player_tr_016_25", "name": "Umut Erdem", "number": 19, "position": "CB", "country": "TR", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-1-4-1",
+    "captain": 14,
+    "setPieces": {
+      "penalty": 20,
+      "freeKick": 20,
+      "cornerLeft": 20,
+      "cornerRight": 20
+    }
   }
 }
