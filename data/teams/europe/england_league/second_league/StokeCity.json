@@ -1,12 +1,58 @@
 {
-  "teamKey": "Stoke",
+    "teamKey": "Stoke",
 
-  "name": "Stoke City",
+    "name": "Stoke City",
 
-  "logo": "assets/logos/europe/england/Stoke.png",
+    "logo": "assets/logos/europe/england/Stoke.png",
 
-  "stadium": {
-    "name": "bet365 Stadium",
-    "capacity": 30089
+    "manager": {
+      "name": "Mark Robins",
+      "country": "GB-ENG"
+    },
+
+    "stadium": {
+      "name": "bet365 Stadium",
+      "capacity": 30089
+    },
+
+    "players": [
+      { "playerId": "player_en2_018_01", "name": "Viktor Johansson", "number": 1, "position": "GK", "country": "SE", "status": "starter" },
+      { "playerId": "player_en2_018_02", "name": "Ben Johnson", "number": 2, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_018_03", "name": "Luke Graham", "number": 5, "position": "CB", "country": "GB-SCT", "status": "starter" },
+      { "playerId": "player_en2_018_04", "name": "Maksym Talovierov", "number": 40, "position": "CB", "country": "UA", "status": "starter" },
+      { "playerId": "player_en2_018_05", "name": "Aaron Cresswell", "number": 3, "position": "LB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_018_06", "name": "Ben Pearson", "number": 4, "position": "CDM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_018_07", "name": "Ethan Galbraith", "number": 8, "position": "CM", "country": "GB-NIR", "status": "starter" },
+      { "playerId": "player_en2_018_08", "name": "Million Manhoef", "number": 42, "position": "RW", "country": "NL", "status": "starter" },
+      { "playerId": "player_en2_018_09", "name": "Jack McGlynn", "number": 7, "position": "CAM", "country": "US", "status": "starter" },
+      { "playerId": "player_en2_018_10", "name": "Tyler Martin", "number": 58, "position": "LW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_018_11", "name": "Róbert Boženík", "number": 9, "position": "ST", "country": "SK", "status": "starter" },
+
+      { "playerId": "player_en2_018_12", "name": "Josh Griffiths", "number": 24, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_018_13", "name": "Freddie Anderson", "number": 43, "position": "CB", "country": "US", "status": "bench" },
+      { "playerId": "player_en2_018_14", "name": "Laurence Giani", "number": 52, "position": "CB", "country": "IT", "status": "bench" },
+      { "playerId": "player_en2_018_15", "name": "Svante Ingelsson", "number": 6, "position": "CM", "country": "SE", "status": "bench" },
+      { "playerId": "player_en2_018_16", "name": "Djibril Soumaré", "number": 27, "position": "CM", "country": "SN", "status": "bench" },
+      { "playerId": "player_en2_018_17", "name": "Gabriel Kelly", "number": 59, "position": "CM", "country": "IE", "status": "bench" },
+      { "playerId": "player_en2_018_18", "name": "Bae Jun-Ho", "number": 10, "position": "CAM", "country": "KR", "status": "bench" },
+      { "playerId": "player_en2_018_19", "name": "Lewis Koumas", "number": 11, "position": "LW", "country": "GB-WLS", "status": "bench" },
+      { "playerId": "player_en2_018_20", "name": "Niall Ennis", "number": 18, "position": "ST", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_018_21", "name": "Sam Gallagher", "number": 20, "position": "ST", "country": "GB-ENG", "status": "bench" },
+
+      { "playerId": "player_en2_018_22", "name": "Frank Fielding", "number": 34, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_018_23", "name": "Emre Tezgel", "number": 37, "position": "ST", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_018_24", "name": "Sol Sidibe", "number": 30, "position": "CM", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_018_25", "name": "Wouter Burger", "number": 15, "position": "CM", "country": "NL", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 42,
+        "cornerRight": 7
+      }
+    }
   }
-}
