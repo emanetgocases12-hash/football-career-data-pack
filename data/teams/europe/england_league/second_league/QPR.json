@@ -1,12 +1,58 @@
 {
-  "teamKey": "QPR",
+    "teamKey": "QPR",
 
-  "name": "Queens Park Rangers",
+    "name": "Queens Park Rangers",
 
-  "logo": "assets/logos/europe/england/QPR.png",
+    "logo": "assets/logos/europe/england/QPR.png",
 
-  "stadium": {
-    "name": "Loftus Road Stadium",
-    "capacity": 18360
+    "manager": {
+      "name": "Julien Stéphan",
+      "country": "FR"
+    },
+
+    "stadium": {
+      "name": "Loftus Road Stadium",
+      "capacity": 18360
+    },
+
+    "players": [
+      { "playerId": "player_en2_015_01", "name": "Pierce Charles", "number": 1, "position": "GK", "country": "GB-NIR", "status": "starter" },
+      { "playerId": "player_en2_015_02", "name": "Kealey Adamson", "number": 2, "position": "RB", "country": "AU", "status": "starter" },
+      { "playerId": "player_en2_015_03", "name": "Jimmy Dunne", "number": 3, "position": "CB", "country": "IE", "status": "starter" },
+      { "playerId": "player_en2_015_04", "name": "Ronnie Edwards", "number": 5, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_015_05", "name": "Boy Kemper", "number": 12, "position": "LB", "country": "NL", "status": "starter" },
+      { "playerId": "player_en2_015_06", "name": "Jonathan Varane", "number": 40, "position": "CDM", "country": "FR", "status": "starter" },
+      { "playerId": "player_en2_015_07", "name": "Glen Kamara", "number": 18, "position": "CM", "country": "FI", "status": "starter" },
+      { "playerId": "player_en2_015_08", "name": "Karamoko Dembélé", "number": 7, "position": "RW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en2_015_09", "name": "Ilias Chair", "number": 10, "position": "CAM", "country": "MA", "status": "starter" },
+      { "playerId": "player_en2_015_10", "name": "Kwame Poku", "number": 17, "position": "LW", "country": "GH", "status": "starter" },
+      { "playerId": "player_en2_015_11", "name": "Richard Koné", "number": 22, "position": "ST", "country": "CI", "status": "starter" },
+
+      { "playerId": "player_en2_015_12", "name": "Calum Ward", "number": 13, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_015_13", "name": "Liam Morrison", "number": 4, "position": "CB", "country": "GB-SCT", "status": "bench" },
+      { "playerId": "player_en2_015_14", "name": "Jake Clarke-Salter", "number": 6, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en2_015_15", "name": "Dennis Cirkin", "number": 19, "position": "LB", "country": "LV", "status": "bench" },
+      { "playerId": "player_en2_015_16", "name": "Tariq Lamptey", "number": 48, "position": "RB", "country": "GH", "status": "bench" },
+      { "playerId": "player_en2_015_17", "name": "Harvey Vale", "number": 20, "position": "CM", "country": "IE", "status": "bench" },
+      { "playerId": "player_en2_015_18", "name": "Nicolas Madsen", "number": 24, "position": "CM", "country": "DK", "status": "bench" },
+      { "playerId": "player_en2_015_19", "name": "Koki Saito", "number": 14, "position": "LW", "country": "JP", "status": "bench" },
+      { "playerId": "player_en2_015_20", "name": "Rumarn Burrell", "number": 16, "position": "ST", "country": "JM", "status": "bench" },
+      { "playerId": "player_en2_015_21", "name": "Justin Obikwu", "number": 25, "position": "ST", "country": "TT", "status": "bench" },
+
+      { "playerId": "player_en2_015_22", "name": "Matteo Salamon", "number": 32, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en2_015_23", "name": "Rayan Kolli", "number": 26, "position": "LW", "country": "DZ", "status": "reserve" },
+      { "playerId": "player_en2_015_24", "name": "Amadou Mbengue", "number": 27, "position": "CB", "country": "SN", "status": "reserve" },
+      { "playerId": "player_en2_015_25", "name": "Isak Alemayehu", "number": 23, "position": "CM", "country": "SE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 22,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 10
+      }
+    }
   }
-}
