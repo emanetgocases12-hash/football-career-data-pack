@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Besiktas.png",
 
+  "manager": {
+    "name": "Vincenzo Italiano",
+    "country": "IT"
+  },
+
   "stadium": {
     "name": "Beşiktaş Park",
     "capacity": 42684
+  },
+
+  "players": [
+    { "playerId": "player_tr_003_01", "name": "Alexander Nübel", "number": 1, "position": "GK", "country": "DE", "status": "starter" },
+    { "playerId": "player_tr_003_02", "name": "Michael Murillo", "number": 62, "position": "RB", "country": "PA", "status": "starter" },
+    { "playerId": "player_tr_003_03", "name": "Emmanuel Agbadou", "number": 12, "position": "CB", "country": "CI", "status": "starter" },
+    { "playerId": "player_tr_003_04", "name": "Tiago Djaló", "number": 35, "position": "CB", "country": "PT", "status": "starter" },
+    { "playerId": "player_tr_003_05", "name": "Rıdvan Yılmaz", "number": 33, "position": "LB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_003_06", "name": "Salih Özcan", "number": 6, "position": "CDM", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_003_07", "name": "Orkun Kökçü", "number": 10, "position": "CM", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_003_08", "name": "Václav Černý", "number": 18, "position": "RW", "country": "CZ", "status": "starter" },
+    { "playerId": "player_tr_003_09", "name": "Junior Olaitan", "number": 15, "position": "CAM", "country": "BJ", "status": "starter" },
+    { "playerId": "player_tr_003_10", "name": "Leandro Trossard", "number": 19, "position": "LW", "country": "BE", "status": "starter" },
+    { "playerId": "player_tr_003_11", "name": "Dušan Vlahović", "number": 28, "position": "ST", "country": "RS", "status": "starter" },
+
+    { "playerId": "player_tr_003_12", "name": "Doğan Alemdar", "number": 80, "position": "GK", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_003_13", "name": "Kassoum Ouattara", "number": 11, "position": "LB", "country": "FR", "status": "bench" },
+    { "playerId": "player_tr_003_14", "name": "Emirhan Topçu", "number": 53, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_003_15", "name": "Taylan Bulut", "number": 22, "position": "RB", "country": "DE", "status": "bench" },
+    { "playerId": "player_tr_003_16", "name": "Wilfred Ndidi", "number": 4, "position": "CDM", "country": "NG", "status": "bench" },
+    { "playerId": "player_tr_003_17", "name": "Kartal Yılmaz", "number": 8, "position": "CM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_003_18", "name": "Fabio Miretti", "number": 21, "position": "CM", "country": "IT", "status": "bench" },
+    { "playerId": "player_tr_003_19", "name": "Ernest Poku", "number": 17, "position": "RW", "country": "NL", "status": "bench" },
+    { "playerId": "player_tr_003_20", "name": "İlhan Fakılı", "number": 29, "position": "LW", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_003_21", "name": "Hyeongyu Oh", "number": 9, "position": "ST", "country": "KR", "status": "bench" },
+
+    { "playerId": "player_tr_003_22", "name": "Emir Yaşar", "number": 96, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_003_23", "name": "Yasin Özcan", "number": 58, "position": "CB", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_003_24", "name": "Milot Rashica", "number": 7, "position": "RW", "country": "XK", "status": "reserve" },
+    { "playerId": "player_tr_003_25", "name": "Semih Kılıçsoy", "number": 90, "position": "ST", "country": "TR", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 18
+    }
   }
 }
