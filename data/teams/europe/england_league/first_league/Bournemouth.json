@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bmouth",
+    "teamKey": "Bmouth",
 
-  "name": "AFC Bournemouth",
+    "name": "AFC Bournemouth",
 
-  "logo": "assets/logos/europe/england/Bournemouth.png",
+    "logo": "assets/logos/europe/england/Bournemouth.png",
 
-  "stadium": {
-    "name": "Vitality Stadium",
-    "capacity": 11307
+    "manager": {
+      "name": "Marco Rose",
+      "country": "DE"
+    },
+
+    "stadium": {
+      "name": "Vitality Stadium",
+      "capacity": 11307
+    },
+
+    "players": [
+      { "playerId": "player_en_003_01", "name": "Djordje Petrović", "number": 1, "position": "GK", "country": "RS", "status": "starter" },
+      { "playerId": "player_en_003_02", "name": "Adam Smith", "number": 15, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_003_03", "name": "António Silva", "number": 14, "position": "CB", "country": "PT", "status": "starter" },
+      { "playerId": "player_en_003_04", "name": "Bafodé Diakité", "number": 18, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_en_003_05", "name": "Adrien Truffert", "number": 3, "position": "LB", "country": "FR", "status": "starter" },
+      { "playerId": "player_en_003_06", "name": "Tyler Adams", "number": 12, "position": "CDM", "country": "US", "status": "starter" },
+      { "playerId": "player_en_003_07", "name": "Alex Scott", "number": 8, "position": "CM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_003_08", "name": "David Brooks", "number": 7, "position": "RW", "country": "GB-WLS", "status": "starter" },
+      { "playerId": "player_en_003_09", "name": "Justin Kluivert", "number": 19, "position": "CAM", "country": "NL", "status": "starter" },
+      { "playerId": "player_en_003_10", "name": "Marcus Tavernier", "number": 16, "position": "LW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_en_003_11", "name": "Evanilson", "number": 9, "position": "ST", "country": "BR", "status": "starter" },
+
+      { "playerId": "player_en_003_12", "name": "Michele Di Gregorio", "number": 20, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_en_003_13", "name": "Julián Araujo", "number": 2, "position": "RB", "country": "MX", "status": "bench" },
+      { "playerId": "player_en_003_14", "name": "James Hill", "number": 5, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_003_15", "name": "Julio Soler", "number": 6, "position": "LB", "country": "AR", "status": "bench" },
+      { "playerId": "player_en_003_16", "name": "Lewis Cook", "number": 4, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_en_003_17", "name": "Ryan Christie", "number": 10, "position": "CM", "country": "GB-SCT", "status": "bench" },
+      { "playerId": "player_en_003_18", "name": "Ben Gannon-Doak", "number": 11, "position": "RW", "country": "GB-SCT", "status": "bench" },
+      { "playerId": "player_en_003_19", "name": "Amine Adli", "number": 21, "position": "LW", "country": "MA", "status": "bench" },
+      { "playerId": "player_en_003_20", "name": "Junior Kroupi", "number": 22, "position": "ST", "country": "FR", "status": "bench" },
+      { "playerId": "player_en_003_21", "name": "Álvaro Rodríguez", "number": 30, "position": "ST", "country": "UY", "status": "bench" },
+
+      { "playerId": "player_en_003_22", "name": "Fraser Forster", "number": 17, "position": "GK", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_en_003_23", "name": "Veljko Milosavljević", "number": 44, "position": "CB", "country": "RS", "status": "reserve" },
+      { "playerId": "player_en_003_24", "name": "Juanlu Sánchez", "number": 24, "position": "RB", "country": "ES", "status": "reserve" },
+      { "playerId": "player_en_003_25", "name": "Rayan", "number": 37, "position": "ST", "country": "BR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 15,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 16,
+        "cornerLeft": 16,
+        "cornerRight": 7
+      }
+    }
   }
-}
