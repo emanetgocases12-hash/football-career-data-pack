@@ -1,12 +1,58 @@
 {
-  "teamKey": "Lyon",
+    "teamKey": "Lyon",
 
-  "name": "Olympique Lyon",
+    "name": "Olympique Lyon",
 
-  "logo": "assets/logos/europe/france/Lyon.png",
+    "logo": "assets/logos/europe/france/Lyon.png",
 
-  "stadium": {
-    "name": "Groupama Stadium",
-    "capacity": 59186
+    "manager": {
+      "name": "Paulo Fonseca",
+      "country": "PT"
+    },
+
+    "stadium": {
+      "name": "Groupama Stadium",
+      "capacity": 59186
+    },
+
+    "players": [
+      { "playerId": "player_fr1_009_01", "name": "Dominik Greif", "number": 1, "position": "GK", "country": "SK", "status": "starter" },
+      { "playerId": "player_fr1_009_02", "name": "Clinton Mata", "number": 22, "position": "RB", "country": "AO", "status": "starter" },
+      { "playerId": "player_fr1_009_03", "name": "Moussa Niakhaté", "number": 19, "position": "CB", "country": "SN", "status": "starter" },
+      { "playerId": "player_fr1_009_04", "name": "Ruben Kluivert", "number": 21, "position": "CB", "country": "NL", "status": "starter" },
+      { "playerId": "player_fr1_009_05", "name": "Nicolás Tagliafico", "number": 3, "position": "LB", "country": "AR", "status": "starter" },
+      { "playerId": "player_fr1_009_06", "name": "Tanner Tessmann", "number": 6, "position": "CDM", "country": "US", "status": "starter" },
+      { "playerId": "player_fr1_009_07", "name": "Corentin Tolisso", "number": 8, "position": "CM", "country": "FR", "status": "starter" },
+      { "playerId": "player_fr1_009_08", "name": "Pavel Šulc", "number": 10, "position": "CAM", "country": "CZ", "status": "starter" },
+      { "playerId": "player_fr1_009_09", "name": "Malick Fofana", "number": 11, "position": "RW", "country": "BE", "status": "starter" },
+      { "playerId": "player_fr1_009_10", "name": "Abner Vinícius", "number": 16, "position": "LW", "country": "BR", "status": "starter" },
+      { "playerId": "player_fr1_009_11", "name": "Endrick", "number": 9, "position": "ST", "country": "BR", "status": "starter" },
+
+      { "playerId": "player_fr1_009_12", "name": "Rémy Descamps", "number": 40, "position": "GK", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_009_13", "name": "Zachary Athekame", "number": 13, "position": "RB", "country": "CH", "status": "bench" },
+      { "playerId": "player_fr1_009_14", "name": "Felix Bacher", "number": 20, "position": "CB", "country": "AT", "status": "bench" },
+      { "playerId": "player_fr1_009_15", "name": "Mohamed Ouédraogo", "number": 76, "position": "LB", "country": "BF", "status": "bench" },
+      { "playerId": "player_fr1_009_16", "name": "Noham Kamara", "number": 85, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_009_17", "name": "Adam Karabec", "number": 7, "position": "CM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_fr1_009_18", "name": "Orel Mangala", "number": 5, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_fr1_009_19", "name": "Mathys De Carvalho", "number": 34, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_fr1_009_20", "name": "Martín Satriano", "number": 18, "position": "ST", "country": "UY", "status": "bench" },
+      { "playerId": "player_fr1_009_21", "name": "Georges Mikautadze", "number": 69, "position": "ST", "country": "GE", "status": "bench" },
+
+      { "playerId": "player_fr1_009_22", "name": "Justin Bengui", "number": 25, "position": "GK", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_009_23", "name": "Steeve Kango", "number": 37, "position": "CB", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_009_24", "name": "Enzo Molebe", "number": 29, "position": "ST", "country": "FR", "status": "reserve" },
+      { "playerId": "player_fr1_009_25", "name": "Khalis Merah", "number": 45, "position": "CM", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 19,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
   }
-}
