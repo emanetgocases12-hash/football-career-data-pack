@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/europe/turkey/Gaziantep.png",
 
+  "manager": {
+    "name": "Orhan Ak",
+    "country": "TR"
+  },
+
   "stadium": {
     "name": "Gaziantep Stadyumu",
     "capacity": 30320
+  },
+
+  "players": [
+    { "playerId": "player_tr_010_01", "name": "Kacper Tobiasz", "number": 25, "position": "GK", "country": "PL", "status": "starter" },
+    { "playerId": "player_tr_010_02", "name": "Luis Pérez", "number": 2, "position": "RB", "country": "ES", "status": "starter" },
+    { "playerId": "player_tr_010_03", "name": "Arda Kızıldağ", "number": 4, "position": "CB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr_010_04", "name": "Myenty Abena", "number": 14, "position": "CB", "country": "SR", "status": "starter" },
+    { "playerId": "player_tr_010_05", "name": "Kerim Çalhanoğlu", "number": 23, "position": "LB", "country": "DE", "status": "starter" },
+    { "playerId": "player_tr_010_06", "name": "Ulrich Meleke", "number": 6, "position": "CDM", "country": "CI", "status": "starter" },
+    { "playerId": "player_tr_010_07", "name": "Victor Gidado", "number": 8, "position": "CM", "country": "NG", "status": "starter" },
+    { "playerId": "player_tr_010_08", "name": "Deian Sorescu", "number": 18, "position": "RW", "country": "RO", "status": "starter" },
+    { "playerId": "player_tr_010_09", "name": "Kacper Kozłowski", "number": 10, "position": "CAM", "country": "PL", "status": "starter" },
+    { "playerId": "player_tr_010_10", "name": "Alexandru Maxim", "number": 44, "position": "LW", "country": "RO", "status": "starter" },
+    { "playerId": "player_tr_010_11", "name": "Halil Dervişoğlu", "number": 28, "position": "ST", "country": "TR", "status": "starter" },
+
+    { "playerId": "player_tr_010_12", "name": "Ataberk Dadakdeniz", "number": 35, "position": "GK", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_010_13", "name": "Efe Sarıkaya", "number": 5, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_010_14", "name": "Abakar Sylla", "number": 21, "position": "CB", "country": "CI", "status": "bench" },
+    { "playerId": "player_tr_010_15", "name": "Nazım Sangaré", "number": 30, "position": "RB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_010_16", "name": "Sabahattin Destici", "number": 77, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_010_17", "name": "Drissa Camara", "number": 3, "position": "CM", "country": "CI", "status": "bench" },
+    { "playerId": "player_tr_010_18", "name": "Juninho Bacuna", "number": 7, "position": "CM", "country": "CW", "status": "bench" },
+    { "playerId": "player_tr_010_19", "name": "Karamba Gassama", "number": 17, "position": "CM", "country": "GM", "status": "bench" },
+    { "playerId": "player_tr_010_20", "name": "Ogün Özçiçek", "number": 61, "position": "CM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr_010_21", "name": "Sontje Hansen", "number": 22, "position": "RW", "country": "CW", "status": "bench" },
+
+    { "playerId": "player_tr_010_22", "name": "Enver Kulašin", "number": 27, "position": "LW", "country": "BA", "status": "reserve" },
+    { "playerId": "player_tr_010_23", "name": "Trivante Stewart", "number": 9, "position": "ST", "country": "JM", "status": "reserve" },
+    { "playerId": "player_tr_010_24", "name": "Serdar Dursun", "number": 19, "position": "ST", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr_010_25", "name": "Fuat Bavuk", "number": 97, "position": "ST", "country": "TR", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 44,
+    "setPieces": {
+      "penalty": 44,
+      "freeKick": 44,
+      "cornerLeft": 44,
+      "cornerRight": 44
+    }
   }
 }
