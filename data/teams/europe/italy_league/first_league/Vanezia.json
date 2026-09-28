@@ -1,12 +1,58 @@
 {
-  "teamKey": "Vanezi",
+    "teamKey": "Vanezi",
 
-  "name": "Venezia FC",
+    "name": "Venezia FC",
 
-  "logo": "assets/logos/europe/italy/Venezia.png",
+    "logo": "assets/logos/europe/italy/Venezia.png",
 
-  "stadium": {
-    "name": "Pier Luigi Penzo",
-    "capacity": 12048
+    "manager": {
+      "name": "Giovanni Stroppa",
+      "country": "IT"
+    },
+
+    "stadium": {
+      "name": "Pier Luigi Penzo",
+      "capacity": 12048
+    },
+
+    "players": [
+      { "playerId": "player_it1_020_01", "name": "Filip Stanković", "number": 1, "position": "GK", "country": "RS", "status": "starter" },
+      { "playerId": "player_it1_020_02", "name": "Armel Bella-Kotchap", "number": 17, "position": "CB", "country": "DE", "status": "starter" },
+      { "playerId": "player_it1_020_03", "name": "Michael Svoboda", "number": 30, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_it1_020_04", "name": "Bartol Franjić", "number": 4, "position": "CB", "country": "HR", "status": "starter" },
+      { "playerId": "player_it1_020_05", "name": "Antoine Hainaut", "number": 18, "position": "RM", "country": "FR", "status": "starter" },
+      { "playerId": "player_it1_020_06", "name": "Gianluca Busio", "number": 6, "position": "CM", "country": "US", "status": "starter" },
+      { "playerId": "player_it1_020_07", "name": "Magnus Kofod Andersen", "number": 38, "position": "CM", "country": "DK", "status": "starter" },
+      { "playerId": "player_it1_020_08", "name": "Gaetano Oristanio", "number": 10, "position": "LM", "country": "IT", "status": "starter" },
+      { "playerId": "player_it1_020_09", "name": "John Yeboah", "number": 11, "position": "CAM", "country": "EC", "status": "starter" },
+      { "playerId": "player_it1_020_10", "name": "Joel Pohjanpalo", "number": 20, "position": "ST", "country": "FI", "status": "starter" },
+      { "playerId": "player_it1_020_11", "name": "Christian Gytkjær", "number": 9, "position": "ST", "country": "DK", "status": "starter" },
+
+      { "playerId": "player_it1_020_12", "name": "Lorenzo Montipò", "number": 22, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_020_13", "name": "Matteo Grandi", "number": 23, "position": "GK", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_020_14", "name": "Ridgeciano Haps", "number": 5, "position": "LB", "country": "SR", "status": "bench" },
+      { "playerId": "player_it1_020_15", "name": "Jay Idzes", "number": 21, "position": "CB", "country": "ID", "status": "bench" },
+      { "playerId": "player_it1_020_16", "name": "Francesco Zampano", "number": 7, "position": "RB", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_020_17", "name": "Alfred Duncan", "number": 32, "position": "CM", "country": "GH", "status": "bench" },
+      { "playerId": "player_it1_020_18", "name": "Mikael Ellertsson", "number": 77, "position": "CM", "country": "IS", "status": "bench" },
+      { "playerId": "player_it1_020_19", "name": "Issa Doumbia", "number": 8, "position": "CM", "country": "IT", "status": "bench" },
+      { "playerId": "player_it1_020_20", "name": "Bjarki Steinn Bjarkason", "number": 19, "position": "LW", "country": "IS", "status": "bench" },
+      { "playerId": "player_it1_020_21", "name": "Nicholas Pierini", "number": 24, "position": "ST", "country": "IT", "status": "bench" },
+
+      { "playerId": "player_it1_020_22", "name": "Alessio Pozzi", "number": 28, "position": "GK", "country": "IT", "status": "reserve" },
+      { "playerId": "player_it1_020_23", "name": "Ale Gomes", "number": 95, "position": "CB", "country": "ES", "status": "reserve" },
+      { "playerId": "player_it1_020_24", "name": "Domen Črnigoj", "number": 33, "position": "RM", "country": "SI", "status": "reserve" },
+      { "playerId": "player_it1_020_25", "name": "Marco Olivieri", "number": 27, "position": "ST", "country": "IT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "3-5-2",
+      "captain": 30,
+      "setPieces": {
+        "penalty": 20,
+        "freeKick": 6,
+        "cornerLeft": 10,
+        "cornerRight": 6
+      }
+    }
   }
-}
