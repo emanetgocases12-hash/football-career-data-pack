@@ -1,12 +1,58 @@
 {
-  "teamKey": "RacSan",
+    "teamKey": "RacSan",
 
-  "name": "Racing Santander",
+    "name": "Racing Santander",
 
-  "logo": "assets/logos/europe/spain/Racing.png",
+    "logo": "assets/logos/europe/spain/Racing.png",
 
-  "stadium": {
-    "name": "El Sardinero",
-    "capacity": 22308
+    "manager": {
+      "name": "José Alberto López",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "El Sardinero",
+      "capacity": 22308
+    },
+
+    "players": [
+      { "playerId": "player_es_013_01", "name": "Julen Agirrezabala", "number": 13, "position": "GK", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_013_02", "name": "Álvaro Mantilla", "number": 2, "position": "RB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_013_03", "name": "Manu Hernando", "number": 4, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_013_04", "name": "Facundo González", "number": 16, "position": "CB", "country": "UY", "status": "starter" },
+      { "playerId": "player_es_013_05", "name": "Jorge Salinas", "number": 17, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_013_06", "name": "Íñigo Sainz-Maza", "number": 6, "position": "CDM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_013_07", "name": "Iván Martín", "number": 23, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_013_08", "name": "Sergio Canales", "number": 20, "position": "CAM", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_013_09", "name": "Andrés Martín", "number": 11, "position": "RW", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_013_10", "name": "Iñigo Vicente", "number": 10, "position": "LW", "country": "ES", "status": "starter" },
+      { "playerId": "player_es_013_11", "name": "Yassir Zabiri", "number": 21, "position": "ST", "country": "MA", "status": "starter" },
+
+      { "playerId": "player_es_013_12", "name": "Simon Eriksson", "number": 1, "position": "GK", "country": "SE", "status": "bench" },
+      { "playerId": "player_es_013_13", "name": "Pablo Ramón", "number": 5, "position": "CB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es_013_14", "name": "Aarón Martín", "number": 3, "position": "LB", "country": "ES", "status": "bench" },
+      { "playerId": "player_es_013_15", "name": "Jeanuël Belocian", "number": 24, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_es_013_16", "name": "Pedro Felipe", "number": 22, "position": "CB", "country": "BR", "status": "bench" },
+      { "playerId": "player_es_013_17", "name": "Matteo Prati", "number": 18, "position": "CM", "country": "IT", "status": "bench" },
+      { "playerId": "player_es_013_18", "name": "André Almeida", "number": 8, "position": "CM", "country": "PT", "status": "bench" },
+      { "playerId": "player_es_013_19", "name": "Giorgi Guliashvili", "number": 7, "position": "LW", "country": "GE", "status": "bench" },
+      { "playerId": "player_es_013_20", "name": "Asier Villalibre", "number": 12, "position": "ST", "country": "ES", "status": "bench" },
+      { "playerId": "player_es_013_21", "name": "Juan Carlos Arana", "number": 9, "position": "ST", "country": "ES", "status": "bench" },
+
+      { "playerId": "player_es_013_22", "name": "Pablo García", "number": 15, "position": "RW", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es_013_23", "name": "Iker Luque", "number": 19, "position": "RW", "country": "ES", "status": "reserve" },
+      { "playerId": "player_es_013_24", "name": "Maguette Gueye", "number": 14, "position": "CM", "country": "SN", "status": "reserve" },
+      { "playerId": "player_es_013_25", "name": "Jorge Castellanos", "number": 33, "position": "CAM", "country": "ES", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 21,
+        "freeKick": 20,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
