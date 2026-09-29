@@ -1,12 +1,58 @@
 {
-  "teamKey": "Kaysar",
-
-  "name": "Kaysar Kyzylorda",
-
-  "logo": "assets/logos/europe/kazak/Kaysar.png",
-
-  "stadium": {
-    "name": "Kaysar Arena",
-    "capacity": 11000
+    "teamKey": "Kaysar",
+  
+    "name": "Kaysar Kyzylorda",
+  
+    "logo": "assets/logos/europe/kazak/Kaysar.png",
+  
+    "manager": {
+      "name": "Andrey Ferapontov",
+      "country": "KZ"
+    },
+  
+    "stadium": {
+      "name": "Kaysar Arena",
+      "capacity": 11000
+    },
+  
+    "players": [
+      {"playerId": "player_kz1_008_01", "name": "Adam Kováč", "number": 1, "position": "GK", "country": "SK", "status": "starter"},
+      {"playerId": "player_kz1_008_02", "name": "E. Sarbay", "number": 2, "position": "RB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_008_03", "name": "Klaidher", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_kz1_008_04", "name": "A. Tolegenov", "number": 5, "position": "CB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_008_05", "name": "N. Idrisov", "number": 3, "position": "LB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_008_06", "name": "Aibol Abiken", "number": 6, "position": "CM", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_008_07", "name": "D. Narzildaev", "number": 10, "position": "CM", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_008_08", "name": "Victor Moses", "number": 11, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_kz1_008_09", "name": "Miquéias", "number": 8, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_kz1_008_10", "name": "T. Jones", "number": 7, "position": "LW", "country": "CL", "status": "starter"},
+      {"playerId": "player_kz1_008_11", "name": "Imoh Ezekiel", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+  
+      {"playerId": "player_kz1_008_12", "name": "N. Salaydin", "number": 12, "position": "GK", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_008_13", "name": "A. Mokhammad", "number": 14, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_kz1_008_14", "name": "D. Semchenkov", "number": 15, "position": "CB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_008_15", "name": "S. Sovet", "number": 22, "position": "RB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_008_16", "name": "Nikola Cuckić", "number": 18, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_kz1_008_17", "name": "B. Konlimkos", "number": 20, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_008_18", "name": "S. Bukorac", "number": 17, "position": "CDM", "country": "RS", "status": "bench"},
+      {"playerId": "player_kz1_008_19", "name": "Agostinho", "number": 19, "position": "ST", "country": "GW", "status": "bench"},
+      {"playerId": "player_kz1_008_20", "name": "Orken Makhan", "number": 29, "position": "ST", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_008_21", "name": "Gustavo Zago", "number": 27, "position": "ST", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_kz1_008_22", "name": "A. Azhikhan", "number": 31, "position": "GK", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_008_23", "name": "M. Zhumat", "number": 24, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_008_24", "name": "D. Rustemuly", "number": 25, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_008_25", "name": "Ramazan Bagdat", "number": 28, "position": "ST", "country": "KZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
