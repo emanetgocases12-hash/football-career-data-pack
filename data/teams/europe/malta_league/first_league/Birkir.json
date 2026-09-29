@@ -1,12 +1,58 @@
 {
-  "teamKey": "Birkir",
-
-  "name": "Birkirkara FC",
-
-  "logo": "assets/logos/europe/malta/Birkir.png",
-
-  "stadium": {
-    "name": "Ta Qali",
-    "capacity": 17000
+    "teamKey": "Birkir",
+  
+    "name": "Birkirkara FC",
+  
+    "logo": "assets/logos/europe/malta/Birkir.png",
+  
+    "manager": {
+      "name": "Paul Zammit",
+      "country": "MT"
+    },
+  
+    "stadium": {
+      "name": "Ta Qali",
+      "capacity": 17000
+    },
+  
+    "players": [
+      {"playerId": "player_mt1_002_01", "name": "Rashed Al-Tumi", "number": 1, "position": "GK", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_002_02", "name": "Aleandro Garzia", "number": 2, "position": "RB", "country": "IT", "status": "starter"},
+      {"playerId": "player_mt1_002_03", "name": "Zach Muscat", "number": 4, "position": "CB", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_002_04", "name": "Enrico Pepe", "number": 5, "position": "CB", "country": "IT", "status": "starter"},
+      {"playerId": "player_mt1_002_05", "name": "Paul Mbong", "number": 3, "position": "LB", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_002_06", "name": "Neil Micallef", "number": 6, "position": "CM", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_002_07", "name": "Oscar Linton", "number": 8, "position": "CM", "country": "SE", "status": "starter"},
+      {"playerId": "player_mt1_002_08", "name": "Amarildo", "number": 7, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_mt1_002_09", "name": "Federico Falcone", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_mt1_002_10", "name": "Louis Pahama", "number": 11, "position": "LW", "country": "FR", "status": "starter"},
+      {"playerId": "player_mt1_002_11", "name": "Franklin Sasere", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+  
+      {"playerId": "player_mt1_002_12", "name": "Marcel Zapytowski", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_mt1_002_13", "name": "Luke Tabone", "number": 14, "position": "CB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_002_14", "name": "Cain Formosa", "number": 15, "position": "CB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_002_15", "name": "Ryan Scicluna", "number": 16, "position": "CM", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_002_16", "name": "Shaun Dimech", "number": 17, "position": "RW", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_002_17", "name": "Yuri Messias", "number": 18, "position": "LW", "country": "BR", "status": "bench"},
+      {"playerId": "player_mt1_002_18", "name": "Alex da Paixao", "number": 19, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_mt1_002_19", "name": "Osvaldo Iorio", "number": 20, "position": "CM", "country": "IT", "status": "bench"},
+      {"playerId": "player_mt1_002_20", "name": "Alex Camenzuli", "number": 21, "position": "LB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_002_21", "name": "Ryan Grioli", "number": 22, "position": "RB", "country": "MT", "status": "bench"},
+  
+      {"playerId": "player_mt1_002_22", "name": "Deasin El Hazzewi", "number": 30, "position": "GK", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_002_23", "name": "Noah Montfort", "number": 23, "position": "CM", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_002_24", "name": "Jayden Agius", "number": 24, "position": "ST", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_002_25", "name": "Kyrian Nwoko", "number": 25, "position": "ST", "country": "MT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
