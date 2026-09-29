@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bregal",
-
-  "name": "Bregalnica Stip",
-
-  "logo": "assets/logos/europe/macedonian/Bregal.png",
-
-  "stadium": {
-    "name": "Gradski Stadion Stip",
-    "capacity": 5000
+    "teamKey": "Bregal",
+  
+    "name": "Bregalnica Stip",
+  
+    "logo": "assets/logos/europe/macedonian/Bregal.png",
+  
+    "manager": {
+      "name": "Ilcho Gjorgjioski",
+      "country": "MK"
+    },
+  
+    "stadium": {
+      "name": "Gradski Stadion Stip",
+      "capacity": 5000
+    },
+  
+    "players": [
+      {"playerId": "player_mk1_004_01", "name": "Amir Jashar", "number": 1, "position": "GK", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_004_02", "name": "Branko Rajkov", "number": 2, "position": "RB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_004_03", "name": "Darko Stojanov", "number": 4, "position": "CB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_004_04", "name": "Viktor Velkoski", "number": 5, "position": "CB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_004_05", "name": "David Kalpachki", "number": 3, "position": "LB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_004_06", "name": "Martin Angelov", "number": 8, "position": "CM", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_004_07", "name": "Ivan Nikolov", "number": 6, "position": "CDM", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_004_08", "name": "Boban Georgiev", "number": 11, "position": "RW", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_004_09", "name": "Darijan Tasev", "number": 10, "position": "CAM", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_004_10", "name": "Kristijan Stojkovski", "number": 7, "position": "LW", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_004_11", "name": "Nathaniel Lawrenzo", "number": 9, "position": "ST", "country": "CA", "status": "starter"},
+  
+      {"playerId": "player_mk1_004_12", "name": "Martin Milenkovski", "number": 12, "position": "GK", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_004_13", "name": "Lazar Georgiev", "number": 22, "position": "ST", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_004_14", "name": "Filip Chichev", "number": 14, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_004_15", "name": "Aleksandar Nikolovski", "number": 15, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_004_16", "name": "Riste Temelkov", "number": 16, "position": "RB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_004_17", "name": "Saso Kocev", "number": 17, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_004_18", "name": "Jovan Postolov", "number": 18, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_004_19", "name": "Mario Timovski", "number": 20, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_004_20", "name": "Ivan Gligorov", "number": 19, "position": "ST", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_004_21", "name": "Matheus Lemos", "number": 21, "position": "ST", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_mk1_004_22", "name": "Filip Kupanov", "number": 30, "position": "GK", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_004_23", "name": "Nikola Taleski", "number": 23, "position": "ST", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_004_24", "name": "Filip Aleksovski", "number": 24, "position": "ST", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_004_25", "name": "Metodi Maksimov", "number": 27, "position": "ST", "country": "MK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
