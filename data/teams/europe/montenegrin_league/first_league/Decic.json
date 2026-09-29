@@ -1,12 +1,58 @@
 {
-  "teamKey": "Decic",
-
-  "name": "FK Decic Tuzi",
-
-  "logo": "assets/logos/europe/montengro/Decic.png",
-
-  "stadium": {
-    "name": "Arena Besa",
-    "capacity": 2000
+    "teamKey": "Decic",
+  
+    "name": "FK Decic Tuzi",
+  
+    "logo": "assets/logos/europe/montengro/Decic.png",
+  
+    "manager": {
+      "name": "Ivan Brnović",
+      "country": "ME"
+    },
+  
+    "stadium": {
+      "name": "Arena Besa",
+      "capacity": 2000
+    },
+  
+    "players": [
+      {"playerId": "player_me1_003_01", "name": "Danilo Radošević", "number": 25, "position": "GK", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_003_02", "name": "Jonathan Drešaj", "number": 22, "position": "RB", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_003_03", "name": "Leon Ujkaj", "number": 17, "position": "CB", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_003_04", "name": "Nikola Braunović", "number": 29, "position": "CB", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_003_05", "name": "Pjeter Ljuljdjuraj", "number": 15, "position": "LB", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_003_06", "name": "Davor Kontić", "number": 27, "position": "CM", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_003_07", "name": "Aleksa Ćetković", "number": 8, "position": "CM", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_003_08", "name": "Siniša Stanisavić", "number": 23, "position": "RW", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_003_09", "name": "Aldin Adžović", "number": 14, "position": "CAM", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_003_10", "name": "Mario Gjolaj", "number": 7, "position": "LW", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_003_11", "name": "Uroš Đuranović", "number": 11, "position": "ST", "country": "ME", "status": "starter"},
+  
+      {"playerId": "player_me1_003_12", "name": "Andrej Camaj", "number": 21, "position": "GK", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_003_13", "name": "Romario Camaj", "number": 55, "position": "ST", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_003_14", "name": "Demir Krkanović", "number": 66, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_003_15", "name": "Jovan Mugoša", "number": 50, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_003_16", "name": "Lazar Maraš", "number": 18, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_003_17", "name": "Petar Pavlićević", "number": 74, "position": "CM", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_003_18", "name": "Matija Božanović", "number": 16, "position": "CM", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_003_19", "name": "Medo Juković", "number": 88, "position": "CM", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_003_20", "name": "Ilir Camaj", "number": 9, "position": "ST", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_003_21", "name": "Balša Radusinović", "number": 32, "position": "ST", "country": "ME", "status": "bench"},
+  
+      {"playerId": "player_me1_003_22", "name": "Miloš Dragojević", "number": 33, "position": "GK", "country": "ME", "status": "reserve"},
+      {"playerId": "player_me1_003_23", "name": "Petar Ivanović", "number": 72, "position": "ST", "country": "ME", "status": "reserve"},
+      {"playerId": "player_me1_003_24", "name": "Mark Đokaj", "number": 10, "position": "RW", "country": "ME", "status": "reserve"},
+      {"playerId": "player_me1_003_25", "name": "Ilirian Camaj", "number": 34, "position": "CM", "country": "ME", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 22,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 14,
+        "cornerLeft": 23,
+        "cornerRight": 7
+      }
+    }
   }
-}
