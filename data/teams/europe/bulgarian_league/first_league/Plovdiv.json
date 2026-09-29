@@ -1,12 +1,58 @@
 {
-  "teamKey": "L Plov",
+    "teamKey": "L Plov",
 
-  "name": "Lokomotiv Plovdiv",
+    "name": "Lokomotiv Plovdiv",
 
-  "logo": "assets/logos/europe/bulgaria/Plovdiv.png",
+    "logo": "assets/logos/europe/bulgaria/Plovdiv.png",
 
-  "stadium": {
-    "name": "Lokomotiv",
-    "capacity": 8765
+    "manager": {
+      "name": "Dušan Kosič",
+      "country": "SI"
+    },
+
+    "stadium": {
+      "name": "Lokomotiv",
+      "capacity": 8765
+    },
+
+    "players": [
+      { "playerId": "player_bg1_010_01", "name": "B. Milosavljevic", "number": 1, "position": "GK", "country": "CH", "status": "starter" },
+      { "playerId": "player_bg1_010_02", "name": "Adrián Cova", "number": 2, "position": "RB", "country": "VE", "status": "starter" },
+      { "playerId": "player_bg1_010_03", "name": "A. Chindriş", "number": 4, "position": "CB", "country": "RO", "status": "starter" },
+      { "playerId": "player_bg1_010_04", "name": "M. Petrović", "number": 44, "position": "CB", "country": "RS", "status": "starter" },
+      { "playerId": "player_bg1_010_05", "name": "E. Espinoza", "number": 21, "position": "LB", "country": "AR", "status": "starter" },
+      { "playerId": "player_bg1_010_06", "name": "M. Trdan", "number": 6, "position": "CDM", "country": "SI", "status": "starter" },
+      { "playerId": "player_bg1_010_07", "name": "Parvizdzhon Umarbayev", "number": 39, "position": "CM", "country": "TJ", "status": "starter" },
+      { "playerId": "player_bg1_010_08", "name": "R. Leijten", "number": 11, "position": "RW", "country": "NL", "status": "starter" },
+      { "playerId": "player_bg1_010_09", "name": "Y. Iliev", "number": 10, "position": "CAM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_010_10", "name": "A. Fase", "number": 17, "position": "LW", "country": "NL", "status": "starter" },
+      { "playerId": "player_bg1_010_11", "name": "J. Lamy", "number": 99, "position": "ST", "country": "FR", "status": "starter" },
+
+      { "playerId": "player_bg1_010_12", "name": "P. Zovko", "number": 40, "position": "GK", "country": "BA", "status": "bench" },
+      { "playerId": "player_bg1_010_13", "name": "T. Pavlov", "number": 5, "position": "CB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_010_14", "name": "Lucas Ryan", "number": 13, "position": "CB", "country": "BR", "status": "bench" },
+      { "playerId": "player_bg1_010_15", "name": "E. Ali", "number": 12, "position": "RB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_010_16", "name": "I. Ivanov", "number": 22, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_010_17", "name": "Matheus Brito", "number": 94, "position": "CM", "country": "BR", "status": "bench" },
+      { "playerId": "player_bg1_010_18", "name": "M. Atanasov", "number": 8, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_010_19", "name": "G. Politino", "number": 7, "position": "RW", "country": "AR", "status": "bench" },
+      { "playerId": "player_bg1_010_20", "name": "J. Burban", "number": 19, "position": "ST", "country": "FR", "status": "bench" },
+      { "playerId": "player_bg1_010_21", "name": "C. Longville", "number": 29, "position": "LW", "country": "CI", "status": "bench" },
+
+      { "playerId": "player_bg1_010_22", "name": "R. Palazov", "number": 3, "position": "CB", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_010_23", "name": "D. Kirashki", "number": 26, "position": "CB", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_010_24", "name": "D. Mrankov", "number": 31, "position": "ST", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_010_25", "name": "Y. Dzhelepov", "number": 33, "position": "ST", "country": "BG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 99,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
   }
-}
