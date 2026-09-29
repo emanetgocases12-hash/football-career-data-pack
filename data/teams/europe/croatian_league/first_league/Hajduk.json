@@ -1,12 +1,58 @@
 {
-  "teamKey": "Hajduk",
+    "teamKey": "Hajduk",
 
-  "name": "HNK Hajduk Split",
+    "name": "HNK Hajduk Split",
 
-  "logo": "assets/logos/europe/croatia/Hajduk.png",
+    "logo": "assets/logos/europe/croatia/Hajduk.png",
 
-  "stadium": {
-    "name": "Poljud",
-    "capacity": 34183
+    "manager": {
+      "name": "Gonzalo García",
+      "country": "UY"
+    },
+
+    "stadium": {
+      "name": "Poljud",
+      "capacity": 34183
+    },
+
+    "players": [
+      { "playerId": "player_hr1_003_01", "name": "Toni Silić", "number": 33, "position": "GK", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_003_02", "name": "Mathieu Acapandié", "number": 22, "position": "RB", "country": "MG", "status": "starter" },
+      { "playerId": "player_hr1_003_03", "name": "Dario Maresic", "number": 15, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_hr1_003_04", "name": "Alec Van Hoorenbeeck", "number": 5, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_hr1_003_05", "name": "Šimun Hrgović", "number": 32, "position": "LB", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_003_06", "name": "Adrion Pajaziti", "number": 4, "position": "CDM", "country": "AL", "status": "starter" },
+      { "playerId": "player_hr1_003_07", "name": "Rokas Pukštas", "number": 21, "position": "CM", "country": "LT", "status": "starter" },
+      { "playerId": "player_hr1_003_08", "name": "Michele Šego", "number": 11, "position": "RW", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_003_09", "name": "Dalisson", "number": 9, "position": "CAM", "country": "ES", "status": "starter" },
+      { "playerId": "player_hr1_003_10", "name": "Abdoulie Sanyang", "number": 7, "position": "LW", "country": "GM", "status": "starter" },
+      { "playerId": "player_hr1_003_11", "name": "Marko Livaja", "number": 10, "position": "ST", "country": "HR", "status": "starter" },
+
+      { "playerId": "player_hr1_003_12", "name": "Ivica Ivušić", "number": 1, "position": "GK", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_003_13", "name": "Ron Raçi", "number": 14, "position": "CB", "country": "XK", "status": "bench" },
+      { "playerId": "player_hr1_003_14", "name": "Dario Melnjak", "number": 17, "position": "LB", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_003_15", "name": "Fran Karačić", "number": 29, "position": "RB", "country": "AU", "status": "bench" },
+      { "playerId": "player_hr1_003_16", "name": "Niko Sigur", "number": 8, "position": "CM", "country": "CA", "status": "bench" },
+      { "playerId": "player_hr1_003_17", "name": "Alberto Del Moral", "number": 20, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_hr1_003_18", "name": "Mihael Žaper", "number": 45, "position": "CDM", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_003_19", "name": "Noa Skoko", "number": 37, "position": "CAM", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_003_20", "name": "Roko Brajković", "number": 28, "position": "RW", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_003_21", "name": "Etnik Brruti", "number": 19, "position": "CM", "country": "XK", "status": "bench" },
+
+      { "playerId": "player_hr1_003_22", "name": "Dante Stipica", "number": 44, "position": "GK", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_003_23", "name": "Marino Skelin", "number": 36, "position": "CB", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_003_24", "name": "Adam Huram", "number": 26, "position": "CM", "country": "UA", "status": "reserve" },
+      { "playerId": "player_hr1_003_25", "name": "Illia Kutia", "number": 39, "position": "CM", "country": "UA", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
