@@ -1,12 +1,58 @@
 {
-  "teamKey": "BSK",
+    "teamKey": "BSK",
 
-  "name": "FK BSK Banja Luka",
+    "name": "FK BSK Banja Luka",
 
-  "logo": "assets/logos/europe/bosna/BSK.png",
+    "logo": "assets/logos/europe/bosna/BSK.png",
 
-  "stadium": {
-    "name": "Gradski stadion Banja Luka",
-    "capacity": 10030
+    "manager": {
+      "name": "Bojan Puzigaća",
+      "country": "BA"
+    },
+
+    "stadium": {
+      "name": "Gradski stadion Banja Luka",
+      "capacity": 10030
+    },
+
+    "players": [
+      { "playerId": "player_ba1_001_01", "name": "Aleksa Stupar", "number": 1, "position": "GK", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_001_02", "name": "Zoran Kvržić", "number": 2, "position": "RB", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_001_03", "name": "Nebojša Runić", "number": 4, "position": "CB", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_001_04", "name": "Cherif Diouf", "number": 5, "position": "CB", "country": "SN", "status": "starter" },
+      { "playerId": "player_ba1_001_05", "name": "Aleksandar Subić", "number": 3, "position": "LB", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_001_06", "name": "Marko Bundalo", "number": 6, "position": "CDM", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_001_07", "name": "Ognjen Radošević", "number": 8, "position": "CM", "country": "RS", "status": "starter" },
+      { "playerId": "player_ba1_001_08", "name": "Dragan Pejić", "number": 7, "position": "RW", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_001_09", "name": "David Gavrić", "number": 10, "position": "CAM", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_001_10", "name": "Stefan Djurić", "number": 11, "position": "LW", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_001_11", "name": "Stefan Marčetić", "number": 9, "position": "ST", "country": "BA", "status": "starter" },
+
+      { "playerId": "player_ba1_001_12", "name": "Mirza Pajić", "number": 13, "position": "GK", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_001_13", "name": "Marko Radić", "number": 22, "position": "RB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_001_14", "name": "Filip Račić", "number": 15, "position": "CB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_001_15", "name": "Nikola Antešević", "number": 16, "position": "CB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_001_16", "name": "Saša Marjanović", "number": 18, "position": "CDM", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_001_17", "name": "Danko Radić", "number": 14, "position": "CM", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_001_18", "name": "Denis Dizdarević", "number": 20, "position": "CM", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_001_19", "name": "Juraj Ljubić", "number": 17, "position": "CAM", "country": "HR", "status": "bench" },
+      { "playerId": "player_ba1_001_20", "name": "Mihail Talevski", "number": 19, "position": "ST", "country": "MK", "status": "bench" },
+      { "playerId": "player_ba1_001_21", "name": "Boro Erić", "number": 21, "position": "ST", "country": "BA", "status": "bench" },
+
+      { "playerId": "player_ba1_001_22", "name": "Srđan Modić", "number": 25, "position": "GK", "country": "BA", "status": "reserve" },
+      { "playerId": "player_ba1_001_23", "name": "Siniša Ristić", "number": 23, "position": "CM", "country": "BA", "status": "reserve" },
+      { "playerId": "player_ba1_001_24", "name": "Faruk Bezdrob", "number": 24, "position": "LW", "country": "BA", "status": "reserve" },
+      { "playerId": "player_ba1_001_25", "name": "Luka Misimović", "number": 27, "position": "ST", "country": "BA", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
