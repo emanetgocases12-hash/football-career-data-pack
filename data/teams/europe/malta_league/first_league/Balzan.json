@@ -1,12 +1,58 @@
 {
-  "teamKey": "Balzan",
-
-  "name": "Balzan FC",
-
-  "logo": "assets/logos/europe/malta/Balzan.png",
-
-  "stadium": {
-    "name": "Ta Qali",
-    "capacity": 17000
+    "teamKey": "Balzan",
+  
+    "name": "Balzan FC",
+  
+    "logo": "assets/logos/europe/malta/Balzan.png",
+  
+    "manager": {
+      "name": "Andrew Cohen",
+      "country": "MT"
+    },
+  
+    "stadium": {
+      "name": "Ta Qali",
+      "capacity": 17000
+    },
+  
+    "players": [
+      {"playerId": "player_mt1_001_01", "name": "Manuel Djalo", "number": 1, "position": "GK", "country": "GW", "status": "starter"},
+      {"playerId": "player_mt1_001_02", "name": "Zachary Grech", "number": 2, "position": "RB", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_001_03", "name": "Eder", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_mt1_001_04", "name": "Gabriel Santos", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_mt1_001_05", "name": "Milan Djuric", "number": 3, "position": "LB", "country": "RS", "status": "starter"},
+      {"playerId": "player_mt1_001_06", "name": "Samir Arab", "number": 6, "position": "CM", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_001_07", "name": "Jake Grech", "number": 8, "position": "CM", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_001_08", "name": "Sekala Guehi", "number": 11, "position": "RW", "country": "CI", "status": "starter"},
+      {"playerId": "player_mt1_001_09", "name": "Lucas Macula", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_mt1_001_10", "name": "Oluwatobiloba Awosanya", "number": 7, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_mt1_001_11", "name": "Valentino Kuach Yuel", "number": 9, "position": "ST", "country": "SS", "status": "starter"},
+  
+      {"playerId": "player_mt1_001_12", "name": "Sean Mintoff", "number": 12, "position": "GK", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_001_13", "name": "Nikola Krsmanovic", "number": 14, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_mt1_001_14", "name": "Paul Fenech", "number": 15, "position": "CM", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_001_15", "name": "Ryan Scicluna", "number": 16, "position": "CM", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_001_16", "name": "Mikael Tavares", "number": 17, "position": "CM", "country": "CV", "status": "bench"},
+      {"playerId": "player_mt1_001_17", "name": "Matteo Piciollo", "number": 18, "position": "RW", "country": "IT", "status": "bench"},
+      {"playerId": "player_mt1_001_18", "name": "Mamadou Bagayoko", "number": 19, "position": "RB", "country": "CI", "status": "bench"},
+      {"playerId": "player_mt1_001_19", "name": "Luke Montebello", "number": 20, "position": "ST", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_001_20", "name": "Sergio Uyi", "number": 21, "position": "CB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_001_21", "name": "Andrea Zammit", "number": 22, "position": "CAM", "country": "MT", "status": "bench"},
+  
+      {"playerId": "player_mt1_001_22", "name": "Matthew Grech", "number": 30, "position": "GK", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_001_23", "name": "Roderick Briffa", "number": 23, "position": "CM", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_001_24", "name": "Jaden Dimech", "number": 24, "position": "RW", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_001_25", "name": "Nicholas Pulis", "number": 25, "position": "ST", "country": "MT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
