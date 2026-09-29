@@ -1,12 +1,58 @@
 {
-  "teamKey": "Grobin",
-
-  "name": "FK Grobina",
-
-  "logo": "assets/logos/europe/latvia/Grobina.png",
-
-  "stadium": {
-    "name": "Daugava",
-    "capacity": 4022
+    "teamKey": "Grobin",
+  
+    "name": "FK Grobina",
+  
+    "logo": "assets/logos/europe/latvia/Grobina.png",
+  
+    "manager": {
+      "name": "Oskars Kļava",
+      "country": "LV"
+    },
+  
+    "stadium": {
+      "name": "Daugava",
+      "capacity": 4022
+    },
+  
+    "players": [
+      {"playerId": "player_lv1_003_01", "name": "Vjačeslavs Kudrjavcevs", "number": 1, "position": "GK", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_003_02", "name": "Rolandas Baravykas", "number": 2, "position": "RB", "country": "LT", "status": "starter"},
+      {"playerId": "player_lv1_003_03", "name": "Dāvids Družiņins", "number": 4, "position": "CB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_003_04", "name": "Aleksa Jovanovic", "number": 5, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_lv1_003_05", "name": "Krišjānis Rupeiks", "number": 3, "position": "LB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_003_06", "name": "Oļģerds Raščevskis", "number": 6, "position": "CDM", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_003_07", "name": "Maksims Sidorovs", "number": 8, "position": "CM", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_003_08", "name": "Ali Aruna", "number": 11, "position": "RW", "country": "CA", "status": "starter"},
+      {"playerId": "player_lv1_003_09", "name": "Milan Corryn", "number": 10, "position": "CAM", "country": "BE", "status": "starter"},
+      {"playerId": "player_lv1_003_10", "name": "Devids Dobrecovs", "number": 7, "position": "LW", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_003_11", "name": "Oladotun Olatunde-Matthew", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+  
+      {"playerId": "player_lv1_003_12", "name": "Roberts Ozols", "number": 12, "position": "GK", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_003_13", "name": "Gustavs Leitāns", "number": 14, "position": "CB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_003_14", "name": "Luiz Paulo Hilario", "number": 15, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_lv1_003_15", "name": "Rihards Rullis", "number": 16, "position": "CM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_003_16", "name": "Roberts Zelmanis", "number": 17, "position": "CB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_003_17", "name": "Dāvis Ķibermanis", "number": 18, "position": "CM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_003_18", "name": "Kristiāns Mežsargs", "number": 19, "position": "CM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_003_19", "name": "Artūrs Karašausks", "number": 20, "position": "ST", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_003_20", "name": "Mārtiņš Ķigurs", "number": 21, "position": "CAM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_003_21", "name": "Mārtiņš Bojārs", "number": 22, "position": "ST", "country": "LV", "status": "bench"},
+  
+      {"playerId": "player_lv1_003_22", "name": "Toms Laizāns", "number": 30, "position": "GK", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_003_23", "name": "Emīls Knapšis", "number": 24, "position": "RW", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_003_24", "name": "Dāvis Gauja", "number": 25, "position": "ST", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_003_25", "name": "Edgars Freimanis", "number": 27, "position": "ST", "country": "LV", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
