@@ -1,4 +1,3 @@
-[
   {
     "teamKey": "Anderl",
 
@@ -30,7 +29,6 @@
       { "playerId": "player_be1_001_11", "name": "Mihajlo Cvetković", "number": 9, "position": "ST", "country": "RS", "status": "starter" },
 
       { "playerId": "player_be1_001_12", "name": "Justin Heekeren", "number": 32, "position": "GK", "country": "DE", "status": "bench" },
-      { "playerId": "player_be1_001_13", "name": "Mattis Seghers", "number": 33, "position": "GK", "country": "BE", "status": "bench" },
       { "playerId": "player_be1_001_14", "name": "Zoumana Keita", "number": 2, "position": "CB", "country": "DE", "status": "bench" },
       { "playerId": "player_be1_001_15", "name": "Ludwig Augustinsson", "number": 6, "position": "LB", "country": "SE", "status": "bench" },
       { "playerId": "player_be1_001_16", "name": "Killian Sardella", "number": 54, "position": "RB", "country": "BE", "status": "bench" },
@@ -39,8 +37,9 @@
       { "playerId": "player_be1_001_19", "name": "Ilias Koutsoupias", "number": 30, "position": "CM", "country": "GR", "status": "bench" },
       { "playerId": "player_be1_001_20", "name": "Danylo Sikan", "number": 14, "position": "ST", "country": "UA", "status": "bench" },
       { "playerId": "player_be1_001_21", "name": "Adriano Bertaccini", "number": 91, "position": "ST", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_001_22", "name": "Ali Maamar", "number": 79, "position": "RB", "country": "MA", "status": "bench" },
 
-      { "playerId": "player_be1_001_22", "name": "Ali Maamar", "number": 79, "position": "RB", "country": "MA", "status": "reserve" },
+      { "playerId": "player_be1_001_13", "name": "Mattis Seghers", "number": 33, "position": "GK", "country": "BE", "status": "reserve" },
       { "playerId": "player_be1_001_23", "name": "Tristan Degreef", "number": 83, "position": "CAM", "country": "BE", "status": "reserve" },
       { "playerId": "player_be1_001_24", "name": "Joshua Nga Kana", "number": 61, "position": "CM", "country": "BE", "status": "reserve" },
       { "playerId": "player_be1_001_25", "name": "Jayden Onia Seke", "number": 49, "position": "LW", "country": "BE", "status": "reserve" }
@@ -89,7 +88,6 @@
       { "playerId": "player_be1_002_11", "name": "Michael Frey", "number": 9, "position": "ST", "country": "CH", "status": "starter" },
 
       { "playerId": "player_be1_002_12", "name": "Yannick Thoelen", "number": 15, "position": "GK", "country": "BE", "status": "bench" },
-      { "playerId": "player_be1_002_13", "name": "Lowie Piselé", "number": 61, "position": "GK", "country": "BE", "status": "bench" },
       { "playerId": "player_be1_002_14", "name": "Semm Renders", "number": 17, "position": "CB", "country": "BE", "status": "bench" },
       { "playerId": "player_be1_002_15", "name": "Luca Schelfhout", "number": 28, "position": "CB", "country": "BE", "status": "bench" },
       { "playerId": "player_be1_002_16", "name": "Aaron Ibrahim", "number": 46, "position": "RB", "country": "BE", "status": "bench" },
@@ -98,8 +96,9 @@
       { "playerId": "player_be1_002_19", "name": "Youssef Hamdaoui", "number": 43, "position": "CM", "country": "MA", "status": "bench" },
       { "playerId": "player_be1_002_20", "name": "Modibo Fofana", "number": 25, "position": "LW", "country": "CI", "status": "bench" },
       { "playerId": "player_be1_002_21", "name": "Jeff Godelaine", "number": 29, "position": "ST", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_002_22", "name": "Eran Tuypens", "number": 27, "position": "RB", "country": "BE", "status": "bench" },
 
-      { "playerId": "player_be1_002_22", "name": "Eran Tuypens", "number": 27, "position": "RB", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_002_13", "name": "Lowie Piselé", "number": 61, "position": "GK", "country": "BE", "status": "reserve" },
       { "playerId": "player_be1_002_23", "name": "Louie Van Gelder", "number": 16, "position": "CM", "country": "BE", "status": "reserve" },
       { "playerId": "player_be1_002_24", "name": "Snayder Porozo", "number": 33, "position": "ST", "country": "EC", "status": "reserve" },
       { "playerId": "player_be1_002_25", "name": "Luis Narh", "number": 99, "position": "ST", "country": "GH", "status": "reserve" }
@@ -148,7 +147,6 @@
       { "playerId": "player_be1_003_11", "name": "Steve Ngoura", "number": 9, "position": "ST", "country": "FR", "status": "starter" },
 
       { "playerId": "player_be1_003_12", "name": "Yann Liénard", "number": 21, "position": "GK", "country": "FR", "status": "bench" },
-      { "playerId": "player_be1_003_13", "name": "Bas Langenbick", "number": 84, "position": "GK", "country": "BE", "status": "bench" },
       { "playerId": "player_be1_003_14", "name": "Yago Lincoln", "number": 3, "position": "CB", "country": "BR", "status": "bench" },
       { "playerId": "player_be1_003_15", "name": "Valy Konaté", "number": 12, "position": "LB", "country": "CI", "status": "bench" },
       { "playerId": "player_be1_003_16", "name": "Gary Magnée", "number": 15, "position": "RB", "country": "BE", "status": "bench" },
@@ -157,3 +155,907 @@
       { "playerId": "player_be1_003_19", "name": "Hannes Van der Bruggen", "number": 28, "position": "CM", "country": "BE", "status": "bench" },
       { "playerId": "player_be1_003_20", "name": "Heriberto Jurado", "number": 23, "position": "CAM", "country": "MX", "status": "bench" },
       { "playerId": "player_be1_003_21", "name": "Dante Vanzeir", "number": 13, "position": "ST", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_003_22", "name": "Abdoul Kader Ouattara", "number": 7, "position": "ST", "country": "BF", "status": "bench" },
+
+      { "playerId": "player_be1_003_13", "name": "Bas Langenbick", "number": 84, "position": "GK", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_003_23", "name": "Lucas Michal", "number": 22, "position": "LW", "country": "FR", "status": "reserve" },
+      { "playerId": "player_be1_003_24", "name": "Krys Kouassi", "number": 41, "position": "ST", "country": "FR", "status": "reserve" },
+      { "playerId": "player_be1_003_25", "name": "Abdoulie Manneh", "number": 20, "position": "LW", "country": "GM", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "3-4-2-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
+  },
+
+  {
+    "teamKey": "Chrloi",
+
+    "name": "Royal Charleroi SC",
+
+    "logo": "assets/logos/europe/belgian/Charleoi.png",
+
+    "manager": {
+      "name": "Mario Kohnen",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "Stade du Pays de Charleroi",
+      "capacity": 14968
+    },
+
+    "players": [
+      { "playerId": "player_be1_004_01", "name": "Martin Delavallée", "number": 1, "position": "GK", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_004_02", "name": "Kevin Van Den Kerkhof", "number": 3, "position": "RB", "country": "DZ", "status": "starter" },
+      { "playerId": "player_be1_004_03", "name": "Aiham Ousou", "number": 4, "position": "CB", "country": "SE", "status": "starter" },
+      { "playerId": "player_be1_004_04", "name": "Massamba Sow", "number": 44, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_be1_004_05", "name": "Mardochée Nzita", "number": 24, "position": "LB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_004_06", "name": "Amine Boukamir", "number": 6, "position": "CDM", "country": "MA", "status": "starter" },
+      { "playerId": "player_be1_004_07", "name": "Jakob Napoleon Romsaas", "number": 8, "position": "CM", "country": "NO", "status": "starter" },
+      { "playerId": "player_be1_004_08", "name": "Gaku Nawata", "number": 13, "position": "RW", "country": "JP", "status": "starter" },
+      { "playerId": "player_be1_004_09", "name": "Antoine Colassin", "number": 25, "position": "CAM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_004_10", "name": "Antoine Bernier", "number": 17, "position": "LW", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_004_11", "name": "Adama Bojang", "number": 9, "position": "ST", "country": "GM", "status": "starter" },
+
+      { "playerId": "player_be1_004_12", "name": "Arthur Cremer", "number": 16, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_004_14", "name": "Triston Rowe", "number": 2, "position": "RB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_be1_004_15", "name": "Noah Solheid", "number": 33, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_004_16", "name": "Cheick Keita", "number": 95, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_004_17", "name": "Yassine Khalifi", "number": 18, "position": "CM", "country": "MA", "status": "bench" },
+      { "playerId": "player_be1_004_18", "name": "Patrick Pflücke", "number": 14, "position": "CM", "country": "DE", "status": "bench" },
+      { "playerId": "player_be1_004_19", "name": "Isaac Cissé", "number": 19, "position": "CM", "country": "CI", "status": "bench" },
+      { "playerId": "player_be1_004_20", "name": "Freddy Mbemba", "number": 20, "position": "CAM", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_004_21", "name": "Aurélien Scheidler", "number": 21, "position": "ST", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_004_22", "name": "Boubakar Dembaga", "number": 23, "position": "CM", "country": "FR", "status": "bench" },
+
+      { "playerId": "player_be1_004_13", "name": "Mohamed Koné", "number": 30, "position": "GK", "country": "CI", "status": "reserve" },
+      { "playerId": "player_be1_004_23", "name": "Mory Kera", "number": 51, "position": "CM", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_004_24", "name": "Naël Piron", "number": 54, "position": "CB", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_004_25", "name": "Rafael Teugels", "number": 65, "position": "CB", "country": "BE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 13,
+        "cornerLeft": 13,
+        "cornerRight": 13
+      }
+    }
+  },
+
+  {
+    "teamKey": "Brugge",
+
+    "name": "Club Brugge KV",
+
+    "logo": "assets/logos/europe/belgian/Brugge.png",
+
+    "manager": {
+      "name": "Ivan Leko",
+      "country": "HR"
+    },
+
+    "stadium": {
+      "name": "Jan Breydelstadion",
+      "capacity": 29062
+    },
+
+    "players": [
+      { "playerId": "player_be1_005_01", "name": "Yann Sommer", "number": 1, "position": "GK", "country": "CH", "status": "starter" },
+      { "playerId": "player_be1_005_02", "name": "Hugo Siquet", "number": 41, "position": "RB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_005_03", "name": "Joel Ordóñez", "number": 4, "position": "CB", "country": "EC", "status": "starter" },
+      { "playerId": "player_be1_005_04", "name": "Brandon Mechele", "number": 44, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_005_05", "name": "Joaquin Seys", "number": 65, "position": "LB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_005_06", "name": "Freddie Potts", "number": 8, "position": "CDM", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_be1_005_07", "name": "Hans Vanaken", "number": 20, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_005_08", "name": "Carlos Forbs", "number": 9, "position": "RW", "country": "PT", "status": "starter" },
+      { "playerId": "player_be1_005_09", "name": "Hugo Vetlesen", "number": 10, "position": "CAM", "country": "NO", "status": "starter" },
+      { "playerId": "player_be1_005_10", "name": "Jan Virgili", "number": 11, "position": "LW", "country": "ES", "status": "starter" },
+      { "playerId": "player_be1_005_11", "name": "Romeo Vermant", "number": 17, "position": "ST", "country": "BE", "status": "starter" },
+
+      { "playerId": "player_be1_005_12", "name": "Nordin Jackers", "number": 29, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_005_14", "name": "Lee Han-Beom", "number": 3, "position": "CB", "country": "KR", "status": "bench" },
+      { "playerId": "player_be1_005_15", "name": "Matteo Dams", "number": 32, "position": "LB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_005_16", "name": "Kyriani Sabbe", "number": 64, "position": "RB", "country": "NL", "status": "bench" },
+      { "playerId": "player_be1_005_17", "name": "Jorne Spileers", "number": 58, "position": "CB", "country": "NL", "status": "bench" },
+      { "playerId": "player_be1_005_18", "name": "Cheveyo Tsawa", "number": 16, "position": "CM", "country": "CH", "status": "bench" },
+      { "playerId": "player_be1_005_19", "name": "Lynnt Audoor", "number": 62, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_005_20", "name": "Félix Lemaréchal", "number": 80, "position": "CAM", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_005_21", "name": "Mamadou Diakhon", "number": 67, "position": "LW", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_005_22", "name": "Wisdom Mike", "number": 27, "position": "RW", "country": "DE", "status": "bench" },
+
+      { "playerId": "player_be1_005_13", "name": "Argus Vanden Driessche", "number": 81, "position": "GK", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_005_23", "name": "Andrej Vasović", "number": 77, "position": "ST", "country": "CH", "status": "reserve" },
+      { "playerId": "player_be1_005_24", "name": "Tian Nai Koren", "number": 85, "position": "CM", "country": "SI", "status": "reserve" },
+      { "playerId": "player_be1_005_25", "name": "Gianluca Okon-Engstler", "number": 86, "position": "CM", "country": "IT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 17,
+        "freeKick": 9,
+        "cornerLeft": 9,
+        "cornerRight": 9
+      }
+    }
+  },
+
+  {
+    "teamKey": "Genk",
+
+    "name": "KRC Genk",
+
+    "logo": "assets/logos/europe/belgian/Genk.png",
+
+    "manager": {
+      "name": "Jess Thorup",
+      "country": "DK"
+    },
+
+    "stadium": {
+      "name": "Cegeka Arena",
+      "capacity": 23718
+    },
+
+    "players": [
+      { "playerId": "player_be1_006_01", "name": "Tobe Leysen", "number": 1, "position": "GK", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_006_02", "name": "Kevin Amaro", "number": 20, "position": "RB", "country": "UY", "status": "starter" },
+      { "playerId": "player_be1_006_03", "name": "Matte Smets", "number": 6, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_006_04", "name": "Christiaan Ravych", "number": 5, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_006_05", "name": "Yaimar Medina", "number": 19, "position": "LB", "country": "EC", "status": "starter" },
+      { "playerId": "player_be1_006_06", "name": "Benjamin Tahirović", "number": 4, "position": "CDM", "country": "BA", "status": "starter" },
+      { "playerId": "player_be1_006_07", "name": "Bryan Heynen", "number": 8, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_006_08", "name": "Junya Ito", "number": 10, "position": "RW", "country": "JP", "status": "starter" },
+      { "playerId": "player_be1_006_09", "name": "Daan Heymans", "number": 38, "position": "CAM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_006_10", "name": "Ayumu Yokoyama", "number": 30, "position": "LW", "country": "JP", "status": "starter" },
+      { "playerId": "player_be1_006_11", "name": "Rafiu Durosinmi", "number": 17, "position": "ST", "country": "NG", "status": "starter" },
+
+      { "playerId": "player_be1_006_12", "name": "Emile Doucouré", "number": 97, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_006_13", "name": "Josue Kongolo", "number": 44, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_006_14", "name": "Christian Akpan", "number": 65, "position": "CB", "country": "NG", "status": "bench" },
+      { "playerId": "player_be1_006_15", "name": "Elie Mbavu", "number": 73, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_006_16", "name": "Joris Kayembe", "number": 18, "position": "LB", "country": "CD", "status": "bench" },
+      { "playerId": "player_be1_006_17", "name": "Ibrahima Sory Bangoura", "number": 21, "position": "CM", "country": "GN", "status": "bench" },
+      { "playerId": "player_be1_006_18", "name": "Jeppe Erenbjerg", "number": 11, "position": "CM", "country": "DK", "status": "bench" },
+      { "playerId": "player_be1_006_19", "name": "August De Wannemacker", "number": 56, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_006_20", "name": "Kenan Haroun", "number": 86, "position": "CAM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_006_21", "name": "Noah Adedeji-Sternberg", "number": 32, "position": "RW", "country": "BE", "status": "bench" },
+
+      { "playerId": "player_be1_006_22", "name": "Aaron Bibout", "number": 23, "position": "ST", "country": "CM", "status": "reserve" },
+      { "playerId": "player_be1_006_23", "name": "Jerry Afriyie", "number": 33, "position": "ST", "country": "GH", "status": "reserve" },
+      { "playerId": "player_be1_006_24", "name": "Emmanuel Sarfo", "number": 84, "position": "CB", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_006_25", "name": "Bastien Meupiyou", "number": 24, "position": "CB", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 17,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
+  },
+
+  {
+    "teamKey": "Gent",
+
+    "name": "KAA Gent",
+
+    "logo": "assets/logos/europe/belgian/Gent.png",
+
+    "manager": {
+      "name": "Rik De Mil",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "Planet Group arena",
+      "capacity": 20185
+    },
+
+    "players": [
+      { "playerId": "player_be1_007_01", "name": "Davy Roef", "number": 33, "position": "GK", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_007_02", "name": "Matisse Samoise", "number": 18, "position": "RB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_007_03", "name": "Christian Burgess", "number": 16, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_be1_007_04", "name": "Maksim Paskotši", "number": 3, "position": "CB", "country": "EE", "status": "starter" },
+      { "playerId": "player_be1_007_05", "name": "Tiago Araújo", "number": 20, "position": "LB", "country": "PT", "status": "starter" },
+      { "playerId": "player_be1_007_06", "name": "Leo Da Silva Lopes", "number": 22, "position": "CDM", "country": "PT", "status": "starter" },
+      { "playerId": "player_be1_007_07", "name": "László Bénes", "number": 8, "position": "CM", "country": "SK", "status": "starter" },
+      { "playerId": "player_be1_007_08", "name": "Momodou Sonko", "number": 11, "position": "RW", "country": "SE", "status": "starter" },
+      { "playerId": "player_be1_007_09", "name": "Aimé Omgba", "number": 10, "position": "CAM", "country": "NL", "status": "starter" },
+      { "playerId": "player_be1_007_10", "name": "Michel-Ange Balikwisha", "number": 7, "position": "LW", "country": "CD", "status": "starter" },
+      { "playerId": "player_be1_007_11", "name": "Max Dean", "number": 21, "position": "ST", "country": "GB-ENG", "status": "starter" },
+
+      { "playerId": "player_be1_007_12", "name": "Kjell Peersman", "number": 30, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_007_14", "name": "El Bachir Ngom", "number": 5, "position": "CB", "country": "SN", "status": "bench" },
+      { "playerId": "player_be1_007_15", "name": "Lars Cooman", "number": 29, "position": "RB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_007_16", "name": "Gilles De Meyer", "number": 35, "position": "LB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_007_17", "name": "Mathias Delorge", "number": 17, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_007_18", "name": "Tibe De Vlieger", "number": 27, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_007_19", "name": "Abdelkahar Kadri", "number": 37, "position": "CAM", "country": "DZ", "status": "bench" },
+      { "playerId": "player_be1_007_20", "name": "Kyrell Wilson", "number": 14, "position": "RW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_be1_007_21", "name": "Abubakar Abdullahi", "number": 19, "position": "ST", "country": "NG", "status": "bench" },
+      { "playerId": "player_be1_007_22", "name": "El Hadji Seck", "number": 40, "position": "CM", "country": "SN", "status": "bench" },
+
+      { "playerId": "player_be1_007_13", "name": "Bas Evers", "number": 31, "position": "GK", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_007_23", "name": "Ibrahima Cissé", "number": 41, "position": "CM", "country": "GN", "status": "reserve" },
+      { "playerId": "player_be1_007_24", "name": "Josué Vergara", "number": 9, "position": "ST", "country": "CO", "status": "reserve" },
+      { "playerId": "player_be1_007_25", "name": "Mouhamed Ngom", "number": 4, "position": "CB", "country": "SN", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 33,
+      "setPieces": {
+        "penalty": 21,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
+  },
+
+  {
+    "teamKey": "Kortrijk",
+
+    "name": "KV Kortrijk",
+
+    "logo": "assets/logos/europe/belgian/Kortrijk.png",
+
+    "manager": {
+      "name": "Michiel Jonckheere",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "Guldensporenstadion",
+      "capacity": 9399
+    },
+
+    "players": [
+      { "playerId": "player_be1_008_01", "name": "Patrik Gunnarsson", "number": 1, "position": "GK", "country": "IS", "status": "starter" },
+      { "playerId": "player_be1_008_02", "name": "Basile Vroninks", "number": 25, "position": "RB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_008_03", "name": "Harrison Murray-Campbell", "number": 4, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_be1_008_04", "name": "James Ndjeungoue", "number": 5, "position": "CB", "country": "CM", "status": "starter" },
+      { "playerId": "player_be1_008_05", "name": "Matthew Anderson", "number": 3, "position": "LB", "country": "GB-SCT", "status": "starter" },
+      { "playerId": "player_be1_008_06", "name": "Liam De Smet", "number": 6, "position": "CDM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_008_07", "name": "Brecht Dejaegere", "number": 19, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_008_08", "name": "Shandre Campbell", "number": 11, "position": "RW", "country": "ZA", "status": "starter" },
+      { "playerId": "player_be1_008_09", "name": "Nayel Mehssatou", "number": 8, "position": "CAM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_008_10", "name": "Suf Podgoreanu", "number": 7, "position": "LW", "country": "IL", "status": "starter" },
+      { "playerId": "player_be1_008_11", "name": "Goduine Koyalipou", "number": 10, "position": "ST", "country": "CF", "status": "starter" },
+
+      { "playerId": "player_be1_008_12", "name": "Marko Ilić", "number": 31, "position": "GK", "country": "RS", "status": "bench" },
+      { "playerId": "player_be1_008_14", "name": "Mohamed Fofana", "number": 15, "position": "CB", "country": "CI", "status": "bench" },
+      { "playerId": "player_be1_008_15", "name": "Axel Drouhin", "number": 21, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_008_16", "name": "Gilles Ruyssen", "number": 22, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_008_17", "name": "Rudy Kohon", "number": 36, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_008_18", "name": "Rok Štorman", "number": 17, "position": "CM", "country": "SI", "status": "bench" },
+      { "playerId": "player_be1_008_19", "name": "Jamie Roche", "number": 24, "position": "CM", "country": "SE", "status": "bench" },
+      { "playerId": "player_be1_008_20", "name": "Boris Lambert", "number": 35, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_008_21", "name": "Ken Masui", "number": 71, "position": "CAM", "country": "JP", "status": "bench" },
+      { "playerId": "player_be1_008_22", "name": "Lenn De Smet", "number": 14, "position": "RW", "country": "BE", "status": "bench" },
+
+      { "playerId": "player_be1_008_13", "name": "Ebbe De Vlaeminck", "number": 13, "position": "GK", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_008_23", "name": "Jellert Van Landschoot", "number": 18, "position": "ST", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_008_24", "name": "Thierry Ambrose", "number": 68, "position": "ST", "country": "FR", "status": "reserve" },
+      { "playerId": "player_be1_008_25", "name": "Sixtus Ogbuehi", "number": 90, "position": "ST", "country": "NG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
+  },
+
+  {
+    "teamKey": "Lommel",
+
+    "name": "Lommel SK",
+
+    "logo": "assets/logos/europe/belgian/Lommel.png",
+
+    "manager": {
+      "name": "Lee Johnson",
+      "country": "GB-ENG"
+    },
+
+    "stadium": {
+      "name": "Soeverein stadion",
+      "capacity": 8231
+    },
+
+    "players": [
+      { "playerId": "player_be1_009_01", "name": "Nikola Ivezić", "number": 1, "position": "GK", "country": "ME", "status": "starter" },
+      { "playerId": "player_be1_009_02", "name": "Jason van Duiven", "number": 2, "position": "RB", "country": "NL", "status": "starter" },
+      { "playerId": "player_be1_009_03", "name": "Dries Wouters", "number": 5, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_009_04", "name": "Jhon Banguera", "number": 13, "position": "CB", "country": "CO", "status": "starter" },
+      { "playerId": "player_be1_009_05", "name": "Sam de Grand", "number": 79, "position": "LB", "country": "NL", "status": "starter" },
+      { "playerId": "player_be1_009_06", "name": "Joey Pelupessy", "number": 6, "position": "CDM", "country": "ID", "status": "starter" },
+      { "playerId": "player_be1_009_07", "name": "Nicolas Rommens", "number": 8, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_009_08", "name": "Juho Talvitie", "number": 7, "position": "RW", "country": "FI", "status": "starter" },
+      { "playerId": "player_be1_009_09", "name": "Sverre Nypan", "number": 41, "position": "CAM", "country": "NO", "status": "starter" },
+      { "playerId": "player_be1_009_10", "name": "Stredair Owusu Appuah", "number": 11, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_be1_009_11", "name": "Don-Angelo Konadu", "number": 9, "position": "ST", "country": "NL", "status": "starter" },
+
+      { "playerId": "player_be1_009_12", "name": "Rik Vercauteren", "number": 33, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_009_14", "name": "Timothy Eyoma", "number": 3, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_be1_009_15", "name": "Jesper Tolinsson", "number": 14, "position": "CB", "country": "SE", "status": "bench" },
+      { "playerId": "player_be1_009_16", "name": "Henry Oware", "number": 34, "position": "CB", "country": "GH", "status": "bench" },
+      { "playerId": "player_be1_009_17", "name": "Emile Vandecraen", "number": 17, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_009_18", "name": "Josias Lama", "number": 25, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_009_19", "name": "Tristan Gooijer", "number": 47, "position": "RB", "country": "NL", "status": "bench" },
+      { "playerId": "player_be1_009_20", "name": "Isaiah Dada-Mascoll", "number": 44, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_be1_009_21", "name": "Djordje Gordić", "number": 22, "position": "CM", "country": "RS", "status": "bench" },
+      { "playerId": "player_be1_009_22", "name": "Ralf Seuntjens", "number": 30, "position": "ST", "country": "NL", "status": "bench" },
+
+      { "playerId": "player_be1_009_13", "name": "Melvin Ramundo", "number": 55, "position": "GK", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_009_23", "name": "Alexander Reumers", "number": 73, "position": "ST", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_009_24", "name": "Niek Corthouts", "number": 46, "position": "ST", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_009_25", "name": "Matthias Pieklak", "number": 23, "position": "GK", "country": "BE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
+  },
+
+  {
+    "teamKey": "Louvie",
+
+    "name": "RAAL La Louvière",
+
+    "logo": "assets/logos/europe/belgian/Louviere.png",
+
+    "manager": {
+      "name": "Edward Still",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "Easi Arena",
+      "capacity": 8050
+    },
+
+    "players": [
+      { "playerId": "player_be1_010_01", "name": "Marcos Peano", "number": 21, "position": "GK", "country": "AR", "status": "starter" },
+      { "playerId": "player_be1_010_02", "name": "Nolan Gillot", "number": 3, "position": "RB", "country": "FR", "status": "starter" },
+      { "playerId": "player_be1_010_03", "name": "Wagane Faye", "number": 4, "position": "CB", "country": "SN", "status": "starter" },
+      { "playerId": "player_be1_010_04", "name": "Patrick Nkoa", "number": 33, "position": "CB", "country": "CM", "status": "starter" },
+      { "playerId": "player_be1_010_05", "name": "Thierry Lutonda", "number": 5, "position": "LB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_010_06", "name": "Ismaïla Coulibaly", "number": 48, "position": "CDM", "country": "ML", "status": "starter" },
+      { "playerId": "player_be1_010_07", "name": "Marius Courcoul", "number": 29, "position": "CM", "country": "FR", "status": "starter" },
+      { "playerId": "player_be1_010_08", "name": "Mátyás Kovács", "number": 7, "position": "RW", "country": "HU", "status": "starter" },
+      { "playerId": "player_be1_010_09", "name": "Mame Wade", "number": 10, "position": "CAM", "country": "SN", "status": "starter" },
+      { "playerId": "player_be1_010_10", "name": "Quentin Benaets", "number": 43, "position": "LW", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_010_11", "name": "Mustapha Isah", "number": 11, "position": "ST", "country": "NG", "status": "starter" },
+
+      { "playerId": "player_be1_010_12", "name": "Tiago Pereira Cardoso", "number": 16, "position": "GK", "country": "LU", "status": "bench" },
+      { "playerId": "player_be1_010_14", "name": "Shaquil Delos", "number": 18, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_010_15", "name": "Siad Gourville", "number": 22, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_010_16", "name": "Djibril Lamego", "number": 25, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_010_17", "name": "Mehdi Boukamir", "number": 44, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_010_18", "name": "Yllan Okou", "number": 99, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_010_19", "name": "Noah Makembo-Ntemo", "number": 20, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_010_20", "name": "Joël Ito", "number": 23, "position": "CAM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_010_21", "name": "Anas Tajaourt", "number": 78, "position": "CAM", "country": "MA", "status": "bench" },
+      { "playerId": "player_be1_010_22", "name": "Elias Filet", "number": 9, "position": "ST", "country": "FR", "status": "bench" },
+
+      { "playerId": "player_be1_010_13", "name": "Lucas Monteiro", "number": 71, "position": "GK", "country": "PT", "status": "reserve" },
+      { "playerId": "player_be1_010_23", "name": "Mouhamed Belkheir", "number": 14, "position": "ST", "country": "DZ", "status": "reserve" },
+      { "playerId": "player_be1_010_24", "name": "Zsombor Gruber", "number": 30, "position": "ST", "country": "HU", "status": "reserve" },
+      { "playerId": "player_be1_010_25", "name": "Leandro Rousseau", "number": 90, "position": "ST", "country": "BE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "5-3-2",
+      "captain": 21,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
+  },
+
+  {
+    "teamKey": "Mechel",
+
+    "name": "KV Mechelen",
+
+    "logo": "assets/logos/europe/belgian/Mechelen.png",
+
+    "manager": {
+      "name": "Frederik Vanderbiest",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "Achter de Kazerne",
+      "capacity": 16672
+    },
+
+    "players": [
+      { "playerId": "player_be1_011_01", "name": "Ortwin De Wolf", "number": 1, "position": "GK", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_011_02", "name": "Thérence Koudou", "number": 7, "position": "RB", "country": "FR", "status": "starter" },
+      { "playerId": "player_be1_011_03", "name": "Gora Diouf", "number": 4, "position": "CB", "country": "SN", "status": "starter" },
+      { "playerId": "player_be1_011_04", "name": "Leo Hjelde", "number": 5, "position": "CB", "country": "NO", "status": "starter" },
+      { "playerId": "player_be1_011_05", "name": "José Marsà", "number": 3, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_be1_011_06", "name": "Dikeni Salifou", "number": 8, "position": "CDM", "country": "TG", "status": "starter" },
+      { "playerId": "player_be1_011_07", "name": "Dennis Praet", "number": 26, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_011_08", "name": "Bill Antonio", "number": 29, "position": "RW", "country": "ZW", "status": "starter" },
+      { "playerId": "player_be1_011_09", "name": "Bilal Bafdili", "number": 11, "position": "CAM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_011_10", "name": "Myron van Brederode", "number": 9, "position": "LW", "country": "NL", "status": "starter" },
+      { "playerId": "player_be1_011_11", "name": "Halil Özdemir", "number": 21, "position": "ST", "country": "TR", "status": "starter" },
+
+      { "playerId": "player_be1_011_12", "name": "Nacho Miras", "number": 13, "position": "GK", "country": "ES", "status": "bench" },
+      { "playerId": "player_be1_011_14", "name": "Luc Marijnissen", "number": 2, "position": "CB", "country": "NL", "status": "bench" },
+      { "playerId": "player_be1_011_15", "name": "Kobe Corbanie", "number": 20, "position": "RB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_011_16", "name": "Ian Struyf", "number": 18, "position": "LB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_011_17", "name": "Fredrik Hammar", "number": 6, "position": "CM", "country": "SE", "status": "bench" },
+      { "playerId": "player_be1_011_18", "name": "Simion Michez", "number": 23, "position": "RW", "country": "CM", "status": "bench" },
+      { "playerId": "player_be1_011_19", "name": "Keano Vanrafelghem", "number": 27, "position": "LW", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_011_20", "name": "Maxim Kireev", "number": 10, "position": "CAM", "country": "BY", "status": "bench" },
+      { "playerId": "player_be1_011_21", "name": "Benito Raman", "number": 14, "position": "ST", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_011_22", "name": "Adeshina Ayodele", "number": 16, "position": "ST", "country": "NG", "status": "bench" },
+
+      { "playerId": "player_be1_011_13", "name": "Tijn Van Ingelgom", "number": 15, "position": "GK", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_011_23", "name": "Cedric Van Meirvenne", "number": 17, "position": "ST", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_011_24", "name": "Malcolm Lohunanu-Mbasi", "number": 19, "position": "ST", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_011_25", "name": "Bouke Boersma", "number": 28, "position": "ST", "country": "NL", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 21,
+        "freeKick": 29,
+        "cornerLeft": 29,
+        "cornerRight": 29
+      }
+    }
+  },
+
+  {
+    "teamKey": "Leuven",
+
+    "name": "Oud-Heverlee Leuven",
+
+    "logo": "assets/logos/europe/belgian/Leuven.png",
+
+    "manager": {
+      "name": "Timmy Simons",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "King Power at Den Dreef Stadion",
+      "capacity": 9809
+    },
+
+    "players": [
+      { "playerId": "player_be1_012_01", "name": "Dani van den Heuvel", "number": 1, "position": "GK", "country": "NL", "status": "starter" },
+      { "playerId": "player_be1_012_02", "name": "Óscar Gil", "number": 27, "position": "RB", "country": "ES", "status": "starter" },
+      { "playerId": "player_be1_012_03", "name": "Noë Dussenne", "number": 3, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_012_04", "name": "Ewoud Pletinckx", "number": 28, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_012_05", "name": "Takuya Ogiwara", "number": 26, "position": "LB", "country": "JP", "status": "starter" },
+      { "playerId": "player_be1_012_06", "name": "Birger Verstraete", "number": 4, "position": "CDM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_012_07", "name": "Siebe Schrijvers", "number": 8, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_012_08", "name": "Emmanuel Addai", "number": 7, "position": "RW", "country": "GH", "status": "starter" },
+      { "playerId": "player_be1_012_09", "name": "William Balikwisha", "number": 21, "position": "CAM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_012_10", "name": "Henok Teklab", "number": 11, "position": "LW", "country": "DE", "status": "starter" },
+      { "playerId": "player_be1_012_11", "name": "Abdoul Karim Traoré", "number": 9, "position": "ST", "country": "GN", "status": "starter" },
+
+      { "playerId": "player_be1_012_12", "name": "Kiany Vroman", "number": 13, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_012_13", "name": "Jamie Lawrence", "number": 5, "position": "CB", "country": "DE", "status": "bench" },
+      { "playerId": "player_be1_012_14", "name": "Roggerio Nyakossi", "number": 34, "position": "CB", "country": "CH", "status": "bench" },
+      { "playerId": "player_be1_012_15", "name": "Alessandro Fontanarosa", "number": 30, "position": "LB", "country": "IT", "status": "bench" },
+      { "playerId": "player_be1_012_16", "name": "Manuel Osifo", "number": 25, "position": "RB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_012_17", "name": "Wouter George", "number": 6, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_012_18", "name": "Hasan Bulut", "number": 42, "position": "CM", "country": "TR", "status": "bench" },
+      { "playerId": "player_be1_012_19", "name": "Kyan Vaesen", "number": 17, "position": "ST", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_012_20", "name": "Robin Mirisola", "number": 18, "position": "ST", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_012_21", "name": "Chukwubuikem Ikwuemesi", "number": 19, "position": "ST", "country": "NG", "status": "bench" },
+
+      { "playerId": "player_be1_012_22", "name": "Shin Yamada", "number": 20, "position": "ST", "country": "JP", "status": "reserve" },
+      { "playerId": "player_be1_012_23", "name": "Łukasz Łakomy", "number": 24, "position": "CM", "country": "PL", "status": "reserve" },
+      { "playerId": "player_be1_012_24", "name": "Viktor Damjanić", "number": 15, "position": "CB", "country": "HR", "status": "reserve" },
+      { "playerId": "player_be1_012_25", "name": "Thibaud Verlinden", "number": 10, "position": "LW", "country": "BE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
+  },
+
+  {
+    "teamKey": "Stndrd",
+
+    "name": "Standard Liège",
+
+    "logo": "assets/logos/europe/belgian/StandardLiege.png",
+
+    "manager": {
+      "name": "Vincent Euvrard",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "Maurice Dufrasne Stadion",
+      "capacity": 27221
+    },
+
+    "players": [
+      { "playerId": "player_be1_013_01", "name": "Matthieu Epolo", "number": 1, "position": "GK", "country": "CD", "status": "starter" },
+      { "playerId": "player_be1_013_02", "name": "Marlon Fossey", "number": 13, "position": "RB", "country": "US", "status": "starter" },
+      { "playerId": "player_be1_013_03", "name": "Dimitri Lavalée", "number": 4, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_013_04", "name": "Josué Homawoo", "number": 24, "position": "CB", "country": "TG", "status": "starter" },
+      { "playerId": "player_be1_013_05", "name": "Gustav Mortensen", "number": 3, "position": "LB", "country": "DK", "status": "starter" },
+      { "playerId": "player_be1_013_06", "name": "Marco Ilaimaharitra", "number": 23, "position": "CDM", "country": "MG", "status": "starter" },
+      { "playerId": "player_be1_013_07", "name": "Casper Nielsen", "number": 94, "position": "CM", "country": "DK", "status": "starter" },
+      { "playerId": "player_be1_013_08", "name": "Adnane Abid", "number": 11, "position": "RW", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_013_09", "name": "Tobias Mohr", "number": 7, "position": "CAM", "country": "DE", "status": "starter" },
+      { "playerId": "player_be1_013_10", "name": "Sylvester Jasper", "number": 19, "position": "LW", "country": "BG", "status": "starter" },
+      { "playerId": "player_be1_013_11", "name": "Andi Zeqiri", "number": 9, "position": "ST", "country": "CH", "status": "starter" },
+
+      { "playerId": "player_be1_013_12", "name": "Lucas Pirard", "number": 21, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_013_14", "name": "Ibe Hautekiet", "number": 25, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_013_15", "name": "Daan Dierckx", "number": 29, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_013_16", "name": "Noa Sy", "number": 34, "position": "LB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_013_17", "name": "Henry Lawrence", "number": 18, "position": "RB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_be1_013_18", "name": "Ibrahim Karamoko", "number": 20, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_013_19", "name": "Laurens Goemaere", "number": 6, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_013_20", "name": "Alexis Trouillet", "number": 22, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_013_21", "name": "Ryan Fosso", "number": 80, "position": "CM", "country": "CH", "status": "bench" },
+      { "playerId": "player_be1_013_22", "name": "Mo El Hankouri", "number": 27, "position": "RW", "country": "NL", "status": "bench" },
+
+      { "playerId": "player_be1_013_13", "name": "Belmin Dizdarević", "number": 35, "position": "GK", "country": "BA", "status": "reserve" },
+      { "playerId": "player_be1_013_23", "name": "Rayan Touzghar", "number": 84, "position": "CAM", "country": "MA", "status": "reserve" },
+      { "playerId": "player_be1_013_24", "name": "Dennis-Yerai Eckert", "number": 10, "position": "ST", "country": "IR", "status": "reserve" },
+      { "playerId": "player_be1_013_25", "name": "Bruny Nsimba", "number": 77, "position": "ST", "country": "BE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
+  },
+
+  {
+    "teamKey": "S'Truid'",
+
+    "name": "Sint-Truidense VV",
+
+    "logo": "assets/logos/europe/belgian/Truidense.png",
+
+    "manager": {
+      "name": "Frédéric De Meyer",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "Daio Wasabi Stayen Stadium",
+      "capacity": 11337
+    },
+
+    "players": [
+      { "playerId": "player_be1_014_01", "name": "Leo Kokubo", "number": 16, "position": "GK", "country": "JP", "status": "starter" },
+      { "playerId": "player_be1_014_02", "name": "Taiga Hata", "number": 3, "position": "RB", "country": "JP", "status": "starter" },
+      { "playerId": "player_be1_014_03", "name": "Kota Takai", "number": 4, "position": "CB", "country": "JP", "status": "starter" },
+      { "playerId": "player_be1_014_04", "name": "Shogo Taniguchi", "number": 5, "position": "CB", "country": "JP", "status": "starter" },
+      { "playerId": "player_be1_014_05", "name": "Robert-Jan Vanwesemael", "number": 60, "position": "LB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_014_06", "name": "Abdoulaye Sissako", "number": 8, "position": "CDM", "country": "FR", "status": "starter" },
+      { "playerId": "player_be1_014_07", "name": "Ryan Merlen", "number": 14, "position": "CM", "country": "FR", "status": "starter" },
+      { "playerId": "player_be1_014_08", "name": "Nathanaël Mbuku", "number": 11, "position": "RW", "country": "CD", "status": "starter" },
+      { "playerId": "player_be1_014_09", "name": "Ilias Sebaoui", "number": 10, "position": "CAM", "country": "MA", "status": "starter" },
+      { "playerId": "player_be1_014_10", "name": "Arbnor Muja", "number": 7, "position": "LW", "country": "XK", "status": "starter" },
+      { "playerId": "player_be1_014_11", "name": "Samed Baždar", "number": 9, "position": "ST", "country": "BA", "status": "starter" },
+
+      { "playerId": "player_be1_014_12", "name": "Matt Lendfers", "number": 21, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_014_14", "name": "Wolke Janssens", "number": 22, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_014_15", "name": "Joedrick Pupe", "number": 23, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_014_16", "name": "Visar Musliu", "number": 26, "position": "CB", "country": "MK", "status": "bench" },
+      { "playerId": "player_be1_014_17", "name": "Jeremy Kandje Mbambi", "number": 27, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_014_18", "name": "Alouis Diriken", "number": 33, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_014_19", "name": "Rune Verheyden", "number": 39, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_014_20", "name": "Nelson Ishiwatari", "number": 18, "position": "CM", "country": "JP", "status": "bench" },
+      { "playerId": "player_be1_014_21", "name": "Ryotaro Araki", "number": 71, "position": "CAM", "country": "JP", "status": "bench" },
+      { "playerId": "player_be1_014_22", "name": "Kaito Matsuzawa", "number": 38, "position": "RW", "country": "JP", "status": "bench" },
+
+      { "playerId": "player_be1_014_13", "name": "Ahmad Aburasyin", "number": 25, "position": "GK", "country": "SA", "status": "reserve" },
+      { "playerId": "player_be1_014_23", "name": "Frédéric Soèllé Soèllé", "number": 19, "position": "ST", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_014_24", "name": "Oumar Diouf", "number": 77, "position": "ST", "country": "SN", "status": "reserve" },
+      { "playerId": "player_be1_014_25", "name": "Shion Shinkawa", "number": 99, "position": "CAM", "country": "JP", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 16,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
+  },
+
+  {
+    "teamKey": "St Gill",
+
+    "name": "Union Saint-Gilloise",
+
+    "logo": "assets/logos/europe/belgian/UnionSaint.png",
+
+    "manager": {
+      "name": "David Hubert",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "Stade Joseph Mariën",
+      "capacity": 9512
+    },
+
+    "players": [
+      { "playerId": "player_be1_015_01", "name": "Hervé Koffi", "number": 99, "position": "GK", "country": "BF", "status": "starter" },
+      { "playerId": "player_be1_015_02", "name": "Denzel De Roeve", "number": 21, "position": "RB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_015_03", "name": "Kevin Mac Allister", "number": 5, "position": "CB", "country": "AR", "status": "starter" },
+      { "playerId": "player_be1_015_04", "name": "Ross Sykes", "number": 26, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_be1_015_05", "name": "Louis Patris", "number": 27, "position": "LB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_015_06", "name": "Adem Zorgane", "number": 8, "position": "CDM", "country": "DZ", "status": "starter" },
+      { "playerId": "player_be1_015_07", "name": "Rob Schoofs", "number": 17, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_015_08", "name": "Guilherme Smith", "number": 11, "position": "RW", "country": "BR", "status": "starter" },
+      { "playerId": "player_be1_015_09", "name": "Anouar Ait El Hadj", "number": 10, "position": "CAM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_015_10", "name": "Relebohile Mofokeng", "number": 38, "position": "LW", "country": "ZA", "status": "starter" },
+      { "playerId": "player_be1_015_11", "name": "Kevin Rodríguez", "number": 13, "position": "ST", "country": "EC", "status": "starter" },
+
+      { "playerId": "player_be1_015_12", "name": "Vic Chambaere", "number": 1, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_015_15", "name": "Nohim Chibani", "number": 4, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_015_16", "name": "Massiré Sylla", "number": 29, "position": "CB", "country": "SN", "status": "bench" },
+      { "playerId": "player_be1_015_17", "name": "Nikki Havenaar", "number": 55, "position": "CB", "country": "JP", "status": "bench" },
+      { "playerId": "player_be1_015_18", "name": "Ondřej Kričfaluši", "number": 80, "position": "CB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_be1_015_19", "name": "Kamiel Van De Perre", "number": 6, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_015_20", "name": "Ivan Pavlić", "number": 14, "position": "CM", "country": "NL", "status": "bench" },
+      { "playerId": "player_be1_015_21", "name": "Besfort Zeneli", "number": 23, "position": "CM", "country": "SE", "status": "bench" },
+      { "playerId": "player_be1_015_22", "name": "Darius Olaru", "number": 28, "position": "CAM", "country": "RO", "status": "bench" },
+      { "playerId": "player_be1_015_23", "name": "Dylan Aquino", "number": 20, "position": "RW", "country": "AR", "status": "bench" },
+
+      { "playerId": "player_be1_015_13", "name": "Giorgi Kavlashvili", "number": 18, "position": "GK", "country": "GE", "status": "reserve" },
+      { "playerId": "player_be1_015_14", "name": "Keo Boets", "number": 71, "position": "GK", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_015_24", "name": "Raul Florucz", "number": 30, "position": "ST", "country": "AT", "status": "reserve" },
+      { "playerId": "player_be1_015_25", "name": "Mateo Biondic", "number": 9, "position": "ST", "country": "DE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "3-4-2-1",
+      "captain": 99,
+      "setPieces": {
+        "penalty": 13,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
+  },
+
+  {
+    "teamKey": "Waasld",
+
+    "name": "SK Beveren",
+
+    "logo": "assets/logos/europe/belgian/Beveren.png",
+
+    "manager": {
+      "name": "Tim Bakens",
+      "country": "NL"
+    },
+
+    "stadium": {
+      "name": "Freethielstadion",
+      "capacity": 8156
+    },
+
+    "players": [
+      { "playerId": "player_be1_016_01", "name": "Johannes Schenk", "number": 1, "position": "GK", "country": "DE", "status": "starter" },
+      { "playerId": "player_be1_016_02", "name": "Laurent Jans", "number": 21, "position": "RB", "country": "LU", "status": "starter" },
+      { "playerId": "player_be1_016_03", "name": "Viktor Boone", "number": 3, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_016_04", "name": "Bruno Godeau", "number": 31, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_016_05", "name": "Dominic Thompson", "number": 2, "position": "LB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_be1_016_06", "name": "Sieben Dewaele", "number": 18, "position": "CDM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_016_07", "name": "Arno Verschueren", "number": 24, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_016_08", "name": "Junior Diouf", "number": 11, "position": "RW", "country": "SN", "status": "starter" },
+      { "playerId": "player_be1_016_09", "name": "Guillaume De Schryver", "number": 10, "position": "CAM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_016_10", "name": "Jearl Margaritha", "number": 17, "position": "LW", "country": "CW", "status": "starter" },
+      { "playerId": "player_be1_016_11", "name": "Elohim Kaboré", "number": 9, "position": "ST", "country": "CI", "status": "starter" },
+
+      { "playerId": "player_be1_016_12", "name": "Maxim Deman", "number": 16, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_016_14", "name": "Christophe Janssens", "number": 4, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_016_15", "name": "Cheick Oumar Konaté", "number": 25, "position": "RB", "country": "ML", "status": "bench" },
+      { "playerId": "player_be1_016_16", "name": "Yoni Gomis", "number": 35, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_be1_016_17", "name": "Jannik Robatsch", "number": 48, "position": "CB", "country": "AT", "status": "bench" },
+      { "playerId": "player_be1_016_18", "name": "Noah Mawete", "number": 26, "position": "CM", "country": "CD", "status": "bench" },
+      { "playerId": "player_be1_016_19", "name": "Chris Lokesa", "number": 5, "position": "CAM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_016_20", "name": "Ferre Slegers", "number": 8, "position": "RW", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_016_21", "name": "Léandre Kuavita", "number": 14, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_016_22", "name": "Christian Brüls", "number": 22, "position": "CAM", "country": "BE", "status": "bench" },
+
+      { "playerId": "player_be1_016_13", "name": "Josua Lusamba", "number": 84, "position": "GK", "country": "CD", "status": "reserve" },
+      { "playerId": "player_be1_016_23", "name": "Cheick Condé", "number": 44, "position": "CM", "country": "GN", "status": "reserve" },
+      { "playerId": "player_be1_016_24", "name": "Kurt Abrahams", "number": 34, "position": "ST", "country": "ZA", "status": "reserve" },
+      { "playerId": "player_be1_016_25", "name": "Ilyes Najim", "number": 7, "position": "LW", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
+  },
+
+  {
+    "teamKey": "Wstrlo",
+
+    "name": "KVC Westerlo",
+
+    "logo": "assets/logos/europe/belgian/Westerlo.png",
+
+    "manager": {
+      "name": "Issame Charaï",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "Het Kuipje",
+      "capacity": 9062
+    },
+
+    "players": [
+      { "playerId": "player_be1_017_01", "name": "Bill Lathouwers", "number": 1, "position": "GK", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_017_02", "name": "Lasse Flø", "number": 2, "position": "RB", "country": "DK", "status": "starter" },
+      { "playerId": "player_be1_017_03", "name": "Amando Lapage", "number": 4, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_017_04", "name": "Botond Balogh", "number": 40, "position": "CB", "country": "HU", "status": "starter" },
+      { "playerId": "player_be1_017_05", "name": "Dylan Ourega", "number": 28, "position": "LB", "country": "FR", "status": "starter" },
+      { "playerId": "player_be1_017_06", "name": "Serhiy Sydorchuk", "number": 8, "position": "CDM", "country": "UA", "status": "starter" },
+      { "playerId": "player_be1_017_07", "name": "Cisse Sandra", "number": 14, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_017_08", "name": "Yang Min-Hyeok", "number": 47, "position": "RW", "country": "KR", "status": "starter" },
+      { "playerId": "player_be1_017_09", "name": "Nikola Storm", "number": 10, "position": "CAM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_017_10", "name": "Shunsuke Saito", "number": 7, "position": "LW", "country": "JP", "status": "starter" },
+      { "playerId": "player_be1_017_11", "name": "Norman Bassette", "number": 9, "position": "ST", "country": "BE", "status": "starter" },
+
+      { "playerId": "player_be1_017_12", "name": "Jahnilo Wiegel", "number": 21, "position": "GK", "country": "SR", "status": "bench" },
+      { "playerId": "player_be1_017_14", "name": "Seiji Kimura", "number": 5, "position": "CB", "country": "JP", "status": "bench" },
+      { "playerId": "player_be1_017_15", "name": "Reno Münz", "number": 6, "position": "CB", "country": "DE", "status": "bench" },
+      { "playerId": "player_be1_017_16", "name": "Lucas Mbamba", "number": 23, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_017_17", "name": "Michée Ndembi", "number": 24, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_017_18", "name": "Fabio Ferraro", "number": 88, "position": "RB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_017_19", "name": "Doğucan Haspolat", "number": 34, "position": "CM", "country": "TR", "status": "bench" },
+      { "playerId": "player_be1_017_20", "name": "Thomas Van Den Keybus", "number": 39, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_017_21", "name": "Ibrahim Fofana", "number": 45, "position": "CM", "country": "CI", "status": "bench" },
+      { "playerId": "player_be1_017_22", "name": "Cameron Congreve", "number": 20, "position": "CAM", "country": "GB-WLS", "status": "bench" },
+
+      { "playerId": "player_be1_017_13", "name": "Andreas Jungdal", "number": 99, "position": "GK", "country": "DK", "status": "reserve" },
+      { "playerId": "player_be1_017_23", "name": "Reda Laalaoui", "number": 12, "position": "CAM", "country": "MA", "status": "reserve" },
+      { "playerId": "player_be1_017_24", "name": "David Amegnaglo", "number": 17, "position": "ST", "country": "FR", "status": "reserve" },
+      { "playerId": "player_be1_017_25", "name": "Emmanuel Tsimba", "number": 22, "position": "ST", "country": "CH", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 47,
+        "cornerLeft": 47,
+        "cornerRight": 47
+      }
+    }
+  },
+
+  {
+    "teamKey": "Zulte",
+
+    "name": "Zulte Waregem",
+
+    "logo": "assets/logos/europe/belgian/Zulte.png",
+
+    "manager": {
+      "name": "Michael Beale",
+      "country": "GB-ENG"
+    },
+
+    "stadium": {
+      "name": "Elindus Arena",
+      "capacity": 12698
+    },
+
+    "players": [
+      { "playerId": "player_be1_018_01", "name": "Louis Bostyn", "number": 1, "position": "GK", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_018_02", "name": "Salim Diakité", "number": 23, "position": "RB", "country": "FR", "status": "starter" },
+      { "playerId": "player_be1_018_03", "name": "Anton Tanghe", "number": 3, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_018_04", "name": "Jakob Kiilerich", "number": 5, "position": "CB", "country": "DK", "status": "starter" },
+      { "playerId": "player_be1_018_05", "name": "Wilguens Paugain", "number": 12, "position": "LB", "country": "HT", "status": "starter" },
+      { "playerId": "player_be1_018_06", "name": "Enrique Lofolomo", "number": 6, "position": "CDM", "country": "DE", "status": "starter" },
+      { "playerId": "player_be1_018_07", "name": "Thomas Claes", "number": 8, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_018_08", "name": "Nikola Mituljikić", "number": 7, "position": "RW", "country": "RS", "status": "starter" },
+      { "playerId": "player_be1_018_09", "name": "Malick Mbaye", "number": 10, "position": "CAM", "country": "SN", "status": "starter" },
+      { "playerId": "player_be1_018_10", "name": "Marley Aké", "number": 11, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_be1_018_11", "name": "Anosike Ementa", "number": 18, "position": "ST", "country": "DK", "status": "starter" },
+
+      { "playerId": "player_be1_018_12", "name": "Brent Gabriël", "number": 13, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_018_14", "name": "Laurent Lemoine", "number": 4, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_018_15", "name": "Youssoupha Mbodji", "number": 15, "position": "CB", "country": "SN", "status": "bench" },
+      { "playerId": "player_be1_018_16", "name": "Mouhamadou Sall", "number": 24, "position": "CB", "country": "SN", "status": "bench" },
+      { "playerId": "player_be1_018_17", "name": "Benoit De Jaegere", "number": 45, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_018_18", "name": "Yannick Cappelle", "number": 55, "position": "RB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_018_19", "name": "Niko Horvat", "number": 19, "position": "CM", "country": "HR", "status": "bench" },
+      { "playerId": "player_be1_018_20", "name": "Ousseynou Niang", "number": 22, "position": "CM", "country": "SN", "status": "bench" },
+      { "playerId": "player_be1_018_21", "name": "Tristan Panduro", "number": 25, "position": "CM", "country": "DK", "status": "bench" },
+      { "playerId": "player_be1_018_22", "name": "Serxho Ujka", "number": 36, "position": "CM", "country": "AL", "status": "bench" },
+
+      { "playerId": "player_be1_018_13", "name": "Florian Van Bever", "number": 41, "position": "GK", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_018_23", "name": "Dirk Asare", "number": 40, "position": "CM", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_018_24", "name": "Tobias Hedl", "number": 20, "position": "ST", "country": "AT", "status": "reserve" },
+      { "playerId": "player_be1_018_25", "name": "Hemsley Akpa-Chukwu", "number": 90, "position": "ST", "country": "IT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
+  }
