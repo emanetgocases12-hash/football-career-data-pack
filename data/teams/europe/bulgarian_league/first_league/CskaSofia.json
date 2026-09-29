@@ -1,12 +1,58 @@
 {
-  "teamKey": "CSKA So",
+    "teamKey": "CSKA So",
 
-  "name": "CSKA Sofia",
+    "name": "CSKA Sofia",
 
-  "logo": "assets/logos/europe/bulgaria/CskaSofia.png",
+    "logo": "assets/logos/europe/bulgaria/CskaSofia.png",
 
-  "stadium": {
-    "name": "Vasil Levski",
-    "capacity": 43630
+    "manager": {
+      "name": "Hristo Yanev",
+      "country": "BG"
+    },
+
+    "stadium": {
+      "name": "Vasil Levski",
+      "capacity": 43630
+    },
+
+    "players": [
+      { "playerId": "player_bg1_004_01", "name": "Fedor Lapoukhov", "number": 21, "position": "GK", "country": "BY", "status": "starter" },
+      { "playerId": "player_bg1_004_02", "name": "Pastor", "number": 2, "position": "RB", "country": "BR", "status": "starter" },
+      { "playerId": "player_bg1_004_03", "name": "Jean-Philippe Gbamin", "number": 5, "position": "CB", "country": "CI", "status": "starter" },
+      { "playerId": "player_bg1_004_04", "name": "Facundo Rodrigues", "number": 32, "position": "CB", "country": "AR", "status": "starter" },
+      { "playerId": "player_bg1_004_05", "name": "Angelo Martino", "number": 17, "position": "LB", "country": "IT", "status": "starter" },
+      { "playerId": "player_bg1_004_06", "name": "James Eto'o", "number": 99, "position": "CDM", "country": "CM", "status": "starter" },
+      { "playerId": "player_bg1_004_07", "name": "Bruno Jordão", "number": 6, "position": "CM", "country": "PT", "status": "starter" },
+      { "playerId": "player_bg1_004_08", "name": "Mohamed Brahimi", "number": 11, "position": "RW", "country": "FR", "status": "starter" },
+      { "playerId": "player_bg1_004_09", "name": "Stefano Sensi", "number": 8, "position": "CAM", "country": "IT", "status": "starter" },
+      { "playerId": "player_bg1_004_10", "name": "Léo Pereira", "number": 38, "position": "LW", "country": "BR", "status": "starter" },
+      { "playerId": "player_bg1_004_11", "name": "Ioannis Pittas", "number": 28, "position": "ST", "country": "CY", "status": "starter" },
+
+      { "playerId": "player_bg1_004_12", "name": "Dimitar Evtimov", "number": 25, "position": "GK", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_004_13", "name": "Teodor Ivanov", "number": 14, "position": "CB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_004_14", "name": "Andrey Yordanov", "number": 19, "position": "LB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_004_15", "name": "Dinis Almeida", "number": 4, "position": "CB", "country": "PT", "status": "bench" },
+      { "playerId": "player_bg1_004_16", "name": "Maks Ebong", "number": 7, "position": "CM", "country": "BY", "status": "bench" },
+      { "playerId": "player_bg1_004_17", "name": "Petko Panayotov", "number": 30, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_004_18", "name": "Catalin Itu", "number": 67, "position": "CM", "country": "RO", "status": "bench" },
+      { "playerId": "player_bg1_004_19", "name": "Georgi Chorbadzhiyski", "number": 80, "position": "CAM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_004_20", "name": "Leandro Godoy", "number": 9, "position": "ST", "country": "AR", "status": "bench" },
+      { "playerId": "player_bg1_004_21", "name": "Joel Zwarts", "number": 10, "position": "ST", "country": "NL", "status": "bench" },
+
+      { "playerId": "player_bg1_004_22", "name": "Georgi Gerginov", "number": 12, "position": "GK", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_004_23", "name": "Daniel Nikolov", "number": 31, "position": "GK", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_004_24", "name": "Isaac Solet", "number": 94, "position": "CM", "country": "CF", "status": "reserve" },
+      { "playerId": "player_bg1_004_25", "name": "Vasil Kaymakanov", "number": 34, "position": "ST", "country": "BG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 28,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
   }
-}
