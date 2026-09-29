@@ -1,12 +1,58 @@
 {
-  "teamKey": "Sloga",
+    "teamKey": "Sloga",
 
-  "name": "FK Sloga Meridian",
+    "name": "FK Sloga Meridian",
 
-  "logo": "assets/logos/europe/bosna/Sloga.png",
+    "logo": "assets/logos/europe/bosna/Sloga.png",
 
-  "stadium": {
-    "name": "Gradski Stadion Luke Doboj",
-    "capacity": 3000
+    "manager": {
+      "name": "Perica Ognjenović",
+      "country": "RS"
+    },
+
+    "stadium": {
+      "name": "Gradski Stadion Luke Doboj",
+      "capacity": 3000
+    },
+
+    "players": [
+      { "playerId": "player_ba1_007_01", "name": "Pere García", "number": 1, "position": "GK", "country": "ES", "status": "starter" },
+      { "playerId": "player_ba1_007_02", "name": "Raúl Navarro", "number": 2, "position": "RB", "country": "ES", "status": "starter" },
+      { "playerId": "player_ba1_007_03", "name": "Pablo Jaquez", "number": 4, "position": "CB", "country": "MX", "status": "starter" },
+      { "playerId": "player_ba1_007_04", "name": "Benjamín Garay", "number": 5, "position": "CB", "country": "AR", "status": "starter" },
+      { "playerId": "player_ba1_007_05", "name": "Josip Kvesić", "number": 3, "position": "LB", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_007_06", "name": "Chuca", "number": 6, "position": "CDM", "country": "ES", "status": "starter" },
+      { "playerId": "player_ba1_007_07", "name": "Dani Molina", "number": 8, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_ba1_007_08", "name": "Ferni", "number": 7, "position": "RW", "country": "ES", "status": "starter" },
+      { "playerId": "player_ba1_007_09", "name": "Fernan Ferreiroa Lopez", "number": 10, "position": "CAM", "country": "ES", "status": "starter" },
+      { "playerId": "player_ba1_007_10", "name": "Jorge Bolivar Cano", "number": 11, "position": "LW", "country": "ES", "status": "starter" },
+      { "playerId": "player_ba1_007_11", "name": "Lanre Kehinde", "number": 9, "position": "ST", "country": "NG", "status": "starter" },
+
+      { "playerId": "player_ba1_007_12", "name": "Bojan Pavlović", "number": 13, "position": "GK", "country": "RS", "status": "bench" },
+      { "playerId": "player_ba1_007_13", "name": "Nikola Pejović", "number": 15, "position": "CB", "country": "RS", "status": "bench" },
+      { "playerId": "player_ba1_007_14", "name": "Niko Bozickovic", "number": 16, "position": "CB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_007_15", "name": "Roberto Corral", "number": 17, "position": "LB", "country": "ES", "status": "bench" },
+      { "playerId": "player_ba1_007_16", "name": "Milan Milanović", "number": 20, "position": "CB", "country": "RS", "status": "bench" },
+      { "playerId": "player_ba1_007_17", "name": "Ajdin Redžić", "number": 14, "position": "CM", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_007_18", "name": "Ognjen Šešlak", "number": 18, "position": "CM", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_007_19", "name": "Milan Savić", "number": 19, "position": "RW", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_007_20", "name": "Javi Cueto", "number": 21, "position": "ST", "country": "ES", "status": "bench" },
+      { "playerId": "player_ba1_007_21", "name": "Toni Jović", "number": 22, "position": "ST", "country": "HR", "status": "bench" },
+
+      { "playerId": "player_ba1_007_22", "name": "Blagoje Đuraš", "number": 25, "position": "GK", "country": "BA", "status": "reserve" },
+      { "playerId": "player_ba1_007_23", "name": "Sergej Damjanic", "number": 23, "position": "CM", "country": "BA", "status": "reserve" },
+      { "playerId": "player_ba1_007_24", "name": "Jovan Đalović", "number": 24, "position": "CM", "country": "RS", "status": "reserve" },
+      { "playerId": "player_ba1_007_25", "name": "Mladen Veselinović", "number": 26, "position": "CAM", "country": "BA", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
