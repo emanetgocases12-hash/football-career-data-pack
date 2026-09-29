@@ -1,12 +1,58 @@
 {
-  "teamKey": "Kfisia",
-
-  "name": "AE Kifisia",
-
-  "logo": "assets/logos/europe/greek/Kifisia.png",
-
-  "stadium": {
-    "name": "Gipedo Neapolis",
-    "capacity": 4999
+    "teamKey": "Kfisia",
+  
+    "name": "AE Kifisia",
+  
+    "logo": "assets/logos/europe/greek/Kifisia.png",
+  
+    "manager": {
+      "name": "Sebastián Leto",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Gipedo Neapolis",
+      "capacity": 4999
+    },
+  
+    "players": [
+      {"playerId": "player_gr1_007_01", "name": "Moisés Ramírez", "number": 99, "position": "GK", "country": "EC", "status": "starter"},
+      {"playerId": "player_gr1_007_02", "name": "Leroy Abanda", "number": 2, "position": "RB", "country": "FR", "status": "starter"},
+      {"playerId": "player_gr1_007_03", "name": "Hugo Sousa", "number": 33, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_gr1_007_04", "name": "Nikos Vafeas", "number": 4, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_007_05", "name": "Luca Garritano", "number": 3, "position": "LB", "country": "IT", "status": "starter"},
+      {"playerId": "player_gr1_007_06", "name": "Konstantinos Roukounakis", "number": 17, "position": "CM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_007_07", "name": "Jorge Pombo", "number": 6, "position": "CM", "country": "ES", "status": "starter"},
+      {"playerId": "player_gr1_007_08", "name": "Jeremy Antonisse", "number": 10, "position": "RW", "country": "CW", "status": "starter"},
+      {"playerId": "player_gr1_007_09", "name": "Mateus Santos", "number": 8, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_gr1_007_10", "name": "Teté", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_gr1_007_11", "name": "Andrews Tetteh", "number": 9, "position": "ST", "country": "GH", "status": "starter"},
+  
+      {"playerId": "player_gr1_007_12", "name": "Alexandros Anagnostopoulos", "number": 1, "position": "GK", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_007_13", "name": "Giannis Masouras", "number": 5, "position": "RB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_007_14", "name": "Theodoros Faitakis", "number": 15, "position": "CB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_007_15", "name": "Viktor Klonaridis", "number": 7, "position": "RW", "country": "BE", "status": "bench"},
+      {"playerId": "player_gr1_007_16", "name": "Panagiotis Pritsas", "number": 21, "position": "CM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_007_17", "name": "Yannis Iatroudis", "number": 14, "position": "CAM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_007_18", "name": "Migouel Tavares", "number": 18, "position": "LW", "country": "PT", "status": "bench"},
+      {"playerId": "player_gr1_007_19", "name": "Christos Ligdas", "number": 19, "position": "ST", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_007_20", "name": "Michalis Patiras", "number": 30, "position": "ST", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_007_21", "name": "Manolis Sbokos", "number": 22, "position": "CB", "country": "GR", "status": "bench"},
+  
+      {"playerId": "player_gr1_007_22", "name": "Filippos Roberts", "number": 26, "position": "GK", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr1_007_23", "name": "Dimitris Giousis", "number": 24, "position": "RM", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr1_007_24", "name": "Ognjen Ozegovic", "number": 29, "position": "ST", "country": "RS", "status": "reserve"},
+      {"playerId": "player_gr1_007_25", "name": "Giannis Kotsiras", "number": 27, "position": "RB", "country": "GR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 33,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 6,
+        "cornerLeft": 10,
+        "cornerRight": 8
+      }
+    }
   }
-}
