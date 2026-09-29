@@ -1,12 +1,58 @@
 {
-  "teamKey": "Finn",
-
-  "name": "Finn Harps",
-
-  "logo": "assets/logos/europe/irish/Finn.png",
-
-  "stadium": {
-    "name": "Finn Park",
-    "capacity": 6000
+    "teamKey": "Finn",
+  
+    "name": "Finn Harps",
+  
+    "logo": "assets/logos/europe/irish/Finn.png",
+  
+    "manager": {
+      "name": "Kevin McHugh",
+      "country": "IE"
+    },
+  
+    "stadium": {
+      "name": "Finn Park",
+      "capacity": 6000
+    },
+  
+    "players": [
+      {"playerId": "player_ie2_004_01", "name": "Tim-Oliver Heimer", "number": 1, "position": "GK", "country": "EE", "status": "starter"},
+      {"playerId": "player_ie2_004_02", "name": "Jamie Watson", "number": 2, "position": "RB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_004_03", "name": "Kevin Jordan", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_004_04", "name": "Luke O'Brien", "number": 5, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_004_05", "name": "Max Johnston", "number": 3, "position": "LB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_ie2_004_06", "name": "Tony McNamee", "number": 11, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_004_07", "name": "Ryan Rainey", "number": 8, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_004_08", "name": "Success Edogun", "number": 7, "position": "RW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_004_09", "name": "Patrick Ferry", "number": 10, "position": "CAM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_004_10", "name": "Stephen Doherty", "number": 17, "position": "LW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_004_11", "name": "Patrick Ferry", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
+  
+      {"playerId": "player_ie2_004_12", "name": "Gavin Mulreany", "number": 12, "position": "GK", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_004_13", "name": "Kosovar Sadiki", "number": 15, "position": "CB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ie2_004_14", "name": "Matthew Makinson", "number": 16, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_004_15", "name": "Sean Patton", "number": 18, "position": "RB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_004_16", "name": "Daithi McCallion", "number": 19, "position": "LB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_004_17", "name": "Max Johnston", "number": 20, "position": "CM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_ie2_004_18", "name": "Sean O'Donnell", "number": 21, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_004_19", "name": "Darren McCauley", "number": 22, "position": "RW", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_004_20", "name": "Fuhad Kareem", "number": 23, "position": "ST", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_004_21", "name": "BJ Banda", "number": 24, "position": "ST", "country": "IE", "status": "bench"},
+  
+      {"playerId": "player_ie2_004_22", "name": "Aaron McLaughlin", "number": 30, "position": "GK", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_004_23", "name": "Daniel Okwute", "number": 25, "position": "RW", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_004_24", "name": "Patrick McGarvey", "number": 26, "position": "CM", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_004_25", "name": "Jamie Harris", "number": 27, "position": "ST", "country": "IE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 11,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
