@@ -1,12 +1,58 @@
 {
-  "teamKey": "Krasav",
+    "teamKey": "Krasav",
 
-  "name": "Krasava ENY",
+    "name": "Krasava ENY",
 
-  "logo": "assets/logos/europe/cpyrus/Krasav.png",
+    "logo": "assets/logos/europe/cpyrus/Krasav.png",
 
-  "stadium": {
-    "name": "Ammochostos Stadium",
-    "capacity": 5500
+    "manager": {
+      "name": "Dmytro Chygrynskyi",
+      "country": "UA"
+    },
+
+    "stadium": {
+      "name": "Ammochostos Stadium",
+      "capacity": 5500
+    },
+
+    "players": [
+      { "playerId": "player_cy1_007_01", "name": "Adam Richter", "number": 93, "position": "GK", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cy1_007_02", "name": "Issam Chebake", "number": 29, "position": "RB", "country": "MA", "status": "starter" },
+      { "playerId": "player_cy1_007_03", "name": "Luiyi de Lucas", "number": 3, "position": "CB", "country": "DO", "status": "starter" },
+      { "playerId": "player_cy1_007_04", "name": "Kristopher Da Graca", "number": 5, "position": "CB", "country": "CV", "status": "starter" },
+      { "playerId": "player_cy1_007_05", "name": "Xavi Quintillà", "number": 6, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_cy1_007_06", "name": "Nana Boateng", "number": 19, "position": "CDM", "country": "GH", "status": "starter" },
+      { "playerId": "player_cy1_007_07", "name": "Rubén Pardo", "number": 14, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_cy1_007_08", "name": "Marco Camus", "number": 80, "position": "RW", "country": "ES", "status": "starter" },
+      { "playerId": "player_cy1_007_09", "name": "Vasilios Papafotis", "number": 10, "position": "CAM", "country": "CY", "status": "starter" },
+      { "playerId": "player_cy1_007_10", "name": "Yassine Bahassa", "number": 28, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_cy1_007_11", "name": "Kevin Luckassen", "number": 42, "position": "ST", "country": "NL", "status": "starter" },
+
+      { "playerId": "player_cy1_007_12", "name": "Andreas Christodoulou", "number": 25, "position": "GK", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_007_13", "name": "Dmytro Melnichenko", "number": 18, "position": "CB", "country": "UA", "status": "bench" },
+      { "playerId": "player_cy1_007_14", "name": "Fanos Katelaris", "number": 30, "position": "CB", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_007_15", "name": "Giorgos Kiakós", "number": 77, "position": "LB", "country": "GR", "status": "bench" },
+      { "playerId": "player_cy1_007_16", "name": "Andreas Georgiou", "number": 12, "position": "CM", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_007_17", "name": "Panagiotis Angeli", "number": 22, "position": "CM", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_007_18", "name": "Serge Tabekou", "number": 13, "position": "RW", "country": "CM", "status": "bench" },
+      { "playerId": "player_cy1_007_19", "name": "Erik Davidian", "number": 16, "position": "LW", "country": "AM", "status": "bench" },
+      { "playerId": "player_cy1_007_20", "name": "Michail Panagidis", "number": 11, "position": "LW", "country": "GR", "status": "bench" },
+      { "playerId": "player_cy1_007_21", "name": "Yevhen Budnik", "number": 9, "position": "ST", "country": "UA", "status": "bench" },
+
+      { "playerId": "player_cy1_007_22", "name": "Yurii Avramenko", "number": 75, "position": "GK", "country": "UA", "status": "reserve" },
+      { "playerId": "player_cy1_007_23", "name": "Andreas Athanasiou", "number": 20, "position": "CM", "country": "CY", "status": "reserve" },
+      { "playerId": "player_cy1_007_24", "name": "Diby Keita", "number": 21, "position": "LW", "country": "ML", "status": "reserve" },
+      { "playerId": "player_cy1_007_25", "name": "Lysandros Papastylianou", "number": 17, "position": "ST", "country": "CY", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 14,
+      "setPieces": {
+        "penalty": 42,
+        "freeKick": 10,
+        "cornerLeft": 28,
+        "cornerRight": 80
+      }
+    }
   }
-}
