@@ -1,12 +1,58 @@
 {
-  "teamKey": "Tkibul",
-
-  "name": "FC Meshakhte Tkibuli",
-
-  "logo": "assets/logos/europe/georgia/Meshakhte.png",
-
-  "stadium": {
-    "name": "Vladimer Bochorishvili",
-    "capacity": 6000
+    "teamKey": "Tkibul",
+  
+    "name": "FC Meshakhte Tkibuli",
+  
+    "logo": "assets/logos/europe/georgia/Meshakhte.png",
+  
+    "manager": {
+      "name": "Kakha Chkhetiani",
+      "country": "GE"
+    },
+  
+    "stadium": {
+      "name": "Vladimer Bochorishvili",
+      "capacity": 6000
+    },
+  
+    "players": [
+      {"playerId": "player_ge1_006_01", "name": "Levan Tkeshelashvili", "number": 1, "position": "GK", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_006_02", "name": "Nikoloz Sherozia", "number": 2, "position": "RB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_006_03", "name": "Zurab Gigashvili", "number": 3, "position": "CB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_006_04", "name": "Mate Tereladze", "number": 4, "position": "CB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_006_05", "name": "Giorgi Burduli", "number": 13, "position": "LB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_006_06", "name": "Giorgi Papuashvili", "number": 6, "position": "CM", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_006_07", "name": "Teimuraz Shonia", "number": 7, "position": "CM", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_006_08", "name": "Mate Kvirkvia", "number": 11, "position": "RW", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_006_09", "name": "Tsotne Patsatsia", "number": 18, "position": "CAM", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_006_10", "name": "Giorgi Gogolashvili", "number": 10, "position": "LW", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_006_11", "name": "Irakli Sikharulidze", "number": 9, "position": "ST", "country": "GE", "status": "starter"},
+  
+      {"playerId": "player_ge1_006_12", "name": "Cleopas Timi", "number": 29, "position": "GK", "country": "NG", "status": "bench"},
+      {"playerId": "player_ge1_006_13", "name": "Giorgi Gegia", "number": 16, "position": "CB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_006_14", "name": "Levan Kurdadze", "number": 20, "position": "LB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_006_15", "name": "Lasha Ugrekhelidze", "number": 40, "position": "RB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_006_16", "name": "Giorgi Kvirkvelia", "number": 21, "position": "CB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_006_17", "name": "Ilia Dgebuadze", "number": 19, "position": "CM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_006_18", "name": "Tarik Sikalo", "number": 22, "position": "CM", "country": "BA", "status": "bench"},
+      {"playerId": "player_ge1_006_19", "name": "Maksim Pirogov", "number": 30, "position": "CM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ge1_006_20", "name": "Beka Shubitidze", "number": 23, "position": "RM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_006_21", "name": "Beka Gabiskiria", "number": 24, "position": "LM", "country": "GE", "status": "bench"},
+  
+      {"playerId": "player_ge1_006_22", "name": "Saba Chelishvili", "number": 12, "position": "CM", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_006_23", "name": "Erekle Jijavadze", "number": 17, "position": "CM", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_006_24", "name": "Luka Shashiashvili", "number": 5, "position": "CB", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_006_25", "name": "Eric Lima Pimentel", "number": 31, "position": "CB", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 18
+      }
+    }
   }
-}
