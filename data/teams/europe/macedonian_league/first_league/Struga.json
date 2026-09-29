@@ -1,12 +1,58 @@
 {
-  "teamKey": "Struga",
-
-  "name": "Struga Trim & Lum",
-
-  "logo": "assets/logos/europe/macedonian/Struga.png",
-
-  "stadium": {
-    "name": "Gradska Plaza Stadium",
-    "capacity": 2500
+    "teamKey": "Struga",
+  
+    "name": "Struga Trim & Lum",
+  
+    "logo": "assets/logos/europe/macedonian/Struga.png",
+  
+    "manager": {
+      "name": "Bledi Shkembi",
+      "country": "AL"
+    },
+  
+    "stadium": {
+      "name": "Gradska Plaza Stadium",
+      "capacity": 2500
+    },
+  
+    "players": [
+      {"playerId": "player_mk1_008_01", "name": "Vasko Vasilev", "number": 44, "position": "GK", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_008_02", "name": "Qendrim Ismajli", "number": 2, "position": "RB", "country": "XK", "status": "starter"},
+      {"playerId": "player_mk1_008_03", "name": "Egzon Belica", "number": 5, "position": "CB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_008_04", "name": "Papa Fall", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_mk1_008_05", "name": "Leard Rama", "number": 3, "position": "LB", "country": "XK", "status": "starter"},
+      {"playerId": "player_mk1_008_06", "name": "Besmir Bojku", "number": 10, "position": "CM", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_008_07", "name": "Bunjamin Shabani", "number": 11, "position": "CM", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_008_08", "name": "Marjan Radeski", "number": 14, "position": "RW", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_008_09", "name": "Ard Kasami", "number": 19, "position": "CAM", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_008_10", "name": "Arbi Vosha", "number": 7, "position": "LW", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_008_11", "name": "Besart Ibraimi", "number": 9, "position": "ST", "country": "MK", "status": "starter"},
+  
+      {"playerId": "player_mk1_008_12", "name": "Aleksandar Jovchevski", "number": 1, "position": "GK", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_008_13", "name": "Besart Krivanjeva", "number": 16, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_008_14", "name": "B. Ramadani", "number": 20, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_008_15", "name": "E. Ziba", "number": 22, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_008_16", "name": "Andi Demiri", "number": 21, "position": "LB", "country": "XK", "status": "bench"},
+      {"playerId": "player_mk1_008_17", "name": "A. Zendelovski", "number": 6, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_008_18", "name": "A. Nuhija", "number": 8, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_008_19", "name": "J. Kaba", "number": 23, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_008_20", "name": "H. Agamah", "number": 17, "position": "ST", "country": "FR", "status": "bench"},
+      {"playerId": "player_mk1_008_21", "name": "Hristijan Maleski", "number": 29, "position": "ST", "country": "MK", "status": "bench"},
+  
+      {"playerId": "player_mk1_008_22", "name": "M. Hamza", "number": 30, "position": "ST", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_008_23", "name": "D. Akinlosotu", "number": 28, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_mk1_008_24", "name": "T. Demishoski", "number": 25, "position": "ST", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_008_25", "name": "A. Aliji", "number": 27, "position": "ST", "country": "AL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 11,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 14,
+        "cornerRight": 7
+      }
+    }
   }
-}
