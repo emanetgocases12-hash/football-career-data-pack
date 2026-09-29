@@ -1,12 +1,58 @@
 {
-  "teamKey": "Niki",
-
-  "name": "Niki Volos",
-
-  "logo": "assets/logos/europe/greek/Niki.png",
-
-  "stadium": {
-    "name": "Pantelis Magoulas",
-    "capacity": 4500
+    "teamKey": "Niki",
+  
+    "name": "Niki Volos",
+  
+    "logo": "assets/logos/europe/greek/Niki.png",
+  
+    "manager": {
+      "name": "Alekos Vosniadis",
+      "country": "GR"
+    },
+  
+    "stadium": {
+      "name": "Pantelis Magoulas",
+      "capacity": 4500
+    },
+  
+    "players": [
+      {"playerId": "player_gr2_009_01", "name": "Alexandros Garavelis", "number": 1, "position": "GK", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_009_02", "name": "Stathis Panikidis", "number": 23, "position": "RB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_009_03", "name": "Alexandros Tzanetopoulos", "number": 55, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_009_04", "name": "Dimitris Sioutas", "number": 40, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_009_05", "name": "Sebastian Ring", "number": 3, "position": "LB", "country": "SE", "status": "starter"},
+      {"playerId": "player_gr2_009_06", "name": "Kostas Plegas", "number": 6, "position": "CDM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_009_07", "name": "Stephane Omeonga", "number": 33, "position": "CM", "country": "BE", "status": "starter"},
+      {"playerId": "player_gr2_009_08", "name": "Stavros Tzimas", "number": 10, "position": "RW", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_009_09", "name": "Giorgos Pamlidis", "number": 14, "position": "CAM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_009_10", "name": "Lucas Poletto", "number": 7, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_gr2_009_11", "name": "Giannis Loukinas", "number": 25, "position": "ST", "country": "GR", "status": "starter"},
+  
+      {"playerId": "player_gr2_009_12", "name": "Dimitris Tselios", "number": 34, "position": "GK", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_009_13", "name": "Nikos Vafeas", "number": 2, "position": "CB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_009_14", "name": "Pavlos Kivrakidis", "number": 19, "position": "RB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_009_15", "name": "Marios Kalaitsidis", "number": 59, "position": "CM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_009_16", "name": "Giannis Eppas", "number": 8, "position": "CM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_009_17", "name": "Randy Hammond", "number": 5, "position": "CM", "country": "GH", "status": "bench"},
+      {"playerId": "player_gr2_009_18", "name": "Christos Ligdas", "number": 18, "position": "RW", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_009_19", "name": "Vasilis Macheras", "number": 53, "position": "LW", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_009_20", "name": "Víctor Fernández", "number": 11, "position": "LW", "country": "ES", "status": "bench"},
+      {"playerId": "player_gr2_009_21", "name": "Vasilios Mantzis", "number": 9, "position": "ST", "country": "GR", "status": "bench"},
+  
+      {"playerId": "player_gr2_009_22", "name": "Dimitris Saltas", "number": 43, "position": "GK", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr2_009_23", "name": "Christos Venetis", "number": 17, "position": "ST", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr2_009_24", "name": "Vasilis Tsobanis", "number": 27, "position": "RW", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr2_009_25", "name": "Giannis Darelas", "number": 26, "position": "CAM", "country": "GR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 25,
+      "setPieces": {
+        "penalty": 25,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 14
+      }
+    }
   }
-}
