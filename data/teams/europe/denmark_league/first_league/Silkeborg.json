@@ -1,12 +1,58 @@
 {
-  "teamKey": "Silkeb",
-
-  "name": "Silkeborg IF",
-
-  "logo": "assets/logos/europe/denmark/Silkeborg.png",
-
-  "stadium": {
-    "name": "JYSK Park",
-    "capacity": 10000
+    "teamKey": "Silkeb",
+  
+    "name": "Silkeborg IF",
+  
+    "logo": "assets/logos/europe/denmark/Silkeborg.png",
+  
+    "manager": {
+      "name": "Morten Dahm Kjærgaard",
+      "country": "DK"
+    },
+  
+    "stadium": {
+      "name": "JYSK Park",
+      "capacity": 10000
+    },
+  
+    "players": [
+      {"playerId": "player_dk1_010_01", "name": "Aske Andrésen", "number": 30, "position": "GK", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_010_02", "name": "Jens Martin Gammelby", "number": 19, "position": "RB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_010_03", "name": "Robin Dahl Öström", "number": 3, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_dk1_010_04", "name": "Alexander Priesborg Madsen", "number": 24, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_010_05", "name": "William Møller", "number": 29, "position": "LB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_010_06", "name": "Mads Larsen", "number": 20, "position": "CDM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_010_07", "name": "Villads Westh", "number": 7, "position": "CM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_010_08", "name": "Rami Al Hajj", "number": 22, "position": "CAM", "country": "SE", "status": "starter"},
+      {"playerId": "player_dk1_010_09", "name": "Oliver Ross", "number": 11, "position": "RW", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_010_10", "name": "Lucas Riisgaard", "number": 21, "position": "ST", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_010_11", "name": "William Kirk", "number": 27, "position": "LW", "country": "DK", "status": "starter"},
+  
+      {"playerId": "player_dk1_010_12", "name": "Bastian Holm", "number": 16, "position": "GK", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_010_13", "name": "Andreas Poulsen", "number": 2, "position": "LB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_010_14", "name": "Pedro Ganchas", "number": 4, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_dk1_010_15", "name": "Maël de Gevigney", "number": 6, "position": "CB", "country": "FR", "status": "bench"},
+      {"playerId": "player_dk1_010_16", "name": "Melker Jonsson", "number": 15, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_dk1_010_17", "name": "Sofus Berger", "number": 14, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_010_18", "name": "Mikkel Øxenberg", "number": 26, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_010_19", "name": "Mads Freundlich", "number": 33, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_010_20", "name": "Julius Nielsen", "number": 36, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_010_21", "name": "Malthe Søgaard", "number": 23, "position": "ST", "country": "DK", "status": "bench"},
+  
+      {"playerId": "player_dk1_010_22", "name": "Thomas Mikkelsen", "number": 31, "position": "GK", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk1_010_23", "name": "Leonel Montano", "number": 18, "position": "RB", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk1_010_24", "name": "Pontus Rödin", "number": 25, "position": "CB", "country": "SE", "status": "reserve"},
+      {"playerId": "player_dk1_010_25", "name": "Kristian Bøgild", "number": 42, "position": "CM", "country": "DK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 20,
+      "setPieces": {
+        "penalty": 21,
+        "freeKick": 22,
+        "cornerLeft": 11,
+        "cornerRight": 27
+      }
+    }
   }
-}
