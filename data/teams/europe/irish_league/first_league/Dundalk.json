@@ -1,12 +1,58 @@
 {
-  "teamKey": "Dundlk",
-
-  "name": "Dundalk FC",
-
-  "logo": "assets/logos/europe/irish/Dundalk.png",
-
-  "stadium": {
-    "name": "Oriel Park",
-    "capacity": 4500
+    "teamKey": "Dundlk",
+  
+    "name": "Dundalk FC",
+  
+    "logo": "assets/logos/europe/irish/Dundalk.png",
+  
+    "manager": {
+      "name": "Ciarán Kilduff",
+      "country": "IE"
+    },
+  
+    "stadium": {
+      "name": "Oriel Park",
+      "capacity": 4500
+    },
+  
+    "players": [
+      {"playerId": "player_ie1_005_01", "name": "Enda Minogue", "number": 1, "position": "GK", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_005_02", "name": "Aodh Dervin", "number": 6, "position": "RB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_005_03", "name": "Mayowa Animasahun", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_005_04", "name": "Harvey Warren", "number": 5, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_005_05", "name": "Luke Mulligan", "number": 12, "position": "LB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_005_06", "name": "Harry Groome", "number": 3, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_005_07", "name": "Rob Cornwall", "number": 24, "position": "CDM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_005_08", "name": "Norman Garbett", "number": 14, "position": "RW", "country": "NZ", "status": "starter"},
+      {"playerId": "player_ie1_005_09", "name": "Daryl Horgan", "number": 7, "position": "CAM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_005_10", "name": "Leo Gaxha", "number": 10, "position": "LW", "country": "AL", "status": "starter"},
+      {"playerId": "player_ie1_005_11", "name": "Gbemi Arubi", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
+  
+      {"playerId": "player_ie1_005_12", "name": "Conor Kearns", "number": 13, "position": "GK", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_005_13", "name": "Vinnie Leonard", "number": 15, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_005_14", "name": "Séan Spaight", "number": 19, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_005_15", "name": "John Ross Wilson", "number": 31, "position": "RB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_005_16", "name": "Eoin Kenny", "number": 16, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_005_17", "name": "Danny Mullen", "number": 21, "position": "ST", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_ie1_005_18", "name": "TJ Molloy", "number": 29, "position": "RW", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_005_19", "name": "Luke Heeney", "number": 25, "position": "LB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_005_20", "name": "Cian Kavanagh", "number": 18, "position": "ST", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_005_21", "name": "Scott McGill", "number": 8, "position": "CM", "country": "GB-SCT", "status": "bench"},
+  
+      {"playerId": "player_ie1_005_22", "name": "Sammy Safaei", "number": 20, "position": "GK", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_005_23", "name": "Robert Mahon", "number": 22, "position": "RW", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_005_24", "name": "Paul Doyle", "number": 17, "position": "CM", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_005_25", "name": "Cameron Elliott", "number": 27, "position": "ST", "country": "GB-SCT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 14,
+        "cornerRight": 10
+      }
+    }
   }
-}
