@@ -1,12 +1,58 @@
 {
-  "teamKey": "Derry",
-
-  "name": "Derry City",
-
-  "logo": "assets/logos/europe/irish/Derry.png",
-
-  "stadium": {
-    "name": "Ryan McBride Brandywell Stadium",
-    "capacity": 6300
+    "teamKey": "Derry",
+  
+    "name": "Derry City",
+  
+    "logo": "assets/logos/europe/irish/Derry.png",
+  
+    "manager": {
+      "name": "Mark Connolly",
+      "country": "IE"
+    },
+  
+    "stadium": {
+      "name": "Ryan McBride Brandywell Stadium",
+      "capacity": 6300
+    },
+  
+    "players": [
+      {"playerId": "player_ie1_003_01", "name": "Brian Maher", "number": 1, "position": "GK", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_003_02", "name": "Barry Cotter", "number": 2, "position": "RB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_003_03", "name": "Jamie Stott", "number": 4, "position": "CB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_ie1_003_04", "name": "Robert Slevin", "number": 6, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_003_05", "name": "Patrick McClean", "number": 3, "position": "LB", "country": "GB-NIR", "status": "starter"},
+      {"playerId": "player_ie1_003_06", "name": "Adam O'Reilly", "number": 8, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_003_07", "name": "Carl Winchester", "number": 20, "position": "CM", "country": "GB-NIR", "status": "starter"},
+      {"playerId": "player_ie1_003_08", "name": "Michael Duffy", "number": 7, "position": "RW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_003_09", "name": "Ellis Chapman", "number": 14, "position": "CAM", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_ie1_003_10", "name": "James McClean", "number": 16, "position": "LW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_003_11", "name": "Liam Boyce", "number": 27, "position": "ST", "country": "GB-NIR", "status": "starter"},
+  
+      {"playerId": "player_ie1_003_12", "name": "Tom Norcott", "number": 13, "position": "GK", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_ie1_003_13", "name": "Brandon Fleming", "number": 19, "position": "LB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_ie1_003_14", "name": "Conor Barr", "number": 22, "position": "CB", "country": "GB-NIR", "status": "bench"},
+      {"playerId": "player_ie1_003_15", "name": "Christy Grogan", "number": 25, "position": "CB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_ie1_003_16", "name": "Cameron Dummigan", "number": 23, "position": "RB", "country": "GB-NIR", "status": "bench"},
+      {"playerId": "player_ie1_003_17", "name": "Nick Twisk", "number": 17, "position": "CM", "country": "NL", "status": "bench"},
+      {"playerId": "player_ie1_003_18", "name": "Kevin dos Santos", "number": 21, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_ie1_003_19", "name": "James Olayinka", "number": 28, "position": "CAM", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_ie1_003_20", "name": "James Clarke", "number": 15, "position": "RW", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_003_21", "name": "Caolan O'Donnell", "number": 34, "position": "ST", "country": "IE", "status": "bench"},
+  
+      {"playerId": "player_ie1_003_22", "name": "Shea Callister", "number": 26, "position": "GK", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_ie1_003_23", "name": "Terence Doherty", "number": 32, "position": "ST", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_003_24", "name": "Oisin O'Brien", "number": 33, "position": "CB", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_003_25", "name": "Liam Kelly", "number": 35, "position": "CM", "country": "GB-NIR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 27,
+        "freeKick": 7,
+        "cornerLeft": 14,
+        "cornerRight": 16
+      }
+    }
   }
-}
