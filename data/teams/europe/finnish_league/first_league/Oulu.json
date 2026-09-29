@@ -1,12 +1,58 @@
 {
-  "teamKey": "Oulu",
-
-  "name": "AC Oulu",
-
-  "logo": "assets/logos/europe/finland/Oulu.png",
-
-  "stadium": {
-    "name": "Raatin stadion",
-    "capacity": 4392
+    "teamKey": "Oulu",
+  
+    "name": "AC Oulu",
+  
+    "logo": "assets/logos/europe/finland/Oulu.png",
+  
+    "manager": {
+      "name": "Mikko Isokangas",
+      "country": "FI"
+    },
+  
+    "stadium": {
+      "name": "Raatin stadion",
+      "capacity": 4392
+    },
+  
+    "players": [
+      {"playerId": "player_fi1_009_01", "name": "Miguel Santos", "number": 13, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_fi1_009_02", "name": "Onni Suutari", "number": 2, "position": "RB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_009_03", "name": "Juhani Pikkarainen", "number": 4, "position": "CB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_009_04", "name": "Macar Ajoung", "number": 5, "position": "CB", "country": "CM", "status": "starter"},
+      {"playerId": "player_fi1_009_05", "name": "Jere Kallinen", "number": 3, "position": "LB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_009_06", "name": "Donaldo Açka", "number": 8, "position": "CM", "country": "AL", "status": "starter"},
+      {"playerId": "player_fi1_009_07", "name": "Tuomas Kaukua", "number": 10, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_009_08", "name": "Julius Körkkö", "number": 17, "position": "RW", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_009_09", "name": "Rasmus Karjalainen", "number": 9, "position": "CAM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_009_10", "name": "Ashley Coffey", "number": 11, "position": "LW", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_fi1_009_11", "name": "Abdoulaye Kone", "number": 22, "position": "ST", "country": "CI", "status": "starter"},
+  
+      {"playerId": "player_fi1_009_12", "name": "Niklas Schulz", "number": 99, "position": "GK", "country": "DE", "status": "bench"},
+      {"playerId": "player_fi1_009_13", "name": "Jere Uronen", "number": 6, "position": "LB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_009_14", "name": "Riku Selander", "number": 15, "position": "RB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_009_15", "name": "Mamadou Sarr", "number": 16, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_fi1_009_16", "name": "Oskari Kallinen", "number": 18, "position": "CM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_009_17", "name": "Janne Hietanen", "number": 19, "position": "CM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_009_18", "name": "Justin Rennicks", "number": 20, "position": "RW", "country": "US", "status": "bench"},
+      {"playerId": "player_fi1_009_19", "name": "Joel Omotayo", "number": 21, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_fi1_009_20", "name": "Dennis Salanović", "number": 23, "position": "LW", "country": "LI", "status": "bench"},
+      {"playerId": "player_fi1_009_21", "name": "Otto Kemppainen", "number": 24, "position": "CM", "country": "FI", "status": "bench"},
+  
+      {"playerId": "player_fi1_009_22", "name": "Jesse Huhtala", "number": 25, "position": "GK", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_009_23", "name": "Mikael Koskela", "number": 26, "position": "CB", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_009_24", "name": "Daniel Barrow", "number": 27, "position": "CAM", "country": "SL", "status": "reserve"},
+      {"playerId": "player_fi1_009_25", "name": "Niklas Jokelainen", "number": 28, "position": "ST", "country": "FI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 17,
+        "cornerRight": 11
+      }
+    }
   }
-}
