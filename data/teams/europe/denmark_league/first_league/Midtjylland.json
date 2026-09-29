@@ -1,12 +1,58 @@
 {
-  "teamKey": "FC Myd",
-
-  "name": "FC Midtjylland",
-
-  "logo": "assets/logos/europe/denmark/Midtjylland.png",
-
-  "stadium": {
-    "name": "MCH Arena",
-    "capacity": 12055
+    "teamKey": "FC Myd",
+  
+    "name": "FC Midtjylland",
+  
+    "logo": "assets/logos/europe/denmark/Midtjylland.png",
+  
+    "manager": {
+      "name": "Mike Tullberg",
+      "country": "DK"
+    },
+  
+    "stadium": {
+      "name": "MCH Arena",
+      "capacity": 12055
+    },
+  
+    "players": [
+      {"playerId": "player_dk1_006_01", "name": "Elias Olafsson", "number": 1, "position": "GK", "country": "IS", "status": "starter"},
+      {"playerId": "player_dk1_006_02", "name": "Rasmus Nissen Kristensen", "number": 5, "position": "RB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_006_03", "name": "Martin Erlić", "number": 6, "position": "CB", "country": "HR", "status": "starter"},
+      {"playerId": "player_dk1_006_04", "name": "Magnus Riisgaard Jensen", "number": 3, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_006_05", "name": "Victor Bak", "number": 55, "position": "LB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_006_06", "name": "Philip Billing", "number": 8, "position": "CM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_006_07", "name": "Pedro Bravo", "number": 19, "position": "CDM", "country": "CO", "status": "starter"},
+      {"playerId": "player_dk1_006_08", "name": "Denil Castillo", "number": 21, "position": "CAM", "country": "EC", "status": "starter"},
+      {"playerId": "player_dk1_006_09", "name": "Stanley Iheanacho", "number": 18, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_dk1_006_10", "name": "Friday Etim", "number": 90, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_dk1_006_11", "name": "Cho Gue-sung", "number": 10, "position": "ST", "country": "KR", "status": "starter"},
+  
+      {"playerId": "player_dk1_006_12", "name": "Nordin Bakker", "number": 25, "position": "GK", "country": "NL", "status": "bench"},
+      {"playerId": "player_dk1_006_13", "name": "Ousmane Diao", "number": 4, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_dk1_006_14", "name": "Mads Bech Sørensen", "number": 22, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_006_15", "name": "Béni Junior", "number": 15, "position": "LB", "country": "CI", "status": "bench"},
+      {"playerId": "player_dk1_006_16", "name": "Kjell Wätjen", "number": 29, "position": "CM", "country": "DE", "status": "bench"},
+      {"playerId": "player_dk1_006_17", "name": "Sofus Johannesen", "number": 27, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_006_18", "name": "Hyun-seok Hong", "number": 20, "position": "CAM", "country": "KR", "status": "bench"},
+      {"playerId": "player_dk1_006_19", "name": "Mileta Rajovic", "number": 9, "position": "ST", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_006_20", "name": "Mikael Uhre", "number": 17, "position": "ST", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_006_21", "name": "Julius Emefile", "number": 38, "position": "RW", "country": "DK", "status": "bench"},
+  
+      {"playerId": "player_dk1_006_22", "name": "Ovie Ejeheri", "number": 30, "position": "GK", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_dk1_006_23", "name": "Abdou Aziz Ndiaye", "number": 34, "position": "CB", "country": "SN", "status": "reserve"},
+      {"playerId": "player_dk1_006_24", "name": "Mikel Gogorza", "number": 41, "position": "LW", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk1_006_25", "name": "David Martínez", "number": 98, "position": "RW", "country": "VE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 8,
+        "cornerLeft": 21,
+        "cornerRight": 18
+      }
+    }
   }
-}
