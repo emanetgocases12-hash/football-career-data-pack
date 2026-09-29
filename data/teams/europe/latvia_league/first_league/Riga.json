@@ -1,12 +1,58 @@
 {
-  "teamKey": "Riga",
-
-  "name": "Riga FC",
-
-  "logo": "assets/logos/europe/latvia/Riga.png",
-
-  "stadium": {
-    "name": "Skonto",
-    "capacity": 7000
+    "teamKey": "Riga",
+  
+    "name": "Riga FC",
+  
+    "logo": "assets/logos/europe/latvia/Riga.png",
+  
+    "manager": {
+      "name": "Adrián Guľa",
+      "country": "SK"
+    },
+  
+    "stadium": {
+      "name": "Skonto",
+      "capacity": 7000
+    },
+  
+    "players": [
+      {"playerId": "player_lv1_008_01", "name": "Frenks Orols", "number": 91, "position": "GK", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_008_02", "name": "Raivis Jurkovskis", "number": 13, "position": "RB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_008_03", "name": "Antonijs Černomordijs", "number": 34, "position": "CB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_008_04", "name": "Paulo Eduardo", "number": 33, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_lv1_008_05", "name": "Andrés Salazar", "number": 17, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_lv1_008_06", "name": "Orlando Galo", "number": 4, "position": "CDM", "country": "CR", "status": "starter"},
+      {"playerId": "player_lv1_008_07", "name": "Iago Siqueira", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_lv1_008_08", "name": "Raki Aouani", "number": 7, "position": "RW", "country": "TN", "status": "starter"},
+      {"playerId": "player_lv1_008_09", "name": "Caio Ferreira", "number": 11, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_lv1_008_10", "name": "Salah Oulad", "number": 18, "position": "LW", "country": "NL", "status": "starter"},
+      {"playerId": "player_lv1_008_11", "name": "Reginaldo Ramires", "number": 10, "position": "ST", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_lv1_008_12", "name": "Kenan Pirić", "number": 12, "position": "GK", "country": "BA", "status": "bench"},
+      {"playerId": "player_lv1_008_13", "name": "Karl Wassom", "number": 5, "position": "CB", "country": "CM", "status": "bench"},
+      {"playerId": "player_lv1_008_14", "name": "Baba Musah", "number": 21, "position": "CB", "country": "GH", "status": "bench"},
+      {"playerId": "player_lv1_008_15", "name": "Maksims Toņiševs", "number": 23, "position": "RB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_008_16", "name": "Coli Saco", "number": 6, "position": "CM", "country": "FR", "status": "bench"},
+      {"playerId": "player_lv1_008_17", "name": "Samuel Pedro", "number": 15, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_lv1_008_18", "name": "Meissa Diop", "number": 22, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_lv1_008_19", "name": "Ahmed Ankrah", "number": 40, "position": "CM", "country": "GH", "status": "bench"},
+      {"playerId": "player_lv1_008_20", "name": "Muhammed Badamosi", "number": 19, "position": "ST", "country": "GM", "status": "bench"},
+      {"playerId": "player_lv1_008_21", "name": "Abdulrahman Taiwo", "number": 25, "position": "ST", "country": "NG", "status": "bench"},
+  
+      {"playerId": "player_lv1_008_22", "name": "Mārcis Kazainis", "number": 44, "position": "GK", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_008_23", "name": "Juan Christian", "number": 14, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_lv1_008_24", "name": "Rodrigo Mendes", "number": 27, "position": "ST", "country": "PT", "status": "reserve"},
+      {"playerId": "player_lv1_008_25", "name": "Valters Lūsis", "number": 29, "position": "LB", "country": "LV", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 34,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 11,
+        "cornerLeft": 7,
+        "cornerRight": 18
+      }
+    }
   }
-}
