@@ -1,12 +1,58 @@
 {
-  "teamKey": "Graafs",
-
-  "name": "De Graafschap Doetinchem",
-
-  "logo": "assets/logos/europe/netherlands/Graafschap.png",
-
-  "stadium": {
-    "name": "De Vijverberg",
-    "capacity": 12600
+    "teamKey": "Graafs",
+  
+    "name": "De Graafschap Doetinchem",
+  
+    "logo": "assets/logos/europe/netherlands/Graafschap.png",
+  
+    "manager": {
+      "name": "Thomas Duivenvoorden",
+      "country": "NL"
+    },
+  
+    "stadium": {
+      "name": "De Vijverberg",
+      "capacity": 12600
+    },
+  
+    "players": [
+      {"playerId": "player_nl2_008_01", "name": "Paul Reverson", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_008_02", "name": "Kaya Symons", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_008_03", "name": "Mark Pabai", "number": 4, "position": "CB", "country": "LR", "status": "starter"},
+      {"playerId": "player_nl2_008_04", "name": "Nolan Martens", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_008_05", "name": "Rowan Besselink", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_008_06", "name": "Gabriele Finocchiaro", "number": 6, "position": "CDM", "country": "IT", "status": "starter"},
+      {"playerId": "player_nl2_008_07", "name": "Toivo Mero", "number": 8, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_nl2_008_08", "name": "Mark Diemers", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_008_09", "name": "Fedde De Jong", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_008_10", "name": "Julian Kania", "number": 9, "position": "ST", "country": "DE", "status": "starter"},
+      {"playerId": "player_nl2_008_11", "name": "Bjorn van Zijl", "number": 17, "position": "RW", "country": "NL", "status": "starter"},
+  
+      {"playerId": "player_nl2_008_12", "name": "Ties Wieggers", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_008_13", "name": "Jannes Wieckhoff", "number": 14, "position": "CB", "country": "DE", "status": "bench"},
+      {"playerId": "player_nl2_008_14", "name": "Gijs Bolk", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_008_15", "name": "Thomas Kok", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_008_16", "name": "Levi Schoppema", "number": 23, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_008_17", "name": "Donny Warmerdam", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_008_18", "name": "Clint Leemans", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_008_19", "name": "Milan Smits", "number": 20, "position": "CAM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_008_20", "name": "Tim Braem", "number": 21, "position": "RM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_008_21", "name": "Nathan Kaninda", "number": 22, "position": "LM", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_nl2_008_22", "name": "Rick Jonkers", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_008_23", "name": "Kyano Kwint", "number": 19, "position": "LW", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_008_24", "name": "Sam Bouwman", "number": 31, "position": "GK", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_008_25", "name": "Joran Hardeman", "number": 24, "position": "CB", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
