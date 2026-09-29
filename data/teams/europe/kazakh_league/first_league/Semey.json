@@ -1,12 +1,58 @@
 {
-  "teamKey": "Semey",
-
-  "name": "Yelimay Semey",
-
-  "logo": "assets/logos/europe/kazak/Semey.png",
-
-  "stadium": {
-    "name": "Spartak",
-    "capacity": 8500
+    "teamKey": "Semey",
+  
+    "name": "Yelimay Semey",
+  
+    "logo": "assets/logos/europe/kazak/Semey.png",
+  
+    "manager": {
+      "name": "Andrey Karpovich",
+      "country": "KZ"
+    },
+  
+    "stadium": {
+      "name": "Spartak",
+      "capacity": 8500
+    },
+  
+    "players": [
+      {"playerId": "player_kz1_012_01", "name": "Vladimir Stojkovic", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_kz1_012_02", "name": "A. Adambaev", "number": 2, "position": "RB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_012_03", "name": "Strahinja Tanasijević", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_kz1_012_04", "name": "Ivan Miladinović", "number": 5, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_kz1_012_05", "name": "Edison Ndreca", "number": 3, "position": "LB", "country": "AL", "status": "starter"},
+      {"playerId": "player_kz1_012_06", "name": "Ramazan Orazov", "number": 8, "position": "CM", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_012_07", "name": "Yauheni Biarozkin", "number": 6, "position": "CM", "country": "BY", "status": "starter"},
+      {"playerId": "player_kz1_012_08", "name": "Akmal Bakhtiyarov", "number": 11, "position": "RW", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_012_09", "name": "D. Palacio", "number": 10, "position": "CAM", "country": "CO", "status": "starter"},
+      {"playerId": "player_kz1_012_10", "name": "H. Ilić", "number": 7, "position": "LW", "country": "HR", "status": "starter"},
+      {"playerId": "player_kz1_012_11", "name": "Roman Murtazayev", "number": 9, "position": "ST", "country": "KZ", "status": "starter"},
+  
+      {"playerId": "player_kz1_012_12", "name": "Yegor Tsuprikov", "number": 12, "position": "GK", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_012_13", "name": "M. Belančić", "number": 14, "position": "CB", "country": "HR", "status": "bench"},
+      {"playerId": "player_kz1_012_14", "name": "Higor Gabriel", "number": 15, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_kz1_012_15", "name": "M. Mittendorfer", "number": 22, "position": "RB", "country": "SI", "status": "bench"},
+      {"playerId": "player_kz1_012_16", "name": "Zhan Ali Pairuz", "number": 18, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_012_17", "name": "A. Tyulyubay", "number": 20, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_012_18", "name": "F. Placca", "number": 19, "position": "ST", "country": "TG", "status": "bench"},
+      {"playerId": "player_kz1_012_19", "name": "I. Sviridov", "number": 29, "position": "ST", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_012_20", "name": "China", "number": 27, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_kz1_012_21", "name": "R. Murillo", "number": 17, "position": "RW", "country": "CO", "status": "bench"},
+  
+      {"playerId": "player_kz1_012_22", "name": "I. Konovalov", "number": 31, "position": "GK", "country": "RU", "status": "reserve"},
+      {"playerId": "player_kz1_012_23", "name": "A. Zhaksylykov", "number": 24, "position": "ST", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_012_24", "name": "M. Omatay", "number": 25, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_012_25", "name": "A. Ashirbek", "number": 28, "position": "CM", "country": "KZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
