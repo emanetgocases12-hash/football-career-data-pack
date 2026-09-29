@@ -1,12 +1,58 @@
 {
-  "teamKey": "Breida",
-
-  "name": "Breidablik Kópavogur",
-
-  "logo": "assets/logos/europe/iceland/Breidablik.png",
-
-  "stadium": {
-    "name": "Kópavogsvöllur",
-    "capacity": 5501
+    "teamKey": "Breida",
+  
+    "name": "Breidablik Kópavogur",
+  
+    "logo": "assets/logos/europe/iceland/Breidablik.png",
+  
+    "manager": {
+      "name": "Ólafur Ingi Skúlason",
+      "country": "IS"
+    },
+  
+    "stadium": {
+      "name": "Kópavogsvöllur",
+      "capacity": 5501
+    },
+  
+    "players": [
+      {"playerId": "player_is1_003_01", "name": "Anton Ari Einarsson", "number": 1, "position": "GK", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_003_02", "name": "Valgeir Valgeirsson", "number": 17, "position": "RB", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_003_03", "name": "Ísak Snær Árnason", "number": 5, "position": "CB", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_003_04", "name": "Viktor Örn Margeirsson", "number": 21, "position": "CB", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_003_05", "name": "Kristinn Jónsson", "number": 19, "position": "LB", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_003_06", "name": "Höskuldur Gunnlaugsson", "number": 7, "position": "CM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_003_07", "name": "Viktor Karl Einarsson", "number": 8, "position": "CM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_003_08", "name": "Andri Rafn Yeoman", "number": 30, "position": "CM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_003_09", "name": "Aron Bjarnason", "number": 11, "position": "RW", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_003_10", "name": "Kristinn Steindórsson", "number": 10, "position": "LW", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_003_11", "name": "Þ. Úlfarsson", "number": 99, "position": "ST", "country": "IS", "status": "starter"},
+  
+      {"playerId": "player_is1_003_12", "name": "G. Snæhólm", "number": 12, "position": "GK", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_003_13", "name": "Á. Orrason", "number": 4, "position": "CB", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_003_14", "name": "H. Karlsson", "number": 14, "position": "CB", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_003_15", "name": "D. Fjeldsted", "number": 16, "position": "RB", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_003_16", "name": "David Ingvarsson", "number": 18, "position": "LB", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_003_17", "name": "A. Jónsson", "number": 6, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_003_18", "name": "A. Lúðvíksson", "number": 13, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_003_19", "name": "Á. Þorsteinsson", "number": 15, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_003_20", "name": "Ó. Ómarsson", "number": 9, "position": "RW", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_003_21", "name": "Kristofer Kristinsson", "number": 23, "position": "ST", "country": "IS", "status": "bench"},
+  
+      {"playerId": "player_is1_003_22", "name": "J. Símonarson", "number": 31, "position": "GK", "country": "IS", "status": "reserve"},
+      {"playerId": "player_is1_003_23", "name": "J. Arnarsson", "number": 22, "position": "ST", "country": "IS", "status": "reserve"},
+      {"playerId": "player_is1_003_24", "name": "B. Jónsson", "number": 24, "position": "CM", "country": "IS", "status": "reserve"},
+      {"playerId": "player_is1_003_25", "name": "G. Hallsson", "number": 29, "position": "RW", "country": "IS", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 99,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
