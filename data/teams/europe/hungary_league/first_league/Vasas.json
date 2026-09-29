@@ -1,12 +1,58 @@
 {
-  "teamKey": "Vasas",
-
-  "name": "Vasas FC",
-
-  "logo": "assets/logos/europe/hungary/Vasas.png",
-
-  "stadium": {
-    "name": "Új Illovszky Rudolf Stadion",
-    "capacity": 5054
+    "teamKey": "Vasas",
+  
+    "name": "Vasas FC",
+  
+    "logo": "assets/logos/europe/hungary/Vasas.png",
+  
+    "manager": {
+      "name": "Gábor Erős",
+      "country": "HU"
+    },
+  
+    "stadium": {
+      "name": "Új Illovszky Rudolf Stadion",
+      "capacity": 5054
+    },
+  
+    "players": [
+      {"playerId": "player_hu1_011_01", "name": "János Uram", "number": 26, "position": "GK", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_011_02", "name": "Viktor Hei", "number": 23, "position": "RB", "country": "UA", "status": "starter"},
+      {"playerId": "player_hu1_011_03", "name": "Kenneth Otigba", "number": 34, "position": "CB", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_011_04", "name": "Bence Pávkovics", "number": 4, "position": "CB", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_011_05", "name": "Dániel Csóka", "number": 17, "position": "LB", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_011_06", "name": "Bence Banó-Szabó", "number": 8, "position": "CM", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_011_07", "name": "Benjámin Cseke", "number": 94, "position": "CM", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_011_08", "name": "Márk Kovácsréti", "number": 10, "position": "RW", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_011_09", "name": "József Urblík", "number": 88, "position": "CAM", "country": "SK", "status": "starter"},
+      {"playerId": "player_hu1_011_10", "name": "András Radó", "number": 7, "position": "LW", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_011_11", "name": "Márk Koszta", "number": 9, "position": "ST", "country": "HU", "status": "starter"},
+  
+      {"playerId": "player_hu1_011_12", "name": "Zalán Molnár", "number": 31, "position": "GK", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_011_13", "name": "Botond Baráth", "number": 36, "position": "CB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_011_14", "name": "Patrik Iyinbor", "number": 57, "position": "CB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_011_15", "name": "Dániel Sztojka", "number": 6, "position": "RB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_011_16", "name": "Ádám Doktorics", "number": 14, "position": "LB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_011_17", "name": "Sándor Hidi", "number": 15, "position": "CM", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_011_18", "name": "Sándor Mezei", "number": 24, "position": "CM", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_011_19", "name": "Gábor Pálinkás", "number": 18, "position": "ST", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_011_20", "name": "Bence Pethő", "number": 29, "position": "ST", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_011_21", "name": "Máté Tóth", "number": 77, "position": "RW", "country": "HU", "status": "bench"},
+  
+      {"playerId": "player_hu1_011_22", "name": "Márton Engedi", "number": 87, "position": "GK", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_011_23", "name": "Bence Rab", "number": 16, "position": "CM", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_011_24", "name": "Csaba Molnár", "number": 89, "position": "CAM", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_011_25", "name": "Roland Horváth", "number": 84, "position": "ST", "country": "HU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 34,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 88
+      }
+    }
   }
-}
