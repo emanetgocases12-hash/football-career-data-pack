@@ -1,12 +1,58 @@
 {
-  "teamKey": "Horsns",
-
-  "name": "AC Horsens",
-
-  "logo": "assets/logos/europe/denmark/Horsens.png",
-
-  "stadium": {
-    "name": "Hybel Arena Horsens",
-    "capacity": 10495
+    "teamKey": "Horsns",
+  
+    "name": "AC Horsens",
+  
+    "logo": "assets/logos/europe/denmark/Horsens.png",
+  
+    "manager": {
+      "name": "Niki Zimling",
+      "country": "DK"
+    },
+  
+    "stadium": {
+      "name": "Hybel Arena Horsens",
+      "capacity": 10495
+    },
+  
+    "players": [
+      {"playerId": "player_dk1_003_01", "name": "Matej Delac", "number": 1, "position": "GK", "country": "HR", "status": "starter"},
+      {"playerId": "player_dk1_003_02", "name": "Mikkel Kupijbida", "number": 35, "position": "RB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_003_03", "name": "Alagie Saine", "number": 28, "position": "CB", "country": "GM", "status": "starter"},
+      {"playerId": "player_dk1_003_04", "name": "Victor Pálsson", "number": 26, "position": "CB", "country": "IS", "status": "starter"},
+      {"playerId": "player_dk1_003_05", "name": "Ole Martin Kolskogen", "number": 24, "position": "LB", "country": "NO", "status": "starter"},
+      {"playerId": "player_dk1_003_06", "name": "Julius Madsen", "number": 14, "position": "CM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_003_07", "name": "Karlo Lusavec", "number": 20, "position": "CDM", "country": "HR", "status": "starter"},
+      {"playerId": "player_dk1_003_08", "name": "Jimi Tauriainen", "number": 19, "position": "CAM", "country": "FI", "status": "starter"},
+      {"playerId": "player_dk1_003_09", "name": "Adrian Justinussen", "number": 15, "position": "RW", "country": "FO", "status": "starter"},
+      {"playerId": "player_dk1_003_10", "name": "Kelvin Ehibhatiomhan", "number": 11, "position": "LW", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_dk1_003_11", "name": "John Batigi", "number": 22, "position": "ST", "country": "GH", "status": "starter"},
+  
+      {"playerId": "player_dk1_003_12", "name": "Dennis Smarsch", "number": 23, "position": "GK", "country": "DE", "status": "bench"},
+      {"playerId": "player_dk1_003_13", "name": "Sebastian Hausner", "number": 4, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_003_14", "name": "Ivan Milicevic", "number": 7, "position": "RB", "country": "BA", "status": "bench"},
+      {"playerId": "player_dk1_003_15", "name": "Seniko Doua", "number": 30, "position": "RB", "country": "CI", "status": "bench"},
+      {"playerId": "player_dk1_003_16", "name": "Adam Herdonsson", "number": 17, "position": "CM", "country": "SE", "status": "bench"},
+      {"playerId": "player_dk1_003_17", "name": "Abdul Moro", "number": 16, "position": "CDM", "country": "GH", "status": "bench"},
+      {"playerId": "player_dk1_003_18", "name": "Jakob Bonde", "number": 6, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_003_19", "name": "Frederik Brandhof", "number": 29, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_003_20", "name": "Julius Körkkö", "number": 18, "position": "ST", "country": "FI", "status": "bench"},
+      {"playerId": "player_dk1_003_21", "name": "Fallou Sene", "number": 25, "position": "ST", "country": "SN", "status": "bench"},
+  
+      {"playerId": "player_dk1_003_22", "name": "Anders Hoff", "number": 31, "position": "GK", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk1_003_23", "name": "Christian Vestergaard", "number": 3, "position": "CB", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk1_003_24", "name": "Valassina Diomande", "number": 12, "position": "LB", "country": "CI", "status": "reserve"},
+      {"playerId": "player_dk1_003_25", "name": "Abdoulaye Gouba", "number": 37, "position": "CM", "country": "CI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 26,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 15,
+        "cornerLeft": 19,
+        "cornerRight": 15
+      }
+    }
   }
-}
