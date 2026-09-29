@@ -1,12 +1,58 @@
 {
-  "teamKey": "Vitebs",
+    "teamKey": "Vitebs",
 
-  "name": "FK Vitebsk",
+    "name": "FK Vitebsk",
 
-  "logo": "assets/logos/europe/belarus/BVitebsk.png",
+    "logo": "assets/logos/europe/belarus/BVitebsk.png",
 
-  "stadium": {
-    "name": "CSK Vitebskiy",
-    "capacity": 8350
+    "manager": {
+      "name": "Sergey Gurenko",
+      "country": "BY"
+    },
+
+    "stadium": {
+      "name": "CSK Vitebskiy",
+      "capacity": 8350
+    },
+
+    "players": [
+      { "playerId": "player_by1_001_01", "name": "Igor Novichkov", "number": 1, "position": "GK", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_001_02", "name": "Konstantin Rodionov", "number": 6, "position": "RB", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_001_03", "name": "Viktor Karzhitskiy", "number": 4, "position": "CB", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_001_04", "name": "Evgeniy Novykh", "number": 17, "position": "CB", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_001_05", "name": "Semyon Egorov", "number": 22, "position": "LB", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_001_06", "name": "Sergey Tikhonovskiy", "number": 26, "position": "CDM", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_001_07", "name": "Mikhail Bashilov", "number": 30, "position": "CM", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_001_08", "name": "Roman Lisovskiy", "number": 7, "position": "RW", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_001_09", "name": "Aleksandr Anufriev", "number": 8, "position": "CAM", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_001_10", "name": "Artem Gurenko", "number": 11, "position": "LW", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_001_11", "name": "Roman Minaev", "number": 77, "position": "ST", "country": "BY", "status": "starter" },
+
+      { "playerId": "player_by1_001_12", "name": "Nikolay Goylo", "number": 50, "position": "GK", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_001_13", "name": "Maksim Kuntsevich", "number": 15, "position": "CB", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_001_14", "name": "Ivan Kravchenko", "number": 24, "position": "CB", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_001_15", "name": "Pavel Nazarenko", "number": 91, "position": "LB", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_001_16", "name": "Evgeniy Protasov", "number": 10, "position": "CM", "country": "UA", "status": "bench" },
+      { "playerId": "player_by1_001_17", "name": "Evgeniy Krasnov", "number": 20, "position": "CM", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_001_18", "name": "Marin Žgomba", "number": 86, "position": "CAM", "country": "HR", "status": "bench" },
+      { "playerId": "player_by1_001_19", "name": "Ruslan Teverov", "number": 9, "position": "ST", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_001_20", "name": "Zakhar Chervyakov", "number": 14, "position": "RW", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_001_21", "name": "Vladlen Anikeev", "number": 18, "position": "ST", "country": "BY", "status": "bench" },
+
+      { "playerId": "player_by1_001_22", "name": "Aleksandr Burnos", "number": 21, "position": "LW", "country": "BY", "status": "reserve" },
+      { "playerId": "player_by1_001_23", "name": "Vadim Pulkach", "number": 23, "position": "ST", "country": "BY", "status": "reserve" },
+      { "playerId": "player_by1_001_24", "name": "Grigoriy Minkevich", "number": 67, "position": "ST", "country": "BY", "status": "reserve" },
+      { "playerId": "player_by1_001_25", "name": "Matvey Kuntsevich", "number": 25, "position": "CB", "country": "BY", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 77,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
