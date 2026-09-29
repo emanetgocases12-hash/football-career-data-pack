@@ -1,12 +1,58 @@
 {
-  "teamKey": "Shmrck",
-
-  "name": "Shamrock Rovers",
-
-  "logo": "assets/logos/europe/irish/Shamrock.png",
-
-  "stadium": {
-    "name": "Tallaght Stadium",
-    "capacity": 10500
+    "teamKey": "Shmrck",
+  
+    "name": "Shamrock Rovers",
+  
+    "logo": "assets/logos/europe/irish/Shamrock.png",
+  
+    "manager": {
+      "name": "Stephen Bradley",
+      "country": "IE"
+    },
+  
+    "stadium": {
+      "name": "Tallaght Stadium",
+      "capacity": 10500
+    },
+  
+    "players": [
+      {"playerId": "player_ie1_007_01", "name": "Edward McGinty", "number": 1, "position": "GK", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_007_02", "name": "Olunatunmise Sobowale", "number": 22, "position": "RB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_007_03", "name": "Roberto Lopes", "number": 4, "position": "CB", "country": "CV", "status": "starter"},
+      {"playerId": "player_ie1_007_04", "name": "Lee Grace", "number": 5, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_007_05", "name": "Enda Stevens", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_007_06", "name": "Dylan Watts", "number": 7, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_007_07", "name": "Jack Byrne", "number": 29, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_007_08", "name": "Will Fitzgerald", "number": 24, "position": "RW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_007_09", "name": "Danny Mandroiu", "number": 14, "position": "CAM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_007_10", "name": "Jake Mulraney", "number": 11, "position": "LW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_007_11", "name": "Graham Burke", "number": 10, "position": "ST", "country": "IE", "status": "starter"},
+  
+      {"playerId": "player_ie1_007_12", "name": "Lee Steacy", "number": 25, "position": "GK", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_007_13", "name": "Matthew Healy", "number": 8, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_007_14", "name": "Cian Barrett", "number": 33, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_007_15", "name": "Cory O'Sullivan", "number": 27, "position": "LB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_007_16", "name": "Adam Brennan", "number": 19, "position": "RB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_007_17", "name": "Luke O'Regan", "number": 17, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_007_18", "name": "John O'Sullivan", "number": 26, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_007_19", "name": "Najemedine Razi", "number": 28, "position": "CAM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_007_20", "name": "Aaron Greene", "number": 9, "position": "ST", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_007_21", "name": "Jonathan Afolabi", "number": 18, "position": "ST", "country": "IE", "status": "bench"},
+  
+      {"playerId": "player_ie1_007_22", "name": "Alex Noonan", "number": 41, "position": "GK", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_007_23", "name": "Maleace Asamoah", "number": 15, "position": "RW", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_ie1_007_24", "name": "Michael Noonan", "number": 31, "position": "ST", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_007_25", "name": "Ben Mahon", "number": 34, "position": "ST", "country": "IE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 29,
+        "cornerLeft": 11,
+        "cornerRight": 14
+      }
+    }
   }
-}
