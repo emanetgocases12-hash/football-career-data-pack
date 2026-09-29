@@ -1,12 +1,58 @@
 {
-  "teamKey": "PAOK",
-
-  "name": "PAOK Thessaloniki",
-
-  "logo": "assets/logos/europe/greek/Paok.png",
-
-  "stadium": {
-    "name": "Toumba Stadium",
-    "capacity": 28703
+    "teamKey": "PAOK",
+  
+    "name": "PAOK Thessaloniki",
+  
+    "logo": "assets/logos/europe/greek/Paok.png",
+  
+    "manager": {
+      "name": "Răzvan Lucescu",
+      "country": "RO"
+    },
+  
+    "stadium": {
+      "name": "Toumba Stadium",
+      "capacity": 28703
+    },
+  
+    "players": [
+      {"playerId": "player_gr1_011_01", "name": "Dominik Kotarski", "number": 42, "position": "GK", "country": "HR", "status": "starter"},
+      {"playerId": "player_gr1_011_02", "name": "Jonny Otto", "number": 19, "position": "RB", "country": "ES", "status": "starter"},
+      {"playerId": "player_gr1_011_03", "name": "Tomasz Kedziora", "number": 16, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_gr1_011_04", "name": "Giannis Michailidis", "number": 5, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_011_05", "name": "Abdul Rahman Baba", "number": 21, "position": "LB", "country": "GH", "status": "starter"},
+      {"playerId": "player_gr1_011_06", "name": "Magomed Ozdoev", "number": 27, "position": "CM", "country": "RU", "status": "starter"},
+      {"playerId": "player_gr1_011_07", "name": "Mady Camara", "number": 2, "position": "CM", "country": "GN", "status": "starter"},
+      {"playerId": "player_gr1_011_08", "name": "Andrija Zivkovic", "number": 14, "position": "RW", "country": "RS", "status": "starter"},
+      {"playerId": "player_gr1_011_09", "name": "Giannis Konstantelias", "number": 7, "position": "CAM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_011_10", "name": "Taison", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_gr1_011_11", "name": "Fedor Chalov", "number": 9, "position": "ST", "country": "RU", "status": "starter"},
+  
+      {"playerId": "player_gr1_011_12", "name": "Jiri Pavlenka", "number": 1, "position": "GK", "country": "CZ", "status": "bench"},
+      {"playerId": "player_gr1_011_13", "name": "Dejan Lovren", "number": 6, "position": "CB", "country": "HR", "status": "bench"},
+      {"playerId": "player_gr1_011_14", "name": "Joan Sastre", "number": 23, "position": "RB", "country": "ES", "status": "bench"},
+      {"playerId": "player_gr1_011_15", "name": "Konstantinos Thymianis", "number": 25, "position": "CB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_011_16", "name": "Soualiho Meité", "number": 8, "position": "CDM", "country": "FR", "status": "bench"},
+      {"playerId": "player_gr1_011_17", "name": "Thomas Murg", "number": 10, "position": "CAM", "country": "AT", "status": "bench"},
+      {"playerId": "player_gr1_011_18", "name": "Kirill Despodov", "number": 77, "position": "RW", "country": "BG", "status": "bench"},
+      {"playerId": "player_gr1_011_19", "name": "Dimitris Pelkas", "number": 18, "position": "CAM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_011_20", "name": "Mbwana Samatta", "number": 33, "position": "ST", "country": "TZ", "status": "bench"},
+      {"playerId": "player_gr1_011_21", "name": "Brandon Thomas", "number": 71, "position": "ST", "country": "ES", "status": "bench"},
+  
+      {"playerId": "player_gr1_011_22", "name": "Antonis Tsiftsis", "number": 99, "position": "GK", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr1_011_23", "name": "Vieirinha", "number": 20, "position": "LB", "country": "PT", "status": "reserve"},
+      {"playerId": "player_gr1_011_24", "name": "Stefan Schwab", "number": 22, "position": "CM", "country": "AT", "status": "reserve"},
+      {"playerId": "player_gr1_011_25", "name": "Shola Shoretire", "number": 47, "position": "LW", "country": "GB-ENG", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 11,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 14,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
