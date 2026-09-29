@@ -1,12 +1,58 @@
 {
-  "teamKey": "RFS",
-
-  "name": "FC RFS",
-
-  "logo": "assets/logos/europe/latvia/Rfs.png",
-
-  "stadium": {
-    "name": "LNK Sporta parks",
-    "capacity": 1700
+    "teamKey": "RFS",
+  
+    "name": "FC RFS",
+  
+    "logo": "assets/logos/europe/latvia/Rfs.png",
+  
+    "manager": {
+      "name": "Viktors Morozs",
+      "country": "LV"
+    },
+  
+    "stadium": {
+      "name": "LNK Sporta parks",
+      "capacity": 1700
+    },
+  
+    "players": [
+      {"playerId": "player_lv1_007_01", "name": "Rihards Matrevics", "number": 1, "position": "GK", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_007_02", "name": "Roberts Savaļnieks", "number": 11, "position": "RB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_007_03", "name": "Aleksandar Filipović", "number": 6, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_lv1_007_04", "name": "Herdi Prenga", "number": 23, "position": "CB", "country": "AL", "status": "starter"},
+      {"playerId": "player_lv1_007_05", "name": "Žiga Lipušček", "number": 43, "position": "LB", "country": "SI", "status": "starter"},
+      {"playerId": "player_lv1_007_06", "name": "Stefan Panić", "number": 26, "position": "CM", "country": "RS", "status": "starter"},
+      {"playerId": "player_lv1_007_07", "name": "Dmitrijs Zelenkovs", "number": 18, "position": "CM", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_007_08", "name": "Gauthier Mankenda", "number": 77, "position": "RW", "country": "CD", "status": "starter"},
+      {"playerId": "player_lv1_007_09", "name": "Jānis Ikaunieks", "number": 10, "position": "CAM", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_007_10", "name": "Lasha Odisharia", "number": 8, "position": "LW", "country": "GE", "status": "starter"},
+      {"playerId": "player_lv1_007_11", "name": "Darko Lemajič", "number": 22, "position": "ST", "country": "RS", "status": "starter"},
+  
+      {"playerId": "player_lv1_007_12", "name": "Jevgenijs Nerugals", "number": 16, "position": "GK", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_007_13", "name": "Roberts Veips", "number": 4, "position": "CB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_007_14", "name": "Niks Sliede", "number": 5, "position": "CB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_007_15", "name": "Niks Dusalijevs", "number": 21, "position": "CM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_007_16", "name": "Mārtiņš Ķigurs", "number": 49, "position": "CM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_007_17", "name": "Modou Saidy", "number": 66, "position": "CM", "country": "GM", "status": "bench"},
+      {"playerId": "player_lv1_007_18", "name": "Strahinja Rakić", "number": 81, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_lv1_007_19", "name": "Mamadou Sylla", "number": 14, "position": "ST", "country": "CI", "status": "bench"},
+      {"playerId": "player_lv1_007_20", "name": "Rostand Ndjiki", "number": 15, "position": "ST", "country": "CM", "status": "bench"},
+      {"playerId": "player_lv1_007_21", "name": "Duje Korač", "number": 9, "position": "ST", "country": "HR", "status": "bench"},
+  
+      {"playerId": "player_lv1_007_22", "name": "Mareks Muižzemnieks", "number": 40, "position": "GK", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_007_23", "name": "Alfa Baldé", "number": 19, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_lv1_007_24", "name": "Matheus Clemente", "number": 27, "position": "CM", "country": "PT", "status": "reserve"},
+      {"playerId": "player_lv1_007_25", "name": "H. Njie", "number": 30, "position": "RW", "country": "GM", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 22,
+        "freeKick": 10,
+        "cornerLeft": 77,
+        "cornerRight": 8
+      }
+    }
   }
-}
