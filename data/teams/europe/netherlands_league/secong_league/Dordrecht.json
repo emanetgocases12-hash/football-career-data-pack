@@ -1,12 +1,58 @@
 {
-  "teamKey": "Dordre",
-
-  "name": "FC Dordrecht",
-
-  "logo": "assets/logos/europe/netherlands/Dordrecht.png",
-
-  "stadium": {
-    "name": "M-Scores Stadion",
-    "capacity": 4235
+    "teamKey": "Dordre",
+  
+    "name": "FC Dordrecht",
+  
+    "logo": "assets/logos/europe/netherlands/Dordrecht.png",
+  
+    "manager": {
+      "name": "Paul Nuijten",
+      "country": "NL"
+    },
+  
+    "stadium": {
+      "name": "M-Scores Stadion",
+      "capacity": 4235
+    },
+  
+    "players": [
+      {"playerId": "player_nl2_005_01", "name": "Calvin Raatsie", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_005_02", "name": "Yannis M'Bemba", "number": 2, "position": "RB", "country": "FR", "status": "starter"},
+      {"playerId": "player_nl2_005_03", "name": "Björn Hardley", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_005_04", "name": "Beni Mpanzu", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_005_05", "name": "Lucas Gardenier", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_005_06", "name": "Ayoub Ouarghi", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_005_07", "name": "Martin Vetkal", "number": 8, "position": "CM", "country": "EE", "status": "starter"},
+      {"playerId": "player_nl2_005_08", "name": "Lorenzo Riccio", "number": 7, "position": "RW", "country": "IT", "status": "starter"},
+      {"playerId": "player_nl2_005_09", "name": "Seung-gyun Bae", "number": 10, "position": "CAM", "country": "KR", "status": "starter"},
+      {"playerId": "player_nl2_005_10", "name": "Lucas Román", "number": 9, "position": "ST", "country": "AR", "status": "starter"},
+      {"playerId": "player_nl2_005_11", "name": "Dario Sits", "number": 17, "position": "RW", "country": "LV", "status": "starter"},
+  
+      {"playerId": "player_nl2_005_12", "name": "Tim Coremans", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_005_13", "name": "Adil Lechkar", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_005_14", "name": "Stan Henderikx", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_005_15", "name": "Lucas Woudenberg", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_005_16", "name": "Jurre van Aken", "number": 23, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_005_17", "name": "Nicolás Rossi", "number": 11, "position": "LW", "country": "UY", "status": "bench"},
+      {"playerId": "player_nl2_005_18", "name": "Robin van Asten", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_005_19", "name": "Sidali Bouraba", "number": 20, "position": "CAM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_005_20", "name": "Senne Vugts", "number": 21, "position": "RM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_005_21", "name": "Joey de Bie", "number": 19, "position": "LW", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_nl2_005_22", "name": "Thomas Artic", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_005_23", "name": "Noah Bischof", "number": 29, "position": "ST", "country": "AT", "status": "reserve"},
+      {"playerId": "player_nl2_005_24", "name": "Nick Venema", "number": 99, "position": "ST", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_005_25", "name": "Dean Hogervorst", "number": 31, "position": "GK", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
