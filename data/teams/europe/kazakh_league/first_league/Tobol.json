@@ -1,12 +1,58 @@
 {
-  "teamKey": "Tobol",
-
-  "name": "Tobol Kostanay",
-
-  "logo": "assets/logos/europe/kazak/Tobol.png",
-
-  "stadium": {
-    "name": "Zentralstadion Kostanay",
-    "capacity": 9700
+    "teamKey": "Tobol",
+  
+    "name": "Tobol Kostanay",
+  
+    "logo": "assets/logos/europe/kazak/Tobol.png",
+  
+    "manager": {
+      "name": "Nurbol Zhumaskaliyev",
+      "country": "KZ"
+    },
+  
+    "stadium": {
+      "name": "Zentralstadion Kostanay",
+      "capacity": 9700
+    },
+  
+    "players": [
+      {"playerId": "player_kz1_013_01", "name": "Danil Ustimenko", "number": 44, "position": "GK", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_013_02", "name": "Marko Vukčević", "number": 2, "position": "RB", "country": "ME", "status": "starter"},
+      {"playerId": "player_kz1_013_03", "name": "Roman Asrankulov", "number": 3, "position": "CB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_013_04", "name": "Nemanja Cavnić", "number": 4, "position": "CB", "country": "ME", "status": "starter"},
+      {"playerId": "player_kz1_013_05", "name": "Antonio Boršić", "number": 25, "position": "LB", "country": "HR", "status": "starter"},
+      {"playerId": "player_kz1_013_06", "name": "Askhat Tagybergen", "number": 22, "position": "CM", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_013_07", "name": "Maksim Myakish", "number": 8, "position": "CM", "country": "BY", "status": "starter"},
+      {"playerId": "player_kz1_013_08", "name": "Islam Chesnokov", "number": 11, "position": "RW", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_013_09", "name": "A. Talal", "number": 10, "position": "CAM", "country": "MA", "status": "starter"},
+      {"playerId": "player_kz1_013_10", "name": "L. Guerra", "number": 7, "position": "LW", "country": "VE", "status": "starter"},
+      {"playerId": "player_kz1_013_11", "name": "Rubin Hebaj", "number": 9, "position": "ST", "country": "AL", "status": "starter"},
+  
+      {"playerId": "player_kz1_013_12", "name": "Sultan Bussurmanov", "number": 1, "position": "GK", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_013_13", "name": "Alexandr Marochkin", "number": 5, "position": "CB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_013_14", "name": "Pape Alioune Ndiaye", "number": 15, "position": "CB", "country": "FR", "status": "bench"},
+      {"playerId": "player_kz1_013_15", "name": "R. Senhadji", "number": 14, "position": "CB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_kz1_013_16", "name": "A. Zuev", "number": 18, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_013_17", "name": "D. Zhumat", "number": 20, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_013_18", "name": "D. Usenov", "number": 17, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_013_19", "name": "Vitali Lisakovich", "number": 19, "position": "ST", "country": "BY", "status": "bench"},
+      {"playerId": "player_kz1_013_20", "name": "U. Milovanović", "number": 29, "position": "ST", "country": "RS", "status": "bench"},
+      {"playerId": "player_kz1_013_21", "name": "Z. Zhumashev", "number": 27, "position": "RW", "country": "KZ", "status": "bench"},
+  
+      {"playerId": "player_kz1_013_22", "name": "Yuriy Melikhov", "number": 35, "position": "GK", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_013_23", "name": "M. Kalmyrza", "number": 24, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_013_24", "name": "B. Galym", "number": 26, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_013_25", "name": "N. Zhagorov", "number": 28, "position": "RW", "country": "KZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 22,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 22,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
