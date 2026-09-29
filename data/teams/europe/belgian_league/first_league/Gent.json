@@ -1,12 +1,58 @@
 {
-  "teamKey": "Gent",
+    "teamKey": "Gent",
 
-  "name": "KAA Gent",
+    "name": "KAA Gent",
 
-  "logo": "assets/logos/europe/belgian/Gent.png",
+    "logo": "assets/logos/europe/belgian/Gent.png",
 
-  "stadium": {
-    "name": "Planet Group arena",
-    "capacity": 20185
+    "manager": {
+      "name": "Rik De Mil",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "Planet Group arena",
+      "capacity": 20185
+    },
+
+    "players": [
+      { "playerId": "player_be1_007_01", "name": "Davy Roef", "number": 33, "position": "GK", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_007_02", "name": "Matisse Samoise", "number": 18, "position": "RB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_007_03", "name": "Christian Burgess", "number": 16, "position": "CB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_be1_007_04", "name": "Maksim Paskotši", "number": 3, "position": "CB", "country": "EE", "status": "starter" },
+      { "playerId": "player_be1_007_05", "name": "Tiago Araújo", "number": 20, "position": "LB", "country": "PT", "status": "starter" },
+      { "playerId": "player_be1_007_06", "name": "Leo Da Silva Lopes", "number": 22, "position": "CDM", "country": "PT", "status": "starter" },
+      { "playerId": "player_be1_007_07", "name": "László Bénes", "number": 8, "position": "CM", "country": "SK", "status": "starter" },
+      { "playerId": "player_be1_007_08", "name": "Momodou Sonko", "number": 11, "position": "RW", "country": "SE", "status": "starter" },
+      { "playerId": "player_be1_007_09", "name": "Aimé Omgba", "number": 10, "position": "CAM", "country": "NL", "status": "starter" },
+      { "playerId": "player_be1_007_10", "name": "Michel-Ange Balikwisha", "number": 7, "position": "LW", "country": "CD", "status": "starter" },
+      { "playerId": "player_be1_007_11", "name": "Max Dean", "number": 21, "position": "ST", "country": "GB-ENG", "status": "starter" },
+
+      { "playerId": "player_be1_007_12", "name": "Kjell Peersman", "number": 30, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_007_14", "name": "El Bachir Ngom", "number": 5, "position": "CB", "country": "SN", "status": "bench" },
+      { "playerId": "player_be1_007_15", "name": "Lars Cooman", "number": 29, "position": "RB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_007_16", "name": "Gilles De Meyer", "number": 35, "position": "LB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_007_17", "name": "Mathias Delorge", "number": 17, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_007_18", "name": "Tibe De Vlieger", "number": 27, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_007_19", "name": "Abdelkahar Kadri", "number": 37, "position": "CAM", "country": "DZ", "status": "bench" },
+      { "playerId": "player_be1_007_20", "name": "Kyrell Wilson", "number": 14, "position": "RW", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_be1_007_21", "name": "Abubakar Abdullahi", "number": 19, "position": "ST", "country": "NG", "status": "bench" },
+      { "playerId": "player_be1_007_22", "name": "El Hadji Seck", "number": 40, "position": "CM", "country": "SN", "status": "bench" },
+
+      { "playerId": "player_be1_007_13", "name": "Bas Evers", "number": 31, "position": "GK", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_007_23", "name": "Ibrahima Cissé", "number": 41, "position": "CM", "country": "GN", "status": "reserve" },
+      { "playerId": "player_be1_007_24", "name": "Josué Vergara", "number": 9, "position": "ST", "country": "CO", "status": "reserve" },
+      { "playerId": "player_be1_007_25", "name": "Mouhamed Ngom", "number": 4, "position": "CB", "country": "SN", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 33,
+      "setPieces": {
+        "penalty": 21,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
   }
-}
