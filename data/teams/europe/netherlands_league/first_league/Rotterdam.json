@@ -1,12 +1,58 @@
 {
-  "teamKey": "S'Roter",
-
-  "name": "Sparta Rotterdam",
-
-  "logo": "assets/logos/europe/netherlands/SpartaRotterdam.png",
-
-  "stadium": {
-    "name": "Sparta-stadion - Het Kasteel",
-    "capacity": 10599
+    "teamKey": "S'Roter",
+  
+    "name": "Sparta Rotterdam",
+  
+    "logo": "assets/logos/europe/netherlands/SpartaRotterdam.png",
+  
+    "manager": {
+      "name": "Rogier Meijer",
+      "country": "NL"
+    },
+  
+    "stadium": {
+      "name": "Sparta-stadion - Het Kasteel",
+      "capacity": 10599
+    },
+  
+    "players": [
+      {"playerId": "player_nl1_013_01", "name": "Filip Bednarek", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_nl1_013_02", "name": "Marvin Young", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_013_03", "name": "Lushendry Edward Martes", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_013_04", "name": "Nick Verschuren", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_013_05", "name": "Bruno Martins Indi", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_013_06", "name": "Isaac Babadi", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_013_07", "name": "Shunsuke Mito", "number": 8, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_nl1_013_08", "name": "Teo Quintero", "number": 7, "position": "RW", "country": "VE", "status": "starter"},
+      {"playerId": "player_nl1_013_09", "name": "Cedric Hatenboer", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_013_10", "name": "Andrej Kostić", "number": 9, "position": "ST", "country": "ME", "status": "starter"},
+      {"playerId": "player_nl1_013_11", "name": "Casper Terho", "number": 17, "position": "RW", "country": "FI", "status": "starter"},
+  
+      {"playerId": "player_nl1_013_12", "name": "Michael Brouwer", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_013_13", "name": "Bas Kuipers", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_013_14", "name": "Boyd Reith", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_013_15", "name": "Max De Ligt", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_013_16", "name": "Giannino Vianello", "number": 23, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_013_17", "name": "Joel Ideho", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_013_18", "name": "Mitchell van Bergen", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_013_19", "name": "Jens Toornstra", "number": 20, "position": "CAM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_013_20", "name": "Alwande Roaldsoy", "number": 21, "position": "RM", "country": "NO", "status": "bench"},
+      {"playerId": "player_nl1_013_21", "name": "Julian Baas", "number": 22, "position": "LM", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_nl1_013_22", "name": "Pascal Kuiper", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl1_013_23", "name": "Milan Zonneveld", "number": 19, "position": "LW", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl1_013_24", "name": "Robin van Cruijsen", "number": 26, "position": "CDM", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl1_013_25", "name": "Duncan Lindhout", "number": 27, "position": "CM", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
