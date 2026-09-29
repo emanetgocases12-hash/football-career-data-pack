@@ -1,12 +1,58 @@
 {
-  "teamKey": "SJK",
-
-  "name": "SJK Seinäjoki",
-
-  "logo": "assets/logos/europe/finland/SJK.png",
-
-  "stadium": {
-    "name": "OmaSp Stadion",
-    "capacity": 5900
+    "teamKey": "SJK",
+  
+    "name": "SJK Seinäjoki",
+  
+    "logo": "assets/logos/europe/finland/SJK.png",
+  
+    "manager": {
+      "name": "Jarkko Wiss",
+      "country": "FI"
+    },
+  
+    "stadium": {
+      "name": "OmaSp Stadion",
+      "capacity": 5900
+    },
+  
+    "players": [
+      {"playerId": "player_fi1_010_01", "name": "Roope Paunio", "number": 1, "position": "GK", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_010_02", "name": "Babatunde Fatai", "number": 2, "position": "RB", "country": "NG", "status": "starter"},
+      {"playerId": "player_fi1_010_03", "name": "Valentín Gasc", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_fi1_010_04", "name": "Ville Tikkanen", "number": 17, "position": "CB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_010_05", "name": "Murilo", "number": 5, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_fi1_010_06", "name": "Markus Arsalo", "number": 18, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_010_07", "name": "Pyry Hannola", "number": 10, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_010_08", "name": "Rasmus Karjalainen", "number": 9, "position": "RW", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_010_09", "name": "Kaspar Paananen", "number": 11, "position": "CAM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_010_10", "name": "Jaime Moreno", "number": 20, "position": "LW", "country": "NI", "status": "starter"},
+      {"playerId": "player_fi1_010_11", "name": "Jeremiah Streng", "number": 7, "position": "ST", "country": "FI", "status": "starter"},
+  
+      {"playerId": "player_fi1_010_12", "name": "Daniel Fillion", "number": 30, "position": "GK", "country": "CA", "status": "bench"},
+      {"playerId": "player_fi1_010_13", "name": "Kelvin Pires", "number": 3, "position": "CB", "country": "CV", "status": "bench"},
+      {"playerId": "player_fi1_010_14", "name": "Pablo Andrade", "number": 6, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_fi1_010_15", "name": "Felipe Aspegren", "number": 15, "position": "RB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_010_16", "name": "Valentin Yotov", "number": 8, "position": "CM", "country": "BG", "status": "bench"},
+      {"playerId": "player_fi1_010_17", "name": "Eemeli Raittinen", "number": 14, "position": "CM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_010_18", "name": "Maksim Stjopin", "number": 21, "position": "RW", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_010_19", "name": "Lauri Laine", "number": 22, "position": "LW", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_010_20", "name": "Jake Jervis", "number": 19, "position": "ST", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_fi1_010_21", "name": "Terry Yegbe", "number": 24, "position": "CB", "country": "GH", "status": "bench"},
+  
+      {"playerId": "player_fi1_010_22", "name": "Miro Varis", "number": 31, "position": "GK", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_010_23", "name": "Onni Hiltunen", "number": 25, "position": "CM", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_010_24", "name": "David Dunwoody", "number": 26, "position": "CAM", "country": "IE", "status": "reserve"},
+      {"playerId": "player_fi1_010_25", "name": "Mohammed Abubakari", "number": 27, "position": "CDM", "country": "GH", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 18,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 9
+      }
+    }
   }
-}
