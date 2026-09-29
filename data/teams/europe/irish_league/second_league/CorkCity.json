@@ -1,12 +1,58 @@
 {
-  "teamKey": "Cork C",
-
-  "name": "Cork City FC",
-
-  "logo": "assets/logos/europe/irish/CorcCity.png",
-
-  "stadium": {
-    "name": "Turner's Cross",
-    "capacity": 7485
+    "teamKey": "Cork C",
+  
+    "name": "Cork City FC",
+  
+    "logo": "assets/logos/europe/irish/CorcCity.png",
+  
+    "manager": {
+      "name": "Barry Robson",
+      "country": "GB-SCT"
+    },
+  
+    "stadium": {
+      "name": "Turner's Cross",
+      "capacity": 7485
+    },
+  
+    "players": [
+      {"playerId": "player_ie2_003_01", "name": "Brad Wade", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_ie2_003_02", "name": "John O'Donovan", "number": 2, "position": "RB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_003_03", "name": "Charlie Lyons", "number": 5, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_003_04", "name": "Cian Coleman", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_003_05", "name": "Kevin O'Connor", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_003_06", "name": "Greg Bolger", "number": 6, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_003_07", "name": "Niall O'Keeffe", "number": 8, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_003_08", "name": "Ruairi Keating", "number": 11, "position": "RW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_003_09", "name": "Cathal O'Sullivan", "number": 10, "position": "CAM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_003_10", "name": "Barry Coffey", "number": 7, "position": "LW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_003_11", "name": "Sean Maguire", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
+  
+      {"playerId": "player_ie2_003_12", "name": "Daniel Moynihan", "number": 13, "position": "GK", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_003_13", "name": "Darragh Crowley", "number": 14, "position": "RB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_003_14", "name": "Aaron Bolger", "number": 16, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_003_15", "name": "Joshua Fitzpatrick", "number": 15, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_003_16", "name": "Gerry Buckley", "number": 17, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_003_17", "name": "Darragh Power", "number": 18, "position": "RB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_003_18", "name": "Evan McLaughlin", "number": 19, "position": "LW", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_003_19", "name": "Hans Mpongo", "number": 20, "position": "ST", "country": "NL", "status": "bench"},
+      {"playerId": "player_ie2_003_20", "name": "Jack Doherty", "number": 21, "position": "CAM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_003_21", "name": "Cian Bargary", "number": 22, "position": "RW", "country": "IE", "status": "bench"},
+  
+      {"playerId": "player_ie2_003_22", "name": "Tiernan Brooks", "number": 30, "position": "GK", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_003_23", "name": "Matthew Healy", "number": 23, "position": "CM", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_003_24", "name": "Oran Crowe", "number": 24, "position": "CB", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_003_25", "name": "Malik Dijksteel", "number": 25, "position": "ST", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 9,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
