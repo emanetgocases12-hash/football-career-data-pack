@@ -1,12 +1,58 @@
 {
-  "teamKey": "LASK",
+    "teamKey": "LASK",
 
-  "name": "LASK",
+    "name": "LASK",
 
-  "logo": "assets/logos/europe/austria/Lask.png",
+    "logo": "assets/logos/europe/austria/Lask.png",
 
-  "stadium": {
-    "name": "Raiffeisen Arena",
-    "capacity": 19080
+    "manager": {
+      "name": "Dietmar Kühbauer",
+      "country": "AT"
+    },
+
+    "stadium": {
+      "name": "Raiffeisen Arena",
+      "capacity": 19080
+    },
+
+    "players": [
+      { "playerId": "player_at1_005_01", "name": "Lukas Jungwirth", "number": 1, "position": "GK", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_005_02", "name": "Kasper Jörgensen", "number": 20, "position": "RB", "country": "DK", "status": "starter" },
+      { "playerId": "player_at1_005_03", "name": "Xavier Mbuyamba", "number": 4, "position": "CB", "country": "NL", "status": "starter" },
+      { "playerId": "player_at1_005_04", "name": "Andres Andrade", "number": 16, "position": "CB", "country": "PA", "status": "starter" },
+      { "playerId": "player_at1_005_05", "name": "George Bello", "number": 2, "position": "LB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_005_06", "name": "Melayro Bogarde", "number": 6, "position": "CDM", "country": "NL", "status": "starter" },
+      { "playerId": "player_at1_005_07", "name": "Robert Ljubicic", "number": 10, "position": "CM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_005_08", "name": "Christoph Lang", "number": 27, "position": "RW", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_005_09", "name": "Sascha Horvath", "number": 30, "position": "CAM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_005_10", "name": "Moses Usor", "number": 8, "position": "LW", "country": "NG", "status": "starter" },
+      { "playerId": "player_at1_005_11", "name": "Sasa Kalajdzic", "number": 11, "position": "ST", "country": "AT", "status": "starter" },
+
+      { "playerId": "player_at1_005_12", "name": "Tobias Schützenauer", "number": 33, "position": "GK", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_005_13", "name": "Miguel Freckleton", "number": 3, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_at1_005_14", "name": "Daniel Elfadli", "number": 23, "position": "CB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_005_15", "name": "Yvan Dibango", "number": 25, "position": "LB", "country": "CM", "status": "bench" },
+      { "playerId": "player_at1_005_16", "name": "Art Smakaj", "number": 5, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_005_17", "name": "Krystof Danek", "number": 9, "position": "CAM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_at1_005_18", "name": "Alessandro Schöpf", "number": 18, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_005_19", "name": "Samuel Adeniran", "number": 7, "position": "ST", "country": "US", "status": "bench" },
+      { "playerId": "player_at1_005_20", "name": "Ramiz Harakate", "number": 22, "position": "ST", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_005_21", "name": "Nael Kane", "number": 45, "position": "RW", "country": "FR", "status": "bench" },
+
+      { "playerId": "player_at1_005_22", "name": "Fabian Schillinger", "number": 50, "position": "GK", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at1_005_23", "name": "Manoel Verhaeghe", "number": 21, "position": "CB", "country": "BE", "status": "reserve" },
+      { "playerId": "player_at1_005_24", "name": "Florian Flecker", "number": 29, "position": "RM", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at1_005_25", "name": "Cheikne Kebe", "number": 52, "position": "CB", "country": "AT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 30,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 30,
+        "cornerLeft": 27,
+        "cornerRight": 30
+      }
+    }
   }
-}
