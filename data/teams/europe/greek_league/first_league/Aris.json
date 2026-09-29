@@ -1,12 +1,58 @@
 {
-  "teamKey": "Aris",
-
-  "name": "Aris Thessaloniki",
-
-  "logo": "assets/logos/europe/greek/Aris.png",
-
-  "stadium": {
-    "name": "Kleanthis Vikelidis",
-    "capacity": 22800
+    "teamKey": "Aris",
+  
+    "name": "Aris Thessaloniki",
+  
+    "logo": "assets/logos/europe/greek/Aris.png",
+  
+    "manager": {
+      "name": "Michalis Grigoriou",
+      "country": "GR"
+    },
+  
+    "stadium": {
+      "name": "Kleanthis Vikelidis",
+      "capacity": 22800
+    },
+  
+    "players": [
+      {"playerId": "player_gr1_002_01", "name": "Mário Ricardo da Silva Velho", "number": 33, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_gr1_002_02", "name": "Martín Montoya", "number": 2, "position": "RB", "country": "ES", "status": "starter"},
+      {"playerId": "player_gr1_002_03", "name": "Boško Šutalo", "number": 44, "position": "CB", "country": "HR", "status": "starter"},
+      {"playerId": "player_gr1_002_04", "name": "Fabiano", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_gr1_002_05", "name": "Juankar", "number": 3, "position": "LB", "country": "ES", "status": "starter"},
+      {"playerId": "player_gr1_002_06", "name": "Konstantinos Galanopoulos", "number": 6, "position": "CM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_002_07", "name": "Uroš Račić", "number": 10, "position": "CM", "country": "RS", "status": "starter"},
+      {"playerId": "player_gr1_002_08", "name": "Fredrik Jensen", "number": 97, "position": "RW", "country": "FI", "status": "starter"},
+      {"playerId": "player_gr1_002_09", "name": "Monchu", "number": 8, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_gr1_002_10", "name": "Bruma", "number": 77, "position": "LW", "country": "PT", "status": "starter"},
+      {"playerId": "player_gr1_002_11", "name": "Loren Morón", "number": 80, "position": "ST", "country": "ES", "status": "starter"},
+  
+      {"playerId": "player_gr1_002_12", "name": "Julián Cuesta", "number": 23, "position": "GK", "country": "ES", "status": "bench"},
+      {"playerId": "player_gr1_002_13", "name": "Jakub Brabec", "number": 14, "position": "CB", "country": "CZ", "status": "bench"},
+      {"playerId": "player_gr1_002_14", "name": "Hugo Mallo", "number": 22, "position": "RB", "country": "ES", "status": "bench"},
+      {"playerId": "player_gr1_002_15", "name": "Moses Odubajo", "number": 20, "position": "RB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_gr1_002_16", "name": "Michalis Voriazidis", "number": 12, "position": "CM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_002_17", "name": "Manu García", "number": 17, "position": "CAM", "country": "ES", "status": "bench"},
+      {"playerId": "player_gr1_002_18", "name": "Pape Cheikh", "number": 5, "position": "CDM", "country": "SN", "status": "bench"},
+      {"playerId": "player_gr1_002_19", "name": "Álvaro Zamora", "number": 9, "position": "LW", "country": "CR", "status": "bench"},
+      {"playerId": "player_gr1_002_20", "name": "Kike Saverio", "number": 11, "position": "RW", "country": "EC", "status": "bench"},
+      {"playerId": "player_gr1_002_21", "name": "Robin Quaison", "number": 19, "position": "ST", "country": "SE", "status": "bench"},
+  
+      {"playerId": "player_gr1_002_22", "name": "Georgios Athanasiadis", "number": 1, "position": "GK", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr1_002_23", "name": "Fabiano Leismann", "number": 13, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_gr1_002_24", "name": "José Cifuentes", "number": 30, "position": "CM", "country": "EC", "status": "reserve"},
+      {"playerId": "player_gr1_002_25", "name": "Clayton Diandy", "number": 70, "position": "LW", "country": "SN", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 80,
+        "freeKick": 10,
+        "cornerLeft": 97,
+        "cornerRight": 77
+      }
+    }
   }
-}
