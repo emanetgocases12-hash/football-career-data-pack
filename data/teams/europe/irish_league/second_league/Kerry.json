@@ -1,12 +1,58 @@
 {
-  "teamKey": "Kerry",
-
-  "name": "Kerry Football Club",
-
-  "logo": "assets/logos/europe/irish/Kerry.png",
-
-  "stadium": {
-    "name": "Mounthawk Park",
-    "capacity": 1200
+    "teamKey": "Kerry",
+  
+    "name": "Kerry Football Club",
+  
+    "logo": "assets/logos/europe/irish/Kerry.png",
+  
+    "manager": {
+      "name": "Colin Healy",
+      "country": "IE"
+    },
+  
+    "stadium": {
+      "name": "Mounthawk Park",
+      "capacity": 1200
+    },
+  
+    "players": [
+      {"playerId": "player_ie2_005_01", "name": "Antonio Tuta", "number": 1, "position": "GK", "country": "HR", "status": "starter"},
+      {"playerId": "player_ie2_005_02", "name": "Sean McGrath", "number": 2, "position": "RB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_005_03", "name": "Darragh Foley", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_005_04", "name": "Andrew Spain", "number": 5, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_005_05", "name": "Kevin Williams", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_005_06", "name": "Sean McGrath", "number": 6, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_005_07", "name": "Steven Healy", "number": 8, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_005_08", "name": "Ryan Kelliher", "number": 11, "position": "RW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_005_09", "name": "Cian Brosnan", "number": 10, "position": "CAM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_005_10", "name": "Daniel Okwute", "number": 7, "position": "LW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_005_11", "name": "Nathan Gleeson", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
+  
+      {"playerId": "player_ie2_005_12", "name": "Wayne Guthrie", "number": 13, "position": "GK", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_005_13", "name": "Sean O'Connell", "number": 14, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_005_14", "name": "Graham O'Reilly", "number": 15, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_005_15", "name": "Darragh O'Sullivan", "number": 16, "position": "RB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_005_16", "name": "Calum Walsh", "number": 17, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_005_17", "name": "Aidan McCarthy", "number": 18, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_005_18", "name": "Leo Gaxha", "number": 19, "position": "RW", "country": "AL", "status": "bench"},
+      {"playerId": "player_ie2_005_19", "name": "Kennedy Amechi", "number": 20, "position": "ST", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_005_20", "name": "Tomas O'Connor", "number": 21, "position": "ST", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_005_21", "name": "Graham O'Sullivan", "number": 22, "position": "LW", "country": "IE", "status": "bench"},
+  
+      {"playerId": "player_ie2_005_22", "name": "Fionn Barrett", "number": 30, "position": "GK", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_005_23", "name": "Sean Kennedy", "number": 23, "position": "CB", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_005_24", "name": "Mikey McCarthy", "number": 24, "position": "CM", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_005_25", "name": "Noah Falk", "number": 25, "position": "ST", "country": "IE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
