@@ -1,12 +1,58 @@
-{
-  "teamKey": "C More",
+ {
+    "teamKey": "C More",
 
-  "name": "Cherno More Varna",
+    "name": "Cherno More Varna",
 
-  "logo": "assets/logos/europe/bulgaria/More.png",
+    "logo": "assets/logos/europe/bulgaria/More.png",
 
-  "stadium": {
-    "name": "Ticha",
-    "capacity": 6250
+    "manager": {
+      "name": "Ilian Iliev",
+      "country": "BG"
+    },
+
+    "stadium": {
+      "name": "Ticha",
+      "capacity": 6250
+    },
+
+    "players": [
+      { "playerId": "player_bg1_009_01", "name": "Kristian Tomov", "number": 81, "position": "GK", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_009_02", "name": "Asen Donchev", "number": 8, "position": "RB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_009_03", "name": "Zhivko Atanasov", "number": 3, "position": "CB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_009_04", "name": "Luciano Squadrone", "number": 5, "position": "CB", "country": "AR", "status": "starter" },
+      { "playerId": "player_bg1_009_05", "name": "Ertan Tombak", "number": 50, "position": "LB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_009_06", "name": "Vasil Panayotov", "number": 71, "position": "CDM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_009_07", "name": "David Teles", "number": 24, "position": "CM", "country": "PT", "status": "starter" },
+      { "playerId": "player_bg1_009_08", "name": "Mohamed Achi", "number": 11, "position": "RW", "country": "FR", "status": "starter" },
+      { "playerId": "player_bg1_009_09", "name": "Celso Sidney", "number": 10, "position": "CAM", "country": "PT", "status": "starter" },
+      { "playerId": "player_bg1_009_10", "name": "Nikolay Zlatev", "number": 39, "position": "LW", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_009_11", "name": "Aleksandar Kolev", "number": 20, "position": "ST", "country": "BG", "status": "starter" },
+
+      { "playerId": "player_bg1_009_12", "name": "Damyan Hristov", "number": 31, "position": "GK", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_009_13", "name": "Ventsislav Kerchev", "number": 37, "position": "CB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_009_14", "name": "João Bandaró", "number": 26, "position": "CB", "country": "BR", "status": "bench" },
+      { "playerId": "player_bg1_009_15", "name": "E. Nyagolov", "number": 13, "position": "LB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_009_16", "name": "N. Kostadinov", "number": 22, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_009_17", "name": "M. Banev", "number": 23, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_009_18", "name": "B. Beyhan", "number": 29, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_009_19", "name": "Barandas", "number": 7, "position": "RW", "country": "PT", "status": "bench" },
+      { "playerId": "player_bg1_009_20", "name": "Jorge Padilla", "number": 9, "position": "ST", "country": "ES", "status": "bench" },
+      { "playerId": "player_bg1_009_21", "name": "I. Tasev", "number": 17, "position": "LW", "country": "BG", "status": "bench" },
+
+      { "playerId": "player_bg1_009_22", "name": "A. Manasiev", "number": 70, "position": "GK", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_009_23", "name": "I. Bounaas", "number": 99, "position": "CM", "country": "DZ", "status": "reserve" },
+      { "playerId": "player_bg1_009_24", "name": "P. Andreev", "number": 18, "position": "ST", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_009_25", "name": "G. Lazarov", "number": 19, "position": "ST", "country": "BG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 20,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
   }
-}
