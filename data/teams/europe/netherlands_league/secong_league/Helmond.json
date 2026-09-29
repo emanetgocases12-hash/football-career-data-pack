@@ -1,12 +1,58 @@
 {
-  "teamKey": "Helmon",
-
-  "name": "Helmond Sport",
-
-  "logo": "assets/logos/europe/netherlands/Helmond.png",
-
-  "stadium": {
-    "name": "GS Staalwerken Stadion",
-    "capacity": 3600
+    "teamKey": "Helmon",
+  
+    "name": "Helmond Sport",
+  
+    "logo": "assets/logos/europe/netherlands/Helmond.png",
+  
+    "manager": {
+      "name": "Frédéric Frans",
+      "country": "BE"
+    },
+  
+    "stadium": {
+      "name": "GS Staalwerken Stadion",
+      "capacity": 3600
+    },
+  
+    "players": [
+      {"playerId": "player_nl2_009_01", "name": "Adam El Maach", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_009_02", "name": "Lovro Golič", "number": 2, "position": "RB", "country": "SI", "status": "starter"},
+      {"playerId": "player_nl2_009_03", "name": "Wassim Lantaki", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_009_04", "name": "Thomas Poll", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_009_05", "name": "Sem Dekkers", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_009_06", "name": "Tarik Essakkati", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_009_07", "name": "Alen Dizdarević", "number": 8, "position": "CM", "country": "BA", "status": "starter"},
+      {"playerId": "player_nl2_009_08", "name": "Dean Huiberts", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_009_09", "name": "Joep van der Sluijs", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_009_10", "name": "Labinot Bajrami", "number": 9, "position": "ST", "country": "CH", "status": "starter"},
+      {"playerId": "player_nl2_009_11", "name": "Kiton Ekoli", "number": 17, "position": "RW", "country": "NL", "status": "starter"},
+  
+      {"playerId": "player_nl2_009_12", "name": "Menno Bergsen", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_009_13", "name": "Flor Van Den Eynden", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_009_14", "name": "Brian Koglin", "number": 15, "position": "RB", "country": "DE", "status": "bench"},
+      {"playerId": "player_nl2_009_15", "name": "Doke Schmidt", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_009_16", "name": "Tijn Landheer", "number": 23, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_009_17", "name": "Pol Llonch", "number": 11, "position": "LW", "country": "ES", "status": "bench"},
+      {"playerId": "player_nl2_009_18", "name": "Xander van der Velde", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_009_19", "name": "Michel Ludwig", "number": 20, "position": "CAM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_009_20", "name": "Helgi Fróði Ingason", "number": 21, "position": "RM", "country": "IS", "status": "bench"},
+      {"playerId": "player_nl2_009_21", "name": "Dayen Geerts", "number": 22, "position": "LM", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_nl2_009_22", "name": "Wessel van der Heijden", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_009_23", "name": "Mauro Lenaerts", "number": 19, "position": "LW", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_009_24", "name": "Livio Cicero", "number": 29, "position": "ST", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_009_25", "name": "Julian Geerts", "number": 99, "position": "ST", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
