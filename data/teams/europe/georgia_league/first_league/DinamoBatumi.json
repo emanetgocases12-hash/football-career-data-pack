@@ -1,12 +1,58 @@
 {
-  "teamKey": "D Btmi",
-
-  "name": "Dinamo Batumi",
-
-  "logo": "assets/logos/europe/georgia/DinamoBatumi.png",
-
-  "stadium": {
-    "name": "Adjarabet Arena",
-    "capacity": 20035
+    "teamKey": "D Btmi",
+  
+    "name": "Dinamo Batumi",
+  
+    "logo": "assets/logos/europe/georgia/DinamoBatumi.png",
+  
+    "manager": {
+      "name": "Giorgi Chiabrishvili",
+      "country": "GE"
+    },
+  
+    "stadium": {
+      "name": "Adjarabet Arena",
+      "capacity": 20035
+    },
+  
+    "players": [
+      {"playerId": "player_ge1_002_01", "name": "Lazare Kupatadze", "number": 1, "position": "GK", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_002_02", "name": "Ivan Turitsov", "number": 29, "position": "RB", "country": "BG", "status": "starter"},
+      {"playerId": "player_ge1_002_03", "name": "Mamuka Kobakhidze", "number": 23, "position": "CB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_002_04", "name": "Enes Mahmutovic", "number": 15, "position": "CB", "country": "LU", "status": "starter"},
+      {"playerId": "player_ge1_002_05", "name": "Luka Lakvekheliani", "number": 12, "position": "LB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_002_06", "name": "Sandro Altunashvili", "number": 8, "position": "CM", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_002_07", "name": "Artem Mylchenko", "number": 6, "position": "CDM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ge1_002_08", "name": "Tornike Kirkitadze", "number": 22, "position": "RW", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_002_09", "name": "Uerdi Mara", "number": 10, "position": "CAM", "country": "AL", "status": "starter"},
+      {"playerId": "player_ge1_002_10", "name": "Paulo Vitor", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_ge1_002_11", "name": "Maurides", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_ge1_002_12", "name": "Nodar Kalichava", "number": 13, "position": "GK", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_002_13", "name": "Luka Kapianidze", "number": 4, "position": "CB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_002_14", "name": "Yahya Kalley", "number": 5, "position": "LB", "country": "GM", "status": "bench"},
+      {"playerId": "player_ge1_002_15", "name": "Dirk Carlson", "number": 24, "position": "CB", "country": "LU", "status": "bench"},
+      {"playerId": "player_ge1_002_16", "name": "Awaka Eshata", "number": 16, "position": "CM", "country": "IL", "status": "bench"},
+      {"playerId": "player_ge1_002_17", "name": "Imran Oulad Omar", "number": 18, "position": "CAM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ge1_002_18", "name": "Luka Tsulukidze", "number": 20, "position": "CM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_002_19", "name": "Giorgi Kokhreidze", "number": 14, "position": "RW", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_002_20", "name": "Nika Kalandarishvili", "number": 19, "position": "ST", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_002_21", "name": "Levan Shengelia", "number": 27, "position": "LW", "country": "GE", "status": "bench"},
+  
+      {"playerId": "player_ge1_002_22", "name": "Mate Turmanidze", "number": 30, "position": "GK", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_002_23", "name": "Revaz Chiteishvili", "number": 35, "position": "CB", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_002_24", "name": "Giorgi Putkaradze", "number": 37, "position": "CM", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_002_25", "name": "Guram Japaridze", "number": 39, "position": "CM", "country": "GE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 23,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 22
+      }
+    }
   }
-}
