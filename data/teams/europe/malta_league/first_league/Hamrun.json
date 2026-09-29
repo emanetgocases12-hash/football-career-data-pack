@@ -1,12 +1,58 @@
 {
-  "teamKey": "Hamrun",
-
-  "name": "Hamrun Spartans",
-
-  "logo": "assets/logos/europe/malta/Hamrun.png",
-
-  "stadium": {
-    "name": "Victor Tedesco Stadion",
-    "capacity": 6000
+    "teamKey": "Hamrun",
+  
+    "name": "Hamrun Spartans",
+  
+    "logo": "assets/logos/europe/malta/Hamrun.png",
+  
+    "manager": {
+      "name": "Stefano Sanderra",
+      "country": "IT"
+    },
+  
+    "stadium": {
+      "name": "Victor Tedesco Stadion",
+      "capacity": 6000
+    },
+  
+    "players": [
+      {"playerId": "player_mt1_006_01", "name": "Célio", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_mt1_006_02", "name": "Ryan Camenzuli", "number": 2, "position": "RB", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_006_03", "name": "Emerson Marcelina", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_mt1_006_04", "name": "Messie Biatoumoussoka", "number": 5, "position": "CB", "country": "CG", "status": "starter"},
+      {"playerId": "player_mt1_006_05", "name": "Rafael Compri", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_mt1_006_06", "name": "Matthew Guillaumier", "number": 8, "position": "CM", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_006_07", "name": "Kléri Serber", "number": 6, "position": "CM", "country": "FR", "status": "starter"},
+      {"playerId": "player_mt1_006_08", "name": "Jake Grech", "number": 11, "position": "RW", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_006_09", "name": "Ante Ćorić", "number": 10, "position": "CAM", "country": "HR", "status": "starter"},
+      {"playerId": "player_mt1_006_10", "name": "Lucas Villela", "number": 7, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_mt1_006_11", "name": "Damir Četer", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+  
+      {"playerId": "player_mt1_006_12", "name": "Rashed Al-Tumi", "number": 12, "position": "GK", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_006_13", "name": "Ognjen Bjeličić", "number": 14, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_mt1_006_14", "name": "Tobias Bjørnstad", "number": 15, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_mt1_006_15", "name": "Jack Ipalibo", "number": 16, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_mt1_006_16", "name": "Emmanuel Ernest", "number": 17, "position": "RW", "country": "LR", "status": "bench"},
+      {"playerId": "player_mt1_006_17", "name": "Marcello Trotta", "number": 19, "position": "ST", "country": "IT", "status": "bench"},
+      {"playerId": "player_mt1_006_18", "name": "Eder", "number": 20, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_mt1_006_19", "name": "Scott Camilleri", "number": 21, "position": "RW", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_006_20", "name": "Kean Scicluna", "number": 22, "position": "CM", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_006_21", "name": "Elionay", "number": 23, "position": "ST", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_mt1_006_22", "name": "Matthew Grech", "number": 30, "position": "GK", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_006_23", "name": "Joseph Micallef", "number": 24, "position": "CB", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_006_24", "name": "Roderick Tonna", "number": 25, "position": "LB", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_006_25", "name": "Andre Caruana", "number": 27, "position": "ST", "country": "MT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
