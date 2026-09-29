@@ -1,12 +1,58 @@
 {
-  "teamKey": "Austria Vnna II",
+    "teamKey": "Austria Vnna II",
 
-  "name": "Young Violets Austria Wien",
+    "name": "Young Violets Austria Wien",
 
-  "logo": "assets/logos/europe/austria/AWien2.png",
+    "logo": "assets/logos/europe/austria/AWien2.png",
 
-  "stadium": {
-    "name": "Generali Arena",
-    "capacity": 17500
+    "manager": {
+      "name": "Maximilian Uhlig",
+      "country": "AT"
+    },
+
+    "stadium": {
+      "name": "Generali Arena",
+      "capacity": 17500
+    },
+
+    "players": [
+      { "playerId": "player_at2_004_01", "name": "Stefan Blazevic", "number": 1, "position": "GK", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_004_02", "name": "Wilhelm Vorsager", "number": 2, "position": "RB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_004_03", "name": "Jonas Feddersen", "number": 44, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_004_04", "name": "Marcel Moswitzer", "number": 5, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_004_05", "name": "Matteo Schablas", "number": 90, "position": "LB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_004_06", "name": "Florian Wustinger", "number": 14, "position": "CDM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_004_07", "name": "Philipp Maybach", "number": 6, "position": "CM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_004_08", "name": "Marco Hausjell", "number": 7, "position": "RW", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_004_09", "name": "Romeo Mörth", "number": 10, "position": "CAM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_004_10", "name": "Vasilije Markovic", "number": 26, "position": "LW", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_004_11", "name": "Hasan Deshishku", "number": 9, "position": "ST", "country": "AT", "status": "starter" },
+
+      { "playerId": "player_at2_004_12", "name": "Marcel Alphonsus", "number": 13, "position": "GK", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_004_13", "name": "Valentin Toifl", "number": 4, "position": "CB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_004_14", "name": "Julian Roider", "number": 17, "position": "RB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_004_15", "name": "Florian Hofmann", "number": 20, "position": "CB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_004_16", "name": "Nicola Wojnar", "number": 24, "position": "LB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_004_17", "name": "Dominik Nisandzic", "number": 8, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_004_18", "name": "Filip Lukic", "number": 19, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_004_19", "name": "Devran Gündük", "number": 21, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_004_20", "name": "Illia Menshykov", "number": 25, "position": "ST", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_004_21", "name": "Abdoulaye Kante", "number": 47, "position": "RW", "country": "CI", "status": "bench" },
+
+      { "playerId": "player_at2_004_22", "name": "Daris Strukar", "number": 32, "position": "GK", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at2_004_23", "name": "Elhadj Bah", "number": 29, "position": "CB", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at2_004_24", "name": "Noel Polonkai", "number": 23, "position": "CM", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at2_004_25", "name": "Silas Schoppitsch", "number": 31, "position": "ST", "country": "AT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 14,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 10
+      }
+    }
   }
-}
