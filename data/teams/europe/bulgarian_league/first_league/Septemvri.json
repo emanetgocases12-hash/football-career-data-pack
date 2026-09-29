@@ -1,12 +1,58 @@
 {
-  "teamKey": "Sptvri",
+    "teamKey": "Sptvri",
 
-  "name": "Septemvri Sofia",
+    "name": "Septemvri Sofia",
 
-  "logo": "assets/logos/europe/bulgaria/Septemvri.png",
+    "logo": "assets/logos/europe/bulgaria/Septemvri.png",
 
-  "stadium": {
-    "name": "Vasil Levski",
-    "capacity": 43630
+    "manager": {
+      "name": "Simão Freitas",
+      "country": "PT"
+    },
+
+    "stadium": {
+      "name": "Vasil Levski",
+      "capacity": 43630
+    },
+
+    "players": [
+      { "playerId": "player_bg1_011_01", "name": "V. Ivanov", "number": 12, "position": "GK", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_011_02", "name": "Kubrat Onasci", "number": 13, "position": "RB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_011_03", "name": "Martin Hristov", "number": 4, "position": "CB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_011_04", "name": "Valentine Ozornwafor", "number": 26, "position": "CB", "country": "NG", "status": "starter" },
+      { "playerId": "player_bg1_011_05", "name": "Sebastian Wade", "number": 3, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_bg1_011_06", "name": "Pedro Ferreira", "number": 6, "position": "CDM", "country": "PT", "status": "starter" },
+      { "playerId": "player_bg1_011_07", "name": "Bozhidar Penchev", "number": 8, "position": "CM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_011_08", "name": "Galin Ivanov", "number": 33, "position": "RW", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_011_09", "name": "N. Iliev", "number": 10, "position": "CAM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_011_10", "name": "Edney Ribeiro", "number": 7, "position": "LW", "country": "PT", "status": "starter" },
+      { "playerId": "player_bg1_011_11", "name": "Pedro Igor", "number": 19, "position": "ST", "country": "BR", "status": "starter" },
+
+      { "playerId": "player_bg1_011_12", "name": "N. Krastev", "number": 21, "position": "GK", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_011_13", "name": "P. Gospodinov", "number": 15, "position": "CB", "country": "MD", "status": "bench" },
+      { "playerId": "player_bg1_011_14", "name": "B. Tomovski", "number": 20, "position": "CB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_011_15", "name": "B. Stoichkov", "number": 23, "position": "LB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_011_16", "name": "Yoan Baurenski", "number": 5, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_011_17", "name": "S. Stoichkov", "number": 28, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_011_18", "name": "V. Dobrev", "number": 30, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_011_19", "name": "A. Dzhamov", "number": 11, "position": "RW", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_011_20", "name": "André Liberal", "number": 27, "position": "ST", "country": "PT", "status": "bench" },
+      { "playerId": "player_bg1_011_21", "name": "H. Frantzety", "number": 29, "position": "ST", "country": "HT", "status": "bench" },
+
+      { "playerId": "player_bg1_011_22", "name": "A. Radkov", "number": 1, "position": "GK", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_011_23", "name": "N. Fontaine", "number": 17, "position": "LW", "country": "MG", "status": "reserve" },
+      { "playerId": "player_bg1_011_24", "name": "N. Genchev", "number": 25, "position": "ST", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_011_25", "name": "A. Vutov", "number": 14, "position": "CAM", "country": "BG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 33,
+        "cornerLeft": 33,
+        "cornerRight": 33
+      }
+    }
   }
-}
