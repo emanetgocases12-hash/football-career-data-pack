@@ -1,12 +1,58 @@
-{
-  "teamKey": "Puskas",
-
-  "name": "Puskás Akadémia FC",
-
-  "logo": "assets/logos/europe/hungary/Puskas.png",
-
-  "stadium": {
-    "name": "Pancho Aréna",
-    "capacity": 3816
+ {
+    "teamKey": "Puskas",
+  
+    "name": "Puskás Akadémia FC",
+  
+    "logo": "assets/logos/europe/hungary/Puskas.png",
+  
+    "manager": {
+      "name": "Levente Babó",
+      "country": "HU"
+    },
+  
+    "stadium": {
+      "name": "Pancho Aréna",
+      "capacity": 3816
+    },
+  
+    "players": [
+      {"playerId": "player_hu1_009_01", "name": "Tamás Markek", "number": 1, "position": "GK", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_009_02", "name": "Bence Farkas", "number": 88, "position": "RB", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_009_03", "name": "Wojciech Golla", "number": 14, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_hu1_009_04", "name": "Georgi Harutyunyan", "number": 21, "position": "CB", "country": "AM", "status": "starter"},
+      {"playerId": "player_hu1_009_05", "name": "Brandon Ormonde-Ottewill", "number": 33, "position": "LB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_hu1_009_06", "name": "Laros Duarte", "number": 6, "position": "CM", "country": "CV", "status": "starter"},
+      {"playerId": "player_hu1_009_07", "name": "Artem Favorov", "number": 19, "position": "CM", "country": "UA", "status": "starter"},
+      {"playerId": "player_hu1_009_08", "name": "David Lukács", "number": 8, "position": "RW", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_009_09", "name": "Palkó Dárdai", "number": 10, "position": "CAM", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_009_10", "name": "Mikael Soisalo", "number": 20, "position": "LW", "country": "FI", "status": "starter"},
+      {"playerId": "player_hu1_009_11", "name": "András Németh", "number": 90, "position": "ST", "country": "HU", "status": "starter"},
+  
+      {"playerId": "player_hu1_009_12", "name": "Mihály Bozó", "number": 61, "position": "GK", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_009_13", "name": "Roland Szolnoki", "number": 22, "position": "CB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_009_14", "name": "Zsolt Nagy", "number": 25, "position": "LB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_009_15", "name": "Moses Okeke", "number": 4, "position": "CDM", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_009_16", "name": "Urho Nissilä", "number": 16, "position": "CM", "country": "FI", "status": "bench"},
+      {"playerId": "player_hu1_009_17", "name": "Martin Kern", "number": 74, "position": "CM", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_009_18", "name": "Zétény Krupa", "number": 80, "position": "CM", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_009_19", "name": "J. Fameyeh", "number": 7, "position": "ST", "country": "GH", "status": "bench"},
+      {"playerId": "player_hu1_009_20", "name": "Lamin Colley", "number": 9, "position": "ST", "country": "GM", "status": "bench"},
+      {"playerId": "player_hu1_009_21", "name": "Krisztián Mondovics", "number": 77, "position": "RW", "country": "HU", "status": "bench"},
+  
+      {"playerId": "player_hu1_009_22", "name": "Benedek Lehoczki", "number": 72, "position": "GK", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_009_23", "name": "Róbert Orján", "number": 96, "position": "RB", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_009_24", "name": "Bence Pál", "number": 24, "position": "CB", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_009_25", "name": "Dániel Brügger", "number": 68, "position": "ST", "country": "HU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 14,
+      "setPieces": {
+        "penalty": 90,
+        "freeKick": 10,
+        "cornerLeft": 20,
+        "cornerRight": 8
+      }
+    }
   }
-}
