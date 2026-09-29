@@ -1,12 +1,58 @@
 {
-  "teamKey": "Leuven",
+    "teamKey": "Leuven",
 
-  "name": "Oud-Heverlee Leuven",
+    "name": "Oud-Heverlee Leuven",
 
-  "logo": "assets/logos/europe/belgian/Leuven.png",
+    "logo": "assets/logos/europe/belgian/Leuven.png",
 
-  "stadium": {
-    "name": "King Power at Den Dreef Stadion",
-    "capacity": 9809
+    "manager": {
+      "name": "Timmy Simons",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "King Power at Den Dreef Stadion",
+      "capacity": 9809
+    },
+
+    "players": [
+      { "playerId": "player_be1_012_01", "name": "Dani van den Heuvel", "number": 1, "position": "GK", "country": "NL", "status": "starter" },
+      { "playerId": "player_be1_012_02", "name": "Óscar Gil", "number": 27, "position": "RB", "country": "ES", "status": "starter" },
+      { "playerId": "player_be1_012_03", "name": "Noë Dussenne", "number": 3, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_012_04", "name": "Ewoud Pletinckx", "number": 28, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_012_05", "name": "Takuya Ogiwara", "number": 26, "position": "LB", "country": "JP", "status": "starter" },
+      { "playerId": "player_be1_012_06", "name": "Birger Verstraete", "number": 4, "position": "CDM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_012_07", "name": "Siebe Schrijvers", "number": 8, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_012_08", "name": "Emmanuel Addai", "number": 7, "position": "RW", "country": "GH", "status": "starter" },
+      { "playerId": "player_be1_012_09", "name": "William Balikwisha", "number": 21, "position": "CAM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_012_10", "name": "Henok Teklab", "number": 11, "position": "LW", "country": "DE", "status": "starter" },
+      { "playerId": "player_be1_012_11", "name": "Abdoul Karim Traoré", "number": 9, "position": "ST", "country": "GN", "status": "starter" },
+
+      { "playerId": "player_be1_012_12", "name": "Kiany Vroman", "number": 13, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_012_13", "name": "Jamie Lawrence", "number": 5, "position": "CB", "country": "DE", "status": "bench" },
+      { "playerId": "player_be1_012_14", "name": "Roggerio Nyakossi", "number": 34, "position": "CB", "country": "CH", "status": "bench" },
+      { "playerId": "player_be1_012_15", "name": "Alessandro Fontanarosa", "number": 30, "position": "LB", "country": "IT", "status": "bench" },
+      { "playerId": "player_be1_012_16", "name": "Manuel Osifo", "number": 25, "position": "RB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_012_17", "name": "Wouter George", "number": 6, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_012_18", "name": "Hasan Bulut", "number": 42, "position": "CM", "country": "TR", "status": "bench" },
+      { "playerId": "player_be1_012_19", "name": "Kyan Vaesen", "number": 17, "position": "ST", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_012_20", "name": "Robin Mirisola", "number": 18, "position": "ST", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_012_21", "name": "Chukwubuikem Ikwuemesi", "number": 19, "position": "ST", "country": "NG", "status": "bench" },
+
+      { "playerId": "player_be1_012_22", "name": "Shin Yamada", "number": 20, "position": "ST", "country": "JP", "status": "reserve" },
+      { "playerId": "player_be1_012_23", "name": "Łukasz Łakomy", "number": 24, "position": "CM", "country": "PL", "status": "reserve" },
+      { "playerId": "player_be1_012_24", "name": "Viktor Damjanić", "number": 15, "position": "CB", "country": "HR", "status": "reserve" },
+      { "playerId": "player_be1_012_25", "name": "Thibaud Verlinden", "number": 10, "position": "LW", "country": "BE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
