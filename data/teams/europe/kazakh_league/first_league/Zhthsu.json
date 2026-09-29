@@ -1,12 +1,58 @@
 {
-  "teamKey": "Zhtysu",
-
-  "name": "Zhetysu Taldykorgan",
-
-  "logo": "assets/logos/europe/kazak/Zhthsu.png",
-
-  "stadium": {
-    "name": "Zhetysu",
-    "capacity": 5550
+    "teamKey": "Zhtysu",
+  
+    "name": "Zhetysu Taldykorgan",
+  
+    "logo": "assets/logos/europe/kazak/Zhthsu.png",
+  
+    "manager": {
+      "name": "Kairat Nurdauletov",
+      "country": "KZ"
+    },
+  
+    "stadium": {
+      "name": "Zhetysu",
+      "capacity": 5550
+    },
+  
+    "players": [
+      {"playerId": "player_kz1_016_01", "name": "Danil Podymskiy", "number": 1, "position": "GK", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_016_02", "name": "Rauan Orynbassar", "number": 2, "position": "RB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_016_03", "name": "Rafkat Aslan", "number": 4, "position": "CB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_016_04", "name": "J. Pajović", "number": 5, "position": "CB", "country": "ME", "status": "starter"},
+      {"playerId": "player_kz1_016_05", "name": "D. Luna", "number": 3, "position": "LB", "country": "VE", "status": "starter"},
+      {"playerId": "player_kz1_016_06", "name": "Serikzhan Muzhikov", "number": 10, "position": "CM", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_016_07", "name": "M. Karwot", "number": 6, "position": "CM", "country": "DE", "status": "starter"},
+      {"playerId": "player_kz1_016_08", "name": "Alan Chochiev", "number": 11, "position": "RW", "country": "RU", "status": "starter"},
+      {"playerId": "player_kz1_016_09", "name": "T. Mosiashvili", "number": 8, "position": "CAM", "country": "GE", "status": "starter"},
+      {"playerId": "player_kz1_016_10", "name": "R. Success", "number": 7, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_kz1_016_11", "name": "Strahinja Jovanović", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+  
+      {"playerId": "player_kz1_016_12", "name": "Ş. Sicaci", "number": 12, "position": "GK", "country": "MD", "status": "bench"},
+      {"playerId": "player_kz1_016_13", "name": "D. Kashken", "number": 14, "position": "CB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_016_14", "name": "A. Baltabekov", "number": 15, "position": "CB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_016_15", "name": "B. Zhamalov", "number": 22, "position": "RB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_016_16", "name": "Madi Zhakipbayev", "number": 18, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_016_17", "name": "Adilkhan Dobay", "number": 20, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_016_18", "name": "M. Kovačević", "number": 17, "position": "CM", "country": "ME", "status": "bench"},
+      {"playerId": "player_kz1_016_19", "name": "M. Živanović", "number": 19, "position": "ST", "country": "RS", "status": "bench"},
+      {"playerId": "player_kz1_016_20", "name": "M. Turay", "number": 29, "position": "ST", "country": "SL", "status": "bench"},
+      {"playerId": "player_kz1_016_21", "name": "Vyacheslav Shvyrev", "number": 27, "position": "ST", "country": "KZ", "status": "bench"},
+  
+      {"playerId": "player_kz1_016_22", "name": "A. Egorov", "number": 31, "position": "GK", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_016_23", "name": "K. Ovchinnikov", "number": 24, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_016_24", "name": "N. Nurbol", "number": 25, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_016_25", "name": "N. Anuarbekov", "number": 28, "position": "ST", "country": "KZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
