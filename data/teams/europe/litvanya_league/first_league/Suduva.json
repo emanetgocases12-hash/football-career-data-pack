@@ -1,12 +1,58 @@
 {
-  "teamKey": "Suduva",
-
-  "name": "FK Suduva Marijampole",
-
-  "logo": "assets/logos/europe/litvanya/Suduva.png",
-
-  "stadium": {
-    "name": "Mantingos futbolo arena",
-    "capacity": 6250
+    "teamKey": "Suduva",
+  
+    "name": "FK Suduva Marijampole",
+  
+    "logo": "assets/logos/europe/litvanya/Suduva.png",
+  
+    "manager": {
+      "name": "Donatas Vencevičius",
+      "country": "LT"
+    },
+  
+    "stadium": {
+      "name": "Mantingos futbolo arena",
+      "capacity": 6250
+    },
+  
+    "players": [
+      {"playerId": "player_lt1_008_01", "name": "Ignas Plūkas", "number": 1, "position": "GK", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_008_02", "name": "Markas Beneta", "number": 2, "position": "RB", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_008_03", "name": "Aleksandar Živanović", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_lt1_008_04", "name": "Frankline Tangiri", "number": 5, "position": "CB", "country": "CM", "status": "starter"},
+      {"playerId": "player_lt1_008_05", "name": "Dominykas Pudžemys", "number": 3, "position": "LB", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_008_06", "name": "Steve Lawson", "number": 6, "position": "CM", "country": "TG", "status": "starter"},
+      {"playerId": "player_lt1_008_07", "name": "Amadou Sabo", "number": 8, "position": "CM", "country": "NE", "status": "starter"},
+      {"playerId": "player_lt1_008_08", "name": "Lucky Tom", "number": 9, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_lt1_008_09", "name": "Pijus Bičkauskas", "number": 77, "position": "CAM", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_008_10", "name": "Omran Haydary", "number": 11, "position": "LW", "country": "AF", "status": "starter"},
+      {"playerId": "player_lt1_008_11", "name": "Nauris Petkevičius", "number": 19, "position": "ST", "country": "LT", "status": "starter"},
+  
+      {"playerId": "player_lt1_008_12", "name": "Giedrius Zenkevičius", "number": 12, "position": "GK", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_008_13", "name": "Rokas Pačėsa", "number": 66, "position": "CB", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_008_14", "name": "Tomas Gumbelevičius", "number": 14, "position": "CB", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_008_15", "name": "Henry Uzochukwu", "number": 15, "position": "CB", "country": "NG", "status": "bench"},
+      {"playerId": "player_lt1_008_16", "name": "Kota Sakurai", "number": 17, "position": "LB", "country": "JP", "status": "bench"},
+      {"playerId": "player_lt1_008_17", "name": "Sidy Sanokho", "number": 18, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_lt1_008_18", "name": "Maksym Pyrogov", "number": 20, "position": "CM", "country": "UA", "status": "bench"},
+      {"playerId": "player_lt1_008_19", "name": "Dariuš Stankevičius", "number": 21, "position": "CM", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_008_20", "name": "Idris Momoh", "number": 22, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_lt1_008_21", "name": "Nojus Lukšys", "number": 23, "position": "ST", "country": "LT", "status": "bench"},
+  
+      {"playerId": "player_lt1_008_22", "name": "Žygimantas Baltrūnas", "number": 30, "position": "GK", "country": "LT", "status": "reserve"},
+      {"playerId": "player_lt1_008_23", "name": "Ibrahima Seck", "number": 24, "position": "CM", "country": "SN", "status": "reserve"},
+      {"playerId": "player_lt1_008_24", "name": "Yusuke Omori", "number": 25, "position": "RW", "country": "JP", "status": "reserve"},
+      {"playerId": "player_lt1_008_25", "name": "Linas Zingertas", "number": 27, "position": "ST", "country": "LT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 77,
+        "cornerLeft": 9,
+        "cornerRight": 11
+      }
+    }
   }
-}
