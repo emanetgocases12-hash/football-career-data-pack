@@ -1,12 +1,58 @@
 {
-  "teamKey": "Levski",
+    "teamKey": "Levski",
 
-  "name": "Levski Sofia",
+    "name": "Levski Sofia",
 
-  "logo": "assets/logos/europe/bulgaria/Levski.png",
+    "logo": "assets/logos/europe/bulgaria/Levski.png",
 
-  "stadium": {
-    "name": "Georgi Asparuhov",
-    "capacity": 17688
+    "manager": {
+      "name": "Julio Velázquez",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "Georgi Asparuhov",
+      "capacity": 17688
+    },
+
+    "players": [
+      { "playerId": "player_bg1_006_01", "name": "Svetoslav Vutsov", "number": 92, "position": "GK", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_006_02", "name": "Aldair Neves", "number": 21, "position": "RB", "country": "PT", "status": "starter" },
+      { "playerId": "player_bg1_006_03", "name": "Kristian Dimitrov", "number": 50, "position": "CB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_006_04", "name": "Christian Makoun", "number": 4, "position": "CB", "country": "VE", "status": "starter" },
+      { "playerId": "player_bg1_006_05", "name": "Álex Centelles", "number": 20, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_bg1_006_06", "name": "Marko Grujić", "number": 8, "position": "CDM", "country": "RS", "status": "starter" },
+      { "playerId": "player_bg1_006_07", "name": "Gašper Trdin", "number": 18, "position": "CM", "country": "SI", "status": "starter" },
+      { "playerId": "player_bg1_006_08", "name": "Reinaldo", "number": 7, "position": "RW", "country": "BR", "status": "starter" },
+      { "playerId": "player_bg1_006_09", "name": "Asen Mitkov", "number": 10, "position": "CAM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_006_10", "name": "Everton Bala", "number": 17, "position": "LW", "country": "BR", "status": "starter" },
+      { "playerId": "player_bg1_006_11", "name": "Juan Perea", "number": 9, "position": "ST", "country": "CO", "status": "starter" },
+
+      { "playerId": "player_bg1_006_12", "name": "Martin Lukov", "number": 78, "position": "GK", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_006_13", "name": "Maicon", "number": 3, "position": "CB", "country": "BR", "status": "bench" },
+      { "playerId": "player_bg1_006_14", "name": "Nikola Serafimov", "number": 31, "position": "CB", "country": "MK", "status": "bench" },
+      { "playerId": "player_bg1_006_15", "name": "Hevertton Santos", "number": 2, "position": "RB", "country": "BR", "status": "bench" },
+      { "playerId": "player_bg1_006_16", "name": "Mehdi Moubarik", "number": 19, "position": "CM", "country": "MA", "status": "bench" },
+      { "playerId": "player_bg1_006_17", "name": "Serginho", "number": 35, "position": "CM", "country": "PT", "status": "bench" },
+      { "playerId": "player_bg1_006_18", "name": "Akram Bouras", "number": 47, "position": "CAM", "country": "DZ", "status": "bench" },
+      { "playerId": "player_bg1_006_19", "name": "Armstrong Oko-Flex", "number": 11, "position": "RW", "country": "IE", "status": "bench" },
+      { "playerId": "player_bg1_006_20", "name": "Mazire Soula", "number": 22, "position": "LW", "country": "FR", "status": "bench" },
+      { "playerId": "player_bg1_006_21", "name": "David Kusso", "number": 27, "position": "ST", "country": "AO", "status": "bench" },
+
+      { "playerId": "player_bg1_006_22", "name": "Ognian Vladimirov", "number": 1, "position": "GK", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_006_23", "name": "Stivan Stoyanchov", "number": 28, "position": "LW", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_006_24", "name": "Ivo Motev", "number": 32, "position": "ST", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_006_25", "name": "Radoslav Kirilov", "number": 99, "position": "RW", "country": "BG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 50,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
