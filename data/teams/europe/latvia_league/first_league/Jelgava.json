@@ -1,12 +1,58 @@
 {
-  "teamKey": "Jelgav",
-
-  "name": "FS Jelgava",
-
-  "logo": "assets/logos/europe/latvia/Jelgava.png",
-
-  "stadium": {
-    "name": "Zemgales Olimpiskais centrs",
-    "capacity": 1560
+    "teamKey": "Jelgav",
+  
+    "name": "FS Jelgava",
+  
+    "logo": "assets/logos/europe/latvia/Jelgava.png",
+  
+    "manager": {
+      "name": "Aleksandrs Basovs",
+      "country": "LV"
+    },
+  
+    "stadium": {
+      "name": "Zemgales Olimpiskais centrs",
+      "capacity": 1560
+    },
+  
+    "players": [
+      {"playerId": "player_lv1_004_01", "name": "Adam Dvorak", "number": 1, "position": "GK", "country": "CZ", "status": "starter"},
+      {"playerId": "player_lv1_004_02", "name": "Kristers Aļekseičiks", "number": 2, "position": "RB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_004_03", "name": "Alans Kangars", "number": 4, "position": "CB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_004_04", "name": "Jegors Novikovs", "number": 5, "position": "CB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_004_05", "name": "Maksims Semeško", "number": 3, "position": "LB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_004_06", "name": "Gļebs Žaleiko", "number": 8, "position": "CM", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_004_07", "name": "Miloš Pudil", "number": 6, "position": "CDM", "country": "CZ", "status": "starter"},
+      {"playerId": "player_lv1_004_08", "name": "Rihards Bečers", "number": 11, "position": "RW", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_004_09", "name": "Kristiāns Bernāns", "number": 10, "position": "CAM", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_004_10", "name": "Gļebs Patika", "number": 7, "position": "LW", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_004_11", "name": "Artūrs Janovskis", "number": 9, "position": "ST", "country": "LV", "status": "starter"},
+  
+      {"playerId": "player_lv1_004_12", "name": "Samuel Belanik", "number": 12, "position": "GK", "country": "SK", "status": "bench"},
+      {"playerId": "player_lv1_004_13", "name": "Aleksandrs Butovskis", "number": 14, "position": "CB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_004_14", "name": "Gļebs Kačanovs", "number": 15, "position": "CB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_004_15", "name": "Ivans Smirnovs", "number": 16, "position": "RB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_004_16", "name": "Toms Leitis", "number": 17, "position": "LB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_004_17", "name": "Emīls Kristers Šmaukstelis", "number": 18, "position": "CM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_004_18", "name": "Vladyslav Ponomorov", "number": 19, "position": "CM", "country": "UA", "status": "bench"},
+      {"playerId": "player_lv1_004_19", "name": "Ādams Dreimanis", "number": 20, "position": "CM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_004_20", "name": "Dāvis Mārtiņš Daugavietis", "number": 21, "position": "RW", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_004_21", "name": "Daniels Ričards Geidāns", "number": 22, "position": "ST", "country": "LV", "status": "bench"},
+  
+      {"playerId": "player_lv1_004_22", "name": "Mārtiņš Veļika", "number": 30, "position": "GK", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_004_23", "name": "Mareks Ķere", "number": 24, "position": "CM", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_004_24", "name": "Ralfs Burtnieks", "number": 25, "position": "ST", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_004_25", "name": "Rihards Ozoliņš", "number": 27, "position": "ST", "country": "LV", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
