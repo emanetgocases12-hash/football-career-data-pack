@@ -1,12 +1,58 @@
 {
-  "teamKey": "Loko S",
+    "teamKey": "Loko S",
 
-  "name": "Lokomotiv Sofia",
+    "name": "Lokomotiv Sofia",
 
-  "logo": "assets/logos/europe/bulgaria/LokomotivSofia.png",
+    "logo": "assets/logos/europe/bulgaria/LokomotivSofia.png",
 
-  "stadium": {
-    "name": "Lokomotiv",
-    "capacity": 11200
+    "manager": {
+      "name": "Lyuboslav Penev",
+      "country": "BG"
+    },
+
+    "stadium": {
+      "name": "Lokomotiv",
+      "capacity": 11200
+    },
+
+    "players": [
+      { "playerId": "player_bg1_007_01", "name": "Aleksandar Lyubenov", "number": 24, "position": "GK", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_007_02", "name": "K. Kostov", "number": 3, "position": "RB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_007_03", "name": "R. Bidounga", "number": 91, "position": "CB", "country": "CG", "status": "starter" },
+      { "playerId": "player_bg1_007_04", "name": "B. Katsarov", "number": 44, "position": "CB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_007_05", "name": "Angel Lyaskov", "number": 14, "position": "LB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_007_06", "name": "Reyan Daskalov", "number": 22, "position": "CDM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_007_07", "name": "Krasimir Stanoev", "number": 31, "position": "CM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_007_08", "name": "Spas Delev", "number": 7, "position": "RW", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_007_09", "name": "Dimitar Kostadinov", "number": 20, "position": "CAM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_007_10", "name": "Adil Taoui", "number": 11, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_bg1_007_11", "name": "Georgi Minchev", "number": 9, "position": "ST", "country": "BG", "status": "starter" },
+
+      { "playerId": "player_bg1_007_12", "name": "M. Velichkov", "number": 99, "position": "GK", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_007_13", "name": "N. Neychev", "number": 42, "position": "CB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_007_14", "name": "E. Gerov", "number": 45, "position": "RB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_007_15", "name": "M. Zahariev", "number": 2, "position": "CB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_007_16", "name": "Erol Dost", "number": 5, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_007_17", "name": "Eirô", "number": 6, "position": "CM", "country": "PT", "status": "bench" },
+      { "playerId": "player_bg1_007_18", "name": "M. Medfai", "number": 16, "position": "CAM", "country": "TN", "status": "bench" },
+      { "playerId": "player_bg1_007_19", "name": "K. Miloshev", "number": 26, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_007_20", "name": "A. Aralica", "number": 29, "position": "ST", "country": "HR", "status": "bench" },
+      { "playerId": "player_bg1_007_21", "name": "Cauê Caruso", "number": 77, "position": "ST", "country": "BR", "status": "bench" },
+
+      { "playerId": "player_bg1_007_22", "name": "T. Tsvetkov", "number": 1, "position": "GK", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_007_23", "name": "K. Chachev", "number": 21, "position": "CM", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_007_24", "name": "M. Papazov", "number": 17, "position": "RW", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_007_25", "name": "N. Penev", "number": 71, "position": "ST", "country": "BG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 91,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
