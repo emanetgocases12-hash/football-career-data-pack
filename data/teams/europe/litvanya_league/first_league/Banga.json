@@ -1,12 +1,58 @@
 {
-  "teamKey": "Banga",
-
-  "name": "FK Banga Gargzdai",
-
-  "logo": "assets/logos/europe/litvanya/Banga.png",
-
-  "stadium": {
-    "name": "Gargždų miesto stadionas",
-    "capacity": 2300
+    "teamKey": "Banga",
+  
+    "name": "FK Banga Gargzdai",
+  
+    "logo": "assets/logos/europe/litvanya/Banga.png",
+  
+    "manager": {
+      "name": "David Afonso",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Gargždų miesto stadionas",
+      "capacity": 2300
+    },
+  
+    "players": [
+      {"playerId": "player_lt1_001_01", "name": "Volodymyr Krynskyi", "number": 1, "position": "GK", "country": "UA", "status": "starter"},
+      {"playerId": "player_lt1_001_02", "name": "Valdas Antužis", "number": 2, "position": "RB", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_001_03", "name": "Ricardo Henning", "number": 27, "position": "CB", "country": "DE", "status": "starter"},
+      {"playerId": "player_lt1_001_04", "name": "Cadu Galvao", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_lt1_001_05", "name": "Natanas Žebrauskas", "number": 13, "position": "LB", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_001_06", "name": "Dovydas Norvilas", "number": 7, "position": "CM", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_001_07", "name": "Vaidas Magdušauskas", "number": 8, "position": "CM", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_001_08", "name": "Kofi Asare", "number": 47, "position": "RW", "country": "GH", "status": "starter"},
+      {"playerId": "player_lt1_001_09", "name": "Rokas Filipavičius", "number": 10, "position": "CAM", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_001_10", "name": "Misaki Sato", "number": 11, "position": "LW", "country": "JP", "status": "starter"},
+      {"playerId": "player_lt1_001_11", "name": "Ignas Venckus", "number": 77, "position": "ST", "country": "LT", "status": "starter"},
+  
+      {"playerId": "player_lt1_001_12", "name": "Armantas Vitkauskas", "number": 12, "position": "GK", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_001_13", "name": "Deividas Lukas", "number": 21, "position": "CM", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_001_14", "name": "Deividas Malžinskas", "number": 24, "position": "RB", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_001_15", "name": "Simao Junior", "number": 4, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_lt1_001_16", "name": "Armandas Razvadauskas", "number": 3, "position": "LB", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_001_17", "name": "Sidas Praleika", "number": 6, "position": "CM", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_001_18", "name": "Matas Ambrazaitis", "number": 22, "position": "CM", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_001_19", "name": "Umaro Cande", "number": 17, "position": "RW", "country": "GW", "status": "bench"},
+      {"playerId": "player_lt1_001_20", "name": "Aaron Olugbogi", "number": 9, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_lt1_001_21", "name": "Maksim Andrejev", "number": 19, "position": "ST", "country": "LT", "status": "bench"},
+  
+      {"playerId": "player_lt1_001_22", "name": "Lukas Grinkevičius", "number": 30, "position": "GK", "country": "LT", "status": "reserve"},
+      {"playerId": "player_lt1_001_23", "name": "Domantas Vaičekauskas", "number": 44, "position": "CB", "country": "LT", "status": "reserve"},
+      {"playerId": "player_lt1_001_24", "name": "Povilas Kasperavičius", "number": 25, "position": "CB", "country": "LT", "status": "reserve"},
+      {"playerId": "player_lt1_001_25", "name": "Vakaris Jurgutis", "number": 28, "position": "CAM", "country": "LT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 77,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 47
+      }
+    }
   }
-}
