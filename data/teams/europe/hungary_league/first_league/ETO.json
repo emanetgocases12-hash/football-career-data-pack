@@ -1,12 +1,58 @@
 {
-  "teamKey": "ETO",
-
-  "name": "ETO FC",
-
-  "logo": "assets/logos/europe/hungary/Gyor.png",
-
-  "stadium": {
-    "name": "ETO-Park",
-    "capacity": 15600
+    "teamKey": "ETO",
+  
+    "name": "ETO FC",
+  
+    "logo": "assets/logos/europe/hungary/Gyor.png",
+  
+    "manager": {
+      "name": "Efraín Juárez",
+      "country": "MX"
+    },
+  
+    "stadium": {
+      "name": "ETO-Park",
+      "capacity": 15600
+    },
+  
+    "players": [
+      {"playerId": "player_hu1_002_01", "name": "Samuel Petráš", "number": 99, "position": "GK", "country": "SK", "status": "starter"},
+      {"playerId": "player_hu1_002_02", "name": "Ștefan Vlădoiu", "number": 2, "position": "RB", "country": "RO", "status": "starter"},
+      {"playerId": "player_hu1_002_03", "name": "Anton Salétros Abrahamsson", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_hu1_002_04", "name": "Leon Balogun", "number": 27, "position": "CB", "country": "DE", "status": "starter"},
+      {"playerId": "player_hu1_002_05", "name": "Daniel Štefulj", "number": 23, "position": "LB", "country": "HR", "status": "starter"},
+      {"playerId": "player_hu1_002_06", "name": "Rajmund Tóth", "number": 6, "position": "CM", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_002_07", "name": "Miljan Krpić", "number": 24, "position": "CDM", "country": "RS", "status": "starter"},
+      {"playerId": "player_hu1_002_08", "name": "Željko Gavrić", "number": 80, "position": "RW", "country": "RS", "status": "starter"},
+      {"playerId": "player_hu1_002_09", "name": "Claudiu Bumba", "number": 10, "position": "CAM", "country": "RO", "status": "starter"},
+      {"playerId": "player_hu1_002_10", "name": "Szabolcs Schön", "number": 17, "position": "LW", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_002_11", "name": "Nfansu Njie", "number": 11, "position": "ST", "country": "GM", "status": "starter"},
+  
+      {"playerId": "player_hu1_002_12", "name": "Balázs Megyeri", "number": 16, "position": "GK", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_002_13", "name": "Márk Csinger", "number": 21, "position": "CB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_002_14", "name": "Ádám Umathum", "number": 26, "position": "CB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_002_15", "name": "Norbert Urblík", "number": 37, "position": "CB", "country": "SK", "status": "bench"},
+      {"playerId": "player_hu1_002_16", "name": "Modou Lamin Mass", "number": 18, "position": "LB", "country": "GM", "status": "bench"},
+      {"playerId": "player_hu1_002_17", "name": "Paul Anton", "number": 5, "position": "CM", "country": "RO", "status": "bench"},
+      {"playerId": "player_hu1_002_18", "name": "Patrik Agba", "number": 7, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_hu1_002_19", "name": "Viktor Đukanović", "number": 34, "position": "LW", "country": "ME", "status": "bench"},
+      {"playerId": "player_hu1_002_20", "name": "Nadhir Benbouali", "number": 71, "position": "ST", "country": "DZ", "status": "bench"},
+      {"playerId": "player_hu1_002_21", "name": "Jovan Živković", "number": 76, "position": "ST", "country": "AT", "status": "bench"},
+  
+      {"playerId": "player_hu1_002_22", "name": "Dániel Brecska", "number": 64, "position": "GK", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_002_23", "name": "Barnabás Bíró", "number": 20, "position": "CB", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_002_24", "name": "Márton Szép", "number": 14, "position": "ST", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_002_25", "name": "Marcell Huszár", "number": 96, "position": "ST", "country": "HU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 80,
+        "cornerRight": 17
+      }
+    }
   }
-}
