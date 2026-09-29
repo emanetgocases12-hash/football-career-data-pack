@@ -1,12 +1,58 @@
 {
-  "teamKey": "Dnmo T",
-
-  "name": "Dinamo Tbilisi",
-
-  "logo": "assets/logos/europe/georgia/DinamoTbilisi.png",
-
-  "stadium": {
-    "name": "Dinamo Arena",
-    "capacity": 55000
+    "teamKey": "Dnmo T",
+  
+    "name": "Dinamo Tbilisi",
+  
+    "logo": "assets/logos/europe/georgia/DinamoTbilisi.png",
+  
+    "manager": {
+      "name": "Temur Ketsbaia",
+      "country": "GE"
+    },
+  
+    "stadium": {
+      "name": "Dinamo Arena",
+      "capacity": 55000
+    },
+  
+    "players": [
+      {"playerId": "player_ge1_003_01", "name": "Giorgi Loria", "number": 1, "position": "GK", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_003_02", "name": "Paris Psaltis", "number": 17, "position": "RB", "country": "CY", "status": "starter"},
+      {"playerId": "player_ge1_003_03", "name": "Aleksandre Kalandadze", "number": 3, "position": "CB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_003_04", "name": "Léo Santos", "number": 6, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_ge1_003_05", "name": "Levan Kharabadze", "number": 31, "position": "LB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_003_06", "name": "Nika Ninua", "number": 22, "position": "CM", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_003_07", "name": "Barnes Osei", "number": 24, "position": "CDM", "country": "GH", "status": "starter"},
+      {"playerId": "player_ge1_003_08", "name": "Maxime Do Couto", "number": 14, "position": "RW", "country": "FR", "status": "starter"},
+      {"playerId": "player_ge1_003_09", "name": "Lyes Houri", "number": 33, "position": "CAM", "country": "FR", "status": "starter"},
+      {"playerId": "player_ge1_003_10", "name": "Daniel Kvartskhava", "number": 21, "position": "LW", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_003_11", "name": "Mate Vatsadze", "number": 11, "position": "ST", "country": "GE", "status": "starter"},
+  
+      {"playerId": "player_ge1_003_12", "name": "Mikheil Makatsaria", "number": 37, "position": "GK", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_003_13", "name": "Nikoloz Ugrekhelidze", "number": 4, "position": "CB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_003_14", "name": "Numan Kurdić", "number": 27, "position": "CB", "country": "BA", "status": "bench"},
+      {"playerId": "player_ge1_003_15", "name": "Giorgi Meparishvili", "number": 15, "position": "RB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_003_16", "name": "Nikolozi Tkalia", "number": 16, "position": "CM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_003_17", "name": "Tornike Kvaratskhelia", "number": 18, "position": "CM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_003_18", "name": "Jaba Kankava", "number": 23, "position": "CM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_003_19", "name": "Luka Tsikolia", "number": 32, "position": "CM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_003_20", "name": "Algassime Bah", "number": 12, "position": "ST", "country": "GN", "status": "bench"},
+      {"playerId": "player_ge1_003_21", "name": "Halid Doltmourziev", "number": 7, "position": "RW", "country": "GE", "status": "bench"},
+  
+      {"playerId": "player_ge1_003_22", "name": "Mate Gagvishvili", "number": 40, "position": "GK", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_003_23", "name": "Rati Aleksidze", "number": 28, "position": "ST", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_003_24", "name": "Mathew Gbomadu", "number": 34, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ge1_003_25", "name": "Gabriel Gogua", "number": 26, "position": "CM", "country": "GE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 22,
+        "cornerLeft": 14,
+        "cornerRight": 33
+      }
+    }
   }
-}
