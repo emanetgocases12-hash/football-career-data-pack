@@ -1,12 +1,58 @@
 {
-  "teamKey": "Sireti",
-
-  "name": "FK Real Sireti",
-
-  "logo": "assets/logos/europe/moldovan/Sireti.png",
-
-  "stadium": {
-    "name": "Stadionul s. Sireti",
-    "capacity": 150
+    "teamKey": "Sireti",
+  
+    "name": "FK Real Sireti",
+  
+    "logo": "assets/logos/europe/moldovan/Sireti.png",
+  
+    "manager": {
+      "name": "Alexandr Bezimov",
+      "country": "MD"
+    },
+  
+    "stadium": {
+      "name": "Stadionul s. Sireti",
+      "capacity": 150
+    },
+  
+    "players": [
+      {"playerId": "player_md1_007_01", "name": "Iulian-Sebastian Agachi", "number": 1, "position": "GK", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_007_02", "name": "Ion Dodon", "number": 2, "position": "RB", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_007_03", "name": "Stefan Burghiu", "number": 3, "position": "CB", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_007_04", "name": "Andrei Sosnovschi", "number": 25, "position": "CB", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_007_05", "name": "Valentin Rebeja", "number": 5, "position": "LB", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_007_06", "name": "Nichita Covali", "number": 18, "position": "CM", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_007_07", "name": "Gheorghe Brinzaniuc", "number": 55, "position": "CM", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_007_08", "name": "Corneliu Cotogoi", "number": 17, "position": "RW", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_007_09", "name": "Oleg Molla", "number": 10, "position": "CAM", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_007_10", "name": "Maxim Blajchin", "number": 11, "position": "LW", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_007_11", "name": "Eugeniu Borovschi", "number": 9, "position": "ST", "country": "MD", "status": "starter"},
+  
+      {"playerId": "player_md1_007_12", "name": "Serghei Obiscalov", "number": 77, "position": "GK", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_007_13", "name": "Nicolai Covalschi", "number": 23, "position": "ST", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_007_14", "name": "Alexandr Ceh", "number": 4, "position": "CB", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_007_15", "name": "Adrian Serbusca", "number": 14, "position": "CB", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_007_16", "name": "Vadim Zalenschi", "number": 15, "position": "LB", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_007_17", "name": "Daniel Lisu", "number": 6, "position": "CM", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_007_18", "name": "Daniel Dosca", "number": 16, "position": "CM", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_007_19", "name": "Daniel Tugulea", "number": 30, "position": "CM", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_007_20", "name": "Bogdan Rosca", "number": 21, "position": "CM", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_007_21", "name": "Antonii Casco", "number": 7, "position": "RW", "country": "MD", "status": "bench"},
+  
+      {"playerId": "player_md1_007_22", "name": "Adrian Munteanu", "number": 96, "position": "GK", "country": "MD", "status": "reserve"},
+      {"playerId": "player_md1_007_23", "name": "Andrei Arabadji", "number": 8, "position": "CM", "country": "MD", "status": "reserve"},
+      {"playerId": "player_md1_007_24", "name": "Evelin Pisica", "number": 33, "position": "ST", "country": "MD", "status": "reserve"},
+      {"playerId": "player_md1_007_25", "name": "Lucian Radu", "number": 70, "position": "CM", "country": "MD", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 17,
+        "cornerRight": 11
+      }
+    }
   }
-}
