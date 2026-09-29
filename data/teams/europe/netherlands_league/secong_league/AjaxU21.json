@@ -1,12 +1,58 @@
-{
-  "teamKey": "Ajax U21",
-
-  "name": "Ajax Amsterdam U21",
-
-  "logo": "assets/logos/europe/netherlands/Ajax2.png",
-
-  "stadium": {
-    "name": "De Toekomst",
-    "capacity": 2250
+ {
+    "teamKey": "Ajax U21",
+  
+    "name": "Ajax Amsterdam U21",
+  
+    "logo": "assets/logos/europe/netherlands/Ajax2.png",
+  
+    "manager": {
+      "name": "Carlos García Badías",
+      "country": "ES"
+    },
+  
+    "stadium": {
+      "name": "De Toekomst",
+      "capacity": 2250
+    },
+  
+    "players": [
+      {"playerId": "player_nl2_002_01", "name": "Joeri Heerkens", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_002_02", "name": "Fouad Zahouani", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_002_03", "name": "Geronimo Spina", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_nl2_002_04", "name": "Marvyn Muzungu", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_002_05", "name": "Jinairo Johnson", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_002_06", "name": "Abdellah Ouazane", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_002_07", "name": "Jan Faberski", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+      {"playerId": "player_nl2_002_08", "name": "Mohamed Abdalla", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_002_09", "name": "Abdoulaye Camara", "number": 10, "position": "CAM", "country": "GN", "status": "starter"},
+      {"playerId": "player_nl2_002_10", "name": "Emre Ünüvar", "number": 9, "position": "ST", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_002_11", "name": "Diego Pugno", "number": 17, "position": "RW", "country": "IT", "status": "starter"},
+  
+      {"playerId": "player_nl2_002_12", "name": "Aymean el Hani", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_002_13", "name": "Mylo van der Lans", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_002_14", "name": "Ryan van de Pavert", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_002_15", "name": "Avery Appiah", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_002_16", "name": "Kennynho Kasanwirjo", "number": 23, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_002_17", "name": "Jano Monserrate", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_002_18", "name": "Damián van der Vaart", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_002_19", "name": "Mark Verkuijl", "number": 20, "position": "CAM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_002_20", "name": "Luca Messori", "number": 21, "position": "RM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_002_21", "name": "Levi Acheampong", "number": 22, "position": "LM", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_nl2_002_22", "name": "Valentijn van der Velde", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_002_23", "name": "Paulo Da Silva", "number": 19, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_nl2_002_24", "name": "Pharrel Nash", "number": 29, "position": "ST", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_002_25", "name": "Anass Moumane", "number": 99, "position": "ST", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
