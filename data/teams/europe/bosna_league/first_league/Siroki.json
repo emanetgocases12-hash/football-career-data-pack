@@ -1,12 +1,58 @@
 {
-  "teamKey": "Siroki",
+    "teamKey": "Siroki",
 
-  "name": "NK Siroki Brijeg",
+    "name": "NK Siroki Brijeg",
 
-  "logo": "assets/logos/europe/bosna/Siroki.png",
+    "logo": "assets/logos/europe/bosna/Siroki.png",
 
-  "stadium": {
-    "name": "Pecara",
-    "capacity": 6000
+    "manager": {
+      "name": "Damir Milanović",
+      "country": "HR"
+    },
+
+    "stadium": {
+      "name": "Pecara",
+      "capacity": 6000
+    },
+
+    "players": [
+      { "playerId": "player_ba1_006_01", "name": "Ivan Puljić", "number": 51, "position": "GK", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_006_02", "name": "Marijan Oršolić", "number": 26, "position": "RB", "country": "HR", "status": "starter" },
+      { "playerId": "player_ba1_006_03", "name": "Bartul Markovina", "number": 5, "position": "CB", "country": "HR", "status": "starter" },
+      { "playerId": "player_ba1_006_04", "name": "Ivan Krstanović", "number": 47, "position": "CB", "country": "HR", "status": "starter" },
+      { "playerId": "player_ba1_006_05", "name": "Ante Bolanča", "number": 3, "position": "LB", "country": "HR", "status": "starter" },
+      { "playerId": "player_ba1_006_06", "name": "Tomislav Tomić", "number": 90, "position": "CDM", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_006_07", "name": "Marko Matić", "number": 18, "position": "CM", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_006_08", "name": "Robert Marijanović", "number": 77, "position": "RW", "country": "HR", "status": "starter" },
+      { "playerId": "player_ba1_006_09", "name": "Mario Mourelo", "number": 80, "position": "CAM", "country": "ES", "status": "starter" },
+      { "playerId": "player_ba1_006_10", "name": "David Virgili Fernandez", "number": 11, "position": "LW", "country": "ES", "status": "starter" },
+      { "playerId": "player_ba1_006_11", "name": "Kristian Sesar", "number": 44, "position": "ST", "country": "BA", "status": "starter" },
+
+      { "playerId": "player_ba1_006_12", "name": "Eugen Ciban", "number": 43, "position": "GK", "country": "HR", "status": "bench" },
+      { "playerId": "player_ba1_006_13", "name": "Mateo Barać", "number": 2, "position": "RB", "country": "HR", "status": "bench" },
+      { "playerId": "player_ba1_006_14", "name": "Lukas Magđinski", "number": 6, "position": "CB", "country": "HR", "status": "bench" },
+      { "playerId": "player_ba1_006_15", "name": "Mateo Soldo", "number": 20, "position": "LB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_006_16", "name": "Matej Hrkać", "number": 29, "position": "RB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_006_17", "name": "Božo Prusina", "number": 4, "position": "CM", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_006_18", "name": "Antoni Bajkuša", "number": 16, "position": "CDM", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_006_19", "name": "Filip Matić", "number": 10, "position": "CAM", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_006_20", "name": "Dominik Simčić", "number": 7, "position": "LW", "country": "HR", "status": "bench" },
+      { "playerId": "player_ba1_006_21", "name": "Luizinho Guedes", "number": 9, "position": "ST", "country": "BR", "status": "bench" },
+
+      { "playerId": "player_ba1_006_22", "name": "Ante Slišković", "number": 12, "position": "GK", "country": "BA", "status": "reserve" },
+      { "playerId": "player_ba1_006_23", "name": "Ivan Jelić", "number": 33, "position": "CM", "country": "BA", "status": "reserve" },
+      { "playerId": "player_ba1_006_24", "name": "Luka Romac", "number": 17, "position": "CDM", "country": "HR", "status": "reserve" },
+      { "playerId": "player_ba1_006_25", "name": "Mario Kordić-Gružić", "number": 8, "position": "CM", "country": "HR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 90,
+      "setPieces": {
+        "penalty": 44,
+        "freeKick": 80,
+        "cornerLeft": 11,
+        "cornerRight": 77
+      }
+    }
   }
-}
