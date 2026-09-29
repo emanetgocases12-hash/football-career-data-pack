@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ludgrt",
+    "teamKey": "Ludgrt",
 
-  "name": "Ludogorets Razgrad",
+    "name": "Ludogorets Razgrad",
 
-  "logo": "assets/logos/europe/bulgaria/Ludogorets.png",
+    "logo": "assets/logos/europe/bulgaria/Ludogorets.png",
 
-  "stadium": {
-    "name": "Huvepharma Arena",
-    "capacity": 10423
+    "manager": {
+      "name": "Thomas Reis",
+      "country": "DE"
+    },
+
+    "stadium": {
+      "name": "Huvepharma Arena",
+      "capacity": 10423
+    },
+
+    "players": [
+      { "playerId": "player_bg1_008_01", "name": "Ivo Grbić", "number": 13, "position": "GK", "country": "HR", "status": "starter" },
+      { "playerId": "player_bg1_008_02", "name": "Joel Andersson", "number": 2, "position": "RB", "country": "SE", "status": "starter" },
+      { "playerId": "player_bg1_008_03", "name": "Hossam Abdelmaguid", "number": 4, "position": "CB", "country": "EG", "status": "starter" },
+      { "playerId": "player_bg1_008_04", "name": "Olivier Verdon", "number": 24, "position": "CB", "country": "BJ", "status": "starter" },
+      { "playerId": "player_bg1_008_05", "name": "Anton Nedyalkov", "number": 3, "position": "LB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_008_06", "name": "Ivaylo Chochev", "number": 18, "position": "CDM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_008_07", "name": "Deroy Duarte", "number": 23, "position": "CM", "country": "CV", "status": "starter" },
+      { "playerId": "player_bg1_008_08", "name": "Bernard Tekpetey", "number": 37, "position": "RW", "country": "GH", "status": "starter" },
+      { "playerId": "player_bg1_008_09", "name": "Nathan Fernandes", "number": 10, "position": "CAM", "country": "BR", "status": "starter" },
+      { "playerId": "player_bg1_008_10", "name": "Caio Vidal", "number": 11, "position": "LW", "country": "BR", "status": "starter" },
+      { "playerId": "player_bg1_008_11", "name": "Kwadwo Duah", "number": 9, "position": "ST", "country": "CH", "status": "starter" },
+
+      { "playerId": "player_bg1_008_12", "name": "Sergio Padt", "number": 1, "position": "GK", "country": "NL", "status": "bench" },
+      { "playerId": "player_bg1_008_13", "name": "Emin Kurtulus", "number": 15, "position": "CB", "country": "SE", "status": "bench" },
+      { "playerId": "player_bg1_008_14", "name": "Son", "number": 17, "position": "RB", "country": "ES", "status": "bench" },
+      { "playerId": "player_bg1_008_15", "name": "Vinícius Nogueira", "number": 27, "position": "LB", "country": "BR", "status": "bench" },
+      { "playerId": "player_bg1_008_16", "name": "Petar Stanić", "number": 14, "position": "CM", "country": "RS", "status": "bench" },
+      { "playerId": "player_bg1_008_17", "name": "Aguibou Camara", "number": 20, "position": "CM", "country": "GN", "status": "bench" },
+      { "playerId": "player_bg1_008_18", "name": "Erick Marcus", "number": 77, "position": "RW", "country": "BR", "status": "bench" },
+      { "playerId": "player_bg1_008_19", "name": "Rwan Cruz", "number": 12, "position": "ST", "country": "BR", "status": "bench" },
+      { "playerId": "player_bg1_008_20", "name": "Alberto Salido", "number": 7, "position": "ST", "country": "ES", "status": "bench" },
+      { "playerId": "player_bg1_008_21", "name": "Stanislav Ivanov", "number": 99, "position": "LW", "country": "BG", "status": "bench" },
+
+      { "playerId": "player_bg1_008_22", "name": "Hendrik Bonmann", "number": 39, "position": "GK", "country": "DE", "status": "reserve" },
+      { "playerId": "player_bg1_008_23", "name": "Idan Nachmias", "number": 55, "position": "CB", "country": "IL", "status": "reserve" },
+      { "playerId": "player_bg1_008_24", "name": "Filip Kaloč", "number": 26, "position": "CM", "country": "CZ", "status": "reserve" },
+      { "playerId": "player_bg1_008_25", "name": "E. Bille", "number": 29, "position": "ST", "country": "CI", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 37,
+        "cornerLeft": 37,
+        "cornerRight": 37
+      }
+    }
   }
-}
