@@ -1,12 +1,58 @@
 {
-  "teamKey": "Wels",
+    "teamKey": "Wels",
 
-  "name": "FC Hertha Wels",
+    "name": "FC Hertha Wels",
 
-  "logo": "assets/logos/europe/austria/Wels.png",
+    "logo": "assets/logos/europe/austria/Wels.png",
 
-  "stadium": {
-    "name": "Huber-Arena Wels",
-    "capacity": 3000
+    "manager": {
+      "name": "Markus Lackner",
+      "country": "AT"
+    },
+
+    "stadium": {
+      "name": "Huber-Arena Wels",
+      "capacity": 3000
+    },
+
+    "players": [
+      { "playerId": "player_at2_016_01", "name": "Christian Lapsin", "number": 31, "position": "GK", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_016_02", "name": "Manuel Thurnwald", "number": 13, "position": "RB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_016_03", "name": "Sebastian Feyrer", "number": 4, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_016_04", "name": "Nicolas Keckeisen", "number": 5, "position": "CB", "country": "DE", "status": "starter" },
+      { "playerId": "player_at2_016_05", "name": "Filip Glibusic", "number": 3, "position": "LB", "country": "HR", "status": "starter" },
+      { "playerId": "player_at2_016_06", "name": "Stefan Haudum", "number": 23, "position": "CDM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_016_07", "name": "Pascal Müller", "number": 6, "position": "CM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_016_08", "name": "Yasin Mankan", "number": 11, "position": "RW", "country": "TR", "status": "starter" },
+      { "playerId": "player_at2_016_09", "name": "Tolgahan Sahin", "number": 10, "position": "CAM", "country": "TR", "status": "starter" },
+      { "playerId": "player_at2_016_10", "name": "Din Barlov", "number": 77, "position": "LW", "country": "BA", "status": "starter" },
+      { "playerId": "player_at2_016_11", "name": "Marek Svec", "number": 7, "position": "ST", "country": "SK", "status": "starter" },
+
+      { "playerId": "player_at2_016_12", "name": "Moritz Schrenk", "number": 33, "position": "GK", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_016_13", "name": "Michael Brugger", "number": 12, "position": "CB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_016_14", "name": "Luca Tischler", "number": 14, "position": "CB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_016_15", "name": "Sebastian Malinowski", "number": 20, "position": "LB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_016_16", "name": "Felix Schneitler", "number": 21, "position": "RB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_016_17", "name": "Kebba Camara", "number": 8, "position": "CM", "country": "GM", "status": "bench" },
+      { "playerId": "player_at2_016_18", "name": "Oliver Kregar", "number": 22, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_016_19", "name": "Nikolas Freund", "number": 40, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_016_20", "name": "Isa Drammeh", "number": 9, "position": "ST", "country": "GM", "status": "bench" },
+      { "playerId": "player_at2_016_21", "name": "Samet Ceri", "number": 18, "position": "ST", "country": "AT", "status": "bench" },
+
+      { "playerId": "player_at2_016_22", "name": "Kilian Schröcker", "number": 44, "position": "GK", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at2_016_23", "name": "Paul Gobara", "number": 28, "position": "CB", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at2_016_24", "name": "Marko Dvorancic", "number": 1, "position": "CM", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at2_016_25", "name": "Tobesch Rahimi", "number": 27, "position": "ST", "country": "AT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 23,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
