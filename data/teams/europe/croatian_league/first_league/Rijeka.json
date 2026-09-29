@@ -1,12 +1,58 @@
 {
-  "teamKey": "Rijeka",
+    "teamKey": "Rijeka",
 
-  "name": "HNK Rijeka",
+    "name": "HNK Rijeka",
 
-  "logo": "assets/logos/europe/croatia/Rijeka.png",
+    "logo": "assets/logos/europe/croatia/Rijeka.png",
 
-  "stadium": {
-    "name": "Stadion Rujevica",
-    "capacity": 8136
+    "manager": {
+      "name": "Matjaž Kek",
+      "country": "SI"
+    },
+
+    "stadium": {
+      "name": "Stadion Rujevica",
+      "capacity": 8136
+    },
+
+    "players": [
+      { "playerId": "player_hr1_007_01", "name": "Aleksa Todorović", "number": 99, "position": "GK", "country": "RS", "status": "starter" },
+      { "playerId": "player_hr1_007_02", "name": "Ante Oreč", "number": 22, "position": "RB", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_007_03", "name": "Ante Majstorović", "number": 45, "position": "CB", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_007_04", "name": "Moreno Živković", "number": 3, "position": "CB", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_007_05", "name": "Mladen Devetak", "number": 34, "position": "LB", "country": "RS", "status": "starter" },
+      { "playerId": "player_hr1_007_06", "name": "Alfonso Barco", "number": 5, "position": "CDM", "country": "PE", "status": "starter" },
+      { "playerId": "player_hr1_007_07", "name": "Tiago Dantas", "number": 26, "position": "CM", "country": "PT", "status": "starter" },
+      { "playerId": "player_hr1_007_08", "name": "Daniel Adu-Adjei", "number": 18, "position": "RW", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_hr1_007_09", "name": "Toni Fruk", "number": 10, "position": "CAM", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_007_10", "name": "Samuele Vignato", "number": 19, "position": "LW", "country": "IT", "status": "starter" },
+      { "playerId": "player_hr1_007_11", "name": "Jakov Puljić", "number": 21, "position": "ST", "country": "HR", "status": "starter" },
+
+      { "playerId": "player_hr1_007_12", "name": "Igor Vekić", "number": 13, "position": "GK", "country": "SI", "status": "bench" },
+      { "playerId": "player_hr1_007_13", "name": "Justas Lasickas", "number": 23, "position": "RB", "country": "LT", "status": "bench" },
+      { "playerId": "player_hr1_007_14", "name": "Anel Husic", "number": 51, "position": "CB", "country": "CH", "status": "bench" },
+      { "playerId": "player_hr1_007_15", "name": "Noel Bodetić", "number": 91, "position": "LB", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_007_16", "name": "Niko Janković", "number": 4, "position": "CM", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_007_17", "name": "Branko Pavić", "number": 6, "position": "CM", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_007_18", "name": "Amer Gojak", "number": 14, "position": "CAM", "country": "BA", "status": "bench" },
+      { "playerId": "player_hr1_007_19", "name": "Yusuf Kabadayi", "number": 7, "position": "RW", "country": "DE", "status": "bench" },
+      { "playerId": "player_hr1_007_20", "name": "Gabriel Rukavina", "number": 11, "position": "LW", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_007_21", "name": "Ante Matej Jurić", "number": 77, "position": "ST", "country": "HR", "status": "bench" },
+
+      { "playerId": "player_hr1_007_22", "name": "Vito Kovač", "number": 1, "position": "GK", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_007_23", "name": "Ivan Ćubelić", "number": 8, "position": "CM", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_007_24", "name": "Mehdi Mohebbi", "number": 9, "position": "RW", "country": "IR", "status": "reserve" },
+      { "playerId": "player_hr1_007_25", "name": "Cherno Saho", "number": 37, "position": "ST", "country": "GM", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 45,
+      "setPieces": {
+        "penalty": 21,
+        "freeKick": 10,
+        "cornerLeft": 19,
+        "cornerRight": 10
+      }
+    }
   }
-}
