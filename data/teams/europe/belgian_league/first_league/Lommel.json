@@ -1,12 +1,58 @@
 {
-  "teamKey": "Lommel",
+    "teamKey": "Lommel",
 
-  "name": "Lommel SK",
+    "name": "Lommel SK",
 
-  "logo": "assets/logos/europe/belgian/Lommel.png",
+    "logo": "assets/logos/europe/belgian/Lommel.png",
 
-  "stadium": {
-    "name": "Soeverein stadion",
-    "capacity": 8231
+    "manager": {
+      "name": "Lee Johnson",
+      "country": "GB-ENG"
+    },
+
+    "stadium": {
+      "name": "Soeverein stadion",
+      "capacity": 8231
+    },
+
+    "players": [
+      { "playerId": "player_be1_009_01", "name": "Nikola Ivezić", "number": 1, "position": "GK", "country": "ME", "status": "starter" },
+      { "playerId": "player_be1_009_02", "name": "Jason van Duiven", "number": 2, "position": "RB", "country": "NL", "status": "starter" },
+      { "playerId": "player_be1_009_03", "name": "Dries Wouters", "number": 5, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_009_04", "name": "Jhon Banguera", "number": 13, "position": "CB", "country": "CO", "status": "starter" },
+      { "playerId": "player_be1_009_05", "name": "Sam de Grand", "number": 79, "position": "LB", "country": "NL", "status": "starter" },
+      { "playerId": "player_be1_009_06", "name": "Joey Pelupessy", "number": 6, "position": "CDM", "country": "ID", "status": "starter" },
+      { "playerId": "player_be1_009_07", "name": "Nicolas Rommens", "number": 8, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be1_009_08", "name": "Juho Talvitie", "number": 7, "position": "RW", "country": "FI", "status": "starter" },
+      { "playerId": "player_be1_009_09", "name": "Sverre Nypan", "number": 41, "position": "CAM", "country": "NO", "status": "starter" },
+      { "playerId": "player_be1_009_10", "name": "Stredair Owusu Appuah", "number": 11, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_be1_009_11", "name": "Don-Angelo Konadu", "number": 9, "position": "ST", "country": "NL", "status": "starter" },
+
+      { "playerId": "player_be1_009_12", "name": "Rik Vercauteren", "number": 33, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_009_14", "name": "Timothy Eyoma", "number": 3, "position": "CB", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_be1_009_15", "name": "Jesper Tolinsson", "number": 14, "position": "CB", "country": "SE", "status": "bench" },
+      { "playerId": "player_be1_009_16", "name": "Henry Oware", "number": 34, "position": "CB", "country": "GH", "status": "bench" },
+      { "playerId": "player_be1_009_17", "name": "Emile Vandecraen", "number": 17, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_009_18", "name": "Josias Lama", "number": 25, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be1_009_19", "name": "Tristan Gooijer", "number": 47, "position": "RB", "country": "NL", "status": "bench" },
+      { "playerId": "player_be1_009_20", "name": "Isaiah Dada-Mascoll", "number": 44, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_be1_009_21", "name": "Djordje Gordić", "number": 22, "position": "CM", "country": "RS", "status": "bench" },
+      { "playerId": "player_be1_009_22", "name": "Ralf Seuntjens", "number": 30, "position": "ST", "country": "NL", "status": "bench" },
+
+      { "playerId": "player_be1_009_13", "name": "Melvin Ramundo", "number": 55, "position": "GK", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_009_23", "name": "Alexander Reumers", "number": 73, "position": "ST", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_009_24", "name": "Niek Corthouts", "number": 46, "position": "ST", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be1_009_25", "name": "Matthias Pieklak", "number": 23, "position": "GK", "country": "BE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
