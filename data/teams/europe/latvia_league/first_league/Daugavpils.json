@@ -1,12 +1,58 @@
 {
-  "teamKey": "Daugav",
-
-  "name": "BFC Daugavpils",
-
-  "logo": "assets/logos/europe/latvia/Daugavpils.png",
-
-  "stadium": {
-    "name": "Stadions Esplanade",
-    "capacity": 610
+    "teamKey": "Daugav",
+  
+    "name": "BFC Daugavpils",
+  
+    "logo": "assets/logos/europe/latvia/Daugavpils.png",
+  
+    "manager": {
+      "name": "Kirils Kurbatovs",
+      "country": "LV"
+    },
+  
+    "stadium": {
+      "name": "Stadions Esplanade",
+      "capacity": 610
+    },
+  
+    "players": [
+      {"playerId": "player_lv1_002_01", "name": "Jānis Beks", "number": 1, "position": "GK", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_002_02", "name": "Rinalds Aizups", "number": 2, "position": "RB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_002_03", "name": "Papa Omar Gningue", "number": 5, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_lv1_002_04", "name": "Gļebs Mihaļcovs", "number": 4, "position": "CB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_002_05", "name": "Ziad Ouled-Haj-M'Hand", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_lv1_002_06", "name": "Raivis Skrebels", "number": 8, "position": "CM", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_002_07", "name": "Ņikita Barkovskis", "number": 6, "position": "CDM", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_002_08", "name": "Elijah Addai", "number": 11, "position": "RW", "country": "GH", "status": "starter"},
+      {"playerId": "player_lv1_002_09", "name": "Ervīns Piņaskins", "number": 10, "position": "CAM", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_002_10", "name": "Abdoul Kader Traore", "number": 7, "position": "LW", "country": "CI", "status": "starter"},
+      {"playerId": "player_lv1_002_11", "name": "Doukumo Wadulu Ayebadiepreye", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+  
+      {"playerId": "player_lv1_002_12", "name": "Vladislavs Razumejevs", "number": 12, "position": "GK", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_002_13", "name": "Ričards Vībāns", "number": 14, "position": "CB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_002_14", "name": "Maksims Aleksejevs", "number": 15, "position": "CB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_002_15", "name": "Jurijs Saveļjevs", "number": 16, "position": "RB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_002_16", "name": "Roberts Voitkevičs", "number": 17, "position": "LB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_002_17", "name": "Daniels Balodis", "number": 18, "position": "CM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_002_18", "name": "Maksims Sidorovs", "number": 19, "position": "CM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_002_19", "name": "Dāvis Cucurs", "number": 20, "position": "CM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_002_20", "name": "Rinolds Baikovs", "number": 21, "position": "ST", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_002_21", "name": "Mamadou Sylla", "number": 22, "position": "ST", "country": "CI", "status": "bench"},
+  
+      {"playerId": "player_lv1_002_22", "name": "Daniels Aroniško", "number": 30, "position": "GK", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_002_23", "name": "Rostand Ndjiki", "number": 24, "position": "ST", "country": "CM", "status": "reserve"},
+      {"playerId": "player_lv1_002_24", "name": "Daniils Ulimbaševs", "number": 25, "position": "RW", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_002_25", "name": "Vladislavs Fjodorovs", "number": 27, "position": "RM", "country": "LV", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
