@@ -1,12 +1,58 @@
 {
-  "teamKey": "Sumgyt",
+    "teamKey": "Sumgyt",
 
-  "name": "Sumgayit PFC",
+    "name": "Sumgayit PFC",
 
-  "logo": "assets/logos/europe/azerbaycan/Sumqayit.png",
+    "logo": "assets/logos/europe/azerbaycan/Sumqayit.png",
 
-  "stadium": {
-    "name": "Mehdi Hüseynzada Stadium",
-    "capacity": 9502
+    "manager": {
+      "name": "Filipe Cândido",
+      "country": "PT"
+    },
+
+    "stadium": {
+      "name": "Mehdi Hüseynzada Stadium",
+      "capacity": 9502
+    },
+
+    "players": [
+      { "playerId": "player_az1_010_01", "name": "Marko Johansson", "number": 16, "position": "GK", "country": "SE", "status": "starter" },
+      { "playerId": "player_az1_010_02", "name": "Tiago Almeida", "number": 21, "position": "RB", "country": "PT", "status": "starter" },
+      { "playerId": "player_az1_010_03", "name": "Easah Suliman", "number": 4, "position": "CB", "country": "PK", "status": "starter" },
+      { "playerId": "player_az1_010_04", "name": "Höccət Haqverdi", "number": 3, "position": "CB", "country": "AZ", "status": "starter" },
+      { "playerId": "player_az1_010_05", "name": "Keffel", "number": 80, "position": "LB", "country": "BR", "status": "starter" },
+      { "playerId": "player_az1_010_06", "name": "Lucas Black", "number": 55, "position": "CDM", "country": "BR", "status": "starter" },
+      { "playerId": "player_az1_010_07", "name": "Emil Mustafayev", "number": 29, "position": "CM", "country": "AZ", "status": "starter" },
+      { "playerId": "player_az1_010_08", "name": "Sabuhi Abdullazade", "number": 8, "position": "RW", "country": "AZ", "status": "starter" },
+      { "playerId": "player_az1_010_09", "name": "Ronaldo Vásquez", "number": 10, "position": "CAM", "country": "DO", "status": "starter" },
+      { "playerId": "player_az1_010_10", "name": "Cedric Badolo", "number": 42, "position": "LW", "country": "BF", "status": "starter" },
+      { "playerId": "player_az1_010_11", "name": "Jeam Oliveira", "number": 9, "position": "ST", "country": "BR", "status": "starter" },
+
+      { "playerId": "player_az1_010_12", "name": "Jeimes", "number": 1, "position": "GK", "country": "BR", "status": "bench" },
+      { "playerId": "player_az1_010_13", "name": "Xəyal Fərzullayev", "number": 22, "position": "GK", "country": "AZ", "status": "bench" },
+      { "playerId": "player_az1_010_14", "name": "Renan", "number": 5, "position": "CB", "country": "BR", "status": "bench" },
+      { "playerId": "player_az1_010_15", "name": "Aykhan Süleymanlı", "number": 20, "position": "CB", "country": "AZ", "status": "bench" },
+      { "playerId": "player_az1_010_16", "name": "Isaac Barker", "number": 27, "position": "RB", "country": "GY", "status": "bench" },
+      { "playerId": "player_az1_010_17", "name": "Kənan Feyziyev", "number": 64, "position": "CB", "country": "AZ", "status": "bench" },
+      { "playerId": "player_az1_010_18", "name": "Nadir Orucov", "number": 75, "position": "LB", "country": "AZ", "status": "bench" },
+      { "playerId": "player_az1_010_19", "name": "Vüsal Paşayev", "number": 97, "position": "RB", "country": "AZ", "status": "bench" },
+      { "playerId": "player_az1_010_20", "name": "Nihad Əhmədzadə", "number": 17, "position": "CM", "country": "AZ", "status": "bench" },
+      { "playerId": "player_az1_010_21", "name": "Roi Kehat", "number": 19, "position": "CM", "country": "IL", "status": "bench" },
+
+      { "playerId": "player_az1_010_22", "name": "Mamady Bangré", "number": 11, "position": "RW", "country": "BF", "status": "reserve" },
+      { "playerId": "player_az1_010_23", "name": "Masaki Murata", "number": 71, "position": "CM", "country": "JP", "status": "reserve" },
+      { "playerId": "player_az1_010_24", "name": "Rüstəm Əhmədzadə", "number": 7, "position": "ST", "country": "AZ", "status": "reserve" },
+      { "playerId": "player_az1_010_25", "name": "Aftandil Arixov", "number": 12, "position": "GK", "country": "AZ", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 8,
+        "cornerRight": 42
+      }
+    }
   }
-}
