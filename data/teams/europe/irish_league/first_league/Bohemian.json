@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bohem",
-
-  "name": "Bohemian Football Club",
-
-  "logo": "assets/logos/europe/irish/Bohemian.png",
-
-  "stadium": {
-    "name": "Dalymount Park",
-    "capacity": 4500
+    "teamKey": "Bohem",
+  
+    "name": "Bohemian Football Club",
+  
+    "logo": "assets/logos/europe/irish/Bohemian.png",
+  
+    "manager": {
+      "name": "Alan Reynolds",
+      "country": "IE"
+    },
+  
+    "stadium": {
+      "name": "Dalymount Park",
+      "capacity": 4500
+    },
+  
+    "players": [
+      {"playerId": "player_ie1_002_01", "name": "Kacper Chorążka", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_ie1_002_02", "name": "Martin Miller", "number": 2, "position": "RB", "country": "EE", "status": "starter"},
+      {"playerId": "player_ie1_002_03", "name": "Cian Byrne", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_002_04", "name": "Aboubacar Keita", "number": 5, "position": "CB", "country": "US", "status": "starter"},
+      {"playerId": "player_ie1_002_05", "name": "Paddy Kirk", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_002_06", "name": "Ross Tierney", "number": 8, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_002_07", "name": "Dawson Devoy", "number": 10, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_002_08", "name": "Dayle Rooney", "number": 11, "position": "RW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_002_09", "name": "James Clarke", "number": 7, "position": "CAM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_002_10", "name": "Daniel Grant", "number": 17, "position": "LW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_002_11", "name": "Colm Whelan", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
+  
+      {"playerId": "player_ie1_002_12", "name": "Sean Moore", "number": 25, "position": "GK", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_002_13", "name": "Rob Cornwall", "number": 6, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_002_14", "name": "James McManus", "number": 14, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_002_15", "name": "Jordan Flores", "number": 20, "position": "CM", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_ie1_002_16", "name": "Declan McDaid", "number": 15, "position": "LW", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_ie1_002_17", "name": "Alex Greive", "number": 18, "position": "ST", "country": "NZ", "status": "bench"},
+      {"playerId": "player_ie1_002_18", "name": "Aaron Doran", "number": 21, "position": "CAM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_002_19", "name": "Archie Meekison", "number": 22, "position": "CM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_ie1_002_20", "name": "Nickson Okosun", "number": 19, "position": "ST", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_002_21", "name": "Adam McDonnell", "number": 16, "position": "CM", "country": "IE", "status": "bench"},
+  
+      {"playerId": "player_ie1_002_22", "name": "Luke Dennison", "number": 30, "position": "GK", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_002_23", "name": "Keith Buckley", "number": 24, "position": "CM", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_002_24", "name": "Liam Smith", "number": 23, "position": "RB", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_ie1_002_25", "name": "Kirk McLaughlin", "number": 28, "position": "ST", "country": "IE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
