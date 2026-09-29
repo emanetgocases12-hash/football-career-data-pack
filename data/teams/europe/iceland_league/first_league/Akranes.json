@@ -1,12 +1,58 @@
 {
-  "teamKey": "Akrane",
-
-  "name": "ÍA Akranes",
-
-  "logo": "assets/logos/europe/iceland/Akranes.png",
-
-  "stadium": {
-    "name": "ELKEM völlurinn",
-    "capacity": 5550
+    "teamKey": "Akrane",
+  
+    "name": "ÍA Akranes",
+  
+    "logo": "assets/logos/europe/iceland/Akranes.png",
+  
+    "manager": {
+      "name": "Lárus Orri Sigurðsson",
+      "country": "IS"
+    },
+  
+    "stadium": {
+      "name": "ELKEM völlurinn",
+      "capacity": 5550
+    },
+  
+    "players": [
+      {"playerId": "player_is1_001_01", "name": "Árni Snær Einarsson", "number": 1, "position": "GK", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_001_02", "name": "Brynjar Óðinn Atlason", "number": 27, "position": "RB", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_001_03", "name": "Bragi Guðlaugur Berndsen", "number": 5, "position": "CB", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_001_04", "name": "Jón Gísli Eyland Gíslason", "number": 66, "position": "CB", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_001_05", "name": "Böðvar Böðvarsson", "number": 21, "position": "LB", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_001_06", "name": "Rúnar Már Sigurjónsson", "number": 16, "position": "CM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_001_07", "name": "Gísli Eyjólfsson", "number": 11, "position": "CM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_001_08", "name": "Hákon Ingi Haraldsson", "number": 7, "position": "RM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_001_09", "name": "Magnús Ellertsson", "number": 25, "position": "LM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_001_10", "name": "Viktor Jónsson", "number": 9, "position": "ST", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_001_11", "name": "Gísli Laxdal Unnarsson", "number": 17, "position": "ST", "country": "IS", "status": "starter"},
+  
+      {"playerId": "player_is1_001_12", "name": "Logi Már Hjaltested", "number": 12, "position": "GK", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_001_13", "name": "Johan Vall", "number": 3, "position": "LB", "country": "SE", "status": "bench"},
+      {"playerId": "player_is1_001_14", "name": "E. Sandberg", "number": 13, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_is1_001_15", "name": "Styrmir Jóhann Ellertsson", "number": 87, "position": "CB", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_001_16", "name": "Ísak Máni Guðjónsson", "number": 20, "position": "LB", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_001_17", "name": "Jón Breki Guðmundsson", "number": 32, "position": "CDM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_001_18", "name": "D. Grzegorzsson", "number": 28, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_001_19", "name": "Ómar Stefánsson", "number": 22, "position": "CAM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_001_20", "name": "Rafael Máni Þrastarson", "number": 18, "position": "RW", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_001_21", "name": "Gabríel Snær Gunnarsson", "number": 15, "position": "ST", "country": "IS", "status": "bench"},
+  
+      {"playerId": "player_is1_001_22", "name": "I. Eidem", "number": 31, "position": "GK", "country": "IS", "status": "reserve"},
+      {"playerId": "player_is1_001_23", "name": "Matthías Daði Gunnarsson", "number": 26, "position": "ST", "country": "IS", "status": "reserve"},
+      {"playerId": "player_is1_001_24", "name": "E. Jóhannesson", "number": 34, "position": "CM", "country": "IS", "status": "reserve"},
+      {"playerId": "player_is1_001_25", "name": "S. Gíslason", "number": 30, "position": "CM", "country": "IS", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-4-2",
+      "captain": 16,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 16,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
