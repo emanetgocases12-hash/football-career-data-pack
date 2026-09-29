@@ -1,12 +1,58 @@
 {
-  "teamKey": "Koldng",
-
-  "name": "Kolding IF",
-
-  "logo": "assets/logos/europe/denmark/Kolding.png",
-
-  "stadium": {
-    "name": "Autocentralen Park",
-    "capacity": 12000
+    "teamKey": "Koldng",
+  
+    "name": "Kolding IF",
+  
+    "logo": "assets/logos/europe/denmark/Kolding.png",
+  
+    "manager": {
+      "name": "Jonas Kamper",
+      "country": "DK"
+    },
+  
+    "stadium": {
+      "name": "Autocentralen Park",
+      "capacity": 12000
+    },
+  
+    "players": [
+      {"playerId": "player_dk2_010_01", "name": "Kyrylo Shushman", "number": 27, "position": "GK", "country": "UA", "status": "starter"},
+      {"playerId": "player_dk2_010_02", "name": "Lasse Laursen", "number": 2, "position": "RB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_010_03", "name": "Albert Nørager", "number": 3, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_010_04", "name": "Gustav Friberg", "number": 5, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_010_05", "name": "Magnus Døj", "number": 21, "position": "LB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_010_06", "name": "Filip Lesniak", "number": 4, "position": "CDM", "country": "SK", "status": "starter"},
+      {"playerId": "player_dk2_010_07", "name": "Markus Soomets", "number": 24, "position": "CM", "country": "EE", "status": "starter"},
+      {"playerId": "player_dk2_010_08", "name": "Tobias Augustinus-Jensen", "number": 7, "position": "RW", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_010_09", "name": "Hans Høllsberg", "number": 19, "position": "CAM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_010_10", "name": "Abdul Arshad", "number": 11, "position": "LW", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_010_11", "name": "Sterling Yatéké", "number": 17, "position": "ST", "country": "CF", "status": "starter"},
+  
+      {"playerId": "player_dk2_010_12", "name": "Adam Danko", "number": 28, "position": "GK", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_010_13", "name": "Aksel Halsgaard", "number": 8, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_010_14", "name": "Anton Klaster", "number": 15, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_010_15", "name": "Mustapha Nyassi", "number": 25, "position": "LB", "country": "GM", "status": "bench"},
+      {"playerId": "player_dk2_010_16", "name": "Pascal Estrada", "number": 33, "position": "CB", "country": "AT", "status": "bench"},
+      {"playerId": "player_dk2_010_17", "name": "Mikkel Lynge", "number": 6, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_010_18", "name": "Nebiyou Perry", "number": 9, "position": "CM", "country": "US", "status": "bench"},
+      {"playerId": "player_dk2_010_19", "name": "Daniel Ingi Jóhannesson", "number": 20, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_dk2_010_20", "name": "Isak Tånnander", "number": 22, "position": "CAM", "country": "SE", "status": "bench"},
+      {"playerId": "player_dk2_010_21", "name": "Vladislav Marozau", "number": 18, "position": "ST", "country": "BY", "status": "bench"},
+  
+      {"playerId": "player_dk2_010_22", "name": "Tobias Elnegaard", "number": 99, "position": "GK", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk2_010_23", "name": "Jonas Hansen", "number": 29, "position": "CB", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk2_010_24", "name": "Alasana Manneh", "number": 34, "position": "CM", "country": "GM", "status": "reserve"},
+      {"playerId": "player_dk2_010_25", "name": "Issa Niare", "number": 26, "position": "ST", "country": "ML", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 17,
+        "freeKick": 19,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
