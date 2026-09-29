@@ -1,12 +1,58 @@
 {
-  "teamKey": "Omonia",
+    "teamKey": "Omonia",
 
-  "name": "Omonia Nicosia",
+    "name": "Omonia Nicosia",
 
-  "logo": "assets/logos/europe/cpyrus/Omonia.png",
+    "logo": "assets/logos/europe/cpyrus/Omonia.png",
 
-  "stadium": {
-    "name": "GSP Stadium",
-    "capacity": 22859
+    "manager": {
+      "name": "Henning Berg",
+      "country": "NO"
+    },
+
+    "stadium": {
+      "name": "GSP Stadium",
+      "capacity": 22859
+    },
+
+    "players": [
+      { "playerId": "player_cy1_011_01", "name": "Thomas Kaminski", "number": 1, "position": "GK", "country": "BE", "status": "starter" },
+      { "playerId": "player_cy1_011_02", "name": "Loïc Négo", "number": 77, "position": "RB", "country": "HU", "status": "starter" },
+      { "playerId": "player_cy1_011_03", "name": "Stefan Simič", "number": 27, "position": "CB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cy1_011_04", "name": "Ľubomír Šatka", "number": 37, "position": "CB", "country": "SK", "status": "starter" },
+      { "playerId": "player_cy1_011_05", "name": "Jure Balkovec", "number": 29, "position": "LB", "country": "SI", "status": "starter" },
+      { "playerId": "player_cy1_011_06", "name": "Ioannis Kousoulos", "number": 31, "position": "CDM", "country": "CY", "status": "starter" },
+      { "playerId": "player_cy1_011_07", "name": "Mateo Marić", "number": 14, "position": "CM", "country": "HR", "status": "starter" },
+      { "playerId": "player_cy1_011_08", "name": "Tasos Chatzigiovanis", "number": 10, "position": "RW", "country": "GR", "status": "starter" },
+      { "playerId": "player_cy1_011_09", "name": "Ewandro", "number": 11, "position": "CAM", "country": "BR", "status": "starter" },
+      { "playerId": "player_cy1_011_10", "name": "Mihlali Mayambela", "number": 21, "position": "LW", "country": "ZA", "status": "starter" },
+      { "playerId": "player_cy1_011_11", "name": "Lois Diony", "number": 99, "position": "ST", "country": "FR", "status": "starter" },
+
+      { "playerId": "player_cy1_011_12", "name": "Fabiano", "number": 40, "position": "GK", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_011_13", "name": "Senou Coulibaly", "number": 5, "position": "CB", "country": "MW", "status": "bench" },
+      { "playerId": "player_cy1_011_14", "name": "Jean-Kevin Duverne", "number": 93, "position": "CB", "country": "HT", "status": "bench" },
+      { "playerId": "player_cy1_011_15", "name": "Panagiotis Andreou", "number": 74, "position": "CM", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_011_16", "name": "Luuk Brouwers", "number": 20, "position": "CM", "country": "NL", "status": "bench" },
+      { "playerId": "player_cy1_011_17", "name": "Muamer Tankovic", "number": 22, "position": "CAM", "country": "SE", "status": "bench" },
+      { "playerId": "player_cy1_011_18", "name": "Florin Tănase", "number": 17, "position": "CAM", "country": "RO", "status": "bench" },
+      { "playerId": "player_cy1_011_19", "name": "Jaden Montnor", "number": 7, "position": "LW", "country": "SR", "status": "bench" },
+      { "playerId": "player_cy1_011_20", "name": "Andronikos Kakoulli", "number": 9, "position": "ST", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_011_21", "name": "Angelos Neophytou", "number": 85, "position": "ST", "country": "CY", "status": "bench" },
+
+      { "playerId": "player_cy1_011_22", "name": "Pantelis Michail", "number": 78, "position": "GK", "country": "CY", "status": "reserve" },
+      { "playerId": "player_cy1_011_23", "name": "Andreas Christou", "number": 82, "position": "CM", "country": "CY", "status": "reserve" },
+      { "playerId": "player_cy1_011_24", "name": "Vladimiros Savva", "number": 87, "position": "RW", "country": "CY", "status": "reserve" },
+      { "playerId": "player_cy1_011_25", "name": "Christos Kittou", "number": 97, "position": "CB", "country": "CY", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 31,
+      "setPieces": {
+        "penalty": 99,
+        "freeKick": 10,
+        "cornerLeft": 21,
+        "cornerRight": 11
+      }
+    }
   }
-}
