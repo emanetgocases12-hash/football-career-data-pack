@@ -1,12 +1,58 @@
 {
-  "teamKey": "Shlbou",
-
-  "name": "Shelbourne FC",
-
-  "logo": "assets/logos/europe/irish/Shelbourne.png",
-
-  "stadium": {
-    "name": "Tolka Park",
-    "capacity": 5723
+    "teamKey": "Shlbou",
+  
+    "name": "Shelbourne FC",
+  
+    "logo": "assets/logos/europe/irish/Shelbourne.png",
+  
+    "manager": {
+      "name": "John Russell",
+      "country": "IE"
+    },
+  
+    "stadium": {
+      "name": "Tolka Park",
+      "capacity": 5723
+    },
+  
+    "players": [
+      {"playerId": "player_ie1_008_01", "name": "Eddie Beach", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_ie1_008_02", "name": "Sean Gannon", "number": 2, "position": "RB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_008_03", "name": "Paddy Barrett", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_008_04", "name": "Sam Bone", "number": 5, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_008_05", "name": "Tyreke Wilson", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_008_06", "name": "Mark Coyle", "number": 8, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_008_07", "name": "John Martin", "number": 10, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_008_08", "name": "Dano Kelly", "number": 7, "position": "RW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_008_09", "name": "Ali Coote", "number": 11, "position": "CAM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_ie1_008_10", "name": "Rayhaan Tulloch", "number": 17, "position": "LW", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_ie1_008_11", "name": "Seán Boyd", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
+  
+      {"playerId": "player_ie1_008_12", "name": "Conor Kearns", "number": 13, "position": "GK", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_008_13", "name": "Marco Untergrabner", "number": 6, "position": "CB", "country": "AT", "status": "bench"},
+      {"playerId": "player_ie1_008_14", "name": "Kameron Ledwidge", "number": 12, "position": "LB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_008_15", "name": "Jonathan Lunney", "number": 16, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_008_16", "name": "Harry Wood", "number": 18, "position": "CAM", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_ie1_008_17", "name": "Evan Caffrey", "number": 20, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_008_18", "name": "Liam Burt", "number": 14, "position": "RW", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_ie1_008_19", "name": "Matthew Smith", "number": 15, "position": "ST", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_ie1_008_20", "name": "Mipo Odubeko", "number": 19, "position": "ST", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_008_21", "name": "Dean Williams", "number": 21, "position": "ST", "country": "IE", "status": "bench"},
+  
+      {"playerId": "player_ie1_008_22", "name": "Lorcan Healy", "number": 30, "position": "GK", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_008_23", "name": "Shane Griffin", "number": 23, "position": "LB", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_008_24", "name": "Conor Kane", "number": 24, "position": "RB", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_008_25", "name": "Sean McManus", "number": 25, "position": "CM", "country": "IE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
