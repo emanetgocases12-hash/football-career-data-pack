@@ -1,12 +1,58 @@
 {
-  "teamKey": "Okzhey",
-
-  "name": "Okzhetpes Kokshetau",
-
-  "logo": "assets/logos/europe/kazak/Okzhey.png",
-
-  "stadium": {
-    "name": "Okzhetpes",
-    "capacity": 4500
+    "teamKey": "Okzhey",
+  
+    "name": "Okzhetpes Kokshetau",
+  
+    "logo": "assets/logos/europe/kazak/Okzhey.png",
+  
+    "manager": {
+      "name": "Rinat Alyuetov",
+      "country": "KZ"
+    },
+  
+    "stadium": {
+      "name": "Okzhetpes",
+      "capacity": 4500
+    },
+  
+    "players": [
+      {"playerId": "player_kz1_009_01", "name": "Mikhail Golubnichi", "number": 1, "position": "GK", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_009_02", "name": "Z. Zhaksylykov", "number": 2, "position": "RB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_009_03", "name": "I. Kuzmichev", "number": 4, "position": "CB", "country": "RU", "status": "starter"},
+      {"playerId": "player_kz1_009_04", "name": "Léo Assunpção", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_kz1_009_05", "name": "B. Lototskyi", "number": 3, "position": "LB", "country": "UA", "status": "starter"},
+      {"playerId": "player_kz1_009_06", "name": "Vladislav Vassilyev", "number": 47, "position": "CM", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_009_07", "name": "V. Sovpel", "number": 23, "position": "CM", "country": "BY", "status": "starter"},
+      {"playerId": "player_kz1_009_08", "name": "Yerkebulan Nurgaliyev", "number": 10, "position": "RW", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_009_09", "name": "Marcinho", "number": 8, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_kz1_009_10", "name": "D. Borodin", "number": 9, "position": "LW", "country": "BY", "status": "starter"},
+      {"playerId": "player_kz1_009_11", "name": "Toktar Zhangylyshbay", "number": 11, "position": "ST", "country": "KZ", "status": "starter"},
+  
+      {"playerId": "player_kz1_009_12", "name": "Miroslav Lobantsev", "number": 22, "position": "GK", "country": "RU", "status": "bench"},
+      {"playerId": "player_kz1_009_13", "name": "V. Zyabko", "number": 14, "position": "CB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_009_14", "name": "B. Abdumannonov", "number": 91, "position": "LB", "country": "UZ", "status": "bench"},
+      {"playerId": "player_kz1_009_15", "name": "S. Mukanov", "number": 16, "position": "RB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_009_16", "name": "B. Shamshi", "number": 15, "position": "CB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_009_17", "name": "R. Atykhanov", "number": 67, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_009_18", "name": "Vladimir Vomenko", "number": 7, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_009_19", "name": "A. Nurymbet", "number": 17, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_009_20", "name": "O. Ömırtaev", "number": 19, "position": "ST", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_009_21", "name": "V. Sadovskiy", "number": 29, "position": "ST", "country": "BY", "status": "bench"},
+  
+      {"playerId": "player_kz1_009_22", "name": "A. Dovgal", "number": 31, "position": "GK", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_009_23", "name": "N. Mikhailov", "number": 55, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_009_24", "name": "D. Trubitsin", "number": 44, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_009_25", "name": "S. Umarov", "number": 28, "position": "ST", "country": "UZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 8,
+        "cornerRight": 9
+      }
+    }
   }
-}
