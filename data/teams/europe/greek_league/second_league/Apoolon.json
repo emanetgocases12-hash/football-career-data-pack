@@ -1,12 +1,58 @@
 {
-  "teamKey": "A.Kala",
-
-  "name": "Apollon Kalamaria",
-
-  "logo": "assets/logos/europe/greek/Apoolon.png",
-
-  "stadium": {
-    "name": "Vasilis Triantafyllidis",
-    "capacity": 6500
+    "teamKey": "A.Kala",
+  
+    "name": "Apollon Kalamaria",
+  
+    "logo": "assets/logos/europe/greek/Apoolon.png",
+  
+    "manager": {
+      "name": "Giannis Tatsis",
+      "country": "GR"
+    },
+  
+    "stadium": {
+      "name": "Vasilis Triantafyllidis",
+      "capacity": 6500
+    },
+  
+    "players": [
+      {"playerId": "player_gr2_002_01", "name": "Vangelis Syllektis", "number": 1, "position": "GK", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_002_02", "name": "Panagiotis Xygoros", "number": 23, "position": "RB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_002_03", "name": "Mateo Pérez", "number": 2, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_gr2_002_04", "name": "Thomas Tsiboukas", "number": 5, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_002_05", "name": "Georgios Tsapakidis", "number": 21, "position": "LB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_002_06", "name": "Alexandros Piastopoulos", "number": 6, "position": "CM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_002_07", "name": "Donaldo Acka", "number": 24, "position": "CDM", "country": "AL", "status": "starter"},
+      {"playerId": "player_gr2_002_08", "name": "Georgios Ganopoulos", "number": 17, "position": "RW", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_002_09", "name": "Thomas Karaberis", "number": 10, "position": "CAM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_002_10", "name": "Alexandros Kedikoglou", "number": 11, "position": "LW", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_002_11", "name": "Themistoklis Patrinos", "number": 9, "position": "ST", "country": "GR", "status": "starter"},
+  
+      {"playerId": "player_gr2_002_12", "name": "Evangelos Trigatzis", "number": 33, "position": "GK", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_002_13", "name": "Dimitrios Sgouris", "number": 3, "position": "CB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_002_14", "name": "Zog Djaloshi", "number": 44, "position": "CB", "country": "AL", "status": "bench"},
+      {"playerId": "player_gr2_002_15", "name": "Georgios Manolakis", "number": 77, "position": "LB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_002_16", "name": "Athanasios Papathanasiou", "number": 4, "position": "LB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_002_17", "name": "Georgios Prountzos", "number": 8, "position": "CDM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_002_18", "name": "Labros Moustakas", "number": 18, "position": "CAM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_002_19", "name": "Spyros Zacharioudakis", "number": 16, "position": "CDM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_002_20", "name": "Juan Cruz Kaprof", "number": 7, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_gr2_002_21", "name": "Jean-Baptiste Léo", "number": 29, "position": "ST", "country": "MF", "status": "bench"},
+  
+      {"playerId": "player_gr2_002_22", "name": "Ilias Kyritsis", "number": 97, "position": "GK", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr2_002_23", "name": "Tafsir Diop", "number": 30, "position": "ST", "country": "SN", "status": "reserve"},
+      {"playerId": "player_gr2_002_24", "name": "Konstantinos Voriazidis", "number": 19, "position": "RW", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr2_002_25", "name": "Vasilios Athanasiou", "number": 67, "position": "RW", "country": "GR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 17
+      }
+    }
   }
-}
