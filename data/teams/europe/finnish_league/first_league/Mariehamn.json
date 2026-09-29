@@ -1,12 +1,58 @@
 {
-  "teamKey": "Marieh",
-
-  "name": "IFK Mariehamn",
-
-  "logo": "assets/logos/europe/finland/Mariehamn.png",
-
-  "stadium": {
-    "name": "Wiklöf Holding Arena",
-    "capacity": 1635
+    "teamKey": "Marieh",
+  
+    "name": "IFK Mariehamn",
+  
+    "logo": "assets/logos/europe/finland/Mariehamn.png",
+  
+    "manager": {
+      "name": "Gary Williams",
+      "country": "GB-WLS"
+    },
+  
+    "stadium": {
+      "name": "Wiklöf Holding Arena",
+      "capacity": 1635
+    },
+  
+    "players": [
+      {"playerId": "player_fi1_008_01", "name": "Matias Riikonen", "number": 32, "position": "GK", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_008_02", "name": "Albin Granlund", "number": 22, "position": "RB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_008_03", "name": "Foster Gyamfi", "number": 3, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_fi1_008_04", "name": "Mikko Sumusalo", "number": 4, "position": "CB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_008_05", "name": "Hugo Cardoso", "number": 5, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_fi1_008_06", "name": "Jonathan Svedberg", "number": 8, "position": "CM", "country": "SE", "status": "starter"},
+      {"playerId": "player_fi1_008_07", "name": "Robin Sid", "number": 10, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_008_08", "name": "Adam Larsson", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_fi1_008_09", "name": "Oskari Sallinen", "number": 14, "position": "CAM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_008_10", "name": "Eero Tamminen", "number": 11, "position": "LW", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_008_11", "name": "Hugo Tavares", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_fi1_008_12", "name": "Kevin Lund", "number": 1, "position": "GK", "country": "SE", "status": "bench"},
+      {"playerId": "player_fi1_008_13", "name": "Noah Nurmi", "number": 6, "position": "CB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_008_14", "name": "Albin Mörfelt", "number": 15, "position": "LB", "country": "SE", "status": "bench"},
+      {"playerId": "player_fi1_008_15", "name": "Miro Tenho", "number": 16, "position": "CB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_008_16", "name": "Sebastian Dahlström", "number": 17, "position": "CM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_008_17", "name": "Oskari Laaksonen", "number": 18, "position": "CM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_008_18", "name": "Leo Andersson", "number": 19, "position": "RW", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_008_19", "name": "Samu Alanko", "number": 20, "position": "ST", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_008_20", "name": "Miro Mäkinen", "number": 21, "position": "CAM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_008_21", "name": "Liam Andersson", "number": 23, "position": "LW", "country": "FI", "status": "bench"},
+  
+      {"playerId": "player_fi1_008_22", "name": "Joel Mattsson", "number": 12, "position": "GK", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_008_23", "name": "Daniel Enqvist", "number": 24, "position": "RB", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_008_24", "name": "Emil Öhberg", "number": 25, "position": "CM", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_008_25", "name": "Mohamed Olawale", "number": 26, "position": "ST", "country": "NG", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
