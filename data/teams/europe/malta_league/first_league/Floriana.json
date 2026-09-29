@@ -1,12 +1,58 @@
 {
-  "teamKey": "Floria",
-
-  "name": "Floriana FC",
-
-  "logo": "assets/logos/europe/malta/Floriana.png",
-
-  "stadium": {
-    "name": "Independence Ground",
-    "capacity": 3000
+    "teamKey": "Floria",
+  
+    "name": "Floriana FC",
+  
+    "logo": "assets/logos/europe/malta/Floriana.png",
+  
+    "manager": {
+      "name": "Daniel Portela",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Independence Ground",
+      "capacity": 3000
+    },
+  
+    "players": [
+      {"playerId": "player_mt1_004_01", "name": "Guilherme Cioletti", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_mt1_004_02", "name": "Carlo Zammit Lonardelli", "number": 2, "position": "RB", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_004_03", "name": "Amar Drina", "number": 20, "position": "CB", "country": "BA", "status": "starter"},
+      {"playerId": "player_mt1_004_04", "name": "Kauan", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_mt1_004_05", "name": "Myles Beerman", "number": 3, "position": "LB", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_004_06", "name": "Alen Kurtalic", "number": 6, "position": "CM", "country": "SI", "status": "starter"},
+      {"playerId": "player_mt1_004_07", "name": "Dunstan Vella", "number": 8, "position": "CM", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_004_08", "name": "Robert Muric", "number": 11, "position": "RW", "country": "HR", "status": "starter"},
+      {"playerId": "player_mt1_004_09", "name": "Federico Varela", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_mt1_004_10", "name": "Paul Mbong", "number": 7, "position": "LW", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_004_11", "name": "Tomislav Gudelj", "number": 9, "position": "ST", "country": "HR", "status": "starter"},
+  
+      {"playerId": "player_mt1_004_12", "name": "Kian Saliba", "number": 12, "position": "GK", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_004_13", "name": "Zachary Cassar", "number": 14, "position": "CB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_004_14", "name": "Alex Cini", "number": 15, "position": "CB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_004_15", "name": "Owen Spiteri", "number": 17, "position": "CM", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_004_16", "name": "Yassine Jbira", "number": 18, "position": "LW", "country": "MA", "status": "bench"},
+      {"playerId": "player_mt1_004_17", "name": "Ange Curtis N'Dri", "number": 19, "position": "RW", "country": "CI", "status": "bench"},
+      {"playerId": "player_mt1_004_18", "name": "Zyas Vella Newell", "number": 21, "position": "CM", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_004_19", "name": "Denzel Attard", "number": 22, "position": "ST", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_004_20", "name": "Kenan Dervisagic", "number": 23, "position": "ST", "country": "BA", "status": "bench"},
+      {"playerId": "player_mt1_004_21", "name": "Jake Grech", "number": 24, "position": "CM", "country": "MT", "status": "bench"},
+  
+      {"playerId": "player_mt1_004_22", "name": "Alexey Micallef", "number": 30, "position": "GK", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_004_23", "name": "Matteo Piciollo", "number": 25, "position": "RW", "country": "IT", "status": "reserve"},
+      {"playerId": "player_mt1_004_24", "name": "Nikolai Muscat", "number": 26, "position": "CM", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_004_25", "name": "Rafael Vella", "number": 27, "position": "LB", "country": "MT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 20,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
