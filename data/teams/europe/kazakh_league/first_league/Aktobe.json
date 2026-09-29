@@ -1,12 +1,58 @@
 {
-  "teamKey": "Aktobe",
-
-  "name": "FC Aktobe",
-
-  "logo": "assets/logos/europe/kazak/Aktobe.png",
-
-  "stadium": {
-    "name": "Central Stadium Aktobe",
-    "capacity": 12729
+    "teamKey": "Aktobe",
+  
+    "name": "FC Aktobe",
+  
+    "logo": "assets/logos/europe/kazak/Aktobe.png",
+  
+    "manager": {
+      "name": "Štefan Tarkovič",
+      "country": "SK"
+    },
+  
+    "stadium": {
+      "name": "Central Stadium Aktobe",
+      "capacity": 12729
+    },
+  
+    "players": [
+      {"playerId": "player_kz1_001_01", "name": "Alexandr Zarutskiy", "number": 1, "position": "GK", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_001_02", "name": "Bagdat Kairov", "number": 17, "position": "RB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_001_03", "name": "Ivan Ordets", "number": 44, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_kz1_001_04", "name": "Danilo Mitrović", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_kz1_001_05", "name": "Senna Miangue", "number": 3, "position": "LB", "country": "BE", "status": "starter"},
+      {"playerId": "player_kz1_001_06", "name": "Georgi Zhukov", "number": 6, "position": "CM", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_001_07", "name": "Nikita Korzun", "number": 18, "position": "CDM", "country": "BY", "status": "starter"},
+      {"playerId": "player_kz1_001_08", "name": "Sheyi Ojo", "number": 11, "position": "RW", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_kz1_001_09", "name": "Giorgi Zaria", "number": 10, "position": "CAM", "country": "GE", "status": "starter"},
+      {"playerId": "player_kz1_001_10", "name": "Dmytro Topalov", "number": 7, "position": "LW", "country": "UA", "status": "starter"},
+      {"playerId": "player_kz1_001_11", "name": "Abat Aimbetov", "number": 9, "position": "ST", "country": "KZ", "status": "starter"},
+  
+      {"playerId": "player_kz1_001_12", "name": "Igor Trofimets", "number": 30, "position": "GK", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_001_13", "name": "Timur Dosmagambetov", "number": 5, "position": "LB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_001_14", "name": "Adilkhan Tanzharikov", "number": 20, "position": "RB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_001_15", "name": "Temirlan Erlanov", "number": 23, "position": "CB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_001_16", "name": "Arman Kenesov", "number": 8, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_001_17", "name": "Jani Atanasov", "number": 21, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_kz1_001_18", "name": "Pablo Álvarez", "number": 14, "position": "CM", "country": "ES", "status": "bench"},
+      {"playerId": "player_kz1_001_19", "name": "Yerkebulan Seydakhmet", "number": 19, "position": "RW", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_001_20", "name": "Artur Shushenachev", "number": 13, "position": "ST", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_001_21", "name": "A. Pastoriza", "number": 99, "position": "ST", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_kz1_001_22", "name": "S. Kusayynov", "number": 31, "position": "GK", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_001_23", "name": "A. Zeljković", "number": 27, "position": "ST", "country": "SE", "status": "reserve"},
+      {"playerId": "player_kz1_001_24", "name": "D. Sosah", "number": 29, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_kz1_001_25", "name": "Nani", "number": 39, "position": "RW", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 17,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
