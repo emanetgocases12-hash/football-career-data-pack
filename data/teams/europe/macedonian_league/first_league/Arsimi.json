@@ -1,12 +1,58 @@
 {
-  "teamKey": "Arsimi",
-
-  "name": "Arsimi",
-
-  "logo": "assets/logos/europe/macedonian/Arsimi.png",
-
-  "stadium": {
-    "name": "Gradski Stadion Gostivar",
-    "capacity": 1000
+    "teamKey": "Arsimi",
+  
+    "name": "Arsimi",
+  
+    "logo": "assets/logos/europe/macedonian/Arsimi.png",
+  
+    "manager": {
+      "name": "Bujar Islami",
+      "country": "MK"
+    },
+  
+    "stadium": {
+      "name": "Gradski Stadion Gostivar",
+      "capacity": 1000
+    },
+  
+    "players": [
+      {"playerId": "player_mk1_002_01", "name": "Adem Aliu", "number": 1, "position": "GK", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_002_02", "name": "Arbnor Ramadani", "number": 2, "position": "RB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_002_03", "name": "Besart Iseni", "number": 4, "position": "CB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_002_04", "name": "Ardit Jusufi", "number": 5, "position": "CB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_002_05", "name": "Erion Selmani", "number": 3, "position": "LB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_002_06", "name": "Valon Zekiri", "number": 8, "position": "CM", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_002_07", "name": "Fisnik Aliu", "number": 6, "position": "CDM", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_002_08", "name": "Ermal Bajrami", "number": 11, "position": "RW", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_002_09", "name": "Altin Ademi", "number": 10, "position": "CAM", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_002_10", "name": "Egzon Rexhepi", "number": 7, "position": "LW", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_002_11", "name": "Leart Murati", "number": 9, "position": "ST", "country": "MK", "status": "starter"},
+  
+      {"playerId": "player_mk1_002_12", "name": "Liridon Halimi", "number": 12, "position": "GK", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_002_13", "name": "Driton Salihu", "number": 14, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_002_14", "name": "Arian Ramadani", "number": 15, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_002_15", "name": "Amir Useini", "number": 16, "position": "RB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_002_16", "name": "Lorik Hasani", "number": 17, "position": "LB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_002_17", "name": "Blendi Saiti", "number": 18, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_002_18", "name": "Arber Qerimi", "number": 20, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_002_19", "name": "Valmir Ibraimi", "number": 21, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_002_20", "name": "Arjan Demiri", "number": 22, "position": "RW", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_002_21", "name": "Besnik Muarem", "number": 19, "position": "ST", "country": "MK", "status": "bench"},
+  
+      {"playerId": "player_mk1_002_22", "name": "Arlind Veseli", "number": 30, "position": "GK", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_002_23", "name": "Dion Krasniqi", "number": 24, "position": "CM", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_002_24", "name": "Endrit Ramadani", "number": 27, "position": "ST", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_002_25", "name": "Rinor Islami", "number": 29, "position": "LW", "country": "MK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
