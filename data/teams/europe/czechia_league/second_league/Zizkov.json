@@ -43,3 +43,16 @@
       { "playerId": "player_cz2_016_23", "name": "Mustapha Badjie", "number": 19, "position": "CM", "country": "GM", "status": "reserve" },
       { "playerId": "player_cz2_016_24", "name": "David Huf", "number": 28, "position": "ST", "country": "CZ", "status": "reserve" },
       { "playerId": "player_cz2_016_25", "name": "Ousman Kujabi", "number": 13, "position": "ST", "country": "GM", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 20,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 18,
+        "cornerLeft": 15,
+        "cornerRight": 7
+      }
+    }
+  }
