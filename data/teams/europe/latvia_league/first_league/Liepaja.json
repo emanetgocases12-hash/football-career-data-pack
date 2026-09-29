@@ -1,12 +1,58 @@
 {
-  "teamKey": "Liepaj",
-
-  "name": "FK Liepaja",
-
-  "logo": "assets/logos/europe/latvia/Liepaja.png",
-
-  "stadium": {
-    "name": "Daugava",
-    "capacity": 4022
+    "teamKey": "Liepaj",
+  
+    "name": "FK Liepaja",
+  
+    "logo": "assets/logos/europe/latvia/Liepaja.png",
+  
+    "manager": {
+      "name": "Gert Andreas Alm",
+      "country": "SE"
+    },
+  
+    "stadium": {
+      "name": "Daugava",
+      "capacity": 4022
+    },
+  
+    "players": [
+      {"playerId": "player_lv1_005_01", "name": "Danijel Petkovic", "number": 1, "position": "GK", "country": "ME", "status": "starter"},
+      {"playerId": "player_lv1_005_02", "name": "Kirils Iļjins", "number": 2, "position": "RB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_005_03", "name": "Vjačeslavs Isajevs", "number": 6, "position": "CB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_005_04", "name": "Bart Straalman", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_lv1_005_05", "name": "Vladislavs Sorokins", "number": 3, "position": "LB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_005_06", "name": "Dodo", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_lv1_005_07", "name": "Oļegs Laizāns", "number": 10, "position": "CM", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_005_08", "name": "Marvin Martins", "number": 7, "position": "RW", "country": "LU", "status": "starter"},
+      {"playerId": "player_lv1_005_09", "name": "Amilcar Silva", "number": 11, "position": "CAM", "country": "FR", "status": "starter"},
+      {"playerId": "player_lv1_005_10", "name": "Daniils Ulimbaševs", "number": 17, "position": "LW", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_005_11", "name": "Dario Šits", "number": 9, "position": "ST", "country": "LV", "status": "starter"},
+  
+      {"playerId": "player_lv1_005_12", "name": "Dāvis Ošs", "number": 12, "position": "GK", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_005_13", "name": "Mory Junior Cisse", "number": 14, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_lv1_005_14", "name": "Joao Pedro Borges", "number": 15, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_lv1_005_15", "name": "Iļja Korotkovs", "number": 16, "position": "CB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_005_16", "name": "Roberts Zelmanis", "number": 18, "position": "LB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_005_17", "name": "Danila Patijčuks", "number": 20, "position": "CM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_005_18", "name": "Ivans Patrikejevs", "number": 21, "position": "CM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_005_19", "name": "Oluwatimilehin Ogunniyi", "number": 19, "position": "RW", "country": "NG", "status": "bench"},
+      {"playerId": "player_lv1_005_20", "name": "Eduards Tīdenbergs", "number": 22, "position": "CAM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_005_21", "name": "Artūrs Karašausks", "number": 23, "position": "ST", "country": "LV", "status": "bench"},
+  
+      {"playerId": "player_lv1_005_22", "name": "Alvis Sorokins", "number": 30, "position": "GK", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_005_23", "name": "Dāvis Ikaunieks", "number": 24, "position": "ST", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_005_24", "name": "Mārtiņš Ķigurs", "number": 25, "position": "CM", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_005_25", "name": "Seydou Sano", "number": 27, "position": "CB", "country": "SN", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
