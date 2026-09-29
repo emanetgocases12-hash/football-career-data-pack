@@ -1,12 +1,58 @@
 {
-  "teamKey": "Sligo R",
-
-  "name": "Sligo Rovers",
-
-  "logo": "assets/logos/europe/irish/Sligo.png",
-
-  "stadium": {
-    "name": "The Showgrounds",
-    "capacity": 3873
+    "teamKey": "Sligo R",
+  
+    "name": "Sligo Rovers",
+  
+    "logo": "assets/logos/europe/irish/Sligo.png",
+  
+    "manager": {
+      "name": "Darren Purse",
+      "country": "GB-ENG"
+    },
+  
+    "stadium": {
+      "name": "The Showgrounds",
+      "capacity": 3873
+    },
+  
+    "players": [
+      {"playerId": "player_ie1_009_01", "name": "Ed McGinty", "number": 1, "position": "GK", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_009_02", "name": "Reece Hutchinson", "number": 2, "position": "RB", "country": "GB-NIR", "status": "starter"},
+      {"playerId": "player_ie1_009_03", "name": "Nando Pijnaker", "number": 4, "position": "CB", "country": "NZ", "status": "starter"},
+      {"playerId": "player_ie1_009_04", "name": "John Ross Wilson", "number": 5, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_009_05", "name": "John Mahon", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_009_06", "name": "Carl McHugh", "number": 6, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_009_07", "name": "Connor Malley", "number": 8, "position": "CM", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_ie1_009_08", "name": "Will Fitzgerald", "number": 11, "position": "RW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_009_09", "name": "Ellis Chapman", "number": 10, "position": "CAM", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_ie1_009_10", "name": "Stephen Mallon", "number": 7, "position": "LW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_009_11", "name": "Wilson Waweru", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
+  
+      {"playerId": "player_ie1_009_12", "name": "Richard Brush", "number": 30, "position": "GK", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_ie1_009_13", "name": "Garry Buckley", "number": 26, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_009_14", "name": "Ollie Denham", "number": 15, "position": "CB", "country": "GB-WLS", "status": "bench"},
+      {"playerId": "player_ie1_009_15", "name": "Simon Power", "number": 14, "position": "RW", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_009_16", "name": "Niall Morahan", "number": 17, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_009_17", "name": "Kailin Barlow", "number": 18, "position": "CAM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_009_18", "name": "Owen Elding", "number": 19, "position": "ST", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_009_19", "name": "Max Mata", "number": 22, "position": "ST", "country": "NZ", "status": "bench"},
+      {"playerId": "player_ie1_009_20", "name": "Darragh Markey", "number": 20, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_009_21", "name": "Luke Pearce", "number": 21, "position": "ST", "country": "IE", "status": "bench"},
+  
+      {"playerId": "player_ie1_009_22", "name": "Conor Walsh", "number": 40, "position": "GK", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_009_23", "name": "Dylan Watts", "number": 24, "position": "CM", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_009_24", "name": "Seamas Keogh", "number": 25, "position": "CM", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_009_25", "name": "Cian Kavanagh", "number": 29, "position": "ST", "country": "IE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
