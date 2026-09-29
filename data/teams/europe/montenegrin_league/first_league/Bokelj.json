@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bokelj",
-
-  "name": "FK Bokelj",
-
-  "logo": "assets/logos/europe/montengro/Bokelj.png",
-
-  "stadium": {
-    "name": "Stadion pod Vrmcem",
-    "capacity": 1500
+    "teamKey": "Bokelj",
+  
+    "name": "FK Bokelj",
+  
+    "logo": "assets/logos/europe/montengro/Bokelj.png",
+  
+    "manager": {
+      "name": "Nenad Brnović",
+      "country": "ME"
+    },
+  
+    "stadium": {
+      "name": "Stadion pod Vrmcem",
+      "capacity": 1500
+    },
+  
+    "players": [
+      {"playerId": "player_me1_001_01", "name": "Nemanja Lemajić", "number": 1, "position": "GK", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_001_02", "name": "Saša Vico", "number": 2, "position": "RB", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_001_03", "name": "Dominik Dinga", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_me1_001_04", "name": "Miloš Čavor", "number": 5, "position": "CB", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_001_05", "name": "Aleksa Kumburović", "number": 3, "position": "LB", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_001_06", "name": "Vladan Bubanja", "number": 6, "position": "CDM", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_001_07", "name": "Matheus Marcondele", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_me1_001_08", "name": "Vitinho", "number": 7, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_me1_001_09", "name": "Bojan Radević", "number": 10, "position": "CAM", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_001_10", "name": "Ferid Muković", "number": 11, "position": "LW", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_001_11", "name": "Danin Talović", "number": 9, "position": "ST", "country": "ME", "status": "starter"},
+  
+      {"playerId": "player_me1_001_12", "name": "Savo Vukčević", "number": 12, "position": "GK", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_001_13", "name": "M. Kuč", "number": 22, "position": "ST", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_001_14", "name": "B. Ćetković", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_001_15", "name": "Aleksa Krivokapić", "number": 15, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_001_16", "name": "Stefan Mršulja", "number": 16, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_001_17", "name": "Nikola Đurović", "number": 17, "position": "LB", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_001_18", "name": "B. Nurković", "number": 18, "position": "CM", "country": "BA", "status": "bench"},
+      {"playerId": "player_me1_001_19", "name": "Nikola Radusinović", "number": 20, "position": "CM", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_001_20", "name": "Igor Poček", "number": 19, "position": "ST", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_001_21", "name": "Dejan Perović", "number": 21, "position": "ST", "country": "ME", "status": "bench"},
+  
+      {"playerId": "player_me1_001_22", "name": "D. Ćetković", "number": 30, "position": "GK", "country": "ME", "status": "reserve"},
+      {"playerId": "player_me1_001_23", "name": "B. Đorđević", "number": 23, "position": "ST", "country": "ME", "status": "reserve"},
+      {"playerId": "player_me1_001_24", "name": "A. Musah", "number": 24, "position": "ST", "country": "GH", "status": "reserve"},
+      {"playerId": "player_me1_001_25", "name": "L. Maraš", "number": 25, "position": "ST", "country": "ME", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
