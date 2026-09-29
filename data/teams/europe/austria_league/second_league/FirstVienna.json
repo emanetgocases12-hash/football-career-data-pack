@@ -1,12 +1,58 @@
 {
-  "teamKey": "F Wien",
+    "teamKey": "F Wien",
 
-  "name": "First Vienna FC",
+    "name": "First Vienna FC",
 
-  "logo": "assets/logos/europe/austria/First.png",
+    "logo": "assets/logos/europe/austria/First.png",
 
-  "stadium": {
-    "name": "Naturarena Hohe Warte",
-    "capacity": 5500
+    "manager": {
+      "name": "Patrick Enengl",
+      "country": "AT"
+    },
+
+    "stadium": {
+      "name": "Naturarena Hohe Warte",
+      "capacity": 5500
+    },
+
+    "players": [
+      { "playerId": "player_at2_007_01", "name": "Bernhard Unger", "number": 1, "position": "GK", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_007_02", "name": "Jürgen Bauer", "number": 25, "position": "RB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_007_03", "name": "Marco Gantschnig", "number": 23, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_007_04", "name": "Felix Luckeneder", "number": 32, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_007_05", "name": "Benjamin Rosenberger", "number": 17, "position": "LB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_007_06", "name": "Filip Mrzljak", "number": 6, "position": "CDM", "country": "HR", "status": "starter" },
+      { "playerId": "player_at2_007_07", "name": "Bernhard Luxbacher", "number": 8, "position": "CM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_007_08", "name": "Maximilian Fillafer", "number": 26, "position": "RW", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_007_09", "name": "Florian Prohart", "number": 19, "position": "CAM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_007_10", "name": "Youssouf Soukouna", "number": 11, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_at2_007_11", "name": "Bernhard Zimmermann", "number": 18, "position": "ST", "country": "AT", "status": "starter" },
+
+      { "playerId": "player_at2_007_12", "name": "Kilian Kretschmer", "number": 33, "position": "GK", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_007_13", "name": "Marlon Winter", "number": 3, "position": "LB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_007_14", "name": "Philipp Breit", "number": 4, "position": "CB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_007_15", "name": "Tobias Gruber", "number": 22, "position": "CB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_007_16", "name": "Raul Marte", "number": 24, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_007_17", "name": "Felix Nagele", "number": 20, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_007_18", "name": "Max Mergner", "number": 21, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_007_19", "name": "Vincent Zeidler", "number": 27, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_007_20", "name": "Christoph Monschein", "number": 7, "position": "ST", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_007_21", "name": "Tobias Anselm", "number": 10, "position": "ST", "country": "AT", "status": "bench" },
+
+      { "playerId": "player_at2_007_22", "name": "Moritz Loschy", "number": 99, "position": "GK", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at2_007_23", "name": "Lukasz Zagan", "number": 34, "position": "CB", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at2_007_24", "name": "David Ungar", "number": 66, "position": "CM", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at2_007_25", "name": "Luca Edelhofer", "number": 77, "position": "LW", "country": "AT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 8,
+        "cornerLeft": 26,
+        "cornerRight": 8
+      }
+    }
   }
-}
