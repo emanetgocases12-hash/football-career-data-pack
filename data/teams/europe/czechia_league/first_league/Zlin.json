@@ -1,12 +1,58 @@
 {
-  "teamKey": "Zlin",
+    "teamKey": "Zlin",
 
-  "name": "FC Zlin",
+    "name": "FC Zlin",
 
-  "logo": "assets/logos/europe/czechia/Zlin.png",
+    "logo": "assets/logos/europe/czechia/Zlin.png",
 
-  "stadium": {
-    "name": "Stadion Letná",
-    "capacity": 5898
+    "manager": {
+      "name": "Pavel Hoftych",
+      "country": "CZ"
+    },
+
+    "stadium": {
+      "name": "Stadion Letná",
+      "capacity": 5898
+    },
+
+    "players": [
+      { "playerId": "player_cz1_016_01", "name": "Stanislav Dostál", "number": 17, "position": "GK", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_016_02", "name": "Miloš Kopečný", "number": 23, "position": "RB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_016_03", "name": "Jakub Černín", "number": 24, "position": "CB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_016_04", "name": "Marian Pišoja", "number": 82, "position": "CB", "country": "SK", "status": "starter" },
+      { "playerId": "player_cz1_016_05", "name": "Michal Fukala", "number": 22, "position": "LB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_016_06", "name": "Cletus Nombil", "number": 19, "position": "CDM", "country": "GH", "status": "starter" },
+      { "playerId": "player_cz1_016_07", "name": "Tom Ulbrich", "number": 4, "position": "CM", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_016_08", "name": "Frank Appiah", "number": 20, "position": "RW", "country": "GH", "status": "starter" },
+      { "playerId": "player_cz1_016_09", "name": "Stanislav Petruta", "number": 10, "position": "CAM", "country": "RO", "status": "starter" },
+      { "playerId": "player_cz1_016_10", "name": "Adam Gaži", "number": 11, "position": "LW", "country": "SK", "status": "starter" },
+      { "playerId": "player_cz1_016_11", "name": "Daniel Šmiga", "number": 9, "position": "ST", "country": "CZ", "status": "starter" },
+
+      { "playerId": "player_cz1_016_12", "name": "Milan Knobloch", "number": 34, "position": "GK", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz1_016_13", "name": "Joss Didiba", "number": 6, "position": "CB", "country": "CM", "status": "bench" },
+      { "playerId": "player_cz1_016_14", "name": "Jakub Jugas", "number": 25, "position": "CB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz1_016_15", "name": "Zvonimir Katalinić", "number": 15, "position": "CB", "country": "HR", "status": "bench" },
+      { "playerId": "player_cz1_016_16", "name": "Jakub Kolář", "number": 28, "position": "CB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz1_016_17", "name": "Ondřej Kukučka", "number": 35, "position": "CB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz1_016_18", "name": "Prince Mbatshi Mukuba", "number": 45, "position": "CB", "country": "CD", "status": "bench" },
+      { "playerId": "player_cz1_016_19", "name": "Lukáš Bartošák", "number": 31, "position": "LM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz1_016_20", "name": "Michal Cupák", "number": 26, "position": "CM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz1_016_21", "name": "David Machalík", "number": 8, "position": "CM", "country": "CZ", "status": "bench" },
+
+      { "playerId": "player_cz1_016_22", "name": "Štěpán Bachůrek", "number": 64, "position": "GK", "country": "CZ", "status": "reserve" },
+      { "playerId": "player_cz1_016_23", "name": "Tomáš Hellebrand", "number": 53, "position": "CM", "country": "CZ", "status": "reserve" },
+      { "playerId": "player_cz1_016_24", "name": "Tomáš Poznar", "number": 88, "position": "ST", "country": "CZ", "status": "reserve" },
+      { "playerId": "player_cz1_016_25", "name": "Stanley Kanu", "number": 14, "position": "ST", "country": "NG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 17,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 20,
+        "cornerLeft": 20,
+        "cornerRight": 20
+      }
+    }
   }
-}
