@@ -1,12 +1,58 @@
 {
-  "teamKey": "Panion",
-
-  "name": "Panionios FC",
-
-  "logo": "assets/logos/europe/greek/Panionios.png",
-
-  "stadium": {
-    "name": "Stadio Neas Smyrnis",
-    "capacity": 11700
+    "teamKey": "Panion",
+  
+    "name": "Panionios FC",
+  
+    "logo": "assets/logos/europe/greek/Panionios.png",
+  
+    "manager": {
+      "name": "Juan Ferrando",
+      "country": "ES"
+    },
+  
+    "stadium": {
+      "name": "Stadio Neas Smyrnis",
+      "capacity": 11700
+    },
+  
+    "players": [
+      {"playerId": "player_gr2_011_01", "name": "Álex Craninx", "number": 1, "position": "GK", "country": "BE", "status": "starter"},
+      {"playerId": "player_gr2_011_02", "name": "Christos Christopoulos", "number": 2, "position": "RB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_011_03", "name": "Tasos Avlonitis", "number": 5, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_011_04", "name": "Kyriakos Aslanidis", "number": 4, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_011_05", "name": "Vasco Gadelho", "number": 18, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_gr2_011_06", "name": "Filip Bainovic", "number": 31, "position": "CM", "country": "RS", "status": "starter"},
+      {"playerId": "player_gr2_011_07", "name": "Dimitris Pavlopoulos", "number": 22, "position": "CDM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_011_08", "name": "Miguel Tavares", "number": 90, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_gr2_011_09", "name": "Rafail Pettas", "number": 32, "position": "CAM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_011_10", "name": "Patrik Yakovlev", "number": 7, "position": "LW", "country": "EE", "status": "starter"},
+      {"playerId": "player_gr2_011_11", "name": "Georgios Manalis", "number": 27, "position": "ST", "country": "GR", "status": "starter"},
+  
+      {"playerId": "player_gr2_011_12", "name": "Panagiotis Skafidas", "number": 99, "position": "GK", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_011_13", "name": "Dimitris Bouris", "number": 26, "position": "CB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_011_14", "name": "Alexandros Tsantilas", "number": 21, "position": "RB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_011_15", "name": "Jensen", "number": 29, "position": "CB", "country": "FI", "status": "bench"},
+      {"playerId": "player_gr2_011_16", "name": "Georgios Stoupis", "number": 8, "position": "CAM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_011_17", "name": "Jorge Díaz", "number": 11, "position": "CM", "country": "UY", "status": "bench"},
+      {"playerId": "player_gr2_011_18", "name": "Ioannis Chatzistravos", "number": 20, "position": "CAM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_011_19", "name": "Jonathan Morsay", "number": 25, "position": "LW", "country": "SL", "status": "bench"},
+      {"playerId": "player_gr2_011_20", "name": "Alexandros Alexandrakis", "number": 14, "position": "RW", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_011_21", "name": "Rubén Sobrino", "number": 9, "position": "ST", "country": "ES", "status": "bench"},
+  
+      {"playerId": "player_gr2_011_22", "name": "Dimitris Papavasiliou", "number": 46, "position": "GK", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr2_011_23", "name": "Dimitris Mourgos", "number": 23, "position": "RW", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr2_011_24", "name": "Fokam", "number": 17, "position": "RW", "country": "CM", "status": "reserve"},
+      {"playerId": "player_gr2_011_25", "name": "Bairamidis", "number": 44, "position": "LW", "country": "GR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 27,
+        "freeKick": 32,
+        "cornerLeft": 90,
+        "cornerRight": 7
+      }
+    }
   }
-}
