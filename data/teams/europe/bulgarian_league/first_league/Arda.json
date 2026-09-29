@@ -1,12 +1,58 @@
 {
-  "teamKey": "Arda Ka",
+    "teamKey": "Arda Ka",
 
-  "name": "Arda Kardzhali",
+    "name": "Arda Kardzhali",
 
-  "logo": "assets/logos/europe/bulgaria/Arda.png",
+    "logo": "assets/logos/europe/bulgaria/Arda.png",
 
-  "stadium": {
-    "name": "Arena Arda",
-    "capacity": 11114
+    "manager": {
+      "name": "Alexander Tunchev",
+      "country": "BG"
+    },
+
+    "stadium": {
+      "name": "Arena Arda",
+      "capacity": 11114
+    },
+
+    "players": [
+      { "playerId": "player_bg1_001_01", "name": "Anatoli Gospodinov", "number": 1, "position": "GK", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_001_02", "name": "Vasil Popov", "number": 6, "position": "RB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_001_03", "name": "Viktor Lyubenov", "number": 5, "position": "CB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_001_04", "name": "Martin Paskalev", "number": 24, "position": "CB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_001_05", "name": "Dimitar Velkovski", "number": 35, "position": "LB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_001_06", "name": "Lachezar Kotev", "number": 80, "position": "CDM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_001_07", "name": "Dominic Yankov", "number": 8, "position": "CM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_001_08", "name": "Svetoslav Kovachev", "number": 10, "position": "RW", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_001_09", "name": "Antonio Vutov", "number": 39, "position": "CAM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_001_10", "name": "Stanislav Ivanov", "number": 91, "position": "LW", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_001_11", "name": "Georgi Nikolov", "number": 9, "position": "ST", "country": "BG", "status": "starter" },
+
+      { "playerId": "player_bg1_001_12", "name": "Yanko Georgiev", "number": 22, "position": "GK", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_001_13", "name": "D. Idowu", "number": 4, "position": "CB", "country": "NG", "status": "bench" },
+      { "playerId": "player_bg1_001_14", "name": "S. Vasilev", "number": 18, "position": "LB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_001_15", "name": "Derick", "number": 2, "position": "RB", "country": "BR", "status": "bench" },
+      { "playerId": "player_bg1_001_16", "name": "Serkan Yusein", "number": 20, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_001_17", "name": "A. Kabov", "number": 11, "position": "RW", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_001_18", "name": "P. Bachev", "number": 16, "position": "ST", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_001_19", "name": "B. Karagaren", "number": 99, "position": "RW", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_001_20", "name": "Viacheslav Veliev", "number": 21, "position": "LW", "country": "UA", "status": "bench" },
+      { "playerId": "player_bg1_001_21", "name": "A. Traoré", "number": 44, "position": "CB", "country": "CI", "status": "bench" },
+
+      { "playerId": "player_bg1_001_22", "name": "M. Yusuf", "number": 92, "position": "GK", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_001_23", "name": "B. Akandzha", "number": 26, "position": "CM", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_001_24", "name": "G. Nikolov", "number": 29, "position": "ST", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_001_25", "name": "D. Idowu II", "number": 37, "position": "CB", "country": "NG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
