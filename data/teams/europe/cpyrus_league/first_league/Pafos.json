@@ -1,12 +1,58 @@
-{
-  "teamKey": "Pafos",
+ {
+    "teamKey": "Pafos",
 
-  "name": "Pafos FC",
+    "name": "Pafos FC",
 
-  "logo": "assets/logos/europe/cpyrus/Pafos.png",
+    "logo": "assets/logos/europe/cpyrus/Pafos.png",
 
-  "stadium": {
-    "name": "Stelios Kyriakidis Stadio",
-    "capacity": 9394
+    "manager": {
+      "name": "Ricardo Sá Pinto",
+      "country": "PT"
+    },
+
+    "stadium": {
+      "name": "Stelios Kyriakidis Stadio",
+      "capacity": 9394
+    },
+
+    "players": [
+      { "playerId": "player_cy1_014_01", "name": "Radosław Majecki", "number": 99, "position": "GK", "country": "PL", "status": "starter" },
+      { "playerId": "player_cy1_014_02", "name": "Yoram Zague", "number": 2, "position": "RB", "country": "FR", "status": "starter" },
+      { "playerId": "player_cy1_014_03", "name": "David Goldar", "number": 5, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_cy1_014_04", "name": "David Luiz", "number": 4, "position": "CB", "country": "BR", "status": "starter" },
+      { "playerId": "player_cy1_014_05", "name": "Nicholas Ioannou", "number": 14, "position": "LB", "country": "CY", "status": "starter" },
+      { "playerId": "player_cy1_014_06", "name": "Ivan Šunjić", "number": 26, "position": "CDM", "country": "BA", "status": "starter" },
+      { "playerId": "player_cy1_014_07", "name": "Guga", "number": 6, "position": "CM", "country": "PT", "status": "starter" },
+      { "playerId": "player_cy1_014_08", "name": "Biel", "number": 20, "position": "RW", "country": "BR", "status": "starter" },
+      { "playerId": "player_cy1_014_09", "name": "Quina", "number": 8, "position": "CAM", "country": "PT", "status": "starter" },
+      { "playerId": "player_cy1_014_10", "name": "Vlad Dragomir", "number": 30, "position": "LW", "country": "RO", "status": "starter" },
+      { "playerId": "player_cy1_014_11", "name": "Lelê", "number": 18, "position": "ST", "country": "BR", "status": "starter" },
+
+      { "playerId": "player_cy1_014_12", "name": "Jay Gorter", "number": 1, "position": "GK", "country": "NL", "status": "bench" },
+      { "playerId": "player_cy1_014_13", "name": "Samy Mmaee", "number": 3, "position": "CB", "country": "MA", "status": "bench" },
+      { "playerId": "player_cy1_014_14", "name": "Jonatás Noro", "number": 23, "position": "CB", "country": "PT", "status": "bench" },
+      { "playerId": "player_cy1_014_15", "name": "João Correia", "number": 77, "position": "RB", "country": "CV", "status": "bench" },
+      { "playerId": "player_cy1_014_16", "name": "Ken Sema", "number": 12, "position": "LM", "country": "SE", "status": "bench" },
+      { "playerId": "player_cy1_014_17", "name": "Pêpê", "number": 88, "position": "CM", "country": "PT", "status": "bench" },
+      { "playerId": "player_cy1_014_18", "name": "Alexandre Brito", "number": 50, "position": "CM", "country": "PT", "status": "bench" },
+      { "playerId": "player_cy1_014_19", "name": "Bruno", "number": 7, "position": "RW", "country": "BR", "status": "bench" },
+      { "playerId": "player_cy1_014_20", "name": "Moumi", "number": 13, "position": "LW", "country": "CM", "status": "bench" },
+      { "playerId": "player_cy1_014_21", "name": "Mons Bassouamina", "number": 9, "position": "ST", "country": "CG", "status": "bench" },
+
+      { "playerId": "player_cy1_014_22", "name": "Michalis Papastylianou", "number": 71, "position": "GK", "country": "CY", "status": "reserve" },
+      { "playerId": "player_cy1_014_23", "name": "Murad Mammadov", "number": 47, "position": "CM", "country": "AZ", "status": "reserve" },
+      { "playerId": "player_cy1_014_24", "name": "Jajá", "number": 11, "position": "LW", "country": "BR", "status": "reserve" },
+      { "playerId": "player_cy1_014_25", "name": "Anderson", "number": 33, "position": "ST", "country": "BR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 8,
+        "cornerLeft": 30,
+        "cornerRight": 20
+      }
+    }
   }
-}
