@@ -1,12 +1,58 @@
 {
-  "teamKey": "Neftch",
+    "teamKey": "Neftch",
 
-  "name": "Neftchi PFK",
+    "name": "Neftchi PFK",
 
-  "logo": "assets/logos/europe/azerbaycan/Neftchi.png",
+    "logo": "assets/logos/europe/azerbaycan/Neftchi.png",
 
-  "stadium": {
-    "name": "Palms Sports Arena",
-    "capacity": 10260
+    "manager": {
+      "name": "Yuriy Vernydub",
+      "country": "UA"
+    },
+
+    "stadium": {
+      "name": "Palms Sports Arena",
+      "capacity": 10260
+    },
+
+    "players": [
+      { "playerId": "player_az1_005_01", "name": "Emil Balayev", "number": 1, "position": "GK", "country": "AZ", "status": "starter" },
+      { "playerId": "player_az1_005_02", "name": "Falaye Sacko", "number": 77, "position": "RB", "country": "ML", "status": "starter" },
+      { "playerId": "player_az1_005_03", "name": "Andrew Gravillon", "number": 55, "position": "CB", "country": "GP", "status": "starter" },
+      { "playerId": "player_az1_005_04", "name": "Igor Ribeiro", "number": 5, "position": "CB", "country": "BR", "status": "starter" },
+      { "playerId": "player_az1_005_05", "name": "Moustapha Seck", "number": 24, "position": "LB", "country": "ES", "status": "starter" },
+      { "playerId": "player_az1_005_06", "name": "Sessi D'Almeida", "number": 6, "position": "CDM", "country": "BJ", "status": "starter" },
+      { "playerId": "player_az1_005_07", "name": "Emin Makhmudov", "number": 8, "position": "CM", "country": "AZ", "status": "starter" },
+      { "playerId": "player_az1_005_08", "name": "Imad Faraj", "number": 11, "position": "RW", "country": "FR", "status": "starter" },
+      { "playerId": "player_az1_005_09", "name": "Gustavo Klismahn", "number": 20, "position": "CAM", "country": "BR", "status": "starter" },
+      { "playerId": "player_az1_005_10", "name": "Freddy Vargas", "number": 10, "position": "LW", "country": "VE", "status": "starter" },
+      { "playerId": "player_az1_005_11", "name": "Ľubomír Tupta", "number": 29, "position": "ST", "country": "SK", "status": "starter" },
+
+      { "playerId": "player_az1_005_12", "name": "Kenan Pirić", "number": 13, "position": "GK", "country": "BA", "status": "bench" },
+      { "playerId": "player_az1_005_13", "name": "Rza Jafarov", "number": 93, "position": "GK", "country": "AZ", "status": "bench" },
+      { "playerId": "player_az1_005_14", "name": "Rufat Abbasov", "number": 3, "position": "CB", "country": "AZ", "status": "bench" },
+      { "playerId": "player_az1_005_15", "name": "Elvin Badalov", "number": 14, "position": "CB", "country": "AZ", "status": "bench" },
+      { "playerId": "player_az1_005_16", "name": "Murad Khachayev", "number": 17, "position": "RB", "country": "AZ", "status": "bench" },
+      { "playerId": "player_az1_005_17", "name": "Vinko Ševelj", "number": 88, "position": "CB", "country": "HR", "status": "bench" },
+      { "playerId": "player_az1_005_18", "name": "Elvin Jamalov", "number": 4, "position": "CM", "country": "AZ", "status": "bench" },
+      { "playerId": "player_az1_005_19", "name": "Ifeanyi Mathew", "number": 18, "position": "CM", "country": "NG", "status": "bench" },
+      { "playerId": "player_az1_005_20", "name": "Andrii Shtohrin", "number": 70, "position": "RW", "country": "UA", "status": "bench" },
+      { "playerId": "player_az1_005_21", "name": "Alen Skribek", "number": 7, "position": "RW", "country": "HU", "status": "bench" },
+
+      { "playerId": "player_az1_005_22", "name": "Dragoljub Savić", "number": 27, "position": "LW", "country": "RS", "status": "reserve" },
+      { "playerId": "player_az1_005_23", "name": "Adeniyi Akinyemi", "number": 26, "position": "ST", "country": "NG", "status": "reserve" },
+      { "playerId": "player_az1_005_24", "name": "Breno Almeida", "number": 33, "position": "ST", "country": "BR", "status": "reserve" },
+      { "playerId": "player_az1_005_25", "name": "Bassala Sambou", "number": 97, "position": "ST", "country": "GB-ENG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 29,
+        "freeKick": 8,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
