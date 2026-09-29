@@ -1,12 +1,58 @@
 {
-  "teamKey": "Dila Go",
-
-  "name": "FC Dila Gori",
-
-  "logo": "assets/logos/europe/georgia/DilaGo.png",
-
-  "stadium": {
-    "name": "Tengiz Burjanadze Stadium",
-    "capacity": 8000
+    "teamKey": "Dila Go",
+  
+    "name": "FC Dila Gori",
+  
+    "logo": "assets/logos/europe/georgia/DilaGo.png",
+  
+    "manager": {
+      "name": "Diamantis Vavalis",
+      "country": "GR"
+    },
+  
+    "stadium": {
+      "name": "Tengiz Burjanadze Stadium",
+      "capacity": 8000
+    },
+  
+    "players": [
+      {"playerId": "player_ge1_001_01", "name": "Davit Kereselidze", "number": 1, "position": "GK", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_001_02", "name": "Tedo Kikabidze", "number": 2, "position": "RB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_001_03", "name": "Lamar Yarbrough", "number": 25, "position": "CB", "country": "DE", "status": "starter"},
+      {"playerId": "player_ge1_001_04", "name": "Romaric Etou", "number": 33, "position": "CB", "country": "CG", "status": "starter"},
+      {"playerId": "player_ge1_001_05", "name": "Giorgi Jalaghonia", "number": 14, "position": "LB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_001_06", "name": "Claude Kouakou", "number": 6, "position": "CDM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ge1_001_07", "name": "Lasha Menteshashvili", "number": 8, "position": "CM", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_001_08", "name": "Mamin Sanyang", "number": 16, "position": "RW", "country": "GM", "status": "starter"},
+      {"playerId": "player_ge1_001_09", "name": "Otar Parulava", "number": 10, "position": "CAM", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_001_10", "name": "Blankson Anoff", "number": 17, "position": "LW", "country": "GH", "status": "starter"},
+      {"playerId": "player_ge1_001_11", "name": "Mohamed Kante", "number": 9, "position": "ST", "country": "GN", "status": "starter"},
+  
+      {"playerId": "player_ge1_001_12", "name": "Luka Sanikidze", "number": 12, "position": "GK", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_001_13", "name": "Maik Poeketie", "number": 5, "position": "CB", "country": "BE", "status": "bench"},
+      {"playerId": "player_ge1_001_14", "name": "João Araújo", "number": 13, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_ge1_001_15", "name": "Nikoloz Mali", "number": 23, "position": "LB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_001_16", "name": "Jean Marc Tiboue", "number": 26, "position": "RB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ge1_001_17", "name": "Badri Gogoberishvili", "number": 19, "position": "CM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_001_18", "name": "Alioune Oumar Tall", "number": 27, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_ge1_001_19", "name": "Nana Kofi Donkor", "number": 37, "position": "CM", "country": "GH", "status": "bench"},
+      {"playerId": "player_ge1_001_20", "name": "Franklin Nyenetue", "number": 7, "position": "ST", "country": "LR", "status": "bench"},
+      {"playerId": "player_ge1_001_21", "name": "Shota Shekiladze", "number": 22, "position": "ST", "country": "GE", "status": "bench"},
+  
+      {"playerId": "player_ge1_001_22", "name": "Davit Kakitashvili", "number": 32, "position": "GK", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_001_23", "name": "Georgii Kobakhidze", "number": 15, "position": "CM", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_001_24", "name": "Emmanuel Boansi", "number": 30, "position": "RW", "country": "GH", "status": "reserve"},
+      {"playerId": "player_ge1_001_25", "name": "Zurabi Museliani", "number": 21, "position": "ST", "country": "GE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 17,
+        "cornerRight": 16
+      }
+    }
   }
-}
