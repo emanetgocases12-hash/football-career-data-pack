@@ -1,12 +1,58 @@
 {
-  "teamKey": "Kaspiy",
-
-  "name": "Kaspiy Aktau",
-
-  "logo": "assets/logos/europe/kazak/Kaspiy.png",
-
-  "stadium": {
-    "name": "Zhas-Qanat",
-    "capacity": 3000
+    "teamKey": "Kaspiy",
+  
+    "name": "Kaspiy Aktau",
+  
+    "logo": "assets/logos/europe/kazak/Kaspiy.png",
+  
+    "manager": {
+      "name": "Yerlan Shoytymov",
+      "country": "KZ"
+    },
+  
+    "stadium": {
+      "name": "Zhas-Qanat",
+      "capacity": 3000
+    },
+  
+    "players": [
+      {"playerId": "player_kz1_007_01", "name": "Yan Denisov", "number": 1, "position": "GK", "country": "ES", "status": "starter"},
+      {"playerId": "player_kz1_007_02", "name": "D. Aripov", "number": 2, "position": "RB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_007_03", "name": "Bernardo Morgado", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_kz1_007_04", "name": "André Amaral", "number": 5, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_kz1_007_05", "name": "Alan", "number": 3, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_kz1_007_06", "name": "Gustavo França", "number": 6, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_kz1_007_07", "name": "L. Strumia", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_kz1_007_08", "name": "Vladislav Klimovich", "number": 11, "position": "RW", "country": "BY", "status": "starter"},
+      {"playerId": "player_kz1_007_09", "name": "P. Sedko", "number": 10, "position": "CAM", "country": "BY", "status": "starter"},
+      {"playerId": "player_kz1_007_10", "name": "D. Epton", "number": 7, "position": "LW", "country": "GH", "status": "starter"},
+      {"playerId": "player_kz1_007_11", "name": "I. Umaev", "number": 9, "position": "ST", "country": "RU", "status": "starter"},
+  
+      {"playerId": "player_kz1_007_12", "name": "N. Ayazbaev", "number": 12, "position": "GK", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_007_13", "name": "Samat Shamshi", "number": 14, "position": "CB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_007_14", "name": "T. Kurbanov", "number": 15, "position": "CB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_007_15", "name": "Peraly Aliyev", "number": 22, "position": "RB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_007_16", "name": "A. Nabikhanov", "number": 18, "position": "LB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_007_17", "name": "M. Taykenov", "number": 20, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_007_18", "name": "M. Kucheriavyi", "number": 17, "position": "CM", "country": "UA", "status": "bench"},
+      {"playerId": "player_kz1_007_19", "name": "N. Ndombasi", "number": 19, "position": "ST", "country": "FR", "status": "bench"},
+      {"playerId": "player_kz1_007_20", "name": "K. Sylla", "number": 29, "position": "ST", "country": "FR", "status": "bench"},
+      {"playerId": "player_kz1_007_21", "name": "B. Petrović", "number": 27, "position": "ST", "country": "RS", "status": "bench"},
+  
+      {"playerId": "player_kz1_007_22", "name": "B. Kaldybai", "number": 31, "position": "GK", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_007_23", "name": "M. Kalmyrza", "number": 24, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_007_24", "name": "R. Abylaykhan", "number": 25, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_007_25", "name": "B. Zulfikarov", "number": 28, "position": "ST", "country": "KZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
