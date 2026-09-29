@@ -1,12 +1,58 @@
 {
-  "teamKey": "A.Bold",
-
-  "name": "Akademisk Boldklub",
-
-  "logo": "assets/logos/europe/denmark/Ab.png",
-
-  "stadium": {
-    "name": "Gladsaxe Stadion",
-    "capacity": 13507
+    "teamKey": "A.Bold",
+  
+    "name": "Akademisk Boldklub",
+  
+    "logo": "assets/logos/europe/denmark/Ab.png",
+  
+    "manager": {
+      "name": "Fannar Berg Gunnólfsson",
+      "country": "IS"
+    },
+  
+    "stadium": {
+      "name": "Gladsaxe Stadion",
+      "capacity": 13507
+    },
+  
+    "players": [
+      {"playerId": "player_dk2_002_01", "name": "Adam Ingi Benediktsson", "number": 54, "position": "GK", "country": "IS", "status": "starter"},
+      {"playerId": "player_dk2_002_02", "name": "Tobias Damtoft", "number": 23, "position": "RB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_002_03", "name": "Aidan Liu", "number": 24, "position": "CB", "country": "US", "status": "starter"},
+      {"playerId": "player_dk2_002_04", "name": "Gabriel Noga", "number": 14, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_dk2_002_05", "name": "Marc Dal Hende", "number": 5, "position": "LB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_002_06", "name": "Søren Ilsøe", "number": 15, "position": "CDM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_002_07", "name": "Marco Vesterholm", "number": 22, "position": "CM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_002_08", "name": "O'Vonte Mullings", "number": 88, "position": "RW", "country": "CA", "status": "starter"},
+      {"playerId": "player_dk2_002_09", "name": "Noah Engell", "number": 7, "position": "CAM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_002_10", "name": "Casper Grening", "number": 11, "position": "LW", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_002_11", "name": "Milan Silva Rasmussen", "number": 18, "position": "ST", "country": "DK", "status": "starter"},
+  
+      {"playerId": "player_dk2_002_12", "name": "Marcus Bobjerg", "number": 1, "position": "GK", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_002_13", "name": "Travian Sousa", "number": 3, "position": "LB", "country": "US", "status": "bench"},
+      {"playerId": "player_dk2_002_14", "name": "Adrien Koudelka", "number": 4, "position": "CB", "country": "CZ", "status": "bench"},
+      {"playerId": "player_dk2_002_15", "name": "Marius Stenner", "number": 17, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_002_16", "name": "Mikkel Brund", "number": 34, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_002_17", "name": "Frederik Lindgaard", "number": 37, "position": "RB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_002_18", "name": "Mikkel Clement", "number": 21, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_002_19", "name": "Tobias Lykkebak", "number": 28, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_002_20", "name": "Jonathan Mathys", "number": 19, "position": "ST", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_002_21", "name": "Marco Ramkilde", "number": 10, "position": "ST", "country": "DK", "status": "bench"},
+  
+      {"playerId": "player_dk2_002_22", "name": "Michael Stone", "number": 25, "position": "GK", "country": "US", "status": "reserve"},
+      {"playerId": "player_dk2_002_23", "name": "Marcus Immersen", "number": 20, "position": "RW", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk2_002_24", "name": "Saliou Diop", "number": 29, "position": "ST", "country": "SN", "status": "reserve"},
+      {"playerId": "player_dk2_002_25", "name": "Jermain Fernandes", "number": 77, "position": "LW", "country": "DK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 7,
+        "cornerLeft": 88,
+        "cornerRight": 11
+      }
+    }
   }
-}
