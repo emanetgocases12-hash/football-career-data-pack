@@ -1,12 +1,58 @@
 {
-  "teamKey": "Sonder",
-
-  "name": "Sönderjyske Fodbold",
-
-  "logo": "assets/logos/europe/denmark/Sonderjsyke.png",
-
-  "stadium": {
-    "name": "AL Sydbank Park",
-    "capacity": 10021
+    "teamKey": "Sonder",
+  
+    "name": "Sönderjyske Fodbold",
+  
+    "logo": "assets/logos/europe/denmark/Sonderjsyke.png",
+  
+    "manager": {
+      "name": "Fatah Abdirahman",
+      "country": "DK"
+    },
+  
+    "stadium": {
+      "name": "AL Sydbank Park",
+      "capacity": 10021
+    },
+  
+    "players": [
+      {"playerId": "player_dk1_011_01", "name": "Marcus Bundgaard", "number": 16, "position": "GK", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_011_02", "name": "Alexander Munksgaard", "number": 3, "position": "RB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_011_03", "name": "Maxime Soulas", "number": 12, "position": "CB", "country": "FR", "status": "starter"},
+      {"playerId": "player_dk1_011_04", "name": "Brynjar Ingi Bjarnason", "number": 25, "position": "CB", "country": "IS", "status": "starter"},
+      {"playerId": "player_dk1_011_05", "name": "Ebube Duru", "number": 23, "position": "LB", "country": "NG", "status": "starter"},
+      {"playerId": "player_dk1_011_06", "name": "Mohamed Cherif", "number": 8, "position": "CM", "country": "GN", "status": "starter"},
+      {"playerId": "player_dk1_011_07", "name": "Rasmus Vinderslev", "number": 6, "position": "CDM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_011_08", "name": "Sefer Emini", "number": 7, "position": "CAM", "country": "MK", "status": "starter"},
+      {"playerId": "player_dk1_011_09", "name": "Ismail Seydi", "number": 31, "position": "RW", "country": "FR", "status": "starter"},
+      {"playerId": "player_dk1_011_10", "name": "Lirim Qamili", "number": 15, "position": "LW", "country": "MK", "status": "starter"},
+      {"playerId": "player_dk1_011_11", "name": "Matthew Hoppe", "number": 9, "position": "ST", "country": "US", "status": "starter"},
+  
+      {"playerId": "player_dk1_011_12", "name": "Nick Shinton", "number": 24, "position": "GK", "country": "BE", "status": "bench"},
+      {"playerId": "player_dk1_011_13", "name": "Rúnar Thór Sigurgeirsson", "number": 5, "position": "LB", "country": "IS", "status": "bench"},
+      {"playerId": "player_dk1_011_14", "name": "Dalton Wilkins", "number": 13, "position": "LB", "country": "NZ", "status": "bench"},
+      {"playerId": "player_dk1_011_15", "name": "Pachanga Kristensen", "number": 19, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_011_16", "name": "Stefan Velkov", "number": 21, "position": "CB", "country": "BG", "status": "bench"},
+      {"playerId": "player_dk1_011_17", "name": "Andreas Oggesen", "number": 22, "position": "RB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_011_18", "name": "Mathias Olesen", "number": 10, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_011_19", "name": "Jacob Steen Christensen", "number": 33, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_011_20", "name": "Osaze De Rosario", "number": 11, "position": "ST", "country": "GY", "status": "bench"},
+      {"playerId": "player_dk1_011_21", "name": "Bubacarr Tambedou", "number": 26, "position": "ST", "country": "GM", "status": "bench"},
+  
+      {"playerId": "player_dk1_011_22", "name": "Nicolai Flø", "number": 1, "position": "GK", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk1_011_23", "name": "Berkant Bayrak", "number": 27, "position": "GK", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk1_011_24", "name": "Teodor Haltvik", "number": 14, "position": "ST", "country": "NO", "status": "reserve"},
+      {"playerId": "player_dk1_011_25", "name": "David Boison Frimpong", "number": 32, "position": "LW", "country": "GH", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 12,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 15,
+        "cornerRight": 31
+      }
+    }
   }
-}
