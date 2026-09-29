@@ -1,12 +1,58 @@
 {
-  "teamKey": "Gorica",
+    "teamKey": "Gorica",
 
-  "name": "HNK Gorica",
+    "name": "HNK Gorica",
 
-  "logo": "assets/logos/europe/croatia/Gorica.png",
+    "logo": "assets/logos/europe/croatia/Gorica.png",
 
-  "stadium": {
-    "name": "SRC Velika Gorica",
-    "capacity": 5050
+    "manager": {
+      "name": "Mario Carević",
+      "country": "HR"
+    },
+
+    "stadium": {
+      "name": "SRC Velika Gorica",
+      "capacity": 5050
+    },
+
+    "players": [
+      { "playerId": "player_hr1_002_01", "name": "Renato Josipović", "number": 1, "position": "GK", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_002_02", "name": "Filip Braut", "number": 2, "position": "RB", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_002_03", "name": "Dušan Stevanović", "number": 15, "position": "CB", "country": "RS", "status": "starter" },
+      { "playerId": "player_hr1_002_04", "name": "Stefan Perić", "number": 45, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_hr1_002_05", "name": "Marijan Čabraja", "number": 19, "position": "LB", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_002_06", "name": "Théo Lacoux", "number": 6, "position": "CDM", "country": "FR", "status": "starter" },
+      { "playerId": "player_hr1_002_07", "name": "Domagoj Pavičić", "number": 24, "position": "CM", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_002_08", "name": "Bruno Bogojević", "number": 25, "position": "RW", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_002_09", "name": "Ognjen Bakić", "number": 7, "position": "CAM", "country": "ME", "status": "starter" },
+      { "playerId": "player_hr1_002_10", "name": "Karlo Carole", "number": 26, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_hr1_002_11", "name": "Fran Brodić", "number": 10, "position": "ST", "country": "HR", "status": "starter" },
+
+      { "playerId": "player_hr1_002_12", "name": "Toni Došen", "number": 12, "position": "GK", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_002_13", "name": "Gonçalo Costa", "number": 5, "position": "CB", "country": "PT", "status": "bench" },
+      { "playerId": "player_hr1_002_14", "name": "Hamad Moustapha", "number": 21, "position": "RB", "country": "CM", "status": "bench" },
+      { "playerId": "player_hr1_002_15", "name": "Ivan Cvijanović", "number": 34, "position": "LB", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_002_16", "name": "Ante Kavelj", "number": 36, "position": "CM", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_002_17", "name": "Stipe Kučiš", "number": 14, "position": "CM", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_002_18", "name": "William Sule", "number": 11, "position": "RW", "country": "NG", "status": "bench" },
+      { "playerId": "player_hr1_002_19", "name": "Ante Erceg", "number": 50, "position": "ST", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_002_20", "name": "Marko Gashi", "number": 99, "position": "ST", "country": "XK", "status": "bench" },
+      { "playerId": "player_hr1_002_21", "name": "Jakov Pranjić", "number": 8, "position": "LW", "country": "HR", "status": "bench" },
+
+      { "playerId": "player_hr1_002_22", "name": "Darijan Radelić-Žarkov", "number": 30, "position": "GK", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_002_23", "name": "Jozo Filipović", "number": 49, "position": "CB", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_002_24", "name": "Petar Mijić", "number": 9, "position": "ST", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_002_25", "name": "Luka Vrzić", "number": 20, "position": "LW", "country": "HR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 24,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 7,
+        "cornerLeft": 26,
+        "cornerRight": 25
+      }
+    }
   }
-}
