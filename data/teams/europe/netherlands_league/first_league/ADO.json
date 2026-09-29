@@ -1,12 +1,58 @@
 {
-  "teamKey": "ADO",
-
-  "name": "ADO Den Haag",
-
-  "logo": "assets/logos/europe/netherlands/Ado.png",
-
-  "stadium": {
-    "name": "WerkTalent Stadion",
-    "capacity": 15000
+    "teamKey": "ADO",
+  
+    "name": "ADO Den Haag",
+  
+    "logo": "assets/logos/europe/netherlands/Ado.png",
+  
+    "manager": {
+      "name": "Robin Peter",
+      "country": "DE"
+    },
+  
+    "stadium": {
+      "name": "WerkTalent Stadion",
+      "capacity": 15000
+    },
+  
+    "players": [
+      {"playerId": "player_nl1_001_01", "name": "Kilian Nikièma", "number": 1, "position": "GK", "country": "BF", "status": "starter"},
+      {"playerId": "player_nl1_001_02", "name": "Sekou Sylla", "number": 2, "position": "RB", "country": "GN", "status": "starter"},
+      {"playerId": "player_nl1_001_03", "name": "Othniël Raterink", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_001_04", "name": "Matteo Waem", "number": 5, "position": "CB", "country": "BE", "status": "starter"},
+      {"playerId": "player_nl1_001_05", "name": "Illaijh de Ruijter", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_001_06", "name": "Matěj Šín", "number": 6, "position": "CDM", "country": "CZ", "status": "starter"},
+      {"playerId": "player_nl1_001_07", "name": "Juho Kilo", "number": 8, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_nl1_001_08", "name": "Cameron Peupion", "number": 7, "position": "RW", "country": "AU", "status": "starter"},
+      {"playerId": "player_nl1_001_09", "name": "Pozo", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_001_10", "name": "Yannick Eduardo", "number": 9, "position": "ST", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_001_11", "name": "Donát Bárány", "number": 17, "position": "RW", "country": "HU", "status": "starter"},
+  
+      {"playerId": "player_nl1_001_12", "name": "Caleb Kramer", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_001_13", "name": "Jonas Jensen-Abbew", "number": 14, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_nl1_001_14", "name": "Milan Hokke", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_001_15", "name": "Pascal Mulder", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_001_16", "name": "Sanyika Bergtop", "number": 23, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_001_17", "name": "Daryl van Mieghem", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_001_18", "name": "Mylian Jimenez", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_001_19", "name": "Jan Žambůrek", "number": 20, "position": "CAM", "country": "CZ", "status": "bench"},
+      {"playerId": "player_nl1_001_20", "name": "Jalen Hawkins", "number": 21, "position": "RM", "country": "US", "status": "bench"},
+      {"playerId": "player_nl1_001_21", "name": "Finn de Bruin", "number": 22, "position": "LM", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_nl1_001_22", "name": "Niclas Thiede", "number": 30, "position": "GK", "country": "DE", "status": "reserve"},
+      {"playerId": "player_nl1_001_23", "name": "Luka Reischl", "number": 19, "position": "LW", "country": "AT", "status": "reserve"},
+      {"playerId": "player_nl1_001_24", "name": "Jesse Bal", "number": 29, "position": "ST", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl1_001_25", "name": "Evan Rottier", "number": 99, "position": "ST", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
