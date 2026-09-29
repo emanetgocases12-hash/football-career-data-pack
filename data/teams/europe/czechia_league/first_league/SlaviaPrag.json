@@ -1,12 +1,58 @@
 {
-  "teamKey": "Slavia",
+    "teamKey": "Slavia",
 
-  "name": "SK Slavia Prague",
+    "name": "SK Slavia Prague",
 
-  "logo": "assets/logos/europe/czechia/Slavia.png",
+    "logo": "assets/logos/europe/czechia/Slavia.png",
 
-  "stadium": {
-    "name": "Fortuna Arena",
-    "capacity": 19370
+    "manager": {
+      "name": "Jindřich Trpišovský",
+      "country": "CZ"
+    },
+
+    "stadium": {
+      "name": "Fortuna Arena",
+      "capacity": 19370
+    },
+
+    "players": [
+      { "playerId": "player_cz1_011_01", "name": "Jakub Markovič", "number": 35, "position": "GK", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_011_02", "name": "Tomáš Holeš", "number": 3, "position": "CB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_011_03", "name": "David Zima", "number": 4, "position": "CB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_011_04", "name": "Mikuláš Konečný", "number": 42, "position": "CB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_011_05", "name": "Štěpán Chaloupek", "number": 2, "position": "RM", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_011_06", "name": "Samuel Isife", "number": 14, "position": "CM", "country": "NG", "status": "starter" },
+      { "playerId": "player_cz1_011_07", "name": "Michal Sadílek", "number": 23, "position": "CM", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_011_08", "name": "Wiktor Nowak", "number": 30, "position": "LM", "country": "PL", "status": "starter" },
+      { "playerId": "player_cz1_011_09", "name": "Emmanuel Ayaosi", "number": 20, "position": "CAM", "country": "NG", "status": "starter" },
+      { "playerId": "player_cz1_011_10", "name": "Danijel Šturm", "number": 10, "position": "CAM", "country": "SI", "status": "starter" },
+      { "playerId": "player_cz1_011_11", "name": "Mojmír Chytil", "number": 13, "position": "ST", "country": "CZ", "status": "starter" },
+
+      { "playerId": "player_cz1_011_12", "name": "Ondřej Kolář", "number": 1, "position": "GK", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz1_011_13", "name": "Ange N'Guessan", "number": 6, "position": "CB", "country": "FR", "status": "bench" },
+      { "playerId": "player_cz1_011_14", "name": "David Jurásek", "number": 39, "position": "LB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz1_011_15", "name": "Igoh Ogbu", "number": 5, "position": "CB", "country": "NG", "status": "bench" },
+      { "playerId": "player_cz1_011_16", "name": "Tomáš Vlček", "number": 27, "position": "CB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz1_011_17", "name": "David Moses", "number": 16, "position": "CM", "country": "NG", "status": "bench" },
+      { "playerId": "player_cz1_011_18", "name": "Mubarak Suleiman", "number": 15, "position": "CAM", "country": "NG", "status": "bench" },
+      { "playerId": "player_cz1_011_19", "name": "Oskar Kubiak", "number": 8, "position": "LM", "country": "PL", "status": "bench" },
+      { "playerId": "player_cz1_011_20", "name": "Toumani Diakité", "number": 22, "position": "CM", "country": "CI", "status": "bench" },
+      { "playerId": "player_cz1_011_21", "name": "Ivan Schranz", "number": 26, "position": "RW", "country": "SK", "status": "bench" },
+
+      { "playerId": "player_cz1_011_22", "name": "Nazar Domchak", "number": 29, "position": "GK", "country": "UA", "status": "reserve" },
+      { "playerId": "player_cz1_011_23", "name": "Lukáš Provod", "number": 17, "position": "LW", "country": "CZ", "status": "reserve" },
+      { "playerId": "player_cz1_011_24", "name": "Tomáš Chorý", "number": 25, "position": "ST", "country": "CZ", "status": "reserve" },
+      { "playerId": "player_cz1_011_25", "name": "Pavel Kacor", "number": 32, "position": "RW", "country": "CZ", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "3-4-2-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 13,
+        "freeKick": 20,
+        "cornerLeft": 20,
+        "cornerRight": 20
+      }
+    }
   }
-}
