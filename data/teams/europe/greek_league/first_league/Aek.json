@@ -1,12 +1,58 @@
 {
-  "teamKey": "AEK",
-
-  "name": "AEK Athens",
-
-  "logo": "assets/logos/europe/greek/Aek.png",
-
-  "stadium": {
-    "name": "Allwyn Arena",
-    "capacity": 32500
+    "teamKey": "AEK",
+  
+    "name": "AEK Athens",
+  
+    "logo": "assets/logos/europe/greek/Aek.png",
+  
+    "manager": {
+      "name": "Marko Nikolic",
+      "country": "RS"
+    },
+  
+    "stadium": {
+      "name": "Allwyn Arena",
+      "capacity": 32500
+    },
+  
+    "players": [
+      {"playerId": "player_gr1_001_01", "name": "Thomas Strakosha", "number": 1, "position": "GK", "country": "AL", "status": "starter"},
+      {"playerId": "player_gr1_001_02", "name": "Lazaros Rota", "number": 12, "position": "RB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_001_03", "name": "Domagoj Vida", "number": 21, "position": "CB", "country": "HR", "status": "starter"},
+      {"playerId": "player_gr1_001_04", "name": "Harold Moukoudi", "number": 2, "position": "CB", "country": "CM", "status": "starter"},
+      {"playerId": "player_gr1_001_05", "name": "Stavros Pilios", "number": 3, "position": "LB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_001_06", "name": "Kaan Kairinen", "number": 6, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_gr1_001_07", "name": "Milan Vitális", "number": 8, "position": "CM", "country": "HU", "status": "starter"},
+      {"playerId": "player_gr1_001_08", "name": "Oleksandr Zubkov", "number": 17, "position": "RW", "country": "UA", "status": "starter"},
+      {"playerId": "player_gr1_001_09", "name": "Lovro Majer", "number": 10, "position": "CAM", "country": "HR", "status": "starter"},
+      {"playerId": "player_gr1_001_10", "name": "Derek Kutesa", "number": 11, "position": "LW", "country": "CH", "status": "starter"},
+      {"playerId": "player_gr1_001_11", "name": "Frantzdy Pierrot", "number": 14, "position": "ST", "country": "HT", "status": "starter"},
+  
+      {"playerId": "player_gr1_001_12", "name": "Alberto Brignoli", "number": 91, "position": "GK", "country": "IT", "status": "bench"},
+      {"playerId": "player_gr1_001_13", "name": "Christos Alexiou", "number": 44, "position": "CB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_001_14", "name": "Alexander Callens", "number": 18, "position": "CB", "country": "PE", "status": "bench"},
+      {"playerId": "player_gr1_001_15", "name": "Moses Odubajo", "number": 29, "position": "RB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_gr1_001_16", "name": "Petros Mantalos", "number": 20, "position": "CM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_001_17", "name": "Orbelín Pineda", "number": 13, "position": "CM", "country": "MX", "status": "bench"},
+      {"playerId": "player_gr1_001_18", "name": "Robert Ljubicic", "number": 23, "position": "CM", "country": "AT", "status": "bench"},
+      {"playerId": "player_gr1_001_19", "name": "Paolo Fernandes", "number": 22, "position": "RW", "country": "ES", "status": "bench"},
+      {"playerId": "player_gr1_001_20", "name": "Aboubakary Koita", "number": 5, "position": "LW", "country": "MR", "status": "bench"},
+      {"playerId": "player_gr1_001_21", "name": "Mijat Gaćinović", "number": 7, "position": "LM", "country": "RS", "status": "bench"},
+  
+      {"playerId": "player_gr1_001_22", "name": "Georgios Athanasiadis", "number": 30, "position": "GK", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr1_001_23", "name": "Zini", "number": 90, "position": "ST", "country": "AO", "status": "reserve"},
+      {"playerId": "player_gr1_001_24", "name": "Nordin Amrabat", "number": 25, "position": "RW", "country": "MA", "status": "reserve"},
+      {"playerId": "player_gr1_001_25", "name": "Steven Zuber", "number": 15, "position": "CAM", "country": "CH", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 14,
+        "freeKick": 10,
+        "cornerLeft": 17,
+        "cornerRight": 10
+      }
+    }
   }
-}
