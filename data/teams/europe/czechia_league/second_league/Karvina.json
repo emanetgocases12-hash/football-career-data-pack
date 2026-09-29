@@ -1,12 +1,58 @@
 {
-  "teamKey": "Krvina",
+    "teamKey": "Krvina",
 
-  "name": "MFK Karvina",
+    "name": "MFK Karvina",
 
-  "logo": "assets/logos/europe/czechia/Karvina.png",
+    "logo": "assets/logos/europe/czechia/Karvina.png",
 
-  "stadium": {
-    "name": "Městský stadion",
-    "capacity": 4833
+    "manager": {
+      "name": "Roman West",
+      "country": "CZ"
+    },
+
+    "stadium": {
+      "name": "Městský stadion",
+      "capacity": 4833
+    },
+
+    "players": [
+      { "playerId": "player_cz2_005_01", "name": "Jakub Lapeš", "number": 30, "position": "GK", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_005_02", "name": "Jan Chytrý", "number": 24, "position": "RB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_005_03", "name": "Sayibu Yakubu", "number": 32, "position": "CB", "country": "GH", "status": "starter" },
+      { "playerId": "player_cz2_005_04", "name": "Alex Markovic", "number": 21, "position": "CB", "country": "HU", "status": "starter" },
+      { "playerId": "player_cz2_005_05", "name": "Jiří Fleišman", "number": 25, "position": "LB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_005_06", "name": "Radim Breite", "number": 6, "position": "CDM", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_005_07", "name": "Adama Koné", "number": 5, "position": "CM", "country": "CI", "status": "starter" },
+      { "playerId": "player_cz2_005_08", "name": "Adam Kronus", "number": 8, "position": "RW", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_005_09", "name": "Denny Samko", "number": 10, "position": "CAM", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_005_10", "name": "Jakub Selnar", "number": 7, "position": "LW", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_005_11", "name": "Jakub Pira", "number": 29, "position": "ST", "country": "SK", "status": "starter" },
+
+      { "playerId": "player_cz2_005_12", "name": "Ondřej Schovanec", "number": 23, "position": "GK", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_005_13", "name": "Lukáš Rajtmajer", "number": 22, "position": "CB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_005_14", "name": "Nino Milić", "number": 19, "position": "LB", "country": "SI", "status": "bench" },
+      { "playerId": "player_cz2_005_15", "name": "Yahaya Muhammad", "number": 17, "position": "LB", "country": "NG", "status": "bench" },
+      { "playerId": "player_cz2_005_16", "name": "Adam Čičovský", "number": 11, "position": "CAM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_005_17", "name": "Jiří Hamza", "number": 14, "position": "CDM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_005_18", "name": "Štěpán Mišek", "number": 18, "position": "CM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_005_19", "name": "Yahaya Lawali", "number": 3, "position": "RM", "country": "NG", "status": "bench" },
+      { "playerId": "player_cz2_005_20", "name": "Ondřej Sasinka", "number": 27, "position": "ST", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_005_21", "name": "Faycal Konaté", "number": 93, "position": "ST", "country": "BF", "status": "bench" },
+
+      { "playerId": "player_cz2_005_22", "name": "Adam Vodička", "number": 34, "position": "GK", "country": "CZ", "status": "reserve" },
+      { "playerId": "player_cz2_005_23", "name": "Sidas Praleika", "number": 20, "position": "CDM", "country": "LT", "status": "reserve" },
+      { "playerId": "player_cz2_005_24", "name": "James Bello", "number": 72, "position": "LW", "country": "NG", "status": "reserve" },
+      { "playerId": "player_cz2_005_25", "name": "Ousmane Condé", "number": 31, "position": "LW", "country": "GN", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 29,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 8
+      }
+    }
   }
-}
