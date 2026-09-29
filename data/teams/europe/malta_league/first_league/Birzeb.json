@@ -1,12 +1,58 @@
 {
-  "teamKey": "Birzeb",
-
-  "name": "Birzebbuga St. Peter’s FC",
-
-  "logo": "assets/logos/europe/malta/Birzeb.png",
-
-  "stadium": {
-    "name": "Birżebbuġa Football Center",
-    "capacity": 2000
+    "teamKey": "Birzeb",
+  
+    "name": "Birzebbuga St. Peter’s FC",
+  
+    "logo": "assets/logos/europe/malta/Birzeb.png",
+  
+    "manager": {
+      "name": "Paul Camilleri",
+      "country": "MT"
+    },
+  
+    "stadium": {
+      "name": "Birżebbuġa Football Center",
+      "capacity": 2000
+    },
+  
+    "players": [
+      {"playerId": "player_mt1_003_01", "name": "Julian Azzopardi", "number": 1, "position": "GK", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_003_02", "name": "Juan Andres Bolanos", "number": 3, "position": "RB", "country": "CO", "status": "starter"},
+      {"playerId": "player_mt1_003_03", "name": "Miguel Azzopardi", "number": 4, "position": "CB", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_003_04", "name": "Joey Reno Vella", "number": 5, "position": "CB", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_003_05", "name": "Jacob Walker", "number": 17, "position": "LB", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_003_06", "name": "Matthew Xuereb", "number": 8, "position": "CM", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_003_07", "name": "Hubert Vella Genovese", "number": 6, "position": "CM", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_003_08", "name": "Alex Bruno De Souza Silva", "number": 29, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_mt1_003_09", "name": "Pietro Tomaselli", "number": 10, "position": "CAM", "country": "IT", "status": "starter"},
+      {"playerId": "player_mt1_003_10", "name": "Jackson Mendoza", "number": 11, "position": "LW", "country": "CO", "status": "starter"},
+      {"playerId": "player_mt1_003_11", "name": "Gabriel Costa Goncalves", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_mt1_003_12", "name": "James Pisani", "number": 26, "position": "GK", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_003_13", "name": "Zachary Cassar", "number": 15, "position": "CB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_003_14", "name": "Daniel Zerafa", "number": 94, "position": "CB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_003_15", "name": "Leonardo Agius", "number": 23, "position": "RB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_003_16", "name": "Randall Vella", "number": 16, "position": "LB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_003_17", "name": "Gustavo Felipe", "number": 18, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_mt1_003_18", "name": "G. Cooper", "number": 20, "position": "CM", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_mt1_003_19", "name": "A. Coppola", "number": 21, "position": "CAM", "country": "IT", "status": "bench"},
+      {"playerId": "player_mt1_003_20", "name": "Luis Riascos", "number": 19, "position": "RW", "country": "CO", "status": "bench"},
+      {"playerId": "player_mt1_003_21", "name": "Duvan Mosquera", "number": 99, "position": "ST", "country": "CO", "status": "bench"},
+  
+      {"playerId": "player_mt1_003_22", "name": "Kyle Micallef", "number": 30, "position": "GK", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_003_23", "name": "Christopher Mario Baker", "number": 7, "position": "LW", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_003_24", "name": "Paul Lapira", "number": 14, "position": "ST", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_003_25", "name": "Nathan Attard", "number": 2, "position": "RB", "country": "MT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 29,
+        "cornerRight": 11
+      }
+    }
   }
-}
