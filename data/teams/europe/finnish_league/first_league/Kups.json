@@ -1,12 +1,58 @@
 {
-  "teamKey": "Kups",
-
-  "name": "Kuopion Palloseura",
-
-  "logo": "assets/logos/europe/finland/Kups.png",
-
-  "stadium": {
-    "name": "Väre Areena",
-    "capacity": 4778
+    "teamKey": "Kups",
+  
+    "name": "Kuopion Palloseura",
+  
+    "logo": "assets/logos/europe/finland/Kups.png",
+  
+    "manager": {
+      "name": "Miika Nuutinen",
+      "country": "FI"
+    },
+  
+    "stadium": {
+      "name": "Väre Areena",
+      "capacity": 4778
+    },
+  
+    "players": [
+      {"playerId": "player_fi1_006_01", "name": "Johannes Kreidl", "number": 1, "position": "GK", "country": "AT", "status": "starter"},
+      {"playerId": "player_fi1_006_02", "name": "Clinton Antwi", "number": 2, "position": "RB", "country": "GH", "status": "starter"},
+      {"playerId": "player_fi1_006_03", "name": "Bob Nii Armah", "number": 4, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_fi1_006_04", "name": "Ibrahim Cissé", "number": 15, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_fi1_006_05", "name": "Seth Saarinen", "number": 18, "position": "LB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_006_06", "name": "Petteri Pennanen", "number": 8, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_006_07", "name": "Tommi Jyry", "number": 10, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_006_08", "name": "Saku Savolainen", "number": 6, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_006_09", "name": "Joslyn Luyeye-Lutumba", "number": 21, "position": "RW", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_006_10", "name": "Jaime Moreno", "number": 9, "position": "ST", "country": "NI", "status": "starter"},
+      {"playerId": "player_fi1_006_11", "name": "Saku Ylätupa", "number": 11, "position": "LW", "country": "FI", "status": "starter"},
+  
+      {"playerId": "player_fi1_006_12", "name": "Aatu Hakala", "number": 12, "position": "GK", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_006_13", "name": "Taneli Hämäläinen", "number": 3, "position": "CB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_006_14", "name": "Samuli Miettinen", "number": 5, "position": "CB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_006_15", "name": "Arttu Heinonen", "number": 13, "position": "RB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_006_16", "name": "Axel Vidjeskog", "number": 16, "position": "CM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_006_17", "name": "Joonas Veteli", "number": 17, "position": "CM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_006_18", "name": "Otto Ruoppi", "number": 20, "position": "CM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_006_19", "name": "Ousmane Diawara", "number": 22, "position": "RW", "country": "ML", "status": "bench"},
+      {"playerId": "player_fi1_006_20", "name": "Piotr Parzyszek", "number": 19, "position": "ST", "country": "PL", "status": "bench"},
+      {"playerId": "player_fi1_006_21", "name": "Akseli Puukko", "number": 23, "position": "LW", "country": "FI", "status": "bench"},
+  
+      {"playerId": "player_fi1_006_22", "name": "Mikael Töyräs", "number": 25, "position": "GK", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_006_23", "name": "Saku Räsänen", "number": 26, "position": "CB", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_006_24", "name": "Moussa Diallo", "number": 27, "position": "CM", "country": "FR", "status": "reserve"},
+      {"playerId": "player_fi1_006_25", "name": "Anthony Limbombe", "number": 28, "position": "LW", "country": "BE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
