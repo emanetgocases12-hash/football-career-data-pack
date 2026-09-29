@@ -1,12 +1,58 @@
 {
-  "teamKey": "Apollo",
+    "teamKey": "Apollo",
 
-  "name": "Apollon Limassol",
+    "name": "Apollon Limassol",
 
-  "logo": "assets/logos/europe/cpyrus/Apollon.png",
+    "logo": "assets/logos/europe/cpyrus/Apollon.png",
 
-  "stadium": {
-    "name": "Limassol Arena",
-    "capacity": 10700
+    "manager": {
+      "name": "Hernán Losada",
+      "country": "AR"
+    },
+
+    "stadium": {
+      "name": "Limassol Arena",
+      "capacity": 10700
+    },
+
+    "players": [
+      { "playerId": "player_cy1_004_01", "name": "Peter Leeuwenburgh", "number": 41, "position": "GK", "country": "NL", "status": "starter" },
+      { "playerId": "player_cy1_004_02", "name": "Bruno Gaspar", "number": 76, "position": "RB", "country": "PT", "status": "starter" },
+      { "playerId": "player_cy1_004_03", "name": "Emanuel Aiwu", "number": 4, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_cy1_004_04", "name": "Josef Kvída", "number": 44, "position": "CB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cy1_004_05", "name": "Konstantinos Balogiannis", "number": 38, "position": "LB", "country": "GR", "status": "starter" },
+      { "playerId": "player_cy1_004_06", "name": "Gustavo Assunção", "number": 12, "position": "CDM", "country": "BR", "status": "starter" },
+      { "playerId": "player_cy1_004_07", "name": "Gaëtan Weissbeck", "number": 27, "position": "CM", "country": "FR", "status": "starter" },
+      { "playerId": "player_cy1_004_08", "name": "Joel Asoro", "number": 29, "position": "RW", "country": "SE", "status": "starter" },
+      { "playerId": "player_cy1_004_09", "name": "Garry Rodrigues", "number": 10, "position": "CAM", "country": "CV", "status": "starter" },
+      { "playerId": "player_cy1_004_10", "name": "Clinton Duodu", "number": 17, "position": "LW", "country": "GH", "status": "starter" },
+      { "playerId": "player_cy1_004_11", "name": "Ike Ugbo", "number": 99, "position": "ST", "country": "CA", "status": "starter" },
+
+      { "playerId": "player_cy1_004_12", "name": "Phillip Kühn", "number": 22, "position": "GK", "country": "DE", "status": "bench" },
+      { "playerId": "player_cy1_004_13", "name": "Giorgos Malekkidis", "number": 14, "position": "LB", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_004_14", "name": "Nearchos Zinonos", "number": 19, "position": "CB", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_004_15", "name": "Andreas Shikkis", "number": 26, "position": "CB", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_004_16", "name": "Leonidas Konomis", "number": 37, "position": "CB", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_004_17", "name": "Morgan Brown", "number": 5, "position": "CM", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_cy1_004_18", "name": "Danilo Spoljaric", "number": 20, "position": "CM", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_004_19", "name": "Dani Escriche", "number": 30, "position": "ST", "country": "ES", "status": "bench" },
+      { "playerId": "player_cy1_004_20", "name": "Alen Ožbolt", "number": 9, "position": "ST", "country": "SI", "status": "bench" },
+      { "playerId": "player_cy1_004_21", "name": "Brandon Thomas", "number": 23, "position": "ST", "country": "ES", "status": "bench" },
+
+      { "playerId": "player_cy1_004_22", "name": "Konstantinos Stylianou", "number": 31, "position": "GK", "country": "CY", "status": "reserve" },
+      { "playerId": "player_cy1_004_23", "name": "Christodoulos Marneros", "number": 90, "position": "CB", "country": "CY", "status": "reserve" },
+      { "playerId": "player_cy1_004_24", "name": "Evangelos Andreou", "number": 11, "position": "RW", "country": "CY", "status": "reserve" },
+      { "playerId": "player_cy1_004_25", "name": "Andreas Athanasiou", "number": 18, "position": "LW", "country": "CY", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 44,
+      "setPieces": {
+        "penalty": 99,
+        "freeKick": 10,
+        "cornerLeft": 17,
+        "cornerRight": 29
+      }
+    }
   }
-}
