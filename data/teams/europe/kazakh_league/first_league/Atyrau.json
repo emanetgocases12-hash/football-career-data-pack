@@ -1,12 +1,58 @@
 {
-  "teamKey": "Atyrau",
-
-  "name": "FC Atyrau",
-
-  "logo": "assets/logos/europe/kazak/Atyrau.png",
-
-  "stadium": {
-    "name": "Sport Complex Munayshy",
-    "capacity": 8900
+    "teamKey": "Atyrau",
+  
+    "name": "FC Atyrau",
+  
+    "logo": "assets/logos/europe/kazak/Atyrau.png",
+  
+    "manager": {
+      "name": "Vladimir Cheburin",
+      "country": "KZ"
+    },
+  
+    "stadium": {
+      "name": "Sport Complex Munayshy",
+      "capacity": 8900
+    },
+  
+    "players": [
+      {"playerId": "player_kz1_004_01", "name": "Egor Khatkevich", "number": 1, "position": "GK", "country": "BY", "status": "starter"},
+      {"playerId": "player_kz1_004_02", "name": "Berik Shaikhov", "number": 2, "position": "RB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_004_03", "name": "Ruslan Yudenkov", "number": 4, "position": "CB", "country": "BY", "status": "starter"},
+      {"playerId": "player_kz1_004_04", "name": "Franjo Prce", "number": 5, "position": "CB", "country": "HR", "status": "starter"},
+      {"playerId": "player_kz1_004_05", "name": "K. Kalmuratov", "number": 3, "position": "LB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_004_06", "name": "Ebenezer Ofori", "number": 6, "position": "CM", "country": "GH", "status": "starter"},
+      {"playerId": "player_kz1_004_07", "name": "Mato Stanić", "number": 18, "position": "CM", "country": "BA", "status": "starter"},
+      {"playerId": "player_kz1_004_08", "name": "D. Yusov", "number": 7, "position": "RW", "country": "UA", "status": "starter"},
+      {"playerId": "player_kz1_004_09", "name": "Oleksandr Noyok", "number": 10, "position": "CAM", "country": "UA", "status": "starter"},
+      {"playerId": "player_kz1_004_10", "name": "A. Zhumabek", "number": 11, "position": "LW", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_004_11", "name": "Henrique Devens", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_kz1_004_12", "name": "N. Tokhtarov", "number": 12, "position": "GK", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_004_13", "name": "D. Yashin", "number": 15, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_kz1_004_14", "name": "E. Khvalko", "number": 14, "position": "CB", "country": "BY", "status": "bench"},
+      {"playerId": "player_kz1_004_15", "name": "S. Zhumagali", "number": 22, "position": "RB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_004_16", "name": "A. Buranchiev", "number": 20, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_004_17", "name": "M. Rabiu", "number": 8, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_kz1_004_18", "name": "S. Takulov", "number": 17, "position": "CM", "country": "RU", "status": "bench"},
+      {"playerId": "player_kz1_004_19", "name": "Đ. Pantelić", "number": 19, "position": "ST", "country": "RS", "status": "bench"},
+      {"playerId": "player_kz1_004_20", "name": "Đ. Maksimović", "number": 29, "position": "ST", "country": "RS", "status": "bench"},
+      {"playerId": "player_kz1_004_21", "name": "Y. Trufanov", "number": 21, "position": "ST", "country": "KZ", "status": "bench"},
+  
+      {"playerId": "player_kz1_004_22", "name": "N. Sagat", "number": 31, "position": "GK", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_004_23", "name": "B. Kereev", "number": 24, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_004_24", "name": "D. Orynbasar", "number": 27, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_004_25", "name": "M. Pangerei", "number": 28, "position": "ST", "country": "KZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 18,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
