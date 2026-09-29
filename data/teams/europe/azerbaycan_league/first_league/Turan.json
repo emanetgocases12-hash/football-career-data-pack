@@ -1,12 +1,58 @@
 {
-  "teamKey": "Turan T",
+    "teamKey": "Turan T",
 
-  "name": "Turan-Tovuz IK",
+    "name": "Turan-Tovuz IK",
 
-  "logo": "assets/logos/europe/azerbaycan/Turan.png",
+    "logo": "assets/logos/europe/azerbaycan/Turan.png",
 
-  "stadium": {
-    "name": "Tovuz City Stadium",
-    "capacity": 6500
+    "manager": {
+      "name": "Kurban Berdyev",
+      "country": "TM"
+    },
+
+    "stadium": {
+      "name": "Tovuz City Stadium",
+      "capacity": 6500
+    },
+
+    "players": [
+      { "playerId": "player_az1_011_01", "name": "Aleksey Kenyaykin", "number": 35, "position": "GK", "country": "RU", "status": "starter" },
+      { "playerId": "player_az1_011_02", "name": "Emmanuel Hackman", "number": 15, "position": "CB", "country": "TG", "status": "starter" },
+      { "playerId": "player_az1_011_03", "name": "Rahil Mammadov", "number": 4, "position": "CB", "country": "AZ", "status": "starter" },
+      { "playerId": "player_az1_011_04", "name": "Hayderson Hurtado", "number": 32, "position": "CB", "country": "CO", "status": "starter" },
+      { "playerId": "player_az1_011_05", "name": "Jorge Silva", "number": 7, "position": "RM", "country": "PT", "status": "starter" },
+      { "playerId": "player_az1_011_06", "name": "David Tavares", "number": 8, "position": "CM", "country": "CV", "status": "starter" },
+      { "playerId": "player_az1_011_07", "name": "Filip Damjanović", "number": 33, "position": "CM", "country": "RS", "status": "starter" },
+      { "playerId": "player_az1_011_08", "name": "Denis Marandici", "number": 25, "position": "LM", "country": "MD", "status": "starter" },
+      { "playerId": "player_az1_011_09", "name": "Roberto Olabe", "number": 19, "position": "CAM", "country": "ES", "status": "starter" },
+      { "playerId": "player_az1_011_10", "name": "Diogo Balau", "number": 11, "position": "CAM", "country": "PT", "status": "starter" },
+      { "playerId": "player_az1_011_11", "name": "Jo Batista", "number": 90, "position": "ST", "country": "BR", "status": "starter" },
+
+      { "playerId": "player_az1_011_12", "name": "Oleg Baklov", "number": 1, "position": "GK", "country": "TJ", "status": "bench" },
+      { "playerId": "player_az1_011_13", "name": "Mehman Hacıyev", "number": 13, "position": "GK", "country": "AZ", "status": "bench" },
+      { "playerId": "player_az1_011_14", "name": "Henrique", "number": 3, "position": "CB", "country": "BR", "status": "bench" },
+      { "playerId": "player_az1_011_15", "name": "Roderick Miller", "number": 5, "position": "CB", "country": "PA", "status": "bench" },
+      { "playerId": "player_az1_011_16", "name": "Faiq Hacıyev", "number": 88, "position": "RB", "country": "AZ", "status": "bench" },
+      { "playerId": "player_az1_011_17", "name": "Steve Beusnard", "number": 21, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_az1_011_18", "name": "Alex Serrano", "number": 23, "position": "CM", "country": "ES", "status": "bench" },
+      { "playerId": "player_az1_011_19", "name": "Aleksandar Janković", "number": 28, "position": "CM", "country": "RS", "status": "bench" },
+      { "playerId": "player_az1_011_20", "name": "Raul Məmmədov", "number": 66, "position": "CM", "country": "AZ", "status": "bench" },
+      { "playerId": "player_az1_011_21", "name": "Rahim Sadikhov", "number": 17, "position": "LW", "country": "AZ", "status": "bench" },
+
+      { "playerId": "player_az1_011_22", "name": "Josh Ginnelly", "number": 9, "position": "RW", "country": "GB-ENG", "status": "reserve" },
+      { "playerId": "player_az1_011_23", "name": "Ibrahima Wadji", "number": 77, "position": "ST", "country": "SN", "status": "reserve" },
+      { "playerId": "player_az1_011_24", "name": "Sadiq Şəfiyev", "number": 99, "position": "ST", "country": "AZ", "status": "reserve" },
+      { "playerId": "player_az1_011_25", "name": "Vladislav Ibrahima", "number": 24, "position": "RW", "country": "AZ", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "3-4-2-1",
+      "captain": 15,
+      "setPieces": {
+        "penalty": 90,
+        "freeKick": 19,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
