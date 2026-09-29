@@ -1,12 +1,58 @@
 {
-  "teamKey": "Zeljez",
+    "teamKey": "Zeljez",
 
-  "name": "FK Zeljeznicar Sarajevo",
+    "name": "FK Zeljeznicar Sarajevo",
 
-  "logo": "assets/logos/europe/bosna/Zeljeznicar.png",
+    "logo": "assets/logos/europe/bosna/Zeljeznicar.png",
 
-  "stadium": {
-    "name": "Grbavica",
-    "capacity": 16000
+    "manager": {
+      "name": "David Muslera Rodriguez",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "Grbavica",
+      "capacity": 16000
+    },
+
+    "players": [
+      { "playerId": "player_ba1_009_01", "name": "Tarik Abdulahović", "number": 1, "position": "GK", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_009_02", "name": "Giovanni Troupee", "number": 20, "position": "RB", "country": "CW", "status": "starter" },
+      { "playerId": "player_ba1_009_03", "name": "Collin Seedorf", "number": 33, "position": "CB", "country": "NL", "status": "starter" },
+      { "playerId": "player_ba1_009_04", "name": "Marko Karamarko", "number": 30, "position": "CB", "country": "DE", "status": "starter" },
+      { "playerId": "player_ba1_009_05", "name": "Bojan Nastić", "number": 15, "position": "LB", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_009_06", "name": "Aleksa Pejić", "number": 6, "position": "CDM", "country": "RS", "status": "starter" },
+      { "playerId": "player_ba1_009_07", "name": "Samir Radovac", "number": 88, "position": "CM", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_009_08", "name": "Matej Cvetanoski", "number": 14, "position": "RW", "country": "MK", "status": "starter" },
+      { "playerId": "player_ba1_009_09", "name": "Deni Milošević", "number": 8, "position": "CAM", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_009_10", "name": "Madžid Šošić", "number": 10, "position": "LW", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_009_11", "name": "Muharem Husković", "number": 29, "position": "ST", "country": "AT", "status": "starter" },
+
+      { "playerId": "player_ba1_009_12", "name": "Ángel Jiménez", "number": 41, "position": "GK", "country": "ES", "status": "bench" },
+      { "playerId": "player_ba1_009_13", "name": "Amar Ibrišimović", "number": 4, "position": "CB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_009_14", "name": "Ajdin Raščić", "number": 5, "position": "CB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_009_15", "name": "Daris Kelmendi", "number": 25, "position": "LB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_009_16", "name": "Armin Hodžić", "number": 55, "position": "CM", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_009_17", "name": "Dzenan Sabic", "number": 16, "position": "CM", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_009_18", "name": "Eldar Dragović", "number": 18, "position": "CM", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_009_19", "name": "Jorge Luis Guzmán Rodríguez", "number": 21, "position": "CAM", "country": "CO", "status": "bench" },
+      { "playerId": "player_ba1_009_20", "name": "Rodrigo Piloto", "number": 90, "position": "ST", "country": "PT", "status": "bench" },
+      { "playerId": "player_ba1_009_21", "name": "Jonathan Freeman", "number": 28, "position": "RW", "country": "LR", "status": "bench" },
+
+      { "playerId": "player_ba1_009_22", "name": "Alvin Ćosić", "number": 99, "position": "GK", "country": "BA", "status": "reserve" },
+      { "playerId": "player_ba1_009_23", "name": "Ante Kuliš", "number": 9, "position": "ST", "country": "HR", "status": "reserve" },
+      { "playerId": "player_ba1_009_24", "name": "Yacouba Dabo Gnako", "number": 17, "position": "ST", "country": "CI", "status": "reserve" },
+      { "playerId": "player_ba1_009_25", "name": "Gabriel Cunha Geraldo", "number": 49, "position": "ST", "country": "BR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 29,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 14
+      }
+    }
   }
-}
