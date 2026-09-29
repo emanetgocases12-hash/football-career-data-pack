@@ -1,12 +1,58 @@
 {
-  "teamKey": "Dinamo",
+    "teamKey": "Dinamo",
 
-  "name": "GNK Dinamo Zagreb",
+    "name": "GNK Dinamo Zagreb",
 
-  "logo": "assets/logos/europe/croatia/Zagreb.png",
+    "logo": "assets/logos/europe/croatia/Zagreb.png",
 
-  "stadium": {
-    "name": "Maksimir",
-    "capacity": 35123
+    "manager": {
+      "name": "Mario Kovačević",
+      "country": "HR"
+    },
+
+    "stadium": {
+      "name": "Maksimir",
+      "capacity": 35123
+    },
+
+    "players": [
+      { "playerId": "player_hr1_001_01", "name": "Dominik Kotarski", "number": 24, "position": "GK", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_001_02", "name": "Moris Valinčić", "number": 25, "position": "RB", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_001_03", "name": "Stjepan Radeljić", "number": 6, "position": "CB", "country": "BA", "status": "starter" },
+      { "playerId": "player_hr1_001_04", "name": "Scott McKenna", "number": 26, "position": "CB", "country": "GB-SCT", "status": "starter" },
+      { "playerId": "player_hr1_001_05", "name": "Matteo Perez Vinlöf", "number": 22, "position": "LB", "country": "SE", "status": "starter" },
+      { "playerId": "player_hr1_001_06", "name": "Josip Mišić", "number": 27, "position": "CDM", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_001_07", "name": "Miha Zajc", "number": 8, "position": "CM", "country": "SI", "status": "starter" },
+      { "playerId": "player_hr1_001_08", "name": "Luka Stojković", "number": 10, "position": "CAM", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_001_09", "name": "Luka Ivanušec", "number": 17, "position": "RW", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_001_10", "name": "Arbër Hoxha", "number": 11, "position": "LW", "country": "AL", "status": "starter" },
+      { "playerId": "player_hr1_001_11", "name": "Dion Drena Beljo", "number": 9, "position": "ST", "country": "HR", "status": "starter" },
+
+      { "playerId": "player_hr1_001_12", "name": "Danijel Zagorac", "number": 1, "position": "GK", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_001_13", "name": "Niko Galešić", "number": 15, "position": "CB", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_001_14", "name": "Sergi Domínguez", "number": 36, "position": "CB", "country": "ES", "status": "bench" },
+      { "playerId": "player_hr1_001_15", "name": "Bruno Goda", "number": 3, "position": "LB", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_001_16", "name": "Kirill Kravtsov", "number": 5, "position": "CM", "country": "RU", "status": "bench" },
+      { "playerId": "player_hr1_001_17", "name": "Lukas Kačavenda", "number": 80, "position": "CAM", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_001_18", "name": "Dani Rodríguez", "number": 7, "position": "RW", "country": "ES", "status": "bench" },
+      { "playerId": "player_hr1_001_19", "name": "Iker Almena", "number": 23, "position": "LW", "country": "ES", "status": "bench" },
+      { "playerId": "player_hr1_001_20", "name": "Smail Prevljak", "number": 14, "position": "ST", "country": "BA", "status": "bench" },
+      { "playerId": "player_hr1_001_21", "name": "Mateo Lisica", "number": 21, "position": "RW", "country": "HR", "status": "bench" },
+
+      { "playerId": "player_hr1_001_22", "name": "Ivan Filipović", "number": 44, "position": "GK", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_001_23", "name": "Robert Mudražija", "number": 20, "position": "CM", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_001_24", "name": "Fran Topić", "number": 30, "position": "ST", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_001_25", "name": "Mislav Oršić", "number": 99, "position": "LW", "country": "HR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 27,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 17
+      }
+    }
   }
-}
