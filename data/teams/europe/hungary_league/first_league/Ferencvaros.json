@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ferenc",
-
-  "name": "Ferencvárosi TC",
-
-  "logo": "assets/logos/europe/hungary/Ferencvaros.png",
-
-  "stadium": {
-    "name": "Groupama Aréna",
-    "capacity": 23698
+    "teamKey": "Ferenc",
+  
+    "name": "Ferencvárosi TC",
+  
+    "logo": "assets/logos/europe/hungary/Ferencvaros.png",
+  
+    "manager": {
+      "name": "Balázs Borbély",
+      "country": "SK"
+    },
+  
+    "stadium": {
+      "name": "Groupama Aréna",
+      "capacity": 23698
+    },
+  
+    "players": [
+      {"playerId": "player_hu1_003_01", "name": "Dénes Dibusz", "number": 90, "position": "GK", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_003_02", "name": "Attila Osváth", "number": 14, "position": "RB", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_003_03", "name": "Mariano Gómez", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_hu1_003_04", "name": "Toon Raemaekers", "number": 28, "position": "CB", "country": "BE", "status": "starter"},
+      {"playerId": "player_hu1_003_05", "name": "Cadu", "number": 20, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_hu1_003_06", "name": "Ádám Nagy", "number": 6, "position": "CM", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_003_07", "name": "Philippe Rommens", "number": 88, "position": "CM", "country": "BE", "status": "starter"},
+      {"playerId": "player_hu1_003_08", "name": "Jonathan Levi", "number": 10, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_hu1_003_09", "name": "Kristoffer Zachariassen", "number": 16, "position": "CAM", "country": "NO", "status": "starter"},
+      {"playerId": "player_hu1_003_10", "name": "Callum O'Dowda", "number": 47, "position": "LW", "country": "IE", "status": "starter"},
+      {"playerId": "player_hu1_003_11", "name": "Bamidele Yusuf", "number": 11, "position": "ST", "country": "NG", "status": "starter"},
+  
+      {"playerId": "player_hu1_003_12", "name": "Ádám Varga", "number": 1, "position": "GK", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_003_13", "name": "Nathan Zohoré", "number": 5, "position": "CB", "country": "FR", "status": "bench"},
+      {"playerId": "player_hu1_003_14", "name": "Endre Botka", "number": 21, "position": "RB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_003_15", "name": "Olivér Nagy", "number": 54, "position": "LB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_003_16", "name": "Matúš Bero", "number": 22, "position": "CM", "country": "SK", "status": "bench"},
+      {"playerId": "player_hu1_003_17", "name": "Naby Keïta", "number": 8, "position": "CM", "country": "GN", "status": "bench"},
+      {"playerId": "player_hu1_003_18", "name": "Marius Corbu", "number": 17, "position": "CAM", "country": "RO", "status": "bench"},
+      {"playerId": "player_hu1_003_19", "name": "Daniel Arzani", "number": 15, "position": "RW", "country": "AU", "status": "bench"},
+      {"playerId": "player_hu1_003_20", "name": "Lenny Joseph", "number": 75, "position": "ST", "country": "HT", "status": "bench"},
+      {"playerId": "player_hu1_003_21", "name": "Franko Kovačević", "number": 19, "position": "ST", "country": "HR", "status": "bench"},
+  
+      {"playerId": "player_hu1_003_22", "name": "Levente Őri", "number": 33, "position": "GK", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_003_23", "name": "Habib Maïga", "number": 80, "position": "CDM", "country": "CI", "status": "reserve"},
+      {"playerId": "player_hu1_003_24", "name": "Krisztián Lisztes", "number": 76, "position": "LW", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_003_25", "name": "Zétény Varga", "number": 68, "position": "RW", "country": "HU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 90,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 47,
+        "cornerRight": 16
+      }
+    }
   }
-}
