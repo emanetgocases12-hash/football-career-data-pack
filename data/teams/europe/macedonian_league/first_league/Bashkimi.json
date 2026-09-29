@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bashki",
-
-  "name": "Bashkimi",
-
-  "logo": "assets/logos/europe/macedonian/Bashkimi.png",
-
-  "stadium": {
-    "name": "Bashkimi Stadium",
-    "capacity": 3500
+    "teamKey": "Bashki",
+  
+    "name": "Bashkimi",
+  
+    "logo": "assets/logos/europe/macedonian/Bashkimi.png",
+  
+    "manager": {
+      "name": "Saban Sulejman",
+      "country": "MK"
+    },
+  
+    "stadium": {
+      "name": "Bashkimi Stadium",
+      "capacity": 3500
+    },
+  
+    "players": [
+      {"playerId": "player_mk1_003_01", "name": "Filip Kupanov", "number": 1, "position": "GK", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_003_02", "name": "Stefan Ristovski", "number": 34, "position": "RB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_003_03", "name": "Flamur Ismailji", "number": 4, "position": "CB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_003_04", "name": "Fatjon Redzhepi", "number": 5, "position": "CB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_003_05", "name": "Xhino Kapllanaj", "number": 3, "position": "LB", "country": "AL", "status": "starter"},
+      {"playerId": "player_mk1_003_06", "name": "Andri Stafa", "number": 8, "position": "CM", "country": "AL", "status": "starter"},
+      {"playerId": "player_mk1_003_07", "name": "Aleksandar Demiri", "number": 6, "position": "CDM", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_003_08", "name": "Toni Mirchevski", "number": 11, "position": "RW", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_003_09", "name": "Luís Ribeiro", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_mk1_003_10", "name": "Blerim Kurtishi", "number": 7, "position": "LW", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_003_11", "name": "Carlos Martínez", "number": 9, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_mk1_003_12", "name": "Blerim Aliju", "number": 12, "position": "GK", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_003_13", "name": "Arian Sulimani", "number": 22, "position": "ST", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_003_14", "name": "Yusuf Fawzi", "number": 14, "position": "CB", "country": "NG", "status": "bench"},
+      {"playerId": "player_mk1_003_15", "name": "Rijat Asani", "number": 15, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_003_16", "name": "Habibulla Askar", "number": 16, "position": "RB", "country": "AF", "status": "bench"},
+      {"playerId": "player_mk1_003_17", "name": "Besnik Iseni", "number": 17, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_003_18", "name": "Mahir Januzi", "number": 18, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_003_19", "name": "Germain Tenlep", "number": 20, "position": "CM", "country": "CM", "status": "bench"},
+      {"playerId": "player_mk1_003_20", "name": "Rachide", "number": 19, "position": "ST", "country": "GW", "status": "bench"},
+      {"playerId": "player_mk1_003_21", "name": "Niko Orr", "number": 21, "position": "ST", "country": "TT", "status": "bench"},
+  
+      {"playerId": "player_mk1_003_22", "name": "Leon Stojkovski", "number": 30, "position": "GK", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_003_23", "name": "Erion Saiti", "number": 23, "position": "RW", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_003_24", "name": "Filip Gjurgjevikj", "number": 24, "position": "ST", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_003_25", "name": "Ermal Kjaili", "number": 27, "position": "CAM", "country": "MK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 34,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
