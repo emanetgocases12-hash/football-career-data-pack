@@ -1,12 +1,58 @@
 {
-  "teamKey": "Istra",
+    "teamKey": "Istra",
 
-  "name": "NK Istra 1961",
+    "name": "NK Istra 1961",
 
-  "logo": "assets/logos/europe/croatia/Istra.png",
+    "logo": "assets/logos/europe/croatia/Istra.png",
 
-  "stadium": {
-    "name": "Aldo Drosina",
-    "capacity": 9056
+    "manager": {
+      "name": "Javier Cabello",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "Aldo Drosina",
+      "capacity": 9056
+    },
+
+    "players": [
+      { "playerId": "player_hr1_004_01", "name": "Franko Kolić", "number": 1, "position": "GK", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_004_02", "name": "Advan Kadušić", "number": 97, "position": "RB", "country": "BA", "status": "starter" },
+      { "playerId": "player_hr1_004_03", "name": "Severi Miettinen", "number": 16, "position": "CB", "country": "FI", "status": "starter" },
+      { "playerId": "player_hr1_004_04", "name": "Mohamed Nasraoui", "number": 3, "position": "CB", "country": "TN", "status": "starter" },
+      { "playerId": "player_hr1_004_05", "name": "Rok Hrvatin", "number": 44, "position": "LB", "country": "SI", "status": "starter" },
+      { "playerId": "player_hr1_004_06", "name": "Antonio Maurić", "number": 8, "position": "CDM", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_004_07", "name": "Gonzalo Albarracín", "number": 25, "position": "CM", "country": "AR", "status": "starter" },
+      { "playerId": "player_hr1_004_08", "name": "Sandro Goričan", "number": 11, "position": "RW", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_004_09", "name": "Dukan Ahmeti", "number": 20, "position": "CAM", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_004_10", "name": "Vinko Rozić", "number": 7, "position": "LW", "country": "BA", "status": "starter" },
+      { "playerId": "player_hr1_004_11", "name": "Isaac", "number": 9, "position": "ST", "country": "BR", "status": "starter" },
+
+      { "playerId": "player_hr1_004_12", "name": "Roko Banovac", "number": 12, "position": "GK", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_004_13", "name": "Niko Šepić", "number": 13, "position": "CB", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_004_14", "name": "Filip Taraba", "number": 24, "position": "CB", "country": "BA", "status": "bench" },
+      { "playerId": "player_hr1_004_15", "name": "Moses Momoh", "number": 66, "position": "RB", "country": "NG", "status": "bench" },
+      { "playerId": "player_hr1_004_16", "name": "Dion Drena Hodžić", "number": 6, "position": "CM", "country": "XK", "status": "bench" },
+      { "playerId": "player_hr1_004_17", "name": "Salim Ukich", "number": 23, "position": "CM", "country": "NZ", "status": "bench" },
+      { "playerId": "player_hr1_004_18", "name": "Dramane Doumbia", "number": 88, "position": "CM", "country": "ML", "status": "bench" },
+      { "playerId": "player_hr1_004_19", "name": "Emil Frederiksen", "number": 22, "position": "RW", "country": "DK", "status": "bench" },
+      { "playerId": "player_hr1_004_20", "name": "Samuel Bangura", "number": 18, "position": "ST", "country": "NL", "status": "bench" },
+      { "playerId": "player_hr1_004_21", "name": "Hamza Jaganjac", "number": 94, "position": "ST", "country": "BA", "status": "bench" },
+
+      { "playerId": "player_hr1_004_22", "name": "Jovan Paus-Kunšt", "number": 40, "position": "GK", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_004_23", "name": "Roko Kumar", "number": 38, "position": "CB", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_004_24", "name": "Marin Kablar", "number": 34, "position": "CM", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_004_25", "name": "Duje Celija", "number": 27, "position": "ST", "country": "HR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 20,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
