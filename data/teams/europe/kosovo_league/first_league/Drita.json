@@ -1,12 +1,58 @@
 {
-  "teamKey": "Drita",
-
-  "name": "FC Drita",
-
-  "logo": "assets/logos/europe/kosovo/Drita.png",
-
-  "stadium": {
-    "name": "Stadiumi me bari sintetik",
-    "capacity": 200
+    "teamKey": "Drita",
+  
+    "name": "FC Drita",
+  
+    "logo": "assets/logos/europe/kosovo/Drita.png",
+  
+    "manager": {
+      "name": "Zekirija Ramadani",
+      "country": "MK"
+    },
+  
+    "stadium": {
+      "name": "Stadiumi me bari sintetik",
+      "capacity": 200
+    },
+  
+    "players": [
+      {"playerId": "player_xk1_003_01", "name": "Faton Maloku", "number": 1, "position": "GK", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_003_02", "name": "Besnik Krasniqi", "number": 2, "position": "RB", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_003_03", "name": "Jorgo Pellumbi", "number": 32, "position": "CB", "country": "AL", "status": "starter"},
+      {"playerId": "player_xk1_003_04", "name": "Blerton Sheji", "number": 3, "position": "CB", "country": "MK", "status": "starter"},
+      {"playerId": "player_xk1_003_05", "name": "Raddy Ovouka", "number": 26, "position": "LB", "country": "CG", "status": "starter"},
+      {"playerId": "player_xk1_003_06", "name": "Rron Broja", "number": 4, "position": "CDM", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_003_07", "name": "Vesel Limaj", "number": 8, "position": "CM", "country": "DE", "status": "starter"},
+      {"playerId": "player_xk1_003_08", "name": "Kristal Abazaj", "number": 77, "position": "RW", "country": "AL", "status": "starter"},
+      {"playerId": "player_xk1_003_09", "name": "Liridon Balaj", "number": 10, "position": "CAM", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_003_10", "name": "Wiliam Baeten", "number": 24, "position": "LW", "country": "BE", "status": "starter"},
+      {"playerId": "player_xk1_003_11", "name": "Arb Manaj", "number": 9, "position": "ST", "country": "XK", "status": "starter"},
+  
+      {"playerId": "player_xk1_003_12", "name": "Laurit Behluli", "number": 22, "position": "GK", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_003_13", "name": "Altin Bytyqi", "number": 25, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_003_14", "name": "Agan Mjaki", "number": 28, "position": "CB", "country": "AL", "status": "bench"},
+      {"playerId": "player_xk1_003_15", "name": "Hajdin Salihu", "number": 55, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_003_16", "name": "Marsel Ismajlgeci", "number": 15, "position": "LB", "country": "AL", "status": "bench"},
+      {"playerId": "player_xk1_003_17", "name": "Albert Dabiqaj", "number": 14, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_003_18", "name": "Eros Rroca", "number": 18, "position": "CM", "country": "AL", "status": "bench"},
+      {"playerId": "player_xk1_003_19", "name": "Besnik Halimi", "number": 6, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_003_20", "name": "Igball Jashari", "number": 7, "position": "RW", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_003_21", "name": "Blerim Krasniqi", "number": 19, "position": "ST", "country": "AL", "status": "bench"},
+  
+      {"playerId": "player_xk1_003_22", "name": "Eron Isufi", "number": 74, "position": "GK", "country": "XK", "status": "reserve"},
+      {"playerId": "player_xk1_003_23", "name": "Kemehlo Nguena", "number": 93, "position": "CAM", "country": "FR", "status": "reserve"},
+      {"playerId": "player_xk1_003_24", "name": "Mike Arthur", "number": 99, "position": "ST", "country": "GH", "status": "reserve"},
+      {"playerId": "player_xk1_003_25", "name": "Oniks Grezda", "number": 17, "position": "LW", "country": "XK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 77,
+        "cornerRight": 24
+      }
+    }
   }
-}
