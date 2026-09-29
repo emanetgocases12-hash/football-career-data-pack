@@ -1,12 +1,58 @@
 {
-  "teamKey": "Torp K",
-
-  "name": "Torpedo Kutaisi",
-
-  "logo": "assets/logos/europe/georgia/Torpedo.png",
-
-  "stadium": {
-    "name": "Ramaz Shengelia Stadium",
-    "capacity": 14700
+    "teamKey": "Torp K",
+  
+    "name": "Torpedo Kutaisi",
+  
+    "logo": "assets/logos/europe/georgia/Torpedo.png",
+  
+    "manager": {
+      "name": "Dirk Schuster",
+      "country": "DE"
+    },
+  
+    "stadium": {
+      "name": "Ramaz Shengelia Stadium",
+      "capacity": 14700
+    },
+  
+    "players": [
+      {"playerId": "player_ge1_010_01", "name": "Oto Goshadze", "number": 1, "position": "GK", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_010_02", "name": "Dato Bukia", "number": 22, "position": "RB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_010_03", "name": "Matej Šimić", "number": 4, "position": "CB", "country": "HR", "status": "starter"},
+      {"playerId": "player_ge1_010_04", "name": "Tsotne Nadaraia", "number": 5, "position": "CB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_010_05", "name": "Ricardo Araujo", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_ge1_010_06", "name": "Vladimer Mamuchashvili", "number": 7, "position": "CM", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_010_07", "name": "Dino Skorup", "number": 20, "position": "CDM", "country": "HR", "status": "starter"},
+      {"playerId": "player_ge1_010_08", "name": "Giorgi Arabidze", "number": 11, "position": "RW", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_010_09", "name": "Mateo Itrak", "number": 8, "position": "CAM", "country": "HR", "status": "starter"},
+      {"playerId": "player_ge1_010_10", "name": "Felipe Pires", "number": 14, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_ge1_010_11", "name": "Komnen Andrić", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+  
+      {"playerId": "player_ge1_010_12", "name": "Filip Kljajić", "number": 31, "position": "GK", "country": "RS", "status": "bench"},
+      {"playerId": "player_ge1_010_13", "name": "Sori Mané", "number": 16, "position": "CB", "country": "GW", "status": "bench"},
+      {"playerId": "player_ge1_010_14", "name": "Luka Latsabidze", "number": 24, "position": "CB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_010_15", "name": "Mateo Stamatov", "number": 33, "position": "LB", "country": "BG", "status": "bench"},
+      {"playerId": "player_ge1_010_16", "name": "Luka Kuprava", "number": 15, "position": "CB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_010_17", "name": "Malkhazi Chitaishvili", "number": 29, "position": "CM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_010_18", "name": "Tornike Antia", "number": 30, "position": "CM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_010_19", "name": "Luka Pridonishvili", "number": 36, "position": "CM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_010_20", "name": "Diego Deisadze", "number": 35, "position": "ST", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_010_21", "name": "Virgile Pinson", "number": 39, "position": "ST", "country": "FR", "status": "bench"},
+  
+      {"playerId": "player_ge1_010_22", "name": "Soso Kopaliani", "number": 38, "position": "GK", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_010_23", "name": "Akaki Shulaia", "number": 40, "position": "RM", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_010_24", "name": "Nika Lominadze", "number": 17, "position": "CM", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_010_25", "name": "Levan Kharabadze", "number": 27, "position": "LB", "country": "GE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 14,
+        "cornerRight": 7
+      }
+    }
   }
-}
