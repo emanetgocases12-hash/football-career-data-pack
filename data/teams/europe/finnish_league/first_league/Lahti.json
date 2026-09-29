@@ -1,12 +1,58 @@
 {
-  "teamKey": "Lahti",
-
-  "name": "FC Lahti",
-
-  "logo": "assets/logos/europe/finland/Lahti.png",
-
-  "stadium": {
-    "name": "Lahden Stadion",
-    "capacity": 7465
+    "teamKey": "Lahti",
+  
+    "name": "FC Lahti",
+  
+    "logo": "assets/logos/europe/finland/Lahti.png",
+  
+    "manager": {
+      "name": "Gonçalo Pereira",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Lahden Stadion",
+      "capacity": 7465
+    },
+  
+    "players": [
+      {"playerId": "player_fi1_007_01", "name": "Osku Maukonen", "number": 31, "position": "GK", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_007_02", "name": "Pablo Andrade", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_fi1_007_03", "name": "Mikko Viitikko", "number": 4, "position": "CB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_007_04", "name": "Arian Kabashi", "number": 5, "position": "CB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_007_05", "name": "Riku Selander", "number": 3, "position": "LB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_007_06", "name": "Erik Andersson", "number": 14, "position": "CM", "country": "SE", "status": "starter"},
+      {"playerId": "player_fi1_007_07", "name": "Matti Klinga", "number": 8, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_007_08", "name": "Luquinhas", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_fi1_007_09", "name": "Michael López", "number": 11, "position": "RW", "country": "AR", "status": "starter"},
+      {"playerId": "player_fi1_007_10", "name": "Eemeli Virta", "number": 7, "position": "LW", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_007_11", "name": "Luke Ivanovic", "number": 9, "position": "ST", "country": "AU", "status": "starter"},
+  
+      {"playerId": "player_fi1_007_12", "name": "Aatu Hakala", "number": 12, "position": "GK", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_007_13", "name": "Arttu Heinonen", "number": 16, "position": "RB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_007_14", "name": "Timi Lahti", "number": 15, "position": "CB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_007_15", "name": "Juho Pirttijoki", "number": 20, "position": "CB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_007_16", "name": "Vili Koskela", "number": 18, "position": "CM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_007_17", "name": "Samu Alanko", "number": 19, "position": "RW", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_007_18", "name": "Julius Tauriainen", "number": 21, "position": "LB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_007_19", "name": "Amir Belabid", "number": 17, "position": "ST", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_007_20", "name": "Elias Mastokangas", "number": 22, "position": "CAM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_007_21", "name": "Felix Strauss", "number": 23, "position": "CB", "country": "AT", "status": "bench"},
+  
+      {"playerId": "player_fi1_007_22", "name": "Joona Tiainen", "number": 1, "position": "GK", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_007_23", "name": "Onni Tiihonen", "number": 24, "position": "CM", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_007_24", "name": "Marius Könkkölä", "number": 25, "position": "LW", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_007_25", "name": "Arlind Sejdiu", "number": 26, "position": "RW", "country": "FI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 14,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
