@@ -1,12 +1,58 @@
 {
-  "teamKey": "Brøn IF",
-
-  "name": "Bröndby IF",
-
-  "logo": "assets/logos/europe/denmark/Brondby.png",
-
-  "stadium": {
-    "name": "Brøndby Stadion",
-    "capacity": 28000
+    "teamKey": "Brøn IF",
+  
+    "name": "Bröndby IF",
+  
+    "logo": "assets/logos/europe/denmark/Brondby.png",
+  
+    "manager": {
+      "name": "Thomas Nørgaard",
+      "country": "DK"
+    },
+  
+    "stadium": {
+      "name": "Brøndby Stadion",
+      "capacity": 28000
+    },
+  
+    "players": [
+      {"playerId": "player_dk1_002_01", "name": "Patrick Pentz", "number": 1, "position": "GK", "country": "AT", "status": "starter"},
+      {"playerId": "player_dk1_002_02", "name": "Oliver Villadsen", "number": 2, "position": "RB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_002_03", "name": "Luis Binks", "number": 4, "position": "CB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_dk1_002_04", "name": "Jordi Vanlerberghe", "number": 30, "position": "CB", "country": "BE", "status": "starter"},
+      {"playerId": "player_dk1_002_05", "name": "Mats Köhlert", "number": 27, "position": "LB", "country": "DE", "status": "starter"},
+      {"playerId": "player_dk1_002_06", "name": "Bartosz Slisz", "number": 99, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_dk1_002_07", "name": "Max Ejdum", "number": 18, "position": "CM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_002_08", "name": "Olti Hyseni", "number": 7, "position": "RW", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_002_09", "name": "Mads Frøkjær-Jensen", "number": 29, "position": "CAM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_002_10", "name": "Filip Bundgaard", "number": 11, "position": "LW", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_002_11", "name": "Patrick Mortensen", "number": 9, "position": "ST", "country": "DK", "status": "starter"},
+  
+      {"playerId": "player_dk1_002_12", "name": "Gavin Beavers", "number": 13, "position": "GK", "country": "US", "status": "bench"},
+      {"playerId": "player_dk1_002_13", "name": "Frederik Alves", "number": 32, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_002_14", "name": "Marko Divkovic", "number": 24, "position": "LB", "country": "HR", "status": "bench"},
+      {"playerId": "player_dk1_002_15", "name": "Raphael Canut", "number": 37, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_002_16", "name": "Marcus Younis", "number": 21, "position": "RM", "country": "AU", "status": "bench"},
+      {"playerId": "player_dk1_002_17", "name": "Daniel Wass", "number": 10, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_002_18", "name": "Sho Fukuda", "number": 19, "position": "ST", "country": "JP", "status": "bench"},
+      {"playerId": "player_dk1_002_19", "name": "Jacob Ambæk", "number": 38, "position": "ST", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_002_20", "name": "Oskar Fenger", "number": 51, "position": "ST", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_002_21", "name": "Emmanuel Dennis", "number": 17, "position": "LW", "country": "NG", "status": "bench"},
+  
+      {"playerId": "player_dk1_002_22", "name": "Adrian Kappenberger", "number": 16, "position": "GK", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk1_002_23", "name": "Christopher Olivier", "number": 3, "position": "CB", "country": "AT", "status": "reserve"},
+      {"playerId": "player_dk1_002_24", "name": "Rasmus Lauritsen", "number": 5, "position": "CB", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk1_002_25", "name": "Viggo Poulsen", "number": 36, "position": "CM", "country": "DK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 99,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 29,
+        "cornerLeft": 29,
+        "cornerRight": 11
+      }
+    }
   }
-}
