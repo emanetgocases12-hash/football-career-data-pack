@@ -1,12 +1,58 @@
 {
-  "teamKey": "Shkend",
-
-  "name": "Shkendija Tetovo",
-
-  "logo": "assets/logos/europe/macedonian/Shkendija.png",
-
-  "stadium": {
-    "name": "Ecolog Arena",
-    "capacity": 15000
+    "teamKey": "Shkend",
+  
+    "name": "Shkendija Tetovo",
+  
+    "logo": "assets/logos/europe/macedonian/Shkendija.png",
+  
+    "manager": {
+      "name": "Festim Ademi",
+      "country": "MK"
+    },
+  
+    "stadium": {
+      "name": "Ecolog Arena",
+      "capacity": 15000
+    },
+  
+    "players": [
+      {"playerId": "player_mk1_005_01", "name": "Astrit Amzai", "number": 25, "position": "GK", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_005_02", "name": "Aleksander Trumçi", "number": 2, "position": "RB", "country": "AL", "status": "starter"},
+      {"playerId": "player_mk1_005_03", "name": "Jovan Manev", "number": 55, "position": "CB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_005_04", "name": "Mevlan Murati", "number": 16, "position": "CB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_005_05", "name": "Bojan Dimoski", "number": 23, "position": "LB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_005_06", "name": "Drilon Islami", "number": 5, "position": "CDM", "country": "XK", "status": "starter"},
+      {"playerId": "player_mk1_005_07", "name": "Rafael Freitas", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_mk1_005_08", "name": "Fabrice Tamba", "number": 29, "position": "RW", "country": "SN", "status": "starter"},
+      {"playerId": "player_mk1_005_09", "name": "Endrit Krasniqi", "number": 10, "position": "CAM", "country": "XK", "status": "starter"},
+      {"playerId": "player_mk1_005_10", "name": "Almir Kryeziu", "number": 11, "position": "LW", "country": "XK", "status": "starter"},
+      {"playerId": "player_mk1_005_11", "name": "Marko Gjorgjievski", "number": 99, "position": "ST", "country": "MK", "status": "starter"},
+  
+      {"playerId": "player_mk1_005_12", "name": "Baboucarr Gaye", "number": 24, "position": "GK", "country": "GM", "status": "bench"},
+      {"playerId": "player_mk1_005_13", "name": "Vane Krstevski", "number": 19, "position": "ST", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_005_14", "name": "Nazif Ceka", "number": 18, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_005_15", "name": "Anes Meliqi", "number": 26, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_005_16", "name": "Lirian Djeladini", "number": 20, "position": "LB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_005_17", "name": "Arbin Zejnullai", "number": 17, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_005_18", "name": "Florent Ramadani", "number": 77, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_005_19", "name": "Sebastjan Spahiu", "number": 49, "position": "CAM", "country": "AL", "status": "bench"},
+      {"playerId": "player_mk1_005_20", "name": "Besart Ibraimi", "number": 7, "position": "ST", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_005_21", "name": "Fahd Ndzengue", "number": 9, "position": "ST", "country": "GA", "status": "bench"},
+  
+      {"playerId": "player_mk1_005_22", "name": "Ferat Ramani", "number": 30, "position": "GK", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_005_23", "name": "Armir Isa", "number": 21, "position": "RW", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_005_24", "name": "Flori Ilazi", "number": 35, "position": "RW", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_005_25", "name": "Anes Abdurahmani", "number": 33, "position": "CB", "country": "MK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 16,
+      "setPieces": {
+        "penalty": 99,
+        "freeKick": 10,
+        "cornerLeft": 29,
+        "cornerRight": 11
+      }
+    }
   }
-}
