@@ -1,12 +1,58 @@
 {
-  "teamKey": "Kisvar",
-
-  "name": "Kisvárda FC",
-
-  "logo": "assets/logos/europe/hungary/Kisvarda.png",
-
-  "stadium": {
-    "name": "Várkerti Stadion",
-    "capacity": 2993
+    "teamKey": "Kisvar",
+  
+    "name": "Kisvárda FC",
+  
+    "logo": "assets/logos/europe/hungary/Kisvarda.png",
+  
+    "manager": {
+      "name": "Nebojsa Vignjević",
+      "country": "RS"
+    },
+  
+    "stadium": {
+      "name": "Várkerti Stadion",
+      "capacity": 2993
+    },
+  
+    "players": [
+      {"playerId": "player_hu1_005_01", "name": "Máté Kovács", "number": 1, "position": "GK", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_005_02", "name": "Tomás Lippai", "number": 42, "position": "RB", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_005_03", "name": "Martin Chlumecký", "number": 4, "position": "CB", "country": "CZ", "status": "starter"},
+      {"playerId": "player_hu1_005_04", "name": "Besim Šerbečić", "number": 25, "position": "CB", "country": "BA", "status": "starter"},
+      {"playerId": "player_hu1_005_05", "name": "Enes Alic", "number": 13, "position": "LB", "country": "BA", "status": "starter"},
+      {"playerId": "player_hu1_005_06", "name": "Bohdan Melnyk", "number": 14, "position": "CM", "country": "UA", "status": "starter"},
+      {"playerId": "player_hu1_005_07", "name": "Amos Youga", "number": 22, "position": "CDM", "country": "CF", "status": "starter"},
+      {"playerId": "player_hu1_005_08", "name": "Marko Matanović", "number": 11, "position": "RW", "country": "ME", "status": "starter"},
+      {"playerId": "player_hu1_005_09", "name": "Dániel Soltész", "number": 10, "position": "CAM", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_005_10", "name": "András Nuriyev", "number": 7, "position": "LW", "country": "AZ", "status": "starter"},
+      {"playerId": "player_hu1_005_11", "name": "Soma Novothny", "number": 86, "position": "ST", "country": "HU", "status": "starter"},
+  
+      {"playerId": "player_hu1_005_12", "name": "Ivan Popovych", "number": 23, "position": "GK", "country": "UA", "status": "bench"},
+      {"playerId": "player_hu1_005_13", "name": "Bence Oláh", "number": 5, "position": "CB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_005_14", "name": "Nikola Radmanovac", "number": 26, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_hu1_005_15", "name": "Stephen Adayilo", "number": 3, "position": "LB", "country": "NG", "status": "bench"},
+      {"playerId": "player_hu1_005_16", "name": "Mihály Babják", "number": 37, "position": "RB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_005_17", "name": "István Soltész", "number": 8, "position": "CM", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_005_18", "name": "Ciprian Herc", "number": 24, "position": "CM", "country": "SK", "status": "bench"},
+      {"playerId": "player_hu1_005_19", "name": "Hugo Mbock", "number": 80, "position": "CM", "country": "FR", "status": "bench"},
+      {"playerId": "player_hu1_005_20", "name": "Jasmin Mešanović", "number": 27, "position": "ST", "country": "BA", "status": "bench"},
+      {"playerId": "player_hu1_005_21", "name": "Tonislav Yordanov", "number": 99, "position": "ST", "country": "BG", "status": "bench"},
+  
+      {"playerId": "player_hu1_005_22", "name": "Zoltán Papp", "number": 32, "position": "GK", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_005_23", "name": "Kristóf Nagy", "number": 55, "position": "RM", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_005_24", "name": "László Szőr", "number": 70, "position": "LW", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_005_25", "name": "Bence Bíró", "number": 29, "position": "ST", "country": "HU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 42,
+      "setPieces": {
+        "penalty": 86,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
