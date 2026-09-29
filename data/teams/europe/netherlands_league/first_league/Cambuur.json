@@ -1,12 +1,58 @@
-{
-  "teamKey": "Cambuu",
-
-  "name": "SC Cambuur Leeuwarden",
-
-  "logo": "assets/logos/europe/netherlands/Cambuur.png",
-
-  "stadium": {
-    "name": "Kooi Stadion",
-    "capacity": 14504
+ {
+    "teamKey": "Cambuu",
+  
+    "name": "SC Cambuur Leeuwarden",
+  
+    "logo": "assets/logos/europe/netherlands/Cambuur.png",
+  
+    "manager": {
+      "name": "Johan Plat",
+      "country": "NL"
+    },
+  
+    "stadium": {
+      "name": "Kooi Stadion",
+      "capacity": 14504
+    },
+  
+    "players": [
+      {"playerId": "player_nl1_004_01", "name": "Thijs Jansen", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_004_02", "name": "Ismaël Baouf", "number": 2, "position": "RB", "country": "MA", "status": "starter"},
+      {"playerId": "player_nl1_004_03", "name": "Lucas Jetten", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_004_04", "name": "Billy van Duijl", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_004_05", "name": "Jamal Amofa", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_004_06", "name": "Rafik El Arguioui", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_004_07", "name": "Ilyes Hamache", "number": 8, "position": "CM", "country": "FR", "status": "starter"},
+      {"playerId": "player_nl1_004_08", "name": "Jason Ceka", "number": 7, "position": "RW", "country": "DE", "status": "starter"},
+      {"playerId": "player_nl1_004_09", "name": "Devid Bouah", "number": 10, "position": "CAM", "country": "IT", "status": "starter"},
+      {"playerId": "player_nl1_004_10", "name": "Sami Bouhoudane", "number": 9, "position": "ST", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_004_11", "name": "Skye Vink", "number": 17, "position": "RW", "country": "NL", "status": "starter"},
+  
+      {"playerId": "player_nl1_004_12", "name": "Luca Plogmann", "number": 12, "position": "GK", "country": "DE", "status": "bench"},
+      {"playerId": "player_nl1_004_13", "name": "Morgan Costarelli", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_004_14", "name": "Jorn Berkhout", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_004_15", "name": "Rik Mulders", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_004_16", "name": "Fabian Kvam", "number": 11, "position": "LW", "country": "NO", "status": "bench"},
+      {"playerId": "player_nl1_004_17", "name": "Wout Asselman", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_004_18", "name": "Nicky Souren", "number": 20, "position": "CAM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_004_19", "name": "Ethan Apkakou", "number": 21, "position": "RM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_004_20", "name": "Daan Visser", "number": 22, "position": "LM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_004_21", "name": "Iwan Henstra", "number": 19, "position": "LW", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_nl1_004_22", "name": "Jasper Meijster", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl1_004_23", "name": "Nicolas Binder", "number": 29, "position": "ST", "country": "AT", "status": "reserve"},
+      {"playerId": "player_nl1_004_24", "name": "Danyello Look", "number": 99, "position": "ST", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl1_004_25", "name": "Matthijs Kalisvaart", "number": 31, "position": "GK", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
