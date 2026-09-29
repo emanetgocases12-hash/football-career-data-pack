@@ -1,12 +1,58 @@
 {
-  "teamKey": "Aris L",
+    "teamKey": "Aris L",
 
-  "name": "Aris Limassol",
+    "name": "Aris Limassol",
 
-  "logo": "assets/logos/europe/cpyrus/Aris.png",
+    "logo": "assets/logos/europe/cpyrus/Aris.png",
 
-  "stadium": {
-    "name": "Limassol Arena",
-    "capacity": 10700
+    "manager": {
+      "name": "Artem Radkov",
+      "country": "BY"
+    },
+
+    "stadium": {
+      "name": "Limassol Arena",
+      "capacity": 10700
+    },
+
+    "players": [
+      { "playerId": "player_cy1_005_01", "name": "Vaná", "number": 1, "position": "GK", "country": "BR", "status": "starter" },
+      { "playerId": "player_cy1_005_02", "name": "Gédéon Kalulu", "number": 24, "position": "RB", "country": "CD", "status": "starter" },
+      { "playerId": "player_cy1_005_03", "name": "Lazar Maraš", "number": 3, "position": "CB", "country": "ME", "status": "starter" },
+      { "playerId": "player_cy1_005_04", "name": "Miłosz Matysik", "number": 17, "position": "CB", "country": "PL", "status": "starter" },
+      { "playerId": "player_cy1_005_05", "name": "Anderson Correia", "number": 7, "position": "LB", "country": "CY", "status": "starter" },
+      { "playerId": "player_cy1_005_06", "name": "Alex Sarfo", "number": 6, "position": "CDM", "country": "GH", "status": "starter" },
+      { "playerId": "player_cy1_005_07", "name": "Veljko Nikolić", "number": 22, "position": "CM", "country": "RS", "status": "starter" },
+      { "playerId": "player_cy1_005_08", "name": "Werton", "number": 99, "position": "RW", "country": "BR", "status": "starter" },
+      { "playerId": "player_cy1_005_09", "name": "Gustavo Pajé", "number": 30, "position": "CAM", "country": "BR", "status": "starter" },
+      { "playerId": "player_cy1_005_10", "name": "Dennis Gaustad", "number": 29, "position": "LW", "country": "NO", "status": "starter" },
+      { "playerId": "player_cy1_005_11", "name": "Rody Junior Effaghe", "number": 11, "position": "ST", "country": "GA", "status": "starter" },
+
+      { "playerId": "player_cy1_005_12", "name": "Wes Foderingham", "number": 25, "position": "GK", "country": "GB-ENG", "status": "bench" },
+      { "playerId": "player_cy1_005_13", "name": "David Lelle", "number": 5, "position": "CB", "country": "DE", "status": "bench" },
+      { "playerId": "player_cy1_005_14", "name": "Aboubacar Loucoubar", "number": 15, "position": "CB", "country": "SN", "status": "bench" },
+      { "playerId": "player_cy1_005_15", "name": "Bence Szakos", "number": 18, "position": "CB", "country": "HU", "status": "bench" },
+      { "playerId": "player_cy1_005_16", "name": "Mamadou Sané", "number": 19, "position": "CB", "country": "SN", "status": "bench" },
+      { "playerId": "player_cy1_005_17", "name": "Steve Yago", "number": 20, "position": "RB", "country": "BF", "status": "bench" },
+      { "playerId": "player_cy1_005_18", "name": "Juraj Badelj", "number": 27, "position": "CB", "country": "HR", "status": "bench" },
+      { "playerId": "player_cy1_005_19", "name": "Charalampos Charalampous", "number": 8, "position": "CM", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_005_20", "name": "Chahid El Allachi", "number": 70, "position": "LW", "country": "NL", "status": "bench" },
+      { "playerId": "player_cy1_005_21", "name": "Oriyomi Lebi", "number": 16, "position": "ST", "country": "NG", "status": "bench" },
+
+      { "playerId": "player_cy1_005_22", "name": "Mislav Zadro", "number": 91, "position": "GK", "country": "HR", "status": "reserve" },
+      { "playerId": "player_cy1_005_23", "name": "Daniil Galyata", "number": 21, "position": "CM", "country": "BY", "status": "reserve" },
+      { "playerId": "player_cy1_005_24", "name": "Viktoras Neokleous", "number": 42, "position": "RW", "country": "CY", "status": "reserve" },
+      { "playerId": "player_cy1_005_25", "name": "Collins Fi Akamba", "number": 88, "position": "CM", "country": "CM", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 22,
+        "cornerLeft": 29,
+        "cornerRight": 99
+      }
+    }
   }
-}
