@@ -1,12 +1,58 @@
 {
-  "teamKey": "Rander",
-
-  "name": "Randers FC",
-
-  "logo": "assets/logos/europe/denmark/Randers.png",
-
-  "stadium": {
-    "name": "Cepheus Park Randers",
-    "capacity": 10300
+    "teamKey": "Rander",
+  
+    "name": "Randers FC",
+  
+    "logo": "assets/logos/europe/denmark/Randers.png",
+  
+    "manager": {
+      "name": "Rasmus Bertelsen",
+      "country": "DK"
+    },
+  
+    "stadium": {
+      "name": "Cepheus Park Randers",
+      "capacity": 10300
+    },
+  
+    "players": [
+      {"playerId": "player_dk1_009_01", "name": "Jannich Storch", "number": 32, "position": "GK", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_009_02", "name": "Martin Sjølstad", "number": 15, "position": "RB", "country": "NO", "status": "starter"},
+      {"playerId": "player_dk1_009_03", "name": "Daniel Høegh", "number": 3, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_009_04", "name": "Wessel Dammers", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_dk1_009_05", "name": "Nikolas Dyhr", "number": 44, "position": "LB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_009_06", "name": "Mike Themsen", "number": 7, "position": "CM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_009_07", "name": "Laurits Raun Pedersen", "number": 8, "position": "CDM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_009_08", "name": "Mathias Greve", "number": 17, "position": "CM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_009_09", "name": "Elies Mahmoud", "number": 11, "position": "RW", "country": "FR", "status": "starter"},
+      {"playerId": "player_dk1_009_10", "name": "Mohamed Sankoh", "number": 30, "position": "ST", "country": "NL", "status": "starter"},
+      {"playerId": "player_dk1_009_11", "name": "Kasper Junker", "number": 77, "position": "LW", "country": "DK", "status": "starter"},
+  
+      {"playerId": "player_dk1_009_12", "name": "Paul Izzo", "number": 1, "position": "GK", "country": "AU", "status": "bench"},
+      {"playerId": "player_dk1_009_13", "name": "Lucas Lissens", "number": 2, "position": "CB", "country": "BE", "status": "bench"},
+      {"playerId": "player_dk1_009_14", "name": "Nikolai Hopland", "number": 27, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_dk1_009_15", "name": "Benjamin Örn", "number": 23, "position": "LB", "country": "SE", "status": "bench"},
+      {"playerId": "player_dk1_009_16", "name": "John Björkengren", "number": 6, "position": "CM", "country": "SE", "status": "bench"},
+      {"playerId": "player_dk1_009_17", "name": "Sabil Hansen", "number": 24, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_009_18", "name": "Axel Henriksson", "number": 21, "position": "CM", "country": "SE", "status": "bench"},
+      {"playerId": "player_dk1_009_19", "name": "Hector Lux", "number": 26, "position": "CAM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_009_20", "name": "Amin Al-Hamawi", "number": 9, "position": "ST", "country": "IQ", "status": "bench"},
+      {"playerId": "player_dk1_009_21", "name": "Amady Camara", "number": 36, "position": "ST", "country": "ML", "status": "bench"},
+  
+      {"playerId": "player_dk1_009_22", "name": "Mert Demirci", "number": 22, "position": "GK", "country": "NL", "status": "reserve"},
+      {"playerId": "player_dk1_009_23", "name": "Oliver Jones", "number": 5, "position": "CB", "country": "AU", "status": "reserve"},
+      {"playerId": "player_dk1_009_24", "name": "Felix Sommer", "number": 31, "position": "CB", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk1_009_25", "name": "Cyril Edudzi", "number": 33, "position": "RW", "country": "GH", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 30,
+        "freeKick": 17,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
