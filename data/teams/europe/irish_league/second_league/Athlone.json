@@ -1,12 +1,58 @@
 {
-  "teamKey": "Athlon",
-
-  "name": "Athlone Town AFC",
-
-  "logo": "assets/logos/europe/irish/Athlone.png",
-
-  "stadium": {
-    "name": "Athlone Town Stadium",
-    "capacity": 5000
+    "teamKey": "Athlon",
+  
+    "name": "Athlone Town AFC",
+  
+    "logo": "assets/logos/europe/irish/Athlone.png",
+  
+    "manager": {
+      "name": "Ian Ryan",
+      "country": "IE"
+    },
+  
+    "stadium": {
+      "name": "Athlone Town Stadium",
+      "capacity": 5000
+    },
+  
+    "players": [
+      {"playerId": "player_ie2_001_01", "name": "Brendan Clarke", "number": 1, "position": "GK", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_001_02", "name": "Thomas Considine", "number": 2, "position": "RB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_001_03", "name": "Oisín Hand", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_001_04", "name": "Evan O'Connor", "number": 5, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_001_05", "name": "Derin Adewale", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_001_06", "name": "Brian McManus", "number": 8, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_001_07", "name": "Callum Cleary", "number": 6, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_001_08", "name": "Patrick Ferry", "number": 11, "position": "RW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_001_09", "name": "Conor Knight", "number": 10, "position": "CAM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_001_10", "name": "Peter Grogan", "number": 7, "position": "LW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_001_11", "name": "Aaron Connolly", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
+  
+      {"playerId": "player_ie2_001_12", "name": "Stephen McGuinness", "number": 13, "position": "GK", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_001_13", "name": "Adam Lennon", "number": 22, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_001_14", "name": "Dylan Hand", "number": 15, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_001_15", "name": "Aaron Maloney", "number": 16, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_001_16", "name": "Gradi Lomboto", "number": 17, "position": "RW", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_001_17", "name": "Ben Feeney", "number": 18, "position": "ST", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_001_18", "name": "Oisín Duffy", "number": 14, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_001_19", "name": "Noah van Geenen", "number": 19, "position": "ST", "country": "NL", "status": "bench"},
+      {"playerId": "player_ie2_001_20", "name": "Jason Lyons", "number": 20, "position": "RW", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_001_21", "name": "Amardo Oakley", "number": 21, "position": "ST", "country": "JM", "status": "bench"},
+  
+      {"playerId": "player_ie2_001_22", "name": "Kyle Conway", "number": 30, "position": "GK", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_001_23", "name": "Rian Hogan", "number": 12, "position": "GK", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_001_24", "name": "Ben Curtis", "number": 24, "position": "RB", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_001_25", "name": "Dean Ebbe", "number": 25, "position": "ST", "country": "IE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
