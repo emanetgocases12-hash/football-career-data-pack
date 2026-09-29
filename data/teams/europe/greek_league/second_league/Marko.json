@@ -1,12 +1,58 @@
 {
-  "teamKey": "Marko",
-
-  "name": "Marko FC",
-
-  "logo": "assets/logos/europe/greek/Marko.png",
-
-  "stadium": {
-    "name": "Dimotiko Gipedo Markopoulou",
-    "capacity": 3000
+    "teamKey": "Marko",
+  
+    "name": "Marko FC",
+  
+    "logo": "assets/logos/europe/greek/Marko.png",
+  
+    "manager": {
+      "name": "Soulis Papadopoulos",
+      "country": "GR"
+    },
+  
+    "stadium": {
+      "name": "Dimotiko Gipedo Markopoulou",
+      "capacity": 3000
+    },
+  
+    "players": [
+      {"playerId": "player_gr2_007_01", "name": "Alexander Safarikas", "number": 55, "position": "GK", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_007_02", "name": "Iasonas Skarlatidis", "number": 2, "position": "RB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_007_03", "name": "Pavlos Smalis", "number": 3, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_007_04", "name": "Charalampos Pavlidis", "number": 10, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_007_05", "name": "Gedian Bushaj", "number": 13, "position": "LB", "country": "AL", "status": "starter"},
+      {"playerId": "player_gr2_007_06", "name": "Pavlos Kyriakidis", "number": 19, "position": "CM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr2_007_07", "name": "Rafael Blancq", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_gr2_007_08", "name": "Kristian Gjini", "number": 12, "position": "RW", "country": "AL", "status": "starter"},
+      {"playerId": "player_gr2_007_09", "name": "Tiago Andino", "number": 7, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_gr2_007_10", "name": "Egor Prutsev", "number": 11, "position": "LW", "country": "RS", "status": "starter"},
+      {"playerId": "player_gr2_007_11", "name": "Bamba Dieng", "number": 9, "position": "ST", "country": "SN", "status": "starter"},
+  
+      {"playerId": "player_gr2_007_12", "name": "Christos Theodorakis", "number": 1, "position": "GK", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_007_13", "name": "José Castaño", "number": 15, "position": "CB", "country": "ES", "status": "bench"},
+      {"playerId": "player_gr2_007_14", "name": "Stelios Ritsotakis", "number": 14, "position": "CB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_007_15", "name": "Alkiviadis Markopouliotis", "number": 4, "position": "CB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr2_007_16", "name": "Derrick Luckassen", "number": 5, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_gr2_007_17", "name": "Mohammed Abu Fani", "number": 6, "position": "CM", "country": "IL", "status": "bench"},
+      {"playerId": "player_gr2_007_18", "name": "Aleksandar Katai", "number": 17, "position": "CAM", "country": "RS", "status": "bench"},
+      {"playerId": "player_gr2_007_19", "name": "Kristiyan Balov", "number": 18, "position": "RW", "country": "BG", "status": "bench"},
+      {"playerId": "player_gr2_007_20", "name": "Jay Enem", "number": 20, "position": "ST", "country": "NL", "status": "bench"},
+      {"playerId": "player_gr2_007_21", "name": "Bruno Duarte", "number": 21, "position": "ST", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_gr2_007_22", "name": "Alexandros Exarchos", "number": 68, "position": "GK", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr2_007_23", "name": "Balsa Popovic", "number": 23, "position": "CM", "country": "ME", "status": "reserve"},
+      {"playerId": "player_gr2_007_24", "name": "Vasilije Kostov", "number": 24, "position": "CAM", "country": "RS", "status": "reserve"},
+      {"playerId": "player_gr2_007_25", "name": "Stefan Gudelj", "number": 25, "position": "CB", "country": "BA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 11,
+        "cornerRight": 17
+      }
+    }
   }
-}
