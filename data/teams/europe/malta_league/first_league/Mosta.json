@@ -1,12 +1,58 @@
 {
-  "teamKey": "Mosta",
-
-  "name": "Mosta FC",
-
-  "logo": "assets/logos/europe/malta/Mosta.png",
-
-  "stadium": {
-    "name": "Ta Qali",
-    "capacity": 17000
+    "teamKey": "Mosta",
+  
+    "name": "Mosta FC",
+  
+    "logo": "assets/logos/europe/malta/Mosta.png",
+  
+    "manager": {
+      "name": "Joe Grech",
+      "country": "MT"
+    },
+  
+    "stadium": {
+      "name": "Ta Qali",
+      "capacity": 17000
+    },
+  
+    "players": [
+      {"playerId": "player_mt1_008_01", "name": "Andreas Vella", "number": 1, "position": "GK", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_008_02", "name": "Ryan Debono", "number": 2, "position": "RB", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_008_03", "name": "Clayton Failla", "number": 3, "position": "LB", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_008_04", "name": "Zachary Brincat", "number": 4, "position": "CB", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_008_05", "name": "Milan Djuric", "number": 5, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_mt1_008_06", "name": "Luke Montebello", "number": 8, "position": "CM", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_008_07", "name": "Edmond Agius", "number": 6, "position": "CM", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_008_08", "name": "Roderick Briffa", "number": 11, "position": "RW", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_008_09", "name": "Luke Urpani", "number": 10, "position": "CAM", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_008_10", "name": "Sergio Uyi", "number": 7, "position": "LW", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_008_11", "name": "Leonardo Rocha", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_mt1_008_12", "name": "Jasper Camilleri", "number": 12, "position": "GK", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_008_13", "name": "Aeneas Farrugia", "number": 14, "position": "CB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_008_14", "name": "Cain Attard", "number": 15, "position": "RB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_008_15", "name": "Emmanuel Mbong", "number": 16, "position": "CM", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_008_16", "name": "Bojan Kaljevic", "number": 17, "position": "ST", "country": "ME", "status": "bench"},
+      {"playerId": "player_mt1_008_17", "name": "Neil Micallef", "number": 18, "position": "CM", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_008_18", "name": "Shaun Dimech", "number": 19, "position": "RW", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_008_19", "name": "Jean Borg", "number": 20, "position": "CB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_008_20", "name": "Maksim Kasalica", "number": 21, "position": "LW", "country": "ME", "status": "bench"},
+      {"playerId": "player_mt1_008_21", "name": "Dejan Debeljuh", "number": 22, "position": "ST", "country": "HR", "status": "bench"},
+  
+      {"playerId": "player_mt1_008_22", "name": "Jake Galea", "number": 30, "position": "GK", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_008_23", "name": "Rafael Vella", "number": 23, "position": "LB", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_008_24", "name": "Nicholas Pulis", "number": 24, "position": "ST", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_008_25", "name": "Keanu Vella", "number": 25, "position": "CM", "country": "MT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
