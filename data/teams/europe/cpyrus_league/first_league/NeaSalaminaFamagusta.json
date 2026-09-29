@@ -1,12 +1,58 @@
 {
-  "teamKey": "Salami",
+    "teamKey": "Salami",
 
-  "name": "Nea Salamina Famagusta",
+    "name": "Nea Salamina Famagusta",
 
-  "logo": "assets/logos/europe/cpyrus/Salami.png",
+    "logo": "assets/logos/europe/cpyrus/Salami.png",
 
-  "stadium": {
-    "name": "Ammochostos Stadium",
-    "capacity": 5500
+    "manager": {
+      "name": "Ángel López",
+      "country": "ES"
+    },
+
+    "stadium": {
+      "name": "Ammochostos Stadium",
+      "capacity": 5500
+    },
+
+    "players": [
+      { "playerId": "player_cy1_009_01", "name": "Dániel Kovács", "number": 63, "position": "GK", "country": "HU", "status": "starter" },
+      { "playerId": "player_cy1_009_02", "name": "Antreas Dimitriou", "number": 12, "position": "RB", "country": "CY", "status": "starter" },
+      { "playerId": "player_cy1_009_03", "name": "Vasilis Lampropoulos", "number": 24, "position": "CB", "country": "GR", "status": "starter" },
+      { "playerId": "player_cy1_009_04", "name": "Sergio González", "number": 55, "position": "CB", "country": "ES", "status": "starter" },
+      { "playerId": "player_cy1_009_05", "name": "Florent Hanin", "number": 29, "position": "LB", "country": "FR", "status": "starter" },
+      { "playerId": "player_cy1_009_06", "name": "Maxence Confais", "number": 27, "position": "CDM", "country": "FR", "status": "starter" },
+      { "playerId": "player_cy1_009_07", "name": "Jordi Quintillà", "number": 88, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_cy1_009_08", "name": "Christos Giousis", "number": 10, "position": "RW", "country": "GR", "status": "starter" },
+      { "playerId": "player_cy1_009_09", "name": "Giannis Gerolemou", "number": 71, "position": "CAM", "country": "CY", "status": "starter" },
+      { "playerId": "player_cy1_009_10", "name": "Aldair", "number": 17, "position": "LW", "country": "GW", "status": "starter" },
+      { "playerId": "player_cy1_009_11", "name": "Darío Poveda", "number": 9, "position": "ST", "country": "ES", "status": "starter" },
+
+      { "playerId": "player_cy1_009_12", "name": "Alberto Varó", "number": 1, "position": "GK", "country": "ES", "status": "bench" },
+      { "playerId": "player_cy1_009_13", "name": "Panagiotis Artymatas", "number": 4, "position": "CB", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_009_14", "name": "Alexandros Michail", "number": 5, "position": "CB", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_009_15", "name": "Antreas Panayiotou", "number": 30, "position": "LB", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_009_16", "name": "Giorgos Viktoros", "number": 44, "position": "CB", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_009_17", "name": "Georgios Christodoulou", "number": 6, "position": "CM", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_009_18", "name": "José Artiles", "number": 8, "position": "CAM", "country": "ES", "status": "bench" },
+      { "playerId": "player_cy1_009_19", "name": "Emile Grandsir", "number": 7, "position": "RW", "country": "FR", "status": "bench" },
+      { "playerId": "player_cy1_009_20", "name": "Braydon Manu", "number": 37, "position": "LW", "country": "DE", "status": "bench" },
+      { "playerId": "player_cy1_009_21", "name": "Karol Angielski", "number": 19, "position": "ST", "country": "PL", "status": "bench" },
+
+      { "playerId": "player_cy1_009_22", "name": "Denys Vakulyk", "number": 16, "position": "GK", "country": "UA", "status": "reserve" },
+      { "playerId": "player_cy1_009_23", "name": "Konstantinos Ilia", "number": 25, "position": "CM", "country": "CY", "status": "reserve" },
+      { "playerId": "player_cy1_009_24", "name": "Kyriakos Epifaniou", "number": 70, "position": "RW", "country": "CY", "status": "reserve" },
+      { "playerId": "player_cy1_009_25", "name": "Panagiotis Louka", "number": 89, "position": "ST", "country": "CY", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 24,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 88,
+        "cornerLeft": 17,
+        "cornerRight": 10
+      }
+    }
   }
-}
