@@ -1,12 +1,58 @@
 {
-  "teamKey": "Wbrger",
+    "teamKey": "Wbrger",
 
-  "name": "Wolfsberger AC",
+    "name": "Wolfsberger AC",
 
-  "logo": "assets/logos/europe/austria/Wolfsberg.png",
+    "logo": "assets/logos/europe/austria/Wolfsberg.png",
 
-  "stadium": {
-    "name": "Lavanttal-Arena",
-    "capacity": 7300
+    "manager": {
+      "name": "Thomas Silberberger",
+      "country": "AT"
+    },
+
+    "stadium": {
+      "name": "Lavanttal-Arena",
+      "capacity": 7300
+    },
+
+    "players": [
+      { "playerId": "player_at1_012_01", "name": "Lukas Gütlbauer", "number": 1, "position": "GK", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_012_02", "name": "Fabian Wohlmuth", "number": 31, "position": "RB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_012_03", "name": "Raffael Behounek", "number": 6, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_012_04", "name": "Simon Piesinger", "number": 8, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_012_05", "name": "Rene Renner", "number": 77, "position": "LB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_012_06", "name": "Marco Sulzner", "number": 30, "position": "CDM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_012_07", "name": "Otar Mamageishvili", "number": 19, "position": "CM", "country": "GE", "status": "starter" },
+      { "playerId": "player_at1_012_08", "name": "Donis Avdijaj", "number": 10, "position": "RW", "country": "XK", "status": "starter" },
+      { "playerId": "player_at1_012_09", "name": "Dominik Fitz", "number": 36, "position": "CAM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_012_10", "name": "Marco Schabauer", "number": 17, "position": "LW", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_012_11", "name": "Giacomo Vrioni", "number": 9, "position": "ST", "country": "AL", "status": "starter" },
+
+      { "playerId": "player_at1_012_12", "name": "Lior Gliklich", "number": 12, "position": "GK", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_012_13", "name": "Boris Matic", "number": 2, "position": "CB", "country": "HR", "status": "bench" },
+      { "playerId": "player_at1_012_14", "name": "Cheick Mamadou Diabate", "number": 15, "position": "CB", "country": "ML", "status": "bench" },
+      { "playerId": "player_at1_012_15", "name": "Matteo Kitz", "number": 35, "position": "RB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_012_16", "name": "David Djuric", "number": 70, "position": "CB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_012_17", "name": "Aaron Sky Schwarz", "number": 11, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_012_18", "name": "Thorsten Schriebl", "number": 20, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_012_19", "name": "Emanuel Agyemang", "number": 34, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_012_20", "name": "Luca Hassler", "number": 7, "position": "ST", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_012_21", "name": "Phillip Verhounig", "number": 23, "position": "ST", "country": "AT", "status": "bench" },
+
+      { "playerId": "player_at1_012_22", "name": "David Skubl", "number": 21, "position": "GK", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at1_012_23", "name": "Veljko Vukojevic", "number": 22, "position": "ST", "country": "RS", "status": "reserve" },
+      { "playerId": "player_at1_012_24", "name": "Markus Pink", "number": 32, "position": "ST", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at1_012_25", "name": "Sankara Karamoko", "number": 49, "position": "ST", "country": "FR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 36,
+        "cornerLeft": 10,
+        "cornerRight": 36
+      }
+    }
   }
-}
