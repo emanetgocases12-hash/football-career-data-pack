@@ -1,12 +1,58 @@
 {
-  "teamKey": "Otrant",
-
-  "name": "FK Otrant-Olympic Ulcinj",
-
-  "logo": "assets/logos/europe/montengro/Otrant.png",
-
-  "stadium": {
-    "name": "Stadion Olimpik",
-    "capacity": 1500
+    "teamKey": "Otrant",
+  
+    "name": "FK Otrant-Olympic Ulcinj",
+  
+    "logo": "assets/logos/europe/montengro/Otrant.png",
+  
+    "manager": {
+      "name": "Milija Savović",
+      "country": "ME"
+    },
+  
+    "stadium": {
+      "name": "Stadion Olimpik",
+      "capacity": 1500
+    },
+  
+    "players": [
+      {"playerId": "player_me1_007_01", "name": "Jasmin Agović", "number": 1, "position": "GK", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_007_02", "name": "Adrijan Rudović", "number": 2, "position": "RB", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_007_03", "name": "Vasilije Radenović", "number": 4, "position": "CB", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_007_04", "name": "Ermin Seratlić", "number": 5, "position": "CB", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_007_05", "name": "Petar Vuković", "number": 3, "position": "LB", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_007_06", "name": "Srđan Krstović", "number": 6, "position": "CM", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_007_07", "name": "Lazar Lambulić", "number": 8, "position": "CM", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_007_08", "name": "Valentin Rudović", "number": 10, "position": "RW", "country": "ME", "status": "starter"},
+      {"playerId": "player_me1_007_09", "name": "Caique Augusto Correia Chagas", "number": 7, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_me1_007_10", "name": "Alban Taipi", "number": 11, "position": "LW", "country": "MK", "status": "starter"},
+      {"playerId": "player_me1_007_11", "name": "Halil Muharemović", "number": 9, "position": "ST", "country": "ME", "status": "starter"},
+  
+      {"playerId": "player_me1_007_12", "name": "Šaban Kolić", "number": 12, "position": "GK", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_007_13", "name": "E. Marseni", "number": 23, "position": "CM", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_007_14", "name": "F. Pavićević", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_007_15", "name": "L. Lazoja", "number": 15, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_007_16", "name": "B. Rexhoviq", "number": 16, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_007_17", "name": "N. Vuković", "number": 17, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_007_18", "name": "E. Sefa", "number": 18, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_007_19", "name": "Anđelo Rudović", "number": 20, "position": "CM", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_007_20", "name": "M. Pelinković", "number": 21, "position": "CM", "country": "ME", "status": "bench"},
+      {"playerId": "player_me1_007_21", "name": "E. Đečbitrić", "number": 22, "position": "CM", "country": "ME", "status": "bench"},
+  
+      {"playerId": "player_me1_007_22", "name": "Donart Peraj", "number": 30, "position": "GK", "country": "ME", "status": "reserve"},
+      {"playerId": "player_me1_007_23", "name": "E. Karamanaga", "number": 19, "position": "ST", "country": "ME", "status": "reserve"},
+      {"playerId": "player_me1_007_24", "name": "A. Bošnjak", "number": 24, "position": "ST", "country": "ME", "status": "reserve"},
+      {"playerId": "player_me1_007_25", "name": "M. Uskoković", "number": 25, "position": "ST", "country": "ME", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
