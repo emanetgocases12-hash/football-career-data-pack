@@ -1,12 +1,58 @@
 {
-  "teamKey": "Nicosi",
+    "teamKey": "Nicosi",
 
-  "name": "Olympiakos Nicosia",
+    "name": "Olympiakos Nicosia",
 
-  "logo": "assets/logos/europe/cpyrus/Nicosi.png",
+    "logo": "assets/logos/europe/cpyrus/Nicosi.png",
 
-  "stadium": {
-    "name": "GSP Stadium",
-    "capacity": 22859
+    "manager": {
+      "name": "Georgios Kostis",
+      "country": "GR"
+    },
+
+    "stadium": {
+      "name": "GSP Stadium",
+      "capacity": 22859
+    },
+
+    "players": [
+      { "playerId": "player_cy1_010_01", "name": "Christos Talichmanidis", "number": 1, "position": "GK", "country": "GR", "status": "starter" },
+      { "playerId": "player_cy1_010_02", "name": "Christoforos Frantzis", "number": 2, "position": "RB", "country": "CY", "status": "starter" },
+      { "playerId": "player_cy1_010_03", "name": "Eduardo Kunde", "number": 5, "position": "CB", "country": "CM", "status": "starter" },
+      { "playerId": "player_cy1_010_04", "name": "Márk Tamás", "number": 24, "position": "CB", "country": "HU", "status": "starter" },
+      { "playerId": "player_cy1_010_05", "name": "Nhayson Rosa", "number": 13, "position": "LB", "country": "BR", "status": "starter" },
+      { "playerId": "player_cy1_010_06", "name": "Bruno Paz", "number": 8, "position": "CDM", "country": "AO", "status": "starter" },
+      { "playerId": "player_cy1_010_07", "name": "Agapios Vrikkis", "number": 77, "position": "CM", "country": "CY", "status": "starter" },
+      { "playerId": "player_cy1_010_08", "name": "Marios Pechlivanis", "number": 23, "position": "RW", "country": "CY", "status": "starter" },
+      { "playerId": "player_cy1_010_09", "name": "Dominik Prokop", "number": 10, "position": "CAM", "country": "AT", "status": "starter" },
+      { "playerId": "player_cy1_010_10", "name": "Konstantinos Christou", "number": 21, "position": "LW", "country": "CY", "status": "starter" },
+      { "playerId": "player_cy1_010_11", "name": "Panagiotis Kynigopoulos", "number": 26, "position": "ST", "country": "GR", "status": "starter" },
+
+      { "playerId": "player_cy1_010_12", "name": "Michalis Kyriakou", "number": 32, "position": "GK", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_010_13", "name": "Michalis Foulias", "number": 3, "position": "LB", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_010_14", "name": "Alexandros Doumas", "number": 4, "position": "CB", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_010_15", "name": "Giorgos Kitsios", "number": 31, "position": "RB", "country": "GR", "status": "bench" },
+      { "playerId": "player_cy1_010_16", "name": "Henrique Martins Gomes", "number": 55, "position": "CB", "country": "PT", "status": "bench" },
+      { "playerId": "player_cy1_010_17", "name": "Georgios Okkas", "number": 6, "position": "CM", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_010_18", "name": "Pedro Miguel Sancho", "number": 80, "position": "CM", "country": "PT", "status": "bench" },
+      { "playerId": "player_cy1_010_19", "name": "Alexandros Lolis", "number": 11, "position": "RW", "country": "GR", "status": "bench" },
+      { "playerId": "player_cy1_010_20", "name": "Zanos Savva", "number": 9, "position": "ST", "country": "CY", "status": "bench" },
+      { "playerId": "player_cy1_010_21", "name": "Rauno Sappinen", "number": 15, "position": "ST", "country": "EE", "status": "bench" },
+
+      { "playerId": "player_cy1_010_22", "name": "Michalis Varnava", "number": 73, "position": "GK", "country": "CY", "status": "reserve" },
+      { "playerId": "player_cy1_010_23", "name": "Marios Praxitelous Alherek", "number": 22, "position": "CM", "country": "CY", "status": "reserve" },
+      { "playerId": "player_cy1_010_24", "name": "Kyprianos Irakleous", "number": 29, "position": "ST", "country": "CY", "status": "reserve" },
+      { "playerId": "player_cy1_010_25", "name": "Agapios Prokopiou", "number": 33, "position": "CAM", "country": "CY", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 24,
+      "setPieces": {
+        "penalty": 26,
+        "freeKick": 10,
+        "cornerLeft": 21,
+        "cornerRight": 23
+      }
+    }
   }
-}
