@@ -1,12 +1,58 @@
 {
-  "teamKey": "CSKA 48",
+    "teamKey": "CSKA 48",
 
-  "name": "CSKA 1948",
+    "name": "CSKA 1948",
 
-  "logo": "assets/logos/europe/bulgaria/Cska1978.png",
+    "logo": "assets/logos/europe/bulgaria/Cska1978.png",
 
-  "stadium": {
-    "name": "Vitosha",
-    "capacity": 1500
+    "manager": {
+      "name": "Yuriy Vasev",
+      "country": "BG"
+    },
+
+    "stadium": {
+      "name": "Vitosha",
+      "capacity": 1500
+    },
+
+    "players": [
+      { "playerId": "player_bg1_003_01", "name": "Aleks Bozhev", "number": 31, "position": "GK", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_003_02", "name": "Diego Medina", "number": 2, "position": "RB", "country": "BO", "status": "starter" },
+      { "playerId": "player_bg1_003_03", "name": "Lasha Dvali", "number": 3, "position": "CB", "country": "GE", "status": "starter" },
+      { "playerId": "player_bg1_003_04", "name": "André Hoffmann", "number": 4, "position": "CB", "country": "DE", "status": "starter" },
+      { "playerId": "player_bg1_003_05", "name": "Ognjen Gašević", "number": 22, "position": "LB", "country": "ME", "status": "starter" },
+      { "playerId": "player_bg1_003_06", "name": "Petar Vitanov", "number": 34, "position": "CDM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_003_07", "name": "Mootaz Zemzemi", "number": 8, "position": "CM", "country": "TN", "status": "starter" },
+      { "playerId": "player_bg1_003_08", "name": "Georgi Rusev", "number": 11, "position": "RW", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_003_09", "name": "Borislav Tsonev", "number": 10, "position": "CAM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_003_10", "name": "Elias Franco", "number": 77, "position": "LW", "country": "BR", "status": "starter" },
+      { "playerId": "player_bg1_003_11", "name": "Mamadou Diallo", "number": 93, "position": "ST", "country": "MR", "status": "starter" },
+
+      { "playerId": "player_bg1_003_12", "name": "Petar Marinov", "number": 1, "position": "GK", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_003_13", "name": "Yegor Parkhomenko", "number": 6, "position": "CB", "country": "BY", "status": "bench" },
+      { "playerId": "player_bg1_003_14", "name": "Fourat Soltani", "number": 15, "position": "CB", "country": "TN", "status": "bench" },
+      { "playerId": "player_bg1_003_15", "name": "Dragan Grivić", "number": 96, "position": "RB", "country": "ME", "status": "bench" },
+      { "playerId": "player_bg1_003_16", "name": "Brian Sobrero", "number": 20, "position": "CM", "country": "AR", "status": "bench" },
+      { "playerId": "player_bg1_003_17", "name": "Florian Krebs", "number": 23, "position": "CM", "country": "DE", "status": "bench" },
+      { "playerId": "player_bg1_003_18", "name": "Jules Meyer", "number": 30, "position": "CM", "country": "FR", "status": "bench" },
+      { "playerId": "player_bg1_003_19", "name": "Héctor Cuéllar", "number": 33, "position": "CAM", "country": "BO", "status": "bench" },
+      { "playerId": "player_bg1_003_20", "name": "Frédéric Maciel", "number": 67, "position": "RW", "country": "PT", "status": "bench" },
+      { "playerId": "player_bg1_003_21", "name": "Atanas Iliev", "number": 9, "position": "ST", "country": "BG", "status": "bench" },
+
+      { "playerId": "player_bg1_003_22", "name": "Dimitar Sheytanov", "number": 13, "position": "GK", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_003_23", "name": "José Martínez", "number": 17, "position": "CM", "country": "BO", "status": "reserve" },
+      { "playerId": "player_bg1_003_24", "name": "Marto Boychev", "number": 19, "position": "CM", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_003_25", "name": "Kaloyan Strinski", "number": 14, "position": "ST", "country": "BG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 93,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
   }
-}
