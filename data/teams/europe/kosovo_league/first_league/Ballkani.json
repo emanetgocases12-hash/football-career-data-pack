@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ballka",
-
-  "name": "FC Ballkani",
-
-  "logo": "assets/logos/europe/kosovo/Ballkani.png",
-
-  "stadium": {
-    "name": "Stadiumi i qytetit të Suharekës",
-    "capacity": 2000
+    "teamKey": "Ballka",
+  
+    "name": "FC Ballkani",
+  
+    "logo": "assets/logos/europe/kosovo/Ballkani.png",
+  
+    "manager": {
+      "name": "Mislav Karoglan",
+      "country": "HR"
+    },
+  
+    "stadium": {
+      "name": "Stadiumi i qytetit të Suharekës",
+      "capacity": 2000
+    },
+  
+    "players": [
+      {"playerId": "player_xk1_001_01", "name": "Adnan Golubovič", "number": 25, "position": "GK", "country": "SI", "status": "starter"},
+      {"playerId": "player_xk1_001_02", "name": "Diar Vokrri", "number": 6, "position": "RB", "country": "AL", "status": "starter"},
+      {"playerId": "player_xk1_001_03", "name": "Bajram Jashanica", "number": 32, "position": "CB", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_001_04", "name": "Ivica Batarelo", "number": 28, "position": "CB", "country": "HR", "status": "starter"},
+      {"playerId": "player_xk1_001_05", "name": "Marsel Ismajlgeci", "number": 14, "position": "LB", "country": "AL", "status": "starter"},
+      {"playerId": "player_xk1_001_06", "name": "Anel Šabanadžović", "number": 5, "position": "CDM", "country": "BA", "status": "starter"},
+      {"playerId": "player_xk1_001_07", "name": "Toni Domgjoni", "number": 8, "position": "CM", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_001_08", "name": "Laorent Shabani", "number": 7, "position": "RW", "country": "AL", "status": "starter"},
+      {"playerId": "player_xk1_001_09", "name": "Giovanni", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_xk1_001_10", "name": "Albert Diène", "number": 29, "position": "LW", "country": "SN", "status": "starter"},
+      {"playerId": "player_xk1_001_11", "name": "Valentin Serebe", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
+  
+      {"playerId": "player_xk1_001_12", "name": "Ardit Nika", "number": 1, "position": "GK", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_001_13", "name": "Abou Dosso", "number": 12, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_xk1_001_14", "name": "Gentrit Halili", "number": 4, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_001_15", "name": "Elvis Letaj", "number": 22, "position": "LB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_001_16", "name": "Redon Zekaj", "number": 15, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_001_17", "name": "Ardit Deliu", "number": 21, "position": "CM", "country": "AL", "status": "bench"},
+      {"playerId": "player_xk1_001_18", "name": "Edvin Kuč", "number": 20, "position": "CM", "country": "ME", "status": "bench"},
+      {"playerId": "player_xk1_001_19", "name": "Almedin Klinaku", "number": 30, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_001_20", "name": "Engjell Ajazaj", "number": 19, "position": "CAM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_001_21", "name": "Albin Berisha", "number": 99, "position": "ST", "country": "XK", "status": "bench"},
+  
+      {"playerId": "player_xk1_001_22", "name": "Ideal Bytyqi", "number": 13, "position": "GK", "country": "XK", "status": "reserve"},
+      {"playerId": "player_xk1_001_23", "name": "Elmando Gjini", "number": 92, "position": "CB", "country": "AL", "status": "reserve"},
+      {"playerId": "player_xk1_001_24", "name": "Lorik Dobratiqi", "number": 23, "position": "ST", "country": "XK", "status": "reserve"},
+      {"playerId": "player_xk1_001_25", "name": "Imer Osmanollaj", "number": 91, "position": "ST", "country": "XK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 32,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 29
+      }
+    }
   }
-}
