@@ -1,12 +1,58 @@
 {
-  "teamKey": "Zlager",
-
-  "name": "Zalaegerszegi TE FC",
-
-  "logo": "assets/logos/europe/hungary/ZTE.png",
-
-  "stadium": {
-    "name": "ZTE-Aréna",
-    "capacity": 11200
+    "teamKey": "Zlager",
+  
+    "name": "Zalaegerszegi TE FC",
+  
+    "logo": "assets/logos/europe/hungary/ZTE.png",
+  
+    "manager": {
+      "name": "Filipe Çelikkaya",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "ZTE-Aréna",
+      "capacity": 11200
+    },
+  
+    "players": [
+      {"playerId": "player_hu1_012_01", "name": "Dániel Gyurján", "number": 1, "position": "GK", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_012_02", "name": "Todor Todoroski", "number": 2, "position": "RB", "country": "MK", "status": "starter"},
+      {"playerId": "player_hu1_012_03", "name": "Bence Várkonyi", "number": 5, "position": "CB", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_012_04", "name": "Stefanos Evangelou", "number": 4, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_hu1_012_05", "name": "Bence Bedi", "number": 27, "position": "LB", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_012_06", "name": "Mátyás Tajti", "number": 6, "position": "CM", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_012_07", "name": "Bojan Sanković", "number": 8, "position": "CDM", "country": "ME", "status": "starter"},
+      {"playerId": "player_hu1_012_08", "name": "Yohan Croizet", "number": 10, "position": "RW", "country": "FR", "status": "starter"},
+      {"playerId": "player_hu1_012_09", "name": "Mim Gergely", "number": 11, "position": "CAM", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_012_10", "name": "Németh Dániel", "number": 17, "position": "LW", "country": "HU", "status": "starter"},
+      {"playerId": "player_hu1_012_11", "name": "Máté Sajbán", "number": 9, "position": "ST", "country": "HU", "status": "starter"},
+  
+      {"playerId": "player_hu1_012_12", "name": "Patrik Demjén", "number": 30, "position": "GK", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_012_13", "name": "Oleksandr Safronov", "number": 3, "position": "CB", "country": "UA", "status": "bench"},
+      {"playerId": "player_hu1_012_14", "name": "András Huszti", "number": 14, "position": "CB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_012_15", "name": "Bence Kiss", "number": 16, "position": "RB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_012_16", "name": "Vince Szendrei", "number": 22, "position": "LB", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_012_17", "name": "Norbert Szendrei", "number": 25, "position": "CM", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_012_18", "name": "Márk Csóka", "number": 7, "position": "CM", "country": "HU", "status": "bench"},
+      {"playerId": "player_hu1_012_19", "name": "Lucas Alfonso", "number": 18, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_hu1_012_20", "name": "Meshack Ubochioma", "number": 19, "position": "LW", "country": "NG", "status": "bench"},
+      {"playerId": "player_hu1_012_21", "name": "Eduvie Ikoba", "number": 21, "position": "ST", "country": "US", "status": "bench"},
+  
+      {"playerId": "player_hu1_012_22", "name": "Márk Gundel-Takács", "number": 12, "position": "GK", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_012_23", "name": "Dominik Csóka", "number": 24, "position": "ST", "country": "HU", "status": "reserve"},
+      {"playerId": "player_hu1_012_24", "name": "Philip Baloteli", "number": 29, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_hu1_012_25", "name": "Benedek Cserép", "number": 23, "position": "CM", "country": "HU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 17
+      }
+    }
   }
-}
