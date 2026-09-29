@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ulytau",
-
-  "name": "FC Ulytau Zhezkazgan",
-
-  "logo": "assets/logos/europe/kazak/Ulytau.png",
-
-  "stadium": {
-    "name": "Metallurg",
-    "capacity": 5000
+    "teamKey": "Ulytau",
+  
+    "name": "FC Ulytau Zhezkazgan",
+  
+    "logo": "assets/logos/europe/kazak/Ulytau.png",
+  
+    "manager": {
+      "name": "Nurken Mazbayev",
+      "country": "KZ"
+    },
+  
+    "stadium": {
+      "name": "Metallurg",
+      "capacity": 5000
+    },
+  
+    "players": [
+      {"playerId": "player_kz1_014_01", "name": "Dmytro Nepogodov", "number": 1, "position": "GK", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_014_02", "name": "David Carmona", "number": 2, "position": "RB", "country": "ES", "status": "starter"},
+      {"playerId": "player_kz1_014_03", "name": "Hlib Bykhal", "number": 4, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_kz1_014_04", "name": "G. Bugulov", "number": 5, "position": "CB", "country": "RU", "status": "starter"},
+      {"playerId": "player_kz1_014_05", "name": "Sergey Keiler", "number": 3, "position": "LB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_014_06", "name": "Abzal Taubay", "number": 7, "position": "CM", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_014_07", "name": "Beka Vachiberadze", "number": 8, "position": "CM", "country": "GE", "status": "starter"},
+      {"playerId": "player_kz1_014_08", "name": "H. Harada", "number": 11, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_kz1_014_09", "name": "K. Kishi", "number": 10, "position": "CAM", "country": "JP", "status": "starter"},
+      {"playerId": "player_kz1_014_10", "name": "A. Bougnone", "number": 17, "position": "LW", "country": "CM", "status": "starter"},
+      {"playerId": "player_kz1_014_11", "name": "I. Chernyak", "number": 9, "position": "ST", "country": "BY", "status": "starter"},
+  
+      {"playerId": "player_kz1_014_12", "name": "S. Shcherbakov", "number": 12, "position": "GK", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_014_13", "name": "A. Akhmedov", "number": 14, "position": "CB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_014_14", "name": "D. Maulenov", "number": 15, "position": "CB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_014_15", "name": "S. Malikaidar", "number": 22, "position": "RB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_014_16", "name": "D. Martin", "number": 18, "position": "CM", "country": "GH", "status": "bench"},
+      {"playerId": "player_kz1_014_17", "name": "R. Serikkul", "number": 20, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_014_18", "name": "K. Nursultanov", "number": 19, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_014_19", "name": "A. Smith", "number": 29, "position": "ST", "country": "NI", "status": "bench"},
+      {"playerId": "player_kz1_014_20", "name": "B. Zulfikarov", "number": 27, "position": "ST", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_014_21", "name": "B. Daniyarov", "number": 21, "position": "ST", "country": "KZ", "status": "bench"},
+  
+      {"playerId": "player_kz1_014_22", "name": "T. Zakirov", "number": 31, "position": "GK", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_014_23", "name": "R. Abylaykhan", "number": 24, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_014_24", "name": "M. Shauymbay", "number": 25, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_014_25", "name": "A. Mukanbetzhanov", "number": 28, "position": "ST", "country": "KZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 17
+      }
+    }
   }
-}
