@@ -1,12 +1,58 @@
 {
-  "teamKey": "Heracl",
-
-  "name": "Heracles Almelo",
-
-  "logo": "assets/logos/europe/netherlands/Heracles.png",
-
-  "stadium": {
-    "name": "Asito Stadion",
-    "capacity": 12242
+    "teamKey": "Heracl",
+  
+    "name": "Heracles Almelo",
+  
+    "logo": "assets/logos/europe/netherlands/Heracles.png",
+  
+    "manager": {
+      "name": "Vincent Heilmann",
+      "country": "DE"
+    },
+  
+    "stadium": {
+      "name": "Asito Stadion",
+      "capacity": 12242
+    },
+  
+    "players": [
+      {"playerId": "player_nl2_010_01", "name": "Fabian De Keijzer", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_010_02", "name": "Mimeirhel Benita", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_010_03", "name": "Djevencio van der Kust", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_010_04", "name": "Stijn Bultman", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_010_05", "name": "Damon Mirani", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_010_06", "name": "Jeff Reine-Adélaïde", "number": 6, "position": "CDM", "country": "FR", "status": "starter"},
+      {"playerId": "player_nl2_010_07", "name": "Tristan van Gilst", "number": 8, "position": "CM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_010_08", "name": "Mario Engels", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_010_09", "name": "Sem Scheperman", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_010_10", "name": "Yvandro Borges Sanches", "number": 9, "position": "ST", "country": "LU", "status": "starter"},
+      {"playerId": "player_nl2_010_11", "name": "Jean-Paul N'Djoli", "number": 17, "position": "RW", "country": "FR", "status": "starter"},
+  
+      {"playerId": "player_nl2_010_12", "name": "Timo Jansink", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_010_13", "name": "Mike te Wierik", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_010_14", "name": "David Vicente", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_010_15", "name": "Mario Borac", "number": 16, "position": "LB", "country": "HR", "status": "bench"},
+      {"playerId": "player_nl2_010_16", "name": "Jeppe Wijnreder", "number": 23, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_010_17", "name": "Daniel Van Kaam", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_010_18", "name": "Rhys Bozinovski", "number": 18, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_nl2_010_19", "name": "Thomas Bruns", "number": 20, "position": "CAM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_010_20", "name": "Manny Rodríguez", "number": 21, "position": "RM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_010_21", "name": "David Tomić", "number": 22, "position": "LM", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_nl2_010_22", "name": "Leco Zeevalkink", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_010_23", "name": "Fodé Fofana", "number": 19, "position": "LW", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_010_24", "name": "Chafik Abbas", "number": 29, "position": "ST", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_010_25", "name": "Diego van Oorschot", "number": 99, "position": "ST", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
