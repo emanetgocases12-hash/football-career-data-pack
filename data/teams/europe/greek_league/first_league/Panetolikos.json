@@ -1,12 +1,58 @@
 {
-  "teamKey": "Pntlks",
-
-  "name": "Panetolikos",
-
-  "logo": "assets/logos/europe/greek/Panetolikos.png",
-
-  "stadium": {
-    "name": "Gipedo Panetolikou",
-    "capacity": 7321
+    "teamKey": "Pntlks",
+  
+    "name": "Panetolikos",
+  
+    "logo": "assets/logos/europe/greek/Panetolikos.png",
+  
+    "manager": {
+      "name": "Giannis Anastasiou",
+      "country": "GR"
+    },
+  
+    "stadium": {
+      "name": "Gipedo Panetolikou",
+      "capacity": 7321
+    },
+  
+    "players": [
+      {"playerId": "player_gr1_013_01", "name": "Dmytro Kucheruk", "number": 13, "position": "GK", "country": "UA", "status": "starter"},
+      {"playerId": "player_gr1_013_02", "name": "Charis Mavrias", "number": 35, "position": "RB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_013_03", "name": "Javier Granath", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_gr1_013_04", "name": "Nikola Stajic", "number": 49, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_gr1_013_05", "name": "Manrique", "number": 24, "position": "LB", "country": "ES", "status": "starter"},
+      {"playerId": "player_gr1_013_06", "name": "Marko Satsias", "number": 18, "position": "CM", "country": "CY", "status": "starter"},
+      {"playerId": "player_gr1_013_07", "name": "Marvelous Nakamba", "number": 6, "position": "CDM", "country": "ZW", "status": "starter"},
+      {"playerId": "player_gr1_013_08", "name": "Moussa Djenepo", "number": 11, "position": "RW", "country": "ML", "status": "starter"},
+      {"playerId": "player_gr1_013_09", "name": "Esteban", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_gr1_013_10", "name": "Bassi", "number": 7, "position": "LW", "country": "MA", "status": "starter"},
+      {"playerId": "player_gr1_013_11", "name": "Alexis Mejía", "number": 9, "position": "ST", "country": "HN", "status": "starter"},
+  
+      {"playerId": "player_gr1_013_12", "name": "Luka Gugeshashvili", "number": 1, "position": "GK", "country": "GE", "status": "bench"},
+      {"playerId": "player_gr1_013_13", "name": "Dimitris Apostolopoulos", "number": 2, "position": "RB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_013_14", "name": "Konstantinos Thymianis", "number": 5, "position": "CB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_013_15", "name": "Georgios Liavas", "number": 54, "position": "CB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_013_16", "name": "Nikos Nikolau", "number": 3, "position": "LB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_013_17", "name": "Erakovic", "number": 8, "position": "CM", "country": "ME", "status": "bench"},
+      {"playerId": "player_gr1_013_18", "name": "Sebastian Kojić", "number": 17, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_gr1_013_19", "name": "Bregu", "number": 20, "position": "CAM", "country": "AL", "status": "bench"},
+      {"playerId": "player_gr1_013_20", "name": "Souma", "number": 21, "position": "LW", "country": "SN", "status": "bench"},
+      {"playerId": "player_gr1_013_21", "name": "Banjie", "number": 19, "position": "ST", "country": "GM", "status": "bench"},
+  
+      {"playerId": "player_gr1_013_22", "name": "Dimitris Xenopoulos", "number": 30, "position": "GK", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr1_013_23", "name": "Pardalos", "number": 22, "position": "CB", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr1_013_24", "name": "Opoku", "number": 27, "position": "RW", "country": "GH", "status": "reserve"},
+      {"playerId": "player_gr1_013_25", "name": "Olsson", "number": 23, "position": "CM", "country": "SE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 35,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
