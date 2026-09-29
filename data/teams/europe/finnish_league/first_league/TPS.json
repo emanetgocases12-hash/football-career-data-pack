@@ -1,12 +1,58 @@
 {
-  "teamKey": "TPS",
-
-  "name": "Turun Palloseura",
-
-  "logo": "assets/logos/europe/finland/TPS.png",
-
-  "stadium": {
-    "name": "Veritas Stadion",
-    "capacity": 9000
+    "teamKey": "TPS",
+  
+    "name": "Turun Palloseura",
+  
+    "logo": "assets/logos/europe/finland/TPS.png",
+  
+    "manager": {
+      "name": "Ivan Piñol",
+      "country": "ES"
+    },
+  
+    "stadium": {
+      "name": "Veritas Stadion",
+      "capacity": 9000
+    },
+  
+    "players": [
+      {"playerId": "player_fi1_011_01", "name": "Elmo Henriksson", "number": 1, "position": "GK", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_011_02", "name": "Juri Kinnunen", "number": 2, "position": "RB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_011_03", "name": "Matej Hradecky", "number": 20, "position": "CB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_011_04", "name": "Rasmus Holma", "number": 4, "position": "CB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_011_05", "name": "Miro Tenho", "number": 3, "position": "LB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_011_06", "name": "Albijon Muzaci", "number": 8, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_011_07", "name": "Sampo Ala", "number": 6, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_011_08", "name": "Riku Sjöroos", "number": 7, "position": "RW", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_011_09", "name": "Oskari Jakonen", "number": 10, "position": "CAM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_011_10", "name": "Joakim Latonen", "number": 11, "position": "LW", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_011_11", "name": "Sami Okkonen", "number": 9, "position": "ST", "country": "FI", "status": "starter"},
+  
+      {"playerId": "player_fi1_011_12", "name": "Jere Koponen", "number": 12, "position": "GK", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_011_13", "name": "Aapo Mäenpää", "number": 5, "position": "CB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_011_14", "name": "Eemeli Raittinen", "number": 14, "position": "RB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_011_15", "name": "Joonas Sundman", "number": 15, "position": "LB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_011_16", "name": "Roni Rönnberg", "number": 16, "position": "CM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_011_17", "name": "Eetu Rissanen", "number": 17, "position": "ST", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_011_18", "name": "Jasper Jalonen", "number": 18, "position": "CM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_011_19", "name": "Oskari Sallinen", "number": 19, "position": "CAM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_011_20", "name": "Elias Ahde", "number": 21, "position": "ST", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_011_21", "name": "Mika Ääritalo", "number": 22, "position": "RW", "country": "FI", "status": "bench"},
+  
+      {"playerId": "player_fi1_011_22", "name": "Akseli Koskela", "number": 30, "position": "GK", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_011_23", "name": "Aleksi Ristola", "number": 23, "position": "ST", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_011_24", "name": "Jimi Forsström", "number": 24, "position": "CB", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_011_25", "name": "Eetu Österholm", "number": 25, "position": "LW", "country": "FI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
