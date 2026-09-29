@@ -1,12 +1,58 @@
 {
-  "teamKey": "Volend",
-
-  "name": "FC Volendam",
-
-  "logo": "assets/logos/europe/netherlands/Volendam.png",
-
-  "stadium": {
-    "name": "Kras Stadion",
-    "capacity": 6800
+    "teamKey": "Volend",
+  
+    "name": "FC Volendam",
+  
+    "logo": "assets/logos/europe/netherlands/Volendam.png",
+  
+    "manager": {
+      "name": "Erwin van de Looi",
+      "country": "NL"
+    },
+  
+    "stadium": {
+      "name": "Kras Stadion",
+      "capacity": 6800
+    },
+  
+    "players": [
+      {"playerId": "player_nl2_019_01", "name": "Hidde Jurjus", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_019_02", "name": "Precious Ugwu", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_019_03", "name": "Mawouna Amevor", "number": 4, "position": "CB", "country": "TG", "status": "starter"},
+      {"playerId": "player_nl2_019_04", "name": "Mike Kleijn", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_019_05", "name": "Luca Blondeau", "number": 3, "position": "LB", "country": "BE", "status": "starter"},
+      {"playerId": "player_nl2_019_06", "name": "Kayden Wolff", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_019_07", "name": "Nick Doodeman", "number": 8, "position": "CM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_019_08", "name": "Mohammed Belfqih", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_019_09", "name": "Nordin Bukala", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_019_10", "name": "Frederik Ihler", "number": 9, "position": "ST", "country": "DK", "status": "starter"},
+      {"playerId": "player_nl2_019_11", "name": "Henk Veerman", "number": 17, "position": "RW", "country": "NL", "status": "starter"},
+  
+      {"playerId": "player_nl2_019_12", "name": "Roy Steur", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_019_13", "name": "Deron Payne", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_019_14", "name": "Erik Schouten", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_019_15", "name": "Jaïr Haakmat", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_019_16", "name": "Daan Bisschops", "number": 23, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_019_17", "name": "Younes Jaber el Maftahi", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_019_18", "name": "Reuven Niemeijer", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_019_19", "name": "Daan Huisman", "number": 20, "position": "CAM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_019_20", "name": "Alex Plat", "number": 21, "position": "RM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_019_21", "name": "Serigne Deme", "number": 19, "position": "LW", "country": "SN", "status": "bench"},
+  
+      {"playerId": "player_nl2_019_22", "name": "Dion Vlak", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_019_23", "name": "Jesper Tielemans", "number": 29, "position": "ST", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_019_24", "name": "Jerayson Hoepel", "number": 99, "position": "ST", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_019_25", "name": "Jahmani Gambier", "number": 33, "position": "RW", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
