@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ordbsy",
-
-  "name": "Ordabasy Shymkent",
-
-  "logo": "assets/logos/europe/kazak/Ordbsy.png",
-
-  "stadium": {
-    "name": "Kazhimukan Munaytpasov Stadion",
-    "capacity": 20000
+    "teamKey": "Ordbsy",
+  
+    "name": "Ordabasy Shymkent",
+  
+    "logo": "assets/logos/europe/kazak/Ordbsy.png",
+  
+    "manager": {
+      "name": "Andrei Martin",
+      "country": "MD"
+    },
+  
+    "stadium": {
+      "name": "Kazhimukan Munaytpasov Stadion",
+      "capacity": 20000
+    },
+  
+    "players": [
+      {"playerId": "player_kz1_010_01", "name": "Bekhan Shaizada", "number": 1, "position": "GK", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_010_02", "name": "Sergey Keiler", "number": 2, "position": "RB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_010_03", "name": "Sergei Malyy", "number": 4, "position": "CB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_010_04", "name": "Aleksa Amanović", "number": 5, "position": "CB", "country": "MK", "status": "starter"},
+      {"playerId": "player_kz1_010_05", "name": "Nikola Antić", "number": 3, "position": "LB", "country": "RS", "status": "starter"},
+      {"playerId": "player_kz1_010_06", "name": "Yurii Vakulko", "number": 6, "position": "CM", "country": "UA", "status": "starter"},
+      {"playerId": "player_kz1_010_07", "name": "D. Abagna", "number": 8, "position": "CM", "country": "GH", "status": "starter"},
+      {"playerId": "player_kz1_010_08", "name": "Vladyslav Naumets", "number": 11, "position": "RW", "country": "UA", "status": "starter"},
+      {"playerId": "player_kz1_010_09", "name": "E. Astanov", "number": 10, "position": "CAM", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_010_10", "name": "T. Keita", "number": 7, "position": "LW", "country": "FR", "status": "starter"},
+      {"playerId": "player_kz1_010_11", "name": "Bjorn Johnsen", "number": 9, "position": "ST", "country": "NO", "status": "starter"},
+  
+      {"playerId": "player_kz1_010_12", "name": "K. Tolepbergen", "number": 12, "position": "GK", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_010_13", "name": "Victor Mudrac", "number": 15, "position": "CB", "country": "MD", "status": "bench"},
+      {"playerId": "player_kz1_010_14", "name": "G. Kilama", "number": 14, "position": "CB", "country": "CM", "status": "bench"},
+      {"playerId": "player_kz1_010_15", "name": "S. Astanov", "number": 22, "position": "RB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_010_16", "name": "M. Căpățînă", "number": 18, "position": "CM", "country": "RO", "status": "bench"},
+      {"playerId": "player_kz1_010_17", "name": "M. Khalmatov", "number": 20, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_010_18", "name": "B. Toktybay", "number": 17, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_010_19", "name": "Leonardo Vieira", "number": 19, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_kz1_010_20", "name": "Everton", "number": 29, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_kz1_010_21", "name": "D. Mitkov", "number": 27, "position": "ST", "country": "BG", "status": "bench"},
+  
+      {"playerId": "player_kz1_010_22", "name": "A. Abdukhalyk", "number": 31, "position": "GK", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_010_23", "name": "A. Nurymbet", "number": 24, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_010_24", "name": "M. Nurbi", "number": 25, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_010_25", "name": "M. Toktybay", "number": 28, "position": "ST", "country": "KZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
