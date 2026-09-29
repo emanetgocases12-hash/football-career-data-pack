@@ -1,12 +1,58 @@
 {
-  "teamKey": "Vushtr",
-
-  "name": "FC Vushtrria",
-
-  "logo": "assets/logos/europe/kosovo/Vushtrria.png",
-
-  "stadium": {
-    "name": "Ferki Aliu",
-    "capacity": 5000
+    "teamKey": "Vushtr",
+  
+    "name": "FC Vushtrria",
+  
+    "logo": "assets/logos/europe/kosovo/Vushtrria.png",
+  
+    "manager": {
+      "name": "Besnik Kollari",
+      "country": "XK"
+    },
+  
+    "stadium": {
+      "name": "Ferki Aliu",
+      "capacity": 5000
+    },
+  
+    "players": [
+      {"playerId": "player_xk1_010_01", "name": "Drilon Përçuku", "number": 1, "position": "GK", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_010_02", "name": "Ardi Ajdini", "number": 18, "position": "RB", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_010_03", "name": "Klejdi Paloka", "number": 5, "position": "CB", "country": "AL", "status": "starter"},
+      {"playerId": "player_xk1_010_04", "name": "Haris Ibrišagić", "number": 34, "position": "CB", "country": "BA", "status": "starter"},
+      {"playerId": "player_xk1_010_05", "name": "Orik Morina", "number": 3, "position": "LB", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_010_06", "name": "Anis Kollari", "number": 8, "position": "CM", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_010_07", "name": "Gentrit Ulluri", "number": 10, "position": "CM", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_010_08", "name": "Dardan Ademi", "number": 7, "position": "RW", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_010_09", "name": "Andi Mehmeti", "number": 11, "position": "CAM", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_010_10", "name": "Husein Demiri", "number": 22, "position": "LW", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_010_11", "name": "Kim Sané", "number": 9, "position": "ST", "country": "DE", "status": "starter"},
+  
+      {"playerId": "player_xk1_010_12", "name": "Marvin Brozi", "number": 91, "position": "GK", "country": "AL", "status": "bench"},
+      {"playerId": "player_xk1_010_13", "name": "Rigon Spahiu", "number": 27, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_010_14", "name": "Ardian Gashi", "number": 4, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_010_15", "name": "Arbnor Musa", "number": 14, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_010_16", "name": "Leutrim Islami", "number": 29, "position": "LB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_010_17", "name": "Ardian Hamiti", "number": 6, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_010_18", "name": "Kushtrim Bahtiri", "number": 20, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_010_19", "name": "Bledion Pllana", "number": 2, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_010_20", "name": "Jon Miftari", "number": 15, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_010_21", "name": "T. Solomon", "number": 45, "position": "ST", "country": "NG", "status": "bench"},
+  
+      {"playerId": "player_xk1_010_22", "name": "Dimal Isufi", "number": 99, "position": "GK", "country": "XK", "status": "reserve"},
+      {"playerId": "player_xk1_010_23", "name": "Nicolas Da Silva", "number": 25, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_xk1_010_24", "name": "Gentian Emini", "number": 75, "position": "CB", "country": "XK", "status": "reserve"},
+      {"playerId": "player_xk1_010_25", "name": "Jasin Sahiti", "number": 24, "position": "RB", "country": "XK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
