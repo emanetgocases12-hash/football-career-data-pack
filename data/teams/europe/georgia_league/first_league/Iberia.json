@@ -1,12 +1,58 @@
 {
-  "teamKey": "Iberia",
-
-  "name": "Iberia 1999 Tbilisi",
-
-  "logo": "assets/logos/europe/georgia/Iberia.png",
-
-  "stadium": {
-    "name": "Mikheil Meskhi",
-    "capacity": 24680
+    "teamKey": "Iberia",
+  
+    "name": "Iberia 1999 Tbilisi",
+  
+    "logo": "assets/logos/europe/georgia/Iberia.png",
+  
+    "manager": {
+      "name": "Irakli Modebadze",
+      "country": "GE"
+    },
+  
+    "stadium": {
+      "name": "Mikheil Meskhi",
+      "capacity": 24680
+    },
+  
+    "players": [
+      {"playerId": "player_ge1_005_01", "name": "Tornike Megrelishvili", "number": 1, "position": "GK", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_005_02", "name": "Armel Zohouri", "number": 20, "position": "RB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ge1_005_03", "name": "Aleksandre Amisulashvili", "number": 25, "position": "CB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_005_04", "name": "Vahid Selimovic", "number": 4, "position": "CB", "country": "LU", "status": "starter"},
+      {"playerId": "player_ge1_005_05", "name": "Jemal-Giorgi Jinjolava", "number": 5, "position": "LB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_005_06", "name": "Nikoloz Dadiani", "number": 6, "position": "CDM", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_005_07", "name": "Bakar Kardava", "number": 8, "position": "CM", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_005_08", "name": "Giorgi Kutsia", "number": 27, "position": "CM", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_005_09", "name": "Paata Ghudushauri", "number": 7, "position": "RW", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_005_10", "name": "Guram Goshteliani", "number": 14, "position": "ST", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_005_11", "name": "Zviad Natchkebia", "number": 10, "position": "LW", "country": "GE", "status": "starter"},
+  
+      {"playerId": "player_ge1_005_12", "name": "Revaz Kurtanidze", "number": 16, "position": "GK", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_005_13", "name": "Patrick Cancar", "number": 3, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_ge1_005_14", "name": "Terence Kongolo", "number": 15, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_ge1_005_15", "name": "Giorgi Gogsadze", "number": 2, "position": "RB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_005_16", "name": "Ibrahim Alhassan", "number": 13, "position": "CDM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ge1_005_17", "name": "Eldar Kuliiev", "number": 23, "position": "CM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ge1_005_18", "name": "Andria Bartishvili", "number": 11, "position": "CAM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_005_19", "name": "Lucas Café", "number": 18, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_ge1_005_20", "name": "Vakho Bedoshvili", "number": 24, "position": "LW", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_005_21", "name": "Givi Khachidze", "number": 22, "position": "RW", "country": "GE", "status": "bench"},
+  
+      {"playerId": "player_ge1_005_22", "name": "Giorgi Makaridze", "number": 31, "position": "GK", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_005_23", "name": "Nika Sikharulashvili", "number": 19, "position": "LB", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_005_24", "name": "A. Dzagania", "number": 9, "position": "ST", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_005_25", "name": "Luka Chikhradze", "number": 29, "position": "ST", "country": "GE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 14,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 27
+      }
+    }
   }
-}
