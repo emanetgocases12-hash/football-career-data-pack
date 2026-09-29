@@ -1,12 +1,58 @@
-{
-  "teamKey": "Skopje",
-
-  "name": "FK Skopje",
-
-  "logo": "assets/logos/europe/macedonian/Skopje.png",
-
-  "stadium": {
-    "name": "Zelezarnica",
-    "capacity": 3000
+ {
+    "teamKey": "Skopje",
+  
+    "name": "FK Skopje",
+  
+    "logo": "assets/logos/europe/macedonian/Skopje.png",
+  
+    "manager": {
+      "name": "Muarem Muarem",
+      "country": "MK"
+    },
+  
+    "stadium": {
+      "name": "Zelezarnica",
+      "capacity": 3000
+    },
+  
+    "players": [
+      {"playerId": "player_mk1_007_01", "name": "Kiko Naumovski", "number": 1, "position": "GK", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_007_02", "name": "Vladica Brdarovski", "number": 2, "position": "RB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_007_03", "name": "Darko Glisic", "number": 4, "position": "CB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_007_04", "name": "Jasmin Micinovic", "number": 5, "position": "CB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_007_05", "name": "Filip Saliu", "number": 3, "position": "LB", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_007_06", "name": "Dusko Trajcevski", "number": 6, "position": "CM", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_007_07", "name": "Musa Ramadani", "number": 8, "position": "CM", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_007_08", "name": "Viktor Angelov", "number": 11, "position": "RW", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_007_09", "name": "Toni Grozdanovski", "number": 10, "position": "CAM", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_007_10", "name": "Aleksandar Adem", "number": 7, "position": "LW", "country": "MK", "status": "starter"},
+      {"playerId": "player_mk1_007_11", "name": "Milan Gordić", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+  
+      {"playerId": "player_mk1_007_12", "name": "Aleksandar Sulovikj", "number": 12, "position": "GK", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_007_13", "name": "David Serafimov", "number": 14, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_007_14", "name": "Aleksandar Gjurkovski", "number": 15, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_007_15", "name": "Besnik Halimi", "number": 16, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_007_16", "name": "Andrej Murdzheski", "number": 17, "position": "RB", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_007_17", "name": "David Sekovski", "number": 18, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_007_18", "name": "Hamza Tusha", "number": 20, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_007_19", "name": "David Poposki", "number": 21, "position": "CM", "country": "MK", "status": "bench"},
+      {"playerId": "player_mk1_007_20", "name": "Niko Vlajković", "number": 19, "position": "RW", "country": "RS", "status": "bench"},
+      {"playerId": "player_mk1_007_21", "name": "Blerim Daci", "number": 22, "position": "ST", "country": "MK", "status": "bench"},
+  
+      {"playerId": "player_mk1_007_22", "name": "Vasil Papaliski", "number": 24, "position": "ST", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_007_23", "name": "Aleksandar Bozhinoski", "number": 25, "position": "ST", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_007_24", "name": "Goran Cvetkov", "number": 27, "position": "CM", "country": "MK", "status": "reserve"},
+      {"playerId": "player_mk1_007_25", "name": "Kristijan Nikolovski", "number": 29, "position": "CAM", "country": "MK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
