@@ -1,12 +1,58 @@
 {
-  "teamKey": "Wtrfrd",
-
-  "name": "Waterford FC",
-
-  "logo": "assets/logos/europe/irish/Waterford.png",
-
-  "stadium": {
-    "name": "The RSC",
-    "capacity": 5160
+    "teamKey": "Wtrfrd",
+  
+    "name": "Waterford FC",
+  
+    "logo": "assets/logos/europe/irish/Waterford.png",
+  
+    "manager": {
+      "name": "Graham Coughlan",
+      "country": "IE"
+    },
+  
+    "stadium": {
+      "name": "The RSC",
+      "capacity": 5160
+    },
+  
+    "players": [
+      {"playerId": "player_ie1_010_01", "name": "Louis Jones", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_ie1_010_02", "name": "Grant Horton", "number": 2, "position": "RB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_ie1_010_03", "name": "Darragh Leahy", "number": 3, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_010_04", "name": "Ryan Burke", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_010_05", "name": "Ryan Burke", "number": 5, "position": "LB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_010_06", "name": "Rowan McDonald", "number": 6, "position": "CM", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_ie1_010_07", "name": "Ben McCormack", "number": 8, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_010_08", "name": "Barry Baggley", "number": 11, "position": "RW", "country": "GB-NIR", "status": "starter"},
+      {"playerId": "player_ie1_010_09", "name": "Dean McMenamy", "number": 10, "position": "CAM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_010_10", "name": "Connor Parsons", "number": 7, "position": "LW", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_ie1_010_11", "name": "Pádraig Amond", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
+  
+      {"playerId": "player_ie1_010_12", "name": "Sam Sargeant", "number": 31, "position": "GK", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_ie1_010_13", "name": "Kyle White", "number": 15, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_010_14", "name": "Darragh Power", "number": 17, "position": "RB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_010_15", "name": "Niall O'Keeffe", "number": 14, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_010_16", "name": "Robert McCourt", "number": 18, "position": "LB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_010_17", "name": "Christie Pattisson", "number": 19, "position": "RW", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_ie1_010_18", "name": "Sam Perry", "number": 20, "position": "CM", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_ie1_010_19", "name": "Glen McAuley", "number": 21, "position": "ST", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_010_20", "name": "Tommy Lonergan", "number": 22, "position": "ST", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_010_21", "name": "Cian Kavanagh", "number": 23, "position": "ST", "country": "IE", "status": "bench"},
+  
+      {"playerId": "player_ie1_010_22", "name": "Matthew Connor", "number": 30, "position": "GK", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_010_23", "name": "Dean O'Shea", "number": 25, "position": "CB", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_010_24", "name": "Romeo Akachukwu", "number": 24, "position": "CAM", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_010_25", "name": "Maleace Asamoah", "number": 27, "position": "RW", "country": "GB-ENG", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 9,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
