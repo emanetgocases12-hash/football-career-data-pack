@@ -1,12 +1,58 @@
 {
-  "teamKey": "NXT",
+    "teamKey": "NXT",
 
-  "name": "Club NXT",
+    "name": "Club NXT",
 
-  "logo": "assets/logos/europe/belgian/NXT.png",
+    "logo": "assets/logos/europe/belgian/NXT.png",
 
-  "stadium": {
-    "name": "The NEST",
-    "capacity": 7559
+    "manager": {
+      "name": "Jonas De Roeck",
+      "country": "BE"
+    },
+
+    "stadium": {
+      "name": "The NEST",
+      "capacity": 7559
+    },
+
+    "players": [
+      { "playerId": "player_be2_011_01", "name": "Stefan Ostoici", "number": 61, "position": "GK", "country": "HU", "status": "starter" },
+      { "playerId": "player_be2_011_02", "name": "Andre Garcia", "number": 90, "position": "RB", "country": "GB-ENG", "status": "starter" },
+      { "playerId": "player_be2_011_03", "name": "Samba Coulibaly", "number": 54, "position": "CB", "country": "FR", "status": "starter" },
+      { "playerId": "player_be2_011_04", "name": "Briek Morel", "number": 73, "position": "CB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be2_011_05", "name": "Mateo Haesaert", "number": 74, "position": "LB", "country": "BE", "status": "starter" },
+      { "playerId": "player_be2_011_06", "name": "Utku Kurtal", "number": 68, "position": "CDM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be2_011_07", "name": "Lucas Delorge", "number": 76, "position": "CM", "country": "BE", "status": "starter" },
+      { "playerId": "player_be2_011_08", "name": "Milan Robberechts", "number": 39, "position": "RW", "country": "BE", "status": "starter" },
+      { "playerId": "player_be2_011_09", "name": "Alejandro Granados", "number": 70, "position": "CAM", "country": "ES", "status": "starter" },
+      { "playerId": "player_be2_011_10", "name": "Wisdom Mike", "number": 27, "position": "LW", "country": "DE", "status": "starter" },
+      { "playerId": "player_be2_011_11", "name": "Andrej Vasovic", "number": 77, "position": "ST", "country": "CH", "status": "starter" },
+
+      { "playerId": "player_be2_011_12", "name": "Axl De Corte", "number": 71, "position": "GK", "country": "BE", "status": "bench" },
+      { "playerId": "player_be2_011_14", "name": "Dahrel Tchitchi", "number": 75, "position": "CB", "country": "DE", "status": "bench" },
+      { "playerId": "player_be2_011_15", "name": "Samuel Gomez van Hoogen", "number": 82, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be2_011_16", "name": "Alexander Vandeperre", "number": 92, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be2_011_17", "name": "Wout Verlinden", "number": 93, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be2_011_18", "name": "Mohamed Elbay", "number": 95, "position": "CB", "country": "BE", "status": "bench" },
+      { "playerId": "player_be2_011_19", "name": "Denis Odoi", "number": 96, "position": "RB", "country": "GH", "status": "bench" },
+      { "playerId": "player_be2_011_20", "name": "Emiel Callens", "number": 94, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be2_011_21", "name": "Naïm Amengai", "number": 97, "position": "CM", "country": "BE", "status": "bench" },
+      { "playerId": "player_be2_011_22", "name": "Elijah Ly", "number": 57, "position": "RW", "country": "FR", "status": "bench" },
+
+      { "playerId": "player_be2_011_13", "name": "Argus Vanden Driessche", "number": 81, "position": "GK", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be2_011_23", "name": "Jessi Da Silva", "number": 72, "position": "ST", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be2_011_24", "name": "Al-Hassan Kamara", "number": 78, "position": "ST", "country": "BE", "status": "reserve" },
+      { "playerId": "player_be2_011_25", "name": "Matteo Soria", "number": 84, "position": "ST", "country": "BE", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 61,
+      "setPieces": {
+        "penalty": 77,
+        "freeKick": 39,
+        "cornerLeft": 39,
+        "cornerRight": 39
+      }
+    }
   }
-}
