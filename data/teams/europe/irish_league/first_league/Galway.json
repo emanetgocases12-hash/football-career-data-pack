@@ -1,12 +1,58 @@
 {
-  "teamKey": "Galway",
-
-  "name": "Galway United FC",
-
-  "logo": "assets/logos/europe/irish/Galway.png",
-
-  "stadium": {
-    "name": "Eamonn Deacy Park",
-    "capacity": 5000
+    "teamKey": "Galway",
+  
+    "name": "Galway United FC",
+  
+    "logo": "assets/logos/europe/irish/Galway.png",
+  
+    "manager": {
+      "name": "John Caulfield",
+      "country": "IE"
+    },
+  
+    "stadium": {
+      "name": "Eamonn Deacy Park",
+      "capacity": 5000
+    },
+  
+    "players": [
+      {"playerId": "player_ie1_006_01", "name": "Hugo Pires da Cunha", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_ie1_006_02", "name": "Connor Barratt", "number": 2, "position": "RB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_006_03", "name": "Killian Brouder", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_006_04", "name": "Anthony O'Connor", "number": 6, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_006_05", "name": "Al Amin Kazeem", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_006_06", "name": "Aaron Bolger", "number": 8, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_006_07", "name": "Jimmy Keohane", "number": 20, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_006_08", "name": "Kris Twardek", "number": 11, "position": "RW", "country": "CA", "status": "starter"},
+      {"playerId": "player_ie1_006_09", "name": "David Hurley", "number": 10, "position": "CAM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_006_10", "name": "Dylan Connolly", "number": 7, "position": "LW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie1_006_11", "name": "Frantz Pierrot", "number": 9, "position": "ST", "country": "HT", "status": "starter"},
+  
+      {"playerId": "player_ie1_006_12", "name": "Vincent Angelini", "number": 13, "position": "GK", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_ie1_006_13", "name": "Gianfranco Facchineri", "number": 5, "position": "CB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ie1_006_14", "name": "Wasiri Williams", "number": 15, "position": "CB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_ie1_006_15", "name": "Leigh Kavanagh", "number": 22, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_006_16", "name": "James Morahan", "number": 12, "position": "RB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_006_17", "name": "Edward McCarthy", "number": 14, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_006_18", "name": "Lee Devitt", "number": 18, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie1_006_19", "name": "Matty Wolfe", "number": 16, "position": "CM", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_ie1_006_20", "name": "Junior Thiam", "number": 17, "position": "RW", "country": "SN", "status": "bench"},
+      {"playerId": "player_ie1_006_21", "name": "Stephen Walsh", "number": 19, "position": "ST", "country": "IE", "status": "bench"},
+  
+      {"playerId": "player_ie1_006_22", "name": "Conor O'Keeffe", "number": 30, "position": "GK", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_006_23", "name": "Axel Piesold", "number": 21, "position": "CM", "country": "DE", "status": "reserve"},
+      {"playerId": "player_ie1_006_24", "name": "Dara McGuinness", "number": 24, "position": "ST", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie1_006_25", "name": "Francely Lomboto", "number": 25, "position": "ST", "country": "IE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
