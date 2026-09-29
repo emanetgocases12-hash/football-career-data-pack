@@ -1,12 +1,58 @@
 {
-  "teamKey": "Zimbru",
-
-  "name": "FC Zimbru Chisinau",
-
-  "logo": "assets/logos/europe/moldovan/Zimbru.png",
-
-  "stadium": {
-    "name": "Zimbru Stadion",
-    "capacity": 10400
+    "teamKey": "Zimbru",
+  
+    "name": "FC Zimbru Chisinau",
+  
+    "logo": "assets/logos/europe/moldovan/Zimbru.png",
+  
+    "manager": {
+      "name": "Oleksandr Poklonskyi",
+      "country": "UA"
+    },
+  
+    "stadium": {
+      "name": "Zimbru Stadion",
+      "capacity": 10400
+    },
+  
+    "players": [
+      {"playerId": "player_md1_008_01", "name": "Ivan Dokic", "number": 88, "position": "GK", "country": "RS", "status": "starter"},
+      {"playerId": "player_md1_008_02", "name": "Cristian Gonta", "number": 4, "position": "RB", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_008_03", "name": "Nikolai Zolotov", "number": 35, "position": "CB", "country": "BY", "status": "starter"},
+      {"playerId": "player_md1_008_04", "name": "Marcello Gesteira de Souza", "number": 23, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_md1_008_05", "name": "Kevin Berkeley", "number": 3, "position": "LB", "country": "PA", "status": "starter"},
+      {"playerId": "player_md1_008_06", "name": "Matteo Amoroso", "number": 8, "position": "CM", "country": "IT", "status": "starter"},
+      {"playerId": "player_md1_008_07", "name": "Vlad Raileanu", "number": 20, "position": "CM", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_008_08", "name": "Caio Dantas", "number": 7, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_md1_008_09", "name": "Eugeniu Cociuc", "number": 10, "position": "CAM", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_008_10", "name": "Jonathas", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_md1_008_11", "name": "Alexandru Betivu", "number": 99, "position": "ST", "country": "MD", "status": "starter"},
+  
+      {"playerId": "player_md1_008_12", "name": "Artem Odyntsov", "number": 12, "position": "GK", "country": "UA", "status": "bench"},
+      {"playerId": "player_md1_008_13", "name": "Stefan Bitca", "number": 73, "position": "CM", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_008_14", "name": "Ilie Negru", "number": 2, "position": "CB", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_008_15", "name": "Andrei Macritchii", "number": 30, "position": "CB", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_008_16", "name": "Sergiu Ungureanu", "number": 44, "position": "CB", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_008_17", "name": "Rayvien Rosario", "number": 14, "position": "CM", "country": "NL", "status": "bench"},
+      {"playerId": "player_md1_008_18", "name": "Tudor Butucel", "number": 17, "position": "CM", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_008_19", "name": "Alex Gutium", "number": 18, "position": "CM", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_008_20", "name": "Ahmed Bonnah", "number": 22, "position": "CM", "country": "SE", "status": "bench"},
+      {"playerId": "player_md1_008_21", "name": "Dylan Ceijas Thiago", "number": 24, "position": "CM", "country": "IT", "status": "bench"},
+  
+      {"playerId": "player_md1_008_22", "name": "Cristian Sirghi", "number": 92, "position": "GK", "country": "MD", "status": "reserve"},
+      {"playerId": "player_md1_008_23", "name": "Victor Stina", "number": 98, "position": "CM", "country": "MD", "status": "reserve"},
+      {"playerId": "player_md1_008_24", "name": "Pedro Henrique Gabriel Dias", "number": 6, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_md1_008_25", "name": "Emmanuel Michael Ebikabowei", "number": 9, "position": "ST", "country": "NG", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 35,
+      "setPieces": {
+        "penalty": 99,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
