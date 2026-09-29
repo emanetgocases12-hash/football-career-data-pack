@@ -1,12 +1,45 @@
 {
-  "teamKey": "Zizkov",
+    "teamKey": "Zizkov",
 
-  "name": "FK Viktoria Zizkov",
+    "name": "FK Viktoria Zizkov",
 
-  "logo": "assets/logos/europe/czechia/Zizkov.png",
+    "logo": "assets/logos/europe/czechia/Zizkov.png",
 
-  "stadium": {
-    "name": "Stadion FK Viktoria Žižkov",
-    "capacity": 2799
-  }
-}
+    "manager": {
+      "name": "Radek Kronďák",
+      "country": "CZ"
+    },
+
+    "stadium": {
+      "name": "Stadion FK Viktoria Žižkov",
+      "capacity": 2799
+    },
+
+    "players": [
+      { "playerId": "player_cz2_016_01", "name": "Jan Sirotník", "number": 27, "position": "GK", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_016_02", "name": "Martin Nový", "number": 23, "position": "RB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_016_03", "name": "Marek Richter", "number": 2, "position": "CB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_016_04", "name": "Daniel Holásek", "number": 16, "position": "CB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_016_05", "name": "Adel Kadi", "number": 21, "position": "LB", "country": "FR", "status": "starter" },
+      { "playerId": "player_cz2_016_06", "name": "Michal Hubínek", "number": 20, "position": "CDM", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_016_07", "name": "Robert Hrubý", "number": 6, "position": "CM", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_016_08", "name": "Rudolf Reiter", "number": 7, "position": "RW", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_016_09", "name": "Augusto Batioja", "number": 18, "position": "CAM", "country": "EC", "status": "starter" },
+      { "playerId": "player_cz2_016_10", "name": "Michael Hönig", "number": 15, "position": "LW", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_016_11", "name": "Maximilian Baafi", "number": 10, "position": "ST", "country": "DE", "status": "starter" },
+
+      { "playerId": "player_cz2_016_12", "name": "Mathias Škodoň", "number": 1, "position": "GK", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_016_13", "name": "Dominik Farka", "number": 4, "position": "LB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_016_14", "name": "David Klusák", "number": 22, "position": "LB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_016_15", "name": "Daniel Kosek", "number": 33, "position": "LB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_016_16", "name": "Petr Mareš", "number": 9, "position": "LB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_016_17", "name": "Matěj Žitný", "number": 3, "position": "CDM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_016_18", "name": "Milan Jirásek", "number": 8, "position": "CM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_016_19", "name": "Denis Kaulfus", "number": 17, "position": "RM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_016_20", "name": "Filip Papoušek", "number": 26, "position": "CAM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_016_21", "name": "Václav Prošek", "number": 12, "position": "LM", "country": "CZ", "status": "bench" },
+
+      { "playerId": "player_cz2_016_22", "name": "Dominik Hašek", "number": 98, "position": "CB", "country": "CZ", "status": "reserve" },
+      { "playerId": "player_cz2_016_23", "name": "Mustapha Badjie", "number": 19, "position": "CM", "country": "GM", "status": "reserve" },
+      { "playerId": "player_cz2_016_24", "name": "David Huf", "number": 28, "position": "ST", "country": "CZ", "status": "reserve" },
+      { "playerId": "player_cz2_016_25", "name": "Ousman Kujabi", "number": 13, "position": "ST", "country": "GM", "status": "reserve" }
