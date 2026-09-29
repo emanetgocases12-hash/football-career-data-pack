@@ -1,12 +1,58 @@
 {
-  "teamKey": "Milsam",
-
-  "name": "FC Milsami Orhei",
-
-  "logo": "assets/logos/europe/moldovan/Milsam.png",
-
-  "stadium": {
-    "name": "CSR Orhei",
-    "capacity": 2539
+    "teamKey": "Milsam",
+  
+    "name": "FC Milsami Orhei",
+  
+    "logo": "assets/logos/europe/moldovan/Milsam.png",
+  
+    "manager": {
+      "name": "Veaceslav Rusnac",
+      "country": "MD"
+    },
+  
+    "stadium": {
+      "name": "CSR Orhei",
+      "capacity": 2539
+    },
+  
+    "players": [
+      {"playerId": "player_md1_004_01", "name": "Filip Dujmovic", "number": 31, "position": "GK", "country": "BA", "status": "starter"},
+      {"playerId": "player_md1_004_02", "name": "Veaceslav Posmac", "number": 2, "position": "RB", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_004_03", "name": "Aleksandar Angelov", "number": 4, "position": "CB", "country": "BG", "status": "starter"},
+      {"playerId": "player_md1_004_04", "name": "Decio Neto", "number": 34, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_md1_004_05", "name": "Hennos Asmelash", "number": 29, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_md1_004_06", "name": "Christopher Nwaeze", "number": 5, "position": "CM", "country": "NG", "status": "starter"},
+      {"playerId": "player_md1_004_07", "name": "Samouil Izountouemoi", "number": 21, "position": "CM", "country": "SE", "status": "starter"},
+      {"playerId": "player_md1_004_08", "name": "Sorin Chele", "number": 11, "position": "RW", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_004_09", "name": "Radu Ginsari", "number": 10, "position": "CAM", "country": "MD", "status": "starter"},
+      {"playerId": "player_md1_004_10", "name": "Philip Odubia", "number": 14, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_md1_004_11", "name": "Kamil Dawid Dudziak", "number": 9, "position": "ST", "country": "SE", "status": "starter"},
+  
+      {"playerId": "player_md1_004_12", "name": "Cezar Ciochina", "number": 1, "position": "GK", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_004_13", "name": "Kabamba Kalabatama", "number": 28, "position": "ST", "country": "NO", "status": "bench"},
+      {"playerId": "player_md1_004_14", "name": "Dehninio Muringen", "number": 24, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_md1_004_15", "name": "Frederick Takyi", "number": 30, "position": "RB", "country": "GH", "status": "bench"},
+      {"playerId": "player_md1_004_16", "name": "David Sirbu", "number": 15, "position": "CM", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_004_17", "name": "Vasile Luchita", "number": 13, "position": "CM", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_004_18", "name": "Leonardo Bulmaga", "number": 17, "position": "CM", "country": "MD", "status": "bench"},
+      {"playerId": "player_md1_004_19", "name": "William Fonkeu", "number": 33, "position": "CM", "country": "BE", "status": "bench"},
+      {"playerId": "player_md1_004_20", "name": "Arlind Seidijaj", "number": 25, "position": "CM", "country": "AL", "status": "bench"},
+      {"playerId": "player_md1_004_21", "name": "Chiril Silcenco", "number": 7, "position": "ST", "country": "MD", "status": "bench"},
+  
+      {"playerId": "player_md1_004_22", "name": "Denis Vornic", "number": 35, "position": "GK", "country": "MD", "status": "reserve"},
+      {"playerId": "player_md1_004_23", "name": "Igor Souza", "number": 20, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_md1_004_24", "name": "Kehinde Odubia", "number": 18, "position": "RW", "country": "NG", "status": "reserve"},
+      {"playerId": "player_md1_004_25", "name": "Mihail Ghecev", "number": 22, "position": "CAM", "country": "MD", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 11,
+        "cornerLeft": 14,
+        "cornerRight": 11
+      }
+    }
   }
-}
