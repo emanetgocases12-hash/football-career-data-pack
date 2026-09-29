@@ -1,12 +1,58 @@
 {
-  "teamKey": "Jaro",
-
-  "name": "FF Jaro",
-
-  "logo": "assets/logos/europe/finland/Jaro.png",
-
-  "stadium": {
-    "name": "Project Liv Arena",
-    "capacity": 3616
+    "teamKey": "Jaro",
+  
+    "name": "FF Jaro",
+  
+    "logo": "assets/logos/europe/finland/Jaro.png",
+  
+    "manager": {
+      "name": "Jens Karlsson",
+      "country": "SE"
+    },
+  
+    "stadium": {
+      "name": "Project Liv Arena",
+      "capacity": 3616
+    },
+  
+    "players": [
+      {"playerId": "player_fi1_005_01", "name": "Senne Vits", "number": 1, "position": "GK", "country": "BE", "status": "starter"},
+      {"playerId": "player_fi1_005_02", "name": "Sergei Eremenko", "number": 7, "position": "RB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_005_03", "name": "Erik Gunnarsson", "number": 3, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_fi1_005_04", "name": "Johan Brunell", "number": 4, "position": "CB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_005_05", "name": "Albin Björkskog", "number": 5, "position": "LB", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_005_06", "name": "Jim Myrevik", "number": 8, "position": "CM", "country": "SE", "status": "starter"},
+      {"playerId": "player_fi1_005_07", "name": "Severi Kähkönen", "number": 6, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_005_08", "name": "Albin Norrgård", "number": 11, "position": "RW", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_005_09", "name": "Edvin Crona", "number": 10, "position": "CAM", "country": "SE", "status": "starter"},
+      {"playerId": "player_fi1_005_10", "name": "Emil Öhberg", "number": 17, "position": "LW", "country": "FI", "status": "starter"},
+      {"playerId": "player_fi1_005_11", "name": "Kerfala Cissoko", "number": 9, "position": "ST", "country": "GN", "status": "starter"},
+  
+      {"playerId": "player_fi1_005_12", "name": "Joas Snellman", "number": 12, "position": "GK", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_005_13", "name": "Topi Hyytinen", "number": 24, "position": "ST", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_005_14", "name": "Jonas Emet", "number": 2, "position": "RB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_005_15", "name": "Walter Moore", "number": 15, "position": "CB", "country": "TT", "status": "bench"},
+      {"playerId": "player_fi1_005_16", "name": "Jonas Sandnäs", "number": 16, "position": "LB", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_005_17", "name": "Axel Vidjeskog", "number": 18, "position": "CM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_005_18", "name": "Guillermo Sotelo", "number": 20, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_fi1_005_19", "name": "Adam Vidjeskog", "number": 21, "position": "CAM", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_005_20", "name": "Albin Sjöstrand", "number": 22, "position": "RW", "country": "FI", "status": "bench"},
+      {"playerId": "player_fi1_005_21", "name": "Josef Myrevik", "number": 23, "position": "LW", "country": "SE", "status": "bench"},
+  
+      {"playerId": "player_fi1_005_22", "name": "Anton Finell", "number": 31, "position": "GK", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_005_23", "name": "Oskar Sandnäs", "number": 25, "position": "CB", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_005_24", "name": "Daniel Björkskog", "number": 26, "position": "CM", "country": "FI", "status": "reserve"},
+      {"playerId": "player_fi1_005_25", "name": "Samu Alanko", "number": 27, "position": "ST", "country": "FI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
