@@ -1,12 +1,58 @@
 {
-  "teamKey": "Vendsy",
-
-  "name": "Vendsyssel FF",
-
-  "logo": "assets/logos/europe/denmark/Vendsyssel.png",
-
-  "stadium": {
-    "name": "Nord Energi Arena",
-    "capacity": 10000
+    "teamKey": "Vendsy",
+  
+    "name": "Vendsyssel FF",
+  
+    "logo": "assets/logos/europe/denmark/Vendsyssel.png",
+  
+    "manager": {
+      "name": "Kim Engstrøm",
+      "country": "DK"
+    },
+  
+    "stadium": {
+      "name": "Nord Energi Arena",
+      "capacity": 10000
+    },
+  
+    "players": [
+      {"playerId": "player_dk2_012_01", "name": "Lasse Schulz", "number": 1, "position": "GK", "country": "FI", "status": "starter"},
+      {"playerId": "player_dk2_012_02", "name": "Ari Olsen", "number": 23, "position": "RB", "country": "FO", "status": "starter"},
+      {"playerId": "player_dk2_012_03", "name": "Benjamin Clemmensen", "number": 21, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_012_04", "name": "Mads Nybo Lauritsen", "number": 73, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_012_05", "name": "Jeppe Sommer", "number": 27, "position": "LB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_012_06", "name": "Rasmus Schüller", "number": 6, "position": "CDM", "country": "FI", "status": "starter"},
+      {"playerId": "player_dk2_012_07", "name": "Stephen Michael", "number": 8, "position": "CM", "country": "NG", "status": "starter"},
+      {"playerId": "player_dk2_012_08", "name": "Adam Vendelbo", "number": 12, "position": "RW", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_012_09", "name": "Malthe Holt", "number": 18, "position": "CAM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_012_10", "name": "Marcus Hannesbo", "number": 11, "position": "LW", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_012_11", "name": "Lasse Steffensen", "number": 9, "position": "ST", "country": "DK", "status": "starter"},
+  
+      {"playerId": "player_dk2_012_12", "name": "Magnus Nielsen", "number": 16, "position": "GK", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_012_13", "name": "Bilal Konteh", "number": 4, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_dk2_012_14", "name": "Kasper Kjellingbro", "number": 32, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_012_15", "name": "Mads Houkjaer", "number": 37, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_012_16", "name": "Mathias Werther", "number": 20, "position": "RB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_012_17", "name": "Frederik Mortensen", "number": 14, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_012_18", "name": "Harald Tangen", "number": 15, "position": "CAM", "country": "NO", "status": "bench"},
+      {"playerId": "player_dk2_012_19", "name": "Andreas Rise", "number": 31, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_012_20", "name": "Sebastian Lodberg", "number": 17, "position": "LW", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_012_21", "name": "Emil Grønn Pedersen", "number": 19, "position": "ST", "country": "NO", "status": "bench"},
+  
+      {"playerId": "player_dk2_012_22", "name": "Anton Hvidberg", "number": 13, "position": "GK", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk2_012_23", "name": "Precious Williams", "number": 22, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_dk2_012_24", "name": "Árni Nóa Atlason", "number": 30, "position": "CM", "country": "FO", "status": "reserve"},
+      {"playerId": "player_dk2_012_25", "name": "Steven Simpson", "number": 10, "position": "RW", "country": "CA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 9,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 18,
+        "cornerLeft": 11,
+        "cornerRight": 12
+      }
+    }
   }
-}
