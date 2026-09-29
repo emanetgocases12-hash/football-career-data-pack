@@ -1,12 +1,58 @@
 {
-  "teamKey": "Volos",
-
-  "name": "Volos FC",
-
-  "logo": "assets/logos/europe/greek/Volos.png",
-
-  "stadium": {
-    "name": "Panthessaliko Stadio",
-    "capacity": 22700
+    "teamKey": "Volos",
+  
+    "name": "Volos FC",
+  
+    "logo": "assets/logos/europe/greek/Volos.png",
+  
+    "manager": {
+      "name": "Juan Ferrando",
+      "country": "ES"
+    },
+  
+    "stadium": {
+      "name": "Panthessaliko Stadio",
+      "capacity": 22700
+    },
+  
+    "players": [
+      {"playerId": "player_gr1_014_01", "name": "Alexei Koselev", "number": 55, "position": "GK", "country": "MD", "status": "starter"},
+      {"playerId": "player_gr1_014_02", "name": "Georgios Mygas", "number": 22, "position": "RB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_014_03", "name": "Ioannis Kargas", "number": 4, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_014_04", "name": "Hatim Es-Saoubi", "number": 15, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_gr1_014_05", "name": "Quentin Lecoeuche", "number": 13, "position": "LB", "country": "FR", "status": "starter"},
+      {"playerId": "player_gr1_014_06", "name": "Tasos Tsokanis", "number": 6, "position": "CM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_014_07", "name": "Fabio", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_gr1_014_08", "name": "Jasin Assehnoun", "number": 11, "position": "RW", "country": "FI", "status": "starter"},
+      {"playerId": "player_gr1_014_09", "name": "Rémy Cabella", "number": 10, "position": "CAM", "country": "FR", "status": "starter"},
+      {"playerId": "player_gr1_014_10", "name": "Lazaros Lamprou", "number": 7, "position": "LW", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_014_11", "name": "Juan Manuel Furtado", "number": 9, "position": "ST", "country": "CV", "status": "starter"},
+  
+      {"playerId": "player_gr1_014_12", "name": "Yuri Lodygin", "number": 12, "position": "GK", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_014_13", "name": "Ronaël Pierre-Gabriel", "number": 18, "position": "RB", "country": "FR", "status": "bench"},
+      {"playerId": "player_gr1_014_14", "name": "Konstantinos Lykourinos", "number": 24, "position": "CB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_014_15", "name": "Stefanos Katsikas", "number": 28, "position": "CB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_014_16", "name": "Garavelas", "number": 20, "position": "LB", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_014_17", "name": "Komba", "number": 14, "position": "CM", "country": "CF", "status": "bench"},
+      {"playerId": "player_gr1_014_18", "name": "Grosdis", "number": 17, "position": "CM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_014_19", "name": "Regis", "number": 19, "position": "RW", "country": "FR", "status": "bench"},
+      {"playerId": "player_gr1_014_20", "name": "Tzoka", "number": 21, "position": "CAM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_014_21", "name": "Charalampoglou", "number": 29, "position": "ST", "country": "GR", "status": "bench"},
+  
+      {"playerId": "player_gr1_014_22", "name": "Marios Siampanis", "number": 1, "position": "GK", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr1_014_23", "name": "Athanasios Gerofokas", "number": 82, "position": "GK", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr1_014_24", "name": "Vainopoulos", "number": 25, "position": "CB", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr1_014_25", "name": "González", "number": 30, "position": "LW", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
