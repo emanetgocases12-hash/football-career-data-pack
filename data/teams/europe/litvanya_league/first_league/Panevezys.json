@@ -1,12 +1,58 @@
 {
-  "teamKey": "Paneve",
-
-  "name": "FK Panevezys",
-
-  "logo": "assets/logos/europe/litvanya/Panevezys.png",
-
-  "stadium": {
-    "name": "Aukštaitija",
-    "capacity": 6600
+    "teamKey": "Paneve",
+  
+    "name": "FK Panevezys",
+  
+    "logo": "assets/logos/europe/litvanya/Panevezys.png",
+  
+    "manager": {
+      "name": "Toni Korkeakunnas",
+      "country": "FI"
+    },
+  
+    "stadium": {
+      "name": "Aukštaitija",
+      "capacity": 6600
+    },
+  
+    "players": [
+      {"playerId": "player_lt1_005_01", "name": "Vytautas Černiauskas", "number": 1, "position": "GK", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_005_02", "name": "Rokas Rasimavičius", "number": 32, "position": "RB", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_005_03", "name": "Justinas Januševskis", "number": 15, "position": "CB", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_005_04", "name": "Seydina Keita", "number": 33, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_lt1_005_05", "name": "Joël Bopesu", "number": 95, "position": "LB", "country": "FR", "status": "starter"},
+      {"playerId": "player_lt1_005_06", "name": "Matas Ramanauskas", "number": 6, "position": "CM", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_005_07", "name": "Salomon Kouadio", "number": 8, "position": "CM", "country": "CI", "status": "starter"},
+      {"playerId": "player_lt1_005_08", "name": "Kwadwo Asamoah", "number": 27, "position": "RW", "country": "GH", "status": "starter"},
+      {"playerId": "player_lt1_005_09", "name": "Elivelto Ribeiro Dantas", "number": 80, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_lt1_005_10", "name": "Oleksandr Kurtsev", "number": 17, "position": "LW", "country": "UA", "status": "starter"},
+      {"playerId": "player_lt1_005_11", "name": "Nauris Petkevičius", "number": 24, "position": "ST", "country": "LT", "status": "starter"},
+  
+      {"playerId": "player_lt1_005_12", "name": "Arijus Bražinskas", "number": 22, "position": "GK", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_005_13", "name": "Rayen Mzoughi", "number": 4, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_lt1_005_14", "name": "Miano Van Den Bos", "number": 5, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_lt1_005_15", "name": "Strahinja Kerkez", "number": 13, "position": "CB", "country": "CY", "status": "bench"},
+      {"playerId": "player_lt1_005_16", "name": "Parfait Bizoza", "number": 77, "position": "CM", "country": "NO", "status": "bench"},
+      {"playerId": "player_lt1_005_17", "name": "Lovro Grajfoner", "number": 11, "position": "CM", "country": "SI", "status": "bench"},
+      {"playerId": "player_lt1_005_18", "name": "Ernestas Burdzilauskas", "number": 28, "position": "CM", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_005_19", "name": "Isaac Asante", "number": 34, "position": "CM", "country": "GH", "status": "bench"},
+      {"playerId": "player_lt1_005_20", "name": "Marko Bacanin", "number": 16, "position": "ST", "country": "RS", "status": "bench"},
+      {"playerId": "player_lt1_005_21", "name": "Valdas Paulauskas", "number": 79, "position": "ST", "country": "LT", "status": "bench"},
+  
+      {"playerId": "player_lt1_005_22", "name": "Liudvikas Valius", "number": 12, "position": "GK", "country": "LT", "status": "reserve"},
+      {"playerId": "player_lt1_005_23", "name": "Dovydas Balsys", "number": 66, "position": "CB", "country": "LT", "status": "reserve"},
+      {"playerId": "player_lt1_005_24", "name": "Ignas Lukoševičius", "number": 25, "position": "CM", "country": "LT", "status": "reserve"},
+      {"playerId": "player_lt1_005_25", "name": "Ernestas Veliulis", "number": 7, "position": "RW", "country": "LT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 15,
+      "setPieces": {
+        "penalty": 24,
+        "freeKick": 80,
+        "cornerLeft": 27,
+        "cornerRight": 17
+      }
+    }
   }
-}
