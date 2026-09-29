@@ -1,12 +1,58 @@
 {
-  "teamKey": "Auda",
-
-  "name": "FK Auda",
-
-  "logo": "assets/logos/europe/latvia/Auda.png",
-
-  "stadium": {
-    "name": "Skonto",
-    "capacity": 7000
+    "teamKey": "Auda",
+  
+    "name": "FK Auda",
+  
+    "logo": "assets/logos/europe/latvia/Auda.png",
+  
+    "manager": {
+      "name": "Didier Zanetti",
+      "country": "FR"
+    },
+  
+    "stadium": {
+      "name": "Skonto",
+      "capacity": 7000
+    },
+  
+    "players": [
+      {"playerId": "player_lv1_001_01", "name": "Nils Toms Puriņš", "number": 1, "position": "GK", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_001_02", "name": "Tin Hrvoj", "number": 2, "position": "RB", "country": "HR", "status": "starter"},
+      {"playerId": "player_lv1_001_03", "name": "Daniels Balodis", "number": 6, "position": "CB", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_001_04", "name": "Moussa Ouedraogo", "number": 5, "position": "CB", "country": "BF", "status": "starter"},
+      {"playerId": "player_lv1_001_05", "name": "Ariel Arroyo", "number": 3, "position": "LB", "country": "PA", "status": "starter"},
+      {"playerId": "player_lv1_001_06", "name": "Ralfs Kragliks", "number": 8, "position": "CM", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_001_07", "name": "Youba Traore", "number": 14, "position": "CDM", "country": "ML", "status": "starter"},
+      {"playerId": "player_lv1_001_08", "name": "Eduards Dašķevičs", "number": 7, "position": "RW", "country": "LV", "status": "starter"},
+      {"playerId": "player_lv1_001_09", "name": "Jayen Gerold", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
+      {"playerId": "player_lv1_001_10", "name": "Wally Fofana", "number": 11, "position": "LW", "country": "GM", "status": "starter"},
+      {"playerId": "player_lv1_001_11", "name": "Edvin Bongemba", "number": 9, "position": "ST", "country": "FR", "status": "starter"},
+  
+      {"playerId": "player_lv1_001_12", "name": "Raivo Stūriņš", "number": 12, "position": "GK", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_001_13", "name": "Meleye Diagne", "number": 15, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_lv1_001_14", "name": "Alvis Jaunzems", "number": 22, "position": "RB", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_001_15", "name": "Andrews Appiah", "number": 16, "position": "CM", "country": "GH", "status": "bench"},
+      {"playerId": "player_lv1_001_16", "name": "Sebastian Aranda", "number": 18, "position": "CM", "country": "ES", "status": "bench"},
+      {"playerId": "player_lv1_001_17", "name": "Barthelemy Diedhiou", "number": 20, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_lv1_001_18", "name": "Jevgenijs Miņins", "number": 17, "position": "RM", "country": "LV", "status": "bench"},
+      {"playerId": "player_lv1_001_19", "name": "Olabanjo Ogunji", "number": 19, "position": "RW", "country": "NG", "status": "bench"},
+      {"playerId": "player_lv1_001_20", "name": "Hussaini Ibrahim", "number": 21, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_lv1_001_21", "name": "Kader Kone", "number": 23, "position": "ST", "country": "CI", "status": "bench"},
+  
+      {"playerId": "player_lv1_001_22", "name": "Niks Daniels Aleksandrovs", "number": 30, "position": "GK", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_001_23", "name": "Pekegnon Ibrahim Kone", "number": 24, "position": "CM", "country": "CI", "status": "reserve"},
+      {"playerId": "player_lv1_001_24", "name": "Oskars Rubenis", "number": 25, "position": "ST", "country": "LV", "status": "reserve"},
+      {"playerId": "player_lv1_001_25", "name": "Josue Vergara", "number": 27, "position": "ST", "country": "PA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
