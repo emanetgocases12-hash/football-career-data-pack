@@ -1,12 +1,58 @@
 {
-  "teamKey": "Keflav",
-
-  "name": "Keflavík ÍF",
-
-  "logo": "assets/logos/europe/iceland/Keflavik.png",
-
-  "stadium": {
-    "name": "HS Orku völlurinn",
-    "capacity": 2554
+    "teamKey": "Keflav",
+  
+    "name": "Keflavík ÍF",
+  
+    "logo": "assets/logos/europe/iceland/Keflavik.png",
+  
+    "manager": {
+      "name": "Haraldur Freyr Guðmundsson",
+      "country": "IS"
+    },
+  
+    "stadium": {
+      "name": "HS Orku völlurinn",
+      "capacity": 2554
+    },
+  
+    "players": [
+      {"playerId": "player_is1_008_01", "name": "Ásgeir Orri Magnússon", "number": 1, "position": "GK", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_008_02", "name": "E. Bwomono", "number": 2, "position": "RB", "country": "UG", "status": "starter"},
+      {"playerId": "player_is1_008_03", "name": "Nacho Heras", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_is1_008_04", "name": "M. Brigić", "number": 20, "position": "CB", "country": "HR", "status": "starter"},
+      {"playerId": "player_is1_008_05", "name": "Anton Kralj", "number": 13, "position": "LB", "country": "SE", "status": "starter"},
+      {"playerId": "player_is1_008_06", "name": "Sindri Magnússon", "number": 6, "position": "CDM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_008_07", "name": "Frans Elvarsson", "number": 25, "position": "CM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_008_08", "name": "D. Valsson", "number": 7, "position": "RW", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_008_09", "name": "Muhamed Alghoul", "number": 11, "position": "CAM", "country": "PS", "status": "starter"},
+      {"playerId": "player_is1_008_10", "name": "E. Bjarnason", "number": 18, "position": "LW", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_008_11", "name": "Stefan Alexander Ljubicic", "number": 10, "position": "ST", "country": "IS", "status": "starter"},
+  
+      {"playerId": "player_is1_008_12", "name": "H. Hermannsson", "number": 12, "position": "GK", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_008_13", "name": "A. Jóhannesson", "number": 3, "position": "CB", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_008_14", "name": "D. Aronsson", "number": 5, "position": "CB", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_008_15", "name": "Ásgeir Páll Magnússon", "number": 22, "position": "RB", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_008_16", "name": "Baldur Logi Guðlaugsson", "number": 17, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_008_17", "name": "E. Osmani", "number": 19, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_008_18", "name": "E. Ragnarsson", "number": 23, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_008_19", "name": "V. Traustason", "number": 28, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_008_20", "name": "B. Baxter", "number": 8, "position": "ST", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_008_21", "name": "Halid Al Ghoul", "number": 9, "position": "ST", "country": "PS", "status": "bench"},
+  
+      {"playerId": "player_is1_008_22", "name": "M. Basic", "number": 30, "position": "GK", "country": "SE", "status": "reserve"},
+      {"playerId": "player_is1_008_23", "name": "M. Mudražija", "number": 14, "position": "ST", "country": "HR", "status": "reserve"},
+      {"playerId": "player_is1_008_24", "name": "A. Conteh", "number": 21, "position": "ST", "country": "SL", "status": "reserve"},
+      {"playerId": "player_is1_008_25", "name": "E. Haraldsson", "number": 77, "position": "RW", "country": "IS", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 25,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 11,
+        "cornerLeft": 7,
+        "cornerRight": 18
+      }
+    }
   }
-}
