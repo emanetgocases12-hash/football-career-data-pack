@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ofi",
-
-  "name": "OFI Crete",
-
-  "logo": "assets/logos/europe/greek/Ofi.png",
-
-  "stadium": {
-    "name": "Pankritio Stadio",
-    "capacity": 25780
+    "teamKey": "Ofi",
+  
+    "name": "OFI Crete",
+  
+    "logo": "assets/logos/europe/greek/Ofi.png",
+  
+    "manager": {
+      "name": "Christos Kontis",
+      "country": "GR"
+    },
+  
+    "stadium": {
+      "name": "Pankritio Stadio",
+      "capacity": 25780
+    },
+  
+    "players": [
+      {"playerId": "player_gr1_009_01", "name": "Nikolaos Christogeorgos", "number": 31, "position": "GK", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_009_02", "name": "Konstantinos Kostoulas", "number": 5, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_009_03", "name": "Achilleas Poungouras", "number": 15, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_009_04", "name": "Dimitris Nikolaou", "number": 43, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_009_05", "name": "Lorenzo Dickmann", "number": 24, "position": "RM", "country": "IT", "status": "starter"},
+      {"playerId": "player_gr1_009_06", "name": "Zisis Karachalios", "number": 6, "position": "CM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_009_07", "name": "Andreas Bouchalakis", "number": 41, "position": "CM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_009_08", "name": "Nikolaos Athanasiou", "number": 3, "position": "LM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_009_09", "name": "Taxiarchis Fountas", "number": 11, "position": "CAM", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_009_10", "name": "Aitor Cantalapiedra", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_gr1_009_11", "name": "Aaron Leya Iseka", "number": 9, "position": "ST", "country": "BE", "status": "starter"},
+  
+      {"playerId": "player_gr1_009_12", "name": "Klidman Lilo", "number": 1, "position": "GK", "country": "AL", "status": "bench"},
+      {"playerId": "player_gr1_009_13", "name": "Krešimir Krizmanić", "number": 2, "position": "CB", "country": "HR", "status": "bench"},
+      {"playerId": "player_gr1_009_14", "name": "Christos Shelis", "number": 16, "position": "CB", "country": "CY", "status": "bench"},
+      {"playerId": "player_gr1_009_15", "name": "Borja González", "number": 17, "position": "RB", "country": "ES", "status": "bench"},
+      {"playerId": "player_gr1_009_16", "name": "Thanasis Androutsos", "number": 14, "position": "CM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_009_17", "name": "Georgios Kanellopoulos", "number": 8, "position": "CM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_009_18", "name": "Ioannis Apostolakis", "number": 21, "position": "CM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_009_19", "name": "Thiago Nuss", "number": 18, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_gr1_009_20", "name": "Kenan Kodro", "number": 19, "position": "ST", "country": "BA", "status": "bench"},
+      {"playerId": "player_gr1_009_21", "name": "Ioannis Theodosoulakis", "number": 46, "position": "ST", "country": "GR", "status": "bench"},
+  
+      {"playerId": "player_gr1_009_22", "name": "Panagiotis Katsikas", "number": 13, "position": "GK", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr1_009_23", "name": "Tasos Chatzigiovanis", "number": 7, "position": "RW", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr1_009_24", "name": "Thiago Romano", "number": 30, "position": "CAM", "country": "AR", "status": "reserve"},
+      {"playerId": "player_gr1_009_25", "name": "Félix Zanelatto", "number": 20, "position": "LW", "country": "PE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "3-4-2-1",
+      "captain": 41,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
