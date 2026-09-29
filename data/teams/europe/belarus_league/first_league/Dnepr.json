@@ -1,12 +1,58 @@
 {
-  "teamKey": "Dnepr",
+    "teamKey": "Dnepr",
 
-  "name": "Dnepr Mogilev",
+    "name": "Dnepr Mogilev",
 
-  "logo": "assets/logos/europe/belarus/Dnepr.png",
+    "logo": "assets/logos/europe/belarus/Dnepr.png",
 
-  "stadium": {
-    "name": "Spartak",
-    "capacity": 7350
+    "manager": {
+      "name": "Igor Kriushenko",
+      "country": "BY"
+    },
+
+    "stadium": {
+      "name": "Spartak",
+      "capacity": 7350
+    },
+
+    "players": [
+      { "playerId": "player_by1_007_01", "name": "Nikita Sednev", "number": 22, "position": "GK", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_007_02", "name": "Aleksandr Mikhalenko", "number": 18, "position": "RB", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_007_03", "name": "Nenad Perović", "number": 3, "position": "CB", "country": "RS", "status": "starter" },
+      { "playerId": "player_by1_007_04", "name": "Aleksandr Varganov", "number": 5, "position": "CB", "country": "RU", "status": "starter" },
+      { "playerId": "player_by1_007_05", "name": "Filipp Yurkevich", "number": 26, "position": "LB", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_007_06", "name": "Sergey Rusak", "number": 8, "position": "CDM", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_007_07", "name": "Ruslan Lisakovich", "number": 11, "position": "CM", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_007_08", "name": "Aleksandr Potapenko", "number": 17, "position": "RW", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_007_09", "name": "Vladislav Harutyunyan", "number": 89, "position": "CAM", "country": "RU", "status": "starter" },
+      { "playerId": "player_by1_007_10", "name": "Kirill Kirilenko", "number": 88, "position": "LW", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_007_11", "name": "Kirill Zabelin", "number": 10, "position": "ST", "country": "BY", "status": "starter" },
+
+      { "playerId": "player_by1_007_12", "name": "Vladislav Ignatjev", "number": 23, "position": "GK", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_007_13", "name": "Aleksandr Sinenko", "number": 33, "position": "GK", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_007_14", "name": "Dmitry Gushchenko", "number": 77, "position": "GK", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_007_15", "name": "Maksim Kasarab", "number": 15, "position": "CB", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_007_16", "name": "David Cherkasov", "number": 74, "position": "CB", "country": "RU", "status": "bench" },
+      { "playerId": "player_by1_007_17", "name": "Aleksandr Dunaev", "number": 4, "position": "RB", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_007_18", "name": "Aleksandr Denisyuk", "number": 29, "position": "CM", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_007_19", "name": "Kirill Tsepenkov", "number": 37, "position": "CM", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_007_20", "name": "Nikita Krasnov", "number": 55, "position": "CM", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_007_21", "name": "Muzaffar Gurbanov", "number": 7, "position": "ST", "country": "BY", "status": "bench" },
+
+      { "playerId": "player_by1_007_22", "name": "Erik Torosyan", "number": 9, "position": "ST", "country": "AM", "status": "reserve" },
+      { "playerId": "player_by1_007_23", "name": "Evgeniy Karpitskiy", "number": 21, "position": "ST", "country": "BY", "status": "reserve" },
+      { "playerId": "player_by1_007_24", "name": "Roman Piletskiy", "number": 27, "position": "ST", "country": "BY", "status": "reserve" },
+      { "playerId": "player_by1_007_25", "name": "Nikita Tereshchuk", "number": 66, "position": "ST", "country": "RU", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 17,
+        "cornerLeft": 17,
+        "cornerRight": 17
+      }
+    }
   }
-}
