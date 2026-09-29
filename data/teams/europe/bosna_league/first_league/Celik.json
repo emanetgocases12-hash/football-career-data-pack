@@ -1,12 +1,58 @@
 {
-  "teamKey": "Celik",
+    "teamKey": "Celik",
 
-  "name": "NK Celik Zenica",
+    "name": "NK Celik Zenica",
 
-  "logo": "assets/logos/europe/bosna/Celik.png",
+    "logo": "assets/logos/europe/bosna/Celik.png",
 
-  "stadium": {
-    "name": "Bilino Polje",
-    "capacity": 13909
+    "manager": {
+      "name": "Bojan Regoje",
+      "country": "BA"
+    },
+
+    "stadium": {
+      "name": "Bilino Polje",
+      "capacity": 13909
+    },
+
+    "players": [
+      { "playerId": "player_ba1_004_01", "name": "Arman Šutković", "number": 1, "position": "GK", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_004_02", "name": "Halid Šabanović", "number": 24, "position": "RB", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_004_03", "name": "Kenan Horić", "number": 4, "position": "CB", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_004_04", "name": "Amer Mašetić", "number": 6, "position": "CB", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_004_05", "name": "Nemanja Tomašević", "number": 27, "position": "LB", "country": "RS", "status": "starter" },
+      { "playerId": "player_ba1_004_06", "name": "Harun Vardo", "number": 5, "position": "CDM", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_004_07", "name": "Andres Mohedano", "number": 8, "position": "CM", "country": "ES", "status": "starter" },
+      { "playerId": "player_ba1_004_08", "name": "Faruk Gogić", "number": 88, "position": "RW", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_004_09", "name": "Aldin Hrvanović", "number": 14, "position": "CAM", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_004_10", "name": "Dževad Sijamija", "number": 7, "position": "LW", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_004_11", "name": "Anes Mašić", "number": 99, "position": "ST", "country": "BA", "status": "starter" },
+
+      { "playerId": "player_ba1_004_12", "name": "Adi Durmo", "number": 23, "position": "GK", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_004_13", "name": "Eldar Sivac", "number": 21, "position": "RB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_004_14", "name": "Amer Hodžić", "number": 2, "position": "CB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_004_15", "name": "Nedim Smajlović", "number": 19, "position": "LB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_004_16", "name": "Albin Omić", "number": 17, "position": "CDM", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_004_17", "name": "Joseph Amoah", "number": 28, "position": "CM", "country": "GH", "status": "bench" },
+      { "playerId": "player_ba1_004_18", "name": "Bruno Jenjić", "number": 20, "position": "CM", "country": "HR", "status": "bench" },
+      { "playerId": "player_ba1_004_19", "name": "Oliver Šarkić", "number": 18, "position": "LW", "country": "ME", "status": "bench" },
+      { "playerId": "player_ba1_004_20", "name": "Marin Popović", "number": 15, "position": "RW", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_004_21", "name": "Dejan Vidić", "number": 9, "position": "ST", "country": "BA", "status": "bench" },
+
+      { "playerId": "player_ba1_004_22", "name": "Vladimir Savić", "number": 13, "position": "GK", "country": "BA", "status": "reserve" },
+      { "playerId": "player_ba1_004_23", "name": "Emmanuel Sieh", "number": 26, "position": "ST", "country": "LR", "status": "reserve" },
+      { "playerId": "player_ba1_004_24", "name": "Samy Faraj", "number": 10, "position": "LW", "country": "DZ", "status": "reserve" },
+      { "playerId": "player_ba1_004_25", "name": "Eman Babić", "number": 16, "position": "CM", "country": "BA", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 99,
+        "freeKick": 14,
+        "cornerLeft": 7,
+        "cornerRight": 88
+      }
+    }
   }
-}
