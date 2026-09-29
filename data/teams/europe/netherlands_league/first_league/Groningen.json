@@ -1,12 +1,58 @@
 {
-  "teamKey": "Gronin",
-
-  "name": "FC Groningen",
-
-  "logo": "assets/logos/europe/netherlands/Groningen.png",
-
-  "stadium": {
-    "name": "Euroborg",
-    "capacity": 22550
+    "teamKey": "Gronin",
+  
+    "name": "FC Groningen",
+  
+    "logo": "assets/logos/europe/netherlands/Groningen.png",
+  
+    "manager": {
+      "name": "Dick Lukkien",
+      "country": "NL"
+    },
+  
+    "stadium": {
+      "name": "Euroborg",
+      "capacity": 22550
+    },
+  
+    "players": [
+      {"playerId": "player_nl1_009_01", "name": "Etienne Vaessen", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_009_02", "name": "Hans Hateboer", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_009_03", "name": "Márk Csinger", "number": 4, "position": "CB", "country": "HU", "status": "starter"},
+      {"playerId": "player_nl1_009_04", "name": "Thijmen Blokzijl", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_009_05", "name": "Malcolm Jeng", "number": 3, "position": "LB", "country": "SE", "status": "starter"},
+      {"playerId": "player_nl1_009_06", "name": "Tygo Land", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_009_07", "name": "Jorg Schreuders", "number": 8, "position": "CM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_009_08", "name": "Travis Hernes", "number": 7, "position": "RW", "country": "NO", "status": "starter"},
+      {"playerId": "player_nl1_009_09", "name": "David van der Werff", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_009_10", "name": "Jacob Ondrejka", "number": 9, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_nl1_009_11", "name": "Thom van Bergen", "number": 17, "position": "RW", "country": "NL", "status": "starter"},
+  
+      {"playerId": "player_nl1_009_12", "name": "Lovro Štubljar", "number": 12, "position": "GK", "country": "SI", "status": "bench"},
+      {"playerId": "player_nl1_009_13", "name": "Marco Rente", "number": 14, "position": "CB", "country": "DE", "status": "bench"},
+      {"playerId": "player_nl1_009_14", "name": "Tyrique Mercera", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_009_15", "name": "Elvis Van der Laan", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_009_16", "name": "Wouter Prins", "number": 23, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_009_17", "name": "Tika de Jonge", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_009_18", "name": "Pelle Clement", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_009_19", "name": "Alvin Nordin", "number": 20, "position": "CAM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_009_20", "name": "Jismerai Dillema", "number": 21, "position": "RM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_009_21", "name": "Jahelille Hall", "number": 22, "position": "LM", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_nl1_009_22", "name": "Rijk Janse", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl1_009_23", "name": "Oskar Zawada", "number": 19, "position": "LW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_nl1_009_24", "name": "Brynjólfur Darri Willumsson", "number": 29, "position": "ST", "country": "IS", "status": "reserve"},
+      {"playerId": "player_nl1_009_25", "name": "Nils Eggens", "number": 99, "position": "ST", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
