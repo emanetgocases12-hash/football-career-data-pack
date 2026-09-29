@@ -1,12 +1,58 @@
 {
-  "teamKey": "B Vrat",
+    "teamKey": "B Vrat",
 
-  "name": "Botev Vratsa",
+    "name": "Botev Vratsa",
 
-  "logo": "assets/logos/europe/bulgaria/Vratsa.png",
+    "logo": "assets/logos/europe/bulgaria/Vratsa.png",
 
-  "stadium": {
-    "name": "Hristo Botev",
-    "capacity": 8000
+    "manager": {
+      "name": "Todor Simov",
+      "country": "BG"
+    },
+
+    "stadium": {
+      "name": "Hristo Botev",
+      "capacity": 8000
+    },
+
+    "players": [
+      { "playerId": "player_bg1_014_01", "name": "Marin Orlinov", "number": 94, "position": "GK", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_014_02", "name": "M. Achkov", "number": 11, "position": "RB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_014_03", "name": "Ivan Goranov", "number": 4, "position": "CB", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_014_04", "name": "Đ. Jovičić", "number": 55, "position": "CB", "country": "BA", "status": "starter" },
+      { "playerId": "player_bg1_014_05", "name": "S. Sanyang", "number": 3, "position": "LB", "country": "GM", "status": "starter" },
+      { "playerId": "player_bg1_014_06", "name": "Radoslav Tsonev", "number": 7, "position": "CDM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_014_07", "name": "A. Stoyanov", "number": 8, "position": "CM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_014_08", "name": "J. Gallegos", "number": 10, "position": "RW", "country": "US", "status": "starter" },
+      { "playerId": "player_bg1_014_09", "name": "Martin Smolenski", "number": 24, "position": "CAM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_014_10", "name": "V. Naydenov", "number": 97, "position": "LW", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_014_11", "name": "Preslav Borukov", "number": 99, "position": "ST", "country": "BG", "status": "starter" },
+
+      { "playerId": "player_bg1_014_12", "name": "L. Stoyanov", "number": 23, "position": "GK", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_014_13", "name": "M. Dimitrov", "number": 21, "position": "CB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_014_14", "name": "A. Buchkov", "number": 25, "position": "LB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_014_15", "name": "M. Stoev", "number": 36, "position": "RB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_014_16", "name": "A. Kichukov", "number": 6, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_014_17", "name": "N. Stefanov", "number": 16, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_014_18", "name": "K. Hadji", "number": 81, "position": "CAM", "country": "KM", "status": "bench" },
+      { "playerId": "player_bg1_014_19", "name": "Daniel Genov", "number": 9, "position": "RW", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_014_20", "name": "I. Yurukov", "number": 12, "position": "ST", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_014_21", "name": "M. Petkov", "number": 79, "position": "ST", "country": "BG", "status": "bench" },
+
+      { "playerId": "player_bg1_014_22", "name": "L. Vasilev", "number": 98, "position": "GK", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_014_23", "name": "M. Tsonev", "number": 2, "position": "RW", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_014_24", "name": "S. Mechev", "number": 17, "position": "ST", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_014_25", "name": "F. Gigov", "number": 90, "position": "ST", "country": "BG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 99,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
