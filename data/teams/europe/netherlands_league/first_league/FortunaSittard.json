@@ -1,12 +1,58 @@
 {
-  "teamKey": "F'Sitrd",
-
-  "name": "Fortuna Sittard",
-
-  "logo": "assets/logos/europe/netherlands/Fortuna.png",
-
-  "stadium": {
-    "name": "Fortuna Sittard Stadion",
-    "capacity": 12800
+    "teamKey": "F'Sitrd",
+  
+    "name": "Fortuna Sittard",
+  
+    "logo": "assets/logos/europe/netherlands/Fortuna.png",
+  
+    "manager": {
+      "name": "Danny Buijs",
+      "country": "NL"
+    },
+  
+    "stadium": {
+      "name": "Fortuna Sittard Stadion",
+      "capacity": 12800
+    },
+  
+    "players": [
+      {"playerId": "player_nl1_007_01", "name": "Mattijs Branderhorst", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_007_02", "name": "Justin Hubner", "number": 2, "position": "RB", "country": "ID", "status": "starter"},
+      {"playerId": "player_nl1_007_03", "name": "Rodrigo Guth", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_nl1_007_04", "name": "Ivo Pinto", "number": 5, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_nl1_007_05", "name": "Syb Van Ottele", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_007_06", "name": "Mohamed Ihattaren", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_007_07", "name": "Édouard Michut", "number": 8, "position": "CM", "country": "FR", "status": "starter"},
+      {"playerId": "player_nl1_007_08", "name": "Yassin Oukili", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_007_09", "name": "Shiloh 't Zand", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_007_10", "name": "Ole Romeny", "number": 9, "position": "ST", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl1_007_11", "name": "Lequincio Zeefuik", "number": 17, "position": "RW", "country": "NL", "status": "starter"},
+  
+      {"playerId": "player_nl1_007_12", "name": "Luuk Koopmans", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_007_13", "name": "Iván Márquez", "number": 14, "position": "CB", "country": "ES", "status": "bench"},
+      {"playerId": "player_nl1_007_14", "name": "Siebe Wylin", "number": 15, "position": "RB", "country": "BE", "status": "bench"},
+      {"playerId": "player_nl1_007_15", "name": "Jasper Dahlhaus", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_007_16", "name": "Nick de Groot", "number": 23, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_007_17", "name": "Kristoffer Peterson", "number": 11, "position": "LW", "country": "SE", "status": "bench"},
+      {"playerId": "player_nl1_007_18", "name": "Philip Brittijn", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_007_19", "name": "Sven Simons", "number": 20, "position": "CAM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_007_20", "name": "Moussa Gbemou", "number": 21, "position": "RM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl1_007_21", "name": "Ganni Buyukhan", "number": 22, "position": "LM", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_nl1_007_22", "name": "Kaylen Reitmaier", "number": 30, "position": "GK", "country": "DE", "status": "reserve"},
+      {"playerId": "player_nl1_007_23", "name": "Anthony Descotte", "number": 19, "position": "LW", "country": "BE", "status": "reserve"},
+      {"playerId": "player_nl1_007_24", "name": "David Stockbrink", "number": 29, "position": "ST", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl1_007_25", "name": "Kevin van Burgsteden", "number": 24, "position": "RB", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
