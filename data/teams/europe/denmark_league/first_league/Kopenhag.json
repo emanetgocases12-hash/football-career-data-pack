@@ -1,12 +1,58 @@
 {
-  "teamKey": "FC Køb",
-
-  "name": "FC Copenhagen",
-
-  "logo": "assets/logos/europe/denmark/Kopenhag.png",
-
-  "stadium": {
-    "name": "Parken - connected by 3",
-    "capacity": 38065
+    "teamKey": "FC Køb",
+  
+    "name": "FC Copenhagen",
+  
+    "logo": "assets/logos/europe/denmark/Kopenhag.png",
+  
+    "manager": {
+      "name": "Bo Svensson",
+      "country": "DK"
+    },
+  
+    "stadium": {
+      "name": "Parken - connected by 3",
+      "capacity": 38065
+    },
+  
+    "players": [
+      {"playerId": "player_dk1_004_01", "name": "Diant Ramaj", "number": 41, "position": "GK", "country": "DE", "status": "starter"},
+      {"playerId": "player_dk1_004_02", "name": "Felix Beijmo", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
+      {"playerId": "player_dk1_004_03", "name": "Asger Sørensen", "number": 4, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_004_04", "name": "Gabriel Pereira", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_dk1_004_05", "name": "Marcos López", "number": 15, "position": "LB", "country": "PE", "status": "starter"},
+      {"playerId": "player_dk1_004_06", "name": "Thomas Delaney", "number": 27, "position": "CDM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_004_07", "name": "Alex Král", "number": 33, "position": "CM", "country": "CZ", "status": "starter"},
+      {"playerId": "player_dk1_004_08", "name": "Mohamed Elyounoussi", "number": 10, "position": "CAM", "country": "NO", "status": "starter"},
+      {"playerId": "player_dk1_004_09", "name": "Maximo Carrizo", "number": 7, "position": "RW", "country": "AR", "status": "starter"},
+      {"playerId": "player_dk1_004_10", "name": "Magnus Mattsson", "number": 8, "position": "LW", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_004_11", "name": "Youssoufa Moukoko", "number": 9, "position": "ST", "country": "DE", "status": "starter"},
+  
+      {"playerId": "player_dk1_004_12", "name": "Rúnar Alex Rúnarsson", "number": 31, "position": "GK", "country": "IS", "status": "bench"},
+      {"playerId": "player_dk1_004_13", "name": "Munashe Garananga", "number": 6, "position": "CB", "country": "ZW", "status": "bench"},
+      {"playerId": "player_dk1_004_14", "name": "Rodrigo Huescas", "number": 13, "position": "RB", "country": "MX", "status": "bench"},
+      {"playerId": "player_dk1_004_15", "name": "Junnosuke Suzuki", "number": 20, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_dk1_004_16", "name": "Birger Meling", "number": 24, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_dk1_004_17", "name": "Robert", "number": 16, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_dk1_004_18", "name": "Mads Madsen", "number": 21, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_004_19", "name": "Dominik Sarapata", "number": 23, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_dk1_004_20", "name": "William Clem", "number": 36, "position": "CDM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_004_21", "name": "Jordan Larsson", "number": 11, "position": "ST", "country": "SE", "status": "bench"},
+  
+      {"playerId": "player_dk1_004_22", "name": "Tobias Breum-Harild", "number": 51, "position": "GK", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk1_004_23", "name": "Keny Myrie", "number": 18, "position": "RB", "country": "CR", "status": "reserve"},
+      {"playerId": "player_dk1_004_24", "name": "Andreas Cornelius", "number": 14, "position": "ST", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk1_004_25", "name": "Viktor Daðason", "number": 39, "position": "ST", "country": "IS", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 27,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 8,
+        "cornerRight": 7
+      }
+    }
   }
-}
