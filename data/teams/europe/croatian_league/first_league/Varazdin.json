@@ -1,12 +1,58 @@
 {
-  "teamKey": "Varazd",
+    "teamKey": "Varazd",
 
-  "name": "NK Varazdin",
+    "name": "NK Varazdin",
 
-  "logo": "assets/logos/europe/croatia/Varazdin.png",
+    "logo": "assets/logos/europe/croatia/Varazdin.png",
 
-  "stadium": {
-    "name": "Gradski stadion Andelko Herjavec",
-    "capacity": 10800
+    "manager": {
+      "name": "Nikola Šafarić",
+      "country": "HR"
+    },
+
+    "stadium": {
+      "name": "Gradski stadion Andelko Herjavec",
+      "capacity": 10800
+    },
+
+    "players": [
+      { "playerId": "player_hr1_010_01", "name": "Oliver Zelenika", "number": 1, "position": "GK", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_010_02", "name": "Frane Maglica", "number": 23, "position": "RB", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_010_03", "name": "Roberto Punčec", "number": 14, "position": "CB", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_010_04", "name": "Mario Mladenovski", "number": 13, "position": "CB", "country": "MK", "status": "starter" },
+      { "playerId": "player_hr1_010_05", "name": "Gregor Sikošek", "number": 20, "position": "LB", "country": "SI", "status": "starter" },
+      { "playerId": "player_hr1_010_06", "name": "David Puclin", "number": 6, "position": "CDM", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_010_07", "name": "Tomislav Duvnjak", "number": 8, "position": "CM", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_010_08", "name": "Iuri Tavares", "number": 38, "position": "RW", "country": "CV", "status": "starter" },
+      { "playerId": "player_hr1_010_09", "name": "Aleksa Latković", "number": 10, "position": "CAM", "country": "ME", "status": "starter" },
+      { "playerId": "player_hr1_010_10", "name": "Luka Mamić", "number": 22, "position": "LW", "country": "HR", "status": "starter" },
+      { "playerId": "player_hr1_010_11", "name": "Ivan Mamut", "number": 17, "position": "ST", "country": "HR", "status": "starter" },
+
+      { "playerId": "player_hr1_010_12", "name": "Josip Silić", "number": 33, "position": "GK", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_010_13", "name": "Luka Škaričić", "number": 4, "position": "CB", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_010_14", "name": "Sven Lesjak", "number": 5, "position": "CB", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_010_15", "name": "Matej Vuk", "number": 7, "position": "RB", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_010_16", "name": "Elvir Duraković", "number": 3, "position": "LB", "country": "BA", "status": "bench" },
+      { "playerId": "player_hr1_010_17", "name": "Novak Tepšić", "number": 16, "position": "CB", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_010_18", "name": "Ivan Posavec", "number": 21, "position": "CM", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_010_19", "name": "Ivan Canjuga", "number": 28, "position": "CM", "country": "HR", "status": "bench" },
+      { "playerId": "player_hr1_010_20", "name": "Mario Marina", "number": 24, "position": "CM", "country": "BA", "status": "bench" },
+      { "playerId": "player_hr1_010_21", "name": "Stipe Jurić", "number": 9, "position": "ST", "country": "BA", "status": "bench" },
+
+      { "playerId": "player_hr1_010_22", "name": "Teo Novak", "number": 31, "position": "GK", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_010_23", "name": "Luka Posinković", "number": 30, "position": "CB", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_010_24", "name": "Valentin Akrap", "number": 18, "position": "RW", "country": "HR", "status": "reserve" },
+      { "playerId": "player_hr1_010_25", "name": "Paizinho", "number": 11, "position": "LW", "country": "AO", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 14,
+      "setPieces": {
+        "penalty": 17,
+        "freeKick": 10,
+        "cornerLeft": 22,
+        "cornerRight": 38
+      }
+    }
   }
-}
