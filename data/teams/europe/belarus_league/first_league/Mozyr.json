@@ -1,12 +1,58 @@
 {
-  "teamKey": "Moyzr",
+    "teamKey": "Moyzr",
 
-  "name": "Slavia Mozyr",
+    "name": "Slavia Mozyr",
 
-  "logo": "assets/logos/europe/belarus/Mozyr.png",
+    "logo": "assets/logos/europe/belarus/Mozyr.png",
 
-  "stadium": {
-    "name": "Yunost",
-    "capacity": 5133
+    "manager": {
+      "name": "Ivan Bionchik",
+      "country": "BY"
+    },
+
+    "stadium": {
+      "name": "Yunost",
+      "capacity": 5133
+    },
+
+    "players": [
+      { "playerId": "player_by1_012_01", "name": "Evgeniy Abramovich", "number": 1, "position": "GK", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_012_02", "name": "Arseniy Ageev", "number": 2, "position": "RB", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_012_03", "name": "Pavel Chikida", "number": 4, "position": "CB", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_012_04", "name": "Nikita Melnikov", "number": 5, "position": "CB", "country": "RU", "status": "starter" },
+      { "playerId": "player_by1_012_05", "name": "Andrey Shemruk", "number": 3, "position": "LB", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_012_06", "name": "Aleksandr Dzhigero", "number": 6, "position": "CDM", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_012_07", "name": "Yuliy Kuznetsov", "number": 8, "position": "CM", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_012_08", "name": "Anton Lukashov", "number": 10, "position": "RW", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_012_09", "name": "Aleksey Antilevskiy", "number": 7, "position": "CAM", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_012_10", "name": "Kirill Chernook", "number": 11, "position": "LW", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_012_11", "name": "Timofey Lutsevich", "number": 9, "position": "ST", "country": "BY", "status": "starter" },
+
+      { "playerId": "player_by1_012_12", "name": "Konstantin Veretynskiy", "number": 12, "position": "GK", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_012_13", "name": "Denis Shelikhov", "number": 30, "position": "GK", "country": "UA", "status": "bench" },
+      { "playerId": "player_by1_012_14", "name": "Ilya Kalachev", "number": 14, "position": "CB", "country": "RU", "status": "bench" },
+      { "playerId": "player_by1_012_15", "name": "Ricky Ngatchou", "number": 15, "position": "CB", "country": "CM", "status": "bench" },
+      { "playerId": "player_by1_012_16", "name": "Ilya Rashchenya", "number": 16, "position": "CB", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_012_17", "name": "Denis Fedorenko", "number": 17, "position": "CB", "country": "RU", "status": "bench" },
+      { "playerId": "player_by1_012_18", "name": "Dmitry Yashin", "number": 18, "position": "CB", "country": "RU", "status": "bench" },
+      { "playerId": "player_by1_012_19", "name": "Aleksandr Batyshchev", "number": 19, "position": "CM", "country": "UA", "status": "bench" },
+      { "playerId": "player_by1_012_20", "name": "Gleb Zherdev", "number": 20, "position": "CM", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_012_21", "name": "Ilya Kukharchik", "number": 21, "position": "CM", "country": "BY", "status": "bench" },
+
+      { "playerId": "player_by1_012_22", "name": "Vitaliy Likhtin", "number": 22, "position": "CM", "country": "BY", "status": "reserve" },
+      { "playerId": "player_by1_012_23", "name": "Mikhail Sachkovskiy", "number": 23, "position": "CM", "country": "BY", "status": "reserve" },
+      { "playerId": "player_by1_012_24", "name": "Valeriy Senko", "number": 24, "position": "CM", "country": "BY", "status": "reserve" },
+      { "playerId": "player_by1_012_25", "name": "Aleksandr Solovey", "number": 25, "position": "ST", "country": "BY", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
