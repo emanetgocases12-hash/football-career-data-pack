@@ -47,10 +47,10 @@
   
     "tactics": {
       "formation": "3-4-3",
-      "captain": 10,
+      "captain": 11,
       "setPieces": {
         "penalty": 9,
-        "freeKick": 10,
+        "freeKick": 11,
         "cornerLeft": 20,
         "cornerRight": 11
       }
