@@ -1,12 +1,58 @@
 {
-  "teamKey": "Vejle",
-
-  "name": "Vejle Boldklub",
-
-  "logo": "assets/logos/europe/denmark/Vejle.png",
-
-  "stadium": {
-    "name": "Vejle Stadion",
-    "capacity": 11060
+    "teamKey": "Vejle",
+  
+    "name": "Vejle Boldklub",
+  
+    "logo": "assets/logos/europe/denmark/Vejle.png",
+  
+    "manager": {
+      "name": "Claus Nørgaard",
+      "country": "DK"
+    },
+  
+    "stadium": {
+      "name": "Vejle Stadion",
+      "capacity": 11060
+    },
+  
+    "players": [
+      {"playerId": "player_dk2_011_01", "name": "Nicolai Larsen", "number": 1, "position": "GK", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_011_02", "name": "Johan Karlsson", "number": 23, "position": "RB", "country": "SE", "status": "starter"},
+      {"playerId": "player_dk2_011_03", "name": "Lasse Nielsen", "number": 4, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_011_04", "name": "Valdemar Lund", "number": 5, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_011_05", "name": "Christian Sørensen", "number": 3, "position": "LB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_011_06", "name": "Lundrim Hetemi", "number": 34, "position": "CM", "country": "AL", "status": "starter"},
+      {"playerId": "player_dk2_011_07", "name": "Mike Vestergård", "number": 6, "position": "CM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_011_08", "name": "Abdoulaye Camara", "number": 20, "position": "RW", "country": "GN", "status": "starter"},
+      {"playerId": "player_dk2_011_09", "name": "Mikkel Duelund", "number": 10, "position": "CAM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_011_10", "name": "Gustav Marcussen", "number": 18, "position": "LW", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk2_011_11", "name": "Bismark Edjeodji", "number": 32, "position": "ST", "country": "TG", "status": "starter"},
+  
+      {"playerId": "player_dk2_011_12", "name": "Kasper Kristensen", "number": 31, "position": "GK", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_011_13", "name": "Thomas Gundelund", "number": 2, "position": "RB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_011_14", "name": "Hjalte Gitz", "number": 14, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_011_15", "name": "Gunnar Vatnhamar", "number": 15, "position": "CB", "country": "FO", "status": "bench"},
+      {"playerId": "player_dk2_011_16", "name": "Max Jensen", "number": 25, "position": "RB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_011_17", "name": "Mathias Jensen", "number": 8, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_011_18", "name": "Andrew Hjulsager", "number": 17, "position": "CAM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_011_19", "name": "Tobias Bach", "number": 16, "position": "RW", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_011_20", "name": "Lucas From", "number": 11, "position": "ST", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk2_011_21", "name": "Wahid Faghir", "number": 19, "position": "ST", "country": "DK", "status": "bench"},
+  
+      {"playerId": "player_dk2_011_22", "name": "Thorbjørn Pløger", "number": 24, "position": "GK", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk2_011_23", "name": "Nicolas Gammelgaard", "number": 30, "position": "CAM", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk2_011_24", "name": "Giorgi Tabatadze", "number": 21, "position": "RW", "country": "GE", "status": "reserve"},
+      {"playerId": "player_dk2_011_25", "name": "Sander Ravn", "number": 26, "position": "CM", "country": "DK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 32,
+        "freeKick": 10,
+        "cornerLeft": 18,
+        "cornerRight": 20
+      }
+    }
   }
-}
