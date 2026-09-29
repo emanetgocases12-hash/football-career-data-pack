@@ -1,12 +1,58 @@
 {
-  "teamKey": "Samgrl",
-
-  "name": "FC Samgurali Tskaltubo",
-
-  "logo": "assets/logos/europe/georgia/Samgurali.png",
-
-  "stadium": {
-    "name": "Tskaltubo Stadium",
-    "capacity": 12000
+    "teamKey": "Samgrl",
+  
+    "name": "FC Samgurali Tskaltubo",
+  
+    "logo": "assets/logos/europe/georgia/Samgurali.png",
+  
+    "manager": {
+      "name": "Giorgi Oniani",
+      "country": "GE"
+    },
+  
+    "stadium": {
+      "name": "Tskaltubo Stadium",
+      "capacity": 12000
+    },
+  
+    "players": [
+      {"playerId": "player_ge1_008_01", "name": "Luka Kutaladze", "number": 1, "position": "GK", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_008_02", "name": "Levan Kvaratskhelia", "number": 2, "position": "RB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_008_03", "name": "Omar Patarkatsishvili", "number": 4, "position": "CB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_008_04", "name": "A. Kabia", "number": 3, "position": "CB", "country": "SL", "status": "starter"},
+      {"playerId": "player_ge1_008_05", "name": "Lasha Shergelashvili", "number": 27, "position": "LB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_008_06", "name": "I. Janjghava", "number": 5, "position": "CDM", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_008_07", "name": "I. Bidzinashvili", "number": 8, "position": "CM", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_008_08", "name": "Tornike Gaprindashvili", "number": 9, "position": "RW", "country": "GE", "status": "starter"},
+      {"playerId": "player_ge1_008_09", "name": "L. Gilmore", "number": 10, "position": "CAM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ge1_008_10", "name": "Wellissol", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_ge1_008_11", "name": "Gean Carlos", "number": 15, "position": "ST", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_ge1_008_12", "name": "Arsen Siukaev", "number": 21, "position": "GK", "country": "RU", "status": "bench"},
+      {"playerId": "player_ge1_008_13", "name": "Levan Gegetchkori", "number": 13, "position": "RB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_008_14", "name": "M. Shatirishvili", "number": 25, "position": "CB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_008_15", "name": "Ryan", "number": 39, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_ge1_008_16", "name": "N. Manjgaladze", "number": 29, "position": "LB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_008_17", "name": "O. Aptsiauri", "number": 6, "position": "CM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_008_18", "name": "N. Khorkheli", "number": 7, "position": "CM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_008_19", "name": "Vinícius Gabriel", "number": 20, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_ge1_008_20", "name": "Zaza Iashvili", "number": 26, "position": "CM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ge1_008_21", "name": "Cláudio Cebolinha", "number": 28, "position": "ST", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_ge1_008_22", "name": "A. Kasradze", "number": 12, "position": "GK", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_008_23", "name": "I. Siradze", "number": 19, "position": "ST", "country": "GE", "status": "reserve"},
+      {"playerId": "player_ge1_008_24", "name": "Isac Martins", "number": 33, "position": "ST", "country": "BR", "status": "reserve"},
+      {"playerId": "player_ge1_008_25", "name": "T. Goletiani", "number": 14, "position": "CM", "country": "GE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 15,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 9
+      }
+    }
   }
-}
