@@ -1,12 +1,58 @@
 {
-  "teamKey": "Emmen",
-
-  "name": "FC Emmen",
-
-  "logo": "assets/logos/europe/netherlands/Emmen.png",
-
-  "stadium": {
-    "name": "De Oude Meerdijk",
-    "capacity": 8309
+    "teamKey": "Emmen",
+  
+    "name": "FC Emmen",
+  
+    "logo": "assets/logos/europe/netherlands/Emmen.png",
+  
+    "manager": {
+      "name": "Menno van Dam",
+      "country": "NL"
+    },
+  
+    "stadium": {
+      "name": "De Oude Meerdijk",
+      "capacity": 8309
+    },
+  
+    "players": [
+      {"playerId": "player_nl2_007_01", "name": "Sam Karssies", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_007_02", "name": "Luca Everink", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_007_03", "name": "Yanis Dede-Lhomme", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_007_04", "name": "Joshua Mukeh", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_007_05", "name": "Christian Østergaard", "number": 3, "position": "LB", "country": "DK", "status": "starter"},
+      {"playerId": "player_nl2_007_06", "name": "Mustafa Abdullatif", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_007_07", "name": "Torben Rhein", "number": 8, "position": "CM", "country": "DE", "status": "starter"},
+      {"playerId": "player_nl2_007_08", "name": "Luca Denk", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_007_09", "name": "Michael Breij", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_007_10", "name": "Jack Cooper Love", "number": 9, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_nl2_007_11", "name": "Freddy Quispel", "number": 17, "position": "RW", "country": "NL", "status": "starter"},
+  
+      {"playerId": "player_nl2_007_12", "name": "Dirk Baron", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_007_13", "name": "Bryan Van Hove", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_007_14", "name": "David Voute", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_007_15", "name": "Vincent Carus", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_007_16", "name": "Rodney Kongolo", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_007_17", "name": "Casper Staring", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_007_18", "name": "Alessandro Hojabrpour", "number": 20, "position": "CAM", "country": "CA", "status": "bench"},
+      {"playerId": "player_nl2_007_19", "name": "Sybrand Veldhuis", "number": 21, "position": "RM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_007_20", "name": "Adam Claridge", "number": 22, "position": "LM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_007_21", "name": "Nelson Amadin", "number": 19, "position": "LW", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_nl2_007_22", "name": "Kevin Norder", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_007_23", "name": "Safyan Toure", "number": 29, "position": "ST", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_007_24", "name": "Stan van Manen", "number": 99, "position": "ST", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_007_25", "name": "Aaron Wanki", "number": 31, "position": "GK", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
