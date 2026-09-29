@@ -1,12 +1,58 @@
 {
-  "teamKey": "Hegelm",
-
-  "name": "FC Hegelmann",
-
-  "logo": "assets/logos/europe/litvanya/Hegelmann.png",
-
-  "stadium": {
-    "name": "Raudondvario stadionas",
-    "capacity": 1500
+    "teamKey": "Hegelm",
+  
+    "name": "FC Hegelmann",
+  
+    "logo": "assets/logos/europe/litvanya/Hegelmann.png",
+  
+    "manager": {
+      "name": "Tadas Vilkevičius",
+      "country": "LT"
+    },
+  
+    "stadium": {
+      "name": "Raudondvario stadionas",
+      "capacity": 1500
+    },
+  
+    "players": [
+      {"playerId": "player_lt1_003_01", "name": "Rokas Bagdonavičius", "number": 31, "position": "GK", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_003_02", "name": "Carlos Duke", "number": 7, "position": "RB", "country": "JP", "status": "starter"},
+      {"playerId": "player_lt1_003_03", "name": "Rimvydas Sadauskas", "number": 18, "position": "CB", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_003_04", "name": "Isaac Barry", "number": 30, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_lt1_003_05", "name": "Vedad Radonja", "number": 37, "position": "LB", "country": "BA", "status": "starter"},
+      {"playerId": "player_lt1_003_06", "name": "Vilius Armanavičius", "number": 8, "position": "CM", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_003_07", "name": "Samuel Gouet", "number": 10, "position": "CM", "country": "CM", "status": "starter"},
+      {"playerId": "player_lt1_003_08", "name": "Wesley Gabriel", "number": 77, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_lt1_003_09", "name": "Matijus Remeikis", "number": 16, "position": "CAM", "country": "LT", "status": "starter"},
+      {"playerId": "player_lt1_003_10", "name": "Artem Shchedryi", "number": 45, "position": "LW", "country": "UA", "status": "starter"},
+      {"playerId": "player_lt1_003_11", "name": "Kader Njoya Abdel", "number": 11, "position": "ST", "country": "CM", "status": "starter"},
+  
+      {"playerId": "player_lt1_003_12", "name": "Lukas Paukštė", "number": 1, "position": "GK", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_003_13", "name": "Ángel Puerto", "number": 5, "position": "CB", "country": "ES", "status": "bench"},
+      {"playerId": "player_lt1_003_14", "name": "Domas Slendzoka", "number": 26, "position": "CB", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_003_15", "name": "Aronas Vaičiurgis", "number": 14, "position": "RB", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_003_16", "name": "Abdoul Harouna", "number": 6, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_lt1_003_17", "name": "Donatas Kazlauskas", "number": 9, "position": "CM", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_003_18", "name": "Dominykas Pašilys", "number": 19, "position": "CM", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_003_19", "name": "Esmilis Kaušinis", "number": 21, "position": "CM", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_003_20", "name": "Andrius Kaulinis", "number": 67, "position": "CM", "country": "LT", "status": "bench"},
+      {"playerId": "player_lt1_003_21", "name": "Darrell Tibell", "number": 22, "position": "ST", "country": "SE", "status": "bench"},
+  
+      {"playerId": "player_lt1_003_22", "name": "Lukas Kolendo", "number": 80, "position": "GK", "country": "LT", "status": "reserve"},
+      {"playerId": "player_lt1_003_23", "name": "Rokas Sinkevičius", "number": 42, "position": "CB", "country": "LT", "status": "reserve"},
+      {"playerId": "player_lt1_003_24", "name": "Lukas Jonaitis", "number": 20, "position": "ST", "country": "LT", "status": "reserve"},
+      {"playerId": "player_lt1_003_25", "name": "Domas Sinkevičius", "number": 24, "position": "ST", "country": "LT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 77,
+        "cornerRight": 45
+      }
+    }
   }
-}
