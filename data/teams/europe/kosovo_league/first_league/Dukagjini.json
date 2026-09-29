@@ -1,12 +1,58 @@
 {
-  "teamKey": "Dukagj",
-
-  "name": "KF Dukagjini",
-
-  "logo": "assets/logos/europe/kosovo/Dukagjini.png",
-
-  "stadium": {
-    "name": "18 Qershori",
-    "capacity": 3000
+    "teamKey": "Dukagj",
+  
+    "name": "KF Dukagjini",
+  
+    "logo": "assets/logos/europe/kosovo/Dukagjini.png",
+  
+    "manager": {
+      "name": "Arsim Thaqi",
+      "country": "XK"
+    },
+  
+    "stadium": {
+      "name": "18 Qershori",
+      "capacity": 3000
+    },
+  
+    "players": [
+      {"playerId": "player_xk1_004_01", "name": "Egzon Lekaj", "number": 1, "position": "GK", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_004_02", "name": "Denis Hyseni", "number": 2, "position": "RB", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_004_03", "name": "Elton Basri", "number": 5, "position": "CB", "country": "AL", "status": "starter"},
+      {"playerId": "player_xk1_004_04", "name": "Tun Bardhoku", "number": 44, "position": "CB", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_004_05", "name": "Melos Zenunaj", "number": 3, "position": "LB", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_004_06", "name": "Arvanit Rexhaj", "number": 6, "position": "CDM", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_004_07", "name": "Kushtrim Gashi", "number": 8, "position": "CM", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_004_08", "name": "Granit Elezaj", "number": 7, "position": "RW", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_004_09", "name": "Altin Mërlaku", "number": 10, "position": "CAM", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_004_10", "name": "Iljasa Zulfiji", "number": 23, "position": "LW", "country": "RS", "status": "starter"},
+      {"playerId": "player_xk1_004_11", "name": "Stevenson Jeudi", "number": 99, "position": "ST", "country": "HT", "status": "starter"},
+  
+      {"playerId": "player_xk1_004_12", "name": "Kenan Haxhihamza", "number": 16, "position": "GK", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_004_13", "name": "Egzon Sinani", "number": 14, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_004_14", "name": "Arber Bytyqi", "number": 22, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_004_15", "name": "Luan", "number": 33, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_xk1_004_16", "name": "Ardin Dallku", "number": 4, "position": "RB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_004_17", "name": "Mërgim Pefqeli", "number": 17, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_004_18", "name": "Valentin Hoti", "number": 27, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_004_19", "name": "Dienit Isufi", "number": 47, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_004_20", "name": "Engjëll Sylejmani", "number": 66, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_xk1_004_21", "name": "Meris Maliqi", "number": 98, "position": "ST", "country": "XK", "status": "bench"},
+  
+      {"playerId": "player_xk1_004_22", "name": "Arlind Selmani", "number": 30, "position": "GK", "country": "XK", "status": "reserve"},
+      {"playerId": "player_xk1_004_23", "name": "Vitor Hugo", "number": 77, "position": "CAM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_xk1_004_24", "name": "Kron Thaçi", "number": 9, "position": "ST", "country": "XK", "status": "reserve"},
+      {"playerId": "player_xk1_004_25", "name": "Erion Krasniqi", "number": 88, "position": "LW", "country": "XK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 44,
+      "setPieces": {
+        "penalty": 99,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 23
+      }
+    }
   }
-}
