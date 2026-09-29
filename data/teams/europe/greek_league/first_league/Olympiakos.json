@@ -1,12 +1,58 @@
 {
-  "teamKey": "Olymp",
-
-  "name": "Olympiacos",
-
-  "logo": "assets/logos/europe/greek/Olumpiacos.png",
-
-  "stadium": {
-    "name": "Stadio Georgios Karaiskakis",
-    "capacity": 33345
+    "teamKey": "Olymp",
+  
+    "name": "Olympiacos",
+  
+    "logo": "assets/logos/europe/greek/Olumpiacos.png",
+  
+    "manager": {
+      "name": "Imanol Alguacil",
+      "country": "ES"
+    },
+  
+    "stadium": {
+      "name": "Stadio Georgios Karaiskakis",
+      "capacity": 33345
+    },
+  
+    "players": [
+      {"playerId": "player_gr1_010_01", "name": "Alexandros Paschalakis", "number": 1, "position": "GK", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_010_02", "name": "Manolis Saliakas", "number": 20, "position": "RB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_010_03", "name": "Panagiotis Retsos", "number": 45, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_gr1_010_04", "name": "David Carmo", "number": 16, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_gr1_010_05", "name": "Francisco Ortega", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_gr1_010_06", "name": "Remo Freuler", "number": 8, "position": "CM", "country": "CH", "status": "starter"},
+      {"playerId": "player_gr1_010_07", "name": "Santiago Hezze", "number": 32, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_gr1_010_08", "name": "Gelson Martins", "number": 10, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_gr1_010_09", "name": "Chiquinho", "number": 22, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_gr1_010_10", "name": "Jota Silva", "number": 11, "position": "LW", "country": "PT", "status": "starter"},
+      {"playerId": "player_gr1_010_11", "name": "Armando González", "number": 9, "position": "ST", "country": "MX", "status": "starter"},
+  
+      {"playerId": "player_gr1_010_12", "name": "Konstantinos Tzolakis", "number": 88, "position": "GK", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_010_13", "name": "Lorenzo Pirola", "number": 5, "position": "CB", "country": "IT", "status": "bench"},
+      {"playerId": "player_gr1_010_14", "name": "Marcus Holmgren Pedersen", "number": 2, "position": "RB", "country": "NO", "status": "bench"},
+      {"playerId": "player_gr1_010_15", "name": "Bruno Onyemaechi", "number": 70, "position": "LB", "country": "NG", "status": "bench"},
+      {"playerId": "player_gr1_010_16", "name": "Nair Tiknizyan", "number": 24, "position": "LB", "country": "AM", "status": "bench"},
+      {"playerId": "player_gr1_010_17", "name": "Gustavo Puerta", "number": 6, "position": "CM", "country": "CO", "status": "bench"},
+      {"playerId": "player_gr1_010_18", "name": "Leon Bailey", "number": 7, "position": "RW", "country": "JM", "status": "bench"},
+      {"playerId": "player_gr1_010_19", "name": "Kostas Fortounis", "number": 28, "position": "CAM", "country": "GR", "status": "bench"},
+      {"playerId": "player_gr1_010_20", "name": "Roman Yaremchuk", "number": 17, "position": "ST", "country": "UA", "status": "bench"},
+      {"playerId": "player_gr1_010_21", "name": "Clayton", "number": 99, "position": "ST", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_gr1_010_22", "name": "Nikolaos Botis", "number": 30, "position": "GK", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr1_010_23", "name": "Marko Stamenić", "number": 4, "position": "CM", "country": "NZ", "status": "reserve"},
+      {"playerId": "player_gr1_010_24", "name": "Christos Mouzakitis", "number": 96, "position": "CM", "country": "GR", "status": "reserve"},
+      {"playerId": "player_gr1_010_25", "name": "Marius Mouandilmadji", "number": 29, "position": "ST", "country": "TD", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 45,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 22,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
