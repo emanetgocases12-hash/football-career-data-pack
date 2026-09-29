@@ -1,12 +1,58 @@
 {
-  "teamKey": "Velez M",
+    "teamKey": "Velez M",
 
-  "name": "FK Velez Mostar",
+    "name": "FK Velez Mostar",
 
-  "logo": "assets/logos/europe/bosna/Velez.png",
+    "logo": "assets/logos/europe/bosna/Velez.png",
 
-  "stadium": {
-    "name": "Stadion Rođeni",
-    "capacity": 6600
+    "manager": {
+      "name": "Ibro Rahimić",
+      "country": "BA"
+    },
+
+    "stadium": {
+      "name": "Stadion Rođeni",
+      "capacity": 6600
+    },
+
+    "players": [
+      { "playerId": "player_ba1_008_01", "name": "Faris Ribić", "number": 1, "position": "GK", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_008_02", "name": "Ajdin Nukić", "number": 7, "position": "RB", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_008_03", "name": "Ante Hrkać", "number": 8, "position": "CB", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_008_04", "name": "Adin Bajrić", "number": 55, "position": "CB", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_008_05", "name": "Anes Omerović", "number": 13, "position": "LB", "country": "AT", "status": "starter" },
+      { "playerId": "player_ba1_008_06", "name": "Rafidine Abdullah", "number": 6, "position": "CDM", "country": "KM", "status": "starter" },
+      { "playerId": "player_ba1_008_07", "name": "Damir Halilović", "number": 20, "position": "CM", "country": "HR", "status": "starter" },
+      { "playerId": "player_ba1_008_08", "name": "Aldin Mešić", "number": 11, "position": "RW", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_008_09", "name": "Džani Salčin", "number": 10, "position": "CAM", "country": "BA", "status": "starter" },
+      { "playerId": "player_ba1_008_10", "name": "Nino Stojanović", "number": 80, "position": "LW", "country": "HR", "status": "starter" },
+      { "playerId": "player_ba1_008_11", "name": "Armin Spahić", "number": 9, "position": "ST", "country": "BA", "status": "starter" },
+
+      { "playerId": "player_ba1_008_12", "name": "Elmin Mataradžić", "number": 22, "position": "GK", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_008_13", "name": "Said Duranović", "number": 18, "position": "CB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_008_14", "name": "Faruk Šetić", "number": 66, "position": "LB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_008_15", "name": "Benjamin Zulovic", "number": 4, "position": "CB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_008_16", "name": "Armin Imamović", "number": 5, "position": "CB", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_008_17", "name": "Ayham Shhade", "number": 17, "position": "CM", "country": "PS", "status": "bench" },
+      { "playerId": "player_ba1_008_18", "name": "Andro Babić", "number": 29, "position": "CM", "country": "HR", "status": "bench" },
+      { "playerId": "player_ba1_008_19", "name": "Kenan Đuliman", "number": 45, "position": "CM", "country": "BA", "status": "bench" },
+      { "playerId": "player_ba1_008_20", "name": "Leonid Ignatov", "number": 88, "position": "CAM", "country": "MK", "status": "bench" },
+      { "playerId": "player_ba1_008_21", "name": "Carlo Mateković", "number": 19, "position": "ST", "country": "HR", "status": "bench" },
+
+      { "playerId": "player_ba1_008_22", "name": "Emil Velić", "number": 30, "position": "GK", "country": "SI", "status": "reserve" },
+      { "playerId": "player_ba1_008_23", "name": "Mahir Bešić", "number": 83, "position": "LW", "country": "BA", "status": "reserve" },
+      { "playerId": "player_ba1_008_24", "name": "Dženan Puce", "number": 38, "position": "CAM", "country": "BA", "status": "reserve" },
+      { "playerId": "player_ba1_008_25", "name": "Alan Pajević", "number": 21, "position": "ST", "country": "BA", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 80,
+        "cornerRight": 11
+      }
+    }
   }
-}
