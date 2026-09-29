@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bray",
-
-  "name": "Bray Wanderers",
-
-  "logo": "assets/logos/europe/irish/Wanderers.png",
-
-  "stadium": {
-    "name": "Carlisle Grounds",
-    "capacity": 3200
+    "teamKey": "Bray",
+  
+    "name": "Bray Wanderers",
+  
+    "logo": "assets/logos/europe/irish/Wanderers.png",
+  
+    "manager": {
+      "name": "Paul Heffernan",
+      "country": "IE"
+    },
+  
+    "stadium": {
+      "name": "Carlisle Grounds",
+      "capacity": 3200
+    },
+  
+    "players": [
+      {"playerId": "player_ie2_009_01", "name": "Jimmy Corcoran", "number": 1, "position": "GK", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_009_02", "name": "Max Murphy", "number": 2, "position": "RB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_009_03", "name": "Kilian Cantwell", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_009_04", "name": "Dean O'Shea", "number": 5, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_009_05", "name": "Darren Craven", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_009_06", "name": "Ryan Kelly", "number": 6, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_009_07", "name": "Harry Groome", "number": 8, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_009_08", "name": "Ben Feeney", "number": 11, "position": "RW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_009_09", "name": "Darren Craven", "number": 10, "position": "CAM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_009_10", "name": "Ifunanyachi Achara", "number": 7, "position": "LW", "country": "US", "status": "starter"},
+      {"playerId": "player_ie2_009_11", "name": "Ben Feeney", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
+  
+      {"playerId": "player_ie2_009_12", "name": "Stephen McGuinness", "number": 13, "position": "GK", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_009_13", "name": "Declan Osagie", "number": 14, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_009_14", "name": "Lorcan Fitzgerald", "number": 15, "position": "LB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_009_15", "name": "Conor Knight", "number": 16, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_009_16", "name": "Peter Grogan", "number": 17, "position": "RW", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_009_17", "name": "Guillermo Almirall", "number": 18, "position": "CAM", "country": "ES", "status": "bench"},
+      {"playerId": "player_ie2_009_18", "name": "Ethan Farrar", "number": 19, "position": "ST", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_009_19", "name": "Thomas Considine", "number": 20, "position": "RB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_009_20", "name": "Sean Fitzpatrick", "number": 21, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_009_21", "name": "Aaron Barry", "number": 22, "position": "CB", "country": "IE", "status": "bench"},
+  
+      {"playerId": "player_ie2_009_22", "name": "Conor Kearns", "number": 30, "position": "GK", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_009_23", "name": "David Webster", "number": 23, "position": "CB", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_009_24", "name": "Conor Davis", "number": 24, "position": "ST", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_009_25", "name": "Mikey Quinn", "number": 25, "position": "CM", "country": "IE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
