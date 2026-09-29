@@ -1,12 +1,58 @@
 {
-  "teamKey": "Drenic",
-
-  "name": "FC Drenica",
-
-  "logo": "assets/logos/europe/kosovo/Drenica.png",
-
-  "stadium": {
-    "name": "Bajram Aliu",
-    "capacity": 4500
+    "teamKey": "Drenic",
+  
+    "name": "FC Drenica",
+  
+    "logo": "assets/logos/europe/kosovo/Drenica.png",
+  
+    "manager": {
+      "name": "Thomas Brdarić",
+      "country": "DE"
+    },
+  
+    "stadium": {
+      "name": "Bajram Aliu",
+      "capacity": 4500
+    },
+  
+    "players": [
+      {"playerId": "player_xk1_002_01", "name": "Arian Bujupi", "number": 1, "position": "GK", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_002_02", "name": "Adrian Durmishaj", "number": 2, "position": "RB", "country": "DE", "status": "starter"},
+      {"playerId": "player_xk1_002_03", "name": "Harallamb Qaqi", "number": 36, "position": "CB", "country": "AL", "status": "starter"},
+      {"playerId": "player_xk1_002_04", "name": "Ermal Veliqi", "number": 25, "position": "CB", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_002_05", "name": "Olsi Musaj", "number": 3, "position": "LB", "country": "AL", "status": "starter"},
+      {"playerId": "player_xk1_002_06", "name": "Qëndrim Gashi", "number": 6, "position": "CDM", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_002_07", "name": "Gjergji Kote", "number": 8, "position": "CM", "country": "AL", "status": "starter"},
+      {"playerId": "player_xk1_002_08", "name": "Agim Zeka", "number": 7, "position": "RW", "country": "AL", "status": "starter"},
+      {"playerId": "player_xk1_002_09", "name": "Eris Shala", "number": 10, "position": "CAM", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_002_10", "name": "Ardian Vojvoda", "number": 11, "position": "LW", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_002_11", "name": "Alban Shillova", "number": 9, "position": "ST", "country": "XK", "status": "starter"},
+  
+      {"playerId": "player_xk1_002_12", "name": "Ardit Ymeri", "number": 12, "position": "GK", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_002_13", "name": "Albert Veliqi", "number": 4, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_002_14", "name": "Luan Maloku", "number": 15, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_002_15", "name": "Andi Demolli", "number": 16, "position": "LB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_002_16", "name": "Shemsi Lushtaku", "number": 5, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_002_17", "name": "Blend Dervishaj", "number": 18, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_002_18", "name": "Yll Ngucati", "number": 20, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_002_19", "name": "Joni Birinxhiku", "number": 21, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_002_20", "name": "Endrit Idrizi", "number": 17, "position": "CAM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_002_21", "name": "Dion Mehmeti", "number": 19, "position": "ST", "country": "XK", "status": "bench"},
+  
+      {"playerId": "player_xk1_002_22", "name": "Rron Demiri", "number": 30, "position": "GK", "country": "XK", "status": "reserve"},
+      {"playerId": "player_xk1_002_23", "name": "Nertil Delijaj", "number": 24, "position": "CM", "country": "XK", "status": "reserve"},
+      {"playerId": "player_xk1_002_24", "name": "Olt Mëziu", "number": 29, "position": "ST", "country": "XK", "status": "reserve"},
+      {"playerId": "player_xk1_002_25", "name": "Ermal Fazliu", "number": 27, "position": "ST", "country": "XK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 36,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
