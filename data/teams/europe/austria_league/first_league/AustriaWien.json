@@ -1,12 +1,58 @@
 {
-  "teamKey": "A Wien",
+    "teamKey": "A Wien",
 
-  "name": "Austria Vienna",
+    "name": "Austria Vienna",
 
-  "logo": "assets/logos/europe/austria/AustriaWien.png",
+    "logo": "assets/logos/europe/austria/AustriaWien.png",
 
-  "stadium": {
-    "name": "Generali Arena",
-    "capacity": 15600
+    "manager": {
+      "name": "Stephan Helm",
+      "country": "AT"
+    },
+
+    "stadium": {
+      "name": "Generali Arena",
+      "capacity": 15600
+    },
+
+    "players": [
+      { "playerId": "player_at1_002_01", "name": "Samuel Sahin-Radlinger", "number": 1, "position": "GK", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_002_02", "name": "Reinhold Ranftl", "number": 26, "position": "RB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_002_03", "name": "Aleksandar Dragovic", "number": 15, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_002_04", "name": "Philipp Wiesinger", "number": 28, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_002_05", "name": "Taeseok Lee", "number": 17, "position": "LB", "country": "KR", "status": "starter" },
+      { "playerId": "player_at1_002_06", "name": "Valentino Müller", "number": 5, "position": "CDM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_002_07", "name": "Manfred Fischer", "number": 30, "position": "CM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_002_08", "name": "Julian Hettwer", "number": 20, "position": "RW", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_002_09", "name": "Sanel Saljic", "number": 10, "position": "CAM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_002_10", "name": "Manprit Sarkaria", "number": 11, "position": "LW", "country": "AT", "status": "starter" },
+      { "playerId": "player_at1_002_11", "name": "Noah Botic", "number": 9, "position": "ST", "country": "AT", "status": "starter" },
+
+      { "playerId": "player_at1_002_12", "name": "Lukas Wedl", "number": 13, "position": "GK", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_002_13", "name": "Ibrahim Buhari", "number": 3, "position": "CB", "country": "GH", "status": "bench" },
+      { "playerId": "player_at1_002_14", "name": "Matteo Schablas", "number": 21, "position": "LB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_002_15", "name": "Johannes Handl", "number": 46, "position": "CB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_002_16", "name": "Philipp Maybach", "number": 6, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_002_17", "name": "Kang-hee Lee", "number": 16, "position": "CM", "country": "KR", "status": "bench" },
+      { "playerId": "player_at1_002_18", "name": "Florian Wustinger", "number": 22, "position": "CDM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at1_002_19", "name": "Kelvin Boateng", "number": 14, "position": "ST", "country": "GH", "status": "bench" },
+      { "playerId": "player_at1_002_20", "name": "Johannes Eggestein", "number": 19, "position": "ST", "country": "DE", "status": "bench" },
+      { "playerId": "player_at1_002_21", "name": "Abdoulaye Kante", "number": 47, "position": "RW", "country": "CI", "status": "bench" },
+
+      { "playerId": "player_at1_002_22", "name": "Mirko Kos", "number": 99, "position": "GK", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at1_002_23", "name": "Vasilije Markovic", "number": 2, "position": "CM", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at1_002_24", "name": "Romeo Mörth", "number": 36, "position": "CAM", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at1_002_25", "name": "Hasan Deshishku", "number": 74, "position": "ST", "country": "AT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 15,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 20,
+        "cornerRight": 11
+      }
+    }
   }
-}
