@@ -1,12 +1,58 @@
 {
-  "teamKey": "Nrdsjæ",
-
-  "name": "FC Nordsjaelland",
-
-  "logo": "assets/logos/europe/denmark/Nordshaelland.png",
-
-  "stadium": {
-    "name": "Right to Dream Park",
-    "capacity": 10300
+    "teamKey": "Nrdsjæ",
+  
+    "name": "FC Nordsjaelland",
+  
+    "logo": "assets/logos/europe/denmark/Nordshaelland.png",
+  
+    "manager": {
+      "name": "Jens Fønsskov Olsen",
+      "country": "DK"
+    },
+  
+    "stadium": {
+      "name": "Right to Dream Park",
+      "capacity": 10300
+    },
+  
+    "players": [
+      {"playerId": "player_dk1_007_01", "name": "Andreas Hansen", "number": 13, "position": "GK", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_007_02", "name": "Peter Ankersen", "number": 2, "position": "RB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_007_03", "name": "Tobias Salquist", "number": 3, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_007_04", "name": "Victor Nelsson", "number": 5, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_007_05", "name": "Juho Lähteenmäki", "number": 25, "position": "LB", "country": "FI", "status": "starter"},
+      {"playerId": "player_dk1_007_06", "name": "Mark Brink", "number": 6, "position": "CM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_007_07", "name": "Justin Janssen", "number": 18, "position": "CDM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_007_08", "name": "Nicklas Røjkjær", "number": 8, "position": "CM", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_007_09", "name": "Prince Amoako", "number": 10, "position": "RW", "country": "GH", "status": "starter"},
+      {"playerId": "player_dk1_007_10", "name": "Alexander Lind", "number": 11, "position": "ST", "country": "DK", "status": "starter"},
+      {"playerId": "player_dk1_007_11", "name": "Ibrahim Adel", "number": 14, "position": "LW", "country": "EG", "status": "starter"},
+  
+      {"playerId": "player_dk1_007_12", "name": "Jakob Busk", "number": 16, "position": "GK", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_007_13", "name": "Noah Markmann", "number": 4, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_007_14", "name": "Stephen Acquah", "number": 15, "position": "RB", "country": "GH", "status": "bench"},
+      {"playerId": "player_dk1_007_15", "name": "Runar Norheim", "number": 23, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_dk1_007_16", "name": "Villum Berthelsen", "number": 29, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_007_17", "name": "Lamine Sadio", "number": 37, "position": "LM", "country": "SN", "status": "bench"},
+      {"playerId": "player_dk1_007_18", "name": "Araphat Mohammed", "number": 20, "position": "CM", "country": "GH", "status": "bench"},
+      {"playerId": "player_dk1_007_19", "name": "Hjalte Boe Rasmussen", "number": 40, "position": "ST", "country": "DK", "status": "bench"},
+      {"playerId": "player_dk1_007_20", "name": "Caleb Yirenkyi", "number": 41, "position": "CM", "country": "GH", "status": "bench"},
+      {"playerId": "player_dk1_007_21", "name": "Levy Nene", "number": 48, "position": "RW", "country": "GH", "status": "bench"},
+  
+      {"playerId": "player_dk1_007_22", "name": "Carljohan Eriksson", "number": 22, "position": "GK", "country": "FI", "status": "reserve"},
+      {"playerId": "player_dk1_007_23", "name": "Markus Walker", "number": 28, "position": "CB", "country": "DK", "status": "reserve"},
+      {"playerId": "player_dk1_007_24", "name": "Matej Tuka", "number": 42, "position": "CB", "country": "SE", "status": "reserve"},
+      {"playerId": "player_dk1_007_25", "name": "Souleymane Alio", "number": 33, "position": "ST", "country": "BF", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 14,
+        "cornerRight": 10
+      }
+    }
   }
-}
