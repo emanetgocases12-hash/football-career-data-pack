@@ -1,12 +1,58 @@
 {
-  "teamKey": "Stjarn",
-
-  "name": "Stjarnan Gardabaer",
-
-  "logo": "assets/logos/europe/iceland/Stjarnan.png",
-
-  "stadium": {
-    "name": "Samsung völlurinn",
-    "capacity": 1292
+    "teamKey": "Stjarn",
+  
+    "name": "Stjarnan Gardabaer",
+  
+    "logo": "assets/logos/europe/iceland/Stjarnan.png",
+  
+    "manager": {
+      "name": "Jökull Elísabetarson",
+      "country": "IS"
+    },
+  
+    "stadium": {
+      "name": "Samsung völlurinn",
+      "capacity": 1292
+    },
+  
+    "players": [
+      {"playerId": "player_is1_009_01", "name": "D. Gylfason", "number": 1, "position": "GK", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_009_02", "name": "Heiðar Ægisson", "number": 2, "position": "RB", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_009_03", "name": "G. Kjeldsen", "number": 3, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_is1_009_04", "name": "Guðmundur Kristjánsson", "number": 5, "position": "CB", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_009_05", "name": "Ari Leifsson", "number": 19, "position": "LB", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_009_06", "name": "S. Ingimarsson", "number": 6, "position": "CDM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_009_07", "name": "Jóhann Árni Gunnarsson", "number": 8, "position": "CM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_009_08", "name": "B. Ingason", "number": 11, "position": "RM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_009_09", "name": "D. Matthíasson", "number": 10, "position": "CM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_009_10", "name": "A. Hauksson", "number": 29, "position": "LM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_009_11", "name": "Emil Atlason", "number": 22, "position": "ST", "country": "IS", "status": "starter"},
+  
+      {"playerId": "player_is1_009_12", "name": "Á. Ólafsson", "number": 12, "position": "GK", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_009_13", "name": "Þ. Þórisson", "number": 4, "position": "CB", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_009_14", "name": "Damil Dankerlui", "number": 27, "position": "RB", "country": "SR", "status": "bench"},
+      {"playerId": "player_is1_009_15", "name": "S. Jónsson", "number": 24, "position": "CB", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_009_16", "name": "B. Hauksson", "number": 14, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_009_17", "name": "G. Nökkvason", "number": 18, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_009_18", "name": "I. Turay", "number": 21, "position": "CM", "country": "SL", "status": "bench"},
+      {"playerId": "player_is1_009_19", "name": "B. Warén", "number": 23, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_009_20", "name": "Ö. Eggertsson", "number": 7, "position": "ST", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_009_21", "name": "A. Conteh", "number": 20, "position": "ST", "country": "SL", "status": "bench"},
+  
+      {"playerId": "player_is1_009_22", "name": "Sveinn Sigurður Jóhannesson", "number": 95, "position": "GK", "country": "IS", "status": "reserve"},
+      {"playerId": "player_is1_009_23", "name": "H. Brink", "number": 17, "position": "ST", "country": "IS", "status": "reserve"},
+      {"playerId": "player_is1_009_24", "name": "Árni Vilhjálmsson", "number": 94, "position": "ST", "country": "IS", "status": "reserve"},
+      {"playerId": "player_is1_009_25", "name": "Andri Rúnar Bjarnason", "number": 99, "position": "ST", "country": "IS", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-1-4-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 22,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 29
+      }
+    }
   }
-}
