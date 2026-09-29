@@ -1,12 +1,58 @@
 {
-  "teamKey": "Traty",
-
-  "name": "Treaty United",
-
-  "logo": "assets/logos/europe/irish/Treaty.png",
-
-  "stadium": {
-    "name": "Markets Field",
-    "capacity": 4500
+    "teamKey": "Traty",
+  
+    "name": "Treaty United",
+  
+    "logo": "assets/logos/europe/irish/Treaty.png",
+  
+    "manager": {
+      "name": "Tommy Barrett",
+      "country": "IE"
+    },
+  
+    "stadium": {
+      "name": "Markets Field",
+      "capacity": 4500
+    },
+  
+    "players": [
+      {"playerId": "player_ie2_007_01", "name": "Jack Brady", "number": 1, "position": "GK", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_007_02", "name": "Ben O'Riordan", "number": 2, "position": "RB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_007_03", "name": "Eric Yoro", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_007_04", "name": "Mark Walsh", "number": 5, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_007_05", "name": "Evan O'Connor", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_007_06", "name": "Stephen Healy", "number": 8, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_007_07", "name": "Lee Devitt", "number": 6, "position": "CM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_007_08", "name": "Success Edogun", "number": 11, "position": "RW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_007_09", "name": "Dean George", "number": 10, "position": "CAM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_007_10", "name": "Fuhad Kareem", "number": 7, "position": "LW", "country": "IE", "status": "starter"},
+      {"playerId": "player_ie2_007_11", "name": "Ben Feeney", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
+  
+      {"playerId": "player_ie2_007_12", "name": "Kevin Fitzpatrick", "number": 13, "position": "GK", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_007_13", "name": "Rob Lynch", "number": 14, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_007_14", "name": "Alec Byrne", "number": 15, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_007_15", "name": "Conor Barry", "number": 16, "position": "RW", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_007_16", "name": "Enda Curran", "number": 17, "position": "ST", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_007_17", "name": "Darren Nwankwo", "number": 18, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_007_18", "name": "Mark Byrne", "number": 19, "position": "CM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_007_19", "name": "Colin Conroy", "number": 20, "position": "CAM", "country": "IE", "status": "bench"},
+      {"playerId": "player_ie2_007_20", "name": "Leo Gaxha", "number": 21, "position": "RW", "country": "AL", "status": "bench"},
+      {"playerId": "player_ie2_007_21", "name": "Kian Leavy", "number": 22, "position": "LW", "country": "IE", "status": "bench"},
+  
+      {"playerId": "player_ie2_007_22", "name": "Conor Hayes", "number": 30, "position": "GK", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_007_23", "name": "Adam Lennon", "number": 23, "position": "CM", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_007_24", "name": "Shane Elworthy", "number": 24, "position": "RB", "country": "IE", "status": "reserve"},
+      {"playerId": "player_ie2_007_25", "name": "Dean O'Shea", "number": 25, "position": "CB", "country": "IE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
