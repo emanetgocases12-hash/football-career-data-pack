@@ -1,12 +1,58 @@
 {
-  "teamKey": "B Plov",
+    "teamKey": "B Plov",
 
-  "name": "Botev Plovdiv",
+    "name": "Botev Plovdiv",
 
-  "logo": "assets/logos/europe/bulgaria/BotevPlovdiv.png",
+    "logo": "assets/logos/europe/bulgaria/BotevPlovdiv.png",
 
-  "stadium": {
-    "name": "Hristo Botev",
-    "capacity": 18777
+    "manager": {
+      "name": "Stanislav Genchev",
+      "country": "BG"
+    },
+
+    "stadium": {
+      "name": "Hristo Botev",
+      "capacity": 18777
+    },
+
+    "players": [
+      { "playerId": "player_bg1_002_01", "name": "Daniel Naumov", "number": 29, "position": "GK", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_002_02", "name": "B. Hein", "number": 27, "position": "RB", "country": "DE", "status": "starter" },
+      { "playerId": "player_bg1_002_03", "name": "Nikola Soldo", "number": 4, "position": "CB", "country": "HR", "status": "starter" },
+      { "playerId": "player_bg1_002_04", "name": "T. Awany", "number": 20, "position": "CB", "country": "UG", "status": "starter" },
+      { "playerId": "player_bg1_002_05", "name": "Vladimir Mendes", "number": 82, "position": "LB", "country": "PT", "status": "starter" },
+      { "playerId": "player_bg1_002_06", "name": "Carlos Algarra", "number": 14, "position": "CDM", "country": "ES", "status": "starter" },
+      { "playerId": "player_bg1_002_07", "name": "Todor Nedelev", "number": 8, "position": "CM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_002_08", "name": "Stanislav Shopov", "number": 11, "position": "RW", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_002_09", "name": "Asen Chandarov", "number": 10, "position": "CAM", "country": "BG", "status": "starter" },
+      { "playerId": "player_bg1_002_10", "name": "Samuel Kalu", "number": 90, "position": "LW", "country": "NG", "status": "starter" },
+      { "playerId": "player_bg1_002_11", "name": "C. Okoh", "number": 9, "position": "ST", "country": "NG", "status": "starter" },
+
+      { "playerId": "player_bg1_002_12", "name": "H. Slavkov", "number": 1, "position": "GK", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_002_13", "name": "I. Videv", "number": 6, "position": "CB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_002_14", "name": "M. Senger", "number": 22, "position": "CB", "country": "DE", "status": "bench" },
+      { "playerId": "player_bg1_002_15", "name": "S. Petrov", "number": 87, "position": "LB", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_002_16", "name": "Georgi Milanov", "number": 17, "position": "CM", "country": "BG", "status": "bench" },
+      { "playerId": "player_bg1_002_17", "name": "Henrique Jocú", "number": 28, "position": "CM", "country": "PT", "status": "bench" },
+      { "playerId": "player_bg1_002_18", "name": "Lucas Araújo", "number": 77, "position": "CM", "country": "BR", "status": "bench" },
+      { "playerId": "player_bg1_002_19", "name": "Mauro Rodrigues", "number": 19, "position": "RW", "country": "GW", "status": "bench" },
+      { "playerId": "player_bg1_002_20", "name": "Pedro Igor", "number": 31, "position": "LW", "country": "BR", "status": "bench" },
+      { "playerId": "player_bg1_002_21", "name": "Mascote", "number": 30, "position": "ST", "country": "BR", "status": "bench" },
+
+      { "playerId": "player_bg1_002_22", "name": "N. Prandzhev", "number": 21, "position": "GK", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_002_23", "name": "E. John", "number": 2, "position": "CB", "country": "NG", "status": "reserve" },
+      { "playerId": "player_bg1_002_24", "name": "V. Vidolov", "number": 16, "position": "CM", "country": "BG", "status": "reserve" },
+      { "playerId": "player_bg1_002_25", "name": "W. Chimezie", "number": 88, "position": "ST", "country": "NG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
   }
-}
