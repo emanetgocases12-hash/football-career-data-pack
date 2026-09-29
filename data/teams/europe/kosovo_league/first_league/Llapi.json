@@ -1,12 +1,58 @@
 {
-  "teamKey": "Llapi",
-
-  "name": "KF Llapi",
-
-  "logo": "assets/logos/europe/kosovo/Llapi.png",
-
-  "stadium": {
-    "name": "Zahir Pajaziti",
-    "capacity": 6000
+    "teamKey": "Llapi",
+  
+    "name": "KF Llapi",
+  
+    "logo": "assets/logos/europe/kosovo/Llapi.png",
+  
+    "manager": {
+      "name": "Tahir Batatina",
+      "country": "XK"
+    },
+  
+    "stadium": {
+      "name": "Zahir Pajaziti",
+      "capacity": 6000
+    },
+  
+    "players": [
+      {"playerId": "player_xk1_007_01", "name": "Tom Troost", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+      {"playerId": "player_xk1_007_02", "name": "Fidan Ajvazi", "number": 2, "position": "RB", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_007_03", "name": "Ilir Blakçori", "number": 33, "position": "CB", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_007_04", "name": "Aleksandar Sörensen", "number": 5, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_xk1_007_05", "name": "Arbnor Xhaka", "number": 3, "position": "LB", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_007_06", "name": "Aleksandar Adem", "number": 6, "position": "CDM", "country": "MK", "status": "starter"},
+      {"playerId": "player_xk1_007_07", "name": "Diell Sadiku", "number": 8, "position": "CM", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_007_08", "name": "Astrit Muçolli", "number": 11, "position": "RW", "country": "AL", "status": "starter"},
+      {"playerId": "player_xk1_007_09", "name": "Arbnor Ramadani", "number": 10, "position": "CAM", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_007_10", "name": "Younes Marhoum", "number": 7, "position": "LW", "country": "NL", "status": "starter"},
+      {"playerId": "player_xk1_007_11", "name": "Fisnik Ademi", "number": 9, "position": "ST", "country": "MK", "status": "starter"},
+  
+      {"playerId": "player_xk1_007_12", "name": "Marvin Grote", "number": 12, "position": "GK", "country": "DE", "status": "bench"},
+      {"playerId": "player_xk1_007_13", "name": "Ardit Aliu", "number": 4, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_007_14", "name": "Besnik Idrizi", "number": 15, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_007_15", "name": "Nikola Najdovski", "number": 14, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_xk1_007_16", "name": "Edison Kqiku", "number": 22, "position": "RB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_007_17", "name": "Arbnor Maloku", "number": 18, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_007_18", "name": "Arian Hasani", "number": 20, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_007_19", "name": "Aboubacar Yahaya", "number": 21, "position": "CM", "country": "CM", "status": "bench"},
+      {"playerId": "player_xk1_007_20", "name": "P. Škarić", "number": 17, "position": "CM", "country": "HR", "status": "bench"},
+      {"playerId": "player_xk1_007_21", "name": "K. D'Almeida", "number": 19, "position": "ST", "country": "TG", "status": "bench"},
+  
+      {"playerId": "player_xk1_007_22", "name": "Luan Muçiqi", "number": 30, "position": "GK", "country": "XK", "status": "reserve"},
+      {"playerId": "player_xk1_007_23", "name": "E. Sadriu", "number": 24, "position": "LW", "country": "XK", "status": "reserve"},
+      {"playerId": "player_xk1_007_24", "name": "Z. Nazifi", "number": 27, "position": "ST", "country": "MK", "status": "reserve"},
+      {"playerId": "player_xk1_007_25", "name": "B. Zyberi", "number": 29, "position": "ST", "country": "XK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 33,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
