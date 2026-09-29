@@ -1,12 +1,58 @@
 {
-  "teamKey": "Gzira",
-
-  "name": "Gzira United FC",
-
-  "logo": "assets/logos/europe/malta/Gzira.png",
-
-  "stadium": {
-    "name": "Centenary Stadium",
-    "capacity": 3000
+    "teamKey": "Gzira",
+  
+    "name": "Gzira United FC",
+  
+    "logo": "assets/logos/europe/malta/Gzira.png",
+  
+    "manager": {
+      "name": "Darren Abdilla",
+      "country": "MT"
+    },
+  
+    "stadium": {
+      "name": "Centenary Stadium",
+      "capacity": 3000
+    },
+  
+    "players": [
+      {"playerId": "player_mt1_005_01", "name": "Edoardo Colombo", "number": 33, "position": "GK", "country": "IT", "status": "starter"},
+      {"playerId": "player_mt1_005_02", "name": "Albion Pllana", "number": 2, "position": "RB", "country": "XK", "status": "starter"},
+      {"playerId": "player_mt1_005_03", "name": "Gabriel Mentz Bohrer", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_mt1_005_04", "name": "Deacon Abela", "number": 5, "position": "CB", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_005_05", "name": "Andrew Borg", "number": 6, "position": "LB", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_005_06", "name": "Brooklyn Borg", "number": 8, "position": "CM", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_005_07", "name": "Luis Gabriel Moreira", "number": 7, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_mt1_005_08", "name": "Nicholas James Agius", "number": 11, "position": "RW", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_005_09", "name": "Jurgen Pisani", "number": 17, "position": "CAM", "country": "MT", "status": "starter"},
+      {"playerId": "player_mt1_005_10", "name": "Vinicius Mendonca", "number": 29, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_mt1_005_11", "name": "Mario Fontanella", "number": 89, "position": "ST", "country": "IT", "status": "starter"},
+  
+      {"playerId": "player_mt1_005_12", "name": "Leon Seisun", "number": 1, "position": "GK", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_005_13", "name": "Shelom Magri", "number": 4, "position": "CB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_005_14", "name": "Pah Franck Gouhon", "number": 18, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_mt1_005_15", "name": "Zven Polidano", "number": 23, "position": "RB", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_005_16", "name": "Caleb David Tapias", "number": 24, "position": "LB", "country": "CO", "status": "bench"},
+      {"playerId": "player_mt1_005_17", "name": "Gabriel Cassar", "number": 31, "position": "CM", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_005_18", "name": "Andrea Callus", "number": 39, "position": "CM", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_005_19", "name": "Kaiden Fenech", "number": 70, "position": "RW", "country": "MT", "status": "bench"},
+      {"playerId": "player_mt1_005_20", "name": "Maxuell Maia", "number": 10, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_mt1_005_21", "name": "Andre Carlos Penha", "number": 9, "position": "ST", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_mt1_005_22", "name": "Karl Sargeant", "number": 30, "position": "GK", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_005_23", "name": "Isemoli N'Sa Chrisnovic", "number": 14, "position": "CB", "country": "CI", "status": "reserve"},
+      {"playerId": "player_mt1_005_24", "name": "David Xuereb", "number": 57, "position": "CM", "country": "MT", "status": "reserve"},
+      {"playerId": "player_mt1_005_25", "name": "Stasa Bastic", "number": 19, "position": "ST", "country": "RS", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 89,
+        "freeKick": 7,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
