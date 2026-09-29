@@ -1,12 +1,58 @@
 {
-  "teamKey": "Kairat",
-
-  "name": "Kairat Almaty",
-
-  "logo": "assets/logos/europe/kazak/Kairat.png",
-
-  "stadium": {
-    "name": "Almaty Ortalyk Stadion",
-    "capacity": 23804
+    "teamKey": "Kairat",
+  
+    "name": "Kairat Almaty",
+  
+    "logo": "assets/logos/europe/kazak/Kairat.png",
+  
+    "manager": {
+      "name": "Rafael Urazbakhtin",
+      "country": "KZ"
+    },
+  
+    "stadium": {
+      "name": "Almaty Ortalyk Stadion",
+      "capacity": 23804
+    },
+  
+    "players": [
+      {"playerId": "player_kz1_006_01", "name": "Temirlan Anarbekov", "number": 1, "position": "GK", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_006_02", "name": "Yerkin Tapalov", "number": 20, "position": "RB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_006_03", "name": "Aleksandr Martynovich", "number": 14, "position": "CB", "country": "BY", "status": "starter"},
+      {"playerId": "player_kz1_006_04", "name": "Lucas Áfrico", "number": 44, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_kz1_006_05", "name": "Luís Mata", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_kz1_006_06", "name": "Adilet Sadybekov", "number": 6, "position": "CM", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_006_07", "name": "Jaakko Oksanen", "number": 13, "position": "CM", "country": "FI", "status": "starter"},
+      {"playerId": "player_kz1_006_08", "name": "Jorginho", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_kz1_006_09", "name": "Gustavo Mendonça", "number": 22, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_kz1_006_10", "name": "Oiva Jukkola", "number": 19, "position": "LW", "country": "FI", "status": "starter"},
+      {"playerId": "player_kz1_006_11", "name": "Marc Gual", "number": 28, "position": "ST", "country": "ES", "status": "starter"},
+  
+      {"playerId": "player_kz1_006_12", "name": "Sherhan Kalmurza", "number": 82, "position": "GK", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_006_13", "name": "Damir Kassabulat", "number": 4, "position": "CB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_006_14", "name": "Lev Kurgin", "number": 5, "position": "CB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_006_15", "name": "Alexandr Mrynskiy", "number": 24, "position": "RB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_006_16", "name": "Alexandr Shirobokov", "number": 25, "position": "LB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_006_17", "name": "Olzhas Baibek", "number": 8, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_006_18", "name": "Azamat Tuyakbayev", "number": 17, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_006_19", "name": "Edmilson", "number": 9, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_kz1_006_20", "name": "Ismail Bekbolat", "number": 81, "position": "ST", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_006_21", "name": "Mansur Birkurmanov", "number": 15, "position": "ST", "country": "KZ", "status": "bench"},
+  
+      {"playerId": "player_kz1_006_22", "name": "Danila Buch", "number": 30, "position": "GK", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_006_23", "name": "Adlan Nurgaliyev", "number": 32, "position": "CB", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_006_24", "name": "Daniyar Tashpulatov", "number": 59, "position": "CB", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_006_25", "name": "Mukhamedali Abish", "number": 27, "position": "CM", "country": "KZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 14,
+      "setPieces": {
+        "penalty": 28,
+        "freeKick": 22,
+        "cornerLeft": 7,
+        "cornerRight": 19
+      }
+    }
   }
-}
