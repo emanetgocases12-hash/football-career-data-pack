@@ -1,12 +1,58 @@
 {
-  "teamKey": "Almere",
-
-  "name": "Almere City FC",
-
-  "logo": "assets/logos/europe/netherlands/Almere.png",
-
-  "stadium": {
-    "name": "Yanmar Stadion",
-    "capacity": 4501
+    "teamKey": "Almere",
+  
+    "name": "Almere City FC",
+  
+    "logo": "assets/logos/europe/netherlands/Almere.png",
+  
+    "manager": {
+      "name": "Anoush Dastgir",
+      "country": "AF"
+    },
+  
+    "stadium": {
+      "name": "Yanmar Stadion",
+      "capacity": 4501
+    },
+  
+    "players": [
+      {"playerId": "player_nl2_003_01", "name": "Wessel Speel", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_003_02", "name": "Martin Wasinski", "number": 2, "position": "RB", "country": "BE", "status": "starter"},
+      {"playerId": "player_nl2_003_03", "name": "Joey Jacobs", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_003_04", "name": "James Lawrence", "number": 5, "position": "CB", "country": "GB-WLS", "status": "starter"},
+      {"playerId": "player_nl2_003_05", "name": "Teun Bijleveld", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_003_06", "name": "Enzo Cornelisse", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_003_07", "name": "Milan de Haan", "number": 8, "position": "CM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_003_08", "name": "Jamie Jacobs", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_003_09", "name": "Mees Hoedemakers", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_003_10", "name": "Byron Burgering", "number": 9, "position": "ST", "country": "NL", "status": "starter"},
+      {"playerId": "player_nl2_003_11", "name": "Ferdy Druijf", "number": 17, "position": "RW", "country": "NL", "status": "starter"},
+  
+      {"playerId": "player_nl2_003_12", "name": "Tristan Kuijsten", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_003_13", "name": "Misha Engel", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_003_14", "name": "Emmanuel Van De Blaak", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_003_15", "name": "Twan Van Der Zeeuw", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_003_16", "name": "Donte Apinsa", "number": 23, "position": "CB", "country": "SR", "status": "bench"},
+      {"playerId": "player_nl2_003_17", "name": "Olivier De Nijs", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_003_18", "name": "Job Kalisvaart", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_003_19", "name": "Hamza El Dahri", "number": 20, "position": "CAM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_003_20", "name": "Jochem Ritmeester van de Kamp", "number": 21, "position": "RM", "country": "NL", "status": "bench"},
+      {"playerId": "player_nl2_003_21", "name": "Lev Lenssen", "number": 22, "position": "LM", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_nl2_003_22", "name": "Malcolm Mateyo", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_003_23", "name": "Marley Dors", "number": 19, "position": "LW", "country": "SR", "status": "reserve"},
+      {"playerId": "player_nl2_003_24", "name": "Emanuel Poku", "number": 29, "position": "ST", "country": "NL", "status": "reserve"},
+      {"playerId": "player_nl2_003_25", "name": "Bas Huisman", "number": 99, "position": "ST", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
