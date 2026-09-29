@@ -1,12 +1,58 @@
 {
-  "teamKey": "V Plzen",
+    "teamKey": "V Plzen",
 
-  "name": "FC Viktoria Plzen",
+    "name": "FC Viktoria Plzen",
 
-  "logo": "assets/logos/europe/czechia/Plzen.png",
+    "logo": "assets/logos/europe/czechia/Plzen.png",
 
-  "stadium": {
-    "name": "Doosan Aréna",
-    "capacity": 11700
+    "manager": {
+      "name": "Radoslav Kováč",
+      "country": "CZ"
+    },
+
+    "stadium": {
+      "name": "Doosan Aréna",
+      "capacity": 11700
+    },
+
+    "players": [
+      { "playerId": "player_cz1_009_01", "name": "Florian Wiegele", "number": 44, "position": "GK", "country": "AT", "status": "starter" },
+      { "playerId": "player_cz1_009_02", "name": "Filip Prebsl", "number": 98, "position": "RB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_009_03", "name": "Sampson Dweh", "number": 40, "position": "CB", "country": "LR", "status": "starter" },
+      { "playerId": "player_cz1_009_04", "name": "Karel Spáčil", "number": 5, "position": "CB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_009_05", "name": "Merchas Doski", "number": 14, "position": "LB", "country": "IQ", "status": "starter" },
+      { "playerId": "player_cz1_009_06", "name": "Patrik Hrošovský", "number": 17, "position": "CM", "country": "SK", "status": "starter" },
+      { "playerId": "player_cz1_009_07", "name": "Lukáš Červ", "number": 6, "position": "CM", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_009_08", "name": "Amar Memić", "number": 99, "position": "RW", "country": "BA", "status": "starter" },
+      { "playerId": "player_cz1_009_09", "name": "Alexandr Sojka", "number": 12, "position": "CAM", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz1_009_10", "name": "Cheick Souaré", "number": 19, "position": "LW", "country": "FR", "status": "starter" },
+      { "playerId": "player_cz1_009_11", "name": "Christophe Kabongo", "number": 25, "position": "ST", "country": "CZ", "status": "starter" },
+
+      { "playerId": "player_cz1_009_12", "name": "Marián Tvrdoň", "number": 13, "position": "GK", "country": "SK", "status": "bench" },
+      { "playerId": "player_cz1_009_13", "name": "Denis Vavro", "number": 3, "position": "CB", "country": "SK", "status": "bench" },
+      { "playerId": "player_cz1_009_14", "name": "Svetozar Marković", "number": 4, "position": "CB", "country": "RS", "status": "bench" },
+      { "playerId": "player_cz1_009_15", "name": "Adam Gabriel", "number": 2, "position": "RB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz1_009_16", "name": "Milan Havel", "number": 24, "position": "RB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz1_009_17", "name": "Denis Višinský", "number": 9, "position": "CAM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz1_009_18", "name": "Tomáš Ladra", "number": 18, "position": "CAM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz1_009_19", "name": "Jiří Panoš", "number": 20, "position": "CM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz1_009_20", "name": "Mohamed Touré", "number": 10, "position": "ST", "country": "GN", "status": "bench" },
+      { "playerId": "player_cz1_009_21", "name": "Prince Adu", "number": 80, "position": "ST", "country": "GH", "status": "bench" },
+
+      { "playerId": "player_cz1_009_22", "name": "Dominik Ťapaj", "number": 1, "position": "GK", "country": "SK", "status": "reserve" },
+      { "playerId": "player_cz1_009_23", "name": "Baboucarr Faal", "number": 23, "position": "ST", "country": "GM", "status": "reserve" },
+      { "playerId": "player_cz1_009_24", "name": "Salim Fago Lawal", "number": 7, "position": "ST", "country": "NG", "status": "reserve" },
+      { "playerId": "player_cz1_009_25", "name": "Štefan Pirgić", "number": 36, "position": "CM", "country": "RS", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 17,
+      "setPieces": {
+        "penalty": 25,
+        "freeKick": 99,
+        "cornerLeft": 99,
+        "cornerRight": 99
+      }
+    }
   }
-}
