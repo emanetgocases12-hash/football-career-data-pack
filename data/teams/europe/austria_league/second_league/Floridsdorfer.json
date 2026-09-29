@@ -1,12 +1,58 @@
 {
-  "teamKey": "Florid",
+    "teamKey": "Florid",
 
-  "name": "Floridsdorfer AC",
+    "name": "Floridsdorfer AC",
 
-  "logo": "assets/logos/europe/austria/Floridsdorfer.png",
+    "logo": "assets/logos/europe/austria/Floridsdorfer.png",
 
-  "stadium": {
-    "name": "FAC Platz",
-    "capacity": 3000
+    "manager": {
+      "name": "Mario Sonnleitner",
+      "country": "AT"
+    },
+
+    "stadium": {
+      "name": "FAC Platz",
+      "capacity": 3000
+    },
+
+    "players": [
+      { "playerId": "player_at2_008_01", "name": "Paul Pius Scharner", "number": 1, "position": "GK", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_008_02", "name": "Daniel Brandl", "number": 22, "position": "RB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_008_03", "name": "Mirnes Becirovic", "number": 19, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_008_04", "name": "Simon Filipovic", "number": 5, "position": "CB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_008_05", "name": "Dominik Kirnbauer", "number": 24, "position": "LB", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_008_06", "name": "Noah Bitsche", "number": 6, "position": "CDM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_008_07", "name": "Marcus Maier", "number": 18, "position": "CM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_008_08", "name": "Tobias Lerchbacher", "number": 11, "position": "RW", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_008_09", "name": "Tristan Osmani", "number": 8, "position": "CAM", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_008_10", "name": "Nico Six", "number": 7, "position": "LW", "country": "AT", "status": "starter" },
+      { "playerId": "player_at2_008_11", "name": "Tomislav Glavan", "number": 9, "position": "ST", "country": "AT", "status": "starter" },
+
+      { "playerId": "player_at2_008_12", "name": "Koloman Koppelhuber", "number": 40, "position": "GK", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_008_13", "name": "Josef Taieb", "number": 4, "position": "CB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_008_14", "name": "Thomas Geris", "number": 28, "position": "CB", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_008_15", "name": "Zion Amon", "number": 35, "position": "LB", "country": "US", "status": "bench" },
+      { "playerId": "player_at2_008_16", "name": "Lan Piskule", "number": 10, "position": "CM", "country": "SI", "status": "bench" },
+      { "playerId": "player_at2_008_17", "name": "Fabian Hafenscher", "number": 16, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_008_18", "name": "Moritz Neumann", "number": 17, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_008_19", "name": "Niklas Schneider", "number": 20, "position": "CM", "country": "AT", "status": "bench" },
+      { "playerId": "player_at2_008_20", "name": "Mario Vucenovic", "number": 12, "position": "ST", "country": "HR", "status": "bench" },
+      { "playerId": "player_at2_008_21", "name": "Amir Abdijanovic", "number": 21, "position": "ST", "country": "BA", "status": "bench" },
+
+      { "playerId": "player_at2_008_22", "name": "Jayden Akubude", "number": 41, "position": "GK", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at2_008_23", "name": "Benjamin Hrustanovic", "number": 37, "position": "CM", "country": "AT", "status": "reserve" },
+      { "playerId": "player_at2_008_24", "name": "Andrija Vasic", "number": 30, "position": "ST", "country": "RS", "status": "reserve" },
+      { "playerId": "player_at2_008_25", "name": "Joel Richards", "number": 34, "position": "ST", "country": "AT", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 19,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 11,
+        "cornerRight": 8
+      }
+    }
   }
-}
