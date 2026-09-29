@@ -1,12 +1,58 @@
 {
-  "teamKey": "Malish",
-
-  "name": "FC Malisheva",
-
-  "logo": "assets/logos/europe/kosovo/Malish.png",
-
-  "stadium": {
-    "name": "Stadiumi Liman Gegaj",
-    "capacity": 1750
+    "teamKey": "Malish",
+  
+    "name": "FC Malisheva",
+  
+    "logo": "assets/logos/europe/kosovo/Malish.png",
+  
+    "manager": {
+      "name": "Thomas Brdarić",
+      "country": "DE"
+    },
+  
+    "stadium": {
+      "name": "Stadiumi Liman Gegaj",
+      "capacity": 1750
+    },
+  
+    "players": [
+      {"playerId": "player_xk1_008_01", "name": "Ilir Avdyli", "number": 1, "position": "GK", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_008_02", "name": "Arlind Veliu", "number": 2, "position": "RB", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_008_03", "name": "Dreni Kryeziu", "number": 5, "position": "CB", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_008_04", "name": "Andreas Skovgaard", "number": 27, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_xk1_008_05", "name": "Arber Pira", "number": 20, "position": "LB", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_008_06", "name": "Besnik Ferati", "number": 6, "position": "CM", "country": "MK", "status": "starter"},
+      {"playerId": "player_xk1_008_07", "name": "Mark Bushaj", "number": 8, "position": "CM", "country": "AL", "status": "starter"},
+      {"playerId": "player_xk1_008_08", "name": "Laurent Xhylani", "number": 10, "position": "CAM", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_008_09", "name": "Valjmir Nafiu", "number": 18, "position": "RW", "country": "MK", "status": "starter"},
+      {"playerId": "player_xk1_008_10", "name": "Kreshnik Uka", "number": 7, "position": "LW", "country": "XK", "status": "starter"},
+      {"playerId": "player_xk1_008_11", "name": "Dzemal Ibishi", "number": 99, "position": "ST", "country": "MK", "status": "starter"},
+  
+      {"playerId": "player_xk1_008_12", "name": "Enes Morina", "number": 23, "position": "GK", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_008_13", "name": "Redjep Murati", "number": 33, "position": "CB", "country": "MK", "status": "bench"},
+      {"playerId": "player_xk1_008_14", "name": "Keslin Shani", "number": 55, "position": "LB", "country": "AL", "status": "bench"},
+      {"playerId": "player_xk1_008_15", "name": "Omer Bajraktari", "number": 3, "position": "RB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_008_16", "name": "Donart Vitija", "number": 30, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_008_17", "name": "Korab Luma", "number": 14, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_008_18", "name": "Robert Mathieu Ndjigi", "number": 28, "position": "CM", "country": "CM", "status": "bench"},
+      {"playerId": "player_xk1_008_19", "name": "Emir Zogaj", "number": 19, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_xk1_008_20", "name": "Vusal Isgandarli", "number": 17, "position": "RW", "country": "AZ", "status": "bench"},
+      {"playerId": "player_xk1_008_21", "name": "Krenar Dulaj", "number": 9, "position": "ST", "country": "XK", "status": "bench"},
+  
+      {"playerId": "player_xk1_008_22", "name": "Adnan Kanurić", "number": 25, "position": "GK", "country": "BA", "status": "reserve"},
+      {"playerId": "player_xk1_008_23", "name": "Ardian Sopaj", "number": 4, "position": "CM", "country": "XK", "status": "reserve"},
+      {"playerId": "player_xk1_008_24", "name": "Etnik Kryeziu", "number": 22, "position": "ST", "country": "XK", "status": "reserve"},
+      {"playerId": "player_xk1_008_25", "name": "Leart Talla", "number": 21, "position": "CM", "country": "XK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 99,
+        "freeKick": 10,
+        "cornerLeft": 18,
+        "cornerRight": 7
+      }
+    }
   }
-}
