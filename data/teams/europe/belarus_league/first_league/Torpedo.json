@@ -1,12 +1,58 @@
 {
-  "teamKey": "Zhdino",
+    "teamKey": "Zhdino",
 
-  "name": "Torpedo-BelAZ Zhodino",
+    "name": "Torpedo-BelAZ Zhodino",
 
-  "logo": "assets/logos/europe/belarus/Torpedo.png",
+    "logo": "assets/logos/europe/belarus/Torpedo.png",
 
-  "stadium": {
-    "name": "Torpedo",
-    "capacity": 6524
+    "manager": {
+      "name": "Denis Karolik",
+      "country": "BY"
+    },
+
+    "stadium": {
+      "name": "Torpedo",
+      "capacity": 6524
+    },
+
+    "players": [
+      { "playerId": "player_by1_015_01", "name": "Sergey Ignatovich", "number": 1, "position": "GK", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_015_02", "name": "Grigoriy Martyanov", "number": 20, "position": "RB", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_015_03", "name": "Yevhen Chagovets", "number": 3, "position": "CB", "country": "UA", "status": "starter" },
+      { "playerId": "player_by1_015_04", "name": "Vladislav Manaev", "number": 4, "position": "CB", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_015_05", "name": "Aleksey Zaleskiy", "number": 13, "position": "LB", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_015_06", "name": "Kirill Premudrov", "number": 6, "position": "CDM", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_015_07", "name": "Artem Bykov", "number": 7, "position": "CM", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_015_08", "name": "Aleksandr Lomovitskiy", "number": 11, "position": "RW", "country": "RU", "status": "starter" },
+      { "playerId": "player_by1_015_09", "name": "Timofey Sharkovskiy", "number": 10, "position": "CAM", "country": "BY", "status": "starter" },
+      { "playerId": "player_by1_015_10", "name": "Dmitry Yusov", "number": 28, "position": "LW", "country": "UA", "status": "starter" },
+      { "playerId": "player_by1_015_11", "name": "Gevorg Petrosyan", "number": 9, "position": "ST", "country": "AM", "status": "starter" },
+
+      { "playerId": "player_by1_015_12", "name": "Timofey Yurasov", "number": 25, "position": "GK", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_015_13", "name": "Makar Maslennikov", "number": 99, "position": "GK", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_015_14", "name": "Aleksandr Stanul", "number": 5, "position": "CB", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_015_15", "name": "Ilya Rutskiy", "number": 19, "position": "CB", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_015_16", "name": "Arseniy Ageev", "number": 66, "position": "RB", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_015_17", "name": "Maksim Mikhayrin", "number": 88, "position": "CB", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_015_18", "name": "Vladislav Melko", "number": 96, "position": "LB", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_015_19", "name": "Mohamed Bamba", "number": 2, "position": "CM", "country": "CI", "status": "bench" },
+      { "playerId": "player_by1_015_20", "name": "Maksim Budko", "number": 8, "position": "CM", "country": "BY", "status": "bench" },
+      { "playerId": "player_by1_015_21", "name": "Pedro Acacio", "number": 12, "position": "CM", "country": "BR", "status": "bench" },
+
+      { "playerId": "player_by1_015_22", "name": "Maksim Ladutko", "number": 14, "position": "CM", "country": "BY", "status": "reserve" },
+      { "playerId": "player_by1_015_23", "name": "Nikita Korzun", "number": 18, "position": "CM", "country": "BY", "status": "reserve" },
+      { "playerId": "player_by1_015_24", "name": "Raman Zheleznyi", "number": 15, "position": "ST", "country": "BY", "status": "reserve" },
+      { "playerId": "player_by1_015_25", "name": "Samson Alfred", "number": 29, "position": "ST", "country": "NG", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 11
+      }
+    }
   }
-}
