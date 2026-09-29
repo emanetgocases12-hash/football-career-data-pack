@@ -1,12 +1,58 @@
 {
-  "teamKey": "SKHS",
+    "teamKey": "SKHS",
 
-  "name": "SK Hanacka Slavia Kromeriz",
+    "name": "SK Hanacka Slavia Kromeriz",
 
-  "logo": "assets/logos/europe/czechia/Hanacka.png",
+    "logo": "assets/logos/europe/czechia/Hanacka.png",
 
-  "stadium": {
-    "name": "Stadion Jožky Silného",
-    "capacity": 1569
+    "manager": {
+      "name": "Jindřich Tichai",
+      "country": "CZ"
+    },
+
+    "stadium": {
+      "name": "Stadion Jožky Silného",
+      "capacity": 1569
+    },
+
+    "players": [
+      { "playerId": "player_cz2_003_01", "name": "Tomáš Vajner", "number": 43, "position": "GK", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_003_02", "name": "Zdeněk Toman", "number": 9, "position": "RB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_003_03", "name": "Patrik Kulíšek", "number": 37, "position": "CB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_003_04", "name": "Marek Hlinka", "number": 33, "position": "CB", "country": "SK", "status": "starter" },
+      { "playerId": "player_cz2_003_05", "name": "Oliver Štecha", "number": 22, "position": "LB", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_003_06", "name": "Dominik Kříž", "number": 80, "position": "CDM", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_003_07", "name": "Martin Kudela", "number": 6, "position": "CM", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_003_08", "name": "Jakub Dočkal", "number": 17, "position": "RW", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_003_09", "name": "David Moučka", "number": 23, "position": "CAM", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_003_10", "name": "Daniel Polák", "number": 8, "position": "LW", "country": "CZ", "status": "starter" },
+      { "playerId": "player_cz2_003_11", "name": "Tadeáš Koryčan", "number": 20, "position": "ST", "country": "CZ", "status": "starter" },
+
+      { "playerId": "player_cz2_003_12", "name": "Jakub Dostál", "number": 45, "position": "GK", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_003_13", "name": "Tomáš Čelůstka", "number": 92, "position": "LB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_003_14", "name": "David Němeček", "number": 91, "position": "LB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_003_15", "name": "Erik Otrísal", "number": 5, "position": "CB", "country": "SK", "status": "bench" },
+      { "playerId": "player_cz2_003_16", "name": "Zdeněk Říha", "number": 44, "position": "CB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_003_17", "name": "Petr Zavadil", "number": 3, "position": "CB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_003_18", "name": "Lucas Kubr", "number": 77, "position": "LB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_003_19", "name": "Radek Ovesný", "number": 16, "position": "CAM", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_003_20", "name": "Filip Žák", "number": 29, "position": "ST", "country": "CZ", "status": "bench" },
+      { "playerId": "player_cz2_003_21", "name": "Lukáš Holík", "number": 19, "position": "ST", "country": "CZ", "status": "bench" },
+
+      { "playerId": "player_cz2_003_22", "name": "Filip Mucha", "number": 27, "position": "GK", "country": "CZ", "status": "reserve" },
+      { "playerId": "player_cz2_003_23", "name": "David Polášek", "number": 99, "position": "CM", "country": "CZ", "status": "reserve" },
+      { "playerId": "player_cz2_003_24", "name": "Marek Mach", "number": 50, "position": "CM", "country": "CZ", "status": "reserve" },
+      { "playerId": "player_cz2_003_25", "name": "Daniel Hais", "number": 13, "position": "ST", "country": "CZ", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 33,
+      "setPieces": {
+        "penalty": 37,
+        "freeKick": 17,
+        "cornerLeft": 23,
+        "cornerRight": 17
+      }
+    }
   }
-}
