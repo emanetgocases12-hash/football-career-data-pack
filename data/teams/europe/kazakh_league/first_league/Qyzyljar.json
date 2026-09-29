@@ -1,12 +1,58 @@
 {
-  "teamKey": "Qyzylj",
-
-  "name": "Qyzyljar Petropavlovsk",
-
-  "logo": "assets/logos/europe/kazak/Qyzylj.png",
-
-  "stadium": {
-    "name": "Karasai",
-    "capacity": 11000
+    "teamKey": "Qyzylj",
+  
+    "name": "Qyzyljar Petropavlovsk",
+  
+    "logo": "assets/logos/europe/kazak/Qyzylj.png",
+  
+    "manager": {
+      "name": "Vitaliy Zhukovskiy",
+      "country": "BY"
+    },
+  
+    "stadium": {
+      "name": "Karasai",
+      "capacity": 11000
+    },
+  
+    "players": [
+      {"playerId": "player_kz1_011_01", "name": "Dumitru Celeadnic", "number": 1, "position": "GK", "country": "MD", "status": "starter"},
+      {"playerId": "player_kz1_011_02", "name": "Demiyat Slambekov", "number": 5, "position": "RB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_011_03", "name": "Plamen Galabov", "number": 25, "position": "CB", "country": "BG", "status": "starter"},
+      {"playerId": "player_kz1_011_04", "name": "Aleksandr Sokolenko", "number": 71, "position": "CB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_011_05", "name": "Olzhas Kerimzhanov", "number": 26, "position": "LB", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_011_06", "name": "Oleksandr Noyok", "number": 8, "position": "CM", "country": "UA", "status": "starter"},
+      {"playerId": "player_kz1_011_07", "name": "Yevhen Makarenko", "number": 6, "position": "CM", "country": "UA", "status": "starter"},
+      {"playerId": "player_kz1_011_08", "name": "Jóannes Bjartalíð", "number": 10, "position": "RW", "country": "FO", "status": "starter"},
+      {"playerId": "player_kz1_011_09", "name": "Yuri Pertsukh", "number": 88, "position": "CAM", "country": "KZ", "status": "starter"},
+      {"playerId": "player_kz1_011_10", "name": "Liridon Latifi", "number": 11, "position": "LW", "country": "AL", "status": "starter"},
+      {"playerId": "player_kz1_011_11", "name": "Stéphane Bahoken", "number": 13, "position": "ST", "country": "CM", "status": "starter"},
+  
+      {"playerId": "player_kz1_011_12", "name": "Vadim Petrov", "number": 32, "position": "GK", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_011_13", "name": "A. Kozlenko", "number": 22, "position": "CB", "country": "UA", "status": "bench"},
+      {"playerId": "player_kz1_011_14", "name": "Nikita Gubarev", "number": 27, "position": "RB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_011_15", "name": "Timur Kurbanov", "number": 21, "position": "LB", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_011_16", "name": "Nedelko Pišćević", "number": 23, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_kz1_011_17", "name": "Damjan Krajišnik", "number": 19, "position": "CM", "country": "BA", "status": "bench"},
+      {"playerId": "player_kz1_011_18", "name": "Aibol Abiken", "number": 18, "position": "CM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_kz1_011_19", "name": "H. Gomis", "number": 47, "position": "RW", "country": "SN", "status": "bench"},
+      {"playerId": "player_kz1_011_20", "name": "E. Beugré", "number": 99, "position": "ST", "country": "CI", "status": "bench"},
+      {"playerId": "player_kz1_011_21", "name": "Timur Muldinov", "number": 7, "position": "ST", "country": "KZ", "status": "bench"},
+  
+      {"playerId": "player_kz1_011_22", "name": "Sanzhar Erniyazov", "number": 39, "position": "GK", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_011_23", "name": "Gleb Valgushev", "number": 79, "position": "CM", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_011_24", "name": "Gleb Loginovsky", "number": 29, "position": "ST", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_kz1_011_25", "name": "A. Cheredinov", "number": 17, "position": "RW", "country": "KZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 13,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 88
+      }
+    }
   }
-}
