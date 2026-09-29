@@ -1,12 +1,58 @@
 {
-  "teamKey": "Thór",
-
-  "name": "Thór Akureyri",
-
-  "logo": "assets/logos/europe/iceland/Thor.png",
-
-  "stadium": {
-    "name": "Vís Völlurinn",
-    "capacity": 2984
+    "teamKey": "Thór",
+  
+    "name": "Thór Akureyri",
+  
+    "logo": "assets/logos/europe/iceland/Thor.png",
+  
+    "manager": {
+      "name": "Sigurður Heiðar Höskuldsson",
+      "country": "IS"
+    },
+  
+    "stadium": {
+      "name": "Vís Völlurinn",
+      "capacity": 2984
+    },
+  
+    "players": [
+      {"playerId": "player_is1_010_01", "name": "A. Stefánsson", "number": 1, "position": "GK", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_010_02", "name": "A. Arnarsson", "number": 2, "position": "RB", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_010_03", "name": "B. Hlynsson", "number": 3, "position": "CB", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_010_04", "name": "Y. Affi", "number": 5, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_is1_010_05", "name": "G. Guðbrandsson", "number": 6, "position": "LB", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_010_06", "name": "H. Rúnarsson", "number": 4, "position": "CDM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_010_07", "name": "Atli Sigurjónsson", "number": 7, "position": "CM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_010_08", "name": "I. Atanga", "number": 11, "position": "RW", "country": "GH", "status": "starter"},
+      {"playerId": "player_is1_010_09", "name": "A. Magnússon", "number": 10, "position": "CAM", "country": "IS", "status": "starter"},
+      {"playerId": "player_is1_010_10", "name": "Christian Jakobsen", "number": 25, "position": "LW", "country": "DK", "status": "starter"},
+      {"playerId": "player_is1_010_11", "name": "Víctor Bertomeu", "number": 9, "position": "ST", "country": "ES", "status": "starter"},
+  
+      {"playerId": "player_is1_010_12", "name": "F. Lalić", "number": 28, "position": "GK", "country": "HR", "status": "bench"},
+      {"playerId": "player_is1_010_13", "name": "R. Ragnarsson", "number": 19, "position": "CB", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_010_14", "name": "V. Ottósson", "number": 20, "position": "CB", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_010_15", "name": "E. Baldvinsson", "number": 21, "position": "LB", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_010_16", "name": "Kevin Vázquez", "number": 23, "position": "RB", "country": "ES", "status": "bench"},
+      {"playerId": "player_is1_010_17", "name": "N. Hjörvarsson", "number": 13, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_010_18", "name": "K. Kristjánsson", "number": 15, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_010_19", "name": "B. Brynjólfsson", "number": 16, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_010_20", "name": "Ágúst Hlynsson", "number": 22, "position": "CAM", "country": "IS", "status": "bench"},
+      {"playerId": "player_is1_010_21", "name": "F. Gíslason", "number": 17, "position": "ST", "country": "IS", "status": "bench"},
+  
+      {"playerId": "player_is1_010_22", "name": "L. Thomas", "number": 31, "position": "GK", "country": "IS", "status": "reserve"},
+      {"playerId": "player_is1_010_23", "name": "S. Haugland", "number": 29, "position": "ST", "country": "NO", "status": "reserve"},
+      {"playerId": "player_is1_010_24", "name": "P. Helgason", "number": 30, "position": "ST", "country": "IS", "status": "reserve"},
+      {"playerId": "player_is1_010_25", "name": "S. Gunnarsson", "number": 37, "position": "ST", "country": "IS", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
