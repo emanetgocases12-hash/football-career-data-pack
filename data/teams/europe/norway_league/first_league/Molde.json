@@ -1,12 +1,58 @@
 {
-  "teamKey": "Molde",
-
-  "name": "Molde FK",
-
-  "logo": "assets/logos/europe/norway/Molde.png",
-
-  "stadium": {
-    "name": "Aker Stadion",
-    "capacity": 11800
+    "teamKey": "Molde",
+  
+    "name": "Molde FK",
+  
+    "logo": "assets/logos/europe/norway/Molde.png",
+  
+    "manager": {
+      "name": "Sindre Tjelmeland",
+      "country": "NO"
+    },
+  
+    "stadium": {
+      "name": "Aker Stadion",
+      "capacity": 11800
+    },
+  
+    "players": [
+      {"playerId": "player_no1_010_01", "name": "Mads Kikkenborg", "number": 1, "position": "GK", "country": "DK", "status": "starter"},
+      {"playerId": "player_no1_010_02", "name": "Sivert Sira Hansen", "number": 2, "position": "RB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_010_03", "name": "Isak Helstad Amundsen", "number": 4, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_010_04", "name": "Mathias Løvik", "number": 5, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_010_05", "name": "Halldor Stenevik", "number": 3, "position": "LB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_010_06", "name": "Eirik Hestad", "number": 6, "position": "CDM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_010_07", "name": "Niklas Ødegård", "number": 8, "position": "CM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_010_08", "name": "Emil Breivik", "number": 7, "position": "RW", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_010_09", "name": "Jacob Christensen", "number": 10, "position": "CAM", "country": "DK", "status": "starter"},
+      {"playerId": "player_no1_010_10", "name": "Jalal Abdulai", "number": 9, "position": "ST", "country": "GH", "status": "starter"},
+      {"playerId": "player_no1_010_11", "name": "Caleb Zady Sery", "number": 17, "position": "RW", "country": "CI", "status": "starter"},
+  
+      {"playerId": "player_no1_010_12", "name": "Albert Posiadała", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_no1_010_13", "name": "Eirik Haugan", "number": 14, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_010_14", "name": "Martin Linnes", "number": 15, "position": "RB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_010_15", "name": "Fredrik Dahl", "number": 16, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_010_16", "name": "Birk Risa", "number": 23, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_010_17", "name": "Vebjørn Hoff", "number": 11, "position": "LW", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_010_18", "name": "Mats Møller Dæhli", "number": 18, "position": "CM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_010_19", "name": "Kristian Eriksen", "number": 20, "position": "RM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_010_20", "name": "Sondre Granaas", "number": 21, "position": "LM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_010_21", "name": "Daniel Daga", "number": 22, "position": "CAM", "country": "NG", "status": "bench"},
+  
+      {"playerId": "player_no1_010_22", "name": "Peder Hoel Lervik", "number": 30, "position": "GK", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no1_010_23", "name": "Oskar Spiten-Nysæter", "number": 19, "position": "LW", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no1_010_24", "name": "Trent Koné-Doherty", "number": 27, "position": "ST", "country": "IE", "status": "reserve"},
+      {"playerId": "player_no1_010_25", "name": "Sander Kilen", "number": 29, "position": "ST", "country": "NO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
