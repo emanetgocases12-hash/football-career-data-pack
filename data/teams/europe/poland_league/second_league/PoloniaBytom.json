@@ -1,12 +1,58 @@
 {
-  "teamKey": "P Bytm",
-
-  "name": "Polonia Bytom",
-
-  "logo": "assets/logos/europe/poland/Bytom.png",
-
-  "stadium": {
-    "name": "Stadion Polonii Bytom",
-    "capacity": 1175
+    "teamKey": "P Bytm",
+  
+    "name": "Polonia Bytom",
+  
+    "logo": "assets/logos/europe/poland/Bytom.png",
+  
+    "manager": {
+      "name": "Łukasz Tomczyk",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Stadion Polonii Bytom",
+      "capacity": 1175
+    },
+  
+    "players": [
+      {"playerId": "player_pl2_010_01", "name": "Kamil Hajduk", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_010_02", "name": "Dawid Krzemień", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_010_03", "name": "Konrad Andrzejczak", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_010_04", "name": "Kamil Wojtyra", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_010_05", "name": "Michał Bedronka", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_010_06", "name": "Tomasz Gajda", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_010_07", "name": "Marcin Lachowski", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_010_08", "name": "Michał Zieliński", "number": 7, "position": "RW", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_010_09", "name": "Bartosz Giełażyn", "number": 10, "position": "CAM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_010_10", "name": "Adam Żak", "number": 11, "position": "ST", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_010_11", "name": "Dawid Wolny", "number": 9, "position": "LW", "country": "PL", "status": "starter"},
+  
+      {"playerId": "player_pl2_010_12", "name": "Michał Szromnik", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_010_13", "name": "Szymon Michalski", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_010_14", "name": "Patryk Stefański", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_010_15", "name": "Wojciech Hajda", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_010_16", "name": "Kacper Michalski", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_010_17", "name": "Filip Żagiel", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_010_18", "name": "Jakub Siwek", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_010_19", "name": "Kamil Bętkowski", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_010_20", "name": "Michał Płonka", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_010_21", "name": "Dominik Konieczny", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl2_010_22", "name": "Bartosz Kuchta", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_010_23", "name": "Kamil Drygas", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_010_24", "name": "Patryk Stefański Jr.", "number": 25, "position": "ST", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_010_25", "name": "Kacper Radkowski", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
