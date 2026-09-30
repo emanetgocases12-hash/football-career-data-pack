@@ -1,12 +1,58 @@
 {
-  "teamKey": "Estril",
-
-  "name": "GD Estoril Praia",
-
-  "logo": "assets/logos/europe/portugal/Estroil.png",
-
-  "stadium": {
-    "name": "Estádio António Coimbra da Mota",
-    "capacity": 5094
+    "teamKey": "Estril",
+  
+    "name": "GD Estoril Praia",
+  
+    "logo": "assets/logos/europe/portugal/Estroil.png",
+  
+    "manager": {
+      "name": "Vasco Matos",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio António Coimbra da Mota",
+      "capacity": 5094
+    },
+  
+    "players": [
+      {"playerId": "player_pt1_007_01", "name": "Joel Robles", "number": 1, "position": "GK", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt1_007_02", "name": "Pedro Amaral", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_007_03", "name": "Eliaquim Mangala", "number": 4, "position": "CB", "country": "FR", "status": "starter"},
+      {"playerId": "player_pt1_007_04", "name": "Kevin Boma", "number": 5, "position": "RB", "country": "TG", "status": "starter"},
+      {"playerId": "player_pt1_007_05", "name": "Ferro", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_007_06", "name": "Jordan William", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_007_07", "name": "Vinicius Zanocelo", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt1_007_08", "name": "Michel Costa", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_007_09", "name": "Yanis Begraoui", "number": 10, "position": "CAM", "country": "MA", "status": "starter"},
+      {"playerId": "player_pt1_007_10", "name": "Fabrício Garcia", "number": 11, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt1_007_11", "name": "Marvin Elimbi", "number": 9, "position": "ST", "country": "FR", "status": "starter"},
+  
+      {"playerId": "player_pt1_007_12", "name": "Kevin Chamorro", "number": 12, "position": "GK", "country": "CR", "status": "bench"},
+      {"playerId": "player_pt1_007_13", "name": "Wagner Pina", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_007_14", "name": "Gonçalo Costa", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_007_15", "name": "Felix Bacher", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_007_16", "name": "Jordan Holsgrove", "number": 17, "position": "CB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_pt1_007_17", "name": "Rafik Guitane", "number": 18, "position": "LW", "country": "FR", "status": "bench"},
+      {"playerId": "player_pt1_007_18", "name": "João Carvalho", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_007_19", "name": "Tiago Araújo", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_007_20", "name": "Alejandro Marqués", "number": 21, "position": "LM", "country": "ES", "status": "bench"},
+      {"playerId": "player_pt1_007_21", "name": "Hélder Costa", "number": 22, "position": "CAM", "country": "AO", "status": "bench"},
+  
+      {"playerId": "player_pt1_007_22", "name": "Pedro Mateus", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_007_23", "name": "André Lacximicant", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_007_24", "name": "Kévin Carlos", "number": 24, "position": "LW", "country": "ES", "status": "reserve"},
+      {"playerId": "player_pt1_007_25", "name": "Jandro Orellana", "number": 25, "position": "ST", "country": "ES", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
