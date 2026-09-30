@@ -1,12 +1,58 @@
 {
-  "teamKey": "Lyn 96",
-
-  "name": "Lyn 1896 FK",
-
-  "logo": "assets/logos/europe/norway/LYN.png",
-
-  "stadium": {
-    "name": "Bislett Stadion",
-    "capacity": 15400
+    "teamKey": "Lyn 96",
+  
+    "name": "Lyn 1896 FK",
+  
+    "logo": "assets/logos/europe/norway/LYN.png",
+  
+    "manager": {
+      "name": "Jan Halvor Halvorsen",
+      "country": "NO"
+    },
+  
+    "stadium": {
+      "name": "Bislett Stadion",
+      "capacity": 15400
+    },
+  
+    "players": [
+      {"playerId": "player_no2_007_01", "name": "Alexander Pedersen", "number": 1, "position": "GK", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_007_02", "name": "William Wendt", "number": 2, "position": "RB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_007_03", "name": "Herman Solberg Nilsen", "number": 4, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_007_04", "name": "Daniel Schneider", "number": 5, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_007_05", "name": "Eirik Lereng", "number": 3, "position": "LB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_007_06", "name": "Jacob Hanstad", "number": 6, "position": "CDM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_007_07", "name": "Anders Olsen", "number": 8, "position": "CM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_007_08", "name": "Marius Lundemo", "number": 7, "position": "RW", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_007_09", "name": "Alagie Sanyang", "number": 10, "position": "CAM", "country": "GM", "status": "starter"},
+      {"playerId": "player_no2_007_10", "name": "Sebastian Olderheim", "number": 9, "position": "ST", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_007_11", "name": "Isaac Monglo", "number": 17, "position": "RW", "country": "NO", "status": "starter"},
+  
+      {"playerId": "player_no2_007_12", "name": "Simen Vatne", "number": 12, "position": "GK", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_007_13", "name": "Tobias Myhre", "number": 14, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_007_14", "name": "Fredrik Sjølstad", "number": 15, "position": "RB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_007_15", "name": "Jørgen Vedal Sjøl", "number": 16, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_007_16", "name": "Andreas Rosendal Nyhagen", "number": 23, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_007_17", "name": "Aleksa Matic", "number": 11, "position": "LW", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_007_18", "name": "Henrik Loholt Kristiansen", "number": 18, "position": "CM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_007_19", "name": "Magnus Lankhof Dahlby", "number": 20, "position": "RM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_007_20", "name": "Mathias Johansen", "number": 21, "position": "LM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_007_21", "name": "Ole Kallevåg", "number": 22, "position": "CAM", "country": "NO", "status": "bench"},
+  
+      {"playerId": "player_no2_007_22", "name": "Magnus Sjøeng", "number": 30, "position": "GK", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_007_23", "name": "Ibrahim Sawaneh", "number": 19, "position": "LW", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_007_24", "name": "Andreas Hellum", "number": 27, "position": "ST", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_007_25", "name": "Julius Skaug", "number": 29, "position": "ST", "country": "NO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
