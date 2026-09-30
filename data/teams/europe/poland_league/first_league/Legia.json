@@ -1,12 +1,58 @@
 {
-  "teamKey": "Legia",
-
-  "name": "Legia Warszawa",
-
-  "logo": "assets/logos/europe/poland/Legia.png",
-
-  "stadium": {
-    "name": "Stadion Miejski im. Marszałka Józefa Piłsudskiego",
-    "capacity": 31103
+    "teamKey": "Legia",
+  
+    "name": "Legia Warszawa",
+  
+    "logo": "assets/logos/europe/poland/Legia.png",
+  
+    "manager": {
+      "name": "Marek Papszun",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Stadion Miejski im. Marszałka Józefa Piłsudskiego",
+      "capacity": 31103
+    },
+  
+    "players": [
+      {"playerId": "player_pl1_007_01", "name": "Ivan Brkić", "number": 1, "position": "GK", "country": "HR", "status": "starter"},
+      {"playerId": "player_pl1_007_02", "name": "Shinnosuke Fukuda", "number": 2, "position": "RB", "country": "JP", "status": "starter"},
+      {"playerId": "player_pl1_007_03", "name": "Rafał Augustyniak", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_007_04", "name": "Arkadiusz Reca", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_007_05", "name": "Mateusz Lauryn", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_007_06", "name": "Damian Szymański", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_007_07", "name": "Robert Deziel Jr.", "number": 8, "position": "CM", "country": "US", "status": "starter"},
+      {"playerId": "player_pl1_007_08", "name": "Henrique Arreiol", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pl1_007_09", "name": "Kacper Chodyna", "number": 10, "position": "CAM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_007_10", "name": "Jan Kuchta", "number": 11, "position": "ST", "country": "CZ", "status": "starter"},
+      {"playerId": "player_pl1_007_11", "name": "Antonio Čolak", "number": 9, "position": "LW", "country": "HR", "status": "starter"},
+  
+      {"playerId": "player_pl1_007_12", "name": "Ottó Hindrich", "number": 12, "position": "GK", "country": "RO", "status": "bench"},
+      {"playerId": "player_pl1_007_13", "name": "Rúben Vinagre", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pl1_007_14", "name": "Paweł Wszołek", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_007_15", "name": "Zoran Arsenić", "number": 16, "position": "LB", "country": "HR", "status": "bench"},
+      {"playerId": "player_pl1_007_16", "name": "Kamil Piątkowski", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_007_17", "name": "Mateusz Szczepaniak", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_007_18", "name": "Vahan Bichakhchyan", "number": 21, "position": "CM", "country": "AM", "status": "bench"},
+      {"playerId": "player_pl1_007_19", "name": "Michal Ševčík", "number": 22, "position": "RM", "country": "CZ", "status": "bench"},
+      {"playerId": "player_pl1_007_20", "name": "Wojciech Urbański", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_007_21", "name": "Bartosz Kapustka", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl1_007_22", "name": "Jan Bienduga", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_007_23", "name": "Bohdan Viunnyk", "number": 24, "position": "RW", "country": "UA", "status": "reserve"},
+      {"playerId": "player_pl1_007_24", "name": "Mileta Rajović", "number": 25, "position": "ST", "country": "DK", "status": "reserve"},
+      {"playerId": "player_pl1_007_25", "name": "Łukasz Zjawiński", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
