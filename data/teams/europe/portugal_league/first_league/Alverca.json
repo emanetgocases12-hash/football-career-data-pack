@@ -1,12 +1,58 @@
 {
-  "teamKey": "Alverc",
-
-  "name": "FC Alverca",
-
-  "logo": "assets/logos/europe/portugal/Alverca.png",
-
-  "stadium": {
-    "name": "Complexo Desportivo FC Alverca",
-    "capacity": 6932
+    "teamKey": "Alverc",
+  
+    "name": "FC Alverca",
+  
+    "logo": "assets/logos/europe/portugal/Alverca.png",
+  
+    "manager": {
+      "name": "Sérgio Ferreira",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Complexo Desportivo FC Alverca",
+      "capacity": 6932
+    },
+  
+    "players": [
+      {"playerId": "player_pt1_001_01", "name": "Matheus Mendes", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt1_001_02", "name": "Bastien Meupiyou", "number": 2, "position": "CB", "country": "FR", "status": "starter"},
+      {"playerId": "player_pt1_001_03", "name": "Julián Martínez", "number": 4, "position": "CB", "country": "HN", "status": "starter"},
+      {"playerId": "player_pt1_001_04", "name": "Steven Baseya", "number": 5, "position": "RB", "country": "FR", "status": "starter"},
+      {"playerId": "player_pt1_001_05", "name": "Sergi Gómez", "number": 3, "position": "LB", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt1_001_06", "name": "Sabit Abdulai", "number": 6, "position": "CDM", "country": "GH", "status": "starter"},
+      {"playerId": "player_pt1_001_07", "name": "Davy Gui", "number": 8, "position": "CM", "country": "CI", "status": "starter"},
+      {"playerId": "player_pt1_001_08", "name": "Nabil Touaizi", "number": 7, "position": "RW", "country": "MA", "status": "starter"},
+      {"playerId": "player_pt1_001_09", "name": "Lucca Giuntini", "number": 10, "position": "CAM", "country": "IT", "status": "starter"},
+      {"playerId": "player_pt1_001_10", "name": "Vivaldo Semedo", "number": 11, "position": "ST", "country": "GW", "status": "starter"},
+      {"playerId": "player_pt1_001_11", "name": "João Marcos", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_pt1_001_12", "name": "Mateus", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_001_13", "name": "Isaac James", "number": 14, "position": "CB", "country": "NG", "status": "bench"},
+      {"playerId": "player_pt1_001_14", "name": "Diogo Spencer", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_001_15", "name": "Toni Tamarit", "number": 16, "position": "LB", "country": "ES", "status": "bench"},
+      {"playerId": "player_pt1_001_16", "name": "Vasco Moreira", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_001_17", "name": "Matheus França", "number": 18, "position": "LW", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_001_18", "name": "Dawda Camara", "number": 19, "position": "CM", "country": "GM", "status": "bench"},
+      {"playerId": "player_pt1_001_19", "name": "Chiquinho", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_001_20", "name": "Lincoln", "number": 21, "position": "LM", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_001_21", "name": "Brenner Lucas", "number": 22, "position": "CAM", "country": "PT", "status": "bench"},
+  
+      {"playerId": "player_pt1_001_22", "name": "André Paulo", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_001_23", "name": "Yuri Araújo", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_001_24", "name": "Momo Mbaye", "number": 24, "position": "LW", "country": "SN", "status": "reserve"},
+      {"playerId": "player_pt1_001_25", "name": "João Lima", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
