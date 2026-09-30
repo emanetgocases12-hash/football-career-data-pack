@@ -1,12 +1,58 @@
 {
-  "teamKey": "Kfum",
-
-  "name": "KFUM-Kameratene Oslo",
-
-  "logo": "assets/logos/europe/norway/Kfum.png",
-
-  "stadium": {
-    "name": "KFUM Arena",
-    "capacity": 3300
+    "teamKey": "Kfum",
+  
+    "name": "KFUM-Kameratene Oslo",
+  
+    "logo": "assets/logos/europe/norway/Kfum.png",
+  
+    "manager": {
+      "name": "Thomas Holm",
+      "country": "NO"
+    },
+  
+    "stadium": {
+      "name": "KFUM Arena",
+      "capacity": 3300
+    },
+  
+    "players": [
+      {"playerId": "player_no1_007_01", "name": "Emil Ødegaard", "number": 1, "position": "GK", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_007_02", "name": "Daniel Schneider", "number": 2, "position": "RB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_007_03", "name": "Ayoub Aleesami", "number": 4, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_007_04", "name": "Momodou Njie", "number": 5, "position": "CB", "country": "GM", "status": "starter"},
+      {"playerId": "player_no1_007_05", "name": "Fredrik Berglie", "number": 3, "position": "LB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_007_06", "name": "Robin Rasch", "number": 6, "position": "CDM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_007_07", "name": "Tore André Sørås", "number": 8, "position": "CM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_007_08", "name": "Mansour Sinyan", "number": 7, "position": "RW", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_007_09", "name": "Håkon Helland Hoseth", "number": 10, "position": "CAM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_007_10", "name": "Bilal Njie", "number": 9, "position": "ST", "country": "SO", "status": "starter"},
+      {"playerId": "player_no1_007_11", "name": "Moussa Njie", "number": 17, "position": "RW", "country": "NO", "status": "starter"},
+  
+      {"playerId": "player_no1_007_12", "name": "Krzysztof Bąkowski", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_no1_007_13", "name": "Brage Skaret", "number": 14, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_007_14", "name": "Jonas Lange Hjorth", "number": 15, "position": "RB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_007_15", "name": "Eirik Saunes", "number": 16, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_007_16", "name": "Amin Nouri", "number": 23, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_007_17", "name": "Sander Sjøkvist", "number": 11, "position": "LW", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_007_18", "name": "Martin Vinjor", "number": 18, "position": "CM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_007_19", "name": "Teodor Haltvik", "number": 20, "position": "RM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_007_20", "name": "Rasmus Eggen Vinge", "number": 21, "position": "LM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_007_21", "name": "Magnus Wolff Eikrem", "number": 22, "position": "CAM", "country": "NO", "status": "bench"},
+  
+      {"playerId": "player_no1_007_22", "name": "Håvar Jenssen", "number": 30, "position": "GK", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no1_007_23", "name": "Magnus Grødem", "number": 19, "position": "LW", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no1_007_24", "name": "Bjørn Martin Kristensen", "number": 27, "position": "ST", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no1_007_25", "name": "David Hickson", "number": 29, "position": "ST", "country": "NO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
