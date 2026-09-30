@@ -1,12 +1,58 @@
 {
-  "teamKey": "Lubin",
-
-  "name": "Zaglebie Lubin",
-
-  "logo": "assets/logos/europe/poland/Zaglebie.png",
-
-  "stadium": {
-    "name": "KGHM Zagłębie Arena",
-    "capacity": 16086
+    "teamKey": "Lubin",
+  
+    "name": "Zaglebie Lubin",
+  
+    "logo": "assets/logos/europe/poland/Zaglebie.png",
+  
+    "manager": {
+      "name": "Leszek Ojrzyński",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "KGHM Zagłębie Arena",
+      "capacity": 16086
+    },
+  
+    "players": [
+      {"playerId": "player_pl1_018_01", "name": "Zlatan Alomerović", "number": 1, "position": "GK", "country": "RS", "status": "starter"},
+      {"playerId": "player_pl1_018_02", "name": "Roman Yakuba", "number": 2, "position": "RB", "country": "UA", "status": "starter"},
+      {"playerId": "player_pl1_018_03", "name": "Damian Michalski", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_018_04", "name": "Aleks Ławniczak", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_018_05", "name": "David Čolina", "number": 3, "position": "LB", "country": "HR", "status": "starter"},
+      {"playerId": "player_pl1_018_06", "name": "Damian Dąbrowski", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_018_07", "name": "Arkadiusz Woźniak", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_018_08", "name": "Jakub Sypek", "number": 7, "position": "RW", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_018_09", "name": "Sebastian Kerk", "number": 10, "position": "CAM", "country": "DE", "status": "starter"},
+      {"playerId": "player_pl1_018_10", "name": "Michalis Kosidis", "number": 11, "position": "ST", "country": "GR", "status": "starter"},
+      {"playerId": "player_pl1_018_11", "name": "László Szabó", "number": 9, "position": "LW", "country": "HU", "status": "starter"},
+  
+      {"playerId": "player_pl1_018_12", "name": "Jasmin Burić", "number": 12, "position": "GK", "country": "BA", "status": "bench"},
+      {"playerId": "player_pl1_018_13", "name": "Mateusz Grzybek", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_018_14", "name": "Josip Ćorluka", "number": 15, "position": "RB", "country": "BA", "status": "bench"},
+      {"playerId": "player_pl1_018_15", "name": "Michał Nalepa", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_018_16", "name": "Igor Orlikowski", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_018_17", "name": "Marek Mróz", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_018_18", "name": "Mateusz Dziewiatowski", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_018_19", "name": "Jakub Kolan", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_018_20", "name": "Marek Reguła", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_018_21", "name": "Patryk Kusztal", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl1_018_22", "name": "Dominik Hładun", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_018_23", "name": "Filip Szymczak", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_018_24", "name": "Marko Mlinarić", "number": 25, "position": "ST", "country": "HR", "status": "reserve"},
+      {"playerId": "player_pl1_018_25", "name": "Filip Kocaba", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
