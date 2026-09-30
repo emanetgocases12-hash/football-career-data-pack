@@ -1,12 +1,58 @@
 {
-  "teamKey": "Maritm",
-
-  "name": "CS Marítimo",
-
-  "logo": "assets/logos/europe/portugal/Maritimo.png",
-
-  "stadium": {
-    "name": "Estádio do Marítimo",
-    "capacity": 10600
+    "teamKey": "Maritm",
+  
+    "name": "CS Marítimo",
+  
+    "logo": "assets/logos/europe/portugal/Maritimo.png",
+  
+    "manager": {
+      "name": "Ivo Vieira",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio do Marítimo",
+      "capacity": 10600
+    },
+  
+    "players": [
+      {"playerId": "player_pt1_011_01", "name": "Amir Abedzadeh", "number": 1, "position": "GK", "country": "IR", "status": "starter"},
+      {"playerId": "player_pt1_011_02", "name": "Igor Julião", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_011_03", "name": "Rodrigo Borges", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_011_04", "name": "René Santos", "number": 5, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt1_011_05", "name": "Zainadine Júnior", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_011_06", "name": "Xadas", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_011_07", "name": "Francisco França", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_011_08", "name": "João Van der Gaag", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_011_09", "name": "Platiny", "number": 10, "position": "CAM", "country": "CV", "status": "starter"},
+      {"playerId": "player_pt1_011_10", "name": "Ibrahim Ayuma", "number": 11, "position": "ST", "country": "KE", "status": "starter"},
+      {"playerId": "player_pt1_011_11", "name": "Carlos Daniel", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_pt1_011_12", "name": "Gonçalo Tabuaço", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_011_13", "name": "Patrick Bauer", "number": 14, "position": "CB", "country": "DE", "status": "bench"},
+      {"playerId": "player_pt1_011_14", "name": "Euller", "number": 15, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_011_15", "name": "João Tavares", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_011_16", "name": "Diogo Mendes", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_011_17", "name": "Bruno Xadas", "number": 18, "position": "LW", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_011_18", "name": "Lucas Silva", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_011_19", "name": "Martim Tavares", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_011_20", "name": "Ibrahima Guirassy", "number": 21, "position": "LM", "country": "GN", "status": "bench"},
+      {"playerId": "player_pt1_011_21", "name": "Yanis Hamache", "number": 22, "position": "CAM", "country": "DZ", "status": "bench"},
+  
+      {"playerId": "player_pt1_011_22", "name": "Pedro Teixeira", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_011_23", "name": "Joel Tagueu", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_011_24", "name": "Preslav Borukov", "number": 24, "position": "LW", "country": "BG", "status": "reserve"},
+      {"playerId": "player_pt1_011_25", "name": "Euller Silva", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
