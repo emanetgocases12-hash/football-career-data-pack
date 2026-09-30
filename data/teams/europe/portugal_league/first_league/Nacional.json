@@ -1,12 +1,58 @@
 {
-  "teamKey": "Nacion",
-
-  "name": "CD Nacional",
-
-  "logo": "assets/logos/europe/portugal/Nacional.png",
-
-  "stadium": {
-    "name": "Estádio da Madeira",
-    "capacity": 5200
+    "teamKey": "Nacion",
+  
+    "name": "CD Nacional",
+  
+    "logo": "assets/logos/europe/portugal/Nacional.png",
+  
+    "manager": {
+      "name": "Alexandre Santos",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio da Madeira",
+      "capacity": 5200
+    },
+  
+    "players": [
+      {"playerId": "player_pt1_013_01", "name": "Lucas França", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt1_013_02", "name": "García Accotto", "number": 2, "position": "CB", "country": "UY", "status": "starter"},
+      {"playerId": "player_pt1_013_03", "name": "Ulisses", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_013_04", "name": "José Gomes", "number": 5, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_013_05", "name": "Zé Vítor", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_013_06", "name": "Luís Esteves", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_013_07", "name": "Matheus Dias", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt1_013_08", "name": "André Sousa", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_013_09", "name": "Daniel Penha", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt1_013_10", "name": "Adrián Butzke", "number": 11, "position": "ST", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt1_013_11", "name": "Witi", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_pt1_013_12", "name": "Miguel Silva", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_013_13", "name": "Gustavo García", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_013_14", "name": "José Vítor", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_013_15", "name": "Djibril Soumaré", "number": 16, "position": "LB", "country": "ML", "status": "bench"},
+      {"playerId": "player_pt1_013_16", "name": "Bruno Costa", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_013_17", "name": "Dudu", "number": 18, "position": "LW", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_013_18", "name": "Isaac", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_013_19", "name": "Paulinho Bóia", "number": 20, "position": "RM", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_013_20", "name": "Rúben Macedo", "number": 21, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_013_21", "name": "Nigel Thomas", "number": 22, "position": "CAM", "country": "CW", "status": "bench"},
+  
+      {"playerId": "player_pt1_013_22", "name": "Rui Encarnação", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_013_23", "name": "Arvin Appiah", "number": 23, "position": "RW", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_pt1_013_24", "name": "Léo Santos", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_013_25", "name": "João Aurélio", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
