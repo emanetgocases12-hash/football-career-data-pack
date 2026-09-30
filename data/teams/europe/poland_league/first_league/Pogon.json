@@ -1,12 +1,58 @@
 {
-  "teamKey": "P Szcz",
-
-  "name": "Pogoń Szczecin",
-
-  "logo": "assets/logos/europe/poland/Pogo.png",
-
-  "stadium": {
-    "name": "Stadion Miejski im. Floriana Krygiera",
-    "capacity": 21163
+    "teamKey": "P Szcz",
+  
+    "name": "Pogoń Szczecin",
+  
+    "logo": "assets/logos/europe/poland/Pogo.png",
+  
+    "manager": {
+      "name": "Thomas Thomasberg",
+      "country": "DK"
+    },
+  
+    "stadium": {
+      "name": "Stadion Miejski im. Floriana Krygiera",
+      "capacity": 21163
+    },
+  
+    "players": [
+      {"playerId": "player_pl1_010_01", "name": "Nikolaos Botis", "number": 1, "position": "GK", "country": "GR", "status": "starter"},
+      {"playerId": "player_pl1_010_02", "name": "Léo Borges", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_pl1_010_03", "name": "Alessandro Riccio", "number": 4, "position": "CB", "country": "IT", "status": "starter"},
+      {"playerId": "player_pl1_010_04", "name": "Dimitrios Keramitsis", "number": 5, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_pl1_010_05", "name": "Hussein Ali", "number": 3, "position": "LB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_pl1_010_06", "name": "Kellyn Acosta", "number": 6, "position": "CDM", "country": "US", "status": "starter"},
+      {"playerId": "player_pl1_010_07", "name": "Jakub Biegański", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_010_08", "name": "Fredrik Ulvestad", "number": 7, "position": "RW", "country": "NO", "status": "starter"},
+      {"playerId": "player_pl1_010_09", "name": "Kamil Grosicki", "number": 10, "position": "CAM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_010_10", "name": "Musa Juwara", "number": 11, "position": "ST", "country": "GM", "status": "starter"},
+      {"playerId": "player_pl1_010_11", "name": "Roland Molnár", "number": 9, "position": "LW", "country": "HU", "status": "starter"},
+  
+      {"playerId": "player_pl1_010_12", "name": "Valentin Cojocaru", "number": 12, "position": "GK", "country": "RO", "status": "bench"},
+      {"playerId": "player_pl1_010_13", "name": "Benjamin Mendy", "number": 14, "position": "CB", "country": "FR", "status": "bench"},
+      {"playerId": "player_pl1_010_14", "name": "Linus Wahlqvist", "number": 15, "position": "RB", "country": "SE", "status": "bench"},
+      {"playerId": "player_pl1_010_15", "name": "Attila Szalai", "number": 16, "position": "LB", "country": "HU", "status": "bench"},
+      {"playerId": "player_pl1_010_16", "name": "Leo Willen", "number": 18, "position": "CB", "country": "BE", "status": "bench"},
+      {"playerId": "player_pl1_010_17", "name": "José Ángel Pozo", "number": 20, "position": "LW", "country": "ES", "status": "bench"},
+      {"playerId": "player_pl1_010_18", "name": "Patryk Dziczek", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_010_19", "name": "Paul Mukairu", "number": 22, "position": "RM", "country": "NG", "status": "bench"},
+      {"playerId": "player_pl1_010_20", "name": "Moussa Ndiaye", "number": 23, "position": "LM", "country": "SN", "status": "bench"},
+      {"playerId": "player_pl1_010_21", "name": "Darko Churlinov", "number": 17, "position": "CM", "country": "MK", "status": "bench"},
+  
+      {"playerId": "player_pl1_010_22", "name": "Maciej Dąbrowski", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_010_23", "name": "Fran Čuić", "number": 24, "position": "RW", "country": "BA", "status": "reserve"},
+      {"playerId": "player_pl1_010_24", "name": "Jean-Pierre Nsame", "number": 25, "position": "ST", "country": "CM", "status": "reserve"},
+      {"playerId": "player_pl1_010_25", "name": "Karol Angielski", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
