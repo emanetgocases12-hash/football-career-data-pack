@@ -1,12 +1,58 @@
 {
-  "teamKey": "Odra",
-
-  "name": "Odra Opole",
-
-  "logo": "assets/logos/europe/poland/Odra.png",
-
-  "stadium": {
-    "name": "Itaka Arena",
-    "capacity": 11600
+    "teamKey": "Odra",
+  
+    "name": "Odra Opole",
+  
+    "logo": "assets/logos/europe/poland/Odra.png",
+  
+    "manager": {
+      "name": "Jarosław Skrobacz",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Itaka Arena",
+      "capacity": 11600
+    },
+  
+    "players": [
+      {"playerId": "player_pl2_006_01", "name": "Artur Haluch", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_006_02", "name": "Mateusz Kamiński", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_006_03", "name": "Tomas Mikinić", "number": 4, "position": "CB", "country": "SK", "status": "starter"},
+      {"playerId": "player_pl2_006_04", "name": "Jakub Antczak", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_006_05", "name": "Adrian Purzycki", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_006_06", "name": "Maksymilian Hebel", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_006_07", "name": "Rafał Niziołek", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_006_08", "name": "Borja Galán", "number": 7, "position": "RW", "country": "ES", "status": "starter"},
+      {"playerId": "player_pl2_006_09", "name": "Maciej Makuszewski", "number": 10, "position": "CAM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_006_10", "name": "Jakub Szrek", "number": 11, "position": "ST", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_006_11", "name": "Din Sula", "number": 9, "position": "LW", "country": "AL", "status": "starter"},
+  
+      {"playerId": "player_pl2_006_12", "name": "Adam Wójcik", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_006_13", "name": "Konrad Nowak", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_006_14", "name": "Mateusz Spychała", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_006_15", "name": "Kacper Tabiś", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_006_16", "name": "Piotr Żemło", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_006_17", "name": "Dawid Wolny", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_006_18", "name": "Mateusz Marzec", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_006_19", "name": "Miłosz Trojak", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_006_20", "name": "Konrad Matuszewski", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_006_21", "name": "Michał Bednarski", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl2_006_22", "name": "Maksymilian Pingot", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_006_23", "name": "Kacper Śpiewak", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_006_24", "name": "Szymon Łapiński", "number": 25, "position": "ST", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_006_25", "name": "Filip Kendzia", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
