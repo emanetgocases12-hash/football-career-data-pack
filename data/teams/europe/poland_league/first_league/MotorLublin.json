@@ -1,12 +1,58 @@
 {
-  "teamKey": "Mt Lbln",
-
-  "name": "Motor Lublin",
-
-  "logo": "assets/logos/europe/poland/Motor.png",
-
-  "stadium": {
-    "name": "Motor Lublin Arena",
-    "capacity": 15247
+    "teamKey": "Mt Lbln",
+  
+    "name": "Motor Lublin",
+  
+    "logo": "assets/logos/europe/poland/Motor.png",
+  
+    "manager": {
+      "name": "Mariusz Misiura",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Motor Lublin Arena",
+      "capacity": 15247
+    },
+  
+    "players": [
+      {"playerId": "player_pl1_008_01", "name": "Gašper Tratnik", "number": 1, "position": "GK", "country": "SI", "status": "starter"},
+      {"playerId": "player_pl1_008_02", "name": "Philipp Meyer", "number": 2, "position": "RB", "country": "DE", "status": "starter"},
+      {"playerId": "player_pl1_008_03", "name": "Tin Plavotić", "number": 4, "position": "CB", "country": "HR", "status": "starter"},
+      {"playerId": "player_pl1_008_04", "name": "Artem Akatov", "number": 5, "position": "CB", "country": "BY", "status": "starter"},
+      {"playerId": "player_pl1_008_05", "name": "Bartosz Bereszyński", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_008_06", "name": "Mateusz Łęgowski", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_008_07", "name": "Ivo Rodrigues", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pl1_008_08", "name": "Christopher Simon", "number": 7, "position": "RW", "country": "SN", "status": "starter"},
+      {"playerId": "player_pl1_008_09", "name": "Fábio Ronaldo", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pl1_008_10", "name": "Rony Lopes", "number": 11, "position": "ST", "country": "PT", "status": "starter"},
+      {"playerId": "player_pl1_008_11", "name": "Karol Czubak", "number": 9, "position": "LW", "country": "PL", "status": "starter"},
+  
+      {"playerId": "player_pl1_008_12", "name": "Mihai Popa", "number": 12, "position": "GK", "country": "RO", "status": "bench"},
+      {"playerId": "player_pl1_008_13", "name": "Filip Luberecki", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_008_14", "name": "Tobias Salquist", "number": 15, "position": "RB", "country": "DK", "status": "bench"},
+      {"playerId": "player_pl1_008_15", "name": "Martin Bartoš", "number": 16, "position": "LB", "country": "SK", "status": "bench"},
+      {"playerId": "player_pl1_008_16", "name": "Hervé Matthys", "number": 18, "position": "CB", "country": "BE", "status": "bench"},
+      {"playerId": "player_pl1_008_17", "name": "Krzysztof Łukoszek", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_008_18", "name": "Kacper Szymanek", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_008_19", "name": "Filip Haxha", "number": 22, "position": "RM", "country": "XK", "status": "bench"},
+      {"playerId": "player_pl1_008_20", "name": "Youssouf Bourhane", "number": 23, "position": "LM", "country": "KM", "status": "bench"},
+      {"playerId": "player_pl1_008_21", "name": "Mamadou N'Diaye", "number": 17, "position": "CM", "country": "SN", "status": "bench"},
+  
+      {"playerId": "player_pl1_008_22", "name": "Patryk Kukulski", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_008_23", "name": "Kacper Plichta", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_008_24", "name": "Milan Aïko", "number": 25, "position": "ST", "country": "FR", "status": "reserve"},
+      {"playerId": "player_pl1_008_25", "name": "Borys Mołdach", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
