@@ -1,12 +1,58 @@
 {
-  "teamKey": "Radomi",
-
-  "name": "Radomiak Radom",
-
-  "logo": "assets/logos/europe/poland/Radomiak.png",
-
-  "stadium": {
-    "name": "Stadion im. Braci Czachorów",
-    "capacity": 14440
+    "teamKey": "Radomi",
+  
+    "name": "Radomiak Radom",
+  
+    "logo": "assets/logos/europe/poland/Radomiak.png",
+  
+    "manager": {
+      "name": "Rafał Grzyb",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Stadion im. Braci Czachorów",
+      "capacity": 14440
+    },
+  
+    "players": [
+      {"playerId": "player_pl1_011_01", "name": "Filip Majchrowicz", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_011_02", "name": "Kryspin Szcześniak", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_011_03", "name": "Jérémy Blasco", "number": 4, "position": "CB", "country": "FR", "status": "starter"},
+      {"playerId": "player_pl1_011_04", "name": "Jan Grzesik", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_011_05", "name": "Salomon Kingue", "number": 3, "position": "LB", "country": "CM", "status": "starter"},
+      {"playerId": "player_pl1_011_06", "name": "Ibrahim Camará", "number": 6, "position": "CDM", "country": "GN", "status": "starter"},
+      {"playerId": "player_pl1_011_07", "name": "Roberto Alves", "number": 8, "position": "CM", "country": "CH", "status": "starter"},
+      {"playerId": "player_pl1_011_08", "name": "Kacper Karasek", "number": 7, "position": "RW", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_011_09", "name": "Rafał Wolski", "number": 10, "position": "CAM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_011_10", "name": "Che Nunnely", "number": 11, "position": "ST", "country": "SR", "status": "starter"},
+      {"playerId": "player_pl1_011_11", "name": "Fabrice Goure", "number": 9, "position": "LW", "country": "CI", "status": "starter"},
+  
+      {"playerId": "player_pl1_011_12", "name": "Bartłomiej Gradecki", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_011_13", "name": "Mateusz Cichocki", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_011_14", "name": "Zie Ouattara", "number": 15, "position": "RB", "country": "CI", "status": "bench"},
+      {"playerId": "player_pl1_011_15", "name": "Adrián Diéguez", "number": 16, "position": "LB", "country": "ES", "status": "bench"},
+      {"playerId": "player_pl1_011_16", "name": "Conrado", "number": 18, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_pl1_011_17", "name": "Romário Baró", "number": 20, "position": "LW", "country": "PT", "status": "bench"},
+      {"playerId": "player_pl1_011_18", "name": "Christos Donis", "number": 21, "position": "CM", "country": "GR", "status": "bench"},
+      {"playerId": "player_pl1_011_19", "name": "Luquinhas", "number": 22, "position": "RM", "country": "BR", "status": "bench"},
+      {"playerId": "player_pl1_011_20", "name": "Filip Koperski", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_011_21", "name": "António Tapsoba", "number": 17, "position": "CM", "country": "BF", "status": "bench"},
+  
+      {"playerId": "player_pl1_011_22", "name": "Wiktor Koptas", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_011_23", "name": "Elves Baldé", "number": 24, "position": "RW", "country": "GW", "status": "reserve"},
+      {"playerId": "player_pl1_011_24", "name": "Anastasios Donis", "number": 25, "position": "ST", "country": "GR", "status": "reserve"},
+      {"playerId": "player_pl1_011_25", "name": "Ruan Índio", "number": 27, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
