@@ -1,12 +1,58 @@
 {
-  "teamKey": "CasaPi",
-
-  "name": "Casa Pia AC",
-
-  "logo": "assets/logos/europe/portugal/CasaPia.png",
-
-  "stadium": {
-    "name": "Estádio Municipal de Rio Maior",
-    "capacity": 7000
+    "teamKey": "CasaPi",
+  
+    "name": "Casa Pia AC",
+  
+    "logo": "assets/logos/europe/portugal/CasaPia.png",
+  
+    "manager": {
+      "name": "Filipe Coelho",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Municipal de Rio Maior",
+      "capacity": 7000
+    },
+  
+    "players": [
+      {"playerId": "player_pt1_005_01", "name": "Patrick Sequeira", "number": 1, "position": "GK", "country": "CR", "status": "starter"},
+      {"playerId": "player_pt1_005_02", "name": "João Goulart", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_005_03", "name": "Nermin Zolotić", "number": 4, "position": "CB", "country": "BA", "status": "starter"},
+      {"playerId": "player_pt1_005_04", "name": "Duplexe Tchamba", "number": 5, "position": "RB", "country": "CM", "status": "starter"},
+      {"playerId": "player_pt1_005_05", "name": "José Fonte", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_005_06", "name": "Andrian Kraev", "number": 6, "position": "CDM", "country": "BG", "status": "starter"},
+      {"playerId": "player_pt1_005_07", "name": "Rafael Brito", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_005_08", "name": "Telasco Segovia", "number": 7, "position": "RW", "country": "VE", "status": "starter"},
+      {"playerId": "player_pt1_005_09", "name": "Miguel Sousa", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_005_10", "name": "Claudio Mendes", "number": 11, "position": "ST", "country": "GW", "status": "starter"},
+      {"playerId": "player_pt1_005_11", "name": "Livolant", "number": 9, "position": "ST", "country": "FR", "status": "starter"},
+  
+      {"playerId": "player_pt1_005_12", "name": "Ivan Mandić", "number": 12, "position": "GK", "country": "HR", "status": "bench"},
+      {"playerId": "player_pt1_005_13", "name": "Gaizka Larrazabal", "number": 14, "position": "CB", "country": "ES", "status": "bench"},
+      {"playerId": "player_pt1_005_14", "name": "Léo Lelo", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_005_15", "name": "Derick Poloni", "number": 16, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_005_16", "name": "Nuno Moreira", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_005_17", "name": "Pablo Roberto", "number": 18, "position": "LW", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_005_18", "name": "Beni Mukendi", "number": 19, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_pt1_005_19", "name": "Kiki Silva", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_005_20", "name": "Jajá", "number": 21, "position": "LM", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_005_21", "name": "Cassiano", "number": 22, "position": "CAM", "country": "PT", "status": "bench"},
+  
+      {"playerId": "player_pt1_005_22", "name": "Lucas Paes", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_005_23", "name": "Samuel Obeng", "number": 23, "position": "RW", "country": "GH", "status": "reserve"},
+      {"playerId": "player_pt1_005_24", "name": "Max Svensson", "number": 24, "position": "LW", "country": "SE", "status": "reserve"},
+      {"playerId": "player_pt1_005_25", "name": "Tiago Dias", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
