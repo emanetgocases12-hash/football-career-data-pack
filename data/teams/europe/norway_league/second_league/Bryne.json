@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bryne",
-
-  "name": "Bryne FK",
-
-  "logo": "assets/logos/europe/norway/Bryne.png",
-
-  "stadium": {
-    "name": "Bryne Stadion",
-    "capacity": 5500
+    "teamKey": "Bryne",
+  
+    "name": "Bryne FK",
+  
+    "logo": "assets/logos/europe/norway/Bryne.png",
+  
+    "manager": {
+      "name": "Ørjan Heiberg",
+      "country": "NO"
+    },
+  
+    "stadium": {
+      "name": "Bryne Stadion",
+      "capacity": 5500
+    },
+  
+    "players": [
+      {"playerId": "player_no2_002_01", "name": "Magnus Rugland Ree", "number": 1, "position": "GK", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_002_02", "name": "Patrick Wik", "number": 2, "position": "RB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_002_03", "name": "Jacob Haahr", "number": 4, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_no2_002_04", "name": "Adrian Røragen Hermansen", "number": 5, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_002_05", "name": "Eirik Saunes", "number": 3, "position": "LB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_002_06", "name": "Nicklas Strunck", "number": 6, "position": "CDM", "country": "DK", "status": "starter"},
+      {"playerId": "player_no2_002_07", "name": "Lars Erik Sødal", "number": 8, "position": "CM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_002_08", "name": "Martin Åmot Lye", "number": 7, "position": "RW", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_002_09", "name": "Paya Pichkah", "number": 10, "position": "CAM", "country": "SE", "status": "starter"},
+      {"playerId": "player_no2_002_10", "name": "Sanel Bojadzic", "number": 9, "position": "ST", "country": "BA", "status": "starter"},
+      {"playerId": "player_no2_002_11", "name": "Duarte Moreira", "number": 17, "position": "RW", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_no2_002_12", "name": "Jan de Boer", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+      {"playerId": "player_no2_002_13", "name": "Jon-Helge Tveita", "number": 14, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_002_14", "name": "Dadi Gaye", "number": 15, "position": "RB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_002_15", "name": "Lasse Qvigstad", "number": 16, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_002_16", "name": "Andreas Skovgaard", "number": 23, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_002_17", "name": "Remi-André Svindland", "number": 11, "position": "LW", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_002_18", "name": "Mats Thornes", "number": 18, "position": "CM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_002_19", "name": "Jesper Gregersen", "number": 20, "position": "RM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_002_20", "name": "Rasmus Thellufsen", "number": 21, "position": "LM", "country": "DK", "status": "bench"},
+      {"playerId": "player_no2_002_21", "name": "Kristian Håland", "number": 22, "position": "CAM", "country": "NO", "status": "bench"},
+  
+      {"playerId": "player_no2_002_22", "name": "Anton Cajtoft", "number": 30, "position": "GK", "country": "SE", "status": "reserve"},
+      {"playerId": "player_no2_002_23", "name": "Alfred Scriven", "number": 19, "position": "LW", "country": "KE", "status": "reserve"},
+      {"playerId": "player_no2_002_24", "name": "Jaran Eike Østrem", "number": 27, "position": "ST", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_002_25", "name": "Sjur Jonassen", "number": 29, "position": "ST", "country": "NO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
