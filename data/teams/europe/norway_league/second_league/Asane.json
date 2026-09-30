@@ -1,12 +1,58 @@
 {
-  "teamKey": "Asane",
-
-  "name": "Åsane Fotball",
-
-  "logo": "assets/logos/europe/norway/Asana.png",
-
-  "stadium": {
-    "name": "Åsane Arena",
-    "capacity": 3507
+    "teamKey": "Asane",
+  
+    "name": "Åsane Fotball",
+  
+    "logo": "assets/logos/europe/norway/Asana.png",
+  
+    "manager": {
+      "name": "Eirik Bakke",
+      "country": "NO"
+    },
+  
+    "stadium": {
+      "name": "Åsane Arena",
+      "capacity": 3507
+    },
+  
+    "players": [
+      {"playerId": "player_no2_001_01", "name": "Sebastian Selin", "number": 1, "position": "GK", "country": "SE", "status": "starter"},
+      {"playerId": "player_no2_001_02", "name": "Hassou Diaby", "number": 2, "position": "RB", "country": "SN", "status": "starter"},
+      {"playerId": "player_no2_001_03", "name": "Kristoffer Barmen", "number": 4, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_001_04", "name": "Filip Oprea", "number": 5, "position": "CB", "country": "RO", "status": "starter"},
+      {"playerId": "player_no2_001_05", "name": "Sindre Austevoll", "number": 3, "position": "LB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_001_06", "name": "Einar Hjellestad Iversen", "number": 6, "position": "CDM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_001_07", "name": "Erik Grønner", "number": 8, "position": "CM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_001_08", "name": "Håkon Krohg", "number": 7, "position": "RW", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_001_09", "name": "Thomas Klemetsen Jakobsen", "number": 10, "position": "CAM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_001_10", "name": "Julian Lægreid", "number": 9, "position": "ST", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_001_11", "name": "Isak Reset-Kalland", "number": 17, "position": "RW", "country": "NO", "status": "starter"},
+  
+      {"playerId": "player_no2_001_12", "name": "Storm Strand-Kolbjørnsen", "number": 12, "position": "GK", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_001_13", "name": "Eirik Steen", "number": 14, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_001_14", "name": "Martin Ueland", "number": 15, "position": "RB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_001_15", "name": "Stian Nygard", "number": 16, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_001_16", "name": "Emil Kalsås", "number": 23, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_001_17", "name": "Jesper Eikrem", "number": 11, "position": "LW", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_001_18", "name": "Didrik Fredriksen", "number": 18, "position": "CM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_001_19", "name": "Sondre Auklend", "number": 20, "position": "RM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_001_20", "name": "Magnus Haga", "number": 21, "position": "LM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_001_21", "name": "Kristoffer Larsen", "number": 22, "position": "CAM", "country": "NO", "status": "bench"},
+  
+      {"playerId": "player_no2_001_22", "name": "Peder Hoel Lervik", "number": 30, "position": "GK", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_001_23", "name": "Mame Mor Ndiaye", "number": 19, "position": "LW", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_001_24", "name": "Steffen Lie Skålevik", "number": 27, "position": "ST", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_001_25", "name": "Daniel Kvande", "number": 29, "position": "ST", "country": "NO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
