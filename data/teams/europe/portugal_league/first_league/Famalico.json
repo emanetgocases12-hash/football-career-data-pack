@@ -1,12 +1,58 @@
 {
-  "teamKey": "Famali",
-
-  "name": "FC Famalicão",
-
-  "logo": "assets/logos/europe/portugal/Famalicao.png",
-
-  "stadium": {
-    "name": "Estádio Municipal de Famalicão",
-    "capacity": 5186
+    "teamKey": "Famali",
+  
+    "name": "FC Famalicão",
+  
+    "logo": "assets/logos/europe/portugal/Famalicao.png",
+  
+    "manager": {
+      "name": "Hugo Oliveira",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Municipal de Famalicão",
+      "capacity": 5186
+    },
+  
+    "players": [
+      {"playerId": "player_pt1_008_01", "name": "Ivan Zlobin", "number": 1, "position": "GK", "country": "RU", "status": "starter"},
+      {"playerId": "player_pt1_008_02", "name": "Enea Mihaj", "number": 2, "position": "CB", "country": "AL", "status": "starter"},
+      {"playerId": "player_pt1_008_03", "name": "Justin de Haas", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_pt1_008_04", "name": "Rodrigo Pinheiro", "number": 5, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_008_05", "name": "Francisco Moura", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_008_06", "name": "Gustavo Sá", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_008_07", "name": "Mirko Topić", "number": 8, "position": "CM", "country": "RS", "status": "starter"},
+      {"playerId": "player_pt1_008_08", "name": "Mathias De Amorim", "number": 7, "position": "RW", "country": "FR", "status": "starter"},
+      {"playerId": "player_pt1_008_09", "name": "Sorriso", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt1_008_10", "name": "Mario González", "number": 11, "position": "ST", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt1_008_11", "name": "Vaclav Sejk", "number": 9, "position": "ST", "country": "CZ", "status": "starter"},
+  
+      {"playerId": "player_pt1_008_12", "name": "Luiz Júnior", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_008_13", "name": "Martín Aguirregabiria", "number": 14, "position": "CB", "country": "ES", "status": "bench"},
+      {"playerId": "player_pt1_008_14", "name": "Lucas Calegari", "number": 15, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_008_15", "name": "Otávio Ataíde", "number": 16, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_008_16", "name": "Zaydou Youssouf", "number": 17, "position": "CB", "country": "KM", "status": "bench"},
+      {"playerId": "player_pt1_008_17", "name": "Óscar Aranda", "number": 18, "position": "LW", "country": "ES", "status": "bench"},
+      {"playerId": "player_pt1_008_18", "name": "Gil Dias", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_008_19", "name": "Rochinha", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_008_20", "name": "Marcos Vinicios", "number": 21, "position": "LM", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_008_21", "name": "Jhonder Cádiz", "number": 22, "position": "CAM", "country": "VE", "status": "bench"},
+  
+      {"playerId": "player_pt1_008_22", "name": "Riccieli", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_008_23", "name": "Aranda", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_008_24", "name": "Nathan", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_008_25", "name": "Puma Rodríguez", "number": 25, "position": "ST", "country": "PA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
