@@ -1,12 +1,58 @@
 {
-  "teamKey": "P Warsw",
-
-  "name": "Polonia Warsaw",
-
-  "logo": "assets/logos/europe/poland/Polonia.png",
-
-  "stadium": {
-    "name": "Stadion Polonii Warszawa im. gen. Kazimierza Sosnkowskiego",
-    "capacity": 6852
+    "teamKey": "P Warsw",
+  
+    "name": "Polonia Warsaw",
+  
+    "logo": "assets/logos/europe/poland/Polonia.png",
+  
+    "manager": {
+      "name": "Mariusz Pawlak",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Stadion Polonii Warszawa im. gen. Kazimierza Sosnkowskiego",
+      "capacity": 6852
+    },
+  
+    "players": [
+      {"playerId": "player_pl2_011_01", "name": "Mateusz Kuchta", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_011_02", "name": "Michał Grudniewski", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_011_03", "name": "Nikodem Zawistowski", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_011_04", "name": "Mateusz Michalski", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_011_05", "name": "Marcin Kluska", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_011_06", "name": "Krzysztof Koton", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_011_07", "name": "Oliwier Wojciechowski", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_011_08", "name": "Michał Bajdur", "number": 7, "position": "RW", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_011_09", "name": "Bartosz Biedrzycki", "number": 10, "position": "CAM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_011_10", "name": "Ernest Terpiłowski", "number": 11, "position": "ST", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_011_11", "name": "Łukasz Sekulski", "number": 9, "position": "LW", "country": "PL", "status": "starter"},
+  
+      {"playerId": "player_pl2_011_12", "name": "Michał Brudnicki", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_011_13", "name": "Jakub Piątek", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_011_14", "name": "Mateusz Możdżeń", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_011_15", "name": "Łukasz Piątek", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_011_16", "name": "Jakub Szymański", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_011_17", "name": "Patryk Paczuk", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_011_18", "name": "Paweł Tomczyk", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_011_19", "name": "Szymon Kobusiński", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_011_20", "name": "Mateusz Michalski Jr.", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_011_21", "name": "Dawid Tkacz", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl2_011_22", "name": "Jakub Lemanowicz", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_011_23", "name": "Michał Fidziukiewicz", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_011_24", "name": "Bartosz Biedrzycki Jr.", "number": 25, "position": "ST", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_011_25", "name": "Filip Kendzia", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
