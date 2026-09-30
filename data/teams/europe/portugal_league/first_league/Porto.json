@@ -1,12 +1,58 @@
 {
-  "teamKey": "Porto",
-
-  "name": "FC Porto",
-
-  "logo": "assets/logos/europe/portugal/Porto.png",
-
-  "stadium": {
-    "name": "Estádio do Dragão",
-    "capacity": 50033
+    "teamKey": "Porto",
+  
+    "name": "FC Porto",
+  
+    "logo": "assets/logos/europe/portugal/Porto.png",
+  
+    "manager": {
+      "name": "Francesco Farioli",
+      "country": "IT"
+    },
+  
+    "stadium": {
+      "name": "Estádio do Dragão",
+      "capacity": 50033
+    },
+  
+    "players": [
+      {"playerId": "player_pt1_014_01", "name": "Diogo Costa", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_014_02", "name": "Jakub Kiwior", "number": 2, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pt1_014_03", "name": "Jan Bednarek", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pt1_014_04", "name": "Zaidu Sanusi", "number": 5, "position": "RB", "country": "NG", "status": "starter"},
+      {"playerId": "player_pt1_014_05", "name": "Nehuén Pérez", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_pt1_014_06", "name": "Alan Varela", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_014_07", "name": "Gabriel Veiga", "number": 8, "position": "CM", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt1_014_08", "name": "Victor Froholdt", "number": 7, "position": "RW", "country": "DK", "status": "starter"},
+      {"playerId": "player_pt1_014_09", "name": "Hwang In-beom", "number": 10, "position": "CAM", "country": "KR", "status": "starter"},
+      {"playerId": "player_pt1_014_10", "name": "Samu Aghehowa", "number": 11, "position": "ST", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt1_014_11", "name": "Santiago Giménez", "number": 9, "position": "ST", "country": "MX", "status": "starter"},
+  
+      {"playerId": "player_pt1_014_12", "name": "Cláudio Ramos", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_014_13", "name": "Alberto Costa", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_014_14", "name": "Francisco Moura", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_014_15", "name": "Martim Fernandes", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_014_16", "name": "Souza", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_014_17", "name": "Thiago Rosario", "number": 18, "position": "LW", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_014_18", "name": "Mamadou Fofana", "number": 19, "position": "CM", "country": "ML", "status": "bench"},
+      {"playerId": "player_pt1_014_19", "name": "Pepê", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_014_20", "name": "William Gomes", "number": 21, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_014_21", "name": "Oskar Pietuszewski", "number": 22, "position": "CAM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pt1_014_22", "name": "João Costa", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_014_23", "name": "André Silva", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_014_24", "name": "Borja Sainz", "number": 24, "position": "LW", "country": "ES", "status": "reserve"},
+      {"playerId": "player_pt1_014_25", "name": "Deniz Gül", "number": 25, "position": "ST", "country": "SE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
