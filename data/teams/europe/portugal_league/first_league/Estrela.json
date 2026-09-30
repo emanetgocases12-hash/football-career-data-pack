@@ -1,12 +1,58 @@
 {
-  "teamKey": "Estrel",
-
-  "name": "CF Estrela Amadora",
-
-  "logo": "assets/logos/europe/portugal/Estrela.png",
-
-  "stadium": {
-    "name": "Estádio José Gomes",
-    "capacity": 9288
+    "teamKey": "Estrel",
+  
+    "name": "CF Estrela Amadora",
+  
+    "logo": "assets/logos/europe/portugal/Estrela.png",
+  
+    "manager": {
+      "name": "Pepa",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio José Gomes",
+      "capacity": 9288
+    },
+  
+    "players": [
+      {"playerId": "player_pt1_006_01", "name": "Francisco Meixedo", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_006_02", "name": "Stefan Leković", "number": 2, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_pt1_006_03", "name": "Luan Patrick", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt1_006_04", "name": "Otávio", "number": 5, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt1_006_05", "name": "Bernardo Schappo", "number": 3, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt1_006_06", "name": "Miguel Lopes", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_006_07", "name": "Manu Keliano", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_006_08", "name": "Vitó", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_006_09", "name": "Paulo Moreira", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_006_10", "name": "Jovane Cabral", "number": 11, "position": "ST", "country": "CV", "status": "starter"},
+      {"playerId": "player_pt1_006_11", "name": "Stoica", "number": 9, "position": "ST", "country": "RO", "status": "starter"},
+  
+      {"playerId": "player_pt1_006_12", "name": "Diogo Pinto", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_006_13", "name": "Amine Oudrhiri", "number": 14, "position": "CB", "country": "FR", "status": "bench"},
+      {"playerId": "player_pt1_006_14", "name": "Danilo Veiga", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_006_15", "name": "Nilton Varela", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_006_16", "name": "Leonel Bucca", "number": 17, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_pt1_006_17", "name": "Alan Ruiz", "number": 18, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_pt1_006_18", "name": "Igor Jesus", "number": 19, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_006_19", "name": "Gabriel Cabral", "number": 20, "position": "RM", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_006_20", "name": "Kikas", "number": 21, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_006_21", "name": "André Luiz", "number": 22, "position": "CAM", "country": "PT", "status": "bench"},
+  
+      {"playerId": "player_pt1_006_22", "name": "Dudu", "number": 30, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_pt1_006_23", "name": "Rodrigo Pinho", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_006_24", "name": "Nani", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_006_25", "name": "Mansur", "number": 25, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
