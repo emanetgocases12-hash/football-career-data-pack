@@ -1,12 +1,58 @@
 {
-  "teamKey": "Raufs",
-
-  "name": "Raufoss IL",
-
-  "logo": "assets/logos/europe/norway/Raufoss.png",
-
-  "stadium": {
-    "name": "NAMMO stadion",
-    "capacity": 1800
+    "teamKey": "Raufs",
+  
+    "name": "Raufoss IL",
+  
+    "logo": "assets/logos/europe/norway/Raufoss.png",
+  
+    "manager": {
+      "name": "Ole Petter Berget",
+      "country": "NO"
+    },
+  
+    "stadium": {
+      "name": "NAMMO stadion",
+      "capacity": 1800
+    },
+  
+    "players": [
+      {"playerId": "player_no2_011_01", "name": "Ole Kristian Lauvli", "number": 1, "position": "GK", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_011_02", "name": "Erlend Reitan", "number": 2, "position": "RB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_011_03", "name": "Ryan Lee Nelson", "number": 4, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_011_04", "name": "Philip Lynum", "number": 5, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_011_05", "name": "Marius Alm", "number": 3, "position": "LB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_011_06", "name": "Emil Sildnes", "number": 6, "position": "CDM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_011_07", "name": "Markus Aanesland", "number": 8, "position": "CM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_011_08", "name": "Torje Naustdal", "number": 7, "position": "RW", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_011_09", "name": "Kodjo Somesi", "number": 10, "position": "CAM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_011_10", "name": "Adrian Rogulj", "number": 9, "position": "ST", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_011_11", "name": "Rafik Zekhnini", "number": 17, "position": "RW", "country": "NO", "status": "starter"},
+  
+      {"playerId": "player_no2_011_12", "name": "Peder Bratvold", "number": 12, "position": "GK", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_011_13", "name": "Kristian Lien", "number": 14, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_011_14", "name": "Jamal Deen Haruna", "number": 15, "position": "RB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_011_15", "name": "Eirik Helgee", "number": 16, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_011_16", "name": "Daniel Fremstad", "number": 23, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_011_17", "name": "Thomas Nelson", "number": 11, "position": "LW", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_011_18", "name": "Oskar Sivertsen", "number": 18, "position": "CM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_011_19", "name": "Jakob Nyland Ørsahl", "number": 20, "position": "RM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_011_20", "name": "Eric Bugale Kitolano", "number": 21, "position": "LM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_011_21", "name": "Filip Brattbakk", "number": 22, "position": "CAM", "country": "NO", "status": "bench"},
+  
+      {"playerId": "player_no2_011_22", "name": "Magnus Knutsen", "number": 30, "position": "GK", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_011_23", "name": "Andreas Helmersen", "number": 19, "position": "LW", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_011_24", "name": "Ryan Doghman", "number": 27, "position": "ST", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_011_25", "name": "Mamadou Diaw", "number": 29, "position": "ST", "country": "NO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
