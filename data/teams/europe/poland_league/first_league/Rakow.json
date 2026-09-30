@@ -1,12 +1,58 @@
 {
-  "teamKey": "Raków",
-
-  "name": "Raków Czestochowa",
-
-  "logo": "assets/logos/europe/poland/Rakow.png",
-
-  "stadium": {
-    "name": "zondacrypto Arena",
-    "capacity": 5500
+    "teamKey": "Raków",
+  
+    "name": "Raków Czestochowa",
+  
+    "logo": "assets/logos/europe/poland/Rakow.png",
+  
+    "manager": {
+      "name": "Dawid Kroczek",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "zondacrypto Arena",
+      "capacity": 5500
+    },
+  
+    "players": [
+      {"playerId": "player_pl1_012_01", "name": "Kacper Trelowski", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_012_02", "name": "Jerzy Napieraj", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_012_03", "name": "Arvid Brorsson", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_pl1_012_04", "name": "Stratos Svarnas", "number": 5, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_pl1_012_05", "name": "Oskar Repka", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_012_06", "name": "Vladyslav Kochergin", "number": 6, "position": "CDM", "country": "UA", "status": "starter"},
+      {"playerId": "player_pl1_012_07", "name": "Marko Bulat", "number": 8, "position": "CM", "country": "HR", "status": "starter"},
+      {"playerId": "player_pl1_012_08", "name": "Michael Ameyaw", "number": 7, "position": "RW", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_012_09", "name": "Jean Carlos", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_pl1_012_10", "name": "Patryk Makuch", "number": 11, "position": "ST", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_012_11", "name": "Mahir Emreli", "number": 9, "position": "LW", "country": "AZ", "status": "starter"},
+  
+      {"playerId": "player_pl1_012_12", "name": "Tarik Karić", "number": 12, "position": "GK", "country": "BA", "status": "bench"},
+      {"playerId": "player_pl1_012_13", "name": "Fran Tudor", "number": 14, "position": "CB", "country": "HR", "status": "bench"},
+      {"playerId": "player_pl1_012_14", "name": "Bogdan Racovițan", "number": 15, "position": "RB", "country": "RO", "status": "bench"},
+      {"playerId": "player_pl1_012_15", "name": "Debohi Dieudonne Gaucho", "number": 16, "position": "LB", "country": "CI", "status": "bench"},
+      {"playerId": "player_pl1_012_16", "name": "Noah Zätterström", "number": 18, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_pl1_012_17", "name": "Tomasz Pieńko", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_012_18", "name": "Karol Struski", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_012_19", "name": "Erick Otieno", "number": 22, "position": "RM", "country": "KE", "status": "bench"},
+      {"playerId": "player_pl1_012_20", "name": "Ádin Molnár", "number": 23, "position": "LM", "country": "HU", "status": "bench"},
+      {"playerId": "player_pl1_012_21", "name": "Adriano Amorim", "number": 17, "position": "CM", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_pl1_012_22", "name": "Wiktor Żołneczko", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_012_23", "name": "Jonatan Braut Brunes", "number": 24, "position": "RW", "country": "NO", "status": "reserve"},
+      {"playerId": "player_pl1_012_24", "name": "Isak Brusberg", "number": 25, "position": "ST", "country": "SE", "status": "reserve"},
+      {"playerId": "player_pl1_012_25", "name": "Lamine Diaby-Fadiga", "number": 27, "position": "ST", "country": "GN", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
