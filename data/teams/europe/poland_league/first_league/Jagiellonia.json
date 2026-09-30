@@ -1,12 +1,58 @@
 {
-  "teamKey": "Jagie",
-
-  "name": "Jagiellonia Bialystok",
-
-  "logo": "assets/logos/europe/poland/Jagiellonia.png",
-
-  "stadium": {
-    "name": "Chorten Arena",
-    "capacity": 22372
+    "teamKey": "Jagie",
+  
+    "name": "Jagiellonia Bialystok",
+  
+    "logo": "assets/logos/europe/poland/Jagiellonia.png",
+  
+    "manager": {
+      "name": "Adrian Siemieniec",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Chorten Arena",
+      "capacity": 22372
+    },
+  
+    "players": [
+      {"playerId": "player_pl1_003_01", "name": "Sławomir Abramowicz", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_003_02", "name": "Dušan Stojinović", "number": 2, "position": "RB", "country": "SI", "status": "starter"},
+      {"playerId": "player_pl1_003_03", "name": "Yuki Kobayashi", "number": 4, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_pl1_003_04", "name": "Bernardo Vital", "number": 5, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pl1_003_05", "name": "Bartłomiej Wdowik", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_003_06", "name": "Taras Romanczuk", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_003_07", "name": "Kajetan Szmyt", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_003_08", "name": "Hampus Finndell", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_pl1_003_09", "name": "Norbert Wojtuszek", "number": 10, "position": "CAM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_003_10", "name": "Jeremy Agbonifo", "number": 11, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_pl1_003_11", "name": "Jesús Imaz", "number": 9, "position": "LW", "country": "ES", "status": "starter"},
+  
+      {"playerId": "player_pl1_003_12", "name": "Michał Perchel", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_003_13", "name": "Guilherme Montóia", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pl1_003_14", "name": "Rodrigo Conceição", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pl1_003_15", "name": "Apostolos Konstantopoulos", "number": 16, "position": "LB", "country": "GR", "status": "bench"},
+      {"playerId": "player_pl1_003_16", "name": "Szymon Pankiewicz", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_003_17", "name": "Anders Klynge", "number": 20, "position": "LW", "country": "DK", "status": "bench"},
+      {"playerId": "player_pl1_003_18", "name": "Sergio Lozano", "number": 21, "position": "CM", "country": "ES", "status": "bench"},
+      {"playerId": "player_pl1_003_19", "name": "Ousmane Sow", "number": 22, "position": "RM", "country": "SN", "status": "bench"},
+      {"playerId": "player_pl1_003_20", "name": "Aleksandar Ćirković", "number": 23, "position": "LM", "country": "RS", "status": "bench"},
+      {"playerId": "player_pl1_003_21", "name": "Kamil Jóźwiak", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl1_003_22", "name": "Jakub Rabiczko", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_003_23", "name": "Youssuf Sylla", "number": 24, "position": "RW", "country": "BE", "status": "reserve"},
+      {"playerId": "player_pl1_003_24", "name": "Nik Prelec", "number": 25, "position": "ST", "country": "SI", "status": "reserve"},
+      {"playerId": "player_pl1_003_25", "name": "Eryk Kozłowski", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
