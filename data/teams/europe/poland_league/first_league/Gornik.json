@@ -1,12 +1,58 @@
 {
-  "teamKey": "Gornik",
-
-  "name": "Górnik Zabrze",
-
-  "logo": "assets/logos/europe/poland/Gornik.png",
-
-  "stadium": {
-    "name": "Arena Zabrze",
-    "capacity": 28236
+    "teamKey": "Gornik",
+  
+    "name": "Górnik Zabrze",
+  
+    "logo": "assets/logos/europe/poland/Gornik.png",
+  
+    "manager": {
+      "name": "Michal Gašparík",
+      "country": "SK"
+    },
+  
+    "stadium": {
+      "name": "Arena Zabrze",
+      "capacity": 28236
+    },
+  
+    "players": [
+      {"playerId": "player_pl1_002_01", "name": "Philipp Schulze", "number": 1, "position": "GK", "country": "DE", "status": "starter"},
+      {"playerId": "player_pl1_002_02", "name": "Patryk Warczak", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_002_03", "name": "Paweł Bochniewicz", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_002_04", "name": "Josema", "number": 5, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_pl1_002_05", "name": "Ondřej Zmrzlý", "number": 3, "position": "LB", "country": "CZ", "status": "starter"},
+      {"playerId": "player_pl1_002_06", "name": "Yvan Ikia Dimi", "number": 6, "position": "CDM", "country": "FR", "status": "starter"},
+      {"playerId": "player_pl1_002_07", "name": "Paulo Bernardo", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pl1_002_08", "name": "Lukáš Sadílek", "number": 7, "position": "RW", "country": "CZ", "status": "starter"},
+      {"playerId": "player_pl1_002_09", "name": "Peter Federico", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_pl1_002_10", "name": "Janis Antiste", "number": 11, "position": "ST", "country": "FR", "status": "starter"},
+      {"playerId": "player_pl1_002_11", "name": "Erik Prekop", "number": 9, "position": "LW", "country": "SK", "status": "starter"},
+  
+      {"playerId": "player_pl1_002_12", "name": "Tomasz Loska", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_002_13", "name": "Rafał Janicki", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_002_14", "name": "Michal Sáček", "number": 15, "position": "RB", "country": "CZ", "status": "bench"},
+      {"playerId": "player_pl1_002_15", "name": "Erik Janža", "number": 16, "position": "LB", "country": "SI", "status": "bench"},
+      {"playerId": "player_pl1_002_16", "name": "Maximilian Dietz", "number": 18, "position": "CB", "country": "DE", "status": "bench"},
+      {"playerId": "player_pl1_002_17", "name": "Bastien Donio", "number": 20, "position": "LW", "country": "FR", "status": "bench"},
+      {"playerId": "player_pl1_002_18", "name": "Maksym Khlan", "number": 21, "position": "CM", "country": "UA", "status": "bench"},
+      {"playerId": "player_pl1_002_19", "name": "Michał Rakoczy", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_002_20", "name": "Kacper Urbański", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_002_21", "name": "Jarosław Kubicki", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl1_002_22", "name": "Wiktor Kania", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_002_23", "name": "Sondre Liseth", "number": 24, "position": "RW", "country": "NO", "status": "reserve"},
+      {"playerId": "player_pl1_002_24", "name": "Taofeek Ismaheel", "number": 25, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_pl1_002_25", "name": "Bruno Durdov", "number": 27, "position": "ST", "country": "HR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
