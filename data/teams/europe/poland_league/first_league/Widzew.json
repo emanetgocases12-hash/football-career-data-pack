@@ -1,12 +1,58 @@
-{
-  "teamKey": "Widzw",
-
-  "name": "Widzew Lodz",
-
-  "logo": "assets/logos/europe/poland/Widzew.png",
-
-  "stadium": {
-    "name": "Stadion Widzewa",
-    "capacity": 18018
+ {
+    "teamKey": "Widzw",
+  
+    "name": "Widzew Lodz",
+  
+    "logo": "assets/logos/europe/poland/Widzew.png",
+  
+    "manager": {
+      "name": "Mateusz Stolarski",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Stadion Widzewa",
+      "capacity": 18018
+    },
+  
+    "players": [
+      {"playerId": "player_pl1_014_01", "name": "Bartłomiej Drągowski", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_014_02", "name": "Carlos Isaac", "number": 2, "position": "RB", "country": "ES", "status": "starter"},
+      {"playerId": "player_pl1_014_03", "name": "Steve Kapuadi", "number": 4, "position": "CB", "country": "CD", "status": "starter"},
+      {"playerId": "player_pl1_014_04", "name": "Mateusz Żyro", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_014_05", "name": "Visus", "number": 3, "position": "LB", "country": "ES", "status": "starter"},
+      {"playerId": "player_pl1_014_06", "name": "Giannis Papanikolaou", "number": 6, "position": "CDM", "country": "GR", "status": "starter"},
+      {"playerId": "player_pl1_014_07", "name": "Juljan Shehu", "number": 8, "position": "CM", "country": "AL", "status": "starter"},
+      {"playerId": "player_pl1_014_08", "name": "Mariusz Fornalczyk", "number": 7, "position": "RW", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_014_09", "name": "Emil Kornvig", "number": 10, "position": "CAM", "country": "DK", "status": "starter"},
+      {"playerId": "player_pl1_014_10", "name": "Andi Zeqiri", "number": 11, "position": "ST", "country": "CH", "status": "starter"},
+      {"playerId": "player_pl1_014_11", "name": "Pape Meïssa Ba", "number": 9, "position": "LW", "country": "SN", "status": "starter"},
+  
+      {"playerId": "player_pl1_014_12", "name": "Veljko Ilić", "number": 12, "position": "GK", "country": "RS", "status": "bench"},
+      {"playerId": "player_pl1_014_13", "name": "Chung Yong Cheng", "number": 14, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_pl1_014_14", "name": "Przemysław Wiśniewski", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_014_15", "name": "Mario García", "number": 16, "position": "LB", "country": "ES", "status": "bench"},
+      {"playerId": "player_pl1_014_16", "name": "Jusuf Gazibegović", "number": 18, "position": "CB", "country": "BA", "status": "bench"},
+      {"playerId": "player_pl1_014_17", "name": "Fran Álvarez", "number": 20, "position": "LW", "country": "ES", "status": "bench"},
+      {"playerId": "player_pl1_014_18", "name": "Lindon Selahi", "number": 21, "position": "CM", "country": "AL", "status": "bench"},
+      {"playerId": "player_pl1_014_19", "name": "Darije Males", "number": 22, "position": "RM", "country": "CH", "status": "bench"},
+      {"playerId": "player_pl1_014_20", "name": "Lukas Lerager", "number": 23, "position": "LM", "country": "DK", "status": "bench"},
+      {"playerId": "player_pl1_014_21", "name": "Sebastian Czyż", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl1_014_22", "name": "Jakub Krzywański", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_014_23", "name": "Karol Świderski", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_014_24", "name": "Paulinho Bóia", "number": 25, "position": "ST", "country": "BR", "status": "reserve"},
+      {"playerId": "player_pl1_014_25", "name": "Sebastian Bergier", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
