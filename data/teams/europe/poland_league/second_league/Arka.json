@@ -1,12 +1,58 @@
 {
-  "teamKey": "Arka G",
-
-  "name": "Arka Gdynia",
-
-  "logo": "assets/logos/europe/poland/Arka.png",
-
-  "stadium": {
-    "name": "Stadion GOSiR",
-    "capacity": 15139
+    "teamKey": "Arka G",
+  
+    "name": "Arka Gdynia",
+  
+    "logo": "assets/logos/europe/poland/Arka.png",
+  
+    "manager": {
+      "name": "Dawid Szwarga",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Stadion GOSiR",
+      "capacity": 15139
+    },
+  
+    "players": [
+      {"playerId": "player_pl2_001_01", "name": "Damian Węglarz", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_001_02", "name": "Michał Marcjanik", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_001_03", "name": "Dawid Gojny", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_001_04", "name": "Marc Navarro", "number": 5, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_pl2_001_05", "name": "Kasjan Lipkowski", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_001_06", "name": "Michał Rzuchowski", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_001_07", "name": "Hide Vitalucci", "number": 8, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_pl2_001_08", "name": "Kacper Skóra", "number": 7, "position": "RW", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_001_09", "name": "João Oliveira", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pl2_001_10", "name": "Szymon Sobczak", "number": 11, "position": "ST", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_001_11", "name": "Hubert Turski", "number": 9, "position": "LW", "country": "PL", "status": "starter"},
+  
+      {"playerId": "player_pl2_001_12", "name": "Paweł Lenarcik", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_001_13", "name": "Przemysław Stolc", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_001_14", "name": "Jakub Marciniak", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_001_15", "name": "Kamil Jakubczyk", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_001_16", "name": "Hubert Adamczyk", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_001_17", "name": "Alassane Sidibé", "number": 20, "position": "LW", "country": "CI", "status": "bench"},
+      {"playerId": "player_pl2_001_18", "name": "Wojciech Zieliński", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_001_19", "name": "Michał Borecki", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_001_20", "name": "Janusz Gol", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_001_21", "name": "Karol Noiszewski", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl2_001_22", "name": "Kacper Krzepisz", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_001_23", "name": "Tornike Gaprindashvili", "number": 24, "position": "RW", "country": "GE", "status": "reserve"},
+      {"playerId": "player_pl2_001_24", "name": "Olaf Kobacki", "number": 25, "position": "ST", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_001_25", "name": "Kacper Czubak", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
