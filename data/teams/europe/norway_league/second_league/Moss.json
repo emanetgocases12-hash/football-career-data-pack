@@ -1,12 +1,58 @@
 {
-  "teamKey": "Moss",
-
-  "name": "Moss FK",
-
-  "logo": "assets/logos/europe/norway/Moss.png",
-
-  "stadium": {
-    "name": "Melløs stadion",
-    "capacity": 3170
+    "teamKey": "Moss",
+  
+    "name": "Moss FK",
+  
+    "logo": "assets/logos/europe/norway/Moss.png",
+  
+    "manager": {
+      "name": "Geir Bakke",
+      "country": "NO"
+    },
+  
+    "stadium": {
+      "name": "Melløs stadion",
+      "capacity": 3170
+    },
+  
+    "players": [
+      {"playerId": "player_no2_008_01", "name": "Mathias Eriksen", "number": 1, "position": "GK", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_008_02", "name": "Sebastian Strande", "number": 2, "position": "RB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_008_03", "name": "Ian Hoffmann", "number": 4, "position": "CB", "country": "US", "status": "starter"},
+      {"playerId": "player_no2_008_04", "name": "William Strand Kvale", "number": 5, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_008_05", "name": "Omar Jebali", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
+      {"playerId": "player_no2_008_06", "name": "Håkon Vold Krohg", "number": 6, "position": "CDM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_008_07", "name": "Jamiu Musbaudeen", "number": 8, "position": "CM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_008_08", "name": "Noah Alexandersson", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_no2_008_09", "name": "Sigurd Grønli", "number": 10, "position": "CAM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_008_10", "name": "Oscar Aga", "number": 9, "position": "ST", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_008_11", "name": "Niclas Semmen", "number": 17, "position": "RW", "country": "NO", "status": "starter"},
+  
+      {"playerId": "player_no2_008_12", "name": "Matias Rylandsholm", "number": 12, "position": "GK", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_008_13", "name": "Anders Johannessen Nord", "number": 14, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_008_14", "name": "Kristian Harrison", "number": 15, "position": "RB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_008_15", "name": "Thomas Klemetsen Jakobsen", "number": 16, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_008_16", "name": "Takunda Chibaya", "number": 23, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_008_17", "name": "Anders Selnæs", "number": 11, "position": "LW", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_008_18", "name": "Robin Hermanstad", "number": 18, "position": "CM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_008_19", "name": "Felix Løvtangen", "number": 20, "position": "RM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_008_20", "name": "Emin Softic", "number": 21, "position": "LM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_008_21", "name": "Guillermo Lorenzo", "number": 22, "position": "CAM", "country": "NO", "status": "bench"},
+  
+      {"playerId": "player_no2_008_22", "name": "Jesper Rylander", "number": 30, "position": "GK", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_008_23", "name": "Jerry Ogbole", "number": 19, "position": "LW", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_008_24", "name": "Moussa Njie", "number": 27, "position": "ST", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_008_25", "name": "Taha Usman", "number": 29, "position": "ST", "country": "NO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
