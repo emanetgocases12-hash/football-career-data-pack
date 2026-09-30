@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bodø",
-
-  "name": "FK Bodø/Glimt",
-
-  "logo": "assets/logos/europe/norway/Bodo.png",
-
-  "stadium": {
-    "name": "Aspmyra Stadion",
-    "capacity": 8500
+    "teamKey": "Bodø",
+  
+    "name": "FK Bodø/Glimt",
+  
+    "logo": "assets/logos/europe/norway/Bodo.png",
+  
+    "manager": {
+      "name": "Kjetil Knutsen",
+      "country": "NO"
+    },
+  
+    "stadium": {
+      "name": "Aspmyra Stadion",
+      "capacity": 8500
+    },
+  
+    "players": [
+      {"playerId": "player_no1_002_01", "name": "Julian Faye Lund", "number": 1, "position": "GK", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_002_02", "name": "Villads Nielsen", "number": 2, "position": "RB", "country": "DK", "status": "starter"},
+      {"playerId": "player_no1_002_03", "name": "Odin Bjørtuft", "number": 4, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_002_04", "name": "Haitam Aleesami", "number": 5, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_002_05", "name": "Jostein Gundersen", "number": 3, "position": "LB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_002_06", "name": "Patrick Berg", "number": 6, "position": "CDM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_002_07", "name": "Sondre Auklend", "number": 8, "position": "CM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_002_08", "name": "Jens Petter Hauge", "number": 7, "position": "RW", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_002_09", "name": "Ole Didrik Blomberg", "number": 10, "position": "CAM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_002_10", "name": "Ola Brynhildsen", "number": 9, "position": "ST", "country": "NO", "status": "starter"},
+      {"playerId": "player_no1_002_11", "name": "Andreas Helmersen", "number": 17, "position": "RW", "country": "NO", "status": "starter"},
+  
+      {"playerId": "player_no1_002_12", "name": "Nikita Haikin", "number": 12, "position": "GK", "country": "RU", "status": "bench"},
+      {"playerId": "player_no1_002_13", "name": "Fredrik Bjørkan", "number": 14, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_002_14", "name": "Fredrik Sjøvold", "number": 15, "position": "RB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_002_15", "name": "Isak Dybvik Määttä", "number": 16, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_002_16", "name": "Marius Olsen", "number": 23, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_002_17", "name": "Ulrik Saltnes", "number": 11, "position": "LW", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_002_18", "name": "John Kitolano", "number": 18, "position": "CM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_002_19", "name": "Sondre Brunstad Fet", "number": 20, "position": "RM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_002_20", "name": "Håkon Evjen", "number": 21, "position": "LM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no1_002_21", "name": "Magnus Riisnæs", "number": 22, "position": "CAM", "country": "NO", "status": "bench"},
+  
+      {"playerId": "player_no1_002_22", "name": "Magnus Andersen", "number": 30, "position": "GK", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no1_002_23", "name": "Daniel Bassi", "number": 19, "position": "LW", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no1_002_24", "name": "Mikkel Bro Hansen", "number": 27, "position": "ST", "country": "DK", "status": "reserve"},
+      {"playerId": "player_no1_002_25", "name": "Kasper Høgh", "number": 29, "position": "ST", "country": "DK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
