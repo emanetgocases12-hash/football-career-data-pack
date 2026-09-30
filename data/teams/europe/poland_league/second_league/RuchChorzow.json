@@ -1,12 +1,58 @@
 {
-  "teamKey": "R Chrzw",
-
-  "name": "Ruch Chorzow",
-
-  "logo": "assets/logos/europe/poland/Ruch.png",
-
-  "stadium": {
-    "name": "Superauto.pl Stadion Śląski",
-    "capacity": 54378
+    "teamKey": "R Chrzw",
+  
+    "name": "Ruch Chorzow",
+  
+    "logo": "assets/logos/europe/poland/Ruch.png",
+  
+    "manager": {
+      "name": "Dawid Szulczek",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Superauto.pl Stadion Śląski",
+      "capacity": 54378
+    },
+  
+    "players": [
+      {"playerId": "player_pl2_013_01", "name": "Jakub Bielecki", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_013_02", "name": "Konrad Kasolik", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_013_03", "name": "Patryk Stępiński", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_013_04", "name": "Mateusz Bartolewski", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_013_05", "name": "Szymon Szymański", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_013_06", "name": "Patryk Sikora", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_013_07", "name": "Tomasz Wójtowicz", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_013_08", "name": "Miłosz Kozak", "number": 7, "position": "RW", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_013_09", "name": "Bartłomiej Barański", "number": 10, "position": "CAM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_013_10", "name": "Soma Novothny", "number": 11, "position": "ST", "country": "HU", "status": "starter"},
+      {"playerId": "player_pl2_013_11", "name": "Adam Vlkanova", "number": 9, "position": "LW", "country": "CZ", "status": "starter"},
+  
+      {"playerId": "player_pl2_013_12", "name": "Dante Stipica", "number": 12, "position": "GK", "country": "HR", "status": "bench"},
+      {"playerId": "player_pl2_013_13", "name": "Kacper Michalski", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_013_14", "name": "Michał Feliks", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_013_15", "name": "Przemysław Szur", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_013_16", "name": "Robert Dadok", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_013_17", "name": "Filip Starzyński", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_013_18", "name": "Maciej Sadlok", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_013_19", "name": "Michał Buchalik", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_013_20", "name": "Jan Sedlák", "number": 23, "position": "LM", "country": "CZ", "status": "bench"},
+      {"playerId": "player_pl2_013_21", "name": "Daniel Szczepan", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl2_013_22", "name": "Martin Turk", "number": 30, "position": "GK", "country": "SI", "status": "reserve"},
+      {"playerId": "player_pl2_013_23", "name": "Mikołaj Kwietniewski", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_013_24", "name": "Kacper Michalski Jr.", "number": 25, "position": "ST", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_013_25", "name": "Bartosz Nowak", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
