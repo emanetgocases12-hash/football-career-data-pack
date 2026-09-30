@@ -1,12 +1,58 @@
 {
-  "teamKey": "Wis K",
-
-  "name": "Wisla Kraków",
-
-  "logo": "assets/logos/europe/poland/Krakow.png",
-
-  "stadium": {
-    "name": "Synerise Arena - Stadion Miejski im. Henryka Reymana",
-    "capacity": 33130
+    "teamKey": "Wis K",
+  
+    "name": "Wisla Kraków",
+  
+    "logo": "assets/logos/europe/poland/Krakow.png",
+  
+    "manager": {
+      "name": "Mariusz Jop",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Synerise Arena - Stadion Miejski im. Henryka Reymana",
+      "capacity": 33130
+    },
+  
+    "players": [
+      {"playerId": "player_pl1_016_01", "name": "Marcel Łubik", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_016_02", "name": "Julian Lelieveld", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
+      {"playerId": "player_pl1_016_03", "name": "Rafał Mikulec", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_016_04", "name": "Alan Uryga", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_016_05", "name": "Maxime Maisonneuve", "number": 3, "position": "LB", "country": "FR", "status": "starter"},
+      {"playerId": "player_pl1_016_06", "name": "Julius Ertlthaler", "number": 6, "position": "CDM", "country": "AT", "status": "starter"},
+      {"playerId": "player_pl1_016_07", "name": "Marc Carbó", "number": 8, "position": "CM", "country": "ES", "status": "starter"},
+      {"playerId": "player_pl1_016_08", "name": "Frederico Duarte", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pl1_016_09", "name": "James Igbekeme", "number": 10, "position": "CAM", "country": "NG", "status": "starter"},
+      {"playerId": "player_pl1_016_10", "name": "Ángel Rodado", "number": 11, "position": "ST", "country": "ES", "status": "starter"},
+      {"playerId": "player_pl1_016_11", "name": "Jordi Sánchez", "number": 9, "position": "LW", "country": "ES", "status": "starter"},
+  
+      {"playerId": "player_pl1_016_12", "name": "Patryk Letkiewicz", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_016_13", "name": "Bartosz Jaroch", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_016_14", "name": "Dario Grujčić", "number": 15, "position": "RB", "country": "AT", "status": "bench"},
+      {"playerId": "player_pl1_016_15", "name": "Ruben Giger", "number": 16, "position": "LB", "country": "CH", "status": "bench"},
+      {"playerId": "player_pl1_016_16", "name": "Wiktor Biedrzycki", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_016_17", "name": "Marko Božić", "number": 20, "position": "LW", "country": "AT", "status": "bench"},
+      {"playerId": "player_pl1_016_18", "name": "Ervin Omić", "number": 21, "position": "CM", "country": "AT", "status": "bench"},
+      {"playerId": "player_pl1_016_19", "name": "Víctor Meseguer", "number": 22, "position": "RM", "country": "ES", "status": "bench"},
+      {"playerId": "player_pl1_016_20", "name": "Kacper Duda", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_016_21", "name": "Michał Kuziemka", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl1_016_22", "name": "Bartosz Neugebauer", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_016_23", "name": "Jérémy Guillemenot", "number": 24, "position": "RW", "country": "CH", "status": "reserve"},
+      {"playerId": "player_pl1_016_24", "name": "Élie Youan", "number": 25, "position": "ST", "country": "FR", "status": "reserve"},
+      {"playerId": "player_pl1_016_25", "name": "Maksym Tsymbaliuk", "number": 27, "position": "ST", "country": "UA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
