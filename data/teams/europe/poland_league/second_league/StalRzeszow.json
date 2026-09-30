@@ -1,12 +1,58 @@
 {
-  "teamKey": "St Rzes",
-
-  "name": "Stal Rzeszow",
-
-  "logo": "assets/logos/europe/poland/Stal.png",
-
-  "stadium": {
-    "name": "Stadion Miejski",
-    "capacity": 11547
+    "teamKey": "St Rzes",
+  
+    "name": "Stal Rzeszow",
+  
+    "logo": "assets/logos/europe/poland/Stal.png",
+  
+    "manager": {
+      "name": "Marek Zub",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Stadion Miejski",
+      "capacity": 11547
+    },
+  
+    "players": [
+      {"playerId": "player_pl2_016_01", "name": "Krzysztof Bąkowski", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_016_02", "name": "Kamil Kościelny", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_016_03", "name": "Paweł Oleksy", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_016_04", "name": "Michał Gliwa", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_016_05", "name": "Patryk Warczak", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_016_06", "name": "Andreja Prokić", "number": 6, "position": "CDM", "country": "RS", "status": "starter"},
+      {"playerId": "player_pl2_016_07", "name": "Sébastien Thill", "number": 8, "position": "CM", "country": "LU", "status": "starter"},
+      {"playerId": "player_pl2_016_08", "name": "Jesus Diaz", "number": 7, "position": "RW", "country": "CO", "status": "starter"},
+      {"playerId": "player_pl2_016_09", "name": "Kacper Łuk", "number": 10, "position": "CAM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_016_10", "name": "Szymon Kądziołka", "number": 11, "position": "ST", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_016_11", "name": "Kamil Antonik", "number": 9, "position": "LW", "country": "PL", "status": "starter"},
+  
+      {"playerId": "player_pl2_016_12", "name": "Jakub Wrąbel", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_016_13", "name": "Kacper Sadłocha", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_016_14", "name": "Jakub Kądziołka", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_016_15", "name": "Kamil Pajnowski", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_016_16", "name": "Bartosz Kwiecień", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_016_17", "name": "Michał Synoś", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_016_18", "name": "Jakub Głaz", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_016_19", "name": "Wiktor Kłos", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_016_20", "name": "Kamil Bąk", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_016_21", "name": "Łukasz Góra", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl2_016_22", "name": "Wiktor Kaczorowski", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_016_23", "name": "Michał Płonka", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_016_24", "name": "Bartosz Wolski", "number": 25, "position": "ST", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_016_25", "name": "Patryk Małecki", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
