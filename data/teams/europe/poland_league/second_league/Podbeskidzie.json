@@ -1,12 +1,58 @@
 {
-  "teamKey": "Podbes",
-
-  "name": "Podbeskidzie Bielsko-Biala",
-
-  "logo": "assets/logos/europe/poland/Podbeskidzie.png",
-
-  "stadium": {
-    "name": "Stadion Miejski - Bielsko-Biała",
-    "capacity": 14963
+    "teamKey": "Podbes",
+  
+    "name": "Podbeskidzie Bielsko-Biala",
+  
+    "logo": "assets/logos/europe/poland/Podbeskidzie.png",
+  
+    "manager": {
+      "name": "Krzysztof Brede",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Stadion Miejski - Bielsko-Biała",
+      "capacity": 14963
+    },
+  
+    "players": [
+      {"playerId": "player_pl2_007_01", "name": "Kamil Broda", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_007_02", "name": "Daniel Mikołajewski", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_007_03", "name": "Maksymilian Sitek", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_007_04", "name": "Matej Mršić", "number": 5, "position": "CB", "country": "HR", "status": "starter"},
+      {"playerId": "player_pl2_007_05", "name": "Jakub Kisiel", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_007_06", "name": "Bartosz Bida", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_007_07", "name": "Marcin Urynowicz", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_007_08", "name": "Dawid Polkowski", "number": 7, "position": "RW", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_007_09", "name": "Tomasz Nowak", "number": 10, "position": "CAM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_007_10", "name": "Kamil Biliński", "number": 11, "position": "ST", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_007_11", "name": "Jakub Świerczok", "number": 9, "position": "LW", "country": "PL", "status": "starter"},
+  
+      {"playerId": "player_pl2_007_12", "name": "Mikołaj Biegański", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_007_13", "name": "Tomasz Gajda", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_007_14", "name": "Kacper Gach", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_007_15", "name": "Michał Janota", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_007_16", "name": "Mateusz Ziółkowski", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_007_17", "name": "Maksymilian Banaszewski", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_007_18", "name": "Filip Laskowski", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_007_19", "name": "Jakub Bieroński", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_007_20", "name": "Kacper Andrzejewski", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_007_21", "name": "Mateusz Kaczmarek", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl2_007_22", "name": "Konrad Forenc", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_007_23", "name": "Damian Hilbrycht", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_007_24", "name": "Michał Feliks", "number": 25, "position": "ST", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_007_25", "name": "Szymon Lewicki", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
