@@ -1,12 +1,58 @@
 {
-  "teamKey": "Lodz",
-
-  "name": "LKS Lodz",
-
-  "logo": "assets/logos/europe/poland/Lodz.png",
-
-  "stadium": {
-    "name": "Stadion Miejski w Łodzi im. Władysława Króla",
-    "capacity": 18029
+    "teamKey": "Lodz",
+  
+    "name": "LKS Lodz",
+  
+    "logo": "assets/logos/europe/poland/Lodz.png",
+  
+    "manager": {
+      "name": "Ariel Galeano",
+      "country": "PY"
+    },
+  
+    "stadium": {
+      "name": "Stadion Miejski w Łodzi im. Władysława Króla",
+      "capacity": 18029
+    },
+  
+    "players": [
+      {"playerId": "player_pl2_004_01", "name": "Dawid Arndt", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_004_02", "name": "Kamil Dankowski", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_004_03", "name": "Artemijus Tutyškinas", "number": 4, "position": "CB", "country": "LT", "status": "starter"},
+      {"playerId": "player_pl2_004_04", "name": "Levent Gülen", "number": 5, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_pl2_004_05", "name": "Michał Mokrzycki", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_004_06", "name": "Pirulo", "number": 6, "position": "CDM", "country": "ES", "status": "starter"},
+      {"playerId": "player_pl2_004_07", "name": "Antoni Młynarczyk", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_004_08", "name": "Dani Ramírez", "number": 7, "position": "RW", "country": "ES", "status": "starter"},
+      {"playerId": "player_pl2_004_09", "name": "Huseyin Balic", "number": 10, "position": "CAM", "country": "AT", "status": "starter"},
+      {"playerId": "player_pl2_004_10", "name": "Andreu Arasa", "number": 11, "position": "ST", "country": "ES", "status": "starter"},
+      {"playerId": "player_pl2_004_11", "name": "Stipe Jurić", "number": 9, "position": "LW", "country": "BA", "status": "starter"},
+  
+      {"playerId": "player_pl2_004_12", "name": "Aleksander Bobek", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_004_13", "name": "Kamil Dankowski Jr.", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_004_14", "name": "Adrian Małachowski", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_004_15", "name": "Maksymilian Rozwandowicz", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_004_16", "name": "Mikołaj Lipień", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_004_17", "name": "Jakub Letniowski", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_004_18", "name": "Kelechukwu Ibe-Torti", "number": 21, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_pl2_004_19", "name": "Michał Trąbka", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_004_20", "name": "Samuel Corral", "number": 23, "position": "LM", "country": "ES", "status": "bench"},
+      {"playerId": "player_pl2_004_21", "name": "Bartosz Szeliga", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl2_004_22", "name": "Hubert Idasiak", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_004_23", "name": "Piotr Janczukowicz", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_004_24", "name": "Nelson Balongo", "number": 25, "position": "ST", "country": "CD", "status": "reserve"},
+      {"playerId": "player_pl2_004_25", "name": "Kay Tejan", "number": 27, "position": "ST", "country": "NL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
