@@ -1,12 +1,58 @@
 {
-  "teamKey": "Wis Plo",
-
-  "name": "Wisla Plock",
-
-  "logo": "assets/logos/europe/poland/Wisla.png",
-
-  "stadium": {
-    "name": "ORLEN Stadion im. Kazimierza Górskiego",
-    "capacity": 15004
+    "teamKey": "Wis Plo",
+  
+    "name": "Wisla Plock",
+  
+    "logo": "assets/logos/europe/poland/Wisla.png",
+  
+    "manager": {
+      "name": "Mariusz Misiura",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "ORLEN Stadion im. Kazimierza Górskiego",
+      "capacity": 15004
+    },
+  
+    "players": [
+      {"playerId": "player_pl1_017_01", "name": "Rafał Leszczyński", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_017_02", "name": "Marcin Flis", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_017_03", "name": "Marcus Haglind Sangré", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_pl1_017_04", "name": "Marin Karamarko", "number": 5, "position": "CB", "country": "HR", "status": "starter"},
+      {"playerId": "player_pl1_017_05", "name": "Dion Gallapeni", "number": 3, "position": "LB", "country": "XK", "status": "starter"},
+      {"playerId": "player_pl1_017_06", "name": "Sidnei Tavares", "number": 6, "position": "CDM", "country": "CV", "status": "starter"},
+      {"playerId": "player_pl1_017_07", "name": "Kacper Pomorski", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_017_08", "name": "Olaf Kobacki", "number": 7, "position": "RW", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_017_09", "name": "Daniel Pacheco", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_pl1_017_10", "name": "Deni Jurić", "number": 11, "position": "ST", "country": "AU", "status": "starter"},
+      {"playerId": "player_pl1_017_11", "name": "Said Hamulić", "number": 9, "position": "LW", "country": "BA", "status": "starter"},
+  
+      {"playerId": "player_pl1_017_12", "name": "Jakub Burek", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_017_13", "name": "Patryk Kun", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_017_14", "name": "Afonso Silva", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pl1_017_15", "name": "Marcin Kamiński", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_017_16", "name": "Michał Więckowski", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_017_17", "name": "Jorge Jiménez", "number": 20, "position": "LW", "country": "ES", "status": "bench"},
+      {"playerId": "player_pl1_017_18", "name": "Fabian Hiszpański", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_017_19", "name": "Adam Radwański", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_017_20", "name": "Jurica Pršir", "number": 23, "position": "LM", "country": "HR", "status": "bench"},
+      {"playerId": "player_pl1_017_21", "name": "Žan Rogelj", "number": 17, "position": "CM", "country": "SI", "status": "bench"},
+  
+      {"playerId": "player_pl1_017_22", "name": "Szymon Wadas", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_017_23", "name": "Łukasz Sekulski", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_017_24", "name": "Samuel Akere", "number": 25, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_pl1_017_25", "name": "Kyriakos Savvidis", "number": 27, "position": "ST", "country": "GR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
