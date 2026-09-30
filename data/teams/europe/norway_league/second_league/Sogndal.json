@@ -1,12 +1,58 @@
 {
-  "teamKey": "Sognda",
-
-  "name": "Sogndal IL",
-
-  "logo": "assets/logos/europe/norway/Sogndal.png",
-
-  "stadium": {
-    "name": "Fosshaugane Campus",
-    "capacity": 5600
+    "teamKey": "Sognda",
+  
+    "name": "Sogndal IL",
+  
+    "logo": "assets/logos/europe/norway/Sogndal.png",
+  
+    "manager": {
+      "name": "Erik Hovland",
+      "country": "NO"
+    },
+  
+    "stadium": {
+      "name": "Fosshaugane Campus",
+      "capacity": 5600
+    },
+  
+    "players": [
+      {"playerId": "player_no2_013_01", "name": "Renze Fij", "number": 1, "position": "GK", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_013_02", "name": "Martin Ove Roseth", "number": 2, "position": "RB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_013_03", "name": "Daniel Arrocha", "number": 4, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_013_04", "name": "Mansour Gueye", "number": 5, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_013_05", "name": "Per Egil Flo", "number": 3, "position": "LB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_013_06", "name": "Kasper Skaanes", "number": 6, "position": "CDM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_013_07", "name": "Lukass Vapne", "number": 8, "position": "CM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_013_08", "name": "Oliver Hintsa", "number": 7, "position": "RW", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_013_09", "name": "Oscar Solnørdal", "number": 10, "position": "CAM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_013_10", "name": "Diogo Brás", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+      {"playerId": "player_no2_013_11", "name": "Fabio Sturgeon", "number": 17, "position": "RW", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_no2_013_12", "name": "Jørgen Johnsen", "number": 12, "position": "GK", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_013_13", "name": "Andreas van der Spa", "number": 14, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_013_14", "name": "Eirik Lereng", "number": 15, "position": "RB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_013_15", "name": "Vegard Hagen", "number": 16, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_013_16", "name": "Felix Eriksson", "number": 23, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_013_17", "name": "Mathias Øren", "number": 11, "position": "LW", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_013_18", "name": "Tuomas Pippola", "number": 18, "position": "CM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_013_19", "name": "Brage Tobiassen", "number": 20, "position": "RM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_013_20", "name": "Martin Høyland", "number": 21, "position": "LM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_013_21", "name": "Daniel Karlsbakk", "number": 22, "position": "CAM", "country": "NO", "status": "bench"},
+  
+      {"playerId": "player_no2_013_22", "name": "Mathias Dyngeland", "number": 30, "position": "GK", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_013_23", "name": "Abduljeleel Abdulateef", "number": 19, "position": "LW", "country": "NG", "status": "reserve"},
+      {"playerId": "player_no2_013_24", "name": "Villads Rasmussen", "number": 27, "position": "ST", "country": "DK", "status": "reserve"},
+      {"playerId": "player_no2_013_25", "name": "Andreas Hoven", "number": 29, "position": "ST", "country": "NO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
