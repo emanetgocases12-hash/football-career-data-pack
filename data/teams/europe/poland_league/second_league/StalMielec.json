@@ -1,12 +1,58 @@
 {
-  "teamKey": "S Milec",
-
-  "name": "Stal Mielec",
-
-  "logo": "assets/logos/europe/poland/Mielec.png",
-
-  "stadium": {
-    "name": "Stadion Miejski imienia Grzegorza Lato w Mielcu",
-    "capacity": 6864
+    "teamKey": "S Milec",
+  
+    "name": "Stal Mielec",
+  
+    "logo": "assets/logos/europe/poland/Mielec.png",
+  
+    "manager": {
+      "name": "Janusz Niedźwiedź",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Stadion Miejski imienia Grzegorza Lato w Mielcu",
+      "capacity": 6864
+    },
+  
+    "players": [
+      {"playerId": "player_pl2_015_01", "name": "Konrad Jałocha", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_015_02", "name": "Bert Esselink", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
+      {"playerId": "player_pl2_015_03", "name": "Mateusz Matras", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_015_04", "name": "Krystian Getinger", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_015_05", "name": "Marvin Senger", "number": 3, "position": "LB", "country": "DE", "status": "starter"},
+      {"playerId": "player_pl2_015_06", "name": "Fryderyk Gerbowski", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_015_07", "name": "Matthew Guillaumier", "number": 8, "position": "CM", "country": "MT", "status": "starter"},
+      {"playerId": "player_pl2_015_08", "name": "Koki Hinokio", "number": 7, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_pl2_015_09", "name": "Maciej Domański", "number": 10, "position": "CAM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_015_10", "name": "Said Hamulić", "number": 11, "position": "ST", "country": "BA", "status": "starter"},
+      {"playerId": "player_pl2_015_11", "name": "Łukasz Gerstenstein", "number": 9, "position": "LW", "country": "PL", "status": "starter"},
+  
+      {"playerId": "player_pl2_015_12", "name": "Jakub Mądrzyk", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_015_13", "name": "Piotr Wlazło", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_015_14", "name": "Maksymilian Pingot", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_015_15", "name": "Alvis Jaunzems", "number": 16, "position": "LB", "country": "LV", "status": "bench"},
+      {"playerId": "player_pl2_015_16", "name": "Łukasz Wolsztyński", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_015_17", "name": "Rafał Strączek", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_015_18", "name": "Krystian Kardyś", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_015_19", "name": "Michał Trąbka", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_015_20", "name": "Mateusz Mak", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_015_21", "name": "Bartosz Mroczek", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl2_015_22", "name": "Mateusz Dudek", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_015_23", "name": "Bert Esselink Jr.", "number": 24, "position": "RW", "country": "NL", "status": "reserve"},
+      {"playerId": "player_pl2_015_24", "name": "Michał Walski", "number": 25, "position": "ST", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_015_25", "name": "Kamil Kiereś Jr.", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
