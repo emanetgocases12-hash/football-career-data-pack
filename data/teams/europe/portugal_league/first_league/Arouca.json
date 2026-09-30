@@ -1,12 +1,58 @@
 {
-  "teamKey": "Arouca",
-
-  "name": "FC Arouca",
-
-  "logo": "assets/logos/europe/portugal/Arouca.png",
-
-  "stadium": {
-    "name": "Estádio Municipal de Arouca",
-    "capacity": 5000
+    "teamKey": "Arouca",
+  
+    "name": "FC Arouca",
+  
+    "logo": "assets/logos/europe/portugal/Arouca.png",
+  
+    "manager": {
+      "name": "Cláudio Botelho",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Municipal de Arouca",
+      "capacity": 5000
+    },
+  
+    "players": [
+      {"playerId": "player_pt1_002_01", "name": "Ignacio de Arruabarrena", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+      {"playerId": "player_pt1_002_02", "name": "José Fontán", "number": 2, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt1_002_03", "name": "Matías Rocha", "number": 4, "position": "CB", "country": "UY", "status": "starter"},
+      {"playerId": "player_pt1_002_04", "name": "Boris Popović", "number": 5, "position": "RB", "country": "RS", "status": "starter"},
+      {"playerId": "player_pt1_002_05", "name": "Tiago Esgaio", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_002_06", "name": "Pedro Santos", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_002_07", "name": "Taichi Fukui", "number": 8, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_pt1_002_08", "name": "Morlaye Sylla", "number": 7, "position": "RW", "country": "GN", "status": "starter"},
+      {"playerId": "player_pt1_002_09", "name": "Jason Remeseiro", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt1_002_10", "name": "Henrique Araújo", "number": 11, "position": "ST", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_002_11", "name": "Yanis Begraoui", "number": 9, "position": "ST", "country": "MA", "status": "starter"},
+  
+      {"playerId": "player_pt1_002_12", "name": "Nico Mantl", "number": 12, "position": "GK", "country": "DE", "status": "bench"},
+      {"playerId": "player_pt1_002_13", "name": "Amadou Dante", "number": 14, "position": "CB", "country": "ML", "status": "bench"},
+      {"playerId": "player_pt1_002_14", "name": "Weverson", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_002_15", "name": "Bogdan Milovanov", "number": 16, "position": "LB", "country": "BG", "status": "bench"},
+      {"playerId": "player_pt1_002_16", "name": "David Simão", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_002_17", "name": "Alfonso Trezza", "number": 18, "position": "LW", "country": "UY", "status": "bench"},
+      {"playerId": "player_pt1_002_18", "name": "Ivo Rodrigues", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_002_19", "name": "Pablo Gozálbez", "number": 20, "position": "RM", "country": "ES", "status": "bench"},
+      {"playerId": "player_pt1_002_20", "name": "Alex Pinto", "number": 21, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_002_21", "name": "Barbero", "number": 22, "position": "CAM", "country": "ES", "status": "bench"},
+  
+      {"playerId": "player_pt1_002_22", "name": "Thiago Rodrigues", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_002_23", "name": "Miguel Puche", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_002_24", "name": "Abdullah Al-Musrati", "number": 24, "position": "LW", "country": "LY", "status": "reserve"},
+      {"playerId": "player_pt1_002_25", "name": "Dylan Nandín", "number": 25, "position": "ST", "country": "UY", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
