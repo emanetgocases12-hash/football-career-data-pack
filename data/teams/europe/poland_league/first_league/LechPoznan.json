@@ -1,12 +1,58 @@
 {
-  "teamKey": "Lech P",
-
-  "name": "Lech Poznan",
-
-  "logo": "assets/logos/europe/poland/Lech.png",
-
-  "stadium": {
-    "name": "Enea Poznań",
-    "capacity": 42837
+    "teamKey": "Lech P",
+  
+    "name": "Lech Poznan",
+  
+    "logo": "assets/logos/europe/poland/Lech.png",
+  
+    "manager": {
+      "name": "Niels Frederiksen",
+      "country": "DK"
+    },
+  
+    "stadium": {
+      "name": "Enea Poznań",
+      "capacity": 42837
+    },
+  
+    "players": [
+      {"playerId": "player_pl1_006_01", "name": "Mateusz Lis", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_006_02", "name": "Joel Pereira", "number": 2, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pl1_006_03", "name": "Alex Douglas", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_pl1_006_04", "name": "João Moutinho", "number": 5, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pl1_006_05", "name": "Michał Gurgul", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_006_06", "name": "Gustav Berggren", "number": 6, "position": "CDM", "country": "SE", "status": "starter"},
+      {"playerId": "player_pl1_006_07", "name": "Ali Gholizadeh", "number": 8, "position": "CM", "country": "IR", "status": "starter"},
+      {"playerId": "player_pl1_006_08", "name": "Patrik Wålemark", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_pl1_006_09", "name": "Daniel Håkans", "number": 10, "position": "CAM", "country": "FI", "status": "starter"},
+      {"playerId": "player_pl1_006_10", "name": "Mikael Ishak", "number": 11, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_pl1_006_11", "name": "Yannick Agnero", "number": 9, "position": "LW", "country": "CI", "status": "starter"},
+  
+      {"playerId": "player_pl1_006_12", "name": "Bartosz Mrozek", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_006_13", "name": "Robert Gumny", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_006_14", "name": "Timothy Ouma", "number": 15, "position": "RB", "country": "KE", "status": "bench"},
+      {"playerId": "player_pl1_006_15", "name": "Mateusz Skrzypczak", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_006_16", "name": "Wojciech Mońka", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_006_17", "name": "Leo Bengtsson", "number": 20, "position": "LW", "country": "SE", "status": "bench"},
+      {"playerId": "player_pl1_006_18", "name": "Allahyar Sayyadmanesh", "number": 21, "position": "CM", "country": "IR", "status": "bench"},
+      {"playerId": "player_pl1_006_19", "name": "Pablo Rodríguez", "number": 22, "position": "RM", "country": "ES", "status": "bench"},
+      {"playerId": "player_pl1_006_20", "name": "Radosław Murawski", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_006_21", "name": "Filip Jagiełło", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl1_006_22", "name": "Michał Pruchniewski", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_006_23", "name": "Bryan Fiabema", "number": 24, "position": "RW", "country": "NO", "status": "reserve"},
+      {"playerId": "player_pl1_006_24", "name": "Luis Palma", "number": 25, "position": "ST", "country": "HN", "status": "reserve"},
+      {"playerId": "player_pl1_006_25", "name": "Antoni Kozubal", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
