@@ -1,12 +1,58 @@
 {
-  "teamKey": "Korona",
-
-  "name": "Korona Kielce",
-
-  "logo": "assets/logos/europe/poland/Korona.png",
-
-  "stadium": {
-    "name": "Exbud Arena",
-    "capacity": 15700
+    "teamKey": "Korona",
+  
+    "name": "Korona Kielce",
+  
+    "logo": "assets/logos/europe/poland/Korona.png",
+  
+    "manager": {
+      "name": "Jacek Zieliński",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Exbud Arena",
+      "capacity": 15700
+    },
+  
+    "players": [
+      {"playerId": "player_pl1_005_01", "name": "Xavier Dziekoński", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_005_02", "name": "Ariel Mosór", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_005_03", "name": "Marcel Pięczek", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_005_04", "name": "Konrad Matuszewski", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_005_05", "name": "Slobodan Rubežić", "number": 3, "position": "LB", "country": "ME", "status": "starter"},
+      {"playerId": "player_pl1_005_06", "name": "Dawid Błanik", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_005_07", "name": "Martin Remacle", "number": 8, "position": "CM", "country": "BE", "status": "starter"},
+      {"playerId": "player_pl1_005_08", "name": "Stjepan Davidović", "number": 7, "position": "RW", "country": "HR", "status": "starter"},
+      {"playerId": "player_pl1_005_09", "name": "Nono", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_pl1_005_10", "name": "Mariusz Stępiński", "number": 11, "position": "ST", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl1_005_11", "name": "Marvin Faßbender", "number": 9, "position": "LW", "country": "DE", "status": "starter"},
+  
+      {"playerId": "player_pl1_005_12", "name": "Rafał Mamla", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_005_13", "name": "Bartłomiej Smolarczyk", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_005_14", "name": "Hubert Zwoźny", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_005_15", "name": "Konstantinos Sotiriou", "number": 16, "position": "LB", "country": "CY", "status": "bench"},
+      {"playerId": "player_pl1_005_16", "name": "Natan Barczak", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_005_17", "name": "Patrik Hellebrand", "number": 20, "position": "LW", "country": "CZ", "status": "bench"},
+      {"playerId": "player_pl1_005_18", "name": "Michael Ameyaw", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl1_005_19", "name": "Cristian Mena", "number": 22, "position": "RM", "country": "CO", "status": "bench"},
+      {"playerId": "player_pl1_005_20", "name": "Ondřej Lingr", "number": 23, "position": "LM", "country": "CZ", "status": "bench"},
+      {"playerId": "player_pl1_005_21", "name": "Simon Gustafson", "number": 17, "position": "CM", "country": "SE", "status": "bench"},
+  
+      {"playerId": "player_pl1_005_22", "name": "Maksymilian Mikielewicz", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_005_23", "name": "Kacper Toboła", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_005_24", "name": "Daniel Bąk", "number": 25, "position": "ST", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl1_005_25", "name": "Tamar Svetlin", "number": 27, "position": "ST", "country": "SI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
