@@ -1,12 +1,58 @@
 {
-  "teamKey": "Hødd",
-
-  "name": "IL Hødd",
-
-  "logo": "assets/logos/europe/norway/Hodd.png",
-
-  "stadium": {
-    "name": "Nye Høddvoll Stadion",
-    "capacity": 4000
+    "teamKey": "Hødd",
+  
+    "name": "IL Hødd",
+  
+    "logo": "assets/logos/europe/norway/Hodd.png",
+  
+    "manager": {
+      "name": "Joakim Dragsten",
+      "country": "NO"
+    },
+  
+    "stadium": {
+      "name": "Nye Høddvoll Stadion",
+      "capacity": 4000
+    },
+  
+    "players": [
+      {"playerId": "player_no2_005_01", "name": "Oscar Gadeberg Buur", "number": 1, "position": "GK", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_005_02", "name": "Sondre Fosnæss Hanssen", "number": 2, "position": "RB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_005_03", "name": "Mirza Mulac", "number": 4, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_005_04", "name": "Marcus Mikhail", "number": 5, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_005_05", "name": "Jesper Bergset Robertsen", "number": 3, "position": "LB", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_005_06", "name": "Halvard Kvamme Urnes", "number": 6, "position": "CDM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_005_07", "name": "Matthew Angelo Scarcella", "number": 8, "position": "CM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_005_08", "name": "Torbjørn Kallevåg", "number": 7, "position": "RW", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_005_09", "name": "Isak Gabriel Skotheim", "number": 10, "position": "CAM", "country": "NO", "status": "starter"},
+      {"playerId": "player_no2_005_10", "name": "Cameron Streete", "number": 9, "position": "ST", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_no2_005_11", "name": "Martin Håheim-Elveseter", "number": 17, "position": "RW", "country": "NO", "status": "starter"},
+  
+      {"playerId": "player_no2_005_12", "name": "Thomas Kinn", "number": 12, "position": "GK", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_005_13", "name": "Eirik Espelid Blikstad", "number": 14, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_005_14", "name": "Fredrik Dimmen Gjerde", "number": 15, "position": "RB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_005_15", "name": "Åsmund Dimmen Roppen", "number": 16, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_005_16", "name": "Gudmund Andresen", "number": 23, "position": "CB", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_005_17", "name": "Sebastian Biller Mikkelsen", "number": 11, "position": "LW", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_005_18", "name": "Sean Nilsen-Modebe", "number": 18, "position": "CM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_005_19", "name": "Manaf Rawufu", "number": 20, "position": "RM", "country": "GH", "status": "bench"},
+      {"playerId": "player_no2_005_20", "name": "Peder Brekke", "number": 21, "position": "LM", "country": "NO", "status": "bench"},
+      {"playerId": "player_no2_005_21", "name": "Noah Jenssen Riise", "number": 22, "position": "CAM", "country": "NO", "status": "bench"},
+  
+      {"playerId": "player_no2_005_22", "name": "Mathias Moltubakk", "number": 30, "position": "GK", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_005_23", "name": "Ole Sebastian Sundgot", "number": 19, "position": "LW", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_005_24", "name": "Ali Memed", "number": 27, "position": "ST", "country": "NO", "status": "reserve"},
+      {"playerId": "player_no2_005_25", "name": "Olaf Bárðarson", "number": 29, "position": "ST", "country": "FO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
