@@ -1,12 +1,58 @@
 {
-  "teamKey": "Siedlc",
-
-  "name": "Pogon Siedlce",
-
-  "logo": "assets/logos/europe/poland/Pogon.png",
-
-  "stadium": {
-    "name": "Stadion ROSRRiT",
-    "capacity": 2901
+    "teamKey": "Siedlc",
+  
+    "name": "Pogon Siedlce",
+  
+    "logo": "assets/logos/europe/poland/Pogon.png",
+  
+    "manager": {
+      "name": "Marek Brzozowski",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Stadion ROSRRiT",
+      "capacity": 2901
+    },
+  
+    "players": [
+      {"playerId": "player_pl2_009_01", "name": "Michał Rutkowski", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_009_02", "name": "Damian Jakubik", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_009_03", "name": "Tomasz Lewandowski", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_009_04", "name": "Michał Maj", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_009_05", "name": "Oskar Repka", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_009_06", "name": "Cezary Demianiuk", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_009_07", "name": "Bartosz Mroczek", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_009_08", "name": "Michał Wrzosek", "number": 7, "position": "RW", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_009_09", "name": "Damian Szuprytowski", "number": 10, "position": "CAM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_009_10", "name": "Maciej Górski", "number": 11, "position": "ST", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_009_11", "name": "Kamil Walków Jr.", "number": 9, "position": "LW", "country": "PL", "status": "starter"},
+  
+      {"playerId": "player_pl2_009_12", "name": "Jakub Burek", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_009_13", "name": "Marcin Flis", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_009_14", "name": "Kamil Walków", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_009_15", "name": "Bartosz Wiktoruk", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_009_16", "name": "Kacper Skwierczyński", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_009_17", "name": "Jakub Sinior", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_009_18", "name": "Mateusz Majewski", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_009_19", "name": "Oskar Krzyżak", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_009_20", "name": "Rafał Misztal", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_009_21", "name": "Mateusz Piotrowski", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl2_009_22", "name": "Patryk Bryła", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_009_23", "name": "Patryk Tuszyński", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_009_24", "name": "Mateusz Kluzek", "number": 25, "position": "ST", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_009_25", "name": "Jakub Okusami", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
