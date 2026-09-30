@@ -1,12 +1,58 @@
 {
-  "teamKey": "SanCla",
-
-  "name": "CD Santa Clara",
-
-  "logo": "assets/logos/europe/portugal/SantaClara.png",
-
-  "stadium": {
-    "name": "Estádio de São Miguel",
-    "capacity": 12500
+    "teamKey": "SanCla",
+  
+    "name": "CD Santa Clara",
+  
+    "logo": "assets/logos/europe/portugal/SantaClara.png",
+  
+    "manager": {
+      "name": "Armando Teixeira",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio de São Miguel",
+      "capacity": 12500
+    },
+  
+    "players": [
+      {"playerId": "player_pt1_016_01", "name": "Gabriel Batista", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_016_02", "name": "Pedro Pacheco", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_016_03", "name": "Sidney Lima", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_016_04", "name": "Ygor Nogueira", "number": 5, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_016_05", "name": "Guilherme Ramos", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_016_06", "name": "Adriano Firmino", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_016_07", "name": "Ricardinho", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_016_08", "name": "MT", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_016_09", "name": "Djé Tavares", "number": 10, "position": "CAM", "country": "CV", "status": "starter"},
+      {"playerId": "player_pt1_016_10", "name": "Safira", "number": 11, "position": "ST", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_016_11", "name": "João Costa", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_pt1_016_12", "name": "Neneca", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_016_13", "name": "Matheus Pereira", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_016_14", "name": "Lucas Soares", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_016_15", "name": "Guilherme Romão", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_016_16", "name": "Pedro Ferreira", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_016_17", "name": "Vinicius Lopes", "number": 18, "position": "LW", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_016_18", "name": "Brenner", "number": 19, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt1_016_19", "name": "Serginho", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_016_20", "name": "Gabriel Silva", "number": 21, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_016_21", "name": "Gonçalo Paciência", "number": 22, "position": "CAM", "country": "PT", "status": "bench"},
+  
+      {"playerId": "player_pt1_016_22", "name": "Marcos Díaz", "number": 30, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_pt1_016_23", "name": "Alisson Safira", "number": 23, "position": "RW", "country": "BR", "status": "reserve"},
+      {"playerId": "player_pt1_016_24", "name": "Lucas Farias", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_016_25", "name": "Vivaldo Semedo", "number": 25, "position": "ST", "country": "GW", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
