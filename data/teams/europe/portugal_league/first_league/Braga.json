@@ -1,12 +1,58 @@
 {
-  "teamKey": "Braga",
-
-  "name": "SC Braga",
-
-  "logo": "assets/logos/europe/portugal/Braga.png",
-
-  "stadium": {
-    "name": "Estádio Municipal de Braga",
-    "capacity": 30286
+    "teamKey": "Braga",
+  
+    "name": "SC Braga",
+  
+    "logo": "assets/logos/europe/portugal/Braga.png",
+  
+    "manager": {
+      "name": "Juan Carlos Vicens",
+      "country": "ES"
+    },
+  
+    "stadium": {
+      "name": "Estádio Municipal de Braga",
+      "capacity": 30286
+    },
+  
+    "players": [
+      {"playerId": "player_pt1_004_01", "name": "Tiago Sá", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_004_02", "name": "Victor Gómez", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_004_03", "name": "Gustaf Lagerbielke", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_pt1_004_04", "name": "Sergio Barcia", "number": 5, "position": "RB", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt1_004_05", "name": "Bright Arrey-Mbi", "number": 3, "position": "LB", "country": "DE", "status": "starter"},
+      {"playerId": "player_pt1_004_06", "name": "Vítor Carvalho", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_004_07", "name": "João Moutinho", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_004_08", "name": "Tomás Marqués", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_004_09", "name": "Mario Dorgeles", "number": 10, "position": "CAM", "country": "CI", "status": "starter"},
+      {"playerId": "player_pt1_004_10", "name": "Fran Navarro", "number": 11, "position": "ST", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt1_004_11", "name": "Gabriel Silva", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_pt1_004_12", "name": "Bernardo Fontes", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_004_13", "name": "Adrian Barišić", "number": 14, "position": "CB", "country": "BA", "status": "bench"},
+      {"playerId": "player_pt1_004_14", "name": "Albian Hajdari", "number": 15, "position": "RB", "country": "CH", "status": "bench"},
+      {"playerId": "player_pt1_004_15", "name": "Leonardo Lelo", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_004_16", "name": "Diogo Travassos", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_004_17", "name": "Denis Huseinbašić", "number": 18, "position": "LW", "country": "BA", "status": "bench"},
+      {"playerId": "player_pt1_004_18", "name": "Jean-Baptiste Gorby", "number": 19, "position": "CM", "country": "FR", "status": "bench"},
+      {"playerId": "player_pt1_004_19", "name": "Demir Ege Tıknaz", "number": 20, "position": "RM", "country": "TR", "status": "bench"},
+      {"playerId": "player_pt1_004_20", "name": "Gabri Martínez", "number": 21, "position": "LM", "country": "ES", "status": "bench"},
+      {"playerId": "player_pt1_004_21", "name": "Pau Víctor", "number": 22, "position": "CAM", "country": "ES", "status": "bench"},
+  
+      {"playerId": "player_pt1_004_22", "name": "João Carvalho", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_004_23", "name": "Jovan Milošević", "number": 23, "position": "RW", "country": "RS", "status": "reserve"},
+      {"playerId": "player_pt1_004_24", "name": "Jonas Wind", "number": 24, "position": "LW", "country": "DK", "status": "reserve"},
+      {"playerId": "player_pt1_004_25", "name": "Ricardo Horta", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
