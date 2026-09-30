@@ -1,12 +1,58 @@
 {
-  "teamKey": "A'Viseu",
-
-  "name": "Académico Viseu FC",
-
-  "logo": "assets/logos/europe/portugal/Viseu.png",
-
-  "stadium": {
-    "name": "Estádio Municipal do Fontelo",
-    "capacity": 6912
+    "teamKey": "A'Viseu",
+  
+    "name": "Académico Viseu FC",
+  
+    "logo": "assets/logos/europe/portugal/Viseu.png",
+  
+    "manager": {
+      "name": "Bruno Pinheiro",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Municipal do Fontelo",
+      "capacity": 6912
+    },
+  
+    "players": [
+      {"playerId": "player_pt1_018_01", "name": "Domen Gril", "number": 1, "position": "GK", "country": "SI", "status": "starter"},
+      {"playerId": "player_pt1_018_02", "name": "João Guilherme", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_018_03", "name": "M. Bouldini", "number": 4, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_pt1_018_04", "name": "Yuri Araújo", "number": 5, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_018_05", "name": "Tiago Mesquita", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_018_06", "name": "Soufiane Messeguem", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_018_07", "name": "Cristian Castro", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_018_08", "name": "Paulinho", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_018_09", "name": "André Ceitil", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_018_10", "name": "M. Scholze", "number": 11, "position": "ST", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_018_11", "name": "João Pinto", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_pt1_018_12", "name": "André Clóvis", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_018_13", "name": "André Almeida", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_018_14", "name": "Mamadou Traoré", "number": 15, "position": "RB", "country": "ML", "status": "bench"},
+      {"playerId": "player_pt1_018_15", "name": "Marquinho", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_018_16", "name": "Messeguem", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_018_17", "name": "Tomas Silva", "number": 18, "position": "LW", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_018_18", "name": "Bandarra", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_018_19", "name": "Marquinho Jr.", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_018_20", "name": "Clóvis", "number": 21, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_018_21", "name": "Sori Mané", "number": 22, "position": "CAM", "country": "GW", "status": "bench"},
+  
+      {"playerId": "player_pt1_018_22", "name": "Gril", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_018_23", "name": "Marcos Paulo", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_018_24", "name": "Maga", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_018_25", "name": "Ricardo Janota", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
