@@ -1,12 +1,58 @@
 {
-  "teamKey": "SCP",
-
-  "name": "Sporting CP",
-
-  "logo": "assets/logos/europe/portugal/Sporting.png",
-
-  "stadium": {
-    "name": "Estádio José Alvalade",
-    "capacity": 52095
+    "teamKey": "SCP",
+  
+    "name": "Sporting CP",
+  
+    "logo": "assets/logos/europe/portugal/Sporting.png",
+  
+    "manager": {
+      "name": "Rui Borges",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio José Alvalade",
+      "capacity": 52095
+    },
+  
+    "players": [
+      {"playerId": "player_pt1_017_01", "name": "Rui Silva", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_017_02", "name": "Zeno Debast", "number": 2, "position": "CB", "country": "BE", "status": "starter"},
+      {"playerId": "player_pt1_017_03", "name": "Georgios Vagiannidis", "number": 4, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_pt1_017_04", "name": "Gonçalo Inácio", "number": 5, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_017_05", "name": "Ousmane Diomande", "number": 3, "position": "LB", "country": "CI", "status": "starter"},
+      {"playerId": "player_pt1_017_06", "name": "Sergi Altimira", "number": 6, "position": "CDM", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt1_017_07", "name": "João Simões", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_017_08", "name": "Pedro Lima", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_017_09", "name": "Issa Doumbia", "number": 10, "position": "CAM", "country": "CI", "status": "starter"},
+      {"playerId": "player_pt1_017_10", "name": "Fotis Ioannidis", "number": 11, "position": "ST", "country": "GR", "status": "starter"},
+      {"playerId": "player_pt1_017_11", "name": "Luis Suárez", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+  
+      {"playerId": "player_pt1_017_12", "name": "João Virgínia", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_017_13", "name": "Iván Fresneda", "number": 14, "position": "CB", "country": "ES", "status": "bench"},
+      {"playerId": "player_pt1_017_14", "name": "Eduardo Quaresma", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_017_15", "name": "Ibrahima Ba", "number": 16, "position": "LB", "country": "SN", "status": "bench"},
+      {"playerId": "player_pt1_017_16", "name": "Maxi Araújo", "number": 17, "position": "CB", "country": "UY", "status": "bench"},
+      {"playerId": "player_pt1_017_17", "name": "Silas Andersen", "number": 18, "position": "LW", "country": "DK", "status": "bench"},
+      {"playerId": "player_pt1_017_18", "name": "Rodrigo Zalazar", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_017_19", "name": "Pedro Gonçalves", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_017_20", "name": "Geny Catamo", "number": 21, "position": "LM", "country": "MZ", "status": "bench"},
+      {"playerId": "player_pt1_017_21", "name": "Luís Guilherme", "number": 22, "position": "CAM", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_pt1_017_22", "name": "Diego Callai", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_017_23", "name": "Rafael Nel", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_017_24", "name": "Jesse Derry", "number": 24, "position": "LW", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_pt1_017_25", "name": "Nestory Irankunda", "number": 25, "position": "ST", "country": "AU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
