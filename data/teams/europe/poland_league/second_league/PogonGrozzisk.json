@@ -1,12 +1,58 @@
 {
-  "teamKey": "P Grodz",
-
-  "name": "Pogon Grodzisk Mazowiecki",
-
-  "logo": "assets/logos/europe/poland/Grodisk.png",
-
-  "stadium": {
-    "name": "Stadion Znicza",
-    "capacity":2150
+    "teamKey": "P Grodz",
+  
+    "name": "Pogon Grodzisk Mazowiecki",
+  
+    "logo": "assets/logos/europe/poland/Grodisk.png",
+  
+    "manager": {
+      "name": "Piotr Stokowiec",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Stadion Znicza",
+      "capacity": 2150
+    },
+  
+    "players": [
+      {"playerId": "player_pl2_008_01", "name": "Patryk Brzozowski", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_008_02", "name": "Jakub Apolinarski", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_008_03", "name": "Mateusz Lisowski", "number": 4, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_008_04", "name": "Kamil Odolak", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_008_05", "name": "Michał Płonka", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_008_06", "name": "Patryk Czarnowski", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_008_07", "name": "Mateusz Maćkowiak", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_008_08", "name": "Michał Wrzesiński", "number": 7, "position": "RW", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_008_09", "name": "Bartosz Farbiszewski", "number": 10, "position": "CAM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_008_10", "name": "Norbert Pacławski", "number": 11, "position": "ST", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_008_11", "name": "Kamil Zapolnik", "number": 9, "position": "LW", "country": "PL", "status": "starter"},
+  
+      {"playerId": "player_pl2_008_12", "name": "Jakub Krajewski", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_008_13", "name": "Bartosz Kieliba", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_008_14", "name": "Dominik Kun", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_008_15", "name": "Michał Goliński", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_008_16", "name": "Dawid Dzięgielewski", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_008_17", "name": "Jakub Niewiadomski", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_008_18", "name": "Marcel Bykowski", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_008_19", "name": "Konrad Handzlik", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_008_20", "name": "Mateusz Małek", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_008_21", "name": "Kamil Odolak Jr.", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl2_008_22", "name": "Michał Sobczak", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_008_23", "name": "Michał Góral", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_008_24", "name": "Jakub Romanowicz", "number": 25, "position": "ST", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_008_25", "name": "Filip Majchrowicz", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
