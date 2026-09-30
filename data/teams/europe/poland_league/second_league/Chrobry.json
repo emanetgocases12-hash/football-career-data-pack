@@ -1,12 +1,58 @@
 {
-  "teamKey": "Chrbry",
-
-  "name": "Chrobry Glogow",
-
-  "logo": "assets/logos/europe/poland/Chrobry.png",
-
-  "stadium": {
-    "name": "Stadion GOS",
-    "capacity": 2817
+    "teamKey": "Chrbry",
+  
+    "name": "Chrobry Glogow",
+  
+    "logo": "assets/logos/europe/poland/Chrobry.png",
+  
+    "manager": {
+      "name": "Łukasz Becella",
+      "country": "PL"
+    },
+  
+    "stadium": {
+      "name": "Stadion GOS",
+      "capacity": 2817
+    },
+  
+    "players": [
+      {"playerId": "player_pl2_002_01", "name": "Dawid Kudła", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_002_02", "name": "Michał Michalec", "number": 2, "position": "RB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_002_03", "name": "Mavroudis Bougaidis", "number": 4, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_pl2_002_04", "name": "Marcel Ziemann", "number": 5, "position": "CB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_002_05", "name": "Patryk Mucha", "number": 3, "position": "LB", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_002_06", "name": "Sebastian Bonecki", "number": 6, "position": "CDM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_002_07", "name": "Robert Mandrysz", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_002_08", "name": "Mikołaj Lebedyński", "number": 7, "position": "RW", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_002_09", "name": "Kamil Antonik", "number": 10, "position": "CAM", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_002_10", "name": "Mateusz Machaj", "number": 11, "position": "ST", "country": "PL", "status": "starter"},
+      {"playerId": "player_pl2_002_11", "name": "Patryk Tuszyński", "number": 9, "position": "LW", "country": "PL", "status": "starter"},
+  
+      {"playerId": "player_pl2_002_12", "name": "Kacper Bieszczad", "number": 12, "position": "GK", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_002_13", "name": "Szymon Bartlewicz", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_002_14", "name": "Dominik Piła", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_002_15", "name": "Kamil Wojtyra", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_002_16", "name": "Mateusz Lewandowski", "number": 18, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_002_17", "name": "Mateusz Ozimek", "number": 20, "position": "LW", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_002_18", "name": "Bartosz Biel", "number": 21, "position": "CM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_002_19", "name": "Jakub Kuzdra", "number": 22, "position": "RM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_002_20", "name": "Radosław Adamski", "number": 23, "position": "LM", "country": "PL", "status": "bench"},
+      {"playerId": "player_pl2_002_21", "name": "Maksymilian Tkocz", "number": 17, "position": "CM", "country": "PL", "status": "bench"},
+  
+      {"playerId": "player_pl2_002_22", "name": "Karol Dybowski", "number": 30, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_002_23", "name": "Mikołaj Biegański", "number": 24, "position": "RW", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_002_24", "name": "Szymon Lewkot", "number": 25, "position": "ST", "country": "PL", "status": "reserve"},
+      {"playerId": "player_pl2_002_25", "name": "Bartosz Frączek", "number": 27, "position": "ST", "country": "PL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
