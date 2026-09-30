@@ -1,12 +1,58 @@
 {
-  "teamKey": "G'Vicen",
-
-  "name": "Gil Vicente FC",
-
-  "logo": "assets/logos/europe/portugal/Vicente.png",
-
-  "stadium": {
-    "name": "Estádio Cidade de Barcelos",
-    "capacity": 12046
+    "teamKey": "G'Vicen",
+  
+    "name": "Gil Vicente FC",
+  
+    "logo": "assets/logos/europe/portugal/Vicente.png",
+  
+    "manager": {
+      "name": "Luís Pinto",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Cidade de Barcelos",
+      "capacity": 12046
+    },
+  
+    "players": [
+      {"playerId": "player_pt1_009_01", "name": "Andrew Ventura", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_009_02", "name": "Gabriel Pereira", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_009_03", "name": "Rúben Fernandes", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_009_04", "name": "Jonathan Buatu", "number": 5, "position": "RB", "country": "AO", "status": "starter"},
+      {"playerId": "player_pt1_009_05", "name": "Kazu", "number": 3, "position": "LB", "country": "JP", "status": "starter"},
+      {"playerId": "player_pt1_009_06", "name": "Maxime Dominguez", "number": 6, "position": "CDM", "country": "CH", "status": "starter"},
+      {"playerId": "player_pt1_009_07", "name": "Kanya Fujimoto", "number": 8, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_pt1_009_08", "name": "Martim Neto", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt1_009_09", "name": "Santi García", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt1_009_10", "name": "Pablo Felipe", "number": 11, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt1_009_11", "name": "Depú", "number": 9, "position": "ST", "country": "AO", "status": "starter"},
+  
+      {"playerId": "player_pt1_009_12", "name": "Brian Araújo", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_009_13", "name": "Zé Carlos", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_009_14", "name": "Leonardo Buta", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_009_15", "name": "Sandro Cruz", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_009_16", "name": "Mory Gbane", "number": 17, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_pt1_009_17", "name": "João Teixeira", "number": 18, "position": "LW", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_009_18", "name": "Murilo", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt1_009_19", "name": "Tidjany Touré", "number": 20, "position": "RM", "country": "FR", "status": "bench"},
+      {"playerId": "player_pt1_009_20", "name": "Ali Alipour", "number": 21, "position": "LM", "country": "IR", "status": "bench"},
+      {"playerId": "player_pt1_009_21", "name": "Jorge Aguirre", "number": 22, "position": "CAM", "country": "ES", "status": "bench"},
+  
+      {"playerId": "player_pt1_009_22", "name": "Stanislav Kritsyuk", "number": 30, "position": "GK", "country": "RU", "status": "reserve"},
+      {"playerId": "player_pt1_009_23", "name": "Felipe Silva", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_009_24", "name": "Carlos Eduardo", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt1_009_25", "name": "Félix Correia", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
