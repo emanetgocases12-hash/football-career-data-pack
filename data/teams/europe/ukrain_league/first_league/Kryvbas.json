@@ -1,12 +1,58 @@
 {
-  "teamKey": "Kryvbs",
-
-  "name": "Kryvbas Kryvyi Rig",
-
-  "logo": "assets/logos/europe/ukrain/Kryvbas.png",
-
-  "stadium": {
-    "name": "Girnyk",
-    "capacity": 3219
+    "teamKey": "Kryvbs",
+  
+    "name": "Kryvbas Kryvyi Rig",
+  
+    "logo": "assets/logos/europe/ukrain/Kryvbas.png",
+  
+    "manager": {
+      "name": "Patrick van Leeuwen",
+      "country": "NL"
+    },
+  
+    "stadium": {
+      "name": "Girnyk",
+      "capacity": 3219
+    },
+  
+    "players": [
+      {"playerId": "player_ua1_010_01", "name": "Bohdan Khoma", "number": 1, "position": "GK", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_010_02", "name": "Tymur Boiar", "number": 2, "position": "RB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_010_03", "name": "Oleksii Buzovskyi", "number": 4, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_010_04", "name": "João Pedro Flores", "number": 5, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_ua1_010_05", "name": "Ramir Hubenko", "number": 3, "position": "LB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_010_06", "name": "Tymur Butenko", "number": 6, "position": "CDM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_010_07", "name": "Oleksandr Chernushkin", "number": 8, "position": "CM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_010_08", "name": "Jhonni Santiago Cuiza Cayo", "number": 7, "position": "RW", "country": "BO", "status": "starter"},
+      {"playerId": "player_ua1_010_09", "name": "Bar Shmuel Enosh Lin", "number": 10, "position": "CAM", "country": "IL", "status": "starter"},
+      {"playerId": "player_ua1_010_10", "name": "Volodymyr Mulyk", "number": 11, "position": "ST", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_010_11", "name": "Danylo Obolientsev", "number": 9, "position": "LW", "country": "UA", "status": "starter"},
+  
+      {"playerId": "player_ua1_010_12", "name": "Abdulmajid Mohammed Danladi", "number": 12, "position": "GK", "country": "NG", "status": "bench"},
+      {"playerId": "player_ua1_010_13", "name": "Thiago Isabel", "number": 14, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_ua1_010_14", "name": "Geremias Jimmy Lima Mpanzu", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_ua1_010_15", "name": "Yevhen Maiakov", "number": 16, "position": "LB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_010_16", "name": "Volodymyr Vilivald", "number": 17, "position": "CB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_010_17", "name": "Giovani Aimar Herbert Forcheney", "number": 18, "position": "LW", "country": "PA", "status": "bench"},
+      {"playerId": "player_ua1_010_18", "name": "Denys Pidhurskyi", "number": 19, "position": "CM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_010_19", "name": "Yackson Stiven Rivas", "number": 20, "position": "RM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ua1_010_20", "name": "Assane Seck", "number": 21, "position": "LM", "country": "SN", "status": "bench"},
+      {"playerId": "player_ua1_010_21", "name": "Aharon Roy Nawi", "number": 22, "position": "CAM", "country": "IL", "status": "bench"},
+  
+      {"playerId": "player_ua1_010_22", "name": "Danylo Sychov", "number": 30, "position": "GK", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_010_23", "name": "Rostyslav Plotko", "number": 23, "position": "RW", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_010_24", "name": "Shakeone Sean Satchwell", "number": 24, "position": "ST", "country": "JM", "status": "reserve"},
+      {"playerId": "player_ua1_010_25", "name": "Maksym Shpylka", "number": 25, "position": "ST", "country": "UA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
