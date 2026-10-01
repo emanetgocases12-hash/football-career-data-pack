@@ -1,12 +1,58 @@
 {
-  "teamKey": "S Mrtin",
-
-  "name": "Club Atlético San Martín (Tucumán)",
-
-  "logo": "assets/logos/south_america/argentina/Smrtin.png",
-
-  "stadium": {
-    "name": "La Ciudadela",
-    "capacity": 28500
+    "teamKey": "S Mrtin",
+  
+    "name": "Club Atlético San Martín (Tucumán)",
+  
+    "logo": "assets/logos/south_america/argentina/Smrtin.png",
+  
+    "manager": {
+      "name": "Alejandro Orfila",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "La Ciudadela",
+      "capacity": 28500
+    },
+  
+    "players": [
+      {"playerId": "player_ar2_031_01", "name": "Darío Sand", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_031_02", "name": "Agustín Dattola", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_031_03", "name": "Juan Orellana", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_031_04", "name": "Nicolás Moreno", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_031_05", "name": "Nahuel Banegas", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_031_06", "name": "Iván Molinas", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_031_07", "name": "Franco García", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_031_08", "name": "Ulises Vera", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_031_09", "name": "Juan Cuevas", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_031_10", "name": "Agustín Prokop", "number": 11, "position": "LM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_031_11", "name": "Nicolás Ferreyra", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ar2_031_12", "name": "Gonzalo Rodríguez", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_031_13", "name": "Pablo Hernández", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_031_14", "name": "Franco Meritello", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_031_15", "name": "Matías García", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_031_16", "name": "Gonzalo Bettini", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_031_17", "name": "Lautaro Fedele", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_031_18", "name": "Junior Arias", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_031_19", "name": "Nahuel Manganelli", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_031_20", "name": "Ezequiel Parnisari", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_031_21", "name": "Victor Salazar", "number": 20, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ar2_031_22", "name": "Juan Jaime", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_031_23", "name": "Gustavo Abregú", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_031_24", "name": "Gabriel Carabajal", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_031_25", "name": "Diego Diellos", "number": 27, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
