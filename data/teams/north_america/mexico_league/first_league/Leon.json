@@ -1,12 +1,56 @@
 {
-  "teamKey": "Leon",
-
-  "name": "Club León FC",
-
-  "logo": "assets/logos/north_america/mexico/Leon.png",
-
-  "stadium": {
-    "name": "Nou Camp",
-    "capacity": 33943
+    "teamKey": "Leon",
+  
+    "name": "Club León FC",
+  
+    "logo": "assets/logos/north_america/mexico/Leon.png",
+  
+    "manager": {
+      "name": "Javier Gandolfi",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Nou Camp",
+      "capacity": 33943
+    },
+  
+    "players": [
+      {"playerId": "player_mx1_007_01", "name": "Julio González", "number": 12, "position": "GK", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_007_02", "name": "Valentín Gauthier", "number": 2, "position": "RB", "country": "UY", "status": "starter"},
+      {"playerId": "player_mx1_007_03", "name": "Juan Guevara", "number": 3, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_mx1_007_04", "name": "Bryan Colula", "number": 4, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_007_05", "name": "Sebastián Vegas", "number": 5, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_mx1_007_06", "name": "Santiago Colombatto", "number": 36, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_mx1_007_07", "name": "Fernando Beltrán", "number": 6, "position": "CM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_007_08", "name": "Juan Domínguez", "number": 8, "position": "CAM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_007_09", "name": "Daniel Arcila", "number": 13, "position": "RW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_007_10", "name": "Sebastián Fierro", "number": 15, "position": "LW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_007_11", "name": "Ismael Díaz", "number": 11, "position": "ST", "country": "PA", "status": "starter"},
+      {"playerId": "player_mx1_007_12", "name": "Óscar García", "number": 23, "position": "GK", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_007_13", "name": "Iván Moreno", "number": 7, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_007_14", "name": "Jhohan Romaña", "number": 14, "position": "RB", "country": "CO", "status": "bench"},
+      {"playerId": "player_mx1_007_15", "name": "Rodrigo Echeverría", "number": 20, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_mx1_007_16", "name": "Paúl Bellón", "number": 25, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_007_17", "name": "Jordi Cortizo", "number": 16, "position": "CM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_007_18", "name": "Edgar Guerra", "number": 18, "position": "CDM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_007_19", "name": "Salvador Reyes", "number": 26, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_007_20", "name": "David Ramírez", "number": 28, "position": "CAM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_007_21", "name": "Alfonso Alvarado", "number": 19, "position": "LW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_007_22", "name": "Iván Rodríguez", "number": 29, "position": "LM", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx1_007_23", "name": "Ángel Estrada", "number": 30, "position": "RM", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx1_007_24", "name": "Santiago Londoño", "number": 21, "position": "RW", "country": "CO", "status": "reserve"},
+      {"playerId": "player_mx1_007_25", "name": "Díber Cambindo", "number": 27, "position": "ST", "country": "CO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 12,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 8
+      }
+    }
   }
-}
