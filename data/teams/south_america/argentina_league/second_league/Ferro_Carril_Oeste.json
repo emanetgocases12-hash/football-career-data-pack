@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ferro",
-
-  "name": "Club Ferro Carril Oeste",
-
-  "logo": "assets/logos/south_america/argentina/Ferro.png",
-
-  "stadium": {
-    "name": "Arquitecto Ricardo Etcheverri",
-    "capacity": 8472
+    "teamKey": "Ferro",
+  
+    "name": "Club Ferro Carril Oeste",
+  
+    "logo": "assets/logos/south_america/argentina/Ferro.png",
+  
+    "manager": {
+      "name": "Alfredo Grelak",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Arquitecto Ricardo Etcheverri",
+      "capacity": 8472
+    },
+  
+    "players": [
+      {"playerId": "player_ar2_016_01", "name": "Fernando Monetti", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_016_02", "name": "Nazareno Kihm", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_016_03", "name": "Sebastián Corda", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_016_04", "name": "Leandro Peña Biafore", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_016_05", "name": "Gustavo Canto", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_016_06", "name": "Felipe Obradovich", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_016_07", "name": "Enzo Hoyos", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_016_08", "name": "Ángel González", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_016_09", "name": "Gonzalo Castellani", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_016_10", "name": "Lautaro Parisi", "number": 11, "position": "LM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_016_11", "name": "Mateo Benegas", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ar2_016_12", "name": "Lucas Ruiz", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_016_13", "name": "Juan Orellana", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_016_14", "name": "Emiliano Osuna", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_016_15", "name": "Federico Tévez", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_016_16", "name": "Fernando Torrent", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_016_17", "name": "Jonathan Menéndez", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_016_18", "name": "Nicolás Gómez", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_016_19", "name": "Matías Kabalin", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_016_20", "name": "Franco García", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_016_21", "name": "Uriel Pepe", "number": 20, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ar2_016_22", "name": "Alfonso Álvarez", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_016_23", "name": "Misael Tarón", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_016_24", "name": "Emanuel Dening", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_016_25", "name": "Martín Campos", "number": 27, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
