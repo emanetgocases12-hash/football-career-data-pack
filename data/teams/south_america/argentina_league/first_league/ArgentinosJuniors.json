@@ -1,12 +1,58 @@
 {
-  "teamKey": "Argn jr",
-
-  "name": "AA Argentinos Juniors",
-
-  "logo": "assets/logos/south_america/argentina/Argnjr.png",
-
-  "stadium": {
-    "name": "Diego Armando Maradona",
-    "capacity": 22063
+    "teamKey": "Argn jr",
+  
+    "name": "AA Argentinos Juniors",
+  
+    "logo": "assets/logos/south_america/argentina/Argnjr.png",
+  
+    "manager": {
+      "name": "Nicolás Diez",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Diego Armando Maradona",
+      "capacity": 22063
+    },
+  
+    "players": [
+      {"playerId": "player_ar1_003_01", "name": "Brayan Cortés", "number": 1, "position": "GK", "country": "CL", "status": "starter"},
+      {"playerId": "player_ar1_003_02", "name": "Francisco Álvarez", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_003_03", "name": "Luciano Sánchez", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_003_04", "name": "Alan Núñez", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_003_05", "name": "Claudio Bravo", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_003_06", "name": "Gino Infantino", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_003_07", "name": "Hernán López Muñoz", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_003_08", "name": "Kevin Gutiérrez", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_003_09", "name": "Federico Mancuello", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_003_10", "name": "Nicolás Oroz", "number": 11, "position": "LM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_003_11", "name": "Tomás Molina", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ar1_003_12", "name": "Gonzalo Siri Payer", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_003_13", "name": "Santiago Silveira", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_003_14", "name": "Franco Paredes", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_003_15", "name": "Kevin Coronel", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_003_16", "name": "Erik Godoy", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_003_17", "name": "Gabriel Florentín", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_003_18", "name": "Joaquín Gho", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_003_19", "name": "Emiliano Viveros", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_003_20", "name": "Gastón Verón", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_003_21", "name": "Ryoga Kida", "number": 20, "position": "RW", "country": "JP", "status": "bench"},
+  
+      {"playerId": "player_ar1_003_22", "name": "Agustín Mangiaut", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_003_23", "name": "Sebastián Prieto", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_003_24", "name": "Matías Giménez Rojas", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_003_25", "name": "Alan Alcaraz", "number": 27, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
