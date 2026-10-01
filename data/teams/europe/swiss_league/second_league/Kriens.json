@@ -1,12 +1,58 @@
 {
-  "teamKey": "Kriens",
-
-  "name": "SC Kriens",
-
-  "logo": "assets/logos/europe/swiss/Kriens.png",
-
-  "stadium": {
-    "name": "Kleinfeld",
-    "capacity": 5100
+    "teamKey": "Kriens",
+  
+    "name": "SC Kriens",
+  
+    "logo": "assets/logos/europe/swiss/Kriens.png",
+  
+    "manager": {
+      "name": "Mike Winsauer",
+      "country": "AT"
+    },
+  
+    "stadium": {
+      "name": "Kleinfeld",
+      "capacity": 5100
+    },
+  
+    "players": [
+      {"playerId": "player_ch2_004_01", "name": "Ruben Salchli", "number": 1, "position": "GK", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_004_02", "name": "Kevin Tröndle", "number": 2, "position": "RB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_004_03", "name": "Manuel Fäh", "number": 4, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_004_04", "name": "Mauricio Willimann", "number": 5, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_004_05", "name": "Marvin Akahomen", "number": 3, "position": "LB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_004_06", "name": "Lukas Riedmann", "number": 6, "position": "CDM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_004_07", "name": "Alejandro Willimann", "number": 8, "position": "CM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_004_08", "name": "Luka Sliskovic", "number": 7, "position": "RW", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_004_09", "name": "Malek Ishuayed", "number": 10, "position": "CAM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_004_10", "name": "Martin François", "number": 11, "position": "LW", "country": "FR", "status": "starter"},
+      {"playerId": "player_ch2_004_11", "name": "Albin Krasniqi", "number": 9, "position": "ST", "country": "XK", "status": "starter"},
+  
+      {"playerId": "player_ch2_004_12", "name": "Patrick Zajac", "number": 12, "position": "GK", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_004_13", "name": "Enea Heiniger", "number": 14, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_004_14", "name": "Julian Hermann", "number": 15, "position": "RB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_004_15", "name": "Lorin Jetzer", "number": 16, "position": "LB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_004_16", "name": "Yuro Bohon Diet", "number": 17, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_004_17", "name": "Bleron Mulliqi", "number": 18, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_ch2_004_18", "name": "Luca Romano", "number": 19, "position": "RM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_004_19", "name": "Elio Rufener", "number": 20, "position": "LM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_004_20", "name": "Pascal Utz", "number": 21, "position": "CAM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_004_21", "name": "Rrezart Hoxha", "number": 22, "position": "RW", "country": "XK", "status": "bench"},
+  
+      {"playerId": "player_ch2_004_22", "name": "Tobias Mauch", "number": 30, "position": "GK", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_004_23", "name": "Célien Wicht", "number": 23, "position": "LW", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_004_24", "name": "Nico Siegrist", "number": 24, "position": "ST", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_004_25", "name": "Daoud Touré", "number": 25, "position": "ST", "country": "FR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
