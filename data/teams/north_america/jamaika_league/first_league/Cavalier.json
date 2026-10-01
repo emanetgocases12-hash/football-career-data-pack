@@ -1,12 +1,58 @@
 {
-  "teamKey": "Cavali",
-
-  "name": "Cavalier SC",
-
-  "logo": "assets/logos/north_america/jamaika/Cavali.png",
-
-  "stadium": {
-    "name": "Stadium East",
-    "capacity": 3000
+    "teamKey": "Cavali",
+  
+    "name": "Cavalier SC",
+  
+    "logo": "assets/logos/north_america/jamaika/Cavali.png",
+  
+    "manager": {
+      "name": "Rudolph Speid",
+      "country": "JM"
+    },
+  
+    "stadium": {
+      "name": "Stadium East",
+      "capacity": 3000
+    },
+  
+    "players": [
+      {"playerId": "player_jm1_002_01", "name": "Taywane Lynch", "number": 1, "position": "GK", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_002_02", "name": "Akil Henry", "number": 2, "position": "RB", "country": "TT", "status": "starter"},
+      {"playerId": "player_jm1_002_03", "name": "Johni Morgan", "number": 4, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_002_04", "name": "Deshawn Talbert", "number": 5, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_002_05", "name": "Jahdiel Russell", "number": 3, "position": "LB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_002_06", "name": "Dahmani Miller", "number": 6, "position": "CDM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_002_07", "name": "Omari Grant", "number": 8, "position": "CM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_002_08", "name": "Kyle Belizaire", "number": 7, "position": "RW", "country": "TC", "status": "starter"},
+      {"playerId": "player_jm1_002_09", "name": "Keanu Reid", "number": 10, "position": "CAM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_002_10", "name": "Chad James", "number": 11, "position": "ST", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_002_11", "name": "Omario Henry", "number": 9, "position": "RW", "country": "JM", "status": "starter"},
+  
+      {"playerId": "player_jm1_002_12", "name": "Jordan Reddison", "number": 12, "position": "GK", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_002_13", "name": "Michael Forbes", "number": 14, "position": "CB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_002_14", "name": "Kwayne Thompson", "number": 15, "position": "RB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_002_15", "name": "Christopher Ainsworth", "number": 16, "position": "LB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_002_16", "name": "Luis Watson", "number": 17, "position": "CB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_002_17", "name": "Maalick Whyte", "number": 18, "position": "LW", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_002_18", "name": "Jerome McLeary", "number": 19, "position": "CM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_002_19", "name": "Livingston Donaldson", "number": 20, "position": "RM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_002_20", "name": "Keyanni Jackson", "number": 21, "position": "LM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_002_21", "name": "Daryl Massicot", "number": 22, "position": "CAM", "country": "AG", "status": "bench"},
+  
+      {"playerId": "player_jm1_002_22", "name": "Vino Barclett", "number": 30, "position": "GK", "country": "LC", "status": "reserve"},
+      {"playerId": "player_jm1_002_23", "name": "Kshaine Gordon", "number": 23, "position": "LW", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_002_24", "name": "Kimarly Scott", "number": 24, "position": "ST", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_002_25", "name": "Romarion Thomas", "number": 25, "position": "ST", "country": "JM", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
