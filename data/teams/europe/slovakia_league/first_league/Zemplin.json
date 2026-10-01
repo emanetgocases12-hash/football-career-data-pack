@@ -1,12 +1,58 @@
 {
-  "teamKey": "Zempli",
-
-  "name": "Zemplin Michalovce",
-
-  "logo": "assets/logos/europe/slovakia/Zemplin.png",
-
-  "stadium": {
-    "name": "Mestský štadión Zemplín",
-    "capacity": 4440
+    "teamKey": "Zempli",
+  
+    "name": "Zemplin Michalovce",
+  
+    "logo": "assets/logos/europe/slovakia/Zemplin.png",
+  
+    "manager": {
+      "name": "Anton Šoltis",
+      "country": "SK"
+    },
+  
+    "stadium": {
+      "name": "Mestský štadión Zemplín",
+      "capacity": 4440
+    },
+  
+    "players": [
+      {"playerId": "player_sk1_011_01", "name": "Patrik Lukáč", "number": 1, "position": "GK", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_011_02", "name": "Martin Koscelník", "number": 2, "position": "RB", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_011_03", "name": "Panagiotis Volanakis", "number": 4, "position": "CB", "country": "GR", "status": "starter"},
+      {"playerId": "player_sk1_011_04", "name": "Fode Bahi", "number": 5, "position": "CB", "country": "GN", "status": "starter"},
+      {"playerId": "player_sk1_011_05", "name": "Lukáš Pauschek", "number": 3, "position": "LB", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_011_06", "name": "Abdul Musa Zubairu", "number": 6, "position": "CDM", "country": "NG", "status": "starter"},
+      {"playerId": "player_sk1_011_07", "name": "Kai Brosnan", "number": 8, "position": "CM", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sk1_011_08", "name": "Tom Pilling", "number": 7, "position": "RW", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sk1_011_09", "name": "Nikita Mihhailov", "number": 10, "position": "CAM", "country": "EE", "status": "starter"},
+      {"playerId": "player_sk1_011_10", "name": "Tomasz Walczak", "number": 11, "position": "ST", "country": "PL", "status": "starter"},
+      {"playerId": "player_sk1_011_11", "name": "José Ángel López", "number": 9, "position": "LW", "country": "MX", "status": "starter"},
+  
+      {"playerId": "player_sk1_011_12", "name": "Adam Jakubech", "number": 12, "position": "GK", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_011_13", "name": "Tornike Dzotsenidze", "number": 14, "position": "CB", "country": "GE", "status": "bench"},
+      {"playerId": "player_sk1_011_14", "name": "Martin Čurma", "number": 15, "position": "RB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_011_15", "name": "Martin Bednár", "number": 16, "position": "LB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_011_16", "name": "Park Tae-Rang", "number": 17, "position": "CB", "country": "KR", "status": "bench"},
+      {"playerId": "player_sk1_011_17", "name": "Patrik Danek", "number": 18, "position": "LW", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_011_18", "name": "Odysseas Kalemi", "number": 19, "position": "CM", "country": "GR", "status": "bench"},
+      {"playerId": "player_sk1_011_19", "name": "Rastislav Korba", "number": 20, "position": "RM", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_011_20", "name": "Ben Cottrell", "number": 21, "position": "LM", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sk1_011_21", "name": "Kristof Oikonomou", "number": 22, "position": "CAM", "country": "GR", "status": "bench"},
+  
+      {"playerId": "player_sk1_011_22", "name": "Martin Dula", "number": 30, "position": "GK", "country": "SK", "status": "reserve"},
+      {"playerId": "player_sk1_011_23", "name": "Kido Taylor-Hart", "number": 23, "position": "RW", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_sk1_011_24", "name": "Vasileios Theofanopoulos", "number": 24, "position": "ST", "country": "GR", "status": "reserve"},
+      {"playerId": "player_sk1_011_25", "name": "Luka Lemishko", "number": 25, "position": "ST", "country": "UA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
