@@ -1,12 +1,58 @@
 {
-  "teamKey": "Volunt",
-
-  "name": "FC Voluntari",
-
-  "logo": "assets/logos/europe/romania/Voluntari.png",
-
-  "stadium": {
-    "name": "Anghel Iordanescu",
-    "capacity": 4518
+    "teamKey": "Volunt",
+  
+    "name": "FC Voluntari",
+  
+    "logo": "assets/logos/europe/romania/Voluntari.png",
+  
+    "manager": {
+      "name": "Florin Pârvu",
+      "country": "RO"
+    },
+  
+    "stadium": {
+      "name": "Anghel Iordanescu",
+      "capacity": 4518
+    },
+  
+    "players": [
+      {"playerId": "player_ro1_016_01", "name": "Metod Jurhar", "number": 1, "position": "GK", "country": "SI", "status": "starter"},
+      {"playerId": "player_ro1_016_02", "name": "Daniel Dumbrăvanu", "number": 2, "position": "RB", "country": "MD", "status": "starter"},
+      {"playerId": "player_ro1_016_03", "name": "Denis Haruț", "number": 4, "position": "CB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_016_04", "name": "David Kiki", "number": 5, "position": "CB", "country": "BJ", "status": "starter"},
+      {"playerId": "player_ro1_016_05", "name": "Mihael Onișa", "number": 3, "position": "LB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_016_06", "name": "Lovro Cvek", "number": 6, "position": "CDM", "country": "HR", "status": "starter"},
+      {"playerId": "player_ro1_016_07", "name": "Remus Guțea", "number": 8, "position": "CM", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_016_08", "name": "Ion Gheorghe", "number": 7, "position": "RW", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_016_09", "name": "Nuno Santos", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_ro1_016_10", "name": "Ianis Vencu", "number": 11, "position": "LW", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_016_11", "name": "Adi Chică-Roșă", "number": 9, "position": "ST", "country": "RO", "status": "starter"},
+  
+      {"playerId": "player_ro1_016_12", "name": "Bogdan Ștefan", "number": 12, "position": "GK", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_016_13", "name": "Radu Crișan", "number": 14, "position": "CB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_016_14", "name": "Alexandru Șuteu", "number": 15, "position": "RB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_016_15", "name": "Marvin Schieb", "number": 16, "position": "LB", "country": "DE", "status": "bench"},
+      {"playerId": "player_ro1_016_16", "name": "Matej Mamić", "number": 17, "position": "CB", "country": "HR", "status": "bench"},
+      {"playerId": "player_ro1_016_17", "name": "George Merloi", "number": 18, "position": "CM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_016_18", "name": "M. Stefan", "number": 19, "position": "RM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_016_19", "name": "Robert Petculescu", "number": 20, "position": "LM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_016_20", "name": "Matko Babić", "number": 21, "position": "CAM", "country": "HR", "status": "bench"},
+      {"playerId": "player_ro1_016_21", "name": "Mihai Roman", "number": 22, "position": "RW", "country": "RO", "status": "bench"},
+  
+      {"playerId": "player_ro1_016_22", "name": "Alexandru Chioveanu", "number": 30, "position": "GK", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_016_23", "name": "Andrei Dumiter", "number": 23, "position": "LW", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_016_24", "name": "Luca Andronache", "number": 24, "position": "ST", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_016_25", "name": "Cristian Costin", "number": 25, "position": "ST", "country": "RO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
