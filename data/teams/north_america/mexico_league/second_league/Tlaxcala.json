@@ -1,12 +1,56 @@
 {
-  "teamKey": "Tlaxcla",
-
-  "name": "Tlaxcala FC",
-
-  "logo": "assets/logos/north_america/mexico/Tlaxcla.png",
-
-  "stadium": {
-    "name": "Estadio Tlahuicole",
-    "capacity": 15000
+    "teamKey": "Tlaxcla",
+  
+    "name": "Tlaxcala FC",
+  
+    "logo": "assets/logos/north_america/mexico/Tlaxcla.png",
+  
+    "manager": {
+      "name": "Arturo Ortega",
+      "country": "MX"
+    },
+  
+    "stadium": {
+      "name": "Estadio Tlahuicole",
+      "capacity": 15000
+    },
+  
+    "players": [
+      {"playerId": "player_mx2_014_01", "name": "Norberto Bedolla", "number": 22, "position": "GK", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_014_02", "name": "Ismael Govea", "number": 1, "position": "RB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_014_03", "name": "Cristian González", "number": 2, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_014_04", "name": "Edson Santos Caballero", "number": 3, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_014_05", "name": "Carlos Andrés Hinestroza Mosquera", "number": 4, "position": "LB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_014_06", "name": "Andrés Iniestra Vázquez", "number": 6, "position": "CDM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_014_07", "name": "Giovani Hernández", "number": 7, "position": "CM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_014_08", "name": "José Plascencia", "number": 8, "position": "CAM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_014_09", "name": "Christian Henrique Mora De Oliveira Silva", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_mx2_014_10", "name": "Jesse Zamudio", "number": 17, "position": "LW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_014_11", "name": "Francisco Figueroa", "number": 10, "position": "ST", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_014_12", "name": "Abraham Nuño", "number": 30, "position": "GK", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_014_13", "name": "Juan Carlos García", "number": 5, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_014_14", "name": "Julián Freyfeld Sánchez", "number": 12, "position": "RB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_014_15", "name": "Brayton Vazquez", "number": 14, "position": "LB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_014_16", "name": "Edson García", "number": 21, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_014_17", "name": "Adrián Ulysses Sánchez Sánchez", "number": 20, "position": "CM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_014_18", "name": "Pablo González", "number": 23, "position": "CDM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_014_19", "name": "Juan Christian Blanco Martínez", "number": 26, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_014_20", "name": "Daniel Álvarez", "number": 11, "position": "LW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_014_21", "name": "Erick Emanuel Robles Hernandez", "number": 24, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_014_22", "name": "Bryan Flores", "number": 25, "position": "RB", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_014_23", "name": "Miguelete", "number": 16, "position": "ST", "country": "ES", "status": "reserve"},
+      {"playerId": "player_mx2_014_24", "name": "Josué Gómez", "number": 18, "position": "ST", "country": "US", "status": "reserve"},
+      {"playerId": "player_mx2_014_25", "name": "Raúl Camacho", "number": 19, "position": "RW", "country": "MX", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 22,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 8
+      }
+    }
   }
-}
