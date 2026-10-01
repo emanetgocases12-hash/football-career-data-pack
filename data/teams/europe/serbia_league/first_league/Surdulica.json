@@ -1,12 +1,58 @@
 {
-  "teamKey": "R Surdu",
-
-  "name": "FK Radnik Surdulica",
-
-  "logo": "assets/logos/europe/serbia/Surdulica.png",
-
-  "stadium": {
-    "name": "Gradski stadion Surdulica",
-    "capacity": 3312
+    "teamKey": "R Surdu",
+  
+    "name": "FK Radnik Surdulica",
+  
+    "logo": "assets/logos/europe/serbia/Surdulica.png",
+  
+    "manager": {
+      "name": "Zoran Rendulić",
+      "country": "RS"
+    },
+  
+    "stadium": {
+      "name": "Gradski stadion Surdulica",
+      "capacity": 3312
+    },
+  
+    "players": [
+      {"playerId": "player_rs1_011_01", "name": "F. Samurović", "number": 1, "position": "GK", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_011_02", "name": "Tijan", "number": 2, "position": "RB", "country": "GM", "status": "starter"},
+      {"playerId": "player_rs1_011_03", "name": "L. Zorić", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_011_04", "name": "David Stojanović", "number": 5, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_011_05", "name": "F. Žunić", "number": 3, "position": "LB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_011_06", "name": "M. Popović", "number": 6, "position": "CDM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_011_07", "name": "Darko Stojanović", "number": 8, "position": "CM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_011_08", "name": "R. Ohori", "number": 7, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_rs1_011_09", "name": "Aleksandar Pejović", "number": 10, "position": "CAM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_011_10", "name": "M. Novaković", "number": 11, "position": "LW", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_011_11", "name": "V. Bogdanović", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+  
+      {"playerId": "player_rs1_011_12", "name": "L. Radojičić", "number": 12, "position": "GK", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_011_13", "name": "S. Trémoulet", "number": 14, "position": "CB", "country": "MG", "status": "bench"},
+      {"playerId": "player_rs1_011_14", "name": "U. Lazić", "number": 15, "position": "RB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_011_15", "name": "C. Kouadio", "number": 16, "position": "LB", "country": "CI", "status": "bench"},
+      {"playerId": "player_rs1_011_16", "name": "Rafael Pontelo", "number": 17, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_rs1_011_17", "name": "M. Gašić", "number": 18, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_011_18", "name": "U. Filipović", "number": 19, "position": "RM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_011_19", "name": "S. Abubakar", "number": 20, "position": "LM", "country": "GH", "status": "bench"},
+      {"playerId": "player_rs1_011_20", "name": "N. Blagojević", "number": 21, "position": "CAM", "country": "BA", "status": "bench"},
+      {"playerId": "player_rs1_011_21", "name": "T. Kljun", "number": 22, "position": "RW", "country": "SI", "status": "bench"},
+  
+      {"playerId": "player_rs1_011_22", "name": "S. Ranđelović", "number": 30, "position": "GK", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_011_23", "name": "M. Spasić", "number": 23, "position": "LW", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_011_24", "name": "E. Quarshie", "number": 24, "position": "ST", "country": "GH", "status": "reserve"},
+      {"playerId": "player_rs1_011_25", "name": "A. Kosiah", "number": 25, "position": "ST", "country": "LR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
