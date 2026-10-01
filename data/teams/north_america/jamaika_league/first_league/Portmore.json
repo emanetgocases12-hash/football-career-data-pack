@@ -1,12 +1,58 @@
 {
-  "teamKey": "Portmo",
-
-  "name": "Portmore United FC",
-
-  "logo": "assets/logos/north_america/jamaika/Portmo.png",
-
-  "stadium": {
-    "name": "Ferdie Neita Sports Complex",
-    "capacity": 2000
+    "teamKey": "Portmo",
+  
+    "name": "Portmore United FC",
+  
+    "logo": "assets/logos/north_america/jamaika/Portmo.png",
+  
+    "manager": {
+      "name": "Rodolph Austin",
+      "country": "JM"
+    },
+  
+    "stadium": {
+      "name": "Ferdie Neita Sports Complex",
+      "capacity": 2000
+    },
+  
+    "players": [
+      {"playerId": "player_jm1_010_01", "name": "Robert Henry", "number": 1, "position": "GK", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_010_02", "name": "Rogel Wright", "number": 2, "position": "RB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_010_03", "name": "Steven Young", "number": 4, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_010_04", "name": "Clayton Peck", "number": 5, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_010_05", "name": "Gawain Austin", "number": 3, "position": "LB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_010_06", "name": "Siegle Knight", "number": 6, "position": "CDM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_010_07", "name": "Ramone Howell", "number": 8, "position": "CM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_010_08", "name": "Marques Reid", "number": 7, "position": "RW", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_010_09", "name": "Javier Brown", "number": 10, "position": "CAM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_010_10", "name": "Shande James", "number": 11, "position": "ST", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_010_11", "name": "Matthew Bell", "number": 9, "position": "RW", "country": "JM", "status": "starter"},
+  
+      {"playerId": "player_jm1_010_12", "name": "Daveigh Payton", "number": 12, "position": "GK", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_010_13", "name": "Emelio Rosseau", "number": 14, "position": "CB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_010_14", "name": "Akeem Mullings", "number": 15, "position": "RB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_010_15", "name": "Tarick Ximines", "number": 16, "position": "LB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_010_16", "name": "Rashaun Small", "number": 17, "position": "CB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_010_17", "name": "Tedj Bryan", "number": 18, "position": "LW", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_010_18", "name": "Markland Burton", "number": 19, "position": "CM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_010_19", "name": "Nickoy Gayle", "number": 20, "position": "RM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_010_20", "name": "Romario Guthrie", "number": 21, "position": "LM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_010_21", "name": "Jahein Rose", "number": 22, "position": "CAM", "country": "JM", "status": "bench"},
+  
+      {"playerId": "player_jm1_010_22", "name": "Daniel Russell", "number": 30, "position": "GK", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_010_23", "name": "Venton Evans", "number": 23, "position": "LW", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_010_24", "name": "Cory Burke", "number": 24, "position": "ST", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_010_25", "name": "Peter McGregor", "number": 25, "position": "ST", "country": "JM", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
