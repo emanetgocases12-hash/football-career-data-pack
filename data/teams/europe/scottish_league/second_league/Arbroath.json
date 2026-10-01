@@ -1,12 +1,58 @@
 {
-  "teamKey": "Arbroa",
-
-  "name": "Arbroath FC",
-
-  "logo": "assets/logos/europe/scottish/Arbroath.png",
-
-  "stadium": {
-    "name": "Gayfield Park",
-    "capacity": 6488
+    "teamKey": "Arbroa",
+  
+    "name": "Arbroath FC",
+  
+    "logo": "assets/logos/europe/scottish/Arbroath.png",
+  
+    "manager": {
+      "name": "Jim McIntyre",
+      "country": "GB-SCT"
+    },
+  
+    "stadium": {
+      "name": "Gayfield Park",
+      "capacity": 6488
+    },
+  
+    "players": [
+      {"playerId": "player_sct2_001_01", "name": "Aidan McAdams", "number": 1, "position": "GK", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_001_02", "name": "Thomas O'Brien", "number": 2, "position": "RB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_001_03", "name": "Colin Hamilton", "number": 4, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_001_04", "name": "David Gold", "number": 5, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_001_05", "name": "Aaron Steele", "number": 3, "position": "LB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_001_06", "name": "Ryan Dow", "number": 6, "position": "CDM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_001_07", "name": "Keaghan Jacobs", "number": 8, "position": "CM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_001_08", "name": "Innes Murray", "number": 7, "position": "RW", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_001_09", "name": "Mark Stowe", "number": 10, "position": "CAM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_001_10", "name": "Craig McGuffie", "number": 11, "position": "LW", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_001_11", "name": "Leighton McIntosh", "number": 9, "position": "ST", "country": "GB-SCT", "status": "starter"},
+  
+      {"playerId": "player_sct2_001_12", "name": "Derek Gaston", "number": 12, "position": "GK", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_001_13", "name": "Scott Stewart", "number": 14, "position": "CB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_001_14", "name": "Craig Slater", "number": 15, "position": "RB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_001_15", "name": "Hamish Ritchie", "number": 16, "position": "LB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_001_16", "name": "Ricky Little", "number": 17, "position": "CB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_001_17", "name": "Scott Allan", "number": 18, "position": "CM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_001_18", "name": "Murray Thomas", "number": 19, "position": "RM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_001_19", "name": "Josh Penman", "number": 20, "position": "LM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_001_20", "name": "Flynn Duffy", "number": 21, "position": "CAM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_001_21", "name": "Dale Hilson", "number": 22, "position": "RW", "country": "GB-SCT", "status": "bench"},
+  
+      {"playerId": "player_sct2_001_22", "name": "Ali Adams", "number": 30, "position": "GK", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct2_001_23", "name": "Taylor Steven", "number": 23, "position": "LW", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct2_001_24", "name": "Jamie Richardson", "number": 24, "position": "ST", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct2_001_25", "name": "Connor Young", "number": 25, "position": "ST", "country": "GB-SCT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
