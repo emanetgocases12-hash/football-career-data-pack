@@ -1,12 +1,58 @@
 {
-  "teamKey": "Par Th",
-
-  "name": "Partick Thistle FC",
-
-  "logo": "assets/logos/europe/scottish/Partick.png",
-
-  "stadium": {
-    "name": "The Energy Check Stadium at Firhill",
-    "capacity": 10102
+    "teamKey": "Par Th",
+  
+    "name": "Partick Thistle FC",
+  
+    "logo": "assets/logos/europe/scottish/Partick.png",
+  
+    "manager": {
+      "name": "Alex Rae",
+      "country": "GB-SCT"
+    },
+  
+    "stadium": {
+      "name": "The Energy Check Stadium at Firhill",
+      "capacity": 10102
+    },
+  
+    "players": [
+      {"playerId": "player_sct2_007_01", "name": "Lewis Budinauckas", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sct2_007_02", "name": "Lee Ashcroft", "number": 2, "position": "RB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_007_03", "name": "Ethan Ingram", "number": 4, "position": "CB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sct2_007_04", "name": "Cammy Logan", "number": 5, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_007_05", "name": "Cale Loughrey", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
+      {"playerId": "player_sct2_007_06", "name": "Robbie Crawford", "number": 6, "position": "CDM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_007_07", "name": "Ben Dempsey", "number": 8, "position": "CM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_007_08", "name": "Ts'oanelo Lets'osa", "number": 7, "position": "RW", "country": "LS", "status": "starter"},
+      {"playerId": "player_sct2_007_09", "name": "Oisin Smyth", "number": 10, "position": "CAM", "country": "GB-NIR", "status": "starter"},
+      {"playerId": "player_sct2_007_10", "name": "Ben Stanway", "number": 11, "position": "LW", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_007_11", "name": "Alex Samuel", "number": 9, "position": "ST", "country": "GB-WLS", "status": "starter"},
+  
+      {"playerId": "player_sct2_007_12", "name": "Liam McFarlane", "number": 12, "position": "GK", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_007_13", "name": "Ben McPherson", "number": 14, "position": "CB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_007_14", "name": "Daniel O'Reilly", "number": 15, "position": "RB", "country": "IE", "status": "bench"},
+      {"playerId": "player_sct2_007_15", "name": "Paddy Reading", "number": 16, "position": "LB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sct2_007_16", "name": "Aaron Muirhead", "number": 17, "position": "CB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_007_17", "name": "Aidan Fitzpatrick", "number": 18, "position": "CM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_007_18", "name": "Euan Henderson", "number": 19, "position": "RM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_007_19", "name": "Gary Mackay-Steven", "number": 20, "position": "LM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_007_20", "name": "Seb Drozd", "number": 21, "position": "CAM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_007_21", "name": "Tony Watt", "number": 22, "position": "RW", "country": "GB-SCT", "status": "bench"},
+  
+      {"playerId": "player_sct2_007_22", "name": "David Mitchell", "number": 30, "position": "GK", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct2_007_23", "name": "Ricco Diack", "number": 23, "position": "LW", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct2_007_24", "name": "Brian Graham", "number": 24, "position": "ST", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct2_007_25", "name": "Logan Chalmers", "number": 25, "position": "ST", "country": "GB-SCT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
