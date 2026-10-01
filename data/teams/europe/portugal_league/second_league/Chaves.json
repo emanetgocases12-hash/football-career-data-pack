@@ -1,12 +1,58 @@
 {
-  "teamKey": "Chaves",
-
-  "name": "GD Chaves",
-
-  "logo": "assets/logos/europe/portugal/Chaves.png",
-
-  "stadium": {
-    "name": "Estádio Municipal Eng.º Manuel Branco Teixeira",
-    "capacity": 8400
+    "teamKey": "Chaves",
+  
+    "name": "GD Chaves",
+  
+    "logo": "assets/logos/europe/portugal/Chaves.png",
+  
+    "manager": {
+      "name": "Marco Alves",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Municipal Eng.º Manuel Branco Teixeira",
+      "capacity": 8400
+    },
+  
+    "players": [
+      {"playerId": "player_pt2_004_01", "name": "Rodrigo Moura", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_004_02", "name": "Carraça", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_004_03", "name": "Bruno Rodrigues", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_004_04", "name": "Steven Vitória", "number": 5, "position": "RB", "country": "CA", "status": "starter"},
+      {"playerId": "player_pt2_004_05", "name": "Vasco Fernandes", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_004_06", "name": "Pedro Pinho", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_004_07", "name": "Helder Morim", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_004_08", "name": "João Teixeira", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_004_09", "name": "Rúben Ribeiro", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_004_10", "name": "Jô Batista", "number": 11, "position": "ST", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_004_11", "name": "Platiny", "number": 9, "position": "ST", "country": "CV", "status": "starter"},
+  
+      {"playerId": "player_pt2_004_12", "name": "Gonçalo Pinto", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_004_13", "name": "João Correia", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_004_14", "name": "Kiko Pereira", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_004_15", "name": "Sandro Cruz", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_004_16", "name": "João Pedro", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_004_17", "name": "Kelechi Nwakali", "number": 18, "position": "LW", "country": "NG", "status": "bench"},
+      {"playerId": "player_pt2_004_18", "name": "Bernardo Sousa", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_004_19", "name": "Wellington Carvalho", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_004_20", "name": "Hector Hernández", "number": 21, "position": "LM", "country": "ES", "status": "bench"},
+      {"playerId": "player_pt2_004_21", "name": "Leandro Sanca", "number": 22, "position": "CAM", "country": "PT", "status": "bench"},
+  
+      {"playerId": "player_pt2_004_22", "name": "Ricardo Moura", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_004_23", "name": "Rafael Guzzo", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_004_24", "name": "Guima", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_004_25", "name": "Habib Sylla", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
