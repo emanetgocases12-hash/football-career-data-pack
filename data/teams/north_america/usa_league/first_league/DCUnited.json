@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/north_america/usa/DC.png",
 
+  "manager": {
+    "name": "René Weiler",
+    "country": "CH"
+  },
+
   "stadium": {
     "name": "Audi Field",
     "capacity": 20000
+  },
+
+  "players": [
+    {"playerId": "player_us1_008_01", "name": "Sean Johnson", "number": 1, "position": "GK", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_008_02", "name": "Silvan Hefti", "number": 5, "position": "RB", "country": "CH", "status": "starter"},
+    {"playerId": "player_us1_008_03", "name": "Lucas Bartlett", "number": 3, "position": "CB", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_008_04", "name": "Kye Rowles", "number": 15, "position": "CB", "country": "AU", "status": "starter"},
+    {"playerId": "player_us1_008_05", "name": "Keisuke Kurokawa", "number": 6, "position": "LB", "country": "JP", "status": "starter"},
+    {"playerId": "player_us1_008_06", "name": "Matti Peltola", "number": 4, "position": "CDM", "country": "FI", "status": "starter"},
+    {"playerId": "player_us1_008_07", "name": "Gabriel Pirani", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+    {"playerId": "player_us1_008_08", "name": "Aaron Herrera", "number": 22, "position": "RB", "country": "GT", "status": "starter"},
+    {"playerId": "player_us1_008_09", "name": "Christian Benteke", "number": 20, "position": "ST", "country": "BE", "status": "starter"},
+    {"playerId": "player_us1_008_10", "name": "Jacob Murrell", "number": 17, "position": "LW", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_008_11", "name": "Ted Ku-DiPietro", "number": 21, "position": "RW", "country": "US", "status": "starter"},
+
+    {"playerId": "player_us1_008_12", "name": "Alex Bono", "number": 26, "position": "GK", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_008_22", "name": "Garrison Tubbs", "number": 16, "position": "CB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_008_14", "name": "Sean Nealis", "number": 13, "position": "CB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_008_15", "name": "Conner Antley", "number": 12, "position": "RB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_008_16", "name": "David Schnegg", "number": 28, "position": "LB", "country": "AT", "status": "bench"},
+    {"playerId": "player_us1_008_17", "name": "Jackson Hopkins", "number": 25, "position": "CM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_008_18", "name": "Boris Enow", "number": 2, "position": "CDM", "country": "CM", "status": "bench"},
+    {"playerId": "player_us1_008_19", "name": "Martín Rodríguez", "number": 14, "position": "LW", "country": "CL", "status": "bench"},
+    {"playerId": "player_us1_008_20", "name": "Dominique Badji", "number": 23, "position": "ST", "country": "SN", "status": "bench"},
+    {"playerId": "player_us1_008_21", "name": "Kristian Fletcher", "number": 11, "position": "RW", "country": "US", "status": "bench"},
+
+    {"playerId": "player_us1_008_13", "name": "Jordan Farr", "number": 24, "position": "GK", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_008_23", "name": "Matai Akinmboni", "number": 45, "position": "CB", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_008_24", "name": "Jeremy Garay", "number": 30, "position": "CM", "country": "SV", "status": "reserve"},
+    {"playerId": "player_us1_008_25", "name": "Grant Leveille", "number": 40, "position": "GK", "country": "US", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 20,
+    "setPieces": {
+      "penalty": 20,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 17
+    }
   }
 }
