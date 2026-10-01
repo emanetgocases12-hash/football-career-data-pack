@@ -1,12 +1,58 @@
 {
-  "teamKey": "Cristó",
-
-  "name": "Atlético San Cristóbal",
-
-  "logo": "assets/logos/north_america/dominic/Cristo.png",
-
-  "stadium": {
-    "name": "Estadio Panamericano",
-    "capacity": 2800
+    "teamKey": "Cristó",
+  
+    "name": "Atlético San Cristóbal",
+  
+    "logo": "assets/logos/north_america/dominic/Cristo.png",
+  
+    "manager": {
+      "name": "Rufino Sotolongo",
+      "country": "CU"
+    },
+  
+    "stadium": {
+      "name": "Estadio Panamericano",
+      "capacity": 2800
+    },
+  
+    "players": [
+      {"playerId": "player_do1_003_01", "name": "Ezequiel Listello", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_do1_003_02", "name": "Brandol Marte", "number": 2, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_003_03", "name": "Jean Mejía", "number": 4, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_003_04", "name": "Ian Valdez", "number": 5, "position": "RB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_003_05", "name": "Maikol Arenas", "number": 3, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_do1_003_06", "name": "Johnnsbel Duverge", "number": 6, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_003_07", "name": "Gregory Mercado", "number": 8, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_003_08", "name": "Alejandro Herrera", "number": 7, "position": "CM", "country": "CO", "status": "starter"},
+      {"playerId": "player_do1_003_09", "name": "Wilsander Pérez", "number": 10, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_003_10", "name": "Wilfre Sierra", "number": 11, "position": "LW", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_003_11", "name": "Joselito Lagarez", "number": 9, "position": "ST", "country": "DO", "status": "starter"},
+  
+      {"playerId": "player_do1_003_12", "name": "Christopher Japa", "number": 12, "position": "GK", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_003_13", "name": "Enry Zarzuela", "number": 14, "position": "CB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_003_14", "name": "Kianu Pishdadian", "number": 15, "position": "CB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_003_15", "name": "Harold Sanon", "number": 16, "position": "CB", "country": "HT", "status": "bench"},
+      {"playerId": "player_do1_003_16", "name": "Adalph Philippe", "number": 17, "position": "LB", "country": "HT", "status": "bench"},
+      {"playerId": "player_do1_003_17", "name": "Kevin Aquino", "number": 18, "position": "RB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_003_18", "name": "Francis González", "number": 19, "position": "RB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_003_19", "name": "Marckenson Hyppolite", "number": 20, "position": "LM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_003_20", "name": "Juan Pablo Díaz", "number": 21, "position": "CAM", "country": "CO", "status": "bench"},
+      {"playerId": "player_do1_003_21", "name": "Kensy Guerrero", "number": 22, "position": "ST", "country": "VE", "status": "bench"},
+  
+      {"playerId": "player_do1_003_22", "name": "César Adames", "number": 30, "position": "GK", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_003_23", "name": "Kervens Dessin", "number": 23, "position": "ST", "country": "HT", "status": "reserve"},
+      {"playerId": "player_do1_003_24", "name": "Felito Beriguete", "number": 24, "position": "ST", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_003_25", "name": "Erlin Marte", "number": 25, "position": "ST", "country": "DO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 6,
+        "cornerLeft": 6,
+        "cornerRight": 6
+      }
+    }
   }
-}
