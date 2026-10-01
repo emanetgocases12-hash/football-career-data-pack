@@ -1,12 +1,58 @@
 {
-  "teamKey": "IMT",
-
-  "name": "FK IMT Belgrad",
-
-  "logo": "assets/logos/europe/serbia/IMT.png",
-
-  "stadium": {
-    "name": "Stadion Lagator",
-    "capacity": 8500
+    "teamKey": "IMT",
+  
+    "name": "FK IMT Belgrad",
+  
+    "logo": "assets/logos/europe/serbia/IMT.png",
+  
+    "manager": {
+      "name": "Zoran Popović",
+      "country": "RS"
+    },
+  
+    "stadium": {
+      "name": "Stadion Lagator",
+      "capacity": 8500
+    },
+  
+    "players": [
+      {"playerId": "player_rs1_004_01", "name": "O. Čančarević", "number": 1, "position": "GK", "country": "AM", "status": "starter"},
+      {"playerId": "player_rs1_004_02", "name": "Julián Delmás", "number": 2, "position": "RB", "country": "ES", "status": "starter"},
+      {"playerId": "player_rs1_004_03", "name": "Iván Martos", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_rs1_004_04", "name": "B. Uzunovski", "number": 5, "position": "CB", "country": "ME", "status": "starter"},
+      {"playerId": "player_rs1_004_05", "name": "Moussa Sissako", "number": 3, "position": "LB", "country": "ML", "status": "starter"},
+      {"playerId": "player_rs1_004_06", "name": "I. Kébé", "number": 6, "position": "CDM", "country": "ML", "status": "starter"},
+      {"playerId": "player_rs1_004_07", "name": "J. Tiendrébéogo", "number": 8, "position": "CM", "country": "BF", "status": "starter"},
+      {"playerId": "player_rs1_004_08", "name": "D. Akrofi", "number": 7, "position": "RW", "country": "GH", "status": "starter"},
+      {"playerId": "player_rs1_004_09", "name": "V. Radočaj", "number": 10, "position": "CAM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_004_10", "name": "F. Boulaya", "number": 11, "position": "LW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_rs1_004_11", "name": "Luka Luković", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+  
+      {"playerId": "player_rs1_004_12", "name": "K. Gicić", "number": 12, "position": "GK", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_004_13", "name": "Vukašin Jovanović", "number": 14, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_004_14", "name": "N. Glišić", "number": 15, "position": "RB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_004_15", "name": "Ismael Casas", "number": 16, "position": "LB", "country": "ES", "status": "bench"},
+      {"playerId": "player_rs1_004_16", "name": "Stefan Šapić", "number": 17, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_004_17", "name": "D. Žagar", "number": 18, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_004_18", "name": "V. Novičić", "number": 19, "position": "RM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_004_19", "name": "T. Cojić", "number": 20, "position": "LM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_004_20", "name": "N. Krstić", "number": 21, "position": "CAM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_004_21", "name": "Rafael Juninho", "number": 22, "position": "RW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_rs1_004_22", "name": "M. Pribišić", "number": 30, "position": "GK", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_004_23", "name": "K. Fabien", "number": 23, "position": "LW", "country": "MQ", "status": "reserve"},
+      {"playerId": "player_rs1_004_24", "name": "François Kamano", "number": 24, "position": "ST", "country": "GN", "status": "reserve"},
+      {"playerId": "player_rs1_004_25", "name": "C. Keïta", "number": 25, "position": "ST", "country": "FR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
