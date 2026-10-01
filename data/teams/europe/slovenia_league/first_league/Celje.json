@@ -1,12 +1,58 @@
 {
-  "teamKey": "Celje",
-
-  "name": "NK Celje",
-
-  "logo": "assets/logos/europe/slovenia/Celje.png",
-
-  "stadium": {
-    "name": "Stadion Z'dežele",
-    "capacity": 13059
+    "teamKey": "Celje",
+  
+    "name": "NK Celje",
+  
+    "logo": "assets/logos/europe/slovenia/Celje.png",
+  
+    "manager": {
+      "name": "Zoran Zeljković",
+      "country": "SI"
+    },
+  
+    "stadium": {
+      "name": "Stadion Z'dežele",
+      "capacity": 13059
+    },
+  
+    "players": [
+      {"playerId": "player_si1_004_01", "name": "Žan-Luk Leban", "number": 1, "position": "GK", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_004_02", "name": "Pijus Širvys", "number": 2, "position": "RB", "country": "LT", "status": "starter"},
+      {"playerId": "player_si1_004_03", "name": "Artemijus Tutyškinas", "number": 4, "position": "CB", "country": "LT", "status": "starter"},
+      {"playerId": "player_si1_004_04", "name": "Žan Žužek", "number": 5, "position": "CB", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_004_05", "name": "Alpha Diounkou", "number": 3, "position": "LB", "country": "ES", "status": "starter"},
+      {"playerId": "player_si1_004_06", "name": "Darko Hrka", "number": 6, "position": "CDM", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_004_07", "name": "Benjamin Verbič", "number": 8, "position": "CM", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_004_08", "name": "Mario Kvesić", "number": 7, "position": "RW", "country": "HR", "status": "starter"},
+      {"playerId": "player_si1_004_09", "name": "Svit Sešlar", "number": 10, "position": "CAM", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_004_10", "name": "Blaž Kramer", "number": 11, "position": "ST", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_004_11", "name": "Armandas Kučys", "number": 9, "position": "LW", "country": "LT", "status": "starter"},
+  
+      {"playerId": "player_si1_004_12", "name": "Luka Kolar", "number": 12, "position": "GK", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_004_13", "name": "Leonardo Koutris", "number": 14, "position": "CB", "country": "GR", "status": "bench"},
+      {"playerId": "player_si1_004_14", "name": "Lukasz Bejger", "number": 15, "position": "RB", "country": "PL", "status": "bench"},
+      {"playerId": "player_si1_004_15", "name": "Matic Ivanšek", "number": 16, "position": "LB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_004_16", "name": "Damjan Vuklišević", "number": 17, "position": "CB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_004_17", "name": "Milot Avdyli", "number": 18, "position": "LW", "country": "XK", "status": "bench"},
+      {"playerId": "player_si1_004_18", "name": "Papa Daniel", "number": 19, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_si1_004_19", "name": "Luka Vešner Tičić", "number": 20, "position": "RM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_004_20", "name": "Andrej Kotnik", "number": 21, "position": "LM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_004_21", "name": "Mark Zabukovnik", "number": 22, "position": "CAM", "country": "SI", "status": "bench"},
+  
+      {"playerId": "player_si1_004_22", "name": "Žiga Frelih", "number": 30, "position": "GK", "country": "SI", "status": "reserve"},
+      {"playerId": "player_si1_004_23", "name": "Veton Tusha", "number": 23, "position": "CM", "country": "XK", "status": "reserve"},
+      {"playerId": "player_si1_004_24", "name": "Yaya Dukuly", "number": 24, "position": "RW", "country": "AU", "status": "reserve"},
+      {"playerId": "player_si1_004_25", "name": "Matej Poplatnik", "number": 25, "position": "ST", "country": "SI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
