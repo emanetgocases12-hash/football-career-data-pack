@@ -1,12 +1,58 @@
 {
-  "teamKey": "Trenci",
-
-  "name": "AS Trencin",
-
-  "logo": "assets/logos/europe/slovakia/Trencin.png",
-
-  "stadium": {
-    "name": "Štadión Sihoť",
-    "capacity": 6366
+    "teamKey": "Trenci",
+  
+    "name": "AS Trencin",
+  
+    "logo": "assets/logos/europe/slovakia/Trencin.png",
+  
+    "manager": {
+      "name": "Ricardo Moniz",
+      "country": "NL"
+    },
+  
+    "stadium": {
+      "name": "Štadión Sihoť",
+      "capacity": 6366
+    },
+  
+    "players": [
+      {"playerId": "player_sk1_008_01", "name": "Andrija Katić", "number": 1, "position": "GK", "country": "RS", "status": "starter"},
+      {"playerId": "player_sk1_008_02", "name": "Nikola Jovanović", "number": 2, "position": "RB", "country": "RS", "status": "starter"},
+      {"playerId": "player_sk1_008_03", "name": "Kristo Hussar", "number": 4, "position": "CB", "country": "EE", "status": "starter"},
+      {"playerId": "player_sk1_008_04", "name": "Vinko Šimić", "number": 5, "position": "CB", "country": "HR", "status": "starter"},
+      {"playerId": "player_sk1_008_05", "name": "Lukáš Skovajsa", "number": 3, "position": "LB", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_008_06", "name": "Antonio Baždarić", "number": 6, "position": "CDM", "country": "HR", "status": "starter"},
+      {"playerId": "player_sk1_008_07", "name": "Eynel Soares", "number": 8, "position": "CM", "country": "CV", "status": "starter"},
+      {"playerId": "player_sk1_008_08", "name": "Tomáš Hájovský", "number": 7, "position": "RW", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_008_09", "name": "Clement Ansah", "number": 10, "position": "CAM", "country": "GH", "status": "starter"},
+      {"playerId": "player_sk1_008_10", "name": "Joshua Zirkzee", "number": 11, "position": "ST", "country": "NL", "status": "starter"},
+      {"playerId": "player_sk1_008_11", "name": "Filip Kasana", "number": 9, "position": "LW", "country": "SK", "status": "starter"},
+  
+      {"playerId": "player_sk1_008_12", "name": "Matúš Slavíček", "number": 12, "position": "GK", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_008_13", "name": "Jaroslav Holp", "number": 14, "position": "CB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_008_14", "name": "Loïc Bessile", "number": 15, "position": "RB", "country": "TG", "status": "bench"},
+      {"playerId": "player_sk1_008_15", "name": "Richard Križan", "number": 16, "position": "LB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_008_16", "name": "Hugo Pávek", "number": 17, "position": "CB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_008_17", "name": "Markus Poom", "number": 18, "position": "LW", "country": "EE", "status": "bench"},
+      {"playerId": "player_sk1_008_18", "name": "Giorgi Nadareishvili", "number": 19, "position": "CM", "country": "GE", "status": "bench"},
+      {"playerId": "player_sk1_008_19", "name": "Jesse Campagne", "number": 20, "position": "RM", "country": "NL", "status": "bench"},
+      {"playerId": "player_sk1_008_20", "name": "Pablo González", "number": 21, "position": "LM", "country": "ES", "status": "bench"},
+      {"playerId": "player_sk1_008_21", "name": "Ryan Sanusi", "number": 22, "position": "CAM", "country": "NG", "status": "bench"},
+  
+      {"playerId": "player_sk1_008_22", "name": "Marek Jurák", "number": 30, "position": "GK", "country": "SK", "status": "reserve"},
+      {"playerId": "player_sk1_008_23", "name": "Dramane Kam", "number": 23, "position": "RW", "country": "BF", "status": "reserve"},
+      {"playerId": "player_sk1_008_24", "name": "Nentaka Bangs", "number": 24, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_sk1_008_25", "name": "Lukáš Mikulaj", "number": 25, "position": "ST", "country": "SK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
