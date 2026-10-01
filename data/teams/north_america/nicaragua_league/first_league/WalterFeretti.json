@@ -1,12 +1,58 @@
 {
-  "teamKey": "Walter",
-
-  "name": "CD Walter Ferretti",
-
-  "logo": "assets/logos/north_america/nicaragua/Walter.png",
-
-  "stadium": {
-    "name": "Estadio Miguel Buitrago",
-    "capacity": 2000
+    "teamKey": "Walter",
+  
+    "name": "CD Walter Ferretti",
+  
+    "logo": "assets/logos/north_america/nicaragua/Walter.png",
+  
+    "manager": {
+      "name": "José Valladares",
+      "country": "HN"
+    },
+  
+    "stadium": {
+      "name": "Estadio Miguel Buitrago",
+      "capacity": 2000
+    },
+  
+    "players": [
+      {"playerId": "player_ni1_010_01", "name": "Esdras González", "number": 1, "position": "GK", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_010_02", "name": "Sheldon Harris", "number": 15, "position": "RB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_010_03", "name": "Francisco Vallecillo", "number": 26, "position": "CB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_010_04", "name": "Ronny Talavera", "number": 17, "position": "CB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_010_05", "name": "William Leman", "number": 23, "position": "LB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_010_06", "name": "Richard Rodríguez", "number": 20, "position": "CDM", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_010_07", "name": "Jhonny Escobar", "number": 68, "position": "CM", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_010_08", "name": "Jehu Flores", "number": 7, "position": "RW", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_010_09", "name": "Omar Hinestroza", "number": 18, "position": "LW", "country": "PA", "status": "starter"},
+      {"playerId": "player_ni1_010_10", "name": "Jorge Betancur", "number": 21, "position": "CAM", "country": "CO", "status": "starter"},
+      {"playerId": "player_ni1_010_11", "name": "Eddy Nicoya", "number": 25, "position": "ST", "country": "NI", "status": "starter"},
+  
+      {"playerId": "player_ni1_010_12", "name": "Huberts Ibarra", "number": 24, "position": "GK", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_010_13", "name": "Maverick Boza", "number": 2, "position": "RB", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_010_14", "name": "Ángel Cruz", "number": 66, "position": "CB", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_010_15", "name": "Brayan López", "number": 11, "position": "LW", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_010_16", "name": "Nahum Peralta", "number": 5, "position": "CDM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_010_17", "name": "Jareck Cáceres", "number": 8, "position": "CM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_010_18", "name": "Maynor Rivera", "number": 16, "position": "ST", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_010_19", "name": "Franklin Torres", "number": 27, "position": "CM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_010_20", "name": "Bryan Astúa", "number": 12, "position": "RW", "country": "CR", "status": "bench"},
+      {"playerId": "player_ni1_010_21", "name": "Marcos Gabriel", "number": 9, "position": "ST", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_ni1_010_22", "name": "Christian Cerpa", "number": 31, "position": "GK", "country": "NI", "status": "reserve"},
+      {"playerId": "player_ni1_010_23", "name": "Sergio Cunningham", "number": 10, "position": "ST", "country": "PA", "status": "reserve"},
+      {"playerId": "player_ni1_010_24", "name": "Isaías Pacheco", "number": 19, "position": "CM", "country": "NI", "status": "reserve"},
+      {"playerId": "player_ni1_010_25", "name": "Jason Ingram", "number": 13, "position": "LB", "country": "NI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 25,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
