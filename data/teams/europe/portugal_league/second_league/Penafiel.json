@@ -1,12 +1,58 @@
 {
-  "teamKey": "Pnafie",
-
-  "name": "FC Penafiel",
-
-  "logo": "assets/logos/europe/portugal/Penafiel.png",
-
-  "stadium": {
-    "name": "Estádio Municipal 25 de Abril",
-    "capacity": 5230
+    "teamKey": "Pnafie",
+  
+    "name": "FC Penafiel",
+  
+    "logo": "assets/logos/europe/portugal/Penafiel.png",
+  
+    "manager": {
+      "name": "Hélder Cristóvão",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Municipal 25 de Abril",
+      "capacity": 5230
+    },
+  
+    "players": [
+      {"playerId": "player_pt2_012_01", "name": "Joan Femenías", "number": 1, "position": "GK", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt2_012_02", "name": "João Miguel", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_012_03", "name": "Rúben Pereira", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_012_04", "name": "Bruno Pereira", "number": 5, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_012_05", "name": "Reko", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_012_06", "name": "Maga", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_012_07", "name": "João Oliveira", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_012_08", "name": "André Silva", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_012_09", "name": "Rúben Freitas", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_012_10", "name": "João Pedro", "number": 11, "position": "ST", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_012_11", "name": "Tiago Morais", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_pt2_012_12", "name": "Miguel Oliveira", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_012_13", "name": "Simãozinho", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_012_14", "name": "Diogo Batista", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_012_15", "name": "João Silva", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_012_16", "name": "Robinho", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_012_17", "name": "Edi Semedo", "number": 18, "position": "LW", "country": "GW", "status": "bench"},
+      {"playerId": "player_pt2_012_18", "name": "Gabriel Barbosa", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_012_19", "name": "João Rodrigues", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_012_20", "name": "Zé Leite", "number": 21, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_012_21", "name": "Fábio Fortes", "number": 22, "position": "CAM", "country": "PT", "status": "bench"},
+  
+      {"playerId": "player_pt2_012_22", "name": "Filipe Ferreira", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_012_23", "name": "Hélio Varela", "number": 23, "position": "RW", "country": "CV", "status": "reserve"},
+      {"playerId": "player_pt2_012_24", "name": "André Clóvis", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_012_25", "name": "Rui Pedro", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
