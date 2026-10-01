@@ -1,12 +1,58 @@
 {
-  "teamKey": "NS Mura",
-
-  "name": "NS Mura",
-
-  "logo": "assets/logos/europe/slovenia/Mura.png",
-
-  "stadium": {
-    "name": "Mestni stadion Fazanerija",
-    "capacity": 4506
+    "teamKey": "NS Mura",
+  
+    "name": "NS Mura",
+  
+    "logo": "assets/logos/europe/slovenia/Mura.png",
+  
+    "manager": {
+      "name": "Mitja Mörec",
+      "country": "SI"
+    },
+  
+    "stadium": {
+      "name": "Mestni stadion Fazanerija",
+      "capacity": 4506
+    },
+  
+    "players": [
+      {"playerId": "player_si1_007_01", "name": "Adnan Golubović", "number": 1, "position": "GK", "country": "ME", "status": "starter"},
+      {"playerId": "player_si1_007_02", "name": "Ivan Borna Jelić Balta", "number": 2, "position": "RB", "country": "HR", "status": "starter"},
+      {"playerId": "player_si1_007_03", "name": "Žan Petrovič", "number": 4, "position": "CB", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_007_04", "name": "Lovro Kitin", "number": 5, "position": "CB", "country": "HR", "status": "starter"},
+      {"playerId": "player_si1_007_05", "name": "Borna Proleta", "number": 3, "position": "LB", "country": "HR", "status": "starter"},
+      {"playerId": "player_si1_007_06", "name": "Nino Kouter", "number": 6, "position": "CDM", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_007_07", "name": "Kenan Kurtović", "number": 8, "position": "CM", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_007_08", "name": "Alen Korošec", "number": 7, "position": "RW", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_007_09", "name": "Florjan Jevšenak", "number": 10, "position": "CAM", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_007_10", "name": "Niko Kasalo", "number": 11, "position": "ST", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_007_11", "name": "Šimun Butić", "number": 9, "position": "LW", "country": "HR", "status": "starter"},
+  
+      {"playerId": "player_si1_007_12", "name": "Žiga Fermišek", "number": 12, "position": "GK", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_007_13", "name": "Faad Sana", "number": 14, "position": "CB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_007_14", "name": "Aleksandar Zeljković", "number": 15, "position": "RB", "country": "RS", "status": "bench"},
+      {"playerId": "player_si1_007_15", "name": "Aljaž Zalaznik", "number": 16, "position": "LB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_007_16", "name": "Kristjan Trdin", "number": 17, "position": "CB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_007_17", "name": "Luka Bobičanec", "number": 18, "position": "LW", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_007_18", "name": "Alen Kozar", "number": 19, "position": "CM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_007_19", "name": "Samo Sečkar", "number": 20, "position": "RM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_007_20", "name": "Jan Kovačič", "number": 21, "position": "LM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_007_21", "name": "Petar Pfeifer", "number": 22, "position": "CAM", "country": "SI", "status": "bench"},
+  
+      {"playerId": "player_si1_007_22", "name": "Nejc Antonič", "number": 30, "position": "GK", "country": "SI", "status": "reserve"},
+      {"playerId": "player_si1_007_23", "name": "Marko Aščić", "number": 23, "position": "RW", "country": "HR", "status": "reserve"},
+      {"playerId": "player_si1_007_24", "name": "Robert Čakš", "number": 24, "position": "ST", "country": "SI", "status": "reserve"},
+      {"playerId": "player_si1_007_25", "name": "Matej Matić", "number": 25, "position": "ST", "country": "HR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
