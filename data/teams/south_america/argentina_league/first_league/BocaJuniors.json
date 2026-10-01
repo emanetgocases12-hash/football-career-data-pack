@@ -1,12 +1,58 @@
 {
-  "teamKey": "Boca Jr",
-
-  "name": "CA Boca Juniors",
-
-  "logo": "assets/logos/south_america/argentina/BocaJr.png",
-
-  "stadium": {
-    "name": "Alberto J. Armando",
-    "capacity": 54000
+    "teamKey": "Boca Jr",
+  
+    "name": "CA Boca Juniors",
+  
+    "logo": "assets/logos/south_america/argentina/BocaJr.png",
+  
+    "manager": {
+      "name": "Rodolfo Arruabarrena",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Alberto J. Armando",
+      "capacity": 54000
+    },
+  
+    "players": [
+      {"playerId": "player_ar1_006_01", "name": "Álvaro Montero", "number": 1, "position": "GK", "country": "CO", "status": "starter"},
+      {"playerId": "player_ar1_006_02", "name": "Lautaro Di Lollo", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_006_03", "name": "Lautaro Blanco", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_006_04", "name": "Marco Pellegrino", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_006_05", "name": "Dylan Gorosito", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_006_06", "name": "Leandro Paredes", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_006_07", "name": "Carlos Palacios", "number": 8, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_ar1_006_08", "name": "Alan Velasco", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_006_09", "name": "Milton Delgado", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_006_10", "name": "Williams Alarcón", "number": 11, "position": "LM", "country": "CL", "status": "starter"},
+      {"playerId": "player_ar1_006_11", "name": "Enner Valencia", "number": 18, "position": "ST", "country": "EC", "status": "starter"},
+  
+      {"playerId": "player_ar1_006_12", "name": "Agustín Marchesín", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_006_13", "name": "Ayrton Costa", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_006_14", "name": "Leandro Lozano", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_006_15", "name": "Nicolás Figal", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_006_16", "name": "Facundo Herrera", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_006_17", "name": "Santiago Ascacíbar", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_006_18", "name": "Rodrigo Battaglia", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_006_19", "name": "Camilo Rey Domenech", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_006_20", "name": "Ángel Romero", "number": 19, "position": "ST", "country": "PY", "status": "bench"},
+      {"playerId": "player_ar1_006_21", "name": "Miguel Merentiel", "number": 20, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ar1_006_22", "name": "Leandro Brey", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_006_23", "name": "Malcom Braida", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_006_24", "name": "Adam Bareiro", "number": 21, "position": "LW", "country": "PY", "status": "reserve"},
+      {"playerId": "player_ar1_006_25", "name": "Sebastián Villa", "number": 27, "position": "ST", "country": "CO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
