@@ -1,12 +1,58 @@
 {
-  "teamKey": "D Kyiv",
-
-  "name": "Dynamo Kyiv",
-
-  "logo": "assets/logos/europe/ukrain/Kiev.png",
-
-  "stadium": {
-    "name": "Valeriy Lobanovsky Stadion",
-    "capacity": 16873
+    "teamKey": "D Kyiv",
+  
+    "name": "Dynamo Kyiv",
+  
+    "logo": "assets/logos/europe/ukrain/Kiev.png",
+  
+    "manager": {
+      "name": "Ihor Kostiuk",
+      "country": "UA"
+    },
+  
+    "stadium": {
+      "name": "Valeriy Lobanovsky Stadion",
+      "capacity": 16873
+    },
+  
+    "players": [
+      {"playerId": "player_ua1_005_01", "name": "Ruslan Neshcheret", "number": 1, "position": "GK", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_005_02", "name": "Kristian Bilovar", "number": 2, "position": "RB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_005_03", "name": "Vladyslav Dubinchak", "number": 4, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_005_04", "name": "Denys Dykyi", "number": 5, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_005_05", "name": "Kostiantyn Hubenko", "number": 3, "position": "LB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_005_06", "name": "Volodymyr Brazhko", "number": 6, "position": "CDM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_005_07", "name": "Vitalii Buialskii", "number": 8, "position": "CM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_005_08", "name": "Justin Lonwijk", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
+      {"playerId": "player_ua1_005_09", "name": "Mykola Shaparenko", "number": 10, "position": "CAM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_005_10", "name": "Eduardo Guerrero", "number": 11, "position": "ST", "country": "PA", "status": "starter"},
+      {"playerId": "player_ua1_005_11", "name": "Andrii Iarmolenko", "number": 9, "position": "LW", "country": "UA", "status": "starter"},
+  
+      {"playerId": "player_ua1_005_12", "name": "Borys Manko", "number": 12, "position": "GK", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_005_13", "name": "Tomasz Kędziora", "number": 14, "position": "CB", "country": "PL", "status": "bench"},
+      {"playerId": "player_ua1_005_14", "name": "Dmytro Konovalov", "number": 15, "position": "RB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_005_15", "name": "Kostiantyn Vivcharenko", "number": 16, "position": "LB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_005_16", "name": "Aliou Thiaré", "number": 17, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_ua1_005_17", "name": "Roman Salenko", "number": 18, "position": "LW", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_005_18", "name": "Pavlo Liusin", "number": 19, "position": "CM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_005_19", "name": "Arsenii Fedorenko", "number": 20, "position": "RM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_005_20", "name": "Danylo Ishchenko", "number": 21, "position": "LM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_005_21", "name": "Nazar Ivaskiv", "number": 22, "position": "CAM", "country": "UA", "status": "bench"},
+  
+      {"playerId": "player_ua1_005_22", "name": "Vladyslav Volodko", "number": 30, "position": "GK", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_005_23", "name": "Vladyslav Kabaiev", "number": 23, "position": "RW", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_005_24", "name": "Nazar Voloshyn", "number": 24, "position": "ST", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_005_25", "name": "Matvii Ponomarenko", "number": 25, "position": "ST", "country": "UA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
