@@ -1,12 +1,58 @@
 {
-  "teamKey": "Morton",
-
-  "name": "Greenock Morton FC",
-
-  "logo": "assets/logos/europe/scottish/Morton.png",
-
-  "stadium": {
-    "name": "Cappielow Park",
-    "capacity": 11569
+    "teamKey": "Morton",
+  
+    "name": "Greenock Morton FC",
+  
+    "logo": "assets/logos/europe/scottish/Morton.png",
+  
+    "manager": {
+      "name": "Dougie Imrie",
+      "country": "GB-SCT"
+    },
+  
+    "stadium": {
+      "name": "Cappielow Park",
+      "capacity": 11569
+    },
+  
+    "players": [
+      {"playerId": "player_sct2_006_01", "name": "Ryan Mullen", "number": 1, "position": "GK", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_006_02", "name": "Darragh O'Connor", "number": 2, "position": "RB", "country": "IE", "status": "starter"},
+      {"playerId": "player_sct2_006_03", "name": "Jack Baird", "number": 4, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_006_04", "name": "Cammy Blues", "number": 5, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_006_05", "name": "Lewis Strapp", "number": 3, "position": "LB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_006_06", "name": "Robbie Muirhead", "number": 6, "position": "CDM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_006_07", "name": "Grant Gillespie", "number": 8, "position": "CM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_006_08", "name": "Jai Quitongo", "number": 7, "position": "RW", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_006_09", "name": "Jack Bearne", "number": 10, "position": "CAM", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sct2_006_10", "name": "Niall McGinn", "number": 11, "position": "LW", "country": "GB-NIR", "status": "starter"},
+      {"playerId": "player_sct2_006_11", "name": "George Oakley", "number": 9, "position": "ST", "country": "GB-SCT", "status": "starter"},
+  
+      {"playerId": "player_sct2_006_12", "name": "Gary Woods", "number": 12, "position": "GK", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_006_13", "name": "Iain Wilson", "number": 14, "position": "CB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_006_14", "name": "Kirk Broadfoot", "number": 15, "position": "RB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_006_15", "name": "Carlo Pignatiello", "number": 16, "position": "LB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_006_16", "name": "Alan Power", "number": 17, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_sct2_006_17", "name": "Tyler French", "number": 18, "position": "CM", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sct2_006_18", "name": "Reece Lyon", "number": 19, "position": "RM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_006_19", "name": "Michael Garrity", "number": 20, "position": "LM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_006_20", "name": "Alexander King", "number": 21, "position": "CAM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_006_21", "name": "Dougie Imrie Jr.", "number": 22, "position": "RW", "country": "GB-SCT", "status": "bench"},
+  
+      {"playerId": "player_sct2_006_22", "name": "Jamie MacDonald", "number": 30, "position": "GK", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct2_006_23", "name": "Lewis McGrattan", "number": 23, "position": "LW", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct2_006_24", "name": "Steven Boyd", "number": 24, "position": "ST", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct2_006_25", "name": "Robbie Crawford", "number": 25, "position": "ST", "country": "GB-SCT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
