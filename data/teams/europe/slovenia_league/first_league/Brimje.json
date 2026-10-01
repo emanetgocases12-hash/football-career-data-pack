@@ -1,12 +1,58 @@
 {
-  "teamKey": "Brinje",
-
-  "name": "NK Brinje Grosuplje",
-
-  "logo": "assets/logos/europe/slovenia/Brimje.png",
-
-  "stadium": {
-    "name": "Športni park Brinje",
-    "capacity": 1000
+    "teamKey": "Brinje",
+  
+    "name": "NK Brinje Grosuplje",
+  
+    "logo": "assets/logos/europe/slovenia/Brimje.png",
+  
+    "manager": {
+      "name": "Goran Markovič",
+      "country": "SI"
+    },
+  
+    "stadium": {
+      "name": "Športni park Brinje",
+      "capacity": 1000
+    },
+  
+    "players": [
+      {"playerId": "player_si1_003_01", "name": "Jaka Zrnec", "number": 1, "position": "GK", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_003_02", "name": "Kevin Benkič", "number": 2, "position": "RB", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_003_03", "name": "Nejc Pušnik", "number": 4, "position": "CB", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_003_04", "name": "Matevž Matko", "number": 5, "position": "CB", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_003_05", "name": "Nejc Klašnja", "number": 3, "position": "LB", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_003_06", "name": "Maj Rorič", "number": 6, "position": "CDM", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_003_07", "name": "Tin Levanić", "number": 8, "position": "CM", "country": "BA", "status": "starter"},
+      {"playerId": "player_si1_003_08", "name": "Ivan Krolo", "number": 7, "position": "RW", "country": "HR", "status": "starter"},
+      {"playerId": "player_si1_003_09", "name": "Nikola Jovićević", "number": 10, "position": "CAM", "country": "ME", "status": "starter"},
+      {"playerId": "player_si1_003_10", "name": "Enej Marsetič", "number": 11, "position": "ST", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_003_11", "name": "Gal Kurež", "number": 9, "position": "LW", "country": "SI", "status": "starter"},
+  
+      {"playerId": "player_si1_003_12", "name": "Tim Štrasberger", "number": 12, "position": "GK", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_003_13", "name": "Dominik Ivkić", "number": 14, "position": "CB", "country": "HR", "status": "bench"},
+      {"playerId": "player_si1_003_14", "name": "Jan Kovač", "number": 15, "position": "RB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_003_15", "name": "Miha Dobnikar", "number": 16, "position": "LB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_003_16", "name": "Žan Meško", "number": 17, "position": "CB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_003_17", "name": "Nal Lan Koren", "number": 18, "position": "LW", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_003_18", "name": "Almin Kurtović", "number": 19, "position": "CM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_003_19", "name": "Rok Maher", "number": 20, "position": "RM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_003_20", "name": "Luka Turudija", "number": 21, "position": "LM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_003_21", "name": "Aleks Zlatkov", "number": 22, "position": "CAM", "country": "MK", "status": "bench"},
+  
+      {"playerId": "player_si1_003_22", "name": "Jaka Grilj Miletič", "number": 30, "position": "GK", "country": "SI", "status": "reserve"},
+      {"playerId": "player_si1_003_23", "name": "Vuk Vlahović", "number": 23, "position": "RW", "country": "ME", "status": "reserve"},
+      {"playerId": "player_si1_003_24", "name": "Vid Hojč", "number": 24, "position": "ST", "country": "SI", "status": "reserve"},
+      {"playerId": "player_si1_003_25", "name": "Erik Milošević", "number": 25, "position": "ST", "country": "SI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
