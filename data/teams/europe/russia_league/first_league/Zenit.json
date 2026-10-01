@@ -1,12 +1,58 @@
 {
-  "teamKey": "Zenit",
-
-  "name": "Zenit St. Petersburg",
-
-  "logo": "assets/logos/europe/russia/Zenit.png",
-
-  "stadium": {
-    "name": "Gazprom Arena",
-    "capacity": 63026
+    "teamKey": "Zenit",
+  
+    "name": "Zenit St. Petersburg",
+  
+    "logo": "assets/logos/europe/russia/Zenit.png",
+  
+    "manager": {
+      "name": "Sergey Semak",
+      "country": "RU"
+    },
+  
+    "stadium": {
+      "name": "Gazprom Arena",
+      "capacity": 63026
+    },
+  
+    "players": [
+      {"playerId": "player_ru1_016_01", "name": "Denis Adamov", "number": 1, "position": "GK", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_016_02", "name": "Igor Diveev", "number": 2, "position": "RB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_016_03", "name": "Román Vega", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ru1_016_04", "name": "Gustavo Mantuan", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_ru1_016_05", "name": "Nino", "number": 3, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_ru1_016_06", "name": "Wilmar Barrios", "number": 6, "position": "CDM", "country": "CO", "status": "starter"},
+      {"playerId": "player_ru1_016_07", "name": "Wendel", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_ru1_016_08", "name": "Claudinho", "number": 7, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_ru1_016_09", "name": "Aleksandr Erokhin", "number": 10, "position": "CAM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_016_10", "name": "Gustavo Mantuan Jr.", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_ru1_016_11", "name": "Aleksandr Sobolev", "number": 9, "position": "ST", "country": "RU", "status": "starter"},
+  
+      {"playerId": "player_ru1_016_12", "name": "Mikhail Kerzhakov", "number": 12, "position": "GK", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_016_13", "name": "Vyacheslav Karavaev", "number": 14, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_016_14", "name": "Douglas Santos", "number": 15, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_ru1_016_15", "name": "Strahinja Eraković", "number": 16, "position": "LB", "country": "RS", "status": "bench"},
+      {"playerId": "player_ru1_016_16", "name": "Kevin Andrade", "number": 17, "position": "CB", "country": "CO", "status": "bench"},
+      {"playerId": "player_ru1_016_17", "name": "Andrey Mostovoy", "number": 18, "position": "CM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_016_18", "name": "Pedro", "number": 19, "position": "RM", "country": "BR", "status": "bench"},
+      {"playerId": "player_ru1_016_19", "name": "Luiz Henrique", "number": 20, "position": "LM", "country": "BR", "status": "bench"},
+      {"playerId": "player_ru1_016_20", "name": "Maksim Glushenkov", "number": 21, "position": "CAM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_016_21", "name": "Luciano Gondou", "number": 22, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ru1_016_22", "name": "Evgeny Latyshonok", "number": 30, "position": "GK", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_016_23", "name": "Mateo Cassierra", "number": 23, "position": "LW", "country": "CO", "status": "reserve"},
+      {"playerId": "player_ru1_016_24", "name": "Ivan Sergeev", "number": 24, "position": "ST", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_016_25", "name": "Artur Shushenachev", "number": 25, "position": "ST", "country": "KZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
