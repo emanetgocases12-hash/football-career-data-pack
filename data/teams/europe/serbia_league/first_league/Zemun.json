@@ -1,12 +1,58 @@
 {
-  "teamKey": "Zemun",
-
-  "name": "FK Zemun",
-
-  "logo": "assets/logos/europe/serbia/Zemun.png",
-
-  "stadium": {
-    "name": "Gradski stadion Zemun",
-    "capacity": 9588
+    "teamKey": "Zemun",
+  
+    "name": "FK Zemun",
+  
+    "logo": "assets/logos/europe/serbia/Zemun.png",
+  
+    "manager": {
+      "name": "Milan Kuljić",
+      "country": "RS"
+    },
+  
+    "stadium": {
+      "name": "Gradski stadion Zemun",
+      "capacity": 9588
+    },
+  
+    "players": [
+      {"playerId": "player_rs1_014_01", "name": "Marko Knežević", "number": 1, "position": "GK", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_014_02", "name": "I. Kostić", "number": 2, "position": "RB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_014_03", "name": "Đ. Jovanović", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_014_04", "name": "Milan Spremo", "number": 5, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_014_05", "name": "Ivan Ostojič", "number": 3, "position": "LB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_014_06", "name": "Ž. Bogdanović", "number": 6, "position": "CDM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_014_07", "name": "O. Ilić", "number": 8, "position": "CM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_014_08", "name": "D. Miladinović", "number": 7, "position": "RW", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_014_09", "name": "Đ. Petrović", "number": 10, "position": "CAM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_014_10", "name": "Milan Jokić", "number": 11, "position": "LW", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_014_11", "name": "E. Ikoba", "number": 9, "position": "ST", "country": "US", "status": "starter"},
+  
+      {"playerId": "player_rs1_014_12", "name": "M. Živković", "number": 12, "position": "GK", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_014_13", "name": "D. Parađina", "number": 14, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_014_14", "name": "Vasilije Bakić", "number": 15, "position": "RB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_014_15", "name": "A. Kadijević", "number": 16, "position": "LB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_014_16", "name": "A. Cerović", "number": 17, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_014_17", "name": "Uroš Ljubomirac", "number": 18, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_014_18", "name": "M. Meskhi", "number": 19, "position": "RM", "country": "UA", "status": "bench"},
+      {"playerId": "player_rs1_014_19", "name": "N. Kalat", "number": 20, "position": "LM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_014_20", "name": "L. Iliev", "number": 21, "position": "CAM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_014_21", "name": "D. Tabaković", "number": 22, "position": "RW", "country": "RS", "status": "bench"},
+  
+      {"playerId": "player_rs1_014_22", "name": "L. Borković", "number": 30, "position": "GK", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_014_23", "name": "N. Belaković", "number": 23, "position": "LW", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_014_24", "name": "G. Vadze", "number": 24, "position": "ST", "country": "GH", "status": "reserve"},
+      {"playerId": "player_rs1_014_25", "name": "Marko Šarić", "number": 25, "position": "ST", "country": "RS", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
