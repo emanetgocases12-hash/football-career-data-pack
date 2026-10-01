@@ -1,12 +1,58 @@
 {
-  "teamKey": "Cholom",
-
-  "name": "CD Choloma",
-
-  "logo": "assets/logos/north_america/honduras/Cholom.png",
-
-  "stadium": {
-    "name": "Estadio Rubén Deras",
-    "capacity": 5500
+    "teamKey": "Cholom",
+  
+    "name": "CD Choloma",
+  
+    "logo": "assets/logos/north_america/honduras/Cholom.png",
+  
+    "manager": {
+      "name": "Héctor Vargas",
+      "country": "HN"
+    },
+  
+    "stadium": {
+      "name": "Estadio Rubén Deras",
+      "capacity": 5500
+    },
+  
+    "players": [
+      {"playerId": "player_hn1_002_01", "name": "José Pineda", "number": 1, "position": "GK", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_002_02", "name": "Johnny Leverón", "number": 2, "position": "RB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_002_03", "name": "Julio Barrios", "number": 4, "position": "CB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_002_04", "name": "Steven Martínez", "number": 5, "position": "CB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_002_05", "name": "Jhonatan Córdova", "number": 3, "position": "LB", "country": "CO", "status": "starter"},
+      {"playerId": "player_hn1_002_06", "name": "Eiver Florez", "number": 6, "position": "CDM", "country": "PA", "status": "starter"},
+      {"playerId": "player_hn1_002_07", "name": "Isaac Arias", "number": 8, "position": "CM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_002_08", "name": "Gustavo Padilla", "number": 7, "position": "RW", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_002_09", "name": "Ariel Díaz", "number": 10, "position": "CAM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_002_10", "name": "Elí Palma", "number": 11, "position": "ST", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_002_11", "name": "Enrique Borja", "number": 9, "position": "LW", "country": "PY", "status": "starter"},
+  
+      {"playerId": "player_hn1_002_12", "name": "Dereck Aguilar", "number": 12, "position": "GK", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_002_13", "name": "Kevin Álvarez", "number": 14, "position": "CB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_002_14", "name": "Hermes Castillo", "number": 15, "position": "RB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_002_15", "name": "Jhoan Quejada", "number": 16, "position": "LB", "country": "CO", "status": "bench"},
+      {"playerId": "player_hn1_002_16", "name": "Cristian Madrid", "number": 17, "position": "CB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_002_17", "name": "Jordi Franco", "number": 18, "position": "LW", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_002_18", "name": "Heber Núñez", "number": 19, "position": "CM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_002_19", "name": "John Paul Suazo", "number": 20, "position": "RM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_002_20", "name": "Joshua Turcios", "number": 21, "position": "LM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_002_21", "name": "Selvin Guevara", "number": 22, "position": "CAM", "country": "HN", "status": "bench"},
+  
+      {"playerId": "player_hn1_002_22", "name": "Diego Orellana", "number": 30, "position": "GK", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_002_23", "name": "Leider Anaya", "number": 23, "position": "RW", "country": "CO", "status": "reserve"},
+      {"playerId": "player_hn1_002_24", "name": "Axel Alvarado", "number": 24, "position": "ST", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_002_25", "name": "Jordy Canales", "number": 25, "position": "ST", "country": "HN", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
