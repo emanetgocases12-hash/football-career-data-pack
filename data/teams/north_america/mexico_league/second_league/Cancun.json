@@ -1,12 +1,56 @@
 {
-  "teamKey": "Cancun",
-
-  "name": "Cancún FC",
-
-  "logo": "assets/logos/north_america/mexico/Cancun.png",
-
-  "stadium": {
-    "name": "Estadio Olímpico Andrés Quintana Roo",
-    "capacity": 20000
+    "teamKey": "Cancun",
+  
+    "name": "Cancún FC",
+  
+    "logo": "assets/logos/north_america/mexico/Cancun.png",
+  
+    "manager": {
+      "name": "Miguel Ángel Bravo",
+      "country": "MX"
+    },
+  
+    "stadium": {
+      "name": "Estadio Olímpico Andrés Quintana Roo",
+      "capacity": 20000
+    },
+  
+    "players": [
+      {"playerId": "player_mx2_002_01", "name": "Edson Arce", "number": 1, "position": "GK", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_002_02", "name": "Alek Álvarez", "number": 2, "position": "RB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_002_03", "name": "Jonathan Andrés Hernández Ocaña", "number": 3, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_002_04", "name": "Rodrigo Reyes", "number": 4, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_002_05", "name": "Jair Cortés", "number": 6, "position": "LB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_002_06", "name": "Armando Chávez", "number": 5, "position": "CDM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_002_07", "name": "Bruce El Mesmari", "number": 7, "position": "CM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_002_08", "name": "Francisco Javier Melendre García", "number": 8, "position": "CAM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_002_09", "name": "Francisco Uscanga", "number": 10, "position": "RW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_002_10", "name": "Karel Campos", "number": 14, "position": "LW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_002_11", "name": "Thiago Gigena", "number": 9, "position": "ST", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_002_12", "name": "Erick Alexander Montiel Herrera", "number": 18, "position": "GK", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_002_13", "name": "Daniel Guillén", "number": 15, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_002_14", "name": "Ulises Echevarria", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_mx2_002_15", "name": "Luis Ernesto Ruiz Bustillos", "number": 33, "position": "LB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_002_16", "name": "Damián Lomelí Jiménez", "number": 16, "position": "CM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_002_17", "name": "Leonel López", "number": 17, "position": "CDM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_002_18", "name": "Gipson Preciado", "number": 19, "position": "RW", "country": "EC", "status": "bench"},
+      {"playerId": "player_mx2_002_19", "name": "Aarón Arredondo", "number": 20, "position": "CAM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_002_20", "name": "Christopher Trejo", "number": 11, "position": "LW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_002_21", "name": "Gael Eduardo Gutiérrez Saravia", "number": 27, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_002_22", "name": "Braulio Hernandez", "number": 36, "position": "LM", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_002_23", "name": "José Gabriel Rodríguez Novoa", "number": 12, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_002_24", "name": "Lautaro Ismael Barraza", "number": 21, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_002_25", "name": "Christo Vela", "number": 24, "position": "RW", "country": "MX", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 8
+      }
+    }
   }
-}
