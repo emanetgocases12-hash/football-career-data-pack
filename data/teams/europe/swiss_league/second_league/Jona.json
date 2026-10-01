@@ -1,12 +1,58 @@
 {
-  "teamKey": "Jona",
-
-  "name": "FC Rapperswil-Jona",
-
-  "logo": "assets/logos/europe/swiss/Jona.png",
-
-  "stadium": {
-    "name": "Grünfeld",
-    "capacity": 3200
+    "teamKey": "Jona",
+  
+    "name": "FC Rapperswil-Jona",
+  
+    "logo": "assets/logos/europe/swiss/Jona.png",
+  
+    "manager": {
+      "name": "David Sesa",
+      "country": "CH"
+    },
+  
+    "stadium": {
+      "name": "Grünfeld",
+      "capacity": 3200
+    },
+  
+    "players": [
+      {"playerId": "player_ch2_003_01", "name": "Diego Yanz", "number": 1, "position": "GK", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_003_02", "name": "Ruben Pousa", "number": 2, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_ch2_003_03", "name": "Joseph Junior Ambassa", "number": 4, "position": "CB", "country": "CM", "status": "starter"},
+      {"playerId": "player_ch2_003_04", "name": "Stevan Raičević", "number": 5, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_003_05", "name": "Janis Lüthi", "number": 3, "position": "LB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_003_06", "name": "Lorik Emini", "number": 6, "position": "CDM", "country": "XK", "status": "starter"},
+      {"playerId": "player_ch2_003_07", "name": "Yannis Ryter", "number": 8, "position": "CM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_003_08", "name": "Noé Boum", "number": 7, "position": "RW", "country": "CM", "status": "starter"},
+      {"playerId": "player_ch2_003_09", "name": "Rijad Saliji", "number": 10, "position": "CAM", "country": "MK", "status": "starter"},
+      {"playerId": "player_ch2_003_10", "name": "Alexis Charveys", "number": 11, "position": "LW", "country": "FR", "status": "starter"},
+      {"playerId": "player_ch2_003_11", "name": "Hakija Canoski", "number": 9, "position": "ST", "country": "MK", "status": "starter"},
+  
+      {"playerId": "player_ch2_003_12", "name": "Andris Vanins", "number": 12, "position": "GK", "country": "LV", "status": "bench"},
+      {"playerId": "player_ch2_003_13", "name": "Miguel Peralta", "number": 14, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_003_14", "name": "Florian Hoxha", "number": 15, "position": "RB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_003_15", "name": "Nicolas Glaus", "number": 16, "position": "LB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_003_16", "name": "Noa Grace Di Tshibalabala Mupemba", "number": 17, "position": "ST", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_003_17", "name": "Yannick Marchand", "number": 18, "position": "CM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_003_18", "name": "Filipe de Carvalho", "number": 19, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_ch2_003_19", "name": "Jorge Rans", "number": 20, "position": "LM", "country": "ES", "status": "bench"},
+      {"playerId": "player_ch2_003_20", "name": "Malik Deme", "number": 21, "position": "CAM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_003_21", "name": "Dimitri Volkart", "number": 22, "position": "RW", "country": "CH", "status": "bench"},
+  
+      {"playerId": "player_ch2_003_22", "name": "Yanick Brecher Jr.", "number": 30, "position": "GK", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_003_23", "name": "Helaku-Josué Schmidt", "number": 23, "position": "LW", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_003_24", "name": "Samba So", "number": 24, "position": "ST", "country": "SN", "status": "reserve"},
+      {"playerId": "player_ch2_003_25", "name": "Elias Pasche", "number": 25, "position": "ST", "country": "CH", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
