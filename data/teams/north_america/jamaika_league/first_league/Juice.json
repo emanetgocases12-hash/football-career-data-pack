@@ -1,12 +1,58 @@
 {
-  "teamKey": "Juice",
-
-  "name": "Tru-Juice FC",
-
-  "logo": "assets/logos/north_america/jamaika/Juice.png",
-
-  "stadium": {
-    "name": "Bramwell Clarke Sports Complex",
-    "capacity": 2000
+    "teamKey": "Juice",
+  
+    "name": "Tru-Juice FC",
+  
+    "logo": "assets/logos/north_america/jamaika/Juice.png",
+  
+    "manager": {
+      "name": "Damion Gordon",
+      "country": "JM"
+    },
+  
+    "stadium": {
+      "name": "Bramwell Clarke Sports Complex",
+      "capacity": 2000
+    },
+  
+    "players": [
+      {"playerId": "player_jm1_005_01", "name": "Tafari Chambers", "number": 1, "position": "GK", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_005_02", "name": "Lamard Neil", "number": 2, "position": "RB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_005_03", "name": "Zackiya Wilks", "number": 4, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_005_04", "name": "Gadail Irving", "number": 5, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_005_05", "name": "Elvis Wilson", "number": 3, "position": "LB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_005_06", "name": "Damion Binns", "number": 6, "position": "CDM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_005_07", "name": "Ty Ty Wedderburn", "number": 8, "position": "CM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_005_08", "name": "Alex Marshall", "number": 7, "position": "RW", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_005_09", "name": "Dexter Manning", "number": 10, "position": "CAM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_005_10", "name": "Daniel Roberts", "number": 11, "position": "ST", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_005_11", "name": "Rodave Murray", "number": 9, "position": "RW", "country": "JM", "status": "starter"},
+  
+      {"playerId": "player_jm1_005_12", "name": "Carlye Holmes", "number": 12, "position": "GK", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_005_13", "name": "Tafari Harriott", "number": 14, "position": "CB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_005_14", "name": "Raheem Harris", "number": 15, "position": "RB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_005_15", "name": "Howard Baker", "number": 16, "position": "LB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_005_16", "name": "Anton Rhule", "number": 17, "position": "CB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_005_17", "name": "Marlon Martin", "number": 18, "position": "LW", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_005_18", "name": "Ryieme Gayle", "number": 19, "position": "CM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_005_19", "name": "Lajon Livingstone", "number": 20, "position": "RM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_005_20", "name": "Curtel Lawes", "number": 21, "position": "LM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_005_21", "name": "Tajay Mcintosh", "number": 22, "position": "CAM", "country": "JM", "status": "bench"},
+  
+      {"playerId": "player_jm1_005_22", "name": "Jameal Vassell", "number": 30, "position": "GK", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_005_23", "name": "Nicholas Robinson", "number": 23, "position": "LW", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_005_24", "name": "Milton Brooks", "number": 24, "position": "ST", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_005_25", "name": "Richard Oats", "number": 25, "position": "ST", "country": "JM", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
