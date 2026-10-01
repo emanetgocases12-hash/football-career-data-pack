@@ -1,12 +1,58 @@
 {
-  "teamKey": "Falkrk",
-
-  "name": "Falkirk FC",
-
-  "logo": "assets/logos/europe/scottish/Falkirk.png",
-
-  "stadium": {
-    "name": "The Falkirk Stadium",
-    "capacity": 7937
+    "teamKey": "Falkrk",
+  
+    "name": "Falkirk FC",
+  
+    "logo": "assets/logos/europe/scottish/Falkirk.png",
+  
+    "manager": {
+      "name": "John McGlynn",
+      "country": "GB-SCT"
+    },
+  
+    "stadium": {
+      "name": "The Falkirk Stadium",
+      "capacity": 7937
+    },
+  
+    "players": [
+      {"playerId": "player_sct1_005_01", "name": "Nicky Hogarth", "number": 1, "position": "GK", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_005_02", "name": "Leon McCann", "number": 2, "position": "RB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_005_03", "name": "Coll Donaldson", "number": 4, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_005_04", "name": "Liam Henderson", "number": 5, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_005_05", "name": "Sean Mackie", "number": 3, "position": "LB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_005_06", "name": "Aidan Nesbitt", "number": 6, "position": "CDM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_005_07", "name": "Brad Spencer", "number": 8, "position": "CM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_005_08", "name": "Ethan Ross", "number": 7, "position": "RW", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_005_09", "name": "Ben Krauhaus", "number": 10, "position": "CAM", "country": "DE", "status": "starter"},
+      {"playerId": "player_sct1_005_10", "name": "Owen Eames", "number": 11, "position": "LW", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sct1_005_11", "name": "Alfie Agyeman", "number": 9, "position": "ST", "country": "GH", "status": "starter"},
+  
+      {"playerId": "player_sct1_005_12", "name": "Jamie Sneddon", "number": 12, "position": "GK", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_005_13", "name": "Keelan Adams", "number": 14, "position": "CB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_005_14", "name": "Tom Lang", "number": 15, "position": "RB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_005_15", "name": "Finn Yeats", "number": 16, "position": "LB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_005_16", "name": "Calvin Miller", "number": 17, "position": "CB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_005_17", "name": "Dylan Tait", "number": 18, "position": "CM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_005_18", "name": "Scott Arfield", "number": 19, "position": "RM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_005_19", "name": "Gary Oliver", "number": 20, "position": "LM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_005_20", "name": "Ross MacIver", "number": 21, "position": "CAM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_005_21", "name": "Callumn Morrison", "number": 22, "position": "RW", "country": "GB-SCT", "status": "bench"},
+  
+      {"playerId": "player_sct1_005_22", "name": "Calum Ferrie", "number": 30, "position": "GK", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct1_005_23", "name": "Ethan Williams", "number": 23, "position": "LW", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_sct1_005_24", "name": "Oluwaseun Adewumi", "number": 24, "position": "ST", "country": "AT", "status": "reserve"},
+      {"playerId": "player_sct1_005_25", "name": "Ryan Shanley", "number": 25, "position": "ST", "country": "GB-SCT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
