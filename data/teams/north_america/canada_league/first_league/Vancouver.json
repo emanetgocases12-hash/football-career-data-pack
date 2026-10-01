@@ -1,12 +1,58 @@
-{
-  "teamKey": "Vancov",
-
-  "name": "Vancouver FC",
-
-  "logo": "assets/logos/north_america/canada/Vancov.png",
-
-  "stadium": {
-    "name": "Willoughby Community Park Stadium",
-    "capacity": 6600
+ {
+    "teamKey": "Vancov",
+  
+    "name": "Vancouver FC",
+  
+    "logo": "assets/logos/north_america/canada/Vancov.png",
+  
+    "manager": {
+      "name": "Martin Nash",
+      "country": "CA"
+    },
+  
+    "stadium": {
+      "name": "Willoughby Community Park Stadium",
+      "capacity": 6600
+    },
+  
+    "players": [
+      {"playerId": "player_ca1_008_01", "name": "Callum Irving", "number": 1, "position": "GK", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_008_02", "name": "Paris Gee", "number": 2, "position": "RB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_008_03", "name": "Morey Doner", "number": 4, "position": "CB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_008_04", "name": "Isak Ssewankambo", "number": 5, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_ca1_008_05", "name": "Matteo Campagna", "number": 3, "position": "LB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_008_06", "name": "Damiano Pecile", "number": 6, "position": "CDM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_008_07", "name": "Luis Toomey", "number": 8, "position": "CM", "country": "NZ", "status": "starter"},
+      {"playerId": "player_ca1_008_08", "name": "Abdoulaye Ouattara", "number": 7, "position": "RW", "country": "FR", "status": "starter"},
+      {"playerId": "player_ca1_008_09", "name": "Emrick Fotsing", "number": 10, "position": "CAM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_008_10", "name": "Lys Mousset", "number": 11, "position": "ST", "country": "FR", "status": "starter"},
+      {"playerId": "player_ca1_008_11", "name": "Mohamed Amissi", "number": 9, "position": "LW", "country": "BI", "status": "starter"},
+  
+      {"playerId": "player_ca1_008_12", "name": "Henrik Regitnig", "number": 12, "position": "GK", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_008_13", "name": "Tom Field", "number": 14, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_ca1_008_14", "name": "Kian Proctor", "number": 15, "position": "RB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_008_15", "name": "Tyler Crawford", "number": 16, "position": "LB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_008_16", "name": "James Cameron", "number": 17, "position": "CB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_008_17", "name": "Thomas Powell", "number": 18, "position": "LW", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_008_18", "name": "Nicolás Mezquida", "number": 19, "position": "CM", "country": "UY", "status": "bench"},
+      {"playerId": "player_ca1_008_19", "name": "Marcello Polisi", "number": 20, "position": "RM", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_008_20", "name": "Vitor Lucas de Araujo", "number": 21, "position": "LM", "country": "BR", "status": "bench"},
+      {"playerId": "player_ca1_008_21", "name": "Grady McDonnell", "number": 22, "position": "CAM", "country": "CA", "status": "bench"},
+  
+      {"playerId": "player_ca1_008_22", "name": "Matheus de Souza", "number": 30, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_ca1_008_23", "name": "Terran Campbell", "number": 23, "position": "RW", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_008_24", "name": "Marsel Bibishkov", "number": 24, "position": "ST", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_008_25", "name": "Henri Godbout", "number": 25, "position": "ST", "country": "US", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
