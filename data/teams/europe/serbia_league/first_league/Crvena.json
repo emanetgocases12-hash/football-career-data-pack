@@ -1,12 +1,58 @@
 {
-  "teamKey": "Crv Zve",
-
-  "name": "Red Star Belgrade",
-
-  "logo": "assets/logos/europe/serbia/Crvena.png",
-
-  "stadium": {
-    "name": "Rajko Mitić",
-    "capacity": 51755
+    "teamKey": "Crv Zve",
+  
+    "name": "Red Star Belgrade",
+  
+    "logo": "assets/logos/europe/serbia/Crvena.png",
+  
+    "manager": {
+      "name": "Albert Riera",
+      "country": "ES"
+    },
+  
+    "stadium": {
+      "name": "Rajko Mitić",
+      "capacity": 51755
+    },
+  
+    "players": [
+      {"playerId": "player_rs1_002_01", "name": "Matheus", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_rs1_002_02", "name": "Miloš Veljković", "number": 2, "position": "RB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_002_03", "name": "Strahinja Eraković", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_002_04", "name": "Franklin Tebo", "number": 5, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_rs1_002_05", "name": "Derrick Luckassen", "number": 3, "position": "LB", "country": "GH", "status": "starter"},
+      {"playerId": "player_rs1_002_06", "name": "Mirko Ivanić", "number": 6, "position": "CDM", "country": "ME", "status": "starter"},
+      {"playerId": "player_rs1_002_07", "name": "Mahmudu Bajo", "number": 8, "position": "CM", "country": "GM", "status": "starter"},
+      {"playerId": "player_rs1_002_08", "name": "Aleksandar Katai", "number": 7, "position": "RW", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_002_09", "name": "Mohammad Abu Fani", "number": 10, "position": "CAM", "country": "IL", "status": "starter"},
+      {"playerId": "player_rs1_002_10", "name": "Timi Max Elšnik", "number": 11, "position": "LW", "country": "SI", "status": "starter"},
+      {"playerId": "player_rs1_002_11", "name": "Marko Arnautović", "number": 9, "position": "ST", "country": "AT", "status": "starter"},
+  
+      {"playerId": "player_rs1_002_12", "name": "Ivan Guteša", "number": 12, "position": "GK", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_002_13", "name": "Seol Young-Woo", "number": 14, "position": "CB", "country": "KR", "status": "bench"},
+      {"playerId": "player_rs1_002_14", "name": "Mihailo Ristić", "number": 15, "position": "RB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_002_15", "name": "Nayair Tiknizyan", "number": 16, "position": "LB", "country": "AM", "status": "bench"},
+      {"playerId": "player_rs1_002_16", "name": "Rodrigão", "number": 17, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_rs1_002_17", "name": "Vasilije Kostov", "number": 18, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_002_18", "name": "Rade Krunić", "number": 19, "position": "RM", "country": "BA", "status": "bench"},
+      {"playerId": "player_rs1_002_19", "name": "Muhammed Cham", "number": 20, "position": "LM", "country": "AT", "status": "bench"},
+      {"playerId": "player_rs1_002_20", "name": "Vladimir Lučić", "number": 21, "position": "CAM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_002_21", "name": "Jay Enem", "number": 22, "position": "RW", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_rs1_002_22", "name": "Savo Radanović", "number": 30, "position": "GK", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_002_23", "name": "Bruno Duarte", "number": 23, "position": "LW", "country": "BR", "status": "reserve"},
+      {"playerId": "player_rs1_002_24", "name": "Osman Bukari", "number": 24, "position": "ST", "country": "GH", "status": "reserve"},
+      {"playerId": "player_rs1_002_25", "name": "Loizos Loizou", "number": 25, "position": "ST", "country": "CY", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
