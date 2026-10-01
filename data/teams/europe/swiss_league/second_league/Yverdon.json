@@ -1,12 +1,58 @@
 {
-  "teamKey": "Yvrdon",
-
-  "name": "Yverdon Sport FC",
-
-  "logo": "assets/logos/europe/swiss/Yverdon.png",
-
-  "stadium": {
-    "name": "Stade Municipal",
-    "capacity": 4200
+    "teamKey": "Yvrdon",
+  
+    "name": "Yverdon Sport FC",
+  
+    "logo": "assets/logos/europe/swiss/Yverdon.png",
+  
+    "manager": {
+      "name": "Martin Andermatt",
+      "country": "CH"
+    },
+  
+    "stadium": {
+      "name": "Stade Municipal",
+      "capacity": 4200
+    },
+  
+    "players": [
+      {"playerId": "player_ch2_010_01", "name": "Simon Enzler", "number": 1, "position": "GK", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_010_02", "name": "Loan Guignard", "number": 2, "position": "RB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_010_03", "name": "Jason Gnakpa", "number": 4, "position": "CB", "country": "FR", "status": "starter"},
+      {"playerId": "player_ch2_010_04", "name": "Anthony Baron", "number": 5, "position": "CB", "country": "GP", "status": "starter"},
+      {"playerId": "player_ch2_010_05", "name": "Vegard Kongsro", "number": 3, "position": "LB", "country": "NO", "status": "starter"},
+      {"playerId": "player_ch2_010_06", "name": "Ousmane Doumbia", "number": 6, "position": "CDM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ch2_010_07", "name": "Aurélien Chappuis", "number": 8, "position": "CM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_010_08", "name": "Valon Fazliu", "number": 7, "position": "RW", "country": "XK", "status": "starter"},
+      {"playerId": "player_ch2_010_09", "name": "Jonatan Mayorga", "number": 10, "position": "CAM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_010_10", "name": "Bastien Toma", "number": 11, "position": "LW", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_010_11", "name": "Mahamadou Kanouté", "number": 9, "position": "ST", "country": "ML", "status": "starter"},
+  
+      {"playerId": "player_ch2_010_12", "name": "Maxime Rouiller", "number": 12, "position": "GK", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_010_13", "name": "Guedalia Nsakala", "number": 14, "position": "CB", "country": "FR", "status": "bench"},
+      {"playerId": "player_ch2_010_14", "name": "Lorenzo Bittarelli", "number": 15, "position": "RB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_010_15", "name": "Lucas Pos", "number": 16, "position": "LB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_010_16", "name": "Anthony Sauthier", "number": 17, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_010_17", "name": "Noah Vauthey", "number": 18, "position": "CM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_010_18", "name": "Mayka Okuka", "number": 19, "position": "RM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_010_19", "name": "Ethan Bruchez Jr.", "number": 20, "position": "LM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_010_20", "name": "Ilan Weill", "number": 21, "position": "CAM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_010_21", "name": "Shkelqim Demhasaj", "number": 22, "position": "RW", "country": "CH", "status": "bench"},
+  
+      {"playerId": "player_ch2_010_22", "name": "Dario Marzino Jr.", "number": 30, "position": "GK", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_010_23", "name": "Elias Pasche III", "number": 23, "position": "LW", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_010_24", "name": "Jean-Kévin Augustin", "number": 24, "position": "ST", "country": "FR", "status": "reserve"},
+      {"playerId": "player_ch2_010_25", "name": "Hélios Sessolo", "number": 25, "position": "ST", "country": "CH", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
