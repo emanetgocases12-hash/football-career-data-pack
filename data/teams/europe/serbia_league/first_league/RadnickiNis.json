@@ -1,12 +1,58 @@
 {
-  "teamKey": "R Nis",
-
-  "name": "FK Radnicki Nis",
-
-  "logo": "assets/logos/europe/serbia/RadnickiNis.png",
-
-  "stadium": {
-    "name": "Stadion Čair",
-    "capacity": 18151
+    "teamKey": "R Nis",
+  
+    "name": "FK Radnicki Nis",
+  
+    "logo": "assets/logos/europe/serbia/RadnickiNis.png",
+  
+    "manager": {
+      "name": "Marko Neđić",
+      "country": "RS"
+    },
+  
+    "stadium": {
+      "name": "Stadion Čair",
+      "capacity": 18151
+    },
+  
+    "players": [
+      {"playerId": "player_rs1_010_01", "name": "I. Kostić", "number": 1, "position": "GK", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_010_02", "name": "M. Mijailović", "number": 2, "position": "RB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_010_03", "name": "R. Jokić", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_010_04", "name": "Uroš Vitas", "number": 5, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_010_05", "name": "N. Zečević", "number": 3, "position": "LB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_010_06", "name": "Franck Kanoute", "number": 6, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_rs1_010_07", "name": "D. Krajišnik", "number": 8, "position": "CM", "country": "BA", "status": "starter"},
+      {"playerId": "player_rs1_010_08", "name": "Radomir Milosavljević", "number": 7, "position": "RW", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_010_09", "name": "M. Radonjić", "number": 10, "position": "CAM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_010_10", "name": "L. Izderić", "number": 11, "position": "LW", "country": "AT", "status": "starter"},
+      {"playerId": "player_rs1_010_11", "name": "I. Abass", "number": 9, "position": "ST", "country": "GH", "status": "starter"},
+  
+      {"playerId": "player_rs1_010_12", "name": "S. Manojlović", "number": 12, "position": "GK", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_010_13", "name": "Stefan Veličković", "number": 14, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_010_14", "name": "A. Vidović", "number": 15, "position": "RB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_010_15", "name": "M. Ilić", "number": 16, "position": "LB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_010_16", "name": "B. Kovačević", "number": 17, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_010_17", "name": "Bubacar Djaló", "number": 18, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_rs1_010_18", "name": "S. Nikolić", "number": 19, "position": "RM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_010_19", "name": "P. Davkovski", "number": 20, "position": "LM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_010_20", "name": "Igor Ivanović", "number": 21, "position": "CAM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_010_21", "name": "A. Shestyuk", "number": 22, "position": "RW", "country": "BY", "status": "bench"},
+  
+      {"playerId": "player_rs1_010_22", "name": "D. Stanivuković", "number": 30, "position": "GK", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_010_23", "name": "K. Osei", "number": 23, "position": "LW", "country": "GH", "status": "reserve"},
+      {"playerId": "player_rs1_010_24", "name": "I. Mustapha", "number": 24, "position": "ST", "country": "GH", "status": "reserve"},
+      {"playerId": "player_rs1_010_25", "name": "M. Spasić", "number": 25, "position": "ST", "country": "RS", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
