@@ -1,12 +1,58 @@
 {
-  "teamKey": "Guadal",
-
-  "name": "Guadalupe FC",
-
-  "logo": "assets/logos/north_america/costa_rica/Guadal.png",
-
-  "stadium": {
-    "name": "Estadio CDI José Joaquín Colleya Fonseca",
-    "capacity": 4500
+    "teamKey": "Guadal",
+  
+    "name": "Guadalupe FC",
+  
+    "logo": "assets/logos/north_america/costa_rica/Guadal.png",
+  
+    "manager": {
+      "name": "Cristian Salomón",
+      "country": "CR"
+    },
+  
+    "stadium": {
+      "name": "Estadio CDI José Joaquín Colleya Fonseca",
+      "capacity": 4500
+    },
+  
+    "players": [
+      {"playerId": "player_cr1_003_01", "name": "Caleb Arroyo", "number": 1, "position": "GK", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_003_02", "name": "René Miranda", "number": 2, "position": "RB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_003_03", "name": "William Quirós", "number": 4, "position": "CB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_003_04", "name": "Lautaro Ayala", "number": 5, "position": "CB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_003_05", "name": "Shandon Wright", "number": 3, "position": "LB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_003_06", "name": "Nicolás Espino", "number": 6, "position": "CDM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_003_07", "name": "Enmanuel Chacón", "number": 8, "position": "CM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_003_08", "name": "Sergio Núñez", "number": 7, "position": "RW", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_003_09", "name": "Harry Rojas", "number": 10, "position": "CAM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_003_10", "name": "Giovanni Clunie", "number": 11, "position": "ST", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_003_11", "name": "Tristan Demetrius", "number": 9, "position": "LW", "country": "CR", "status": "starter"},
+  
+      {"playerId": "player_cr1_003_12", "name": "Jussef Delgado", "number": 12, "position": "GK", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_003_13", "name": "Brandon Bonilla", "number": 14, "position": "CB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_003_14", "name": "Ian Salas", "number": 15, "position": "RB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_003_15", "name": "Samuel Madriz", "number": 16, "position": "LB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_003_16", "name": "Jostin Tellería", "number": 17, "position": "LW", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_003_17", "name": "Brayan López", "number": 18, "position": "CM", "country": "NI", "status": "bench"},
+      {"playerId": "player_cr1_003_18", "name": "Héctor Carranza", "number": 19, "position": "RM", "country": "MX", "status": "bench"},
+      {"playerId": "player_cr1_003_19", "name": "Wilson Villalobos", "number": 20, "position": "LM", "country": "NI", "status": "bench"},
+      {"playerId": "player_cr1_003_20", "name": "Yohan Restrepo", "number": 21, "position": "CAM", "country": "CO", "status": "bench"},
+      {"playerId": "player_cr1_003_21", "name": "Lester Ramírez", "number": 22, "position": "RW", "country": "CR", "status": "bench"},
+  
+      {"playerId": "player_cr1_003_22", "name": "Jeaustine Monge", "number": 30, "position": "ST", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_003_23", "name": "Sergio Gámez", "number": 23, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_cr1_003_24", "name": "Jorge Morejón", "number": 24, "position": "RW", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_003_25", "name": "Greivin Méndez", "number": 25, "position": "LW", "country": "CR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
