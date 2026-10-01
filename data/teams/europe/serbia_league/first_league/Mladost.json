@@ -1,12 +1,58 @@
 {
-  "teamKey": "Lucani",
-
-  "name": "FK Mladost Lucani",
-
-  "logo": "assets/logos/europe/serbia/Mladost.png",
-
-  "stadium": {
-    "name": "SRC Mr Radoš Milovanović",
-    "capacity": 5944
+    "teamKey": "Lucani",
+  
+    "name": "FK Mladost Lucani",
+  
+    "logo": "assets/logos/europe/serbia/Mladost.png",
+  
+    "manager": {
+      "name": "Radovan Ćurčić",
+      "country": "RS"
+    },
+  
+    "stadium": {
+      "name": "SRC Mr Radoš Milovanović",
+      "capacity": 5944
+    },
+  
+    "players": [
+      {"playerId": "player_rs1_006_01", "name": "Saša Stamenković", "number": 1, "position": "GK", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_006_02", "name": "Nemanja Petrović", "number": 2, "position": "RB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_006_03", "name": "D. Dubačkić", "number": 4, "position": "CB", "country": "BA", "status": "starter"},
+      {"playerId": "player_rs1_006_04", "name": "N. Andrić", "number": 5, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_006_05", "name": "Milan Joksimović", "number": 3, "position": "LB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_006_06", "name": "V. Kijevčanin", "number": 6, "position": "CDM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_006_07", "name": "Janko Tumbašević", "number": 8, "position": "CM", "country": "ME", "status": "starter"},
+      {"playerId": "player_rs1_006_08", "name": "P. Bojić", "number": 7, "position": "RW", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_006_09", "name": "O. Krsmanović", "number": 10, "position": "CAM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_006_10", "name": "Dušan Jovančić", "number": 11, "position": "LW", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_006_11", "name": "O. Bondžulić", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+  
+      {"playerId": "player_rs1_006_12", "name": "Nikola Popović", "number": 12, "position": "GK", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_006_13", "name": "Taras Bondarenko", "number": 14, "position": "CB", "country": "UA", "status": "bench"},
+      {"playerId": "player_rs1_006_14", "name": "Vukašin Jovanović", "number": 15, "position": "RB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_006_15", "name": "Filip Mladenović", "number": 16, "position": "LB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_006_16", "name": "Miloš Cvetković", "number": 17, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_006_17", "name": "Branko Jovičić", "number": 18, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_006_18", "name": "V. Marković", "number": 19, "position": "RM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_006_19", "name": "N. Ćirković", "number": 20, "position": "LM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_006_20", "name": "M. Kerkez", "number": 21, "position": "CAM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_006_21", "name": "J. Popović", "number": 22, "position": "RW", "country": "RS", "status": "bench"},
+  
+      {"playerId": "player_rs1_006_22", "name": "Željko Samčović", "number": 30, "position": "GK", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_006_23", "name": "O. Alempijević", "number": 23, "position": "LW", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_006_24", "name": "J. Uzuegbunam", "number": 24, "position": "ST", "country": "CM", "status": "reserve"},
+      {"playerId": "player_rs1_006_25", "name": "V. Tašovski", "number": 25, "position": "ST", "country": "MK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
