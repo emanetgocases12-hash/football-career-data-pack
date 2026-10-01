@@ -1,12 +1,56 @@
 {
-  "teamKey": "Alacra",
-
-  "name": "Alacranes de Durango",
-
-  "logo": "assets/logos/north_america/mexico/Alacra.png",
-
-  "stadium": {
-    "name": "Estadio Francisco Zarco",
-    "capacity": 24000
+    "teamKey": "Alacra",
+  
+    "name": "Alacranes de Durango",
+  
+    "logo": "assets/logos/north_america/mexico/Alacra.png",
+  
+    "manager": {
+      "name": "Jair Real Cobián",
+      "country": "MX"
+    },
+  
+    "stadium": {
+      "name": "Estadio Francisco Zarco",
+      "capacity": 24000
+    },
+  
+    "players": [
+      {"playerId": "player_mx2_001_01", "name": "Alejandro Pelaez", "number": 33, "position": "GK", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_001_02", "name": "Andy García", "number": 2, "position": "RB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_001_03", "name": "Jesús González", "number": 3, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_001_04", "name": "José Luis Osmar Múñoz Villagómez", "number": 4, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_001_05", "name": "Miguel Lozano", "number": 12, "position": "LB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_001_06", "name": "Eric Cantú", "number": 5, "position": "CDM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_001_07", "name": "César Giovany Vega Hernández", "number": 6, "position": "CM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_001_08", "name": "Tomás Antonio Montano Zambra", "number": 8, "position": "CAM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_001_09", "name": "Luis Morales", "number": 11, "position": "RW", "country": "VE", "status": "starter"},
+      {"playerId": "player_mx2_001_10", "name": "Jan Ontiveros", "number": 13, "position": "LW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_001_11", "name": "Luis Gutierrez", "number": 7, "position": "ST", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_001_12", "name": "Jared Alberto Muñoz Martínez", "number": 1, "position": "GK", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_001_13", "name": "Jose Eduardo Castillo", "number": 20, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_001_14", "name": "David Josué Oteo Ochoa", "number": 21, "position": "RB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_001_15", "name": "Iñaki Castillo Monroy", "number": 22, "position": "LB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_001_16", "name": "Eduardo Castillo", "number": 31, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_001_17", "name": "César Ulises Hernández", "number": 16, "position": "CM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_001_18", "name": "Jesus Abraham Torres Martinez", "number": 18, "position": "CDM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_001_19", "name": "Aldieri Valenzuela", "number": 19, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_001_20", "name": "Brayan Leonardo Muñóz Martínez", "number": 26, "position": "CAM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_001_21", "name": "José Ramírez", "number": 9, "position": "LW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_001_22", "name": "Jair González", "number": 10, "position": "RW", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_001_23", "name": "Luis Loroña", "number": 14, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_001_24", "name": "Jose Reyes", "number": 17, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_001_25", "name": "Carlos Sebastián Siqueiros Nájera", "number": 23, "position": "RW", "country": "MX", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 33,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 8
+      }
+    }
   }
-}
