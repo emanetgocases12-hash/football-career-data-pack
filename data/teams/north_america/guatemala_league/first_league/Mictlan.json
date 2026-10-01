@@ -1,12 +1,58 @@
 {
-  "teamKey": "Mictlá",
-
-  "name": "Atlético Mictlán",
-
-  "logo": "assets/logos/north_america/guatemala/Mictla.png",
-
-  "stadium": {
-    "name": "Estadio La Asunción",
-    "capacity": 2400
+    "teamKey": "Mictlá",
+  
+    "name": "Atlético Mictlán",
+  
+    "logo": "assets/logos/north_america/guatemala/Mictla.png",
+  
+    "manager": {
+      "name": "Edy Arenas",
+      "country": "GT"
+    },
+  
+    "stadium": {
+      "name": "Estadio La Asunción",
+      "capacity": 2400
+    },
+  
+    "players": [
+      {"playerId": "player_gt1_009_01", "name": "Elder Hernández", "number": 1, "position": "GK", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_009_02", "name": "Richard Monges", "number": 2, "position": "RB", "country": "PY", "status": "starter"},
+      {"playerId": "player_gt1_009_03", "name": "William Ramírez", "number": 4, "position": "CB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_009_04", "name": "Luis Revolorio", "number": 5, "position": "CB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_009_05", "name": "Cristian Ruiz", "number": 3, "position": "LB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_009_06", "name": "Brandon Rivas", "number": 6, "position": "CDM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_009_07", "name": "Mario Grijalva", "number": 8, "position": "CM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_009_08", "name": "Carlos Quan", "number": 7, "position": "RW", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_009_09", "name": "Francis Mota", "number": 10, "position": "CAM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_009_10", "name": "Andrés Quiñónez", "number": 11, "position": "LW", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_009_11", "name": "Miguel Angel Lemus", "number": 9, "position": "ST", "country": "GT", "status": "starter"},
+  
+      {"playerId": "player_gt1_009_12", "name": "Juan Fernando Najarro", "number": 12, "position": "GK", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_009_13", "name": "Carlos Chajaj", "number": 14, "position": "CB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_009_14", "name": "Jonas Herrarte", "number": 15, "position": "RB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_009_15", "name": "Bryan Menéndez", "number": 16, "position": "LB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_009_16", "name": "José Guerra", "number": 17, "position": "CB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_009_17", "name": "Luis Cañate", "number": 18, "position": "CM", "country": "PA", "status": "bench"},
+      {"playerId": "player_gt1_009_18", "name": "Elder Tobar", "number": 19, "position": "RM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_009_19", "name": "Wilson Gómez", "number": 20, "position": "LM", "country": "AR", "status": "bench"},
+      {"playerId": "player_gt1_009_20", "name": "Anthony Velásquez", "number": 21, "position": "CAM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_009_21", "name": "Emilio Korich", "number": 22, "position": "RW", "country": "GT", "status": "bench"},
+  
+      {"playerId": "player_gt1_009_22", "name": "Renny Folleco", "number": 30, "position": "GK", "country": "EC", "status": "reserve"},
+      {"playerId": "player_gt1_009_23", "name": "Paolo Molina", "number": 23, "position": "LW", "country": "GT", "status": "reserve"},
+      {"playerId": "player_gt1_009_24", "name": "César Chinchilla", "number": 24, "position": "ST", "country": "GT", "status": "reserve"},
+      {"playerId": "player_gt1_009_25", "name": "Robin Betancourth", "number": 25, "position": "ST", "country": "GT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
