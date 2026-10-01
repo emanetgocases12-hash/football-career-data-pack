@@ -1,12 +1,58 @@
 {
-  "teamKey": "CD Olim",
-
-  "name": "CD Olimpia",
-
-  "logo": "assets/logos/north_america/honduras/CDOlim.png",
-
-  "stadium": {
-    "name": "Estadio Nacional José de la Paz Herrera",
-    "capacity": 35000
+    "teamKey": "CD Olim",
+  
+    "name": "CD Olimpia",
+  
+    "logo": "assets/logos/north_america/honduras/CDOlim.png",
+  
+    "manager": {
+      "name": "Eduardo Espinel",
+      "country": "UY"
+    },
+  
+    "stadium": {
+      "name": "Estadio Nacional José de la Paz Herrera",
+      "capacity": 35000
+    },
+  
+    "players": [
+      {"playerId": "player_hn1_001_01", "name": "Edrick Menjívar", "number": 1, "position": "GK", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_001_02", "name": "Emanuel Hernández", "number": 2, "position": "RB", "country": "UY", "status": "starter"},
+      {"playerId": "player_hn1_001_03", "name": "Clinton Bennett", "number": 4, "position": "CB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_001_04", "name": "Cristián Canales", "number": 5, "position": "CB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_001_05", "name": "Emanuel Cuello", "number": 3, "position": "LB", "country": "UY", "status": "starter"},
+      {"playerId": "player_hn1_001_06", "name": "Jorge Álvarez", "number": 6, "position": "CDM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_001_07", "name": "Edwin Rodríguez", "number": 8, "position": "CM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_001_08", "name": "Michaell Chirinos", "number": 7, "position": "RW", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_001_09", "name": "Axel Maldonado", "number": 10, "position": "CAM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_001_10", "name": "Yustin Arboleda", "number": 11, "position": "ST", "country": "CO", "status": "starter"},
+      {"playerId": "player_hn1_001_11", "name": "Jorge Benguché", "number": 9, "position": "LW", "country": "HN", "status": "starter"},
+  
+      {"playerId": "player_hn1_001_12", "name": "Onan Rodríguez", "number": 12, "position": "GK", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_001_13", "name": "Kevin Güity", "number": 14, "position": "CB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_001_14", "name": "Edwin Lobo", "number": 15, "position": "RB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_001_15", "name": "Félix García", "number": 16, "position": "LB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_001_16", "name": "Jhozua Cabrera", "number": 17, "position": "CB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_001_17", "name": "Jack Jean Baptiste", "number": 18, "position": "LW", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_001_18", "name": "Kilmar Peña", "number": 19, "position": "CM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_001_19", "name": "Rodbin Mejía", "number": 20, "position": "RM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_001_20", "name": "Yeremy Álvarez", "number": 21, "position": "LM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_001_21", "name": "Denzel Arzú", "number": 22, "position": "CAM", "country": "HN", "status": "bench"},
+  
+      {"playerId": "player_hn1_001_22", "name": "Eduardo Romero", "number": 30, "position": "CB", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_001_23", "name": "Jainer Bermúdez", "number": 23, "position": "RW", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_001_24", "name": "Anthony Ortiz", "number": 24, "position": "ST", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_001_25", "name": "Nicolás Dibble", "number": 25, "position": "ST", "country": "UY", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
