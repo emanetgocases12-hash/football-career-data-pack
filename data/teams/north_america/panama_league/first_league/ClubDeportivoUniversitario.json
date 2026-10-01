@@ -1,12 +1,44 @@
 {
-  "teamKey": "CDUniv",
-
-  "name": "Club Deportivo Universitario",
-
-  "logo": "assets/logos/north_america/panama/CDUniv.png",
-
-  "stadium": {
-    "name": "Estadio Universidad Latina",
-    "capacity": 4700
+    "teamKey": "CDUniv",
+    "name": "Club Deportivo Universitario",
+    "logo": "assets/logos/north_america/panama/CDUniv.png",
+    "manager": {"name": "Jhon Cagua", "country": "EC"},
+    "stadium": {"name": "Estadio Universidad Latina", "capacity": 4700},
+    "players": [
+      {"playerId": "player_pa1_004_01", "name": "Gianfranco Cao", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_pa1_004_02", "name": "Derick Edmund", "number": 22, "position": "CB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_004_03", "name": "José Ampudia", "number": 23, "position": "CB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_004_04", "name": "José Matos", "number": 6, "position": "LB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_004_05", "name": "Iván Anderson", "number": 27, "position": "RB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_004_06", "name": "Misael Acosta", "number": 18, "position": "CDM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_004_07", "name": "Joel Clarke", "number": 8, "position": "CM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_004_08", "name": "Justin Simons", "number": 19, "position": "CAM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_004_09", "name": "José Bernal", "number": 10, "position": "LM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_004_10", "name": "Randy Rangel", "number": 24, "position": "RW", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_004_11", "name": "Alexis Cundumí", "number": 9, "position": "ST", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_004_12", "name": "Ariel De la Cruz", "number": 12, "position": "GK", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_004_13", "name": "Cristhian Gamboa", "number": 2, "position": "CB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_004_14", "name": "Juan Tobón", "number": 5, "position": "LB", "country": "CO", "status": "bench"},
+      {"playerId": "player_pa1_004_15", "name": "Luis Dean", "number": 4, "position": "LB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_004_16", "name": "Jhonnathan García", "number": 3, "position": "RB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_004_17", "name": "Juan Díaz", "number": 17, "position": "CDM", "country": "CO", "status": "bench"},
+      {"playerId": "player_pa1_004_18", "name": "Oliver Pinzón", "number": 7, "position": "CM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_004_19", "name": "Manuel Yerena", "number": 16, "position": "CM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_004_20", "name": "Uziel Maltez", "number": 20, "position": "CM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_004_21", "name": "Moisés Vergara", "number": 15, "position": "CM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_004_22", "name": "Alcides De los Ríos", "number": 25, "position": "RM", "country": "PA", "status": "reserve"},
+      {"playerId": "player_pa1_004_23", "name": "Rolando Herrera", "number": 31, "position": "LW", "country": "PA", "status": "reserve"},
+      {"playerId": "player_pa1_004_24", "name": "Rogelio Rodríguez", "number": 11, "position": "ST", "country": "PA", "status": "reserve"},
+      {"playerId": "player_pa1_004_25", "name": "Jahir Góndola", "number": 26, "position": "ST", "country": "PA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 19,
+        "cornerLeft": 19,
+        "cornerRight": 10
+      }
+    }
   }
-}
