@@ -1,12 +1,58 @@
 {
-  "teamKey": "Jaraba",
-
-  "name": "Jarabacoa FC",
-
-  "logo": "assets/logos/north_america/dominic/Jaraba.png",
-
-  "stadium": {
-    "name": "Estadio Junior Mejía",
-    "capacity": 1800
+    "teamKey": "Jaraba",
+  
+    "name": "Jarabacoa FC",
+  
+    "logo": "assets/logos/north_america/dominic/Jaraba.png",
+  
+    "manager": {
+      "name": "Carlos Echeverry",
+      "country": "CO"
+    },
+  
+    "stadium": {
+      "name": "Estadio Junior Mejía",
+      "capacity": 1800
+    },
+  
+    "players": [
+      {"playerId": "player_do1_005_01", "name": "Fernando López", "number": 1, "position": "GK", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_005_02", "name": "Yeral Morales", "number": 2, "position": "CB", "country": "EC", "status": "starter"},
+      {"playerId": "player_do1_005_03", "name": "Francisco Abreu", "number": 4, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_005_04", "name": "Saúl Castro", "number": 5, "position": "CB", "country": "EC", "status": "starter"},
+      {"playerId": "player_do1_005_05", "name": "Sharif Merlano", "number": 3, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_do1_005_06", "name": "Anniel Rojas", "number": 6, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_005_07", "name": "Ruendy Varga", "number": 8, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_005_08", "name": "Jhonhany Batista", "number": 7, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_005_09", "name": "Jesús Rosa", "number": 10, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_005_10", "name": "Wilmy Canela", "number": 11, "position": "ST", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_005_11", "name": "Robert Peralta", "number": 9, "position": "ST", "country": "DO", "status": "starter"},
+  
+      {"playerId": "player_do1_005_12", "name": "Benny Collado", "number": 12, "position": "GK", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_005_13", "name": "Jordy Durán", "number": 14, "position": "LB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_005_14", "name": "Miguel Vásquez", "number": 15, "position": "RB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_005_15", "name": "Jean Mejía", "number": 16, "position": "CB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_005_16", "name": "Jarol Ramos", "number": 17, "position": "RB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_005_17", "name": "Alexis Quezada", "number": 18, "position": "CAM", "country": "US", "status": "bench"},
+      {"playerId": "player_do1_005_18", "name": "Junior Arias", "number": 19, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_005_19", "name": "Esmeily Rodríguez", "number": 20, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_005_20", "name": "Delvi Marte", "number": 21, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_005_21", "name": "Walny Bien-Aimé", "number": 22, "position": "LW", "country": "HT", "status": "bench"},
+  
+      {"playerId": "player_do1_005_22", "name": "Eduardo Tiburcio", "number": 30, "position": "GK", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_005_23", "name": "Darlin Evangelista", "number": 23, "position": "ST", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_005_24", "name": "Franklin Lebron", "number": 24, "position": "ST", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_005_25", "name": "Ángel Moscoso", "number": 25, "position": "ST", "country": "DO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 6,
+        "cornerLeft": 6,
+        "cornerRight": 6
+      }
+    }
   }
-}
