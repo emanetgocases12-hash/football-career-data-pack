@@ -1,12 +1,58 @@
 {
-  "teamKey": "Zeledó",
-
-  "name": "Municipal Pérez Zeledón",
-
-  "logo": "assets/logos/north_america/costa_rica/Zeledo.png",
-
-  "stadium": {
-    "name": "Estadio Municipal de Pérez Zeledón",
-    "capacity": 3259
+    "teamKey": "Zeledó",
+  
+    "name": "Municipal Pérez Zeledón",
+  
+    "logo": "assets/logos/north_america/costa_rica/Zeledo.png",
+  
+    "manager": {
+      "name": "José Giacone",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Estadio Municipal de Pérez Zeledón",
+      "capacity": 3259
+    },
+  
+    "players": [
+      {"playerId": "player_cr1_010_01", "name": "Miguel Ajú", "number": 1, "position": "GK", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_010_02", "name": "Sebastián Hernández", "number": 2, "position": "RB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_010_03", "name": "Rawy Rodríguez", "number": 4, "position": "CB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_010_04", "name": "William Fernández", "number": 5, "position": "CB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_010_05", "name": "Luis José Hernández", "number": 3, "position": "LB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_010_06", "name": "Wílber Rentería", "number": 6, "position": "CDM", "country": "CO", "status": "starter"},
+      {"playerId": "player_cr1_010_07", "name": "Kenneth Carvajal", "number": 8, "position": "CM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_010_08", "name": "José David Porras", "number": 7, "position": "RW", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_010_09", "name": "Allan Fallas", "number": 10, "position": "CAM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_010_10", "name": "Danilo Pimpinati", "number": 11, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_cr1_010_11", "name": "José Pablo Córdoba", "number": 9, "position": "LW", "country": "CR", "status": "starter"},
+  
+      {"playerId": "player_cr1_010_12", "name": "Alexander Mora", "number": 12, "position": "GK", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_010_13", "name": "Kenneth Guzmán", "number": 14, "position": "CB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_010_14", "name": "Mauricio Núñez", "number": 15, "position": "RB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_010_15", "name": "Manuel Aguilar", "number": 16, "position": "LB", "country": "MX", "status": "bench"},
+      {"playerId": "player_cr1_010_16", "name": "Keymar McLean", "number": 17, "position": "CB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_010_17", "name": "Luis Alejandro Vega", "number": 18, "position": "LW", "country": "MX", "status": "bench"},
+      {"playerId": "player_cr1_010_18", "name": "Ethan Drummond", "number": 19, "position": "CM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_010_19", "name": "Marvin Angulo", "number": 20, "position": "RM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_010_20", "name": "Alejandro Porras", "number": 21, "position": "LM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_010_21", "name": "Horacio Aguirre", "number": 22, "position": "CAM", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_cr1_010_22", "name": "Bryan Segura", "number": 30, "position": "GK", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_010_23", "name": "Kenneth González", "number": 23, "position": "RW", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_010_24", "name": "Keral Ríos", "number": 24, "position": "ST", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_010_25", "name": "Royner Rojas", "number": 25, "position": "ST", "country": "CR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
