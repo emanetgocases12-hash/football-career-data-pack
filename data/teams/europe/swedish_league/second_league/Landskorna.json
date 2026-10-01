@@ -1,12 +1,58 @@
 {
-  "teamKey": "L'Skrna",
-
-  "name": "Landskrona BoIS",
-
-  "logo": "assets/logos/europe/swedish/Landskorna.png",
-
-  "stadium": {
-    "name": "Landskrona IP A-plan",
-    "capacity": 10000
+    "teamKey": "L'Skrna",
+  
+    "name": "Landskrona BoIS",
+  
+    "logo": "assets/logos/europe/swedish/Landskorna.png",
+  
+    "manager": {
+      "name": "Billy Magnusson",
+      "country": "SE"
+    },
+  
+    "stadium": {
+      "name": "Landskrona IP A-plan",
+      "capacity": 10000
+    },
+  
+    "players": [
+      {"playerId": "player_se2_004_01", "name": "Amr Kaddoura", "number": 1, "position": "GK", "country": "PS", "status": "starter"},
+      {"playerId": "player_se2_004_02", "name": "Andreas Murbeck", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_004_03", "name": "Emmanuel Moungam À Ngon", "number": 4, "position": "CB", "country": "CM", "status": "starter"},
+      {"playerId": "player_se2_004_04", "name": "Gustaf Bruzelius", "number": 5, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_004_05", "name": "Gustaf Westström", "number": 3, "position": "LB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_004_06", "name": "Edi Sylisufaj", "number": 6, "position": "CDM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_004_07", "name": "Max Nilsson", "number": 8, "position": "CM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_004_08", "name": "Melker Heier", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_004_09", "name": "Robin Dzabic", "number": 10, "position": "CAM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_004_10", "name": "Frederik Ihler Jr.", "number": 11, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_004_11", "name": "Johan Rapp Jr.", "number": 9, "position": "LW", "country": "SE", "status": "starter"},
+  
+      {"playerId": "player_se2_004_12", "name": "Marcus Pettersson", "number": 12, "position": "GK", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_004_13", "name": "Philip Andersson", "number": 14, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_004_14", "name": "Rasmus Wiedesheim-Paul", "number": 15, "position": "RB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_004_15", "name": "Adam Egnell", "number": 16, "position": "LB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_004_16", "name": "Emil Lindman", "number": 17, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_004_17", "name": "Adam Egnell Jr.", "number": 18, "position": "LW", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_004_18", "name": "Oskar Zawada Jr.", "number": 19, "position": "CM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_004_19", "name": "Victor Karlsson", "number": 20, "position": "RM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_004_20", "name": "Samuel Burakovsky Jr.", "number": 21, "position": "LM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_004_21", "name": "Patrik Johansson", "number": 22, "position": "CAM", "country": "SE", "status": "bench"},
+  
+      {"playerId": "player_se2_004_22", "name": "Albin Andersson", "number": 30, "position": "GK", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_004_23", "name": "Ousmane Diawara", "number": 23, "position": "RW", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_004_24", "name": "M. Diallo", "number": 24, "position": "ST", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_004_25", "name": "Robin Simovic", "number": 25, "position": "ST", "country": "SE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
