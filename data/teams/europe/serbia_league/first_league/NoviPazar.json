@@ -1,12 +1,58 @@
 {
-  "teamKey": "N.Pzar",
-
-  "name": "FK Novi Pazar",
-
-  "logo": "assets/logos/europe/serbia/Novi.png",
-
-  "stadium": {
-    "name": "Gradski stadion Novi Pazar",
-    "capacity": 6900
+    "teamKey": "N.Pzar",
+  
+    "name": "FK Novi Pazar",
+  
+    "logo": "assets/logos/europe/serbia/Novi.png",
+  
+    "manager": {
+      "name": "Strahinja Pandurović",
+      "country": "RS"
+    },
+  
+    "stadium": {
+      "name": "Gradski stadion Novi Pazar",
+      "capacity": 6900
+    },
+  
+    "players": [
+      {"playerId": "player_rs1_007_01", "name": "B. Matijašević", "number": 1, "position": "GK", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_007_02", "name": "Aleksandar Miljković", "number": 2, "position": "RB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_007_03", "name": "V. Mirosavić", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_007_04", "name": "A. Hadžimujović", "number": 5, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_007_05", "name": "S. Melentijević", "number": 3, "position": "LB", "country": "ME", "status": "starter"},
+      {"playerId": "player_rs1_007_06", "name": "P. Gadio", "number": 6, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_rs1_007_07", "name": "S. Togbe", "number": 8, "position": "CM", "country": "GH", "status": "starter"},
+      {"playerId": "player_rs1_007_08", "name": "N. Skrobonja", "number": 7, "position": "RW", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_007_09", "name": "N. Stanković", "number": 10, "position": "CAM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_007_10", "name": "Adem Ljajić", "number": 11, "position": "LW", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_007_11", "name": "Jonny Robert", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_rs1_007_12", "name": "M. Preković", "number": 12, "position": "GK", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_007_13", "name": "J. Marinković", "number": 14, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_007_14", "name": "B. Adžić", "number": 15, "position": "RB", "country": "ME", "status": "bench"},
+      {"playerId": "player_rs1_007_15", "name": "T. Dadić", "number": 16, "position": "LB", "country": "HR", "status": "bench"},
+      {"playerId": "player_rs1_007_16", "name": "B. Bilalović", "number": 17, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_007_17", "name": "M. Petrović", "number": 18, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_007_18", "name": "D. Janković", "number": 19, "position": "RM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_007_19", "name": "E. Mavrić", "number": 20, "position": "LM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_007_20", "name": "B. Leković", "number": 21, "position": "CAM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_007_21", "name": "V. Kotzebue", "number": 22, "position": "RW", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_rs1_007_22", "name": "H. Alić", "number": 30, "position": "GK", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_007_23", "name": "D. Sadi", "number": 23, "position": "LW", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_rs1_007_24", "name": "M. Malekinušić", "number": 24, "position": "ST", "country": "HR", "status": "reserve"},
+      {"playerId": "player_rs1_007_25", "name": "Fejsal Mulić", "number": 25, "position": "ST", "country": "RS", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
