@@ -1,12 +1,58 @@
 {
-  "teamKey": "Pacifi",
-
-  "name": "Pacific FC",
-
-  "logo": "assets/logos/north_america/canada/Pacifi.png",
-
-  "stadium": {
-    "name": "Starlight Stadium",
-    "capacity": 7500
+    "teamKey": "Pacifi",
+  
+    "name": "Pacific FC",
+  
+    "logo": "assets/logos/north_america/canada/Pacifi.png",
+  
+    "manager": {
+      "name": "James Merriman",
+      "country": "CA"
+    },
+  
+    "stadium": {
+      "name": "Starlight Stadium",
+      "capacity": 7500
+    },
+  
+    "players": [
+      {"playerId": "player_ca1_006_01", "name": "Sean Melvin", "number": 1, "position": "GK", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_006_02", "name": "Juan Quintana", "number": 2, "position": "RB", "country": "CO", "status": "starter"},
+      {"playerId": "player_ca1_006_03", "name": "Kadin Chung", "number": 4, "position": "CB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_006_04", "name": "Christian Greco-Taylor", "number": 5, "position": "CB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_006_05", "name": "Diego Konincks", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_ca1_006_06", "name": "Aidan Daniels", "number": 6, "position": "CDM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_006_07", "name": "Matteo Schiavoni", "number": 8, "position": "CM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_006_08", "name": "Taras Gomulka", "number": 7, "position": "RW", "country": "AU", "status": "starter"},
+      {"playerId": "player_ca1_006_09", "name": "Matthew Baldisimo", "number": 10, "position": "CAM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_006_10", "name": "Josh Heard", "number": 11, "position": "ST", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_006_11", "name": "Ronan Kratt", "number": 9, "position": "LW", "country": "CA", "status": "starter"},
+  
+      {"playerId": "player_ca1_006_12", "name": "Eleias Himaras", "number": 12, "position": "GK", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_006_13", "name": "Joshua Belluz", "number": 14, "position": "CB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_006_14", "name": "Eric Lajeunesse", "number": 15, "position": "RB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_006_15", "name": "Will Edgson", "number": 16, "position": "LB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_006_16", "name": "Paul Amedume", "number": 17, "position": "CB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_006_17", "name": "Lukas Browning", "number": 18, "position": "LW", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_006_18", "name": "Roshawn Juhmi", "number": 19, "position": "CM", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_006_19", "name": "Sami Keshavarz", "number": 20, "position": "RM", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_006_20", "name": "Mattias Vales", "number": 21, "position": "LM", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_006_21", "name": "Marco Bustos", "number": 22, "position": "CAM", "country": "CA", "status": "bench"},
+  
+      {"playerId": "player_ca1_006_22", "name": "Emil Gazdov", "number": 30, "position": "GK", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_006_23", "name": "Alejandro Díaz", "number": 23, "position": "RW", "country": "MX", "status": "reserve"},
+      {"playerId": "player_ca1_006_24", "name": "Yann Toualy", "number": 24, "position": "ST", "country": "CI", "status": "reserve"},
+      {"playerId": "player_ca1_006_25", "name": "Bul Juach", "number": 25, "position": "ST", "country": "SS", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
