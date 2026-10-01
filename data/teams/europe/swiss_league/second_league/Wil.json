@@ -1,12 +1,58 @@
 {
-  "teamKey": "Wil",
-
-  "name": "FC Wil 1900",
-
-  "logo": "assets/logos/europe/swiss/Wil.png",
-
-  "stadium": {
-    "name": "Lidl Arena",
-    "capacity": 6000
+    "teamKey": "Wil",
+  
+    "name": "FC Wil 1900",
+  
+    "logo": "assets/logos/europe/swiss/Wil.png",
+  
+    "manager": {
+      "name": "Marco Hämmerli",
+      "country": "CH"
+    },
+  
+    "stadium": {
+      "name": "Lidl Arena",
+      "capacity": 6000
+    },
+  
+    "players": [
+      {"playerId": "player_ch2_007_01", "name": "Abdullah Laïdani", "number": 1, "position": "GK", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_007_02", "name": "Genís Montolio", "number": 2, "position": "RB", "country": "ES", "status": "starter"},
+      {"playerId": "player_ch2_007_03", "name": "Tim Staubli", "number": 4, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_007_04", "name": "Philipp Muntwiler", "number": 5, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_007_05", "name": "Mergim Brahimi", "number": 3, "position": "LB", "country": "XK", "status": "starter"},
+      {"playerId": "player_ch2_007_06", "name": "Dominik Schmid", "number": 6, "position": "CDM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_007_07", "name": "Kastrijot Ndau Jr.", "number": 8, "position": "CM", "country": "XK", "status": "starter"},
+      {"playerId": "player_ch2_007_08", "name": "Mahamadou Diarra", "number": 7, "position": "RW", "country": "ML", "status": "starter"},
+      {"playerId": "player_ch2_007_09", "name": "Janis Keller", "number": 10, "position": "CAM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_007_10", "name": "Patrick Sutter", "number": 11, "position": "LW", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_007_11", "name": "Felipe Borges", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_ch2_007_12", "name": "Marius Müller Jr.", "number": 12, "position": "GK", "country": "DE", "status": "bench"},
+      {"playerId": "player_ch2_007_13", "name": "Kastrijot Ndau", "number": 14, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_ch2_007_14", "name": "Ivan Banić", "number": 15, "position": "RB", "country": "HR", "status": "bench"},
+      {"playerId": "player_ch2_007_15", "name": "Basil Stillhart", "number": 16, "position": "LB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_007_16", "name": "Nikolas Muci Jr.", "number": 17, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_007_17", "name": "Tarik Seferovic", "number": 18, "position": "CM", "country": "BA", "status": "bench"},
+      {"playerId": "player_ch2_007_18", "name": "Julind Selmonaj", "number": 19, "position": "RM", "country": "XK", "status": "bench"},
+      {"playerId": "player_ch2_007_19", "name": "Mauro Rodrigues", "number": 20, "position": "LM", "country": "CV", "status": "bench"},
+      {"playerId": "player_ch2_007_20", "name": "Boubacar Fofana", "number": 21, "position": "CAM", "country": "GN", "status": "bench"},
+      {"playerId": "player_ch2_007_21", "name": "Simon Geiger", "number": 22, "position": "RW", "country": "CH", "status": "bench"},
+  
+      {"playerId": "player_ch2_007_22", "name": "Silas Huber", "number": 30, "position": "GK", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_007_23", "name": "Timothé Nkada", "number": 23, "position": "LW", "country": "FR", "status": "reserve"},
+      {"playerId": "player_ch2_007_24", "name": "Nico Maier Jr.", "number": 24, "position": "ST", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_007_25", "name": "Benjamin Keita", "number": 25, "position": "ST", "country": "GN", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
