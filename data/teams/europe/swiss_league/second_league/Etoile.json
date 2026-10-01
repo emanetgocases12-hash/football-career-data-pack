@@ -1,12 +1,58 @@
 {
-  "teamKey": "Etoile",
-
-  "name": "Etoile Carouge FC",
-
-  "logo": "assets/logos/europe/swiss/Etoile.png",
-
-  "stadium": {
-    "name": "Stade de la Fontenette",
-    "capacity": 7200
+    "teamKey": "Etoile",
+  
+    "name": "Etoile Carouge FC",
+  
+    "logo": "assets/logos/europe/swiss/Etoile.png",
+  
+    "manager": {
+      "name": "Pedro Nogueira",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Stade de la Fontenette",
+      "capacity": 7200
+    },
+  
+    "players": [
+      {"playerId": "player_ch2_002_01", "name": "Mussa Diallo", "number": 1, "position": "GK", "country": "GN", "status": "starter"},
+      {"playerId": "player_ch2_002_02", "name": "Guilain Zrankeon", "number": 2, "position": "RB", "country": "TG", "status": "starter"},
+      {"playerId": "player_ch2_002_03", "name": "Ivann Strohbach", "number": 4, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_002_04", "name": "Diogo Neves", "number": 5, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_ch2_002_05", "name": "Nour Boulkous", "number": 3, "position": "LB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_002_06", "name": "Madyen El Jaouhari", "number": 6, "position": "CDM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_002_07", "name": "Ricardo Alves", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_ch2_002_08", "name": "Bruno Caslei", "number": 7, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_ch2_002_09", "name": "Ousseynou Sène", "number": 10, "position": "CAM", "country": "SN", "status": "starter"},
+      {"playerId": "player_ch2_002_10", "name": "Mathis Holcbecher", "number": 11, "position": "LW", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_002_11", "name": "Cleilton Itaitinga", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_ch2_002_12", "name": "Ibrahim Kaloga", "number": 12, "position": "GK", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_002_13", "name": "Vincent Felder", "number": 14, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_002_14", "name": "Boris Cespedes", "number": 15, "position": "RB", "country": "BO", "status": "bench"},
+      {"playerId": "player_ch2_002_15", "name": "Vincent Rufli", "number": 16, "position": "LB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_002_16", "name": "Ibrahim Kaloga Jr.", "number": 17, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_002_17", "name": "Tiago Escorza", "number": 18, "position": "CM", "country": "ES", "status": "bench"},
+      {"playerId": "player_ch2_002_18", "name": "Luc Essiena", "number": 19, "position": "RM", "country": "CM", "status": "bench"},
+      {"playerId": "player_ch2_002_19", "name": "Samuel Bossiwa", "number": 20, "position": "LM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_002_20", "name": "Boris Cespedes Jr.", "number": 21, "position": "CAM", "country": "BO", "status": "bench"},
+      {"playerId": "player_ch2_002_21", "name": "Hugo Fargues", "number": 22, "position": "RW", "country": "FR", "status": "bench"},
+  
+      {"playerId": "player_ch2_002_22", "name": "Jérémy Frick Jr.", "number": 30, "position": "GK", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_002_23", "name": "Abdoulaye Coulibaly", "number": 23, "position": "LW", "country": "ML", "status": "reserve"},
+      {"playerId": "player_ch2_002_24", "name": "Nourdin Lameira", "number": 24, "position": "ST", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_002_25", "name": "Matheus Vieira", "number": 25, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
