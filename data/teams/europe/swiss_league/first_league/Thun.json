@@ -1,12 +1,58 @@
 {
-  "teamKey": "Thun",
-
-  "name": "FC Thun",
-
-  "logo": "assets/logos/europe/swiss/Thun.png",
-
-  "stadium": {
-    "name": "Visana Stadion",
-    "capacity": 10014
+    "teamKey": "Thun",
+  
+    "name": "FC Thun",
+  
+    "logo": "assets/logos/europe/swiss/Thun.png",
+  
+    "manager": {
+      "name": "Gian-Luca Privitelli",
+      "country": "CH"
+    },
+  
+    "stadium": {
+      "name": "Visana Stadion",
+      "capacity": 10014
+    },
+  
+    "players": [
+      {"playerId": "player_ch1_009_01", "name": "Niklas Steffen", "number": 1, "position": "GK", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_009_02", "name": "Nicolas Bürgy", "number": 2, "position": "RB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_009_03", "name": "Ashvin Balaruban", "number": 4, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_009_04", "name": "Jan Bamert", "number": 5, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_009_05", "name": "Marco Bürki", "number": 3, "position": "LB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_009_06", "name": "Fabio Saiz", "number": 6, "position": "CDM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_009_07", "name": "Nassim Zoukit", "number": 8, "position": "CM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_009_08", "name": "Justin Roth", "number": 7, "position": "RW", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_009_09", "name": "Dorian Derbaci", "number": 10, "position": "CAM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_009_10", "name": "Nico Maier", "number": 11, "position": "LW", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_009_11", "name": "Furkan Dursun", "number": 9, "position": "ST", "country": "AT", "status": "starter"},
+  
+      {"playerId": "player_ch1_009_12", "name": "Tim Spycher", "number": 12, "position": "GK", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_009_13", "name": "Mats Seiler", "number": 14, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_009_14", "name": "Michael Heule", "number": 15, "position": "RB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_009_15", "name": "Lucien Dähler", "number": 16, "position": "LB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_009_16", "name": "Fabio Fehr", "number": 17, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_009_17", "name": "Nils Reichmuth", "number": 18, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_ch1_009_18", "name": "Valmir Matoshi", "number": 19, "position": "RM", "country": "XK", "status": "bench"},
+      {"playerId": "player_ch1_009_19", "name": "Mattias Käit", "number": 20, "position": "LM", "country": "EE", "status": "bench"},
+      {"playerId": "player_ch1_009_20", "name": "Adam Ilić", "number": 21, "position": "CAM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_009_21", "name": "Layton Stewart", "number": 22, "position": "RW", "country": "GB-ENG", "status": "bench"},
+  
+      {"playerId": "player_ch1_009_22", "name": "Dario Wälti", "number": 30, "position": "GK", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch1_009_23", "name": "Christopher Ibayi", "number": 23, "position": "LW", "country": "FR", "status": "reserve"},
+      {"playerId": "player_ch1_009_24", "name": "Riccardo Braschi", "number": 24, "position": "ST", "country": "IT", "status": "reserve"},
+      {"playerId": "player_ch1_009_25", "name": "Brighton Labeau", "number": 25, "position": "ST", "country": "MQ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
