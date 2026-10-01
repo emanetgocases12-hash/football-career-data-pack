@@ -1,12 +1,58 @@
 {
-  "teamKey": "Jalapa",
-
-  "name": "ART Municipal Jalapa",
-
-  "logo": "assets/logos/north_america/nicaragua/Jalapa.png",
-
-  "stadium": {
-    "name": "Estadio Alejandro Ramos Turcio",
-    "capacity": 2000
+    "teamKey": "Jalapa",
+  
+    "name": "ART Municipal Jalapa",
+  
+    "logo": "assets/logos/north_america/nicaragua/Jalapa.png",
+  
+    "manager": {
+      "name": "Luis Londoño",
+      "country": "CO"
+    },
+  
+    "stadium": {
+      "name": "Estadio Alejandro Ramos Turcio",
+      "capacity": 2000
+    },
+  
+    "players": [
+      {"playerId": "player_ni1_003_01", "name": "Víctor Cárcamo", "number": 22, "position": "GK", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_003_02", "name": "Jhan Cuero", "number": 17, "position": "RB", "country": "CO", "status": "starter"},
+      {"playerId": "player_ni1_003_03", "name": "Bayrón Salinas", "number": 24, "position": "CB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_003_04", "name": "Gersan Ramos", "number": 3, "position": "CB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_003_05", "name": "Jeffer Fuentes", "number": 50, "position": "LB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_003_06", "name": "Yefran Benavídez", "number": 14, "position": "CM", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_003_07", "name": "Cristián Ramírez", "number": 6, "position": "CDM", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_003_08", "name": "Marvin Barahona", "number": 7, "position": "CAM", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_003_09", "name": "Oscar Villalobos", "number": 12, "position": "LW", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_003_10", "name": "Patrick Luna", "number": 18, "position": "ST", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_003_11", "name": "Kleyver González", "number": 9, "position": "ST", "country": "NI", "status": "starter"},
+  
+      {"playerId": "player_ni1_003_12", "name": "Walid Birrou", "number": 25, "position": "GK", "country": "ES", "status": "bench"},
+      {"playerId": "player_ni1_003_13", "name": "William Leman", "number": 5, "position": "CB", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_003_14", "name": "Luis Baltodano", "number": 4, "position": "CB", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_003_15", "name": "Carlos Jirón", "number": 8, "position": "CB", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_003_16", "name": "Nery Huete", "number": 46, "position": "CM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_003_17", "name": "Raymond Moncada", "number": 28, "position": "RM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_003_18", "name": "Juan Marín", "number": 10, "position": "CAM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_003_19", "name": "Darwin Corrales", "number": 11, "position": "ST", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_003_20", "name": "José Benavídez", "number": 48, "position": "CM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_003_21", "name": "Holman Lira", "number": 19, "position": "CM", "country": "NI", "status": "bench"},
+  
+      {"playerId": "player_ni1_003_22", "name": "Gerald Galeano", "number": 1, "position": "GK", "country": "NI", "status": "reserve"},
+      {"playerId": "player_ni1_003_23", "name": "René Huete", "number": 15, "position": "CM", "country": "NI", "status": "reserve"},
+      {"playerId": "player_ni1_003_24", "name": "Herald Angulo", "number": 20, "position": "ST", "country": "NI", "status": "reserve"},
+      {"playerId": "player_ni1_003_25", "name": "Steven Marín", "number": 21, "position": "ST", "country": "NI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-4-2",
+      "captain": 22,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 12
+      }
+    }
   }
-}
