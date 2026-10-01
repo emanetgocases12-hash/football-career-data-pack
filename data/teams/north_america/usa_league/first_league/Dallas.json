@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/north_america/usa/Dallas.png",
 
+  "manager": {
+    "name": "Eric Quill",
+    "country": "US"
+  },
+
   "stadium": {
     "name": "Toyota Stadium",
     "capacity": 20500
+  },
+
+  "players": [
+    {"playerId": "player_us1_009_01", "name": "Maarten Paes", "number": 30, "position": "GK", "country": "ID", "status": "starter"},
+    {"playerId": "player_us1_009_02", "name": "Herman Johansson", "number": 14, "position": "RB", "country": "SE", "status": "starter"},
+    {"playerId": "player_us1_009_03", "name": "Osaze Urhoghide", "number": 3, "position": "CB", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_us1_009_04", "name": "Lalas Abubakar", "number": 5, "position": "CB", "country": "GH", "status": "starter"},
+    {"playerId": "player_us1_009_05", "name": "Marco Farfan", "number": 4, "position": "LB", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_009_06", "name": "Ramiro", "number": 17, "position": "CDM", "country": "BR", "status": "starter"},
+    {"playerId": "player_us1_009_07", "name": "Patrickson Delgado", "number": 8, "position": "CM", "country": "EC", "status": "starter"},
+    {"playerId": "player_us1_009_08", "name": "Santiago Moreno", "number": 10, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_us1_009_09", "name": "Luciano Acosta", "number": 11, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_us1_009_10", "name": "Don Deedson Louicius", "number": 7, "position": "LW", "country": "HT", "status": "starter"},
+    {"playerId": "player_us1_009_11", "name": "Petar Musa", "number": 9, "position": "ST", "country": "HR", "status": "starter"},
+
+    {"playerId": "player_us1_009_12", "name": "Jimmy Maurer", "number": 1, "position": "GK", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_009_13", "name": "Sebastien Ibeagha", "number": 25, "position": "CB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_009_14", "name": "Sam Junqua", "number": 29, "position": "LB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_009_15", "name": "Geovane Jesus", "number": 2, "position": "RB", "country": "BR", "status": "bench"},
+    {"playerId": "player_us1_009_16", "name": "Christian Cappis", "number": 12, "position": "CM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_009_17", "name": "Paxton Pomykal", "number": 19, "position": "CM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_009_18", "name": "Sebastian Lletget", "number": 16, "position": "CAM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_009_19", "name": "Anderson Julio", "number": 6, "position": "RW", "country": "EC", "status": "bench"},
+    {"playerId": "player_us1_009_20", "name": "Nicholas Simmonds", "number": 22, "position": "LW", "country": "JM", "status": "bench"},
+    {"playerId": "player_us1_009_21", "name": "Ricky Louis", "number": 15, "position": "ST", "country": "US", "status": "bench"},
+
+    {"playerId": "player_us1_009_22", "name": "Bernard Kamungo", "number": 77, "position": "RW", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_009_23", "name": "Tarik Scott", "number": 41, "position": "ST", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_009_24", "name": "Nolan Norris", "number": 32, "position": "LB", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_009_25", "name": "Antonio Carrera", "number": 13, "position": "GK", "country": "US", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 30,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 11
+    }
   }
 }
