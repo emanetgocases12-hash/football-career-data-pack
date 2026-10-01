@@ -1,12 +1,58 @@
 {
-  "teamKey": "Norrby",
-
-  "name": "Norrby IF",
-
-  "logo": "assets/logos/europe/swedish/Norrby.png",
-
-  "stadium": {
-    "name": "Olympia",
-    "capacity": 16000
+    "teamKey": "Norrby",
+  
+    "name": "Norrby IF",
+  
+    "logo": "assets/logos/europe/swedish/Norrby.png",
+  
+    "manager": {
+      "name": "Mak Lind",
+      "country": "SE"
+    },
+  
+    "stadium": {
+      "name": "Olympia",
+      "capacity": 16000
+    },
+  
+    "players": [
+      {"playerId": "player_se2_007_01", "name": "Sebastian Banozic", "number": 1, "position": "GK", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_007_02", "name": "Aldin Nedzibovic", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_007_03", "name": "D. Bendrik", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_007_04", "name": "Johan Peter Brådenmark", "number": 5, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_007_05", "name": "Johannes Engvall", "number": 3, "position": "LB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_007_06", "name": "Julius Johansson", "number": 6, "position": "CDM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_007_07", "name": "Rasmus Örqvist Jr.", "number": 8, "position": "CM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_007_08", "name": "M. Svensson", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_007_09", "name": "Abdul Razak", "number": 10, "position": "CAM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_007_10", "name": "Linus Tornblad Jr.", "number": 11, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_007_11", "name": "Hampus Andersson", "number": 9, "position": "LW", "country": "SE", "status": "starter"},
+  
+      {"playerId": "player_se2_007_12", "name": "T. Svensson Lillvik", "number": 12, "position": "GK", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_007_13", "name": "Olle Backlund", "number": 14, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_007_14", "name": "Max Olsson", "number": 15, "position": "RB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_007_15", "name": "Adrian Engdahl III", "number": 16, "position": "LB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_007_16", "name": "William Milovanovic Jr.", "number": 17, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_007_17", "name": "Oscar Gustafsson", "number": 18, "position": "LW", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_007_18", "name": "Pontus Eriksson", "number": 19, "position": "CM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_007_19", "name": "Kevin Kabran Jr.", "number": 20, "position": "RM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_007_20", "name": "Viktor Widell", "number": 21, "position": "LM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_007_21", "name": "Nils Fridolf", "number": 22, "position": "CAM", "country": "SE", "status": "bench"},
+  
+      {"playerId": "player_se2_007_22", "name": "Robin Andersson", "number": 30, "position": "GK", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_007_23", "name": "Noah Christoffersson", "number": 23, "position": "RW", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_007_24", "name": "A. Bahtijar Jr.", "number": 24, "position": "ST", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_007_25", "name": "M. Lund", "number": 25, "position": "ST", "country": "SE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
