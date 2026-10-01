@@ -1,12 +1,58 @@
 {
-  "teamKey": "Skalic",
-
-  "name": "MFK Skalica",
-
-  "logo": "assets/logos/europe/slovakia/Skalica.png",
-
-  "stadium": {
-    "name": "Mestský štadión Skalica",
-    "capacity": 3000
+    "teamKey": "Skalic",
+  
+    "name": "MFK Skalica",
+  
+    "logo": "assets/logos/europe/slovakia/Skalica.png",
+  
+    "manager": {
+      "name": "Stanislav Macek",
+      "country": "SK"
+    },
+  
+    "stadium": {
+      "name": "Mestský štadión Skalica",
+      "capacity": 3000
+    },
+  
+    "players": [
+      {"playerId": "player_sk1_007_01", "name": "Richard Ludha", "number": 1, "position": "GK", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_007_02", "name": "Marek Černek", "number": 2, "position": "RB", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_007_03", "name": "Marius Macorig", "number": 4, "position": "CB", "country": "DE", "status": "starter"},
+      {"playerId": "player_sk1_007_04", "name": "Marek Rýzek", "number": 5, "position": "CB", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_007_05", "name": "Lukáš Šimko", "number": 3, "position": "LB", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_007_06", "name": "Patrik Karhan", "number": 6, "position": "CDM", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_007_07", "name": "Adam Morong", "number": 8, "position": "CM", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_007_08", "name": "Levan Nonikashvili", "number": 7, "position": "RW", "country": "GE", "status": "starter"},
+      {"playerId": "player_sk1_007_09", "name": "Andrej Križan", "number": 10, "position": "CAM", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_007_10", "name": "Peter Onyedika", "number": 11, "position": "ST", "country": "NG", "status": "starter"},
+      {"playerId": "player_sk1_007_11", "name": "Emmanuel Eshele", "number": 9, "position": "LW", "country": "DE", "status": "starter"},
+  
+      {"playerId": "player_sk1_007_12", "name": "Erik Riška", "number": 12, "position": "GK", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_007_13", "name": "Samuel Suľa", "number": 14, "position": "CB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_007_14", "name": "Oliver Podhorín", "number": 15, "position": "RB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_007_15", "name": "Prince Guinari", "number": 16, "position": "LB", "country": "CF", "status": "bench"},
+      {"playerId": "player_sk1_007_16", "name": "Lukáš Kopiar", "number": 17, "position": "CB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_007_17", "name": "Martin Gulíšek", "number": 18, "position": "LW", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_007_18", "name": "Patrik Pudhorocký", "number": 19, "position": "CM", "country": "CZ", "status": "bench"},
+      {"playerId": "player_sk1_007_19", "name": "Martin Nagy", "number": 20, "position": "RM", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_007_20", "name": "Marek Mášík", "number": 21, "position": "LM", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_007_21", "name": "Martin Hollý", "number": 22, "position": "CAM", "country": "SK", "status": "bench"},
+  
+      {"playerId": "player_sk1_007_22", "name": "Martin Junas", "number": 30, "position": "GK", "country": "SK", "status": "reserve"},
+      {"playerId": "player_sk1_007_23", "name": "Erik Daniel", "number": 23, "position": "CM", "country": "CZ", "status": "reserve"},
+      {"playerId": "player_sk1_007_24", "name": "Dávid Bariš", "number": 24, "position": "RW", "country": "SK", "status": "reserve"},
+      {"playerId": "player_sk1_007_25", "name": "Roman Potočný", "number": 25, "position": "RW", "country": "CZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
