@@ -1,12 +1,58 @@
 {
-  "teamKey": "Salced",
-
-  "name": "Salcedo FC",
-
-  "logo": "assets/logos/north_america/dominic/Salced.png",
-
-  "stadium": {
-    "name": "Estadio Domingo Polonia",
-    "capacity": 2000
+    "teamKey": "Salced",
+  
+    "name": "Salcedo FC",
+  
+    "logo": "assets/logos/north_america/dominic/Salced.png",
+  
+    "manager": {
+      "name": "Juan Arturo Ferreias Berroa",
+      "country": "DO"
+    },
+  
+    "stadium": {
+      "name": "Estadio Domingo Polonia",
+      "capacity": 2000
+    },
+  
+    "players": [
+      {"playerId": "player_do1_009_01", "name": "Cristian Severino", "number": 1, "position": "GK", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_009_02", "name": "Carlos Rossell", "number": 2, "position": "LB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_009_03", "name": "Yulian Alba", "number": 4, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_009_04", "name": "Alexander Vidal", "number": 5, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_009_05", "name": "Endry Álvarez", "number": 3, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_009_06", "name": "Alexander Jiménez", "number": 6, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_009_07", "name": "Ányelo Gómez", "number": 8, "position": "CAM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_009_08", "name": "Daniel Flores", "number": 7, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_009_09", "name": "Engels Cruz", "number": 10, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_009_10", "name": "Bryan More", "number": 11, "position": "RW", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_009_11", "name": "Jamesley Daniel", "number": 9, "position": "ST", "country": "DO", "status": "starter"},
+  
+      {"playerId": "player_do1_009_12", "name": "Favio Júnior Marte Vicioso", "number": 12, "position": "GK", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_009_13", "name": "Frank Salas", "number": 14, "position": "CB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_009_14", "name": "Jean Chery", "number": 15, "position": "CB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_009_15", "name": "Joel Valentín", "number": 16, "position": "RB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_009_16", "name": "Misael Gómez", "number": 17, "position": "RB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_009_17", "name": "Jeremy Báez", "number": 18, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_009_18", "name": "Josander Tejada", "number": 19, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_009_19", "name": "Sebastián Ramos", "number": 20, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_009_20", "name": "Jarol Joel Ramos Núñez", "number": 21, "position": "RM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_009_21", "name": "Jairo Alegría", "number": 22, "position": "ST", "country": "CO", "status": "bench"},
+  
+      {"playerId": "player_do1_009_22", "name": "Odalis Báez", "number": 30, "position": "GK", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_009_23", "name": "Adhonys María", "number": 23, "position": "ST", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_009_24", "name": "Bryan Mejía", "number": 24, "position": "ST", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_009_25", "name": "Samuel David Moreno Campaña", "number": 25, "position": "ST", "country": "CO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 6,
+        "cornerLeft": 6,
+        "cornerRight": 6
+      }
+    }
   }
-}
