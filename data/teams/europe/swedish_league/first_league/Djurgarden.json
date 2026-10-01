@@ -1,12 +1,58 @@
 {
-  "teamKey": "Djurga",
-
-  "name": "Djurgårdens IF",
-
-  "logo": "assets/logos/europe/swedish/Djurgarden.png",
-
-  "stadium": {
-    "name": "3Arena",
-    "capacity": 30000
+    "teamKey": "Djurga",
+  
+    "name": "Djurgårdens IF",
+  
+    "logo": "assets/logos/europe/swedish/Djurgarden.png",
+  
+    "manager": {
+      "name": "Jani Honkavaara",
+      "country": "FI"
+    },
+  
+    "stadium": {
+      "name": "3Arena",
+      "capacity": 30000
+    },
+  
+    "players": [
+      {"playerId": "player_se1_004_01", "name": "Jacob Rinne", "number": 1, "position": "GK", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_004_02", "name": "Piotr Johansson", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_004_03", "name": "Jacob Une", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_004_04", "name": "Miro Tenho", "number": 5, "position": "CB", "country": "FI", "status": "starter"},
+      {"playerId": "player_se1_004_05", "name": "A. Ståhl", "number": 3, "position": "LB", "country": "FI", "status": "starter"},
+      {"playerId": "player_se1_004_06", "name": "P. Langhoff", "number": 6, "position": "CDM", "country": "DK", "status": "starter"},
+      {"playerId": "player_se1_004_07", "name": "C. Almiras", "number": 8, "position": "CM", "country": "GR", "status": "starter"},
+      {"playerId": "player_se1_004_08", "name": "P. Åslund", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_004_09", "name": "M. Anderson", "number": 10, "position": "CAM", "country": "IS", "status": "starter"},
+      {"playerId": "player_se1_004_10", "name": "K. Lien", "number": 11, "position": "ST", "country": "NO", "status": "starter"},
+      {"playerId": "player_se1_004_11", "name": "O. Fallenius", "number": 9, "position": "LW", "country": "SE", "status": "starter"},
+  
+      {"playerId": "player_se1_004_12", "name": "Filip Manojlović", "number": 12, "position": "GK", "country": "RS", "status": "bench"},
+      {"playerId": "player_se1_004_13", "name": "M. Marqués", "number": 14, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_004_14", "name": "D. Tschoumy Nana", "number": 15, "position": "RB", "country": "CM", "status": "bench"},
+      {"playerId": "player_se1_004_15", "name": "M. Vučenović Persson", "number": 16, "position": "LB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_004_16", "name": "V. Bergh", "number": 17, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_004_17", "name": "D. Stensson", "number": 18, "position": "LW", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_004_18", "name": "Hampus Finndell", "number": 19, "position": "CM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_004_19", "name": "M. Siltanen", "number": 20, "position": "RM", "country": "FI", "status": "bench"},
+      {"playerId": "player_se1_004_20", "name": "M. Larsson", "number": 21, "position": "LM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_004_21", "name": "A. Abdulmalik", "number": 22, "position": "CAM", "country": "SE", "status": "bench"},
+  
+      {"playerId": "player_se1_004_22", "name": "M. Nilsson Säfqvist", "number": 30, "position": "GK", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se1_004_23", "name": "Jeppe Okkels", "number": 23, "position": "RW", "country": "DK", "status": "reserve"},
+      {"playerId": "player_se1_004_24", "name": "Joel Asoro", "number": 24, "position": "ST", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se1_004_25", "name": "S. Haarala", "number": 25, "position": "ST", "country": "FI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
