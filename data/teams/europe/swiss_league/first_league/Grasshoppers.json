@@ -1,12 +1,58 @@
 {
-  "teamKey": "Grassh",
-
-  "name": "Grasshopper Club Zurich",
-
-  "logo": "assets/logos/europe/swiss/Grasshoppers.png",
-
-  "stadium": {
-    "name": "Stadion Letzigrund",
-    "capacity": 26104
+    "teamKey": "Grassh",
+  
+    "name": "Grasshopper Club Zurich",
+  
+    "logo": "assets/logos/europe/swiss/Grasshoppers.png",
+  
+    "manager": {
+      "name": "Daniel Pavlović",
+      "country": "BA"
+    },
+  
+    "stadium": {
+      "name": "Stadion Letzigrund",
+      "capacity": 26104
+    },
+  
+    "players": [
+      {"playerId": "player_ch1_003_01", "name": "Justin Hammel", "number": 1, "position": "GK", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_003_02", "name": "Saulo Decarli", "number": 2, "position": "RB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_003_03", "name": "Luka Mikulić", "number": 4, "position": "CB", "country": "BA", "status": "starter"},
+      {"playerId": "player_ch1_003_04", "name": "Abdoulaye Diaby", "number": 5, "position": "CB", "country": "ML", "status": "starter"},
+      {"playerId": "player_ch1_003_05", "name": "Joshua Hilton", "number": 3, "position": "LB", "country": "US", "status": "starter"},
+      {"playerId": "player_ch1_003_06", "name": "Amir Abrashi", "number": 6, "position": "CDM", "country": "AL", "status": "starter"},
+      {"playerId": "player_ch1_003_07", "name": "Tim Meyer", "number": 8, "position": "CM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_003_08", "name": "Óscar Clemente", "number": 7, "position": "RW", "country": "ES", "status": "starter"},
+      {"playerId": "player_ch1_003_09", "name": "Giotto Morandi", "number": 10, "position": "CAM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_003_10", "name": "Kenzo Goudmijn", "number": 11, "position": "LW", "country": "NL", "status": "starter"},
+      {"playerId": "player_ch1_003_11", "name": "Luke Plange", "number": 9, "position": "ST", "country": "GB-ENG", "status": "starter"},
+  
+      {"playerId": "player_ch1_003_12", "name": "Marvin Hübel", "number": 12, "position": "GK", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_003_13", "name": "Stefano Stroscio", "number": 14, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_003_14", "name": "Imad Beka", "number": 15, "position": "RB", "country": "XK", "status": "bench"},
+      {"playerId": "player_ch1_003_15", "name": "Maximilian Ullmann", "number": 16, "position": "LB", "country": "AT", "status": "bench"},
+      {"playerId": "player_ch1_003_16", "name": "Allan Arigoni", "number": 17, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_003_17", "name": "Manex Guibelalde", "number": 18, "position": "CM", "country": "ES", "status": "bench"},
+      {"playerId": "player_ch1_003_18", "name": "Salifou Diarrassouba", "number": 19, "position": "RM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ch1_003_19", "name": "Sandro Marques", "number": 20, "position": "LM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_003_20", "name": "Ibrahim Hassane", "number": 21, "position": "CAM", "country": "BJ", "status": "bench"},
+      {"playerId": "player_ch1_003_21", "name": "Nikolas Muci", "number": 22, "position": "RW", "country": "CH", "status": "bench"},
+  
+      {"playerId": "player_ch1_003_22", "name": "Etrit Avdullahu", "number": 30, "position": "GK", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch1_003_23", "name": "Alieu Conateh", "number": 23, "position": "LW", "country": "GM", "status": "reserve"},
+      {"playerId": "player_ch1_003_24", "name": "Young-Jun Lee", "number": 24, "position": "ST", "country": "KR", "status": "reserve"},
+      {"playerId": "player_ch1_003_25", "name": "Julian Vonmoos", "number": 25, "position": "ST", "country": "CH", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
