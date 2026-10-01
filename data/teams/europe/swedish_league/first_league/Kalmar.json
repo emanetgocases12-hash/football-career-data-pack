@@ -1,12 +1,58 @@
 {
-  "teamKey": "Kalmar",
-
-  "name": "Kalmar FF",
-
-  "logo": "assets/logos/europe/swedish/Kalmar.png",
-
-  "stadium": {
-    "name": "Guldfågeln Arena",
-    "capacity": 12182
+    "teamKey": "Kalmar",
+  
+    "name": "Kalmar FF",
+  
+    "logo": "assets/logos/europe/swedish/Kalmar.png",
+  
+    "manager": {
+      "name": "Toni Koskela",
+      "country": "FI"
+    },
+  
+    "stadium": {
+      "name": "Guldfågeln Arena",
+      "capacity": 12182
+    },
+  
+    "players": [
+      {"playerId": "player_se1_011_01", "name": "Samuel Brolin", "number": 1, "position": "GK", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_011_02", "name": "V. Larsson", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_011_03", "name": "S. Øverby", "number": 4, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_se1_011_04", "name": "R. Jansson", "number": 5, "position": "CB", "country": "FI", "status": "starter"},
+      {"playerId": "player_se1_011_05", "name": "J. Löfgren", "number": 3, "position": "LB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_011_06", "name": "Melker Hallberg", "number": 6, "position": "CDM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_011_07", "name": "N. Chourak", "number": 8, "position": "CM", "country": "NL", "status": "starter"},
+      {"playerId": "player_se1_011_08", "name": "M. Söderbäck", "number": 7, "position": "RW", "country": "FI", "status": "starter"},
+      {"playerId": "player_se1_011_09", "name": "C. Gustafsson", "number": 10, "position": "CAM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_011_10", "name": "V. Tyren", "number": 11, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_011_11", "name": "M. Stolt", "number": 9, "position": "LW", "country": "SE", "status": "starter"},
+  
+      {"playerId": "player_se1_011_12", "name": "J. Kindberg", "number": 12, "position": "GK", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_011_13", "name": "Z. Råvik", "number": 14, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_011_14", "name": "S. Lawal", "number": 15, "position": "RB", "country": "NG", "status": "bench"},
+      {"playerId": "player_se1_011_15", "name": "A. Almqvist", "number": 16, "position": "LB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_011_16", "name": "M. Ylitolva", "number": 17, "position": "CB", "country": "FI", "status": "bench"},
+      {"playerId": "player_se1_011_17", "name": "A. Magashy", "number": 18, "position": "LW", "country": "NG", "status": "bench"},
+      {"playerId": "player_se1_011_18", "name": "T. Lauritsen", "number": 19, "position": "CM", "country": "DK", "status": "bench"},
+      {"playerId": "player_se1_011_19", "name": "R. Gojani", "number": 20, "position": "RM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_011_20", "name": "Noah Shamoun", "number": 21, "position": "LM", "country": "SY", "status": "bench"},
+      {"playerId": "player_se1_011_21", "name": "K. Paananen", "number": 22, "position": "CAM", "country": "FI", "status": "bench"},
+  
+      {"playerId": "player_se1_011_22", "name": "C. Andersson", "number": 30, "position": "GK", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se1_011_23", "name": "A. Olusanya", "number": 23, "position": "RW", "country": "FI", "status": "reserve"},
+      {"playerId": "player_se1_011_24", "name": "E. Dall", "number": 24, "position": "ST", "country": "DK", "status": "reserve"},
+      {"playerId": "player_se1_011_25", "name": "C. Sagoe", "number": 25, "position": "ST", "country": "GB-ENG", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
