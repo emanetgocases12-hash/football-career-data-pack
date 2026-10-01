@@ -1,12 +1,56 @@
 {
-  "teamKey": "Hidalg",
-
-  "name": "CD Cruz Azul Hidalgo",
-
-  "logo": "assets/logos/north_america/mexico/Hidalg.png",
-
-  "stadium": {
-    "name": "Estadio 10 de Diciembre",
-    "capacity": 14500
+    "teamKey": "Hidalg",
+  
+    "name": "CD Cruz Azul Hidalgo",
+  
+    "logo": "assets/logos/north_america/mexico/Hidalg.png",
+  
+    "manager": {
+      "name": "Esteban Landazábal",
+      "country": "MX"
+    },
+  
+    "stadium": {
+      "name": "Estadio 10 de Diciembre",
+      "capacity": 14500
+    },
+  
+    "players": [
+      {"playerId": "player_mx2_004_01", "name": "Emmanuel Ochoa", "number": 30, "position": "GK", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_004_02", "name": "Diego Ramirez", "number": 59, "position": "RB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_004_03", "name": "Ivan Silva", "number": 70, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_004_04", "name": "Josué Díaz", "number": 49, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_004_05", "name": "Raymundo Rubio", "number": 28, "position": "LB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_004_06", "name": "Rogelio González", "number": 55, "position": "CDM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_004_07", "name": "Diego Valdez", "number": 57, "position": "CM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_004_08", "name": "Emmanuel Sanchez", "number": 58, "position": "CAM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_004_09", "name": "Leonardo Sámano", "number": 45, "position": "RW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_004_10", "name": "Cristian Jiménez", "number": 32, "position": "LW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_004_11", "name": "Juan José Calero", "number": 14, "position": "ST", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_004_12", "name": "Ricardo Rodríguez", "number": 13, "position": "GK", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_004_13", "name": "Jose Suárez", "number": 66, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_004_14", "name": "Karol Velázquez", "number": 67, "position": "RB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_004_15", "name": "Andre Cubillas Chavez", "number": 69, "position": "LB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_004_16", "name": "Eric Fernando Villegas Rodriguez", "number": 72, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_004_17", "name": "Ángel Saavedra", "number": 63, "position": "CM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_004_18", "name": "Ariel Castro", "number": 60, "position": "CDM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_004_19", "name": "Louis Derbez", "number": 41, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_004_20", "name": "Christian Valdivia", "number": 68, "position": "CAM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_004_21", "name": "Sergio De Los Ríos", "number": 47, "position": "LW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_004_22", "name": "Bryan Gamboa", "number": 27, "position": "RW", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_004_23", "name": "Mateo Levy", "number": 73, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_004_24", "name": "Samuel Espinosa", "number": 74, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_004_25", "name": "Jesús Emmanuel Lara Montes", "number": 56, "position": "RW", "country": "MX", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 30,
+      "setPieces": {
+        "penalty": 14,
+        "freeKick": 58,
+        "cornerLeft": 58,
+        "cornerRight": 58
+      }
+    }
   }
-}
