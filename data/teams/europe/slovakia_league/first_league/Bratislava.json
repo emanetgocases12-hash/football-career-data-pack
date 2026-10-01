@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bratis",
-
-  "name": "Slovan Bratislava",
-
-  "logo": "assets/logos/europe/slovakia/Bratislava.png",
-
-  "stadium": {
-    "name": "NFS - Tehelné Pole",
-    "capacity": 22500
+    "teamKey": "Bratis",
+  
+    "name": "Slovan Bratislava",
+  
+    "logo": "assets/logos/europe/slovakia/Bratislava.png",
+  
+    "manager": {
+      "name": "Yaya Touré",
+      "country": "CI"
+    },
+  
+    "stadium": {
+      "name": "NFS - Tehelné Pole",
+      "capacity": 22500
+    },
+  
+    "players": [
+      {"playerId": "player_sk1_002_01", "name": "Aleksandar Popović", "number": 1, "position": "GK", "country": "RS", "status": "starter"},
+      {"playerId": "player_sk1_002_02", "name": "Samuel Kozlovský", "number": 2, "position": "RB", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_002_03", "name": "Kevin Wimmer", "number": 4, "position": "CB", "country": "AT", "status": "starter"},
+      {"playerId": "player_sk1_002_04", "name": "Kenan Bajrić", "number": 5, "position": "CB", "country": "SI", "status": "starter"},
+      {"playerId": "player_sk1_002_05", "name": "Svetozar Marković", "number": 3, "position": "LB", "country": "RS", "status": "starter"},
+      {"playerId": "player_sk1_002_06", "name": "Peter Pokorný", "number": 6, "position": "CDM", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_002_07", "name": "Rahim Ibrahim", "number": 8, "position": "CM", "country": "GH", "status": "starter"},
+      {"playerId": "player_sk1_002_08", "name": "Artur Gajdoš", "number": 7, "position": "RW", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_002_09", "name": "Tigran Barseghyan", "number": 10, "position": "CAM", "country": "AM", "status": "starter"},
+      {"playerId": "player_sk1_002_10", "name": "Mykola Kukharevych", "number": 11, "position": "ST", "country": "UA", "status": "starter"},
+      {"playerId": "player_sk1_002_11", "name": "Roman Čerepkai", "number": 9, "position": "LW", "country": "SK", "status": "starter"},
+  
+      {"playerId": "player_sk1_002_12", "name": "Dávid Balog", "number": 12, "position": "GK", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_002_13", "name": "Jurij Medveděv", "number": 14, "position": "CB", "country": "CZ", "status": "bench"},
+      {"playerId": "player_sk1_002_14", "name": "Sharani Zuberu", "number": 15, "position": "RB", "country": "TG", "status": "bench"},
+      {"playerId": "player_sk1_002_15", "name": "César Blackman", "number": 16, "position": "LB", "country": "PA", "status": "bench"},
+      {"playerId": "player_sk1_002_16", "name": "Sahmkou Camara", "number": 17, "position": "CB", "country": "GN", "status": "bench"},
+      {"playerId": "player_sk1_002_17", "name": "Nino Marcelli", "number": 18, "position": "LW", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_002_18", "name": "Alen Mustafić", "number": 19, "position": "CM", "country": "BA", "status": "bench"},
+      {"playerId": "player_sk1_002_19", "name": "Cristian Martínez", "number": 20, "position": "RM", "country": "PA", "status": "bench"},
+      {"playerId": "player_sk1_002_20", "name": "Danylo Ihnatenko", "number": 21, "position": "LM", "country": "UA", "status": "bench"},
+      {"playerId": "player_sk1_002_21", "name": "Daiki Matsuoka", "number": 22, "position": "CAM", "country": "JP", "status": "bench"},
+  
+      {"playerId": "player_sk1_002_22", "name": "Matúš Macík", "number": 30, "position": "GK", "country": "SK", "status": "reserve"},
+      {"playerId": "player_sk1_002_23", "name": "Alasana Yirajang", "number": 23, "position": "RW", "country": "GM", "status": "reserve"},
+      {"playerId": "player_sk1_002_24", "name": "Suleiman Camara", "number": 24, "position": "ST", "country": "GM", "status": "reserve"},
+      {"playerId": "player_sk1_002_25", "name": "Alexej Maroš", "number": 25, "position": "ST", "country": "SK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
