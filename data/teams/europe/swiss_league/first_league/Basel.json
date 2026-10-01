@@ -1,12 +1,58 @@
 {
-  "teamKey": "Basel",
-
-  "name": "FC Basel 1893",
-
-  "logo": "assets/logos/europe/swiss/Basel.png",
-
-  "stadium": {
-    "name": "St. Jakob-Park",
-    "capacity": 38512
+    "teamKey": "Basel",
+  
+    "name": "FC Basel 1893",
+  
+    "logo": "assets/logos/europe/swiss/Basel.png",
+  
+    "manager": {
+      "name": "Slaviša Jokanović",
+      "country": "RS"
+    },
+  
+    "stadium": {
+      "name": "St. Jakob-Park",
+      "capacity": 38512
+    },
+  
+    "players": [
+      {"playerId": "player_ch1_001_01", "name": "Jonas Omlin", "number": 1, "position": "GK", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_001_02", "name": "Nicolas Vouilloz", "number": 2, "position": "RB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_001_03", "name": "Bećir Omeragić", "number": 4, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_001_04", "name": "Keigo Tsunemoto", "number": 5, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_ch1_001_05", "name": "Clément Michelin", "number": 3, "position": "LB", "country": "FR", "status": "starter"},
+      {"playerId": "player_ch1_001_06", "name": "Metinho", "number": 6, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_ch1_001_07", "name": "Philip Otele", "number": 8, "position": "CM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ch1_001_08", "name": "Ludwig Malachowski", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_ch1_001_09", "name": "Xherdan Shaqiri", "number": 10, "position": "CAM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_001_10", "name": "Kazeem Olaigbe", "number": 11, "position": "LW", "country": "BE", "status": "starter"},
+      {"playerId": "player_ch1_001_11", "name": "Žan Celar", "number": 9, "position": "ST", "country": "SI", "status": "starter"},
+  
+      {"playerId": "player_ch1_001_12", "name": "Mirko Salvi", "number": 12, "position": "GK", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_001_13", "name": "Flavius Daniliuc", "number": 14, "position": "CB", "country": "AT", "status": "bench"},
+      {"playerId": "player_ch1_001_14", "name": "Kevin Rüegg", "number": 15, "position": "RB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_001_15", "name": "Moussa Cissé", "number": 16, "position": "LB", "country": "FR", "status": "bench"},
+      {"playerId": "player_ch1_001_16", "name": "Victor Nelsson", "number": 17, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_ch1_001_17", "name": "Jonas Harder", "number": 18, "position": "CM", "country": "IT", "status": "bench"},
+      {"playerId": "player_ch1_001_18", "name": "Gabriel Sigua", "number": 19, "position": "RM", "country": "GE", "status": "bench"},
+      {"playerId": "player_ch1_001_19", "name": "Aleksandar Bačanin", "number": 20, "position": "LM", "country": "RS", "status": "bench"},
+      {"playerId": "player_ch1_001_20", "name": "Seydou Doucouré", "number": 21, "position": "CAM", "country": "FR", "status": "bench"},
+      {"playerId": "player_ch1_001_21", "name": "Aaron Malouda", "number": 22, "position": "RW", "country": "FR", "status": "bench"},
+  
+      {"playerId": "player_ch1_001_22", "name": "Samuel Emch", "number": 30, "position": "GK", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch1_001_23", "name": "Souleymane Sow", "number": 23, "position": "LW", "country": "IT", "status": "reserve"},
+      {"playerId": "player_ch1_001_24", "name": "Moussa Koné", "number": 24, "position": "ST", "country": "SN", "status": "reserve"},
+      {"playerId": "player_ch1_001_25", "name": "Gustavo Puerta", "number": 25, "position": "ST", "country": "CO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
