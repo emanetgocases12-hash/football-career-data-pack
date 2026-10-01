@@ -1,12 +1,58 @@
 {
-  "teamKey": "Vega Re",
-
-  "name": "Atlético Vega Real",
-
-  "logo": "assets/logos/north_america/dominic/VegaRe.png",
-
-  "stadium": {
-    "name": "Estadio Olímpico El Cóndor de La Vega",
-    "capacity": 7000
+    "teamKey": "Vega Re",
+  
+    "name": "Atlético Vega Real",
+  
+    "logo": "assets/logos/north_america/dominic/VegaRe.png",
+  
+    "manager": {
+      "name": "Raúl González Triana",
+      "country": "CU"
+    },
+  
+    "stadium": {
+      "name": "Estadio Olímpico El Cóndor de La Vega",
+      "capacity": 7000
+    },
+  
+    "players": [
+      {"playerId": "player_do1_010_01", "name": "Ramón Frías", "number": 1, "position": "GK", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_010_02", "name": "Eric Valencia", "number": 2, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_do1_010_03", "name": "Brayan Cundumí", "number": 4, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_do1_010_04", "name": "Alfeni Tamárez", "number": 5, "position": "LB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_010_05", "name": "Joseph Gómez", "number": 3, "position": "LB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_010_06", "name": "Steven Martínez", "number": 6, "position": "CDM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_010_07", "name": "Dariel Cortorreal", "number": 8, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_010_08", "name": "Wilson Espinal", "number": 7, "position": "CDM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_010_09", "name": "Richard Suárez", "number": 10, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_010_10", "name": "Luis Andrés Reyes", "number": 11, "position": "RW", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_010_11", "name": "Jean Dieulemps", "number": 9, "position": "ST", "country": "HT", "status": "starter"},
+  
+      {"playerId": "player_do1_010_12", "name": "Yerson García", "number": 12, "position": "GK", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_010_13", "name": "Juan Luisa", "number": 14, "position": "RB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_010_14", "name": "Fernando Báez", "number": 15, "position": "CB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_010_15", "name": "José Calvo", "number": 16, "position": "CB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_010_16", "name": "Winder Mendoza", "number": 17, "position": "RB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_010_17", "name": "Jason Joseph", "number": 18, "position": "CAM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_010_18", "name": "Augustin Fernández", "number": 19, "position": "CAM", "country": "HT", "status": "bench"},
+      {"playerId": "player_do1_010_19", "name": "Thiago Leguizamón", "number": 20, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_do1_010_20", "name": "Víctor Morales", "number": 21, "position": "ST", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_010_21", "name": "Julio Rosario", "number": 22, "position": "ST", "country": "DO", "status": "bench"},
+  
+      {"playerId": "player_do1_010_22", "name": "Ottoniel Figueroa", "number": 30, "position": "GK", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_010_23", "name": "Alan Martínez", "number": 23, "position": "ST", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_010_24", "name": "Leudy Durán", "number": 24, "position": "ST", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_010_25", "name": "Albert Peña", "number": 25, "position": "CB", "country": "DO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 8
+      }
+    }
   }
-}
