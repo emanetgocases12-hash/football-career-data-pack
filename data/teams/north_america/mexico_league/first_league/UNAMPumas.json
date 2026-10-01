@@ -1,12 +1,56 @@
 {
-  "teamKey": "UNAM",
-
-  "name": "UNAM Pumas",
-
-  "logo": "assets/logos/north_america/mexico/Unam.png",
-
-  "stadium": {
-    "name": "Estadio Olímpico Universitario",
-    "capacity": 62700
+    "teamKey": "UNAM",
+  
+    "name": "UNAM Pumas",
+  
+    "logo": "assets/logos/north_america/mexico/Unam.png",
+  
+    "manager": {
+      "name": "Esteban Solari",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Estadio Olímpico Universitario",
+      "capacity": 62700
+    },
+  
+    "players": [
+      {"playerId": "player_mx1_018_01", "name": "Keylor Navas", "number": 1, "position": "GK", "country": "CR", "status": "starter"},
+      {"playerId": "player_mx1_018_02", "name": "Pablo Bennevendo", "number": 2, "position": "RB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_018_03", "name": "Rubén Duarte", "number": 5, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_mx1_018_04", "name": "Nathan Silva", "number": 6, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_mx1_018_05", "name": "Cristian Calderón", "number": 12, "position": "LB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_018_06", "name": "Rodrigo López", "number": 7, "position": "CDM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_018_07", "name": "Adalberto Carrasquilla", "number": 8, "position": "CM", "country": "PA", "status": "starter"},
+      {"playerId": "player_mx1_018_08", "name": "César Huerta", "number": 10, "position": "CAM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_018_09", "name": "Israel Luna", "number": 15, "position": "RW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_018_10", "name": "Sebastián Córdova", "number": 17, "position": "LW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_018_11", "name": "José Macías", "number": 11, "position": "ST", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_018_12", "name": "Miguel Paul", "number": 32, "position": "GK", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_018_13", "name": "Pablo Monroy", "number": 13, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_018_14", "name": "Jesús Rivas", "number": 19, "position": "RB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_018_15", "name": "Tony Leone", "number": 24, "position": "LB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_018_16", "name": "Angel Azuaje", "number": 34, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_018_17", "name": "Víctor Arteaga", "number": 18, "position": "CM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_018_18", "name": "Santiago Trigos", "number": 20, "position": "CDM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_018_19", "name": "Ángel Rico", "number": 26, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_018_20", "name": "Pedro Vite", "number": 45, "position": "CAM", "country": "EC", "status": "bench"},
+      {"playerId": "player_mx1_018_21", "name": "Luciano Herrera", "number": 14, "position": "LW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_018_22", "name": "Uriel Antuna", "number": 21, "position": "RW", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx1_018_23", "name": "Alan Medina", "number": 22, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx1_018_24", "name": "Juninho", "number": 23, "position": "ST", "country": "BR", "status": "reserve"},
+      {"playerId": "player_mx1_018_25", "name": "Santiago López", "number": 30, "position": "RW", "country": "MX", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
