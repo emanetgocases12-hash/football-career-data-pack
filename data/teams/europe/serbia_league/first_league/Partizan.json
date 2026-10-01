@@ -1,12 +1,58 @@
 {
-  "teamKey": "Pz Belg",
-
-  "name": "FK Partizan Belgrade",
-
-  "logo": "assets/logos/europe/serbia/Partizan.png",
-
-  "stadium": {
-    "name": "Partizan Stadium",
-    "capacity": 32712
+    "teamKey": "Pz Belg",
+  
+    "name": "FK Partizan Belgrade",
+  
+    "logo": "assets/logos/europe/serbia/Partizan.png",
+  
+    "manager": {
+      "name": "Saša Ilić",
+      "country": "RS"
+    },
+  
+    "stadium": {
+      "name": "Partizan Stadium",
+      "capacity": 32712
+    },
+  
+    "players": [
+      {"playerId": "player_rs1_008_01", "name": "Marko Milošević", "number": 1, "position": "GK", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_008_02", "name": "Mateja Milovanović", "number": 2, "position": "RB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_008_03", "name": "Stefan Mitrović", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_008_04", "name": "Vukašin Đurđević", "number": 5, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_008_05", "name": "Nikola Simić", "number": 3, "position": "LB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_008_06", "name": "Aleks Zeković", "number": 6, "position": "CDM", "country": "FR", "status": "starter"},
+      {"playerId": "player_rs1_008_07", "name": "Igor Miladinović", "number": 8, "position": "CM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_008_08", "name": "Milan Vukotić", "number": 7, "position": "RW", "country": "ME", "status": "starter"},
+      {"playerId": "player_rs1_008_09", "name": "Iddrisu Baba", "number": 10, "position": "CAM", "country": "GH", "status": "starter"},
+      {"playerId": "player_rs1_008_10", "name": "Samson Nwulu", "number": 11, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_rs1_008_11", "name": "Chaka Traore", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
+  
+      {"playerId": "player_rs1_008_12", "name": "Miloš Krunić", "number": 12, "position": "GK", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_008_13", "name": "Stefan Milić", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_rs1_008_14", "name": "Mihailo Radić", "number": 15, "position": "RB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_008_15", "name": "Stefan Petrović", "number": 16, "position": "LB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_008_16", "name": "Vojin Marinković", "number": 17, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_008_17", "name": "Milan Roganović", "number": 18, "position": "CM", "country": "ME", "status": "bench"},
+      {"playerId": "player_rs1_008_18", "name": "Nemanja Trifunović", "number": 19, "position": "RM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_008_19", "name": "Ognjen Ugrešić", "number": 20, "position": "LM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_008_20", "name": "Zubairu Ibrahim", "number": 21, "position": "CAM", "country": "GH", "status": "bench"},
+      {"playerId": "player_rs1_008_21", "name": "Erik Kojzek", "number": 22, "position": "RW", "country": "AT", "status": "bench"},
+  
+      {"playerId": "player_rs1_008_22", "name": "Tarik Banjić", "number": 30, "position": "GK", "country": "BA", "status": "reserve"},
+      {"playerId": "player_rs1_008_23", "name": "Milan Aleksić", "number": 23, "position": "LW", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_008_24", "name": "Demba Seck", "number": 24, "position": "ST", "country": "SN", "status": "reserve"},
+      {"playerId": "player_rs1_008_25", "name": "Nikola Čumić", "number": 25, "position": "ST", "country": "RS", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
