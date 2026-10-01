@@ -1,12 +1,58 @@
 {
-  "teamKey": "Grozny",
-
-  "name": "Akhmat Grozny",
-
-  "logo": "assets/logos/europe/russia/Akhmat.png",
-
-  "stadium": {
-    "name": "Akhmat-Arena",
-    "capacity": 30200
+    "teamKey": "Grozny",
+  
+    "name": "Akhmat Grozny",
+  
+    "logo": "assets/logos/europe/russia/Akhmat.png",
+  
+    "manager": {
+      "name": "Stanislav Cherchesov",
+      "country": "RU"
+    },
+  
+    "stadium": {
+      "name": "Akhmat-Arena",
+      "capacity": 30200
+    },
+  
+    "players": [
+      {"playerId": "player_ru1_001_01", "name": "Vadim Ulyanov", "number": 1, "position": "GK", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_001_02", "name": "Klisman Cake", "number": 2, "position": "RB", "country": "CV", "status": "starter"},
+      {"playerId": "player_ru1_001_03", "name": "Miroslav Bogosavac", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_ru1_001_04", "name": "Arsen Adamov", "number": 5, "position": "CB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_001_05", "name": "Ousmane N'Dong", "number": 3, "position": "LB", "country": "SN", "status": "starter"},
+      {"playerId": "player_ru1_001_06", "name": "Kalidou Sidibé", "number": 6, "position": "CDM", "country": "FR", "status": "starter"},
+      {"playerId": "player_ru1_001_07", "name": "Júlio Romão", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_ru1_001_08", "name": "Egas Cacintura", "number": 7, "position": "RW", "country": "AO", "status": "starter"},
+      {"playerId": "player_ru1_001_09", "name": "Lechi Sadulaev", "number": 10, "position": "CAM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_001_10", "name": "Ismael Silva Lima", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_ru1_001_11", "name": "Georgi Melkadze", "number": 9, "position": "ST", "country": "GE", "status": "starter"},
+  
+      {"playerId": "player_ru1_001_12", "name": "Georgi Sheliya", "number": 12, "position": "GK", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_001_13", "name": "Maksim Sidorov", "number": 14, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_001_14", "name": "Kirill Kistenev", "number": 15, "position": "RB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_001_15", "name": "Yury Zhuravlev", "number": 16, "position": "LB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_001_16", "name": "Mohamed Konaté", "number": 17, "position": "CB", "country": "BF", "status": "bench"},
+      {"playerId": "player_ru1_001_17", "name": "Kirill Shchetinin", "number": 18, "position": "CM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_001_18", "name": "Sergey Pryakhin", "number": 19, "position": "RM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_001_19", "name": "Galymzhan Kenzhebek", "number": 20, "position": "LM", "country": "KZ", "status": "bench"},
+      {"playerId": "player_ru1_001_20", "name": "Keliano", "number": 21, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_ru1_001_21", "name": "Maksim Samorodov", "number": 22, "position": "RW", "country": "KZ", "status": "bench"},
+  
+      {"playerId": "player_ru1_001_22", "name": "Rasul Mitsaev", "number": 30, "position": "GK", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_001_23", "name": "Abakar Gadzhiev", "number": 23, "position": "LW", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_001_24", "name": "Erald Maksuti", "number": 24, "position": "ST", "country": "AL", "status": "reserve"},
+      {"playerId": "player_ru1_001_25", "name": "Mohamed Konaté Jr.", "number": 25, "position": "ST", "country": "BF", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
