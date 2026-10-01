@@ -1,12 +1,58 @@
 {
-  "teamKey": "Komarn",
-
-  "name": "KFC Komarno",
-
-  "logo": "assets/logos/europe/slovakia/Komarno.png",
-
-  "stadium": {
-    "name": "Stadion ViOn",
-    "capacity": 5000
+    "teamKey": "Komarn",
+  
+    "name": "KFC Komarno",
+  
+    "logo": "assets/logos/europe/slovakia/Komarno.png",
+  
+    "manager": {
+      "name": "Norbert Czibor",
+      "country": "SK"
+    },
+  
+    "stadium": {
+      "name": "Stadion ViOn",
+      "capacity": 5000
+    },
+  
+    "players": [
+      {"playerId": "player_sk1_004_01", "name": "Filip Dlubáč", "number": 1, "position": "GK", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_004_02", "name": "István Vojtko", "number": 2, "position": "RB", "country": "HU", "status": "starter"},
+      {"playerId": "player_sk1_004_03", "name": "Martin Šimko", "number": 4, "position": "CB", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_004_04", "name": "Dominik Špiriak", "number": 5, "position": "CB", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_004_05", "name": "Šimon Šmehyl", "number": 3, "position": "LB", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_004_06", "name": "Dan Ožvolda", "number": 6, "position": "CDM", "country": "CZ", "status": "starter"},
+      {"playerId": "player_sk1_004_07", "name": "Ganbayar Ganbold", "number": 8, "position": "CM", "country": "MN", "status": "starter"},
+      {"playerId": "player_sk1_004_08", "name": "Kristóf Domonkos", "number": 7, "position": "RW", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_004_09", "name": "Dominik Žák", "number": 10, "position": "CAM", "country": "CZ", "status": "starter"},
+      {"playerId": "player_sk1_004_10", "name": "Jakub Sylvestr", "number": 11, "position": "ST", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_004_11", "name": "Christian Bayemi", "number": 9, "position": "LW", "country": "CM", "status": "starter"},
+  
+      {"playerId": "player_sk1_004_12", "name": "Erik Gyurákovics", "number": 12, "position": "GK", "country": "HU", "status": "bench"},
+      {"playerId": "player_sk1_004_13", "name": "Matheus Leoni", "number": 14, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_sk1_004_14", "name": "Róbert Pillár", "number": 15, "position": "RB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_004_15", "name": "Adam Krčík", "number": 16, "position": "LB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_004_16", "name": "Jakub Palán", "number": 17, "position": "CB", "country": "CZ", "status": "bench"},
+      {"playerId": "player_sk1_004_17", "name": "Filip Kiss", "number": 18, "position": "LW", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_004_18", "name": "Andriy Havrilenko", "number": 19, "position": "CM", "country": "UA", "status": "bench"},
+      {"playerId": "player_sk1_004_19", "name": "Lukas Leginus", "number": 20, "position": "RM", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_004_20", "name": "Nándor Károly Tamás", "number": 21, "position": "LM", "country": "RO", "status": "bench"},
+      {"playerId": "player_sk1_004_21", "name": "Ján Bernát", "number": 22, "position": "CAM", "country": "SK", "status": "bench"},
+  
+      {"playerId": "player_sk1_004_22", "name": "Branislav Pindroch", "number": 30, "position": "GK", "country": "SK", "status": "reserve"},
+      {"playerId": "player_sk1_004_23", "name": "Yusuf Muritala", "number": 23, "position": "RW", "country": "NG", "status": "reserve"},
+      {"playerId": "player_sk1_004_24", "name": "Andy Masaryk", "number": 24, "position": "ST", "country": "SK", "status": "reserve"},
+      {"playerId": "player_sk1_004_25", "name": "Zsombor Mitring", "number": 25, "position": "ST", "country": "HU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
