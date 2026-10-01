@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/north_america/usa/SanDiego.png",
 
+  "manager": {
+    "name": "Mikey Varas",
+    "country": "US"
+  },
+
   "stadium": {
     "name": "Snapdragon Stadium",
     "capacity": 35000
+  },
+
+  "players": [
+    {"playerId": "player_us1_025_01", "name": "Pablo Sisniega", "number": 1, "position": "GK", "country": "MX", "status": "starter"},
+    {"playerId": "player_us1_025_02", "name": "Jeppe Tverskov", "number": 6, "position": "CB", "country": "DK", "status": "starter"},
+    {"playerId": "player_us1_025_03", "name": "Paddy McNair", "number": 17, "position": "CB", "country": "GB-NIR", "status": "starter"},
+    {"playerId": "player_us1_025_04", "name": "Christopher McVey", "number": 97, "position": "CB", "country": "SE", "status": "starter"},
+    {"playerId": "player_us1_025_05", "name": "Luca de la Torre", "number": 10, "position": "CM", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_025_06", "name": "Aníbal Godoy", "number": 20, "position": "CDM", "country": "PA", "status": "starter"},
+    {"playerId": "player_us1_025_07", "name": "Anders Dreyer", "number": 11, "position": "RW", "country": "DK", "status": "starter"},
+    {"playerId": "player_us1_025_08", "name": "Hirving Lozano", "number": 22, "position": "LW", "country": "MX", "status": "starter"},
+    {"playerId": "player_us1_025_09", "name": "Marcus Ingvartsen", "number": 7, "position": "ST", "country": "DK", "status": "starter"},
+    {"playerId": "player_us1_025_10", "name": "Tomás Ángel", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+    {"playerId": "player_us1_025_11", "name": "Onni Valakari", "number": 8, "position": "CAM", "country": "FI", "status": "starter"},
+
+    {"playerId": "player_us1_025_12", "name": "CJ dos Santos", "number": 30, "position": "GK", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_025_13", "name": "Oscar Verhoeven", "number": 33, "position": "RB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_025_14", "name": "Franco Negri", "number": 2, "position": "LB", "country": "AR", "status": "bench"},
+    {"playerId": "player_us1_025_15", "name": "Ian Murphy", "number": 4, "position": "CB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_025_16", "name": "Jasper Löffelsend", "number": 16, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_us1_025_17", "name": "Alejandro Alvarado Jr.", "number": 18, "position": "CM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_025_18", "name": "Tomas Avilés", "number": 3, "position": "CB", "country": "AR", "status": "bench"},
+    {"playerId": "player_us1_025_19", "name": "Milan Iloski", "number": 14, "position": "LW", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_025_20", "name": "Emmanuel Boateng", "number": 21, "position": "LW", "country": "GH", "status": "bench"},
+    {"playerId": "player_us1_025_21", "name": "Amahl Pellegrino", "number": 12, "position": "LW", "country": "NO", "status": "bench"},
+
+    {"playerId": "player_us1_025_22", "name": "Duran Ferree", "number": 24, "position": "GK", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_025_23", "name": "Leo Duru", "number": 27, "position": "RB", "country": "GB-ENG", "status": "reserve"},
+    {"playerId": "player_us1_025_24", "name": "Kimani Stewart-Baynes", "number": 19, "position": "RW", "country": "CA", "status": "reserve"},
+    {"playerId": "player_us1_025_25", "name": "Mohamed Traore", "number": 5, "position": "CB", "country": "CI", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 7,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 22
+    }
   }
 }
