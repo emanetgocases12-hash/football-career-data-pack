@@ -1,12 +1,58 @@
 {
-  "teamKey": "Treasu",
-
-  "name": "Treasure Beach FC",
-
-  "logo": "assets/logos/north_america/jamaika/Tresau.png",
-
-  "stadium": {
-    "name": "St Elizabeth Technical High School Soccer Field",
-    "capacity": 2000
+    "teamKey": "Treasu",
+  
+    "name": "Treasure Beach FC",
+  
+    "logo": "assets/logos/north_america/jamaika/Tresau.png",
+  
+    "manager": {
+      "name": "K. Ricketts",
+      "country": "JM"
+    },
+  
+    "stadium": {
+      "name": "St Elizabeth Technical High School Soccer Field",
+      "capacity": 2000
+    },
+  
+    "players": [
+      {"playerId": "player_jm1_013_01", "name": "Whelan Joseph", "number": 1, "position": "GK", "country": "VI", "status": "starter"},
+      {"playerId": "player_jm1_013_02", "name": "Navardo Blair", "number": 2, "position": "RB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_013_03", "name": "Nicholas Lawrence", "number": 4, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_013_04", "name": "Triston Forde", "number": 5, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_013_05", "name": "Orian Titus", "number": 3, "position": "LB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_013_06", "name": "Kemoy Slowley", "number": 6, "position": "CDM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_013_07", "name": "Shanoy Smith", "number": 8, "position": "CM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_013_08", "name": "Quain Bailey", "number": 7, "position": "RW", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_013_09", "name": "Shaquiel Campbell", "number": 10, "position": "RM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_013_10", "name": "Jhanni Flemmings", "number": 11, "position": "ST", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_013_11", "name": "Kevoan McGregor", "number": 9, "position": "RW", "country": "JM", "status": "starter"},
+  
+      {"playerId": "player_jm1_013_12", "name": "Romario Palma", "number": 12, "position": "GK", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_013_13", "name": "Adrián Johnson", "number": 14, "position": "CB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_013_14", "name": "Devonte Blake", "number": 15, "position": "RB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_013_15", "name": "Raheem Porter", "number": 16, "position": "LB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_013_16", "name": "Daniel Hardy", "number": 17, "position": "CB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_013_17", "name": "Rajae Morrison", "number": 18, "position": "LW", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_013_18", "name": "Semar Williams", "number": 19, "position": "CM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_013_19", "name": "Omari Brown", "number": 20, "position": "RM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_013_20", "name": "Afiba Chambers", "number": 21, "position": "LM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_013_21", "name": "Chandol Anderson", "number": 22, "position": "CAM", "country": "JM", "status": "bench"},
+  
+      {"playerId": "player_jm1_013_22", "name": "Mowey Morgan", "number": 30, "position": "GK", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_013_23", "name": "Jahiem Harris", "number": 23, "position": "LW", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_013_24", "name": "Christopher Gayle", "number": 24, "position": "ST", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_013_25", "name": "Roshaun Reynolds", "number": 25, "position": "ST", "country": "JM", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
