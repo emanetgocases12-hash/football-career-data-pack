@@ -1,12 +1,58 @@
 {
-  "teamKey": "Marath",
-
-  "name": "CD Marathón",
-
-  "logo": "assets/logos/north_america/honduras/Marath.png",
-
-  "stadium": {
-    "name": "Estadio Yankel Rosenthal",
-    "capacity": 16000
+    "teamKey": "Marath",
+  
+    "name": "CD Marathón",
+  
+    "logo": "assets/logos/north_america/honduras/Marath.png",
+  
+    "manager": {
+      "name": "Silvio Rudman",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Estadio Yankel Rosenthal",
+      "capacity": 16000
+    },
+  
+    "players": [
+      {"playerId": "player_hn1_008_01", "name": "Jonathan Rougier", "number": 1, "position": "GK", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_008_02", "name": "Jhonatan Paz", "number": 2, "position": "RB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_008_03", "name": "Javier Rivera", "number": 4, "position": "CB", "country": "PA", "status": "starter"},
+      {"playerId": "player_hn1_008_04", "name": "Kenny Bodden", "number": 5, "position": "CB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_008_05", "name": "Henry Figueroa", "number": 3, "position": "LB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_008_06", "name": "Tomás Sorto", "number": 6, "position": "CDM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_008_07", "name": "Damin Ramírez", "number": 8, "position": "CM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_008_08", "name": "Francisco Martínez", "number": 7, "position": "RW", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_008_09", "name": "Luis Alonso Arriaga", "number": 10, "position": "CAM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_008_10", "name": "Alberth Elis", "number": 11, "position": "ST", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_008_11", "name": "Yeison Mejía", "number": 9, "position": "LW", "country": "HN", "status": "starter"},
+  
+      {"playerId": "player_hn1_008_12", "name": "César Samudio", "number": 12, "position": "GK", "country": "PA", "status": "bench"},
+      {"playerId": "player_hn1_008_13", "name": "José Aguilera", "number": 14, "position": "CB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_008_14", "name": "Javier Arriaga", "number": 15, "position": "RB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_008_15", "name": "Santos Martínez", "number": 16, "position": "LB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_008_16", "name": "Jonathan Bueso", "number": 17, "position": "CB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_008_17", "name": "Brian Farioli", "number": 18, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_hn1_008_18", "name": "Yairo Moreno", "number": 19, "position": "CM", "country": "CO", "status": "bench"},
+      {"playerId": "player_hn1_008_19", "name": "Isaac Castillo", "number": 20, "position": "RM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_008_20", "name": "Alexy Vega", "number": 21, "position": "LM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_008_21", "name": "Odin Ramos", "number": 22, "position": "CAM", "country": "HN", "status": "bench"},
+  
+      {"playerId": "player_hn1_008_22", "name": "Humberto Juárez", "number": 30, "position": "GK", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_008_23", "name": "Nicolás Messiniti", "number": 23, "position": "RW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_hn1_008_24", "name": "Rubilio Castillo", "number": 24, "position": "ST", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_008_25", "name": "Nayrobi Vargas", "number": 25, "position": "ST", "country": "HN", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
