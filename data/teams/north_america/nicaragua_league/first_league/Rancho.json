@@ -1,12 +1,58 @@
 {
-  "teamKey": "Rancho",
-
-  "name": "Rancho Santana FC",
-
-  "logo": "assets/logos/north_america/nicaragua/Rancho.png",
-
-  "stadium": {
-    "name": "Campo Fun Limon",
-    "capacity": 1000
+    "teamKey": "Rancho",
+  
+    "name": "Rancho Santana FC",
+  
+    "logo": "assets/logos/north_america/nicaragua/Rancho.png",
+  
+    "manager": {
+      "name": "Kenneth Barrantes",
+      "country": "CR"
+    },
+  
+    "stadium": {
+      "name": "Campo Fun Limon",
+      "capacity": 1000
+    },
+  
+    "players": [
+      {"playerId": "player_ni1_007_01", "name": "Bryan Cordero", "number": 25, "position": "GK", "country": "CR", "status": "starter"},
+      {"playerId": "player_ni1_007_02", "name": "Axel Bustos", "number": 4, "position": "RB", "country": "CR", "status": "starter"},
+      {"playerId": "player_ni1_007_03", "name": "Óscar Mieles", "number": 19, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_ni1_007_04", "name": "Juan Amador", "number": 3, "position": "CB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_007_05", "name": "Yader Zamora", "number": 2, "position": "LB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_007_06", "name": "Jhans Mina", "number": 30, "position": "CDM", "country": "CO", "status": "starter"},
+      {"playerId": "player_ni1_007_07", "name": "Jeffry López", "number": 14, "position": "CM", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_007_08", "name": "Leonardo Bonilla", "number": 22, "position": "RW", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_007_09", "name": "Bladimir Calero", "number": 52, "position": "CAM", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_007_10", "name": "Taufic Guarch", "number": 10, "position": "LW", "country": "MX", "status": "starter"},
+      {"playerId": "player_ni1_007_11", "name": "Pablo Gállego", "number": 20, "position": "ST", "country": "ES", "status": "starter"},
+  
+      {"playerId": "player_ni1_007_12", "name": "Fernando Moreno", "number": 13, "position": "GK", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_007_13", "name": "Fernando Parrales", "number": 15, "position": "CB", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_007_14", "name": "William España", "number": 16, "position": "CDM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_007_15", "name": "Rafael Vieira", "number": 6, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_ni1_007_16", "name": "Miguel Tercero", "number": 17, "position": "CM", "country": "CR", "status": "bench"},
+      {"playerId": "player_ni1_007_17", "name": "Iverson Salmerón", "number": 21, "position": "LW", "country": "CR", "status": "bench"},
+      {"playerId": "player_ni1_007_18", "name": "Shaquil Vargas", "number": 5, "position": "CB", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_007_19", "name": "Nasser Jirón", "number": 7, "position": "CM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_007_20", "name": "Francisco Calero", "number": 11, "position": "ST", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_007_21", "name": "Saúl Mejía", "number": 56, "position": "CM", "country": "NI", "status": "bench"},
+  
+      {"playerId": "player_ni1_007_22", "name": "Axel Solís", "number": 24, "position": "GK", "country": "NI", "status": "reserve"},
+      {"playerId": "player_ni1_007_23", "name": "Joshua Cayasso", "number": 12, "position": "LB", "country": "CR", "status": "reserve"},
+      {"playerId": "player_ni1_007_24", "name": "Mynor Bustos", "number": 18, "position": "RW", "country": "NI", "status": "reserve"},
+      {"playerId": "player_ni1_007_25", "name": "Izamuel Martínez", "number": 9, "position": "ST", "country": "NI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 25,
+      "setPieces": {
+        "penalty": 20,
+        "freeKick": 22,
+        "cornerLeft": 22,
+        "cornerRight": 52
+      }
+    }
   }
-}
