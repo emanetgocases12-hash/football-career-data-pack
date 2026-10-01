@@ -1,12 +1,58 @@
 {
-  "teamKey": "Cavalr",
-
-  "name": "Cavalry FC",
-
-  "logo": "assets/logos/north_america/canada/Cavalr.png",
-
-  "stadium": {
-    "name": "ATCO Field",
-    "capacity": 5000
+    "teamKey": "Cavalr",
+  
+    "name": "Cavalry FC",
+  
+    "logo": "assets/logos/north_america/canada/Cavalr.png",
+  
+    "manager": {
+      "name": "Tommy Wheeldon Jr.",
+      "country": "GB-ENG"
+    },
+  
+    "stadium": {
+      "name": "ATCO Field",
+      "capacity": 5000
+    },
+  
+    "players": [
+      {"playerId": "player_ca1_001_01", "name": "Nathan Ingham", "number": 1, "position": "GK", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_001_02", "name": "Amer Didić", "number": 2, "position": "RB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_001_03", "name": "Daan Klomp", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_ca1_001_04", "name": "Bradley Kamdem-Fewo", "number": 5, "position": "CB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_001_05", "name": "Levi Laing", "number": 3, "position": "LB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_ca1_001_06", "name": "Harry Paton", "number": 6, "position": "CDM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_001_07", "name": "Sergio Camargo", "number": 8, "position": "CM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_001_08", "name": "Maël Henry", "number": 7, "position": "RW", "country": "FR", "status": "starter"},
+      {"playerId": "player_ca1_001_09", "name": "James McGlinchey", "number": 10, "position": "CAM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_001_10", "name": "Tobias Warschewski", "number": 11, "position": "ST", "country": "DE", "status": "starter"},
+      {"playerId": "player_ca1_001_11", "name": "Ali Musse", "number": 9, "position": "LW", "country": "SO", "status": "starter"},
+  
+      {"playerId": "player_ca1_001_12", "name": "Joseph Holliday", "number": 12, "position": "GK", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_001_13", "name": "Curtis Ofori", "number": 14, "position": "CB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_001_14", "name": "Adam Pearlman", "number": 15, "position": "RB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_001_15", "name": "Michael Harms", "number": 16, "position": "LB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_001_16", "name": "Eryk Kobza", "number": 17, "position": "CB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_001_17", "name": "Michael Baldisimo", "number": 18, "position": "LW", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_001_18", "name": "Niko Myroniuk", "number": 19, "position": "CM", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_001_19", "name": "Lucas Dias", "number": 20, "position": "RM", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_001_20", "name": "Joshua Belbin", "number": 21, "position": "LM", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_001_21", "name": "Max Piepgrass", "number": 22, "position": "CAM", "country": "CA", "status": "bench"},
+  
+      {"playerId": "player_ca1_001_22", "name": "Neven Fewster", "number": 30, "position": "GK", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_001_23", "name": "Goteh Ntignee", "number": 23, "position": "RW", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_001_24", "name": "Caniggia Elva", "number": 24, "position": "ST", "country": "LC", "status": "reserve"},
+      {"playerId": "player_ca1_001_25", "name": "Jay Herdman", "number": 25, "position": "ST", "country": "CA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
