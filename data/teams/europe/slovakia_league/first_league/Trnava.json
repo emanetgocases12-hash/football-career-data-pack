@@ -1,12 +1,58 @@
 {
-  "teamKey": "Trnava",
-
-  "name": "Spartak Trnava",
-
-  "logo": "assets/logos/europe/slovakia/Trnava.png",
-
-  "stadium": {
-    "name": "City Aréna - Štadión Antona Malatinského",
-    "capacity": 18200
+    "teamKey": "Trnava",
+  
+    "name": "Spartak Trnava",
+  
+    "logo": "assets/logos/europe/slovakia/Trnava.png",
+  
+    "manager": {
+      "name": "Antonio Muñoz",
+      "country": "ES"
+    },
+  
+    "stadium": {
+      "name": "City Aréna - Štadión Antona Malatinského",
+      "capacity": 18200
+    },
+  
+    "players": [
+      {"playerId": "player_sk1_009_01", "name": "Martin Janáček", "number": 1, "position": "GK", "country": "CZ", "status": "starter"},
+      {"playerId": "player_sk1_009_02", "name": "Patrick Nwadike", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
+      {"playerId": "player_sk1_009_03", "name": "Juanmi", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_sk1_009_04", "name": "Libor Holík", "number": 5, "position": "CB", "country": "CZ", "status": "starter"},
+      {"playerId": "player_sk1_009_05", "name": "Marek Ujlaky", "number": 3, "position": "LB", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_009_06", "name": "Roman Begala", "number": 6, "position": "CDM", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_009_07", "name": "Roman Procházka", "number": 8, "position": "CM", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_009_08", "name": "Stefan Škrbo", "number": 7, "position": "RW", "country": "AT", "status": "starter"},
+      {"playerId": "player_sk1_009_09", "name": "Giorgi Moistsrapishvili", "number": 10, "position": "CAM", "country": "GE", "status": "starter"},
+      {"playerId": "player_sk1_009_10", "name": "Tijmen Wildeboer", "number": 11, "position": "ST", "country": "NL", "status": "starter"},
+      {"playerId": "player_sk1_009_11", "name": "Timotej Kudlička", "number": 9, "position": "LW", "country": "SK", "status": "starter"},
+  
+      {"playerId": "player_sk1_009_12", "name": "Tomáš Jablonický", "number": 12, "position": "GK", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_009_13", "name": "Melos Bajrami", "number": 14, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_sk1_009_14", "name": "Kristián Koštrna", "number": 15, "position": "RB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_009_15", "name": "Isaac Mensah", "number": 16, "position": "LB", "country": "GH", "status": "bench"},
+      {"playerId": "player_sk1_009_16", "name": "Michal Tomič", "number": 17, "position": "CB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_009_17", "name": "Philip Azango", "number": 18, "position": "LW", "country": "NG", "status": "bench"},
+      {"playerId": "player_sk1_009_18", "name": "Kristián Stručka", "number": 19, "position": "CM", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_009_19", "name": "Daniel Konney", "number": 20, "position": "RM", "country": "GH", "status": "bench"},
+      {"playerId": "player_sk1_009_20", "name": "Lorent Mehmeti", "number": 21, "position": "LM", "country": "SE", "status": "bench"},
+      {"playerId": "player_sk1_009_21", "name": "Hilary Gong", "number": 22, "position": "CAM", "country": "NG", "status": "bench"},
+  
+      {"playerId": "player_sk1_009_22", "name": "Oskar Casagrande", "number": 30, "position": "GK", "country": "SI", "status": "reserve"},
+      {"playerId": "player_sk1_009_23", "name": "Dávid Bukovský", "number": 23, "position": "RW", "country": "SK", "status": "reserve"},
+      {"playerId": "player_sk1_009_24", "name": "Luka Khorkheli", "number": 24, "position": "ST", "country": "GE", "status": "reserve"},
+      {"playerId": "player_sk1_009_25", "name": "Marin Laušić", "number": 25, "position": "ST", "country": "HR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
