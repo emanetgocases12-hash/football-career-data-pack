@@ -1,12 +1,58 @@
 {
-  "teamKey": "Leiria",
-
-  "name": "UD Leiria",
-
-  "logo": "assets/logos/europe/portugal/Leiria.png",
-
-  "stadium": {
-    "name": "Estádio Dr. Magalhães Pessoa",
-    "capacity": 23888
+    "teamKey": "Leiria",
+  
+    "name": "UD Leiria",
+  
+    "logo": "assets/logos/europe/portugal/Leiria.png",
+  
+    "manager": {
+      "name": "Silas",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Dr. Magalhães Pessoa",
+      "capacity": 23888
+    },
+  
+    "players": [
+      {"playerId": "player_pt2_009_01", "name": "Paweł Kieszek", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+      {"playerId": "player_pt2_009_02", "name": "Tiago Ferreira", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_009_03", "name": "Valdir", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_009_04", "name": "Bura", "number": 5, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_009_05", "name": "Marco Baixinho", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_009_06", "name": "Jordan van der Gaag", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_009_07", "name": "Leandro Antunes", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_009_08", "name": "Lucho Vega", "number": 7, "position": "RW", "country": "AR", "status": "starter"},
+      {"playerId": "player_pt2_009_09", "name": "Juan Muñoz", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt2_009_10", "name": "João Resende", "number": 11, "position": "ST", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_009_11", "name": "Diogo Amado", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_pt2_009_12", "name": "Fábio Ferreira", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_009_13", "name": "Káká", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_009_14", "name": "Tiago Gonçalves", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_009_15", "name": "Maga", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_009_16", "name": "Dje Tah D'Avilla", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_009_17", "name": "Jair Matheus", "number": 18, "position": "LW", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt2_009_18", "name": "Rochez", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_009_19", "name": "Bryan Róchez", "number": 20, "position": "RM", "country": "HN", "status": "bench"},
+      {"playerId": "player_pt2_009_20", "name": "Marcos Silva", "number": 21, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_009_21", "name": "Paul Ayongo", "number": 22, "position": "CAM", "country": "GH", "status": "bench"},
+  
+      {"playerId": "player_pt2_009_22", "name": "Ricardo Batista", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_009_23", "name": "Jordan Domínguez", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_009_24", "name": "Tiago Rodrigues", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_009_25", "name": "João Oliveira", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
