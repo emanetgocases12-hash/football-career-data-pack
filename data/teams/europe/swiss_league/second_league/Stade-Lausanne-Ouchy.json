@@ -1,12 +1,58 @@
 {
-  "teamKey": "S-L'anne",
-
-  "name": "FC Stade-Lausanne-Ouchy",
-
-  "logo": "assets/logos/europe/swiss/Ouchy.png",
-
-  "stadium": {
-    "name": "Stade Olympique de la Pontaise",
-    "capacity": 15850
+    "teamKey": "S-L'anne",
+  
+    "name": "FC Stade-Lausanne-Ouchy",
+  
+    "logo": "assets/logos/europe/swiss/Ouchy.png",
+  
+    "manager": {
+      "name": "Dalibor Stevanović",
+      "country": "SI"
+    },
+  
+    "stadium": {
+      "name": "Stade Olympique de la Pontaise",
+      "capacity": 15850
+    },
+  
+    "players": [
+      {"playerId": "player_ch2_006_01", "name": "Laurent Seji", "number": 1, "position": "GK", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_006_02", "name": "Nicola Sutter", "number": 2, "position": "RB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_006_03", "name": "Aly Guindo", "number": 4, "position": "CB", "country": "ML", "status": "starter"},
+      {"playerId": "player_ch2_006_04", "name": "Hugo Fargues Jr.", "number": 5, "position": "CB", "country": "FR", "status": "starter"},
+      {"playerId": "player_ch2_006_05", "name": "Sami Lahssaini", "number": 3, "position": "LB", "country": "BE", "status": "starter"},
+      {"playerId": "player_ch2_006_06", "name": "Cobel Sow Garcia", "number": 6, "position": "CDM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_006_07", "name": "Ronaldo Freitas", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_ch2_006_08", "name": "Jules Carrasco", "number": 7, "position": "RW", "country": "ES", "status": "starter"},
+      {"playerId": "player_ch2_006_09", "name": "Bastien Conus Jr.", "number": 10, "position": "CAM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_006_10", "name": "Hugo Fargues III", "number": 11, "position": "LW", "country": "FR", "status": "starter"},
+      {"playerId": "player_ch2_006_11", "name": "Malko Sartoretti", "number": 9, "position": "ST", "country": "CH", "status": "starter"},
+  
+      {"playerId": "player_ch2_006_12", "name": "Kevin Martin", "number": 12, "position": "GK", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_006_13", "name": "Bastien Conus", "number": 14, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_006_14", "name": "Husein Balić", "number": 15, "position": "RB", "country": "AT", "status": "bench"},
+      {"playerId": "player_ch2_006_15", "name": "Baptiste Santamaria Jr.", "number": 16, "position": "LB", "country": "FR", "status": "bench"},
+      {"playerId": "player_ch2_006_16", "name": "Moustapha Sangaré", "number": 17, "position": "CB", "country": "ML", "status": "bench"},
+      {"playerId": "player_ch2_006_17", "name": "Loris Mettler", "number": 18, "position": "CM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_006_18", "name": "Axel Dénis", "number": 19, "position": "RM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_006_19", "name": "Nicolas Gétaz", "number": 20, "position": "LM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_006_20", "name": "Yanis Lahiouel", "number": 21, "position": "CAM", "country": "FR", "status": "bench"},
+      {"playerId": "player_ch2_006_21", "name": "Keasse Bah", "number": 22, "position": "RW", "country": "CI", "status": "bench"},
+  
+      {"playerId": "player_ch2_006_22", "name": "Noah Falk", "number": 30, "position": "GK", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_006_23", "name": "Théo Bouchlarhem", "number": 23, "position": "LW", "country": "FR", "status": "reserve"},
+      {"playerId": "player_ch2_006_24", "name": "Cheikh Atangana", "number": 24, "position": "ST", "country": "CM", "status": "reserve"},
+      {"playerId": "player_ch2_006_25", "name": "Patrick Luan", "number": 25, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
