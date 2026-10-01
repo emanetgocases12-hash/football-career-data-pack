@@ -1,12 +1,56 @@
 {
-  "teamKey": "Snaloa",
-
-  "name": "Dorados de Sinaloa",
-
-  "logo": "assets/logos/north_america/mexico/Snaloa.png",
-
-  "stadium": {
-    "name": "Estadio Dorados",
-    "capacity": 20108
+    "teamKey": "Snaloa",
+  
+    "name": "Dorados de Sinaloa",
+  
+    "logo": "assets/logos/north_america/mexico/Snaloa.png",
+  
+    "manager": {
+      "name": "Luis Orozco",
+      "country": "MX"
+    },
+  
+    "stadium": {
+      "name": "Estadio Dorados",
+      "capacity": 20108
+    },
+  
+    "players": [
+      {"playerId": "player_mx2_011_01", "name": "José Castro", "number": 21, "position": "GK", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_011_02", "name": "Edson Gutiérrez", "number": 26, "position": "RB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_011_03", "name": "Diego García", "number": 3, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_011_04", "name": "Abraham Flores", "number": 5, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_011_05", "name": "Sebastián Yáñez", "number": 2, "position": "LB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_011_06", "name": "Francisco Contreras", "number": 11, "position": "CDM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_011_07", "name": "Fernando González Peña", "number": 17, "position": "CM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_011_08", "name": "Carlos Galicia", "number": 8, "position": "CAM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_011_09", "name": "German Padilla", "number": 13, "position": "RW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_011_10", "name": "Dylan Armando Guajardo Garza", "number": 6, "position": "LW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_011_11", "name": "Jhan Carlos Rengifo Estúpiñan", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+      {"playerId": "player_mx2_011_12", "name": "Jonathan Manuel Vaal Rodríguez", "number": 30, "position": "GK", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_011_13", "name": "Emiliano Velazco Sarmiento", "number": 25, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_011_14", "name": "Ramiro Franco", "number": 4, "position": "RB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_011_15", "name": "Christopher Castro", "number": 32, "position": "LB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_011_16", "name": "David Osuna", "number": 20, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_011_17", "name": "Martín Sol Ruiz", "number": 14, "position": "CM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_011_18", "name": "Marcos Rodrigo Flores Quintero", "number": 27, "position": "CDM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_011_19", "name": "Brandon Omar Ordorica Casillas", "number": 28, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_011_20", "name": "Christian Castillo", "number": 15, "position": "LW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_011_21", "name": "Jaime Alvarez", "number": 7, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_011_22", "name": "Benjamín Sánchez", "number": 23, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_011_23", "name": "Leonardo Vargas", "number": 10, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_011_24", "name": "Oscar Coronel", "number": 29, "position": "RW", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_011_25", "name": "Arath Egaña", "number": 12, "position": "ST", "country": "MX", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 21,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 8
+      }
+    }
   }
-}
