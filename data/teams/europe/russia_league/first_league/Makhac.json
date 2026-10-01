@@ -1,12 +1,58 @@
 {
-  "teamKey": "D Mahhc",
-
-  "name": "Dinamo Makhachkala",
-
-  "logo": "assets/logos/europe/russia/Makhac.png",
-
-  "stadium": {
-    "name": "Anzhi-Arena",
-    "capacity": 24173
+    "teamKey": "D Mahhc",
+  
+    "name": "Dinamo Makhachkala",
+  
+    "logo": "assets/logos/europe/russia/Makhac.png",
+  
+    "manager": {
+      "name": "Vadim Yevseyev",
+      "country": "RU"
+    },
+  
+    "stadium": {
+      "name": "Anzhi-Arena",
+      "capacity": 24173
+    },
+  
+    "players": [
+      {"playerId": "player_ru1_009_01", "name": "David Volk", "number": 1, "position": "GK", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_009_02", "name": "Mutalip Alibekov", "number": 2, "position": "RB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_009_03", "name": "Valentin Paltsev", "number": 4, "position": "CB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_009_04", "name": "Idar Shumakhov", "number": 5, "position": "CB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_009_05", "name": "Soslan Kagermazov", "number": 3, "position": "LB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_009_06", "name": "Temirkan Sundukov", "number": 6, "position": "CDM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_009_07", "name": "Razhab Magomedov", "number": 8, "position": "CM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_009_08", "name": "Nikola Gluščević", "number": 7, "position": "RW", "country": "ME", "status": "starter"},
+      {"playerId": "player_ru1_009_09", "name": "Mohamed Azzi", "number": 10, "position": "CAM", "country": "DZ", "status": "starter"},
+      {"playerId": "player_ru1_009_10", "name": "Hamid Agalarov", "number": 11, "position": "LW", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_009_11", "name": "Gamadiel Kané", "number": 9, "position": "ST", "country": "GN", "status": "starter"},
+  
+      {"playerId": "player_ru1_009_12", "name": "Timur Magomedov", "number": 12, "position": "GK", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_009_13", "name": "Jemal Tabidze", "number": 14, "position": "CB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ru1_009_14", "name": "Kirill Zinovich", "number": 15, "position": "RB", "country": "BY", "status": "bench"},
+      {"playerId": "player_ru1_009_15", "name": "Ilya Kirsh", "number": 16, "position": "LB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_009_16", "name": "Ivan Lepinjica", "number": 17, "position": "CB", "country": "HR", "status": "bench"},
+      {"playerId": "player_ru1_009_17", "name": "Serder Serderov", "number": 18, "position": "CM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_009_18", "name": "Abakar Gadzhiev", "number": 19, "position": "RM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_009_19", "name": "Egas Cacintura", "number": 20, "position": "LM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ru1_009_20", "name": "Kirill Kosarev", "number": 21, "position": "CAM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_009_21", "name": "Bernard Berisha", "number": 22, "position": "RW", "country": "XK", "status": "bench"},
+  
+      {"playerId": "player_ru1_009_22", "name": "Temirlan Anarbekov", "number": 30, "position": "GK", "country": "KZ", "status": "reserve"},
+      {"playerId": "player_ru1_009_23", "name": "Magomed Musalov", "number": 23, "position": "LW", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_009_24", "name": "Islam Mashukov", "number": 24, "position": "ST", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_009_25", "name": "Mohamed Yansane", "number": 25, "position": "ST", "country": "GN", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
