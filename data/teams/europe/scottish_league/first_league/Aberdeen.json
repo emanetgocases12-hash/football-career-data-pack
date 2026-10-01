@@ -1,12 +1,58 @@
 {
-  "teamKey": "A'deen",
-
-  "name": "Aberdeen FC",
-
-  "logo": "assets/logos/europe/scottish/Aberdeen.png",
-
-  "stadium": {
-    "name": "Pittodrie Stadium",
-    "capacity": 20866
+    "teamKey": "A'deen",
+  
+    "name": "Aberdeen FC",
+  
+    "logo": "assets/logos/europe/scottish/Aberdeen.png",
+  
+    "manager": {
+      "name": "Stephen Robinson",
+      "country": "GB-NIR"
+    },
+  
+    "stadium": {
+      "name": "Pittodrie Stadium",
+      "capacity": 20866
+    },
+  
+    "players": [
+      {"playerId": "player_sct1_001_01", "name": "Marius Müller", "number": 1, "position": "GK", "country": "DE", "status": "starter"},
+      {"playerId": "player_sct1_001_02", "name": "Nicky Devlin", "number": 2, "position": "RB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_001_03", "name": "Mitchel Frame", "number": 4, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_001_04", "name": "Kristers Tobers", "number": 5, "position": "CB", "country": "LV", "status": "starter"},
+      {"playerId": "player_sct1_001_05", "name": "Mats Knoester", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_sct1_001_06", "name": "Brad Lyons", "number": 6, "position": "CDM", "country": "GB-NIR", "status": "starter"},
+      {"playerId": "player_sct1_001_07", "name": "Alexander Briedl", "number": 8, "position": "CM", "country": "AT", "status": "starter"},
+      {"playerId": "player_sct1_001_08", "name": "Stuart Armstrong", "number": 7, "position": "RW", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_001_09", "name": "Ante Palaversa", "number": 10, "position": "CAM", "country": "HR", "status": "starter"},
+      {"playerId": "player_sct1_001_10", "name": "Connor Ronan", "number": 11, "position": "LW", "country": "IE", "status": "starter"},
+      {"playerId": "player_sct1_001_11", "name": "Ayoub Mouloua", "number": 9, "position": "ST", "country": "FR", "status": "starter"},
+  
+      {"playerId": "player_sct1_001_12", "name": "Daniel Klein", "number": 12, "position": "GK", "country": "DE", "status": "bench"},
+      {"playerId": "player_sct1_001_13", "name": "Gavin Molloy", "number": 14, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_sct1_001_14", "name": "Jack Milne", "number": 15, "position": "RB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_001_15", "name": "Lewis Mayo", "number": 16, "position": "LB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_001_16", "name": "Nesta Guinness-Walker", "number": 17, "position": "CB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sct1_001_17", "name": "Afeez Aremu", "number": 18, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_sct1_001_18", "name": "Findlay Marshall", "number": 19, "position": "RM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_001_19", "name": "Tony Yogane", "number": 20, "position": "LM", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sct1_001_20", "name": "Lewis Smith", "number": 21, "position": "CAM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_001_21", "name": "Hicham Mahou", "number": 22, "position": "RW", "country": "FR", "status": "bench"},
+  
+      {"playerId": "player_sct1_001_22", "name": "Rodrigo Vitols", "number": 30, "position": "GK", "country": "LV", "status": "reserve"},
+      {"playerId": "player_sct1_001_23", "name": "Kevin Nisbet", "number": 23, "position": "LW", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct1_001_24", "name": "Toyosi Olusanya", "number": 24, "position": "ST", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_sct1_001_25", "name": "Mitchy Ntelo", "number": 25, "position": "ST", "country": "BE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
