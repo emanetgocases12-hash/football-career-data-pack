@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bravo",
-
-  "name": "NK Bravo",
-
-  "logo": "assets/logos/europe/slovenia/Bravo.png",
-
-  "stadium": {
-    "name": "Športni park Šiška Ljubljana",
-    "capacity": 5000
+    "teamKey": "Bravo",
+  
+    "name": "NK Bravo",
+  
+    "logo": "assets/logos/europe/slovenia/Bravo.png",
+  
+    "manager": {
+      "name": "Aleš Arnol",
+      "country": "SI"
+    },
+  
+    "stadium": {
+      "name": "Športni park Šiška Ljubljana",
+      "capacity": 5000
+    },
+  
+    "players": [
+      {"playerId": "player_si1_002_01", "name": "Matjaž Rozman", "number": 1, "position": "GK", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_002_02", "name": "Jakob Brunnhofer", "number": 2, "position": "RB", "country": "AT", "status": "starter"},
+      {"playerId": "player_si1_002_03", "name": "Mouhaman Ibrahim Halilou", "number": 4, "position": "CB", "country": "NE", "status": "starter"},
+      {"playerId": "player_si1_002_04", "name": "Marwann Nzuzi", "number": 5, "position": "CB", "country": "FR", "status": "starter"},
+      {"playerId": "player_si1_002_05", "name": "Gašper Jovan", "number": 3, "position": "LB", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_002_06", "name": "Sandi Nuhanović", "number": 6, "position": "CDM", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_002_07", "name": "James Arinze", "number": 8, "position": "CM", "country": "NG", "status": "starter"},
+      {"playerId": "player_si1_002_08", "name": "Jon Ficko", "number": 7, "position": "RW", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_002_09", "name": "Enrik Ostrc", "number": 10, "position": "CAM", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_002_10", "name": "Divine Omoregie", "number": 11, "position": "ST", "country": "IT", "status": "starter"},
+      {"playerId": "player_si1_002_11", "name": "Marko Simonič", "number": 9, "position": "LW", "country": "SI", "status": "starter"},
+  
+      {"playerId": "player_si1_002_12", "name": "Benjamin Matičič", "number": 12, "position": "GK", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_002_13", "name": "Lan Štravs", "number": 14, "position": "CB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_002_14", "name": "Raúl Parra Artal", "number": 15, "position": "RB", "country": "ES", "status": "bench"},
+      {"playerId": "player_si1_002_15", "name": "Maj Fogec", "number": 16, "position": "LB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_002_16", "name": "Christalino Atemona", "number": 17, "position": "CB", "country": "DE", "status": "bench"},
+      {"playerId": "player_si1_002_17", "name": "Ange Wilfried Kouassi", "number": 18, "position": "LW", "country": "CI", "status": "bench"},
+      {"playerId": "player_si1_002_18", "name": "Andrej Pečar", "number": 19, "position": "CM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_002_19", "name": "Tais Šabotić", "number": 20, "position": "RM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_002_20", "name": "Matej Malenšek", "number": 21, "position": "LM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_002_21", "name": "Rok Kopatin", "number": 22, "position": "CAM", "country": "SI", "status": "bench"},
+  
+      {"playerId": "player_si1_002_22", "name": "Luka Dakić", "number": 30, "position": "GK", "country": "SI", "status": "reserve"},
+      {"playerId": "player_si1_002_23", "name": "Aldin Jakupović", "number": 23, "position": "RW", "country": "SI", "status": "reserve"},
+      {"playerId": "player_si1_002_24", "name": "Guy Williams Okpo Mazié", "number": 24, "position": "ST", "country": "CI", "status": "reserve"},
+      {"playerId": "player_si1_002_25", "name": "Jakoslav Stanković", "number": 25, "position": "ST", "country": "SI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
