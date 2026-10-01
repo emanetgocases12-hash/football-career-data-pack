@@ -1,12 +1,58 @@
 {
-  "teamKey": "Antigu",
-
-  "name": "Antigua GFC",
-
-  "logo": "assets/logos/north_america/guatemala/Antigu.png",
-
-  "stadium": {
-    "name": "Estadio Pensativo",
-    "capacity": 10000
+    "teamKey": "Antigu",
+  
+    "name": "Antigua GFC",
+  
+    "logo": "assets/logos/north_america/guatemala/Antigu.png",
+  
+    "manager": {
+      "name": "Mauricio Tapia",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Estadio Pensativo",
+      "capacity": 10000
+    },
+  
+    "players": [
+      {"playerId": "player_gt1_002_01", "name": "Allan Fernández", "number": 1, "position": "GK", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_002_02", "name": "Alexander Robinson", "number": 2, "position": "RB", "country": "PA", "status": "starter"},
+      {"playerId": "player_gt1_002_03", "name": "Dilan Palencia", "number": 4, "position": "CB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_002_04", "name": "Guillermo Carbonell", "number": 5, "position": "CB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_002_05", "name": "José Ardón", "number": 3, "position": "LB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_002_06", "name": "Wilder Alexander Trigueros Guevara", "number": 6, "position": "CDM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_002_07", "name": "Edgard Enrique Camargo Rodríguez", "number": 8, "position": "CM", "country": "CO", "status": "starter"},
+      {"playerId": "player_gt1_002_08", "name": "Diego Fernández", "number": 7, "position": "RW", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_002_09", "name": "Gerson Chávez", "number": 10, "position": "CAM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_002_10", "name": "Iván Camilo Mora Rodríguez", "number": 11, "position": "LW", "country": "CO", "status": "starter"},
+      {"playerId": "player_gt1_002_11", "name": "Agustín Maziero", "number": 9, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_gt1_002_12", "name": "Jorge Moreno", "number": 12, "position": "GK", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_002_13", "name": "Juan David Moreno Montaño", "number": 14, "position": "CB", "country": "CO", "status": "bench"},
+      {"playerId": "player_gt1_002_14", "name": "Luis Diego Castellanos Santos", "number": 15, "position": "RB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_002_15", "name": "Matthew Merida", "number": 16, "position": "LB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_002_16", "name": "Michael Zamora", "number": 17, "position": "CB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_002_17", "name": "José Espinoza", "number": 18, "position": "CM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_002_18", "name": "José Rosales", "number": 19, "position": "RM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_002_19", "name": "Kevin López", "number": 20, "position": "LM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_002_20", "name": "Santiago Garzaro", "number": 21, "position": "CAM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_002_21", "name": "Andris Herrera Palomino", "number": 22, "position": "RW", "country": "CO", "status": "bench"},
+  
+      {"playerId": "player_gt1_002_22", "name": "Luis Morán", "number": 30, "position": "GK", "country": "GT", "status": "reserve"},
+      {"playerId": "player_gt1_002_23", "name": "Jostin Daly", "number": 23, "position": "LW", "country": "CR", "status": "reserve"},
+      {"playerId": "player_gt1_002_24", "name": "Juan Francisco Apaolaza", "number": 24, "position": "ST", "country": "AR", "status": "reserve"},
+      {"playerId": "player_gt1_002_25", "name": "Oscar Santis", "number": 25, "position": "ST", "country": "GT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
