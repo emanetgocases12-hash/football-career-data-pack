@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bereg",
-
-  "name": "Livyi Bereg Kyiv",
-
-  "logo": "assets/logos/europe/ukrain/Bereg.png",
-
-  "stadium": {
-    "name": "Arena Livyi Bereg",
-    "capacity": 4700
+    "teamKey": "Bereg",
+  
+    "name": "Livyi Bereg Kyiv",
+  
+    "logo": "assets/logos/europe/ukrain/Bereg.png",
+  
+    "manager": {
+      "name": "Oleksandr Riabokon",
+      "country": "UA"
+    },
+  
+    "stadium": {
+      "name": "Arena Livyi Bereg",
+      "capacity": 4700
+    },
+  
+    "players": [
+      {"playerId": "player_ua1_001_01", "name": "Oleksandr Domoleha", "number": 1, "position": "GK", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_001_02", "name": "Ernest Astakhov", "number": 2, "position": "RB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_001_03", "name": "Valerii Bondarenko", "number": 4, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_001_04", "name": "Daniil Korniienko", "number": 5, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_001_05", "name": "Ivan Kotukha", "number": 3, "position": "LB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_001_06", "name": "Tiaho Arauzho dos Santos", "number": 6, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_ua1_001_07", "name": "Yevhen Banada", "number": 8, "position": "CM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_001_08", "name": "Maksym Boicheniuk", "number": 7, "position": "RW", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_001_09", "name": "Artem Cheliadin", "number": 10, "position": "CAM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_001_10", "name": "Oleksandr Boichenko", "number": 11, "position": "ST", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_001_11", "name": "Pape Malick Fall", "number": 9, "position": "LW", "country": "SN", "status": "starter"},
+  
+      {"playerId": "player_ua1_001_12", "name": "Denys Ihnatenko", "number": 12, "position": "GK", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_001_13", "name": "Illia Kovalenko", "number": 14, "position": "CB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_001_14", "name": "Artem Marynovskyi", "number": 15, "position": "RB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_001_15", "name": "Andrii Melnyk", "number": 16, "position": "LB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_001_16", "name": "Nikolas Osei Bonsu", "number": 17, "position": "CB", "country": "GH", "status": "bench"},
+      {"playerId": "player_ua1_001_17", "name": "Viacheslav Kliuka", "number": 18, "position": "LW", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_001_18", "name": "Serhii Kosovskyi", "number": 19, "position": "CM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_001_19", "name": "Oleh Kryvoruchko", "number": 20, "position": "RM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_001_20", "name": "Liubomyr Kuzyk", "number": 21, "position": "LM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_001_21", "name": "Illia Kvasnytsia", "number": 22, "position": "CAM", "country": "UA", "status": "bench"},
+  
+      {"playerId": "player_ua1_001_22", "name": "Davyd Ivanenko", "number": 30, "position": "GK", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_001_23", "name": "Vendell Florentsio Brito", "number": 23, "position": "RW", "country": "BR", "status": "reserve"},
+      {"playerId": "player_ua1_001_24", "name": "Roman Heresh", "number": 24, "position": "ST", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_001_25", "name": "Yehor Hrebelnyk", "number": 25, "position": "ST", "country": "UA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
