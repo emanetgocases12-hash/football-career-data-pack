@@ -1,12 +1,58 @@
 {
-  "teamKey": "FCSB",
-
-  "name": "FCSB",
-
-  "logo": "assets/logos/europe/romania/FCSB.png",
-
-  "stadium": {
-    "name": "Arena Națională",
-    "capacity": 55634
+    "teamKey": "FCSB",
+  
+    "name": "FCSB",
+  
+    "logo": "assets/logos/europe/romania/FCSB.png",
+  
+    "manager": {
+      "name": "Laurențiu Reghecampf",
+      "country": "RO"
+    },
+  
+    "stadium": {
+      "name": "Arena Națională",
+      "capacity": 55634
+    },
+  
+    "players": [
+      {"playerId": "player_ro1_007_01", "name": "Ștefan Târnovanu", "number": 1, "position": "GK", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_007_02", "name": "Dylan Batubinsika", "number": 2, "position": "RB", "country": "CD", "status": "starter"},
+      {"playerId": "player_ro1_007_03", "name": "Valentin Crețu", "number": 4, "position": "CB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_007_04", "name": "Joyskim Dawa", "number": 5, "position": "CB", "country": "CM", "status": "starter"},
+      {"playerId": "player_ro1_007_05", "name": "André Duarte", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_ro1_007_06", "name": "Ofri Arad", "number": 6, "position": "CDM", "country": "IL", "status": "starter"},
+      {"playerId": "player_ro1_007_07", "name": "Eddy Gnahoré", "number": 8, "position": "CM", "country": "FR", "status": "starter"},
+      {"playerId": "player_ro1_007_08", "name": "João Paulo Fernandes", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_ro1_007_09", "name": "Florin Tănase", "number": 10, "position": "CAM", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_007_10", "name": "Juri Cisotti", "number": 11, "position": "LW", "country": "IT", "status": "starter"},
+      {"playerId": "player_ro1_007_11", "name": "David Miculescu", "number": 9, "position": "ST", "country": "RO", "status": "starter"},
+  
+      {"playerId": "player_ro1_007_12", "name": "Matei Popa", "number": 12, "position": "GK", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_007_13", "name": "Ronny Labonne", "number": 14, "position": "CB", "country": "MQ", "status": "bench"},
+      {"playerId": "player_ro1_007_14", "name": "Siyabonga Ngezana", "number": 15, "position": "RB", "country": "ZA", "status": "bench"},
+      {"playerId": "player_ro1_007_15", "name": "Mihai Popescu", "number": 16, "position": "LB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_007_16", "name": "Risto Radunović", "number": 17, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_ro1_007_17", "name": "Mihai Toma", "number": 18, "position": "CM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_007_18", "name": "Ricardo Pădurariu", "number": 19, "position": "RM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_007_19", "name": "Aymen Boutoutaou", "number": 20, "position": "LM", "country": "DZ", "status": "bench"},
+      {"playerId": "player_ro1_007_20", "name": "Paul Garita", "number": 21, "position": "CAM", "country": "CM", "status": "bench"},
+      {"playerId": "player_ro1_007_21", "name": "Dennis Politic", "number": 22, "position": "RW", "country": "RO", "status": "bench"},
+  
+      {"playerId": "player_ro1_007_22", "name": "Mihai Udrea", "number": 30, "position": "GK", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_007_23", "name": "Octavian Popescu", "number": 23, "position": "LW", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_007_24", "name": "Alexandru Stoian", "number": 24, "position": "ST", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_007_25", "name": "Daniel Bîrligea", "number": 25, "position": "ST", "country": "RO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
