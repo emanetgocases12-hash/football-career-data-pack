@@ -1,12 +1,58 @@
 {
-  "teamKey": "S Donet",
-
-  "name": "Shakhtar Donetsk",
-
-  "logo": "assets/logos/europe/ukrain/Shakhtar.png",
-
-  "stadium": {
-    "name": "Arena Lviv",
-    "capacity": 34725
+    "teamKey": "S Donet",
+  
+    "name": "Shakhtar Donetsk",
+  
+    "logo": "assets/logos/europe/ukrain/Shakhtar.png",
+  
+    "manager": {
+      "name": "Arda Turan",
+      "country": "TR"
+    },
+  
+    "stadium": {
+      "name": "Arena Lviv",
+      "capacity": 34725
+    },
+  
+    "players": [
+      {"playerId": "player_ua1_014_01", "name": "Dmytro Riznyk", "number": 1, "position": "GK", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_014_02", "name": "Valerii Bondar", "number": 2, "position": "RB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_014_03", "name": "Irakli Azarov", "number": 4, "position": "CB", "country": "GE", "status": "starter"},
+      {"playerId": "player_ua1_014_04", "name": "Alaa Ghram", "number": 5, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_ua1_014_05", "name": "Mykola Matviienko", "number": 3, "position": "LB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_014_06", "name": "Pedrinho", "number": 6, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_ua1_014_07", "name": "Marlon Gomes", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_ua1_014_08", "name": "Dmytro Kryskiv", "number": 7, "position": "RW", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_014_09", "name": "Yehor Nazaryna", "number": 10, "position": "CAM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_014_10", "name": "Eguinaldo", "number": 11, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_ua1_014_11", "name": "Kauã Elias", "number": 9, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_ua1_014_12", "name": "Kiril Fesiun", "number": 12, "position": "GK", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_014_13", "name": "Pedro Henrique", "number": 14, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_ua1_014_14", "name": "Oleksandr Karavaiev", "number": 15, "position": "RB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_014_15", "name": "Alan Matturro", "number": 16, "position": "LB", "country": "UY", "status": "bench"},
+      {"playerId": "player_ua1_014_16", "name": "Marlon Santos", "number": 17, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_ua1_014_17", "name": "Oleh Ocheretko", "number": 18, "position": "LW", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_014_18", "name": "Gleiker Mendoza", "number": 19, "position": "CM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ua1_014_19", "name": "Prosper Obah", "number": 20, "position": "RM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ua1_014_20", "name": "Alisson Santana", "number": 21, "position": "LM", "country": "BR", "status": "bench"},
+      {"playerId": "player_ua1_014_21", "name": "Newertton", "number": 22, "position": "CAM", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_ua1_014_22", "name": "Denys Tvardovskyi", "number": 30, "position": "GK", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_014_23", "name": "Lassina Traoré", "number": 23, "position": "RW", "country": "BF", "status": "reserve"},
+      {"playerId": "player_ua1_014_24", "name": "Luka Meirelles", "number": 24, "position": "ST", "country": "BR", "status": "reserve"},
+      {"playerId": "player_ua1_014_25", "name": "Yan Zheliba", "number": 25, "position": "ST", "country": "UA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
