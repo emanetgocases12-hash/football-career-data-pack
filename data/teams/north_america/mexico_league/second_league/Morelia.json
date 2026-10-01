@@ -1,12 +1,56 @@
 {
-  "teamKey": "Moreli",
-
-  "name": "Club Atlético Morelia",
-
-  "logo": "assets/logos/north_america/mexico/Moreli.png",
-
-  "stadium": {
-    "name": "Estadio Generalísimo José María Morelos y Pavón",
-    "capacity": 38869
+    "teamKey": "Moreli",
+  
+    "name": "Club Atlético Morelia",
+  
+    "logo": "assets/logos/north_america/mexico/Moreli.png",
+  
+    "manager": {
+      "name": "Hugo Colace",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Estadio Generalísimo José María Morelos y Pavón",
+      "capacity": 38869
+    },
+  
+    "players": [
+      {"playerId": "player_mx2_008_01", "name": "Antonio Torres", "number": 1, "position": "GK", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_008_02", "name": "Daniel Zamora", "number": 4, "position": "RB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_008_03", "name": "Diego Esqueda", "number": 23, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_008_04", "name": "José Van Rankin", "number": 5, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_008_05", "name": "Robert Castellanos", "number": 14, "position": "LB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_008_06", "name": "Diego De Jesús Aguilar", "number": 20, "position": "CDM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_008_07", "name": "Diego de Buen", "number": 6, "position": "CM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_008_08", "name": "Edgar Martínez", "number": 8, "position": "CAM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_008_09", "name": "Josué Domínguez", "number": 10, "position": "RW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_008_10", "name": "Jaziel Martínez", "number": 26, "position": "LW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_008_11", "name": "Orlando Botello Linares", "number": 15, "position": "ST", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx2_008_12", "name": "Ramon Pasquel", "number": 22, "position": "GK", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_008_13", "name": "Raúl Sandoval", "number": 16, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_008_14", "name": "Diego Gallegos", "number": 19, "position": "RB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_008_15", "name": "René López", "number": 2, "position": "LB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_008_16", "name": "Sebastián Hernández", "number": 3, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_008_17", "name": "Michell Rodríguez", "number": 36, "position": "CM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_008_18", "name": "Alejandro Andrade", "number": 13, "position": "CDM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_008_19", "name": "Victor Lopez", "number": 11, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_008_20", "name": "Edson Said Castellanos Salazar", "number": 21, "position": "CAM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_008_21", "name": "Ruben Del Campo", "number": 9, "position": "LW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx2_008_22", "name": "Juan Conejo", "number": 30, "position": "LM", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_008_23", "name": "Ander Izarra", "number": 32, "position": "RW", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_008_24", "name": "Hugo Enrique Ávila Jaimes", "number": 37, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx2_008_25", "name": "José Alonso Flores Ramírez", "number": 28, "position": "ST", "country": "MX", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 15,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 8
+      }
+    }
   }
-}
