@@ -1,12 +1,58 @@
 {
-  "teamKey": "Farul",
-
-  "name": "FCV Farul Constanta",
-
-  "logo": "assets/logos/europe/romania/Farul.png",
-
-  "stadium": {
-    "name": "Central - Complex Gheorghe Hagi",
-    "capacity": 4554
+    "teamKey": "Farul",
+  
+    "name": "FCV Farul Constanta",
+  
+    "logo": "assets/logos/europe/romania/Farul.png",
+  
+    "manager": {
+      "name": "Ioan Ovidiu Sabău",
+      "country": "RO"
+    },
+  
+    "stadium": {
+      "name": "Central - Complex Gheorghe Hagi",
+      "capacity": 4554
+    },
+  
+    "players": [
+      {"playerId": "player_ro1_008_01", "name": "Alexandru Buzbuchi", "number": 1, "position": "GK", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_008_02", "name": "Sofyane Bouzamoucha", "number": 2, "position": "RB", "country": "FR", "status": "starter"},
+      {"playerId": "player_ro1_008_03", "name": "Ionuț Cercel", "number": 4, "position": "CB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_008_04", "name": "Steve Furtado", "number": 5, "position": "CB", "country": "CV", "status": "starter"},
+      {"playerId": "player_ro1_008_05", "name": "Gustavo Henrique", "number": 3, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_ro1_008_06", "name": "Victor Dican", "number": 6, "position": "CDM", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_008_07", "name": "Nabil Aberdin", "number": 8, "position": "CM", "country": "FR", "status": "starter"},
+      {"playerId": "player_ro1_008_08", "name": "Cristian Ganea", "number": 7, "position": "RW", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_008_09", "name": "Valentin Țicu", "number": 10, "position": "CAM", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_008_10", "name": "Mattéo Ahlinvi", "number": 11, "position": "LW", "country": "BJ", "status": "starter"},
+      {"playerId": "player_ro1_008_11", "name": "Denis Alibec", "number": 9, "position": "ST", "country": "RO", "status": "starter"},
+  
+      {"playerId": "player_ro1_008_12", "name": "Rafael Munteanu", "number": 12, "position": "GK", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_008_13", "name": "João Vítor", "number": 14, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_ro1_008_14", "name": "Ionuț Larie", "number": 15, "position": "RB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_008_15", "name": "David Maftei", "number": 16, "position": "LB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_008_16", "name": "Dan Sîrbu", "number": 17, "position": "CB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_008_17", "name": "Tony Njiké", "number": 18, "position": "CM", "country": "FR", "status": "bench"},
+      {"playerId": "player_ro1_008_18", "name": "Răzvan Grădinaru", "number": 19, "position": "RM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_008_19", "name": "Andrei Ciobanu", "number": 20, "position": "LM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_008_20", "name": "Narek Grigoryan", "number": 21, "position": "CAM", "country": "AM", "status": "bench"},
+      {"playerId": "player_ro1_008_21", "name": "Ionuț Vînă", "number": 22, "position": "RW", "country": "RO", "status": "bench"},
+  
+      {"playerId": "player_ro1_008_22", "name": "D. Barbu", "number": 30, "position": "GK", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_008_23", "name": "Robert Radaslavescu", "number": 23, "position": "LW", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_008_24", "name": "Patrick Budescu", "number": 24, "position": "ST", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_008_25", "name": "A. Goncear", "number": 25, "position": "ST", "country": "RO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
