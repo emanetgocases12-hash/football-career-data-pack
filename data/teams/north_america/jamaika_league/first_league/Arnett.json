@@ -1,12 +1,58 @@
 {
-  "teamKey": "Arnett",
-
-  "name": "Arnett Gardens FC",
-
-  "logo": "assets/logos/north_america/jamaika/Arnett.png",
-
-  "stadium": {
-    "name": "Anthony Spaulding Sports Complex",
-    "capacity": 2200
+    "teamKey": "Arnett",
+  
+    "name": "Arnett Gardens FC",
+  
+    "logo": "assets/logos/north_america/jamaika/Arnett.png",
+  
+    "manager": {
+      "name": "Marcel Gayle",
+      "country": "JM"
+    },
+  
+    "stadium": {
+      "name": "Anthony Spaulding Sports Complex",
+      "capacity": 2200
+    },
+  
+    "players": [
+      {"playerId": "player_jm1_001_01", "name": "Richardo White", "number": 1, "position": "GK", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_001_02", "name": "Tarique Jones", "number": 2, "position": "RB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_001_03", "name": "Damar Edwards", "number": 4, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_001_04", "name": "Kivann Salmon", "number": 5, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_001_05", "name": "Joel Jones", "number": 3, "position": "LB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_001_06", "name": "Romaine Bowers", "number": 6, "position": "CDM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_001_07", "name": "Tevin Shaw", "number": 8, "position": "CM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_001_08", "name": "Diamond Clarke", "number": 7, "position": "RW", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_001_09", "name": "Shadeko Wizzard", "number": 10, "position": "CM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_001_10", "name": "Demari Deacon", "number": 11, "position": "ST", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_001_11", "name": "Shai Smith", "number": 9, "position": "RW", "country": "JM", "status": "starter"},
+  
+      {"playerId": "player_jm1_001_12", "name": "Jadavin Waul", "number": 12, "position": "GK", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_001_13", "name": "Alwin Strachan", "number": 14, "position": "CB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_001_14", "name": "Rusheem Green", "number": 15, "position": "RB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_001_15", "name": "Shane Watson", "number": 16, "position": "LB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_001_16", "name": "Ricardo Thomas", "number": 17, "position": "CB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_001_17", "name": "Jahmelle Ashley", "number": 18, "position": "LW", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_001_18", "name": "Jermy Nelson", "number": 19, "position": "CM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_001_19", "name": "Jamone Shepherd", "number": 20, "position": "RM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_001_20", "name": "Kevaughn Wilson", "number": 21, "position": "LM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_001_21", "name": "Giovanni Taylor", "number": 22, "position": "CAM", "country": "JM", "status": "bench"},
+  
+      {"playerId": "player_jm1_001_22", "name": "Shakur Adair", "number": 30, "position": "GK", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_001_23", "name": "Rushike Kelson", "number": 23, "position": "LW", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_001_24", "name": "Fabian Reid", "number": 24, "position": "ST", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_001_25", "name": "Javaun Mills", "number": 25, "position": "ST", "country": "JM", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
