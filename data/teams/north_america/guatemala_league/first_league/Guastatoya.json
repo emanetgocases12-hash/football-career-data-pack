@@ -1,12 +1,58 @@
 {
-  "teamKey": "Guasta",
-
-  "name": "Deportivo Guastatoya",
-
-  "logo": "assets/logos/north_america/guatemala/Guasta.png",
-
-  "stadium": {
-    "name": "Estadio David Cordón Hichos",
-    "capacity": 3100
+    "teamKey": "Guasta",
+  
+    "name": "Deportivo Guastatoya",
+  
+    "logo": "assets/logos/north_america/guatemala/Guasta.png",
+  
+    "manager": {
+      "name": "Martín García",
+      "country": "UY"
+    },
+  
+    "stadium": {
+      "name": "Estadio David Cordón Hichos",
+      "capacity": 3100
+    },
+  
+    "players": [
+      {"playerId": "player_gt1_006_01", "name": "Rubén Escobar Fernández", "number": 1, "position": "GK", "country": "PY", "status": "starter"},
+      {"playerId": "player_gt1_006_02", "name": "José Francisco Almanza Jarquín", "number": 2, "position": "RB", "country": "NI", "status": "starter"},
+      {"playerId": "player_gt1_006_03", "name": "Víctor Armas", "number": 4, "position": "CB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_006_04", "name": "Emanuel Antonio Yori", "number": 5, "position": "CB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_006_05", "name": "Andy Contreras", "number": 3, "position": "LB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_006_06", "name": "Jonathan Robelvy Estrada Balcárcel", "number": 6, "position": "CDM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_006_07", "name": "Herberth Amaniel Morales Solís", "number": 8, "position": "CM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_006_08", "name": "Jefferson Snaider Macal López", "number": 7, "position": "RW", "country": "CO", "status": "starter"},
+      {"playerId": "player_gt1_006_09", "name": "Yordi Estid Adonay Aguilar Colindres", "number": 10, "position": "CAM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_006_10", "name": "Marlon Sequén", "number": 11, "position": "LW", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_006_11", "name": "Víctor Edison Ávalos Fariña", "number": 9, "position": "ST", "country": "PY", "status": "starter"},
+  
+      {"playerId": "player_gt1_006_12", "name": "Brayan Hernández", "number": 12, "position": "GK", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_006_13", "name": "Wilson Pineda", "number": 14, "position": "CB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_006_14", "name": "Brayan Morales Granados", "number": 15, "position": "RB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_006_15", "name": "Javier Estrada", "number": 16, "position": "LB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_006_16", "name": "Carlos Alvarado", "number": 17, "position": "CB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_006_17", "name": "Ariel Lon", "number": 18, "position": "CM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_006_18", "name": "Christopher Ramírez", "number": 19, "position": "RM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_006_19", "name": "Samuel Garrido", "number": 20, "position": "LM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_006_20", "name": "Gilder Otoniel Cruz Ortiz", "number": 21, "position": "CAM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_006_21", "name": "Denilson Sánchez", "number": 22, "position": "RW", "country": "GT", "status": "bench"},
+  
+      {"playerId": "player_gt1_006_22", "name": "Abner Estuardo Pérez Belteton", "number": 30, "position": "GK", "country": "GT", "status": "reserve"},
+      {"playerId": "player_gt1_006_23", "name": "Ángel Tejeda", "number": 23, "position": "LW", "country": "GT", "status": "reserve"},
+      {"playerId": "player_gt1_006_24", "name": "Bryan Lemus", "number": 24, "position": "ST", "country": "GT", "status": "reserve"},
+      {"playerId": "player_gt1_006_25", "name": "Nicolas Santiago Lovato", "number": 25, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
