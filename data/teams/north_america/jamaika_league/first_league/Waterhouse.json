@@ -1,12 +1,58 @@
 {
-  "teamKey": "Waterh",
-
-  "name": "Waterhouse FC",
-
-  "logo": "assets/logos/north_america/jamaika/Waterh.png",
-
-  "stadium": {
-    "name": "Waterhouse Stadium",
-    "capacity": 2500
+    "teamKey": "Waterh",
+  
+    "name": "Waterhouse FC",
+  
+    "logo": "assets/logos/north_america/jamaika/Waterh.png",
+  
+    "manager": {
+      "name": "Donovan Duckie",
+      "country": "JM"
+    },
+  
+    "stadium": {
+      "name": "Waterhouse Stadium",
+      "capacity": 2500
+    },
+  
+    "players": [
+      {"playerId": "player_jm1_014_01", "name": "Kevin Hibbert", "number": 1, "position": "GK", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_014_02", "name": "Dujoni Thompson", "number": 2, "position": "RB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_014_03", "name": "Shaquille Coronado", "number": 4, "position": "CB", "country": "PA", "status": "starter"},
+      {"playerId": "player_jm1_014_04", "name": "Shamarie Dyer", "number": 5, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_014_05", "name": "Roberto Ávila", "number": 3, "position": "LB", "country": "PA", "status": "starter"},
+      {"playerId": "player_jm1_014_06", "name": "Andre Smith", "number": 6, "position": "CDM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_014_07", "name": "Neron Barrow", "number": 8, "position": "CM", "country": "GY", "status": "starter"},
+      {"playerId": "player_jm1_014_08", "name": "Alexander Bicknell", "number": 7, "position": "RW", "country": "US", "status": "starter"},
+      {"playerId": "player_jm1_014_09", "name": "Denardo Thomas", "number": 10, "position": "CAM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_014_10", "name": "Cardel Benbow", "number": 11, "position": "ST", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_014_11", "name": "Revaldo Mitchell", "number": 9, "position": "RW", "country": "JM", "status": "starter"},
+  
+      {"playerId": "player_jm1_014_12", "name": "Akeem Bernard", "number": 12, "position": "GK", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_014_13", "name": "Kvist Paul", "number": 14, "position": "CB", "country": "GY", "status": "bench"},
+      {"playerId": "player_jm1_014_14", "name": "Stevaughn Johnson", "number": 15, "position": "RB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_014_15", "name": "Kymani Campbell", "number": 16, "position": "LB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_014_16", "name": "Roshawn Amos", "number": 17, "position": "CB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_014_17", "name": "Kamani Stewart", "number": 18, "position": "LW", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_014_18", "name": "Junior McGregor", "number": 19, "position": "CM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_014_19", "name": "Jesús Murillo", "number": 20, "position": "RM", "country": "PA", "status": "bench"},
+      {"playerId": "player_jm1_014_20", "name": "Martin Davis", "number": 21, "position": "LM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_014_21", "name": "Ajuma Johnson", "number": 22, "position": "CAM", "country": "JM", "status": "bench"},
+  
+      {"playerId": "player_jm1_014_22", "name": "John Wilson", "number": 30, "position": "GK", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_014_23", "name": "Omani Leacock", "number": 23, "position": "LW", "country": "BB", "status": "reserve"},
+      {"playerId": "player_jm1_014_24", "name": "Mario Simms", "number": 24, "position": "ST", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_014_25", "name": "Colorado Murray", "number": 25, "position": "ST", "country": "JM", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
