@@ -1,12 +1,58 @@
 {
-  "teamKey": "Liberi",
-
-  "name": "AD Municipal Liberia",
-
-  "logo": "assets/logos/north_america/costa_rica/Liberi.png",
-
-  "stadium": {
-    "name": "Estadio Edgardo Baltodano Briceño",
-    "capacity": 3610
+    "teamKey": "Liberi",
+  
+    "name": "AD Municipal Liberia",
+  
+    "logo": "assets/logos/north_america/costa_rica/Liberi.png",
+  
+    "manager": {
+      "name": "Horacio Esquivel",
+      "country": "CR"
+    },
+  
+    "stadium": {
+      "name": "Estadio Edgardo Baltodano Briceño",
+      "capacity": 3610
+    },
+  
+    "players": [
+      {"playerId": "player_cr1_005_01", "name": "Aldo Moore", "number": 1, "position": "GK", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_005_02", "name": "Allan Morún", "number": 2, "position": "RB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_005_03", "name": "Carlos Vindas", "number": 4, "position": "CB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_005_04", "name": "Daniel Vargas", "number": 5, "position": "CB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_005_05", "name": "Dilan Rodríguez", "number": 3, "position": "LB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_005_06", "name": "José Julián Naranjo", "number": 6, "position": "CDM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_005_07", "name": "José Pablo Alguera", "number": 8, "position": "CM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_005_08", "name": "Kendall Cordero", "number": 7, "position": "RW", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_005_09", "name": "Luis Emilio Quesada", "number": 10, "position": "CAM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_005_10", "name": "Erick Víctor", "number": 11, "position": "ST", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_005_11", "name": "Juan Carlos Hernández", "number": 9, "position": "LW", "country": "CR", "status": "starter"},
+  
+      {"playerId": "player_cr1_005_12", "name": "Jean Carlo Aguirre", "number": 12, "position": "GK", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_005_13", "name": "James San Lee", "number": 14, "position": "CB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_005_14", "name": "Elías Monzón", "number": 15, "position": "RB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_005_15", "name": "José Prendas", "number": 16, "position": "LB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_005_16", "name": "Fabricio Zúñiga", "number": 17, "position": "CB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_005_17", "name": "Dylan Madriz", "number": 18, "position": "LW", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_005_18", "name": "Jordan Zúñiga", "number": 19, "position": "CM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_005_19", "name": "José Mariano Salazar", "number": 20, "position": "RM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_005_20", "name": "Alí Villarreal", "number": 21, "position": "LM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_005_21", "name": "Ángel Arce", "number": 22, "position": "CAM", "country": "CR", "status": "bench"},
+  
+      {"playerId": "player_cr1_005_22", "name": "Joel Castrillo", "number": 30, "position": "GK", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_005_23", "name": "Keylor Briceño", "number": 23, "position": "RW", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_005_24", "name": "Paul González", "number": 24, "position": "ST", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_005_25", "name": "Nery Reyes", "number": 25, "position": "ST", "country": "CR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
