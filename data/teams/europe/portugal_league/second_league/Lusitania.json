@@ -1,12 +1,58 @@
 {
-  "teamKey": "Louros",
-
-  "name": "Lusitânia FC Lourosa",
-
-  "logo": "assets/logos/europe/portugal/Lusitania.png",
-
-  "stadium": {
-    "name": "Estádio do Lusitânia de Lourosa FC",
-    "capacity": 4900
+    "teamKey": "Louros",
+  
+    "name": "Lusitânia FC Lourosa",
+  
+    "logo": "assets/logos/europe/portugal/Lusitania.png",
+  
+    "manager": {
+      "name": "Jorge Pinto",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio do Lusitânia de Lourosa FC",
+      "capacity": 4900
+    },
+  
+    "players": [
+      {"playerId": "player_pt2_011_01", "name": "Bruno Brígido", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_011_02", "name": "Tiago Ferreira", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_011_03", "name": "João Mendes", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_011_04", "name": "Rúben Pereira", "number": 5, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_011_05", "name": "Gonçalo Silva", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_011_06", "name": "André Silva", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_011_07", "name": "Rúben Pinto", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_011_08", "name": "João Alves", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_011_09", "name": "Tiago Dias", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_011_10", "name": "Lucas Silva", "number": 11, "position": "ST", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_011_11", "name": "João Resende", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_pt2_011_12", "name": "João Ricardo", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_011_13", "name": "Pedro Costa", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_011_14", "name": "Miguel Ângelo", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_011_15", "name": "João Tavares", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_011_16", "name": "Francisco Sousa", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_011_17", "name": "Miguel Rosa", "number": 18, "position": "LW", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_011_18", "name": "André Claro", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_011_19", "name": "João Mário", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_011_20", "name": "Rui Gomes", "number": 21, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_011_21", "name": "Pedro Henrique", "number": 22, "position": "CAM", "country": "PT", "status": "bench"},
+  
+      {"playerId": "player_pt2_011_22", "name": "Diogo Almeida", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_011_23", "name": "André Rodrigues", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_011_24", "name": "Tiago Antunes", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_011_25", "name": "Rafael Santos", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
