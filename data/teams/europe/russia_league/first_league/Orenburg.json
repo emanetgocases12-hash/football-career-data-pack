@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ornbrg",
-
-  "name": "FC Orenburg",
-
-  "logo": "assets/logos/europe/russia/Orenburg.png",
-
-  "stadium": {
-    "name": "Gazovik",
-    "capacity": 10046
+    "teamKey": "Ornbrg",
+  
+    "name": "FC Orenburg",
+  
+    "logo": "assets/logos/europe/russia/Orenburg.png",
+  
+    "manager": {
+      "name": "Ildar Akhmetzyanov",
+      "country": "RU"
+    },
+  
+    "stadium": {
+      "name": "Gazovik",
+      "capacity": 10046
+    },
+  
+    "players": [
+      {"playerId": "player_ru1_010_01", "name": "Bogdan Moskvichev", "number": 1, "position": "GK", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_010_02", "name": "Danila Khotulev", "number": 2, "position": "RB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_010_03", "name": "Andrey Khodanovich", "number": 4, "position": "CB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_010_04", "name": "Danila Prokhin", "number": 5, "position": "CB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_010_05", "name": "Mikhail Sivakow", "number": 3, "position": "LB", "country": "BY", "status": "starter"},
+      {"playerId": "player_ru1_010_06", "name": "Ivan Bašić", "number": 6, "position": "CDM", "country": "BA", "status": "starter"},
+      {"playerId": "player_ru1_010_07", "name": "Dmitry Rybchinskiy", "number": 8, "position": "CM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_010_08", "name": "Jimmy Marín", "number": 7, "position": "RW", "country": "CR", "status": "starter"},
+      {"playerId": "player_ru1_010_09", "name": "Ivan Ignatyev", "number": 10, "position": "CAM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_010_10", "name": "Dmitriy Vorobyev", "number": 11, "position": "LW", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_010_11", "name": "Brian Mansilla Jr.", "number": 9, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ru1_010_12", "name": "Evgeniy Goshev", "number": 12, "position": "GK", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_010_13", "name": "Brian Mansilla", "number": 14, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ru1_010_14", "name": "Matías Pérez", "number": 15, "position": "RB", "country": "UY", "status": "bench"},
+      {"playerId": "player_ru1_010_15", "name": "Arsen Adamov", "number": 16, "position": "LB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_010_16", "name": "Kirill Kaplenko", "number": 17, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_010_17", "name": "Yuri Kovalev", "number": 18, "position": "CM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_010_18", "name": "Danila Khotulev Jr.", "number": 19, "position": "RM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_010_19", "name": "Emircan Gürlük", "number": 20, "position": "LM", "country": "TR", "status": "bench"},
+      {"playerId": "player_ru1_010_20", "name": "Justin Cuero", "number": 21, "position": "CAM", "country": "EC", "status": "bench"},
+      {"playerId": "player_ru1_010_21", "name": "Stepan Oganesyan", "number": 22, "position": "RW", "country": "RU", "status": "bench"},
+  
+      {"playerId": "player_ru1_010_22", "name": "Aleksey Kenyaykin", "number": 30, "position": "GK", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_010_23", "name": "Vladimir Poluyakhtov", "number": 23, "position": "LW", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_010_24", "name": "Maksim Sidorov", "number": 24, "position": "ST", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_010_25", "name": "Andrey Khodanovich Jr.", "number": 25, "position": "ST", "country": "RU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
