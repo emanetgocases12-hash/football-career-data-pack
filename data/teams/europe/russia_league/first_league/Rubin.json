@@ -1,12 +1,58 @@
 {
-  "teamKey": "Rubin",
-
-  "name": "Rubin Kazan",
-
-  "logo": "assets/logos/europe/russia/Rubin.png",
-
-  "stadium": {
-    "name": "Ak Bars Arena",
-    "capacity": 45379
+    "teamKey": "Rubin",
+  
+    "name": "Rubin Kazan",
+  
+    "logo": "assets/logos/europe/russia/Rubin.png",
+  
+    "manager": {
+      "name": "Franc Artiga",
+      "country": "ES"
+    },
+  
+    "stadium": {
+      "name": "Ak Bars Arena",
+      "capacity": 45379
+    },
+  
+    "players": [
+      {"playerId": "player_ru1_013_01", "name": "Yury Dyupin", "number": 1, "position": "GK", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_013_02", "name": "Igor Vujačić", "number": 2, "position": "RB", "country": "ME", "status": "starter"},
+      {"playerId": "player_ru1_013_03", "name": "Alexandr Martynovich", "number": 4, "position": "CB", "country": "BY", "status": "starter"},
+      {"playerId": "player_ru1_013_04", "name": "Ilya Rozhkov", "number": 5, "position": "CB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_013_05", "name": "Rustam Ashurmatov", "number": 3, "position": "LB", "country": "UZ", "status": "starter"},
+      {"playerId": "player_ru1_013_06", "name": "Ugochukwu Iwu", "number": 6, "position": "CDM", "country": "AM", "status": "starter"},
+      {"playerId": "player_ru1_013_07", "name": "Dardan Shabanhaxhaj", "number": 8, "position": "CM", "country": "AT", "status": "starter"},
+      {"playerId": "player_ru1_013_08", "name": "Mirlind Daku", "number": 7, "position": "RW", "country": "AL", "status": "starter"},
+      {"playerId": "player_ru1_013_09", "name": "Aleksandar Jukić", "number": 10, "position": "CAM", "country": "AT", "status": "starter"},
+      {"playerId": "player_ru1_013_10", "name": "Valentin Vada", "number": 11, "position": "LW", "country": "AR", "status": "starter"},
+      {"playerId": "player_ru1_013_11", "name": "Joel Fameyeh", "number": 9, "position": "ST", "country": "GH", "status": "starter"},
+  
+      {"playerId": "player_ru1_013_12", "name": "Artur Nigmatullin", "number": 12, "position": "GK", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_013_13", "name": "Dmitry Kabutov", "number": 14, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_013_14", "name": "Egor Teslenko", "number": 15, "position": "RB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_013_15", "name": "Maciej Rybus", "number": 16, "position": "LB", "country": "PL", "status": "bench"},
+      {"playerId": "player_ru1_013_16", "name": "Marat Apshatsev", "number": 17, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_013_17", "name": "Ruslan Bezrukov", "number": 18, "position": "CM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_013_18", "name": "Oleg Ivanov", "number": 19, "position": "RM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_013_19", "name": "Darko Jevtić", "number": 20, "position": "LM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ru1_013_20", "name": "Lazar Ranđelović", "number": 21, "position": "CAM", "country": "RS", "status": "bench"},
+      {"playerId": "player_ru1_013_21", "name": "Nikola Čumić", "number": 22, "position": "RW", "country": "RS", "status": "bench"},
+  
+      {"playerId": "player_ru1_013_22", "name": "Nikita Medvedev", "number": 30, "position": "GK", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_013_23", "name": "Marat Apshatsev Jr.", "number": 23, "position": "LW", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_013_24", "name": "Dmitriy Tsypchenko", "number": 24, "position": "ST", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_013_25", "name": "Ivan Ignatyev", "number": 25, "position": "ST", "country": "RU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
