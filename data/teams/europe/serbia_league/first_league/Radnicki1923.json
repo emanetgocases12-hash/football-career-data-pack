@@ -1,12 +1,58 @@
 {
-  "teamKey": "Radn 23",
-
-  "name": "FK Radnicki 1923 Kragujevac",
-
-  "logo": "assets/logos/europe/serbia/Radnicki1923.png",
-
-  "stadium": {
-    "name": "Čika Dača Stadion",
-    "capacity": 15100
+    "teamKey": "Radn 23",
+  
+    "name": "FK Radnicki 1923 Kragujevac",
+  
+    "logo": "assets/logos/europe/serbia/Radnicki1923.png",
+  
+    "manager": {
+      "name": "Feđa Dudić",
+      "country": "BA"
+    },
+  
+    "stadium": {
+      "name": "Čika Dača Stadion",
+      "capacity": 15100
+    },
+  
+    "players": [
+      {"playerId": "player_rs1_009_01", "name": "M. Šahinović", "number": 1, "position": "GK", "country": "BA", "status": "starter"},
+      {"playerId": "player_rs1_009_02", "name": "Nemanja Miletić", "number": 2, "position": "RB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_009_03", "name": "N. Miličić", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_009_04", "name": "N. Marjanović", "number": 5, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_009_05", "name": "H. Hilo", "number": 3, "position": "LB", "country": "IL", "status": "starter"},
+      {"playerId": "player_rs1_009_06", "name": "M. Mezghrani", "number": 6, "position": "CDM", "country": "BE", "status": "starter"},
+      {"playerId": "player_rs1_009_07", "name": "David Buchta", "number": 8, "position": "CM", "country": "CZ", "status": "starter"},
+      {"playerId": "player_rs1_009_08", "name": "I. Yusuf Omosanya", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_rs1_009_09", "name": "M. Ristić", "number": 10, "position": "CAM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_009_10", "name": "S. Alić", "number": 11, "position": "LW", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_009_11", "name": "U. Sremčević", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+  
+      {"playerId": "player_rs1_009_12", "name": "L. Lijeskić", "number": 12, "position": "GK", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_009_13", "name": "Bojica Nikčević", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_rs1_009_14", "name": "Slobodan Simović", "number": 15, "position": "RB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_009_15", "name": "T. Ude", "number": 16, "position": "LB", "country": "NG", "status": "bench"},
+      {"playerId": "player_rs1_009_16", "name": "M. Dukić", "number": 17, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_009_17", "name": "L. Milojević", "number": 18, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_009_18", "name": "Nemanja Glavčić", "number": 19, "position": "RM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_009_19", "name": "J. Ilić", "number": 20, "position": "LM", "country": "BA", "status": "bench"},
+      {"playerId": "player_rs1_009_20", "name": "V. Tomić", "number": 21, "position": "CAM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_009_21", "name": "M. Cissé", "number": 22, "position": "RW", "country": "FR", "status": "bench"},
+  
+      {"playerId": "player_rs1_009_22", "name": "B. Marinković", "number": 30, "position": "GK", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_009_23", "name": "Alfa Baldé", "number": 23, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_rs1_009_24", "name": "E. Sokler", "number": 24, "position": "ST", "country": "SI", "status": "reserve"},
+      {"playerId": "player_rs1_009_25", "name": "Asmir Suljić", "number": 25, "position": "ST", "country": "BA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
