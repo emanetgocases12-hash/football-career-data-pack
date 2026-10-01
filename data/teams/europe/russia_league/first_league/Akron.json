@@ -1,12 +1,58 @@
 {
-  "teamKey": "A Togli",
-
-  "name": "Akron Tolyatti",
-
-  "logo": "assets/logos/europe/russia/Akron.png",
-
-  "stadium": {
-    "name": "Samara-Arena",
-    "capacity": 44918
+    "teamKey": "A Togli",
+  
+    "name": "Akron Tolyatti",
+  
+    "logo": "assets/logos/europe/russia/Akron.png",
+  
+    "manager": {
+      "name": "Srđan Blagojević",
+      "country": "RS"
+    },
+  
+    "stadium": {
+      "name": "Samara-Arena",
+      "capacity": 44918
+    },
+  
+    "players": [
+      {"playerId": "player_ru1_002_01", "name": "Vitaliy Gudiev", "number": 1, "position": "GK", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_002_02", "name": "Vyacheslav Bardybakhin", "number": 2, "position": "RB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_002_03", "name": "Marat Bokoev", "number": 4, "position": "CB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_002_04", "name": "Roberto Fernández", "number": 5, "position": "CB", "country": "UY", "status": "starter"},
+      {"playerId": "player_ru1_002_05", "name": "João Escoval", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_ru1_002_06", "name": "Kristijan Bistrović", "number": 6, "position": "CDM", "country": "HR", "status": "starter"},
+      {"playerId": "player_ru1_002_07", "name": "Stefan Lončar", "number": 8, "position": "CM", "country": "ME", "status": "starter"},
+      {"playerId": "player_ru1_002_08", "name": "Konstantin Maradishvili", "number": 7, "position": "RW", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_002_09", "name": "Khetag Khosonov", "number": 10, "position": "CAM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_002_10", "name": "Sherzod Esanov", "number": 11, "position": "LW", "country": "UZ", "status": "starter"},
+      {"playerId": "player_ru1_002_11", "name": "Gilson Tavares", "number": 9, "position": "ST", "country": "CV", "status": "starter"},
+  
+      {"playerId": "player_ru1_002_12", "name": "Aleksandr Vasyutin", "number": 12, "position": "GK", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_002_13", "name": "Ionuț Nedelcearu", "number": 14, "position": "CB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ru1_002_14", "name": "Yomar Rocha", "number": 15, "position": "RB", "country": "CV", "status": "bench"},
+      {"playerId": "player_ru1_002_15", "name": "Paulo Vitor", "number": 16, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_ru1_002_16", "name": "Aleksey Solovjev", "number": 17, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_002_17", "name": "Artur Galoyan", "number": 18, "position": "CM", "country": "AM", "status": "bench"},
+      {"playerId": "player_ru1_002_18", "name": "Maksim Kuzmin", "number": 19, "position": "RM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_002_19", "name": "Dmitriy Pestryakov", "number": 20, "position": "LM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_002_20", "name": "Kévin Arévalo", "number": 21, "position": "CAM", "country": "CO", "status": "bench"},
+      {"playerId": "player_ru1_002_21", "name": "Slobodan Tedić", "number": 22, "position": "RW", "country": "RS", "status": "bench"},
+  
+      {"playerId": "player_ru1_002_22", "name": "Ignat Terekhovskiy", "number": 30, "position": "GK", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_002_23", "name": "Arseniy Dmitriev", "number": 23, "position": "LW", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_002_24", "name": "Artem Shumanskiy", "number": 24, "position": "ST", "country": "BY", "status": "reserve"},
+      {"playerId": "player_ru1_002_25", "name": "Maksim Boldyrev", "number": 25, "position": "ST", "country": "RU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
