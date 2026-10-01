@@ -1,12 +1,58 @@
 {
-  "teamKey": "Coimbr",
-
-  "name": "Académica Coimbra",
-
-  "logo": "assets/logos/europe/portugal/Coimbra.png",
-
-  "stadium": {
-    "name": "Estádio Cidade de Coimbra",
-    "capacity": 29622
+    "teamKey": "Coimbr",
+  
+    "name": "Académica Coimbra",
+  
+    "logo": "assets/logos/europe/portugal/Coimbra.png",
+  
+    "manager": {
+      "name": "António Barbosa",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Cidade de Coimbra",
+      "capacity": 29622
+    },
+  
+    "players": [
+      {"playerId": "player_pt2_005_01", "name": "Nuno Macedo", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_005_02", "name": "Kauan", "number": 2, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt2_005_03", "name": "Ricardo Teixeira", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_005_04", "name": "João Silva", "number": 5, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_005_05", "name": "David Teles", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_005_06", "name": "Hugo Seco", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_005_07", "name": "Rui Gomes", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_005_08", "name": "Diogo Amado", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_005_09", "name": "André Sousa", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_005_10", "name": "Fábio Fortes", "number": 11, "position": "ST", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_005_11", "name": "Marcos Paulo", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_pt2_005_12", "name": "Carlos Alves", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_005_13", "name": "Tiago Veiga", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_005_14", "name": "Diogo Costa", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_005_15", "name": "João Traquina", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_005_16", "name": "Fausto Lourenço", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_005_17", "name": "Nuno Rodrigues", "number": 18, "position": "LW", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_005_18", "name": "João Victor", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_005_19", "name": "Miguel Babo", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_005_20", "name": "João Pais", "number": 21, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_005_21", "name": "Diogo Ribeiro", "number": 22, "position": "CAM", "country": "PT", "status": "bench"},
+  
+      {"playerId": "player_pt2_005_22", "name": "Miguel Rodrigues", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_005_23", "name": "Vasco Gomes", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_005_24", "name": "Rúben Fonseca", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_005_25", "name": "David Brás", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
