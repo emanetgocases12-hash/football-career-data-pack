@@ -1,12 +1,58 @@
 {
-  "teamKey": "Radoml",
-
-  "name": "NK Radomlje",
-
-  "logo": "assets/logos/europe/slovenia/Radomlje.png",
-
-  "stadium": {
-    "name": "Športni park Radomlje",
-    "capacity": 1200
+    "teamKey": "Radoml",
+  
+    "name": "NK Radomlje",
+  
+    "logo": "assets/logos/europe/slovenia/Radomlje.png",
+  
+    "manager": {
+      "name": "Ivan Vukomanović",
+      "country": "RS"
+    },
+  
+    "stadium": {
+      "name": "Športni park Radomlje",
+      "capacity": 1200
+    },
+  
+    "players": [
+      {"playerId": "player_si1_010_01", "name": "Samo Pridgar", "number": 1, "position": "GK", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_010_02", "name": "Enej Klampfer", "number": 2, "position": "RB", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_010_03", "name": "Aleksa Paić", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_si1_010_04", "name": "Žan Žaler", "number": 5, "position": "CB", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_010_05", "name": "Bine Anželj", "number": 3, "position": "LB", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_010_06", "name": "Dejan Kantužer", "number": 6, "position": "CDM", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_010_07", "name": "Mihael Žaper", "number": 8, "position": "CM", "country": "HR", "status": "starter"},
+      {"playerId": "player_si1_010_08", "name": "Andrej Pogačar", "number": 7, "position": "RW", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_010_09", "name": "Bruno Burčul", "number": 10, "position": "CAM", "country": "HR", "status": "starter"},
+      {"playerId": "player_si1_010_10", "name": "Luka Kušić", "number": 11, "position": "ST", "country": "HR", "status": "starter"},
+      {"playerId": "player_si1_010_11", "name": "Ikenna Divine Igwe", "number": 9, "position": "LW", "country": "NG", "status": "starter"},
+  
+      {"playerId": "player_si1_010_12", "name": "Jakob Kobal", "number": 12, "position": "GK", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_010_13", "name": "Amadej Marinič", "number": 14, "position": "CB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_010_14", "name": "Borna Graonić", "number": 15, "position": "RB", "country": "HR", "status": "bench"},
+      {"playerId": "player_si1_010_15", "name": "Antonio Bosec", "number": 16, "position": "LB", "country": "HR", "status": "bench"},
+      {"playerId": "player_si1_010_16", "name": "Matej Dvoršak", "number": 17, "position": "CB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_010_17", "name": "Florijan Mežnar", "number": 18, "position": "LW", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_010_18", "name": "Jaša Jelen", "number": 19, "position": "CM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_010_19", "name": "Jaša Martinčič", "number": 20, "position": "RM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_010_20", "name": "Tomas Puc", "number": 21, "position": "LM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_010_21", "name": "Denis Mazreku", "number": 22, "position": "CAM", "country": "XK", "status": "bench"},
+  
+      {"playerId": "player_si1_010_22", "name": "Daniil Churakov", "number": 30, "position": "GK", "country": "RU", "status": "reserve"},
+      {"playerId": "player_si1_010_23", "name": "Vanja Pelko", "number": 23, "position": "RW", "country": "SI", "status": "reserve"},
+      {"playerId": "player_si1_010_24", "name": "Vid Chinoso Ugwaegbunam Juvančič", "number": 24, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_si1_010_25", "name": "Aljaž Goljevšček", "number": 25, "position": "ST", "country": "SI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 8
+      }
+    }
   }
-}
