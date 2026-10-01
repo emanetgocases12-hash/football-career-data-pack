@@ -1,12 +1,56 @@
 {
-  "teamKey": "Atlas G",
-
-  "name": "Atlas Guadalajara",
-
-  "logo": "assets/logos/north_america/mexico/Atlas.png",
-
-  "stadium": {
-    "name": "Estadio Jalisco",
-    "capacity": 56713
+    "teamKey": "Atlas G",
+  
+    "name": "Atlas Guadalajara",
+  
+    "logo": "assets/logos/north_america/mexico/Atlas.png",
+  
+    "manager": {
+      "name": "Hernán Crespo",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Estadio Jalisco",
+      "capacity": 56713
+    },
+  
+    "players": [
+      {"playerId": "player_mx1_002_01", "name": "Camilo Vargas", "number": 12, "position": "GK", "country": "CO", "status": "starter"},
+      {"playerId": "player_mx1_002_02", "name": "Jorge Sánchez", "number": 3, "position": "RB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_002_03", "name": "Adrián Mora", "number": 4, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_002_04", "name": "Jorge Rodríguez", "number": 5, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_002_05", "name": "Gaddi Aguirre", "number": 13, "position": "LB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_002_06", "name": "Édgar Zaldívar", "number": 6, "position": "CDM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_002_07", "name": "Luís Esteves", "number": 10, "position": "CM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_002_08", "name": "Elías Montiel", "number": 18, "position": "CAM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_002_09", "name": "Kevin Zenón", "number": 20, "position": "RW", "country": "AR", "status": "starter"},
+      {"playerId": "player_mx1_002_10", "name": "Sergio Hernández", "number": 23, "position": "LW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_002_11", "name": "Ryan Mmaee", "number": 8, "position": "ST", "country": "MA", "status": "starter"},
+      {"playerId": "player_mx1_002_12", "name": "Antonio Sánchez", "number": 22, "position": "GK", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_002_13", "name": "Paulo Ramírez", "number": 15, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_002_14", "name": "Milton Valenzuela", "number": 16, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_mx1_002_15", "name": "Rivaldo Lozano", "number": 17, "position": "LB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_002_16", "name": "Adonis Frías", "number": 19, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_mx1_002_17", "name": "Aldo Rocha", "number": 26, "position": "CM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_002_18", "name": "Víctor Ríos", "number": 27, "position": "CDM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_002_19", "name": "Jesús Serrato", "number": 36, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_002_20", "name": "Dominic Román", "number": 37, "position": "CAM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_002_21", "name": "Florián Monzón", "number": 9, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_mx1_002_22", "name": "Duk", "number": 11, "position": "RW", "country": "CV", "status": "reserve"},
+      {"playerId": "player_mx1_002_23", "name": "Arturo González", "number": 58, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx1_002_24", "name": "Luis Suárez", "number": 38, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx1_002_25", "name": "José Martín", "number": 39, "position": "RW", "country": "MX", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 12,
+      "setPieces": {
+        "penalty": 8,
+        "freeKick": 18,
+        "cornerLeft": 18,
+        "cornerRight": 18
+      }
+    }
   }
-}
