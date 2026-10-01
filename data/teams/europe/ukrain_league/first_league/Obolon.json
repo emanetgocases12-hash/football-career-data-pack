@@ -1,12 +1,58 @@
 {
-  "teamKey": "O'Kyiv",
-
-  "name": "Obolon Kyiv",
-
-  "logo": "assets/logos/europe/ukrain/Obolon.png",
-
-  "stadium": {
-    "name": "Obolon-Arena",
-    "capacity": 5103
+    "teamKey": "O'Kyiv",
+  
+    "name": "Obolon Kyiv",
+  
+    "logo": "assets/logos/europe/ukrain/Obolon.png",
+  
+    "manager": {
+      "name": "Oleksandr Antonenko",
+      "country": "UA"
+    },
+  
+    "stadium": {
+      "name": "Obolon-Arena",
+      "capacity": 5103
+    },
+  
+    "players": [
+      {"playerId": "player_ua1_012_01", "name": "Nazarii Fedorivskyi", "number": 1, "position": "GK", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_012_02", "name": "Dmytro Kapinus", "number": 2, "position": "RB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_012_03", "name": "Illia Khomych", "number": 4, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_012_04", "name": "Andrii Lomnytskyi", "number": 5, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_012_05", "name": "Andrii Matkevych", "number": 3, "position": "LB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_012_06", "name": "Artem Kulakovskyi", "number": 6, "position": "CDM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_012_07", "name": "Taras Liakh", "number": 8, "position": "CM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_012_08", "name": "Ihor Medynskyi", "number": 7, "position": "RW", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_012_09", "name": "Taras Moroz", "number": 10, "position": "CAM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_012_10", "name": "Kyryl Moroz", "number": 11, "position": "ST", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_012_11", "name": "Serhii Rebrysh", "number": 9, "position": "LW", "country": "UA", "status": "starter"},
+  
+      {"playerId": "player_ua1_012_12", "name": "Kyrylo Barantsov", "number": 12, "position": "GK", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_012_13", "name": "Rostyslav Liashchuk", "number": 14, "position": "CB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_012_14", "name": "Mykhailo Moskun", "number": 15, "position": "RB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_012_15", "name": "Vitalii Yermakov", "number": 16, "position": "LB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_012_16", "name": "Pavlo Polegenko", "number": 17, "position": "CB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_012_17", "name": "Euhenii Morozko", "number": 18, "position": "LW", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_012_18", "name": "Dmytro Myshnov", "number": 19, "position": "CM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_012_19", "name": "Oleksandr Feshchenko", "number": 20, "position": "RM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_012_20", "name": "Kiril Korkh", "number": 21, "position": "LM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_012_21", "name": "Oleksandr Kozlov", "number": 22, "position": "CAM", "country": "UA", "status": "bench"},
+  
+      {"playerId": "player_ua1_012_22", "name": "Vadym Beba", "number": 30, "position": "GK", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_012_23", "name": "Oleksii Tovarchi", "number": 23, "position": "RW", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_012_24", "name": "Oleksandr Burenko", "number": 24, "position": "ST", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_012_25", "name": "Maksym Krupskyi", "number": 25, "position": "ST", "country": "UA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
