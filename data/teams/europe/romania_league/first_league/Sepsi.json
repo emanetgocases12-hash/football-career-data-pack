@@ -1,12 +1,58 @@
 {
-  "teamKey": "Sepsi",
-
-  "name": "Sepsi OSK Sf. Gheorghe",
-
-  "logo": "assets/logos/europe/romania/Sepsi.png",
-
-  "stadium": {
-    "name": "Sepsi Duna Arena",
-    "capacity": 8400
+    "teamKey": "Sepsi",
+  
+    "name": "Sepsi OSK Sf. Gheorghe",
+  
+    "logo": "assets/logos/europe/romania/Sepsi.png",
+  
+    "manager": {
+      "name": "Ovidiu Burcă",
+      "country": "RO"
+    },
+  
+    "stadium": {
+      "name": "Sepsi Duna Arena",
+      "capacity": 8400
+    },
+  
+    "players": [
+      {"playerId": "player_ro1_013_01", "name": "David Lazar", "number": 1, "position": "GK", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_013_02", "name": "Denis Ciobotariu", "number": 2, "position": "RB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_013_03", "name": "Bogdan Vătăjelu", "number": 4, "position": "CB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_013_04", "name": "Denis Haruț", "number": 5, "position": "CB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_013_05", "name": "Bogdan Oteliță", "number": 3, "position": "LB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_013_06", "name": "Cosmin Matei", "number": 6, "position": "CDM", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_013_07", "name": "Nicolae Păun", "number": 8, "position": "CM", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_013_08", "name": "Marius Ștefănescu", "number": 7, "position": "RW", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_013_09", "name": "Victor Daguin", "number": 10, "position": "CAM", "country": "FR", "status": "starter"},
+      {"playerId": "player_ro1_013_10", "name": "Isnik Alimi", "number": 11, "position": "LW", "country": "MK", "status": "starter"},
+      {"playerId": "player_ro1_013_11", "name": "Gabriel Debeljuh", "number": 9, "position": "ST", "country": "HR", "status": "starter"},
+  
+      {"playerId": "player_ro1_013_12", "name": "Roland Niczuly", "number": 12, "position": "GK", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_013_13", "name": "Mihai Bălașa", "number": 14, "position": "CB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_013_14", "name": "Setigui Karamoko", "number": 15, "position": "RB", "country": "FR", "status": "bench"},
+      {"playerId": "player_ro1_013_15", "name": "Darius Oroian", "number": 16, "position": "LB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_013_16", "name": "Andres Dumitrescu", "number": 17, "position": "CB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_013_17", "name": "Sherif Kallaku", "number": 18, "position": "CM", "country": "AL", "status": "bench"},
+      {"playerId": "player_ro1_013_18", "name": "Doru Andrei", "number": 19, "position": "RM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_013_19", "name": "Kristijan Batzula", "number": 20, "position": "LM", "country": "HR", "status": "bench"},
+      {"playerId": "player_ro1_013_20", "name": "Funsho Bamgboye", "number": 21, "position": "CAM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ro1_013_21", "name": "Kevin Varga", "number": 22, "position": "RW", "country": "HU", "status": "bench"},
+  
+      {"playerId": "player_ro1_013_22", "name": "Hunor Gedő", "number": 30, "position": "GK", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_013_23", "name": "Mamadou Thiam", "number": 23, "position": "LW", "country": "SN", "status": "reserve"},
+      {"playerId": "player_ro1_013_24", "name": "Mawa", "number": 24, "position": "ST", "country": "CM", "status": "reserve"},
+      {"playerId": "player_ro1_013_25", "name": "Dimitri Oberlin", "number": 25, "position": "ST", "country": "CH", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
