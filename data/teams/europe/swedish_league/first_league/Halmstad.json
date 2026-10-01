@@ -1,12 +1,58 @@
 {
-  "teamKey": "Halmst",
-
-  "name": "Halmstads BK",
-
-  "logo": "assets/logos/europe/swedish/Halmstad.png",
-
-  "stadium": {
-    "name": "Örjans Vall",
-    "capacity": 10873
+    "teamKey": "Halmst",
+  
+    "name": "Halmstads BK",
+  
+    "logo": "assets/logos/europe/swedish/Halmstad.png",
+  
+    "manager": {
+      "name": "Johan Lindholm",
+      "country": "SE"
+    },
+  
+    "stadium": {
+      "name": "Örjans Vall",
+      "capacity": 10873
+    },
+  
+    "players": [
+      {"playerId": "player_se1_009_01", "name": "Tim Rönning", "number": 1, "position": "GK", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_009_02", "name": "G. Wallentin", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_009_03", "name": "F. Schyberg", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_009_04", "name": "Pascal Gregor", "number": 5, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_se1_009_05", "name": "G. Friberg", "number": 3, "position": "LB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_009_06", "name": "Joel Allansson", "number": 6, "position": "CDM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_009_07", "name": "D. Koffi", "number": 8, "position": "CM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_009_08", "name": "N. Mäenpää", "number": 7, "position": "RW", "country": "FI", "status": "starter"},
+      {"playerId": "player_se1_009_09", "name": "V. Johansson", "number": 10, "position": "CAM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_009_10", "name": "Jesper Westermark", "number": 11, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_009_11", "name": "O. Faraj", "number": 9, "position": "LW", "country": "PS", "status": "starter"},
+  
+      {"playerId": "player_se1_009_12", "name": "A. Wihed", "number": 12, "position": "GK", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_009_13", "name": "E. Tõugjas", "number": 14, "position": "CB", "country": "EE", "status": "bench"},
+      {"playerId": "player_se1_009_14", "name": "A. Boman", "number": 15, "position": "RB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_009_15", "name": "R. Kaib", "number": 16, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_se1_009_16", "name": "H. Åberg", "number": 17, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_009_17", "name": "H. Carneil", "number": 18, "position": "LW", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_009_18", "name": "M. Illary", "number": 19, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_se1_009_19", "name": "R. Ascone", "number": 20, "position": "CM", "country": "FR", "status": "bench"},
+      {"playerId": "player_se1_009_20", "name": "J. Nilsson", "number": 21, "position": "LM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_009_21", "name": "Tom Trybull", "number": 22, "position": "CAM", "country": "DE", "status": "bench"},
+  
+      {"playerId": "player_se1_009_22", "name": "W. Lykke", "number": 30, "position": "GK", "country": "DK", "status": "reserve"},
+      {"playerId": "player_se1_009_23", "name": "L. Arvidsson", "number": 23, "position": "RW", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se1_009_24", "name": "A. Zeljković", "number": 24, "position": "ST", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se1_009_25", "name": "E. Yeboah", "number": 25, "position": "ST", "country": "GH", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
