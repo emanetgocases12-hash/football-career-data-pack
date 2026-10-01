@@ -1,58 +1,58 @@
 {
-  "teamKey": "L Ang FC",
+  "teamKey": "LA Glxy",
 
-  "name": "Los Angeles FC",
+  "name": "Los Angeles Galaxy",
 
-  "logo": "assets/logos/north_america/usa/La.png",
+  "logo": "assets/logos/north_america/usa/LaGalaxy.png",
 
   "manager": {
-    "name": "Marc Dos Santos",
-    "country": "CA"
+    "name": "Greg Vanney",
+    "country": "US"
   },
 
   "stadium": {
-    "name": "BMO Stadium",
-    "capacity": 22000
+    "name": "Dignity Health Sports Park",
+    "capacity": 27000
   },
 
   "players": [
-    {"playerId": "player_us1_014_01", "name": "Hugo Lloris", "number": 1, "position": "GK", "country": "FR", "status": "starter"},
-    {"playerId": "player_us1_014_02", "name": "Sergi Palencia", "number": 14, "position": "RB", "country": "ES", "status": "starter"},
-    {"playerId": "player_us1_014_03", "name": "Ryan Porteous", "number": 5, "position": "CB", "country": "GB-SCT", "status": "starter"},
-    {"playerId": "player_us1_014_04", "name": "Eddie Segura", "number": 4, "position": "CB", "country": "CO", "status": "starter"},
-    {"playerId": "player_us1_014_05", "name": "Ryan Hollingshead", "number": 24, "position": "LB", "country": "US", "status": "starter"},
-    {"playerId": "player_us1_014_06", "name": "Mark Delgado", "number": 8, "position": "CDM", "country": "US", "status": "starter"},
-    {"playerId": "player_us1_014_07", "name": "Stephen Eustáquio", "number": 46, "position": "CM", "country": "CA", "status": "starter"},
-    {"playerId": "player_us1_014_08", "name": "Son Heung-min", "number": 7, "position": "LW", "country": "KR", "status": "starter"},
-    {"playerId": "player_us1_014_09", "name": "Mathieu Choinière", "number": 66, "position": "CAM", "country": "CA", "status": "starter"},
-    {"playerId": "player_us1_014_10", "name": "Denis Bouanga", "number": 99, "position": "RW", "country": "GA", "status": "starter"},
-    {"playerId": "player_us1_014_11", "name": "Jeremy Ebobisse", "number": 17, "position": "ST", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_013_01", "name": "Novak Mićović", "number": 35, "position": "GK", "country": "RS", "status": "starter"},
+    {"playerId": "player_us1_013_02", "name": "Miki Yamane", "number": 2, "position": "RB", "country": "JP", "status": "starter"},
+    {"playerId": "player_us1_013_03", "name": "Jakob Glesnes", "number": 5, "position": "CB", "country": "NO", "status": "starter"},
+    {"playerId": "player_us1_013_04", "name": "Maya Yoshida", "number": 4, "position": "CB", "country": "JP", "status": "starter"},
+    {"playerId": "player_us1_013_05", "name": "John Nelson", "number": 14, "position": "LB", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_013_06", "name": "Edwin Cerrillo", "number": 20, "position": "CDM", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_013_07", "name": "Marco Reus", "number": 10, "position": "CAM", "country": "DE", "status": "starter"},
+    {"playerId": "player_us1_013_08", "name": "Gabriel Pec", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
+    {"playerId": "player_us1_013_09", "name": "Joseph Paintsil", "number": 28, "position": "LW", "country": "GH", "status": "starter"},
+    {"playerId": "player_us1_013_10", "name": "João Klauss", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+    {"playerId": "player_us1_013_11", "name": "Erik Thommy", "number": 26, "position": "CM", "country": "DE", "status": "starter"},
 
-    {"playerId": "player_us1_014_12", "name": "Thomas Hasal", "number": 12, "position": "GK", "country": "CA", "status": "bench"},
-    {"playerId": "player_us1_014_13", "name": "Aaron Long", "number": 33, "position": "CB", "country": "US", "status": "bench"},
-    {"playerId": "player_us1_014_14", "name": "Nkosi Tafari", "number": 91, "position": "CB", "country": "US", "status": "bench"},
-    {"playerId": "player_us1_014_15", "name": "Artem Smolyakov", "number": 29, "position": "LB", "country": "UA", "status": "bench"},
-    {"playerId": "player_us1_014_16", "name": "Timothy Tillman", "number": 11, "position": "CM", "country": "US", "status": "bench"},
-    {"playerId": "player_us1_014_17", "name": "Igor Jesus", "number": 6, "position": "CDM", "country": "BR", "status": "bench"},
-    {"playerId": "player_us1_014_18", "name": "Ryan Raposo", "number": 21, "position": "LW", "country": "CA", "status": "bench"},
-    {"playerId": "player_us1_014_19", "name": "Jacob Shaffelburg", "number": 18, "position": "LW", "country": "CA", "status": "bench"},
-    {"playerId": "player_us1_014_20", "name": "David Martínez", "number": 30, "position": "RW", "country": "VE", "status": "bench"},
-    {"playerId": "player_us1_014_21", "name": "Nathan Ordaz", "number": 27, "position": "ST", "country": "SV", "status": "bench"},
+    {"playerId": "player_us1_013_12", "name": "Jonathan Bond", "number": 1, "position": "GK", "country": "GB-ENG", "status": "bench"},
+    {"playerId": "player_us1_013_13", "name": "Carlos Garcés", "number": 25, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_us1_013_14", "name": "Riley Dalgado", "number": 34, "position": "RB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_013_15", "name": "Jamir Johnson", "number": 24, "position": "LB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_013_16", "name": "Justin Haak", "number": 80, "position": "CDM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_013_17", "name": "Isaiah Parente", "number": 16, "position": "CM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_013_18", "name": "Diego Fagúndez", "number": 7, "position": "CAM", "country": "UY", "status": "bench"},
+    {"playerId": "player_us1_013_19", "name": "Miguel Berry", "number": 27, "position": "ST", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_013_20", "name": "Tucker Lepley", "number": 21, "position": "RW", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_013_21", "name": "Harbor Miller", "number": 51, "position": "RB", "country": "US", "status": "bench"},
 
-    {"playerId": "player_us1_014_22", "name": "Tyler Boyd", "number": 19, "position": "RW", "country": "US", "status": "reserve"},
-    {"playerId": "player_us1_014_23", "name": "Amin Boudri", "number": 65, "position": "CAM", "country": "SE", "status": "reserve"},
-    {"playerId": "player_us1_014_24", "name": "Jude Terry", "number": 22, "position": "CM", "country": "US", "status": "reserve"},
-    {"playerId": "player_us1_014_25", "name": "Cabral Carter", "number": 31, "position": "GK", "country": "US", "status": "reserve"}
+    {"playerId": "player_us1_013_22", "name": "Rubio Rubin", "number": 17, "position": "ST", "country": "GT", "status": "reserve"},
+    {"playerId": "player_us1_013_23", "name": "Eriq Zavaleta", "number": 15, "position": "CB", "country": "SV", "status": "reserve"},
+    {"playerId": "player_us1_013_24", "name": "Gino Vivi", "number": 30, "position": "LW", "country": "CR", "status": "reserve"},
+    {"playerId": "player_us1_013_25", "name": "Brady Scott", "number": 12, "position": "GK", "country": "US", "status": "reserve"}
   ],
 
   "tactics": {
     "formation": "4-2-3-1",
-    "captain": 1,
+    "captain": 4,
     "setPieces": {
-      "penalty": 17,
-      "freeKick": 7,
-      "cornerLeft": 7,
-      "cornerRight": 66
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 11
     }
   }
 }
