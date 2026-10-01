@@ -1,12 +1,58 @@
 {
-  "teamKey": "Vizela",
-
-  "name": "FC Vizela",
-
-  "logo": "assets/logos/europe/portugal/Vizela.png",
-
-  "stadium": {
-    "name": "Estádio do Futebol Clube de Vizela",
-    "capacity": 6000
+    "teamKey": "Vizela",
+  
+    "name": "FC Vizela",
+  
+    "logo": "assets/logos/europe/portugal/Vizela.png",
+  
+    "manager": {
+      "name": "Fábio Pereira",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio do Futebol Clube de Vizela",
+      "capacity": 6000
+    },
+  
+    "players": [
+      {"playerId": "player_pt2_018_01", "name": "Fabijan Buntić", "number": 1, "position": "GK", "country": "HR", "status": "starter"},
+      {"playerId": "player_pt2_018_02", "name": "Anderson", "number": 2, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt2_018_03", "name": "Bruno Wilson", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_018_04", "name": "Mohamed Aidara", "number": 5, "position": "RB", "country": "ML", "status": "starter"},
+      {"playerId": "player_pt2_018_05", "name": "Matheus Pereira", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_018_06", "name": "Diogo Nascimento", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_018_07", "name": "Alex Méndez", "number": 8, "position": "CM", "country": "US", "status": "starter"},
+      {"playerId": "player_pt2_018_08", "name": "Raphael Guzzo", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_018_09", "name": "Osama Rashid", "number": 10, "position": "CAM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_pt2_018_10", "name": "Milutin Osmajić", "number": 11, "position": "ST", "country": "ME", "status": "starter"},
+      {"playerId": "player_pt2_018_11", "name": "Friday Etim", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+  
+      {"playerId": "player_pt2_018_12", "name": "Francesco Ruberto", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_018_13", "name": "João Escoval", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_018_14", "name": "Koffi Kouao", "number": 15, "position": "RB", "country": "CI", "status": "bench"},
+      {"playerId": "player_pt2_018_15", "name": "Tomás Silva", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_018_16", "name": "Samu", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_018_17", "name": "Nuno Moreira", "number": 18, "position": "LW", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_018_18", "name": "Matías Lacava", "number": 19, "position": "CM", "country": "VE", "status": "bench"},
+      {"playerId": "player_pt2_018_19", "name": "Monsuru Opeyemi", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_018_20", "name": "Alejandro Alvarado", "number": 21, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_018_21", "name": "Cassiano", "number": 22, "position": "CAM", "country": "PT", "status": "bench"},
+  
+      {"playerId": "player_pt2_018_22", "name": "Rúben Gonçalves", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_018_23", "name": "João Pedro", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_018_24", "name": "Hugo Oliveira", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_018_25", "name": "João Reis", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
