@@ -1,12 +1,58 @@
-{
-  "teamKey": "Quilms",
-
-  "name": "Quilmes AC",
-
-  "logo": "assets/logos/south_america/argentina/Quilms.png",
-
-  "stadium": {
-    "name": "Centenario Ciudad de Quilmes",
-    "capacity": 30200
+ {
+    "teamKey": "Quilms",
+  
+    "name": "Quilmes AC",
+  
+    "logo": "assets/logos/south_america/argentina/Quilms.png",
+  
+    "manager": {
+      "name": "Emanuel Trípodi",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Centenario Ciudad de Quilmes",
+      "capacity": 30200
+    },
+  
+    "players": [
+      {"playerId": "player_ar2_029_01", "name": "Esteban Glellel", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_029_02", "name": "Federico Tévez", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_029_03", "name": "Iván Erquiaga", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_029_04", "name": "Matías Ferreira", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_029_05", "name": "Leandro Allende", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_029_06", "name": "Enzo Kalinski", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_029_07", "name": "Carlo Lattanzio", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_029_08", "name": "Franco García", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_029_09", "name": "Iván Ramírez", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_029_10", "name": "Marcos Enrique", "number": 11, "position": "LM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_029_11", "name": "Federico Anselmo", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ar2_029_12", "name": "Maximiliano Gagliardo", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_029_13", "name": "Agustín Bindella", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_029_14", "name": "Luciano Abecasis", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_029_15", "name": "Nicolás Postel", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_029_16", "name": "Damián Adín", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_029_17", "name": "Axel Batista", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_029_18", "name": "Tomás González", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_029_19", "name": "Agustín Gallo", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_029_20", "name": "Gonzalo Marinelli", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_029_21", "name": "Raul Lozano", "number": 20, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ar2_029_22", "name": "Lautaro Leguizamón", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_029_23", "name": "Ramiro Luna", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_029_24", "name": "Agustín Ortega", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_029_25", "name": "Mauro Fernandez", "number": 27, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
