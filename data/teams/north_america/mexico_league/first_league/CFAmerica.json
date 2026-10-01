@@ -1,12 +1,56 @@
 {
-  "teamKey": "CF Ameri",
-
-  "name": "CF América",
-
-  "logo": "assets/logos/north_america/mexico/CFAmeri.png",
-
-  "stadium": {
-    "name": "Estadio Azteca",
-    "capacity": 87523
+    "teamKey": "CF Ameri",
+  
+    "name": "CF América",
+  
+    "logo": "assets/logos/north_america/mexico/CFAmeri.png",
+  
+    "manager": {
+      "name": "Guillermo Almada",
+      "country": "UY"
+    },
+  
+    "stadium": {
+      "name": "Estadio Azteca",
+      "capacity": 87523
+    },
+  
+    "players": [
+      {"playerId": "player_mx1_003_01", "name": "Luis Malagón", "number": 1, "position": "GK", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_003_02", "name": "Santiago Bueno", "number": 36, "position": "RB", "country": "UY", "status": "starter"},
+      {"playerId": "player_mx1_003_03", "name": "Santiago Ramos Mingo", "number": 37, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_mx1_003_04", "name": "Emilio Lara", "number": 2, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_003_05", "name": "Israel Reyes", "number": 3, "position": "LB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_003_06", "name": "Edwin Cerrillo", "number": 6, "position": "CDM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_003_07", "name": "Carlos Álvarez", "number": 8, "position": "CM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_003_08", "name": "Alan Cervantes", "number": 13, "position": "CAM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_003_09", "name": "Alexis Gutiérrez", "number": 20, "position": "RW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_003_10", "name": "Raphael Veiga", "number": 23, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_mx1_003_11", "name": "Brian Rodríguez", "number": 7, "position": "ST", "country": "UY", "status": "starter"},
+      {"playerId": "player_mx1_003_12", "name": "Fernando Tapia", "number": 21, "position": "GK", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_003_13", "name": "Kevin Álvarez", "number": 5, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_003_14", "name": "Franco Rossano", "number": 24, "position": "RB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_003_15", "name": "Cristián Borja", "number": 26, "position": "LB", "country": "CO", "status": "bench"},
+      {"playerId": "player_mx1_003_16", "name": "Ramón Juárez", "number": 29, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_003_17", "name": "Érick Sánchez", "number": 28, "position": "CM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_003_18", "name": "Dagoberto Espinoza", "number": 34, "position": "CDM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_003_19", "name": "Diego Arriaga", "number": 38, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_003_20", "name": "Santiago Camarena", "number": 39, "position": "CAM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_003_21", "name": "Henry Martín", "number": 9, "position": "LW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_003_22", "name": "Álex Zendejas", "number": 10, "position": "RW", "country": "US", "status": "reserve"},
+      {"playerId": "player_mx1_003_23", "name": "Isaías Violante", "number": 12, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx1_003_24", "name": "Raúl Zúñiga", "number": 19, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx1_003_25", "name": "Óscar Perea", "number": 22, "position": "RW", "country": "CO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 13,
+        "cornerLeft": 13,
+        "cornerRight": 13
+      }
+    }
   }
-}
