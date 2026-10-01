@@ -1,12 +1,58 @@
 {
-  "teamKey": "Cibao",
-
-  "name": "Cibao FC",
-
-  "logo": "assets/logos/north_america/dominic/Cibao.png",
-
-  "stadium": {
-    "name": "Estadio Cibao FC",
-    "capacity": 18077
+    "teamKey": "Cibao",
+  
+    "name": "Cibao FC",
+  
+    "logo": "assets/logos/north_america/dominic/Cibao.png",
+  
+    "manager": {
+      "name": "Scheldeur Junior Sainvilus",
+      "country": "HT"
+    },
+  
+    "stadium": {
+      "name": "Estadio Cibao FC",
+      "capacity": 18077
+    },
+  
+    "players": [
+      {"playerId": "player_do1_002_01", "name": "Edwin Frías", "number": 1, "position": "GK", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_002_02", "name": "Eduard Lin Reyes", "number": 2, "position": "RB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_002_03", "name": "Luis Díaz", "number": 4, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_002_04", "name": "Julio César Murillo", "number": 5, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_do1_002_05", "name": "João Urbáez", "number": 3, "position": "LB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_002_06", "name": "José Omar de la Cruz", "number": 6, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_002_07", "name": "Jean Carlos López", "number": 8, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_002_08", "name": "Miguel Muñoz", "number": 7, "position": "CAM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_002_09", "name": "Nicolás Cruz", "number": 10, "position": "CAM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_002_10", "name": "Anthony Sosa", "number": 11, "position": "RW", "country": "UY", "status": "starter"},
+      {"playerId": "player_do1_002_11", "name": "Víctor Minota", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+  
+      {"playerId": "player_do1_002_12", "name": "Elian Beras", "number": 12, "position": "GK", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_002_13", "name": "Darwin Palomeque", "number": 14, "position": "CB", "country": "CO", "status": "bench"},
+      {"playerId": "player_do1_002_14", "name": "Darlin Osuna", "number": 15, "position": "RB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_002_15", "name": "Ernesto Trinidad", "number": 16, "position": "CB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_002_16", "name": "Abraham Mejía", "number": 17, "position": "LB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_002_17", "name": "Wilman Modesta", "number": 18, "position": "CDM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_002_18", "name": "Javier Roces", "number": 19, "position": "CAM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_002_19", "name": "Gabriel Gómez", "number": 20, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_002_20", "name": "Diego Ledesma", "number": 21, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_do1_002_21", "name": "Mariano Nichele", "number": 22, "position": "ST", "country": "UY", "status": "bench"},
+  
+      {"playerId": "player_do1_002_22", "name": "Miguel Lloyd", "number": 30, "position": "GK", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_002_23", "name": "Edwarlyn Reyes", "number": 23, "position": "LW", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_002_24", "name": "Luis López", "number": 24, "position": "ST", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_002_25", "name": "Juan Ángeles", "number": 25, "position": "ST", "country": "DO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 6,
+        "cornerLeft": 6,
+        "cornerRight": 6
+      }
+    }
   }
-}
