@@ -1,12 +1,58 @@
 {
-  "teamKey": "Racing",
-
-  "name": "Racing Club",
-
-  "logo": "assets/logos/south_america/argentina/Racing.png",
-
-  "stadium": {
-    "name": "Presidente Perón",
-    "capacity": 55000
+    "teamKey": "Racing",
+  
+    "name": "Racing Club",
+  
+    "logo": "assets/logos/south_america/argentina/Racing.png",
+  
+    "manager": {
+      "name": "Juan Pablo Vojvoda",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Presidente Perón",
+      "capacity": 55000
+    },
+  
+    "players": [
+      {"playerId": "player_ar1_021_01", "name": "Facundo Cambeses", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_021_02", "name": "Marcos Rojo", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_021_03", "name": "Marco Di Cesare", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_021_04", "name": "Juan Barinaga", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_021_05", "name": "Matías Pérez", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_021_06", "name": "Valentín Carboni", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_021_07", "name": "Matías Zaracho", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_021_08", "name": "Matías Kranevitter", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_021_09", "name": "Matko Miljevic", "number": 10, "position": "CAM", "country": "US", "status": "starter"},
+      {"playerId": "player_ar1_021_10", "name": "Ulises Ortegoza", "number": 11, "position": "LM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_021_11", "name": "Adrián Martínez", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ar1_021_12", "name": "Francisco Gómez", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_021_13", "name": "Nazareno Colombo", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_021_14", "name": "Gonzalo Escudero", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_021_15", "name": "Ezequiel Cannavo", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_021_16", "name": "Mateo Martínez", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_021_17", "name": "Leonel Pérez", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_021_18", "name": "Gastón Lodico", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_021_19", "name": "Adrián Fernández", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_021_20", "name": "Lautaro Díaz", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_021_21", "name": "Duván Vergara", "number": 20, "position": "RW", "country": "CO", "status": "bench"},
+  
+      {"playerId": "player_ar1_021_22", "name": "Matías Tagliamonte", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_021_23", "name": "Santiago Sosa", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_021_24", "name": "Tomás Conechny", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_021_25", "name": "Elías Torres", "number": 27, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
