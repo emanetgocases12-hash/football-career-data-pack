@@ -1,12 +1,58 @@
 {
-  "teamKey": "Hacken",
-
-  "name": "BK Häcken",
-
-  "logo": "assets/logos/europe/swedish/Hacken.png",
-
-  "stadium": {
-    "name": "Nordic Wellness Arena",
-    "capacity": 6316
+    "teamKey": "Hacken",
+  
+    "name": "BK Häcken",
+  
+    "logo": "assets/logos/europe/swedish/Hacken.png",
+  
+    "manager": {
+      "name": "Jens Gustafsson",
+      "country": "SE"
+    },
+  
+    "stadium": {
+      "name": "Nordic Wellness Arena",
+      "capacity": 6316
+    },
+  
+    "players": [
+      {"playerId": "player_se1_008_01", "name": "Andreas Linde", "number": 1, "position": "GK", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_008_02", "name": "Johan Hammar", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_008_03", "name": "B. Wembangomo", "number": 4, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_se1_008_04", "name": "L. Väisänen", "number": 5, "position": "CB", "country": "FI", "status": "starter"},
+      {"playerId": "player_se1_008_05", "name": "Adam Lundqvist", "number": 3, "position": "LB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_008_06", "name": "S. Ngabo", "number": 6, "position": "CDM", "country": "DK", "status": "starter"},
+      {"playerId": "player_se1_008_07", "name": "S. Andersen", "number": 8, "position": "CM", "country": "DK", "status": "starter"},
+      {"playerId": "player_se1_008_08", "name": "A. Doumbia", "number": 7, "position": "RW", "country": "CI", "status": "starter"},
+      {"playerId": "player_se1_008_09", "name": "S. Hestnes", "number": 10, "position": "CAM", "country": "NO", "status": "starter"},
+      {"playerId": "player_se1_008_10", "name": "M. Agger", "number": 11, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_008_11", "name": "G. Lindgren", "number": 9, "position": "LW", "country": "SE", "status": "starter"},
+  
+      {"playerId": "player_se1_008_12", "name": "D. Andersson", "number": 12, "position": "GK", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_008_13", "name": "Filip Helander", "number": 14, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_008_14", "name": "O. Samuelsson", "number": 15, "position": "RB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_008_15", "name": "M. Lode", "number": 16, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_se1_008_16", "name": "B. Engdahl", "number": 17, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_008_17", "name": "Mikkel Rygaard", "number": 18, "position": "LW", "country": "DK", "status": "bench"},
+      {"playerId": "player_se1_008_18", "name": "M. Haaland", "number": 19, "position": "CM", "country": "NO", "status": "bench"},
+      {"playerId": "player_se1_008_19", "name": "P. Dahbo", "number": 20, "position": "RM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_008_20", "name": "D. Seger", "number": 21, "position": "LM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_008_21", "name": "H. Ibrahim", "number": 22, "position": "CAM", "country": "SE", "status": "bench"},
+  
+      {"playerId": "player_se1_008_22", "name": "Etrit Berisha", "number": 30, "position": "GK", "country": "AL", "status": "reserve"},
+      {"playerId": "player_se1_008_23", "name": "J. Agbonifo", "number": 23, "position": "RW", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se1_008_24", "name": "Danilo Al Saed", "number": 24, "position": "ST", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_se1_008_25", "name": "A. Svanbäck", "number": 25, "position": "ST", "country": "SE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
