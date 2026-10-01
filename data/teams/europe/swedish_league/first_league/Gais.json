@@ -1,12 +1,58 @@
 {
-  "teamKey": "GAIS",
-
-  "name": "GAIS",
-
-  "logo": "assets/logos/europe/swedish/Gais.png",
-
-  "stadium": {
-    "name": "Gamla Ullevi",
-    "capacity": 18454
+    "teamKey": "GAIS",
+  
+    "name": "GAIS",
+  
+    "logo": "assets/logos/europe/swedish/Gais.png",
+  
+    "manager": {
+      "name": "Fredrik Holmberg",
+      "country": "SE"
+    },
+  
+    "stadium": {
+      "name": "Gamla Ullevi",
+      "capacity": 18454
+    },
+  
+    "players": [
+      {"playerId": "player_se1_006_01", "name": "M. Krasniqi", "number": 1, "position": "GK", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_006_02", "name": "M. de Brienne", "number": 2, "position": "RB", "country": "CA", "status": "starter"},
+      {"playerId": "player_se1_006_03", "name": "O. Ågren", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_006_04", "name": "R. Wendin Thomasson", "number": 5, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_006_05", "name": "A. Wängberg", "number": 3, "position": "LB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_006_06", "name": "J. Fagerjord", "number": 6, "position": "CDM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_006_07", "name": "W. Milovanovic", "number": 8, "position": "CM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_006_08", "name": "G. Lundgren", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_006_09", "name": "H. Sletsjøe", "number": 10, "position": "CAM", "country": "NO", "status": "starter"},
+      {"playerId": "player_se1_006_10", "name": "R. Niklasson Petrovic", "number": 11, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_006_11", "name": "S. Jørgensen", "number": 9, "position": "LW", "country": "DK", "status": "starter"},
+  
+      {"playerId": "player_se1_006_12", "name": "K. Sims", "number": 12, "position": "GK", "country": "NZ", "status": "bench"},
+      {"playerId": "player_se1_006_13", "name": "R. Frej", "number": 14, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_006_14", "name": "A. Čardaklija", "number": 15, "position": "RB", "country": "BA", "status": "bench"},
+      {"playerId": "player_se1_006_15", "name": "F. Beckman", "number": 16, "position": "LB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_006_16", "name": "A. Zovko", "number": 17, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_006_17", "name": "M. Andersson", "number": 18, "position": "LW", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_006_18", "name": "R. Þorkelsson", "number": 19, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_se1_006_19", "name": "K. Holmén", "number": 20, "position": "RM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_006_20", "name": "J. Lindberg", "number": 21, "position": "LM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_006_21", "name": "Dennis Collander", "number": 22, "position": "CAM", "country": "SE", "status": "bench"},
+  
+      {"playerId": "player_se1_006_22", "name": "A. Didriksson", "number": 30, "position": "GK", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se1_006_23", "name": "I. Diabate", "number": 23, "position": "RW", "country": "CI", "status": "reserve"},
+      {"playerId": "player_se1_006_24", "name": "S. Salter", "number": 24, "position": "ST", "country": "CA", "status": "reserve"},
+      {"playerId": "player_se1_006_25", "name": "N. Vasić", "number": 25, "position": "ST", "country": "SE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
