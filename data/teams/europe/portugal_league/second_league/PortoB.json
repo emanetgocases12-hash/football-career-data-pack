@@ -1,12 +1,58 @@
 {
-  "teamKey": "Porto B",
-
-  "name": "FC Porto B",
-
-  "logo": "assets/logos/europe/portugal/Porto2.png",
-
-  "stadium": {
-    "name": "Estádio Luís Filipe Menezes",
-    "capacity": 3800
+    "teamKey": "Porto B",
+  
+    "name": "FC Porto B",
+  
+    "logo": "assets/logos/europe/portugal/Porto2.png",
+  
+    "manager": {
+      "name": "João Brandão",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Luís Filipe Menezes",
+      "capacity": 3800
+    },
+  
+    "players": [
+      {"playerId": "player_pt2_014_01", "name": "Gonçalo Ribeiro", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_014_02", "name": "Martim Cunha", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_014_03", "name": "Luís Gomes", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_014_04", "name": "Martim Fernandes", "number": 5, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_014_05", "name": "Tiago Andrade", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_014_06", "name": "Rodrigo Mora", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_014_07", "name": "André Oliveira", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_014_08", "name": "Bernardo Folha", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_014_09", "name": "Gui Guedes", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_014_10", "name": "Dinis Rodrigues", "number": 11, "position": "ST", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_014_11", "name": "Luís Mota", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_pt2_014_12", "name": "João Costa", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_014_13", "name": "Gabriel Brás", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_014_14", "name": "João Teixeira", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_014_15", "name": "David Vinhas", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_014_16", "name": "Vasco Sousa", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_014_17", "name": "Domingos Andrade", "number": 18, "position": "LW", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_014_18", "name": "Rui Monteiro", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_014_19", "name": "Gonçalo Borges", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_014_20", "name": "Wendel Silva", "number": 21, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_014_21", "name": "Abraham Marcus", "number": 22, "position": "CAM", "country": "PT", "status": "bench"},
+  
+      {"playerId": "player_pt2_014_22", "name": "Diogo Fernandes", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_014_23", "name": "Tiago Ferreira", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_014_24", "name": "Anhā Candé", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_014_25", "name": "João Mendes", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
