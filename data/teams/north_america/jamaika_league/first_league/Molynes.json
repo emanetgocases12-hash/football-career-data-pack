@@ -1,12 +1,58 @@
 {
-  "teamKey": "Molyne",
-
-  "name": "Molynes United FC",
-
-  "logo": "assets/logos/north_america/jamaika/Molyne.png",
-
-  "stadium": {
-    "name": "Jacisera Park",
-    "capacity": 1000
+    "teamKey": "Molyne",
+  
+    "name": "Molynes United FC",
+  
+    "logo": "assets/logos/north_america/jamaika/Molyne.png",
+  
+    "manager": {
+      "name": "Jermaine Thomas",
+      "country": "JM"
+    },
+  
+    "stadium": {
+      "name": "Jacisera Park",
+      "capacity": 1000
+    },
+  
+    "players": [
+      {"playerId": "player_jm1_007_01", "name": "Tyreece Brown", "number": 1, "position": "GK", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_007_02", "name": "Enrique Gordon", "number": 2, "position": "RB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_007_03", "name": "Dimitri Edwards", "number": 4, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_007_04", "name": "Leyvan Rigg", "number": 5, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_007_05", "name": "David Hutchinson", "number": 3, "position": "LB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_007_06", "name": "Nickache Murray", "number": 6, "position": "CDM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_007_07", "name": "Odane Murray", "number": 8, "position": "CM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_007_08", "name": "Mikhail Lumsden", "number": 7, "position": "RW", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_007_09", "name": "Ronaldo Oniel Barrett", "number": 10, "position": "CAM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_007_10", "name": "Rashawn Livingston", "number": 11, "position": "ST", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_007_11", "name": "Matthew Ellis", "number": 9, "position": "RW", "country": "JM", "status": "starter"},
+  
+      {"playerId": "player_jm1_007_12", "name": "Authur Lamoth", "number": 12, "position": "GK", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_007_13", "name": "Livinton Mena", "number": 14, "position": "CB", "country": "CO", "status": "bench"},
+      {"playerId": "player_jm1_007_14", "name": "Anray Scott", "number": 15, "position": "RB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_007_15", "name": "Sergeni Frankson", "number": 16, "position": "LB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_007_16", "name": "Gerald Neil Jr.", "number": 17, "position": "CB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_007_17", "name": "Tyrique Wilson", "number": 18, "position": "LW", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_007_18", "name": "Lavaughn Gray", "number": 19, "position": "CM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_007_19", "name": "Kemar Mullings", "number": 20, "position": "RM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_007_20", "name": "Daniel Slowly", "number": 21, "position": "CM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_007_21", "name": "Samson Oke", "number": 22, "position": "CAM", "country": "NG", "status": "bench"},
+  
+      {"playerId": "player_jm1_007_22", "name": "Darren Donaie", "number": 30, "position": "GK", "country": "LC", "status": "reserve"},
+      {"playerId": "player_jm1_007_23", "name": "Devone Davis", "number": 23, "position": "LW", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_007_24", "name": "Nicholas Nelson", "number": 24, "position": "ST", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_007_25", "name": "Wisdom Ubani", "number": 25, "position": "ST", "country": "NG", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
