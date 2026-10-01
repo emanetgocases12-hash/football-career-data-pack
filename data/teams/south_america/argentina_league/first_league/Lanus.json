@@ -1,12 +1,58 @@
 {
-  "teamKey": "Lanus",
-
-  "name": "CA Lanús",
-
-  "logo": "assets/logos/south_america/argentina/Lanus.png",
-
-  "stadium": {
-    "name": "Ciudad de Lanús - Néstor Díaz Pérez",
-    "capacity": 46619
+    "teamKey": "Lanus",
+  
+    "name": "CA Lanús",
+  
+    "logo": "assets/logos/south_america/argentina/Lanus.png",
+  
+    "manager": {
+      "name": "Mauricio Pellegrino",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Ciudad de Lanús - Néstor Díaz Pérez",
+      "capacity": 46619
+    },
+  
+    "players": [
+      {"playerId": "player_ar1_017_01", "name": "Nahuel Losada", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_017_02", "name": "José Canale", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_017_03", "name": "Ronaldo De Jesus", "number": 4, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_ar1_017_04", "name": "Sasha Marcich", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_017_05", "name": "Carlos Izquierdoz", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_017_06", "name": "Matías Sepúlveda", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_017_07", "name": "Marcelino Moreno", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_017_08", "name": "Felipe Peña Biafore", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_017_09", "name": "Eduardo Salvio", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_017_10", "name": "Raúl Loaiza", "number": 11, "position": "LM", "country": "CO", "status": "starter"},
+      {"playerId": "player_ar1_017_11", "name": "Yoshan Valois", "number": 18, "position": "ST", "country": "CO", "status": "starter"},
+  
+      {"playerId": "player_ar1_017_12", "name": "Franco Petroli", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_017_13", "name": "Octavio Ontivero", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_017_14", "name": "Gonzalo Pérez", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_017_15", "name": "Tomás Guidara", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_017_16", "name": "Nicolás Morgantini", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_017_17", "name": "Agustín Medina", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_017_18", "name": "Ramiro Carrera", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_017_19", "name": "Agustín Cardozo", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_017_20", "name": "Allan Wlk", "number": 19, "position": "ST", "country": "PY", "status": "bench"},
+      {"playerId": "player_ar1_017_21", "name": "Lucas Besozzi", "number": 20, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ar1_017_22", "name": "Lautaro Morales", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_017_23", "name": "Tomás López", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_017_24", "name": "Benjamín Acosta", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_017_25", "name": "Jeremías Chavero", "number": 27, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
