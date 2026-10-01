@@ -1,12 +1,58 @@
 {
-  "teamKey": "Sapris",
-
-  "name": "Deportivo Saprissa",
-
-  "logo": "assets/logos/north_america/costa_rica/Sapris.png",
-
-  "stadium": {
-    "name": "Estadio Ricardo Saprissa Aymá",
-    "capacity": 23112
+    "teamKey": "Sapris",
+  
+    "name": "Deportivo Saprissa",
+  
+    "logo": "assets/logos/north_america/costa_rica/Sapris.png",
+  
+    "manager": {
+      "name": "Hernán Medford",
+      "country": "CR"
+    },
+  
+    "stadium": {
+      "name": "Estadio Ricardo Saprissa Aymá",
+      "capacity": 23112
+    },
+  
+    "players": [
+      {"playerId": "player_cr1_008_01", "name": "Abraham Madriz", "number": 1, "position": "GK", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_008_02", "name": "Gerald Taylor", "number": 2, "position": "RB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_008_03", "name": "Samir Taylor", "number": 4, "position": "CB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_008_04", "name": "Jorkaeek Azofeifa", "number": 5, "position": "CB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_008_05", "name": "Pablo Arboine", "number": 3, "position": "LB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_008_06", "name": "David Guzmán", "number": 6, "position": "CDM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_008_07", "name": "Mariano Torres", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_cr1_008_08", "name": "Sebastián Acuña", "number": 7, "position": "RW", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_008_09", "name": "Andrey Soto", "number": 10, "position": "CAM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_008_10", "name": "Orlando Sinclair", "number": 11, "position": "ST", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_008_11", "name": "Newton Williams", "number": 9, "position": "LW", "country": "PA", "status": "starter"},
+  
+      {"playerId": "player_cr1_008_12", "name": "Isaac Alfaro", "number": 12, "position": "GK", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_008_13", "name": "Kendall Waston", "number": 14, "position": "CB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_008_14", "name": "Joseph Mora", "number": 15, "position": "RB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_008_15", "name": "Fidel Escobar", "number": 16, "position": "LB", "country": "PA", "status": "bench"},
+      {"playerId": "player_cr1_008_16", "name": "Douglas Borbón", "number": 17, "position": "CB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_008_17", "name": "Sebastián Padilla", "number": 18, "position": "LW", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_008_18", "name": "Alberth Barahona", "number": 19, "position": "CM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_008_19", "name": "Carlos Urbina", "number": 20, "position": "RM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_008_20", "name": "Gerson Torres", "number": 21, "position": "LM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_008_21", "name": "Bancy Hernández", "number": 22, "position": "CAM", "country": "NI", "status": "bench"},
+  
+      {"playerId": "player_cr1_008_22", "name": "Jafeth López", "number": 30, "position": "GK", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_008_23", "name": "Ariel Rodríguez", "number": 23, "position": "RW", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_008_24", "name": "Luis Paradela", "number": 24, "position": "ST", "country": "CU", "status": "reserve"},
+      {"playerId": "player_cr1_008_25", "name": "Keyshwen Arboine", "number": 25, "position": "ST", "country": "CR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
