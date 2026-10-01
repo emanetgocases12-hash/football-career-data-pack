@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/north_america/usa/Chicago.png",
 
+  "manager": {
+    "name": "Gregg Berhalter",
+    "country": "US"
+  },
+
   "stadium": {
     "name": "Soldier Field",
     "capacity": 61500
+  },
+
+  "players": [
+    {"playerId": "player_us1_004_01", "name": "Chris Brady", "number": 1, "position": "GK", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_004_02", "name": "Leonardo Barroso", "number": 2, "position": "RB", "country": "PT", "status": "starter"},
+    {"playerId": "player_us1_004_03", "name": "Jack Elliott", "number": 3, "position": "CB", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_us1_004_04", "name": "Mbekezeli Mbokazi", "number": 4, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_us1_004_05", "name": "Viktor Radojević", "number": 14, "position": "LB", "country": "RS", "status": "starter"},
+    {"playerId": "player_us1_004_06", "name": "Dje D’Avilla", "number": 8, "position": "CDM", "country": "CI", "status": "starter"},
+    {"playerId": "player_us1_004_07", "name": "Brian Gutiérrez", "number": 10, "position": "CAM", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_004_08", "name": "Philip Zinckernagel", "number": 11, "position": "RW", "country": "DK", "status": "starter"},
+    {"playerId": "player_us1_004_09", "name": "Jonathan Bamba", "number": 7, "position": "LW", "country": "CI", "status": "starter"},
+    {"playerId": "player_us1_004_10", "name": "Hugo Cuypers", "number": 9, "position": "ST", "country": "BE", "status": "starter"},
+    {"playerId": "player_us1_004_11", "name": "Kellyn Acosta", "number": 23, "position": "CM", "country": "US", "status": "starter"},
+
+    {"playerId": "player_us1_004_12", "name": "Josh Cohen", "number": 44, "position": "GK", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_004_13", "name": "Sam Rogers", "number": 5, "position": "CB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_004_14", "name": "Puso Dithejane", "number": 12, "position": "RB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_us1_004_15", "name": "Jason Shokalook", "number": 20, "position": "CB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_004_16", "name": "Mauricio Pineda", "number": 22, "position": "CDM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_004_17", "name": "Sergio Oregel", "number": 35, "position": "CM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_004_18", "name": "Maren Haile-Selassie", "number": 6, "position": "RW", "country": "CH", "status": "bench"},
+    {"playerId": "player_us1_004_19", "name": "Tom Barlow", "number": 13, "position": "ST", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_004_20", "name": "David Poreba", "number": 48, "position": "CAM", "country": "PL", "status": "bench"},
+    {"playerId": "player_us1_004_21", "name": "Dean Boltz", "number": 28, "position": "LW", "country": "US", "status": "bench"},
+
+    {"playerId": "player_us1_004_22", "name": "Justin Reynolds", "number": 36, "position": "RB", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_004_23", "name": "Christopher Cupps", "number": 26, "position": "CB", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_004_24", "name": "Jeff Gal", "number": 25, "position": "GK", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_004_25", "name": "Georgios Koutsias", "number": 19, "position": "ST", "country": "GR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 11
+    }
   }
 }
