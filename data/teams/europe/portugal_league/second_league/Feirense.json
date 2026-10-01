@@ -1,12 +1,58 @@
 {
-  "teamKey": "Feiren",
-
-  "name": "CD Feirense",
-
-  "logo": "assets/logos/europe/portugal/Feirense.png",
-
-  "stadium": {
-    "name": "Estádio Marcolino de Castro",
-    "capacity": 5401
+    "teamKey": "Feiren",
+  
+    "name": "CD Feirense",
+  
+    "logo": "assets/logos/europe/portugal/Feirense.png",
+  
+    "manager": {
+      "name": "Vítor Martins",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Marcolino de Castro",
+      "capacity": 5401
+    },
+  
+    "players": [
+      {"playerId": "player_pt2_007_01", "name": "Diego Altube", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_007_02", "name": "Antonio Leal", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_007_03", "name": "Edgar Ié", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_007_04", "name": "Lucas Silva", "number": 5, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_007_05", "name": "Washington", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_007_06", "name": "Jorge Teixeira", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_007_07", "name": "Jonny Arriba", "number": 8, "position": "CM", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt2_007_08", "name": "Adegboyega Ola", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_pt2_007_09", "name": "Desmond Nketia", "number": 10, "position": "CAM", "country": "GH", "status": "starter"},
+      {"playerId": "player_pt2_007_10", "name": "João Tavares", "number": 11, "position": "ST", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_007_11", "name": "Tiago Dias", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_pt2_007_12", "name": "João Costa", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_007_13", "name": "Oche Ochowechi", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_007_14", "name": "Cláudio Silva", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_007_15", "name": "Rúben Alves", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_007_16", "name": "João Paulo", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_007_17", "name": "Kirill Klimov", "number": 18, "position": "LW", "country": "RU", "status": "bench"},
+      {"playerId": "player_pt2_007_18", "name": "João Oliveira", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_007_19", "name": "André Rodrigues", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_007_20", "name": "Dudu Hatamoto", "number": 21, "position": "LM", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt2_007_21", "name": "Leandro Antunes", "number": 22, "position": "CAM", "country": "PT", "status": "bench"},
+  
+      {"playerId": "player_pt2_007_22", "name": "Pedro Mateus", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_007_23", "name": "Jorge Pereira", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_007_24", "name": "Filipe Almeida", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_007_25", "name": "Rafael Santos", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
