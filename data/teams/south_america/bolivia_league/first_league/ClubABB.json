@@ -1,12 +1,58 @@
 {
-  "teamKey": "A.B.B.",
-
-  "name": "Club A.B.B.",
-
-  "logo": "assets/logos/south_america/bolivia/ABB.png",
-
-  "stadium": {
-    "name": "Estadio Municipal El Alto",
-    "capacity": 22000
+    "teamKey": "A.B.B.",
+  
+    "name": "Club A.B.B.",
+  
+    "logo": "assets/logos/south_america/bolivia/ABB.png",
+  
+    "manager": {
+      "name": "Wálter Flores",
+      "country": "BO"
+    },
+  
+    "stadium": {
+      "name": "Estadio Municipal El Alto",
+      "capacity": 22000
+    },
+  
+    "players": [
+      {"playerId": "player_bo1_005_01", "name": "Jairo Cuéllar", "number": 25, "position": "GK", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_005_02", "name": "Fabio Zamora", "number": 33, "position": "CB", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_005_03", "name": "Augusto Seimandi", "number": 55, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_bo1_005_04", "name": "Sebastián Claure", "number": 5, "position": "CB", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_005_05", "name": "Denilson Valda", "number": 75, "position": "RB", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_005_06", "name": "José Herrera", "number": 21, "position": "CDM", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_005_07", "name": "Layonel Figueroa", "number": 7, "position": "CM", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_005_08", "name": "Alejandro Chumacero", "number": 3, "position": "CM", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_005_09", "name": "Rodderyck Perozo", "number": 17, "position": "LM", "country": "VE", "status": "starter"},
+      {"playerId": "player_bo1_005_10", "name": "Emanuel Paniagua", "number": 10, "position": "RW", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_005_11", "name": "Juan Fajardo", "number": 11, "position": "ST", "country": "CO", "status": "starter"},
+  
+      {"playerId": "player_bo1_005_12", "name": "Santiago Delgadillo", "number": 23, "position": "GK", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_005_13", "name": "Sebastián Reyes", "number": 22, "position": "CB", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_005_14", "name": "Denilson Gutiérrez", "number": 34, "position": "CB", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_005_15", "name": "Jean Riascos", "number": 2, "position": "CB", "country": "EC", "status": "bench"},
+      {"playerId": "player_bo1_005_16", "name": "Carlos Jemio", "number": 14, "position": "RB", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_005_17", "name": "Marco Salazar", "number": 16, "position": "CDM", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_005_18", "name": "Adriel Guillermo", "number": 35, "position": "CM", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_005_19", "name": "Andres Guillermo", "number": 6, "position": "CM", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_005_20", "name": "Freddy Abastoflor", "number": 27, "position": "LW", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_005_21", "name": "Jair Catuy", "number": 9, "position": "ST", "country": "PA", "status": "bench"},
+  
+      {"playerId": "player_bo1_005_22", "name": "Zinedinne La Fuente", "number": 42, "position": "CB", "country": "BO", "status": "reserve"},
+      {"playerId": "player_bo1_005_23", "name": "Alejandro Bejarano", "number": 30, "position": "CM", "country": "BO", "status": "reserve"},
+      {"playerId": "player_bo1_005_24", "name": "Alejandro Camacho", "number": 29, "position": "RW", "country": "BO", "status": "reserve"},
+      {"playerId": "player_bo1_005_25", "name": "Aldair Riascos", "number": 1, "position": "GK", "country": "PE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 25,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
