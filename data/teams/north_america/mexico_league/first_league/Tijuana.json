@@ -1,12 +1,56 @@
 {
-  "teamKey": "Tijuana",
-
-  "name": "Club Tijuana",
-
-  "logo": "assets/logos/north_america/mexico/Tijuana.png",
-
-  "stadium": {
-    "name": "Estadio Caliente",
-    "capacity": 29333
+    "teamKey": "Tijuana",
+  
+    "name": "Club Tijuana",
+  
+    "logo": "assets/logos/north_america/mexico/Tijuana.png",
+  
+    "manager": {
+      "name": "Sebastián Abreu",
+      "country": "UY"
+    },
+  
+    "stadium": {
+      "name": "Estadio Caliente",
+      "capacity": 29333
+    },
+  
+    "players": [
+      {"playerId": "player_mx1_016_01", "name": "Antonio Rodríguez", "number": 2, "position": "GK", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_016_02", "name": "Rafael Fernández", "number": 3, "position": "RB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_016_03", "name": "Unai Bilbao", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_mx1_016_04", "name": "Alejandro Gómez", "number": 6, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_016_05", "name": "Jackson Porozo", "number": 12, "position": "LB", "country": "EC", "status": "starter"},
+      {"playerId": "player_mx1_016_06", "name": "Iván Tona", "number": 8, "position": "CDM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_016_07", "name": "Gilberto Mora", "number": 10, "position": "CM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_016_08", "name": "Ignacio Rivero", "number": 15, "position": "CAM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_016_09", "name": "Ángel Zapata", "number": 20, "position": "RW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_016_10", "name": "Aldahir Pérez", "number": 26, "position": "LW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_016_11", "name": "Diego Abreu", "number": 19, "position": "ST", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_016_12", "name": "Salim Hernández", "number": 29, "position": "GK", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_016_13", "name": "Alan Vega", "number": 16, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_016_14", "name": "Pablo Ortíz", "number": 33, "position": "RB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_016_15", "name": "Alejandro Magallon", "number": 36, "position": "LB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_016_16", "name": "Frank Boya", "number": 34, "position": "CM", "country": "CM", "status": "bench"},
+      {"playerId": "player_mx1_016_17", "name": "Yael Padilla", "number": 31, "position": "LW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_016_18", "name": "Francisco González", "number": 11, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_016_19", "name": "Elias Manoel", "number": 13, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_mx1_016_20", "name": "Ramiro Árciga", "number": 17, "position": "ST", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_016_21", "name": "Aarón Mejía", "number": 18, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_016_22", "name": "Joban González", "number": 37, "position": "ST", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx1_016_23", "name": "José Corona", "number": 38, "position": "GK", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx1_016_24", "name": "Adonis Preciado", "number": 7, "position": "LW", "country": "EC", "status": "reserve"},
+      {"playerId": "player_mx1_016_25", "name": "Mourad El Ghezouani", "number": 9, "position": "RW", "country": "MA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 15,
+        "cornerLeft": 15,
+        "cornerRight": 15
+      }
+    }
   }
-}
