@@ -1,12 +1,58 @@
 {
-  "teamKey": "Sébaco",
-
-  "name": "Club Sport Sébaco",
-
-  "logo": "assets/logos/north_america/nicaragua/Sebaco.png",
-
-  "stadium": {
-    "name": "Estadio Municipal Wilmer Icabalceta",
-    "capacity": 2000
+    "teamKey": "Sébaco",
+  
+    "name": "Club Sport Sébaco",
+  
+    "logo": "assets/logos/north_america/nicaragua/Sebaco.png",
+  
+    "manager": {
+      "name": "Holver Flores",
+      "country": "NI"
+    },
+  
+    "stadium": {
+      "name": "Estadio Municipal Wilmer Icabalceta",
+      "capacity": 2000
+    },
+  
+    "players": [
+      {"playerId": "player_ni1_008_01", "name": "Jakobby Madrid", "number": 1, "position": "GK", "country": "US", "status": "starter"},
+      {"playerId": "player_ni1_008_02", "name": "Alejandro Delgado", "number": 19, "position": "RB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_008_03", "name": "José Alfaro", "number": 3, "position": "CB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_008_04", "name": "Joel Obando", "number": 28, "position": "CB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_008_05", "name": "Ulises Pozo", "number": 5, "position": "LB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_008_06", "name": "Marcos Campos", "number": 15, "position": "CDM", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_008_07", "name": "Winston Herrera", "number": 18, "position": "CM", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_008_08", "name": "Brayan Corea", "number": 40, "position": "CAM", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_008_09", "name": "Efraín Mejía", "number": 10, "position": "LW", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_008_10", "name": "Ocnarpz Rodriguez", "number": 21, "position": "RW", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_008_11", "name": "William Palacios", "number": 7, "position": "ST", "country": "NI", "status": "starter"},
+  
+      {"playerId": "player_ni1_008_12", "name": "Ismel Morgado", "number": 13, "position": "GK", "country": "CU", "status": "bench"},
+      {"playerId": "player_ni1_008_13", "name": "Kener Pozo", "number": 2, "position": "RB", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_008_14", "name": "Engel Sánchez", "number": 23, "position": "CB", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_008_15", "name": "Ricardo Polo", "number": 30, "position": "CB", "country": "CU", "status": "bench"},
+      {"playerId": "player_ni1_008_16", "name": "Jill Taylor", "number": 24, "position": "LB", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_008_17", "name": "Fredman Kirklan", "number": 12, "position": "CDM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_008_18", "name": "Modesto Agurcia", "number": 22, "position": "CM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_008_19", "name": "Eduardo Gutiérrez", "number": 6, "position": "CM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_008_20", "name": "Luis Carrión", "number": 8, "position": "CAM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_008_21", "name": "Kendall Galeano", "number": 53, "position": "ST", "country": "NI", "status": "bench"},
+  
+      {"playerId": "player_ni1_008_22", "name": "Mario Castro", "number": 25, "position": "GK", "country": "NI", "status": "reserve"},
+      {"playerId": "player_ni1_008_23", "name": "Norman Zambrana", "number": 17, "position": "CB", "country": "NI", "status": "reserve"},
+      {"playerId": "player_ni1_008_24", "name": "Bryan Ordóñez", "number": 9, "position": "ST", "country": "NI", "status": "reserve"},
+      {"playerId": "player_ni1_008_25", "name": "Greivin Umanzor", "number": 11, "position": "LW", "country": "NI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 40,
+        "cornerLeft": 40,
+        "cornerRight": 10
+      }
+    }
   }
-}
