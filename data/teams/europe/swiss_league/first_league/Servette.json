@@ -1,12 +1,58 @@
 {
-  "teamKey": "Srvte",
-
-  "name": "Servette FC",
-
-  "logo": "assets/logos/europe/swiss/Servette.png",
-
-  "stadium": {
-    "name": "Stade de Genève",
-    "capacity": 30084
+    "teamKey": "Srvte",
+  
+    "name": "Servette FC",
+  
+    "logo": "assets/logos/europe/swiss/Servette.png",
+  
+    "manager": {
+      "name": "Jocelyn Gourvennec",
+      "country": "FR"
+    },
+  
+    "stadium": {
+      "name": "Stade de Genève",
+      "capacity": 30084
+    },
+  
+    "players": [
+      {"playerId": "player_ch1_007_01", "name": "Edvinas Gertmonas", "number": 1, "position": "GK", "country": "LT", "status": "starter"},
+      {"playerId": "player_ch1_007_02", "name": "Steve Rouiller", "number": 2, "position": "RB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_007_03", "name": "Lilian Njoh", "number": 4, "position": "CB", "country": "FR", "status": "starter"},
+      {"playerId": "player_ch1_007_04", "name": "Marco Burch", "number": 5, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_007_05", "name": "Houboulang Mendes", "number": 3, "position": "LB", "country": "GW", "status": "starter"},
+      {"playerId": "player_ch1_007_06", "name": "Pedro Naressi", "number": 6, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_ch1_007_07", "name": "Timothé Cognat", "number": 8, "position": "CM", "country": "FR", "status": "starter"},
+      {"playerId": "player_ch1_007_08", "name": "Miroslav Stevanović", "number": 7, "position": "RW", "country": "BA", "status": "starter"},
+      {"playerId": "player_ch1_007_09", "name": "Lamine Fomba", "number": 10, "position": "CAM", "country": "FR", "status": "starter"},
+      {"playerId": "player_ch1_007_10", "name": "Mathis Lambourde", "number": 11, "position": "LW", "country": "FR", "status": "starter"},
+      {"playerId": "player_ch1_007_11", "name": "Kingstone Mutandwa", "number": 9, "position": "ST", "country": "ZM", "status": "starter"},
+  
+      {"playerId": "player_ch1_007_12", "name": "Léo Besson", "number": 12, "position": "GK", "country": "XK", "status": "bench"},
+      {"playerId": "player_ch1_007_13", "name": "Bradley Mazikou", "number": 14, "position": "CB", "country": "CG", "status": "bench"},
+      {"playerId": "player_ch1_007_14", "name": "Quentin Maceiras", "number": 15, "position": "RB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_007_15", "name": "Téo Allix", "number": 16, "position": "LB", "country": "FR", "status": "bench"},
+      {"playerId": "player_ch1_007_16", "name": "Sylvain Djoho", "number": 17, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ch1_007_17", "name": "David Douline", "number": 18, "position": "CM", "country": "FR", "status": "bench"},
+      {"playerId": "player_ch1_007_18", "name": "Jarell Njiké Simo", "number": 19, "position": "RM", "country": "CM", "status": "bench"},
+      {"playerId": "player_ch1_007_19", "name": "Jesper Karlsson", "number": 20, "position": "LM", "country": "SE", "status": "bench"},
+      {"playerId": "player_ch1_007_20", "name": "Thomas Lopes", "number": 21, "position": "CAM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_007_21", "name": "Tiemoko Ouattara", "number": 22, "position": "RW", "country": "CI", "status": "bench"},
+  
+      {"playerId": "player_ch1_007_22", "name": "Louis Rieder", "number": 30, "position": "GK", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch1_007_23", "name": "Samuel Mráz", "number": 23, "position": "LW", "country": "SK", "status": "reserve"},
+      {"playerId": "player_ch1_007_24", "name": "Florian Ayé", "number": 24, "position": "ST", "country": "FR", "status": "reserve"},
+      {"playerId": "player_ch1_007_25", "name": "Julian Von Moos", "number": 25, "position": "ST", "country": "CH", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
