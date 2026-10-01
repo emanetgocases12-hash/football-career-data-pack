@@ -1,12 +1,58 @@
 {
-  "teamKey": "CSKA M",
-
-  "name": "CSKA Moscow",
-
-  "logo": "assets/logos/europe/russia/CSKA.png",
-
-  "stadium": {
-    "name": "VEB Arena",
-    "capacity": 30114
+    "teamKey": "CSKA M",
+  
+    "name": "CSKA Moscow",
+  
+    "logo": "assets/logos/europe/russia/CSKA.png",
+  
+    "manager": {
+      "name": "Dmitriy Igdisamov",
+      "country": "RU"
+    },
+  
+    "stadium": {
+      "name": "VEB Arena",
+      "capacity": 30114
+    },
+  
+    "players": [
+      {"playerId": "player_ru1_004_01", "name": "Igor Akinfeev", "number": 1, "position": "GK", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_004_02", "name": "João Victor", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_ru1_004_03", "name": "Milan Gajić", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_ru1_004_04", "name": "Matheus Reis", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_ru1_004_05", "name": "Moisés", "number": 3, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_ru1_004_06", "name": "Dmitry Barinov", "number": 6, "position": "CDM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_004_07", "name": "Ivan Oblyakov", "number": 8, "position": "CM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_004_08", "name": "Matvey Kislyak", "number": 7, "position": "RW", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_004_09", "name": "Matheus Alves", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_ru1_004_10", "name": "Danila Kozlov", "number": 11, "position": "LW", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_004_11", "name": "Luciano Gondou", "number": 9, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ru1_004_12", "name": "Vladislav Torop", "number": 12, "position": "GK", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_004_13", "name": "Matvey Lukin", "number": 14, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_004_14", "name": "Kirill Danilov", "number": 15, "position": "RB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_004_15", "name": "Dzhamalutdin Abdulkadyrov", "number": 16, "position": "LB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_004_16", "name": "Artem Bandikyan", "number": 17, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_004_17", "name": "Henrique Carmo", "number": 18, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_ru1_004_18", "name": "Imran Firov", "number": 19, "position": "RM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_004_19", "name": "Maksim Mukhin", "number": 20, "position": "LM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_004_20", "name": "Abbósbek Fayzullaev", "number": 21, "position": "CAM", "country": "UZ", "status": "bench"},
+      {"playerId": "player_ru1_004_21", "name": "Tamerlan Musaev", "number": 22, "position": "RW", "country": "RU", "status": "bench"},
+  
+      {"playerId": "player_ru1_004_22", "name": "Maksim Borisko", "number": 30, "position": "GK", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_004_23", "name": "Kirill Glebov", "number": 23, "position": "LW", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_004_24", "name": "Matija Popović", "number": 24, "position": "ST", "country": "RS", "status": "reserve"},
+      {"playerId": "player_ru1_004_25", "name": "Sekou Koita", "number": 25, "position": "ST", "country": "ML", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
