@@ -1,12 +1,58 @@
 {
-  "teamKey": "Wintrt",
-
-  "name": "FC Winterthur",
-
-  "logo": "assets/logos/europe/swiss/Winterthur.png",
-
-  "stadium": {
-    "name": "Schützenwiese",
-    "capacity": 8700
+    "teamKey": "Wintrt",
+  
+    "name": "FC Winterthur",
+  
+    "logo": "assets/logos/europe/swiss/Winterthur.png",
+  
+    "manager": {
+      "name": "Patrick Rahmen",
+      "country": "CH"
+    },
+  
+    "stadium": {
+      "name": "Schützenwiese",
+      "capacity": 8700
+    },
+  
+    "players": [
+      {"playerId": "player_ch2_008_01", "name": "Stefanos Kapino", "number": 1, "position": "GK", "country": "GR", "status": "starter"},
+      {"playerId": "player_ch2_008_02", "name": "Souleymane Diaby", "number": 2, "position": "RB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ch2_008_03", "name": "Remo Arnold", "number": 4, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_008_04", "name": "Silvan Sidler", "number": 5, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_008_05", "name": "Tobias Schättin", "number": 3, "position": "LB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_008_06", "name": "Matteo Di Giusto Jr.", "number": 6, "position": "CDM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_008_07", "name": "Nishan Burkart Jr.", "number": 8, "position": "CM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_008_08", "name": "Thibault Corbaz", "number": 7, "position": "RW", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_008_09", "name": "Sayfallah Ltaief", "number": 10, "position": "CAM", "country": "TN", "status": "starter"},
+      {"playerId": "player_ch2_008_10", "name": "Roman Buess", "number": 11, "position": "LW", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_008_11", "name": "Antoine Baroan", "number": 9, "position": "ST", "country": "FR", "status": "starter"},
+  
+      {"playerId": "player_ch2_008_12", "name": "Timothy Fayulu", "number": 12, "position": "GK", "country": "CD", "status": "bench"},
+      {"playerId": "player_ch2_008_13", "name": "Basil Stillhart Jr.", "number": 14, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_008_14", "name": "Adrian Durrer", "number": 15, "position": "RB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_008_15", "name": "Loïc Lüthi", "number": 16, "position": "LB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_008_16", "name": "Randy Schneider", "number": 17, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_008_17", "name": "Samir Ramizi", "number": 18, "position": "CM", "country": "XK", "status": "bench"},
+      {"playerId": "player_ch2_008_18", "name": "Carmine Chiappetta", "number": 19, "position": "RM", "country": "IT", "status": "bench"},
+      {"playerId": "player_ch2_008_19", "name": "Aldin Turkes", "number": 20, "position": "LM", "country": "BA", "status": "bench"},
+      {"playerId": "player_ch2_008_20", "name": "Fabian Rohner", "number": 21, "position": "CAM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_008_21", "name": "Labinot Bajrami", "number": 22, "position": "RW", "country": "XK", "status": "bench"},
+  
+      {"playerId": "player_ch2_008_22", "name": "Marko Kitanović", "number": 30, "position": "GK", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_008_23", "name": "Francis Momoh", "number": 23, "position": "LW", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ch2_008_24", "name": "Christian Gomis Jr.", "number": 24, "position": "ST", "country": "SN", "status": "reserve"},
+      {"playerId": "player_ch2_008_25", "name": "Loris Mettler Jr.", "number": 25, "position": "ST", "country": "CH", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
