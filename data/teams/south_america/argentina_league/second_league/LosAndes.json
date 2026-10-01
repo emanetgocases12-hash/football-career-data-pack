@@ -1,12 +1,58 @@
 {
-  "teamKey": "CALA",
-
-  "name": "CA Los Andes",
-
-  "logo": "assets/logos/south_america/argentina/CALA.png",
-
-  "stadium": {
-    "name": "Eduardo Gallardón",
-    "capacity": 39863
+    "teamKey": "CALA",
+  
+    "name": "CA Los Andes",
+  
+    "logo": "assets/logos/south_america/argentina/CALA.png",
+  
+    "manager": {
+      "name": "César Monasterio",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Eduardo Gallardón",
+      "capacity": 39863
+    },
+  
+    "players": [
+      {"playerId": "player_ar2_021_01", "name": "Sebastián López", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_021_02", "name": "Franco Rodríguez", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_021_03", "name": "Ezequiel Gallegos", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_021_04", "name": "Nicolás Ortíz", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_021_05", "name": "Juan Rivas", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_021_06", "name": "Matías Linas", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_021_07", "name": "Gabriel Cañete", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_021_08", "name": "Thiago Martínez", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_021_09", "name": "Agustín Allione", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_021_10", "name": "Alan Espeche", "number": 11, "position": "LM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_021_11", "name": "Luciano Romero", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ar2_021_12", "name": "Leandro Brey", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_021_13", "name": "Matías González", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_021_14", "name": "Luciano Maidana", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_021_15", "name": "Alan Ortiz", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_021_16", "name": "Gonzalo Cozzoni", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_021_17", "name": "Axel Arce", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_021_18", "name": "Facundo Villarreal", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_021_19", "name": "Jonathan Morán", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_021_20", "name": "Franco Toloza", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_021_21", "name": "Agustín Lavezzi", "number": 20, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ar2_021_22", "name": "Federico Díaz", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_021_23", "name": "Enzo Díaz", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_021_24", "name": "Franco Peppino", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_021_25", "name": "Gastón Ada", "number": 27, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
