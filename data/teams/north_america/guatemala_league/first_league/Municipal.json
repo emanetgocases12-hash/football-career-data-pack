@@ -1,12 +1,58 @@
 {
-  "teamKey": "Munici",
-
-  "name": "CSD Municipal",
-
-  "logo": "assets/logos/north_america/guatemala/Munici.png",
-
-  "stadium": {
-    "name": "Estadio Manuel Felipe Carrera (El Trébol)",
-    "capacity": 8000
+    "teamKey": "Munici",
+  
+    "name": "CSD Municipal",
+  
+    "logo": "assets/logos/north_america/guatemala/Munici.png",
+  
+    "manager": {
+      "name": "Mario Acevedo",
+      "country": "GT"
+    },
+  
+    "stadium": {
+      "name": "Estadio Manuel Felipe Carrera (El Trébol)",
+      "capacity": 8000
+    },
+  
+    "players": [
+      {"playerId": "player_gt1_011_01", "name": "Braulio Linares", "number": 1, "position": "GK", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_011_02", "name": "Aubrey David", "number": 2, "position": "RB", "country": "TT", "status": "starter"},
+      {"playerId": "player_gt1_011_03", "name": "Carlos Estrada", "number": 4, "position": "CB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_011_04", "name": "César Calderón", "number": 5, "position": "CB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_011_05", "name": "Cristopher Raymundo", "number": 3, "position": "LB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_011_06", "name": "Elvi Elington", "number": 6, "position": "CDM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_011_07", "name": "Carlos Daniel Aguilar Morales", "number": 8, "position": "CM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_011_08", "name": "César Archila", "number": 7, "position": "RW", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_011_09", "name": "Cristian Hernández", "number": 10, "position": "CAM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_011_10", "name": "John Méndez", "number": 11, "position": "LW", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_011_11", "name": "Alejandro Jair Cabeza Jiménez", "number": 9, "position": "ST", "country": "EC", "status": "starter"},
+  
+      {"playerId": "player_gt1_011_12", "name": "David Aldana", "number": 12, "position": "GK", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_011_13", "name": "José Mena", "number": 14, "position": "CB", "country": "CR", "status": "bench"},
+      {"playerId": "player_gt1_011_14", "name": "José Morales", "number": 15, "position": "RB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_011_15", "name": "Nicolás Samayoa", "number": 16, "position": "LB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_011_16", "name": "Rudy Muñoz", "number": 17, "position": "CB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_011_17", "name": "Jonathan Franco", "number": 18, "position": "CM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_011_18", "name": "Pedro Altán", "number": 19, "position": "RM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_011_19", "name": "Rodrigo Saravia", "number": 20, "position": "LM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_011_20", "name": "Rudy Barrientos", "number": 21, "position": "CAM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_011_21", "name": "Erick Japa", "number": 22, "position": "RW", "country": "DO", "status": "bench"},
+  
+      {"playerId": "player_gt1_011_22", "name": "Kenderson Navarro", "number": 30, "position": "GK", "country": "GT", "status": "reserve"},
+      {"playerId": "player_gt1_011_23", "name": "Erik López", "number": 23, "position": "LW", "country": "GT", "status": "reserve"},
+      {"playerId": "player_gt1_011_24", "name": "José Martínez", "number": 24, "position": "ST", "country": "GT", "status": "reserve"},
+      {"playerId": "player_gt1_011_25", "name": "Yorman Jasler Baltazar Sánchez", "number": 25, "position": "ST", "country": "GT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
