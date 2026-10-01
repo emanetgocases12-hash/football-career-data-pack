@@ -1,12 +1,58 @@
 {
-  "teamKey": "Kolos",
-
-  "name": "Kolos Kovalivka",
-
-  "logo": "assets/logos/europe/ukrain/Kolos.png",
-
-  "stadium": {
-    "name": "Kolos",
-    "capacity": 5050
+    "teamKey": "Kolos",
+  
+    "name": "Kolos Kovalivka",
+  
+    "logo": "assets/logos/europe/ukrain/Kolos.png",
+  
+    "manager": {
+      "name": "Ruslan Kostyshyn",
+      "country": "UA"
+    },
+  
+    "stadium": {
+      "name": "Kolos",
+      "capacity": 5050
+    },
+  
+    "players": [
+      {"playerId": "player_ua1_009_01", "name": "Dmytro Matsapura", "number": 1, "position": "GK", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_009_02", "name": "Illia Andrushchak", "number": 2, "position": "RB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_009_03", "name": "Oleksii Bezruchuk", "number": 4, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_009_04", "name": "Mykyta Burda", "number": 5, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_009_05", "name": "Maksym Danyliuk", "number": 3, "position": "LB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_009_06", "name": "Oleksandr Demchenko", "number": 6, "position": "CDM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_009_07", "name": "Daniil Denysenko", "number": 8, "position": "CM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_009_08", "name": "Artem Dromov", "number": 7, "position": "RW", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_009_09", "name": "Enoch Dzeble", "number": 10, "position": "CAM", "country": "GH", "status": "starter"},
+      {"playerId": "player_ua1_009_10", "name": "Artem Husol", "number": 11, "position": "ST", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_009_11", "name": "Ardit Tahiri", "number": 9, "position": "LW", "country": "XK", "status": "starter"},
+  
+      {"playerId": "player_ua1_009_12", "name": "Valentyn Morhun", "number": 12, "position": "GK", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_009_13", "name": "Zurab Rukhadze", "number": 14, "position": "CB", "country": "GE", "status": "bench"},
+      {"playerId": "player_ua1_009_14", "name": "Daniil Khrypchuk", "number": 15, "position": "RB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_009_15", "name": "Eduard Kozik", "number": 16, "position": "LB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_009_16", "name": "Andrii Poniedielnik", "number": 17, "position": "CB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_009_17", "name": "Nika Gagnidze", "number": 18, "position": "LW", "country": "GE", "status": "bench"},
+      {"playerId": "player_ua1_009_18", "name": "Arinaldo Rrapaj", "number": 19, "position": "CM", "country": "AL", "status": "bench"},
+      {"playerId": "player_ua1_009_19", "name": "Ibrahim Kane", "number": 20, "position": "RM", "country": "ML", "status": "bench"},
+      {"playerId": "player_ua1_009_20", "name": "Roman Kuzyk", "number": 21, "position": "LM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_009_21", "name": "Oleksandr Naumov", "number": 22, "position": "CAM", "country": "UA", "status": "bench"},
+  
+      {"playerId": "player_ua1_009_22", "name": "Ivan Pakholiuk", "number": 30, "position": "GK", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_009_23", "name": "Denys Ndukve", "number": 23, "position": "RW", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_009_24", "name": "Yurii Klymchuk", "number": 24, "position": "ST", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_009_25", "name": "Anton Salabai", "number": 25, "position": "ST", "country": "UA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
