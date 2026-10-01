@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/north_america/usa/Houston.png",
 
+  "manager": {
+    "name": "Ben Olsen",
+    "country": "US"
+  },
+
   "stadium": {
     "name": "Shell Energy Stadium",
     "capacity": 22039
+  },
+
+  "players": [
+    {"playerId": "player_us1_010_01", "name": "Jonathan Bond", "number": 31, "position": "GK", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_us1_010_02", "name": "Franco Negri", "number": 21, "position": "LB", "country": "AR", "status": "starter"},
+    {"playerId": "player_us1_010_03", "name": "Erik Sviatchenko", "number": 28, "position": "CB", "country": "DK", "status": "starter"},
+    {"playerId": "player_us1_010_04", "name": "Lucas Halter", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_us1_010_05", "name": "Sam Vines", "number": 13, "position": "LB", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_010_06", "name": "Artur", "number": 6, "position": "CDM", "country": "BR", "status": "starter"},
+    {"playerId": "player_us1_010_07", "name": "Héctor Herrera", "number": 16, "position": "CM", "country": "MX", "status": "starter"},
+    {"playerId": "player_us1_010_08", "name": "Jack McGlynn", "number": 8, "position": "CAM", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_010_09", "name": "Mateusz Bogusz", "number": 19, "position": "RW", "country": "PL", "status": "starter"},
+    {"playerId": "player_us1_010_10", "name": "Lawrence Ennali", "number": 11, "position": "LW", "country": "DE", "status": "starter"},
+    {"playerId": "player_us1_010_11", "name": "Ezequiel Ponce", "number": 10, "position": "ST", "country": "AR", "status": "starter"},
+
+    {"playerId": "player_us1_010_12", "name": "Jimmy Maurer", "number": 1, "position": "GK", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_010_13", "name": "Antônio Carlos", "number": 3, "position": "CB", "country": "BR", "status": "bench"},
+    {"playerId": "player_us1_010_14", "name": "Felipe Andrade", "number": 36, "position": "CB", "country": "BR", "status": "bench"},
+    {"playerId": "player_us1_010_15", "name": "Ibrahim Aliyu", "number": 24, "position": "LB", "country": "NG", "status": "bench"},
+    {"playerId": "player_us1_010_16", "name": "Diadié Samassékou", "number": 18, "position": "CDM", "country": "ML", "status": "bench"},
+    {"playerId": "player_us1_010_17", "name": "Duane Holmes", "number": 14, "position": "CM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_010_18", "name": "Ondřej Lingr", "number": 9, "position": "CAM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_us1_010_19", "name": "Agustín Bouzat", "number": 30, "position": "RW", "country": "AR", "status": "bench"},
+    {"playerId": "player_us1_010_20", "name": "Nick Markanich", "number": 17, "position": "LW", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_010_21", "name": "Guilherme", "number": 20, "position": "ST", "country": "BR", "status": "bench"},
+
+    {"playerId": "player_us1_010_22", "name": "Reese Miller", "number": 27, "position": "RB", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_010_23", "name": "Agustin Resch", "number": 34, "position": "CB", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_010_24", "name": "Blake Gillingham", "number": 26, "position": "GK", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_010_25", "name": "Matthew Arana", "number": 22, "position": "CM", "country": "US", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 31,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 8,
+      "cornerLeft": 8,
+      "cornerRight": 19
+    }
   }
 }
