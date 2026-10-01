@@ -1,12 +1,58 @@
 {
-  "teamKey": "Vaduz",
-
-  "name": "FC Vaduz",
-
-  "logo": "assets/logos/europe/swiss/Vaduz.png",
-
-  "stadium": {
-    "name": "Rheinpark Stadion",
-    "capacity": 6441
+    "teamKey": "Vaduz",
+  
+    "name": "FC Vaduz",
+  
+    "logo": "assets/logos/europe/swiss/Vaduz.png",
+  
+    "manager": {
+      "name": "Marc Schneider",
+      "country": "CH"
+    },
+  
+    "stadium": {
+      "name": "Rheinpark Stadion",
+      "capacity": 6441
+    },
+  
+    "players": [
+      {"playerId": "player_ch1_010_01", "name": "Benjamin Büchel", "number": 1, "position": "GK", "country": "LI", "status": "starter"},
+      {"playerId": "player_ch1_010_02", "name": "Liridon Berisha", "number": 2, "position": "RB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_010_03", "name": "Denis Simani", "number": 4, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_010_04", "name": "Mischa Beeli", "number": 5, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_010_05", "name": "Niklas Lang", "number": 3, "position": "LB", "country": "DE", "status": "starter"},
+      {"playerId": "player_ch1_010_06", "name": "Nicolas Hasler", "number": 6, "position": "CDM", "country": "LI", "status": "starter"},
+      {"playerId": "player_ch1_010_07", "name": "Dominik Schwizer", "number": 8, "position": "CM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_010_08", "name": "Stephan Seiler", "number": 7, "position": "RW", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_010_09", "name": "Juan Cabrera", "number": 10, "position": "CAM", "country": "DE", "status": "starter"},
+      {"playerId": "player_ch1_010_10", "name": "Lutfi Dalipi", "number": 11, "position": "LW", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_010_11", "name": "Marcel Monsberger", "number": 9, "position": "ST", "country": "AT", "status": "starter"},
+  
+      {"playerId": "player_ch1_010_12", "name": "Leon Schaffran", "number": 12, "position": "GK", "country": "DE", "status": "bench"},
+      {"playerId": "player_ch1_010_13", "name": "Malik Sawadogo", "number": 14, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_010_14", "name": "Luca Celentano", "number": 15, "position": "RB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_010_15", "name": "Nico Föllmi", "number": 16, "position": "LB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_010_16", "name": "Mats Hammerich", "number": 17, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_010_17", "name": "Julian Stark", "number": 18, "position": "CM", "country": "DE", "status": "bench"},
+      {"playerId": "player_ch1_010_18", "name": "Luca Mack", "number": 19, "position": "RM", "country": "DE", "status": "bench"},
+      {"playerId": "player_ch1_010_19", "name": "Mischa Eberhard", "number": 20, "position": "LM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_010_20", "name": "Milos Cocic", "number": 21, "position": "CAM", "country": "DE", "status": "bench"},
+      {"playerId": "player_ch1_010_21", "name": "Daniel Kasper", "number": 22, "position": "RW", "country": "DE", "status": "bench"},
+  
+      {"playerId": "player_ch1_010_22", "name": "Tim-Tiado Oehri", "number": 30, "position": "GK", "country": "LI", "status": "reserve"},
+      {"playerId": "player_ch1_010_23", "name": "Dejan Djokic", "number": 23, "position": "LW", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch1_010_24", "name": "Dejan Sorgic", "number": 24, "position": "ST", "country": "HR", "status": "reserve"},
+      {"playerId": "player_ch1_010_25", "name": "Mattia Walker", "number": 25, "position": "ST", "country": "CH", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
