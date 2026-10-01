@@ -1,12 +1,58 @@
 {
-  "teamKey": "Amaran",
-
-  "name": "Amarante FC",
-
-  "logo": "assets/logos/europe/portugal/Amarante.png",
-
-  "stadium": {
-    "name": "Estádio Municipal de Amarante",
-    "capacity": 5000
+    "teamKey": "Amaran",
+  
+    "name": "Amarante FC",
+  
+    "logo": "assets/logos/europe/portugal/Amarante.png",
+  
+    "manager": {
+      "name": "Álvaro Madureira",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Municipal de Amarante",
+      "capacity": 5000
+    },
+  
+    "players": [
+      {"playerId": "player_pt2_002_01", "name": "Didi", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_002_02", "name": "Feliciano", "number": 2, "position": "CB", "country": "GW", "status": "starter"},
+      {"playerId": "player_pt2_002_03", "name": "João Filipe", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_002_04", "name": "Diogo Nascimento", "number": 5, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_002_05", "name": "João Faria", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_002_06", "name": "João Mendes", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_002_07", "name": "Luís Santos", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_002_08", "name": "Tiago Leite", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_002_09", "name": "André Silva", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_002_10", "name": "Gonçalo Ferreira", "number": 11, "position": "ST", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_002_11", "name": "Pedro Matos", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_pt2_002_12", "name": "Rafael Flores", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_002_13", "name": "Gonçalo Cunha", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_002_14", "name": "Simão Silva", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_002_15", "name": "Melvin", "number": 16, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_pt2_002_16", "name": "Rui Areias", "number": 17, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_002_17", "name": "Pedro Pinto", "number": 18, "position": "LW", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_002_18", "name": "Rúben Marques", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_002_19", "name": "Diogo Costa", "number": 20, "position": "RM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_002_20", "name": "João Pereira", "number": 21, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_002_21", "name": "Francisco Ramos", "number": 22, "position": "CAM", "country": "PT", "status": "bench"},
+  
+      {"playerId": "player_pt2_002_22", "name": "Rúben Pinto", "number": 30, "position": "GK", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_002_23", "name": "Tiago Rocha", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_002_24", "name": "Miguel Silva", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_002_25", "name": "André Lopes", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
