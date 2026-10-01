@@ -1,12 +1,58 @@
 {
-  "teamKey": "Loko M",
-
-  "name": "Lokomotiv Moscow",
-
-  "logo": "assets/logos/europe/russia/Lokomotiv.png",
-
-  "stadium": {
-    "name": "RZD Arena",
-    "capacity": 27084
+    "teamKey": "Loko M",
+  
+    "name": "Lokomotiv Moscow",
+  
+    "logo": "assets/logos/europe/russia/Lokomotiv.png",
+  
+    "manager": {
+      "name": "Mikhail Galaktionov",
+      "country": "RU"
+    },
+  
+    "stadium": {
+      "name": "RZD Arena",
+      "capacity": 27084
+    },
+  
+    "players": [
+      {"playerId": "player_ru1_008_01", "name": "Ilya Lantratov", "number": 1, "position": "GK", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_008_02", "name": "Lucas Fasson", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_ru1_008_03", "name": "César Montes", "number": 4, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_ru1_008_04", "name": "Evgeni Morozov", "number": 5, "position": "CB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_008_05", "name": "Maksim Nenakhov", "number": 3, "position": "LB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_008_06", "name": "Dmitry Barinov", "number": 6, "position": "CDM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_008_07", "name": "Aleksey Batrakov", "number": 8, "position": "CM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_008_08", "name": "Artem Karpukas", "number": 7, "position": "RW", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_008_09", "name": "Nair Tiknizyan", "number": 10, "position": "CAM", "country": "AM", "status": "starter"},
+      {"playerId": "player_ru1_008_10", "name": "Rifat Zhemaletdinov", "number": 11, "position": "LW", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_008_11", "name": "Dmitry Vorobyov", "number": 9, "position": "ST", "country": "RU", "status": "starter"},
+  
+      {"playerId": "player_ru1_008_12", "name": "Anton Mitryushkin", "number": 12, "position": "GK", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_008_13", "name": "Ilya Samoshnikov", "number": 14, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_008_14", "name": "Mark Mampassi", "number": 15, "position": "RB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ru1_008_15", "name": "Aleksandr Silyanov", "number": 16, "position": "LB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_008_16", "name": "Sergey Pinyaev", "number": 17, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_008_17", "name": "Anton Miranchuk", "number": 18, "position": "CM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_008_18", "name": "Vladislav Sarveli", "number": 19, "position": "RM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_008_19", "name": "Maksim Glushenkov", "number": 20, "position": "LM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_008_20", "name": "Dmitry Rybchinskiy", "number": 21, "position": "CAM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_008_21", "name": "Timur Suleymanov", "number": 22, "position": "RW", "country": "RU", "status": "bench"},
+  
+      {"playerId": "player_ru1_008_22", "name": "Daniil Veselov", "number": 30, "position": "GK", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_008_23", "name": "Vadim Rakov", "number": 23, "position": "LW", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_008_24", "name": "Ivan Komarov", "number": 24, "position": "ST", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_008_25", "name": "German Onugkha", "number": 25, "position": "ST", "country": "RU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
