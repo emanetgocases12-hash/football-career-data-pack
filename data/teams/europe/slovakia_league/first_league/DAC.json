@@ -1,12 +1,58 @@
 {
-  "teamKey": "DAC",
-
-  "name": "DAC Dunajska Streda",
-
-  "logo": "assets/logos/europe/slovakia/DAC.png",
-
-  "stadium": {
-    "name": "MOL Aréna",
-    "capacity": 12700
+    "teamKey": "DAC",
+  
+    "name": "DAC Dunajska Streda",
+  
+    "logo": "assets/logos/europe/slovakia/DAC.png",
+  
+    "manager": {
+      "name": "Robert Klauß",
+      "country": "DE"
+    },
+  
+    "stadium": {
+      "name": "MOL Aréna",
+      "capacity": 12700
+    },
+  
+    "players": [
+      {"playerId": "player_sk1_003_01", "name": "Leandro Filipe", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_sk1_003_02", "name": "Jonathan Pacheco", "number": 2, "position": "RB", "country": "PA", "status": "starter"},
+      {"playerId": "player_sk1_003_03", "name": "Simen Juklerød", "number": 4, "position": "CB", "country": "NO", "status": "starter"},
+      {"playerId": "player_sk1_003_04", "name": "Tsotne Kapanadze", "number": 5, "position": "CB", "country": "GE", "status": "starter"},
+      {"playerId": "player_sk1_003_05", "name": "Žan Trontelj", "number": 3, "position": "LB", "country": "SI", "status": "starter"},
+      {"playerId": "player_sk1_003_06", "name": "Andreas Gruber", "number": 6, "position": "CDM", "country": "AT", "status": "starter"},
+      {"playerId": "player_sk1_003_07", "name": "Ammar Ramadan", "number": 8, "position": "CM", "country": "SY", "status": "starter"},
+      {"playerId": "player_sk1_003_08", "name": "Emmanuel Bationo", "number": 7, "position": "RW", "country": "BF", "status": "starter"},
+      {"playerId": "player_sk1_003_09", "name": "Fallou Diongue", "number": 10, "position": "CAM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sk1_003_10", "name": "Uroš Kabić", "number": 11, "position": "ST", "country": "RS", "status": "starter"},
+      {"playerId": "player_sk1_003_11", "name": "Alioune Gueye", "number": 9, "position": "LW", "country": "SN", "status": "starter"},
+  
+      {"playerId": "player_sk1_003_12", "name": "Patrick Zivanovic", "number": 12, "position": "GK", "country": "AT", "status": "bench"},
+      {"playerId": "player_sk1_003_13", "name": "Filip Blažek", "number": 14, "position": "CB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_003_14", "name": "Taras Kacharaba", "number": 15, "position": "RB", "country": "UA", "status": "bench"},
+      {"playerId": "player_sk1_003_15", "name": "Bence Csóka", "number": 16, "position": "LB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_003_16", "name": "Klemen Nemanič", "number": 17, "position": "CB", "country": "SI", "status": "bench"},
+      {"playerId": "player_sk1_003_17", "name": "Samuel Ouro", "number": 18, "position": "LW", "country": "TG", "status": "bench"},
+      {"playerId": "player_sk1_003_18", "name": "Rhyan Modesto", "number": 19, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_sk1_003_19", "name": "Máté Tuboly", "number": 20, "position": "RM", "country": "HU", "status": "bench"},
+      {"playerId": "player_sk1_003_20", "name": "Krisztián Blaško", "number": 21, "position": "LM", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_003_21", "name": "Martin Jenčuš", "number": 22, "position": "CAM", "country": "SK", "status": "bench"},
+  
+      {"playerId": "player_sk1_003_22", "name": "Aljaž Ivačič", "number": 30, "position": "GK", "country": "SI", "status": "reserve"},
+      {"playerId": "player_sk1_003_23", "name": "Pape Corr", "number": 23, "position": "RW", "country": "GM", "status": "reserve"},
+      {"playerId": "player_sk1_003_24", "name": "Amadou Sylla", "number": 24, "position": "ST", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sk1_003_25", "name": "Giorgi Gagua", "number": 25, "position": "ST", "country": "GE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
