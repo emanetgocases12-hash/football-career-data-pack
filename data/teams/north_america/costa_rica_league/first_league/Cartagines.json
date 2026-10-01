@@ -1,12 +1,58 @@
 {
-  "teamKey": "Cartgi",
-
-  "name": "CS Cartaginés",
-
-  "logo": "assets/logos/north_america/costa_rica/Cartgi.png",
-
-  "stadium": {
-    "name": "Estadio José Rafael Fello Meza Ivancovich",
-    "capacity": 13500
+    "teamKey": "Cartgi",
+  
+    "name": "CS Cartaginés",
+  
+    "logo": "assets/logos/north_america/costa_rica/Cartgi.png",
+  
+    "manager": {
+      "name": "Amarini Villatoro",
+      "country": "GT"
+    },
+  
+    "stadium": {
+      "name": "Estadio José Rafael Fello Meza Ivancovich",
+      "capacity": 13500
+    },
+  
+    "players": [
+      {"playerId": "player_cr1_002_01", "name": "Kevin Briceño", "number": 1, "position": "GK", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_002_02", "name": "Johán Cortés", "number": 2, "position": "RB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_002_03", "name": "Diego González", "number": 4, "position": "CB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_002_04", "name": "Diego Mesén", "number": 5, "position": "CB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_002_05", "name": "José Luis Quirós", "number": 3, "position": "LB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_002_06", "name": "Claudio Montero", "number": 6, "position": "CDM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_002_07", "name": "Gian Mauro Morera", "number": 8, "position": "CM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_002_08", "name": "Santiago Quirós", "number": 7, "position": "RW", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_002_09", "name": "Andrey Mora", "number": 10, "position": "CAM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_002_10", "name": "Saul Chavarría", "number": 11, "position": "ST", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_002_11", "name": "Mauricio Villalobos", "number": 9, "position": "LW", "country": "CR", "status": "starter"},
+  
+      {"playerId": "player_cr1_002_12", "name": "Christopher Moya", "number": 12, "position": "GK", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_002_13", "name": "Randall Cordero", "number": 14, "position": "CB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_002_14", "name": "Luis Olivas", "number": 15, "position": "RB", "country": "MX", "status": "bench"},
+      {"playerId": "player_cr1_002_15", "name": "Carlos Barahona", "number": 16, "position": "LB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_002_16", "name": "Yael López", "number": 17, "position": "CB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_002_17", "name": "Douglas López", "number": 18, "position": "LW", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_002_18", "name": "Leonardo Alfaro", "number": 19, "position": "CM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_002_19", "name": "Bernald Alfaro", "number": 20, "position": "RM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_002_20", "name": "Geancarlo Castro", "number": 21, "position": "LM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_002_21", "name": "Luis Flores", "number": 22, "position": "CAM", "country": "CR", "status": "bench"},
+  
+      {"playerId": "player_cr1_002_22", "name": "Darién Hidalgo", "number": 30, "position": "GK", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_002_23", "name": "Manuel Morán", "number": 23, "position": "RW", "country": "PA", "status": "reserve"},
+      {"playerId": "player_cr1_002_24", "name": "José González", "number": 24, "position": "ST", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_002_25", "name": "Juan Carlos Gaete", "number": 25, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
