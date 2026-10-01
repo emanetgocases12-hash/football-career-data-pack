@@ -1,12 +1,58 @@
 {
-  "teamKey": "Edusoc",
-
-  "name": "DS Edusoccer",
-
-  "logo": "assets/logos/north_america/porto_rico/Edusoc.png",
-
-  "stadium": {
-    "name": "Mayagüez Athletics Stadium",
-    "capacity": 12000
+    "teamKey": "Edusoc",
+  
+    "name": "DS Edusoccer",
+  
+    "logo": "assets/logos/north_america/porto_rico/Edusoc.png",
+  
+    "manager": {
+      "name": "David Guillemat",
+      "country": "ES"
+    },
+  
+    "stadium": {
+      "name": "Mayagüez Athletics Stadium",
+      "capacity": 12000
+    },
+  
+    "players": [
+      {"playerId": "player_pr1_002_01", "name": "Axel Burgos", "number": 1, "position": "GK", "country": "PR", "status": "starter"},
+      {"playerId": "player_pr1_002_02", "name": "Adrián Martínez", "number": 44, "position": "RB", "country": "PR", "status": "starter"},
+      {"playerId": "player_pr1_002_03", "name": "Gustavo Mangini", "number": 2, "position": "CB", "country": "PR", "status": "starter"},
+      {"playerId": "player_pr1_002_04", "name": "Joshua Calderón", "number": 18, "position": "CB", "country": "PR", "status": "starter"},
+      {"playerId": "player_pr1_002_05", "name": "Alexis Chaparro", "number": 66, "position": "LB", "country": "PR", "status": "starter"},
+      {"playerId": "player_pr1_002_06", "name": "Gustavo Báez", "number": 6, "position": "CM", "country": "PR", "status": "starter"},
+      {"playerId": "player_pr1_002_07", "name": "Gabriel Roldán", "number": 22, "position": "CM", "country": "US", "status": "starter"},
+      {"playerId": "player_pr1_002_08", "name": "George Pérez", "number": 19, "position": "RM", "country": "PR", "status": "starter"},
+      {"playerId": "player_pr1_002_09", "name": "Diego Santiago", "number": 10, "position": "LM", "country": "PR", "status": "starter"},
+      {"playerId": "player_pr1_002_10", "name": "Johniel Waters", "number": 7, "position": "ST", "country": "PR", "status": "starter"},
+      {"playerId": "player_pr1_002_11", "name": "Kevin Santana", "number": 9, "position": "ST", "country": "PR", "status": "starter"},
+  
+      {"playerId": "player_pr1_002_12", "name": "Reef Brain", "number": 27, "position": "GK", "country": "PR", "status": "bench"},
+      {"playerId": "player_pr1_002_13", "name": "Javier Álvarez", "number": 4, "position": "CB", "country": "PR", "status": "bench"},
+      {"playerId": "player_pr1_002_14", "name": "Jedysus Figueroa", "number": 15, "position": "CB", "country": "PR", "status": "bench"},
+      {"playerId": "player_pr1_002_15", "name": "Diego Hernández", "number": 17, "position": "CB", "country": "PR", "status": "bench"},
+      {"playerId": "player_pr1_002_16", "name": "Armando Girona", "number": 20, "position": "LB", "country": "PR", "status": "bench"},
+      {"playerId": "player_pr1_002_17", "name": "Fernando Guzmán", "number": 26, "position": "RB", "country": "PR", "status": "bench"},
+      {"playerId": "player_pr1_002_18", "name": "Diego Acevedo", "number": 5, "position": "CM", "country": "PR", "status": "bench"},
+      {"playerId": "player_pr1_002_19", "name": "Chistopher González", "number": 8, "position": "CM", "country": "PR", "status": "bench"},
+      {"playerId": "player_pr1_002_20", "name": "Yan Toro", "number": 3, "position": "CM", "country": "PR", "status": "bench"},
+      {"playerId": "player_pr1_002_21", "name": "Pedro Pérez", "number": 13, "position": "RW", "country": "US", "status": "bench"},
+  
+      {"playerId": "player_pr1_002_22", "name": "Sebastián Rodríguez", "number": 16, "position": "CB", "country": "PR", "status": "reserve"},
+      {"playerId": "player_pr1_002_23", "name": "Roberto Ruiz", "number": 14, "position": "CM", "country": "PR", "status": "reserve"},
+      {"playerId": "player_pr1_002_24", "name": "Emanuel Mosquera", "number": 24, "position": "ST", "country": "VE", "status": "reserve"},
+      {"playerId": "player_pr1_002_25", "name": "Yadxiel González", "number": 25, "position": "ST", "country": "PR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-4-2",
+      "captain": 22,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 19,
+        "cornerRight": 10
+      }
+    }
   }
-}
