@@ -1,12 +1,58 @@
 {
-  "teamKey": "Güemes",
-
-  "name": "CA Güemes",
-
-  "logo": "assets/logos/south_america/argentina/Guemes.png",
-
-  "stadium": {
-    "name": "Arturo Miranda",
-    "capacity": 12000
+    "teamKey": "Güemes",
+  
+    "name": "CA Güemes",
+  
+    "logo": "assets/logos/south_america/argentina/Guemes.png",
+  
+    "manager": {
+      "name": "Mario Gómez",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Arturo Miranda",
+      "capacity": 12000
+    },
+  
+    "players": [
+      {"playerId": "player_ar2_019_01", "name": "Juan Mendonça", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_019_02", "name": "Alan Pérez", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_019_03", "name": "Franco Torres", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_019_04", "name": "Nahuel Zárate", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_019_05", "name": "Alejandro Benítez", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_019_06", "name": "Matías Casa", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_019_07", "name": "Claudio Vega", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_019_08", "name": "Tomás Assennato", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_019_09", "name": "Agustín Bellone", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_019_10", "name": "Nicolás Juárez", "number": 11, "position": "LM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_019_11", "name": "Sebastián Cocimano", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ar2_019_12", "name": "Brian Bustos", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_019_13", "name": "Facundo Melivilo", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_019_14", "name": "Matías Escudero", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_019_15", "name": "Gonzalo Gamarra", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_019_16", "name": "Nicolás Retamar", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_019_17", "name": "Facundo Juárez", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_019_18", "name": "Franco García", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_019_19", "name": "Gonzalo Alarcón", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_019_20", "name": "Lautaro Belleggia", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_019_21", "name": "Lucas Cano", "number": 20, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ar2_019_22", "name": "Juan Pablo Noce", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_019_23", "name": "Hernán López", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_019_24", "name": "Enzo López", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_019_25", "name": "Agustín Lavezzi", "number": 27, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
