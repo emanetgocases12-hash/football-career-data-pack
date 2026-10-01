@@ -1,12 +1,58 @@
 {
-  "teamKey": "Vjvdna",
-
-  "name": "FK Vojvodina Novi Sad",
-
-  "logo": "assets/logos/europe/serbia/Vojvodina.png",
-
-  "stadium": {
-    "name": "Stadion Karadjordje",
-    "capacity": 14852
+    "teamKey": "Vjvdna",
+  
+    "name": "FK Vojvodina Novi Sad",
+  
+    "logo": "assets/logos/europe/serbia/Vojvodina.png",
+  
+    "manager": {
+      "name": "Marko Savić",
+      "country": "RS"
+    },
+  
+    "stadium": {
+      "name": "Stadion Karadjordje",
+      "capacity": 14852
+    },
+  
+    "players": [
+      {"playerId": "player_rs1_012_01", "name": "Matija Gočmanac", "number": 1, "position": "GK", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_012_02", "name": "Đorđe Crnomarković", "number": 2, "position": "RB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_012_03", "name": "Siniša Tanjga", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_012_04", "name": "Mihai Butean", "number": 5, "position": "CB", "country": "RO", "status": "starter"},
+      {"playerId": "player_rs1_012_05", "name": "Lucas Barros", "number": 3, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_rs1_012_06", "name": "Marko Poletanović", "number": 6, "position": "CDM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_012_07", "name": "Stefan Mitrović", "number": 8, "position": "CM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_012_08", "name": "Marko Veličković", "number": 7, "position": "RW", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_012_09", "name": "Dejan Zukić", "number": 10, "position": "CAM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_012_10", "name": "Marko Mladenović", "number": 11, "position": "LW", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_012_11", "name": "Aleksa Vukanović", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+  
+      {"playerId": "player_rs1_012_12", "name": "Dragan Rosić", "number": 12, "position": "GK", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_012_13", "name": "Kornél Szűcs", "number": 14, "position": "CB", "country": "HU", "status": "bench"},
+      {"playerId": "player_rs1_012_14", "name": "Hamza Redžić", "number": 15, "position": "RB", "country": "BA", "status": "bench"},
+      {"playerId": "player_rs1_012_15", "name": "Lazar Nikolić", "number": 16, "position": "LB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_012_16", "name": "Andrej Pivaš", "number": 17, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_012_17", "name": "Njegoš Petrović", "number": 18, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_012_18", "name": "Dragan Kokanović", "number": 19, "position": "RM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_012_19", "name": "Ifet Djakovac", "number": 20, "position": "LM", "country": "BA", "status": "bench"},
+      {"playerId": "player_rs1_012_20", "name": "Petar Sukačev", "number": 21, "position": "CAM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_012_21", "name": "Milan Kolarević", "number": 22, "position": "RW", "country": "RS", "status": "bench"},
+  
+      {"playerId": "player_rs1_012_22", "name": "Bogdan Bogdanović", "number": 30, "position": "GK", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_012_23", "name": "Milutin Vidosavljević", "number": 23, "position": "LW", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_012_24", "name": "Lazar Ranđelović", "number": 24, "position": "ST", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_012_25", "name": "Nardin Mulahusejnović", "number": 25, "position": "ST", "country": "BA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
