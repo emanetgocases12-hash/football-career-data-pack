@@ -1,12 +1,58 @@
 {
-  "teamKey": "Zlzncr",
-
-  "name": "FK Zeleznicar Pancevo",
-
-  "logo": "assets/logos/europe/serbia/Zeleznicar.png",
-
-  "stadium": {
-    "name": "SC Mladost Pančevo",
-    "capacity": 4000
+    "teamKey": "Zlzncr",
+  
+    "name": "FK Zeleznicar Pancevo",
+  
+    "logo": "assets/logos/europe/serbia/Zeleznicar.png",
+  
+    "manager": {
+      "name": "Radomir Koković",
+      "country": "RS"
+    },
+  
+    "stadium": {
+      "name": "SC Mladost Pančevo",
+      "capacity": 4000
+    },
+  
+    "players": [
+      {"playerId": "player_rs1_013_01", "name": "Zoran Popović", "number": 1, "position": "GK", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_013_02", "name": "B. Gee", "number": 2, "position": "RB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_rs1_013_03", "name": "C. Tchouante", "number": 4, "position": "CB", "country": "CM", "status": "starter"},
+      {"playerId": "player_rs1_013_04", "name": "N. Vidojević", "number": 5, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_013_05", "name": "M. Milikić", "number": 3, "position": "LB", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_013_06", "name": "V. Karajčić", "number": 6, "position": "CDM", "country": "FR", "status": "starter"},
+      {"playerId": "player_rs1_013_07", "name": "Miloš Pantović", "number": 8, "position": "CM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_013_08", "name": "T. Joseph", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_rs1_013_09", "name": "M. Ćurić", "number": 10, "position": "CAM", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_013_10", "name": "Luka Adžić", "number": 11, "position": "LW", "country": "RS", "status": "starter"},
+      {"playerId": "player_rs1_013_11", "name": "Simão Pedro", "number": 9, "position": "ST", "country": "AO", "status": "starter"},
+  
+      {"playerId": "player_rs1_013_12", "name": "N. Milićević", "number": 12, "position": "GK", "country": "BA", "status": "bench"},
+      {"playerId": "player_rs1_013_13", "name": "A. Yusif", "number": 14, "position": "CB", "country": "GH", "status": "bench"},
+      {"playerId": "player_rs1_013_14", "name": "A. Sawadogo", "number": 15, "position": "RB", "country": "CI", "status": "bench"},
+      {"playerId": "player_rs1_013_15", "name": "N. Đuričić", "number": 16, "position": "LB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_013_16", "name": "S. Obradović", "number": 17, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_013_17", "name": "U. Tegeltija", "number": 18, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_013_18", "name": "J. Jevremović", "number": 19, "position": "RM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_013_19", "name": "N. Zarić", "number": 20, "position": "LM", "country": "CH", "status": "bench"},
+      {"playerId": "player_rs1_013_20", "name": "Srđan Plavšić", "number": 21, "position": "CAM", "country": "RS", "status": "bench"},
+      {"playerId": "player_rs1_013_21", "name": "N. Jovanović", "number": 22, "position": "RW", "country": "RS", "status": "bench"},
+  
+      {"playerId": "player_rs1_013_22", "name": "M. Stevanović", "number": 30, "position": "GK", "country": "RS", "status": "reserve"},
+      {"playerId": "player_rs1_013_23", "name": "D. Ankeye", "number": 23, "position": "LW", "country": "NG", "status": "reserve"},
+      {"playerId": "player_rs1_013_24", "name": "Léo Agostinho", "number": 24, "position": "ST", "country": "BR", "status": "reserve"},
+      {"playerId": "player_rs1_013_25", "name": "K. Karikari", "number": 25, "position": "ST", "country": "GH", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
