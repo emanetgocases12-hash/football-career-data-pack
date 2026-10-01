@@ -1,12 +1,56 @@
-{
-  "teamKey": "S Lguna",
-
-  "name": "Santos Laguna",
-
-  "logo": "assets/logos/north_america/mexico/SLguna.png",
-
-  "stadium": {
-    "name": "Estadio Territorio Santos Modelo Corona",
-    "capacity": 29237
+ {
+    "teamKey": "S Lguna",
+  
+    "name": "Santos Laguna",
+  
+    "logo": "assets/logos/north_america/mexico/SLguna.png",
+  
+    "manager": {
+      "name": "Renato Paiva",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estadio Territorio Santos Modelo Corona",
+      "capacity": 29237
+    },
+  
+    "players": [
+      {"playerId": "player_mx1_014_01", "name": "Carlos Acevedo", "number": 1, "position": "GK", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_014_02", "name": "Juan Echilvestre", "number": 36, "position": "RB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_014_03", "name": "Bruno Amione", "number": 2, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_mx1_014_04", "name": "Mauricio Cuevas", "number": 3, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_014_05", "name": "Javier Abella", "number": 4, "position": "LB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_014_06", "name": "Aldo López", "number": 5, "position": "CDM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_014_07", "name": "Javier Güémez", "number": 6, "position": "CM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_014_08", "name": "Salvador Mariscal", "number": 8, "position": "CAM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_014_09", "name": "Ezequiel Bullaude", "number": 10, "position": "RW", "country": "AR", "status": "starter"},
+      {"playerId": "player_mx1_014_10", "name": "Efraín Orona", "number": 14, "position": "LW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_014_11", "name": "Diego González", "number": 7, "position": "ST", "country": "PY", "status": "starter"},
+      {"playerId": "player_mx1_014_12", "name": "Héctor Holguín", "number": 33, "position": "GK", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_014_13", "name": "Emmanuel Echeverría", "number": 17, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_014_14", "name": "Franco Pardo", "number": 18, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_mx1_014_15", "name": "Kevin Picón", "number": 22, "position": "LB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_014_16", "name": "Felipe Sánchez", "number": 25, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_014_17", "name": "Joshua Mancha", "number": 15, "position": "CM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_014_18", "name": "Esteban Lozano", "number": 20, "position": "CDM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_014_19", "name": "Fran Villalba", "number": 21, "position": "RW", "country": "ES", "status": "bench"},
+      {"playerId": "player_mx1_014_20", "name": "Facundo Cáseres", "number": 23, "position": "CAM", "country": "AR", "status": "bench"},
+      {"playerId": "player_mx1_014_21", "name": "Lucas Di Yorio", "number": 9, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_mx1_014_22", "name": "Diego Medina", "number": 24, "position": "LM", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx1_014_23", "name": "Ramiro Sordo", "number": 26, "position": "RM", "country": "AR", "status": "reserve"},
+      {"playerId": "player_mx1_014_24", "name": "Eduardo Aguirre", "number": 19, "position": "RW", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx1_014_25", "name": "Tahiel Jiménez", "number": 29, "position": "ST", "country": "MX", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 8
+      }
+    }
   }
-}
