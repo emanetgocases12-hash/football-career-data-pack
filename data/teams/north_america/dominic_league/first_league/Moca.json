@@ -1,12 +1,58 @@
 {
-  "teamKey": "Moca",
-
-  "name": "Moca FC",
-
-  "logo": "assets/logos/north_america/dominic/Moca.png",
-
-  "stadium": {
-    "name": "Estadio Complejo Deportivo Moca 85",
-    "capacity": 4000
+    "teamKey": "Moca",
+  
+    "name": "Moca FC",
+  
+    "logo": "assets/logos/north_america/dominic/Moca.png",
+  
+    "manager": {
+      "name": "Jean Carlos Güell",
+      "country": "VE"
+    },
+  
+    "stadium": {
+      "name": "Estadio Complejo Deportivo Moca 85",
+      "capacity": 4000
+    },
+  
+    "players": [
+      {"playerId": "player_do1_006_01", "name": "Mario Marte", "number": 1, "position": "GK", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_006_02", "name": "Rauly Martínez", "number": 2, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_006_03", "name": "Robertino Canavesio", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_do1_006_04", "name": "Samuel Pérez", "number": 5, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_006_05", "name": "Kelvin Durán", "number": 3, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_006_06", "name": "Richard Dabas", "number": 6, "position": "CDM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_006_07", "name": "Gilberto Junior Jiménez", "number": 8, "position": "CM", "country": "CO", "status": "starter"},
+      {"playerId": "player_do1_006_08", "name": "Jhonny Parima", "number": 7, "position": "CM", "country": "VE", "status": "starter"},
+      {"playerId": "player_do1_006_09", "name": "Pedro Martínez", "number": 10, "position": "RM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_006_10", "name": "Keudy Jiménez", "number": 11, "position": "RW", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_006_11", "name": "Yessy Mena", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+  
+      {"playerId": "player_do1_006_12", "name": "Pascual Ramírez", "number": 12, "position": "GK", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_006_13", "name": "Jefferson Murillo", "number": 14, "position": "LB", "country": "CO", "status": "bench"},
+      {"playerId": "player_do1_006_14", "name": "Lean Torres", "number": 15, "position": "LB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_006_15", "name": "Guillermo de Peña", "number": 16, "position": "RB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_006_16", "name": "José Francisco", "number": 17, "position": "RB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_006_17", "name": "Eduard Puga", "number": 18, "position": "CAM", "country": "CU", "status": "bench"},
+      {"playerId": "player_do1_006_18", "name": "Oliver Durán", "number": 19, "position": "CAM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_006_19", "name": "Tairon Rodríguez", "number": 20, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_006_20", "name": "Enrique de Jesús", "number": 21, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_006_21", "name": "Gustavo Azcona", "number": 22, "position": "ST", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_do1_006_22", "name": "Robinson Robert", "number": 30, "position": "GK", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_006_23", "name": "Yohan Parra", "number": 23, "position": "ST", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_006_24", "name": "Alex Rodriguez", "number": 24, "position": "CM", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_006_25", "name": "Sergio Ventura", "number": 25, "position": "ST", "country": "DO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 8
+      }
+    }
   }
-}
