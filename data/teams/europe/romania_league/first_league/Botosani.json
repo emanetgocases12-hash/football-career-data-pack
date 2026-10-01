@@ -1,12 +1,58 @@
 {
-  "teamKey": "Botosn",
-
-  "name": "FC Botosani",
-
-  "logo": "assets/logos/europe/romania/Botosani.png",
-
-  "stadium": {
-    "name": "Municipal Botoșani",
-    "capacity": 7782
+    "teamKey": "Botosn",
+  
+    "name": "FC Botosani",
+  
+    "logo": "assets/logos/europe/romania/Botosani.png",
+  
+    "manager": {
+      "name": "Marius Croitoru",
+      "country": "RO"
+    },
+  
+    "stadium": {
+      "name": "Municipal Botoșani",
+      "capacity": 7782
+    },
+  
+    "players": [
+      {"playerId": "player_ro1_002_01", "name": "Giannis Anestis", "number": 1, "position": "GK", "country": "GR", "status": "starter"},
+      {"playerId": "player_ro1_002_02", "name": "Răzvan Creț", "number": 2, "position": "RB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_002_03", "name": "Mamadou Diarra", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_ro1_002_04", "name": "Pape Djibril Diaw", "number": 5, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_ro1_002_05", "name": "Narcis Ilaș", "number": 3, "position": "LB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_002_06", "name": "Brian Bayeye", "number": 6, "position": "CDM", "country": "CD", "status": "starter"},
+      {"playerId": "player_ro1_002_07", "name": "Mihai Bordeianu", "number": 8, "position": "CM", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_002_08", "name": "Lucas de Vega", "number": 7, "position": "RW", "country": "ES", "status": "starter"},
+      {"playerId": "player_ro1_002_09", "name": "Roland Idowu", "number": 10, "position": "CAM", "country": "IE", "status": "starter"},
+      {"playerId": "player_ro1_002_10", "name": "Enriko Papa", "number": 11, "position": "LW", "country": "AL", "status": "starter"},
+      {"playerId": "player_ro1_002_11", "name": "Mykola Kovtalyuk", "number": 9, "position": "ST", "country": "UA", "status": "starter"},
+  
+      {"playerId": "player_ro1_002_12", "name": "Ionuț Gurău", "number": 12, "position": "GK", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_002_13", "name": "Miguel Muñoz", "number": 14, "position": "CB", "country": "ES", "status": "bench"},
+      {"playerId": "player_ro1_002_14", "name": "George Miron", "number": 15, "position": "RB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_002_15", "name": "Rijad Sadiku", "number": 16, "position": "LB", "country": "BA", "status": "bench"},
+      {"playerId": "player_ro1_002_16", "name": "Alexandru Țigănașu", "number": 17, "position": "CB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_002_17", "name": "John Petro", "number": 18, "position": "CM", "country": "MW", "status": "bench"},
+      {"playerId": "player_ro1_002_18", "name": "Ștefan Bodișteanu", "number": 19, "position": "RM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_002_19", "name": "Hervin Ongenda", "number": 20, "position": "LM", "country": "FR", "status": "bench"},
+      {"playerId": "player_ro1_002_20", "name": "Andrei Dumiter", "number": 21, "position": "CAM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_002_21", "name": "Sebastian Mailat", "number": 22, "position": "RW", "country": "RO", "status": "bench"},
+  
+      {"playerId": "player_ro1_002_22", "name": "D. Dincă", "number": 30, "position": "GK", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_002_23", "name": "Jovan Marković", "number": 23, "position": "LW", "country": "ME", "status": "reserve"},
+      {"playerId": "player_ro1_002_24", "name": "Zoran Mitrov", "number": 24, "position": "ST", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_002_25", "name": "Mario Preda", "number": 25, "position": "ST", "country": "RO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
