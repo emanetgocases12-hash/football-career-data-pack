@@ -1,12 +1,58 @@
 {
-  "teamKey": "UTA",
-
-  "name": "UTA Arad",
-
-  "logo": "assets/logos/europe/romania/UTA.png",
-
-  "stadium": {
-    "name": "Francisc von Neumann",
-    "capacity": 12584
+    "teamKey": "UTA",
+  
+    "name": "UTA Arad",
+  
+    "logo": "assets/logos/europe/romania/UTA.png",
+  
+    "manager": {
+      "name": "Adrian Mihalcea",
+      "country": "RO"
+    },
+  
+    "stadium": {
+      "name": "Francisc von Neumann",
+      "capacity": 12584
+    },
+  
+    "players": [
+      {"playerId": "player_ro1_015_01", "name": "Danylo Kucher", "number": 1, "position": "GK", "country": "UA", "status": "starter"},
+      {"playerId": "player_ro1_015_02", "name": "Valentin Borcea", "number": 2, "position": "RB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_015_03", "name": "Florent Poulolo", "number": 4, "position": "CB", "country": "MQ", "status": "starter"},
+      {"playerId": "player_ro1_015_04", "name": "Alexandru Benga", "number": 5, "position": "CB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_015_05", "name": "Diogo Rodrigues", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+      {"playerId": "player_ro1_015_06", "name": "Tiberiu Căpușă", "number": 6, "position": "CDM", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_015_07", "name": "Andrej Fabry", "number": 8, "position": "CM", "country": "SK", "status": "starter"},
+      {"playerId": "player_ro1_015_08", "name": "Cristian Mihai", "number": 7, "position": "RW", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_015_09", "name": "Marcelo Freitas", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_ro1_015_10", "name": "Claudiu Micovschi", "number": 11, "position": "LW", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_015_11", "name": "Denis Dumitrașcu", "number": 9, "position": "ST", "country": "RO", "status": "starter"},
+  
+      {"playerId": "player_ro1_015_12", "name": "Dejan Iliev", "number": 12, "position": "GK", "country": "MK", "status": "bench"},
+      {"playerId": "player_ro1_015_13", "name": "Marko Stolnik", "number": 14, "position": "CB", "country": "HR", "status": "bench"},
+      {"playerId": "player_ro1_015_14", "name": "Marius Tomozei", "number": 15, "position": "RB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_015_15", "name": "Răzvan Trif", "number": 16, "position": "LB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_015_16", "name": "Cornel Râpă", "number": 17, "position": "CB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_015_17", "name": "Valentin Costache", "number": 18, "position": "CM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_015_18", "name": "Eric Johana Omondi", "number": 19, "position": "RM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ro1_015_19", "name": "João Pedro", "number": 20, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_ro1_015_20", "name": "Rares Pop", "number": 21, "position": "CAM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_015_21", "name": "Aurelian Chițu", "number": 22, "position": "RW", "country": "RO", "status": "bench"},
+  
+      {"playerId": "player_ro1_015_22", "name": "Robert Popa", "number": 30, "position": "GK", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_015_23", "name": "Kevin Luckassen", "number": 23, "position": "LW", "country": "NL", "status": "reserve"},
+      {"playerId": "player_ro1_015_24", "name": "Karlo Lulić", "number": 24, "position": "ST", "country": "HR", "status": "reserve"},
+      {"playerId": "player_ro1_015_25", "name": "Andrezinho", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
