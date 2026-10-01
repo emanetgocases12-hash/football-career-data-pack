@@ -1,12 +1,58 @@
 {
-  "teamKey": "Tigre",
-
-  "name": "Club Atlético Tigre",
-
-  "logo": "assets/logos/south_america/argentina/Tigre.png",
-
-  "stadium": {
-    "name": "José Dellagiovanna",
-    "capacity": 26282
+    "teamKey": "Tigre",
+  
+    "name": "Club Atlético Tigre",
+  
+    "logo": "assets/logos/south_america/argentina/Tigre.png",
+  
+    "manager": {
+      "name": "Diego Dabove",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "José Dellagiovanna",
+      "capacity": 26282
+    },
+  
+    "players": [
+      {"playerId": "player_ar1_028_01", "name": "Felipe Zenobio", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_028_02", "name": "Juan Villalba", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_028_03", "name": "Guillermo Soto", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_028_04", "name": "Alan Barrionuevo", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_028_05", "name": "Ramón Arias", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_028_06", "name": "Gonzalo Martínez", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_028_07", "name": "Santiago López", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_028_08", "name": "Simón Rivero", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_028_09", "name": "Jabes Saralegui", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_028_10", "name": "Santiago González", "number": 11, "position": "LM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_028_11", "name": "Ian Subiabre", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ar1_028_12", "name": "Lautaro Morales", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_028_13", "name": "Nahuel Banegas", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_028_14", "name": "Joaquín Laso", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_028_15", "name": "Gonzalo Requena", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_028_16", "name": "Valentín Moreno", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_028_17", "name": "Tiago Serrago", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_028_18", "name": "Nicolás Dubersarsky", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_028_19", "name": "Bruno Leyes", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_028_20", "name": "Ignacio Russo", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_028_21", "name": "Mauro Méndez", "number": 20, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ar1_028_22", "name": "Santiago Rojas", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_028_23", "name": "Federico Álvarez", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_028_24", "name": "Jeronimo Dómina", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_028_25", "name": "Alfio Oviedo", "number": 27, "position": "ST", "country": "PY", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
