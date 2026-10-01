@@ -1,12 +1,58 @@
 {
-  "teamKey": "Roja",
-
-  "name": "Estrella Roja",
-
-  "logo": "assets/logos/north_america/honduras/Roja.png",
-
-  "stadium": {
-    "name": "Estadio Marcelo Tinoco",
-    "capacity":5000
+    "teamKey": "Roja",
+  
+    "name": "Estrella Roja",
+  
+    "logo": "assets/logos/north_america/honduras/Roja.png",
+  
+    "manager": {
+      "name": "Óscar Isaula",
+      "country": "HN"
+    },
+  
+    "stadium": {
+      "name": "Estadio Marcelo Tinoco",
+      "capacity": 5000
+    },
+  
+    "players": [
+      {"playerId": "player_hn1_012_01", "name": "Víctor Moreira", "number": 1, "position": "GK", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_012_02", "name": "Nahuel Luna", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_hn1_012_03", "name": "José Gutiérrez", "number": 4, "position": "CB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_012_04", "name": "Leonardo Juárez", "number": 5, "position": "CB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_012_05", "name": "Erick Rizo", "number": 3, "position": "LB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_012_06", "name": "Edilson Gómez", "number": 6, "position": "CDM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_012_07", "name": "Cristian Cálix", "number": 8, "position": "CM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_012_08", "name": "Reinieri Mayorquín", "number": 7, "position": "RW", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_012_09", "name": "Jarry Duarte", "number": 10, "position": "CAM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_012_10", "name": "Frelys López", "number": 11, "position": "ST", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_012_11", "name": "Brayan Castillo", "number": 9, "position": "LW", "country": "HN", "status": "starter"},
+  
+      {"playerId": "player_hn1_012_12", "name": "Jefferson Padilla", "number": 12, "position": "GK", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_012_13", "name": "Jared Velásquez", "number": 14, "position": "CB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_012_14", "name": "Brayan Rosales", "number": 15, "position": "RB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_012_15", "name": "Arnold Ávila", "number": 16, "position": "LB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_012_16", "name": "Didier Viveros", "number": 17, "position": "CB", "country": "CO", "status": "bench"},
+      {"playerId": "player_hn1_012_17", "name": "Edwin Munguía", "number": 18, "position": "LW", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_012_18", "name": "Pedro González", "number": 19, "position": "CM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_012_19", "name": "Maikel García", "number": 20, "position": "RM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_012_20", "name": "Óscar Rosales", "number": 21, "position": "LM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_012_21", "name": "José Ariel Carranza Valle", "number": 22, "position": "CAM", "country": "HN", "status": "bench"},
+  
+      {"playerId": "player_hn1_012_22", "name": "José Omar García Marín", "number": 30, "position": "GK", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_012_23", "name": "Kemsie Abbott", "number": 23, "position": "RW", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_012_24", "name": "Gerson Isaac Zúñiga Zelaya", "number": 24, "position": "ST", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_012_25", "name": "Misael Isaac Marín Colindres", "number": 25, "position": "ST", "country": "HN", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
