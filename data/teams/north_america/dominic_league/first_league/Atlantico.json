@@ -1,12 +1,58 @@
 {
-  "teamKey": "Atlánt",
-
-  "name": "Atlántico FC",
-
-  "logo": "assets/logos/north_america/dominic/Atlant.png",
-
-  "stadium": {
-    "name": "Estadio Leonel Plácido",
-    "capacity": 2000
+    "teamKey": "Atlánt",
+  
+    "name": "Atlántico FC",
+  
+    "logo": "assets/logos/north_america/dominic/Atlant.png",
+  
+    "manager": {
+      "name": "Andrés Giovanni García Duarte",
+      "country": "CO"
+    },
+  
+    "stadium": {
+      "name": "Estadio Leonel Plácido",
+      "capacity": 2000
+    },
+  
+    "players": [
+      {"playerId": "player_do1_001_01", "name": "Diego López", "number": 1, "position": "GK", "country": "CL", "status": "starter"},
+      {"playerId": "player_do1_001_02", "name": "Manaury González", "number": 2, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_001_03", "name": "Deny Louis", "number": 4, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_001_04", "name": "Raholy Mejía", "number": 5, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_001_05", "name": "Juan Figueroa", "number": 3, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_do1_001_06", "name": "Julián Andrés Bustos", "number": 6, "position": "CM", "country": "CO", "status": "starter"},
+      {"playerId": "player_do1_001_07", "name": "Starling Sena", "number": 8, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_001_08", "name": "Boris Morales", "number": 7, "position": "CM", "country": "PA", "status": "starter"},
+      {"playerId": "player_do1_001_09", "name": "Welkin Luis", "number": 10, "position": "CDM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_001_10", "name": "Érick Ozuna", "number": 11, "position": "LW", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_001_11", "name": "Mathews Tejeda", "number": 9, "position": "ST", "country": "DO", "status": "starter"},
+  
+      {"playerId": "player_do1_001_12", "name": "Andreysi Valerio", "number": 12, "position": "GK", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_001_13", "name": "Mauricio Arias", "number": 14, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_do1_001_14", "name": "Adrián Salcedo", "number": 15, "position": "RB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_001_15", "name": "Adrián Batista", "number": 16, "position": "RB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_001_16", "name": "José Rivera", "number": 17, "position": "LB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_001_17", "name": "Juan de la Cruz", "number": 18, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_001_18", "name": "Yulián Zayas", "number": 19, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_001_19", "name": "Kevin Contreras", "number": 20, "position": "CAM", "country": "VE", "status": "bench"},
+      {"playerId": "player_do1_001_20", "name": "Samil de la Rosa", "number": 21, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_001_21", "name": "Darly Batista", "number": 22, "position": "RW", "country": "DO", "status": "bench"},
+  
+      {"playerId": "player_do1_001_22", "name": "Michael Lebron", "number": 30, "position": "GK", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_001_23", "name": "Kevin Villamizar", "number": 23, "position": "RW", "country": "CO", "status": "reserve"},
+      {"playerId": "player_do1_001_24", "name": "José Rubirosa", "number": 24, "position": "ST", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_001_25", "name": "Luis Francisco", "number": 25, "position": "ST", "country": "DO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 6,
+        "cornerLeft": 6,
+        "cornerRight": 6
+      }
+    }
   }
-}
