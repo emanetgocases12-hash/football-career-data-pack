@@ -1,12 +1,58 @@
 {
-  "teamKey": "O&M FC",
-
-  "name": "Universidad O&M FC",
-
-  "logo": "assets/logos/north_america/dominic/OMFC.png",
-
-  "stadium": {
-    "name": "Estadio Olímpico Félix Sánchez",
-    "capacity": 27000
+    "teamKey": "O&M FC",
+  
+    "name": "Universidad O&M FC",
+  
+    "logo": "assets/logos/north_america/dominic/OMFC.png",
+  
+    "manager": {
+      "name": "Andrés Urán",
+      "country": "CO"
+    },
+  
+    "stadium": {
+      "name": "Estadio Olímpico Félix Sánchez",
+      "capacity": 27000
+    },
+  
+    "players": [
+      {"playerId": "player_do1_007_01", "name": "Gerald Villar", "number": 1, "position": "GK", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_007_02", "name": "Kleffer Martes", "number": 2, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_007_03", "name": "Hansley Martínez", "number": 4, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_007_04", "name": "Daniel Montoya", "number": 5, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_007_05", "name": "Yoan Melo", "number": 3, "position": "RB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_007_06", "name": "Víctor Villar", "number": 6, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_007_07", "name": "Andrés Jiménez", "number": 8, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_007_08", "name": "Ángel Montes de Oca", "number": 7, "position": "CAM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_007_09", "name": "Emmanuel Cuello", "number": 10, "position": "CAM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_007_10", "name": "Fraimy Lapaix", "number": 11, "position": "ST", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_007_11", "name": "Josué Báez", "number": 9, "position": "ST", "country": "DO", "status": "starter"},
+  
+      {"playerId": "player_do1_007_12", "name": "Omry Bello", "number": 12, "position": "GK", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_007_13", "name": "Reyvin de la Rosa", "number": 14, "position": "RB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_007_14", "name": "Angel Melo Jiménez", "number": 15, "position": "LB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_007_15", "name": "Jayson Made", "number": 16, "position": "LB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_007_16", "name": "Francisco Ortega", "number": 17, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_do1_007_17", "name": "Simón Cuello", "number": 18, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_007_18", "name": "Gabriel Castillo", "number": 19, "position": "CAM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_007_19", "name": "Sergio Paredes", "number": 20, "position": "CAM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_007_20", "name": "Ricardo Sánchez", "number": 21, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_007_21", "name": "Camilo Monroy", "number": 22, "position": "CM", "country": "DO", "status": "bench"},
+  
+      {"playerId": "player_do1_007_22", "name": "W. Paulino", "number": 30, "position": "GK", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_007_23", "name": "Júnior Capellán", "number": 23, "position": "ST", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_007_24", "name": "Diego Almonte", "number": 24, "position": "LW", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_007_25", "name": "Luis Sabala", "number": 25, "position": "ST", "country": "DO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 6,
+        "cornerLeft": 6,
+        "cornerRight": 6
+      }
+    }
   }
-}
