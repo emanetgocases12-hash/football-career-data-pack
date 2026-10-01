@@ -1,12 +1,44 @@
 {
-  "teamKey": "UMECIT",
-
-  "name": "UMECIT FC",
-
-  "logo": "assets/logos/north_america/panama/Umecit.png",
-
-  "stadium": {
-    "name": "Estadio Futuras Promesas",
-    "capacity": 1200
+    "teamKey": "UMECIT",
+    "name": "UMECIT FC",
+    "logo": "assets/logos/north_america/panama/Umecit.png",
+    "manager": {"name": "Julio Infante", "country": "PA"},
+    "stadium": {"name": "Estadio Futuras Promesas", "capacity": 1200},
+    "players": [
+      {"playerId": "player_pa1_011_01", "name": "David Almengor", "number": 1, "position": "GK", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_011_02", "name": "Emmanuel Chanis", "number": 23, "position": "CB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_011_03", "name": "Jesús Delgado", "number": 3, "position": "CB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_011_04", "name": "Emmanuel Gómez", "number": 10, "position": "LB", "country": "NI", "status": "starter"},
+      {"playerId": "player_pa1_011_05", "name": "Andrés Palmezano", "number": 22, "position": "RB", "country": "CO", "status": "starter"},
+      {"playerId": "player_pa1_011_06", "name": "Rolando Batista", "number": 8, "position": "CDM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_011_07", "name": "Ronaldo Ford", "number": 14, "position": "CM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_011_08", "name": "Dwann Oliveira", "number": 92, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_pa1_011_09", "name": "Erick Rodríguez", "number": 11, "position": "LW", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_011_10", "name": "Hilberto Peralta", "number": 7, "position": "RW", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_011_11", "name": "Javier Murillo", "number": 9, "position": "ST", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_011_12", "name": "Celino Hinojosa", "number": 30, "position": "GK", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_011_13", "name": "Jesús Araya", "number": 26, "position": "LB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_011_14", "name": "Alberto García", "number": 27, "position": "LB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_011_15", "name": "Michael Casazola", "number": 62, "position": "RB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_011_16", "name": "Carlos Noville", "number": 2, "position": "RB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_011_17", "name": "Jacinto Fuentes", "number": 6, "position": "CDM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_011_18", "name": "Josafath Livingston", "number": 15, "position": "CM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_011_19", "name": "Nicholas Anderson", "number": 70, "position": "CM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_011_20", "name": "Ober Almanza", "number": 21, "position": "CM", "country": "CO", "status": "bench"},
+      {"playerId": "player_pa1_011_21", "name": "Alcides Díaz", "number": 77, "position": "CAM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_011_22", "name": "Andrick Edwards", "number": 17, "position": "ST", "country": "PA", "status": "reserve"},
+      {"playerId": "player_pa1_011_23", "name": "Alberto Saldaña", "number": 19, "position": "ST", "country": "PA", "status": "reserve"},
+      {"playerId": "player_pa1_011_24", "name": "Leonardo Becerra", "number": 29, "position": "ST", "country": "VE", "status": "reserve"},
+      {"playerId": "player_pa1_011_25", "name": "Ángel Cárdenas", "number": 33, "position": "GK", "country": "PA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 92,
+        "cornerLeft": 92,
+        "cornerRight": 11
+      }
+    }
   }
-}
