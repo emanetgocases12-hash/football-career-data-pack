@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bulo",
-
-  "name": "San Antonio Bulo Bulo",
-
-  "logo": "assets/logos/south_america/bolivia/Bulo.png",
-
-  "stadium": {
-    "name": "Estadio Carlos Villegas de Entre Ríos",
-    "capacity": 17000
+    "teamKey": "Bulo",
+  
+    "name": "San Antonio Bulo Bulo",
+  
+    "logo": "assets/logos/south_america/bolivia/Bulo.png",
+  
+    "manager": {
+      "name": "Juan Cortés",
+      "country": "ES"
+    },
+  
+    "stadium": {
+      "name": "Estadio Carlos Villegas de Entre Ríos",
+      "capacity": 17000
+    },
+  
+    "players": [
+      {"playerId": "player_bo1_004_01", "name": "Luca Giossa", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+      {"playerId": "player_bo1_004_02", "name": "Líder Yanarico", "number": 14, "position": "CB", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_004_03", "name": "Huberth Sánchez", "number": 25, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_bo1_004_04", "name": "Jaime Villamíl", "number": 30, "position": "LB", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_004_05", "name": "Ronald Bustos", "number": 31, "position": "RB", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_004_06", "name": "Cristhian Machado", "number": 15, "position": "CDM", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_004_07", "name": "Julio Herrera", "number": 7, "position": "CM", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_004_08", "name": "Adalid Terrazas", "number": 10, "position": "CAM", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_004_09", "name": "Andrés Córdoba", "number": 11, "position": "LW", "country": "CO", "status": "starter"},
+      {"playerId": "player_bo1_004_10", "name": "Hugo Cardoso", "number": 16, "position": "RW", "country": "CV", "status": "starter"},
+      {"playerId": "player_bo1_004_11", "name": "Rafael Menacho", "number": 18, "position": "ST", "country": "BO", "status": "starter"},
+  
+      {"playerId": "player_bo1_004_12", "name": "Lucas Galarza", "number": 22, "position": "GK", "country": "PY", "status": "bench"},
+      {"playerId": "player_bo1_004_13", "name": "César Romero", "number": 26, "position": "CB", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_004_14", "name": "Pablo Vaca", "number": 24, "position": "CB", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_004_15", "name": "Yonathan Cabral", "number": 3, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_bo1_004_16", "name": "Ramiro Ballivián", "number": 21, "position": "RB", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_004_17", "name": "Kevin Merida", "number": 8, "position": "CM", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_004_18", "name": "Diego Mercado", "number": 6, "position": "CM", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_004_19", "name": "Juan Magallanes", "number": 33, "position": "CM", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_004_20", "name": "Alexi Medina", "number": 13, "position": "RW", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_004_21", "name": "Marcelo De Lima", "number": 19, "position": "ST", "country": "BO", "status": "bench"},
+  
+      {"playerId": "player_bo1_004_22", "name": "Alejandro Polo", "number": 2, "position": "CB", "country": "BO", "status": "reserve"},
+      {"playerId": "player_bo1_004_23", "name": "Saulo Guerra", "number": 17, "position": "RM", "country": "BO", "status": "reserve"},
+      {"playerId": "player_bo1_004_24", "name": "José Briceño", "number": 32, "position": "ST", "country": "BO", "status": "reserve"},
+      {"playerId": "player_bo1_004_25", "name": "Rodrigo Vargas", "number": 20, "position": "ST", "country": "BO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
