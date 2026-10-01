@@ -1,12 +1,56 @@
 {
-  "teamKey": "Monter",
-
-  "name": "CF Monterrey",
-
-  "logo": "assets/logos/north_america/mexico/Monter.png",
-
-  "stadium": {
-    "name": "Estadio BBVA",
-    "capacity": 53500
+    "teamKey": "Monter",
+  
+    "name": "CF Monterrey",
+  
+    "logo": "assets/logos/north_america/mexico/Monter.png",
+  
+    "manager": {
+      "name": "Matías Almeyda",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Estadio BBVA",
+      "capacity": 53500
+    },
+  
+    "players": [
+      {"playerId": "player_mx1_008_01", "name": "Esteban Andrada", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_mx1_008_02", "name": "Ricardo Chávez", "number": 2, "position": "RB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_008_03", "name": "Gerardo Arteaga", "number": 3, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_008_04", "name": "Víctor Guzmán", "number": 4, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_008_05", "name": "Carlos Salcedo", "number": 13, "position": "LB", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_008_06", "name": "Fidel Ambríz", "number": 5, "position": "CDM", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_008_07", "name": "Lucas Ocampos", "number": 7, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_mx1_008_08", "name": "Óliver Torres", "number": 8, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_mx1_008_09", "name": "Diego Rossi", "number": 9, "position": "RW", "country": "UY", "status": "starter"},
+      {"playerId": "player_mx1_008_10", "name": "Iker Fimbres", "number": 11, "position": "LW", "country": "MX", "status": "starter"},
+      {"playerId": "player_mx1_008_11", "name": "Luca Orellano", "number": 10, "position": "ST", "country": "AR", "status": "starter"},
+      {"playerId": "player_mx1_008_12", "name": "Luis Cárdenas", "number": 22, "position": "GK", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_008_13", "name": "Alonso Aceves", "number": 19, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_008_14", "name": "Luis Reyes", "number": 21, "position": "RB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_008_15", "name": "Stefan Medina", "number": 33, "position": "LB", "country": "CO", "status": "bench"},
+      {"playerId": "player_mx1_008_16", "name": "César Bustos", "number": 34, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_008_17", "name": "Érick Aguirre", "number": 14, "position": "CM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_008_18", "name": "Jesús Corona", "number": 17, "position": "CDM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_008_19", "name": "César Garza", "number": 18, "position": "RW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_008_20", "name": "Orbelín Pineda", "number": 25, "position": "CAM", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_008_21", "name": "Roberto de la Rosa", "number": 27, "position": "LW", "country": "MX", "status": "bench"},
+      {"playerId": "player_mx1_008_22", "name": "Jorge Rodríguez", "number": 30, "position": "LM", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx1_008_23", "name": "Sebastián Rodríguez", "number": 35, "position": "RM", "country": "MX", "status": "reserve"},
+      {"playerId": "player_mx1_008_24", "name": "Uros Djurdjevic", "number": 32, "position": "RW", "country": "ME", "status": "reserve"},
+      {"playerId": "player_mx1_008_25", "name": "Hugo Cuypers", "number": 99, "position": "ST", "country": "BE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 8
+      }
+    }
   }
-}
