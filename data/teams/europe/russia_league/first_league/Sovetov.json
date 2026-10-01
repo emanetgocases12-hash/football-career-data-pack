@@ -1,12 +1,58 @@
 {
-  "teamKey": "Kry Svtv",
-
-  "name": "Krylya Sovetov Samara",
-
-  "logo": "assets/logos/europe/russia/Sovetov.png",
-
-  "stadium": {
-    "name": "Solidarnost Samara Arena",
-    "capacity": 42347
+    "teamKey": "Kry Svtv",
+  
+    "name": "Krylya Sovetov Samara",
+  
+    "logo": "assets/logos/europe/russia/Sovetov.png",
+  
+    "manager": {
+      "name": "Magomed Adiyev",
+      "country": "RU"
+    },
+  
+    "stadium": {
+      "name": "Solidarnost Samara Arena",
+      "capacity": 42347
+    },
+  
+    "players": [
+      {"playerId": "player_ru1_014_01", "name": "Ivan Lomayev", "number": 1, "position": "GK", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_014_02", "name": "Roman Evgenyev", "number": 2, "position": "RB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_014_03", "name": "Aleksandr Soldatenkov", "number": 4, "position": "CB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_014_04", "name": "Nikolay Rasskazov", "number": 5, "position": "CB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_014_05", "name": "Yuri Gorshkov", "number": 3, "position": "LB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_014_06", "name": "Amar Rahmanović", "number": 6, "position": "CDM", "country": "BA", "status": "starter"},
+      {"playerId": "player_ru1_014_07", "name": "Sergey Babkin", "number": 8, "position": "CM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_014_08", "name": "Aleksandr Kovalenko", "number": 7, "position": "RW", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_014_09", "name": "Dmitriy Ivanisenya", "number": 10, "position": "CAM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ru1_014_10", "name": "Franco Orozco", "number": 11, "position": "LW", "country": "AR", "status": "starter"},
+      {"playerId": "player_ru1_014_11", "name": "Vladislav Shitov", "number": 9, "position": "ST", "country": "RU", "status": "starter"},
+  
+      {"playerId": "player_ru1_014_12", "name": "Sergey Pesyakov", "number": 12, "position": "GK", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_014_13", "name": "Glenn Bijl", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
+      {"playerId": "player_ru1_014_14", "name": "Fernando Costanza", "number": 15, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_ru1_014_15", "name": "Ilya Gaponov", "number": 16, "position": "LB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_014_16", "name": "Nikita Chernov", "number": 17, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_014_17", "name": "Maksim Vityugov", "number": 18, "position": "CM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_014_18", "name": "Danil Prutsev", "number": 19, "position": "RM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_014_19", "name": "Denis Yakuba", "number": 20, "position": "LM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_014_20", "name": "Nikita Saltykov", "number": 21, "position": "CAM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_014_21", "name": "Ivan Sergeev", "number": 22, "position": "RW", "country": "RU", "status": "bench"},
+  
+      {"playerId": "player_ru1_014_22", "name": "Evgeniy Frolov", "number": 30, "position": "GK", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_014_23", "name": "Benjamin Garré", "number": 23, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ru1_014_24", "name": "Kazbek Mukailov", "number": 24, "position": "ST", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_014_25", "name": "Maksim Glushenkov Jr.", "number": 25, "position": "ST", "country": "RU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
