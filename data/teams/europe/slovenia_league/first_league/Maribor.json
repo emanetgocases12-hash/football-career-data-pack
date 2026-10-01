@@ -1,12 +1,58 @@
 {
-  "teamKey": "Maribo",
-
-  "name": "NK Maribor",
-
-  "logo": "assets/logos/europe/slovenia/Maribor.png",
-
-  "stadium": {
-    "name": "Ljudski Vrt",
-    "capacity": 11709
+    "teamKey": "Maribo",
+  
+    "name": "NK Maribor",
+  
+    "logo": "assets/logos/europe/slovenia/Maribor.png",
+  
+    "manager": {
+      "name": "Darko Milanič",
+      "country": "SI"
+    },
+  
+    "stadium": {
+      "name": "Ljudski Vrt",
+      "capacity": 11709
+    },
+  
+    "players": [
+      {"playerId": "player_si1_006_01", "name": "Ažbe Jug", "number": 1, "position": "GK", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_006_02", "name": "Bradley M'Bondo", "number": 2, "position": "RB", "country": "FR", "status": "starter"},
+      {"playerId": "player_si1_006_03", "name": "Omar Rekik", "number": 4, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_si1_006_04", "name": "Lan Vidmar", "number": 5, "position": "CB", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_006_05", "name": "Čedomir Bumbić", "number": 3, "position": "LB", "country": "AT", "status": "starter"},
+      {"playerId": "player_si1_006_06", "name": "Žan Jevšenak", "number": 6, "position": "CDM", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_006_07", "name": "Óscar Zambrano", "number": 8, "position": "CM", "country": "EC", "status": "starter"},
+      {"playerId": "player_si1_006_08", "name": "Claude Gonçalves", "number": 7, "position": "RW", "country": "CV", "status": "starter"},
+      {"playerId": "player_si1_006_09", "name": "Žiga Repas", "number": 10, "position": "CAM", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_006_10", "name": "Isaac Tshipamba", "number": 11, "position": "ST", "country": "CD", "status": "starter"},
+      {"playerId": "player_si1_006_11", "name": "Luka Zahović", "number": 9, "position": "LW", "country": "SI", "status": "starter"},
+  
+      {"playerId": "player_si1_006_12", "name": "Ivan Lainović", "number": 12, "position": "GK", "country": "RS", "status": "bench"},
+      {"playerId": "player_si1_006_13", "name": "James Furlong", "number": 14, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_si1_006_14", "name": "Mark Španring", "number": 15, "position": "RB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_006_15", "name": "Miha Blažič", "number": 16, "position": "LB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_006_16", "name": "Žan Karničnik", "number": 17, "position": "CB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_006_17", "name": "Jean Michaël Seri", "number": 18, "position": "LW", "country": "CI", "status": "bench"},
+      {"playerId": "player_si1_006_18", "name": "Tio Cipot", "number": 19, "position": "CM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_006_19", "name": "Nejc Viher", "number": 20, "position": "RM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_006_20", "name": "György Komáromi", "number": 21, "position": "LM", "country": "HU", "status": "bench"},
+      {"playerId": "player_si1_006_21", "name": "Timon Kikec", "number": 22, "position": "CAM", "country": "SI", "status": "bench"},
+  
+      {"playerId": "player_si1_006_22", "name": "Téva Gardies", "number": 30, "position": "GK", "country": "MG", "status": "reserve"},
+      {"playerId": "player_si1_006_23", "name": "Dario Vizinger", "number": 23, "position": "RW", "country": "HR", "status": "reserve"},
+      {"playerId": "player_si1_006_24", "name": "Jan Mlakar", "number": 24, "position": "ST", "country": "SI", "status": "reserve"},
+      {"playerId": "player_si1_006_25", "name": "Behar Feta", "number": 25, "position": "ST", "country": "MK", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
