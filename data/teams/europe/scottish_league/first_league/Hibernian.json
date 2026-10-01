@@ -1,12 +1,58 @@
 {
-  "teamKey": "Hibern",
-
-  "name": "Hibernian FC",
-
-  "logo": "assets/logos/europe/scottish/Hibernian.png",
-
-  "stadium": {
-    "name": "Easter Road Stadium",
-    "capacity": 20250
+    "teamKey": "Hibern",
+  
+    "name": "Hibernian FC",
+  
+    "logo": "assets/logos/europe/scottish/Hibernian.png",
+  
+    "manager": {
+      "name": "Marink Reedijk",
+      "country": "NL"
+    },
+  
+    "stadium": {
+      "name": "Easter Road Stadium",
+      "capacity": 20250
+    },
+  
+    "players": [
+      {"playerId": "player_sct1_007_01", "name": "Jordan Smith", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sct1_007_02", "name": "Lewis Miller", "number": 2, "position": "RB", "country": "AU", "status": "starter"},
+      {"playerId": "player_sct1_007_03", "name": "Warren O'Hora", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
+      {"playerId": "player_sct1_007_04", "name": "Rocky Bushiri", "number": 5, "position": "CB", "country": "CD", "status": "starter"},
+      {"playerId": "player_sct1_007_05", "name": "Jack Iredale", "number": 3, "position": "LB", "country": "AU", "status": "starter"},
+      {"playerId": "player_sct1_007_06", "name": "Joe Newell", "number": 6, "position": "CDM", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sct1_007_07", "name": "Dylan Levitt", "number": 8, "position": "CM", "country": "GB-WLS", "status": "starter"},
+      {"playerId": "player_sct1_007_08", "name": "Josh Campbell", "number": 7, "position": "RW", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_007_09", "name": "Nicky Cadden", "number": 10, "position": "CAM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_007_10", "name": "Miguel Chaiwa", "number": 11, "position": "LW", "country": "ZM", "status": "starter"},
+      {"playerId": "player_sct1_007_11", "name": "Martin Boyle", "number": 9, "position": "ST", "country": "AU", "status": "starter"},
+  
+      {"playerId": "player_sct1_007_12", "name": "Josef Bursik", "number": 12, "position": "GK", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sct1_007_13", "name": "Jordan Obita", "number": 14, "position": "CB", "country": "UG", "status": "bench"},
+      {"playerId": "player_sct1_007_14", "name": "Rudi Molotnikov", "number": 15, "position": "RB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_007_15", "name": "Chris Cadden", "number": 16, "position": "LB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_007_16", "name": "Marvin Ekpiteta", "number": 17, "position": "CB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sct1_007_17", "name": "Junior Hoilett", "number": 18, "position": "CM", "country": "CA", "status": "bench"},
+      {"playerId": "player_sct1_007_18", "name": "Elie Youan", "number": 19, "position": "RM", "country": "FR", "status": "bench"},
+      {"playerId": "player_sct1_007_19", "name": "Thody Elie Youan", "number": 20, "position": "LM", "country": "FR", "status": "bench"},
+      {"playerId": "player_sct1_007_20", "name": "Jamie McGrath", "number": 21, "position": "CAM", "country": "IE", "status": "bench"},
+      {"playerId": "player_sct1_007_21", "name": "Kieron Bowie", "number": 22, "position": "RW", "country": "GB-SCT", "status": "bench"},
+  
+      {"playerId": "player_sct1_007_22", "name": "Murray Johnson", "number": 30, "position": "GK", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct1_007_23", "name": "Dylan Vente", "number": 23, "position": "LW", "country": "NL", "status": "reserve"},
+      {"playerId": "player_sct1_007_24", "name": "Mykola Kukharevych", "number": 24, "position": "ST", "country": "UA", "status": "reserve"},
+      {"playerId": "player_sct1_007_25", "name": "Rudi Allan", "number": 25, "position": "ST", "country": "GB-SCT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
