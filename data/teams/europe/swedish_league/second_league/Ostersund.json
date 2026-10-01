@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ösund",
-
-  "name": "Östersunds FK",
-
-  "logo": "assets/logos/europe/swedish/Ostersund.png",
-
-  "stadium": {
-    "name": "Jämtkraft Arena",
-    "capacity": 8466
+    "teamKey": "Ösund",
+  
+    "name": "Östersunds FK",
+  
+    "logo": "assets/logos/europe/swedish/Ostersund.png",
+  
+    "manager": {
+      "name": "Magnus Powell",
+      "country": "NO"
+    },
+  
+    "stadium": {
+      "name": "Jämtkraft Arena",
+      "capacity": 8466
+    },
+  
+    "players": [
+      {"playerId": "player_se2_012_01", "name": "Aly Keita", "number": 1, "position": "GK", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_012_02", "name": "Chrisnovic N'Sa", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_012_03", "name": "Ali Suljic", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_012_04", "name": "Mykola Musolitin", "number": 5, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_012_05", "name": "Jakob Hedenquist", "number": 3, "position": "LB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_012_06", "name": "Simon Kroon Jr.", "number": 6, "position": "CDM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_012_07", "name": "Erick Brendon", "number": 8, "position": "CM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_012_08", "name": "Nebiyou Perry", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_012_09", "name": "Simon Marklund", "number": 10, "position": "CAM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_012_10", "name": "Ahmed Awad", "number": 11, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_012_11", "name": "Malcolm Stolt", "number": 9, "position": "LW", "country": "SE", "status": "starter"},
+  
+      {"playerId": "player_se2_012_12", "name": "Andrew Mills", "number": 12, "position": "GK", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_012_13", "name": "Cesar Weilid", "number": 14, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_012_14", "name": "Yannick Adjoumani Jr.", "number": 15, "position": "RB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_012_15", "name": "Ahmed Bonnah III", "number": 16, "position": "LB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_012_16", "name": "Simon Kroon", "number": 17, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_012_17", "name": "Calvin Kabuye", "number": 18, "position": "LW", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_012_18", "name": "Jamie Hopcutt", "number": 19, "position": "CM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_012_19", "name": "Sebastian Karlsson Grach Jr.", "number": 20, "position": "RM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_012_20", "name": "Isak Jönsson Jr.", "number": 21, "position": "LM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_012_21", "name": "Albin Winbo", "number": 22, "position": "CAM", "country": "SE", "status": "bench"},
+  
+      {"playerId": "player_se2_012_22", "name": "Oliver Bergström", "number": 30, "position": "GK", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_012_23", "name": "Frank Arhin", "number": 23, "position": "RW", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_012_24", "name": "Noah Sonko Sundberg", "number": 24, "position": "ST", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_012_25", "name": "Alexander Henningsson", "number": 25, "position": "ST", "country": "SE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
