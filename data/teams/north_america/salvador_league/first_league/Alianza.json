@@ -1,12 +1,35 @@
 {
-  "teamKey": "Alinza",
-
-  "name": "Alianza FC",
-
-  "logo": "assets/logos/north_america/salvador/Alinza.png",
-
-  "stadium": {
-    "name": "Estadio Cuscatlán",
-    "capacity": 53400
+    "teamKey": "Alinza",
+    "name": "Alianza FC",
+    "logo": "assets/logos/north_america/salvador/Alinza.png",
+    "manager": {"name": "Roberto Pompei", "country": "AR"},
+    "stadium": {"name": "Estadio Cuscatlán", "capacity": 53400},
+    "players": [
+      {"playerId": "player_sv1_002_01", "name": "Marlon Joya", "number": 1, "position": "GK", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_002_02", "name": "Bryan Tamacas", "number": 2, "position": "RB", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_002_03", "name": "Henry Romero", "number": 16, "position": "CB", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_002_04", "name": "Bryan Soriano", "number": 4, "position": "CB", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_002_05", "name": "Alejandro Henríquez", "number": 20, "position": "LB", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_002_06", "name": "Narciso Orellana", "number": 6, "position": "CDM", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_002_07", "name": "Harold Osorio", "number": 12, "position": "CM", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_002_08", "name": "Leonardo Menjívar", "number": 10, "position": "CAM", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_002_09", "name": "Francis Castillo", "number": 17, "position": "LW", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_002_10", "name": "Juan Carlos Portillo", "number": 11, "position": "RW", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_002_11", "name": "Gustavo Souza", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_sv1_002_12", "name": "Rodrigo Lazo", "number": 25, "position": "GK", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_002_13", "name": "Jairo Soriano", "number": 5, "position": "CB", "country": "GT", "status": "bench"},
+      {"playerId": "player_sv1_002_14", "name": "Marlon Viafara", "number": 19, "position": "CB", "country": "CO", "status": "bench"},
+      {"playerId": "player_sv1_002_15", "name": "Nelson Rodríguez", "number": 21, "position": "LB", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_002_16", "name": "Willian Flores", "number": 23, "position": "LB", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_002_17", "name": "Emerson Hernández", "number": 29, "position": "RB", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_002_18", "name": "Matías Mier", "number": 7, "position": "LM", "country": "UY", "status": "bench"},
+      {"playerId": "player_sv1_002_19", "name": "Noel Rivera", "number": 26, "position": "LW", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_002_20", "name": "Juan Monteagudo", "number": 8, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_sv1_002_21", "name": "José Barreto", "number": 18, "position": "ST", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_002_22", "name": "Daniel Franco", "number": 36, "position": "GK", "country": "SV", "status": "reserve"},
+      {"playerId": "player_sv1_002_23", "name": "Jafet Soriano", "number": 14, "position": "CB", "country": "SV", "status": "reserve"},
+      {"playerId": "player_sv1_002_24", "name": "Diego Bigueur", "number": 15, "position": "CM", "country": "SV", "status": "reserve"},
+      {"playerId": "player_sv1_002_25", "name": "Moris Aguirre", "number": 24, "position": "CM", "country": "SV", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 1, "setPieces": {"penalty": 9, "freeKick": 10, "cornerLeft": 10, "cornerRight": 11}}
   }
-}
