@@ -1,12 +1,44 @@
 {
-  "teamKey": "CDPlaz",
-
-  "name": "CD Plaza Amador",
-
-  "logo": "assets/logos/north_america/panama/CDPlaz.png",
-
-  "stadium": {
-    "name": "COS Sports Plaza",
-    "capacity": 1100
+    "teamKey": "CDPlaz",
+    "name": "CD Plaza Amador",
+    "logo": "assets/logos/north_america/panama/CDPlaz.png",
+    "manager": {"name": "Mario Méndez", "country": "PA"},
+    "stadium": {"name": "COS Sports Plaza", "capacity": 1100},
+    "players": [
+      {"playerId": "player_pa1_003_01", "name": "Samuel Castañeda", "number": 1, "position": "GK", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_003_02", "name": "Jimar Sánchez", "number": 4, "position": "CB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_003_03", "name": "Francisco Córdoba", "number": 5, "position": "CB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_003_04", "name": "Éric Davis", "number": 31, "position": "LB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_003_05", "name": "Omar Córdoba", "number": 3, "position": "RB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_003_06", "name": "Abdul Knight", "number": 14, "position": "CDM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_003_07", "name": "José Murillo", "number": 20, "position": "CM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_003_08", "name": "Ricardo Buitrago", "number": 10, "position": "CAM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_003_09", "name": "Ricardo Phillips", "number": 11, "position": "LW", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_003_10", "name": "Alberto Quintero", "number": 19, "position": "RW", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_003_11", "name": "Gianni Cagua", "number": 9, "position": "ST", "country": "EC", "status": "starter"},
+      {"playerId": "player_pa1_003_12", "name": "Marcos Allen", "number": 23, "position": "GK", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_003_13", "name": "Joseph Pacheco", "number": 48, "position": "LB", "country": "CO", "status": "bench"},
+      {"playerId": "player_pa1_003_14", "name": "Jafet Taivez", "number": 43, "position": "CDM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_003_15", "name": "Anel Ryce", "number": 30, "position": "CDM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_003_16", "name": "Daivis Murillo", "number": 2, "position": "CM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_003_17", "name": "Joel Lara", "number": 6, "position": "CM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_003_18", "name": "Yoameth Murillo", "number": 15, "position": "CAM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_003_19", "name": "Angel Valencia", "number": 16, "position": "CAM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_003_20", "name": "Rudy Yearwood", "number": 17, "position": "CAM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_003_21", "name": "Ovidio Lopez", "number": 29, "position": "LW", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_003_22", "name": "Kairo Walters", "number": 22, "position": "RW", "country": "PA", "status": "reserve"},
+      {"playerId": "player_pa1_003_23", "name": "Jorlian Sánchez", "number": 18, "position": "ST", "country": "PA", "status": "reserve"},
+      {"playerId": "player_pa1_003_24", "name": "Everardo Rose", "number": 21, "position": "ST", "country": "PA", "status": "reserve"},
+      {"playerId": "player_pa1_003_25", "name": "Héctor Ríos", "number": 27, "position": "ST", "country": "PA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
