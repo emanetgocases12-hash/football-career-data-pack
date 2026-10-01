@@ -1,12 +1,58 @@
 {
-  "teamKey": "CD Estud",
-
-  "name": "CA Estudiantes",
-
-  "logo": "assets/logos/south_america/argentina/CDEstud.png",
-
-  "stadium": {
-    "name": "Ciudad de Caseros",
-    "capacity": 16740
+    "teamKey": "CD Estud",
+  
+    "name": "CA Estudiantes",
+  
+    "logo": "assets/logos/south_america/argentina/CDEstud.png",
+  
+    "manager": {
+      "name": "Walter Otta",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Ciudad de Caseros",
+      "capacity": 16740
+    },
+  
+    "players": [
+      {"playerId": "player_ar2_008_01", "name": "Matías Budiño", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_008_02", "name": "Nicolás Fernández", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_008_03", "name": "Valentín Perales", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_008_04", "name": "Jonathan Berón", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_008_05", "name": "Matías Lugo", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_008_06", "name": "Tomás Bolzicco", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_008_07", "name": "Sebastián Mayorga", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_008_08", "name": "Facundo Castelli", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_008_09", "name": "Fernando Miranda", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_008_10", "name": "Matías Villarreal", "number": 11, "position": "LM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_008_11", "name": "Mateo Acosta", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ar2_008_12", "name": "Lucas Bruera", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_008_13", "name": "Iván Zafarana", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_008_14", "name": "Lautaro Amade", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_008_15", "name": "Nicolás Pelaitay", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_008_16", "name": "Franco Lonardi", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_008_17", "name": "Enzo Acosta", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_008_18", "name": "Alan Cantero", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_008_19", "name": "Lucas Oviedo", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_008_20", "name": "Lautaro Parisi", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_008_21", "name": "Elías Contreras", "number": 20, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ar2_008_22", "name": "Tomás Giménez", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_008_23", "name": "Santiago Briñone", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_008_24", "name": "Santiago Valenzuela", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_008_25", "name": "Gonzalo Berterame", "number": 27, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
