@@ -1,12 +1,58 @@
 {
-  "teamKey": "Harkiv",
-
-  "name": "FC Kharkiv",
-
-  "logo": "assets/logos/europe/ukrain/Harkiv.png",
-
-  "stadium": {
-    "name": "Arena Livyi Bereg",
-    "capacity": 4700
+    "teamKey": "Harkiv",
+  
+    "name": "FC Kharkiv",
+  
+    "logo": "assets/logos/europe/ukrain/Harkiv.png",
+  
+    "manager": {
+      "name": "Mladen Bartulović",
+      "country": "HR"
+    },
+  
+    "stadium": {
+      "name": "Arena Livyi Bereg",
+      "capacity": 4700
+    },
+  
+    "players": [
+      {"playerId": "player_ua1_007_01", "name": "Mykyta Honcharov", "number": 1, "position": "GK", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_007_02", "name": "Valerii Dubko", "number": 2, "position": "RB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_007_03", "name": "Ihor Hrybenyk", "number": 4, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_007_04", "name": "Illia Krupskyi", "number": 5, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_007_05", "name": "Oleksandr Martyniuk", "number": 3, "position": "LB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_007_06", "name": "Denys Antiukh", "number": 6, "position": "CDM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_007_07", "name": "Joseph Nikolas Arevalo Chaparro", "number": 8, "position": "CM", "country": "CO", "status": "starter"},
+      {"playerId": "player_ua1_007_08", "name": "Cauan Matteo Baptistella", "number": 7, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_ua1_007_09", "name": "Ramik Hadzhyiev", "number": 10, "position": "CAM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_007_10", "name": "Ivan Bahrii", "number": 11, "position": "ST", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_007_11", "name": "Mykhailo Baida", "number": 9, "position": "LW", "country": "UA", "status": "starter"},
+  
+      {"playerId": "player_ua1_007_12", "name": "Yaroslav Protsenko", "number": 12, "position": "GK", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_007_13", "name": "Yevhen Pavliuk", "number": 14, "position": "CB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_007_14", "name": "Volodymyr Saliuk", "number": 15, "position": "RB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_007_15", "name": "Artem Shabanov", "number": 16, "position": "LB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_007_16", "name": "Artem Smoliakov", "number": 17, "position": "CB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_007_17", "name": "Ivan Kaliuzhnyi", "number": 18, "position": "LW", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_007_18", "name": "Igor Kogut", "number": 19, "position": "CM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_007_19", "name": "Rafael Profini", "number": 20, "position": "RM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ua1_007_20", "name": "Ermir Rashytsia", "number": 21, "position": "LM", "country": "AL", "status": "bench"},
+      {"playerId": "player_ua1_007_21", "name": "Matvii Panchenko", "number": 22, "position": "CAM", "country": "UA", "status": "bench"},
+  
+      {"playerId": "player_ua1_007_22", "name": "Maksym Solovei", "number": 30, "position": "GK", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_007_23", "name": "Peter Mandela Itodo", "number": 23, "position": "RW", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ua1_007_24", "name": "Yaroslav Karpizin", "number": 24, "position": "ST", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_007_25", "name": "Carlos Miguel Paraco Honsales", "number": 25, "position": "ST", "country": "VE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
