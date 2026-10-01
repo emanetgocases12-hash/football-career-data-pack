@@ -1,12 +1,58 @@
 {
-  "teamKey": "All Bys",
-
-  "name": "CA All Boys",
-
-  "logo": "assets/logos/south_america/argentina/AllBys.png",
-
-  "stadium": {
-    "name": "Islas Malvinas",
-    "capacity": 21500
+    "teamKey": "All Bys",
+  
+    "name": "CA All Boys",
+  
+    "logo": "assets/logos/south_america/argentina/AllBys.png",
+  
+    "manager": {
+      "name": "Fabián Nardozza",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Islas Malvinas",
+      "capacity": 21500
+    },
+  
+    "players": [
+      {"playerId": "player_ar2_004_01", "name": "Nicolás Carrizo", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_004_02", "name": "Alejo Tabares", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_004_03", "name": "Hernán Grana", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_004_04", "name": "Maximiliano Coronel", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_004_05", "name": "Alejo Rodríguez", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_004_06", "name": "Matías Rodríguez", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_004_07", "name": "Ignacio Palacio", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_004_08", "name": "Luciano Leguizamón", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_004_09", "name": "Gabriel Ramírez", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_004_10", "name": "Alexis Melo", "number": 11, "position": "LM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_004_11", "name": "Lucas Cano", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ar2_004_12", "name": "Juan Pablo Noce", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_004_13", "name": "Franco Quiroz", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_004_14", "name": "Iván Zafarana", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_004_15", "name": "Yago De Vito", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_004_16", "name": "Felipe Coronel", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_004_17", "name": "Gustavo Turraca", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_004_18", "name": "Ignacio Figueroa", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_004_19", "name": "Ariel Torres", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_004_20", "name": "Ulises Delgado", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_004_21", "name": "Santiago Apa", "number": 20, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ar2_004_22", "name": "Lisandro Mitre", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_004_23", "name": "Emiliano Purita", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_004_24", "name": "Matías Nouet", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_004_25", "name": "Nicolás Barrientos", "number": 27, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
