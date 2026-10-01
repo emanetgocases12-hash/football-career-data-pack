@@ -1,12 +1,58 @@
 {
-  "teamKey": "I Toron",
-
-  "name": "Inter Toronto FC",
-
-  "logo": "assets/logos/north_america/canada/IToron.png",
-
-  "stadium": {
-    "name": "York Lions Stadium",
-    "capacity": 4000
+    "teamKey": "I Toron",
+  
+    "name": "Inter Toronto FC",
+  
+    "logo": "assets/logos/north_america/canada/IToron.png",
+  
+    "manager": {
+      "name": "Mauro Eustáquio",
+      "country": "CA"
+    },
+  
+    "stadium": {
+      "name": "York Lions Stadium",
+      "capacity": 4000
+    },
+  
+    "players": [
+      {"playerId": "player_ca1_004_01", "name": "Ivan Pavela", "number": 1, "position": "GK", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_004_02", "name": "Raúl López", "number": 2, "position": "RB", "country": "MX", "status": "starter"},
+      {"playerId": "player_ca1_004_03", "name": "Carlos Guzmán", "number": 4, "position": "CB", "country": "MX", "status": "starter"},
+      {"playerId": "player_ca1_004_04", "name": "Juan Córdova", "number": 5, "position": "CB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_004_05", "name": "Luke Singh", "number": 3, "position": "LB", "country": "TT", "status": "starter"},
+      {"playerId": "player_ca1_004_06", "name": "Ollie Bassett", "number": 6, "position": "CDM", "country": "GB-NIR", "status": "starter"},
+      {"playerId": "player_ca1_004_07", "name": "Steffen Yeates", "number": 8, "position": "CM", "country": "TT", "status": "starter"},
+      {"playerId": "player_ca1_004_08", "name": "Kembo Kibato", "number": 7, "position": "RW", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_004_09", "name": "Luca Accettola", "number": 10, "position": "CAM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_004_10", "name": "Béni Badibanga", "number": 11, "position": "ST", "country": "CD", "status": "starter"},
+      {"playerId": "player_ca1_004_11", "name": "Sebastián Gonzales", "number": 9, "position": "LW", "country": "PE", "status": "starter"},
+  
+      {"playerId": "player_ca1_004_12", "name": "Kai Campos", "number": 12, "position": "GK", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_004_13", "name": "Oswaldo León", "number": 14, "position": "CB", "country": "MX", "status": "bench"},
+      {"playerId": "player_ca1_004_14", "name": "Frank Sturing", "number": 15, "position": "RB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_004_15", "name": "Alexander Bergman", "number": 16, "position": "LB", "country": "EE", "status": "bench"},
+      {"playerId": "player_ca1_004_16", "name": "Nicolas Andrada", "number": 17, "position": "CB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_004_17", "name": "Jessé Nicolás Costa", "number": 18, "position": "LW", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_004_18", "name": "Max Ferrari", "number": 19, "position": "CM", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_004_19", "name": "Anthony Umanzor", "number": 20, "position": "RM", "country": "SV", "status": "bench"},
+      {"playerId": "player_ca1_004_20", "name": "Gabriel Walid Bitar", "number": 21, "position": "LM", "country": "LB", "status": "bench"},
+      {"playerId": "player_ca1_004_21", "name": "Ty Clarke", "number": 22, "position": "CAM", "country": "VC", "status": "bench"},
+  
+      {"playerId": "player_ca1_004_22", "name": "Michael Williams", "number": 30, "position": "GK", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_004_23", "name": "Tomasz Skublak", "number": 23, "position": "RW", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_004_24", "name": "Julian Altobelli", "number": 24, "position": "ST", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_004_25", "name": "Ariel Almagro", "number": 25, "position": "ST", "country": "EC", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
