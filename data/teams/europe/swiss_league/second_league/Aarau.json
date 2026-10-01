@@ -1,12 +1,58 @@
 {
-  "teamKey": "Aarau",
-
-  "name": "FC Aarau",
-
-  "logo": "assets/logos/europe/swiss/Aarau.png",
-
-  "stadium": {
-    "name": "Stadion Brügglifeld",
-    "capacity": 8450
+    "teamKey": "Aarau",
+  
+    "name": "FC Aarau",
+  
+    "logo": "assets/logos/europe/swiss/Aarau.png",
+  
+    "manager": {
+      "name": "Brunello Iacopetta",
+      "country": "CH"
+    },
+  
+    "stadium": {
+      "name": "Stadion Brügglifeld",
+      "capacity": 8450
+    },
+  
+    "players": [
+      {"playerId": "player_ch2_001_01", "name": "Andreas Hirzel", "number": 1, "position": "GK", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_001_02", "name": "Marco Thaler", "number": 2, "position": "RB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_001_03", "name": "Ramon Guzzo", "number": 4, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_001_04", "name": "Jasper van der Werff", "number": 5, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_001_05", "name": "Binjamin Hasani", "number": 3, "position": "LB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_001_06", "name": "Olivier Jäckle", "number": 6, "position": "CDM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_001_07", "name": "Bastien Gjorgjev", "number": 8, "position": "CM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_001_08", "name": "David Acquah", "number": 7, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_ch2_001_09", "name": "Kastriot Ndau", "number": 10, "position": "CAM", "country": "XK", "status": "starter"},
+      {"playerId": "player_ch2_001_10", "name": "Zidan Tairi", "number": 11, "position": "LW", "country": "MK", "status": "starter"},
+      {"playerId": "player_ch2_001_11", "name": "Shkelqim Vladi", "number": 9, "position": "ST", "country": "XK", "status": "starter"},
+  
+      {"playerId": "player_ch2_001_12", "name": "Melvin Frei", "number": 12, "position": "GK", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_001_13", "name": "Eliah Jordan", "number": 14, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_001_14", "name": "Berdan Senyurt", "number": 15, "position": "RB", "country": "TR", "status": "bench"},
+      {"playerId": "player_ch2_001_15", "name": "Damjan Ćorić", "number": 16, "position": "LB", "country": "HR", "status": "bench"},
+      {"playerId": "player_ch2_001_16", "name": "Tomislav Arković", "number": 17, "position": "CB", "country": "HR", "status": "bench"},
+      {"playerId": "player_ch2_001_17", "name": "Mamadou Fofana", "number": 18, "position": "CM", "country": "ML", "status": "bench"},
+      {"playerId": "player_ch2_001_18", "name": "Nikola Gjorgjev", "number": 19, "position": "RM", "country": "MK", "status": "bench"},
+      {"playerId": "player_ch2_001_19", "name": "Noel Wetz", "number": 20, "position": "LM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_001_20", "name": "Nuno da Silva", "number": 21, "position": "CAM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_001_21", "name": "Henri Koide", "number": 22, "position": "RW", "country": "CH", "status": "bench"},
+  
+      {"playerId": "player_ch2_001_22", "name": "Luka Veličković", "number": 30, "position": "GK", "country": "RS", "status": "reserve"},
+      {"playerId": "player_ch2_001_23", "name": "Roko Baturina", "number": 23, "position": "LW", "country": "HR", "status": "reserve"},
+      {"playerId": "player_ch2_001_24", "name": "Nishan Burkart", "number": 24, "position": "ST", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_001_25", "name": "Milosavljević Aleksandar", "number": 25, "position": "ST", "country": "RS", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
