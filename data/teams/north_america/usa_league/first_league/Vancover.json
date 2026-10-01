@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/north_america/usa/Vancover.png",
 
+  "manager": {
+    "name": "Jesper Sørensen",
+    "country": "DK"
+  },
+
   "stadium": {
     "name": "BC Place",
     "capacity": 54500
+  },
+
+  "players": [
+    {"playerId": "player_us1_030_01", "name": "Yohei Takaoka", "number": 1, "position": "GK", "country": "JP", "status": "starter"},
+    {"playerId": "player_us1_030_02", "name": "Mathías Laborda", "number": 2, "position": "RB", "country": "UY", "status": "starter"},
+    {"playerId": "player_us1_030_03", "name": "Ranko Veselinović", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+    {"playerId": "player_us1_030_04", "name": "Tristan Blackmon", "number": 6, "position": "CB", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_030_05", "name": "Sam Adekugbe", "number": 3, "position": "LB", "country": "CA", "status": "starter"},
+    {"playerId": "player_us1_030_06", "name": "Andrés Cubas", "number": 20, "position": "CDM", "country": "PY", "status": "starter"},
+    {"playerId": "player_us1_030_07", "name": "Sebastian Berhalter", "number": 16, "position": "CM", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_030_08", "name": "Ryan Gauld", "number": 25, "position": "CAM", "country": "GB-SCT", "status": "starter"},
+    {"playerId": "player_us1_030_09", "name": "Ali Ahmed", "number": 22, "position": "RW", "country": "CA", "status": "starter"},
+    {"playerId": "player_us1_030_10", "name": "Fafà Picault", "number": 11, "position": "LW", "country": "HT", "status": "starter"},
+    {"playerId": "player_us1_030_11", "name": "Brian White", "number": 24, "position": "ST", "country": "US", "status": "starter"},
+
+    {"playerId": "player_us1_030_12", "name": "Isaac Boehmer", "number": 32, "position": "GK", "country": "CA", "status": "bench"},
+    {"playerId": "player_us1_030_13", "name": "Belal Halbouni", "number": 12, "position": "CB", "country": "CA", "status": "bench"},
+    {"playerId": "player_us1_030_14", "name": "Bjorn Inge Utvik", "number": 15, "position": "CB", "country": "NO", "status": "bench"},
+    {"playerId": "player_us1_030_15", "name": "Ryan Raposo", "number": 7, "position": "LB", "country": "CA", "status": "bench"},
+    {"playerId": "player_us1_030_16", "name": "Pedro Vite", "number": 45, "position": "CM", "country": "EC", "status": "bench"},
+    {"playerId": "player_us1_030_17", "name": "Ralph Priso", "number": 13, "position": "CDM", "country": "CA", "status": "bench"},
+    {"playerId": "player_us1_030_18", "name": "Damir Kreilach", "number": 19, "position": "CAM", "country": "HR", "status": "bench"},
+    {"playerId": "player_us1_030_19", "name": "Levonte Johnson", "number": 28, "position": "LW", "country": "CA", "status": "bench"},
+    {"playerId": "player_us1_030_20", "name": "Deiber Caicedo", "number": 23, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_us1_030_21", "name": "Emmanuel Sabbi", "number": 21, "position": "RW", "country": "US", "status": "bench"},
+
+    {"playerId": "player_us1_030_22", "name": "Giuseppe Bovalina", "number": 27, "position": "RB", "country": "AU", "status": "reserve"},
+    {"playerId": "player_us1_030_23", "name": "Edier Ocampo", "number": 18, "position": "RB", "country": "CO", "status": "reserve"},
+    {"playerId": "player_us1_030_24", "name": "Jayden Nelson", "number": 8, "position": "LW", "country": "CA", "status": "reserve"},
+    {"playerId": "player_us1_030_25", "name": "Max Anchor", "number": 50, "position": "GK", "country": "CA", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 25,
+    "setPieces": {
+      "penalty": 24,
+      "freeKick": 25,
+      "cornerLeft": 25,
+      "cornerRight": 22
+    }
   }
 }
