@@ -1,12 +1,58 @@
 {
-  "teamKey": "K'Pdlsyk",
-
-  "name": "Epicentr Kamyanets-Podilskyi",
-
-  "logo": "assets/logos/europe/ukrain/Epitsentr.png",
-
-  "stadium": {
-    "name": "Stadion im. G. Tonkocheyeva",
-    "capacity": 2587
+    "teamKey": "K'Pdlsyk",
+  
+    "name": "Epicentr Kamyanets-Podilskyi",
+  
+    "logo": "assets/logos/europe/ukrain/Epitsentr.png",
+  
+    "manager": {
+      "name": "Serhii Nahorniak",
+      "country": "UA"
+    },
+  
+    "stadium": {
+      "name": "Stadion im. G. Tonkocheyeva",
+      "capacity": 2587
+    },
+  
+    "players": [
+      {"playerId": "player_ua1_006_01", "name": "Oleh Bilyk", "number": 1, "position": "GK", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_006_02", "name": "Oleksandr Bilyi", "number": 2, "position": "RB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_006_03", "name": "Andrii Boiko", "number": 4, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_006_04", "name": "Danylo Boiko", "number": 5, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_006_05", "name": "Nil Coch Montaña", "number": 3, "position": "LB", "country": "ES", "status": "starter"},
+      {"playerId": "player_ua1_006_06", "name": "Ivan Bendera", "number": 6, "position": "CDM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_006_07", "name": "Jon Ceberio Mutuberria", "number": 8, "position": "CM", "country": "ES", "status": "starter"},
+      {"playerId": "player_ua1_006_08", "name": "Dmytro Chernenko", "number": 7, "position": "RW", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_006_09", "name": "Renat Chubov", "number": 10, "position": "CAM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_006_10", "name": "Mykhailo Melnyk", "number": 11, "position": "ST", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_006_11", "name": "Arsenii Rostkivskyi", "number": 9, "position": "LW", "country": "UA", "status": "starter"},
+  
+      {"playerId": "player_ua1_006_12", "name": "Nikita Fedotov", "number": 12, "position": "GK", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_006_13", "name": "Vitalii Horin", "number": 14, "position": "CB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_006_14", "name": "Marko Hratsiian", "number": 15, "position": "RB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_006_15", "name": "Ihor Kyriukhantsev", "number": 16, "position": "LB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_006_16", "name": "Vladyslav Moroz", "number": 17, "position": "CB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_006_17", "name": "Oleksandr Hrizdak", "number": 18, "position": "LW", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_006_18", "name": "Zakhar Khameliuk", "number": 19, "position": "CM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_006_19", "name": "Andrii Lipovuz", "number": 20, "position": "RM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_006_20", "name": "Mykola Myroniuk", "number": 21, "position": "LM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_006_21", "name": "Carlos Humberto Rojas Mosquera", "number": 22, "position": "CAM", "country": "ES", "status": "bench"},
+  
+      {"playerId": "player_ua1_006_22", "name": "Kostiantyn Omelianenko", "number": 30, "position": "GK", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_006_23", "name": "Dmytro Rzhypianskyi", "number": 23, "position": "RW", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_006_24", "name": "Artem Kozak", "number": 24, "position": "ST", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_006_25", "name": "Valerii Luchkevich", "number": 25, "position": "ST", "country": "UA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
