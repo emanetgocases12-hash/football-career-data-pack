@@ -1,12 +1,58 @@
 {
-  "teamKey": "Kdrvka",
-
-  "name": "FC Kudrivka",
-
-  "logo": "assets/logos/europe/ukrain/Kudrivka.png",
-
-  "stadium": {
-    "name": "Stadion Avangard",
-    "capacity": 7122
+    "teamKey": "Kdrvka",
+  
+    "name": "FC Kudrivka",
+  
+    "logo": "assets/logos/europe/ukrain/Kudrivka.png",
+  
+    "manager": {
+      "name": "Yevhen Zadorozhnii",
+      "country": "UA"
+    },
+  
+    "stadium": {
+      "name": "Stadion Avangard",
+      "capacity": 7122
+    },
+  
+    "players": [
+      {"playerId": "player_ua1_011_01", "name": "Kyrylo Lavuta", "number": 1, "position": "GK", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_011_02", "name": "Vladyslav Dziuba", "number": 2, "position": "RB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_011_03", "name": "Vladyslav Hromskyi", "number": 4, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_011_04", "name": "Artem Krainyk", "number": 5, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_011_05", "name": "Maksym Melnychuk", "number": 3, "position": "LB", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_011_06", "name": "Artur Dumaniuk", "number": 6, "position": "CDM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_011_07", "name": "Nikita Honcharov", "number": 8, "position": "CM", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_011_08", "name": "Mykhailo Hopkalo", "number": 7, "position": "RW", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_011_09", "name": "Faites-Prevu Kaya Makosso", "number": 10, "position": "CAM", "country": "CG", "status": "starter"},
+      {"playerId": "player_ua1_011_10", "name": "Anton Demchenko", "number": 11, "position": "ST", "country": "UA", "status": "starter"},
+      {"playerId": "player_ua1_011_11", "name": "Artem Hrabilin", "number": 9, "position": "LW", "country": "UA", "status": "starter"},
+  
+      {"playerId": "player_ua1_011_12", "name": "Mykhailo Kulyk", "number": 12, "position": "GK", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_011_13", "name": "Mykola Oharkov", "number": 14, "position": "CB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_011_14", "name": "Arsen Bilinskyi", "number": 15, "position": "RB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_011_15", "name": "Yurii Potimkov", "number": 16, "position": "LB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_011_16", "name": "Bohdan Vekliak", "number": 17, "position": "CB", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_011_17", "name": "Oleksandr Korniienko", "number": 18, "position": "LW", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_011_18", "name": "Hordii Koval", "number": 19, "position": "CM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_011_19", "name": "Oleksii Kucherenko", "number": 20, "position": "RM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_011_20", "name": "Vitalii Kuhutiak", "number": 21, "position": "LM", "country": "UA", "status": "bench"},
+      {"playerId": "player_ua1_011_21", "name": "Oleksandr Kuts", "number": 22, "position": "CAM", "country": "UA", "status": "bench"},
+  
+      {"playerId": "player_ua1_011_22", "name": "Ivan Martynov", "number": 30, "position": "GK", "country": "UA", "status": "reserve"},
+      {"playerId": "player_ua1_011_23", "name": "Raymond Frimpong Owusu", "number": 23, "position": "RW", "country": "GH", "status": "reserve"},
+      {"playerId": "player_ua1_011_24", "name": "Isiaka Saheed Abdulazeez", "number": 24, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ua1_011_25", "name": "Yevhenii Smyrnyi", "number": 25, "position": "ST", "country": "UA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
