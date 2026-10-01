@@ -1,12 +1,58 @@
 {
-  "teamKey": "Örgryt",
-
-  "name": "Örgryte IS",
-
-  "logo": "assets/logos/europe/swedish/Orgrtye.png",
-
-  "stadium": {
-    "name": "Gamla Ullevi",
-    "capacity": 18454
+    "teamKey": "Örgryt",
+  
+    "name": "Örgryte IS",
+  
+    "logo": "assets/logos/europe/swedish/Orgrtye.png",
+  
+    "manager": {
+      "name": "Andreas Holmberg",
+      "country": "SE"
+    },
+  
+    "stadium": {
+      "name": "Gamla Ullevi",
+      "capacity": 18454
+    },
+  
+    "players": [
+      {"playerId": "player_se1_014_01", "name": "Mathias Nilsson", "number": 1, "position": "GK", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_014_02", "name": "M. Parker", "number": 2, "position": "RB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_se1_014_03", "name": "Jonathan Azulay", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_014_04", "name": "Christoffer Styffe", "number": 5, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_014_05", "name": "Mikael Dyrestam", "number": 3, "position": "LB", "country": "GN", "status": "starter"},
+      {"playerId": "player_se1_014_06", "name": "C. Vindehall", "number": 6, "position": "CDM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_014_07", "name": "B. Laturnus", "number": 8, "position": "CM", "country": "CA", "status": "starter"},
+      {"playerId": "player_se1_014_08", "name": "R. Alm", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_014_09", "name": "Daniel Paulson", "number": 10, "position": "CAM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_014_10", "name": "L. Andersson", "number": 11, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_014_11", "name": "D. Obou", "number": 9, "position": "LW", "country": "GB-ENG", "status": "starter"},
+  
+      {"playerId": "player_se1_014_12", "name": "Alex Rahm", "number": 12, "position": "GK", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_014_13", "name": "Hampus Dahlqvist", "number": 14, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_014_14", "name": "A. Andersson", "number": 15, "position": "RB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_014_15", "name": "Anton Andreasson", "number": 16, "position": "LB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_014_16", "name": "C. Javette", "number": 17, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_014_17", "name": "W. Kenndal", "number": 18, "position": "LW", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_014_18", "name": "Tobias Sana", "number": 19, "position": "CM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_014_19", "name": "O. Parker-Price", "number": 20, "position": "RM", "country": "NZ", "status": "bench"},
+      {"playerId": "player_se1_014_20", "name": "D. Hodzic", "number": 21, "position": "LM", "country": "XK", "status": "bench"},
+      {"playerId": "player_se1_014_21", "name": "A. Abukar", "number": 22, "position": "CAM", "country": "SO", "status": "bench"},
+  
+      {"playerId": "player_se1_014_22", "name": "Hampus Gustafsson", "number": 30, "position": "GK", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se1_014_23", "name": "J. Tibbling Ugwo", "number": 23, "position": "RW", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se1_014_24", "name": "W. Hofvander", "number": 24, "position": "ST", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se1_014_25", "name": "V. Ekblom", "number": 25, "position": "ST", "country": "SE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
