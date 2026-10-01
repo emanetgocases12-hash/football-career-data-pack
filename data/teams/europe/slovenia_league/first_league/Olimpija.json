@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ljublj",
-
-  "name": "NK Olimpija Ljubljana",
-
-  "logo": "assets/logos/europe/slovenia/Olimpija.png",
-
-  "stadium": {
-    "name": "Stadion Stožice",
-    "capacity": 16038
+    "teamKey": "Ljublj",
+  
+    "name": "NK Olimpija Ljubljana",
+  
+    "logo": "assets/logos/europe/slovenia/Olimpija.png",
+  
+    "manager": {
+      "name": "Jugoslav Trenchovski",
+      "country": "MK"
+    },
+  
+    "stadium": {
+      "name": "Stadion Stožice",
+      "capacity": 16038
+    },
+  
+    "players": [
+      {"playerId": "player_si1_009_01", "name": "Matevž Vidovšek", "number": 1, "position": "GK", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_009_02", "name": "Jošt Urbančič", "number": 2, "position": "RB", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_009_03", "name": "Luis Perea Hernandez", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_si1_009_04", "name": "Bruno Miguel Ponces Lourenço", "number": 5, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_si1_009_05", "name": "Kristjan Bendra", "number": 3, "position": "LB", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_009_06", "name": "Dimitar Mitrovski", "number": 6, "position": "CDM", "country": "MK", "status": "starter"},
+      {"playerId": "player_si1_009_07", "name": "Agustin Doffo", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_si1_009_08", "name": "Marko Brest", "number": 7, "position": "RW", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_009_09", "name": "Diogo Miguel Guedes De Almeida", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_si1_009_10", "name": "Marvin Cuni", "number": 11, "position": "ST", "country": "AL", "status": "starter"},
+      {"playerId": "player_si1_009_11", "name": "Dino Kojić", "number": 9, "position": "LW", "country": "HR", "status": "starter"},
+  
+      {"playerId": "player_si1_009_12", "name": "Denis Pintol", "number": 12, "position": "GK", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_009_13", "name": "Marko Ristić", "number": 14, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_si1_009_14", "name": "Daviti Kobouri", "number": 15, "position": "RB", "country": "GE", "status": "bench"},
+      {"playerId": "player_si1_009_15", "name": "Jan Gorenc", "number": 16, "position": "LB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_009_16", "name": "Matej Henjak", "number": 17, "position": "CB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_009_17", "name": "Tien Goga", "number": 18, "position": "LW", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_009_18", "name": "Robert Mišković", "number": 19, "position": "CM", "country": "HR", "status": "bench"},
+      {"playerId": "player_si1_009_19", "name": "Yayah Kallon", "number": 20, "position": "RM", "country": "SL", "status": "bench"},
+      {"playerId": "player_si1_009_20", "name": "Indrit Tuci", "number": 21, "position": "LM", "country": "AL", "status": "bench"},
+      {"playerId": "player_si1_009_21", "name": "Merlin Jordy Jair Govea", "number": 22, "position": "CAM", "country": "EC", "status": "bench"},
+  
+      {"playerId": "player_si1_009_22", "name": "Matevž Dajčar", "number": 30, "position": "GK", "country": "SI", "status": "reserve"},
+      {"playerId": "player_si1_009_23", "name": "Antonio Marin", "number": 23, "position": "RW", "country": "HR", "status": "reserve"},
+      {"playerId": "player_si1_009_24", "name": "Admir Bristrić", "number": 24, "position": "ST", "country": "BA", "status": "reserve"},
+      {"playerId": "player_si1_009_25", "name": "Federico Fitz-Anthony Rose", "number": 25, "position": "ST", "country": "DE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
