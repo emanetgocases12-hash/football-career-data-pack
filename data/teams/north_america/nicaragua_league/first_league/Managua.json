@@ -1,12 +1,58 @@
 {
-  "teamKey": "Managu",
-
-  "name": "Managua FC",
-
-  "logo": "assets/logos/north_america/nicaragua/Managu.png",
-
-  "stadium": {
-    "name": "Estadio Nacional de Fútbol",
-    "capacity": 15000
+    "teamKey": "Managu",
+  
+    "name": "Managua FC",
+  
+    "logo": "assets/logos/north_america/nicaragua/Managu.png",
+  
+    "manager": {
+      "name": "Daniel Corti",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Estadio Nacional de Fútbol",
+      "capacity": 15000
+    },
+  
+    "players": [
+      {"playerId": "player_ni1_005_01", "name": "Alyer López", "number": 1, "position": "GK", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_005_02", "name": "Ramón Estrada", "number": 2, "position": "RB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_005_03", "name": "Steven Cáceres", "number": 14, "position": "CB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_005_04", "name": "Cristhian Herrera", "number": 15, "position": "CB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_005_05", "name": "Jeremy Cuarezma", "number": 16, "position": "LB", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_005_06", "name": "Darwin Carrero", "number": 4, "position": "CDM", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_005_07", "name": "Cristián Ramírez", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ni1_005_08", "name": "Edwin Zepeda", "number": 32, "position": "CM", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_005_09", "name": "Nazareno Gómez", "number": 11, "position": "LW", "country": "AR", "status": "starter"},
+      {"playerId": "player_ni1_005_10", "name": "José Martínez", "number": 10, "position": "ST", "country": "NI", "status": "starter"},
+      {"playerId": "player_ni1_005_11", "name": "Daniel Díaz", "number": 30, "position": "RW", "country": "CU", "status": "starter"},
+  
+      {"playerId": "player_ni1_005_12", "name": "Daniel Villegas", "number": 23, "position": "GK", "country": "CR", "status": "bench"},
+      {"playerId": "player_ni1_005_13", "name": "Alan Caballero", "number": 12, "position": "RB", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_005_14", "name": "Matías Steib", "number": 3, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ni1_005_15", "name": "Ethan López", "number": 18, "position": "CM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_005_16", "name": "Jhonrry Córdoba", "number": 29, "position": "CM", "country": "CO", "status": "bench"},
+      {"playerId": "player_ni1_005_17", "name": "Juan Ramírez", "number": 20, "position": "ST", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_005_18", "name": "Deyvis Ramos", "number": 33, "position": "CB", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_005_19", "name": "Anthony Calderón", "number": 36, "position": "CM", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_005_20", "name": "Leslie Mejía", "number": 48, "position": "LW", "country": "NI", "status": "bench"},
+      {"playerId": "player_ni1_005_21", "name": "Josué Calderón", "number": 17, "position": "CM", "country": "NI", "status": "bench"},
+  
+      {"playerId": "player_ni1_005_22", "name": "Jacob Tardencilla", "number": 31, "position": "GK", "country": "NI", "status": "reserve"},
+      {"playerId": "player_ni1_005_23", "name": "Brandon Morgan", "number": 25, "position": "CM", "country": "NI", "status": "reserve"},
+      {"playerId": "player_ni1_005_24", "name": "Carlos Coreas", "number": 19, "position": "CB", "country": "NI", "status": "reserve"},
+      {"playerId": "player_ni1_005_25", "name": "Abner Acuña", "number": 7, "position": "RW", "country": "NI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 30
+      }
+    }
   }
-}
