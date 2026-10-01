@@ -1,12 +1,58 @@
 {
-  "teamKey": "Koper",
-
-  "name": "FC Koper",
-
-  "logo": "assets/logos/europe/slovenia/Koper.png",
-
-  "stadium": {
-    "name": "Bonifika",
-    "capacity": 4047
+    "teamKey": "Koper",
+  
+    "name": "FC Koper",
+  
+    "logo": "assets/logos/europe/slovenia/Koper.png",
+  
+    "manager": {
+      "name": "Milan Anđelković",
+      "country": "SI"
+    },
+  
+    "stadium": {
+      "name": "Bonifika",
+      "capacity": 4047
+    },
+  
+    "players": [
+      {"playerId": "player_si1_005_01", "name": "Luka Baš", "number": 1, "position": "GK", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_005_02", "name": "Filip Damjanović", "number": 2, "position": "RB", "country": "RS", "status": "starter"},
+      {"playerId": "player_si1_005_03", "name": "Filip Bačkulja", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_si1_005_04", "name": "Florian Hartherz", "number": 5, "position": "CB", "country": "DE", "status": "starter"},
+      {"playerId": "player_si1_005_05", "name": "Álvaro Roncal", "number": 3, "position": "LB", "country": "ES", "status": "starter"},
+      {"playerId": "player_si1_005_06", "name": "Leo Štulac", "number": 6, "position": "CDM", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_005_07", "name": "Fran Tomek", "number": 8, "position": "CM", "country": "HR", "status": "starter"},
+      {"playerId": "player_si1_005_08", "name": "Jean-Pierre Longonda Itamba", "number": 7, "position": "RW", "country": "BE", "status": "starter"},
+      {"playerId": "player_si1_005_09", "name": "Stefano Surdanović", "number": 10, "position": "CAM", "country": "AT", "status": "starter"},
+      {"playerId": "player_si1_005_10", "name": "Leo Rimac", "number": 11, "position": "ST", "country": "SI", "status": "starter"},
+      {"playerId": "player_si1_005_11", "name": "Brown Irabor", "number": 9, "position": "LW", "country": "NG", "status": "starter"},
+  
+      {"playerId": "player_si1_005_12", "name": "Lan Jovanović", "number": 12, "position": "GK", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_005_13", "name": "Veljko Mijailović", "number": 14, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_si1_005_14", "name": "Giuseppe Agyemang", "number": 15, "position": "RB", "country": "IT", "status": "bench"},
+      {"playerId": "player_si1_005_15", "name": "Luka Guček", "number": 16, "position": "LB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_005_16", "name": "Benjamin Adrović", "number": 17, "position": "CB", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_005_17", "name": "Andraž Ruedl", "number": 18, "position": "LW", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_005_18", "name": "Bangaly Diawara", "number": 19, "position": "CM", "country": "ML", "status": "bench"},
+      {"playerId": "player_si1_005_19", "name": "Josip Iličić", "number": 20, "position": "RM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_005_20", "name": "Jan Štrcaj", "number": 21, "position": "LM", "country": "SI", "status": "bench"},
+      {"playerId": "player_si1_005_21", "name": "Isaac Matondo", "number": 22, "position": "CAM", "country": "FR", "status": "bench"},
+  
+      {"playerId": "player_si1_005_22", "name": "Tijan Krošelj", "number": 30, "position": "GK", "country": "SI", "status": "reserve"},
+      {"playerId": "player_si1_005_23", "name": "Kamil Manseri", "number": 23, "position": "RW", "country": "FR", "status": "reserve"},
+      {"playerId": "player_si1_005_24", "name": "Robert Berić", "number": 24, "position": "ST", "country": "SI", "status": "reserve"},
+      {"playerId": "player_si1_005_25", "name": "Brian Oddei", "number": 25, "position": "ST", "country": "GH", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
