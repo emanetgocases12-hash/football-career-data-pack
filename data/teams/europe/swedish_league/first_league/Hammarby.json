@@ -1,12 +1,58 @@
 {
-  "teamKey": "Hammby",
-
-  "name": "Hammarby IF",
-
-  "logo": "assets/logos/europe/swedish/Hammarby.png",
-
-  "stadium": {
-    "name": "3Arena",
-    "capacity": 30000
+    "teamKey": "Hammby",
+  
+    "name": "Hammarby IF",
+  
+    "logo": "assets/logos/europe/swedish/Hammarby.png",
+  
+    "manager": {
+      "name": "Henrik Rydström",
+      "country": "SE"
+    },
+  
+    "stadium": {
+      "name": "3Arena",
+      "capacity": 30000
+    },
+  
+    "players": [
+      {"playerId": "player_se1_010_01", "name": "Warner Hahn", "number": 1, "position": "GK", "country": "SR", "status": "starter"},
+      {"playerId": "player_se1_010_02", "name": "Hampus Skoglund", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_010_03", "name": "Frederik Winther", "number": 4, "position": "CB", "country": "DK", "status": "starter"},
+      {"playerId": "player_se1_010_04", "name": "Victor Eriksson", "number": 5, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_010_05", "name": "Ibrahima Fofana", "number": 3, "position": "LB", "country": "GN", "status": "starter"},
+      {"playerId": "player_se1_010_06", "name": "Tesfaldet Tekie", "number": 6, "position": "CDM", "country": "ER", "status": "starter"},
+      {"playerId": "player_se1_010_07", "name": "Markus Karlsson", "number": 8, "position": "CM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_010_08", "name": "Oscar Johansson Schellhas", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_010_09", "name": "V. Đukanović", "number": 10, "position": "ST", "country": "ME", "status": "starter"},
+      {"playerId": "player_se1_010_10", "name": "Paulos Abraham", "number": 11, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_010_11", "name": "Victor Lind", "number": 9, "position": "LW", "country": "DK", "status": "starter"},
+  
+      {"playerId": "player_se1_010_12", "name": "Elton Fischerström", "number": 12, "position": "GK", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_010_13", "name": "Noah Persson", "number": 14, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_010_14", "name": "Waylon Renecke", "number": 15, "position": "RB", "country": "ZA", "status": "bench"},
+      {"playerId": "player_se1_010_15", "name": "Essayas Bofua", "number": 16, "position": "LB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_010_16", "name": "Björn Hedlöf", "number": 17, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_010_17", "name": "Amin Boudri", "number": 18, "position": "LW", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_010_18", "name": "Nahir Besara", "number": 19, "position": "CM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_010_19", "name": "Wilson Lindbergh-Uhrström", "number": 20, "position": "RM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_010_20", "name": "Frank Adjei", "number": 21, "position": "LM", "country": "GH", "status": "bench"},
+      {"playerId": "player_se1_010_21", "name": "O. Moczarny", "number": 22, "position": "CAM", "country": "SE", "status": "bench"},
+  
+      {"playerId": "player_se1_010_22", "name": "Felix Jakobsson", "number": 30, "position": "GK", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se1_010_23", "name": "Oliver Jordan Hagen", "number": 23, "position": "RW", "country": "NO", "status": "reserve"},
+      {"playerId": "player_se1_010_24", "name": "Montader Madjed", "number": 24, "position": "ST", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_se1_010_25", "name": "Elohim Kabore", "number": 25, "position": "ST", "country": "BF", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
