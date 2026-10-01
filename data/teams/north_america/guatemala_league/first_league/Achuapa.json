@@ -1,12 +1,58 @@
 {
-  "teamKey": "Achuap",
-
-  "name": "Deportivo Achuapa",
-
-  "logo": "assets/logos/north_america/guatemala/Achuap.png",
-
-  "stadium": {
-    "name": "Estadio Winston Pineda",
-    "capacity": 7300
+    "teamKey": "Achuap",
+  
+    "name": "Deportivo Achuapa",
+  
+    "logo": "assets/logos/north_america/guatemala/Achuap.png",
+  
+    "manager": {
+      "name": "Adrián García Arias",
+      "country": "MX"
+    },
+  
+    "stadium": {
+      "name": "Estadio Winston Pineda",
+      "capacity": 7300
+    },
+  
+    "players": [
+      {"playerId": "player_gt1_001_01", "name": "Alejandro Bogado", "number": 1, "position": "GK", "country": "PY", "status": "starter"},
+      {"playerId": "player_gt1_001_02", "name": "José Corado", "number": 2, "position": "RB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_001_03", "name": "Anthony Mártir", "number": 4, "position": "CB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_001_04", "name": "Carlos Castrillo", "number": 5, "position": "CB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_001_05", "name": "Carlos Barros", "number": 3, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_gt1_001_06", "name": "Edwin Bol", "number": 6, "position": "CDM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_001_07", "name": "Kevin Castillo", "number": 8, "position": "CM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_001_08", "name": "Cristian Sosa", "number": 7, "position": "RW", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_001_09", "name": "Fredy López", "number": 10, "position": "CAM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_001_10", "name": "Isaías de León", "number": 11, "position": "LW", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_001_11", "name": "Leandro Ortigoza", "number": 9, "position": "ST", "country": "PY", "status": "starter"},
+  
+      {"playerId": "player_gt1_001_12", "name": "Billy Pérez", "number": 12, "position": "GK", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_001_13", "name": "Kevin Núñez", "number": 14, "position": "CB", "country": "CO", "status": "bench"},
+      {"playerId": "player_gt1_001_14", "name": "Kevin Tiul", "number": 15, "position": "RB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_001_15", "name": "Diego Franco", "number": 16, "position": "LB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_001_16", "name": "Dayron Suazo", "number": 17, "position": "CB", "country": "HN", "status": "bench"},
+      {"playerId": "player_gt1_001_17", "name": "Edgar Macal", "number": 18, "position": "CDM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_001_18", "name": "Yeison Carabalí", "number": 19, "position": "RM", "country": "CO", "status": "bench"},
+      {"playerId": "player_gt1_001_19", "name": "Jomal Williams", "number": 20, "position": "LM", "country": "TT", "status": "bench"},
+      {"playerId": "player_gt1_001_20", "name": "Didier Acosta", "number": 21, "position": "CAM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_001_21", "name": "Vitor Gabriel", "number": 22, "position": "RW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_gt1_001_22", "name": "Luis Fernando Ruiz", "number": 30, "position": "GK", "country": "GT", "status": "reserve"},
+      {"playerId": "player_gt1_001_23", "name": "Kevin Navas", "number": 23, "position": "CM", "country": "GT", "status": "reserve"},
+      {"playerId": "player_gt1_001_24", "name": "Mynor Asencio", "number": 24, "position": "ST", "country": "GT", "status": "reserve"},
+      {"playerId": "player_gt1_001_25", "name": "Kevin Castellanos", "number": 25, "position": "ST", "country": "GT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
