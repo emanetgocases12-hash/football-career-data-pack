@@ -1,12 +1,58 @@
 {
-  "teamKey": "Hearts",
-
-  "name": "Heart of Midlothian FC",
-
-  "logo": "assets/logos/europe/scottish/Hearts.png",
-
-  "stadium": {
-    "name": "Tynecastle Park",
-    "capacity": 19852
+    "teamKey": "Hearts",
+  
+    "name": "Heart of Midlothian FC",
+  
+    "logo": "assets/logos/europe/scottish/Hearts.png",
+  
+    "manager": {
+      "name": "Wouter Vrancken",
+      "country": "BE"
+    },
+  
+    "stadium": {
+      "name": "Tynecastle Park",
+      "capacity": 19852
+    },
+  
+    "players": [
+      {"playerId": "player_sct1_006_01", "name": "Beau Reus", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+      {"playerId": "player_sct1_006_02", "name": "Christian Borchgrevink", "number": 2, "position": "RB", "country": "NO", "status": "starter"},
+      {"playerId": "player_sct1_006_03", "name": "Stephen Kingsley", "number": 4, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_006_04", "name": "Craig Halkett", "number": 5, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_006_05", "name": "Jamie McCart", "number": 3, "position": "LB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_006_06", "name": "Oisin McEntee", "number": 6, "position": "CDM", "country": "IE", "status": "starter"},
+      {"playerId": "player_sct1_006_07", "name": "Eduardo Ageu", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_sct1_006_08", "name": "Tom Renaud", "number": 7, "position": "RW", "country": "FR", "status": "starter"},
+      {"playerId": "player_sct1_006_09", "name": "Blair Spittal", "number": 10, "position": "CAM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_006_10", "name": "Leart Kabashi", "number": 11, "position": "LW", "country": "XK", "status": "starter"},
+      {"playerId": "player_sct1_006_11", "name": "Calvin Miller", "number": 9, "position": "ST", "country": "GB-SCT", "status": "starter"},
+  
+      {"playerId": "player_sct1_006_12", "name": "Zander Clark", "number": 12, "position": "GK", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_006_13", "name": "Stuart Findlay", "number": 14, "position": "CB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_006_14", "name": "Harry Milne", "number": 15, "position": "RB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_006_15", "name": "Jordi Altena", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+      {"playerId": "player_sct1_006_16", "name": "Malachi Fagan-Walcott", "number": 17, "position": "CB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sct1_006_17", "name": "Tómas Magnússon", "number": 18, "position": "CM", "country": "IS", "status": "bench"},
+      {"playerId": "player_sct1_006_18", "name": "Yan Dhanda", "number": 19, "position": "RM", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sct1_006_19", "name": "Finlay Pollock", "number": 20, "position": "LM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_006_20", "name": "Laurent Mendy", "number": 21, "position": "CAM", "country": "FR", "status": "bench"},
+      {"playerId": "player_sct1_006_21", "name": "Cláudio Braga", "number": 22, "position": "RW", "country": "PT", "status": "bench"},
+  
+      {"playerId": "player_sct1_006_22", "name": "Ryan Fulton", "number": 30, "position": "GK", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct1_006_23", "name": "Landry Kaboré", "number": 23, "position": "LW", "country": "BF", "status": "reserve"},
+      {"playerId": "player_sct1_006_24", "name": "Josh McPake", "number": 24, "position": "ST", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct1_006_25", "name": "James Wilson", "number": 25, "position": "ST", "country": "GB-SCT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
