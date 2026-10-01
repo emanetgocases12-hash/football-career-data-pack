@@ -1,12 +1,58 @@
 {
-  "teamKey": "Killie",
-
-  "name": "Kilmarnock FC",
-
-  "logo": "assets/logos/europe/scottish/Kilmarnock.png",
-
-  "stadium": {
-    "name": "BBSP Stadium, Rugby Park",
-    "capacity": 18128
+    "teamKey": "Killie",
+  
+    "name": "Kilmarnock FC",
+  
+    "logo": "assets/logos/europe/scottish/Kilmarnock.png",
+  
+    "manager": {
+      "name": "Derek McInnes",
+      "country": "GB-SCT"
+    },
+  
+    "stadium": {
+      "name": "BBSP Stadium, Rugby Park",
+      "capacity": 18128
+    },
+  
+    "players": [
+      {"playerId": "player_sct1_009_01", "name": "Kieran O'Hara", "number": 1, "position": "GK", "country": "IE", "status": "starter"},
+      {"playerId": "player_sct1_009_02", "name": "Lewis Mayo", "number": 2, "position": "RB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_009_03", "name": "Stuart Findlay", "number": 4, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_009_04", "name": "Joe Wright", "number": 5, "position": "CB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sct1_009_05", "name": "Corrie Ndaba", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
+      {"playerId": "player_sct1_009_06", "name": "David Watson", "number": 6, "position": "CDM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_009_07", "name": "Liam Polworth", "number": 8, "position": "CM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_009_08", "name": "Rory McKenzie", "number": 7, "position": "RW", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_009_09", "name": "Gary Mackay-Steven", "number": 10, "position": "CAM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_009_10", "name": "Kyle Vassell", "number": 11, "position": "LW", "country": "GB-NIR", "status": "starter"},
+      {"playerId": "player_sct1_009_11", "name": "Kevin van Veen", "number": 9, "position": "ST", "country": "NL", "status": "starter"},
+  
+      {"playerId": "player_sct1_009_12", "name": "Robbie McCrorie", "number": 12, "position": "GK", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_009_13", "name": "Brad Lyons", "number": 14, "position": "CB", "country": "GB-NIR", "status": "bench"},
+      {"playerId": "player_sct1_009_14", "name": "Fraser Murray", "number": 15, "position": "RB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_009_15", "name": "Danny Armstrong", "number": 16, "position": "LB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_009_16", "name": "Robbie Deas", "number": 17, "position": "CB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_009_17", "name": "Bobby Wales", "number": 18, "position": "CM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_009_18", "name": "Matty Kennedy", "number": 19, "position": "RM", "country": "GB-NIR", "status": "bench"},
+      {"playerId": "player_sct1_009_19", "name": "Marley Watkins", "number": 20, "position": "LM", "country": "GB-WLS", "status": "bench"},
+      {"playerId": "player_sct1_009_20", "name": "Bruce Anderson", "number": 21, "position": "CAM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_009_21", "name": "Innes Cameron", "number": 22, "position": "RW", "country": "GB-SCT", "status": "bench"},
+  
+      {"playerId": "player_sct1_009_22", "name": "Will Dennis", "number": 30, "position": "GK", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_sct1_009_23", "name": "Fraser Murray Jr.", "number": 23, "position": "LW", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct1_009_24", "name": "Calvin Ramsay", "number": 24, "position": "ST", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct1_009_25", "name": "Steven Warnock", "number": 25, "position": "ST", "country": "GB-SCT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
