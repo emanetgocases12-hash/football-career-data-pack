@@ -1,12 +1,58 @@
 {
-  "teamKey": "S.Mrrn",
-
-  "name": "St. Mirren FC",
-
-  "logo": "assets/logos/europe/scottish/Mirren.png",
-
-  "stadium": {
-    "name": "The SMISA Stadium",
-    "capacity": 7937
+    "teamKey": "S.Mrrn",
+  
+    "name": "St. Mirren FC",
+  
+    "logo": "assets/logos/europe/scottish/Mirren.png",
+  
+    "manager": {
+      "name": "Stephen Robinson",
+      "country": "GB-NIR"
+    },
+  
+    "stadium": {
+      "name": "The SMISA Stadium",
+      "capacity": 7937
+    },
+  
+    "players": [
+      {"playerId": "player_sct1_010_01", "name": "Ellery Balcombe", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sct1_010_02", "name": "Marcus Fraser", "number": 2, "position": "RB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_010_03", "name": "Alex Gogic", "number": 4, "position": "CB", "country": "CY", "status": "starter"},
+      {"playerId": "player_sct1_010_04", "name": "Richard Taylor", "number": 5, "position": "CB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sct1_010_05", "name": "Scott Tanser", "number": 3, "position": "LB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sct1_010_06", "name": "Mark O'Hara", "number": 6, "position": "CDM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_010_07", "name": "Caolan Boyd-Munce", "number": 8, "position": "CM", "country": "GB-NIR", "status": "starter"},
+      {"playerId": "player_sct1_010_08", "name": "Greg Kiltie", "number": 7, "position": "RW", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_010_09", "name": "Roland Idowu", "number": 10, "position": "CAM", "country": "IE", "status": "starter"},
+      {"playerId": "player_sct1_010_10", "name": "Oisin Smyth", "number": 11, "position": "LW", "country": "GB-NIR", "status": "starter"},
+      {"playerId": "player_sct1_010_11", "name": "Mikael Mandron", "number": 9, "position": "ST", "country": "FR", "status": "starter"},
+  
+      {"playerId": "player_sct1_010_12", "name": "Peter Urminský", "number": 12, "position": "GK", "country": "SK", "status": "bench"},
+      {"playerId": "player_sct1_010_13", "name": "James Bolton", "number": 14, "position": "CB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sct1_010_14", "name": "Charles Dunne", "number": 15, "position": "RB", "country": "IE", "status": "bench"},
+      {"playerId": "player_sct1_010_15", "name": "Elvis Bwomono", "number": 16, "position": "LB", "country": "UG", "status": "bench"},
+      {"playerId": "player_sct1_010_16", "name": "Jaden Brown", "number": 17, "position": "CB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sct1_010_17", "name": "Jonah Ayunga", "number": 18, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_sct1_010_18", "name": "Keanu Baccus", "number": 19, "position": "RM", "country": "AU", "status": "bench"},
+      {"playerId": "player_sct1_010_19", "name": "Killian Phillips", "number": 20, "position": "LM", "country": "IE", "status": "bench"},
+      {"playerId": "player_sct1_010_20", "name": "Declan John", "number": 21, "position": "CAM", "country": "GB-WLS", "status": "bench"},
+      {"playerId": "player_sct1_010_21", "name": "Toyosi Olusanya", "number": 22, "position": "RW", "country": "GB-ENG", "status": "bench"},
+  
+      {"playerId": "player_sct1_010_22", "name": "Zach Hemming", "number": 30, "position": "GK", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_sct1_010_23", "name": "James Scott", "number": 23, "position": "LW", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct1_010_24", "name": "Conor McMenamin", "number": 24, "position": "ST", "country": "GB-NIR", "status": "reserve"},
+      {"playerId": "player_sct1_010_25", "name": "Lewis Jamieson", "number": 25, "position": "ST", "country": "GB-SCT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
