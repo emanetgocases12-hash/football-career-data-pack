@@ -1,12 +1,58 @@
 {
-  "teamKey": "Lugano",
-
-  "name": "FC Lugano",
-
-  "logo": "assets/logos/europe/swiss/Lugano.png",
-
-  "stadium": {
-    "name": "AIL Arena",
-    "capacity": 8793
+    "teamKey": "Lugano",
+  
+    "name": "FC Lugano",
+  
+    "logo": "assets/logos/europe/swiss/Lugano.png",
+  
+    "manager": {
+      "name": "Mattia Croci-Torti",
+      "country": "CH"
+    },
+  
+    "stadium": {
+      "name": "AIL Arena",
+      "capacity": 8793
+    },
+  
+    "players": [
+      {"playerId": "player_ch1_005_01", "name": "David von Ballmoos", "number": 1, "position": "GK", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_005_02", "name": "Hannes Delcroix", "number": 2, "position": "RB", "country": "BE", "status": "starter"},
+      {"playerId": "player_ch1_005_03", "name": "Damian Kelvin", "number": 4, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_005_04", "name": "Antonios Papadopoulos", "number": 5, "position": "CB", "country": "DE", "status": "starter"},
+      {"playerId": "player_ch1_005_05", "name": "Lars Lukas Mai", "number": 3, "position": "LB", "country": "DE", "status": "starter"},
+      {"playerId": "player_ch1_005_06", "name": "Ezgjan Alioski", "number": 6, "position": "CDM", "country": "MK", "status": "starter"},
+      {"playerId": "player_ch1_005_07", "name": "Anto Grgić", "number": 8, "position": "CM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_005_08", "name": "Ahmed Kendouci", "number": 7, "position": "RW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_ch1_005_09", "name": "Yanis Cimignani", "number": 10, "position": "CAM", "country": "FR", "status": "starter"},
+      {"playerId": "player_ch1_005_10", "name": "Gjan Ajdin", "number": 11, "position": "LW", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_005_11", "name": "Albian Ajeti", "number": 9, "position": "ST", "country": "CH", "status": "starter"},
+  
+      {"playerId": "player_ch1_005_12", "name": "Felix Gebhardt", "number": 12, "position": "GK", "country": "DE", "status": "bench"},
+      {"playerId": "player_ch1_005_13", "name": "Joel Bichsel", "number": 14, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_005_14", "name": "Martim Marques", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_ch1_005_15", "name": "João Carbone", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_ch1_005_16", "name": "Mattia Zanotti", "number": 17, "position": "CB", "country": "IT", "status": "bench"},
+      {"playerId": "player_ch1_005_17", "name": "Erik Elias Pihlström", "number": 18, "position": "CM", "country": "FI", "status": "bench"},
+      {"playerId": "player_ch1_005_18", "name": "Uran Bislimi", "number": 19, "position": "RM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_005_19", "name": "Daniel Dos Santos Correia", "number": 20, "position": "LM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_005_20", "name": "Jason Parente", "number": 21, "position": "CAM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_005_21", "name": "Renato Steffen", "number": 22, "position": "RW", "country": "CH", "status": "bench"},
+  
+      {"playerId": "player_ch1_005_22", "name": "Ahmadou Ndiaye", "number": 30, "position": "GK", "country": "SN", "status": "reserve"},
+      {"playerId": "player_ch1_005_23", "name": "Beckham David Castro Espinosa", "number": 23, "position": "LW", "country": "CO", "status": "reserve"},
+      {"playerId": "player_ch1_005_24", "name": "Dereck Moncada", "number": 24, "position": "ST", "country": "HN", "status": "reserve"},
+      {"playerId": "player_ch1_005_25", "name": "Kevin Behrens", "number": 25, "position": "ST", "country": "DE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
