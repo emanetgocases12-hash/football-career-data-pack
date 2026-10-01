@@ -1,12 +1,58 @@
-{
-  "teamKey": "Gualbe",
-
-  "name": "Gualberto Villarroel San José",
-
-  "logo": "assets/logos/south_america/bolivia/Gualbe.png",
-
-  "stadium": {
-    "name": "Estadio Jesús Bermúdez",
-    "capacity": 40000
+ {
+    "teamKey": "Gualbe",
+  
+    "name": "Gualberto Villarroel San José",
+  
+    "logo": "assets/logos/south_america/bolivia/Gualbe.png",
+  
+    "manager": {
+      "name": "Jorge Wuinch",
+      "country": "BO"
+    },
+  
+    "stadium": {
+      "name": "Estadio Jesús Bermúdez",
+      "capacity": 40000
+    },
+  
+    "players": [
+      {"playerId": "player_bo1_009_01", "name": "Saidt Mustafá", "number": 1, "position": "GK", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_009_02", "name": "Andrés Landa", "number": 33, "position": "CB", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_009_03", "name": "Fernando Aguilar", "number": 20, "position": "CB", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_009_04", "name": "Sebastian Villarroel", "number": 19, "position": "LB", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_009_05", "name": "Jhoni Ramallo", "number": 2, "position": "RB", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_009_06", "name": "Gonzalo Vaca", "number": 4, "position": "RB", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_009_07", "name": "Walter Araujo", "number": 22, "position": "CAM", "country": "PY", "status": "starter"},
+      {"playerId": "player_bo1_009_08", "name": "Fabricio Vasquez", "number": 77, "position": "LW", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_009_09", "name": "Sebastián Galindo", "number": 29, "position": "RW", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_009_10", "name": "Moisés Calero", "number": 14, "position": "ST", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_009_11", "name": "Ronaldo Monteiro", "number": 9, "position": "ST", "country": "BO", "status": "starter"},
+  
+      {"playerId": "player_bo1_009_12", "name": "Germán Arauz", "number": 13, "position": "GK", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_009_13", "name": "Joaquín Lencinas", "number": 26, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_bo1_009_14", "name": "Daniel Aponte", "number": 23, "position": "LB", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_009_15", "name": "Edwin Tumiri", "number": 16, "position": "RB", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_009_16", "name": "Alex Cáceres", "number": 7, "position": "LW", "country": "PY", "status": "bench"},
+      {"playerId": "player_bo1_009_17", "name": "David Ribera", "number": 17, "position": "LW", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_009_18", "name": "Juan Ignacio Goyeneche", "number": 55, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_bo1_009_19", "name": "Thomas Monterubianessi", "number": 11, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_bo1_009_20", "name": "Santiago Pinto", "number": 18, "position": "ST", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_009_21", "name": "Jhojan Vargas", "number": 99, "position": "ST", "country": "BO", "status": "bench"},
+  
+      {"playerId": "player_bo1_009_22", "name": "Roberto Rivas", "number": 25, "position": "GK", "country": "BO", "status": "reserve"},
+      {"playerId": "player_bo1_009_23", "name": "Javier Sanguinetti", "number": 8, "position": "CM", "country": "BO", "status": "reserve"},
+      {"playerId": "player_bo1_009_24", "name": "Samuel Galindo", "number": 10, "position": "CM", "country": "BO", "status": "reserve"},
+      {"playerId": "player_bo1_009_25", "name": "Ronald Segovia", "number": 6, "position": "CDM", "country": "BO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 14,
+        "freeKick": 22,
+        "cornerLeft": 22,
+        "cornerRight": 77
+      }
+    }
   }
-}
