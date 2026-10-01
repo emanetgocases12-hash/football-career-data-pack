@@ -1,12 +1,58 @@
 {
-  "teamKey": "Žilina",
-
-  "name": "MSK Zilina",
-
-  "logo": "assets/logos/europe/slovakia/Zilina.png",
-
-  "stadium": {
-    "name": "Štadión pod Dubňom",
-    "capacity": 11253
+    "teamKey": "Žilina",
+  
+    "name": "MSK Zilina",
+  
+    "logo": "assets/logos/europe/slovakia/Zilina.png",
+  
+    "manager": {
+      "name": "Vladimír Veselý",
+      "country": "SK"
+    },
+  
+    "stadium": {
+      "name": "Štadión pod Dubňom",
+      "capacity": 11253
+    },
+  
+    "players": [
+      {"playerId": "player_sk1_012_01", "name": "Jakub Badžgoň", "number": 1, "position": "GK", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_012_02", "name": "Marek Okál", "number": 2, "position": "RB", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_012_03", "name": "Issah Mohammed", "number": 4, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_sk1_012_04", "name": "Marco Bortoli", "number": 5, "position": "CB", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_012_05", "name": "Michal Svoboda", "number": 3, "position": "LB", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_012_06", "name": "Xavier Adang", "number": 6, "position": "CDM", "country": "CM", "status": "starter"},
+      {"playerId": "player_sk1_012_07", "name": "Andrei Florea", "number": 8, "position": "CM", "country": "RO", "status": "starter"},
+      {"playerId": "player_sk1_012_08", "name": "Fabian Bzdyl", "number": 7, "position": "RW", "country": "PL", "status": "starter"},
+      {"playerId": "player_sk1_012_09", "name": "Patrik Iľko", "number": 10, "position": "CAM", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_012_10", "name": "František Kóša", "number": 11, "position": "ST", "country": "SK", "status": "starter"},
+      {"playerId": "player_sk1_012_11", "name": "Patrik Baleja", "number": 9, "position": "LW", "country": "SK", "status": "starter"},
+  
+      {"playerId": "player_sk1_012_12", "name": "Tamás Tarcsi", "number": 12, "position": "GK", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_012_13", "name": "Ján Minárik", "number": 14, "position": "CB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_012_14", "name": "Abdul Majid Ibrahim", "number": 15, "position": "RB", "country": "GH", "status": "bench"},
+      {"playerId": "player_sk1_012_15", "name": "Krisztián Bari", "number": 16, "position": "LB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_012_16", "name": "Timotej Hranica", "number": 17, "position": "CB", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_012_17", "name": "Michal Faško", "number": 18, "position": "LW", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_012_18", "name": "Miroslav Káčer", "number": 19, "position": "CM", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_012_19", "name": "Róbert Petruška", "number": 20, "position": "RM", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_012_20", "name": "Samuel Ďatko", "number": 21, "position": "LM", "country": "SK", "status": "bench"},
+      {"playerId": "player_sk1_012_21", "name": "Denis Alijagić", "number": 22, "position": "RW", "country": "CZ", "status": "bench"},
+  
+      {"playerId": "player_sk1_012_22", "name": "Bruno Valko", "number": 30, "position": "GK", "country": "SK", "status": "reserve"},
+      {"playerId": "player_sk1_012_23", "name": "Dávid Šipoš", "number": 23, "position": "GK", "country": "SK", "status": "reserve"},
+      {"playerId": "player_sk1_012_24", "name": "Lukáš Prokop", "number": 24, "position": "ST", "country": "SK", "status": "reserve"},
+      {"playerId": "player_sk1_012_25", "name": "Daniel Homet", "number": 25, "position": "ST", "country": "ES", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
