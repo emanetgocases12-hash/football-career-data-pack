@@ -1,12 +1,35 @@
 {
-  "teamKey": "Fuerte",
-
-  "name": "Fuerte San Francisco",
-
-  "logo": "assets/logos/north_america/salvador/Fuerte.png",
-
-  "stadium": {
-    "name": "Estadio Correcaminos",
-    "capacity": 12000
+    "teamKey": "Fuerte",
+    "name": "Fuerte San Francisco",
+    "logo": "assets/logos/north_america/salvador/Fuerte.png",
+    "manager": {"name": "Omar Sevilla", "country": "SV"},
+    "stadium": {"name": "Estadio Correcaminos", "capacity": 12000},
+    "players": [
+      {"playerId": "player_sv1_007_01", "name": "Tony Ismael", "number": 25, "position": "GK", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_007_02", "name": "Juan Ángel Benítez", "number": 20, "position": "RB", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_007_03", "name": "Alexander Rodríguez", "number": 24, "position": "CB", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_007_04", "name": "Vinicius Santana", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_sv1_007_05", "name": "Alexis Renderos", "number": 17, "position": "LB", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_007_06", "name": "Francisco Escobar", "number": 6, "position": "CDM", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_007_07", "name": "Wilson Rugama", "number": 14, "position": "CM", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_007_08", "name": "Ángel Caicedo", "number": 10, "position": "CAM", "country": "PA", "status": "starter"},
+      {"playerId": "player_sv1_007_09", "name": "Ronald Aparicio", "number": 11, "position": "LW", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_007_10", "name": "Jordy Bonilla", "number": 7, "position": "RW", "country": "SV", "status": "starter"},
+      {"playerId": "player_sv1_007_11", "name": "Carlos Salazar", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+      {"playerId": "player_sv1_007_12", "name": "Héctor Carvajal", "number": 1, "position": "GK", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_007_13", "name": "Walter Guevara", "number": 5, "position": "CB", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_007_14", "name": "Edwin Córdova", "number": 13, "position": "CB", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_007_15", "name": "Giovanni Ávila", "number": 18, "position": "CB", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_007_16", "name": "Emerson Mancía", "number": 12, "position": "LB", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_007_17", "name": "Alejandro Guevara", "number": 36, "position": "CM", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_007_18", "name": "Fernando Clavel", "number": 27, "position": "LM", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_007_19", "name": "Allan Ocón", "number": 16, "position": "LW", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_007_20", "name": "Óscar Molina", "number": 19, "position": "ST", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_007_21", "name": "Carlos Martínez", "number": 26, "position": "ST", "country": "SV", "status": "bench"},
+      {"playerId": "player_sv1_007_22", "name": "Jonathan García", "number": 30, "position": "GK", "country": "SV", "status": "reserve"},
+      {"playerId": "player_sv1_007_23", "name": "Nelson Murcia", "number": 22, "position": "CB", "country": "SV", "status": "reserve"},
+      {"playerId": "player_sv1_007_24", "name": "Jeffrey Benítez", "number": 21, "position": "CM", "country": "SV", "status": "reserve"},
+      {"playerId": "player_sv1_007_25", "name": "Antony Peña", "number": 23, "position": "RW", "country": "SV", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 25, "setPieces": {"penalty": 9, "freeKick": 10, "cornerLeft": 10, "cornerRight": 7}}
   }
-}
