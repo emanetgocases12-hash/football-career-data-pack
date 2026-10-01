@@ -1,12 +1,58 @@
 {
-  "teamKey": "Otelul",
-
-  "name": "SC Otelul Galati",
-
-  "logo": "assets/logos/europe/romania/Otelul.png",
-
-  "stadium": {
-    "name": "Oţelul",
-    "capacity": 13500
+    "teamKey": "Otelul",
+  
+    "name": "SC Otelul Galati",
+  
+    "logo": "assets/logos/europe/romania/Otelul.png",
+  
+    "manager": {
+      "name": "Rui Duarte",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Oţelul",
+      "capacity": 13500
+    },
+  
+    "players": [
+      {"playerId": "player_ro1_010_01", "name": "Cosmin Dur-Bozoancă", "number": 1, "position": "GK", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_010_02", "name": "Aly Malle", "number": 2, "position": "RB", "country": "ML", "status": "starter"},
+      {"playerId": "player_ro1_010_03", "name": "Nikola Stevanović", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_ro1_010_04", "name": "Milen Zhelev", "number": 5, "position": "CB", "country": "BG", "status": "starter"},
+      {"playerId": "player_ro1_010_05", "name": "Franjo Prce", "number": 3, "position": "LB", "country": "HR", "status": "starter"},
+      {"playerId": "player_ro1_010_06", "name": "João Lameira", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_ro1_010_07", "name": "João Paulo", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_ro1_010_08", "name": "Samuel Teles", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_ro1_010_09", "name": "Juri Cisotti", "number": 10, "position": "CAM", "country": "IT", "status": "starter"},
+      {"playerId": "player_ro1_010_10", "name": "Frederic Maciel", "number": 11, "position": "LW", "country": "PT", "status": "starter"},
+      {"playerId": "player_ro1_010_11", "name": "Paulinho", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+  
+      {"playerId": "player_ro1_010_12", "name": "Iustin Popescu", "number": 12, "position": "GK", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_010_13", "name": "Valentin Țicu", "number": 14, "position": "CB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_010_14", "name": "Jonathan Cissé", "number": 15, "position": "RB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ro1_010_15", "name": "Miguel Silva", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_ro1_010_16", "name": "Andrei Rus", "number": 17, "position": "CB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_010_17", "name": "Ștefan Bodișteanu", "number": 18, "position": "CM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_010_18", "name": "Diego Zivulic", "number": 19, "position": "RM", "country": "HR", "status": "bench"},
+      {"playerId": "player_ro1_010_19", "name": "Patrick Olsen", "number": 20, "position": "LM", "country": "DK", "status": "bench"},
+      {"playerId": "player_ro1_010_20", "name": "Andrezinho", "number": 21, "position": "CAM", "country": "PT", "status": "bench"},
+      {"playerId": "player_ro1_010_21", "name": "Stipe Jurić", "number": 22, "position": "RW", "country": "BA", "status": "bench"},
+  
+      {"playerId": "player_ro1_010_22", "name": "Rareș Stoian", "number": 30, "position": "GK", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_010_23", "name": "Afonso Freitas", "number": 23, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_ro1_010_24", "name": "David Maftei", "number": 24, "position": "ST", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_010_25", "name": "Vasile Jardan", "number": 25, "position": "ST", "country": "MD", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
