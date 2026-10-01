@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ottawa",
-
-  "name": "Atlético Ottawa",
-
-  "logo": "assets/logos/north_america/canada/Ottawa.png",
-
-  "stadium": {
-    "name": "TD Place Stadium",
-    "capacity": 26559
+    "teamKey": "Ottawa",
+  
+    "name": "Atlético Ottawa",
+  
+    "logo": "assets/logos/north_america/canada/Ottawa.png",
+  
+    "manager": {
+      "name": "Gustavo Leal",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "TD Place Stadium",
+      "capacity": 26559
+    },
+  
+    "players": [
+      {"playerId": "player_ca1_005_01", "name": "Garissone Innocent", "number": 1, "position": "GK", "country": "HT", "status": "starter"},
+      {"playerId": "player_ca1_005_02", "name": "Loïc Cloutier", "number": 2, "position": "RB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_005_03", "name": "Joaquim Coulanges", "number": 4, "position": "CB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_005_04", "name": "Tyr Duhaney-Walker", "number": 5, "position": "CB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_005_05", "name": "Sergei Kozlovskiy", "number": 3, "position": "LB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_005_06", "name": "Manny Aparicio", "number": 6, "position": "CDM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_005_07", "name": "Gabriel Antinoro", "number": 8, "position": "CM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_005_08", "name": "Jean-Aniel Assi", "number": 7, "position": "RW", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_005_09", "name": "Juan Castro", "number": 10, "position": "CAM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_005_10", "name": "Ralph Khoury", "number": 11, "position": "ST", "country": "LB", "status": "starter"},
+      {"playerId": "player_ca1_005_11", "name": "Ballou Tabla", "number": 9, "position": "LW", "country": "CA", "status": "starter"},
+  
+      {"playerId": "player_ca1_005_12", "name": "Tristan Crampton", "number": 12, "position": "GK", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_005_13", "name": "Noah Abatneh", "number": 14, "position": "CB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_005_14", "name": "Roni Mbomio", "number": 15, "position": "RB", "country": "GQ", "status": "bench"},
+      {"playerId": "player_ca1_005_15", "name": "Marko Stojadinović", "number": 16, "position": "LB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_005_16", "name": "Wesley Timoteo", "number": 17, "position": "CB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_005_17", "name": "Tim Arnaud", "number": 18, "position": "LW", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_005_18", "name": "Jonatan Villal", "number": 19, "position": "CM", "country": "MX", "status": "bench"},
+      {"playerId": "player_ca1_005_19", "name": "Daniel Aguilar", "number": 20, "position": "RM", "country": "MX", "status": "bench"},
+      {"playerId": "player_ca1_005_20", "name": "Zachary Roy", "number": 21, "position": "LM", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_005_21", "name": "Reinaldo Abraham", "number": 22, "position": "CAM", "country": "CA", "status": "bench"},
+  
+      {"playerId": "player_ca1_005_22", "name": "Gabriel Carvalho", "number": 30, "position": "GK", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_005_23", "name": "Kamron Habibullah", "number": 23, "position": "RW", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_005_24", "name": "Erling Myklebust", "number": 24, "position": "ST", "country": "NO", "status": "reserve"},
+      {"playerId": "player_ca1_005_25", "name": "Nicolas Fleuriau Chateau", "number": 25, "position": "ST", "country": "CA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
