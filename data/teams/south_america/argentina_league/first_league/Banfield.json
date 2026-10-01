@@ -1,12 +1,58 @@
 {
-  "teamKey": "Banfie",
-
-  "name": "CA Banfield",
-
-  "logo": "assets/logos/south_america/argentina/Banfie.png",
-
-  "stadium": {
-    "name": "Florencio Sola",
-    "capacity": 34901
+    "teamKey": "Banfie",
+  
+    "name": "CA Banfield",
+  
+    "logo": "assets/logos/south_america/argentina/Banfie.png",
+  
+    "manager": {
+      "name": "Pedro Troglio",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Florencio Sola",
+      "capacity": 34901
+    },
+  
+    "players": [
+      {"playerId": "player_ar1_004_01", "name": "Facundo Sanguinetti", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_004_02", "name": "Alexis Maldonado", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_004_03", "name": "Nicolás Hernández", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_004_04", "name": "Danilo Arboleda", "number": 5, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_ar1_004_05", "name": "Emanuel Insúa", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_004_06", "name": "Lautaro Gómez", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_004_07", "name": "Martín Río", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_004_08", "name": "Mauro Méndez", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_004_09", "name": "Nicolás Bertolo", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_004_10", "name": "Neyder Moreno", "number": 11, "position": "LM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_004_11", "name": "Bruno Sepúlveda", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ar1_004_12", "name": "Marcelo Barovero", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_004_13", "name": "Lautaro Ríos", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_004_14", "name": "Ramiro Di Luciano", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_004_15", "name": "Luciano Recalde", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_004_16", "name": "Mathías De Ritis", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_004_17", "name": "Jesús Soraire", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_004_18", "name": "Matías González", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_004_19", "name": "Tomás Adoryán", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_004_20", "name": "Rodrigo Auzmendi", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_004_21", "name": "Agustín Alaniz", "number": 20, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ar1_004_22", "name": "Agustín Obando", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_004_23", "name": "Juan Bisanz", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_004_24", "name": "Santiago López García", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_004_25", "name": "Ignacio Rodríguez", "number": 27, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
