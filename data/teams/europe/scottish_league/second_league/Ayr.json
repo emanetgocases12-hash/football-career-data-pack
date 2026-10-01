@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ayr Unt",
-
-  "name": "Ayr United FC",
-
-  "logo": "assets/logos/europe/scottish/Ayr.png",
-
-  "stadium": {
-    "name": "Somerset Park",
-    "capacity": 10185
+    "teamKey": "Ayr Unt",
+  
+    "name": "Ayr United FC",
+  
+    "logo": "assets/logos/europe/scottish/Ayr.png",
+  
+    "manager": {
+      "name": "Gary Naysmith",
+      "country": "GB-SCT"
+    },
+  
+    "stadium": {
+      "name": "Somerset Park",
+      "capacity": 10185
+    },
+  
+    "players": [
+      {"playerId": "player_sct2_002_01", "name": "Harry Stone", "number": 1, "position": "GK", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_002_02", "name": "Nick McAllister", "number": 2, "position": "RB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_002_03", "name": "Shaun Want", "number": 4, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_002_04", "name": "Kevin Holt", "number": 5, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_002_05", "name": "Luke McBeth", "number": 3, "position": "LB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_002_06", "name": "Reece Lyon", "number": 6, "position": "CDM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_002_07", "name": "Ross Taylor", "number": 8, "position": "CM", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sct2_002_08", "name": "Ben Summers", "number": 7, "position": "RW", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_002_09", "name": "Kieran Shanks", "number": 10, "position": "CAM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_002_10", "name": "Mark McKenzie", "number": 11, "position": "LW", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_002_11", "name": "Owen Stirton", "number": 9, "position": "ST", "country": "GB-SCT", "status": "starter"},
+  
+      {"playerId": "player_sct2_002_12", "name": "Robbie Mutch", "number": 12, "position": "GK", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_002_13", "name": "Scott McMann", "number": 14, "position": "CB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_002_14", "name": "Liam Dick", "number": 15, "position": "RB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_002_15", "name": "Frankie Musonda", "number": 16, "position": "LB", "country": "ZM", "status": "bench"},
+      {"playerId": "player_sct2_002_16", "name": "George Stanger", "number": 17, "position": "CB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_002_17", "name": "Jamie Murphy", "number": 18, "position": "CM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_002_18", "name": "Roy Syla", "number": 19, "position": "RM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_002_19", "name": "Logan Chalmers", "number": 20, "position": "LM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_002_20", "name": "Jay Henderson", "number": 21, "position": "CAM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_002_21", "name": "George Oakley", "number": 22, "position": "RW", "country": "GB-SCT", "status": "bench"},
+  
+      {"playerId": "player_sct2_002_22", "name": "Charlie Albinson", "number": 30, "position": "GK", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct2_002_23", "name": "Anton Dowds", "number": 23, "position": "LW", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct2_002_24", "name": "Kenzie Mitchell", "number": 24, "position": "ST", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct2_002_25", "name": "Connor McLennan", "number": 25, "position": "ST", "country": "GB-SCT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
