@@ -1,12 +1,58 @@
 {
-  "teamKey": "Plata",
-
-  "name": "Club de Gimnasia y Esgrima La Plata",
-
-  "logo": "assets/logos/south_america/argentina/Plata.png",
-
-  "stadium": {
-    "name": "Juan Carmelo Zerillo",
-    "capacity": 30973
+    "teamKey": "Plata",
+  
+    "name": "Club de Gimnasia y Esgrima La Plata",
+  
+    "logo": "assets/logos/south_america/argentina/Plata.png",
+  
+    "manager": {
+      "name": "Fernando Zaniratto",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Juan Carmelo Zerillo",
+      "capacity": 30973
+    },
+  
+    "players": [
+      {"playerId": "player_ar1_016_01", "name": "Harlen Castillo", "number": 1, "position": "GK", "country": "CO", "status": "starter"},
+      {"playerId": "player_ar1_016_02", "name": "Germán Conti", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_016_03", "name": "Renzo Giampaoli", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_016_04", "name": "Alexis Steimbach", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_016_05", "name": "Matías Melluso", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_016_06", "name": "Nacho Fernández", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_016_07", "name": "Ignacio Miramón", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_016_08", "name": "Manuel Panaro", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_016_09", "name": "Nicolás Barros Schelotto", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_016_10", "name": "Mateo Seoane", "number": 11, "position": "LM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_016_11", "name": "Lucas Janson", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ar1_016_12", "name": "Nelson Insfrán", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_016_13", "name": "Enzo Martínez", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_016_14", "name": "Pedro Silva", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_016_15", "name": "Bautista Barros Schelotto", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_016_16", "name": "Juan Cruz Cortazzo", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_016_17", "name": "Juan Pérez", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_016_18", "name": "Jeremías Merlo", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_016_19", "name": "Leandro Mamut", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_016_20", "name": "Agustín Auzmendi", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_016_21", "name": "Marcelo Torres", "number": 20, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ar1_016_22", "name": "Julián Kadijevic", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_016_23", "name": "Lucas Lamella", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_016_24", "name": "Maximiliano Zalazar", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_016_25", "name": "Agustín Colazo", "number": 27, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
