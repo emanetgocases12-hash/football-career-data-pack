@@ -1,12 +1,58 @@
 {
-  "teamKey": "Csiksz",
-
-  "name": "FK Csikszereda Miercurea Ciuc",
-
-  "logo": "assets/logos/europe/romania/Csik.png",
-
-  "stadium": {
-    "name": "Municipal Miercurea Ciuc",
-    "capacity": 2480
+    "teamKey": "Csiksz",
+  
+    "name": "FK Csikszereda Miercurea Ciuc",
+  
+    "logo": "assets/logos/europe/romania/Csik.png",
+  
+    "manager": {
+      "name": "István László Szabó",
+      "country": "RO"
+    },
+  
+    "stadium": {
+      "name": "Municipal Miercurea Ciuc",
+      "capacity": 2480
+    },
+  
+    "players": [
+      {"playerId": "player_ro1_005_01", "name": "Eduard Pap", "number": 1, "position": "GK", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_005_02", "name": "Botond Pálmes", "number": 2, "position": "RB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_005_03", "name": "János Hegedűs", "number": 4, "position": "CB", "country": "HU", "status": "starter"},
+      {"playerId": "player_ro1_005_04", "name": "Csaba Szabó", "number": 5, "position": "CB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_005_05", "name": "Szilárd Veres", "number": 3, "position": "LB", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_005_06", "name": "Zsombor Kelemen", "number": 6, "position": "CDM", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_005_07", "name": "Norbert Csiki", "number": 8, "position": "CM", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_005_08", "name": "Balázs Csiszér Jr.", "number": 7, "position": "RW", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_005_09", "name": "Szabolcs Csuros", "number": 10, "position": "CAM", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_005_10", "name": "Ádám Stahl", "number": 11, "position": "LW", "country": "RO", "status": "starter"},
+      {"playerId": "player_ro1_005_11", "name": "Andrei Szalay", "number": 9, "position": "ST", "country": "RO", "status": "starter"},
+  
+      {"playerId": "player_ro1_005_12", "name": "Szilárd Gyenge", "number": 12, "position": "GK", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_005_13", "name": "Roland Niczuly", "number": 14, "position": "CB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_005_14", "name": "József Dolny", "number": 15, "position": "RB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_005_15", "name": "Dávid Kelemen", "number": 16, "position": "LB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_005_16", "name": "Balázs Csiszér", "number": 17, "position": "CB", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_005_17", "name": "Mátyás Tajti", "number": 18, "position": "CM", "country": "HU", "status": "bench"},
+      {"playerId": "player_ro1_005_18", "name": "Norbert Bodo", "number": 19, "position": "RM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_005_19", "name": "András Czekus", "number": 20, "position": "LM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_005_20", "name": "Richárd Jelena", "number": 21, "position": "CAM", "country": "RO", "status": "bench"},
+      {"playerId": "player_ro1_005_21", "name": "Bálint Toma", "number": 22, "position": "RW", "country": "RO", "status": "bench"},
+  
+      {"playerId": "player_ro1_005_22", "name": "Norbert Szilágyi", "number": 30, "position": "GK", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_005_23", "name": "Loránd Paszka", "number": 23, "position": "LW", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_005_24", "name": "Levente Gergely", "number": 24, "position": "ST", "country": "RO", "status": "reserve"},
+      {"playerId": "player_ro1_005_25", "name": "Bence Pintér", "number": 25, "position": "ST", "country": "RO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
