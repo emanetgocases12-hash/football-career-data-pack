@@ -1,12 +1,58 @@
 {
-  "teamKey": "Heredi",
-
-  "name": "CS Herediano",
-
-  "logo": "assets/logos/north_america/costa_rica/Heredi.png",
-
-  "stadium": {
-    "name": "Estadio Carlos Alvarado",
-    "capacity": 5250
+    "teamKey": "Heredi",
+  
+    "name": "CS Herediano",
+  
+    "logo": "assets/logos/north_america/costa_rica/Heredi.png",
+  
+    "manager": {
+      "name": "Paulo Wanchope",
+      "country": "CR"
+    },
+  
+    "stadium": {
+      "name": "Estadio Carlos Alvarado",
+      "capacity": 5250
+    },
+  
+    "players": [
+      {"playerId": "player_cr1_004_01", "name": "Danny Carvajal", "number": 1, "position": "GK", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_004_02", "name": "Jesús Rubio", "number": 2, "position": "RB", "country": "MX", "status": "starter"},
+      {"playerId": "player_cr1_004_03", "name": "Axell Quirós", "number": 4, "position": "CB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_004_04", "name": "Darrel Araya", "number": 5, "position": "CB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_004_05", "name": "Jurgen Román", "number": 3, "position": "LB", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_004_06", "name": "Elías Aguilar", "number": 6, "position": "CDM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_004_07", "name": "Aaron Suárez", "number": 8, "position": "CM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_004_08", "name": "Allan Cruz", "number": 7, "position": "RW", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_004_09", "name": "Aaron Murillo", "number": 10, "position": "CAM", "country": "CR", "status": "starter"},
+      {"playerId": "player_cr1_004_10", "name": "Fernando Lesme", "number": 11, "position": "ST", "country": "PY", "status": "starter"},
+      {"playerId": "player_cr1_004_11", "name": "Ronaldo Araya", "number": 9, "position": "LW", "country": "CR", "status": "starter"},
+  
+      {"playerId": "player_cr1_004_12", "name": "Alexander Lezcano", "number": 12, "position": "GK", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_004_13", "name": "Reggy Rivera", "number": 14, "position": "CB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_004_14", "name": "Sergio Rodríguez", "number": 15, "position": "RB", "country": "HN", "status": "bench"},
+      {"playerId": "player_cr1_004_15", "name": "Getsel Montes", "number": 16, "position": "LB", "country": "HN", "status": "bench"},
+      {"playerId": "player_cr1_004_16", "name": "Keyner Brown", "number": 17, "position": "CB", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_004_17", "name": "Santiago Vargas", "number": 18, "position": "LW", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_004_18", "name": "Eduardo Juárez", "number": 19, "position": "CM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_004_19", "name": "Ariel Araúz", "number": 20, "position": "RM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_004_20", "name": "Daniel González", "number": 21, "position": "LM", "country": "CR", "status": "bench"},
+      {"playerId": "player_cr1_004_21", "name": "Abner Hudson", "number": 22, "position": "CAM", "country": "CR", "status": "bench"},
+  
+      {"playerId": "player_cr1_004_22", "name": "Anthony Walker", "number": 30, "position": "GK", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_004_23", "name": "Randall Leal", "number": 23, "position": "RW", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_004_24", "name": "Emerson Bravo", "number": 24, "position": "ST", "country": "CR", "status": "reserve"},
+      {"playerId": "player_cr1_004_25", "name": "Marcel Hernández", "number": 25, "position": "ST", "country": "CU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
