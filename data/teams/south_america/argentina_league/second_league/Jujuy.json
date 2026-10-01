@@ -1,12 +1,58 @@
 {
-  "teamKey": "Esgrma",
-
-  "name": "Club Atlético Gimnasia y Esgrima (Jujuy)",
-
-  "logo": "assets/logos/south_america/argentina/Esgrma.png",
-
-  "stadium": {
-    "name": "23 de Agosto",
-    "capacity": 24000
+    "teamKey": "Esgrma",
+  
+    "name": "Club Atlético Gimnasia y Esgrima (Jujuy)",
+  
+    "logo": "assets/logos/south_america/argentina/Esgrma.png",
+  
+    "manager": {
+      "name": "Matías Módolo",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "23 de Agosto",
+      "capacity": 24000
+    },
+  
+    "players": [
+      {"playerId": "player_ar2_020_01", "name": "Alan Sosa", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_020_02", "name": "Guillermo Cosaro", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_020_03", "name": "Bruno Palazzo", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_020_04", "name": "Diego López", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_020_05", "name": "Cristian Menéndez", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_020_06", "name": "Matías Palavecino", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_020_07", "name": "Hugo Soria", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_020_08", "name": "Nicolás Dematei", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_020_09", "name": "Javier Burrai", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_020_10", "name": "Franco Camargo", "number": 11, "position": "LM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar2_020_11", "name": "Mauro Albertengo", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ar2_020_12", "name": "Joaquín Bigo", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_020_13", "name": "Facundo Rizzi", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_020_14", "name": "Jorge Juárez", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_020_15", "name": "Hernán Pellerano", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_020_16", "name": "Maximiliano Casa", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_020_17", "name": "Alejandro Frezzotti", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_020_18", "name": "Rodrigo Montes", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_020_19", "name": "Lucas Chiozza", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_020_20", "name": "Gonzalo Lencina", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar2_020_21", "name": "Facundo Suárez", "number": 20, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ar2_020_22", "name": "Emilio Di Fulvio", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_020_23", "name": "Francisco Maidana", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_020_24", "name": "Agustín Palavecino", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar2_020_25", "name": "Juan Manuel Tévez", "number": 27, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
