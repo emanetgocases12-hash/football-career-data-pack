@@ -1,12 +1,44 @@
 {
-  "teamKey": "Tauro",
-
-  "name": "Tauro FC",
-
-  "logo": "assets/logos/north_america/panama/Tauro.png",
-
-  "stadium": {
-    "name": "Estadio Rommel Fernández Gutiérrez",
-    "capacity": 23000
+    "teamKey": "Tauro",
+    "name": "Tauro FC",
+    "logo": "assets/logos/north_america/panama/Tauro.png",
+    "manager": {"name": "Bernardo Redín", "country": "CO"},
+    "stadium": {"name": "Estadio Rommel Fernández Gutiérrez", "capacity": 23000},
+    "players": [
+      {"playerId": "player_pa1_010_01", "name": "José Guerra", "number": 12, "position": "GK", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_010_02", "name": "Jean Carlos Sánchez", "number": 28, "position": "CB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_010_03", "name": "Jan Carlos Vargas", "number": 29, "position": "CB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_010_04", "name": "Ángel Díaz", "number": 4, "position": "LB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_010_05", "name": "Luis Asprilla", "number": 2, "position": "RB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_010_06", "name": "Javier Figueroa", "number": 3, "position": "CDM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_010_07", "name": "Irving Hernández", "number": 22, "position": "CM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_010_08", "name": "Ángel Orelien", "number": 5, "position": "CAM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_010_09", "name": "Darwin Pinzón", "number": 6, "position": "LW", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_010_10", "name": "Cristian Quintero", "number": 10, "position": "RW", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_010_11", "name": "Saed Díaz", "number": 18, "position": "ST", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_010_12", "name": "Joseph Vargas", "number": 1, "position": "GK", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_010_13", "name": "Kevin Quintero", "number": 14, "position": "CB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_010_14", "name": "Edgar Góndola", "number": 15, "position": "CB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_010_15", "name": "Kevin Bernal", "number": 16, "position": "LB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_010_16", "name": "Wesley Cabrera", "number": 17, "position": "RB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_010_17", "name": "Kadir Hurtado", "number": 21, "position": "RB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_010_18", "name": "Adrián Olivardía", "number": 23, "position": "CDM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_010_19", "name": "Blas Pérez Jr.", "number": 20, "position": "CDM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_010_20", "name": "Ángel Guevara", "number": 25, "position": "CM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_010_21", "name": "Jerson Julio", "number": 24, "position": "CM", "country": "CO", "status": "bench"},
+      {"playerId": "player_pa1_010_22", "name": "Jhamal Rodríguez", "number": 7, "position": "CAM", "country": "PA", "status": "reserve"},
+      {"playerId": "player_pa1_010_23", "name": "Anthony Perea", "number": 39, "position": "LW", "country": "PA", "status": "reserve"},
+      {"playerId": "player_pa1_010_24", "name": "Joel Barría", "number": 26, "position": "RW", "country": "PA", "status": "reserve"},
+      {"playerId": "player_pa1_010_25", "name": "Jonathan Ceceña", "number": 19, "position": "RW", "country": "PA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 12,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 5,
+        "cornerLeft": 5,
+        "cornerRight": 6
+      }
+    }
   }
-}
