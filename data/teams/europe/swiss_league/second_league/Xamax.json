@@ -1,12 +1,58 @@
 {
-  "teamKey": "Xamax",
-
-  "name": "Neuchâtel Xamax FCS",
-
-  "logo": "assets/logos/europe/swiss/Xamax.png",
-
-  "stadium": {
-    "name": "Stade de la Maladière",
-    "capacity": 12500
+    "teamKey": "Xamax",
+  
+    "name": "Neuchâtel Xamax FCS",
+  
+    "logo": "assets/logos/europe/swiss/Xamax.png",
+  
+    "manager": {
+      "name": "Bruno Berner",
+      "country": "CH"
+    },
+  
+    "stadium": {
+      "name": "Stade de la Maladière",
+      "capacity": 12500
+    },
+  
+    "players": [
+      {"playerId": "player_ch2_009_01", "name": "Ngawi Anthony Mossi", "number": 1, "position": "GK", "country": "CG", "status": "starter"},
+      {"playerId": "player_ch2_009_02", "name": "Léon Bergsma", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
+      {"playerId": "player_ch2_009_03", "name": "Adonis Bourezak", "number": 4, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_009_04", "name": "Modibo Camara", "number": 5, "position": "CB", "country": "ML", "status": "starter"},
+      {"playerId": "player_ch2_009_05", "name": "Mathis Dind", "number": 3, "position": "LB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_009_06", "name": "Eris Abedini", "number": 6, "position": "CDM", "country": "XK", "status": "starter"},
+      {"playerId": "player_ch2_009_07", "name": "Badara Diomandé", "number": 8, "position": "CM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ch2_009_08", "name": "Diogo Carraco", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_ch2_009_09", "name": "Liridon Mulaj", "number": 10, "position": "CAM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_009_10", "name": "Nathan Garcia", "number": 11, "position": "LW", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch2_009_11", "name": "Peter Ambrose", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+  
+      {"playerId": "player_ch2_009_12", "name": "Uroš Likar", "number": 12, "position": "GK", "country": "SI", "status": "bench"},
+      {"playerId": "player_ch2_009_13", "name": "Mickaël Facchinetti", "number": 14, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_009_14", "name": "Jonathan Fontana", "number": 15, "position": "RB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_009_15", "name": "Niklas Gunnarsson", "number": 16, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_ch2_009_16", "name": "Léo Seydoux", "number": 17, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_009_17", "name": "Yuri Peverelli", "number": 18, "position": "CM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_009_18", "name": "Mats Hammerich Jr.", "number": 19, "position": "RM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_009_19", "name": "Raphaël Nuzzolo Jr.", "number": 20, "position": "LM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_009_20", "name": "Freddy Mveng", "number": 21, "position": "CAM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch2_009_21", "name": "Jonathan De Donno", "number": 22, "position": "RW", "country": "CH", "status": "bench"},
+  
+      {"playerId": "player_ch2_009_22", "name": "Jean-Daniel Mayasi", "number": 30, "position": "GK", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_009_23", "name": "Ibrahima Keita", "number": 23, "position": "LW", "country": "GN", "status": "reserve"},
+      {"playerId": "player_ch2_009_24", "name": "Janis Lüthi Jr.", "number": 24, "position": "ST", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch2_009_25", "name": "Vincent Nvendo Ferrier", "number": 25, "position": "ST", "country": "FR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
