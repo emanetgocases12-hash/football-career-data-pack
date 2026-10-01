@@ -1,12 +1,58 @@
 {
-  "teamKey": "Rangrs",
-
-  "name": "Rangers FC",
-
-  "logo": "assets/logos/europe/scottish/Rangers.png",
-
-  "stadium": {
-    "name": "Ibrox Stadium",
-    "capacity": 50987
+    "teamKey": "Rangrs",
+  
+    "name": "Rangers FC",
+  
+    "logo": "assets/logos/europe/scottish/Rangers.png",
+  
+    "manager": {
+      "name": "Derek McInnes",
+      "country": "GB-SCT"
+    },
+  
+    "stadium": {
+      "name": "Ibrox Stadium",
+      "capacity": 50987
+    },
+  
+    "players": [
+      {"playerId": "player_sct1_012_01", "name": "Ivor Pandur", "number": 1, "position": "GK", "country": "HR", "status": "starter"},
+      {"playerId": "player_sct1_012_02", "name": "Dujon Sterling", "number": 2, "position": "RB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sct1_012_03", "name": "Emmanuel Fernandez", "number": 4, "position": "CB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sct1_012_04", "name": "Olwethu Makhanya", "number": 5, "position": "CB", "country": "ZA", "status": "starter"},
+      {"playerId": "player_sct1_012_05", "name": "James Penrice", "number": 3, "position": "LB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_012_06", "name": "Dan Neil", "number": 6, "position": "CDM", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_sct1_012_07", "name": "Cammy Devlin", "number": 8, "position": "CM", "country": "AU", "status": "starter"},
+      {"playerId": "player_sct1_012_08", "name": "Connor Barron", "number": 7, "position": "RW", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct1_012_09", "name": "Tochi Chukwuani", "number": 10, "position": "CAM", "country": "DK", "status": "starter"},
+      {"playerId": "player_sct1_012_10", "name": "Mohamed Diomande", "number": 11, "position": "LW", "country": "CI", "status": "starter"},
+      {"playerId": "player_sct1_012_11", "name": "Lawrence Shankland", "number": 9, "position": "ST", "country": "GB-SCT", "status": "starter"},
+  
+      {"playerId": "player_sct1_012_12", "name": "Liam Kelly", "number": 12, "position": "GK", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_012_13", "name": "Kosta Nedeljković", "number": 14, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_sct1_012_14", "name": "Ben Godfrey", "number": 15, "position": "RB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sct1_012_15", "name": "Vanja Dragojević", "number": 16, "position": "LB", "country": "ME", "status": "bench"},
+      {"playerId": "player_sct1_012_16", "name": "Tuur Rommens", "number": 17, "position": "CB", "country": "BE", "status": "bench"},
+      {"playerId": "player_sct1_012_17", "name": "Thelo Aasgaard", "number": 18, "position": "CM", "country": "NO", "status": "bench"},
+      {"playerId": "player_sct1_012_18", "name": "Daisuke Yokota", "number": 19, "position": "RM", "country": "JP", "status": "bench"},
+      {"playerId": "player_sct1_012_19", "name": "Minsu Kim", "number": 20, "position": "LM", "country": "KR", "status": "bench"},
+      {"playerId": "player_sct1_012_20", "name": "Findlay Curtis", "number": 21, "position": "CAM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct1_012_21", "name": "Djeidi Gassama", "number": 22, "position": "RW", "country": "FR", "status": "bench"},
+  
+      {"playerId": "player_sct1_012_22", "name": "Jack Butland", "number": 30, "position": "GK", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_sct1_012_23", "name": "Youssef Chermiti", "number": 23, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_sct1_012_24", "name": "Ryan Naderi", "number": 24, "position": "ST", "country": "DE", "status": "reserve"},
+      {"playerId": "player_sct1_012_25", "name": "Hamza Igamane", "number": 25, "position": "ST", "country": "MA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
