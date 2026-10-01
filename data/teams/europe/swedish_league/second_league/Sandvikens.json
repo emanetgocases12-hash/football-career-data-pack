@@ -1,12 +1,58 @@
 {
-  "teamKey": "Sandvi",
-
-  "name": "Sandvikens IF",
-
-  "logo": "assets/logos/europe/swedish/Sandvikens.png",
-
-  "stadium": {
-    "name": "Jernvallen",
-    "capacity": 7000
+    "teamKey": "Sandvi",
+  
+    "name": "Sandvikens IF",
+  
+    "logo": "assets/logos/europe/swedish/Sandvikens.png",
+  
+    "manager": {
+      "name": "Eldar Abdulic",
+      "country": "SE"
+    },
+  
+    "stadium": {
+      "name": "Jernvallen",
+      "capacity": 7000
+    },
+  
+    "players": [
+      {"playerId": "player_se2_013_01", "name": "H. Sveijer", "number": 1, "position": "GK", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_013_02", "name": "Diomande Valassina Solo", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_013_03", "name": "G. Thörn", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_013_04", "name": "I. Lindholm", "number": 5, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_013_05", "name": "K. Harletun", "number": 3, "position": "LB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_013_06", "name": "John Junior Igbarumah", "number": 6, "position": "CDM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_013_07", "name": "M. Springfeldt", "number": 8, "position": "CM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_013_08", "name": "M. Naah", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_013_09", "name": "A. Abou Ali", "number": 10, "position": "CAM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_013_10", "name": "James Kirby", "number": 11, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_013_11", "name": "Naid Ganovic Jr.", "number": 9, "position": "LW", "country": "SE", "status": "starter"},
+  
+      {"playerId": "player_se2_013_12", "name": "K. Kharsi", "number": 12, "position": "GK", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_013_13", "name": "Jonathan Karlsson", "number": 14, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_013_14", "name": "Axel Sjöberg", "number": 15, "position": "RB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_013_15", "name": "E. Olsson", "number": 16, "position": "LB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_013_16", "name": "V. Lindberg", "number": 17, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_013_17", "name": "E. Engqvist", "number": 18, "position": "LW", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_013_18", "name": "J. Karlsson", "number": 19, "position": "CM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_013_19", "name": "A. Svanbäck Jr.", "number": 20, "position": "RM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_013_20", "name": "Nils Fröling", "number": 21, "position": "LM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_013_21", "name": "M. Kabuye", "number": 22, "position": "CAM", "country": "SE", "status": "bench"},
+  
+      {"playerId": "player_se2_013_22", "name": "Otto Lindell", "number": 30, "position": "GK", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_013_23", "name": "Malcolm Stolt Jr.", "number": 23, "position": "RW", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_013_24", "name": "M. Rönnberg", "number": 24, "position": "ST", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_013_25", "name": "A. Youssef Jr.", "number": 25, "position": "ST", "country": "SE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
