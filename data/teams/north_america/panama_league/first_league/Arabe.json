@@ -1,12 +1,44 @@
 {
-  "teamKey": "Árabe",
-
-  "name": "Deportivo Árabe Unido",
-
-  "logo": "assets/logos/north_america/panama/Arabe.png",
-
-  "stadium": {
-    "name": "Estadio Armando Dely Valdés",
-    "capacity": 1500
+    "teamKey": "Árabe",
+    "name": "Deportivo Árabe Unido",
+    "logo": "assets/logos/north_america/panama/Arabe.png",
+    "manager": {"name": "Sergio Guzmán", "country": "CO"},
+    "stadium": {"name": "Estadio Armando Dely Valdés", "capacity": 1500},
+    "players": [
+      {"playerId": "player_pa1_002_01", "name": "Reynaldo Polo", "number": 1, "position": "GK", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_002_02", "name": "Gustavo Chará", "number": 94, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_pa1_002_03", "name": "Dionisio Bernal", "number": 4, "position": "CB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_002_04", "name": "Omar Llerena", "number": 3, "position": "LB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_002_05", "name": "Jaime Harrison", "number": 19, "position": "RB", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_002_06", "name": "Joel Valencia", "number": 29, "position": "CDM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_002_07", "name": "Jonathan Filos", "number": 28, "position": "CM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_002_08", "name": "Mario Breary", "number": 6, "position": "CAM", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_002_09", "name": "Rubén Collymore", "number": 20, "position": "RW", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_002_10", "name": "Diego Valanta", "number": 27, "position": "RW", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_002_11", "name": "Alexis Palacio", "number": 10, "position": "ST", "country": "PA", "status": "starter"},
+      {"playerId": "player_pa1_002_12", "name": "Kevin Mosquera", "number": 12, "position": "GK", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_002_13", "name": "Marco Ceballos", "number": 2, "position": "CB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_002_14", "name": "Abdiel Jiménez", "number": 16, "position": "CB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_002_15", "name": "Chamir Dupuy", "number": 14, "position": "CB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_002_16", "name": "Miguel Muñoz", "number": 24, "position": "LB", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_002_17", "name": "Juan Espada", "number": 7, "position": "CM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_002_18", "name": "Armando Cooper", "number": 13, "position": "CM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_002_19", "name": "Octavio Reefer", "number": 26, "position": "CAM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_002_20", "name": "Nelson Barahona Jr.", "number": 88, "position": "CAM", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_002_21", "name": "Fernando McClean", "number": 11, "position": "RW", "country": "PA", "status": "bench"},
+      {"playerId": "player_pa1_002_22", "name": "Juan Villalobos", "number": 9, "position": "ST", "country": "PA", "status": "reserve"},
+      {"playerId": "player_pa1_002_23", "name": "Rolando Burgess", "number": 99, "position": "ST", "country": "PA", "status": "reserve"},
+      {"playerId": "player_pa1_002_24", "name": "Óscar Peñalba", "number": 18, "position": "ST", "country": "PA", "status": "reserve"},
+      {"playerId": "player_pa1_002_25", "name": "Reynaldo Graham", "number": 5, "position": "CM", "country": "PA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 6,
+        "cornerLeft": 6,
+        "cornerRight": 20
+      }
+    }
   }
-}
