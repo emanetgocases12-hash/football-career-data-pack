@@ -1,12 +1,58 @@
 {
-  "teamKey": "HFX",
-
-  "name": "HFX Wanderers FC",
-
-  "logo": "assets/logos/north_america/canada/HFX.png",
-
-  "stadium": {
-    "name": "Wanderers Grounds",
-    "capacity": 7000
+    "teamKey": "HFX",
+  
+    "name": "HFX Wanderers FC",
+  
+    "logo": "assets/logos/north_america/canada/HFX.png",
+  
+    "manager": {
+      "name": "Vanni Sartini",
+      "country": "IT"
+    },
+  
+    "stadium": {
+      "name": "Wanderers Grounds",
+      "capacity": 7000
+    },
+  
+    "players": [
+      {"playerId": "player_ca1_003_01", "name": "Marco Carducci", "number": 1, "position": "GK", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_003_02", "name": "Finn Linder", "number": 2, "position": "RB", "country": "NZ", "status": "starter"},
+      {"playerId": "player_ca1_003_03", "name": "Thomas Meilleur-Giguère", "number": 4, "position": "CB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_003_04", "name": "Kareem Sow", "number": 5, "position": "CB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_003_05", "name": "Francesco Troisi", "number": 3, "position": "LB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_003_06", "name": "Lorenzo Callegari", "number": 6, "position": "CDM", "country": "FR", "status": "starter"},
+      {"playerId": "player_ca1_003_07", "name": "Isaiah Johnston", "number": 8, "position": "CM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_003_08", "name": "Andre Rampersad", "number": 7, "position": "RW", "country": "TT", "status": "starter"},
+      {"playerId": "player_ca1_003_09", "name": "Lucas Olguin", "number": 10, "position": "CAM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_003_10", "name": "Ryan Telfer", "number": 11, "position": "ST", "country": "TT", "status": "starter"},
+      {"playerId": "player_ca1_003_11", "name": "Victor Akinwale", "number": 9, "position": "LW", "country": "GB-ENG", "status": "starter"},
+  
+      {"playerId": "player_ca1_003_12", "name": "Sinclair Astridge", "number": 12, "position": "GK", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_003_13", "name": "Jefferson Alphonse", "number": 14, "position": "CB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_003_14", "name": "Ilan Ahmed", "number": 15, "position": "RB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_003_15", "name": "Harvey Hughes", "number": 16, "position": "LB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_ca1_003_16", "name": "Yorgos Gavas", "number": 17, "position": "CB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_003_17", "name": "Sven Zitman", "number": 18, "position": "LW", "country": "NL", "status": "bench"},
+      {"playerId": "player_ca1_003_18", "name": "Miguel Arilla", "number": 19, "position": "CM", "country": "ES", "status": "bench"},
+      {"playerId": "player_ca1_003_19", "name": "Caden Trestrail", "number": 20, "position": "RM", "country": "TT", "status": "bench"},
+      {"playerId": "player_ca1_003_20", "name": "Remi Agunbiade", "number": 21, "position": "LM", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_003_21", "name": "David Makavala", "number": 22, "position": "CAM", "country": "CA", "status": "bench"},
+  
+      {"playerId": "player_ca1_003_22", "name": "Daniel Clarke", "number": 30, "position": "GK", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_003_23", "name": "Yohan Baï", "number": 23, "position": "RW", "country": "FR", "status": "reserve"},
+      {"playerId": "player_ca1_003_24", "name": "Adonijah Reid", "number": 24, "position": "ST", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_003_25", "name": "Jason Bahamboula", "number": 25, "position": "ST", "country": "CG", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
