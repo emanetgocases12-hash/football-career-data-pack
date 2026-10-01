@@ -1,12 +1,58 @@
 {
-  "teamKey": "Q's Park",
-
-  "name": "Queen's Park FC",
-
-  "logo": "assets/logos/europe/scottish/Queen.png",
-
-  "stadium": {
-    "name": "Hampden Park",
-    "capacity": 52500
+    "teamKey": "Q's Park",
+  
+    "name": "Queen's Park FC",
+  
+    "logo": "assets/logos/europe/scottish/Queen.png",
+  
+    "manager": {
+      "name": "Callum Davidson",
+      "country": "GB-SCT"
+    },
+  
+    "stadium": {
+      "name": "Hampden Park",
+      "capacity": 52500
+    },
+  
+    "players": [
+      {"playerId": "player_sct2_008_01", "name": "Calum Ferrie", "number": 1, "position": "GK", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_008_02", "name": "Dom Thomas", "number": 2, "position": "RB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_008_03", "name": "Charlie Fox", "number": 4, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_008_04", "name": "Sean Welsh", "number": 5, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_008_05", "name": "Louis Longridge", "number": 3, "position": "LB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_008_06", "name": "Jack Thomson", "number": 6, "position": "CDM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_008_07", "name": "Roddy MacGregor", "number": 8, "position": "CM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_008_08", "name": "Liam McLeish", "number": 7, "position": "RW", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_008_09", "name": "Zak Rudden", "number": 10, "position": "CAM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_sct2_008_10", "name": "Ruari Paton", "number": 11, "position": "LW", "country": "IE", "status": "starter"},
+      {"playerId": "player_sct2_008_11", "name": "Patrick Jarrett", "number": 9, "position": "ST", "country": "GB-ENG", "status": "starter"},
+  
+      {"playerId": "player_sct2_008_12", "name": "Will Tizzard", "number": 12, "position": "GK", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sct2_008_13", "name": "Jack Turner", "number": 14, "position": "CB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sct2_008_14", "name": "Nikola Ujdur", "number": 15, "position": "RB", "country": "AU", "status": "bench"},
+      {"playerId": "player_sct2_008_15", "name": "Cammy Bruce", "number": 16, "position": "LB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_008_16", "name": "Reece McAlear", "number": 17, "position": "CB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_008_17", "name": "Tyrece McDonnell", "number": 18, "position": "CM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_008_18", "name": "Jack Spong", "number": 19, "position": "RM", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sct2_008_19", "name": "Seb Drozd", "number": 20, "position": "LM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_008_20", "name": "Josh Hinds", "number": 21, "position": "CAM", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_sct2_008_21", "name": "Rocco Friel", "number": 22, "position": "RW", "country": "GB-SCT", "status": "bench"},
+  
+      {"playerId": "player_sct2_008_22", "name": "Max Thompson", "number": 30, "position": "GK", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_sct2_008_23", "name": "Lennon Connolly", "number": 23, "position": "LW", "country": "GB-SCT", "status": "reserve"},
+      {"playerId": "player_sct2_008_24", "name": "Malachi Boateng", "number": 24, "position": "ST", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_sct2_008_25", "name": "Connor Shields", "number": 25, "position": "ST", "country": "GB-SCT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
