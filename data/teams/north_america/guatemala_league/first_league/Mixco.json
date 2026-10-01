@@ -1,12 +1,58 @@
 {
-  "teamKey": "Mixco",
-
-  "name": "Deportivo Mixco",
-
-  "logo": "assets/logos/north_america/guatemala/Mixco.png",
-
-  "stadium": {
-    "name": "Estadio Santo Domingo de Guzmán",
-    "capacity": 5200
+    "teamKey": "Mixco",
+  
+    "name": "Deportivo Mixco",
+  
+    "logo": "assets/logos/north_america/guatemala/Mixco.png",
+  
+    "manager": {
+      "name": "Fabricio Benítez",
+      "country": "GT"
+    },
+  
+    "stadium": {
+      "name": "Estadio Santo Domingo de Guzmán",
+      "capacity": 5200
+    },
+  
+    "players": [
+      {"playerId": "player_gt1_010_01", "name": "Mario Mendoza", "number": 1, "position": "GK", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_010_02", "name": "Nixson Flores", "number": 2, "position": "RB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_010_03", "name": "Manuel Moreno", "number": 4, "position": "CB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_010_04", "name": "Diego Orlando Méndez Vásquez", "number": 5, "position": "CB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_010_05", "name": "Aldo Paolo Luna", "number": 3, "position": "LB", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_010_06", "name": "Yonathan Josué Pozuelos Morales", "number": 6, "position": "CDM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_010_07", "name": "Jonathan Márquez", "number": 8, "position": "CM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_010_08", "name": "Kevin Illescas", "number": 7, "position": "RW", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_010_09", "name": "José Ramón Bolaños Boburg", "number": 10, "position": "CAM", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_010_10", "name": "Esnaydi Zúñiga", "number": 11, "position": "LW", "country": "GT", "status": "starter"},
+      {"playerId": "player_gt1_010_11", "name": "Esteban Garcia", "number": 9, "position": "ST", "country": "GT", "status": "starter"},
+  
+      {"playerId": "player_gt1_010_12", "name": "Mynor Roberto Padilla Zuñiga", "number": 12, "position": "GK", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_010_13", "name": "Jorge Luis Sotomayor", "number": 14, "position": "CB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_010_14", "name": "Rodrigo Marroquín", "number": 15, "position": "RB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_010_15", "name": "Jeshua Urizar", "number": 16, "position": "LB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_010_16", "name": "Allen Yanes", "number": 17, "position": "CB", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_010_17", "name": "José Eduardo Can Garrido", "number": 18, "position": "CM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_010_18", "name": "Michael Moreira", "number": 19, "position": "RM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_010_19", "name": "Oscar Andrés Gonzalez Palma", "number": 20, "position": "LM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_010_20", "name": "Christian Ojeda", "number": 21, "position": "CAM", "country": "GT", "status": "bench"},
+      {"playerId": "player_gt1_010_21", "name": "Kennedy Rocha", "number": 22, "position": "RW", "country": "CR", "status": "bench"},
+  
+      {"playerId": "player_gt1_010_22", "name": "Kevin Moscoso", "number": 30, "position": "GK", "country": "GT", "status": "reserve"},
+      {"playerId": "player_gt1_010_23", "name": "Fernando Gabriel Arce", "number": 23, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_gt1_010_24", "name": "Jefrey Segura", "number": 24, "position": "ST", "country": "GT", "status": "reserve"},
+      {"playerId": "player_gt1_010_25", "name": "Nicolás Martínez", "number": 25, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
