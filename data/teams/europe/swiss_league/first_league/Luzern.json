@@ -1,12 +1,58 @@
 {
-  "teamKey": "Luzern",
-
-  "name": "FC Luzern",
-
-  "logo": "assets/logos/europe/swiss/Luzern.png",
-
-  "stadium": {
-    "name": "swissporarena",
-    "capacity": 15680
+    "teamKey": "Luzern",
+  
+    "name": "FC Luzern",
+  
+    "logo": "assets/logos/europe/swiss/Luzern.png",
+  
+    "manager": {
+      "name": "Jörg Portmann",
+      "country": "CH"
+    },
+  
+    "stadium": {
+      "name": "swissporarena",
+      "capacity": 15680
+    },
+  
+    "players": [
+      {"playerId": "player_ch1_006_01", "name": "Sinan Simoni", "number": 1, "position": "GK", "country": "AL", "status": "starter"},
+      {"playerId": "player_ch1_006_02", "name": "Jesper Löfgren", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
+      {"playerId": "player_ch1_006_03", "name": "Stefan Knežević", "number": 4, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_006_04", "name": "Bung Hua Freimann", "number": 5, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_006_05", "name": "Andrejs Cigaņiks", "number": 3, "position": "LB", "country": "LV", "status": "starter"},
+      {"playerId": "player_ch1_006_06", "name": "Leonardo Bertone", "number": 6, "position": "CDM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_006_07", "name": "Lucas Ferreira", "number": 8, "position": "CM", "country": "PT", "status": "starter"},
+      {"playerId": "player_ch1_006_08", "name": "Matteo Di Giusto", "number": 7, "position": "RW", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_006_09", "name": "Tyron Owusu", "number": 10, "position": "CAM", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_006_10", "name": "Rui Dantas Fernandes", "number": 11, "position": "LW", "country": "CH", "status": "starter"},
+      {"playerId": "player_ch1_006_11", "name": "Adrian Grbić", "number": 9, "position": "ST", "country": "AT", "status": "starter"},
+  
+      {"playerId": "player_ch1_006_12", "name": "Karlo Letica", "number": 12, "position": "GK", "country": "HR", "status": "bench"},
+      {"playerId": "player_ch1_006_13", "name": "Pius Dorn", "number": 14, "position": "CB", "country": "DE", "status": "bench"},
+      {"playerId": "player_ch1_006_14", "name": "Lars Lüthi", "number": 15, "position": "RB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_006_15", "name": "Ruben Fernandes", "number": 16, "position": "LB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_006_16", "name": "Bung Meng Freimann", "number": 17, "position": "CB", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_006_17", "name": "Lars Villiger", "number": 18, "position": "CM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_006_18", "name": "Dario Xhemalija", "number": 19, "position": "RM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_006_19", "name": "Mauro Zimmermann", "number": 20, "position": "LM", "country": "CH", "status": "bench"},
+      {"playerId": "player_ch1_006_20", "name": "Jakub Kadák", "number": 21, "position": "CM", "country": "SK", "status": "bench"},
+      {"playerId": "player_ch1_006_21", "name": "Alessio Oehlers", "number": 22, "position": "RW", "country": "NL", "status": "bench"},
+  
+      {"playerId": "player_ch1_006_22", "name": "Thierry Hottiger", "number": 30, "position": "GK", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch1_006_23", "name": "Olivier Kabwit", "number": 23, "position": "LW", "country": "CD", "status": "reserve"},
+      {"playerId": "player_ch1_006_24", "name": "Severin Wyss", "number": 24, "position": "ST", "country": "CH", "status": "reserve"},
+      {"playerId": "player_ch1_006_25", "name": "Fabrice Bongeli", "number": 25, "position": "ST", "country": "CD", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
