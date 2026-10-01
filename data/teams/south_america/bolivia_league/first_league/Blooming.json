@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bloomi",
-
-  "name": "Blooming Santa Cruz",
-
-  "logo": "assets/logos/south_america/bolivia/Bloomi.png",
-
-  "stadium": {
-    "name": "Estadio Ramón Tahuichi Aguilera",
-    "capacity": 38000
+    "teamKey": "Bloomi",
+  
+    "name": "Blooming Santa Cruz",
+  
+    "logo": "assets/logos/south_america/bolivia/Bloomi.png",
+  
+    "manager": {
+      "name": "Erwin Sánchez",
+      "country": "BO"
+    },
+  
+    "stadium": {
+      "name": "Estadio Ramón Tahuichi Aguilera",
+      "capacity": 38000
+    },
+  
+    "players": [
+      {"playerId": "player_bo1_002_01", "name": "Braulio Uraezaña", "number": 1, "position": "GK", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_002_02", "name": "Julio Vila", "number": 22, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_bo1_002_03", "name": "Diago Giménez", "number": 17, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_bo1_002_04", "name": "Denilson Duran", "number": 4, "position": "LB", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_002_05", "name": "Esdras Mendoza", "number": 70, "position": "RB", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_002_06", "name": "Danny Bejarano", "number": 16, "position": "CDM", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_002_07", "name": "Moisés Villarroel", "number": 8, "position": "CM", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_002_08", "name": "Roberto Hinojoza", "number": 10, "position": "CAM", "country": "CO", "status": "starter"},
+      {"playerId": "player_bo1_002_09", "name": "Jeyson Chura", "number": 23, "position": "LW", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_002_10", "name": "Cesar Menacho", "number": 11, "position": "RW", "country": "BO", "status": "starter"},
+      {"playerId": "player_bo1_002_11", "name": "Antony Vásquez", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+  
+      {"playerId": "player_bo1_002_12", "name": "Gustavo Almada", "number": 71, "position": "GK", "country": "PY", "status": "bench"},
+      {"playerId": "player_bo1_002_13", "name": "José María Carrasco", "number": 55, "position": "CB", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_002_14", "name": "Eduardo Álvarez", "number": 28, "position": "CB", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_002_15", "name": "Marc Enoumba", "number": 44, "position": "CB", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_002_16", "name": "Mauricio Cabral", "number": 2, "position": "RB", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_002_17", "name": "Juan Mercado", "number": 14, "position": "CDM", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_002_18", "name": "Richard Spenhay", "number": 6, "position": "CM", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_002_19", "name": "Auli Oliveros", "number": 33, "position": "CAM", "country": "CO", "status": "bench"},
+      {"playerId": "player_bo1_002_20", "name": "Miguel Villarroel", "number": 7, "position": "RW", "country": "BO", "status": "bench"},
+      {"playerId": "player_bo1_002_21", "name": "Bayron Garcés", "number": 29, "position": "ST", "country": "CO", "status": "bench"},
+  
+      {"playerId": "player_bo1_002_22", "name": "Saúl Severiche", "number": 5, "position": "CB", "country": "BO", "status": "reserve"},
+      {"playerId": "player_bo1_002_23", "name": "Eduardo Justiniano", "number": 24, "position": "CB", "country": "BO", "status": "reserve"},
+      {"playerId": "player_bo1_002_24", "name": "Matías Abisab", "number": 19, "position": "CAM", "country": "UY", "status": "reserve"},
+      {"playerId": "player_bo1_002_25", "name": "Luis Chávez", "number": 27, "position": "ST", "country": "BO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 23
+      }
+    }
   }
-}
