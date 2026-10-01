@@ -1,12 +1,58 @@
 {
-  "teamKey": "Delfin",
-
-  "name": "Delfines del Este FC",
-
-  "logo": "assets/logos/north_america/dominic/Delfin.png",
-
-  "stadium": {
-    "name": "Estadio Panamericano",
-    "capacity": 2800
+    "teamKey": "Delfin",
+  
+    "name": "Delfines del Este FC",
+  
+    "logo": "assets/logos/north_america/dominic/Delfin.png",
+  
+    "manager": {
+      "name": "José Miguel Rodríguez",
+      "country": "DO"
+    },
+  
+    "stadium": {
+      "name": "Estadio Panamericano",
+      "capacity": 2800
+    },
+  
+    "players": [
+      {"playerId": "player_do1_004_01", "name": "Pedro José Espinal Almonte", "number": 1, "position": "GK", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_004_02", "name": "Arles Balanta", "number": 2, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_do1_004_03", "name": "Leonardo Enmanuel Elsevyf Cuello", "number": 4, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_004_04", "name": "Joselvis Martínez Sánchez", "number": 5, "position": "RB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_004_05", "name": "Josias Sánchez de León", "number": 3, "position": "CB", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_004_06", "name": "Christopher Alessandro Almonte Martínez", "number": 6, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_004_07", "name": "Jordy Emanuel Benítez Pérez", "number": 8, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_004_08", "name": "Diego Andrés Losada Grullón", "number": 7, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_004_09", "name": "Álvaro Cabrera", "number": 10, "position": "CM", "country": "DO", "status": "starter"},
+      {"playerId": "player_do1_004_10", "name": "Yonier Andrés Hurtado Hinestroza", "number": 11, "position": "LW", "country": "CO", "status": "starter"},
+      {"playerId": "player_do1_004_11", "name": "Jhon Ramos", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+  
+      {"playerId": "player_do1_004_12", "name": "Danilo Campana", "number": 12, "position": "GK", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_004_13", "name": "Renzo Sala Batista", "number": 14, "position": "CB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_004_14", "name": "Pablo Javier Rodríguez Batista", "number": 15, "position": "CB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_004_15", "name": "Abraham de León Martínez", "number": 16, "position": "LB", "country": "MX", "status": "bench"},
+      {"playerId": "player_do1_004_16", "name": "Esmailin Segura", "number": 17, "position": "LB", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_004_17", "name": "Eduar Andrés González Ambuila", "number": 18, "position": "CM", "country": "CO", "status": "bench"},
+      {"playerId": "player_do1_004_18", "name": "Ysaac Corcino", "number": 19, "position": "LM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_004_19", "name": "Erick Montaño", "number": 20, "position": "CAM", "country": "CO", "status": "bench"},
+      {"playerId": "player_do1_004_20", "name": "Darlyn Ramón Valerio Correa", "number": 21, "position": "CM", "country": "DO", "status": "bench"},
+      {"playerId": "player_do1_004_21", "name": "Emmanuel Gómez Cadavid", "number": 22, "position": "ST", "country": "CO", "status": "bench"},
+  
+      {"playerId": "player_do1_004_22", "name": "Jael Ceballos", "number": 30, "position": "GK", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_004_23", "name": "Ander Segura", "number": 23, "position": "ST", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_004_24", "name": "Johander Bou", "number": 24, "position": "ST", "country": "DO", "status": "reserve"},
+      {"playerId": "player_do1_004_25", "name": "Makenson Abel Díaz", "number": 25, "position": "ST", "country": "DO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 6,
+        "cornerLeft": 6,
+        "cornerRight": 6
+      }
+    }
   }
-}
