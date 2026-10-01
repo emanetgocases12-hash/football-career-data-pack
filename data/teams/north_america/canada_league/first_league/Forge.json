@@ -1,12 +1,58 @@
 {
-  "teamKey": "Forge",
-
-  "name": "Forge FC",
-
-  "logo": "assets/logos/north_america/canada/Forge.png",
-
-  "stadium": {
-    "name": "Tim Hortons Field",
-    "capacity": 14000
+    "teamKey": "Forge",
+  
+    "name": "Forge FC",
+  
+    "logo": "assets/logos/north_america/canada/Forge.png",
+  
+    "manager": {
+      "name": "Bobby Smyrniotis",
+      "country": "CA"
+    },
+  
+    "stadium": {
+      "name": "Tim Hortons Field",
+      "capacity": 14000
+    },
+  
+    "players": [
+      {"playerId": "player_ca1_002_01", "name": "Dimitry Bertaud", "number": 1, "position": "GK", "country": "CD", "status": "starter"},
+      {"playerId": "player_ca1_002_02", "name": "Daniel Nimick", "number": 2, "position": "RB", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_002_03", "name": "Daniel Krutzen", "number": 4, "position": "CB", "country": "BE", "status": "starter"},
+      {"playerId": "player_ca1_002_04", "name": "Antoine Batisse", "number": 5, "position": "CB", "country": "FR", "status": "starter"},
+      {"playerId": "player_ca1_002_05", "name": "Rezart Rama", "number": 3, "position": "LB", "country": "AL", "status": "starter"},
+      {"playerId": "player_ca1_002_06", "name": "Kyle Bekker", "number": 6, "position": "CDM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_002_07", "name": "Noah Jensen", "number": 8, "position": "CM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_002_08", "name": "Ben Paton", "number": 7, "position": "RW", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_002_09", "name": "Tristan Borges", "number": 10, "position": "CAM", "country": "CA", "status": "starter"},
+      {"playerId": "player_ca1_002_10", "name": "Nana Ampomah", "number": 11, "position": "ST", "country": "GH", "status": "starter"},
+      {"playerId": "player_ca1_002_11", "name": "Brian Wright", "number": 9, "position": "LW", "country": "CA", "status": "starter"},
+  
+      {"playerId": "player_ca1_002_12", "name": "Dino Bontis", "number": 12, "position": "GK", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_002_13", "name": "Marko Jevremović", "number": 14, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_ca1_002_14", "name": "Sebastian Castello", "number": 15, "position": "RB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_002_15", "name": "Oliver Clow", "number": 16, "position": "LB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_002_16", "name": "Kenan Hodzic", "number": 17, "position": "CB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_002_17", "name": "Keito Lipovschek", "number": 18, "position": "LW", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_002_18", "name": "Anthony Aromatario", "number": 19, "position": "CM", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_002_19", "name": "Khadim Kane", "number": 20, "position": "RM", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_002_20", "name": "Amadou Kone", "number": 21, "position": "LM", "country": "CA", "status": "bench"},
+      {"playerId": "player_ca1_002_21", "name": "Zayne Bruno", "number": 22, "position": "CAM", "country": "CA", "status": "bench"},
+  
+      {"playerId": "player_ca1_002_22", "name": "Daniil Antonov", "number": 30, "position": "GK", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_002_23", "name": "Mo Babouli", "number": 23, "position": "RW", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_002_24", "name": "Hoce Massunda", "number": 24, "position": "ST", "country": "CA", "status": "reserve"},
+      {"playerId": "player_ca1_002_25", "name": "Ismael Oketokoun", "number": 25, "position": "ST", "country": "CA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
