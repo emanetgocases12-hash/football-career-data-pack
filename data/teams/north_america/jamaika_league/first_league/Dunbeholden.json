@@ -1,12 +1,58 @@
 {
-  "teamKey": "Dunbeh",
-
-  "name": "Dunbeholden FC",
-
-  "logo": "assets/logos/north_america/jamaika/Dunbeh.png",
-
-  "stadium": {
-    "name": "Dunbeholden Sports Complex",
-    "capacity": 1500
+    "teamKey": "Dunbeh",
+  
+    "name": "Dunbeholden FC",
+  
+    "logo": "assets/logos/north_america/jamaika/Dunbeh.png",
+  
+    "manager": {
+      "name": "Alex Thomas",
+      "country": "JM"
+    },
+  
+    "stadium": {
+      "name": "Dunbeholden Sports Complex",
+      "capacity": 1500
+    },
+  
+    "players": [
+      {"playerId": "player_jm1_003_01", "name": "Jean-Luke Wilmott", "number": 1, "position": "GK", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_003_02", "name": "Ricardo Beckford", "number": 2, "position": "RB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_003_03", "name": "Jovan Gordon", "number": 4, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_003_04", "name": "Devonte Hodges", "number": 5, "position": "CB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_003_05", "name": "Odane Samuels", "number": 3, "position": "LB", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_003_06", "name": "Orlando Brown", "number": 6, "position": "CDM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_003_07", "name": "Tuwain Merrick", "number": 8, "position": "CM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_003_08", "name": "Jessie Jackson", "number": 7, "position": "RW", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_003_09", "name": "Clive Wedderburn", "number": 10, "position": "CDM", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_003_10", "name": "Nickoy Christian", "number": 11, "position": "ST", "country": "JM", "status": "starter"},
+      {"playerId": "player_jm1_003_11", "name": "Tyrese Gowe", "number": 9, "position": "RW", "country": "JM", "status": "starter"},
+  
+      {"playerId": "player_jm1_003_12", "name": "Malique Williams", "number": 12, "position": "GK", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_003_13", "name": "Odean Pennycooke", "number": 14, "position": "CB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_003_14", "name": "Chevoy Watkin", "number": 15, "position": "RB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_003_15", "name": "Christopher Matthews", "number": 16, "position": "LB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_003_16", "name": "Tyrese Wynter", "number": 17, "position": "CB", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_003_17", "name": "Jaheim Dorman", "number": 18, "position": "LW", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_003_18", "name": "Fabion McCarthy", "number": 19, "position": "CM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_003_19", "name": "Shemar Booth", "number": 20, "position": "RM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_003_20", "name": "Terron Williams", "number": 21, "position": "LM", "country": "JM", "status": "bench"},
+      {"playerId": "player_jm1_003_21", "name": "Nathaniel Waul", "number": 22, "position": "CAM", "country": "JM", "status": "bench"},
+  
+      {"playerId": "player_jm1_003_22", "name": "Damian Hyatt", "number": 30, "position": "GK", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_003_23", "name": "Shakeen Powell", "number": 23, "position": "LW", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_003_24", "name": "Atapharoy Bygrave", "number": 24, "position": "ST", "country": "JM", "status": "reserve"},
+      {"playerId": "player_jm1_003_25", "name": "Michael Oie", "number": 25, "position": "ST", "country": "GY", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
