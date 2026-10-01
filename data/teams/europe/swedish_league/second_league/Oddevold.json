@@ -1,12 +1,58 @@
 {
-  "teamKey": "Oddevo",
-
-  "name": "IK Oddevold",
-
-  "logo": "assets/logos/europe/swedish/Oddevold.png",
-
-  "stadium": {
-    "name": "Rimnersvallen",
-    "capacity": 4000
+    "teamKey": "Oddevo",
+  
+    "name": "IK Oddevold",
+  
+    "logo": "assets/logos/europe/swedish/Oddevold.png",
+  
+    "manager": {
+      "name": "Rikard Nilsson",
+      "country": "SE"
+    },
+  
+    "stadium": {
+      "name": "Rimnersvallen",
+      "capacity": 4000
+    },
+  
+    "players": [
+      {"playerId": "player_se2_009_01", "name": "Morten Saetra", "number": 1, "position": "GK", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_009_02", "name": "Alexander Almqvist", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_009_03", "name": "Erik Hedenquist", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_009_04", "name": "Jesper Merbom Adolfsson", "number": 5, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_009_05", "name": "Jimi Dos Reis Nikko", "number": 3, "position": "LB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_009_06", "name": "Adam Engelbrektsson", "number": 6, "position": "CDM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_009_07", "name": "D. Awaka", "number": 8, "position": "CM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_009_08", "name": "Daniel Krezić", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_009_09", "name": "Esim Mehmed", "number": 10, "position": "CAM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_009_10", "name": "Emmanuel Gono", "number": 11, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_se2_009_11", "name": "Anton Kurochkin Jr.", "number": 9, "position": "LW", "country": "SE", "status": "starter"},
+  
+      {"playerId": "player_se2_009_12", "name": "Filip Järlesand", "number": 12, "position": "GK", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_009_13", "name": "Johan Albin", "number": 14, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_009_14", "name": "Oliver Thoreson", "number": 15, "position": "RB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_009_15", "name": "Philip Engelbrektsson", "number": 16, "position": "LB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_009_16", "name": "Hugo Engström", "number": 17, "position": "CB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_009_17", "name": "Gabriel Sandberg", "number": 18, "position": "LW", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_009_18", "name": "Tom Elias Forsberg", "number": 19, "position": "CM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_009_19", "name": "Oscar Iglicar Berntsson", "number": 20, "position": "RM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_009_20", "name": "Noel Hermansson", "number": 21, "position": "LM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se2_009_21", "name": "Anton Snibb", "number": 22, "position": "CAM", "country": "SE", "status": "bench"},
+  
+      {"playerId": "player_se2_009_22", "name": "Armin Ibrahimović", "number": 30, "position": "GK", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_009_23", "name": "Elias Hedin Jr.", "number": 23, "position": "RW", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_009_24", "name": "Mikael Mörfelt Jr.", "number": 24, "position": "ST", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se2_009_25", "name": "Oskar Karlsson", "number": 25, "position": "ST", "country": "SE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
