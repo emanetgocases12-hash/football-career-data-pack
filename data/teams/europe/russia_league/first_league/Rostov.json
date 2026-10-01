@@ -1,12 +1,58 @@
 {
-  "teamKey": "Rostov",
-
-  "name": "FC Rostov",
-
-  "logo": "assets/logos/europe/russia/Rostov.png",
-
-  "stadium": {
-    "name": "Rostov Arena",
-    "capacity": 45415
+    "teamKey": "Rostov",
+  
+    "name": "FC Rostov",
+  
+    "logo": "assets/logos/europe/russia/Rostov.png",
+  
+    "manager": {
+      "name": "Jonatan Alba",
+      "country": "ES"
+    },
+  
+    "stadium": {
+      "name": "Rostov Arena",
+      "capacity": 45415
+    },
+  
+    "players": [
+      {"playerId": "player_ru1_012_01", "name": "Rustam Yatimov", "number": 1, "position": "GK", "country": "TJ", "status": "starter"},
+      {"playerId": "player_ru1_012_02", "name": "Oumar Sako", "number": 2, "position": "RB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ru1_012_03", "name": "Viktor Melekhin", "number": 4, "position": "CB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_012_04", "name": "Ygor Nogueira", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_ru1_012_05", "name": "Andrey Langovich", "number": 3, "position": "LB", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_012_06", "name": "Aleksey Mironov", "number": 6, "position": "CDM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_012_07", "name": "Ivan Komarov", "number": 8, "position": "CM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_012_08", "name": "Maksim Mukhin", "number": 7, "position": "RW", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_012_09", "name": "Konstantin Kuchaev", "number": 10, "position": "CAM", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_012_10", "name": "Yaroslav Mikhailov", "number": 11, "position": "LW", "country": "RU", "status": "starter"},
+      {"playerId": "player_ru1_012_11", "name": "Ronaldo", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_ru1_012_12", "name": "Daniil Odoevskiy", "number": 12, "position": "GK", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_012_13", "name": "Danila Prokhin", "number": 14, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_012_14", "name": "David Semenchuk", "number": 15, "position": "RB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_012_15", "name": "Denis Titov", "number": 16, "position": "LB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_012_16", "name": "Maksim Osipenko", "number": 17, "position": "CB", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_012_17", "name": "Daniil Shantaliy", "number": 18, "position": "CM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_012_18", "name": "Imran Aznaurov", "number": 19, "position": "RM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_012_19", "name": "Karim Madrakhimov", "number": 20, "position": "LM", "country": "RU", "status": "bench"},
+      {"playerId": "player_ru1_012_20", "name": "Khoren Bayramyan", "number": 21, "position": "CAM", "country": "AM", "status": "bench"},
+      {"playerId": "player_ru1_012_21", "name": "Timur Suleymanov", "number": 22, "position": "RW", "country": "RU", "status": "bench"},
+  
+      {"playerId": "player_ru1_012_22", "name": "Anton Shamonin", "number": 30, "position": "GK", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_012_23", "name": "Olakunle Olusegun", "number": 23, "position": "LW", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ru1_012_24", "name": "Nikolay Komlichenko", "number": 24, "position": "ST", "country": "RU", "status": "reserve"},
+      {"playerId": "player_ru1_012_25", "name": "Egor Golenkov", "number": 25, "position": "ST", "country": "RU", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
