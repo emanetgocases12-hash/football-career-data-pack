@@ -1,12 +1,58 @@
 {
-  "teamKey": "España",
-
-  "name": "Real España",
-
-  "logo": "assets/logos/north_america/honduras/Espana.png",
-
-  "stadium": {
-    "name": "Estadio General Francisco Morazán",
-    "capacity": 25000
+    "teamKey": "España",
+  
+    "name": "Real España",
+  
+    "logo": "assets/logos/north_america/honduras/Espana.png",
+  
+    "manager": {
+      "name": "Juan Ignacio Martínez",
+      "country": "ES"
+    },
+  
+    "stadium": {
+      "name": "Estadio General Francisco Morazán",
+      "capacity": 25000
+    },
+  
+    "players": [
+      {"playerId": "player_hn1_003_01", "name": "Luis Aurelio López Fernández", "number": 1, "position": "GK", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_003_02", "name": "Devron García", "number": 2, "position": "RB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_003_03", "name": "Daniel Aparicio", "number": 4, "position": "CB", "country": "PA", "status": "starter"},
+      {"playerId": "player_hn1_003_04", "name": "Marcelo Pereira", "number": 5, "position": "CB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_003_05", "name": "Franklin Flores", "number": 3, "position": "LB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_003_06", "name": "Carlos Alberto Mejía Cruz", "number": 6, "position": "RB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_003_07", "name": "Joshua Palacios", "number": 8, "position": "CM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_003_08", "name": "Christopher Pike", "number": 7, "position": "RW", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_003_09", "name": "Roberto Osorto", "number": 10, "position": "CAM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_003_10", "name": "Marco Aceituno", "number": 11, "position": "ST", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_003_11", "name": "David Sayago", "number": 9, "position": "LW", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_hn1_003_12", "name": "Roberto López", "number": 12, "position": "GK", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_003_13", "name": "Julio Rodríguez", "number": 14, "position": "CB", "country": "PA", "status": "bench"},
+      {"playerId": "player_hn1_003_14", "name": "Danilo Palacios", "number": 15, "position": "RB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_003_15", "name": "Daylor Cacho", "number": 16, "position": "LB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_003_16", "name": "Moisés Alvarado", "number": 17, "position": "CB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_003_17", "name": "Jhow Benavídez", "number": 18, "position": "LW", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_003_18", "name": "Nixon Cruz", "number": 19, "position": "CM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_003_19", "name": "Anthony García", "number": 20, "position": "RM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_003_20", "name": "Gonzalo Ritacco", "number": 21, "position": "LM", "country": "AR", "status": "bench"},
+      {"playerId": "player_hn1_003_21", "name": "Darixon Vuelto", "number": 22, "position": "CAM", "country": "HN", "status": "bench"},
+  
+      {"playerId": "player_hn1_003_22", "name": "Héctor Reyes", "number": 30, "position": "GK", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_003_23", "name": "Mike Arana", "number": 23, "position": "RW", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_003_24", "name": "Eddie Hernández", "number": 24, "position": "ST", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_003_25", "name": "Dixon Ramírez", "number": 25, "position": "ST", "country": "HN", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
