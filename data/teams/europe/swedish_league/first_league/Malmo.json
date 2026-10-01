@@ -1,12 +1,58 @@
 {
-  "teamKey": "Malmö",
-
-  "name": "Malmö FF",
-
-  "logo": "assets/logos/europe/swedish/Malmo.png",
-
-  "stadium": {
-    "name": "Eleda Stadion",
-    "capacity": 22500
+    "teamKey": "Malmö",
+  
+    "name": "Malmö FF",
+  
+    "logo": "assets/logos/europe/swedish/Malmo.png",
+  
+    "manager": {
+      "name": "Guillermo Molins",
+      "country": "UY"
+    },
+  
+    "stadium": {
+      "name": "Eleda Stadion",
+      "capacity": 22500
+    },
+  
+    "players": [
+      {"playerId": "player_se1_012_01", "name": "Robin Olsen", "number": 1, "position": "GK", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_012_02", "name": "S. Gregersen", "number": 2, "position": "RB", "country": "NO", "status": "starter"},
+      {"playerId": "player_se1_012_03", "name": "J. Karlsson", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_012_04", "name": "Bleon Kurtulus", "number": 5, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_012_05", "name": "Andrej Djuric", "number": 3, "position": "LB", "country": "ME", "status": "starter"},
+      {"playerId": "player_se1_012_06", "name": "Yanis Karabelyov", "number": 6, "position": "CDM", "country": "BG", "status": "starter"},
+      {"playerId": "player_se1_012_07", "name": "O. Rosengren", "number": 8, "position": "CM", "country": "SE", "status": "starter"},
+      {"playerId": "player_se1_012_08", "name": "A. Sigurðsson", "number": 7, "position": "RW", "country": "IS", "status": "starter"},
+      {"playerId": "player_se1_012_09", "name": "Anders Christiansen", "number": 10, "position": "CAM", "country": "DK", "status": "starter"},
+      {"playerId": "player_se1_012_10", "name": "Diego García", "number": 11, "position": "ST", "country": "ES", "status": "starter"},
+      {"playerId": "player_se1_012_11", "name": "S. Soumah", "number": 9, "position": "LW", "country": "GN", "status": "starter"},
+  
+      {"playerId": "player_se1_012_12", "name": "Johan Dahlin", "number": 12, "position": "GK", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_012_13", "name": "Jens Stryger", "number": 14, "position": "CB", "country": "DK", "status": "bench"},
+      {"playerId": "player_se1_012_14", "name": "Pontus Jansson", "number": 15, "position": "RB", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_012_15", "name": "Colin Rösler", "number": 16, "position": "LB", "country": "NO", "status": "bench"},
+      {"playerId": "player_se1_012_16", "name": "Gabriel Busanello", "number": 17, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_se1_012_17", "name": "E. Ekong", "number": 18, "position": "LW", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_012_18", "name": "S. Vecchia", "number": 19, "position": "CM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_012_19", "name": "T. Ali", "number": 20, "position": "RM", "country": "SE", "status": "bench"},
+      {"playerId": "player_se1_012_20", "name": "J. Milosavljević", "number": 21, "position": "LM", "country": "RS", "status": "bench"},
+      {"playerId": "player_se1_012_21", "name": "Sead Hakšabanović", "number": 22, "position": "CAM", "country": "ME", "status": "bench"},
+  
+      {"playerId": "player_se1_012_22", "name": "Ricardo Friedrich", "number": 30, "position": "GK", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se1_012_23", "name": "M. Lahdo", "number": 23, "position": "RW", "country": "SE", "status": "reserve"},
+      {"playerId": "player_se1_012_24", "name": "Erik Botheim", "number": 24, "position": "ST", "country": "NO", "status": "reserve"},
+      {"playerId": "player_se1_012_25", "name": "D. Guðjohnsen", "number": 25, "position": "ST", "country": "IS", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
