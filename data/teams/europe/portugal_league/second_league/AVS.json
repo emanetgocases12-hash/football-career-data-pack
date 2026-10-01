@@ -1,12 +1,58 @@
 {
-  "teamKey": "Avs",
-
-  "name": "Avs Futebol",
-
-  "logo": "assets/logos/europe/portugal/AVS.png",
-
-  "stadium": {
-    "name": "Estádio do Clube Desportivo das Aves",
-    "capacity": 6230
+    "teamKey": "Avs",
+  
+    "name": "Avs Futebol",
+  
+    "logo": "assets/logos/europe/portugal/AVS.png",
+  
+    "manager": {
+      "name": "Rui Ferreira",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio do Clube Desportivo das Aves",
+      "capacity": 6230
+    },
+  
+    "players": [
+      {"playerId": "player_pt2_001_01", "name": "Simão Bertelli", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_001_02", "name": "Fernando Fonseca", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_001_03", "name": "Clayton", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_pt2_001_04", "name": "Cristian Devenish", "number": 5, "position": "RB", "country": "CO", "status": "starter"},
+      {"playerId": "player_pt2_001_05", "name": "José Fontán", "number": 3, "position": "LB", "country": "ES", "status": "starter"},
+      {"playerId": "player_pt2_001_06", "name": "Gustavo Mendonça", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_001_07", "name": "Babacar Diop", "number": 8, "position": "CM", "country": "SN", "status": "starter"},
+      {"playerId": "player_pt2_001_08", "name": "Luís Silva", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_001_09", "name": "Nené", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_001_10", "name": "Samuel Granada", "number": 11, "position": "ST", "country": "PT", "status": "starter"},
+      {"playerId": "player_pt2_001_11", "name": "Giorgi Aburjania", "number": 9, "position": "CM", "country": "GE", "status": "starter"},
+  
+      {"playerId": "player_pt2_001_12", "name": "Trigueira", "number": 12, "position": "GK", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_001_13", "name": "Kiki Afonso", "number": 14, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_001_14", "name": "Nacho Monsalve", "number": 15, "position": "RB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_001_15", "name": "Eric Veiga", "number": 16, "position": "LB", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_001_16", "name": "Jaume Grau", "number": 17, "position": "CB", "country": "ES", "status": "bench"},
+      {"playerId": "player_pt2_001_17", "name": "John Mercado", "number": 18, "position": "LW", "country": "EC", "status": "bench"},
+      {"playerId": "player_pt2_001_18", "name": "Vasco Lopes", "number": 19, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_001_19", "name": "Tunde Akinsola", "number": 20, "position": "RM", "country": "NG", "status": "bench"},
+      {"playerId": "player_pt2_001_20", "name": "Welinton Junior", "number": 21, "position": "LM", "country": "PT", "status": "bench"},
+      {"playerId": "player_pt2_001_21", "name": "Rodrigo Ribeiro", "number": 22, "position": "CAM", "country": "PT", "status": "bench"},
+  
+      {"playerId": "player_pt2_001_22", "name": "Guillermo Ochoa", "number": 30, "position": "GK", "country": "MX", "status": "reserve"},
+      {"playerId": "player_pt2_001_23", "name": "Benny", "number": 23, "position": "RW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_001_24", "name": "Fábio Pacheco", "number": 24, "position": "LW", "country": "PT", "status": "reserve"},
+      {"playerId": "player_pt2_001_25", "name": "Rafael Rodrigues", "number": 25, "position": "ST", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
