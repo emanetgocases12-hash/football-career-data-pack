@@ -1,12 +1,58 @@
 {
-  "teamKey": "Platen",
-
-  "name": "Club Atlético Platense",
-
-  "logo": "assets/logos/south_america/argentina/Platen.png",
-
-  "stadium": {
-    "name": "Ciudad de Vicente López",
-    "capacity": 28530
+    "teamKey": "Platen",
+  
+    "name": "Club Atlético Platense",
+  
+    "logo": "assets/logos/south_america/argentina/Platen.png",
+  
+    "manager": {
+      "name": "Martín Palermo",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Ciudad de Vicente López",
+      "capacity": 28530
+    },
+  
+    "players": [
+      {"playerId": "player_ar1_020_01", "name": "Juan Cozzani", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_020_02", "name": "Víctor Cuesta", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_020_03", "name": "Mateo Mendia", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_020_04", "name": "Ignacio Vázquez", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_020_05", "name": "Agustín Lagos", "number": 3, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_020_06", "name": "Juan Gauto", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_020_07", "name": "Héctor Bobadilla", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_020_08", "name": "Santiago Dalmasso", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_020_09", "name": "Franco Zapiola", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_020_10", "name": "Guido Mainero", "number": 11, "position": "LM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ar1_020_11", "name": "Nico López", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ar1_020_12", "name": "Nicolás Sumavil", "number": 12, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_020_13", "name": "Santiago Quirós", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_020_14", "name": "Tomás Silva", "number": 22, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_020_15", "name": "Juan Ignacio Saborido", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_020_16", "name": "Fabricio López", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_020_17", "name": "Gastón Togni", "number": 16, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_020_18", "name": "Martín Barrios", "number": 9, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_020_19", "name": "Iván Gómez", "number": 17, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_020_20", "name": "Gonzalo Lencina", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ar1_020_21", "name": "Tomás Nasif", "number": 20, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_ar1_020_22", "name": "Brian Bustos", "number": 25, "position": "GK", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_020_23", "name": "Gonzalo Goñi", "number": 26, "position": "CB", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_020_24", "name": "Bruno Sepúlveda", "number": 21, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ar1_020_25", "name": "Leonardo Heredia", "number": 27, "position": "ST", "country": "AR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
