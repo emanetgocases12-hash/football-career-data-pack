@@ -1,12 +1,58 @@
 {
-  "teamKey": "CA Inde",
-
-  "name": "Atlético Independiente",
-
-  "logo": "assets/logos/north_america/honduras/CAInde.png",
-
-  "stadium": {
-    "name": "Estadio Roberto Martínez Ávila",
-    "capacity": 8000
+    "teamKey": "CA Inde",
+  
+    "name": "Atlético Independiente",
+  
+    "logo": "assets/logos/north_america/honduras/CAInde.png",
+  
+    "manager": {
+      "name": "Juanfran García",
+      "country": "ES"
+    },
+  
+    "stadium": {
+      "name": "Estadio Roberto Martínez Ávila",
+      "capacity": 8000
+    },
+  
+    "players": [
+      {"playerId": "player_hn1_005_01", "name": "Miguel Rodríguez", "number": 1, "position": "GK", "country": "NI", "status": "starter"},
+      {"playerId": "player_hn1_005_02", "name": "Luis Felipe Ararat Santana", "number": 2, "position": "RB", "country": "CO", "status": "starter"},
+      {"playerId": "player_hn1_005_03", "name": "Eduardo Andrés Peñaloza", "number": 4, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_hn1_005_04", "name": "Noé Enamorado", "number": 5, "position": "CB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_005_05", "name": "Marcos Lionzo Martínez Álvarez", "number": 3, "position": "LB", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_005_06", "name": "Elkin Alexander Reyes Arriola", "number": 6, "position": "CDM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_005_07", "name": "Mathías Techera", "number": 8, "position": "CM", "country": "UY", "status": "starter"},
+      {"playerId": "player_hn1_005_08", "name": "Sebastian Espinoza", "number": 7, "position": "RW", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_005_09", "name": "Oscar Cabrera", "number": 10, "position": "CAM", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_005_10", "name": "Sendel Cruz", "number": 11, "position": "ST", "country": "HN", "status": "starter"},
+      {"playerId": "player_hn1_005_11", "name": "Marc Ciguenza", "number": 9, "position": "LW", "country": "HN", "status": "starter"},
+  
+      {"playerId": "player_hn1_005_12", "name": "Michael Perelló", "number": 12, "position": "GK", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_005_13", "name": "Anfronit Tatum", "number": 14, "position": "CB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_005_14", "name": "Jeffri Gilberto Flores Fernández", "number": 15, "position": "RB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_005_15", "name": "Franklin Yanes", "number": 16, "position": "LB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_005_16", "name": "Brayan Ramírez", "number": 17, "position": "CB", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_005_17", "name": "Gerson Cabrera", "number": 18, "position": "LW", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_005_18", "name": "Joao Leonardo Risuenho Do Rosario", "number": 19, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_hn1_005_19", "name": "Luis Meléndez", "number": 20, "position": "RM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_005_20", "name": "José Fiallos", "number": 21, "position": "LM", "country": "HN", "status": "bench"},
+      {"playerId": "player_hn1_005_21", "name": "Cristian Martínez", "number": 22, "position": "CAM", "country": "HN", "status": "bench"},
+  
+      {"playerId": "player_hn1_005_22", "name": "Carlos Geovanny Timoteo Zambrano", "number": 30, "position": "GK", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_005_23", "name": "Edil Mármol", "number": 23, "position": "RW", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_005_24", "name": "Ángel Alvarado", "number": 24, "position": "ST", "country": "HN", "status": "reserve"},
+      {"playerId": "player_hn1_005_25", "name": "Franklin Bonilla", "number": 25, "position": "ST", "country": "HN", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
