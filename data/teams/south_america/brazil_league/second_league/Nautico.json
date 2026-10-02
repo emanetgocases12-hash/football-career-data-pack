@@ -1,12 +1,58 @@
 {
-  "teamKey": "Náutic",
-
-  "name": "Clube Náutico Capibaribe",
-
-  "logo": "assets/logos/south_america/brazil/Nautic.png",
-
-  "stadium": {
-    "name": "Estádio Eládio de Barros Carvalho",
-    "capacity": 19800
+    "teamKey": "Náutic",
+  
+    "name": "Clube Náutico Capibaribe",
+  
+    "logo": "assets/logos/south_america/brazil/Nautic.png",
+  
+    "manager": {
+      "name": "Hélio dos Anjos",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Eládio de Barros Carvalho",
+      "capacity": 19800
+    },
+  
+    "players": [
+      {"playerId": "player_br2_015_01", "name": "Muriel", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_015_02", "name": "Arnaldo", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_015_03", "name": "Igor Fernandes", "number": 23, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_015_04", "name": "Wanderson", "number": 34, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_015_05", "name": "Yuri", "number": 6, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_015_06", "name": "Dodô", "number": 10, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_015_07", "name": "Wenderson", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_015_08", "name": "Auremir", "number": 5, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_015_09", "name": "Paulo Sérgio", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_015_10", "name": "Kieza", "number": 11, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_015_11", "name": "Leandro Barcia", "number": 7, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_015_12", "name": "Gastón Guruceaga", "number": 55, "position": "GK", "country": "UY", "status": "bench"},
+      {"playerId": "player_br2_015_13", "name": "Reginaldo Lopes", "number": 93, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_015_14", "name": "Mateus", "number": 25, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_015_15", "name": "Índio", "number": 13, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_015_16", "name": "Luiz Felipe", "number": 27, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_015_17", "name": "Ramon", "number": 40, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_015_18", "name": "Samuel", "number": 41, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_015_19", "name": "Vinícius", "number": 17, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_015_20", "name": "Thalissinho", "number": 19, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_015_21", "name": "Rafael Ratão", "number": 99, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br2_015_22", "name": "Jefferson Romário", "number": 12, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_015_23", "name": "Léo Jance", "number": 66, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_015_24", "name": "Felipe Redaelli", "number": 21, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_015_25", "name": "Kelvin", "number": 20, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 23,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 5,
+        "cornerLeft": 5,
+        "cornerRight": 7
+      }
+    }
   }
-}
