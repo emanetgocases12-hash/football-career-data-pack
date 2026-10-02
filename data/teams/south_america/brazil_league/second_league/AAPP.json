@@ -1,12 +1,58 @@
 {
-  "teamKey": "AAPP",
-
-  "name": "Associação Atlética Ponte Preta",
-
-  "logo": "assets/logos/south_america/brazil/AAPP.png",
-
-  "stadium": {
-    "name": "Estádio Moisés Lucarelli",
-    "capacity": 19728
+    "teamKey": "AAPP",
+  
+    "name": "Associação Atlética Ponte Preta",
+  
+    "logo": "assets/logos/south_america/brazil/AAPP.png",
+  
+    "manager": {
+      "name": "Marcio Zanardi",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Moisés Lucarelli",
+      "capacity": 19728
+    },
+  
+    "players": [
+      {"playerId": "player_br2_001_01", "name": "Guilherme Viana", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_001_02", "name": "Danilo Barcelos", "number": 14, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_001_03", "name": "Diego Leão", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_001_04", "name": "Diego Porfírio", "number": 13, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_001_05", "name": "Gustavo Almeida", "number": 44, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_001_06", "name": "Elvis", "number": 10, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_001_07", "name": "André", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_001_08", "name": "Léo Gomes", "number": 16, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_001_09", "name": "Brandão", "number": 21, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_001_10", "name": "David da Hora", "number": 18, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_001_11", "name": "Baianinho", "number": 7, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_001_12", "name": "Vinicius Ferrari", "number": 30, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_001_13", "name": "Juan Rodrigues", "number": 6, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_001_14", "name": "Lucas Cunha", "number": 3, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_001_15", "name": "Artur", "number": 2, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_001_16", "name": "Thalys", "number": 22, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_001_17", "name": "Rodrigo Souza", "number": 5, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_001_18", "name": "Miguel", "number": 17, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_001_19", "name": "Jonathan Cafu", "number": 19, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_001_20", "name": "Murilo Henrique", "number": 11, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_001_21", "name": "João Damião", "number": 9, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br2_001_22", "name": "Diogo Silva", "number": 12, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_001_23", "name": "Pablo", "number": 15, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_001_24", "name": "Gustavo Telles", "number": 35, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_001_25", "name": "Nicolas Araujo", "number": 27, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 16,
+        "cornerLeft": 16,
+        "cornerRight": 7
+      }
+    }
   }
-}
