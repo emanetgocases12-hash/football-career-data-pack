@@ -1,12 +1,58 @@
 {
-  "teamKey": "Flumin",
-
-  "name": "Fluminense",
-
-  "logo": "assets/logos/south_america/brazil/Flumin.png",
-
-  "stadium": {
-    "name": "Estádio Jornalista Mário Filho",
-    "capacity": 82238
+    "teamKey": "Flumin",
+  
+    "name": "Fluminense",
+  
+    "logo": "assets/logos/south_america/brazil/Flumin.png",
+  
+    "manager": {
+      "name": "Marcão",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Jornalista Mário Filho",
+      "capacity": 82238
+    },
+  
+    "players": [
+      {"playerId": "player_br1_010_01", "name": "Fábio", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_010_02", "name": "Samuel Xavier", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_010_03", "name": "Ignácio", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_010_04", "name": "Igor Rabello", "number": 21, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_010_05", "name": "Guilherme Arana", "number": 13, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_010_06", "name": "Martinelli", "number": 8, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_010_07", "name": "Hércules", "number": 35, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_010_08", "name": "Luciano Acosta", "number": 32, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_010_09", "name": "Germán Cano", "number": 14, "position": "RW", "country": "AR", "status": "starter"},
+      {"playerId": "player_br1_010_10", "name": "Kevin Serna", "number": 90, "position": "ST", "country": "CO", "status": "starter"},
+      {"playerId": "player_br1_010_11", "name": "Soteldo", "number": 7, "position": "LW", "country": "VE", "status": "starter"},
+  
+      {"playerId": "player_br1_010_12", "name": "Vitor Eudes", "number": 98, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_010_13", "name": "Renê", "number": 6, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_010_14", "name": "Juan Freytes", "number": 22, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_010_15", "name": "Jemmes", "number": 44, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_010_16", "name": "Ganso", "number": 10, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_010_17", "name": "Nonato", "number": 16, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_010_18", "name": "Facundo Bernal", "number": 5, "position": "CAM", "country": "UY", "status": "bench"},
+      {"playerId": "player_br1_010_19", "name": "Everaldo", "number": 9, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_010_20", "name": "Keno", "number": 11, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_010_21", "name": "John Kennedy", "number": 99, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_010_22", "name": "Gustavo Ramalho", "number": 3, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_010_23", "name": "Guga", "number": 23, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_010_24", "name": "Jefferson Savarino", "number": 12, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_010_25", "name": "Riquelme Felipe", "number": 28, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 90,
+        "freeKick": 32,
+        "cornerLeft": 32,
+        "cornerRight": 7
+      }
+    }
   }
-}
