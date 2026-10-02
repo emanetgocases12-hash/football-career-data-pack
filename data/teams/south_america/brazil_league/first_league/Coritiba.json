@@ -1,12 +1,58 @@
 {
-  "teamKey": "Cortba",
-
-  "name": "Coritiba FC",
-
-  "logo": "assets/logos/south_america/brazil/Cortba.png",
-
-  "stadium": {
-    "name": "Estádio Major Antônio Couto Pereira",
-    "capacity": 40502
+    "teamKey": "Cortba",
+  
+    "name": "Coritiba FC",
+  
+    "logo": "assets/logos/south_america/brazil/Cortba.png",
+  
+    "manager": {
+      "name": "Fernando Seabra",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Major Antônio Couto Pereira",
+      "capacity": 40502
+    },
+  
+    "players": [
+      {"playerId": "player_br1_007_01", "name": "Pedro Morisco", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_007_02", "name": "Tinga", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_007_03", "name": "Maicon", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_007_04", "name": "Rodrigo Moledo", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_007_05", "name": "Bruno Melo", "number": 26, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_007_06", "name": "Josué", "number": 10, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_007_07", "name": "Sebastián Gómez", "number": 19, "position": "CM", "country": "CO", "status": "starter"},
+      {"playerId": "player_br1_007_08", "name": "Fernando Sobral", "number": 88, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_007_09", "name": "Alef Manga", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_007_10", "name": "Lucas Ronier", "number": 7, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_007_11", "name": "Dellatorre", "number": 9, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br1_007_12", "name": "Pedro Rangel", "number": 22, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_007_13", "name": "Enzo Vagner", "number": 14, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_007_14", "name": "Jacy", "number": 55, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_007_15", "name": "Thiago Santos", "number": 21, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_007_16", "name": "Matheus Dias", "number": 80, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_007_17", "name": "Willian Oliveira", "number": 29, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_007_18", "name": "Wallisson", "number": 8, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_007_19", "name": "Iury Castilho", "number": 17, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_007_20", "name": "Robson", "number": 30, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_007_21", "name": "Ruan Assis", "number": 20, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_007_22", "name": "Benassi", "number": 67, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_007_23", "name": "Tiago Coser", "number": 23, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_007_24", "name": "Vini Paulista", "number": 36, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_007_25", "name": "Everton Morelli", "number": 18, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 88,
+        "cornerLeft": 88,
+        "cornerRight": 9
+      }
+    }
   }
-}
