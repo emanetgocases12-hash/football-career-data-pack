@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ferrov",
-
-  "name": "Operário Ferroviário Esporte Clube (PR)",
-
-  "logo": "assets/logos/south_america/brazil/Ferrov.png",
-
-  "stadium": {
-    "name": "Estádio Germano Krüger",
-    "capacity": 10632
+    "teamKey": "Ferrov",
+  
+    "name": "Operário Ferroviário Esporte Clube (PR)",
+  
+    "logo": "assets/logos/south_america/brazil/Ferrov.png",
+  
+    "manager": {
+      "name": "Luizinho Lopes",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Germano Krüger",
+      "capacity": 10632
+    },
+  
+    "players": [
+      {"playerId": "player_br2_009_01", "name": "Elias", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_009_02", "name": "Mikael Doka", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_009_03", "name": "José Cuenú", "number": 43, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_009_04", "name": "Moraes", "number": 6, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_009_05", "name": "André", "number": 18, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_009_06", "name": "Boschilia", "number": 10, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_009_07", "name": "Bruno Índio", "number": 5, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_009_08", "name": "Vinicius Diniz", "number": 20, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_009_09", "name": "Aylon", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_009_10", "name": "Pablo", "number": 92, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_009_11", "name": "Caio Dantas", "number": 99, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_009_12", "name": "Vagner", "number": 33, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_009_13", "name": "Charles", "number": 32, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_009_14", "name": "Gabriel Feliciano", "number": 27, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_009_15", "name": "João Gabriel", "number": 23, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_009_16", "name": "Matheus Trindade", "number": 39, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_009_17", "name": "Neto Paraíba", "number": 88, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_009_18", "name": "Juan Zuluaga", "number": 8, "position": "CAM", "country": "CO", "status": "bench"},
+      {"playerId": "player_br2_009_19", "name": "Hildeberto Pereira", "number": 14, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_009_20", "name": "Kauã Gomes", "number": 19, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_009_21", "name": "Vinicius Mingotti", "number": 9, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br2_009_22", "name": "Talles", "number": 12, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_009_23", "name": "Miranda", "number": 16, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_009_24", "name": "Pedro Vilhena", "number": 30, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_009_25", "name": "Maxwell", "number": 77, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 43,
+      "setPieces": {
+        "penalty": 92,
+        "freeKick": 20,
+        "cornerLeft": 20,
+        "cornerRight": 99
+      }
+    }
   }
-}
