@@ -1,12 +1,58 @@
-{
-  "teamKey": "V'Nova",
-
-  "name": "Vila Nova FC (GO)",
-
-  "logo": "assets/logos/south_america/brazil/VNova.png",
-
-  "stadium": {
-    "name": "Estádio Onésio Brasileiro Alvarenga",
-    "capacity": 11788
+ {
+    "teamKey": "V'Nova",
+  
+    "name": "Vila Nova FC (GO)",
+  
+    "logo": "assets/logos/south_america/brazil/VNova.png",
+  
+    "manager": {
+      "name": "Guto Ferreira",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Onésio Brasileiro Alvarenga",
+      "capacity": 11788
+    },
+  
+    "players": [
+      {"playerId": "player_br2_020_01", "name": "Helton Leite", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_020_02", "name": "Elias", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_020_03", "name": "Tiago Pagnussat", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_020_04", "name": "Pedro Romano", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_020_05", "name": "Higor", "number": 6, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_020_06", "name": "João Pedro", "number": 5, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_020_07", "name": "Marquinhos Gabriel", "number": 10, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_020_08", "name": "Willian Maranhão", "number": 8, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_020_09", "name": "Dellatorre", "number": 49, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_020_10", "name": "Rafa Silva", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_020_11", "name": "André Luís", "number": 7, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_020_12", "name": "Dalberson", "number": 29, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_020_13", "name": "Anderson Jesus", "number": 14, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_020_14", "name": "Hayner", "number": 22, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_020_15", "name": "Willian", "number": 13, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_020_16", "name": "Dudu", "number": 15, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_020_17", "name": "Nathan Camargo", "number": 20, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_020_18", "name": "Bruno Xavier", "number": 33, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_020_19", "name": "Ryan", "number": 11, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_020_20", "name": "Janderson", "number": 99, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_020_21", "name": "Dodô", "number": 31, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br2_020_22", "name": "Halls", "number": 12, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_020_23", "name": "Caio Marcelo", "number": 38, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_020_24", "name": "Igor Henrique", "number": 17, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_020_25", "name": "Emerson Urso", "number": 70, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 7
+      }
+    }
   }
-}
