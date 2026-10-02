@@ -1,12 +1,58 @@
 {
-  "teamKey": "Regata",
-
-  "name": "Clube de Regatas Brasil (AL)",
-
-  "logo": "assets/logos/south_america/brazil/Regata.png",
-
-  "stadium": {
-    "name": "Estádio Rei Pelé",
-    "capacity": 20800
+    "teamKey": "Regata",
+  
+    "name": "Clube de Regatas Brasil (AL)",
+  
+    "logo": "assets/logos/south_america/brazil/Regata.png",
+  
+    "manager": {
+      "name": "Eduardo Barroca",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Rei Pelé",
+      "capacity": 20800
+    },
+  
+    "players": [
+      {"playerId": "player_br2_018_01", "name": "Matheus Albino", "number": 12, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_018_02", "name": "Fábio Alemão", "number": 27, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_018_03", "name": "Bressan", "number": 22, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_018_04", "name": "Hereda", "number": 32, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_018_05", "name": "Lucas Lovat", "number": 36, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_018_06", "name": "Crystopher", "number": 8, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_018_07", "name": "Daniel", "number": 10, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_018_08", "name": "Geovane", "number": 18, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_018_09", "name": "Anselmo Ramon", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_018_10", "name": "Douglas Baggio", "number": 7, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_018_11", "name": "Mike", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_018_12", "name": "Vitor Caetano", "number": 1, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_018_13", "name": "Léo Campos", "number": 77, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_018_14", "name": "Henri", "number": 44, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_018_15", "name": "Maycon", "number": 60, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_018_16", "name": "Luizão", "number": 50, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_018_17", "name": "Pedro", "number": 21, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_018_18", "name": "João Pedro", "number": 5, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_018_19", "name": "Getúlio", "number": 99, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_018_20", "name": "Thiaguinho", "number": 17, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_018_21", "name": "Facundo Labandeira", "number": 30, "position": "LW", "country": "UY", "status": "bench"},
+  
+      {"playerId": "player_br2_018_22", "name": "Fábio", "number": 31, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_018_23", "name": "Wallace", "number": 82, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_018_24", "name": "Rômulo", "number": 16, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_018_25", "name": "Dadá Belmonte", "number": 20, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 22,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 18,
+        "cornerLeft": 18,
+        "cornerRight": 11
+      }
+    }
   }
-}
