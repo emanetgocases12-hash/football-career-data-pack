@@ -1,12 +1,58 @@
 {
-  "teamKey": "Flmngo",
-
-  "name": "Flamengo",
-
-  "logo": "assets/logos/south_america/brazil/Flmngo.png",
-
-  "stadium": {
-    "name": "Estádio Jornalista Mário Filho",
-    "capacity": 82238
+    "teamKey": "Flmngo",
+  
+    "name": "Flamengo",
+  
+    "logo": "assets/logos/south_america/brazil/Flmngo.png",
+  
+    "manager": {
+      "name": "Leonardo Jardim",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Jornalista Mário Filho",
+      "capacity": 82238
+    },
+  
+    "players": [
+      {"playerId": "player_br1_009_01", "name": "Agustín Rossi", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_br1_009_02", "name": "Emerson Royal", "number": 22, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_009_03", "name": "Léo Ortiz", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_009_04", "name": "Léo Pereira", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_009_05", "name": "Alex Sandro", "number": 26, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_009_06", "name": "Jorginho", "number": 21, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_009_07", "name": "Lucas Paquetá", "number": 20, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_009_08", "name": "Giorgian de Arrascaeta", "number": 10, "position": "CAM", "country": "UY", "status": "starter"},
+      {"playerId": "player_br1_009_09", "name": "Pedro", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_009_10", "name": "Samuel Lino", "number": 16, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_009_11", "name": "Bruno Henrique", "number": 27, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br1_009_12", "name": "Andrew", "number": 42, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_009_13", "name": "Ayrton Lucas", "number": 6, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_009_14", "name": "Danilo", "number": 13, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_009_15", "name": "Guillermo Varela", "number": 2, "position": "LB", "country": "UY", "status": "bench"},
+      {"playerId": "player_br1_009_16", "name": "Nicolás de la Cruz", "number": 18, "position": "CDM", "country": "UY", "status": "bench"},
+      {"playerId": "player_br1_009_17", "name": "Erick Pulgar", "number": 5, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_br1_009_18", "name": "Evertton Araújo", "number": 52, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_009_19", "name": "Everton Cebolinha", "number": 11, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_009_20", "name": "Luiz Araújo", "number": 7, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_009_21", "name": "Michael", "number": 30, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_009_22", "name": "Matheus Cunha", "number": 25, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_009_23", "name": "Vitão", "number": 44, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_009_24", "name": "Joshua", "number": 79, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_009_25", "name": "Wallace Yan", "number": 64, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 16,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 27
+      }
+    }
   }
-}
