@@ -1,12 +1,58 @@
 {
-  "teamKey": "A.Mnrio",
-
-  "name": "Atlético Mineiro (MG)",
-
-  "logo": "assets/logos/south_america/brazil/AMnrio.png",
-
-  "stadium": {
-    "name": "Arena MRV",
-    "capacity": 44892
+    "teamKey": "A.Mnrio",
+  
+    "name": "Atlético Mineiro (MG)",
+  
+    "logo": "assets/logos/south_america/brazil/AMnrio.png",
+  
+    "manager": {
+      "name": "Eduardo Domínguez",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Arena MRV",
+      "capacity": 44892
+    },
+  
+    "players": [
+      {"playerId": "player_br1_001_01", "name": "Everson", "number": 22, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_001_02", "name": "Renan Lodi", "number": 6, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_001_03", "name": "Natanael", "number": 2, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_001_04", "name": "Ruan Tressoldi", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_001_05", "name": "Vitor Hugo", "number": 14, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_001_06", "name": "Alan Franco", "number": 21, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_br1_001_07", "name": "Gustavo Scarpa", "number": 10, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_001_08", "name": "Maycon", "number": 8, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_001_09", "name": "Hulk", "number": 7, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_001_10", "name": "Rony", "number": 11, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_001_11", "name": "Dudu", "number": 92, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br1_001_12", "name": "Gabriel Delfim", "number": 1, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_001_13", "name": "Angelo Preciado", "number": 23, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_001_14", "name": "Kaua Pascini", "number": 36, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_001_15", "name": "Vitão", "number": 40, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_001_16", "name": "Reinier", "number": 19, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_001_17", "name": "Alexsander", "number": 5, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_001_18", "name": "Igor Gomes", "number": 17, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_001_19", "name": "Biel", "number": 77, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_001_20", "name": "Cuello", "number": 28, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_001_21", "name": "Isaac", "number": 41, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_001_22", "name": "Pedro Cobra", "number": 31, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_001_23", "name": "Gustavo Chaves", "number": 32, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_001_24", "name": "Victor Hugo", "number": 30, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_001_25", "name": "João Marcelo", "number": 45, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 92
+      }
+    }
   }
-}
