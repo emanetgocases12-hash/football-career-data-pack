@@ -1,12 +1,58 @@
 {
-  "teamKey": "Goiás",
-
-  "name": "Goiás",
-
-  "logo": "assets/logos/south_america/brazil/Goias.png",
-
-  "stadium": {
-    "name": "Estádio de Hailé Pinheiro",
-    "capacity": 14450
+    "teamKey": "Goiás",
+  
+    "name": "Goiás",
+  
+    "logo": "assets/logos/south_america/brazil/Goias.png",
+  
+    "manager": {
+      "name": "Daniel Paulista",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio de Hailé Pinheiro",
+      "capacity": 14450
+    },
+  
+    "players": [
+      {"playerId": "player_br2_012_01", "name": "Tadeu", "number": 23, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_012_02", "name": "Rodrigo", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_012_03", "name": "Luiz Felipe", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_012_04", "name": "Nicolas Vichiatto", "number": 6, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_012_05", "name": "Lucas Ribeiro", "number": 14, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_012_06", "name": "Lucas Lima", "number": 10, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_012_07", "name": "Lourenço", "number": 97, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_012_08", "name": "Gegê", "number": 28, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_012_09", "name": "Anselmo Ramon", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_012_10", "name": "Bruno Sávio", "number": 11, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_012_11", "name": "Cadu", "number": 18, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_012_12", "name": "Thiago Rodrigues", "number": 1, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_012_13", "name": "Luisão", "number": 25, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_012_14", "name": "Danilo Cunha", "number": 66, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_012_15", "name": "Djalma Silva", "number": 54, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_012_16", "name": "Machado", "number": 5, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_012_17", "name": "Juninho", "number": 8, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_012_18", "name": "Jean Carlos", "number": 21, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_012_19", "name": "Pedrinho", "number": 17, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_012_20", "name": "Wellington Rato", "number": 27, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_012_21", "name": "Esli García", "number": 15, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br2_012_22", "name": "Marcelo Rangel", "number": 12, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_012_23", "name": "Diego Caito", "number": 20, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_012_24", "name": "Luquinhas", "number": 35, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_012_25", "name": "Willie", "number": 19, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 28,
+        "cornerLeft": 28,
+        "cornerRight": 18
+      }
+    }
   }
-}
