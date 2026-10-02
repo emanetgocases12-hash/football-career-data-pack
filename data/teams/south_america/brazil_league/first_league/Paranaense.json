@@ -1,12 +1,58 @@
 {
-  "teamKey": "Parana",
-
-  "name": "Club Athletico Paranaense",
-
-  "logo": "assets/logos/south_america/brazil/Parana.png",
-
-  "stadium": {
-    "name": "Estádio Mário Celso Petraglia",
-    "capacity": 42372
+    "teamKey": "Parana",
+  
+    "name": "Club Athletico Paranaense",
+  
+    "logo": "assets/logos/south_america/brazil/Parana.png",
+  
+    "manager": {
+      "name": "Odair Hellmann",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Mário Celso Petraglia",
+      "capacity": 42372
+    },
+  
+    "players": [
+      {"playerId": "player_br1_015_01", "name": "Mycael", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_015_02", "name": "Gilberto", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_015_03", "name": "Léo", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_015_04", "name": "Felipe Aguirre", "number": 33, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_015_05", "name": "Lucas Esquivel", "number": 37, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_015_06", "name": "Juan Portilla", "number": 27, "position": "CDM", "country": "CO", "status": "starter"},
+      {"playerId": "player_br1_015_07", "name": "Bruno Zapelli", "number": 10, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_br1_015_08", "name": "Felipinho", "number": 5, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_015_09", "name": "Kevin Viveros", "number": 9, "position": "RW", "country": "CO", "status": "starter"},
+      {"playerId": "player_br1_015_10", "name": "Mastriani", "number": 11, "position": "ST", "country": "UY", "status": "starter"},
+      {"playerId": "player_br1_015_11", "name": "Leozinho", "number": 21, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br1_015_12", "name": "Santos", "number": 23, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_015_13", "name": "Gastón Benavídez", "number": 29, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_br1_015_14", "name": "Léo Derik", "number": 6, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_015_15", "name": "Gustavo Veiga", "number": 13, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_015_16", "name": "Jadson", "number": 16, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_015_17", "name": "João Cruz", "number": 8, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_015_18", "name": "Alejandro García", "number": 20, "position": "CAM", "country": "CO", "status": "bench"},
+      {"playerId": "player_br1_015_19", "name": "Julimar", "number": 7, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_015_20", "name": "Renan Peixoto", "number": 18, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_015_21", "name": "Alan Kardec", "number": 14, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_015_22", "name": "Mateus Soares", "number": 42, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_015_23", "name": "Claudinho", "number": 26, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_015_24", "name": "Dudu Kogitzki", "number": 53, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_015_25", "name": "Isaac", "number": 19, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 5,
+        "cornerLeft": 5,
+        "cornerRight": 21
+      }
+    }
   }
-}
