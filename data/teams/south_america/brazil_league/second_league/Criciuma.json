@@ -1,12 +1,58 @@
 {
-  "teamKey": "Criciú",
-
-  "name": "Criciúma",
-
-  "logo": "assets/logos/south_america/brazil/Criciu.png",
-
-  "stadium": {
-    "name": "Estádio Heriberto Hülse",
-    "capacity": 19225
+    "teamKey": "Criciú",
+  
+    "name": "Criciúma",
+  
+    "logo": "assets/logos/south_america/brazil/Criciu.png",
+  
+    "manager": {
+      "name": "Eduardo Baptista",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Heriberto Hülse",
+      "capacity": 19225
+    },
+  
+    "players": [
+      {"playerId": "player_br2_007_01", "name": "Alisson", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_007_02", "name": "Léo Mana", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_007_03", "name": "Luciano Castán", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_007_04", "name": "César Martins", "number": 37, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_007_05", "name": "Marcelo Hermes", "number": 22, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_007_06", "name": "Dudu", "number": 5, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_007_07", "name": "Jhonata Robert", "number": 10, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_007_08", "name": "Jean Irmer", "number": 41, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_007_09", "name": "Nicolas", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_007_10", "name": "Waguininho", "number": 13, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_007_11", "name": "Diego Gonçalves", "number": 77, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_007_12", "name": "Airton", "number": 32, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_007_13", "name": "Willean Lepo", "number": 97, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_007_14", "name": "Rodrigo", "number": 3, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_007_15", "name": "Octávio Henrique", "number": 15, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_007_16", "name": "Sandry", "number": 38, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_007_17", "name": "Gui Lobo", "number": 8, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_007_18", "name": "Steven Nufour", "number": 18, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_007_19", "name": "João Carlos", "number": 21, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_007_20", "name": "Thales", "number": 19, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_007_21", "name": "Bidu", "number": 20, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br2_007_22", "name": "Gustavo", "number": 12, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_007_23", "name": "Bruno Alves", "number": 34, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_007_24", "name": "Eliel Costa", "number": 17, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_007_25", "name": "Felipe Vizeu", "number": 11, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 13,
+        "freeKick": 41,
+        "cornerLeft": 41,
+        "cornerRight": 77
+      }
+    }
   }
-}
