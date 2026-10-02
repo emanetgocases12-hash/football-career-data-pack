@@ -1,12 +1,58 @@
 {
-  "teamKey": "Santos",
-
-  "name": "Santos FC",
-
-  "logo": "assets/logos/south_america/brazil/Santos.png",
-
-  "stadium": {
-    "name": "Estádio Urbano Caldeira",
-    "capacity": 16068
+    "teamKey": "Santos",
+  
+    "name": "Santos FC",
+  
+    "logo": "assets/logos/south_america/brazil/Santos.png",
+  
+    "manager": {
+      "name": "Cuca",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Urbano Caldeira",
+      "capacity": 16068
+    },
+  
+    "players": [
+      {"playerId": "player_br1_017_01", "name": "Gabriel Brazão", "number": 77, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_017_02", "name": "Igor Vinícius", "number": 18, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_017_03", "name": "Luan Peres", "number": 14, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_017_04", "name": "Lucas Veríssimo", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_017_05", "name": "Gonzalo Escobar", "number": 31, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_br1_017_06", "name": "Neymar", "number": 10, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_017_07", "name": "Gabriel Menino", "number": 25, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_017_08", "name": "Willian Arão", "number": 15, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_017_09", "name": "Gabriel Barbosa", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_017_10", "name": "Rony", "number": 11, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_017_11", "name": "Álvaro Barreal", "number": 22, "position": "LW", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_br1_017_12", "name": "Diógenes", "number": 1, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_017_13", "name": "Zé Ivaldo", "number": 2, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_017_14", "name": "Mayke", "number": 12, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_017_15", "name": "Adonis Frías", "number": 98, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_br1_017_16", "name": "Tomás Rincón", "number": 8, "position": "CDM", "country": "VE", "status": "bench"},
+      {"playerId": "player_br1_017_17", "name": "Zé Rafael", "number": 6, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_017_18", "name": "João Schmidt", "number": 5, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_017_19", "name": "Benjamin Rollheiser", "number": 32, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_br1_017_20", "name": "Lautaro Díaz", "number": 19, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_br1_017_21", "name": "Robinho Júnior", "number": 7, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_017_22", "name": "Rodrigo Falcão", "number": 67, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_017_23", "name": "Alexis Duarte", "number": 3, "position": "CB", "country": "PY", "status": "reserve"},
+      {"playerId": "player_br1_017_24", "name": "Gabriel Bontempo", "number": 49, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_017_25", "name": "Thaciano", "number": 16, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 14,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 15,
+        "cornerLeft": 15,
+        "cornerRight": 22
+      }
+    }
   }
-}
