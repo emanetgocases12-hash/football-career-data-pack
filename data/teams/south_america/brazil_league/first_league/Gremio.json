@@ -1,12 +1,58 @@
 {
-  "teamKey": "Gremio",
-
-  "name": "Grêmio",
-
-  "logo": "assets/logos/south_america/brazil/Gremio.png",
-
-  "stadium": {
-    "name": "Arena do Grêmio",
-    "capacity": 60540
+    "teamKey": "Gremio",
+  
+    "name": "Grêmio",
+  
+    "logo": "assets/logos/south_america/brazil/Gremio.png",
+  
+    "manager": {
+      "name": "Renato Gaúcho",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Arena do Grêmio",
+      "capacity": 60540
+    },
+  
+    "players": [
+      {"playerId": "player_br1_011_01", "name": "Weverton", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_011_02", "name": "João Pedro", "number": 18, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_011_03", "name": "Fabián Balbuena", "number": 2, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_br1_011_04", "name": "Wagner Leonardo", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_011_05", "name": "Marlon", "number": 23, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_011_06", "name": "Arthur Melo", "number": 8, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_011_07", "name": "Erick Noriega", "number": 19, "position": "CM", "country": "PE", "status": "starter"},
+      {"playerId": "player_br1_011_08", "name": "Miguel Monsalve", "number": 11, "position": "CAM", "country": "CO", "status": "starter"},
+      {"playerId": "player_br1_011_09", "name": "Carlos Vinícius", "number": 95, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_011_10", "name": "Cristian Pavón", "number": 7, "position": "ST", "country": "AR", "status": "starter"},
+      {"playerId": "player_br1_011_11", "name": "Tetê", "number": 21, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br1_011_12", "name": "Gabriel Grando", "number": 12, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_011_13", "name": "Marcos Rocha", "number": 14, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_011_14", "name": "Gustavo Martins", "number": 6, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_011_15", "name": "Walter Kannemann", "number": 4, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_011_16", "name": "Dodi", "number": 17, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_011_17", "name": "Riquelme Freitas", "number": 65, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_011_18", "name": "Tiago", "number": 39, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_011_19", "name": "Willian", "number": 10, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_011_20", "name": "Francis Amuzu", "number": 9, "position": "ST", "country": "BE", "status": "bench"},
+      {"playerId": "player_br1_011_21", "name": "José Enamorado", "number": 99, "position": "LW", "country": "CO", "status": "bench"},
+  
+      {"playerId": "player_br1_011_22", "name": "Tiago Volpi", "number": 5, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_011_23", "name": "Caio Paulista", "number": 38, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_011_24", "name": "Jefinho", "number": 40, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_011_25", "name": "Gabriel Mec", "number": 37, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 21
+      }
+    }
   }
-}
