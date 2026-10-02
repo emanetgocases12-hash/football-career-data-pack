@@ -1,12 +1,58 @@
 {
-  "teamKey": "Palmei",
-
-  "name": "Palmeiras",
-
-  "logo": "assets/logos/south_america/brazil/Palmei.png",
-
-  "stadium": {
-    "name": "Nubank Parque",
-    "capacity": 43713
+    "teamKey": "Palmei",
+  
+    "name": "Palmeiras",
+  
+    "logo": "assets/logos/south_america/brazil/Palmei.png",
+  
+    "manager": {
+      "name": "Abel Ferreira",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Nubank Parque",
+      "capacity": 43713
+    },
+  
+    "players": [
+      {"playerId": "player_br1_014_01", "name": "Carlos Miguel", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_014_02", "name": "Khellven", "number": 12, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_014_03", "name": "Gustavo Gómez", "number": 15, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_br1_014_04", "name": "Murilo", "number": 26, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_014_05", "name": "Joaquín Piquerez", "number": 22, "position": "LB", "country": "UY", "status": "starter"},
+      {"playerId": "player_br1_014_06", "name": "Andreas Pereira", "number": 8, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_014_07", "name": "Marlon Freitas", "number": 17, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_014_08", "name": "Emiliano Martínez", "number": 32, "position": "CAM", "country": "UY", "status": "starter"},
+      {"playerId": "player_br1_014_09", "name": "Vitor Roque", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_014_10", "name": "Flaco López", "number": 42, "position": "ST", "country": "AR", "status": "starter"},
+      {"playerId": "player_br1_014_11", "name": "Ramon Sosa", "number": 19, "position": "LW", "country": "PY", "status": "starter"},
+  
+      {"playerId": "player_br1_014_12", "name": "Marcelo Lomba", "number": 14, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_014_13", "name": "Bruno Fuchs", "number": 3, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_014_14", "name": "Agustín Giay", "number": 4, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_br1_014_15", "name": "Jefté", "number": 6, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_014_16", "name": "Maurício", "number": 18, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_014_17", "name": "Lucas Evangelista", "number": 30, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_014_18", "name": "Allan", "number": 40, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_014_19", "name": "Paulinho", "number": 10, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_014_20", "name": "Facundo Torres", "number": 7, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_014_21", "name": "Erick Belé", "number": 47, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_014_22", "name": "Mateus Oliveira", "number": 51, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_014_23", "name": "Benedetti", "number": 43, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_014_24", "name": "Luis Pacheco", "number": 50, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_014_25", "name": "Luighi", "number": 31, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 15,
+      "setPieces": {
+        "penalty": 42,
+        "freeKick": 32,
+        "cornerLeft": 32,
+        "cornerRight": 19
+      }
+    }
   }
-}
