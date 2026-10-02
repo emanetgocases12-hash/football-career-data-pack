@@ -1,12 +1,58 @@
 {
-  "teamKey": "Vitria",
-
-  "name": "EC Vitória",
-
-  "logo": "assets/logos/south_america/brazil/Vitria.png",
-
-  "stadium": {
-    "name": "Estádio Manoel Barradas",
-    "capacity": 30793
+    "teamKey": "Vitria",
+  
+    "name": "EC Vitória",
+  
+    "logo": "assets/logos/south_america/brazil/Vitria.png",
+  
+    "manager": {
+      "name": "Jair Ventura",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Manoel Barradas",
+      "capacity": 30793
+    },
+  
+    "players": [
+      {"playerId": "player_br1_020_01", "name": "Lucas Arcanjo", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_020_02", "name": "Camutanga", "number": 4, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_020_03", "name": "Riccieli", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_020_04", "name": "Ramon", "number": 13, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_020_05", "name": "Luan Cândido", "number": 36, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_020_06", "name": "Matheuzinho", "number": 10, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_020_07", "name": "Baralhas", "number": 44, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_020_08", "name": "Edenílson", "number": 26, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_020_09", "name": "Renato Kayzer", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_020_10", "name": "Osvaldo", "number": 11, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_020_11", "name": "Aitor Cantalapiedra", "number": 17, "position": "LW", "country": "ES", "status": "starter"},
+  
+      {"playerId": "player_br1_020_12", "name": "Gabriel", "number": 22, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_020_13", "name": "Nathan Mendes", "number": 45, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_020_14", "name": "Edu", "number": 43, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_020_15", "name": "Kauan", "number": 18, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_020_16", "name": "Emmanuel Martínez", "number": 6, "position": "CDM", "country": "AR", "status": "bench"},
+      {"playerId": "player_br1_020_17", "name": "Dudu", "number": 21, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_020_18", "name": "Caique Gonçalves", "number": 95, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_020_19", "name": "Janderson", "number": 39, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_020_20", "name": "Erick", "number": 7, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_020_21", "name": "Lucas Braga", "number": 19, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_020_22", "name": "Yuri Sena", "number": 71, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_020_23", "name": "Ivan", "number": 48, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_020_24", "name": "Zé Breno", "number": 55, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_020_25", "name": "Carlinhos", "number": 99, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 26,
+        "cornerLeft": 26,
+        "cornerRight": 17
+      }
+    }
   }
-}
