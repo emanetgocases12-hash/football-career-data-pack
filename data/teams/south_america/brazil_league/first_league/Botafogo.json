@@ -1,12 +1,58 @@
-{
-  "teamKey": "Botafo",
-
-  "name": "Botafogo",
-
-  "logo": "assets/logos/south_america/brazil/Botafo.png",
-
-  "stadium": {
-    "name": "Estádio Olímpico Nilton Santos",
-    "capacity": 46931
+ {
+    "teamKey": "Botafo",
+  
+    "name": "Botafogo",
+  
+    "logo": "assets/logos/south_america/brazil/Botafo.png",
+  
+    "manager": {
+      "name": "Tite",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Olímpico Nilton Santos",
+      "capacity": 46931
+    },
+  
+    "players": [
+      {"playerId": "player_br1_003_01", "name": "Léo Linck", "number": 24, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_003_02", "name": "Alex Telles", "number": 13, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_003_03", "name": "Alexander Barboza", "number": 20, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_br1_003_04", "name": "Vitinho", "number": 2, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_003_05", "name": "Nahuel Ferraresi", "number": 5, "position": "LB", "country": "VE", "status": "starter"},
+      {"playerId": "player_br1_003_06", "name": "Danilo", "number": 8, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_003_07", "name": "Allan", "number": 25, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_003_08", "name": "Cristian Medina", "number": 6, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_br1_003_09", "name": "Arthur Cabral", "number": 19, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_003_10", "name": "Joaquín Correa", "number": 30, "position": "ST", "country": "AR", "status": "starter"},
+      {"playerId": "player_br1_003_11", "name": "Matheus Martins", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br1_003_12", "name": "Neto", "number": 22, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_003_13", "name": "Mateo Ponte", "number": 4, "position": "RB", "country": "UY", "status": "bench"},
+      {"playerId": "player_br1_003_14", "name": "Arthur Chaves", "number": 15, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_003_15", "name": "Lucas Monzón", "number": 33, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_br1_003_16", "name": "Álvaro Montoro", "number": 10, "position": "CDM", "country": "AR", "status": "bench"},
+      {"playerId": "player_br1_003_17", "name": "Santiago Rodríguez", "number": 23, "position": "CM", "country": "UY", "status": "bench"},
+      {"playerId": "player_br1_003_18", "name": "Newton", "number": 28, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_003_19", "name": "Nathan Fernandes", "number": 16, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_003_20", "name": "Chris Ramos", "number": 9, "position": "ST", "country": "ES", "status": "bench"},
+      {"playerId": "player_br1_003_21", "name": "Jordan Barrera", "number": 14, "position": "LW", "country": "CO", "status": "bench"},
+  
+      {"playerId": "player_br1_003_22", "name": "Raul Steffens", "number": 1, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_003_23", "name": "Huguinho", "number": 75, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_003_24", "name": "Wallace Davi", "number": 55, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_003_25", "name": "Lucas Villalba", "number": 77, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 20,
+      "setPieces": {
+        "penalty": 30,
+        "freeKick": 6,
+        "cornerLeft": 6,
+        "cornerRight": 11
+      }
+    }
   }
-}
