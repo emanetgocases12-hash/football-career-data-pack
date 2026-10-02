@@ -1,12 +1,58 @@
 {
-  "teamKey": "Corint",
-
-  "name": "Corinthians",
-
-  "logo": "assets/logos/south_america/brazil/Corint.png",
-
-  "stadium": {
-    "name": "Neo Química Arena",
-    "capacity": 49205
+    "teamKey": "Corint",
+  
+    "name": "Corinthians",
+  
+    "logo": "assets/logos/south_america/brazil/Corint.png",
+  
+    "manager": {
+      "name": "Fernando Diniz",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Neo Química Arena",
+      "capacity": 49205
+    },
+  
+    "players": [
+      {"playerId": "player_br1_006_01", "name": "Hugo Souza", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_006_02", "name": "Matheuzinho", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_006_03", "name": "Gabriel Paulista", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_006_04", "name": "André Ramalho", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_006_05", "name": "Gustavo Henrique", "number": 13, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_006_06", "name": "Breno Bidon", "number": 7, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_006_07", "name": "Rodrigo Garro", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_006_08", "name": "Raniele", "number": 14, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_006_09", "name": "Yuri Alberto", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_006_10", "name": "Memphis Depay", "number": 10, "position": "ST", "country": "NL", "status": "starter"},
+      {"playerId": "player_br1_006_11", "name": "André Carrillo", "number": 19, "position": "LW", "country": "PE", "status": "starter"},
+  
+      {"playerId": "player_br1_006_12", "name": "Felipe Longo", "number": 40, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_006_13", "name": "Matheus Bidu", "number": 21, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_006_14", "name": "Pedro Milans", "number": 20, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_006_15", "name": "João Pedro", "number": 4, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_006_16", "name": "Matheus Pereira", "number": 23, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_006_17", "name": "Allan", "number": 29, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_006_18", "name": "Charles", "number": 35, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_006_19", "name": "Vitinho", "number": 11, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_006_20", "name": "Kaio César", "number": 37, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_006_21", "name": "Gui Negão", "number": 56, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_006_22", "name": "Matheus Donelli", "number": 32, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_006_23", "name": "Hugo", "number": 46, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_006_24", "name": "André", "number": 49, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_006_25", "name": "Kayke", "number": 31, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 14,
+        "cornerLeft": 14,
+        "cornerRight": 19
+      }
+    }
   }
-}
