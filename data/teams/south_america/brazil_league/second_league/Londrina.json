@@ -1,12 +1,58 @@
 {
-  "teamKey": "Londri",
-
-  "name": "Londrina Esporte Clube (PR)",
-
-  "logo": "assets/logos/south_america/brazil/Londri.png",
-
-  "stadium": {
-    "name": "Estádio Municipal Jacy Scaff",
-    "capacity": 36000
+    "teamKey": "Londri",
+  
+    "name": "Londrina Esporte Clube (PR)",
+  
+    "logo": "assets/logos/south_america/brazil/Londri.png",
+  
+    "manager": {
+      "name": "Rogério Micale",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Municipal Jacy Scaff",
+      "capacity": 36000
+    },
+  
+    "players": [
+      {"playerId": "player_br2_014_01", "name": "Maurício Kozlinski", "number": 30, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_014_02", "name": "Wallace", "number": 4, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_014_03", "name": "Gabriel Lacerda", "number": 15, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_014_04", "name": "Heron", "number": 34, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_014_05", "name": "João Tavares", "number": 32, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_014_06", "name": "Lucas Marques", "number": 8, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_014_07", "name": "Vitinho Mota", "number": 7, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_014_08", "name": "Thalis", "number": 96, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_014_09", "name": "Paulinho Moccelin", "number": 18, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_014_10", "name": "Gilberto", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_014_11", "name": "Pablo Dyego", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_014_12", "name": "Luan Ribeiro", "number": 1, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_014_13", "name": "Kevyn", "number": 33, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_014_14", "name": "Rafael Monteiro", "number": 6, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_014_15", "name": "André", "number": 13, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_014_16", "name": "João Vitor", "number": 20, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_014_17", "name": "Tarik", "number": 5, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_014_18", "name": "Guilherme Dantas", "number": 77, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_014_19", "name": "Willian Pottker", "number": 23, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_014_20", "name": "Igor Bahia", "number": 99, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_014_21", "name": "Caio Maia", "number": 28, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br2_014_22", "name": "Zanella", "number": 12, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_014_23", "name": "Kauê Leonardo", "number": 75, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_014_24", "name": "Willian", "number": 55, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_014_25", "name": "Rai Nascimento", "number": 17, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 15,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 96,
+        "cornerLeft": 96,
+        "cornerRight": 11
+      }
+    }
   }
-}
