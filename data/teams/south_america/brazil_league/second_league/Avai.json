@@ -1,12 +1,58 @@
-{
-  "teamKey": "Avaí",
-
-  "name": "Avaí Futebol Clube",
-
-  "logo": "assets/logos/south_america/brazil/Avai.png",
-
-  "stadium": {
-    "name": "Estádio Aderbal Ramos da Silva",
-    "capacity": 17800
+ {
+    "teamKey": "Avaí",
+  
+    "name": "Avaí Futebol Clube",
+  
+    "logo": "assets/logos/south_america/brazil/Avai.png",
+  
+    "manager": {
+      "name": "Cauan de Almeida",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Aderbal Ramos da Silva",
+      "capacity": 17800
+    },
+  
+    "players": [
+      {"playerId": "player_br2_004_01", "name": "Léo Aragão", "number": 41, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_004_02", "name": "Allyson", "number": 3, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_004_03", "name": "Guilherme Aquino", "number": 15, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_004_04", "name": "Nicolás Cabral", "number": 6, "position": "CB", "country": "UY", "status": "starter"},
+      {"playerId": "player_br2_004_05", "name": "DG", "number": 36, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_004_06", "name": "Daniel Penha", "number": 14, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_004_07", "name": "Jean Lucas", "number": 10, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_004_08", "name": "Zé Ricardo", "number": 77, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_004_09", "name": "Hygor", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_004_10", "name": "Alef Manga", "number": 11, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_004_11", "name": "Cleber", "number": 99, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_004_12", "name": "Otavio Passos", "number": 21, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_004_13", "name": "Gabriel Simples", "number": 4, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_004_14", "name": "João Maistro", "number": 50, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_004_15", "name": "Kauã Fernandes", "number": 2, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_004_16", "name": "Luiz Henrique", "number": 8, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_004_17", "name": "Pedro Cuiabá", "number": 27, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_004_18", "name": "Hyan", "number": 18, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_004_19", "name": "Mário Sérgio", "number": 7, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_004_20", "name": "Gaspar", "number": 19, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_004_21", "name": "Bissoli", "number": 17, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br2_004_22", "name": "César Augusto", "number": 1, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_004_23", "name": "Wallison", "number": 22, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_004_24", "name": "Paulo Vitor", "number": 25, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_004_25", "name": "Vágner Love", "number": 90, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 15,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 77,
+        "cornerLeft": 77,
+        "cornerRight": 99
+      }
+    }
   }
-}
