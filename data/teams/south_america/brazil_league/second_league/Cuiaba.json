@@ -1,12 +1,58 @@
 {
-  "teamKey": "Cuiabá",
-
-  "name": "Cuiabá Esporte Clube (MT)",
-
-  "logo": "assets/logos/south_america/brazil/Cuiba.png",
-
-  "stadium": {
-    "name": "Arena Pantanal",
-    "capacity": 42968
+    "teamKey": "Cuiabá",
+  
+    "name": "Cuiabá Esporte Clube (MT)",
+  
+    "logo": "assets/logos/south_america/brazil/Cuiba.png",
+  
+    "manager": {
+      "name": "Eduardo Barros",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Arena Pantanal",
+      "capacity": 42968
+    },
+  
+    "players": [
+      {"playerId": "player_br2_008_01", "name": "Walter", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_008_02", "name": "Raylan", "number": 37, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_008_03", "name": "João Basso", "number": 13, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_008_04", "name": "Alan Empereur", "number": 33, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_008_05", "name": "Marlon", "number": 6, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_008_06", "name": "Pepê", "number": 8, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_008_07", "name": "Calebe", "number": 5, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_008_08", "name": "Marcos Júnior", "number": 23, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_008_09", "name": "Fábio Gomes", "number": 90, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_008_10", "name": "Rodrigo Rodrigues", "number": 27, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_008_11", "name": "Eliel", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_008_12", "name": "Marcelo Carné", "number": 31, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_008_13", "name": "Vitor Mendes", "number": 4, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_008_14", "name": "Matheus Alexandre", "number": 2, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_008_15", "name": "Renan", "number": 3, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_008_16", "name": "Raul", "number": 30, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_008_17", "name": "Lorenzo", "number": 36, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_008_18", "name": "Luiz Otávio", "number": 97, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_008_19", "name": "Jean Dias", "number": 77, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_008_20", "name": "Vinícius Peixoto", "number": 29, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_008_21", "name": "Pedro Henrique", "number": 96, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br2_008_22", "name": "Mateus Pasinato", "number": 14, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_008_23", "name": "Juan Tavares", "number": 22, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_008_24", "name": "Weverson", "number": 53, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_008_25", "name": "Hernandes", "number": 10, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 13,
+      "setPieces": {
+        "penalty": 27,
+        "freeKick": 23,
+        "cornerLeft": 23,
+        "cornerRight": 11
+      }
+    }
   }
-}
