@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bragan",
-
-  "name": "RB Bragantino",
-
-  "logo": "assets/logos/south_america/brazil/Bragan.png",
-
-  "stadium": {
-    "name": "Estádio Municipal Cicero De Souza Marques",
-    "capacity": 12000
+    "teamKey": "Bragan",
+  
+    "name": "RB Bragantino",
+  
+    "logo": "assets/logos/south_america/brazil/Bragan.png",
+  
+    "manager": {
+      "name": "Fernando Seabra",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Municipal Cicero De Souza Marques",
+      "capacity": 12000
+    },
+  
+    "players": [
+      {"playerId": "player_br1_004_01", "name": "Cleiton", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_004_02", "name": "Alix Vinicius", "number": 4, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_004_03", "name": "Juninho Capixaba", "number": 29, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_004_04", "name": "Pedro Henrique", "number": 14, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_004_05", "name": "Andrés Hurtado", "number": 34, "position": "LB", "country": "EC", "status": "starter"},
+      {"playerId": "player_br1_004_06", "name": "Fabinho", "number": 5, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_004_07", "name": "Matheus Fernandes", "number": 35, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_004_08", "name": "Jhon Jhon", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_004_09", "name": "Eduardo Sasha", "number": 19, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_004_10", "name": "Vinicinho", "number": 17, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_004_11", "name": "Isidro Pitta", "number": 9, "position": "LW", "country": "PY", "status": "starter"},
+  
+      {"playerId": "player_br1_004_12", "name": "Tiago Volpi", "number": 18, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_004_13", "name": "Agustín Sant’Anna", "number": 23, "position": "RB", "country": "UY", "status": "bench"},
+      {"playerId": "player_br1_004_14", "name": "Eduardo Santos", "number": 3, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_004_15", "name": "Gustavo Marques", "number": 16, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_004_16", "name": "Ignacio Sosa", "number": 15, "position": "CDM", "country": "UY", "status": "bench"},
+      {"playerId": "player_br1_004_17", "name": "Ramires", "number": 7, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_004_18", "name": "Gustavinho", "number": 22, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_004_19", "name": "Henry Mosquera", "number": 30, "position": "RW", "country": "CO", "status": "bench"},
+      {"playerId": "player_br1_004_20", "name": "Laquintana", "number": 33, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_004_21", "name": "João Neto", "number": 80, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_004_22", "name": "Lucão", "number": 40, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_004_23", "name": "Weimar Palacios", "number": 54, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_004_24", "name": "Rodriguinho", "number": 20, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_004_25", "name": "Thiago Borbas", "number": 2, "position": "ST", "country": "UY", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 29,
+      "setPieces": {
+        "penalty": 17,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 9
+      }
+    }
   }
-}
