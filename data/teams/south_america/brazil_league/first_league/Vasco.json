@@ -1,12 +1,58 @@
 {
-  "teamKey": "Vasco",
-
-  "name": "Vasco da Gama",
-
-  "logo": "assets/logos/south_america/brazil/Vasco.png",
-
-  "stadium": {
-    "name": "Estádio São Januário",
-    "capacity": 24584
+    "teamKey": "Vasco",
+  
+    "name": "Vasco da Gama",
+  
+    "logo": "assets/logos/south_america/brazil/Vasco.png",
+  
+    "manager": {
+      "name": "Emanuel Pedro",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio São Januário",
+      "capacity": 24584
+    },
+  
+    "players": [
+      {"playerId": "player_br1_019_01", "name": "Léo Jardim", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_019_02", "name": "Paulo Henrique", "number": 96, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_019_03", "name": "Carlos Cuesta", "number": 46, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_br1_019_04", "name": "Robert Renan", "number": 30, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_019_05", "name": "Lucas Piton", "number": 6, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_019_06", "name": "Tchê Tchê", "number": 3, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_019_07", "name": "Thiago Mendes", "number": 88, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_019_08", "name": "Johan Rojas", "number": 10, "position": "CAM", "country": "CO", "status": "starter"},
+      {"playerId": "player_br1_019_09", "name": "Brenner", "number": 20, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_019_10", "name": "Andrés Gómez", "number": 11, "position": "ST", "country": "CO", "status": "starter"},
+      {"playerId": "player_br1_019_11", "name": "Nuno Moreira", "number": 17, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br1_019_12", "name": "Daniel Fuzato", "number": 13, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_019_13", "name": "José Luis Rodríguez", "number": 2, "position": "RB", "country": "UY", "status": "bench"},
+      {"playerId": "player_br1_019_14", "name": "Alan Saldivia", "number": 4, "position": "CB", "country": "UY", "status": "bench"},
+      {"playerId": "player_br1_019_15", "name": "Lucas Freitas", "number": 43, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_019_16", "name": "Cauan Barros", "number": 8, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_019_17", "name": "Philippe Coutinho", "number": 5, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_019_18", "name": "Mateus Carvalho", "number": 25, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_019_19", "name": "Claudio Spinelli", "number": 77, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_br1_019_20", "name": "Bruno Duarte", "number": 19, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_019_21", "name": "David", "number": 7, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_019_22", "name": "Pablo", "number": 22, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_019_23", "name": "Cuiabano", "number": 66, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_019_24", "name": "Paulinho", "number": 18, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_019_25", "name": "Adson", "number": 28, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 46,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 17
+      }
+    }
   }
-}
