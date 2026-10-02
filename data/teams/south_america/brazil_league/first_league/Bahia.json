@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bahia",
-
-  "name": "EC Bahia",
-
-  "logo": "assets/logos/south_america/brazil/Bahia.png",
-
-  "stadium": {
-    "name": "Arena Fonte Nova",
-    "capacity": 47364
+    "teamKey": "Bahia",
+  
+    "name": "EC Bahia",
+  
+    "logo": "assets/logos/south_america/brazil/Bahia.png",
+  
+    "manager": {
+      "name": "Rogério Ceni",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Arena Fonte Nova",
+      "capacity": 47364
+    },
+  
+    "players": [
+      {"playerId": "player_br1_002_01", "name": "Ronaldo Strada", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_002_02", "name": "David Duarte", "number": 33, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_002_03", "name": "Kanu", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_002_04", "name": "Luciano Juba", "number": 46, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_002_05", "name": "Roman Gómez", "number": 31, "position": "LB", "country": "PY", "status": "starter"},
+      {"playerId": "player_br1_002_06", "name": "Everton Ribeiro", "number": 10, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_002_07", "name": "Jean Lucas", "number": 6, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_002_08", "name": "Caio Alexandre", "number": 8, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_002_09", "name": "Willian José", "number": 12, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_002_10", "name": "Ademir", "number": 7, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_002_11", "name": "Erick Pulga", "number": 16, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br1_002_12", "name": "Danilo Fernandes", "number": 22, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_002_13", "name": "Fred Lippert", "number": 83, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_002_14", "name": "Marcos Victor", "number": 44, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_002_15", "name": "Zé Guilherme", "number": 66, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_002_16", "name": "Nicolás Acevedo", "number": 5, "position": "CDM", "country": "UY", "status": "bench"},
+      {"playerId": "player_br1_002_17", "name": "Erick", "number": 14, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_002_18", "name": "Michel Araújo", "number": 15, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_002_19", "name": "Cristian Olivera", "number": 99, "position": "RW", "country": "UY", "status": "bench"},
+      {"playerId": "player_br1_002_20", "name": "Mateo Sanabria", "number": 23, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_br1_002_21", "name": "Ruan Pablo", "number": 77, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_002_22", "name": "Marcos Felipe", "number": 2, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_002_23", "name": "Santiago Arias", "number": 13, "position": "CB", "country": "CO", "status": "reserve"},
+      {"playerId": "player_br1_002_24", "name": "Sidney Duarte", "number": 55, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_002_25", "name": "Dell", "number": 89, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 16
+      }
+    }
   }
-}
