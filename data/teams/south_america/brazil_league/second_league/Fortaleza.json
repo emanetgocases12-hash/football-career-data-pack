@@ -1,12 +1,58 @@
 {
-  "teamKey": "Fortal",
-
-  "name": "Fortaleza",
-
-  "logo": "assets/logos/south_america/brazil/Fortal.png",
-
-  "stadium": {
-    "name": "Estádio Governador Plácido Castelo",
-    "capacity": 63904
+    "teamKey": "Fortal",
+  
+    "name": "Fortaleza",
+  
+    "logo": "assets/logos/south_america/brazil/Fortal.png",
+  
+    "manager": {
+      "name": "Renato Paiva",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Governador Plácido Castelo",
+      "capacity": 63904
+    },
+  
+    "players": [
+      {"playerId": "player_br2_010_01", "name": "Brenno", "number": 12, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_010_02", "name": "Emanuel Brítez", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_br2_010_03", "name": "Tomás Cardona", "number": 6, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_br2_010_04", "name": "Diogo Barbosa", "number": 16, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_010_05", "name": "Gabriel Fuentes", "number": 18, "position": "LB", "country": "CO", "status": "starter"},
+      {"playerId": "player_br2_010_06", "name": "Lucas Crispim", "number": 10, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_010_07", "name": "Lucas Sasha", "number": 88, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_010_08", "name": "Matheus Rossetto", "number": 20, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_010_09", "name": "GB", "number": 21, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_010_10", "name": "Kayke", "number": 99, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_010_11", "name": "Luiz Fernando", "number": 32, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_010_12", "name": "João Ricardo", "number": 1, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_010_13", "name": "Luan Freitas", "number": 4, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_010_14", "name": "Mailton", "number": 22, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_010_15", "name": "Lucas Gazal", "number": 3, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_010_16", "name": "Tomás Pochettino", "number": 7, "position": "CDM", "country": "AR", "status": "bench"},
+      {"playerId": "player_br2_010_17", "name": "Pierre", "number": 5, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_010_18", "name": "Ronald", "number": 8, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_010_19", "name": "Vitinho", "number": 11, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_010_20", "name": "Rodriguinho", "number": 75, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_010_21", "name": "Lucero", "number": 9, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br2_010_22", "name": "Santos", "number": 23, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_010_23", "name": "João Lucas", "number": 43, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_010_24", "name": "Rodrigo", "number": 29, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_010_25", "name": "Marinho", "number": 13, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 99,
+        "freeKick": 20,
+        "cornerLeft": 20,
+        "cornerRight": 32
+      }
+    }
   }
-}
