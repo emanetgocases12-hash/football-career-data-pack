@@ -1,12 +1,58 @@
 {
-  "teamKey": "Remo",
-
-  "name": "Remo",
-
-  "logo": "assets/logos/south_america/brazil/Remo.png",
-
-  "stadium": {
-    "name": "Estádio Evandro Almeida",
-    "capacity": 13792
+    "teamKey": "Remo",
+  
+    "name": "Remo",
+  
+    "logo": "assets/logos/south_america/brazil/Remo.png",
+  
+    "manager": {
+      "name": "Thiago Carpini",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Evandro Almeida",
+      "capacity": 13792
+    },
+  
+    "players": [
+      {"playerId": "player_br1_016_01", "name": "Marcelo Rangel", "number": 88, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_016_02", "name": "João Lucas", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_016_03", "name": "Zé Ivaldo", "number": 27, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_016_04", "name": "Marllon", "number": 13, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_016_05", "name": "Marlon", "number": 6, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_016_06", "name": "Vitor Bueno", "number": 15, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_016_07", "name": "Zé Welison", "number": 28, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_016_08", "name": "Leonel Picco", "number": 14, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_br1_016_09", "name": "Alef Manga", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_016_10", "name": "Yago Pikachu", "number": 22, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_016_11", "name": "Eduardo Melo", "number": 39, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br1_016_12", "name": "Ivan", "number": 97, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_016_13", "name": "Matheus Felipe", "number": 4, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_016_14", "name": "Duplexe Tchamba", "number": 18, "position": "CB", "country": "CM", "status": "bench"},
+      {"playerId": "player_br1_016_15", "name": "Léo Andrade", "number": 5, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_016_16", "name": "Zé Ricardo", "number": 55, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_016_17", "name": "Franco Catarozzi", "number": 23, "position": "CM", "country": "UY", "status": "bench"},
+      {"playerId": "player_br1_016_18", "name": "Jadson", "number": 10, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_016_19", "name": "Pedro Rocha", "number": 9, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_016_20", "name": "Nicolas", "number": 99, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_016_21", "name": "Marcelinho", "number": 79, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_016_22", "name": "Ygor Vinhas", "number": 1, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_016_23", "name": "Matheus Alexandre", "number": 3, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_016_24", "name": "Lucas Lima", "number": 8, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_016_25", "name": "Felipe Vizeu", "number": 19, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 27,
+      "setPieces": {
+        "penalty": 22,
+        "freeKick": 14,
+        "cornerLeft": 14,
+        "cornerRight": 39
+      }
+    }
   }
-}
