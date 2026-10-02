@@ -1,12 +1,58 @@
 {
-  "teamKey": "Cruzei",
-
-  "name": "Cruzeiro",
-
-  "logo": "assets/logos/south_america/brazil/Cruzei.png",
-
-  "stadium": {
-    "name": "Estádio Governador Magalhães Pinto",
-    "capacity": 61927
+    "teamKey": "Cruzei",
+  
+    "name": "Cruzeiro",
+  
+    "logo": "assets/logos/south_america/brazil/Cruzei.png",
+  
+    "manager": {
+      "name": "Artur Jorge",
+      "country": "PT"
+    },
+  
+    "stadium": {
+      "name": "Estádio Governador Magalhães Pinto",
+      "capacity": 61927
+    },
+  
+    "players": [
+      {"playerId": "player_br1_008_01", "name": "Cássio", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_008_02", "name": "William", "number": 12, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_008_03", "name": "Fabrício Bruno", "number": 15, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_008_04", "name": "Lucas Villalba", "number": 25, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_008_05", "name": "Kaiki", "number": 6, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_008_06", "name": "Matheus Pereira", "number": 10, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_008_07", "name": "Lucas Silva", "number": 16, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_008_08", "name": "Christian", "number": 88, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_008_09", "name": "Kaio Jorge", "number": 19, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_008_10", "name": "Luis Sinisterra", "number": 17, "position": "ST", "country": "CO", "status": "starter"},
+      {"playerId": "player_br1_008_11", "name": "Wanderson", "number": 94, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br1_008_12", "name": "Matheus Cunha", "number": 31, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_008_13", "name": "Fagner", "number": 23, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_008_14", "name": "João Marcelo", "number": 43, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_008_15", "name": "Jonathan Jesus", "number": 34, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_008_16", "name": "Gerson", "number": 8, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_008_17", "name": "Walace", "number": 5, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_008_18", "name": "Lucas Romero", "number": 29, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_008_19", "name": "Bruno Rodrigues", "number": 9, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_008_20", "name": "Keny Arroyo", "number": 99, "position": "ST", "country": "EC", "status": "bench"},
+      {"playerId": "player_br1_008_21", "name": "Kenji", "number": 70, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_008_22", "name": "Otávio Costa", "number": 81, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_008_23", "name": "Kauã Moraes", "number": 2, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_008_24", "name": "Japa", "number": 77, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_008_25", "name": "Neyser Villarreal", "number": 22, "position": "ST", "country": "CO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 15,
+      "setPieces": {
+        "penalty": 17,
+        "freeKick": 88,
+        "cornerLeft": 88,
+        "cornerRight": 94
+      }
+    }
   }
-}
