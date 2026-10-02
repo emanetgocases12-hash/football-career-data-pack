@@ -1,12 +1,58 @@
 {
-  "teamKey": "S Berna",
-
-  "name": "São Bernardo Futebol Clube",
-
-  "logo": "assets/logos/south_america/brazil/SBerba.png",
-
-  "stadium": {
-    "name": "Estádio Primeiro de Maio",
-    "capacity": 16000
+    "teamKey": "S Berna",
+  
+    "name": "São Bernardo Futebol Clube",
+  
+    "logo": "assets/logos/south_america/brazil/SBerba.png",
+  
+    "manager": {
+      "name": "Ricardo Catalá",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Primeiro de Maio",
+      "capacity": 16000
+    },
+  
+    "players": [
+      {"playerId": "player_br2_019_01", "name": "Alex Alves", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_019_02", "name": "Helder Maciel", "number": 3, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_019_03", "name": "Hugo Sanches", "number": 21, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_019_04", "name": "Matheus Salustiano", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_019_05", "name": "Pará", "number": 6, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_019_06", "name": "Foguinho", "number": 8, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_019_07", "name": "Romisson", "number": 17, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_019_08", "name": "Rodrigo Andrade", "number": 32, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_019_09", "name": "Pablo Dyego", "number": 22, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_019_10", "name": "Felipe Garcia", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_019_11", "name": "Fabrício Daniel", "number": 10, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_019_12", "name": "Júnior Oliveira", "number": 12, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_019_13", "name": "Rodrigo Silva", "number": 2, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_019_14", "name": "Wellington Gonzaga", "number": 25, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_019_15", "name": "Jemerson", "number": 35, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_019_16", "name": "Junior Urso", "number": 30, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_019_17", "name": "Marcão Silva", "number": 77, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_019_18", "name": "Felipe", "number": 20, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_019_19", "name": "Daniel Amorim", "number": 89, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_019_20", "name": "Pedro Vitor", "number": 11, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_019_21", "name": "Lucas", "number": 7, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br2_019_22", "name": "Matheus Nogueira", "number": 40, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_019_23", "name": "Luizão", "number": 90, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_019_24", "name": "Lucas Lima", "number": 4, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_019_25", "name": "Dudu Miraíma", "number": 26, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 21,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 32,
+        "cornerLeft": 32,
+        "cornerRight": 10
+      }
+    }
   }
-}
