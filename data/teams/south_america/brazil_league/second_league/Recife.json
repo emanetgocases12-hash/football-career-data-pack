@@ -1,12 +1,58 @@
-{
-  "teamKey": "Recife",
-
-  "name": "Sport Recife",
-
-  "logo": "assets/logos/south_america/brazil/Recife.png",
-
-  "stadium": {
-    "name": "Estádio Adelmar da Costa Carvalho",
-    "capacity": 35000
+ {
+    "teamKey": "Recife",
+  
+    "name": "Sport Recife",
+  
+    "logo": "assets/logos/south_america/brazil/Recife.png",
+  
+    "manager": {
+      "name": "Mariano Soso",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Adelmar da Costa Carvalho",
+      "capacity": 35000
+    },
+  
+    "players": [
+      {"playerId": "player_br2_017_01", "name": "Thiago Couto", "number": 26, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_017_02", "name": "Benevenuto", "number": 5, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_017_03", "name": "Filipinho", "number": 60, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_017_04", "name": "Marcelo Ajul", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_017_05", "name": "Edson Lucas", "number": 96, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_017_06", "name": "Biel Fonseca", "number": 6, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_017_07", "name": "Augusto", "number": 68, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_017_08", "name": "Zé Gabriel", "number": 23, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_017_09", "name": "Chrystian Barletta", "number": 30, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_017_10", "name": "Pedro Perotti", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_017_11", "name": "Carlos de Pena", "number": 10, "position": "LW", "country": "UY", "status": "starter"},
+  
+      {"playerId": "player_br2_017_12", "name": "Brenno", "number": 21, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_017_13", "name": "Habraão", "number": 28, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_017_14", "name": "Kayky Almeida", "number": 33, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_017_15", "name": "Claudinho", "number": 27, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_017_16", "name": "Patrick de Paula", "number": 7, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_017_17", "name": "Juan Alano", "number": 8, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_017_18", "name": "Fernando Sobral", "number": 88, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_017_19", "name": "Clayson", "number": 25, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_017_20", "name": "Diego Hernández", "number": 20, "position": "ST", "country": "UY", "status": "bench"},
+      {"playerId": "player_br2_017_21", "name": "Marlon Douglas", "number": 31, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br2_017_22", "name": "Denis", "number": 12, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_017_23", "name": "Raí", "number": 76, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_017_24", "name": "Fábio Matheus", "number": 47, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_017_25", "name": "Dudu", "number": 77, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 60,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 23,
+        "cornerLeft": 23,
+        "cornerRight": 10
+      }
+    }
   }
-}
