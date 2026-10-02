@@ -1,12 +1,58 @@
-{
-  "teamKey": "Ceará",
-
-  "name": "Ceará SC",
-
-  "logo": "assets/logos/south_america/brazil/Ceara.png",
-
-  "stadium": {
-    "name": "Estádio Governador Plácido Castelo",
-    "capacity": 63904
+ {
+    "teamKey": "Ceará",
+  
+    "name": "Ceará SC",
+  
+    "logo": "assets/logos/south_america/brazil/Ceara.png",
+  
+    "manager": {
+      "name": "Mozart",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Governador Plácido Castelo",
+      "capacity": 63904
+    },
+  
+    "players": [
+      {"playerId": "player_br2_006_01", "name": "Richard", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_006_02", "name": "Rafael Ramos", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_006_03", "name": "Eder", "number": 33, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_006_04", "name": "Luiz Otávio", "number": 13, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_006_05", "name": "Alex Silva", "number": 21, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_006_06", "name": "Lucas Lima", "number": 31, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_006_07", "name": "Vina", "number": 29, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_006_08", "name": "Matheus Araújo", "number": 8, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_006_09", "name": "Pedro Raul", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_006_10", "name": "Aylon", "number": 11, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_006_11", "name": "Galeano", "number": 7, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_006_12", "name": "Bruno Ferreira", "number": 94, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_006_13", "name": "Fernando", "number": 17, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_006_14", "name": "Julio Cesar", "number": 18, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_006_15", "name": "Vini Uchella", "number": 45, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_006_16", "name": "Vinicius Zanocelo", "number": 25, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_006_17", "name": "Richardson", "number": 26, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_006_18", "name": "Juan Alano", "number": 10, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_006_19", "name": "Fernandinho", "number": 3, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_006_20", "name": "Lourenço", "number": 97, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_006_21", "name": "Lucca", "number": 19, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br2_006_22", "name": "Gustavo Martins", "number": 41, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_006_23", "name": "Stanley Boateng", "number": 4, "position": "CB", "country": "GH", "status": "reserve"},
+      {"playerId": "player_br2_006_24", "name": "Samuel", "number": 51, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_006_25", "name": "Mugni", "number": 5, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 33,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 7
+      }
+    }
   }
-}
