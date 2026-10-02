@@ -1,12 +1,58 @@
 {
-  "teamKey": "Chapec",
-
-  "name": "Chapecoense",
-
-  "logo": "assets/logos/south_america/brazil/Chapec.png",
-
-  "stadium": {
-    "name": "Arena Condá",
-    "capacity": 22600
+    "teamKey": "Chapec",
+  
+    "name": "Chapecoense",
+  
+    "logo": "assets/logos/south_america/brazil/Chapec.png",
+  
+    "manager": {
+      "name": "Rafael Lacerda",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Arena Condá",
+      "capacity": 22600
+    },
+  
+    "players": [
+      {"playerId": "player_br1_005_01", "name": "Rafael Santos", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_005_02", "name": "Bruno Leonardo", "number": 33, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_005_03", "name": "Eduardo Doma", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_005_04", "name": "Rafael Thyere", "number": 15, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_005_05", "name": "Marcos Vinícius", "number": 2, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_005_06", "name": "Camilo", "number": 27, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_005_07", "name": "Giovanni Augusto", "number": 10, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_005_08", "name": "Higor Meritão", "number": 22, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_005_09", "name": "Yannick Bolasie", "number": 11, "position": "RW", "country": "CD", "status": "starter"},
+      {"playerId": "player_br1_005_10", "name": "Marcinho", "number": 7, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_005_11", "name": "Italo", "number": 9, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br1_005_12", "name": "Anderson", "number": 98, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_005_13", "name": "Everton", "number": 26, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_005_14", "name": "Victor Caetano", "number": 25, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_005_15", "name": "João Paulo", "number": 4, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_005_16", "name": "Jean Carlos", "number": 20, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_005_17", "name": "João Vitor", "number": 5, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_005_18", "name": "Robert", "number": 8, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_005_19", "name": "Walter Clar", "number": 70, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_005_20", "name": "Mário Sérgio", "number": 89, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_005_21", "name": "Perotti", "number": 77, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_005_22", "name": "Matheus Aurélio", "number": 30, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_005_23", "name": "Kauan", "number": 21, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_005_24", "name": "Clar Walter", "number": 37, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_005_25", "name": "Rubens", "number": 17, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 22,
+        "cornerLeft": 22,
+        "cornerRight": 9
+      }
+    }
   }
-}
