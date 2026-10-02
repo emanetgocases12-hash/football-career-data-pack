@@ -1,12 +1,58 @@
 {
-  "teamKey": "Athlc C",
-
-  "name": "Athletic",
-
-  "logo": "assets/logos/south_america/brazil/AthlcC.png",
-
-  "stadium": {
-    "name": "Estádio Joaquim Portugal",
-    "capacity": 4655
+    "teamKey": "Athlc C",
+  
+    "name": "Athletic",
+  
+    "logo": "assets/logos/south_america/brazil/AthlcC.png",
+  
+    "manager": {
+      "name": "Alex Souza",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Joaquim Portugal",
+      "capacity": 4655
+    },
+  
+    "players": [
+      {"playerId": "player_br2_003_01", "name": "Luan Polli", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_003_02", "name": "Zeca", "number": 6, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_003_03", "name": "Belezi", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_003_04", "name": "Sidimar", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_003_05", "name": "Diogo Batista", "number": 2, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_003_06", "name": "Ian Luccas", "number": 5, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_003_07", "name": "Gustavinho", "number": 10, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_003_08", "name": "Caick", "number": 19, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_003_09", "name": "Ronaldo Tavares", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_003_10", "name": "Bruninho", "number": 7, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_003_11", "name": "Léo Chu", "number": 20, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_003_12", "name": "Eduardo Freire", "number": 12, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_003_13", "name": "Douglas Pelé", "number": 8, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_003_14", "name": "Enzo Santos", "number": 16, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_003_15", "name": "Felipe Vieira", "number": 23, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_003_16", "name": "Fabricio Isidoro", "number": 14, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_003_17", "name": "Gian Cabezas", "number": 11, "position": "CM", "country": "CO", "status": "bench"},
+      {"playerId": "player_br2_003_18", "name": "João Miguel", "number": 18, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_003_19", "name": "Oluwasegun Otusanya", "number": 21, "position": "RW", "country": "NG", "status": "bench"},
+      {"playerId": "player_br2_003_20", "name": "Ruan Assis", "number": 13, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_003_21", "name": "Dixon Vera", "number": 17, "position": "LW", "country": "EC", "status": "bench"},
+  
+      {"playerId": "player_br2_003_22", "name": "Glauco", "number": 30, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_003_23", "name": "Rodrigo Gelado", "number": 84, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_003_24", "name": "Samuel", "number": 15, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_003_25", "name": "Gabriel Moyses", "number": 22, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 19,
+        "cornerLeft": 19,
+        "cornerRight": 20
+      }
+    }
   }
-}
