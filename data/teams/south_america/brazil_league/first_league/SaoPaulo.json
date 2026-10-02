@@ -1,12 +1,58 @@
 {
-  "teamKey": "São P.",
-
-  "name": "São Paulo",
-
-  "logo": "assets/logos/south_america/brazil/SaoP.png",
-
-  "stadium": {
-    "name": "MorumBIS",
-    "capacity": 72039
+    "teamKey": "São P.",
+  
+    "name": "São Paulo",
+  
+    "logo": "assets/logos/south_america/brazil/SaoP.png",
+  
+    "manager": {
+      "name": "Dorival Júnior",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "MorumBIS",
+      "capacity": 72039
+    },
+  
+    "players": [
+      {"playerId": "player_br1_018_01", "name": "Rafael", "number": 23, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_018_02", "name": "Cédric Soares", "number": 21, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_br1_018_03", "name": "Robert Arboleda", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_018_04", "name": "Matheus Dória", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_018_05", "name": "Enzo Díaz", "number": 13, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_018_06", "name": "Marcos Antônio", "number": 8, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_018_07", "name": "Damián Bobadilla", "number": 16, "position": "CM", "country": "PY", "status": "starter"},
+      {"playerId": "player_br1_018_08", "name": "Pablo Maia", "number": 29, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_018_09", "name": "Jonathan Calleri", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_018_10", "name": "Lucas Moura", "number": 7, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_018_11", "name": "Luciano", "number": 10, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br1_018_12", "name": "Carlos Coronel", "number": 31, "position": "GK", "country": "PY", "status": "bench"},
+      {"playerId": "player_br1_018_13", "name": "Alan Franco", "number": 28, "position": "RB", "country": "AR", "status": "bench"},
+      {"playerId": "player_br1_018_14", "name": "Rafael Tolói", "number": 2, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_018_15", "name": "Wendell", "number": 18, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_018_16", "name": "Cauly", "number": 80, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_018_17", "name": "Danielzinho", "number": 94, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_018_18", "name": "Luan", "number": 33, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_018_19", "name": "Ferreira", "number": 11, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_018_20", "name": "André Silva", "number": 17, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_018_21", "name": "Tetê", "number": 34, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_018_22", "name": "Young", "number": 50, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_018_23", "name": "Sabino", "number": 35, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_018_24", "name": "Felipe Negrucci", "number": 30, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_018_25", "name": "Gonçalo Tapia", "number": 14, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 29,
+        "cornerLeft": 29,
+        "cornerRight": 10
+      }
+    }
   }
-}
