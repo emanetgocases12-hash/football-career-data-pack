@@ -1,12 +1,58 @@
 {
-  "teamKey": "Intrnc",
-
-  "name": "Internacional",
-
-  "logo": "assets/logos/south_america/brazil/Intrnc.png",
-
-  "stadium": {
-    "name": "Estádio Beira-Rio",
-    "capacity": 50848
+    "teamKey": "Intrnc",
+  
+    "name": "Internacional",
+  
+    "logo": "assets/logos/south_america/brazil/Intrnc.png",
+  
+    "manager": {
+      "name": "Eduardo Baptista",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Beira-Rio",
+      "capacity": 50848
+    },
+  
+    "players": [
+      {"playerId": "player_br1_012_01", "name": "Sergio Rochet", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+      {"playerId": "player_br1_012_02", "name": "Braian Aguirre", "number": 35, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_br1_012_03", "name": "Alexandro Bernabei", "number": 26, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_br1_012_04", "name": "Félix Torres", "number": 4, "position": "CB", "country": "EC", "status": "starter"},
+      {"playerId": "player_br1_012_05", "name": "Juninho", "number": 18, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_012_06", "name": "Alan Patrick", "number": 10, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_012_07", "name": "Thiago Maia", "number": 29, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_012_08", "name": "Bruno Henrique", "number": 8, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_012_09", "name": "Rafael Borré", "number": 19, "position": "RW", "country": "CO", "status": "starter"},
+      {"playerId": "player_br1_012_10", "name": "Alerrandro", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_012_11", "name": "Johan Carbonero", "number": 7, "position": "LW", "country": "CO", "status": "starter"},
+  
+      {"playerId": "player_br1_012_12", "name": "Anthoni", "number": 12, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_012_13", "name": "Gabriel Mercado", "number": 25, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_012_14", "name": "Clayton Sampaio", "number": 20, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_012_15", "name": "Victor Gabriel", "number": 41, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_012_16", "name": "Rodrigo Villagra", "number": 5, "position": "CDM", "country": "AR", "status": "bench"},
+      {"playerId": "player_br1_012_17", "name": "Ronaldo", "number": 16, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_012_18", "name": "Bruno Gomes", "number": 15, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_012_19", "name": "Bruno Tabata", "number": 17, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_012_20", "name": "Vitinho", "number": 28, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_012_21", "name": "João Bezerra", "number": 49, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_012_22", "name": "Ivan Quaresma", "number": 24, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_012_23", "name": "Alisson", "number": 30, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_012_24", "name": "Alan Rodríguez", "number": 14, "position": "CM", "country": "UY", "status": "reserve"},
+      {"playerId": "player_br1_012_25", "name": "Yago", "number": 37, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 26,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 7
+      }
+    }
   }
-}
