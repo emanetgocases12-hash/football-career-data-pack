@@ -1,12 +1,58 @@
 {
-  "teamKey": "Novori",
-
-  "name": "Novorizontino",
-
-  "logo": "assets/logos/south_america/brazil/Novori.png",
-
-  "stadium": {
-    "name": "Estádio Jorge Ismael de Biasi",
-    "capacity": 14096
+    "teamKey": "Novori",
+  
+    "name": "Novorizontino",
+  
+    "logo": "assets/logos/south_america/brazil/Novori.png",
+  
+    "manager": {
+      "name": "Enderson Moreira",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Jorge Ismael de Biasi",
+      "capacity": 14096
+    },
+  
+    "players": [
+      {"playerId": "player_br2_016_01", "name": "Jordi", "number": 93, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_016_02", "name": "Patrick", "number": 4, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_016_03", "name": "Maykon Jesus", "number": 66, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_016_04", "name": "Ivan Alvarino", "number": 22, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_016_05", "name": "Eduardo Brock", "number": 14, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_016_06", "name": "Rômulo", "number": 10, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_016_07", "name": "Luis Oyama", "number": 6, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_016_08", "name": "Léo", "number": 18, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_016_09", "name": "Robson", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_016_10", "name": "Carlão", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br2_016_11", "name": "Vinícius Paiva", "number": 16, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br2_016_12", "name": "César Augusto", "number": 31, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_016_13", "name": "Gabriel Bahia", "number": 26, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_016_14", "name": "Carlinhos", "number": 3, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_016_15", "name": "Sander", "number": 5, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_016_16", "name": "Marcelo", "number": 50, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_016_17", "name": "Matheus Bianqui", "number": 17, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_016_18", "name": "Tavinho", "number": 15, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_016_19", "name": "Helio Borges", "number": 77, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_016_20", "name": "Nicolas Careca", "number": 30, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br2_016_21", "name": "Cristian Ortiz", "number": 8, "position": "LW", "country": "PY", "status": "bench"},
+  
+      {"playerId": "player_br2_016_22", "name": "João Scapin", "number": 12, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_016_23", "name": "Alemão", "number": 21, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_016_24", "name": "Diego Galo", "number": 19, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br2_016_25", "name": "Ronald Barcellos", "number": 7, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 66,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 18,
+        "cornerLeft": 18,
+        "cornerRight": 16
+      }
+    }
   }
-}
