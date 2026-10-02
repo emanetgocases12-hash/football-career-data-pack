@@ -1,12 +1,58 @@
 {
-  "teamKey": "Mirass",
-
-  "name": "Mirassol-SP",
-
-  "logo": "assets/logos/south_america/brazil/Mirass.png",
-
-  "stadium": {
-    "name": "Estádio Municipal José María de Campos Maia",
-    "capacity": 14534
+    "teamKey": "Mirass",
+  
+    "name": "Mirassol-SP",
+  
+    "logo": "assets/logos/south_america/brazil/Mirass.png",
+  
+    "manager": {
+      "name": "Rafael Guanaes",
+      "country": "BR"
+    },
+  
+    "stadium": {
+      "name": "Estádio Municipal José María de Campos Maia",
+      "capacity": 14534
+    },
+  
+    "players": [
+      {"playerId": "player_br1_013_01", "name": "Walter", "number": 22, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_013_02", "name": "Daniel Borges", "number": 20, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_013_03", "name": "Lucas Oliveira", "number": 2, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_013_04", "name": "Reinaldo", "number": 6, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_013_05", "name": "Willian Machado", "number": 3, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_013_06", "name": "Chico", "number": 10, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_013_07", "name": "Denilson", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_013_08", "name": "José Aldo", "number": 21, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_013_09", "name": "Tiquinho Soares", "number": 29, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_013_10", "name": "Alesson", "number": 77, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_br1_013_11", "name": "Everton Galdino", "number": 17, "position": "LW", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_br1_013_12", "name": "Alex Muralha", "number": 23, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_013_13", "name": "Igor Cariús", "number": 14, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_013_14", "name": "Igor Formiga", "number": 32, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_013_15", "name": "Rodrigues", "number": 97, "position": "LB", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_013_16", "name": "Lucas Mugni", "number": 26, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_013_17", "name": "Neto Moura", "number": 25, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_013_18", "name": "Shaylon", "number": 7, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_013_19", "name": "Antônio Galeano", "number": 27, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_013_20", "name": "Negueba", "number": 11, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_br1_013_21", "name": "Nathan", "number": 9, "position": "LW", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_br1_013_22", "name": "César Augusto", "number": 31, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_013_23", "name": "Victor Luís", "number": 12, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_013_24", "name": "Yuri Lara", "number": 5, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_br1_013_25", "name": "André Luís", "number": 99, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 77,
+        "freeKick": 21,
+        "cornerLeft": 21,
+        "cornerRight": 17
+      }
+    }
   }
-}
