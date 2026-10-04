@@ -1,12 +1,46 @@
 {
-  "teamKey": "Murang",
-
-  "name": "Murang'a Seal FC",
-
-  "logo": "assets/logos/africa/kenya/Murang.png",
-
-  "stadium": {
-    "name": "Murang'a Stadium",
-    "capacity": 5000
+    "teamKey": "Murang",
+    "name": "Murang'a Seal FC",
+    "logo": "assets/logos/africa/kenya/Murang.png",
+    "manager": {"name": "Austin Okuya Maputo", "country": "KE"},
+    "stadium": {"name": "Murang'a Stadium", "capacity": 5000},
+    "players": [
+      {"playerId": "player_ke1_012_01", "name": "Malvin Nderitu", "number": 1, "position": "GK", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_012_02", "name": "Shami Kibwana Mwinyi", "number": 2, "position": "RB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_012_03", "name": "Nashon Nanyendo Alembi", "number": 5, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_012_04", "name": "Dennis Munyovi", "number": 33, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_012_05", "name": "Brian Wafula", "number": 4, "position": "LB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_012_06", "name": "Dennis Odhiambo", "number": 3, "position": "CDM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_012_07", "name": "Ali Dele Yusuf", "number": 25, "position": "CM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_012_08", "name": "Majaliwa Charo Jefwa", "number": 10, "position": "CAM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_012_09", "name": "Michael Jairo", "number": 11, "position": "RW", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_012_10", "name": "Josphat Lopaga", "number": 9, "position": "ST", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_012_11", "name": "Ian Mutondo", "number": 17, "position": "LW", "country": "KE", "status": "starter"},
+  
+      {"playerId": "player_ke1_012_12", "name": "Austine Prince Omondi", "number": 22, "position": "GK", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_012_13", "name": "Elvin Barasa Wekesa", "number": 6, "position": "CB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_012_14", "name": "Davis Omiko Nyakeba", "number": 12, "position": "LB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_012_15", "name": "Brandon Ndonji", "number": 15, "position": "RB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_012_16", "name": "Steven Kimari", "number": 8, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_012_17", "name": "Michael Owen Owiti Pala", "number": 23, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_012_18", "name": "Paul Odari Osama", "number": 14, "position": "CDM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_012_19", "name": "Mark Mwaniki", "number": 7, "position": "RW", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_012_20", "name": "John Kiplagat", "number": 19, "position": "ST", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_012_21", "name": "Price Musebe", "number": 20, "position": "LM", "country": "KE", "status": "bench"},
+  
+      {"playerId": "player_ke1_012_22", "name": "Wilson Ngamau", "number": 31, "position": "GK", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_012_23", "name": "Tony Musa Shiroya", "number": 26, "position": "CB", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_012_24", "name": "Thadeas Pkemoi Pkiach", "number": 18, "position": "CM", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_012_25", "name": "Paul Njuguna Ngugi", "number": 21, "position": "ST", "country": "KE", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 17
+      }
+    }
   }
-}
