@@ -1,12 +1,52 @@
 {
-  "teamKey": "Karela",
+    "teamKey": "Karela",
+    "name": "Karela United FC",
+    "logo": "assets/logos/africa/ghana/Karela.png",
+    "manager": {
+      "name": "Nurudeen Amadu",
+      "country": "GH"
+    },
+    "stadium": {
+      "name": "Aliu Mahama Sports Stadium",
+      "capacity": 20000
+    },
+    "players": [
+      {"playerId": "player_gh1_011_01", "name": "Ganiu Mohammed Abdul", "number": 12, "position": "GK", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_011_02", "name": "Fatawu Mohammed", "number": 2, "position": "RB", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_011_03", "name": "Faisal Gariba", "number": 3, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_011_04", "name": "Joseph Quansah", "number": 6, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_011_05", "name": "Aihassan Ali", "number": 30, "position": "LB", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_011_06", "name": "Jibril Nurudeen", "number": 17, "position": "CDM", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_011_07", "name": "Malik Abubakar", "number": 13, "position": "CM", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_011_08", "name": "Eric Antwi Konadu", "number": 11, "position": "RW", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_011_09", "name": "Zaidan Mohammed", "number": 8, "position": "CAM", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_011_10", "name": "Nyaba Iddi Mahfuz", "number": 7, "position": "LW", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_011_11", "name": "Jonas Wisdom Manyina", "number": 9, "position": "ST", "country": "GH", "status": "starter"},
 
-  "name": "Karela United FC",
+      {"playerId": "player_gh1_011_12", "name": "Daniel Afadzwu", "number": 16, "position": "GK", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_011_13", "name": "Yussif Mohammed Nuru Deen", "number": 57, "position": "CB", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_011_14", "name": "Sharif Bashiru", "number": 47, "position": "CB", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_011_15", "name": "Hassan Abdul Rahman", "number": 5, "position": "LB", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_011_16", "name": "Hafiz Abdulai", "number": 18, "position": "CM", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_011_17", "name": "Godfred Abban", "number": 10, "position": "RM", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_011_18", "name": "Kassim Sule", "number": 27, "position": "LM", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_011_19", "name": "Fidaus Mohammed", "number": 20, "position": "CAM", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_011_20", "name": "Felix Mortu", "number": 19, "position": "ST", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_011_21", "name": "Solomon Aboagye", "number": 32, "position": "ST", "country": "GH", "status": "bench"},
 
-  "logo": "assets/logos/africa/ghana/Karela.png",
-
-  "stadium": {
-    "name": "Aliu Mahama Sports Stadium",
-    "capacity": 20000
+      {"playerId": "player_gh1_011_22", "name": "Richard Berko", "number": 34, "position": "LW", "country": "GH", "status": "reserve"},
+      {"playerId": "player_gh1_011_23", "name": "Gideon Boateng", "number": 26, "position": "ST", "country": "GH", "status": "reserve"},
+      {"playerId": "player_gh1_011_24", "name": "Abdul-Shakun Abubakari", "number": 21, "position": "LW", "country": "GH", "status": "reserve"},
+      {"playerId": "player_gh1_011_25", "name": "Mohammed Asigre Sulemana", "number": 23, "position": "CM", "country": "GH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
