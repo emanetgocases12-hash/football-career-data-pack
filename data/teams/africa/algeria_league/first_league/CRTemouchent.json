@@ -1,12 +1,58 @@
 {
-  "teamKey": "Temouc",
-
-  "name": "CR Témouchent",
-
-  "logo": "assets/logos/africa/algeria/Temouc.png",
-
-  "stadium": {
-    "name": "Stade Omar Oucief",
-    "capacity": 11500
+    "teamKey": "Temouc",
+  
+    "name": "CR Témouchent",
+  
+    "logo": "assets/logos/africa/algeria/Temouc.png",
+  
+    "manager": {
+      "name": "Moustapha Djallit",
+      "country": "DZ"
+    },
+  
+    "stadium": {
+      "name": "Stade Omar Oucief",
+      "capacity": 11500
+    },
+  
+    "players": [
+      {"playerId": "player_dz1_006_01", "name": "Abdelkader Morcely", "number": 1, "position": "GK", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_006_02", "name": "Abdelhak Belkacemi", "number": 2, "position": "LB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_006_03", "name": "Islam Chahrour", "number": 3, "position": "CB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_006_04", "name": "Safi Eddine Atmania", "number": 4, "position": "CB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_006_05", "name": "Lahcene Bouziane", "number": 5, "position": "CB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_006_06", "name": "Khathir Baaziz", "number": 6, "position": "CDM", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_006_07", "name": "Mohamed Seddik Senhadji", "number": 13, "position": "CDM", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_006_08", "name": "Ilyes Yaiche", "number": 18, "position": "RW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_006_09", "name": "Abderrahmane Berkoune", "number": 8, "position": "CAM", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_006_10", "name": "Billel Bensaha", "number": 7, "position": "LW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_006_11", "name": "Mohamed Zaalouk", "number": 9, "position": "ST", "country": "EG", "status": "starter"},
+  
+      {"playerId": "player_dz1_006_12", "name": "Mohamed Amine Saou", "number": 16, "position": "GK", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_006_13", "name": "Mohamed Ali Larbi", "number": 12, "position": "CB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_006_14", "name": "Mehdi Haidar Hedroug", "number": 20, "position": "CB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_006_15", "name": "Boubaker Baouche", "number": 22, "position": "LB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_006_16", "name": "Sid Ahmed Aissaoui", "number": 10, "position": "CM", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_006_17", "name": "Redouane Bounoua", "number": 11, "position": "CAM", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_006_18", "name": "Imed Saihi", "number": 14, "position": "CAM", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_006_19", "name": "Seif Safaga", "number": 17, "position": "CDM", "country": "EG", "status": "bench"},
+      {"playerId": "player_dz1_006_20", "name": "Abdelillah Barkat", "number": 15, "position": "ST", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_006_21", "name": "Mohamed Toumi Sief", "number": 21, "position": "ST", "country": "DZ", "status": "bench"},
+  
+      {"playerId": "player_dz1_006_22", "name": "El Kacem Khodja", "number": 23, "position": "CAM", "country": "DZ", "status": "reserve"},
+      {"playerId": "player_dz1_006_23", "name": "Boumediene Friefer", "number": 26, "position": "CAM", "country": "DZ", "status": "reserve"},
+      {"playerId": "player_dz1_006_24", "name": "Hamad Boutamina", "number": 29, "position": "CDM", "country": "DZ", "status": "reserve"},
+      {"playerId": "player_dz1_006_25", "name": "Mohamed Nazim Itim", "number": 27, "position": "LW", "country": "DZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 18
+      }
+    }
   }
-}
