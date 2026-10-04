@@ -1,12 +1,58 @@
 {
-  "teamKey": "Olimpi",
+    "teamKey": "Olimpi",
 
-  "name": "Club Olimpia",
+    "name": "Club Olimpia",
 
-  "logo": "assets/logos/south_america/paraguay/Olimpi.png",
+    "logo": "assets/logos/south_america/paraguay/Olimpi.png",
 
-  "stadium": {
-    "name": "Estadio Ueno Osvaldo Dominguez Dibb",
-    "capacity": 20000
+    "manager": {
+      "name": "Pablo Sánchez",
+      "country": "AR"
+    },
+
+    "stadium": {
+      "name": "Estadio Ueno Osvaldo Dominguez Dibb",
+      "capacity": 20000
+    },
+
+    "players": [
+      {"playerId": "player_py1_008_01", "name": "Gastón Olveira", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+      {"playerId": "player_py1_008_02", "name": "Lucas Morales", "number": 4, "position": "RB", "country": "UY", "status": "starter"},
+      {"playerId": "player_py1_008_03", "name": "Mateo Gamarra", "number": 15, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_008_04", "name": "Gustavo Vargas", "number": 14, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_008_05", "name": "Alan Rodríguez", "number": 30, "position": "LB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_008_06", "name": "Richard Ortiz", "number": 6, "position": "CDM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_008_07", "name": "Richard Sánchez", "number": 26, "position": "CM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_008_08", "name": "Alex Franco", "number": 8, "position": "CAM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_008_09", "name": "Iván Leguizamón", "number": 11, "position": "RW", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_008_10", "name": "Hugo Fernández", "number": 10, "position": "LW", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_008_11", "name": "Carlos Ferreira", "number": 9, "position": "ST", "country": "PY", "status": "starter"},
+
+      {"playerId": "player_py1_008_12", "name": "Sebastián Lentinelly", "number": 25, "position": "GK", "country": "UY", "status": "bench"},
+      {"playerId": "player_py1_008_13", "name": "Juan Vera", "number": 22, "position": "CB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_008_14", "name": "Bryan Bentaberry", "number": 2, "position": "CB", "country": "UY", "status": "bench"},
+      {"playerId": "player_py1_008_15", "name": "Aníbal Chalá", "number": 16, "position": "LB", "country": "EC", "status": "bench"},
+      {"playerId": "player_py1_008_16", "name": "César Olmedo", "number": 21, "position": "RB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_008_17", "name": "Juan Fernando Alfaro", "number": 5, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_py1_008_18", "name": "Sebastián Quintana", "number": 18, "position": "CM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_008_19", "name": "Derlis González", "number": 7, "position": "RW", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_008_20", "name": "Erik López", "number": 19, "position": "ST", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_008_21", "name": "Darío Benedetto", "number": 27, "position": "ST", "country": "AR", "status": "bench"},
+
+      {"playerId": "player_py1_008_22", "name": "Lucas Verza", "number": 13, "position": "GK", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_008_23", "name": "Raúl Cáceres", "number": 23, "position": "RB", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_008_24", "name": "Rodney Redes", "number": 17, "position": "LW", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_008_25", "name": "Alejandro Silva", "number": 20, "position": "CAM", "country": "UY", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 11
+      }
+    }
   }
-}
