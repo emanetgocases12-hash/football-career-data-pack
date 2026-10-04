@@ -1,12 +1,58 @@
-{
-  "teamKey": "UCVFC",
-
-  "name": "Universidad Central de Venezuela",
-
-  "logo": "assets/logos/south_america/venezuela/UCVFC.png",
-   
-  "stadium": {
-    "name": "Estadio Olímpico de la Ciudad Universitaria",
-    "capacity": 24900
+ {
+    "teamKey": "UCVFC",
+  
+    "name": "Universidad Central de Venezuela",
+  
+    "logo": "assets/logos/south_america/venezuela/UCVFC.png",
+  
+    "manager": {
+      "name": "Luis De Oliveira",
+      "country": "VE"
+    },
+  
+    "stadium": {
+      "name": "Estadio Olímpico de la Ciudad Universitaria",
+      "capacity": 24900
+    },
+  
+    "players": [
+      {"playerId": "player_ve1_012_01", "name": "Rafael Romo", "number": 22, "position": "GK", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_012_02", "name": "Kendrys Silva", "number": 2, "position": "RB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_012_03", "name": "Edwin Peraza", "number": 13, "position": "CB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_012_04", "name": "Gonzalo Mottes", "number": 6, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ve1_012_05", "name": "Yohan Cumana", "number": 24, "position": "LB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_012_06", "name": "Francisco Solé", "number": 5, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ve1_012_07", "name": "Alexander González", "number": 30, "position": "CM", "country": "PA", "status": "starter"},
+      {"playerId": "player_ve1_012_08", "name": "Edwin Mosquera", "number": 7, "position": "RW", "country": "CO", "status": "starter"},
+      {"playerId": "player_ve1_012_09", "name": "Daniel De Sousa", "number": 16, "position": "CAM", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_012_10", "name": "Williams Lugo", "number": 11, "position": "LW", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_012_11", "name": "Juan Camilo Zapata", "number": 8, "position": "ST", "country": "CO", "status": "starter"},
+  
+      {"playerId": "player_ve1_012_12", "name": "Giancarlo Schiavone", "number": 1, "position": "GK", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_012_13", "name": "Steven Pabón", "number": 3, "position": "CB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_012_14", "name": "Daniel Carrillo", "number": 27, "position": "LB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_012_15", "name": "Maicol Ruiz", "number": 28, "position": "CM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_012_16", "name": "Vicente Rodríguez", "number": 21, "position": "CM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_012_17", "name": "Samuel Sosa", "number": 10, "position": "RW", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_012_18", "name": "Juan Alegría", "number": 9, "position": "ST", "country": "CO", "status": "bench"},
+      {"playerId": "player_ve1_012_19", "name": "Junior Araujo", "number": 42, "position": "CAM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_012_20", "name": "Christian Cobeña", "number": 37, "position": "LB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_012_21", "name": "Aiderson Salazar", "number": 15, "position": "CM", "country": "VE", "status": "bench"},
+  
+      {"playerId": "player_ve1_012_22", "name": "Williams Velásquez", "number": 4, "position": "CB", "country": "VE", "status": "reserve"},
+      {"playerId": "player_ve1_012_23", "name": "Sebastián Hernández", "number": 25, "position": "CB", "country": "VE", "status": "reserve"},
+      {"playerId": "player_ve1_012_24", "name": "Alexander Granko", "number": 47, "position": "RW", "country": "VE", "status": "reserve"},
+      {"playerId": "player_ve1_012_25", "name": "Cristhian Andrade", "number": 36, "position": "ST", "country": "VE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 8,
+        "freeKick": 16,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
