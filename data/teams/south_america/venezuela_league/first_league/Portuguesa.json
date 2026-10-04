@@ -1,12 +1,58 @@
 {
-  "teamKey": "Portug",
-
-  "name": "Portuguesa FC",
-
-  "logo": "assets/logos/south_america/venezuela/Portug.png",
-
-  "stadium": {
-    "name": "Estadio General José Antonio Páez",
-    "capacity": 14100
+    "teamKey": "Portug",
+  
+    "name": "Portuguesa FC",
+  
+    "logo": "assets/logos/south_america/venezuela/Portug.png",
+  
+    "manager": {
+      "name": "Leonardo González",
+      "country": "VE"
+    },
+  
+    "stadium": {
+      "name": "Estadio General José Antonio Páez",
+      "capacity": 14100
+    },
+  
+    "players": [
+      {"playerId": "player_ve1_008_01", "name": "Samuel Rodríguez", "number": 1, "position": "GK", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_008_02", "name": "Keiver Zúñiga", "number": 17, "position": "RB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_008_03", "name": "Germán Aguirre", "number": 3, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ve1_008_04", "name": "Moisés Acuña", "number": 33, "position": "CB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_008_05", "name": "Guillermo Benítez", "number": 2, "position": "LB", "country": "PA", "status": "starter"},
+      {"playerId": "player_ve1_008_06", "name": "Ricardo Toussaint", "number": 8, "position": "CDM", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_008_07", "name": "Lautaro Lovazzano", "number": 24, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ve1_008_08", "name": "Víctor Navas", "number": 13, "position": "RW", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_008_09", "name": "Heber García", "number": 14, "position": "CAM", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_008_10", "name": "Wilfredo Peña", "number": 29, "position": "LW", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_008_11", "name": "Rubén Rojas", "number": 7, "position": "ST", "country": "VE", "status": "starter"},
+  
+      {"playerId": "player_ve1_008_12", "name": "Juan Reyes", "number": 22, "position": "GK", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_008_13", "name": "Luis Quero", "number": 27, "position": "CB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_008_14", "name": "Néstor Trejo", "number": 4, "position": "CB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_008_15", "name": "César Urpín", "number": 66, "position": "RB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_008_16", "name": "Christopher Montaña", "number": 18, "position": "CDM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_008_17", "name": "Ovidio López", "number": 19, "position": "LW", "country": "PA", "status": "bench"},
+      {"playerId": "player_ve1_008_18", "name": "José Soto", "number": 5, "position": "CDM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_008_19", "name": "Ridenson Morillo", "number": 70, "position": "CM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_008_20", "name": "Jonathan Cañete", "number": 9, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_ve1_008_21", "name": "Álbaro Polo", "number": 23, "position": "RW", "country": "VE", "status": "bench"},
+  
+      {"playerId": "player_ve1_008_22", "name": "Antony Trujillo", "number": 6, "position": "LB", "country": "VE", "status": "reserve"},
+      {"playerId": "player_ve1_008_23", "name": "Yonniel Bullones", "number": 25, "position": "CAM", "country": "VE", "status": "reserve"},
+      {"playerId": "player_ve1_008_24", "name": "Alejandro Yépez", "number": 26, "position": "CM", "country": "VE", "status": "reserve"},
+      {"playerId": "player_ve1_008_25", "name": "Joel Martínez", "number": 99, "position": "ST", "country": "UY", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 14,
+        "cornerLeft": 13,
+        "cornerRight": 29
+      }
+    }
   }
-}
