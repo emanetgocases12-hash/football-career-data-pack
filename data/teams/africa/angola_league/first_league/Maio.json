@@ -1,12 +1,52 @@
 {
-  "teamKey": "Maio",
-
-  "name": "Estrela 1º de Maio",
-
-  "logo": "assets/logos/africa/angola/Maio.png",
-
-  "stadium": {
-    "name": "Estádio Municipal Edelfride Palhares da Costa",
-    "capacity": 8000
+    "teamKey": "Maio",
+    "name": "Estrela 1º de Maio",
+    "logo": "assets/logos/africa/angola/Maio.png",
+    "manager": {
+      "name": "Águas da Silva",
+      "country": "AO"
+    },
+    "stadium": {
+      "name": "Estádio Municipal Edelfride Palhares da Costa",
+      "capacity": 8000
+    },
+    "players": [
+      {"playerId": "player_ao1_011_01", "name": "Super", "number": 1, "position": "GK", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_011_02", "name": "Show Dey", "number": 2, "position": "RB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_011_03", "name": "Moisés Domingos", "number": 5, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_011_04", "name": "Issama", "number": 15, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_011_05", "name": "Ngala", "number": 33, "position": "LB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_011_06", "name": "Eliseu Bicho", "number": 6, "position": "CDM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_011_07", "name": "Deninho", "number": 14, "position": "CM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_011_08", "name": "Messito", "number": 34, "position": "CAM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_011_09", "name": "Márcio Luvambo", "number": 7, "position": "RW", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_011_10", "name": "Deco", "number": 9, "position": "ST", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_011_11", "name": "Luís Profí", "number": 19, "position": "LW", "country": "AO", "status": "starter"},
+  
+      {"playerId": "player_ao1_011_12", "name": "Kanhi", "number": 56, "position": "GK", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_011_13", "name": "Damimi", "number": 3, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_011_14", "name": "Dalton", "number": 4, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_011_15", "name": "Muíla Congolo", "number": 16, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_011_16", "name": "Geúda", "number": 18, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_011_17", "name": "Tchutchu", "number": 22, "position": "CAM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_011_18", "name": "D'Ávila Messi", "number": 10, "position": "RW", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_011_19", "name": "Rabi Malebani", "number": 11, "position": "ST", "country": "CI", "status": "bench"},
+      {"playerId": "player_ao1_011_20", "name": "Nixon Guylherme", "number": 17, "position": "LW", "country": "BR", "status": "bench"},
+      {"playerId": "player_ao1_011_21", "name": "Maninho", "number": 29, "position": "ST", "country": "AO", "status": "bench"},
+  
+      {"playerId": "player_ao1_011_22", "name": "Michel", "number": 12, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_ao1_011_23", "name": "Marquinhos", "number": 20, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_ao1_011_24", "name": "Fernando Loy", "number": 23, "position": "RW", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_011_25", "name": "Pedro Malamba", "number": 8, "position": "CM", "country": "AO", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 14,
+        "cornerLeft": 34,
+        "cornerRight": 34
+      }
+    }
   }
-}
