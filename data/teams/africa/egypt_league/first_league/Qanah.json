@@ -1,12 +1,58 @@
 {
-  "teamKey": "Qanah",
+    "teamKey": "Qanah",
 
-  "name": "El Qanah FC",
+    "name": "El Qanah FC",
 
-  "logo": "assets/logos/africa/egypt/Qanah.png",
+    "logo": "assets/logos/africa/egypt/Qanah.png",
 
-  "stadium": {
-    "name": "Suez Canal Authority Stadium",
-    "capacity": 22000
+    "manager": {
+      "name": "Abdel Naser Mohamed",
+      "country": "EG"
+    },
+
+    "stadium": {
+      "name": "Suez Canal Authority Stadium",
+      "capacity": 22000
+    },
+
+    "players": [
+      {"playerId": "player_eg1_016_01", "name": "Mohamed Shaaban Mahmoud", "number": 16, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_016_02", "name": "Momen Mahdy", "number": 2, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_016_03", "name": "Ossama Fathy", "number": 30, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_016_04", "name": "Ibrahim Samy", "number": 5, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_016_05", "name": "Islam Halima", "number": 21, "position": "LB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_016_06", "name": "Hafiz Ibrahim", "number": 20, "position": "CDM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_016_07", "name": "Mahmoud Behiry", "number": 8, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_016_08", "name": "Mawuli Wayo", "number": 18, "position": "RW", "country": "GH", "status": "starter"},
+      {"playerId": "player_eg1_016_09", "name": "Mahmoud Hany", "number": 10, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_016_10", "name": "Mostafa Hamada Abdel Kader", "number": 25, "position": "LW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_016_11", "name": "Hazem Abdel Satar Abou Sena", "number": 9, "position": "ST", "country": "EG", "status": "starter"},
+
+      {"playerId": "player_eg1_016_12", "name": "Mostafa Mahmoud Mohamed", "number": 1, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_016_13", "name": "Mohab Samy", "number": 15, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_016_14", "name": "Mohamed Diab", "number": 24, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_016_15", "name": "Mohamed Hany Hozian", "number": 13, "position": "RB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_016_16", "name": "Mohab Ali", "number": 3, "position": "LB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_016_17", "name": "Mohamed Sadek", "number": 33, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_016_18", "name": "Momen Rady", "number": 6, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_016_19", "name": "Mohamed Helal", "number": 66, "position": "CAM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_016_20", "name": "Mohamed Hamdy Zaki", "number": 11, "position": "ST", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_016_21", "name": "Hossam Abou El Azm", "number": 7, "position": "RW", "country": "EG", "status": "bench"},
+
+      {"playerId": "player_eg1_016_22", "name": "Ahmed Mohamed Soliman", "number": 77, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_016_23", "name": "Ahmed Ali Amer", "number": 27, "position": "CM", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_016_24", "name": "Mohamed Hassan Hashem", "number": 22, "position": "ST", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_016_25", "name": "Rudolf Nana Mensah", "number": 17, "position": "LW", "country": "GH", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+          "penalty": 9,
+          "freeKick": 10,
+          "cornerLeft": 18,
+          "cornerRight": 25
+        }
+      }
   }
-}
