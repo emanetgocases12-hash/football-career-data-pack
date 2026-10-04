@@ -1,12 +1,58 @@
-{
-  "teamKey": "Cl Ncnl",
-
-  "name": "Club Nacional",
-
-  "logo": "assets/logos/south_america/uruguay/CLNcnl.png",
-
-  "stadium": {
-    "name": "Gran Parque Central",
-    "capacity": 37000
+ {
+    "teamKey": "Cl Ncnl",
+  
+    "name": "Club Nacional",
+  
+    "logo": "assets/logos/south_america/uruguay/CLNcnl.png",
+  
+    "manager": {
+      "name": "Daniel Carreño",
+      "country": "UY"
+    },
+  
+    "stadium": {
+      "name": "Gran Parque Central",
+      "capacity": 37000
+    },
+  
+    "players": [
+      {"playerId": "player_uy1_006_01", "name": "Luis Mejía", "number": 1, "position": "GK", "country": "PA", "status": "starter"},
+      {"playerId": "player_uy1_006_02", "name": "Juan Pintado", "number": 5, "position": "RB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_006_03", "name": "Agustín Rogel", "number": 2, "position": "CB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_006_04", "name": "Sebastián Coates", "number": 4, "position": "CB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_006_05", "name": "Camilo Cándido", "number": 21, "position": "LB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_006_06", "name": "Bruno Zuculini", "number": 36, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_uy1_006_07", "name": "Luciano Boggio", "number": 6, "position": "CM", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_006_08", "name": "Tomás Verón Lupi", "number": 27, "position": "RW", "country": "AR", "status": "starter"},
+      {"playerId": "player_uy1_006_09", "name": "Baltasar Barcia", "number": 30, "position": "CAM", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_006_10", "name": "Juan Cruz de los Santos", "number": 19, "position": "LW", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_006_11", "name": "Maxi Gómez", "number": 9, "position": "ST", "country": "UY", "status": "starter"},
+  
+      {"playerId": "player_uy1_006_12", "name": "Ignacio Suárez", "number": 25, "position": "GK", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_006_13", "name": "Paolo Calione", "number": 15, "position": "CB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_006_14", "name": "Tomás Viera", "number": 32, "position": "CB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_006_15", "name": "Federico Bais", "number": 34, "position": "LB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_006_16", "name": "Emiliano Ancheta", "number": 13, "position": "RB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_006_17", "name": "Mauricio Vera", "number": 8, "position": "CDM", "country": "AR", "status": "bench"},
+      {"playerId": "player_uy1_006_18", "name": "Juan Ignacio García", "number": 56, "position": "CDM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_006_19", "name": "Agustín Dos Santos", "number": 10, "position": "CM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_006_20", "name": "Lucas Rodríguez", "number": 23, "position": "CM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_006_21", "name": "Rodrigo Martínez", "number": 31, "position": "LW", "country": "UY", "status": "bench"},
+  
+      {"playerId": "player_uy1_006_22", "name": "Bruno Arady", "number": 26, "position": "LW", "country": "UY", "status": "reserve"},
+      {"playerId": "player_uy1_006_23", "name": "Maximiliano Silvera", "number": 11, "position": "ST", "country": "UY", "status": "reserve"},
+      {"playerId": "player_uy1_006_24", "name": "Tiziano Correa", "number": 29, "position": "ST", "country": "UY", "status": "reserve"},
+      {"playerId": "player_uy1_006_25", "name": "Gonzalo Carneiro", "number": 20, "position": "ST", "country": "UY", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 27,
+        "cornerLeft": 27,
+        "cornerRight": 19
+      }
+    }
   }
-}
