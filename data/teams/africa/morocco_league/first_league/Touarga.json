@@ -1,12 +1,41 @@
-{
-  "teamKey": "Touarg",
-
-  "name": "Union Touarga",
-
-  "logo": "assets/logos/africa/morocco/Touarg.png",
-
-  "stadium": {
-    "name": "Stade Al Medina",
-    "capacity": 18000
+ {
+    "teamKey": "Touarg",
+    "name": "Union Touarga",
+    "logo": "assets/logos/africa/morocco/Touarg.png",
+    "manager": {"name": "Guglielmo Arena", "country": "IT"},
+    "stadium": {"name": "Stade Al Medina", "capacity": 18000},
+    "players": [
+      {"playerId": "player_ma1_014_01", "name": "Mohamed Reda Asmama", "number": 1, "position": "GK", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_014_02", "name": "Youness Akharraz", "number": 2, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_014_03", "name": "Youssef Kajai", "number": 13, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_014_04", "name": "Mehdi Assahabi", "number": 25, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_014_05", "name": "Anas Nanah", "number": 3, "position": "LM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_014_06", "name": "Walid Rhailouf", "number": 31, "position": "RM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_014_07", "name": "Redouane Ait Lemkadem", "number": 21, "position": "CM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_014_08", "name": "Adam Chakir", "number": 32, "position": "CM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_014_09", "name": "Mouad Dahak", "number": 22, "position": "RW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_014_10", "name": "Mohammed Fouzair", "number": 29, "position": "LW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_014_11", "name": "Nacer Moustaghfir", "number": 9, "position": "ST", "country": "MA", "status": "starter"},
+  
+      {"playerId": "player_ma1_014_12", "name": "Houssam Bouelainine", "number": 16, "position": "GK", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_014_13", "name": "Imran Douieb", "number": 26, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_014_14", "name": "Omar Arjoune", "number": 18, "position": "CDM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_014_15", "name": "Danny Tavares", "number": 6, "position": "CM", "country": "PT", "status": "bench"},
+      {"playerId": "player_ma1_014_16", "name": "Samuel Tebily", "number": 19, "position": "RW", "country": "FR", "status": "bench"},
+      {"playerId": "player_ma1_014_17", "name": "Abdeljalil Chaynane", "number": 27, "position": "CAM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_014_18", "name": "Saad Lotfi", "number": 20, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_014_19", "name": "Ayoub Ajerrar", "number": 7, "position": "ST", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_014_20", "name": "Yassine Zraa", "number": 39, "position": "ST", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_014_21", "name": "Kamal Belarbi", "number": 37, "position": "CM", "country": "MA", "status": "bench"},
+  
+      {"playerId": "player_ma1_014_22", "name": "Walid Hasbi", "number": 12, "position": "GK", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_014_23", "name": "Khalid Kasbi", "number": 28, "position": "CB", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_014_24", "name": "Wassim Mellouk", "number": 35, "position": "CAM", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_014_25", "name": "Yassine Bammou", "number": 11, "position": "ST", "country": "MA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "3-4-3",
+      "captain": 29,
+      "setPieces": {"penalty": 9, "freeKick": 29, "cornerLeft": 22, "cornerRight": 29}
+    }
   }
-}
