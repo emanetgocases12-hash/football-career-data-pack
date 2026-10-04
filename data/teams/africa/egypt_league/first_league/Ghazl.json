@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ghazl",
+    "teamKey": "Ghazl",
 
-  "name": "Ghazl El Mahalla SC",
+    "name": "Ghazl El Mahalla SC",
 
-  "logo": "assets/logos/africa/egypt/Ghazl.png",
+    "logo": "assets/logos/africa/egypt/Ghazl.png",
 
-  "stadium": {
-    "name": "Ghazl El Mahalla Stadium",
-    "capacity": 14564
+    "manager": {
+      "name": "Ahmed Khatab",
+      "country": "EG"
+    },
+
+    "stadium": {
+      "name": "Ghazl El Mahalla Stadium",
+      "capacity": 14564
+    },
+
+    "players": [
+      {"playerId": "player_eg1_009_01", "name": "Amer Mohamed Amer", "number": 16, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_009_02", "name": "Yehia Zakaria", "number": 12, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_009_03", "name": "Ahmed El Ash", "number": 3, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_009_04", "name": "Ahmed Gamal", "number": 15, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_009_05", "name": "Mohamed Oufa", "number": 13, "position": "LB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_009_06", "name": "Mohamed Abdelsalam", "number": 8, "position": "CDM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_009_07", "name": "Abdelrahman Osama", "number": 17, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_009_08", "name": "Mohamed Ashraf", "number": 7, "position": "RW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_009_09", "name": "Mohamed Ekbad", "number": 11, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_009_10", "name": "Rashad El Arafawy", "number": 9, "position": "LW", "country": "TN", "status": "starter"},
+      {"playerId": "player_eg1_009_11", "name": "Abdo Yehia", "number": 63, "position": "ST", "country": "EG", "status": "starter"},
+
+      {"playerId": "player_eg1_009_12", "name": "Ahmed El Nafarawy", "number": 1, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_009_13", "name": "Bassem Walid", "number": 10, "position": "RB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_009_14", "name": "Mohamed El Moghazi", "number": 37, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_009_15", "name": "Abdelrahman Rashdan", "number": 66, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_009_16", "name": "Ahmed Shousha", "number": 4, "position": "CDM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_009_17", "name": "Abdel Fattah Sheta", "number": 5, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_009_18", "name": "Youssef Hassan", "number": 6, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_009_19", "name": "Armoosha", "number": 19, "position": "RW", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_009_20", "name": "Mohamed Toure", "number": 20, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_eg1_009_21", "name": "F. Nechat Djabri", "number": 23, "position": "CAM", "country": "DZ", "status": "bench"},
+
+      {"playerId": "player_eg1_009_22", "name": "Mohamed Koko", "number": 25, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_009_23", "name": "Abdelrahman Emad", "number": 14, "position": "LW", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_009_24", "name": "Ahmed Gomaa", "number": 30, "position": "ST", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_009_25", "name": "Khaled Saidi", "number": 41, "position": "ST", "country": "TN", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+          "penalty": 63,
+          "freeKick": 11,
+          "cornerLeft": 7,
+          "cornerRight": 9
+        }
+      }
   }
-}
