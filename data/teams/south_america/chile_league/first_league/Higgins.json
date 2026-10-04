@@ -1,12 +1,58 @@
 {
-  "teamKey": "O'Hggns",
-
-  "name": "CD O'Higgins",
-
-  "logo": "assets/logos/south_america/chili/OHggns.png",
-
-  "stadium": {
-    "name": "El Teniente",
-    "capacity": 14450
+    "teamKey": "O'Hggns",
+  
+    "name": "CD O'Higgins",
+  
+    "logo": "assets/logos/south_america/chili/OHggns.png",
+  
+    "manager": {
+      "name": "Lucas Bovaglio",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "El Teniente",
+      "capacity": 14450
+    },
+  
+    "players": [
+      {"playerId": "player_cl1_011_01", "name": "Jorge Peña", "number": 1, "position": "GK", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_011_02", "name": "Cristian Morales", "number": 2, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_011_03", "name": "Felipe Faúndez", "number": 3, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_011_04", "name": "Luis Pavez", "number": 6, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_011_05", "name": "Leandro Díaz", "number": 20, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_011_06", "name": "Felipe Ogaz", "number": 8, "position": "CDM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_011_07", "name": "Bryan Rabello", "number": 10, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_011_08", "name": "Juan Leiva", "number": 11, "position": "CAM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_011_09", "name": "Arnaldo Castillo", "number": 9, "position": "RW", "country": "PY", "status": "starter"},
+      {"playerId": "player_cl1_011_10", "name": "Walter Bou", "number": 28, "position": "ST", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_011_11", "name": "Thiago Vecino", "number": 32, "position": "LW", "country": "UY", "status": "starter"},
+  
+      {"playerId": "player_cl1_011_12", "name": "Omar Carabalí", "number": 31, "position": "GK", "country": "EC", "status": "bench"},
+      {"playerId": "player_cl1_011_13", "name": "Nicolás Garrido", "number": 21, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_011_14", "name": "Alan Robledo", "number": 22, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_011_15", "name": "José Tomás Movillo", "number": 27, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_011_16", "name": "Benjamín Rojas", "number": 15, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_011_17", "name": "Joaquín Muñoz", "number": 13, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_011_18", "name": "Martín Maturana", "number": 14, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_011_19", "name": "Tomás Avilés", "number": 17, "position": "CAM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_011_20", "name": "Ignacio Schor", "number": 25, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_cl1_011_21", "name": "Bastián Yáñez", "number": 29, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl1_011_22", "name": "Diego Carreño", "number": 23, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_011_23", "name": "Santiago Toloza", "number": 7, "position": "CM", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_011_24", "name": "Esteban Moreira", "number": 18, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_011_25", "name": "Rodrigo Godoy", "number": 26, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 28,
+        "freeKick": 11,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
