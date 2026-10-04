@@ -1,12 +1,46 @@
-{
-  "teamKey": "Sofapa",
-
-  "name": "Sofapaka FC",
-
-  "logo": "assets/logos/africa/kenya/Sofapa.png",
-
-  "stadium": {
-    "name": "Kasarani Annex",
-    "capacity":5000
+ {
+    "teamKey": "Sofapa",
+    "name": "Sofapaka FC",
+    "logo": "assets/logos/africa/kenya/Sofapa.png",
+    "manager": {"name": "Sam Timbe", "country": "UG"},
+    "stadium": {"name": "Kasarani Annex", "capacity": 5000},
+    "players": [
+      {"playerId": "player_ke1_016_01", "name": "Edward Olak Okwa", "number": 99, "position": "GK", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_016_02", "name": "Victor Okello Odhiambo", "number": 3, "position": "RB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_016_03", "name": "Roy Okal Otieno", "number": 10, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_016_04", "name": "Francis Ghartey", "number": 27, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_ke1_016_05", "name": "Emmanuel Otieno Obala", "number": 37, "position": "LB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_016_06", "name": "Iddrisu Shaibu", "number": 6, "position": "CDM", "country": "GH", "status": "starter"},
+      {"playerId": "player_ke1_016_07", "name": "Duncan Otieno", "number": 20, "position": "CM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_016_08", "name": "Moussa Malik Ntamba", "number": 8, "position": "CAM", "country": "CD", "status": "starter"},
+      {"playerId": "player_ke1_016_09", "name": "Clifftone Ayisi Miheso", "number": 7, "position": "RW", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_016_10", "name": "Stanley Lugalia Atsangu", "number": 9, "position": "ST", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_016_11", "name": "Eugene Barasa Kinyau", "number": 30, "position": "LW", "country": "KE", "status": "starter"},
+  
+      {"playerId": "player_ke1_016_12", "name": "Brian Wanyonyi Marani", "number": 32, "position": "GK", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_016_13", "name": "Michael Aloo Otieno", "number": 24, "position": "CB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_016_14", "name": "Mophat Kovelo", "number": 5, "position": "LB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_016_15", "name": "David Nshimirimana", "number": 25, "position": "RB", "country": "BI", "status": "bench"},
+      {"playerId": "player_ke1_016_16", "name": "Donato Okello", "number": 14, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_016_17", "name": "Japheth Mzungu Mamadi", "number": 71, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_016_18", "name": "Yassin Umar Rajab", "number": 16, "position": "CDM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_016_19", "name": "Derrick Khaemba", "number": 11, "position": "RW", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_016_20", "name": "Tyron Kariuki", "number": 18, "position": "ST", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_016_21", "name": "Andrew Waliaulah", "number": 22, "position": "LW", "country": "KE", "status": "bench"},
+  
+      {"playerId": "player_ke1_016_22", "name": "Morgan Sitawa", "number": 35, "position": "GK", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_016_23", "name": "Charles Junior Auma", "number": 44, "position": "CM", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_016_24", "name": "Satala Djafet Djafari Efeneje", "number": 19, "position": "ST", "country": "CD", "status": "reserve"},
+      {"playerId": "player_ke1_016_25", "name": "Bernard Bramuel Simiyu", "number": 13, "position": "CB", "country": "KE", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 30
+      }
+    }
   }
-}
