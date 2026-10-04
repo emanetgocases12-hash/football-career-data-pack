@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/south_america/peru/JuanPa.png",
 
+  "manager": {
+    "name": "Marcelo Zuleta",
+    "country": "AR"
+  },
+
   "stadium": {
     "name": "Complejo Deportivo Juan Pablo II",
     "capacity": 3000
+  },
+
+  "players": [
+    {"playerId": "player_pe1_009_01", "name": "Ismael Quispe", "number": 1, "position": "GK", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_009_02", "name": "Hugo Ancajima", "number": 2, "position": "RB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_009_03", "name": "Fabio Agurto", "number": 3, "position": "CB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_009_04", "name": "Matías Almirón", "number": 4, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_pe1_009_05", "name": "Jorge Toledo", "number": 5, "position": "LB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_009_06", "name": "Christian Flores", "number": 6, "position": "CDM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_009_07", "name": "Jack Carhuallanqui", "number": 7, "position": "CM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_009_08", "name": "Diego Flores", "number": 8, "position": "CAM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_009_09", "name": "Pablo Miguez", "number": 9, "position": "RW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_009_10", "name": "Josué Torres", "number": 10, "position": "LW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_009_11", "name": "Adán Ayarza", "number": 11, "position": "ST", "country": "PA", "status": "starter"},
+
+    {"playerId": "player_pe1_009_12", "name": "Jorge Stucchi", "number": 12, "position": "GK", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_009_13", "name": "Jose Sánchez", "number": 13, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_009_14", "name": "Josué Cánova", "number": 14, "position": "RB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_009_15", "name": "Piero Antón", "number": 15, "position": "LB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_009_16", "name": "Paolo Reyna", "number": 16, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_009_17", "name": "Diego Alaniz", "number": 17, "position": "CM", "country": "UY", "status": "bench"},
+    {"playerId": "player_pe1_009_18", "name": "Álvaro Rojas", "number": 18, "position": "CAM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_009_19", "name": "Erinson Ramírez", "number": 19, "position": "RM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_009_20", "name": "Juan Goicochea", "number": 20, "position": "LW", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_009_21", "name": "Nicolás Leguizamón", "number": 21, "position": "RW", "country": "AR", "status": "bench"},
+
+    {"playerId": "player_pe1_009_22", "name": "Janio Pósito", "number": 22, "position": "ST", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_009_23", "name": "Héctor Bazán", "number": 23, "position": "LW", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_009_24", "name": "Mateo Rodríguez", "number": 24, "position": "RW", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_009_25", "name": "Vaughn Chase", "number": 25, "position": "ST", "country": "PE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 7,
+      "cornerLeft": 8,
+      "cornerRight": 9
+    }
   }
 }
