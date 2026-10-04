@@ -1,12 +1,35 @@
 {
   "teamKey": "Millon",
-
   "name": "Millonarios FC",
-
   "logo": "assets/logos/south_america/colombia/Millon.png",
-
-  "stadium": {
-    "name": "Estadio Nemesio Camacho",
-    "capacity": 36343
-  }
+  "manager": {"name": "Alberto Gamero", "country": "CO"},
+  "stadium": {"name": "Estadio Nemesio Camacho", "capacity": 36343},
+  "players": [
+    {"playerId": "player_co1_018_01", "name": "Javier Burrai", "number": 1, "position": "GK", "country": "EC", "status": "starter"},
+    {"playerId": "player_co1_018_02", "name": "Carlos Sarabia", "number": 2, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_018_03", "name": "Samuel Martin", "number": 3, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_018_04", "name": "Jaine Barreiro", "number": 4, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_018_05", "name": "Sergio Mosquera", "number": 6, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_018_06", "name": "David Silva", "number": 14, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_018_07", "name": "Francisco Chaverra", "number": 13, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_018_08", "name": "Yeiner Romero", "number": 15, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_018_09", "name": "Rodrigo Urena", "number": 18, "position": "RW", "country": "CL", "status": "starter"},
+    {"playerId": "player_co1_018_10", "name": "Mateo Garcia", "number": 19, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_018_11", "name": "Radamel Falcao", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_018_12", "name": "James Aguirre", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_018_13", "name": "Jorge Arias", "number": 17, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_018_14", "name": "Danovis Banguero", "number": 20, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_018_15", "name": "Sebastian Valencia", "number": 22, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_018_16", "name": "Andres Llinas", "number": 26, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_018_17", "name": "Darwin Quintero", "number": 25, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_018_18", "name": "Stiven Vega", "number": 28, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_018_19", "name": "Leonai", "number": 55, "position": "RW", "country": "BR", "status": "bench"},
+    {"playerId": "player_co1_018_20", "name": "Andrey Estupinan", "number": 11, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_018_21", "name": "Leonardo Castro", "number": 23, "position": "LW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_018_22", "name": "Juan Cuadrado", "number": 7, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_018_23", "name": "Julian Angulo", "number": 24, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_018_24", "name": "Rodrigo Contreras", "number": 27, "position": "RW", "country": "AR", "status": "reserve"},
+    {"playerId": "player_co1_018_25", "name": "Santiago Giordana", "number": 32, "position": "LW", "country": "AR", "status": "reserve"}
+  ],
+  "tactics": {"formation": "4-2-3-1", "captain": 14, "setPieces": {"penalty": 9, "freeKick": 15, "cornerLeft": 18, "cornerRight": 19}}
 }
