@@ -1,12 +1,35 @@
 {
   "teamKey": "Boyaca",
-
   "name": "Club Deportivo Atlético Huila",
-
   "logo": "assets/logos/south_america/colombia/Boyaca.png",
-
-  "stadium": {
-    "name": "Estadio Guillermo Plazas Alcid",
-    "capacity": 25000
-  }
+  "manager": {"name": "Diego Corredor", "country": "CO"},
+  "stadium": {"name": "Estadio Guillermo Plazas Alcid", "capacity": 25000},
+  "players": [
+    {"playerId": "player_co2_008_01", "name": "Jeison Mendez", "number": 22, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_008_02", "name": "Danny Ferrer", "number": 3, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_008_03", "name": "Jesus Rodriguez", "number": 21, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_008_04", "name": "Alejandro Mejia", "number": 2, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_008_05", "name": "Jhon Lerma", "number": 4, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_008_06", "name": "Sebastian Hernandez", "number": 7, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_008_07", "name": "Yeiner Vargas", "number": 19, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_008_08", "name": "Maicol Sequeda", "number": 34, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_008_09", "name": "Jose Chaux", "number": 6, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_008_10", "name": "Sebastian Perdomo", "number": 8, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_008_11", "name": "Johan Montes", "number": 16, "position": "ST", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_008_12", "name": "Jose Escobar", "number": 1, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_008_13", "name": "Julian Rodriguez", "number": 5, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_008_14", "name": "Jose David Ampudia", "number": 13, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_008_15", "name": "Yuber Mosquera", "number": 15, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_008_16", "name": "Heider De Arco", "number": 24, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_008_17", "name": "Tomas Diaz", "number": 10, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_008_18", "name": "David Medina", "number": 14, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_008_19", "name": "Didier Delgado", "number": 11, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_008_20", "name": "Breiner Moya", "number": 20, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_008_21", "name": "Juan Romero", "number": 27, "position": "LW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_008_22", "name": "Fabian Mena", "number": 18, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_008_23", "name": "Alan Garcia", "number": 31, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_008_24", "name": "Jader Manyoma", "number": 17, "position": "RW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_008_25", "name": "Lucas Guillermo Farias", "number": 9, "position": "LW", "country": "AR", "status": "reserve"}
+  ],
+  "tactics": {"formation": "4-2-3-1", "captain": 22, "setPieces": {"penalty": 16, "freeKick": 34, "cornerLeft": 6, "cornerRight": 8}}
 }
