@@ -1,12 +1,58 @@
 {
-  "teamKey": "Alexan",
+    "teamKey": "Alexan",
 
-  "name": "Al Ittihad Alexandria",
+    "name": "Al Ittihad Alexandria",
 
-  "logo": "assets/logos/africa/egypt/Alexan.png",
+    "logo": "assets/logos/africa/egypt/Alexan.png",
 
-  "stadium": {
-    "name": "Alexandria Stadium",
-    "capacity": 19676
+    "manager": {
+      "name": "Hamza El Gamal",
+      "country": "EG"
+    },
+
+    "stadium": {
+      "name": "Alexandria Stadium",
+      "capacity": 19676
+    },
+
+    "players": [
+      {"playerId": "player_eg1_002_01", "name": "Sobhy Soliman", "number": 1, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_002_02", "name": "Momen Awad", "number": 24, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_002_03", "name": "Mostafa Ibrahim", "number": 5, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_002_04", "name": "Pascal Phiri", "number": 35, "position": "CB", "country": "ZM", "status": "starter"},
+      {"playerId": "player_eg1_002_05", "name": "Khaled Mosaad", "number": 30, "position": "LB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_002_06", "name": "Kenneth Semakula", "number": 44, "position": "CDM", "country": "UG", "status": "starter"},
+      {"playerId": "player_eg1_002_07", "name": "Mohamed Toni", "number": 8, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_002_08", "name": "Saviour Isaac", "number": 23, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_eg1_002_09", "name": "Joseph Arumala", "number": 80, "position": "CAM", "country": "NG", "status": "starter"},
+      {"playerId": "player_eg1_002_10", "name": "Mido Mostafa", "number": 7, "position": "LW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_002_11", "name": "Hossam Hassan", "number": 10, "position": "ST", "country": "EG", "status": "starter"},
+
+      {"playerId": "player_eg1_002_12", "name": "Ali El Gabry", "number": 31, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_002_13", "name": "Islam Abdallah", "number": 4, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_002_14", "name": "Momen Sherif", "number": 12, "position": "LB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_002_15", "name": "Motaz Mohamed", "number": 22, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_002_16", "name": "Mazen Osama", "number": 3, "position": "RB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_002_17", "name": "Mohamed Fakhri", "number": 14, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_002_18", "name": "Mahmoud Emad", "number": 25, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_002_19", "name": "Youssry Wahid", "number": 11, "position": "LW", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_002_20", "name": "John Ebuka", "number": 18, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_eg1_002_21", "name": "Nour Alaa", "number": 19, "position": "RW", "country": "EG", "status": "bench"},
+
+      {"playerId": "player_eg1_002_22", "name": "Ahmed El Arabi", "number": 16, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_002_23", "name": "Ahmed Atef", "number": 37, "position": "LW", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_002_24", "name": "Mahmoud Dunga", "number": 6, "position": "CDM", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_002_25", "name": "Ahmed Hamdi", "number": 27, "position": "CAM", "country": "EG", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+          "penalty": 10,
+          "freeKick": 8,
+          "cornerLeft": 23,
+          "cornerRight": 80
+        }
+      }
   }
-}
