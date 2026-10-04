@@ -1,12 +1,58 @@
 {
-  "teamKey": "S'Felip",
-
-  "name": "Unión San Felipe",
-
-  "logo": "assets/logos/south_america/chili/SFelip.png",
-
-  "stadium": {
-    "name": "Municipal Javier Muñoz Delgado",
-    "capacity": 10000
+    "teamKey": "S'Felip",
+  
+    "name": "Unión San Felipe",
+  
+    "logo": "assets/logos/south_america/chili/SFelip.png",
+  
+    "manager": {
+      "name": "Francisco Palladino",
+      "country": "UY"
+    },
+  
+    "stadium": {
+      "name": "Municipal Javier Muñoz Delgado",
+      "capacity": 10000
+    },
+  
+    "players": [
+      {"playerId": "player_cl2_011_01", "name": "Andrés Fernández", "number": 1, "position": "GK", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_011_02", "name": "Kevin Serrano", "number": 19, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_011_03", "name": "Matías Sandoval", "number": 2, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_011_04", "name": "Benjamín Molina", "number": 3, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_011_05", "name": "Ignacio Avilés", "number": 4, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_011_06", "name": "Sebastián Gallegos", "number": 8, "position": "CDM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_011_07", "name": "Matías Silva", "number": 10, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_011_08", "name": "Brayan Valdivia", "number": 14, "position": "CAM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_011_09", "name": "David Salazar", "number": 9, "position": "RW", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_011_10", "name": "Matías Donoso", "number": 11, "position": "ST", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_011_11", "name": "Bairon Monroy", "number": 16, "position": "LW", "country": "CL", "status": "starter"},
+  
+      {"playerId": "player_cl2_011_12", "name": "Leandro Cañete", "number": 12, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_011_13", "name": "Joaquín Aros", "number": 5, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_011_14", "name": "Nicolás Garrido", "number": 15, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_011_15", "name": "Felipe Salinas", "number": 17, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_011_16", "name": "Cristóbal Vergara", "number": 24, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_011_17", "name": "Felipe Barrientos", "number": 20, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_011_18", "name": "Franco Ortega", "number": 21, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_011_19", "name": "Ignacio Jara", "number": 7, "position": "CAM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_011_20", "name": "Cristian Duma", "number": 23, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_cl2_011_21", "name": "Gonzalo Jara", "number": 25, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl2_011_22", "name": "Máximo Pantoja", "number": 22, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_011_23", "name": "Álvaro Césped", "number": 18, "position": "CM", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_011_24", "name": "Franco Vega", "number": 27, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_011_25", "name": "Diego Bravo", "number": 29, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 14,
+        "cornerLeft": 10,
+        "cornerRight": 14
+      }
+    }
   }
-}
