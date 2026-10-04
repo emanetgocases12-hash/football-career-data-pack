@@ -1,12 +1,46 @@
 {
-  "teamKey": "Leopar",
-
-  "name": "AFC Leopards",
-
-  "logo": "assets/logos/africa/kenya/Leopar.png",
-
-  "stadium": {
-    "name": "Nyayo National Stadium",
-    "capacity": 30000
+    "teamKey": "Leopar",
+    "name": "AFC Leopards",
+    "logo": "assets/logos/africa/kenya/Leopar.png",
+    "manager": {"name": "Fred Ambani", "country": "KE"},
+    "stadium": {"name": "Nyayo National Stadium", "capacity": 30000},
+    "players": [
+      {"playerId": "player_ke1_009_01", "name": "Tom Thomas Ikara", "number": 1, "position": "GK", "country": "UG", "status": "starter"},
+      {"playerId": "player_ke1_009_02", "name": "Fredrick Alushula", "number": 3, "position": "RB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_009_03", "name": "Elias Mugane Muriuki", "number": 16, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_009_04", "name": "Robinson Akongo Musungu", "number": 5, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_009_05", "name": "Vincent Junior Mahiga", "number": 25, "position": "LB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_009_06", "name": "Taddeo Sheen Lwanga", "number": 4, "position": "CDM", "country": "UG", "status": "starter"},
+      {"playerId": "player_ke1_009_07", "name": "Kayci Odhiambo", "number": 12, "position": "CM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_009_08", "name": "Kelly Okonji Madada", "number": 88, "position": "CAM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_009_09", "name": "Erick Naaman Balecho", "number": 8, "position": "RW", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_009_10", "name": "Musa Ceesay Cisse", "number": 35, "position": "ST", "country": "GM", "status": "starter"},
+      {"playerId": "player_ke1_009_11", "name": "James Kinyanjui", "number": 26, "position": "LW", "country": "KE", "status": "starter"},
+  
+      {"playerId": "player_ke1_009_12", "name": "Issa Emuriah", "number": 31, "position": "GK", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_009_13", "name": "Onesmus Kevenluke Otiala", "number": 24, "position": "RB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_009_14", "name": "Randy Bakari Badi", "number": 6, "position": "CB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_009_15", "name": "Samwel Semo Mbaja", "number": 17, "position": "LB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_009_16", "name": "Musa Oundo", "number": 19, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_009_17", "name": "Boniface Kweyu Munyendo", "number": 18, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_009_18", "name": "Adama Kanteh", "number": 44, "position": "CAM", "country": "SL", "status": "bench"},
+      {"playerId": "player_ke1_009_19", "name": "Tyson Otieno", "number": 11, "position": "RW", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_009_20", "name": "Samuel Ssenyonjo", "number": 14, "position": "ST", "country": "UG", "status": "bench"},
+      {"playerId": "player_ke1_009_21", "name": "Andrew Wasswa", "number": 23, "position": "LW", "country": "UG", "status": "bench"},
+  
+      {"playerId": "player_ke1_009_22", "name": "Sebastianos Wekesa", "number": 30, "position": "GK", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_009_23", "name": "Brian Ojok Nyongesa", "number": 36, "position": "CB", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_009_24", "name": "Ronald Sichenje Bebeto", "number": 20, "position": "CDM", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_009_25", "name": "Maxwell Otieno Odongo", "number": 21, "position": "ST", "country": "KE", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 16,
+      "setPieces": {
+        "penalty": 35,
+        "freeKick": 88,
+        "cornerLeft": 8,
+        "cornerRight": 26
+      }
+    }
   }
-}
