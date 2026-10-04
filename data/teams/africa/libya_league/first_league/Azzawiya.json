@@ -1,12 +1,44 @@
 {
-  "teamKey": "Azzawi",
-
-  "name": "Olympic Azzawiya",
-
-  "logo": "assets/logos/africa/libya/Azzawi.png",
-
-  "stadium": {
-    "name": "Al Olympique Stadium",
-    "capacity": 14000
+    "teamKey": "Azzawi",
+    "name": "Olympic Azzawiya",
+    "logo": "assets/logos/africa/libya/Azzawi.png",
+    "manager": {"name": "Radhi Jaïdi", "country": "TN"},
+    "stadium": {"name": "Al Olympique Stadium", "capacity": 14000},
+    "players": [
+      {"playerId": "player_ly1_007_01", "name": "Hamza Ejbouda", "number": 1, "position": "GK", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_007_02", "name": "Abdulaziz Allisi", "number": 2, "position": "RB", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_007_03", "name": "Ahmed Al-Kaami", "number": 4, "position": "CB", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_007_04", "name": "Abdalla Sherif", "number": 5, "position": "CB", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_007_05", "name": "Mahmoud Akasha", "number": 3, "position": "LB", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_007_06", "name": "Mohamed Dellah Yaly", "number": 6, "position": "CDM", "country": "MR", "status": "starter"},
+      {"playerId": "player_ly1_007_07", "name": "Matarr Ceesay", "number": 8, "position": "CM", "country": "GM", "status": "starter"},
+      {"playerId": "player_ly1_007_08", "name": "Motassem Iskander", "number": 7, "position": "RW", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_007_09", "name": "Moataz Maarof", "number": 10, "position": "CAM", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_007_10", "name": "Omar Aribi", "number": 11, "position": "LW", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_007_11", "name": "Anaane Tidjani", "number": 9, "position": "ST", "country": "BJ", "status": "starter"},
+      {"playerId": "player_ly1_007_12", "name": "Mohammed Al-Treiki", "number": 12, "position": "GK", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_007_13", "name": "Mohammed Abdulkarim", "number": 13, "position": "CM", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_007_14", "name": "Shihab Al-Zeyani", "number": 14, "position": "CDM", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_007_15", "name": "Jaafar Ejbouda", "number": 17, "position": "RM", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_007_16", "name": "Yaqoub Al-Tatouni", "number": 19, "position": "LM", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_007_17", "name": "Mohammed Al-Jaafri", "number": 18, "position": "CAM", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_007_18", "name": "Anas Zahmoul", "number": 21, "position": "CDM", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_007_19", "name": "Hamza Al Mugsi", "number": 29, "position": "CM", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_007_20", "name": "Abdulrauf Al-Shoushan", "number": 20, "position": "CAM", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_007_21", "name": "Mohamed Journi", "number": 15, "position": "CM", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_007_22", "name": "Mohamed Ali Amri", "number": 28, "position": "ST", "country": "TN", "status": "reserve"},
+      {"playerId": "player_ly1_007_23", "name": "Issaka Abudu Diarra", "number": 37, "position": "LW", "country": "GH", "status": "reserve"},
+      {"playerId": "player_ly1_007_24", "name": "Abdulsalam Al Fitouri", "number": 27, "position": "RW", "country": "LY", "status": "reserve"},
+      {"playerId": "player_ly1_007_25", "name": "Elhadi Emara", "number": 39, "position": "ST", "country": "LY", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 10
+      }
+    }
   }
-}
