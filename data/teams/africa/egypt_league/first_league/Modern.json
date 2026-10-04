@@ -1,12 +1,58 @@
-{
-  "teamKey": "Modrn S",
+ {
+    "teamKey": "Modrn S",
 
-  "name": "Modern Sport FC",
+    "name": "Modern Sport FC",
 
-  "logo": "assets/logos/africa/egypt/ModrnS.png",
+    "logo": "assets/logos/africa/egypt/ModrnS.png",
 
-  "stadium": {
-    "name": "Cairo International Stadium",
-    "capacity": 75000
+    "manager": {
+      "name": "Mohamed Amine Benhachem",
+      "country": "MA"
+    },
+
+    "stadium": {
+      "name": "Cairo International Stadium",
+      "capacity": 75000
+    },
+
+    "players": [
+      {"playerId": "player_eg1_012_01", "name": "Mostafa Makhlouf", "number": 99, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_012_02", "name": "Ali Fawzy", "number": 30, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_012_03", "name": "Khaled Reda", "number": 4, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_012_04", "name": "Mohamed Tarek", "number": 5, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_012_05", "name": "Mohamed El Halawany", "number": 20, "position": "LB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_012_06", "name": "Ghannam Mohamed", "number": 27, "position": "CDM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_012_07", "name": "Mohamed Sabry", "number": 8, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_012_08", "name": "Walid Mostafa", "number": 11, "position": "RW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_012_09", "name": "Ahmed Mostafa Sayed", "number": 14, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_012_10", "name": "Arnold Eba Tchepena", "number": 38, "position": "LW", "country": "CM", "status": "starter"},
+      {"playerId": "player_eg1_012_11", "name": "Mahmoud Mamdouh", "number": 9, "position": "ST", "country": "EG", "status": "starter"},
+
+      {"playerId": "player_eg1_012_12", "name": "Ahmed Yehia", "number": 13, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_012_13", "name": "Mohamed Sobhy", "number": 15, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_012_14", "name": "Ahmed Mazhoud", "number": 31, "position": "RB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_012_15", "name": "Hassan Marcelo", "number": 33, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_012_16", "name": "Mohamed Yousry", "number": 37, "position": "LB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_012_17", "name": "Ahmed Youssef", "number": 12, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_012_18", "name": "Ali Zazaa", "number": 22, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_012_19", "name": "Ahmed Rizk", "number": 88, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_012_20", "name": "Michael Evson", "number": 29, "position": "RW", "country": "NG", "status": "bench"},
+      {"playerId": "player_eg1_012_21", "name": "Tito", "number": 90, "position": "ST", "country": "EG", "status": "bench"},
+
+      {"playerId": "player_eg1_012_22", "name": "Mahmoud El Zanflawy", "number": 18, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_012_23", "name": "Adam Ragab", "number": 28, "position": "LW", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_012_24", "name": "Seif Soliman", "number": 70, "position": "ST", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_012_25", "name": "Karim Kaboria", "number": 98, "position": "CAM", "country": "EG", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 27,
+      "setPieces": {
+          "penalty": 9,
+          "freeKick": 14,
+          "cornerLeft": 11,
+          "cornerRight": 8
+        }
+      }
   }
-}
