@@ -1,12 +1,39 @@
 {
-  "teamKey": "Rivers",
-
-  "name": "Rivers United FC",
-
-  "logo": "assets/logos/africa/nigeria/Rivers.png",
-
-  "stadium": {
-    "name": "Adokiye Amiesimaka Stadium",
-    "capacity": 38000
+    "teamKey": "Rivers",
+    "name": "Rivers United FC",
+    "logo": "assets/logos/africa/nigeria/Rivers.png",
+    "manager": {"name": "Finidi George", "country": "NG"},
+    "stadium": {"name": "Adokiye Amiesimaka Stadium", "capacity": 38000},
+    "players": [
+      {"playerId": "player_ng1_016_01", "name": "John Noble", "number": 1, "position": "GK", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_016_02", "name": "Ebuka Akobundu", "number": 2, "position": "RB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_016_03", "name": "Temple Emekayi", "number": 4, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_016_04", "name": "Gabriel Innocent", "number": 5, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_016_05", "name": "Taiwo Abdul Rafiu", "number": 3, "position": "LB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_016_06", "name": "Victor Arikpo", "number": 6, "position": "CDM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_016_07", "name": "Chinemerem Ugwueze", "number": 8, "position": "CM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_016_08", "name": "Aniekeme Okon", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_016_09", "name": "Chigozie Ani", "number": 10, "position": "CAM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_016_10", "name": "Ekene Awazie", "number": 11, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_016_11", "name": "Mbaoma Chijioke", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_016_12", "name": "Ifeanyi Nchekwube", "number": 30, "position": "GK", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_016_13", "name": "Paul Junior", "number": 12, "position": "RB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_016_14", "name": "Stephen Manyo", "number": 13, "position": "CB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_016_15", "name": "Isaac Annor", "number": 14, "position": "LB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_016_16", "name": "Blessed Iyamu", "number": 15, "position": "CDM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_016_17", "name": "Bello Babatunde Martins", "number": 16, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_016_18", "name": "Abdulrasheed Shehu Dabai", "number": 17, "position": "RW", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_016_19", "name": "Salman Abubakar", "number": 18, "position": "LW", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_016_20", "name": "Chinedu Udeagha", "number": 19, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_016_21", "name": "Timothy Zachariah", "number": 20, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_016_22", "name": "Alex Oyowah", "number": 21, "position": "CAM", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_016_23", "name": "Anthony Omaka", "number": 22, "position": "CM", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_016_24", "name": "Samson Olasupo", "number": 23, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_016_25", "name": "Francis Ayuba", "number": 24, "position": "ST", "country": "NG", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {"penalty": 9, "freeKick": 7, "cornerLeft": 7, "cornerRight": 7}
+    }
   }
-}
