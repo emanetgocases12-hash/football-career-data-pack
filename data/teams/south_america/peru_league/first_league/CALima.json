@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/south_america/peru/CALima.png",
 
+  "manager": {
+    "name": "Pablo Guede",
+    "country": "AR"
+  },
+
   "stadium": {
     "name": "Estadio Alejandro Villanueva",
     "capacity": 33938
+  },
+
+  "players": [
+    {"playerId": "player_pe1_001_01", "name": "Alejandro Duarte", "number": 1, "position": "GK", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_001_02", "name": "Renzo Garcés", "number": 2, "position": "RB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_001_03", "name": "Mateo Antoni", "number": 3, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_pe1_001_04", "name": "Gianfranco Chávez", "number": 4, "position": "CB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_001_05", "name": "Cristian Carbajal", "number": 5, "position": "LB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_001_06", "name": "Pedro Aquino", "number": 6, "position": "CDM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_001_07", "name": "Jean Pierre Archimbaud", "number": 7, "position": "CM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_001_08", "name": "Fernando Gaibor", "number": 8, "position": "CAM", "country": "EC", "status": "starter"},
+    {"playerId": "player_pe1_001_09", "name": "Jairo Vélez", "number": 9, "position": "RW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_001_10", "name": "Alessandro Burlamaqui", "number": 10, "position": "LW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_001_11", "name": "Federico Girotti", "number": 11, "position": "ST", "country": "AR", "status": "starter"},
+
+    {"playerId": "player_pe1_001_12", "name": "Ángel de la Cruz", "number": 12, "position": "GK", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_001_13", "name": "Luis Advíncula", "number": 13, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_001_14", "name": "Marco Huamán", "number": 14, "position": "RB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_001_15", "name": "Jhoao Velásquez", "number": 15, "position": "LB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_001_16", "name": "Jonathan García", "number": 16, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_001_17", "name": "Piero Cari", "number": 17, "position": "CM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_001_18", "name": "Gaspar Gentile", "number": 18, "position": "CAM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_001_19", "name": "Alan Cantero", "number": 19, "position": "RM", "country": "AR", "status": "bench"},
+    {"playerId": "player_pe1_001_20", "name": "Luis Ramos", "number": 20, "position": "LW", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_001_21", "name": "Kevin Quevedo", "number": 21, "position": "RW", "country": "PE", "status": "bench"},
+
+    {"playerId": "player_pe1_001_22", "name": "Paolo Guerrero", "number": 22, "position": "ST", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_001_23", "name": "Geray Motta", "number": 23, "position": "LW", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_001_24", "name": "Cristian Neira", "number": 24, "position": "RW", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_001_25", "name": "Eryc Castillo", "number": 25, "position": "CDM", "country": "EC", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 7,
+      "cornerLeft": 8,
+      "cornerRight": 9
+    }
   }
 }
