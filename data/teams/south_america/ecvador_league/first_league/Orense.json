@@ -1,12 +1,58 @@
 {
-  "teamKey": "Orense",
-
-  "name": "Orense SC",
-
-  "logo": "assets/logos/south_america/ecvador/Orense.png",
-
-  "stadium": {
-    "name": "Estadio 9 de Mayo",
-    "capacity": 16456
+    "teamKey": "Orense",
+  
+    "name": "Orense SC",
+  
+    "logo": "assets/logos/south_america/ecvador/Orense.png",
+  
+    "manager": {
+      "name": "Juan Pablo Buch",
+      "country": "CO"
+    },
+  
+    "stadium": {
+      "name": "Estadio 9 de Mayo",
+      "capacity": 16456
+    },
+  
+    "players": [
+      {"playerId": "player_ec1_014_01", "name": "Rolando Silva", "number": 12, "position": "GK", "country": "EC", "status": "starter"},
+      {"playerId": "player_ec1_014_02", "name": "Pedro Velasco", "number": 31, "position": "RB", "country": "EC", "status": "starter"},
+      {"playerId": "player_ec1_014_03", "name": "Stefano Callegari", "number": 6, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ec1_014_04", "name": "Alan Lorenzo", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ec1_014_05", "name": "Beder Caicedo", "number": 15, "position": "LB", "country": "EC", "status": "starter"},
+      {"playerId": "player_ec1_014_06", "name": "Nixon Molina", "number": 26, "position": "CDM", "country": "EC", "status": "starter"},
+      {"playerId": "player_ec1_014_07", "name": "Diego Armas", "number": 8, "position": "CM", "country": "EC", "status": "starter"},
+      {"playerId": "player_ec1_014_08", "name": "Sergio Vásquez", "number": 7, "position": "RW", "country": "EC", "status": "starter"},
+      {"playerId": "player_ec1_014_09", "name": "Valentín Burgoa", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ec1_014_10", "name": "Ángel Mena", "number": 13, "position": "LW", "country": "EC", "status": "starter"},
+      {"playerId": "player_ec1_014_11", "name": "Agustín Herrera", "number": 11, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_ec1_014_12", "name": "Jordy Ortiz", "number": 22, "position": "GK", "country": "EC", "status": "bench"},
+      {"playerId": "player_ec1_014_13", "name": "Sixto Mina", "number": 3, "position": "CB", "country": "EC", "status": "bench"},
+      {"playerId": "player_ec1_014_14", "name": "Bryan Quiñónez", "number": 2, "position": "RB", "country": "EC", "status": "bench"},
+      {"playerId": "player_ec1_014_15", "name": "Steeven Quiñónez", "number": 4, "position": "CB", "country": "EC", "status": "bench"},
+      {"playerId": "player_ec1_014_16", "name": "Bryan Viñán", "number": 77, "position": "LB", "country": "EC", "status": "bench"},
+      {"playerId": "player_ec1_014_17", "name": "Renny Jaramillo", "number": 25, "position": "CM", "country": "EC", "status": "bench"},
+      {"playerId": "player_ec1_014_18", "name": "Erick Pluas", "number": 14, "position": "CM", "country": "EC", "status": "bench"},
+      {"playerId": "player_ec1_014_19", "name": "Gonzalo Rostagno", "number": 21, "position": "CAM", "country": "UY", "status": "bench"},
+      {"playerId": "player_ec1_014_20", "name": "Michael Bermúdez", "number": 19, "position": "RW", "country": "EC", "status": "bench"},
+      {"playerId": "player_ec1_014_21", "name": "Paul Charpentier", "number": 9, "position": "ST", "country": "FR", "status": "bench"},
+  
+      {"playerId": "player_ec1_014_22", "name": "Oscar Quiñónez", "number": 45, "position": "CB", "country": "EC", "status": "reserve"},
+      {"playerId": "player_ec1_014_23", "name": "Eddie Hernández", "number": 50, "position": "CM", "country": "EC", "status": "reserve"},
+      {"playerId": "player_ec1_014_24", "name": "Erick Zambrano", "number": 54, "position": "LW", "country": "EC", "status": "reserve"},
+      {"playerId": "player_ec1_014_25", "name": "Eber Caicedo", "number": 17, "position": "ST", "country": "EC", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 13
+      }
+    }
   }
-}
