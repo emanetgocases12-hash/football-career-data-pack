@@ -1,12 +1,58 @@
 {
-  "teamKey": "Stella",
-
-  "name": "Stella Club d'Adjamé",
-
-  "logo": "assets/logos/africa/ivory/Stella.png",
-
-  "stadium": {
-    "name": "Stade Robert Champroux",
-    "capacity": 3000
+    "teamKey": "Stella",
+  
+    "name": "Stella Club d'Adjamé",
+  
+    "logo": "assets/logos/africa/ivory/Stella.png",
+  
+    "manager": {
+      "name": "Por definir",
+      "country": "CI"
+    },
+  
+    "stadium": {
+      "name": "Stade Robert Champroux",
+      "capacity": 3000
+    },
+  
+    "players": [
+      {"playerId": "player_ci1_013_01", "name": "Yaya Meite", "number": 1, "position": "GK", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_013_02", "name": "Yann Kpea", "number": 2, "position": "RB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_013_03", "name": "Vazoumana Diomandé", "number": 4, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_013_04", "name": "Issif Traoré", "number": 5, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_013_05", "name": "Kevin Ahyée", "number": 3, "position": "LB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_013_06", "name": "Samuel Kanga", "number": 6, "position": "CDM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_013_07", "name": "Donald Bah", "number": 8, "position": "CM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_013_08", "name": "Christ Guessou", "number": 7, "position": "RW", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_013_09", "name": "Djakaria Traoré", "number": 10, "position": "CAM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_013_10", "name": "Ashiraf Ojo", "number": 11, "position": "LW", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_013_11", "name": "Souleymane Berthé", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
+  
+      {"playerId": "player_ci1_013_12", "name": "Zigui Yoro", "number": 12, "position": "GK", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_013_13", "name": "Armel Gnizako", "number": 13, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_013_14", "name": "Soriba Conde", "number": 14, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_013_15", "name": "Hermann Tieguehi", "number": 15, "position": "LB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_013_16", "name": "Moïse Nguessan", "number": 16, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_013_17", "name": "Berenger Tia", "number": 17, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_013_18", "name": "Bangaly Doumbia", "number": 18, "position": "RW", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_013_19", "name": "Euloge Kouadio", "number": 19, "position": "LW", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_013_20", "name": "Arsène Adom", "number": 20, "position": "ST", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_013_21", "name": "Bi Junior Zahi", "number": 21, "position": "CAM", "country": "CI", "status": "bench"},
+  
+      {"playerId": "player_ci1_013_22", "name": "Drissa Diarrassouba", "number": 22, "position": "CM", "country": "CI", "status": "reserve"},
+      {"playerId": "player_ci1_013_23", "name": "Loyce Mbaba", "number": 23, "position": "RW", "country": "GA", "status": "reserve"},
+      {"playerId": "player_ci1_013_24", "name": "Bidodane Adingra", "number": 24, "position": "ST", "country": "CI", "status": "reserve"},
+      {"playerId": "player_ci1_013_25", "name": "Paul Digba", "number": 25, "position": "CM", "country": "CI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
