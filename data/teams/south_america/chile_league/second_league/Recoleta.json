@@ -1,12 +1,58 @@
 {
-  "teamKey": "Recole",
-
-  "name": "Deportes Recoleta",
-
-  "logo": "assets/logos/south_america/chili/Recole.png",
-
-  "stadium": {
-    "name": "Municipal Leonel Sánchez Lineros",
-    "capacity": 2000
+    "teamKey": "Recole",
+  
+    "name": "Deportes Recoleta",
+  
+    "logo": "assets/logos/south_america/chili/Recole.png",
+  
+    "manager": {
+      "name": "Luis Landeros",
+      "country": "CL"
+    },
+  
+    "stadium": {
+      "name": "Municipal Leonel Sánchez Lineros",
+      "capacity": 2000
+    },
+  
+    "players": [
+      {"playerId": "player_cl2_010_01", "name": "Álvaro Salazar", "number": 23, "position": "GK", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_010_02", "name": "Francisco Alarcón", "number": 3, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_010_03", "name": "Fabrizio Tomarelli", "number": 4, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_010_04", "name": "Brayams Viveros", "number": 16, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_010_05", "name": "Christian Cepeda", "number": 18, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl2_010_06", "name": "Branco Provoste", "number": 8, "position": "CDM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_010_07", "name": "Mikel Arguinarena", "number": 10, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_010_08", "name": "Jason Flores", "number": 7, "position": "CAM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_010_09", "name": "Gonzalo Álvarez", "number": 21, "position": "RW", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_010_10", "name": "Carlos González", "number": 19, "position": "ST", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_010_11", "name": "Pedro Sánchez", "number": 9, "position": "LW", "country": "CL", "status": "starter"},
+  
+      {"playerId": "player_cl2_010_12", "name": "Jaime Vargas", "number": 22, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_010_13", "name": "Ignacio Lara", "number": 14, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_010_14", "name": "Felipe Saavedra", "number": 30, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_010_15", "name": "Daniel Viveros", "number": 11, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_010_16", "name": "Nicolás Arismendy", "number": 2, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_010_17", "name": "Matías Rubio", "number": 15, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_010_18", "name": "Ignacio Caroca", "number": 6, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_010_19", "name": "Bryan Soto", "number": 20, "position": "CAM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_010_20", "name": "Roberto Riveros", "number": 33, "position": "ST", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_010_21", "name": "Germán Estigarribia", "number": 17, "position": "RW", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_cl2_010_22", "name": "José Ignacio Narr", "number": 13, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_010_23", "name": "Franco Ragusa", "number": 24, "position": "CM", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_010_24", "name": "Ignacio Parada", "number": 27, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_010_25", "name": "Felipe Flores", "number": 26, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 7,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
