@@ -1,12 +1,46 @@
 {
-  "teamKey": "Bomet",
-
-  "name": "APS Bomet FC",
-
-  "logo": "assets/logos/africa/kenya/Bomet.png",
-
-  "stadium": {
-    "name": "Bomet Green Stadium",
-    "capacity": 5000
+    "teamKey": "Bomet",
+    "name": "APS Bomet FC",
+    "logo": "assets/logos/africa/kenya/Bomet.png",
+    "manager": {"name": "Sammy Omollo", "country": "KE"},
+    "stadium": {"name": "Bomet Green Stadium", "capacity": 5000},
+    "players": [
+      {"playerId": "player_ke1_003_01", "name": "Felix Adoyo", "number": 32, "position": "GK", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_003_02", "name": "Boniface Mwangemi", "number": 30, "position": "RB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_003_03", "name": "Edward Masembe", "number": 6, "position": "CB", "country": "UG", "status": "starter"},
+      {"playerId": "player_ke1_003_04", "name": "Sosthenes Idah", "number": 5, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_003_05", "name": "Aziz Okaka", "number": 34, "position": "LB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_003_06", "name": "Brian Ngala", "number": 8, "position": "CDM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_003_07", "name": "David Owino Mwiti", "number": 28, "position": "CM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_003_08", "name": "Owen Mboya", "number": 17, "position": "CM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_003_09", "name": "Walter Masinde Wafula", "number": 11, "position": "RW", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_003_10", "name": "Bruno Junior Bunyaga", "number": 36, "position": "ST", "country": "UG", "status": "starter"},
+      {"playerId": "player_ke1_003_11", "name": "Cosmas Abuta", "number": 9, "position": "LW", "country": "KE", "status": "starter"},
+  
+      {"playerId": "player_ke1_003_12", "name": "Maxwell Mulili Muchesia", "number": 77, "position": "GK", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_003_13", "name": "Francis Omondi", "number": 4, "position": "CB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_003_14", "name": "Hillary Wandera", "number": 24, "position": "RB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_003_15", "name": "Duke Muhoro", "number": 3, "position": "LB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_003_16", "name": "Dickson Mwangi", "number": 14, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_003_17", "name": "James Khalela", "number": 10, "position": "CAM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_003_18", "name": "Anthony Naibei", "number": 18, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_003_19", "name": "Chris Walunda", "number": 7, "position": "RM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_003_20", "name": "Joseph Masibo", "number": 20, "position": "ST", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_003_21", "name": "Philip Wasai", "number": 21, "position": "LW", "country": "KE", "status": "bench"},
+  
+      {"playerId": "player_ke1_003_22", "name": "John Ronald Onyango", "number": 31, "position": "GK", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_003_23", "name": "Rodgers Kipkemoi", "number": 16, "position": "CDM", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_003_24", "name": "Lawrence Kibet", "number": 19, "position": "ST", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_003_25", "name": "Sven Yidah", "number": 13, "position": "CM", "country": "KE", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 36,
+        "freeKick": 28,
+        "cornerLeft": 11,
+        "cornerRight": 28
+      }
+    }
   }
-}
