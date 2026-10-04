@@ -1,12 +1,58 @@
-{
-  "teamKey": "Masry",
+ {
+    "teamKey": "Masry",
 
-  "name": "Al Masry SC",
+    "name": "Al Masry SC",
 
-  "logo": "assets/logos/africa/egypt/Masry.png",
+    "logo": "assets/logos/africa/egypt/Masry.png",
 
-  "stadium": {
-    "name": "Suez Stadium",
-    "capacity": 27000
+    "manager": {
+      "name": "Emad El Nahhas",
+      "country": "EG"
+    },
+
+    "stadium": {
+      "name": "Suez Stadium",
+      "capacity": 27000
+    },
+
+    "players": [
+      {"playerId": "player_eg1_011_01", "name": "Mohamed Hamdy", "number": 16, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_011_02", "name": "Karim El Iraqi", "number": 7, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_011_03", "name": "Khaled Sobhi", "number": 5, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_011_04", "name": "Mostafa El Ash", "number": 33, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_011_05", "name": "Mohamed Shokry", "number": 3, "position": "LB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_011_06", "name": "Mahmoud Hamada", "number": 14, "position": "CDM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_011_07", "name": "Mohamed Makhlouf", "number": 6, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_011_08", "name": "Mohamed El Shamy", "number": 11, "position": "RW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_011_09", "name": "Mostafa Zidan", "number": 24, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_011_10", "name": "Abderrahim Deghmoum", "number": 30, "position": "LW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_eg1_011_11", "name": "Salah Mohsen", "number": 9, "position": "ST", "country": "EG", "status": "starter"},
+
+      {"playerId": "player_eg1_011_12", "name": "Essam Tharwat", "number": 1, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_011_13", "name": "Baher El Mohamady", "number": 2, "position": "RB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_011_14", "name": "Amr El Saadawy", "number": 13, "position": "LB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_011_15", "name": "Mohamed Hashem", "number": 29, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_011_16", "name": "Yassin El Mallah", "number": 4, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_011_17", "name": "Hassan Ali", "number": 8, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_011_18", "name": "Karim Bambo", "number": 10, "position": "RW", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_011_19", "name": "Youssef El Gohary", "number": 17, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_011_20", "name": "Khair El Din Tawil", "number": 20, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_eg1_011_21", "name": "Monther Temine", "number": 25, "position": "RW", "country": "DZ", "status": "bench"},
+
+      {"playerId": "player_eg1_011_22", "name": "Mohamed Fawzy", "number": 26, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_011_23", "name": "Hussein Faisal", "number": 32, "position": "CAM", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_011_24", "name": "Ahmed El Armouty", "number": 15, "position": "LW", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_011_25", "name": "Ali Suleiman", "number": 21, "position": "ST", "country": "EG", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 14,
+      "setPieces": {
+          "penalty": 9,
+          "freeKick": 24,
+          "cornerLeft": 30,
+          "cornerRight": 11
+        }
+      }
   }
-}
