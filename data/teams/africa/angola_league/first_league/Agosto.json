@@ -1,12 +1,52 @@
 {
-  "teamKey": "Agosto",
-
-  "name": "CD 1º de Agosto",
-
-  "logo": "assets/logos/africa/angola/Agosto.png",
-
-  "stadium": {
-    "name": "Estádio França Ndalu",
-    "capacity": 20000
+    "teamKey": "Agosto",
+    "name": "CD 1º de Agosto",
+    "logo": "assets/logos/africa/angola/Agosto.png",
+    "manager": {
+      "name": "Filipe Nzanza",
+      "country": "AO"
+    },
+    "stadium": {
+      "name": "Estádio França Ndalu",
+      "capacity": 20000
+    },
+    "players": [
+      {"playerId": "player_ao1_002_01", "name": "Nuno", "number": 1, "position": "GK", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_002_02", "name": "Milton", "number": 2, "position": "RB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_002_03", "name": "Simão Mabelé", "number": 3, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_002_04", "name": "Venâncio Kukula", "number": 15, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_002_05", "name": "Paxi", "number": 19, "position": "LB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_002_06", "name": "Axel Gaudêncio", "number": 8, "position": "CM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_002_07", "name": "José Macaia", "number": 16, "position": "CM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_002_08", "name": "Calebi Yanda", "number": 10, "position": "CAM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_002_09", "name": "Fernandinho", "number": 11, "position": "RW", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_002_10", "name": "Dago Tshibamba", "number": 17, "position": "ST", "country": "CD", "status": "starter"},
+      {"playerId": "player_ao1_002_11", "name": "Mabilson", "number": 7, "position": "LW", "country": "AO", "status": "starter"},
+  
+      {"playerId": "player_ao1_002_12", "name": "Anselmo Mbala", "number": 22, "position": "GK", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_002_13", "name": "Paulo Costa", "number": 21, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_002_14", "name": "Benção Evaristo", "number": 36, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_002_15", "name": "Chicote", "number": 38, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_002_16", "name": "Bruno Manuel", "number": 6, "position": "CDM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_002_17", "name": "Aguinaldo Matias", "number": 13, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_002_18", "name": "Clíver André", "number": 18, "position": "LW", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_002_19", "name": "Obed Mukokiani", "number": 14, "position": "ST", "country": "CD", "status": "bench"},
+      {"playerId": "player_ao1_002_20", "name": "Rupson", "number": 9, "position": "ST", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_002_21", "name": "Tombé", "number": 20, "position": "ST", "country": "AO", "status": "bench"},
+  
+      {"playerId": "player_ao1_002_22", "name": "Diego Washington", "number": 12, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_ao1_002_23", "name": "Erique Jesus", "number": 24, "position": "CM", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_002_24", "name": "Castro", "number": 27, "position": "RW", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_002_25", "name": "Felix Bulaya", "number": 28, "position": "ST", "country": "ZM", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 17,
+        "freeKick": 8,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
