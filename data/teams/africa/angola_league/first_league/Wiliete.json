@@ -1,12 +1,52 @@
 {
-  "teamKey": "Wiliet",
-
-  "name": "Wiliete de Benguela",
-
-  "logo": "assets/logos/africa/angola/Wiliet.png",
-
-  "stadium": {
-    "name": "Estádio Nacional de Ombaka",
-    "capacity": 35000
+    "teamKey": "Wiliet",
+    "name": "Wiliete de Benguela",
+    "logo": "assets/logos/africa/angola/Wiliet.png",
+    "manager": {
+      "name": "Beto Bianchi",
+      "country": "ES"
+    },
+    "stadium": {
+      "name": "Estádio Nacional de Ombaka",
+      "capacity": 35000
+    },
+    "players": [
+      {"playerId": "player_ao1_016_01", "name": "Nayan", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_ao1_016_02", "name": "Karanga", "number": 7, "position": "RB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_016_03", "name": "Giovani", "number": 17, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_016_04", "name": "Júnior Goiano", "number": 27, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_ao1_016_05", "name": "Wiwi", "number": 5, "position": "LB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_016_06", "name": "Janderson", "number": 6, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_ao1_016_07", "name": "Boucar Sidibé", "number": 30, "position": "CM", "country": "ML", "status": "starter"},
+      {"playerId": "player_ao1_016_08", "name": "Mindinho", "number": 10, "position": "CAM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_016_09", "name": "Gilberto", "number": 11, "position": "RW", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_016_10", "name": "Mabululu", "number": 9, "position": "ST", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_016_11", "name": "Ningui", "number": 25, "position": "LW", "country": "AO", "status": "starter"},
+  
+      {"playerId": "player_ao1_016_12", "name": "Beny", "number": 12, "position": "GK", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_016_13", "name": "Guilherme Neto", "number": 4, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_ao1_016_14", "name": "Silva António", "number": 3, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_016_15", "name": "Nelo", "number": 26, "position": "RB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_016_16", "name": "Igui", "number": 24, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_016_17", "name": "Célio Zua", "number": 32, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_016_18", "name": "Didi", "number": 2, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_016_19", "name": "Bito", "number": 28, "position": "RW", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_016_20", "name": "Valter Monteiro", "number": 35, "position": "ST", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_016_21", "name": "Artur Kaká", "number": 19, "position": "LW", "country": "AO", "status": "bench"},
+  
+      {"playerId": "player_ao1_016_22", "name": "Élber Binha", "number": 31, "position": "GK", "country": "CV", "status": "reserve"},
+      {"playerId": "player_ao1_016_23", "name": "Buba Jammeh", "number": 18, "position": "LW", "country": "GM", "status": "reserve"},
+      {"playerId": "player_ao1_016_24", "name": "Bello Lukman", "number": 21, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ao1_016_25", "name": "Quaré", "number": 33, "position": "RW", "country": "AO", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 30,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
