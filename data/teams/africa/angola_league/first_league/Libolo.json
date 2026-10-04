@@ -1,12 +1,52 @@
-{
-  "teamKey": "Libolo",
-
-  "name": "Recreativo do Libolo",
-
-  "logo": "assets/logos/africa/angola/Libolo.png",
-
-  "stadium": {
-    "name": "Estádio Municipal de Calulo",
-    "capacity": 10000
+ {
+    "teamKey": "Libolo",
+    "name": "Recreativo do Libolo",
+    "logo": "assets/logos/africa/angola/Libolo.png",
+    "manager": {
+      "name": "Osvaldo Roque Gonçalves da Cruz",
+      "country": "AO"
+    },
+    "stadium": {
+      "name": "Estádio Municipal de Calulo",
+      "capacity": 10000
+    },
+    "players": [
+      {"playerId": "player_ao1_008_01", "name": "Beny Ngunda", "number": 12, "position": "GK", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_008_02", "name": "Nelo", "number": 14, "position": "RB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_008_03", "name": "Marcos Benua", "number": 3, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_008_04", "name": "Tubarão", "number": 30, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_008_05", "name": "Toty", "number": 4, "position": "LB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_008_06", "name": "Chimito", "number": 6, "position": "CDM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_008_07", "name": "Maninho", "number": 5, "position": "CM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_008_08", "name": "Andeloy", "number": 10, "position": "CAM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_008_09", "name": "Gui", "number": 11, "position": "RW", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_008_10", "name": "Amado Haidara", "number": 18, "position": "ST", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_008_11", "name": "Edson Cuxixima", "number": 27, "position": "LW", "country": "AO", "status": "starter"},
+  
+      {"playerId": "player_ao1_008_12", "name": "Mário", "number": 20, "position": "GK", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_008_13", "name": "Mayungo", "number": 2, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_008_14", "name": "Lara", "number": 28, "position": "LB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_008_15", "name": "Tchube", "number": 8, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_008_16", "name": "Pedro Massaki", "number": 17, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_008_17", "name": "Zinedine Catraio", "number": 24, "position": "CAM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_008_18", "name": "Salomão Mukanda", "number": 25, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_008_19", "name": "Jorgito", "number": 15, "position": "RW", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_008_20", "name": "Jamanta", "number": 19, "position": "ST", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_008_21", "name": "Zidane", "number": 22, "position": "ST", "country": "AO", "status": "bench"},
+  
+      {"playerId": "player_ao1_008_22", "name": "Sténio Celestino da Costa", "number": 1, "position": "GK", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_008_23", "name": "Dinho", "number": 7, "position": "LW", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_008_24", "name": "Nilton Jorge Paulo", "number": 16, "position": "CB", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_008_25", "name": "Boka Nelson Filho", "number": 21, "position": "CB", "country": "AO", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 12,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 5,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
