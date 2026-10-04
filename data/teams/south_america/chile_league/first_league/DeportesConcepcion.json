@@ -1,12 +1,58 @@
 {
-  "teamKey": "Concpc",
-
-  "name": "Deportes Concepción",
-
-  "logo": "assets/logos/south_america/chili/Concpc.png",
-
-  "stadium": {
-    "name": "Ester Roa Rebolledo",
-    "capacity": 30448
+    "teamKey": "Concpc",
+  
+    "name": "Deportes Concepción",
+  
+    "logo": "assets/logos/south_america/chili/Concpc.png",
+  
+    "manager": {
+      "name": "Patricio Almendra",
+      "country": "CL"
+    },
+  
+    "stadium": {
+      "name": "Ester Roa Rebolledo",
+      "capacity": 30448
+    },
+  
+    "players": [
+      {"playerId": "player_cl1_009_01", "name": "Nicolás Araya", "number": 25, "position": "GK", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_009_02", "name": "Ariel Cáceres", "number": 4, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_009_03", "name": "Norman Rodríguez", "number": 21, "position": "CB", "country": "UY", "status": "starter"},
+      {"playerId": "player_cl1_009_04", "name": "Fausto Grillo", "number": 37, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_009_05", "name": "Diego Carrasco", "number": 3, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_009_06", "name": "Fernando Martínez", "number": 8, "position": "CDM", "country": "PY", "status": "starter"},
+      {"playerId": "player_cl1_009_07", "name": "Mario Sandoval", "number": 16, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_009_08", "name": "Jorge Henríquez", "number": 20, "position": "CAM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_009_09", "name": "Joaquín Larrivey", "number": 32, "position": "RW", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_009_10", "name": "Matías Cavalleri", "number": 24, "position": "ST", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_009_11", "name": "Ethan Espinoza", "number": 30, "position": "LW", "country": "CL", "status": "starter"},
+  
+      {"playerId": "player_cl1_009_12", "name": "César Dutra", "number": 1, "position": "GK", "country": "BR", "status": "bench"},
+      {"playerId": "player_cl1_009_13", "name": "Brayan Véjar", "number": 11, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_009_14", "name": "Javier Rojas", "number": 23, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_009_15", "name": "Mateo González", "number": 28, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_009_16", "name": "Martín Ramírez", "number": 2, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_009_17", "name": "Misael Dávila", "number": 22, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_009_18", "name": "Leenhan Romero", "number": 26, "position": "CDM", "country": "VE", "status": "bench"},
+      {"playerId": "player_cl1_009_19", "name": "Nicolás Fuentes", "number": 31, "position": "CAM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_009_20", "name": "Aldrix Jara", "number": 19, "position": "ST", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_009_21", "name": "Carlos Escobar", "number": 9, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl1_009_22", "name": "Nery Veloso", "number": 12, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_009_23", "name": "Yonatan Rodríguez", "number": 18, "position": "CM", "country": "UY", "status": "reserve"},
+      {"playerId": "player_cl1_009_24", "name": "Joaquín Montecinos", "number": 15, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_009_25", "name": "Dilan Varas", "number": 29, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 21,
+      "setPieces": {
+        "penalty": 24,
+        "freeKick": 20,
+        "cornerLeft": 16,
+        "cornerRight": 20
+      }
+    }
   }
-}
