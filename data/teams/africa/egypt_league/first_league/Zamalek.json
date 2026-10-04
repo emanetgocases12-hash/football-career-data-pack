@@ -1,12 +1,58 @@
 {
-  "teamKey": "Zamalk",
+    "teamKey": "Zamalk",
 
-  "name": "Zamalek SC",
+    "name": "Zamalek SC",
 
-  "logo": "assets/logos/africa/egypt/Zamalk.png",
+    "logo": "assets/logos/africa/egypt/Zamalk.png",
 
-  "stadium": {
-    "name": "Cairo International Stadium",
-    "capacity": 75000
+    "manager": {
+      "name": "Motamed Gamal",
+      "country": "EG"
+    },
+
+    "stadium": {
+      "name": "Cairo International Stadium",
+      "capacity": 75000
+    },
+
+    "players": [
+      {"playerId": "player_eg1_020_01", "name": "Mohamed Sobhi", "number": 16, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_020_02", "name": "Omar Gaber", "number": 4, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_020_03", "name": "Mahmoud Hamdy El Wensh", "number": 28, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_020_04", "name": "Ahmed Hossam", "number": 5, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_020_05", "name": "Ahmed Fattouh", "number": 13, "position": "LB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_020_06", "name": "Mohamed Shehata", "number": 17, "position": "CDM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_020_07", "name": "Mahmoud Gehad", "number": 6, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_020_08", "name": "Juan Bezerra", "number": 33, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_eg1_020_09", "name": "Abdallah El Said", "number": 19, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_020_10", "name": "Chico Banza", "number": 81, "position": "LW", "country": "AO", "status": "starter"},
+      {"playerId": "player_eg1_020_11", "name": "Oday Dabbagh", "number": 98, "position": "ST", "country": "PS", "status": "starter"},
+
+      {"playerId": "player_eg1_020_12", "name": "Mohamed Awad", "number": 99, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_020_13", "name": "Mahmoud Bentayg", "number": 3, "position": "LB", "country": "MA", "status": "bench"},
+      {"playerId": "player_eg1_020_14", "name": "Mohamed Ismail", "number": 24, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_020_15", "name": "Mostafa El Zenary", "number": 20, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_020_16", "name": "Ahmed Rabie", "number": 12, "position": "RB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_020_17", "name": "Seif Farouk Gaafar", "number": 14, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_020_18", "name": "Adam Kaied", "number": 18, "position": "CM", "country": "PS", "status": "bench"},
+      {"playerId": "player_eg1_020_19", "name": "Ahmed Abdel Rahim Isho", "number": 11, "position": "RW", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_020_20", "name": "Nasser Mansi", "number": 9, "position": "ST", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_020_21", "name": "Hossam Ashraf", "number": 7, "position": "ST", "country": "EG", "status": "bench"},
+
+      {"playerId": "player_eg1_020_22", "name": "El Mahdi Soliman", "number": 37, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_020_23", "name": "Ahmed Sherif", "number": 31, "position": "ST", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_020_24", "name": "Amr Nasser", "number": 90, "position": "ST", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_020_25", "name": "Ahmed El Gafali", "number": 21, "position": "LW", "country": "TN", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+          "penalty": 98,
+          "freeKick": 19,
+          "cornerLeft": 33,
+          "cornerRight": 81
+        }
+      }
   }
-}
