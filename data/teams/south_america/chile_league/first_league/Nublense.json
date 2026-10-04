@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ñblnse",
-
-  "name": "CD Ñublense",
-
-  "logo": "assets/logos/south_america/chili/NBlnse.png",
-
-  "stadium": {
-    "name": "Nelson Oyarzún",
-    "capacity": 11319
+    "teamKey": "Ñblnse",
+  
+    "name": "CD Ñublense",
+  
+    "logo": "assets/logos/south_america/chili/NBlnse.png",
+  
+    "manager": {
+      "name": "Juan José Ribera",
+      "country": "CL"
+    },
+  
+    "stadium": {
+      "name": "Nelson Oyarzún",
+      "capacity": 11319
+    },
+  
+    "players": [
+      {"playerId": "player_cl1_014_01", "name": "Nicola Pérez", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+      {"playerId": "player_cl1_014_02", "name": "Osvaldo Bosso", "number": 4, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_014_03", "name": "Pablo Calderón", "number": 6, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_014_04", "name": "Felipe Campos", "number": 5, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_014_05", "name": "Joaquín González", "number": 2, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_014_06", "name": "Lorenzo Reyes", "number": 8, "position": "CDM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_014_07", "name": "Manuel Rivera", "number": 28, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_014_08", "name": "Gabriel Graciani", "number": 20, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_014_09", "name": "Patricio Rubio", "number": 3, "position": "RW", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_014_10", "name": "Pedro Sánchez", "number": 11, "position": "ST", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_014_11", "name": "Maximiliano Torrealba", "number": 9, "position": "LW", "country": "CL", "status": "starter"},
+  
+      {"playerId": "player_cl1_014_12", "name": "Hernán Muñoz", "number": 25, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_014_13", "name": "Sebastián Valencia", "number": 15, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_014_14", "name": "Felipe Yáñez", "number": 24, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_014_15", "name": "Bernardo Cerezo", "number": 18, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_014_16", "name": "Jovany Campusano", "number": 14, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_014_17", "name": "Matías Plaza", "number": 10, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_014_18", "name": "Flavio Moya", "number": 21, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_014_19", "name": "Bayron Oyarzo", "number": 7, "position": "CAM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_014_20", "name": "Ismael Sosa", "number": 30, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_cl1_014_21", "name": "Alex Valdés", "number": 17, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl1_014_22", "name": "Claudio Chandía", "number": 12, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_014_23", "name": "Diego Plaza", "number": 22, "position": "CM", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_014_24", "name": "Benjamín Araneda", "number": 27, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_014_25", "name": "Juan Córdova", "number": 26, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 20,
+        "cornerLeft": 28,
+        "cornerRight": 20
+      }
+    }
   }
-}
