@@ -1,12 +1,58 @@
 {
-  "teamKey": "Iquiqu",
-
-  "name": "Deportes Iquique",
-
-  "logo": "assets/logos/south_america/chili/Iquiqu.png",
-
-  "stadium": {
-    "name": "Tierra de Campeones",
-    "capacity": 13171
+    "teamKey": "Iquiqu",
+  
+    "name": "Deportes Iquique",
+  
+    "logo": "assets/logos/south_america/chili/Iquiqu.png",
+  
+    "manager": {
+      "name": "José Cantillana",
+      "country": "CL"
+    },
+  
+    "stadium": {
+      "name": "Tierra de Campeones",
+      "capacity": 13171
+    },
+  
+    "players": [
+      {"playerId": "player_cl2_006_01", "name": "Daniel Castillo", "number": 12, "position": "GK", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_006_02", "name": "Joaquín Palma", "number": 3, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_006_03", "name": "Vicente Concha", "number": 4, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_006_04", "name": "Franco Ledesma", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl2_006_05", "name": "Jorge Ayala", "number": 6, "position": "LB", "country": "UY", "status": "starter"},
+      {"playerId": "player_cl2_006_06", "name": "Joaquín Pereyra", "number": 8, "position": "CDM", "country": "UY", "status": "starter"},
+      {"playerId": "player_cl2_006_07", "name": "Brayan Garrido", "number": 14, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_006_08", "name": "Diego Fernández", "number": 10, "position": "CAM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_006_09", "name": "Isaac Díaz", "number": 9, "position": "RW", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_006_10", "name": "Iam González", "number": 19, "position": "ST", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_006_11", "name": "Edson Puch", "number": 30, "position": "LW", "country": "CL", "status": "starter"},
+  
+      {"playerId": "player_cl2_006_12", "name": "Zacarías López", "number": 25, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_006_13", "name": "Felipe Espinoza", "number": 15, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_006_14", "name": "Simón Contreras", "number": 17, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_006_15", "name": "Miguel Sanhueza", "number": 2, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_006_16", "name": "Hans Salinas", "number": 18, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_006_17", "name": "Enzo Hoyos", "number": 20, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_cl2_006_18", "name": "Bryan Soto", "number": 21, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_006_19", "name": "Álvaro Ramos", "number": 11, "position": "CAM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_006_20", "name": "Steffan Pino", "number": 23, "position": "ST", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_006_21", "name": "Álvaro Delgado", "number": 24, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl2_006_22", "name": "Henry Binimelis", "number": 22, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_006_23", "name": "César González", "number": 7, "position": "CM", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_006_24", "name": "Misael Dávila", "number": 16, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_006_25", "name": "Matías Donoso", "number": 27, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 10,
+        "cornerLeft": 14,
+        "cornerRight": 10
+      }
+    }
   }
-}
