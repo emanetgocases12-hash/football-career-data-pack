@@ -1,12 +1,52 @@
 {
-  "teamKey": "Guelso",
-
-  "name": "Guelson FC",
-
-  "logo": "assets/logos/africa/angola/Guelson.png",
-
-  "stadium": {
-    "name": "Estádio dos Coqueiros",
-    "capacity": 12000
+    "teamKey": "Guelso",
+    "name": "Guelson FC",
+    "logo": "assets/logos/africa/angola/Guelson.png",
+    "manager": {
+      "name": "Paulo Dias",
+      "country": "AO"
+    },
+    "stadium": {
+      "name": "Estádio dos Coqueiros",
+      "capacity": 12000
+    },
+    "players": [
+      {"playerId": "player_ao1_004_01", "name": "Yuri Masala", "number": 1, "position": "GK", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_004_02", "name": "Peloy", "number": 2, "position": "RB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_004_03", "name": "Romano Bastão", "number": 27, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_004_04", "name": "Rafa", "number": 23, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_004_05", "name": "João Kinanga", "number": 3, "position": "LB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_004_06", "name": "Kikas", "number": 8, "position": "CM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_004_07", "name": "Edmilson Cazaico", "number": 17, "position": "CM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_004_08", "name": "Maranata Vunge", "number": 20, "position": "CAM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_004_09", "name": "Simão", "number": 11, "position": "RW", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_004_10", "name": "Miguel Matos", "number": 7, "position": "LW", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_004_11", "name": "Agostinho José", "number": 19, "position": "ST", "country": "AO", "status": "starter"},
+  
+      {"playerId": "player_ao1_004_12", "name": "Ti Doy", "number": 12, "position": "GK", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_004_13", "name": "Soares Baptista", "number": 5, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_004_14", "name": "Filipe", "number": 29, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_004_15", "name": "Pereira", "number": 13, "position": "LB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_004_16", "name": "Bibi", "number": 15, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_004_17", "name": "Coutinho", "number": 18, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_004_18", "name": "Leonel", "number": 14, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_004_19", "name": "Pai Nosso", "number": 28, "position": "ST", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_004_20", "name": "Beny", "number": 37, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_004_21", "name": "Xavito", "number": 33, "position": "CAM", "country": "AO", "status": "bench"},
+  
+      {"playerId": "player_ao1_004_22", "name": "Julião", "number": 22, "position": "GK", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_004_23", "name": "Bráulio Jorge", "number": 4, "position": "CB", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_004_24", "name": "Ti Pacote", "number": 30, "position": "ST", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_004_25", "name": "Estevão Carmo", "number": 40, "position": "CDM", "country": "AO", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 8,
+        "cornerLeft": 20,
+        "cornerRight": 20
+      }
+    }
   }
-}
