@@ -1,12 +1,58 @@
 {
-  "teamKey": "Clptra",
+    "teamKey": "Clptra",
 
-  "name": "Ceramica Cleopatra FC",
+    "name": "Ceramica Cleopatra FC",
 
-  "logo": "assets/logos/africa/egypt/Clptra.png",
+    "logo": "assets/logos/africa/egypt/Clptra.png",
 
-  "stadium": {
-    "name": "Suez Canal Authority Stadium",
-    "capacity": 22000
+    "manager": {
+      "name": "Ali Maher",
+      "country": "EG"
+    },
+
+    "stadium": {
+      "name": "Suez Canal Authority Stadium",
+      "capacity": 22000
+    },
+
+    "players": [
+      {"playerId": "player_eg1_005_01", "name": "Mohamed Alaa", "number": 23, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_005_02", "name": "Ahmed Hany", "number": 2, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_005_03", "name": "Ahmed Ramadan Beckham", "number": 4, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_005_04", "name": "Justice Arthur", "number": 24, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_eg1_005_05", "name": "Hussein El Sayed", "number": 27, "position": "LB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_005_06", "name": "Amr El Solia", "number": 17, "position": "CDM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_005_07", "name": "Mohamed Reda Bobo", "number": 77, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_005_08", "name": "Sodiq Ougola", "number": 11, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_eg1_005_09", "name": "Ahmed Belhadji", "number": 10, "position": "CAM", "country": "MA", "status": "starter"},
+      {"playerId": "player_eg1_005_10", "name": "Marwan Osman", "number": 29, "position": "LW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_005_11", "name": "Nejc Gradisar", "number": 9, "position": "ST", "country": "SI", "status": "starter"},
+
+      {"playerId": "player_eg1_005_12", "name": "Mohamed Bassam", "number": 18, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_005_13", "name": "Ragab Nabil", "number": 5, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_005_14", "name": "Abdallah Magdy", "number": 8, "position": "RB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_005_15", "name": "Mohamed El Maghraby", "number": 66, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_005_16", "name": "Fawzy El Henawy", "number": 32, "position": "LB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_005_17", "name": "Karim Nedved", "number": 6, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_005_18", "name": "Islam Issa", "number": 7, "position": "CAM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_005_19", "name": "Ibrahim Ali", "number": 14, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_005_20", "name": "Peter Gwargis", "number": 21, "position": "RW", "country": "SS", "status": "bench"},
+      {"playerId": "player_eg1_005_21", "name": "Ayman Moka", "number": 19, "position": "LW", "country": "EG", "status": "bench"},
+
+      {"playerId": "player_eg1_005_22", "name": "Mohamed Tarek", "number": 13, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_005_23", "name": "Amr Kalawa", "number": 28, "position": "CM", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_005_24", "name": "Mohamed Emad", "number": 30, "position": "CAM", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_005_25", "name": "Khaled El Nabris", "number": 22, "position": "ST", "country": "PS", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 17,
+      "setPieces": {
+          "penalty": 9,
+          "freeKick": 10,
+          "cornerLeft": 11,
+          "cornerRight": 10
+        }
+      }
   }
-}
