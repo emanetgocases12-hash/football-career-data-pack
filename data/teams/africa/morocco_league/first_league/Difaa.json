@@ -1,12 +1,41 @@
 {
-  "teamKey": "Difaâ",
-
-  "name": "Difaâ El Jadida",
-
-  "logo": "assets/logos/africa/morocco/Difaa.png",
-
-  "stadium": {
-    "name": "Stade El Abdi",
-    "capacity": 15000
+    "teamKey": "Difaâ",
+    "name": "Difaâ El Jadida",
+    "logo": "assets/logos/africa/morocco/Difaa.png",
+    "manager": {"name": "Ricardo Chéu", "country": "PT"},
+    "stadium": {"name": "Stade El Abdi", "capacity": 15000},
+    "players": [
+      {"playerId": "player_ma1_003_01", "name": "Babacar Niasse", "number": 30, "position": "GK", "country": "MR", "status": "starter"},
+      {"playerId": "player_ma1_003_02", "name": "Oussama Benchchaoui", "number": 2, "position": "RB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_003_03", "name": "Mohamed Bentarcha", "number": 4, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_003_04", "name": "Boulkassoum Diarra", "number": 5, "position": "CB", "country": "ML", "status": "starter"},
+      {"playerId": "player_ma1_003_05", "name": "Zakaria Oubraim", "number": 24, "position": "LB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_003_06", "name": "Brahim El Idrissi Bouzidi", "number": 6, "position": "CDM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_003_07", "name": "Mouad Mouchtanim", "number": 8, "position": "CM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_003_08", "name": "Megue", "number": 20, "position": "CM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ma1_003_09", "name": "Youssef Michte", "number": 88, "position": "CAM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_003_10", "name": "Achraf Idrissi", "number": 21, "position": "RW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_003_11", "name": "Romuald Dacosta", "number": 80, "position": "ST", "country": "SN", "status": "starter"},
+  
+      {"playerId": "player_ma1_003_12", "name": "Ayoub Ait Wahmane", "number": 16, "position": "GK", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_003_13", "name": "Soufiane Abaaziz", "number": 23, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_003_14", "name": "Israel Usulor", "number": 3, "position": "CB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ma1_003_15", "name": "Hamza Malki", "number": 25, "position": "LB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_003_16", "name": "Yassine El Ouatki", "number": 15, "position": "CM", "country": "FR", "status": "bench"},
+      {"playerId": "player_ma1_003_17", "name": "Abdellah Farah", "number": 10, "position": "CAM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_003_18", "name": "Omar Hmamouch", "number": 14, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_003_19", "name": "Imad Sabik", "number": 7, "position": "RW", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_003_20", "name": "Ayoub El Khafi", "number": 12, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_003_21", "name": "Abderrazak Ennakouss", "number": 17, "position": "ST", "country": "MA", "status": "bench"},
+  
+      {"playerId": "player_ma1_003_22", "name": "Yassine Lhjale", "number": 13, "position": "CB", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_003_23", "name": "Mohamed Hilali", "number": 22, "position": "CAM", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_003_24", "name": "Aymane Takoua", "number": 55, "position": "CM", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_003_25", "name": "Houdaifa Jamaane", "number": 19, "position": "CM", "country": "MA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {"penalty": 80, "freeKick": 88, "cornerLeft": 20, "cornerRight": 88}
+    }
   }
-}
