@@ -1,12 +1,58 @@
-{
-  "teamKey": "Mokawl",
+ {
+    "teamKey": "Mokawl",
 
-  "name": "Al Mokawloon Al Arab SC",
+    "name": "Al Mokawloon Al Arab SC",
 
-  "logo": "assets/logos/africa/egypt/Mokawl.png",
+    "logo": "assets/logos/africa/egypt/Mokawl.png",
 
-  "stadium": {
-    "name": "Osman Ahmed Osman Stadium",
-    "capacity": 35000
+    "manager": {
+      "name": "Samy Komsan",
+      "country": "EG"
+    },
+
+    "stadium": {
+      "name": "Osman Ahmed Osman Stadium",
+      "capacity": 35000
+    },
+
+    "players": [
+      {"playerId": "player_eg1_013_01", "name": "Mohamed Abou El Saud", "number": 1, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_013_02", "name": "Khaled Abdel Fattah", "number": 27, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_013_03", "name": "Loay Wael", "number": 5, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_013_04", "name": "Mohamed Ismail Hamed", "number": 3, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_013_05", "name": "Joseph Ochaya", "number": 23, "position": "LB", "country": "UG", "status": "starter"},
+      {"playerId": "player_eg1_013_06", "name": "Omar El Wahsh", "number": 12, "position": "CDM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_013_07", "name": "Islam Gaber", "number": 20, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_013_08", "name": "Mido Gaber", "number": 22, "position": "RW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_013_09", "name": "Ahmed Fouad", "number": 8, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_013_10", "name": "Ahmed Baniowuda", "number": 7, "position": "LW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_013_11", "name": "Shady Hussein", "number": 99, "position": "ST", "country": "EG", "status": "starter"},
+
+      {"playerId": "player_eg1_013_12", "name": "Mohamed El Hadary", "number": 16, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_013_13", "name": "Hossam Hussein", "number": 4, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_013_14", "name": "Nader Hesham", "number": 24, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_013_15", "name": "Ahmed Magdy", "number": 26, "position": "RB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_013_16", "name": "Omar Kamal", "number": 29, "position": "LB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_013_17", "name": "Doko Dodo", "number": 6, "position": "CM", "country": "BJ", "status": "bench"},
+      {"playerId": "player_eg1_013_18", "name": "Mostafa Gamal", "number": 14, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_013_19", "name": "Ahmed Oulad El Bahy", "number": 19, "position": "CAM", "country": "TN", "status": "bench"},
+      {"playerId": "player_eg1_013_20", "name": "Idrissa Niang", "number": 92, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_eg1_013_21", "name": "Mohamed Salem", "number": 9, "position": "ST", "country": "EG", "status": "bench"},
+
+      {"playerId": "player_eg1_013_22", "name": "Mohamed El Omwasy", "number": 18, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_013_23", "name": "Shokry Naguib", "number": 10, "position": "ST", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_013_24", "name": "John Ojera", "number": 25, "position": "RW", "country": "UG", "status": "reserve"},
+      {"playerId": "player_eg1_013_25", "name": "Mohamed Refaat", "number": 17, "position": "LW", "country": "EG", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 12,
+      "setPieces": {
+          "penalty": 99,
+          "freeKick": 8,
+          "cornerLeft": 22,
+          "cornerRight": 20
+        }
+      }
   }
-}
