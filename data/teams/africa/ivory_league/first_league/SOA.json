@@ -1,12 +1,58 @@
-{
-  "teamKey": "Armee",
-
-  "name": "Société Omnisports de l'Armée",
-
-  "logo": "assets/logos/africa/ivory/Arnee.png",
-
-  "stadium": {
-    "name": "Stade Charles Konan Banny",
-    "capacity": 20000
+ {
+    "teamKey": "Armee",
+  
+    "name": "Société Omnisports de l'Armée",
+  
+    "logo": "assets/logos/africa/ivory/Arnee.png",
+  
+    "manager": {
+      "name": "Por definir",
+      "country": "CI"
+    },
+  
+    "stadium": {
+      "name": "Stade Charles Konan Banny",
+      "capacity": 20000
+    },
+  
+    "players": [
+      {"playerId": "player_ci1_010_01", "name": "Donald Bougo", "number": 1, "position": "GK", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_010_02", "name": "Kevin Malo", "number": 2, "position": "RB", "country": "BF", "status": "starter"},
+      {"playerId": "player_ci1_010_03", "name": "Mamadou Banao", "number": 4, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_010_04", "name": "Kareen Samassi", "number": 5, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_010_05", "name": "Mohamed Ali Yabré", "number": 3, "position": "LB", "country": "BF", "status": "starter"},
+      {"playerId": "player_ci1_010_06", "name": "Isaac Cissé", "number": 6, "position": "CDM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_010_07", "name": "Arafat Doumbia", "number": 8, "position": "CM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_010_08", "name": "Rodege N’Dri", "number": 7, "position": "RW", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_010_09", "name": "Bouana Koffi", "number": 10, "position": "CAM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_010_10", "name": "Paul Henri Bah", "number": 11, "position": "LW", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_010_11", "name": "Yaya Sogodogo", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
+  
+      {"playerId": "player_ci1_010_12", "name": "Abib Tapsoba", "number": 12, "position": "GK", "country": "BF", "status": "bench"},
+      {"playerId": "player_ci1_010_13", "name": "Stéphane Ouya", "number": 13, "position": "RB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_010_14", "name": "Amara Traoré", "number": 14, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_010_15", "name": "Moussa Fofana", "number": 15, "position": "LB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_010_16", "name": "Ousmane Bandé", "number": 16, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_010_17", "name": "Toho Arsène Pale", "number": 17, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_010_18", "name": "Pascal Seka", "number": 18, "position": "CAM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_010_19", "name": "Keasse Bah", "number": 19, "position": "RW", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_010_20", "name": "Bakary Soumaré", "number": 20, "position": "ST", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_010_21", "name": "Abdoul Voli Bi", "number": 21, "position": "LW", "country": "CI", "status": "bench"},
+  
+      {"playerId": "player_ci1_010_22", "name": "Gaous Okito", "number": 22, "position": "ST", "country": "CI", "status": "reserve"},
+      {"playerId": "player_ci1_010_23", "name": "Clovis Yao", "number": 23, "position": "RW", "country": "CI", "status": "reserve"},
+      {"playerId": "player_ci1_010_24", "name": "Souleymane Assane", "number": 24, "position": "CB", "country": "CI", "status": "reserve"},
+      {"playerId": "player_ci1_010_25", "name": "Ibrahim Diabate", "number": 25, "position": "CM", "country": "CI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
