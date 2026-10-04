@@ -1,12 +1,58 @@
-{
-  "teamKey": "Trujil",
-
-  "name": "Trujillanos FC",
-
-  "logo": "assets/logos/south_america/venezuela/Trujil.png",
-
-  "stadium": {
-    "name": "Estadio José Alberto Pérez",
-    "capacity": 25000
+ {
+    "teamKey": "Trujil",
+  
+    "name": "Trujillanos FC",
+  
+    "logo": "assets/logos/south_america/venezuela/Trujil.png",
+  
+    "manager": {
+      "name": "Mariano Echeverría",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Estadio José Alberto Pérez",
+      "capacity": 25000
+    },
+  
+    "players": [
+      {"playerId": "player_ve1_011_01", "name": "Osnel García", "number": 12, "position": "GK", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_011_02", "name": "Manuel Granados", "number": 4, "position": "RB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_011_03", "name": "Ezequiel Gnemmi", "number": 6, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ve1_011_04", "name": "Darvis Rodríguez", "number": 8, "position": "CB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_011_05", "name": "José Luis Granados", "number": 3, "position": "LB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_011_06", "name": "Agustín Araujo", "number": 7, "position": "RM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ve1_011_07", "name": "Kevin González", "number": 22, "position": "CM", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_011_08", "name": "Axel Abet", "number": 15, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ve1_011_09", "name": "Leomar Mosquera", "number": 11, "position": "LM", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_011_10", "name": "Franklin González", "number": 20, "position": "ST", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_011_11", "name": "Junior Paredes", "number": 23, "position": "ST", "country": "VE", "status": "starter"},
+  
+      {"playerId": "player_ve1_011_12", "name": "Víctor López", "number": 1, "position": "GK", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_011_13", "name": "Jhonny González", "number": 2, "position": "RB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_011_14", "name": "Mayker González", "number": 33, "position": "LB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_011_15", "name": "Julio Da Silva", "number": 21, "position": "CB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_011_16", "name": "Enderson Abreu", "number": 10, "position": "CM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_011_17", "name": "Jorge Echeverría", "number": 24, "position": "CAM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_011_18", "name": "Nicolás Femia", "number": 14, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ve1_011_19", "name": "Christian Santos", "number": 26, "position": "ST", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_011_20", "name": "Francisco Bareiro", "number": 9, "position": "ST", "country": "PY", "status": "bench"},
+      {"playerId": "player_ve1_011_21", "name": "Álbaro Polo", "number": 17, "position": "ST", "country": "VE", "status": "bench"},
+  
+      {"playerId": "player_ve1_011_22", "name": "Josué Vivas", "number": 5, "position": "CM", "country": "VE", "status": "reserve"},
+      {"playerId": "player_ve1_011_23", "name": "Ricardo Hernández", "number": 16, "position": "CM", "country": "VE", "status": "reserve"},
+      {"playerId": "player_ve1_011_24", "name": "Joantony Carmona", "number": 36, "position": "LM", "country": "VE", "status": "reserve"},
+      {"playerId": "player_ve1_011_25", "name": "Óscar Rojas", "number": 25, "position": "ST", "country": "VE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-4-2",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 23,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
