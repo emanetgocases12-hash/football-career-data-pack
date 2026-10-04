@@ -1,12 +1,58 @@
 {
-  "teamKey": "Zoman",
-
-  "name": "Zoman FC",
-
-  "logo": "assets/logos/africa/ivory/Zoman.png",
-
-  "stadium": {
-    "name": "Complexe Sportif Jesse Jackson",
-    "capacity": 500
+    "teamKey": "Zoman",
+  
+    "name": "Zoman FC",
+  
+    "logo": "assets/logos/africa/ivory/Zoman.png",
+  
+    "manager": {
+      "name": "Por definir",
+      "country": "CI"
+    },
+  
+    "stadium": {
+      "name": "Complexe Sportif Jesse Jackson",
+      "capacity": 500
+    },
+  
+    "players": [
+      {"playerId": "player_ci1_015_01", "name": "Mamadou Sylla", "number": 1, "position": "GK", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_015_02", "name": "Yvon Gozé", "number": 2, "position": "RB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_015_03", "name": "Kouadio Achille Koffi", "number": 4, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_015_04", "name": "Bertand Ibrahim Bationo", "number": 5, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_015_05", "name": "Mohammed Moctar Ouattara", "number": 3, "position": "LB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_015_06", "name": "Nabil Mory Latif Coulibaly", "number": 6, "position": "CDM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_015_07", "name": "Koffi Ange Kouadio", "number": 8, "position": "CM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_015_08", "name": "Romuald Sodji", "number": 7, "position": "CAM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_015_09", "name": "Privat Djessan Bi", "number": 10, "position": "RW", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_015_10", "name": "Kensford Akyeampong", "number": 11, "position": "LW", "country": "GH", "status": "starter"},
+      {"playerId": "player_ci1_015_11", "name": "Aboubacar Konaté", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
+  
+      {"playerId": "player_ci1_015_12", "name": "Lamissa Soro", "number": 12, "position": "GK", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_015_13", "name": "Gohi Eric Botti", "number": 13, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_015_14", "name": "Aristide Djakale", "number": 14, "position": "RB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_015_15", "name": "Allassane Konaté", "number": 15, "position": "LB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_015_16", "name": "Ibrahim Keita", "number": 16, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_015_17", "name": "Jean Christ Yapi", "number": 17, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_015_18", "name": "Khalil Ibrahim Soma", "number": 18, "position": "CDM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_015_19", "name": "Zanetti Diarra", "number": 19, "position": "RW", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_015_20", "name": "Stéphane Ouya", "number": 20, "position": "LW", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_015_21", "name": "Celestin Ecua Ecua", "number": 21, "position": "ST", "country": "TD", "status": "bench"},
+  
+      {"playerId": "player_ci1_015_22", "name": "Ivan Bruno Bado", "number": 22, "position": "CB", "country": "BF", "status": "reserve"},
+      {"playerId": "player_ci1_015_23", "name": "Seydou Alison Bakayoko", "number": 23, "position": "CM", "country": "CI", "status": "reserve"},
+      {"playerId": "player_ci1_015_24", "name": "Maurice Kouamé", "number": 24, "position": "ST", "country": "CI", "status": "reserve"},
+      {"playerId": "player_ci1_015_25", "name": "Khalil Diakité", "number": 25, "position": "RW", "country": "CI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
