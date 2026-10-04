@@ -1,12 +1,41 @@
-{
-  "teamKey": "Plaza C",
+ {
+    "teamKey": "Plaza C",
+    "name": "Club Plaza Colonia",
+    "logo": "assets/logos/south_america/uruguay/PlazaC.png",
+    "manager": {"name": "Juan Ignacio Ayaso", "country": "AR"},
+    "stadium": {"name": "Parque Cincuentenario Juan Gaspar Prandi", "capacity": 3000},
+    "players": [
+      {"playerId": "player_uy2_010_01", "name": "Joaquín Silva", "number": 22, "position": "GK", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_010_02", "name": "Ezequías Redín", "number": 20, "position": "RB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_010_03", "name": "Máximo Lorenzi", "number": 2, "position": "CB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_010_04", "name": "Pablo Adorno", "number": 3, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_uy2_010_05", "name": "Santiago Otegui", "number": 17, "position": "LB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_010_06", "name": "Carlos Pachamé", "number": 5, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_uy2_010_07", "name": "Facundo Píriz", "number": 23, "position": "CM", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_010_08", "name": "Pablo García", "number": 11, "position": "RW", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_010_09", "name": "Miqueas Redín", "number": 6, "position": "CAM", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_010_10", "name": "Valentín Amoroso", "number": 19, "position": "LW", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_010_11", "name": "Michael López", "number": 9, "position": "ST", "country": "AR", "status": "starter"},
 
-  "name": "Club Plaza Colonia",
+      {"playerId": "player_uy2_010_12", "name": "Kevin Morgan", "number": 1, "position": "GK", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_010_13", "name": "Haibrany Ruiz Díaz", "number": 16, "position": "CB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_010_14", "name": "Matías Velázquez", "number": 27, "position": "CB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_010_15", "name": "Diego Ruiz", "number": 33, "position": "RB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_010_16", "name": "Diego Villalba", "number": 8, "position": "CM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_010_17", "name": "Lucas Morgan", "number": 18, "position": "CM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_010_18", "name": "Tomás Escalante", "number": 21, "position": "CM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_010_19", "name": "Lucas Carrizo", "number": 10, "position": "RW", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_010_20", "name": "Hebert Vergara", "number": 7, "position": "RW", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_010_21", "name": "Nicolás González", "number": 30, "position": "ST", "country": "UY", "status": "bench"},
 
-  "logo": "assets/logos/south_america/uruguay/PlazaC.png",
-
-  "stadium": {
-    "name": "Parque Cincuentenario Juan Gaspar Prandi",
-    "capacity": 3000
+      {"playerId": "player_uy2_010_22", "name": "Luciano Barros", "number": 24, "position": "LW", "country": "UY", "status": "reserve"},
+      {"playerId": "player_uy2_010_23", "name": "Facundo Kidd", "number": 13, "position": "LB", "country": "UY", "status": "reserve"},
+      {"playerId": "player_uy2_010_24", "name": "Ignacio Pereira", "number": 29, "position": "LW", "country": "UY", "status": "reserve"},
+      {"playerId": "player_uy2_010_25", "name": "Nahuel Bargas", "number": 14, "position": "ST", "country": "UY", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 23,
+      "setPieces": {"penalty": 9, "freeKick": 6, "cornerLeft": 19, "cornerRight": 11}
+    }
   }
-}
