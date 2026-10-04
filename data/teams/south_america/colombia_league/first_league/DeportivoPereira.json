@@ -1,12 +1,35 @@
 {
   "teamKey": "D.Prra",
-
   "name": "Deportivo Pereira",
-
   "logo": "assets/logos/south_america/colombia/DPrra.png",
-
-  "stadium": {
-    "name": "Santiago de las Atalayas",
-    "capacity": 10000
-  }
+  "manager": {"name": "Arturo Reyes", "country": "CO"},
+  "stadium": {"name": "Santiago de las Atalayas", "capacity": 10000},
+  "players": [
+    {"playerId": "player_co1_010_01", "name": "Yimy Gomez", "number": 1, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_010_02", "name": "Carlos Cruz", "number": 2, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_010_03", "name": "Danilo Ortiz", "number": 6, "position": "CB", "country": "PY", "status": "starter"},
+    {"playerId": "player_co1_010_04", "name": "Santiago Aguilar", "number": 15, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_010_05", "name": "Eber Moreno", "number": 16, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_010_06", "name": "Jorge Bermudez", "number": 5, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_010_07", "name": "Sebastian Acosta", "number": 10, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_010_08", "name": "Ederson Moreno", "number": 14, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_010_09", "name": "Miguel Aguirre", "number": 19, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_010_10", "name": "Miguel Palacios", "number": 24, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_010_11", "name": "Anderson Plata", "number": 7, "position": "ST", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_010_12", "name": "Jorge Martinez", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_010_13", "name": "Jordy Monroy", "number": 20, "position": "CB", "country": "AM", "status": "bench"},
+    {"playerId": "player_co1_010_14", "name": "Walmer Pacheco", "number": 21, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_010_15", "name": "Tobias Bovone", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+    {"playerId": "player_co1_010_16", "name": "Fabio Delgado", "number": 25, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_010_17", "name": "Jhon Montoya", "number": 26, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_010_18", "name": "Josseph Mosquera", "number": 34, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_010_19", "name": "Luis Moreno", "number": 37, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_010_20", "name": "Marco Perez", "number": 18, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_010_21", "name": "Juan Morales", "number": 27, "position": "LW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_010_22", "name": "Felipe Mosquera", "number": 8, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_010_23", "name": "Andres Calderon", "number": 31, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_010_24", "name": "Nicolas Rengifo", "number": 3, "position": "RW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_010_25", "name": "Jared Rodriguez", "number": 40, "position": "LW", "country": "GT", "status": "reserve"}
+  ],
+  "tactics": {"formation": "4-2-3-1", "captain": 1, "setPieces": {"penalty": 7, "freeKick": 14, "cornerLeft": 19, "cornerRight": 24}}
 }
