@@ -1,12 +1,58 @@
-{
-  "teamKey": "Gouna",
+ {
+    "teamKey": "Gouna",
 
-  "name": "El Gouna FC",
+    "name": "El Gouna FC",
 
-  "logo": "assets/logos/africa/egypt/Gouna.png",
+    "logo": "assets/logos/africa/egypt/Gouna.png",
 
-  "stadium": {
-    "name": "Khaled Bichara Stadium",
-    "capacity": 12000
+    "manager": {
+      "name": "Mostafa Bebo",
+      "country": "EG"
+    },
+
+    "stadium": {
+      "name": "Khaled Bichara Stadium",
+      "capacity": 12000
+    },
+
+    "players": [
+      {"playerId": "player_eg1_010_01", "name": "Ahmed Massoud", "number": 1, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_010_02", "name": "Abdel Gawad Ahmed", "number": 2, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_010_03", "name": "Saber El Shimi", "number": 5, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_010_04", "name": "Khaled Sadiq", "number": 3, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_010_05", "name": "Mohamed Metawea", "number": 28, "position": "LB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_010_06", "name": "Omar El Gazar", "number": 13, "position": "CDM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_010_07", "name": "Nour El Sayed", "number": 14, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_010_08", "name": "Michael Egbemba", "number": 42, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_eg1_010_09", "name": "Ahmed Gamal", "number": 70, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_010_10", "name": "Samuel Ojo", "number": 29, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_eg1_010_11", "name": "Marwan Mohsen", "number": 9, "position": "ST", "country": "EG", "status": "starter"},
+
+      {"playerId": "player_eg1_010_12", "name": "Islam Emad", "number": 16, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_010_13", "name": "Ibrahim Abou Salima", "number": 4, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_010_14", "name": "Ahmed Belia", "number": 20, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_010_15", "name": "Mohamed Essam", "number": 34, "position": "RB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_010_16", "name": "Hassan Wael", "number": 37, "position": "LB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_010_17", "name": "Reda Sayed Abdel Salam", "number": 8, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_010_18", "name": "Mohamed Mahmoud", "number": 10, "position": "CAM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_010_19", "name": "Mahmoud Hassouna", "number": 12, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_010_20", "name": "D. Simukonda", "number": 33, "position": "CM", "country": "ZM", "status": "bench"},
+      {"playerId": "player_eg1_010_21", "name": "Ahmed Zaki", "number": 11, "position": "LW", "country": "EG", "status": "bench"},
+
+      {"playerId": "player_eg1_010_22", "name": "Bassem Walid", "number": 99, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_010_23", "name": "Bilal El Sayed", "number": 19, "position": "ST", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_010_24", "name": "Salah Zayed", "number": 27, "position": "RW", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_010_25", "name": "Alpha Toure", "number": 44, "position": "ST", "country": "GN", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 14,
+      "setPieces": {
+          "penalty": 9,
+          "freeKick": 70,
+          "cornerLeft": 29,
+          "cornerRight": 42
+        }
+      }
   }
-}
