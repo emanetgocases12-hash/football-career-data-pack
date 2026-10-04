@@ -1,12 +1,41 @@
-{
-  "teamKey": "Fénix",
+ {
+    "teamKey": "Fénix",
+    "name": "CA Fénix",
+    "logo": "assets/logos/south_america/uruguay/Fenix.png",
+    "manager": {"name": "Carlos Canobbio", "country": "UY"},
+    "stadium": {"name": "Estadio Parque Capurro", "capacity": 5097},
+    "players": [
+      {"playerId": "player_uy2_004_01", "name": "Ernesto Hernández", "number": 12, "position": "GK", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_004_02", "name": "Alan Acevedo", "number": 28, "position": "RB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_004_03", "name": "Lautaro Centurión", "number": 2, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_uy2_004_04", "name": "Guillermo Pereira", "number": 13, "position": "CB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_004_05", "name": "Fabián Píriz", "number": 14, "position": "LB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_004_06", "name": "Ángel Rodríguez", "number": 27, "position": "CDM", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_004_07", "name": "Gonzalo Andrada", "number": 30, "position": "CM", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_004_08", "name": "Axel Pérez", "number": 19, "position": "RW", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_004_09", "name": "Fabricio Fernández", "number": 40, "position": "CAM", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_004_10", "name": "Diego Rosa", "number": 17, "position": "LW", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_004_11", "name": "Heber Colman", "number": 9, "position": "ST", "country": "UY", "status": "starter"},
 
-  "name": "CA Fénix",
+      {"playerId": "player_uy2_004_12", "name": "Nahuel Suárez", "number": 33, "position": "GK", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_004_13", "name": "Bruno Suárez", "number": 3, "position": "CB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_004_14", "name": "Alex Silva", "number": 22, "position": "RB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_004_15", "name": "Jorge González", "number": 20, "position": "LB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_004_16", "name": "Nicolás Prieto", "number": 5, "position": "CDM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_004_17", "name": "Nahuel De Armas", "number": 21, "position": "CM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_004_18", "name": "Esteban González", "number": 44, "position": "RM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_004_19", "name": "Bryan Olivera", "number": 10, "position": "CAM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_004_20", "name": "Lucas Goberville", "number": 32, "position": "LW", "country": "AR", "status": "bench"},
+      {"playerId": "player_uy2_004_21", "name": "Jeremías Silveira", "number": 18, "position": "ST", "country": "UY", "status": "bench"},
 
-  "logo": "assets/logos/south_america/uruguay/Fenix.png",
-
-  "stadium": {
-    "name": "Estadio Parque Capurro",
-    "capacity": 5097
+      {"playerId": "player_uy2_004_22", "name": "Matías Cabrera", "number": 8, "position": "CM", "country": "UY", "status": "reserve"},
+      {"playerId": "player_uy2_004_23", "name": "Enzo Suárez", "number": 31, "position": "CDM", "country": "UY", "status": "reserve"},
+      {"playerId": "player_uy2_004_24", "name": "Eduar Barboza", "number": 11, "position": "RW", "country": "UY", "status": "reserve"},
+      {"playerId": "player_uy2_004_25", "name": "Diago Fernández", "number": 7, "position": "ST", "country": "UY", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 30,
+      "setPieces": {"penalty": 9, "freeKick": 40, "cornerLeft": 17, "cornerRight": 19}
+    }
   }
-}
