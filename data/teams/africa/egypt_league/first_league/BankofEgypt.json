@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bn Ahly",
+    "teamKey": "Bn Ahly",
 
-  "name": "National Bank of Egypt SC",
+    "name": "National Bank of Egypt SC",
 
-  "logo": "assets/logos/africa/egypt/BnAhly.png",
+    "logo": "assets/logos/africa/egypt/BnAhly.png",
 
-  "stadium": {
-    "name": "Cairo International Stadium",
-    "capacity": 75000
+    "manager": {
+      "name": "Ayman El Ramadi",
+      "country": "EG"
+    },
+
+    "stadium": {
+      "name": "Cairo International Stadium",
+      "capacity": 75000
+    },
+
+    "players": [
+      {"playerId": "player_eg1_004_01", "name": "Abdelaziz El Balouty", "number": 27, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_004_02", "name": "Hesham Salah", "number": 7, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_004_03", "name": "Mohamed Nasr", "number": 2, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_004_04", "name": "Mahmoud El Gazzar", "number": 6, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_004_05", "name": "Ahmed Meteb", "number": 12, "position": "LB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_004_06", "name": "Ali Hamdy", "number": 14, "position": "CDM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_004_07", "name": "Rashad Metwaly", "number": 8, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_004_08", "name": "Yao Anor", "number": 30, "position": "RW", "country": "GH", "status": "starter"},
+      {"playerId": "player_eg1_004_09", "name": "Ahmed Madbouly", "number": 21, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_004_10", "name": "Mostafa Shalaby", "number": 11, "position": "LW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_004_11", "name": "Osama Faisal", "number": 9, "position": "ST", "country": "EG", "status": "starter"},
+
+      {"playerId": "player_eg1_004_12", "name": "Ahmed Sobhy Afifi", "number": 1, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_004_13", "name": "Alpha Boubacar Keita", "number": 3, "position": "CB", "country": "GN", "status": "bench"},
+      {"playerId": "player_eg1_004_14", "name": "Amir Medhat", "number": 20, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_004_15", "name": "Hatem Mohamed Sokar", "number": 28, "position": "LB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_004_16", "name": "C. Dao", "number": 33, "position": "RB", "country": "BF", "status": "bench"},
+      {"playerId": "player_eg1_004_17", "name": "Sayed Mohamed Neymar", "number": 10, "position": "RW", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_004_18", "name": "Mody Nasser", "number": 17, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_004_19", "name": "Salah Bouchama", "number": 19, "position": "CM", "country": "DZ", "status": "bench"},
+      {"playerId": "player_eg1_004_20", "name": "Mostafa Dowidar", "number": 24, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_004_21", "name": "Ahmed Yasser Rayan", "number": 29, "position": "ST", "country": "EG", "status": "bench"},
+
+      {"playerId": "player_eg1_004_22", "name": "Ahmed Tarek Soliman", "number": 31, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_004_23", "name": "Anderson Ceara", "number": 22, "position": "RW", "country": "BR", "status": "reserve"},
+      {"playerId": "player_eg1_004_24", "name": "Ahmed Amin Oufa", "number": 23, "position": "ST", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_004_25", "name": "Mohamed Reda", "number": 70, "position": "CAM", "country": "EG", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 14,
+      "setPieces": {
+          "penalty": 9,
+          "freeKick": 21,
+          "cornerLeft": 11,
+          "cornerRight": 30
+        }
+      }
   }
-}
