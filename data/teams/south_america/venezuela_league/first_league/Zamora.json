@@ -1,12 +1,58 @@
-{
-  "teamKey": "Zamora",
-
-  "name": "Zamora FC",
-
-  "logo": "assets/logos/south_america/venezuela/Zamora.png",
-
-  "stadium": {
-    "name": "Estadio Agustín Tovar",
-    "capacity": 29800
+ {
+    "teamKey": "Zamora",
+  
+    "name": "Zamora FC",
+  
+    "logo": "assets/logos/south_america/venezuela/Zamora.png",
+  
+    "manager": {
+      "name": "Josué Ortiz",
+      "country": "VE"
+    },
+  
+    "stadium": {
+      "name": "Estadio Agustín Tovar",
+      "capacity": 29800
+    },
+  
+    "players": [
+      {"playerId": "player_ve1_013_01", "name": "Beycker Velázquez", "number": 1, "position": "GK", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_013_02", "name": "Junior Moreno", "number": 2, "position": "RB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_013_03", "name": "Brayan Rodríguez", "number": 4, "position": "CB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_013_04", "name": "Néstor Jiménez", "number": 5, "position": "CB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_013_05", "name": "Jean Madera", "number": 22, "position": "LB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_013_06", "name": "Kevin Palacios", "number": 6, "position": "RM", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_013_07", "name": "Arles Flores", "number": 8, "position": "CM", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_013_08", "name": "Cristian Díaz", "number": 27, "position": "CM", "country": "CO", "status": "starter"},
+      {"playerId": "player_ve1_013_09", "name": "Freddy Espinal", "number": 11, "position": "LM", "country": "CO", "status": "starter"},
+      {"playerId": "player_ve1_013_10", "name": "José Sinisterra", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+      {"playerId": "player_ve1_013_11", "name": "Marco Bustillo", "number": 19, "position": "ST", "country": "VE", "status": "starter"},
+  
+      {"playerId": "player_ve1_013_12", "name": "Eduard Paredes", "number": 12, "position": "GK", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_013_13", "name": "Anthony Matos", "number": 15, "position": "CB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_013_14", "name": "Julio Patiño", "number": 3, "position": "CB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_013_15", "name": "Santiago Gómez", "number": 24, "position": "CB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_013_16", "name": "Héctor Manrique", "number": 23, "position": "LB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_013_17", "name": "Sergio Sulbarán", "number": 14, "position": "CM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_013_18", "name": "Nicol Martínez", "number": 30, "position": "CAM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_013_19", "name": "Richard Celis", "number": 7, "position": "LW", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_013_20", "name": "Erickson Gallardo", "number": 16, "position": "RW", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_013_21", "name": "José Flores", "number": 18, "position": "ST", "country": "VE", "status": "bench"},
+  
+      {"playerId": "player_ve1_013_22", "name": "Juan Valencia", "number": 20, "position": "CM", "country": "CO", "status": "reserve"},
+      {"playerId": "player_ve1_013_23", "name": "Gustavo Rojas", "number": 10, "position": "CAM", "country": "VE", "status": "reserve"},
+      {"playerId": "player_ve1_013_24", "name": "Kevin Armesto", "number": 21, "position": "ST", "country": "CO", "status": "reserve"},
+      {"playerId": "player_ve1_013_25", "name": "Andrés Castillo", "number": 26, "position": "ST", "country": "VE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-4-2",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 27,
+        "cornerLeft": 11,
+        "cornerRight": 27
+      }
+    }
   }
-}
