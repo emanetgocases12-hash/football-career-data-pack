@@ -1,12 +1,35 @@
 {
   "teamKey": "I'Medel",
-
   "name": "Independiente Medellín",
-
   "logo": "assets/logos/south_america/colombia/IMedel.png",
-
-  "stadium": {
-    "name": "Estadio Atanasio Girardot",
-    "capacity": 45943
-  }
+  "manager": {"name": "Luis Amaranto Perea", "country": "CO"},
+  "stadium": {"name": "Estadio Atanasio Girardot", "capacity": 45943},
+  "players": [
+    {"playerId": "player_co1_012_01", "name": "Salvador Ichazo", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+    {"playerId": "player_co1_012_02", "name": "Kevin Mantilla", "number": 4, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_012_03", "name": "Joaquin Varela", "number": 5, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_co1_012_04", "name": "Jhan Mena", "number": 13, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_012_05", "name": "Luis Maturana", "number": 15, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_012_06", "name": "Didier Moreno", "number": 6, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_012_07", "name": "Leider Berrio", "number": 7, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_012_08", "name": "Juan Fernando Quintero", "number": 8, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_012_09", "name": "Daniel Catano", "number": 10, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_012_10", "name": "Baldomero Perlaza", "number": 14, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_012_11", "name": "Enzo Larrosa", "number": 9, "position": "ST", "country": "UY", "status": "starter"},
+    {"playerId": "player_co1_012_12", "name": "Simon Romero", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_012_13", "name": "Frank Fabra", "number": 18, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_012_14", "name": "Alfonso Simarra", "number": 19, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_012_15", "name": "Esneyder Mena", "number": 26, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_012_16", "name": "Jaidinson Cordoba", "number": 27, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_012_17", "name": "Halam Loboa", "number": 16, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_012_18", "name": "Agustin Martegani", "number": 21, "position": "CAM", "country": "AR", "status": "bench"},
+    {"playerId": "player_co1_012_19", "name": "Diego Moreno", "number": 31, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_012_20", "name": "Jeison Medina", "number": 11, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_012_21", "name": "Yony Gonzalez", "number": 17, "position": "LW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_012_22", "name": "Keiner Klinger", "number": 34, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_012_23", "name": "Geronimo Mancilla", "number": 20, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_012_24", "name": "John Montano", "number": 23, "position": "RW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_012_25", "name": "Juan Cordoba", "number": 70, "position": "LW", "country": "CO", "status": "reserve"}
+  ],
+  "tactics": {"formation": "4-2-3-1", "captain": 8, "setPieces": {"penalty": 9, "freeKick": 8, "cornerLeft": 10, "cornerRight": 14}}
 }
