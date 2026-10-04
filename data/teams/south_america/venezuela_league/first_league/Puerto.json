@@ -1,12 +1,58 @@
 {
-  "teamKey": "Puerto",
-
-  "name": "Academia Puerto Cabello",
-
-  "logo": "assets/logos/south_america/venezuela/Puerto.png",
-
-  "stadium": {
-    "name": "Complejo Deportivo Vistamar",
-    "capacity": 8000
+    "teamKey": "Puerto",
+  
+    "name": "Academia Puerto Cabello",
+  
+    "logo": "assets/logos/south_america/venezuela/Puerto.png",
+  
+    "manager": {
+      "name": "Eduardo Saragó",
+      "country": "VE"
+    },
+  
+    "stadium": {
+      "name": "Complejo Deportivo Vistamar",
+      "capacity": 8000
+    },
+  
+    "players": [
+      {"playerId": "player_ve1_009_01", "name": "Joel Graterol", "number": 1, "position": "GK", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_009_02", "name": "Jefre Vargas", "number": 29, "position": "RB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_009_03", "name": "Jiovany Ramos", "number": 26, "position": "CB", "country": "PA", "status": "starter"},
+      {"playerId": "player_ve1_009_04", "name": "Gerónimo Bortagaray", "number": 14, "position": "CB", "country": "UY", "status": "starter"},
+      {"playerId": "player_ve1_009_05", "name": "Roberto Rosales", "number": 16, "position": "LB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_009_06", "name": "Gustavo González", "number": 5, "position": "CDM", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_009_07", "name": "Junior Moreno", "number": 8, "position": "CM", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_009_08", "name": "Jean Franco Castillo", "number": 19, "position": "RW", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_009_09", "name": "Jhon Marchán", "number": 20, "position": "CAM", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_009_10", "name": "Robinson Flores", "number": 70, "position": "LW", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_009_11", "name": "Edwuin Pernía", "number": 11, "position": "ST", "country": "VE", "status": "starter"},
+  
+      {"playerId": "player_ve1_009_12", "name": "Eduardo Herrera", "number": 12, "position": "GK", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_009_13", "name": "Geremías Meléndez", "number": 44, "position": "CB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_009_14", "name": "Heiber Linares", "number": 27, "position": "LB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_009_15", "name": "Luis Casiani", "number": 30, "position": "RB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_009_16", "name": "Pablo Lima", "number": 6, "position": "CDM", "country": "UY", "status": "bench"},
+      {"playerId": "player_ve1_009_17", "name": "Daniel Saggiomo", "number": 15, "position": "CAM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_009_18", "name": "Jayson Martínez", "number": 17, "position": "LW", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_009_19", "name": "José Hernández Chávez", "number": 31, "position": "CM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_009_20", "name": "Andrés Ponce", "number": 9, "position": "ST", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_009_21", "name": "Diego Osorio", "number": 28, "position": "ST", "country": "VE", "status": "bench"},
+  
+      {"playerId": "player_ve1_009_22", "name": "José Velázquez", "number": 4, "position": "CB", "country": "VE", "status": "reserve"},
+      {"playerId": "player_ve1_009_23", "name": "Giovani Bamba", "number": 47, "position": "CM", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ve1_009_24", "name": "Musa Isah", "number": 77, "position": "CM", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ve1_009_25", "name": "João Barros", "number": 7, "position": "RW", "country": "PT", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 16,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 70,
+        "cornerLeft": 70,
+        "cornerRight": 20
+      }
+    }
   }
-}
