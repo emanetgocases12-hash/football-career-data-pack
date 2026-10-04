@@ -1,12 +1,52 @@
 {
-  "teamKey": "Redond",
-
-  "name": "Redonda FC",
-
-  "logo": "assets/logos/africa/angola/Redond.png",
-
-  "stadium": {
-    "name": "Estádio Municipal do Dande",
-    "capacity": 5000
+    "teamKey": "Redond",
+    "name": "Redonda FC",
+    "logo": "assets/logos/africa/angola/Redond.png",
+    "manager": {
+      "name": "Bula",
+      "country": "AO"
+    },
+    "stadium": {
+      "name": "Estádio Municipal do Dande",
+      "capacity": 5000
+    },
+    "players": [
+      {"playerId": "player_ao1_013_01", "name": "Gugú", "number": 1, "position": "GK", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_013_02", "name": "Oliveira Dabanda", "number": 7, "position": "RB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_013_03", "name": "Tomásio Jorge", "number": 2, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_013_04", "name": "Gilson Kibuco", "number": 4, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_013_05", "name": "Manú", "number": 13, "position": "LB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_013_06", "name": "Vado Malungo", "number": 6, "position": "CDM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_013_07", "name": "Barreiro", "number": 17, "position": "CM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_013_08", "name": "Jojó Bicho", "number": 20, "position": "CAM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_013_09", "name": "Denny Dez", "number": 32, "position": "RW", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_013_10", "name": "Tobete Biter", "number": 19, "position": "ST", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_013_11", "name": "Kenera", "number": 14, "position": "LW", "country": "AO", "status": "starter"},
+  
+      {"playerId": "player_ao1_013_12", "name": "Mananga da Silva", "number": 22, "position": "GK", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_013_13", "name": "Capela Junior", "number": 15, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_013_14", "name": "Caetano Gomes", "number": 21, "position": "LB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_013_15", "name": "Vadinho Alonso", "number": 5, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_013_16", "name": "Mantimo", "number": 8, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_013_17", "name": "Etelvino Garcia", "number": 18, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_013_18", "name": "Ti Bobo", "number": 25, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_013_19", "name": "Mestre Muana", "number": 16, "position": "RW", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_013_20", "name": "Simão", "number": 29, "position": "ST", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_013_21", "name": "Sueco", "number": 36, "position": "CM", "country": "AO", "status": "bench"},
+  
+      {"playerId": "player_ao1_013_22", "name": "Adérito José Mirelson", "number": 34, "position": "GK", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_013_23", "name": "Josemar", "number": 33, "position": "CB", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_013_24", "name": "Prado", "number": 40, "position": "RB", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_013_25", "name": "Jorge Zua", "number": 26, "position": "ST", "country": "AO", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 17,
+        "cornerLeft": 20,
+        "cornerRight": 20
+      }
+    }
   }
-}
