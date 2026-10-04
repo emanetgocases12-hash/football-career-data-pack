@@ -1,12 +1,52 @@
 {
-  "teamKey": "Petro",
-
-  "name": "Petro de Luanda",
-
-  "logo": "assets/logos/africa/angola/Petro.png",
-
-  "stadium": {
-    "name": "Estádio 11 de Novembro",
-    "capacity": 50000
+    "teamKey": "Petro",
+    "name": "Petro de Luanda",
+    "logo": "assets/logos/africa/angola/Petro.png",
+    "manager": {
+      "name": "João Pedro Sousa",
+      "country": "PT"
+    },
+    "stadium": {
+      "name": "Estádio 11 de Novembro",
+      "capacity": 50000
+    },
+    "players": [
+      {"playerId": "player_ao1_012_01", "name": "Hugo Marques", "number": 1, "position": "GK", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_012_02", "name": "Eddie Afonso", "number": 25, "position": "RB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_012_03", "name": "Rúben Adérito", "number": 4, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_012_04", "name": "Léo Bolgado", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_ao1_012_05", "name": "Núrio Fortuna", "number": 2, "position": "LB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_012_06", "name": "Deybi Flores", "number": 12, "position": "CDM", "country": "HN", "status": "starter"},
+      {"playerId": "player_ao1_012_07", "name": "Mário Balbúrdia", "number": 6, "position": "CM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_012_08", "name": "Jonathan Toro", "number": 8, "position": "CAM", "country": "HN", "status": "starter"},
+      {"playerId": "player_ao1_012_09", "name": "Hélder Costa", "number": 11, "position": "RW", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_012_10", "name": "Lucas João", "number": 9, "position": "ST", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_012_11", "name": "Ivan Cavaleiro", "number": 7, "position": "LW", "country": "AO", "status": "starter"},
+  
+      {"playerId": "player_ao1_012_12", "name": "Neblú", "number": 22, "position": "GK", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_012_13", "name": "António Hossi", "number": 27, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_012_14", "name": "Vidinho", "number": 18, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_012_15", "name": "Kinito", "number": 24, "position": "RB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_012_16", "name": "Berna", "number": 13, "position": "LB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_012_17", "name": "Jorge Pereira", "number": 20, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_012_18", "name": "Pedro Aparício", "number": 10, "position": "CAM", "country": "PT", "status": "bench"},
+      {"playerId": "player_ao1_012_19", "name": "Tiago Reis", "number": 23, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_ao1_012_20", "name": "Tiago Azulão", "number": 26, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_ao1_012_21", "name": "Depú", "number": 29, "position": "ST", "country": "AO", "status": "bench"},
+  
+      {"playerId": "player_ao1_012_22", "name": "Agostinho Calunga", "number": 30, "position": "GK", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_012_23", "name": "Lourenço Didissa", "number": 31, "position": "CB", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_012_24", "name": "Vanilson", "number": 17, "position": "RW", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_012_25", "name": "Ilídio Panda", "number": 33, "position": "LW", "country": "AO", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 6,
+        "cornerLeft": 8,
+        "cornerRight": 8
+      }
+    }
   }
-}
