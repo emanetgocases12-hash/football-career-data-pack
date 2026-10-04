@@ -1,12 +1,35 @@
 {
   "teamKey": "Cucuta",
-
   "name": "Cúcuta Deportivo",
-
   "logo": "assets/logos/south_america/colombia/Cucuta.png",
-
-  "stadium": {
-    "name": "Estadio General Santander",
-    "capacity": 42901
-  }
+  "manager": {"name": "Nicolas Chiesa", "country": "AR"},
+  "stadium": {"name": "Estadio General Santander", "capacity": 42901},
+  "players": [
+    {"playerId": "player_co1_008_01", "name": "Juan David Ramirez", "number": 1, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_008_02", "name": "Hernan Ezequiel Lopes", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+    {"playerId": "player_co1_008_03", "name": "Diego Calcaterra", "number": 3, "position": "CB", "country": "AR", "status": "starter"},
+    {"playerId": "player_co1_008_04", "name": "Leison Ochoa", "number": 17, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_008_05", "name": "Samir Mayo", "number": 23, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_008_06", "name": "Victor Mejia", "number": 5, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_008_07", "name": "Jader Manyoma", "number": 7, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_008_08", "name": "Juan Ceballos", "number": 8, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_008_09", "name": "Leider Berdugo", "number": 10, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_008_10", "name": "Gustavo Torres", "number": 11, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_008_11", "name": "Jaime Peralta", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_008_12", "name": "Diego Munoz", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_008_13", "name": "Joao Abonia", "number": 26, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_008_14", "name": "Mauricio Duarte", "number": 27, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_008_15", "name": "Brayan Montano", "number": 30, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_008_16", "name": "Jhon Quinones", "number": 4, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_008_17", "name": "Breyner Rodriguez", "number": 13, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_008_18", "name": "Santiago Vasquez", "number": 15, "position": "CAM", "country": "AR", "status": "bench"},
+    {"playerId": "player_co1_008_19", "name": "Kevin Londono", "number": 16, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_008_20", "name": "Kevin Tamayo", "number": 14, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_008_21", "name": "Dayan Perez", "number": 20, "position": "LW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_008_22", "name": "Jesus Diaz", "number": 31, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_008_23", "name": "Marlon Carabali", "number": 21, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_008_24", "name": "Lucas Rios", "number": 29, "position": "RW", "country": "AR", "status": "reserve"},
+    {"playerId": "player_co1_008_25", "name": "Jhonatan Agudelo", "number": 32, "position": "LW", "country": "CO", "status": "reserve"}
+  ],
+  "tactics": {"formation": "4-2-3-1", "captain": 1, "setPieces": {"penalty": 9, "freeKick": 8, "cornerLeft": 10, "cornerRight": 11}}
 }
