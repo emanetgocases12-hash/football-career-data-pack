@@ -1,12 +1,46 @@
-{
-  "teamKey": "Mathar",
-
-  "name": "Mathare United",
-
-  "logo": "assets/logos/africa/kenya/Mathar.png",
-
-  "stadium": {
-    "name": "Kasarani Annex",
-    "capacity":5000
+ {
+    "teamKey": "Mathar",
+    "name": "Mathare United",
+    "logo": "assets/logos/africa/kenya/Mathar.png",
+    "manager": {"name": "David Ouma", "country": "KE"},
+    "stadium": {"name": "Kasarani Annex", "capacity": 5000},
+    "players": [
+      {"playerId": "player_ke1_011_01", "name": "Simon Mwambogha Masaka", "number": 39, "position": "GK", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_011_02", "name": "Evans Senior Maliach Makari", "number": 26, "position": "RB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_011_03", "name": "Daniel Mukok Odhiambo", "number": 5, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_011_04", "name": "Centric Atsango", "number": 15, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_011_05", "name": "Dennis Nganga Njire", "number": 22, "position": "LB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_011_06", "name": "Ambrose Sifuna", "number": 6, "position": "CDM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_011_07", "name": "Joshua Nyatini", "number": 11, "position": "CM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_011_08", "name": "Victor Ochami Omune", "number": 33, "position": "CAM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_011_09", "name": "Ateek Zubeir Said Omar", "number": 7, "position": "RW", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_011_10", "name": "Francis Kahiro", "number": 18, "position": "ST", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_011_11", "name": "David Simiyu", "number": 29, "position": "LW", "country": "KE", "status": "starter"},
+  
+      {"playerId": "player_ke1_011_12", "name": "Wyclifford Oduor", "number": 30, "position": "GK", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_011_13", "name": "Elvis Ronack Otieno", "number": 24, "position": "RB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_011_14", "name": "Eugene Mukangula", "number": 4, "position": "CB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_011_15", "name": "Cetric Asango", "number": 3, "position": "LB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_011_16", "name": "Kent Wanyama", "number": 13, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_011_17", "name": "Micheal Kyalo", "number": 10, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_011_18", "name": "Christopher Oruchum", "number": 14, "position": "CAM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_011_19", "name": "Alex Warai", "number": 8, "position": "RM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_011_20", "name": "Adams Nyambane", "number": 9, "position": "ST", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_011_21", "name": "John Makwata", "number": 25, "position": "ST", "country": "KE", "status": "bench"},
+  
+      {"playerId": "player_ke1_011_22", "name": "Daniel W Odiwour", "number": 35, "position": "GK", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_011_23", "name": "Isaac Omweri", "number": 17, "position": "CAM", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_011_24", "name": "Musa Masika", "number": 20, "position": "RW", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_011_25", "name": "Glenn Odhiambo", "number": 21, "position": "CM", "country": "KE", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 33,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
