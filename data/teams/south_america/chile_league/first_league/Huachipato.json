@@ -1,12 +1,58 @@
 {
-  "teamKey": "Huachi",
-
-  "name": "CD Huachipato",
-
-  "logo": "assets/logos/south_america/chili/Huachi.png",
-
-  "stadium": {
-    "name": "Huachipato-CAP Acero",
-    "capacity": 10032
+    "teamKey": "Huachi",
+  
+    "name": "CD Huachipato",
+  
+    "logo": "assets/logos/south_america/chili/Huachi.png",
+  
+    "manager": {
+      "name": "Jaime García",
+      "country": "CL"
+    },
+  
+    "stadium": {
+      "name": "Huachipato-CAP Acero",
+      "capacity": 10032
+    },
+  
+    "players": [
+      {"playerId": "player_cl1_012_01", "name": "Sebastián Mella", "number": 1, "position": "GK", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_012_02", "name": "Rafael Caroca", "number": 5, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_012_03", "name": "Nicolás Guaiquil", "number": 2, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_012_04", "name": "Benjamín Mellado", "number": 3, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_012_05", "name": "Claudio Toro", "number": 20, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_012_06", "name": "Claudio Sepúlveda", "number": 6, "position": "CDM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_012_07", "name": "Emiliano Cañete", "number": 10, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_012_08", "name": "Maximiliano Rodríguez", "number": 15, "position": "CAM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_012_09", "name": "Cris Martínez", "number": 23, "position": "RW", "country": "PY", "status": "starter"},
+      {"playerId": "player_cl1_012_10", "name": "Lionel Altamirano", "number": 9, "position": "ST", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_012_11", "name": "Leandro Arriagada", "number": 16, "position": "LW", "country": "CL", "status": "starter"},
+  
+      {"playerId": "player_cl1_012_12", "name": "Christian Bravo", "number": 12, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_012_13", "name": "Lucas Velásquez", "number": 27, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_012_14", "name": "Patricio Vargas", "number": 8, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_012_15", "name": "Maximiliano León", "number": 24, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_012_16", "name": "Martín Osorio", "number": 36, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_012_17", "name": "Benjamín Ampuero", "number": 18, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_012_18", "name": "Carlos Herrera", "number": 21, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_012_19", "name": "Javier Cárcamo", "number": 22, "position": "CAM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_012_20", "name": "Jimmy Martínez", "number": 11, "position": "ST", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_012_21", "name": "Misael Briceño", "number": 7, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl1_012_22", "name": "Rodrigo Odriozola", "number": 25, "position": "GK", "country": "UY", "status": "reserve"},
+      {"playerId": "player_cl1_012_23", "name": "Kevin Altez", "number": 30, "position": "CM", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_012_24", "name": "Sebastián Núñez", "number": 19, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_012_25", "name": "Hernán Antinirre", "number": 26, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 15,
+        "cornerLeft": 10,
+        "cornerRight": 15
+      }
+    }
   }
-}
