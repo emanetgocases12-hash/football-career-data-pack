@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/south_america/peru/SBA.png",
 
+  "manager": {
+    "name": "Carlos Desio",
+    "country": "AR"
+  },
+
   "stadium": {
     "name": "Estadio Miguel Grau",
     "capacity": 17000
+  },
+
+  "players": [
+    {"playerId": "player_pe1_012_01", "name": "Steven Rivadeneyra", "number": 1, "position": "GK", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_012_02", "name": "Carlos Zambrano", "number": 2, "position": "RB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_012_03", "name": "Emilio Saba", "number": 3, "position": "CB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_012_04", "name": "Gustavo Dulanto", "number": 4, "position": "CB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_012_05", "name": "Hansell Riojas", "number": 5, "position": "LB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_012_06", "name": "Augusto Solís", "number": 6, "position": "CDM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_012_07", "name": "Erick Gonzales", "number": 7, "position": "CM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_012_08", "name": "Federico Illanes", "number": 8, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_pe1_012_09", "name": "Yuriel Celi", "number": 9, "position": "RW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_012_10", "name": "Christian Cueva", "number": 10, "position": "LW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_012_11", "name": "Pablo Erustes", "number": 11, "position": "ST", "country": "AR", "status": "starter"},
+
+    {"playerId": "player_pe1_012_12", "name": "Diego Melián", "number": 12, "position": "GK", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_012_13", "name": "Miguel Trauco", "number": 13, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_012_14", "name": "Nilson Loyola", "number": 14, "position": "RB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_012_15", "name": "Oslimg Mora", "number": 15, "position": "LB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_012_16", "name": "Renzo Alfani", "number": 16, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_012_17", "name": "Hernán Da Campo", "number": 17, "position": "CM", "country": "AR", "status": "bench"},
+    {"playerId": "player_pe1_012_18", "name": "Nicolás Paz", "number": 18, "position": "CAM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_012_19", "name": "Jostin Alarcón", "number": 19, "position": "RM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_012_20", "name": "Luis Urruti", "number": 20, "position": "LW", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_012_21", "name": "Carlos Liza", "number": 21, "position": "RW", "country": "PE", "status": "bench"},
+
+    {"playerId": "player_pe1_012_22", "name": "Alexis Huamán", "number": 22, "position": "ST", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_012_23", "name": "José Davey", "number": 23, "position": "LW", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_012_24", "name": "Rolando Diaz", "number": 24, "position": "RW", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_012_25", "name": "Baruj Aburto", "number": 25, "position": "ST", "country": "PE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 7,
+      "cornerLeft": 8,
+      "cornerRight": 9
+    }
   }
 }
