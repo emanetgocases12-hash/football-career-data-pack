@@ -1,12 +1,58 @@
 {
-  "teamKey": "Libert",
+    "teamKey": "Libert",
 
-  "name": "Club Libertad Asunción",
+    "name": "Club Libertad Asunción",
 
-  "logo": "assets/logos/south_america/paraguay/Libert.png",
+    "logo": "assets/logos/south_america/paraguay/Libert.png",
 
-  "stadium": {
-    "name": "Estadio La Huerta",
-    "capacity": 10000
+    "manager": {
+      "name": "Juan Samudio",
+      "country": "PY"
+    },
+
+    "stadium": {
+      "name": "Estadio La Huerta",
+      "capacity": 10000
+    },
+
+    "players": [
+      {"playerId": "player_py1_006_01", "name": "Rodrigo Morínigo", "number": 12, "position": "GK", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_006_02", "name": "Alan Benítez", "number": 15, "position": "RB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_006_03", "name": "Robert Rojas", "number": 3, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_006_04", "name": "Nicolás Freire", "number": 5, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_py1_006_05", "name": "Néstor Giménez", "number": 4, "position": "LB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_006_06", "name": "Álvaro Campuzano", "number": 6, "position": "CDM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_006_07", "name": "Lucas Sanabria", "number": 21, "position": "CM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_006_08", "name": "Matías Rojas", "number": 7, "position": "CAM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_006_09", "name": "Rodrigo Villalba", "number": 24, "position": "RW", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_006_10", "name": "Marcelo Fernández", "number": 28, "position": "LW", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_006_11", "name": "Lorenzo Melgarejo", "number": 10, "position": "ST", "country": "PY", "status": "starter"},
+
+      {"playerId": "player_py1_006_12", "name": "Ángel González", "number": 25, "position": "GK", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_006_13", "name": "Thiago Fernández", "number": 31, "position": "CB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_006_14", "name": "Santiago Delvalle", "number": 32, "position": "CB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_006_15", "name": "Matías Espinoza", "number": 17, "position": "LB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_006_16", "name": "Estiven Villalba", "number": 34, "position": "RB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_006_17", "name": "Hernesto Caballero", "number": 26, "position": "CDM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_006_18", "name": "Agustín Manzur", "number": 8, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_py1_006_19", "name": "Amín Molinas", "number": 27, "position": "CM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_006_20", "name": "Gustavo Aguilar", "number": 11, "position": "ST", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_006_21", "name": "Rodrigo Acuña", "number": 30, "position": "ST", "country": "PY", "status": "bench"},
+
+      {"playerId": "player_py1_006_22", "name": "Victor Rojas", "number": 29, "position": "GK", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_006_23", "name": "Christian Martínez", "number": 33, "position": "CM", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_006_24", "name": "Roque Santa Cruz", "number": 9, "position": "ST", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_006_25", "name": "Marcelo Caballero", "number": 20, "position": "RW", "country": "PY", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 12,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 24
+      }
+    }
   }
-}
