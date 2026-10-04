@@ -1,12 +1,58 @@
 {
-  "teamKey": "Catoli",
-
-  "name": "CD Universidad Católica",
-
-  "logo": "assets/logos/south_america/chili/Catoli.png",
-
-  "stadium": {
-    "name": "Claro Arena - San Carlos de Apoquindo",
-    "capacity": 20249
+    "teamKey": "Catoli",
+  
+    "name": "CD Universidad Católica",
+  
+    "logo": "assets/logos/south_america/chili/Catoli.png",
+  
+    "manager": {
+      "name": "Daniel Garnero",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Claro Arena - San Carlos de Apoquindo",
+      "capacity": 20249
+    },
+  
+    "players": [
+      {"playerId": "player_cl1_016_01", "name": "Vicente Bernedo", "number": 1, "position": "GK", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_016_02", "name": "Branco Ampuero", "number": 19, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_016_03", "name": "Tomás Asta-Buruaga", "number": 23, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_016_04", "name": "Benjamín González", "number": 2, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_016_05", "name": "Eugenio Mena", "number": 3, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_016_06", "name": "Alfred Canales", "number": 13, "position": "CDM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_016_07", "name": "Agustín Farías", "number": 5, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_016_08", "name": "Juan Giani", "number": 7, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_016_09", "name": "Fernando Zampedri", "number": 9, "position": "RW", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_016_10", "name": "Clemente Montes", "number": 11, "position": "ST", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_016_11", "name": "Diego Valencia", "number": 30, "position": "LW", "country": "CL", "status": "starter"},
+  
+      {"playerId": "player_cl1_016_12", "name": "Francisco Valdés", "number": 12, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_016_13", "name": "Gary Medel", "number": 17, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_016_14", "name": "Branco Cerezo", "number": 28, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_016_15", "name": "Jhojan Valencia", "number": 20, "position": "LB", "country": "CO", "status": "bench"},
+      {"playerId": "player_cl1_016_16", "name": "Cristián Cuevas", "number": 15, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_016_17", "name": "Julián Martínez", "number": 14, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_016_18", "name": "Matías Palavecino", "number": 10, "position": "CDM", "country": "AR", "status": "bench"},
+      {"playerId": "player_cl1_016_19", "name": "Fernando Zuqui", "number": 8, "position": "CAM", "country": "AR", "status": "bench"},
+      {"playerId": "player_cl1_016_20", "name": "Nicolás Girón", "number": 38, "position": "ST", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_016_21", "name": "Amaro Pérez", "number": 43, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl1_016_22", "name": "Diego Melo", "number": 27, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_016_23", "name": "Mauro Gómez", "number": 22, "position": "CM", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_016_24", "name": "Nicolás Pino", "number": 42, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_016_25", "name": "Damián Corral", "number": 25, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 23,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 7,
+        "cornerLeft": 5,
+        "cornerRight": 7
+      }
+    }
   }
-}
