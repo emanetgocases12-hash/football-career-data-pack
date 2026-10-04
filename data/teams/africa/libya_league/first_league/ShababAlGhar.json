@@ -1,12 +1,44 @@
 {
-  "teamKey": "Ghar",
-
-  "name": "Shabab Al Ghar",
-
-  "logo": "assets/logos/africa/libya/Ghar.png",
-
-  "stadium": {
-    "name": "Great Man Made River Stadium",
-    "capacity": 20000
+    "teamKey": "Ghar",
+    "name": "Shabab Al Ghar",
+    "logo": "assets/logos/africa/libya/Ghar.png",
+    "manager": {"name": "Fouad Shgwara", "country": "LY"},
+    "stadium": {"name": "Great Man Made River Stadium", "capacity": 20000},
+    "players": [
+      {"playerId": "player_ly1_021_01", "name": "Ihab Al Kabout", "number": 1, "position": "GK", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_021_02", "name": "Zouhair Marour", "number": 2, "position": "RB", "country": "TN", "status": "starter"},
+      {"playerId": "player_ly1_021_03", "name": "Chaouki Ben Khader", "number": 4, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_ly1_021_04", "name": "Ayoub Malki", "number": 5, "position": "CB", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_021_05", "name": "Skander Labidi", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
+      {"playerId": "player_ly1_021_06", "name": "Yacine Belaiche", "number": 6, "position": "CDM", "country": "DZ", "status": "starter"},
+      {"playerId": "player_ly1_021_07", "name": "Abdoul Aziz Savadogo", "number": 8, "position": "CM", "country": "BF", "status": "starter"},
+      {"playerId": "player_ly1_021_08", "name": "Yaqoub Abdullah", "number": 7, "position": "RW", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_021_09", "name": "Alaeddine Gasmi", "number": 10, "position": "CAM", "country": "TN", "status": "starter"},
+      {"playerId": "player_ly1_021_10", "name": "Eid Mugadam", "number": 11, "position": "LW", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_021_11", "name": "Adem Garreb", "number": 9, "position": "ST", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_021_12", "name": "Mohieddine Al Mahjoub", "number": 12, "position": "GK", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_021_13", "name": "Mounir Mouknia", "number": 15, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_ly1_021_14", "name": "Soufian Bendao", "number": 24, "position": "RB", "country": "TN", "status": "bench"},
+      {"playerId": "player_ly1_021_15", "name": "Ammar Kano", "number": 16, "position": "LB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_021_16", "name": "Ahmed Al Meri", "number": 20, "position": "CB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_021_17", "name": "Mazen Hadiya", "number": 27, "position": "RB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_021_18", "name": "Waleed Hassan Abdalla", "number": 23, "position": "LB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_021_19", "name": "Amjad Al Hreizi", "number": 25, "position": "CB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_021_20", "name": "Muayid Aboukhalifa", "number": 26, "position": "CB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_021_21", "name": "Mahmoud Al Gharib", "number": 32, "position": "RB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_021_22", "name": "Mohammed Al Mendilsi", "number": 28, "position": "LB", "country": "LY", "status": "reserve"},
+      {"playerId": "player_ly1_021_23", "name": "Issa Al Jehani", "number": 13, "position": "CB", "country": "LY", "status": "reserve"},
+      {"playerId": "player_ly1_021_24", "name": "Abdulsalam Al Fertas", "number": 14, "position": "RB", "country": "LY", "status": "reserve"},
+      {"playerId": "player_ly1_021_25", "name": "Abdulrazzaq Nouri", "number": 17, "position": "LB", "country": "LY", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 10
+      }
+    }
   }
-}
