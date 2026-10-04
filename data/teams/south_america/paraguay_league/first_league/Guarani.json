@@ -1,12 +1,58 @@
 {
-  "teamKey": "Guaran",
+    "teamKey": "Guaran",
 
-  "name": "Club Guaraní",
+    "name": "Club Guaraní",
 
-  "logo": "assets/logos/south_america/paraguay/Guaran.png",
+    "logo": "assets/logos/south_america/paraguay/Guaran.png",
 
-  "stadium": {
-    "name": "Estadio Rogelio Livieres",
-    "capacity": 8000
+    "manager": {
+      "name": "Leandro Romagnoli",
+      "country": "AR"
+    },
+
+    "stadium": {
+      "name": "Estadio Rogelio Livieres",
+      "capacity": 8000
+    },
+
+    "players": [
+      {"playerId": "player_py1_005_01", "name": "Aldo Pérez", "number": 30, "position": "GK", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_005_02", "name": "Mariano Ramos", "number": 14, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_py1_005_03", "name": "Thiago Servín", "number": 15, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_005_04", "name": "Alcides Barbotte", "number": 3, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_005_05", "name": "Felipe Salomoni", "number": 4, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_py1_005_06", "name": "Luis Martínez", "number": 36, "position": "CDM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_005_07", "name": "Matías López", "number": 8, "position": "CM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_005_08", "name": "Bruno Díaz", "number": 6, "position": "CAM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_005_09", "name": "César Miño", "number": 18, "position": "RW", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_005_10", "name": "Diego Fernández", "number": 26, "position": "LW", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_005_11", "name": "Iván Ramírez", "number": 9, "position": "ST", "country": "PY", "status": "starter"},
+
+      {"playerId": "player_py1_005_12", "name": "Gaspar Servio", "number": 1, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_py1_005_13", "name": "Paul Riveros", "number": 22, "position": "CB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_005_14", "name": "Imanol Segovia", "number": 2, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_py1_005_15", "name": "Patricio Coronel", "number": 38, "position": "LB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_005_16", "name": "Daniel Pérez", "number": 37, "position": "RB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_005_17", "name": "Patricio Tanda", "number": 5, "position": "CDM", "country": "AR", "status": "bench"},
+      {"playerId": "player_py1_005_18", "name": "Giovanni Gómez", "number": 25, "position": "CM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_005_19", "name": "Jesús Llano", "number": 29, "position": "CM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_005_20", "name": "Fernando Fernández", "number": 40, "position": "ST", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_005_21", "name": "Richard Torales", "number": 17, "position": "ST", "country": "PY", "status": "bench"},
+
+      {"playerId": "player_py1_005_22", "name": "Antonino Martínez", "number": 31, "position": "GK", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_005_23", "name": "Jonathan Espínola", "number": 12, "position": "LB", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_005_24", "name": "Ricardo Quiñónez", "number": 20, "position": "CAM", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_005_25", "name": "Nelson Romero", "number": 28, "position": "ST", "country": "PY", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 30,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 6,
+        "cornerLeft": 6,
+        "cornerRight": 18
+      }
+    }
   }
-}
