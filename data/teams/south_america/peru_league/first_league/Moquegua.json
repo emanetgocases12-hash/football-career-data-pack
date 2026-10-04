@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/south_america/peru/Moqueg.png",
 
+  "manager": {
+    "name": "Jaime Serna",
+    "country": "PE"
+  },
+
   "stadium": {
     "name": "Estadio 25 de Noviembre",
     "capacity": 21000
+  },
+
+  "players": [
+    {"playerId": "player_pe1_011_01", "name": "Carlos Grados", "number": 1, "position": "GK", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_011_02", "name": "Aldair Perleche", "number": 2, "position": "RB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_011_03", "name": "Cristian Enciso", "number": 3, "position": "CB", "country": "PY", "status": "starter"},
+    {"playerId": "player_pe1_011_04", "name": "Eros Montenegro", "number": 4, "position": "CB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_011_05", "name": "Jimmy Jiménez", "number": 5, "position": "LB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_011_06", "name": "Claudio Ramírez", "number": 6, "position": "CDM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_011_07", "name": "Cristian Mejía", "number": 7, "position": "CM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_011_08", "name": "Derlis Chávez", "number": 8, "position": "CAM", "country": "PY", "status": "starter"},
+    {"playerId": "player_pe1_011_09", "name": "Bruno Huayambi", "number": 9, "position": "RW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_011_10", "name": "Juan Agreda", "number": 10, "position": "LW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_011_11", "name": "Allonso Dávila", "number": 11, "position": "ST", "country": "PE", "status": "starter"},
+
+    {"playerId": "player_pe1_011_12", "name": "Renzo Figueroa", "number": 12, "position": "GK", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_011_13", "name": "José Granda", "number": 13, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_011_14", "name": "José Amasifuén", "number": 14, "position": "RB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_011_15", "name": "Juan Lojas", "number": 15, "position": "LB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_011_16", "name": "Mathías Panizo", "number": 16, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_011_17", "name": "Edgar Santillán", "number": 17, "position": "CM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_011_18", "name": "Diego Ramírez", "number": 18, "position": "CAM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_011_19", "name": "Ricardo Chipao", "number": 19, "position": "RM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_011_20", "name": "Bryan Angulo", "number": 20, "position": "LW", "country": "EC", "status": "bench"},
+    {"playerId": "player_pe1_011_21", "name": "Edgar Lastre", "number": 21, "position": "RW", "country": "EC", "status": "bench"},
+
+    {"playerId": "player_pe1_011_22", "name": "Kevin Ferreyra", "number": 22, "position": "ST", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_011_23", "name": "Alexander Lecaros", "number": 23, "position": "LW", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_011_24", "name": "Jeferson Collazos", "number": 24, "position": "RW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_pe1_011_25", "name": "Yorman Zapata", "number": 25, "position": "ST", "country": "CO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 7,
+      "cornerLeft": 8,
+      "cornerRight": 9
+    }
   }
 }
