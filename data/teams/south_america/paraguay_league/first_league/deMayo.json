@@ -1,12 +1,58 @@
 {
-  "teamKey": "de Mayo",
+    "teamKey": "de Mayo",
 
-  "name": "Club Sportivo 2 de Mayo",
+    "name": "Club Sportivo 2 de Mayo",
 
-  "logo": "assets/logos/south_america/paraguay/deMayo.png",
+    "logo": "assets/logos/south_america/paraguay/deMayo.png",
 
-  "stadium": {
-    "name": "Estadio Río Parapití",
-    "capacity": 25000
+    "manager": {
+      "name": "Eduardo Ledesma",
+      "country": "PY"
+    },
+
+    "stadium": {
+      "name": "Estadio Río Parapití",
+      "capacity": 25000
+    },
+
+    "players": [
+      {"playerId": "player_py1_012_01", "name": "Ángel Martínez", "number": 1, "position": "GK", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_012_02", "name": "Rodrigo Gómez", "number": 2, "position": "RB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_012_03", "name": "César Ramírez", "number": 4, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_012_04", "name": "Alexis Villalba", "number": 6, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_012_05", "name": "César Castro", "number": 19, "position": "LB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_012_06", "name": "Marcos Gómez", "number": 5, "position": "CDM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_012_07", "name": "Óscar Romero", "number": 24, "position": "CM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_012_08", "name": "Alexis Fariña", "number": 30, "position": "CAM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_012_09", "name": "Alan Gómez", "number": 10, "position": "RW", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_012_10", "name": "Brahian Ayala", "number": 13, "position": "LW", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_012_11", "name": "Diego Acosta", "number": 27, "position": "ST", "country": "PY", "status": "starter"},
+
+      {"playerId": "player_py1_012_12", "name": "Miguel Urquiza", "number": 28, "position": "GK", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_012_13", "name": "Pedro Sosa", "number": 21, "position": "CB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_012_14", "name": "Camilo Saiz", "number": 3, "position": "CB", "country": "CO", "status": "bench"},
+      {"playerId": "player_py1_012_15", "name": "Wilson Ibarrola", "number": 12, "position": "LB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_012_16", "name": "Alberto Espínola", "number": 16, "position": "RB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_012_17", "name": "Ulises Coronel", "number": 11, "position": "CM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_012_18", "name": "Alejandro Delgadillo", "number": 37, "position": "CM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_012_19", "name": "Estifen Díaz", "number": 20, "position": "RW", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_012_20", "name": "Alfredo Machado", "number": 17, "position": "LW", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_012_21", "name": "Fernando Cáceres", "number": 23, "position": "ST", "country": "PY", "status": "bench"},
+
+      {"playerId": "player_py1_012_22", "name": "Mario Ramirez", "number": 31, "position": "GK", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_012_23", "name": "Víctor Dávalos", "number": 15, "position": "RB", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_012_24", "name": "Ángel Aguilera", "number": 7, "position": "RW", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_012_25", "name": "Fredy Silvero", "number": 9, "position": "ST", "country": "PY", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 27,
+        "freeKick": 30,
+        "cornerLeft": 30,
+        "cornerRight": 10
+      }
+    }
   }
-}
