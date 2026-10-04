@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/south_america/peru/Cristl.png",
 
+  "manager": {
+    "name": "Roberto Mosquera",
+    "country": "PE"
+  },
+
   "stadium": {
     "name": "Estadio Alberto Gallardo",
     "capacity": 18000
+  },
+
+  "players": [
+    {"playerId": "player_pe1_014_01", "name": "Diego Enríquez", "number": 1, "position": "GK", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_014_02", "name": "Luis Abram", "number": 2, "position": "RB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_014_03", "name": "Rafael Lutiger", "number": 3, "position": "CB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_014_04", "name": "Miguel Araujo", "number": 4, "position": "CB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_014_05", "name": "Leonardo Díaz", "number": 5, "position": "LB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_014_06", "name": "Gustavo Cazonatti", "number": 6, "position": "CDM", "country": "BR", "status": "starter"},
+    {"playerId": "player_pe1_014_07", "name": "Martín Távara", "number": 7, "position": "CM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_014_08", "name": "Catriel Cabellos", "number": 8, "position": "CAM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_014_09", "name": "Christofer Gonzales", "number": 9, "position": "RW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_014_10", "name": "Cristian Benavente", "number": 10, "position": "LW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_014_11", "name": "Santiago González", "number": 11, "position": "ST", "country": "AR", "status": "starter"},
+
+    {"playerId": "player_pe1_014_12", "name": "Renato Solís", "number": 12, "position": "GK", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_014_13", "name": "Cristiano Da Silva", "number": 13, "position": "CB", "country": "BR", "status": "bench"},
+    {"playerId": "player_pe1_014_14", "name": "Fabrizio Lora", "number": 14, "position": "RB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_014_15", "name": "Leandro Sosa", "number": 15, "position": "LB", "country": "UY", "status": "bench"},
+    {"playerId": "player_pe1_014_16", "name": "Juan González", "number": 16, "position": "CB", "country": "AR", "status": "bench"},
+    {"playerId": "player_pe1_014_17", "name": "Gabriel Santana", "number": 17, "position": "CM", "country": "BR", "status": "bench"},
+    {"playerId": "player_pe1_014_18", "name": "Gerald Távara", "number": 18, "position": "CAM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_014_19", "name": "Gerson Castillo", "number": 19, "position": "RM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_014_20", "name": "Maxloren Castro", "number": 20, "position": "LW", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_014_21", "name": "Juan Manuel Cuesta", "number": 21, "position": "RW", "country": "CO", "status": "bench"},
+
+    {"playerId": "player_pe1_014_22", "name": "Luis Iberico", "number": 22, "position": "ST", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_014_23", "name": "Felipe Vizeu", "number": 23, "position": "LW", "country": "BR", "status": "reserve"},
+    {"playerId": "player_pe1_014_24", "name": "Michael Hoyos", "number": 24, "position": "RW", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_014_25", "name": "Irven Ávila", "number": 25, "position": "ST", "country": "PE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 7,
+      "cornerLeft": 8,
+      "cornerRight": 9
+    }
   }
 }
