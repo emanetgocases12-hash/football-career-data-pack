@@ -1,12 +1,58 @@
 {
-  "teamKey": "Calera",
-
-  "name": "Unión La Calera",
-
-  "logo": "assets/logos/south_america/chili/Calera.png",
-
-  "stadium": {
-    "name": "Nicolás Chahuán Nazar",
-    "capacity": 9200
+    "teamKey": "Calera",
+  
+    "name": "Unión La Calera",
+  
+    "logo": "assets/logos/south_america/chili/Calera.png",
+  
+    "manager": {
+      "name": "Martín Cicotello",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Nicolás Chahuán Nazar",
+      "capacity": 9200
+    },
+  
+    "players": [
+      {"playerId": "player_cl1_003_01", "name": "Nicolás Avellaneda", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_003_02", "name": "Javier Saldías", "number": 2, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_003_03", "name": "Nicolás Palma", "number": 3, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_003_04", "name": "Cristián Gutiérrez", "number": 4, "position": "CB", "country": "CA", "status": "starter"},
+      {"playerId": "player_cl1_003_05", "name": "Rodrigo Cáseres", "number": 6, "position": "LB", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_003_06", "name": "Camilo Moya", "number": 5, "position": "CDM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_003_07", "name": "Yerko Leiva", "number": 8, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_003_08", "name": "Carlo Villanueva", "number": 14, "position": "CAM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_003_09", "name": "Bayron Oyarzo", "number": 7, "position": "RW", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_003_10", "name": "Francisco Pozzo", "number": 9, "position": "ST", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_003_11", "name": "Kevin Méndez", "number": 10, "position": "LW", "country": "UY", "status": "starter"},
+  
+      {"playerId": "player_cl1_003_12", "name": "Nelson Espinoza", "number": 12, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_003_13", "name": "Daniel Gutiérrez", "number": 27, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_003_14", "name": "Christopher Díaz", "number": 25, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_003_15", "name": "Michael Maturana", "number": 26, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_003_16", "name": "Marcos Álvarez", "number": 33, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_003_17", "name": "Juan Manuel Requena", "number": 24, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_cl1_003_18", "name": "Joaquín Soto", "number": 29, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_003_19", "name": "Axel Encinas", "number": 18, "position": "CAM", "country": "AR", "status": "bench"},
+      {"playerId": "player_cl1_003_20", "name": "Sebastián Sáez", "number": 11, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_cl1_003_21", "name": "Martín Hiriart", "number": 17, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl1_003_22", "name": "Benjamín Astudillo", "number": 22, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_003_23", "name": "Cristóbal López", "number": 31, "position": "CM", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_003_24", "name": "Matías Campos López", "number": 19, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_003_25", "name": "Maximiliano Fernández", "number": 30, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 14,
+        "cornerLeft": 8,
+        "cornerRight": 14
+      }
+    }
   }
-}
