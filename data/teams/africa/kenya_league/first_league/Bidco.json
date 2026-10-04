@@ -1,12 +1,46 @@
 {
-  "teamKey": "Bidco",
-
-  "name": "Bidco United FC",
-
-  "logo": "assets/logos/africa/kenya/Bidco.png",
-
-  "stadium": {
-    "name": "Wang'uru Stadium",
-    "capacity": 10000
+    "teamKey": "Bidco",
+    "name": "Bidco United FC",
+    "logo": "assets/logos/africa/kenya/Bidco.png",
+    "manager": {"name": "Anthony Akhulia", "country": "KE"},
+    "stadium": {"name": "Wang'uru Stadium", "capacity": 10000},
+    "players": [
+      {"playerId": "player_ke1_002_01", "name": "Issa Emuriah", "number": 31, "position": "GK", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_002_02", "name": "Thomas Wainaina", "number": 3, "position": "RB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_002_03", "name": "David Wafula", "number": 5, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_002_04", "name": "Meshack Odhiambo Nyabinge", "number": 15, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_002_05", "name": "Francis Kamau", "number": 12, "position": "LB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_002_06", "name": "Amos Ochieng Okoth", "number": 6, "position": "CDM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_002_07", "name": "Benson Muna", "number": 8, "position": "CM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_002_08", "name": "Christopher Raila", "number": 14, "position": "CAM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_002_09", "name": "Clinton Asiago", "number": 22, "position": "RW", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_002_10", "name": "Collins Okello Akite", "number": 9, "position": "ST", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_002_11", "name": "Victor Kunyil Eshitushe", "number": 28, "position": "LW", "country": "KE", "status": "starter"},
+  
+      {"playerId": "player_ke1_002_12", "name": "John Otieno", "number": 40, "position": "GK", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_002_13", "name": "Stephen Otieno Okola", "number": 20, "position": "CB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_002_14", "name": "Kelvin Ouma", "number": 4, "position": "LB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_002_15", "name": "Kennedy Ongalo Odhiambo", "number": 2, "position": "RB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_002_16", "name": "David Daddy Odoyo", "number": 19, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_002_17", "name": "Idris Amadi Elba", "number": 17, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_002_18", "name": "Kassim Juma Mwando", "number": 16, "position": "CDM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_002_19", "name": "Marvin Ochienge Amuka", "number": 11, "position": "LW", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_002_20", "name": "Simon Munala Abuko", "number": 7, "position": "RM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_002_21", "name": "Eric Kahonge", "number": 23, "position": "ST", "country": "KE", "status": "bench"},
+  
+      {"playerId": "player_ke1_002_22", "name": "Timothy Rashid", "number": 30, "position": "GK", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_002_23", "name": "Brian Mboya Oddoh", "number": 38, "position": "CB", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_002_24", "name": "John Kelwish Walubuka", "number": 25, "position": "ST", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_002_25", "name": "Micheal Bodo Omondi", "number": 10, "position": "CAM", "country": "KE", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 14,
+        "cornerLeft": 22,
+        "cornerRight": 14
+      }
+    }
   }
-}
