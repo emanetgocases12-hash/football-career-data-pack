@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/south_america/peru/UDepor.png",
 
+  "manager": {
+    "name": "Piero Alva",
+    "country": "PE"
+  },
+
   "stadium": {
     "name": "Estadio Monumental de Lima",
     "capacity": 80093
+  },
+
+  "players": [
+    {"playerId": "player_pe1_018_01", "name": "Diego Romero", "number": 1, "position": "GK", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_018_02", "name": "Aldo Corzo", "number": 2, "position": "RB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_018_03", "name": "Anderson Santamaría", "number": 3, "position": "CB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_018_04", "name": "Caín Fara", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+    {"playerId": "player_pe1_018_05", "name": "Matías Di Benedetto", "number": 5, "position": "LB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_018_06", "name": "Horacio Calcaterra", "number": 6, "position": "CDM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_018_07", "name": "Jairo Concha", "number": 7, "position": "CM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_018_08", "name": "Martín Pérez Guedes", "number": 8, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_pe1_018_09", "name": "Rodrigo Ureña", "number": 9, "position": "RW", "country": "CL", "status": "starter"},
+    {"playerId": "player_pe1_018_10", "name": "Edison Flores", "number": 10, "position": "LW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_018_11", "name": "Alex Valera", "number": 11, "position": "ST", "country": "PE", "status": "starter"},
+
+    {"playerId": "player_pe1_018_12", "name": "Miguel Vargas", "number": 12, "position": "GK", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_018_13", "name": "Williams Riveros", "number": 13, "position": "CB", "country": "PY", "status": "bench"},
+    {"playerId": "player_pe1_018_14", "name": "César Inga", "number": 14, "position": "RB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_018_15", "name": "Paolo Reyna", "number": 15, "position": "LB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_018_16", "name": "Jorge Gutiérrez", "number": 16, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_018_17", "name": "Andy Polo", "number": 17, "position": "CM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_018_18", "name": "Jairo Vélez", "number": 18, "position": "CAM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_018_19", "name": "José Rivera", "number": 19, "position": "RM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_018_20", "name": "Diego Churín", "number": 20, "position": "LW", "country": "AR", "status": "bench"},
+    {"playerId": "player_pe1_018_21", "name": "José Carabalí", "number": 21, "position": "RW", "country": "EC", "status": "bench"},
+
+    {"playerId": "player_pe1_018_22", "name": "Rodrigo Dioses", "number": 22, "position": "ST", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_018_23", "name": "Nicolás Rengifo", "number": 23, "position": "LW", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_018_24", "name": "Christopher Olivares", "number": 24, "position": "RW", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_018_25", "name": "Jostin Alarcón", "number": 25, "position": "ST", "country": "PE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 7,
+      "cornerLeft": 8,
+      "cornerRight": 9
+    }
   }
 }
