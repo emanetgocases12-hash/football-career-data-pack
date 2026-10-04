@@ -1,12 +1,58 @@
 {
-  "teamKey": "Cobrel",
-
-  "name": "CD Cobreloa",
-
-  "logo": "assets/logos/south_america/chili/Cobrel.png",
-
-  "stadium": {
-    "name": "Zorros del Desierto",
-    "capacity": 12102
+    "teamKey": "Cobrel",
+  
+    "name": "CD Cobreloa",
+  
+    "logo": "assets/logos/south_america/chili/Cobrel.png",
+  
+    "manager": {
+      "name": "César Bravo",
+      "country": "CL"
+    },
+  
+    "stadium": {
+      "name": "Zorros del Desierto",
+      "capacity": 12102
+    },
+  
+    "players": [
+      {"playerId": "player_cl2_003_01", "name": "Hugo Araya", "number": 1, "position": "GK", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_003_02", "name": "Youssef González", "number": 3, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_003_03", "name": "Bastián San Juan", "number": 4, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_003_04", "name": "Rodolfo González", "number": 5, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_003_05", "name": "Diego García", "number": 15, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_003_06", "name": "Tomás Aránguiz", "number": 14, "position": "CDM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_003_07", "name": "Lucas Cornejo", "number": 8, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_003_08", "name": "Agustín Quezada", "number": 13, "position": "CAM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_003_09", "name": "Gustavo Gotti", "number": 11, "position": "RW", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl2_003_10", "name": "Álvaro Delgado", "number": 22, "position": "ST", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_003_11", "name": "Cristian Insaurralde", "number": 7, "position": "LW", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_cl2_003_12", "name": "Diego Tapia", "number": 30, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_003_13", "name": "David Tapia", "number": 17, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_003_14", "name": "Javier Méndez", "number": 18, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_003_15", "name": "Felipe Fritz", "number": 28, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_003_16", "name": "Patricio Romero", "number": 2, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_003_17", "name": "Cristian Muga", "number": 21, "position": "CM", "country": "UY", "status": "bench"},
+      {"playerId": "player_cl2_003_18", "name": "Robinson Porras", "number": 24, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_003_19", "name": "Jorge Paul Gatica", "number": 29, "position": "CAM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_003_20", "name": "Javier Parraguez", "number": 9, "position": "ST", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_003_21", "name": "Nahuel Donadell", "number": 10, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl2_003_22", "name": "Cristian Alarcón", "number": 12, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_003_23", "name": "Facundo Velazco", "number": 20, "position": "CM", "country": "AR", "status": "reserve"},
+      {"playerId": "player_cl2_003_24", "name": "Bairon Monroy", "number": 19, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_003_25", "name": "Álvaro Césped", "number": 27, "position": "CDM", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 22,
+        "freeKick": 13,
+        "cornerLeft": 8,
+        "cornerRight": 13
+      }
+    }
   }
-}
