@@ -1,12 +1,46 @@
-{
-  "teamKey": "Posta",
-
-  "name": "Posta Rangers FC",
-
-  "logo": "assets/logos/africa/kenya/Posta.png",
-
-  "stadium": {
-    "name": "Camp Toyoyo",
-    "capacity": 2000
+ {
+    "teamKey": "Posta",
+    "name": "Posta Rangers FC",
+    "logo": "assets/logos/africa/kenya/Posta.png",
+    "manager": {"name": "Zedekiah Otieno", "country": "KE"},
+    "stadium": {"name": "Camp Toyoyo", "capacity": 2000},
+    "players": [
+      {"playerId": "player_ke1_014_01", "name": "John Samuel Njau", "number": 1, "position": "GK", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_014_02", "name": "Vincent Crucial Wasambo", "number": 4, "position": "RB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_014_03", "name": "Musa Mohammed Mayeko", "number": 55, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_014_04", "name": "Faustine Samaki Ojiambo", "number": 3, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_014_05", "name": "Maurice Sunga", "number": 27, "position": "LB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_014_06", "name": "Caleb Olilo", "number": 40, "position": "CDM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_014_07", "name": "Teddy Trevor Omondi", "number": 8, "position": "CM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_014_08", "name": "Jackson Irungu Macharia", "number": 16, "position": "CAM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_014_09", "name": "Brian Yakhama", "number": 9, "position": "RW", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_014_10", "name": "Maxwell Odada Odundo", "number": 31, "position": "ST", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_014_11", "name": "Robert Karisa Ponda", "number": 24, "position": "LW", "country": "KE", "status": "starter"},
+  
+      {"playerId": "player_ke1_014_12", "name": "Peter Fredrick Odhiambo", "number": 33, "position": "GK", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_014_13", "name": "Rodgers Obusu", "number": 2, "position": "RB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_014_14", "name": "Mark Shaban", "number": 28, "position": "CB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_014_15", "name": "Morgan Sitawa", "number": 35, "position": "CB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_014_16", "name": "Barack Owino", "number": 6, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_014_17", "name": "Ronald Ashimoto", "number": 14, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_014_18", "name": "Collins Kariuki", "number": 10, "position": "CAM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_014_19", "name": "Izaak Otieno", "number": 18, "position": "RW", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_014_20", "name": "Phabian Odhiambo", "number": 21, "position": "LW", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_014_21", "name": "John Ouma", "number": 19, "position": "ST", "country": "KE", "status": "bench"},
+  
+      {"playerId": "player_ke1_014_22", "name": "Bixente Lazarazu Otieno", "number": 77, "position": "GK", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_014_23", "name": "Bernard Ondiek", "number": 17, "position": "CDM", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_014_24", "name": "Brian Ndenga Ochieng", "number": 20, "position": "CM", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_014_25", "name": "James Ashisoma", "number": 25, "position": "ST", "country": "KE", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 55,
+      "setPieces": {
+        "penalty": 31,
+        "freeKick": 16,
+        "cornerLeft": 9,
+        "cornerRight": 8
+      }
+    }
   }
-}
