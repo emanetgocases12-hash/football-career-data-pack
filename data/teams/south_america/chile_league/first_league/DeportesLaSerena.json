@@ -1,12 +1,58 @@
 {
-  "teamKey": "Serena",
-
-  "name": "Deportes La Serena",
-
-  "logo": "assets/logos/south_america/chili/Serena.png",
-
-  "stadium": {
-    "name": "La Portada",
-    "capacity": 17134
+    "teamKey": "Serena",
+  
+    "name": "Deportes La Serena",
+  
+    "logo": "assets/logos/south_america/chili/Serena.png",
+  
+    "manager": {
+      "name": "Felipe Gutiérrez",
+      "country": "CL"
+    },
+  
+    "stadium": {
+      "name": "La Portada",
+      "capacity": 17134
+    },
+  
+    "players": [
+      {"playerId": "player_cl1_010_01", "name": "Federico Lanzillotta", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_010_02", "name": "Lucas Alarcón", "number": 5, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_010_03", "name": "Andrés Zanini", "number": 2, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_010_04", "name": "Rafael Delgado", "number": 33, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_010_05", "name": "Fernando Dinamarca", "number": 26, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_010_06", "name": "Gonzalo Escalante", "number": 8, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_010_07", "name": "Francis Mac Allister", "number": 6, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_010_08", "name": "Matías Marín", "number": 10, "position": "CAM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_010_09", "name": "Jeisson Vargas", "number": 7, "position": "RW", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_010_10", "name": "Ángelo Henríquez", "number": 9, "position": "ST", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_010_11", "name": "Diego Rubio", "number": 11, "position": "LW", "country": "CL", "status": "starter"},
+  
+      {"playerId": "player_cl1_010_12", "name": "Eryin Sanhueza", "number": 22, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_010_13", "name": "Bruno Gutiérrez", "number": 21, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_010_14", "name": "Joaquín Gutiérrez", "number": 16, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_010_15", "name": "Yahir Salazar", "number": 17, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_010_16", "name": "Ángel Carvajal", "number": 4, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_010_17", "name": "Joan Carlos Orellana", "number": 28, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_010_18", "name": "Felipe Chamorro", "number": 14, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_010_19", "name": "Sebastián Díaz", "number": 23, "position": "CAM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_010_20", "name": "Nicolás Stefanelli", "number": 34, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_cl1_010_21", "name": "Alexander Oroz", "number": 24, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl1_010_22", "name": "José Ignacio Tapia", "number": 31, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_010_23", "name": "Milován Velásquez", "number": 20, "position": "CM", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_010_24", "name": "Bastián Contreras", "number": 15, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_010_25", "name": "Cristóbal Sepúlveda", "number": 27, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 6,
+        "cornerRight": 10
+      }
+    }
   }
-}
