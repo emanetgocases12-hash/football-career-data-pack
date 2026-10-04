@@ -1,12 +1,58 @@
 {
-  "teamKey": "CST",
+    "teamKey": "CST",
 
-  "name": "Club Sportivo Trinidense",
+    "name": "Club Sportivo Trinidense",
 
-  "logo": "assets/logos/south_america/paraguay/CST.png",
+    "logo": "assets/logos/south_america/paraguay/CST.png",
 
-  "stadium": {
-    "name": "Estadio Martín Torres",
-    "capacity": 3000
+    "manager": {
+      "name": "José Arrúa",
+      "country": "PY"
+    },
+
+    "stadium": {
+      "name": "Estadio Martín Torres",
+      "capacity": 3000
+    },
+
+    "players": [
+      {"playerId": "player_py1_004_01", "name": "Matías Dufour", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+      {"playerId": "player_py1_004_02", "name": "Axel Cañete", "number": 6, "position": "RB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_004_03", "name": "Juan Vera", "number": 3, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_004_04", "name": "Víctor Samudio", "number": 12, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_004_05", "name": "Diego Melgarejo", "number": 4, "position": "LB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_004_06", "name": "Ariel Gauto", "number": 5, "position": "CDM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_004_07", "name": "Gustavo Viera", "number": 21, "position": "CM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_004_08", "name": "Ronald Cornet", "number": 23, "position": "CAM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_004_09", "name": "Tomás Rayer", "number": 29, "position": "RW", "country": "AR", "status": "starter"},
+      {"playerId": "player_py1_004_10", "name": "Junior Gamarra", "number": 11, "position": "LW", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_004_11", "name": "Fernando Romero", "number": 18, "position": "ST", "country": "PY", "status": "starter"},
+
+      {"playerId": "player_py1_004_12", "name": "Mauro Rodas", "number": 30, "position": "GK", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_004_13", "name": "Armando Ruiz Díaz", "number": 2, "position": "RB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_004_14", "name": "Sergio Mendoza", "number": 14, "position": "LB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_004_15", "name": "Leandro Esteche", "number": 22, "position": "RB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_004_16", "name": "Randy Báez", "number": 13, "position": "CDM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_004_17", "name": "Fabrizio Baruja", "number": 24, "position": "CM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_004_18", "name": "Luis de la Cruz", "number": 8, "position": "CM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_004_19", "name": "Lucas González", "number": 37, "position": "CAM", "country": "AR", "status": "bench"},
+      {"playerId": "player_py1_004_20", "name": "Nicolás Maná", "number": 10, "position": "RW", "country": "AR", "status": "bench"},
+      {"playerId": "player_py1_004_21", "name": "Néstor Camacho", "number": 7, "position": "ST", "country": "PY", "status": "bench"},
+
+      {"playerId": "player_py1_004_22", "name": "Jorge Marcelino", "number": 16, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_py1_004_23", "name": "Joel Román", "number": 17, "position": "RW", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_004_24", "name": "Oscar Giménez", "number": 9, "position": "ST", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_004_25", "name": "Clementino González", "number": 20, "position": "ST", "country": "PY", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 23,
+        "cornerLeft": 23,
+        "cornerRight": 29
+      }
+    }
   }
-}
