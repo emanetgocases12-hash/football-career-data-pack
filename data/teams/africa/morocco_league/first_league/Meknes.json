@@ -1,12 +1,41 @@
 {
-  "teamKey": "Meknès",
-
-  "name": "COD Meknès",
-
-  "logo": "assets/logos/africa/morocco/Meknes.png",
-
-  "stadium": {
-    "name": "Stade d'Honneur de Meknès",
-    "capacity": 20000
+    "teamKey": "Meknès",
+    "name": "COD Meknès",
+    "logo": "assets/logos/africa/morocco/Meknes.png",
+    "manager": {"name": "Jorge Paixão", "country": "PT"},
+    "stadium": {"name": "Stade d'Honneur de Meknès", "capacity": 20000},
+    "players": [
+      {"playerId": "player_ma1_008_01", "name": "Anas Zniti", "number": 30, "position": "GK", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_008_02", "name": "Ayoub Lourhraz", "number": 2, "position": "RB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_008_03", "name": "Anass Nouader", "number": 18, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_008_04", "name": "Karim El Bounagate", "number": 5, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_008_05", "name": "Chemseddine Knaidil", "number": 3, "position": "LB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_008_06", "name": "Larbi Naji", "number": 29, "position": "CDM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_008_07", "name": "Adnane Berdad", "number": 6, "position": "CM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_008_08", "name": "Hamza El Wasti", "number": 22, "position": "RW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_008_09", "name": "Leandre Willy Essomba Onana", "number": 10, "position": "CAM", "country": "CM", "status": "starter"},
+      {"playerId": "player_ma1_008_10", "name": "Hamza El Janati", "number": 31, "position": "LW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_008_11", "name": "Zakaria Bahrou", "number": 7, "position": "ST", "country": "MA", "status": "starter"},
+  
+      {"playerId": "player_ma1_008_12", "name": "Aymane Majid", "number": 13, "position": "GK", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_008_13", "name": "Ayoub Lakhlifi", "number": 97, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_008_14", "name": "Oussama Daoui", "number": 16, "position": "RB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_008_15", "name": "Achraf Hmaidou", "number": 14, "position": "CDM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_008_16", "name": "Ismael Benktib", "number": 4, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_008_17", "name": "Yacoub El Id", "number": 15, "position": "CM", "country": "MR", "status": "bench"},
+      {"playerId": "player_ma1_008_18", "name": "Marius Mbou", "number": 19, "position": "CM", "country": "CG", "status": "bench"},
+      {"playerId": "player_ma1_008_19", "name": "Mohamed Zrida", "number": 8, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_008_20", "name": "Joseph Guédé Gnadou", "number": 9, "position": "ST", "country": "CI", "status": "bench"},
+      {"playerId": "player_ma1_008_21", "name": "Youssef Anouar", "number": 11, "position": "RW", "country": "MA", "status": "bench"},
+  
+      {"playerId": "player_ma1_008_22", "name": "Soufiane Taher", "number": 44, "position": "GK", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_008_23", "name": "Mohamed Zinaf", "number": 25, "position": "CM", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_008_24", "name": "Mouad Goulous", "number": 24, "position": "CAM", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_008_25", "name": "Zouhir Eddib", "number": 23, "position": "ST", "country": "MA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 29,
+      "setPieces": {"penalty": 7, "freeKick": 10, "cornerLeft": 22, "cornerRight": 31}
+    }
   }
-}
