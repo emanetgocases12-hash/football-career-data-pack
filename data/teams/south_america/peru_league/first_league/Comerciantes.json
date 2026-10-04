@@ -5,8 +5,54 @@
 
   "logo": "assets/logos/south_america/peru/Comerc.png",
 
+  "manager": {
+    "name": "José Eugenio Hernández",
+    "country": "CO"
+  },
+
   "stadium": {
     "name": "Juan Maldonado Gamarra",
     "capacity": 13000
+  },
+
+  "players": [
+    {"playerId": "player_pe1_005_01", "name": "José Charún", "number": 1, "position": "GK", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_005_02", "name": "Daniel Lino", "number": 2, "position": "RB", "country": "BO", "status": "starter"},
+    {"playerId": "player_pe1_005_03", "name": "Paolo Fuentes", "number": 3, "position": "CB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_005_04", "name": "Miguel Hilario", "number": 4, "position": "CB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_005_05", "name": "Fabio Rojas", "number": 5, "position": "LB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_005_06", "name": "Agustín Rodríguez", "number": 6, "position": "CDM", "country": "UY", "status": "starter"},
+    {"playerId": "player_pe1_005_07", "name": "Yimy Gamero", "number": 7, "position": "CM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_005_08", "name": "Alexis Arias", "number": 8, "position": "CAM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_005_09", "name": "José Parodi", "number": 9, "position": "RW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_005_10", "name": "Josueé Herrera", "number": 10, "position": "LW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_005_11", "name": "Carlos Saavedra", "number": 11, "position": "ST", "country": "PE", "status": "starter"},
+
+    {"playerId": "player_pe1_005_12", "name": "Matías Córdova", "number": 12, "position": "GK", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_005_13", "name": "Flavio Alcedo", "number": 13, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_005_14", "name": "Juan Rodríguez", "number": 14, "position": "RB", "country": "UY", "status": "bench"},
+    {"playerId": "player_pe1_005_15", "name": "Piero Guzmán", "number": 15, "position": "LB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_005_16", "name": "Alexis Cossío", "number": 16, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_005_17", "name": "Mathías Carpio", "number": 17, "position": "CM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_005_18", "name": "Óscar Pinto", "number": 18, "position": "CAM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_005_19", "name": "Rodrigo Vilca", "number": 19, "position": "RM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_005_20", "name": "Jhon Sánchez", "number": 20, "position": "LW", "country": "EC", "status": "bench"},
+    {"playerId": "player_pe1_005_21", "name": "Elbio Pérez", "number": 21, "position": "RW", "country": "UY", "status": "bench"},
+
+    {"playerId": "player_pe1_005_22", "name": "Jean Olivares", "number": 22, "position": "ST", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_005_23", "name": "Marco Guevara", "number": 23, "position": "LW", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_005_24", "name": "Matías Sen", "number": 24, "position": "RW", "country": "AR", "status": "reserve"},
+    {"playerId": "player_pe1_005_25", "name": "Wilter Ayovi", "number": 25, "position": "ST", "country": "EC", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 7,
+      "cornerLeft": 8,
+      "cornerRight": 9
+    }
   }
 }
