@@ -1,12 +1,58 @@
 {
-  "teamKey": "Amelia",
+    "teamKey": "Amelia",
 
-  "name": "Sportivo Ameliano",
+    "name": "Sportivo Ameliano",
 
-  "logo": "assets/logos/south_america/paraguay/Amelia.png",
+    "logo": "assets/logos/south_america/paraguay/Amelia.png",
 
-  "stadium": {
-    "name": "Estadio La Fortaleza del Pikysyry",
-    "capacity": 7000
+    "manager": {
+      "name": "Roberto Nanni",
+      "country": "AR"
+    },
+
+    "stadium": {
+      "name": "Estadio La Fortaleza del Pikysyry",
+      "capacity": 7000
+    },
+
+    "players": [
+      {"playerId": "player_py1_001_01", "name": "Miguel Martínez", "number": 23, "position": "GK", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_001_02", "name": "Fabián Franco", "number": 21, "position": "RB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_001_03", "name": "Andrea Falabella", "number": 22, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_py1_001_04", "name": "Miguel Jacquet", "number": 27, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_001_05", "name": "Abel Paredes", "number": 19, "position": "LB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_001_06", "name": "Jonathan Benítez", "number": 6, "position": "CDM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_001_07", "name": "Valentín Larralde", "number": 20, "position": "CM", "country": "AR", "status": "starter"},
+      {"playerId": "player_py1_001_08", "name": "Raúl Cabral", "number": 30, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_py1_001_09", "name": "Fredy Vera", "number": 7, "position": "RW", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_001_10", "name": "Luis Olmedo", "number": 11, "position": "LW", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_001_11", "name": "Cristhian Ocampos", "number": 9, "position": "ST", "country": "PY", "status": "starter"},
+
+      {"playerId": "player_py1_001_12", "name": "Ángel Sánchez", "number": 35, "position": "GK", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_001_13", "name": "Hugo Benítez", "number": 5, "position": "CB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_001_14", "name": "Julio González", "number": 26, "position": "CB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_001_15", "name": "Miguel Benítez", "number": 34, "position": "LB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_001_16", "name": "Walter Rodríguez", "number": 15, "position": "CDM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_001_17", "name": "Estivel Moreira", "number": 8, "position": "CM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_001_18", "name": "Luis Ayala", "number": 24, "position": "CAM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_001_19", "name": "Alex Servían", "number": 32, "position": "LW", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_001_20", "name": "Mathias León", "number": 36, "position": "RW", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_001_21", "name": "Bruno López", "number": 25, "position": "RW", "country": "PY", "status": "bench"},
+
+      {"playerId": "player_py1_001_22", "name": "Junior Balbuena", "number": 1, "position": "GK", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_001_23", "name": "Francisco Báez", "number": 3, "position": "CB", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_001_24", "name": "Tomás Lezcano", "number": 37, "position": "LB", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_001_25", "name": "Alberto Contrera", "number": 40, "position": "CAM", "country": "PY", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 23,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 30,
+        "cornerLeft": 30,
+        "cornerRight": 7
+      }
+    }
   }
-}
