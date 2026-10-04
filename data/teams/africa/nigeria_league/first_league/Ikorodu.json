@@ -1,12 +1,39 @@
 {
-  "teamKey": "Ikorod",
-
-  "name": "Ikorodu City FC",
-
-  "logo": "assets/logos/africa/nigeria/Ikorod.png",
-
-  "stadium": {
-    "name": "Mobolaji Johnson Arena",
-    "capacity": 5000
+    "teamKey": "Ikorod",
+    "name": "Ikorodu City FC",
+    "logo": "assets/logos/africa/nigeria/Ikorod.png",
+    "manager": {"name": "Bright Ozebagbe", "country": "NG"},
+    "stadium": {"name": "Mobolaji Johnson Arena", "capacity": 5000},
+    "players": [
+      {"playerId": "player_ng1_007_01", "name": "Michael Atata", "number": 1, "position": "GK", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_007_02", "name": "Suleiman Nasiru", "number": 2, "position": "RB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_007_03", "name": "Marvelous Freedom", "number": 4, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_007_04", "name": "Daniel Idoko", "number": 5, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_007_05", "name": "Gift Udoh", "number": 3, "position": "LB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_007_06", "name": "Kelechi Onwe", "number": 6, "position": "CDM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_007_07", "name": "Ibifubara Dagogo", "number": 8, "position": "CM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_007_08", "name": "Tomiwa Awojobi", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_007_09", "name": "Shodiende Moses", "number": 10, "position": "CAM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_007_10", "name": "Ibrahim Abdullahi", "number": 11, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_007_11", "name": "Samuel Ezekiel", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_007_12", "name": "Itodo Christian Ocheme", "number": 30, "position": "GK", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_007_13", "name": "Jonah James Junior", "number": 12, "position": "RB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_007_14", "name": "Christian Alfred Odinaka", "number": 13, "position": "CB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_007_15", "name": "Fawas Ganiyu", "number": 14, "position": "LB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_007_16", "name": "Daniel Dennis", "number": 15, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_007_17", "name": "Tomisin Adebayo", "number": 16, "position": "CAM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_007_18", "name": "Rasheed Owolabi", "number": 17, "position": "RM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_007_19", "name": "Cole Ayomide", "number": 18, "position": "RW", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_007_20", "name": "Taiwo Alao", "number": 19, "position": "LW", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_007_21", "name": "Farouk Salami", "number": 20, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_007_22", "name": "Chinedu Akuvuo", "number": 21, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_007_23", "name": "Odunayo Oyekanmi Daniel", "number": 22, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_007_24", "name": "Ujunwa Onyeuche", "number": 23, "position": "CB", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_007_25", "name": "Adam Abdulraman", "number": 24, "position": "CM", "country": "NG", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {"penalty": 9, "freeKick": 7, "cornerLeft": 7, "cornerRight": 7}
+    }
   }
-}
