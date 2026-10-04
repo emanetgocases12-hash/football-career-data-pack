@@ -1,12 +1,58 @@
 {
-  "teamKey": "CU Chile",
-
-  "name": "Club Universidad de Chile",
-
-  "logo": "assets/logos/south_america/chili/CUChile.png",
-
-  "stadium": {
-    "name": "Nacional Julio Martínez Prádanos",
-    "capacity": 46190
+    "teamKey": "CU Chile",
+  
+    "name": "Club Universidad de Chile",
+  
+    "logo": "assets/logos/south_america/chili/CUChile.png",
+  
+    "manager": {
+      "name": "Fernando Gago",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Nacional Julio Martínez Prádanos",
+      "capacity": 46190
+    },
+  
+    "players": [
+      {"playerId": "player_cl1_004_01", "name": "Gabriel Castellón", "number": 25, "position": "GK", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_004_02", "name": "Fabián Hormazábal", "number": 17, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_004_03", "name": "Nicolás Ramírez", "number": 5, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_004_04", "name": "Nicolás Fernández", "number": 6, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_004_05", "name": "Bianneider Tamayo", "number": 31, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_004_06", "name": "Marcelo Díaz", "number": 21, "position": "CDM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_004_07", "name": "Javier Altamirano", "number": 19, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_004_08", "name": "Lucas Barrera", "number": 29, "position": "CAM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_004_09", "name": "Maximiliano Guerrero", "number": 7, "position": "RW", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_004_10", "name": "Eduardo Vargas", "number": 11, "position": "ST", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_004_11", "name": "Ignacio Vásquez", "number": 23, "position": "LW", "country": "CL", "status": "starter"},
+  
+      {"playerId": "player_cl1_004_12", "name": "Cristopher Toselli", "number": 1, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_004_13", "name": "Marcelo Morales", "number": 14, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_004_14", "name": "Matías Zaldivia", "number": 22, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_004_15", "name": "Diego Vargas", "number": 4, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_004_16", "name": "Igor Lichnovsky", "number": 3, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_004_17", "name": "Agustín Arce", "number": 28, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_004_18", "name": "Israel Poblete", "number": 8, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_004_19", "name": "Charles Aránguiz", "number": 20, "position": "CAM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_004_20", "name": "Octavio Rivero", "number": 9, "position": "ST", "country": "UY", "status": "bench"},
+      {"playerId": "player_cl1_004_21", "name": "Gonzalo Reyna", "number": 34, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl1_004_22", "name": "José Alburquenque", "number": 12, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_004_23", "name": "Elías Rojas", "number": 16, "position": "CM", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_004_24", "name": "Juan Martín Lucero", "number": 18, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_cl1_004_25", "name": "Tobías Reinhart", "number": 15, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 29,
+        "cornerLeft": 19,
+        "cornerRight": 29
+      }
+    }
   }
-}
