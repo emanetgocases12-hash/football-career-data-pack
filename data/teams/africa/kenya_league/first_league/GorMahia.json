@@ -1,12 +1,46 @@
-{
-  "teamKey": "GMahia",
-
-  "name": "Gor Mahia FC",
-
-  "logo": "assets/logos/africa/kenya/Gmahia.png",
-
-  "stadium": {
-    "name": "Nyayo National Stadium",
-    "capacity": 30000
+ {
+    "teamKey": "GMahia",
+    "name": "Gor Mahia FC",
+    "logo": "assets/logos/africa/kenya/Gmahia.png",
+    "manager": {"name": "Charles Akonnor", "country": "GH"},
+    "stadium": {"name": "Nyayo National Stadium", "capacity": 30000},
+    "players": [
+      {"playerId": "player_ke1_005_01", "name": "Byrne Omondi Odhiambo", "number": 1, "position": "GK", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_005_02", "name": "Daniel Sakari Macheso", "number": 24, "position": "RB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_005_03", "name": "Mike Evans Kibwage", "number": 4, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_005_04", "name": "Silvester Owino Owolo", "number": 15, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_005_05", "name": "Lewis Esambe Bandi", "number": 25, "position": "LB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_005_06", "name": "Alpha Chris Onyango", "number": 8, "position": "CDM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_005_07", "name": "Ebenezer Ocran", "number": 6, "position": "CM", "country": "GH", "status": "starter"},
+      {"playerId": "player_ke1_005_08", "name": "Enock Machaka Momanyi", "number": 35, "position": "CM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_005_09", "name": "Dennis Omedi", "number": 14, "position": "RW", "country": "UG", "status": "starter"},
+      {"playerId": "player_ke1_005_10", "name": "David Okoth Odhiambo", "number": 9, "position": "ST", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_005_11", "name": "Hansel Ochienge Madegwa", "number": 17, "position": "LW", "country": "KE", "status": "starter"},
+  
+      {"playerId": "player_ke1_005_12", "name": "Humphrey Katasi Simiyu", "number": 22, "position": "GK", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_005_13", "name": "Frank Onyango Odhiambo", "number": 5, "position": "CB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_005_14", "name": "Lesley Owino Otieno Omondi", "number": 29, "position": "LB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_005_15", "name": "Paul Ochuoga", "number": 50, "position": "RB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_005_16", "name": "Ben Stanley Omondi", "number": 38, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_005_17", "name": "Bryton Otieno Onyona", "number": 76, "position": "CDM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_005_18", "name": "George Amonno", "number": 10, "position": "CAM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_005_19", "name": "Musa Shariff Sirengo Ramathan", "number": 7, "position": "RW", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_005_20", "name": "Ebenezer Kofi Assifuah-Inkoom", "number": 19, "position": "ST", "country": "GH", "status": "bench"},
+      {"playerId": "player_ke1_005_21", "name": "Paul Odhiambo Okoth", "number": 49, "position": "LW", "country": "KE", "status": "bench"},
+  
+      {"playerId": "player_ke1_005_22", "name": "Michael Onyi Onyango", "number": 34, "position": "GK", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_005_23", "name": "Ebenezer Boadi Adukwaw", "number": 20, "position": "ST", "country": "GH", "status": "reserve"},
+      {"playerId": "player_ke1_005_24", "name": "Samuel Kapen", "number": 30, "position": "LW", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_005_25", "name": "Patrick Ariste Ekandjoum Essombe", "number": 21, "position": "RW", "country": "CM", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 15,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 14,
+        "cornerRight": 6
+      }
+    }
   }
-}
