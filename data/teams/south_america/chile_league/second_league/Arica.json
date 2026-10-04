@@ -1,12 +1,58 @@
 {
-  "teamKey": "Arica",
-
-  "name": "San Marcos de Arica",
-
-  "logo": "assets/logos/south_america/chili/Arica.png",
-
-  "stadium": {
-    "name": "Carlos Dittborn",
-    "capacity": 9700
+    "teamKey": "Arica",
+  
+    "name": "San Marcos de Arica",
+  
+    "logo": "assets/logos/south_america/chili/Arica.png",
+  
+    "manager": {
+      "name": "Iván Sandrock",
+      "country": "CL"
+    },
+  
+    "stadium": {
+      "name": "Carlos Dittborn",
+      "capacity": 9700
+    },
+  
+    "players": [
+      {"playerId": "player_cl2_002_01", "name": "Rodrigo Saracho", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl2_002_02", "name": "Yerko Águila", "number": 3, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_002_03", "name": "Nicolás Aguirre", "number": 6, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl2_002_04", "name": "Augusto Barrios", "number": 8, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_002_05", "name": "Cristóbal Guerra", "number": 14, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_002_06", "name": "Mauricio Iturra", "number": 4, "position": "CDM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_002_07", "name": "Boris Sagredo", "number": 10, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_002_08", "name": "Agustín Maidana", "number": 19, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl2_002_09", "name": "Bairon Monroy", "number": 7, "position": "RW", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_002_10", "name": "Camilo Melivilu", "number": 9, "position": "ST", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_002_11", "name": "Nicolás Zedán", "number": 11, "position": "LW", "country": "PS", "status": "starter"},
+  
+      {"playerId": "player_cl2_002_12", "name": "Benjamín Tapia", "number": 13, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_002_13", "name": "Guillermo Cubillos", "number": 15, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_002_14", "name": "Korben Rojas", "number": 17, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_002_15", "name": "Álvaro Cazula", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_cl2_002_16", "name": "Andrés Barboza", "number": 34, "position": "CB", "country": "UY", "status": "bench"},
+      {"playerId": "player_cl2_002_17", "name": "Nicolás Orrego", "number": 21, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_002_18", "name": "Nahuel Donadell", "number": 22, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_002_19", "name": "D'Hidier Pereira", "number": 24, "position": "CAM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_002_20", "name": "Gonzalo Reyes", "number": 16, "position": "ST", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_002_21", "name": "Alfredo Ábalos", "number": 20, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl2_002_22", "name": "Josaphat Muñoz", "number": 30, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_002_23", "name": "Camilo Rencoret", "number": 26, "position": "CM", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_002_24", "name": "Mauricio Godoy", "number": 27, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_002_25", "name": "Cristian Valenzuela", "number": 31, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 19,
+        "cornerLeft": 10,
+        "cornerRight": 19
+      }
+    }
   }
-}
