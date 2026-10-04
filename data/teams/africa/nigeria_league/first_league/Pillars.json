@@ -1,12 +1,39 @@
-{
-  "teamKey": "Pillar",
-
-  "name": "Kano Pillars FC",
-
-  "logo": "assets/logos/africa/nigeria/Piilar.png",
-
-  "stadium": {
-    "name": "Sani Abacha Stadium",
-    "capacity": 16000
+ {
+    "teamKey": "Pillar",
+    "name": "Kano Pillars FC",
+    "logo": "assets/logos/africa/nigeria/Piilar.png",
+    "manager": {"name": "Daniel Ogunmodede", "country": "NG"},
+    "stadium": {"name": "Sani Abacha Stadium", "capacity": 16000},
+    "players": [
+      {"playerId": "player_ng1_013_01", "name": "Mohammed Galadima", "number": 1, "position": "GK", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_013_02", "name": "Abdulmutalib Sanusi", "number": 2, "position": "RB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_013_03", "name": "Musa Abdullahi", "number": 4, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_013_04", "name": "Samuel Agu", "number": 5, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_013_05", "name": "Fahad Usman", "number": 3, "position": "LB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_013_06", "name": "Abdullahi Shehu", "number": 6, "position": "CDM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_013_07", "name": "Aminu Mohammed", "number": 8, "position": "CM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_013_08", "name": "Ahmed Musa", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_013_09", "name": "Rabiu Ali", "number": 10, "position": "CAM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_013_10", "name": "Auwalu Ali", "number": 11, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_013_11", "name": "Abba Adam", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_013_12", "name": "Muttaka Musa", "number": 30, "position": "GK", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_013_13", "name": "Ali Abdullahi", "number": 12, "position": "RB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_013_14", "name": "Fabian Nworie", "number": 13, "position": "CB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_013_15", "name": "Felix Oloye", "number": 14, "position": "LB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_013_16", "name": "Zayyad Musa", "number": 15, "position": "CDM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_013_17", "name": "Ajibade Abiola", "number": 16, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_013_18", "name": "Mustapha Umar", "number": 17, "position": "RW", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_013_19", "name": "Malam Ibrahim Yahaya", "number": 18, "position": "LW", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_013_20", "name": "Ibrahim Halliru", "number": 19, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_013_21", "name": "Kabir Joseph", "number": 20, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_013_22", "name": "Samson Adediran", "number": 21, "position": "CM", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_013_23", "name": "David Bernard Ovoke", "number": 22, "position": "CAM", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_013_24", "name": "Salihu Nasiru", "number": 23, "position": "CAM", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_013_25", "name": "Umar Sani", "number": 24, "position": "CM", "country": "NG", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {"penalty": 9, "freeKick": 7, "cornerLeft": 7, "cornerRight": 7}
+    }
   }
-}
