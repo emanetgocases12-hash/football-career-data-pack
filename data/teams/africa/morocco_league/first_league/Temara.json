@@ -1,12 +1,41 @@
 {
-  "teamKey": "Témara",
-
-  "name": "Wydad Témara",
-
-  "logo": "assets/logos/africa/morocco/Temara.png",
-
-  "stadium": {
-    "name": "Stade Municipal de Témara",
-    "capacity": 5000
+    "teamKey": "Témara",
+    "name": "Wydad Témara",
+    "logo": "assets/logos/africa/morocco/Temara.png",
+    "manager": {"name": "Abdessalam Benjelloun", "country": "MA"},
+    "stadium": {"name": "Stade Municipal de Témara", "capacity": 5000},
+    "players": [
+      {"playerId": "player_ma1_012_01", "name": "Rabie Ajlid", "number": 33, "position": "GK", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_012_02", "name": "Mouad Gari", "number": 18, "position": "RB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_012_03", "name": "Zakaria Labib", "number": 19, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_012_04", "name": "Nizar Cherki", "number": 20, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_012_05", "name": "Said Lbeyd", "number": 13, "position": "LB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_012_06", "name": "Mohamed Belkaida", "number": 34, "position": "CDM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_012_07", "name": "Rabiae Bounit", "number": 99, "position": "CM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_012_08", "name": "Fahd El Kaaba", "number": 88, "position": "RW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_012_09", "name": "Akram Khouidssi", "number": 10, "position": "CAM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_012_10", "name": "Ismail Sbahe", "number": 14, "position": "LW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_012_11", "name": "Oussama Essafi", "number": 9, "position": "ST", "country": "MA", "status": "starter"},
+  
+      {"playerId": "player_ma1_012_12", "name": "Brahim El Yamlahi", "number": 12, "position": "GK", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_012_13", "name": "Reda Bakkouri", "number": 3, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_012_14", "name": "Lahcen Kabiri", "number": 17, "position": "RB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_012_15", "name": "Ayoub Belcadi", "number": 30, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_012_16", "name": "Omar El Khattab", "number": 32, "position": "LB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_012_17", "name": "Karim Ait Mohamed", "number": 5, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_012_18", "name": "Othman Sabri", "number": 8, "position": "CAM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_012_19", "name": "Tawfieq Ijrouten", "number": 7, "position": "RW", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_012_20", "name": "Mohamed Assraoui", "number": 11, "position": "LW", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_012_21", "name": "Oussama Essabri", "number": 70, "position": "ST", "country": "MA", "status": "bench"},
+  
+      {"playerId": "player_ma1_012_22", "name": "Hatim Siouahe", "number": 1, "position": "GK", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_012_23", "name": "Ibrahima Sagna", "number": 24, "position": "CM", "country": "SN", "status": "reserve"},
+      {"playerId": "player_ma1_012_24", "name": "Abdellah Cherrad", "number": 22, "position": "CM", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_012_25", "name": "Zakaria Oulbenna", "number": 77, "position": "RW", "country": "MA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 99,
+      "setPieces": {"penalty": 9, "freeKick": 10, "cornerLeft": 88, "cornerRight": 14}
+    }
   }
-}
