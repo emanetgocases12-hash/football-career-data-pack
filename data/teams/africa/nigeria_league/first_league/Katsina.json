@@ -1,12 +1,39 @@
 {
-  "teamKey": "Katsin",
-
-  "name": "Katsina United FC",
-
-  "logo": "assets/logos/africa/nigeria/Katsin.png",
-
-  "stadium": {
-    "name": "Muhammadu Dikko Stadium",
-    "capacity": 35000
+    "teamKey": "Katsin",
+    "name": "Katsina United FC",
+    "logo": "assets/logos/africa/nigeria/Katsin.png",
+    "manager": {"name": "Azeez Mohammed", "country": "NG"},
+    "stadium": {"name": "Muhammadu Dikko Stadium", "capacity": 35000},
+    "players": [
+      {"playerId": "player_ng1_009_01", "name": "Joshua Enaholo", "number": 1, "position": "GK", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_009_02", "name": "Haruna Attah", "number": 2, "position": "RB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_009_03", "name": "Ahmed Kabeer", "number": 4, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_009_04", "name": "Eric Ekpere Oguocha", "number": 5, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_009_05", "name": "Ismaila Nasir", "number": 3, "position": "LB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_009_06", "name": "Usman Barau", "number": 6, "position": "CDM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_009_07", "name": "Michael Ibe", "number": 8, "position": "CM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_009_08", "name": "Joshua Akpan", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_009_09", "name": "Abdulbari Nura", "number": 10, "position": "CAM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_009_10", "name": "Abdulrahman Garba", "number": 11, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_009_11", "name": "Luis Dadong", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_009_12", "name": "Kolawole Oladipo", "number": 30, "position": "GK", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_009_13", "name": "Bilal Yakubu", "number": 12, "position": "RB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_009_14", "name": "Yallilo Moses", "number": 13, "position": "CB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_009_15", "name": "Sani Nasiru", "number": 14, "position": "LB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_009_16", "name": "Ismail Muktar", "number": 15, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_009_17", "name": "Yushau Armiyau", "number": 16, "position": "CAM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_009_18", "name": "David Onovo", "number": 17, "position": "LW", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_009_19", "name": "Usman Sadeeq", "number": 18, "position": "RW", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_009_20", "name": "Uche Collins", "number": 19, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_009_21", "name": "Samson Bossa Obi", "number": 20, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_009_22", "name": "Daniel Barnabas", "number": 21, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_009_23", "name": "Ubong Essien", "number": 22, "position": "CM", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_009_24", "name": "Sani Mubarak", "number": 23, "position": "CDM", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_009_25", "name": "Kabir Muhammad", "number": 24, "position": "CM", "country": "NG", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {"penalty": 9, "freeKick": 7, "cornerLeft": 7, "cornerRight": 7}
+    }
   }
-}
