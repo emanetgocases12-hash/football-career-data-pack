@@ -1,12 +1,44 @@
 {
-  "teamKey": "Madina",
-
-  "name": "Al Madina SC",
-
-  "logo": "assets/logos/africa/libya/Madina.png",
-
-  "stadium": {
-    "name": "Tripoli International Stadium",
-    "capacity": 50000
+    "teamKey": "Madina",
+    "name": "Al Madina SC",
+    "logo": "assets/logos/africa/libya/Madina.png",
+    "manager": {"name": "Emad Dahmani", "country": "LY"},
+    "stadium": {"name": "Tripoli International Stadium", "capacity": 50000},
+    "players": [
+      {"playerId": "player_ly1_016_01", "name": "Yaseen Aboud", "number": 1, "position": "GK", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_016_02", "name": "Mohamed Al-Takbali", "number": 2, "position": "RB", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_016_03", "name": "Ibrahim Bourouis", "number": 4, "position": "CB", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_016_04", "name": "Saleh El Rgeig", "number": 5, "position": "CB", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_016_05", "name": "Richard Kassaga", "number": 3, "position": "LB", "country": "UG", "status": "starter"},
+      {"playerId": "player_ly1_016_06", "name": "Ousmane Diabaté", "number": 6, "position": "CDM", "country": "NE", "status": "starter"},
+      {"playerId": "player_ly1_016_07", "name": "Farouq Al-Fleit", "number": 8, "position": "CM", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_016_08", "name": "Ehmeida Al-Sherwali", "number": 7, "position": "RW", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_016_09", "name": "Feras Allamushi", "number": 10, "position": "CAM", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_016_10", "name": "Abdelkader Ghorab", "number": 11, "position": "LW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_ly1_016_11", "name": "Rabii Hamri", "number": 9, "position": "ST", "country": "TN", "status": "starter"},
+      {"playerId": "player_ly1_016_12", "name": "Khalifa Al-Mahmoudi", "number": 12, "position": "GK", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_016_13", "name": "Mor Talla Mbaye", "number": 15, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_ly1_016_14", "name": "Wael Isdayrah", "number": 24, "position": "RB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_016_15", "name": "Moataz Al Jurnazi", "number": 16, "position": "LB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_016_16", "name": "Hashem Beltou", "number": 20, "position": "CB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_016_17", "name": "Nasim Anan", "number": 27, "position": "RB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_016_18", "name": "Abdulmalek Al-Begheil", "number": 13, "position": "CM", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_016_19", "name": "Suhaib Al-Haj", "number": 14, "position": "CDM", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_016_20", "name": "Omar Ayad Al-Qulaib", "number": 17, "position": "RM", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_016_21", "name": "Edson Munaba", "number": 19, "position": "LM", "country": "BI", "status": "bench"},
+      {"playerId": "player_ly1_016_22", "name": "Mohamed El Mangoush", "number": 18, "position": "CAM", "country": "LY", "status": "reserve"},
+      {"playerId": "player_ly1_016_23", "name": "Mohammed Ayad", "number": 28, "position": "ST", "country": "LY", "status": "reserve"},
+      {"playerId": "player_ly1_016_24", "name": "Mohamed Anis Saltou", "number": 29, "position": "LW", "country": "LY", "status": "reserve"},
+      {"playerId": "player_ly1_016_25", "name": "Adham Al-Qadi", "number": 33, "position": "RW", "country": "LY", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 10
+      }
+    }
   }
-}
