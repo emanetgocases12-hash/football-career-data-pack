@@ -1,12 +1,35 @@
 {
   "teamKey": "Jag Cor",
-
   "name": "Jaguares de Córdoba",
-
   "logo": "assets/logos/south_america/colombia/JagCor.png",
-
-  "stadium": {
-    "name": "Estadio de Fútbol Jaraguay de Montería",
-    "capacity": 12000
-  }
+  "manager": {"name": "Por definir", "country": "CO"},
+  "stadium": {"name": "Estadio de Fútbol Jaraguay de Montería", "capacity": 12000},
+  "players": [
+    {"playerId": "player_co1_015_01", "name": "Franklin Mosquera", "number": 12, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_015_02", "name": "Diego Martinez", "number": 2, "position": "RB", "country": "ES", "status": "starter"},
+    {"playerId": "player_co1_015_03", "name": "Jerson Malagon", "number": 3, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_015_04", "name": "Juan Franco", "number": 4, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_015_05", "name": "Edwin Martinez", "number": 14, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_015_06", "name": "Andres Alfonso", "number": 5, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_015_07", "name": "Yan Mosquera", "number": 8, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_015_08", "name": "Royscer Colpa", "number": 10, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_015_09", "name": "Jonathan Lovera", "number": 6, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_015_10", "name": "Cristian Alvarez", "number": 7, "position": "LW", "country": "AR", "status": "starter"},
+    {"playerId": "player_co1_015_11", "name": "Wilfrido De La Rosa", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_015_12", "name": "Elio Lopez", "number": 1, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_015_13", "name": "Luis Jimenez", "number": 18, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_015_14", "name": "Nicolas Giraldo", "number": 22, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_015_15", "name": "Juan Perez", "number": 23, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_015_16", "name": "Moises Flores", "number": 25, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_015_17", "name": "Johan Hinestroza", "number": 13, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_015_18", "name": "Jader Maza", "number": 15, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_015_19", "name": "Carlos Cantillo", "number": 19, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_015_20", "name": "Duvan Rodriguez", "number": 11, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_015_21", "name": "Johar Mejia", "number": 17, "position": "LW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_015_22", "name": "Rafael Bustamante", "number": 21, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_015_23", "name": "Andres Renteria", "number": 20, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_015_24", "name": "Darwin Lopez", "number": 27, "position": "RW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_015_25", "name": "Faber Gil", "number": 28, "position": "LW", "country": "CO", "status": "reserve"}
+  ],
+  "tactics": {"formation": "4-2-3-1", "captain": 12, "setPieces": {"penalty": 9, "freeKick": 10, "cornerLeft": 6, "cornerRight": 7}}
 }
