@@ -1,12 +1,58 @@
 {
-  "teamKey": "Guaira",
-
-  "name": "Deportivo La Guaira",
-
-  "logo": "assets/logos/south_america/venezuela/Guaira.png",
-
-  "stadium": {
-    "name": "Estadio Olímpico de la Ciudad Universitaria",
-    "capacity": 24900
+    "teamKey": "Guaira",
+  
+    "name": "Deportivo La Guaira",
+  
+    "logo": "assets/logos/south_america/venezuela/Guaira.png",
+  
+    "manager": {
+      "name": "Mariano Rodríguez",
+      "country": "VE"
+    },
+  
+    "stadium": {
+      "name": "Estadio Olímpico de la Ciudad Universitaria",
+      "capacity": 24900
+    },
+  
+    "players": [
+      {"playerId": "player_ve1_004_01", "name": "Cristopher Varela", "number": 1, "position": "GK", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_004_02", "name": "Carlos Rojas", "number": 2, "position": "RB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_004_03", "name": "Guillermo Ortiz", "number": 24, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ve1_004_04", "name": "Matías Orihuela", "number": 39, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ve1_004_05", "name": "Nelson Hernández", "number": 33, "position": "LB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_004_06", "name": "Rommell Ibarra", "number": 13, "position": "CDM", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_004_07", "name": "Juan Luis Perdomo", "number": 8, "position": "CM", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_004_08", "name": "Jesús Vargas", "number": 11, "position": "RW", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_004_09", "name": "Juan Carlos Castellanos", "number": 10, "position": "CAM", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_004_10", "name": "Yackson Rivas", "number": 18, "position": "LW", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_004_11", "name": "Flabián Londoño", "number": 36, "position": "ST", "country": "CO", "status": "starter"},
+  
+      {"playerId": "player_ve1_004_12", "name": "Jorge Sánchez", "number": 12, "position": "GK", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_004_13", "name": "Carlos Rivero", "number": 4, "position": "RB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_004_14", "name": "Diego Osio", "number": 3, "position": "LB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_004_15", "name": "Martín Gianoli", "number": 5, "position": "CB", "country": "UY", "status": "bench"},
+      {"playerId": "player_ve1_004_16", "name": "Carlos Faya", "number": 6, "position": "CM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_004_17", "name": "Miguel González", "number": 15, "position": "CAM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_004_18", "name": "José Correa", "number": 27, "position": "CDM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_004_19", "name": "Anthony Uribe", "number": 9, "position": "ST", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_004_20", "name": "José Alí Meza", "number": 7, "position": "ST", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_004_21", "name": "Manuel Sulbarán", "number": 22, "position": "RW", "country": "VE", "status": "bench"},
+  
+      {"playerId": "player_ve1_004_22", "name": "Genderson Ascanio", "number": 19, "position": "LB", "country": "VE", "status": "reserve"},
+      {"playerId": "player_ve1_004_23", "name": "Franco Cáceres", "number": 32, "position": "CM", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ve1_004_24", "name": "Sebastián Zeballos", "number": 41, "position": "LW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_ve1_004_25", "name": "Junior Paredes", "number": 25, "position": "ST", "country": "VE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 13,
+      "setPieces": {
+        "penalty": 36,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
