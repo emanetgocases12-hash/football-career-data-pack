@@ -1,12 +1,41 @@
 {
-  "teamKey": "Raja",
-
-  "name": "Raja Casablanca",
-
-  "logo": "assets/logos/africa/morocco/Raja.png",
-
-  "stadium": {
-    "name": "Stade Mohammed V",
-    "capacity": 45000
+    "teamKey": "Raja",
+    "name": "Raja Casablanca",
+    "logo": "assets/logos/africa/morocco/Raja.png",
+    "manager": {"name": "Paco Jémez", "country": "ES"},
+    "stadium": {"name": "Stade Mohammed V", "capacity": 45000},
+    "players": [
+      {"playerId": "player_ma1_010_01", "name": "El Mehdi Al Harrar", "number": 1, "position": "GK", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_010_02", "name": "Ayoub El Amloud", "number": 17, "position": "RB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_010_03", "name": "Badr Benoun", "number": 13, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_010_04", "name": "Marian Huja", "number": 2, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_ma1_010_05", "name": "Amine Khammas", "number": 24, "position": "LB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_010_06", "name": "Mohamed Al Makahasi", "number": 23, "position": "CDM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_010_07", "name": "Michael Agbekpornu", "number": 8, "position": "CM", "country": "GH", "status": "starter"},
+      {"playerId": "player_ma1_010_08", "name": "Bilal Ould-Chikh", "number": 10, "position": "RW", "country": "NL", "status": "starter"},
+      {"playerId": "player_ma1_010_09", "name": "Aymen Barkok", "number": 6, "position": "CAM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_010_10", "name": "Adam Ennaffati", "number": 77, "position": "LW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_010_11", "name": "Ismail Khafi", "number": 9, "position": "ST", "country": "MA", "status": "starter"},
+  
+      {"playerId": "player_ma1_010_12", "name": "Khalid Kbiri Alaoui", "number": 12, "position": "GK", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_010_13", "name": "Mohamed Boulacsout", "number": 7, "position": "RB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_010_14", "name": "Ismail Mokadem", "number": 4, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_010_15", "name": "Chemseddine Knaidil", "number": 3, "position": "LB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_010_16", "name": "Bouchaib Arrassi", "number": 15, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_010_17", "name": "Othmane Chraibi", "number": 19, "position": "CDM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_010_18", "name": "Younes Bakiz", "number": 14, "position": "CAM", "country": "DK", "status": "bench"},
+      {"playerId": "player_ma1_010_19", "name": "Mounaïm El Idrissy", "number": 11, "position": "ST", "country": "FR", "status": "bench"},
+      {"playerId": "player_ma1_010_20", "name": "Mathias Oyewusi", "number": 99, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_ma1_010_21", "name": "Pape Ousmane Sakho", "number": 79, "position": "LW", "country": "SN", "status": "bench"},
+  
+      {"playerId": "player_ma1_010_22", "name": "Yassine Zoubir", "number": 32, "position": "GK", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_010_23", "name": "Adel Bettaieb", "number": 20, "position": "LW", "country": "TN", "status": "reserve"},
+      {"playerId": "player_ma1_010_24", "name": "Mohamed Abu Zraiq Sharara", "number": 27, "position": "RW", "country": "JO", "status": "reserve"},
+      {"playerId": "player_ma1_010_25", "name": "Ilyass Faiz", "number": 25, "position": "RW", "country": "MA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 13,
+      "setPieces": {"penalty": 9, "freeKick": 10, "cornerLeft": 10, "cornerRight": 77}
+    }
   }
-}
