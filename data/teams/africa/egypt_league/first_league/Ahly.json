@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ahly",
+    "teamKey": "Ahly",
 
-  "name": "Al Ahly SC",
+    "name": "Al Ahly SC",
 
-  "logo": "assets/logos/africa/egypt/Ahly.png",
+    "logo": "assets/logos/africa/egypt/Ahly.png",
 
-  "stadium": {
-    "name": "Cairo International Stadium",
-    "capacity": 75000
+    "manager": {
+      "name": "Houcine Ammouta",
+      "country": "MA"
+    },
+
+    "stadium": {
+      "name": "Cairo International Stadium",
+      "capacity": 75000
+    },
+
+    "players": [
+      {"playerId": "player_eg1_001_01", "name": "Mohamed El Shenawy", "number": 1, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_001_02", "name": "Mohamed Hany", "number": 30, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_001_03", "name": "Yasser Ibrahim", "number": 6, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_001_04", "name": "Yassin Marei", "number": 2, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_001_05", "name": "Karim El Debes", "number": 3, "position": "LB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_001_06", "name": "Marwan Attia", "number": 13, "position": "CDM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_001_07", "name": "Akram Tawfik", "number": 12, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_001_08", "name": "Ahmed Sayed Zizo", "number": 25, "position": "RW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_001_09", "name": "Emam Ashour", "number": 22, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_001_10", "name": "Achraf Bencharki", "number": 17, "position": "LW", "country": "MA", "status": "starter"},
+      {"playerId": "player_eg1_001_11", "name": "Mounsef Bakrar", "number": 10, "position": "ST", "country": "DZ", "status": "starter"},
+
+      {"playerId": "player_eg1_001_12", "name": "Mostafa Shobeir", "number": 31, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_001_13", "name": "Ahmed Eid", "number": 4, "position": "RB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_001_14", "name": "Hady Reyad", "number": 5, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_001_15", "name": "Achraf Dari", "number": 24, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_eg1_001_16", "name": "Amr El Gazar", "number": 26, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_001_17", "name": "Youssef Belammari", "number": 20, "position": "LB", "country": "MA", "status": "bench"},
+      {"playerId": "player_eg1_001_18", "name": "Hussein El Shahat", "number": 14, "position": "RW", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_001_19", "name": "Mohamed Magdy Afsha", "number": 19, "position": "CAM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_001_20", "name": "Taher Mohamed Taher", "number": 7, "position": "LW", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_001_21", "name": "Soufiane Benjdida", "number": 9, "position": "ST", "country": "MA", "status": "bench"},
+
+      {"playerId": "player_eg1_001_22", "name": "Hamza Alaa", "number": 33, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_001_23", "name": "Omar El Saaiy", "number": 15, "position": "CM", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_001_24", "name": "Ali Mahmoud", "number": 21, "position": "CM", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_001_25", "name": "Reda Slim", "number": 29, "position": "RW", "country": "MA", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+          "penalty": 25,
+          "freeKick": 25,
+          "cornerLeft": 17,
+          "cornerRight": 25
+        }
+      }
   }
-}
