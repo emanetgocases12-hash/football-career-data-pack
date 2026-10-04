@@ -1,12 +1,52 @@
 {
-  "teamKey": "Aduana",
+    "teamKey": "Aduana",
+    "name": "Aduana FC",
+    "logo": "assets/logos/africa/ghana/Aduana.png",
+    "manager": {
+      "name": "Samuel Boadu",
+      "country": "GH"
+    },
+    "stadium": {
+      "name": "Nana Agyemang Badu I Park",
+      "capacity": 7000
+    },
+    "players": [
+      {"playerId": "player_gh1_001_01", "name": "Gregory Obeng Sekyere", "number": 16, "position": "GK", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_001_02", "name": "Stephen Badu", "number": 2, "position": "RB", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_001_03", "name": "Alex Boakye", "number": 4, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_001_04", "name": "Remember Adomako Boateng", "number": 5, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_001_05", "name": "William Dankyi", "number": 3, "position": "LB", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_001_06", "name": "Abdul-Aziz Nurudeen", "number": 6, "position": "CDM", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_001_07", "name": "Seidu Saana", "number": 8, "position": "CM", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_001_08", "name": "Stephen Amankona", "number": 10, "position": "RW", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_001_09", "name": "Gideon Asante Yeboah", "number": 11, "position": "CAM", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_001_10", "name": "Emmanuel Abban", "number": 17, "position": "LW", "country": "GH", "status": "starter"},
+      {"playerId": "player_gh1_001_11", "name": "Emmanuel Marfo", "number": 9, "position": "ST", "country": "GH", "status": "starter"},
 
-  "name": "Aduana FC",
+      {"playerId": "player_gh1_001_12", "name": "Prince Osei", "number": 31, "position": "GK", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_001_13", "name": "Abubakar Adams", "number": 15, "position": "CB", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_001_14", "name": "Elvis Addo", "number": 22, "position": "RB", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_001_15", "name": "Richard Afriyie", "number": 24, "position": "LB", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_001_16", "name": "Maxwell Arthur", "number": 21, "position": "CM", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_001_17", "name": "Samuel Tenedu", "number": 20, "position": "CM", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_001_18", "name": "Godfred Boakye", "number": 14, "position": "CM", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_001_19", "name": "Hensen Anponsa", "number": 19, "position": "LW", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_001_20", "name": "Mezack Afriyie", "number": 27, "position": "ST", "country": "GH", "status": "bench"},
+      {"playerId": "player_gh1_001_21", "name": "Bright Adjei", "number": 7, "position": "ST", "country": "GH", "status": "bench"},
 
-  "logo": "assets/logos/africa/ghana/Aduana.png",
-
-  "stadium": {
-    "name": "Nana Agyemang Badu I Park",
-    "capacity": 7000
+      {"playerId": "player_gh1_001_22", "name": "Charles Gyamfi Kamara", "number": 25, "position": "RW", "country": "GH", "status": "reserve"},
+      {"playerId": "player_gh1_001_23", "name": "Patrick Mensah", "number": 29, "position": "ST", "country": "GH", "status": "reserve"},
+      {"playerId": "player_gh1_001_24", "name": "Raymond Agyemang", "number": 28, "position": "CM", "country": "GH", "status": "reserve"},
+      {"playerId": "player_gh1_001_25", "name": "Silas Obeng Kyeremeh", "number": 30, "position": "CM", "country": "GH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
