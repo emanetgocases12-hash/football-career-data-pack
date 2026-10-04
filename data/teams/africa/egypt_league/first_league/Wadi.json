@@ -1,12 +1,58 @@
 {
-  "teamKey": "Wadi",
+    "teamKey": "Wadi",
 
-  "name": "Wadi Degla SC",
+    "name": "Wadi Degla SC",
 
-  "logo": "assets/logos/africa/egypt/Wadi.png",
+    "logo": "assets/logos/africa/egypt/Wadi.png",
 
-  "stadium": {
-    "name": "Al Salam Stadium",
-    "capacity": 30000
+    "manager": {
+      "name": "Mohamed El Sheikh",
+      "country": "EG"
+    },
+
+    "stadium": {
+      "name": "Al Salam Stadium",
+      "capacity": 30000
+    },
+
+    "players": [
+      {"playerId": "player_eg1_018_01", "name": "Amr Hossam", "number": 1, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_018_02", "name": "Seif Maher", "number": 2, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_018_03", "name": "Ahmed Dahroug", "number": 5, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_018_04", "name": "Seif Teka", "number": 28, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_018_05", "name": "Omar Adly", "number": 3, "position": "LB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_018_06", "name": "Mohamed Abdel Aaty", "number": 14, "position": "CDM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_018_07", "name": "Mohamed Fathy", "number": 30, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_018_08", "name": "Youssef Oya", "number": 7, "position": "RW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_018_09", "name": "Mohamed Diasty", "number": 10, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_018_10", "name": "Zizo", "number": 22, "position": "LW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_018_11", "name": "Franck Boli", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
+
+      {"playerId": "player_eg1_018_12", "name": "Ziad Seyam", "number": 13, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_018_13", "name": "Karim Aboul Fetouh", "number": 6, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_018_14", "name": "Ahmed Ayman", "number": 23, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_018_15", "name": "Mohamed Ragab", "number": 24, "position": "RB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_018_16", "name": "Ahmed Abdeen", "number": 40, "position": "LB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_018_17", "name": "Ibrahim Adel", "number": 4, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_018_18", "name": "Ahmed Scholes", "number": 8, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_018_19", "name": "Hassan Hassan", "number": 17, "position": "CAM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_018_20", "name": "Mohamed Abdelrahim", "number": 11, "position": "RW", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_018_21", "name": "Ahmed Refaat", "number": 27, "position": "LW", "country": "EG", "status": "bench"},
+
+      {"playerId": "player_eg1_018_22", "name": "Greisha", "number": 18, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_018_23", "name": "Mahmoud Abdelhalim", "number": 33, "position": "CM", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_018_24", "name": "Mohamed Juhayna", "number": 20, "position": "ST", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_018_25", "name": "Mohamed Soliman", "number": 29, "position": "ST", "country": "EG", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 14,
+      "setPieces": {
+          "penalty": 9,
+          "freeKick": 10,
+          "cornerLeft": 7,
+          "cornerRight": 22
+        }
+      }
   }
-}
