@@ -1,12 +1,39 @@
 {
-  "teamKey": "Bees",
-
-  "name": "Ranchers Bees FC",
-
-  "logo": "assets/logos/africa/nigeria/Bees.png",
-
-  "stadium": {
-    "name": "Muhammadu Dikko Stadium",
-    "capacity": 35000
+    "teamKey": "Bees",
+    "name": "Ranchers Bees FC",
+    "logo": "assets/logos/africa/nigeria/Bees.png",
+    "manager": {"name": "Usman Abdallah", "country": "NG"},
+    "stadium": {"name": "Muhammadu Dikko Stadium", "capacity": 35000},
+    "players": [
+      {"playerId": "player_ng1_003_01", "name": "Suleiman Temitope", "number": 30, "position": "GK", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_003_02", "name": "Gabriel Sunday", "number": 2, "position": "RB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_003_03", "name": "Gamagira Sulaiman", "number": 3, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_003_04", "name": "Ibrahim Inuwa", "number": 6, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_003_05", "name": "Abudulrahman Ayinla", "number": 24, "position": "LB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_003_06", "name": "Zilkifilu Rabiu", "number": 4, "position": "CDM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_003_07", "name": "M. Eronmose", "number": 8, "position": "CM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_003_08", "name": "Royalson Ohuei", "number": 21, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_003_09", "name": "K. Tijjani", "number": 10, "position": "CAM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_003_10", "name": "Isah Ndala", "number": 17, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_003_11", "name": "Chiedozie Okorie", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_003_12", "name": "Joel Theophilus Afelokhai", "number": 1, "position": "GK", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_003_13", "name": "S. Yusuf", "number": 12, "position": "RB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_003_14", "name": "Muhammed Kabiru", "number": 23, "position": "CB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_003_15", "name": "Sani Faisal", "number": 31, "position": "CB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_003_16", "name": "Yusuf Musa", "number": 22, "position": "LB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_003_17", "name": "A. Naziru", "number": 16, "position": "CDM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_003_18", "name": "Joel Godwin", "number": 26, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_003_19", "name": "Jamilu Yusuf", "number": 19, "position": "RW", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_003_20", "name": "Abuchi Nnamani", "number": 37, "position": "LW", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_003_21", "name": "Mustapha Salisu", "number": 20, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_003_22", "name": "Adamu Usman", "number": 36, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_003_23", "name": "Baba Ladan Muhammad", "number": 5, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_003_24", "name": "M. Kabiru", "number": 7, "position": "CB", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_003_25", "name": "Godwin Daniel", "number": 11, "position": "GK", "country": "NG", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {"penalty": 9, "freeKick": 21, "cornerLeft": 21, "cornerRight": 21}
+    }
   }
-}
