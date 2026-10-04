@@ -1,12 +1,44 @@
 {
-  "teamKey": "Hlal SC",
-
-  "name": "Al Hilal Benghazi",
-
-  "logo": "assets/logos/africa/libya/HlalSC.png",
-
-  "stadium": {
-    "name": "Benghazi International Stadium",
-    "capacity": 42000
+    "teamKey": "Hlal SC",
+    "name": "Al Hilal Benghazi",
+    "logo": "assets/logos/africa/libya/HlalSC.png",
+    "manager": {"name": "Mohammed Al-Kikly", "country": "LY"},
+    "stadium": {"name": "Benghazi International Stadium", "capacity": 42000},
+    "players": [
+      {"playerId": "player_ly1_012_01", "name": "Nasr Mohammed", "number": 1, "position": "GK", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_012_02", "name": "Abubakar Abuaqileh", "number": 2, "position": "RB", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_012_03", "name": "Abdou Seydi", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_ly1_012_04", "name": "Basher Al Karami", "number": 5, "position": "CB", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_012_05", "name": "Anas Salem", "number": 3, "position": "LB", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_012_06", "name": "Abdel Salam Diqa", "number": 6, "position": "CDM", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_012_07", "name": "Abdul Hadi Zaqlam", "number": 8, "position": "CM", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_012_08", "name": "Amjad Ben Abdi", "number": 7, "position": "RW", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_012_09", "name": "Ahmed Khazzam", "number": 10, "position": "CAM", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_012_10", "name": "Al Husayn Al Tawerghi", "number": 11, "position": "LW", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_012_11", "name": "Aamer Al Tawergi", "number": 9, "position": "ST", "country": "LY", "status": "starter"},
+      {"playerId": "player_ly1_012_12", "name": "Mohammed Al-Madani", "number": 12, "position": "GK", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_012_13", "name": "El Mutasem Bellah El Taib", "number": 15, "position": "CB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_012_14", "name": "Faraj Mohammad", "number": 24, "position": "RB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_012_15", "name": "Hamed Al Thelba", "number": 16, "position": "LB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_012_16", "name": "Hany El Dersi", "number": 20, "position": "CB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_012_17", "name": "Husayn Abbas", "number": 27, "position": "RB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_012_18", "name": "Idrees Al Dharrat", "number": 23, "position": "LB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_012_19", "name": "Mohamed Ali Ben Salem", "number": 25, "position": "CB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_012_20", "name": "Mohammad Al Karmaji", "number": 26, "position": "CB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_012_21", "name": "Mohammed Abdullah", "number": 32, "position": "RB", "country": "LY", "status": "bench"},
+      {"playerId": "player_ly1_012_22", "name": "Mohammed Al Shiteewi", "number": 28, "position": "LB", "country": "LY", "status": "reserve"},
+      {"playerId": "player_ly1_012_23", "name": "Mouad Al Saghir", "number": 13, "position": "CB", "country": "LY", "status": "reserve"},
+      {"playerId": "player_ly1_012_24", "name": "Muad Al Amami", "number": 14, "position": "RB", "country": "LY", "status": "reserve"},
+      {"playerId": "player_ly1_012_25", "name": "Rajab Al Maghribi", "number": 17, "position": "LB", "country": "LY", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 10
+      }
+    }
   }
-}
