@@ -1,12 +1,58 @@
-{
-  "teamKey": "Fertil",
+ {
+    "teamKey": "Fertil",
 
-  "name": "Abou Qir Fertilizers SC",
+    "name": "Abou Qir Fertilizers SC",
 
-  "logo": "assets/logos/africa/egypt/Fertil.png",
+    "logo": "assets/logos/africa/egypt/Fertil.png",
 
-  "stadium": {
-    "name": "Alexandria Stadium",
-    "capacity": 19676
+    "manager": {
+      "name": "Magdy Abdel Aaty",
+      "country": "EG"
+    },
+
+    "stadium": {
+      "name": "Alexandria Stadium",
+      "capacity": 19676
+    },
+
+    "players": [
+      {"playerId": "player_eg1_007_01", "name": "Mahmoud Genesh", "number": 1, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_007_02", "name": "Ayman El Gazar", "number": 24, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_007_03", "name": "Mohamed Debesh", "number": 4, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_007_04", "name": "Mohamed Alaa", "number": 6, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_007_05", "name": "Ahmed Dahesh", "number": 27, "position": "LB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_007_06", "name": "Emad Hamdy", "number": 8, "position": "CDM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_007_07", "name": "Youssef Hamdi", "number": 30, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_007_08", "name": "Favour Akem", "number": 23, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_eg1_007_09", "name": "Emad Fathy", "number": 17, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_007_10", "name": "Ziad Farag", "number": 28, "position": "LW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_007_11", "name": "Ali Hussein", "number": 29, "position": "ST", "country": "EG", "status": "starter"},
+
+      {"playerId": "player_eg1_007_12", "name": "El Sayed El Sawy", "number": 16, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_007_13", "name": "Islam Ashraf", "number": 12, "position": "LB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_007_14", "name": "Ahmed Awad", "number": 20, "position": "RB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_007_15", "name": "Gaber Kamel", "number": 3, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_007_16", "name": "Ahmed Fayez", "number": 5, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_007_17", "name": "Mohamed Osha", "number": 7, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_007_18", "name": "Ramez Milad", "number": 14, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_007_19", "name": "Ahmed Khaled", "number": 22, "position": "CAM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_007_20", "name": "Seif El Din Ali", "number": 21, "position": "RW", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_007_21", "name": "Mahmoud Abou Gouda", "number": 9, "position": "ST", "country": "EG", "status": "bench"},
+
+      {"playerId": "player_eg1_007_22", "name": "Mohamed Said Shika", "number": 25, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_007_23", "name": "Mohamed Shehata", "number": 11, "position": "LW", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_007_24", "name": "Mohamed Camara", "number": 38, "position": "ST", "country": "GN", "status": "reserve"},
+      {"playerId": "player_eg1_007_25", "name": "Omar Ibrahim", "number": 15, "position": "CM", "country": "EG", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+          "penalty": 29,
+          "freeKick": 17,
+          "cornerLeft": 28,
+          "cornerRight": 23
+        }
+      }
   }
-}
