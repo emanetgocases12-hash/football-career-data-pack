@@ -1,12 +1,58 @@
 {
-  "teamKey": "AFAD",
-
-  "name": "AFAD Plateau",
-
-  "logo": "assets/logos/africa/ivory/AFAD.png",
-
-  "stadium": {
-    "name": "Stade Municipal d'Abidjan",
-    "capacity": 1100
+    "teamKey": "AFAD",
+  
+    "name": "AFAD Plateau",
+  
+    "logo": "assets/logos/africa/ivory/AFAD.png",
+  
+    "manager": {
+      "name": "Koffi Firmin Kouakou",
+      "country": "CI"
+    },
+  
+    "stadium": {
+      "name": "Stade Municipal d'Abidjan",
+      "capacity": 1100
+    },
+  
+    "players": [
+      {"playerId": "player_ci1_001_01", "name": "Guy Franck Okahi", "number": 1, "position": "GK", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_001_02", "name": "Franck Amos Yoan", "number": 2, "position": "RB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_001_03", "name": "Issiaka Bamba", "number": 4, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_001_04", "name": "Mamoudou Bansé", "number": 5, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_001_05", "name": "Jean Marc Koicou", "number": 3, "position": "LB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_001_06", "name": "Mohamed Junior Touré", "number": 6, "position": "CDM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_001_07", "name": "Luc Stephane Kacou", "number": 8, "position": "CM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_001_08", "name": "Soulayemane Fofana", "number": 7, "position": "RW", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_001_09", "name": "Fulgence Kouadio", "number": 10, "position": "CAM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_001_10", "name": "Kalilu Jarju", "number": 11, "position": "LW", "country": "GM", "status": "starter"},
+      {"playerId": "player_ci1_001_11", "name": "Emmanuel Fabrice Zehi", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
+  
+      {"playerId": "player_ci1_001_12", "name": "Nabil Sanguisso", "number": 12, "position": "GK", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_001_13", "name": "Achirafou Yaya", "number": 13, "position": "CB", "country": "TG", "status": "bench"},
+      {"playerId": "player_ci1_001_14", "name": "Ismaila Sanogo", "number": 14, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_001_15", "name": "Sidiki Traoré", "number": 15, "position": "LB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_001_16", "name": "Ibrahim Riqui Koné", "number": 16, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_001_17", "name": "Sanga Topio Coulibaly", "number": 17, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_001_18", "name": "Yaya Bakayoko", "number": 18, "position": "CDM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_001_19", "name": "Yomi Junior Touré", "number": 19, "position": "RW", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_001_20", "name": "Hamed Abdel-Aziz Bamba", "number": 20, "position": "CAM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_001_21", "name": "Steve Junior Agbo-Panzo", "number": 21, "position": "ST", "country": "CI", "status": "bench"},
+  
+      {"playerId": "player_ci1_001_22", "name": "Vianey Bregui", "number": 22, "position": "CB", "country": "CI", "status": "reserve"},
+      {"playerId": "player_ci1_001_23", "name": "Nabil Sanguisso Junior", "number": 23, "position": "CM", "country": "CI", "status": "reserve"},
+      {"playerId": "player_ci1_001_24", "name": "Michel Amani", "number": 24, "position": "ST", "country": "CI", "status": "reserve"},
+      {"playerId": "player_ci1_001_25", "name": "Jean-Marc Koicou Junior", "number": 25, "position": "LW", "country": "CI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
