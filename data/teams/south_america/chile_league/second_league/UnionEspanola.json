@@ -1,12 +1,58 @@
 {
-  "teamKey": "U'Espan",
-
-  "name": "Unión Española",
-
-  "logo": "assets/logos/south_america/chili/UEspan.png",
-
-  "stadium": {
-    "name": "Santa Laura - Universidad SEK",
-    "capacity": 19887
+    "teamKey": "U'Espan",
+  
+    "name": "Unión Española",
+  
+    "logo": "assets/logos/south_america/chili/UEspan.png",
+  
+    "manager": {
+      "name": "Ronald Fuentes",
+      "country": "CL"
+    },
+  
+    "stadium": {
+      "name": "Santa Laura - Universidad SEK",
+      "capacity": 19887
+    },
+  
+    "players": [
+      {"playerId": "player_cl2_016_01", "name": "Martín Parra", "number": 31, "position": "GK", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_016_02", "name": "Kevin Contreras", "number": 2, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_016_03", "name": "José Aja", "number": 18, "position": "CB", "country": "UY", "status": "starter"},
+      {"playerId": "player_cl2_016_04", "name": "Rodrigo Alarcón", "number": 3, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_016_05", "name": "Milovan Celis", "number": 4, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_016_06", "name": "Pablo Aránguiz", "number": 22, "position": "CDM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_016_07", "name": "Ignacio Núñez", "number": 8, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_016_08", "name": "Diego González", "number": 10, "position": "CAM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_016_09", "name": "Leandro Benegas", "number": 9, "position": "RW", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_016_10", "name": "Valentín Adamo", "number": 11, "position": "ST", "country": "UY", "status": "starter"},
+      {"playerId": "player_cl2_016_11", "name": "Ariel Uribe", "number": 19, "position": "LW", "country": "CL", "status": "starter"},
+  
+      {"playerId": "player_cl2_016_12", "name": "Julio Fierro", "number": 13, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_016_13", "name": "Bastián Yáñez", "number": 5, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_016_14", "name": "Simón Ramírez", "number": 17, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_016_15", "name": "Valentín Vidal", "number": 24, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_016_16", "name": "Felipe Espinoza", "number": 15, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_016_17", "name": "Matías Marín", "number": 14, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_016_18", "name": "Vicente Conelli", "number": 20, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_016_19", "name": "Felipe Massri", "number": 21, "position": "CAM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_016_20", "name": "Franco Frías", "number": 23, "position": "ST", "country": "AR", "status": "bench"},
+      {"playerId": "player_cl2_016_21", "name": "Bastián Roco", "number": 26, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl2_016_22", "name": "Enzo Uribe", "number": 12, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_016_23", "name": "Sebastián Leyton", "number": 7, "position": "CM", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_016_24", "name": "Gabriel Norambuena", "number": 27, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_016_25", "name": "Thomas Rodríguez", "number": 29, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 18,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 8,
+        "cornerRight": 10
+      }
+    }
   }
-}
