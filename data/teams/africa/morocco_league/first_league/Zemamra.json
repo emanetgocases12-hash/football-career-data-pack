@@ -1,12 +1,41 @@
-{
-  "teamKey": "Zemamr",
-
-  "name": "Renaissance Zemamra",
-
-  "logo": "assets/logos/africa/morocco/Zemamr.png",
-
-  "stadium": {
-    "name": "Stade Ahmed Choukri",
-    "capacity": 2500
+ {
+    "teamKey": "Zemamr",
+    "name": "Renaissance Zemamra",
+    "logo": "assets/logos/africa/morocco/Zemamr.png",
+    "manager": {"name": "Mehdi Mrani Alaoui", "country": "MA"},
+    "stadium": {"name": "Stade Ahmed Choukri", "capacity": 2500},
+    "players": [
+      {"playerId": "player_ma1_016_01", "name": "Mehdi El Jourbaoui", "number": 95, "position": "GK", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_016_02", "name": "James Ajako", "number": 2, "position": "RB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ma1_016_03", "name": "Bilal Soufi", "number": 15, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_016_04", "name": "Mohamed Abdouramane", "number": 19, "position": "CB", "country": "NE", "status": "starter"},
+      {"playerId": "player_ma1_016_05", "name": "Ousmane Diallo", "number": 3, "position": "LB", "country": "ML", "status": "starter"},
+      {"playerId": "player_ma1_016_06", "name": "Abdellatif El Bajjani", "number": 6, "position": "CDM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_016_07", "name": "Mohamed Radouani", "number": 8, "position": "CM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_016_08", "name": "Zakaria Ajoughlal", "number": 10, "position": "RW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_016_09", "name": "Mohsine Moutouali", "number": 7, "position": "CAM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_016_10", "name": "Saad Nassik", "number": 11, "position": "LW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_016_11", "name": "Youssef Dalouzi", "number": 9, "position": "ST", "country": "MA", "status": "starter"},
+  
+      {"playerId": "player_ma1_016_12", "name": "Mohamed Ferni", "number": 22, "position": "GK", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_016_13", "name": "Reda Ait Boughima", "number": 66, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_016_14", "name": "Salaheddine Bahi", "number": 12, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_016_15", "name": "Soufiane Chakerni", "number": 20, "position": "LB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_016_16", "name": "Oussama El Attar", "number": 4, "position": "RB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_016_17", "name": "Abdelaziz El Hamzaoui", "number": 14, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_016_18", "name": "Ayoub Sabiri", "number": 18, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_016_19", "name": "Ziad Nejjary", "number": 23, "position": "CAM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_016_20", "name": "Emmanuel Bernard Wilfried Obounou", "number": 30, "position": "ST", "country": "CM", "status": "bench"},
+      {"playerId": "player_ma1_016_21", "name": "Hassane Adamou Amadou", "number": 17, "position": "ST", "country": "NE", "status": "bench"},
+  
+      {"playerId": "player_ma1_016_22", "name": "Hamza Jlid", "number": 1, "position": "GK", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_016_23", "name": "Mustapha Chichane", "number": 5, "position": "CB", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_016_24", "name": "Mohamed Kamal", "number": 31, "position": "CM", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_016_25", "name": "Marouane Oujeddou", "number": 16, "position": "LW", "country": "MA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-1-4-1",
+      "captain": 7,
+      "setPieces": {"penalty": 9, "freeKick": 7, "cornerLeft": 10, "cornerRight": 8}
+    }
   }
-}
