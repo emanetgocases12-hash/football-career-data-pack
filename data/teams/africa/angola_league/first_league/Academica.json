@@ -1,12 +1,52 @@
-{
-  "teamKey": "Academ",
-
-  "name": "Académica do Lobito",
-
-  "logo": "assets/logos/africa/angola/Academ.png",
-
-  "stadium": {
-    "name": "Estádio do Buraco",
-    "capacity": 15000
+ {
+    "teamKey": "Academ",
+    "name": "Académica do Lobito",
+    "logo": "assets/logos/africa/angola/Academ.png",
+    "manager": {
+      "name": "Silvestre Pelé",
+      "country": "AO"
+    },
+    "stadium": {
+      "name": "Estádio do Buraco",
+      "capacity": 15000
+    },
+    "players": [
+      {"playerId": "player_ao1_001_01", "name": "Guilherme Muhango", "number": 12, "position": "GK", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_001_02", "name": "Sistema", "number": 22, "position": "RB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_001_03", "name": "Jô", "number": 28, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_001_04", "name": "Rosário Costa", "number": 4, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_001_05", "name": "Muenho", "number": 13, "position": "LB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_001_06", "name": "Manilson", "number": 6, "position": "CM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_001_07", "name": "Lourenço Adriano", "number": 5, "position": "CDM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_001_08", "name": "Higino", "number": 10, "position": "CAM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_001_09", "name": "Cachi", "number": 7, "position": "RW", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_001_10", "name": "Bebucho", "number": 19, "position": "ST", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_001_11", "name": "Chico Papel", "number": 16, "position": "LW", "country": "AO", "status": "starter"},
+  
+      {"playerId": "player_ao1_001_12", "name": "Denis", "number": 40, "position": "GK", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_001_13", "name": "Joel Jorge", "number": 2, "position": "RB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_001_14", "name": "Wilson David", "number": 25, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_001_15", "name": "Maurício Farrada", "number": 26, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_001_16", "name": "Manuel Nanga", "number": 3, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_001_17", "name": "Jojó Bicho", "number": 15, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_001_18", "name": "Miguel Panzo", "number": 24, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_001_19", "name": "Muto", "number": 8, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_001_20", "name": "Florentino Matemba", "number": 11, "position": "RW", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_001_21", "name": "Isaac Pinto", "number": 14, "position": "ST", "country": "AO", "status": "bench"},
+  
+      {"playerId": "player_ao1_001_22", "name": "Caxito", "number": 1, "position": "GK", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_001_23", "name": "Sabonés", "number": 17, "position": "CM", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_001_24", "name": "Feliciano", "number": 21, "position": "CM", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_001_25", "name": "Vali", "number": 29, "position": "ST", "country": "AO", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 12,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 6,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
