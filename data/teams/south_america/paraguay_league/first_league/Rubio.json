@@ -1,12 +1,58 @@
 {
-  "teamKey": "Rubio",
+    "teamKey": "Rubio",
 
-  "name": "Club Rubio Ñú",
+    "name": "Club Rubio Ñú",
 
-  "logo": "assets/logos/south_america/paraguay/Rubio.png",
+    "logo": "assets/logos/south_america/paraguay/Rubio.png",
 
-  "stadium": {
-    "name": "Estadio La Arboleda",
-    "capacity": 8000
+    "manager": {
+      "name": "Felipe Giménez",
+      "country": "PY"
+    },
+
+    "stadium": {
+      "name": "Estadio La Arboleda",
+      "capacity": 8000
+    },
+
+    "players": [
+      {"playerId": "player_py1_011_01", "name": "Franco Fragueda", "number": 25, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_py1_011_02", "name": "Rodi Ferreira", "number": 2, "position": "RB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_011_03", "name": "Javier Vallejos", "number": 3, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_011_04", "name": "Jorge González", "number": 4, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_011_05", "name": "Carlos Giménez", "number": 36, "position": "LB", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_011_06", "name": "Alan Ledesma", "number": 6, "position": "CDM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_011_07", "name": "Ángel Cardozo Lucena", "number": 15, "position": "CM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_011_08", "name": "William Mendieta", "number": 10, "position": "CAM", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_011_09", "name": "Elías Alfonso", "number": 7, "position": "RW", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_011_10", "name": "Sebastián Ruíz Díaz", "number": 23, "position": "LW", "country": "PY", "status": "starter"},
+      {"playerId": "player_py1_011_11", "name": "Pedro Báez", "number": 9, "position": "ST", "country": "PY", "status": "starter"},
+
+      {"playerId": "player_py1_011_12", "name": "Tomás Canteros", "number": 1, "position": "GK", "country": "AR", "status": "bench"},
+      {"playerId": "player_py1_011_13", "name": "Pedro Álvarez", "number": 5, "position": "CB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_011_14", "name": "Brian Blasi", "number": 31, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_py1_011_15", "name": "Rodrigo Alborno", "number": 33, "position": "LB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_011_16", "name": "Víctor Cabañas", "number": 13, "position": "RB", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_011_17", "name": "Tobías Leiva", "number": 8, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_py1_011_18", "name": "Marcelo Acosta", "number": 14, "position": "CM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_011_19", "name": "Octavio Alfonso", "number": 29, "position": "CAM", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_011_20", "name": "Sergio Fretes", "number": 11, "position": "RW", "country": "PY", "status": "bench"},
+      {"playerId": "player_py1_011_21", "name": "Estiven Pérez", "number": 40, "position": "ST", "country": "PY", "status": "bench"},
+
+      {"playerId": "player_py1_011_22", "name": "Tales", "number": 22, "position": "GK", "country": "BR", "status": "reserve"},
+      {"playerId": "player_py1_011_23", "name": "Gustavo Manzur", "number": 38, "position": "CM", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_011_24", "name": "Rodrigo Ruiz Díaz", "number": 27, "position": "ST", "country": "PY", "status": "reserve"},
+      {"playerId": "player_py1_011_25", "name": "César Villagra", "number": 18, "position": "ST", "country": "PY", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 25,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
