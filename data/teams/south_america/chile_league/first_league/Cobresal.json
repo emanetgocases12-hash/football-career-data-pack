@@ -1,12 +1,58 @@
 {
-  "teamKey": "Cobres",
-
-  "name": "CD Cobresal",
-
-  "logo": "assets/logos/south_america/chili/Cobres.png",
-
-  "stadium": {
-    "name": "El Cobre",
-    "capacity": 11240
+    "teamKey": "Cobres",
+  
+    "name": "CD Cobresal",
+  
+    "logo": "assets/logos/south_america/chili/Cobres.png",
+  
+    "manager": {
+      "name": "Gustavo Huerta",
+      "country": "CL"
+    },
+  
+    "stadium": {
+      "name": "El Cobre",
+      "capacity": 11240
+    },
+  
+    "players": [
+      {"playerId": "player_cl1_005_01", "name": "Renato González", "number": 1, "position": "GK", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_005_02", "name": "Aaron Astudillo", "number": 22, "position": "RB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_005_03", "name": "Franco Bechtholdt", "number": 16, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_005_04", "name": "Ariel Castillo", "number": 15, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_005_05", "name": "Alejandro Fuentes", "number": 2, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_005_06", "name": "Esteban Valencia", "number": 6, "position": "CDM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_005_07", "name": "Bryan Carvallo", "number": 10, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_005_08", "name": "Juan Fuentes", "number": 17, "position": "CAM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_005_09", "name": "Julián Brea", "number": 11, "position": "RW", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_005_10", "name": "Franco Frías", "number": 32, "position": "ST", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_005_11", "name": "Renato Huerta", "number": 14, "position": "LW", "country": "CL", "status": "starter"},
+  
+      {"playerId": "player_cl1_005_12", "name": "Alejandro Santander", "number": 12, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_005_13", "name": "Cristian Moreno", "number": 18, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_005_14", "name": "Guillermo Pacheco", "number": 23, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_005_15", "name": "Rodrigo Sandoval", "number": 4, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_005_16", "name": "José Tiznado", "number": 20, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_005_17", "name": "Dennis Leyton", "number": 31, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_005_18", "name": "Benjamín Valenzuela", "number": 13, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_005_19", "name": "Martín Roki", "number": 27, "position": "CAM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_005_20", "name": "Steffan Pino", "number": 8, "position": "ST", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_005_21", "name": "Benjamín Ramírez", "number": 24, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl1_005_22", "name": "Matías Olguín", "number": 36, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_005_23", "name": "Vicente Belmar", "number": 26, "position": "CM", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_005_24", "name": "Matías Sepúlveda", "number": 21, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_005_25", "name": "César Yanis", "number": 7, "position": "ST", "country": "PA", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 16,
+      "setPieces": {
+        "penalty": 32,
+        "freeKick": 17,
+        "cornerLeft": 10,
+        "cornerRight": 17
+      }
+    }
   }
-}
