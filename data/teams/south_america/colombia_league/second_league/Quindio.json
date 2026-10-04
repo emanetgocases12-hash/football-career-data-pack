@@ -1,12 +1,35 @@
 {
   "teamKey": "Quindo",
-
   "name": "Deportes Quindío",
-
   "logo": "assets/logos/south_america/colombia/Quindo.png",
-
-  "stadium": {
-    "name": "Estadio Centenario de Armenia",
-    "capacity": 20716
-  }
+  "manager": {"name": "Harold Rivera", "country": "CO"},
+  "stadium": {"name": "Estadio Centenario de Armenia", "capacity": 20716},
+  "players": [
+    {"playerId": "player_co2_014_01", "name": "Jefferson Sanchez", "number": 1, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_014_02", "name": "Brayan Ceballos", "number": 3, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_014_03", "name": "Jhostin Medranda", "number": 4, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_014_04", "name": "Wilmer Palacios", "number": 5, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_014_05", "name": "Jesus Figueroa", "number": 6, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_014_06", "name": "Carlos Sosa", "number": 2, "position": "CDM", "country": "VE", "status": "starter"},
+    {"playerId": "player_co2_014_07", "name": "Christian Mina", "number": 7, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_014_08", "name": "Yeiner Orozco", "number": 9, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_014_09", "name": "Joan Cortes", "number": 10, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_014_10", "name": "Jader Quinones", "number": 11, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_014_11", "name": "Olmes Garcia", "number": 18, "position": "ST", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_014_12", "name": "Luis Estacio", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_014_13", "name": "Jackson Montano", "number": 8, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_014_14", "name": "Leyser Chaverra", "number": 15, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_014_15", "name": "Juan Garavito", "number": 25, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_014_16", "name": "Luis Carabali", "number": 26, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_014_17", "name": "Alexis Serna", "number": 13, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_014_18", "name": "Yani Quintero", "number": 16, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_014_19", "name": "Yeison Carabali", "number": 19, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_014_20", "name": "Yilmar Filigrana", "number": 17, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_014_21", "name": "Wilson Espana", "number": 20, "position": "LW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_014_22", "name": "Harold Balanta", "number": 22, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_014_23", "name": "Diego Rodriguez", "number": 14, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_014_24", "name": "Fabian Mina", "number": 24, "position": "RW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_014_25", "name": "Mauricio Cortes", "number": 27, "position": "LW", "country": "CL", "status": "reserve"}
+  ],
+  "tactics": {"formation": "4-2-3-1", "captain": 1, "setPieces": {"penalty": 18, "freeKick": 9, "cornerLeft": 10, "cornerRight": 11}}
 }
