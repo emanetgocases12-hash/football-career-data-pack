@@ -1,12 +1,41 @@
 {
-  "teamKey": "Moghre",
-
-  "name": "Moghreb Tétouan",
-
-  "logo": "assets/logos/africa/morocco/Moghre.png",
-
-  "stadium": {
-    "name": "Stade Saniat Rmel",
-    "capacity": 15000
+    "teamKey": "Moghre",
+    "name": "Moghreb Tétouan",
+    "logo": "assets/logos/africa/morocco/Moghre.png",
+    "manager": {"name": "Amine El Karma", "country": "MA"},
+    "stadium": {"name": "Stade Saniat Rmel", "capacity": 15000},
+    "players": [
+      {"playerId": "player_ma1_009_01", "name": "Mohamed Abougabal", "number": 12, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_ma1_009_02", "name": "Achraf Marzak", "number": 2, "position": "RB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_009_03", "name": "Ghofrane Naouali", "number": 4, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_ma1_009_04", "name": "Moncef Amri", "number": 5, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_009_05", "name": "Mohamed Rida Chahid", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+      {"playerId": "player_ma1_009_06", "name": "Moad Karmoun", "number": 6, "position": "CDM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_009_07", "name": "Mohamed Morabit", "number": 8, "position": "CM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_009_08", "name": "Imad Errahouli", "number": 7, "position": "RW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_009_09", "name": "Fayçal Fajr", "number": 10, "position": "CAM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_009_10", "name": "Youssef El Houari", "number": 77, "position": "LW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_009_11", "name": "Seydou Diabate", "number": 9, "position": "ST", "country": "ML", "status": "starter"},
+  
+      {"playerId": "player_ma1_009_12", "name": "Mohamed Said", "number": 22, "position": "GK", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_009_13", "name": "Issam Bouabsidi", "number": 15, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_009_14", "name": "Ayoub El Ouardighi", "number": 24, "position": "LB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_009_15", "name": "Rochdi Oulad Abdelouahab", "number": 74, "position": "RB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_009_16", "name": "Diae Eddine Eddaoudi", "number": 16, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_009_17", "name": "Aboubacar Junior Konate", "number": 20, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ma1_009_18", "name": "Mohamed Said Bouksyr", "number": 18, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_009_19", "name": "Haitam El Bahja", "number": 11, "position": "RW", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_009_20", "name": "Ismail Harrach", "number": 19, "position": "LW", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_009_21", "name": "Bilal El Megri", "number": 17, "position": "ST", "country": "MA", "status": "bench"},
+  
+      {"playerId": "player_ma1_009_22", "name": "Yassine Amaadour", "number": 1, "position": "GK", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_009_23", "name": "Soulaimane Driouache", "number": 25, "position": "CB", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_009_24", "name": "Mohamed Mhamdi", "number": 23, "position": "CM", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_009_25", "name": "Anwar Oussarhan", "number": 27, "position": "ST", "country": "MA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {"penalty": 9, "freeKick": 10, "cornerLeft": 7, "cornerRight": 77}
+    }
   }
-}
