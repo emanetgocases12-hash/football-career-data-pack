@@ -1,12 +1,58 @@
 {
-  "teamKey": "Concep",
-
-  "name": "CD Universidad de Concepción",
-
-  "logo": "assets/logos/south_america/chili/Concep.png",
-
-  "stadium": {
-    "name": "Ester Roa Rebolledo",
-    "capacity": 30448
+    "teamKey": "Concep",
+  
+    "name": "CD Universidad de Concepción",
+  
+    "logo": "assets/logos/south_america/chili/Concep.png",
+  
+    "manager": {
+      "name": "Juan Cruz Real",
+      "country": "AR"
+    },
+  
+    "stadium": {
+      "name": "Ester Roa Rebolledo",
+      "capacity": 30448
+    },
+  
+    "players": [
+      {"playerId": "player_cl1_007_01", "name": "Jorge Broun", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_007_02", "name": "Miguel Barbieri", "number": 3, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_007_03", "name": "Osvaldo González", "number": 4, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_007_04", "name": "David Bascur", "number": 5, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_007_05", "name": "Bastián Ubal", "number": 6, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_007_06", "name": "Facundo Mater", "number": 8, "position": "CDM", "country": "SY", "status": "starter"},
+      {"playerId": "player_cl1_007_07", "name": "Jeison Fuentealba", "number": 10, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_007_08", "name": "Pablo Parra", "number": 14, "position": "CAM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_007_09", "name": "Iam González", "number": 7, "position": "RW", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl1_007_10", "name": "Daniel Barrea", "number": 9, "position": "ST", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl1_007_11", "name": "Antonio Díaz", "number": 11, "position": "LW", "country": "CL", "status": "starter"},
+  
+      {"playerId": "player_cl1_007_12", "name": "José Sanhueza", "number": 13, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_007_13", "name": "Yerko Oyanedel", "number": 15, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_007_14", "name": "Moisés Torres", "number": 17, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_007_15", "name": "Jorge Espejo", "number": 21, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_007_16", "name": "Patricio Romero", "number": 23, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_cl1_007_17", "name": "Bryan Ogaz", "number": 16, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_007_18", "name": "Luis Rojas", "number": 20, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_007_19", "name": "Adolfo Neira", "number": 38, "position": "CAM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl1_007_20", "name": "Cecilio Waterman", "number": 18, "position": "ST", "country": "PA", "status": "bench"},
+      {"playerId": "player_cl1_007_21", "name": "Rogelio Funes Mori", "number": 22, "position": "RW", "country": "MX", "status": "bench"},
+  
+      {"playerId": "player_cl1_007_22", "name": "Diego Matamala", "number": 12, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_007_23", "name": "Lucas Muñoz", "number": 42, "position": "CM", "country": "AR", "status": "reserve"},
+      {"playerId": "player_cl1_007_24", "name": "Harol Salgado", "number": 25, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl1_007_25", "name": "Tomás Roco", "number": 26, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 14,
+        "cornerLeft": 10,
+        "cornerRight": 14
+      }
+    }
   }
-}
