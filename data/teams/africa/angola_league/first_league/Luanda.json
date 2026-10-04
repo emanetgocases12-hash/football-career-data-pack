@@ -1,12 +1,52 @@
-{
-  "teamKey": "Luanda",
-
-  "name": "FC Luanda",
-
-  "logo": "assets/logos/africa/angola/Luanda.png",
-
-  "stadium": {
-    "name": "Estádio França Ndalu",
-    "capacity": 10000
+ {
+    "teamKey": "Luanda",
+    "name": "FC Luanda",
+    "logo": "assets/logos/africa/angola/Luanda.png",
+    "manager": {
+      "name": "Rui Santos",
+      "country": "PT"
+    },
+    "stadium": {
+      "name": "Estádio França Ndalu",
+      "capacity": 10000
+    },
+    "players": [
+      {"playerId": "player_ao1_009_01", "name": "Cafula", "number": 1, "position": "GK", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_009_02", "name": "Joel Diaku", "number": 4, "position": "RB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_009_03", "name": "Kelson", "number": 5, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_009_04", "name": "Chinês", "number": 6, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_009_05", "name": "Nathan", "number": 13, "position": "LB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_009_06", "name": "Cabeto", "number": 8, "position": "CDM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_009_07", "name": "Cuca", "number": 15, "position": "CM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_009_08", "name": "Denilson", "number": 10, "position": "CAM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_009_09", "name": "Kano", "number": 14, "position": "RW", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_009_10", "name": "Kaba", "number": 19, "position": "ST", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_009_11", "name": "Franck", "number": 7, "position": "LW", "country": "AO", "status": "starter"},
+  
+      {"playerId": "player_ao1_009_12", "name": "Patrício", "number": 12, "position": "GK", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_009_13", "name": "Tiago", "number": 18, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_009_14", "name": "Pedro", "number": 28, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_009_15", "name": "Filipe Malanda", "number": 17, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_009_16", "name": "Depaiza", "number": 24, "position": "LB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_009_17", "name": "Gabriel", "number": 21, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_009_18", "name": "Edmilson", "number": 25, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_009_19", "name": "Célio", "number": 26, "position": "CAM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_009_20", "name": "Baptista", "number": 27, "position": "RW", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_009_21", "name": "Noé", "number": 16, "position": "LW", "country": "AO", "status": "bench"},
+  
+      {"playerId": "player_ao1_009_22", "name": "Déo Yoka", "number": 22, "position": "GK", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_009_23", "name": "Roberto", "number": 20, "position": "CM", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_009_24", "name": "Viegas", "number": 2, "position": "RB", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_009_25", "name": "Miguel Matos", "number": 9, "position": "ST", "country": "AO", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 15,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
