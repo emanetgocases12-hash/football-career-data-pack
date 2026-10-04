@@ -1,12 +1,52 @@
 {
-  "teamKey": "Kabusc",
-
-  "name": "Kabuscorp SC",
-
-  "logo": "assets/logos/africa/angola/Kabusc.png",
-
-  "stadium": {
-    "name": "Estádio 22 de Junho",
-    "capacity": 12000
+    "teamKey": "Kabusc",
+    "name": "Kabuscorp SC",
+    "logo": "assets/logos/africa/angola/Kabusc.png",
+    "manager": {
+      "name": "Léo Neiva",
+      "country": "BR"
+    },
+    "stadium": {
+      "name": "Estádio 22 de Junho",
+      "capacity": 12000
+    },
+    "players": [
+      {"playerId": "player_ao1_007_01", "name": "Jotabé Missenga", "number": 1, "position": "GK", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_007_02", "name": "Adi Boyo", "number": 2, "position": "RB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_007_03", "name": "Diógenes João", "number": 4, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_007_04", "name": "Zamorano Lopes", "number": 5, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_007_05", "name": "Aldair Domingos", "number": 6, "position": "LB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_007_06", "name": "Danilson", "number": 8, "position": "CDM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_007_07", "name": "Bayala Nsimba", "number": 7, "position": "CM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_007_08", "name": "Mbali Sem", "number": 10, "position": "CAM", "country": "CD", "status": "starter"},
+      {"playerId": "player_ao1_007_09", "name": "Benarfa", "number": 11, "position": "RW", "country": "CD", "status": "starter"},
+      {"playerId": "player_ao1_007_10", "name": "Jó Paciência", "number": 9, "position": "ST", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_007_11", "name": "Cuca", "number": 18, "position": "LW", "country": "AO", "status": "starter"},
+  
+      {"playerId": "player_ao1_007_12", "name": "Brudel Efonge", "number": 12, "position": "GK", "country": "CD", "status": "bench"},
+      {"playerId": "player_ao1_007_13", "name": "Henock Mangindula", "number": 13, "position": "CB", "country": "CD", "status": "bench"},
+      {"playerId": "player_ao1_007_14", "name": "Joslain Ndongala", "number": 14, "position": "CB", "country": "CD", "status": "bench"},
+      {"playerId": "player_ao1_007_15", "name": "Crespo", "number": 15, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_007_16", "name": "Teo Fernandes", "number": 16, "position": "RB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_007_17", "name": "Markson", "number": 17, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_ao1_007_18", "name": "Zito Mungomba", "number": 19, "position": "CM", "country": "CD", "status": "bench"},
+      {"playerId": "player_ao1_007_19", "name": "Mpiana Mozinzi", "number": 20, "position": "CM", "country": "CD", "status": "bench"},
+      {"playerId": "player_ao1_007_20", "name": "Vingumba", "number": 21, "position": "ST", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_007_21", "name": "Mona Maleco", "number": 22, "position": "ST", "country": "AO", "status": "bench"},
+  
+      {"playerId": "player_ao1_007_22", "name": "Augusto Mualucano", "number": 23, "position": "GK", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_007_23", "name": "Nathan Betu", "number": 24, "position": "CB", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_007_24", "name": "Tresor Nona", "number": 25, "position": "CM", "country": "CD", "status": "reserve"},
+      {"playerId": "player_ao1_007_25", "name": "Kalonda Vinny", "number": 26, "position": "ST", "country": "CD", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
