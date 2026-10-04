@@ -1,12 +1,35 @@
 {
   "teamKey": "Leones",
-
   "name": "Leones FC",
-
   "logo": "assets/logos/south_america/colombia/Leones.png",
-
-  "stadium": {
-    "name": "Estadio Metropolitano de Itagüí",
-    "capacity": 12000
-  }
+  "manager": {"name": "Alejandro Arboleda", "country": "CO"},
+  "stadium": {"name": "Estadio Metropolitano de Itagüí", "capacity": 12000},
+  "players": [
+    {"playerId": "player_co2_010_01", "name": "Jhon Figueroa", "number": 1, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_010_02", "name": "Miguel Arboleda", "number": 13, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_010_03", "name": "Ismael Lopez", "number": 33, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_010_04", "name": "German Meneses", "number": 5, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_010_05", "name": "Jeronimo Moreno", "number": 3, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_010_06", "name": "Thomas Calle", "number": 25, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_010_07", "name": "Rafael Granados", "number": 30, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_010_08", "name": "Cristian Rodriguez", "number": 7, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_010_09", "name": "Johan Martinez", "number": 19, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_010_10", "name": "Felipe Hincapie", "number": 28, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_010_11", "name": "Oscar Segura", "number": 21, "position": "ST", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_010_12", "name": "Juan D. Arboleda", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_010_13", "name": "Juan J. Parra", "number": 2, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_010_14", "name": "Camilo Renteria", "number": 16, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_010_15", "name": "Juan E. Restrepo", "number": 22, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_010_16", "name": "Nicolas Restrepo", "number": 18, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_010_17", "name": "Lucas Sanches", "number": 10, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_010_18", "name": "David Villa", "number": 8, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_010_19", "name": "Jiner Martinez", "number": 15, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_010_20", "name": "Dayan Moreno", "number": 14, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_010_21", "name": "Kevin Penaloza", "number": 20, "position": "LW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_010_22", "name": "Samuel Posada", "number": 26, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_010_23", "name": "Santiago Montoya", "number": 24, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_010_24", "name": "Leider Pacheco", "number": 23, "position": "RW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_010_25", "name": "Juan D. Bonilla", "number": 9, "position": "LW", "country": "CO", "status": "reserve"}
+  ],
+  "tactics": {"formation": "4-2-3-1", "captain": 1, "setPieces": {"penalty": 21, "freeKick": 7, "cornerLeft": 19, "cornerRight": 28}}
 }
