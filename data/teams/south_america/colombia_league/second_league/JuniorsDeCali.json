@@ -1,12 +1,35 @@
 {
   "teamKey": "Jr Cali",
-
   "name": "Club Boca Juniors de Cali",
-
   "logo": "assets/logos/south_america/colombia/JrCali.png",
-
-  "stadium": {
-    "name": "Estadio Francisco Rivera Escobar",
-    "capacity": 15300
-  }
+  "manager": {"name": "Jose Manuel Rodriguez", "country": "CO"},
+  "stadium": {"name": "Estadio Francisco Rivera Escobar", "capacity": 15300},
+  "players": [
+    {"playerId": "player_co2_009_01", "name": "Nelson Ramos", "number": 1, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_009_02", "name": "Killiam Navas", "number": 27, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_009_03", "name": "Edwin Palacios", "number": 32, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_009_04", "name": "Juan Madrid", "number": 2, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_009_05", "name": "Juan Viveros", "number": 3, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_009_06", "name": "Juan Vergara", "number": 5, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_009_07", "name": "Nahin Morales", "number": 21, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_009_08", "name": "Diego Rodriguez", "number": 8, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_009_09", "name": "Alexis Giraldo", "number": 10, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_009_10", "name": "Juan Nino", "number": 14, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_009_11", "name": "Oswaldo Balanta", "number": 31, "position": "ST", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_009_12", "name": "Mateo Rios", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_009_13", "name": "Luis Perez", "number": 4, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_009_14", "name": "Alex Martinez", "number": 13, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_009_15", "name": "Harold Ortiz", "number": 6, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_009_16", "name": "Kevin Hurtado", "number": 15, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_009_17", "name": "Elber Olaya", "number": 16, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_009_18", "name": "Jose Preciado", "number": 18, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_009_19", "name": "Ferney Angulo", "number": 20, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_009_20", "name": "Javier Narvaez", "number": 9, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_009_21", "name": "Jefferson Churi", "number": 11, "position": "LW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_009_22", "name": "Hermes Angulo", "number": 22, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_009_23", "name": "Jose Sanabria", "number": 17, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_009_24", "name": "Jonathan Monsalve", "number": 19, "position": "RW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_009_25", "name": "Harold Reina", "number": 23, "position": "LW", "country": "CO", "status": "reserve"}
+  ],
+  "tactics": {"formation": "4-2-3-1", "captain": 1, "setPieces": {"penalty": 31, "freeKick": 8, "cornerLeft": 10, "cornerRight": 14}}
 }
