@@ -1,12 +1,58 @@
 {
-  "teamKey": "Zed",
+    "teamKey": "Zed",
 
-  "name": "ZED FC",
+    "name": "ZED FC",
 
-  "logo": "assets/logos/africa/egypt/Zed.png",
+    "logo": "assets/logos/africa/egypt/Zed.png",
 
-  "stadium": {
-    "name": "Petrosport Stadium",
-    "capacity": 16000
+    "manager": {
+      "name": "Mohamed Shawky",
+      "country": "EG"
+    },
+
+    "stadium": {
+      "name": "Petrosport Stadium",
+      "capacity": 16000
+    },
+
+    "players": [
+      {"playerId": "player_eg1_019_01", "name": "Ali Lotfy", "number": 1, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_019_02", "name": "Ahmed Sayed Abdelnaby", "number": 8, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_019_03", "name": "Abdallah Bakry", "number": 3, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_019_04", "name": "Mohamed Rabia", "number": 26, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_019_05", "name": "Mohamed Ashraf Bakry", "number": 21, "position": "LB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_019_06", "name": "Hamdy Alaa", "number": 20, "position": "CDM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_019_07", "name": "Mohamed Ibrahim", "number": 33, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_019_08", "name": "Mostafa Saad Messi", "number": 10, "position": "RW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_019_09", "name": "Raafat Khalil", "number": 7, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_019_10", "name": "Abdelrahman El Banouby", "number": 11, "position": "LW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_019_11", "name": "Ahmed Atef", "number": 9, "position": "ST", "country": "EG", "status": "starter"},
+
+      {"playerId": "player_eg1_019_12", "name": "Mohamed Sayed Mazika", "number": 16, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_019_13", "name": "Mohamed Hussein", "number": 2, "position": "RB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_019_14", "name": "Ahmed Castillo", "number": 4, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_019_15", "name": "Ahmed Tarek", "number": 5, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_019_16", "name": "Tarek Alaa", "number": 23, "position": "LB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_019_17", "name": "Abdelrahman Gouda", "number": 24, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_019_18", "name": "Ahmed Adel Messi", "number": 14, "position": "CAM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_019_19", "name": "Ahmed Ibrahim El Soghiry", "number": 18, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_019_20", "name": "Mahmoud Nabil", "number": 22, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_019_21", "name": "Walid Ali Farag", "number": 30, "position": "RW", "country": "EG", "status": "bench"},
+
+      {"playerId": "player_eg1_019_22", "name": "Abdelmonem Tamer", "number": 36, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_019_23", "name": "Mata Magassa", "number": 37, "position": "CDM", "country": "ML", "status": "reserve"},
+      {"playerId": "player_eg1_019_24", "name": "Mohamed Ezz", "number": 19, "position": "ST", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_019_25", "name": "Mazen Yasser", "number": 90, "position": "ST", "country": "EG", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 33,
+      "setPieces": {
+          "penalty": 9,
+          "freeKick": 10,
+          "cornerLeft": 11,
+          "cornerRight": 7
+        }
+      }
   }
-}
