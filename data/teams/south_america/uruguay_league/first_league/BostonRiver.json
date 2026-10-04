@@ -1,12 +1,58 @@
 {
-  "teamKey": "Bston R",
-
-  "name": "CA Boston River",
-
-  "logo": "assets/logos/south_america/uruguay/BstonR.png",
-
-  "stadium": {
-    "name": "Estadio Campeones Olímpicos de Florida",
-    "capacity": 5124
+    "teamKey": "Bston R",
+  
+    "name": "CA Boston River",
+  
+    "logo": "assets/logos/south_america/uruguay/BstonR.png",
+  
+    "manager": {
+      "name": "Jorge Cazulo",
+      "country": "PE"
+    },
+  
+    "stadium": {
+      "name": "Estadio Campeones Olímpicos de Florida",
+      "capacity": 5124
+    },
+  
+    "players": [
+      {"playerId": "player_uy1_002_01", "name": "Bruno Antúnez", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_002_02", "name": "Lautaro Vázquez", "number": 15, "position": "RB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_002_03", "name": "Mateo Rivero", "number": 23, "position": "CB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_002_04", "name": "Ignacio Fernández", "number": 13, "position": "CB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_002_05", "name": "Fredy Martínez", "number": 22, "position": "LB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_002_06", "name": "Rodrigo Saravia", "number": 5, "position": "CDM", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_002_07", "name": "Agustín Amado", "number": 10, "position": "CM", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_002_08", "name": "Leandro Suhr", "number": 16, "position": "RW", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_002_09", "name": "Gastón Ramírez", "number": 11, "position": "CAM", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_002_10", "name": "Franco Pérez", "number": 21, "position": "LW", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy1_002_11", "name": "Francisco Bonfiglio", "number": 8, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_uy1_002_12", "name": "Juan González", "number": 12, "position": "GK", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_002_13", "name": "Marco Mancebo", "number": 3, "position": "CB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_002_14", "name": "Agustín Aguirre", "number": 25, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_uy1_002_15", "name": "Martín González", "number": 30, "position": "CB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_002_16", "name": "Jairo O’Neil", "number": 24, "position": "LB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_002_17", "name": "Juan Acosta", "number": 31, "position": "RB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_002_18", "name": "Federico Dafonte", "number": 14, "position": "CDM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_002_19", "name": "Andrés Romero", "number": 6, "position": "CM", "country": "VE", "status": "bench"},
+      {"playerId": "player_uy1_002_20", "name": "Facundo Muñoa", "number": 26, "position": "CAM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy1_002_21", "name": "Yair González", "number": 32, "position": "CAM", "country": "AR", "status": "bench"},
+  
+      {"playerId": "player_uy1_002_22", "name": "Felipe Avenatti", "number": 9, "position": "ST", "country": "UY", "status": "reserve"},
+      {"playerId": "player_uy1_002_23", "name": "Alexander González", "number": 19, "position": "ST", "country": "UY", "status": "reserve"},
+      {"playerId": "player_uy1_002_24", "name": "Facundo Rodríguez", "number": 7, "position": "ST", "country": "UY", "status": "reserve"},
+      {"playerId": "player_uy1_002_25", "name": "Brayan Alcocer", "number": 27, "position": "ST", "country": "VE", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 11,
+      "setPieces": {
+        "penalty": 8,
+        "freeKick": 16,
+        "cornerLeft": 16,
+        "cornerRight": 21
+      }
+    }
   }
-}
