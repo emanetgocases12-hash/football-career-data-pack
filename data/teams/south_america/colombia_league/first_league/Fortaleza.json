@@ -1,12 +1,35 @@
 {
   "teamKey": "Fortle",
-
   "name": "Fortaleza CEIF",
-
   "logo": "assets/logos/south_america/colombia/Fortle.png",
-
-  "stadium": {
-    "name": "Parque Estadio Olaya Herrera",
-    "capacity": 2500
-  }
+  "manager": {"name": "Diego Arias", "country": "CO"},
+  "stadium": {"name": "Parque Estadio Olaya Herrera", "capacity": 2500},
+  "players": [
+    {"playerId": "player_co1_011_01", "name": "Williams Barlasina", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+    {"playerId": "player_co1_011_02", "name": "Edwin Cabezas", "number": 4, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_011_03", "name": "Jonathan Marulanda", "number": 3, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_011_04", "name": "Jeferson Medina Obando", "number": 5, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_011_05", "name": "Santiago Cuero Sanchez", "number": 15, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_011_06", "name": "Andres Copete", "number": 2, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_011_07", "name": "Yesid Diaz", "number": 6, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_011_08", "name": "Sebastian Navarro", "number": 8, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_011_09", "name": "Jhon Velasquez", "number": 10, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_011_10", "name": "Andres Amaya", "number": 11, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_011_11", "name": "Italo Montano", "number": 7, "position": "ST", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_011_12", "name": "Cristian Daniel Santander Rosero", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_011_13", "name": "Joan Cajares", "number": 16, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_011_14", "name": "Juan Castillo", "number": 23, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_011_15", "name": "David Ramirez", "number": 14, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_011_16", "name": "Adrian Mosquera", "number": 22, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_011_17", "name": "Leonardo Pico", "number": 18, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_011_18", "name": "Kevin Balanta", "number": 17, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_011_19", "name": "Jhon Balanta", "number": 19, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_011_20", "name": "Juan Herrera", "number": 9, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_011_21", "name": "Franco Pulicastro", "number": 20, "position": "LW", "country": "AR", "status": "bench"},
+    {"playerId": "player_co1_011_22", "name": "Julio Sinisterra", "number": 27, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_011_23", "name": "Jhonier Blanco", "number": 29, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_011_24", "name": "Richardson Rivas", "number": 26, "position": "RW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_011_25", "name": "Teun Wilke", "number": 28, "position": "LW", "country": "MX", "status": "reserve"}
+  ],
+  "tactics": {"formation": "4-2-3-1", "captain": 1, "setPieces": {"penalty": 7, "freeKick": 8, "cornerLeft": 10, "cornerRight": 11}}
 }
