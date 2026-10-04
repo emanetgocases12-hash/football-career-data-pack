@@ -1,12 +1,41 @@
 {
-  "teamKey": "Hassan",
-
-  "name": "Hassania Agadir",
-
-  "logo": "assets/logos/africa/morocco/Hassan.png",
-
-  "stadium": {
-    "name": "Grand Stade d'Agadir",
-    "capacity": 41144
+    "teamKey": "Hassan",
+    "name": "Hassania Agadir",
+    "logo": "assets/logos/africa/morocco/Hassan.png",
+    "manager": {"name": "Hilal Et-Tair", "country": "MA"},
+    "stadium": {"name": "Grand Stade d'Agadir", "capacity": 41144},
+    "players": [
+      {"playerId": "player_ma1_005_01", "name": "Badreddine Abyir", "number": 61, "position": "GK", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_005_02", "name": "Euclides Cabral", "number": 19, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_ma1_005_03", "name": "Ismail Hrila", "number": 34, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_005_04", "name": "Ayoub Qasmi", "number": 15, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_005_05", "name": "Youssef Arbidi", "number": 26, "position": "LB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_005_06", "name": "Jalal Tachtach", "number": 5, "position": "CDM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_005_07", "name": "Mohamed Doumbia", "number": 42, "position": "CM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ma1_005_08", "name": "Imad Riahi", "number": 20, "position": "RW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_005_09", "name": "Soulaimane El Amrani", "number": 30, "position": "CAM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_005_10", "name": "Salaheddine Benyachou", "number": 7, "position": "LW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_005_11", "name": "Walid Jarmouni", "number": 9, "position": "ST", "country": "FR", "status": "starter"},
+  
+      {"playerId": "player_ma1_005_12", "name": "Gaya Merbah", "number": 1, "position": "GK", "country": "DZ", "status": "bench"},
+      {"playerId": "player_ma1_005_13", "name": "Mouad Bahsain", "number": 6, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_005_14", "name": "Ayoub Boucheta", "number": 24, "position": "RB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_005_15", "name": "Ayoub Sahnoune", "number": 45, "position": "LB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_005_16", "name": "Fred José Dembi", "number": 14, "position": "CM", "country": "CG", "status": "bench"},
+      {"playerId": "player_ma1_005_17", "name": "Ayoub Bennadi", "number": 2, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_005_18", "name": "Hamza El Belghity", "number": 16, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_005_19", "name": "Mohamed Ounajem", "number": 28, "position": "RW", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_005_20", "name": "Hamid Ahaddad", "number": 23, "position": "ST", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_005_21", "name": "Amine Azri", "number": 11, "position": "LW", "country": "MA", "status": "bench"},
+  
+      {"playerId": "player_ma1_005_22", "name": "Hicham El Majhed", "number": 65, "position": "GK", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_005_23", "name": "Badreddine Octobre", "number": 3, "position": "CM", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_005_24", "name": "Ayman Tarrazi", "number": 27, "position": "CAM", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_005_25", "name": "Fahd Bendahmane", "number": 33, "position": "ST", "country": "MA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-1-4-1",
+      "captain": 5,
+      "setPieces": {"penalty": 9, "freeKick": 7, "cornerLeft": 20, "cornerRight": 30}
+    }
   }
-}
