@@ -1,12 +1,46 @@
 {
-  "teamKey": "Police",
-
-  "name": "Kenya Police FC",
-
-  "logo": "assets/logos/africa/kenya/Police.png",
-
-  "stadium": {
-    "name": "Police Sacco Stadium",
-    "capacity": 3000
+    "teamKey": "Police",
+    "name": "Kenya Police FC",
+    "logo": "assets/logos/africa/kenya/Police.png",
+    "manager": {"name": "Nicholas Muyoti", "country": "KE"},
+    "stadium": {"name": "Police Sacco Stadium", "capacity": 3000},
+    "players": [
+      {"playerId": "player_ke1_008_01", "name": "Job Ochieng", "number": 35, "position": "GK", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_008_02", "name": "Edage Badi Baraka", "number": 22, "position": "RB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_008_03", "name": "Brian Okoth", "number": 15, "position": "CB", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_008_04", "name": "Jacques Geordy Ndecket Bowamba", "number": 16, "position": "CB", "country": "CG", "status": "starter"},
+      {"playerId": "player_ke1_008_05", "name": "Christophe Ouattara", "number": 3, "position": "LB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ke1_008_06", "name": "Albert Otieno", "number": 20, "position": "CDM", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_008_07", "name": "Nana Kusi Asante", "number": 40, "position": "CM", "country": "GH", "status": "starter"},
+      {"playerId": "player_ke1_008_08", "name": "Samuel Quansah Boamah", "number": 30, "position": "CAM", "country": "GH", "status": "starter"},
+      {"playerId": "player_ke1_008_09", "name": "Edward Omondi Otieno", "number": 7, "position": "RW", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_008_10", "name": "Elvis Rupia", "number": 9, "position": "ST", "country": "KE", "status": "starter"},
+      {"playerId": "player_ke1_008_11", "name": "Erick Ngava Zakayo", "number": 19, "position": "LW", "country": "KE", "status": "starter"},
+  
+      {"playerId": "player_ke1_008_12", "name": "Kevin Oduor", "number": 1, "position": "GK", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_008_13", "name": "Hernest Briyock Malonga", "number": 38, "position": "CB", "country": "CG", "status": "bench"},
+      {"playerId": "player_ke1_008_14", "name": "Joseph Levin Odhiambo", "number": 33, "position": "LB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_008_15", "name": "Francis Kayugi", "number": 12, "position": "RB", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_008_16", "name": "Charles Sila Ouma", "number": 6, "position": "CDM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_008_17", "name": "Estone Esiye Omengo", "number": 21, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_008_18", "name": "Brian Omondi", "number": 25, "position": "CM", "country": "KE", "status": "bench"},
+      {"playerId": "player_ke1_008_19", "name": "Bronson Nsubuga Sserumira", "number": 70, "position": "RW", "country": "UG", "status": "bench"},
+      {"playerId": "player_ke1_008_20", "name": "Kalifa Traore", "number": 14, "position": "ST", "country": "ML", "status": "bench"},
+      {"playerId": "player_ke1_008_21", "name": "Oliver Machaka Auka", "number": 10, "position": "LW", "country": "KE", "status": "bench"},
+  
+      {"playerId": "player_ke1_008_22", "name": "Khadime Ndiaye", "number": 44, "position": "GK", "country": "SN", "status": "reserve"},
+      {"playerId": "player_ke1_008_23", "name": "Clinton Okinyi Kinanga", "number": 23, "position": "ST", "country": "KE", "status": "reserve"},
+      {"playerId": "player_ke1_008_24", "name": "Mosengo Tychick Tansele", "number": 28, "position": "CM", "country": "CD", "status": "reserve"},
+      {"playerId": "player_ke1_008_25", "name": "Victor Haki Akwanyi", "number": 99, "position": "RW", "country": "KE", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 15,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 30,
+        "cornerLeft": 7,
+        "cornerRight": 19
+      }
+    }
   }
-}
