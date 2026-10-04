@@ -1,12 +1,58 @@
 {
-  "teamKey": "Chlef",
-
-  "name": "ASO Chlef",
-
-  "logo": "assets/logos/africa/algeria/Chlef.png",
-
-  "stadium": {
-    "name": "Stade Mohamed Boumezrag",
-    "capacity": 18000
+    "teamKey": "Chlef",
+  
+    "name": "ASO Chlef",
+  
+    "logo": "assets/logos/africa/algeria/Chlef.png",
+  
+    "manager": {
+      "name": "Abdelhak Belaid",
+      "country": "DZ"
+    },
+  
+    "stadium": {
+      "name": "Stade Mohamed Boumezrag",
+      "capacity": 18000
+    },
+  
+    "players": [
+      {"playerId": "player_dz1_007_01", "name": "Abderrahmane Medjadel", "number": 16, "position": "GK", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_007_02", "name": "Oussama Benattia", "number": 3, "position": "RB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_007_03", "name": "Abdelli Zakaria", "number": 4, "position": "CB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_007_04", "name": "Abdelhak Debbari", "number": 26, "position": "RB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_007_05", "name": "Chemseddine Bekkouche", "number": 15, "position": "LB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_007_06", "name": "Mohamed Alaeddine Belaribi", "number": 6, "position": "CDM", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_007_07", "name": "Mohamed Ilyas Abboub", "number": 8, "position": "CDM", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_007_08", "name": "Anis Elhadj Benchouya", "number": 2, "position": "RW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_007_09", "name": "Imad Eddine Larbi", "number": 10, "position": "CAM", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_007_10", "name": "Zoubir Motrani", "number": 7, "position": "LW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_007_11", "name": "Kokou Avotor", "number": 25, "position": "ST", "country": "TG", "status": "starter"},
+  
+      {"playerId": "player_dz1_007_12", "name": "Chamseddine Rahmani", "number": 30, "position": "GK", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_007_13", "name": "Saïd Lamrani", "number": 13, "position": "RB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_007_14", "name": "Amir Laidouni", "number": 21, "position": "RB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_007_15", "name": "Abderrahim Hamdani", "number": 28, "position": "LB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_007_16", "name": "Ismael Mahamadou Moussa", "number": 12, "position": "CDM", "country": "NE", "status": "bench"},
+      {"playerId": "player_dz1_007_17", "name": "Ousmane Diakité", "number": 14, "position": "CAM", "country": "CI", "status": "bench"},
+      {"playerId": "player_dz1_007_18", "name": "Samir Aiboud", "number": 17, "position": "CM", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_007_19", "name": "Belkacem Brahimi", "number": 20, "position": "LM", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_007_20", "name": "Edward Ledlum", "number": 22, "position": "LW", "country": "LR", "status": "bench"},
+      {"playerId": "player_dz1_007_21", "name": "Feddal Issa", "number": 27, "position": "ST", "country": "DZ", "status": "bench"},
+  
+      {"playerId": "player_dz1_007_22", "name": "Djamel Belalem", "number": 18, "position": "CDM", "country": "DZ", "status": "reserve"},
+      {"playerId": "player_dz1_007_23", "name": "Abdeldjalil Bessalhi", "number": 19, "position": "CDM", "country": "DZ", "status": "reserve"},
+      {"playerId": "player_dz1_007_24", "name": "Yasser Belaribi", "number": 11, "position": "CAM", "country": "DZ", "status": "reserve"},
+      {"playerId": "player_dz1_007_25", "name": "Dahman Bounoua Mohamed", "number": 29, "position": "RW", "country": "DZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 25,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 2
+      }
+    }
   }
-}
