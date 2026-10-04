@@ -1,12 +1,58 @@
 {
-  "teamKey": "Aknoun",
-
-  "name": "ES Ben Aknoun",
-
-  "logo": "assets/logos/africa/algeria/Aknoun.png",
-
-  "stadium": {
-    "name": "Stade du 20 Août 1955",
-    "capacity": 15000
+    "teamKey": "Aknoun",
+  
+    "name": "ES Ben Aknoun",
+  
+    "logo": "assets/logos/africa/algeria/Aknoun.png",
+  
+    "manager": {
+      "name": "Mounir Zeghdoud",
+      "country": "DZ"
+    },
+  
+    "stadium": {
+      "name": "Stade du 20 Août 1955",
+      "capacity": 15000
+    },
+  
+    "players": [
+      {"playerId": "player_dz1_002_01", "name": "Mohamed Medjadji", "number": 1, "position": "GK", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_002_02", "name": "Abderrahmane Hachoud", "number": 27, "position": "RB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_002_03", "name": "M'hammed Merouani", "number": 4, "position": "CB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_002_04", "name": "Abdelkrim Oukali", "number": 5, "position": "CB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_002_05", "name": "Aymen Chaaraoui", "number": 2, "position": "LB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_002_06", "name": "Massinissa Benchelouche", "number": 6, "position": "CDM", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_002_07", "name": "Mohamed Benchaira", "number": 8, "position": "CM", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_002_08", "name": "Youcef Bechou", "number": 10, "position": "RW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_002_09", "name": "Akram Djahnit", "number": 25, "position": "CAM", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_002_10", "name": "Ahmed Zaouache", "number": 11, "position": "RW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_002_11", "name": "Adil Djabout", "number": 7, "position": "ST", "country": "DZ", "status": "starter"},
+  
+      {"playerId": "player_dz1_002_12", "name": "Kheireddine Boussouf", "number": 16, "position": "GK", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_002_13", "name": "Abdelkader Tamimi", "number": 3, "position": "CB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_002_14", "name": "Fateh Talah", "number": 15, "position": "CB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_002_15", "name": "Billal Boukaroum", "number": 17, "position": "RB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_002_16", "name": "Rafik Brahimi", "number": 21, "position": "LB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_002_17", "name": "Housseyn Selmi", "number": 22, "position": "CM", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_002_18", "name": "Alaaddin Aissani", "number": 12, "position": "CAM", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_002_19", "name": "Abdeljalil Saâd", "number": 9, "position": "ST", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_002_20", "name": "Diaa Eddine Mechid", "number": 18, "position": "RW", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_002_21", "name": "Mohamed Sylla", "number": 24, "position": "ST", "country": "CI", "status": "bench"},
+  
+      {"playerId": "player_dz1_002_22", "name": "Aymene Boualleg", "number": 23, "position": "CB", "country": "DZ", "status": "reserve"},
+      {"playerId": "player_dz1_002_23", "name": "Mohamed Rayane Gacem", "number": 13, "position": "ST", "country": "DZ", "status": "reserve"},
+      {"playerId": "player_dz1_002_24", "name": "Yanis Allam", "number": 14, "position": "ST", "country": "DZ", "status": "reserve"},
+      {"playerId": "player_dz1_002_25", "name": "Lounas Adjout", "number": 19, "position": "ST", "country": "DZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 27,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 25,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
