@@ -1,12 +1,58 @@
-{
-  "teamKey": "Saoura",
-
-  "name": "JS Saoura",
-
-  "logo": "assets/logos/africa/algeria/Saoura.png",
-
-  "stadium": {
-    "name": "Stade du 20 Août 1955",
-    "capacity": 20000
+ {
+    "teamKey": "Saoura",
+  
+    "name": "JS Saoura",
+  
+    "logo": "assets/logos/africa/algeria/Saoura.png",
+  
+    "manager": {
+      "name": "Zakaria Ben Abed",
+      "country": "DZ"
+    },
+  
+    "stadium": {
+      "name": "Stade du 20 Août 1955",
+      "capacity": 20000
+    },
+  
+    "players": [
+      {"playerId": "player_dz1_014_01", "name": "Abdelkadir Salhi", "number": 1, "position": "GK", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_014_02", "name": "Fayçal Mebarki", "number": 4, "position": "RB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_014_03", "name": "Anthony Tra Bi Tra", "number": 5, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_dz1_014_04", "name": "Ilyes Haddouche", "number": 6, "position": "CB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_014_05", "name": "Abdelhak Cherir", "number": 28, "position": "LB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_014_06", "name": "Adel Bouchiba", "number": 25, "position": "CDM", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_014_07", "name": "Khaled Mounir Allaoui", "number": 23, "position": "CM", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_014_08", "name": "Dhiya Eddine Benyahia", "number": 7, "position": "RW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_014_09", "name": "Abdel Hak Khoumani", "number": 8, "position": "CAM", "country": "DZ", "status": "starter"},
+      {"playerId": "player_dz1_014_10", "name": "Anas Yusuf", "number": 26, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_dz1_014_11", "name": "Mohammed El Mabrouk Belghanami", "number": 9, "position": "ST", "country": "DZ", "status": "starter"},
+  
+      {"playerId": "player_dz1_014_12", "name": "Abdesslam Hannane", "number": 16, "position": "GK", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_014_13", "name": "Oussama Yerou", "number": 2, "position": "CB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_014_14", "name": "Akram Merouane Merit", "number": 3, "position": "CB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_014_15", "name": "Ayoub Karim", "number": 15, "position": "CB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_014_16", "name": "Abdenour Barkat", "number": 24, "position": "RB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_014_17", "name": "Mohamed Fenniri", "number": 11, "position": "CM", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_014_18", "name": "Khalid Dahamni", "number": 14, "position": "CAM", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_014_19", "name": "Mohamed Goumaidi", "number": 17, "position": "CAM", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_014_20", "name": "Oussama Bentaleb", "number": 21, "position": "RW", "country": "DZ", "status": "bench"},
+      {"playerId": "player_dz1_014_21", "name": "Alimi Sikiru", "number": 29, "position": "ST", "country": "NG", "status": "bench"},
+  
+      {"playerId": "player_dz1_014_22", "name": "Amine Benmiloud", "number": 31, "position": "CB", "country": "DZ", "status": "reserve"},
+      {"playerId": "player_dz1_014_23", "name": "Constant Wayou", "number": 19, "position": "CAM", "country": "CI", "status": "reserve"},
+      {"playerId": "player_dz1_014_24", "name": "Merouane Boussalem", "number": 22, "position": "RW", "country": "DZ", "status": "reserve"},
+      {"playerId": "player_dz1_014_25", "name": "Ayman Boqari", "number": 13, "position": "ST", "country": "DZ", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 25,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 26
+      }
+    }
   }
-}
