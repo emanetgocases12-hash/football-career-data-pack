@@ -1,12 +1,41 @@
 {
-  "teamKey": "FUS",
-
-  "name": "FUS Rabat",
-
-  "logo": "assets/logos/africa/morocco/Fus.png",
-
-  "stadium": {
-    "name": "Stade Prince Moulay El Hassan",
-    "capacity": 22000
+    "teamKey": "FUS",
+    "name": "FUS Rabat",
+    "logo": "assets/logos/africa/morocco/Fus.png",
+    "manager": {"name": "Saïd Chiba", "country": "MA"},
+    "stadium": {"name": "Stade Prince Moulay El Hassan", "capacity": 22000},
+    "players": [
+      {"playerId": "player_ma1_004_01", "name": "Ayoub Lakred", "number": 97, "position": "GK", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_004_02", "name": "Oussama Raoui", "number": 26, "position": "RB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_004_03", "name": "Yassine Amhih", "number": 4, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_004_04", "name": "Fernando Chamboco", "number": 31, "position": "CB", "country": "MZ", "status": "starter"},
+      {"playerId": "player_ma1_004_05", "name": "Oussama Soukhane", "number": 47, "position": "LB", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_004_06", "name": "Anas Serrhat", "number": 5, "position": "CDM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_004_07", "name": "Abdessamad Mahir", "number": 8, "position": "CM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_004_08", "name": "Chouaib Faidi", "number": 7, "position": "RW", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_004_09", "name": "Ismail Moutaraji", "number": 18, "position": "CAM", "country": "MA", "status": "starter"},
+      {"playerId": "player_ma1_004_10", "name": "Lamine Diakité", "number": 11, "position": "LW", "country": "CI", "status": "starter"},
+      {"playerId": "player_ma1_004_11", "name": "Mohamed Bakhkhach", "number": 17, "position": "ST", "country": "MA", "status": "starter"},
+  
+      {"playerId": "player_ma1_004_12", "name": "Mehdi Bellarabi", "number": 13, "position": "GK", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_004_13", "name": "Faraji Karmoune", "number": 2, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_004_14", "name": "Hamza Challali", "number": 22, "position": "LB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_004_15", "name": "Abderrahman Arkid", "number": 32, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_004_16", "name": "Amine Souane", "number": 14, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_004_17", "name": "Soufiane Tazi", "number": 49, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_004_18", "name": "Hamza Moujahid", "number": 27, "position": "CM", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_004_19", "name": "Mountassir Lahtimi", "number": 9, "position": "RW", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_004_20", "name": "Ali El Harrak", "number": 30, "position": "LW", "country": "MA", "status": "bench"},
+      {"playerId": "player_ma1_004_21", "name": "Arthur Gitego", "number": 28, "position": "ST", "country": "RW", "status": "bench"},
+  
+      {"playerId": "player_ma1_004_22", "name": "Imrane Sadiki", "number": 68, "position": "GK", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_004_23", "name": "Amine El Msane", "number": 3, "position": "CM", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_004_24", "name": "Mohamed El Badoui", "number": 19, "position": "ST", "country": "MA", "status": "reserve"},
+      {"playerId": "player_ma1_004_25", "name": "Anderson Emanuel Cruz", "number": 24, "position": "RW", "country": "AO", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {"penalty": 17, "freeKick": 18, "cornerLeft": 7, "cornerRight": 11}
+    }
   }
-}
