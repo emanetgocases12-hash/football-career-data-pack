@@ -1,12 +1,58 @@
 {
-  "teamKey": "Ptrojt",
+    "teamKey": "Ptrojt",
 
-  "name": "Petrojet SC",
+    "name": "Petrojet SC",
 
-  "logo": "assets/logos/africa/egypt/Ptrojt.png",
+    "logo": "assets/logos/africa/egypt/Ptrojt.png",
 
-  "stadium": {
-    "name": "Suez Stadium",
-    "capacity": 27000
+    "manager": {
+      "name": "Sayed Eid",
+      "country": "EG"
+    },
+
+    "stadium": {
+      "name": "Suez Stadium",
+      "capacity": 27000
+    },
+
+    "players": [
+      {"playerId": "player_eg1_014_01", "name": "Omar Mohamed", "number": 1, "position": "GK", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_014_02", "name": "Mahmoud Shadid Qenawy", "number": 4, "position": "RB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_014_03", "name": "Barakat Haggag", "number": 25, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_014_04", "name": "Ahmed Yassin", "number": 29, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_014_05", "name": "Islam Abdallah", "number": 3, "position": "LB", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_014_06", "name": "Amadou Goldy Ba", "number": 2, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_eg1_014_07", "name": "Mohamed Ali Okasha", "number": 8, "position": "CM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_014_08", "name": "Badr Moussa", "number": 9, "position": "RW", "country": "PS", "status": "starter"},
+      {"playerId": "player_eg1_014_09", "name": "Mostafa El Gamel", "number": 14, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_014_10", "name": "Karim El Deeb", "number": 7, "position": "LW", "country": "EG", "status": "starter"},
+      {"playerId": "player_eg1_014_11", "name": "Goodwin Okwarra", "number": 30, "position": "ST", "country": "NG", "status": "starter"},
+
+      {"playerId": "player_eg1_014_12", "name": "Ahmed Ragab", "number": 16, "position": "GK", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_014_13", "name": "Ahmed Bahbah", "number": 15, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_014_14", "name": "Youssef Abdel Tawab", "number": 40, "position": "RB", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_014_15", "name": "Ahmed Ramadan", "number": 12, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_014_16", "name": "Adham Hamed", "number": 17, "position": "CM", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_014_17", "name": "K. Sekgota", "number": 27, "position": "RW", "country": "ZA", "status": "bench"},
+      {"playerId": "player_eg1_014_18", "name": "Mostafa El Badry", "number": 19, "position": "LW", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_014_19", "name": "Aboubakr Liadi", "number": 21, "position": "CAM", "country": "NG", "status": "bench"},
+      {"playerId": "player_eg1_014_20", "name": "Mohamed Ibrahim", "number": 11, "position": "ST", "country": "EG", "status": "bench"},
+      {"playerId": "player_eg1_014_21", "name": "Omar Diaa", "number": 23, "position": "ST", "country": "EG", "status": "bench"},
+
+      {"playerId": "player_eg1_014_22", "name": "Hassan Khaled", "number": 41, "position": "GK", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_014_23", "name": "F. Kouablan", "number": 13, "position": "ST", "country": "CI", "status": "reserve"},
+      {"playerId": "player_eg1_014_24", "name": "Ahmed Helmy", "number": 36, "position": "CM", "country": "EG", "status": "reserve"},
+      {"playerId": "player_eg1_014_25", "name": "Ahmed Ali", "number": 38, "position": "RW", "country": "EG", "status": "reserve"}
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+          "penalty": 30,
+          "freeKick": 14,
+          "cornerLeft": 7,
+          "cornerRight": 9
+        }
+      }
   }
-}
