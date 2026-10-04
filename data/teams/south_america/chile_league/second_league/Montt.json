@@ -1,12 +1,58 @@
 {
-  "teamKey": "Montt",
-
-  "name": "CD Puerto Montt",
-
-  "logo": "assets/logos/south_america/chili/Montt.png",
-
-  "stadium": {
-    "name": "Chinquihue",
-    "capacity": 10065
+    "teamKey": "Montt",
+  
+    "name": "CD Puerto Montt",
+  
+    "logo": "assets/logos/south_america/chili/Montt.png",
+  
+    "manager": {
+      "name": "Emiliano Astorga",
+      "country": "CL"
+    },
+  
+    "stadium": {
+      "name": "Chinquihue",
+      "capacity": 10065
+    },
+  
+    "players": [
+      {"playerId": "player_cl2_008_01", "name": "Gonzalo Collao", "number": 29, "position": "GK", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_008_02", "name": "Ariel Morales", "number": 3, "position": "RB", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl2_008_03", "name": "Jesús Pino", "number": 4, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_008_04", "name": "Byron Nieto", "number": 17, "position": "CB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_008_05", "name": "Kevin Egaña", "number": 5, "position": "LB", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_008_06", "name": "Juan Jaime", "number": 8, "position": "CDM", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl2_008_07", "name": "Jason Flores", "number": 10, "position": "CM", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_008_08", "name": "Alexis Sabella", "number": 14, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_cl2_008_09", "name": "Richard Paredes", "number": 9, "position": "RW", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_008_10", "name": "Salvador Negrete", "number": 11, "position": "ST", "country": "CL", "status": "starter"},
+      {"playerId": "player_cl2_008_11", "name": "Manley Clerveaux", "number": 19, "position": "LW", "country": "HT", "status": "starter"},
+  
+      {"playerId": "player_cl2_008_12", "name": "Luis Ureta", "number": 13, "position": "GK", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_008_13", "name": "Cristián Toro", "number": 2, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_008_14", "name": "Sebastián Silva", "number": 6, "position": "RB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_008_15", "name": "Nicolás Servetto", "number": 15, "position": "LB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_008_16", "name": "Miguel Sanhueza", "number": 24, "position": "CB", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_008_17", "name": "Ricardo Rosales", "number": 20, "position": "CM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_008_18", "name": "Jorge Gatica", "number": 21, "position": "CDM", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_008_19", "name": "Nicolás Gauna", "number": 7, "position": "CAM", "country": "AR", "status": "bench"},
+      {"playerId": "player_cl2_008_20", "name": "Camilo Melivilu", "number": 22, "position": "ST", "country": "CL", "status": "bench"},
+      {"playerId": "player_cl2_008_21", "name": "Leonardo Valencia", "number": 23, "position": "RW", "country": "CL", "status": "bench"},
+  
+      {"playerId": "player_cl2_008_22", "name": "Manuel Escobar", "number": 1, "position": "GK", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_008_23", "name": "Bryan Taiva", "number": 18, "position": "CM", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_008_24", "name": "Juan Méndez", "number": 26, "position": "LW", "country": "CL", "status": "reserve"},
+      {"playerId": "player_cl2_008_25", "name": "Cristóbal Vargas", "number": 27, "position": "ST", "country": "CL", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 14,
+        "cornerLeft": 10,
+        "cornerRight": 14
+      }
+    }
   }
-}
