@@ -1,12 +1,39 @@
-{
-  "teamKey": "Enyimb",
-
-  "name": "Enyimba FC",
-
-  "logo": "assets/logos/africa/nigeria/Enyimb.png",
-
-  "stadium": {
-    "name": "Enyimba Stadium",
-    "capacity": 16000
+ {
+    "teamKey": "Enyimb",
+    "name": "Enyimba FC",
+    "logo": "assets/logos/africa/nigeria/Enyimb.png",
+    "manager": {"name": "Emmanuel Deutsch", "country": "CM"},
+    "stadium": {"name": "Enyimba Stadium", "capacity": 16000},
+    "players": [
+      {"playerId": "player_ng1_006_01", "name": "Godwin Dede", "number": 1, "position": "GK", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_006_02", "name": "Ebube Nwachukwu", "number": 2, "position": "RB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_006_03", "name": "Emeka Onyema", "number": 4, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_006_04", "name": "Mohammed Hussaini", "number": 5, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_006_05", "name": "Afolayan Peters", "number": 3, "position": "LB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_006_06", "name": "Henry Ndedi", "number": 6, "position": "CDM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_006_07", "name": "Nzube Chukwurah", "number": 8, "position": "CM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_006_08", "name": "Stanley Dimgba", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_006_09", "name": "Olasunkanmi Quadri", "number": 10, "position": "CAM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_006_10", "name": "Joseph Abiodun", "number": 11, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_006_11", "name": "Kingsley Maduforo", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+      {"playerId": "player_ng1_006_12", "name": "Anozie Chinedu", "number": 30, "position": "GK", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_006_13", "name": "Samuel Agu", "number": 12, "position": "RB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_006_14", "name": "Usman Lolo", "number": 13, "position": "CB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_006_15", "name": "Solomon Ogberahwe", "number": 14, "position": "LB", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_006_16", "name": "Uwana Asuquo", "number": 15, "position": "RM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_006_17", "name": "Issah Mohammed", "number": 16, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_006_18", "name": "David Eke", "number": 17, "position": "CAM", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_006_19", "name": "Williams Wonah", "number": 18, "position": "RW", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_006_20", "name": "Adekunle Mojeed", "number": 19, "position": "LW", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_006_21", "name": "Jonathan Jacob", "number": 20, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_ng1_006_22", "name": "Ekene Awazie", "number": 21, "position": "LW", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_006_23", "name": "Ifeanyi Ihemekwele", "number": 22, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_006_24", "name": "Ufere Chukwu", "number": 23, "position": "CAM", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ng1_006_25", "name": "Mujeeb Odifeso", "number": 24, "position": "ST", "country": "NG", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {"penalty": 9, "freeKick": 7, "cornerLeft": 7, "cornerRight": 7}
+    }
   }
-}
