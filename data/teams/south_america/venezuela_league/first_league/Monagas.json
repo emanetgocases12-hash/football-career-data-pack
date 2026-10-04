@@ -1,12 +1,58 @@
 {
-  "teamKey": "Monaga",
-
-  "name": "Monagas SC",
-
-  "logo": "assets/logos/south_america/venezuela/Monaga.png",
-
-  "stadium": {
-    "name": "Estadio Monumental de Maturín",
-    "capacity": 51796
+    "teamKey": "Monaga",
+  
+    "name": "Monagas SC",
+  
+    "logo": "assets/logos/south_america/venezuela/Monaga.png",
+  
+    "manager": {
+      "name": "Jesús Ortiz",
+      "country": "VE"
+    },
+  
+    "stadium": {
+      "name": "Estadio Monumental de Maturín",
+      "capacity": 51796
+    },
+  
+    "players": [
+      {"playerId": "player_ve1_007_01", "name": "Thomas Riveros", "number": 12, "position": "GK", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_007_02", "name": "Kevin De La Hoz", "number": 2, "position": "RB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_007_03", "name": "Alexis Rodas", "number": 3, "position": "CB", "country": "PY", "status": "starter"},
+      {"playerId": "player_ve1_007_04", "name": "Nicolás Henry", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_ve1_007_05", "name": "Jesús Paz", "number": 13, "position": "LB", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_007_06", "name": "Felipe Jaramillo", "number": 14, "position": "CDM", "country": "CO", "status": "starter"},
+      {"playerId": "player_ve1_007_07", "name": "Jean Colorado", "number": 5, "position": "CM", "country": "CO", "status": "starter"},
+      {"playerId": "player_ve1_007_08", "name": "Fernando Basante", "number": 7, "position": "RW", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_007_09", "name": "Saúl Asibe", "number": 38, "position": "CAM", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_007_10", "name": "Luis González", "number": 11, "position": "LW", "country": "VE", "status": "starter"},
+      {"playerId": "player_ve1_007_11", "name": "Ronald Rodríguez", "number": 43, "position": "ST", "country": "VE", "status": "starter"},
+  
+      {"playerId": "player_ve1_007_12", "name": "Eduardo Lima", "number": 33, "position": "GK", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_007_13", "name": "Marcos Maitán", "number": 31, "position": "CB", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_007_14", "name": "Richard Peralta", "number": 21, "position": "LB", "country": "PA", "status": "bench"},
+      {"playerId": "player_ve1_007_15", "name": "Edgar Carrión", "number": 16, "position": "CM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_007_16", "name": "Dhylan Castillo", "number": 26, "position": "CM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_007_17", "name": "Santiago Natera", "number": 35, "position": "CM", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_007_18", "name": "Antonio Romero", "number": 10, "position": "RW", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_007_19", "name": "Rafael Arace", "number": 20, "position": "LW", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_007_20", "name": "Cristian Ramírez", "number": 32, "position": "ST", "country": "VE", "status": "bench"},
+      {"playerId": "player_ve1_007_21", "name": "Edder Farías", "number": 27, "position": "ST", "country": "VE", "status": "bench"},
+  
+      {"playerId": "player_ve1_007_22", "name": "Elvis Perlaza", "number": 6, "position": "RB", "country": "CO", "status": "reserve"},
+      {"playerId": "player_ve1_007_23", "name": "Anderson Contreras", "number": 17, "position": "CAM", "country": "VE", "status": "reserve"},
+      {"playerId": "player_ve1_007_24", "name": "Maelo Rentería", "number": 55, "position": "ST", "country": "EC", "status": "reserve"},
+      {"playerId": "player_ve1_007_25", "name": "Bryan Ureña", "number": 30, "position": "RW", "country": "CO", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 12,
+      "setPieces": {
+        "penalty": 43,
+        "freeKick": 11,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
