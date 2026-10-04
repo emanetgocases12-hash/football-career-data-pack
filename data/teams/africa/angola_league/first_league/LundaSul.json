@@ -1,12 +1,52 @@
 {
-  "teamKey": "Lunda",
-
-  "name": "Desportivo da Lunda Sul",
-
-  "logo": "assets/logos/africa/angola/Lunda.png",
-
-  "stadium": {
-    "name": "Estádio Sagrada Esperança",
-    "capacity": 7000
+    "teamKey": "Lunda",
+    "name": "Desportivo da Lunda Sul",
+    "logo": "assets/logos/africa/angola/Lunda.png",
+    "manager": {
+      "name": "Maurílio Silva",
+      "country": "BR"
+    },
+    "stadium": {
+      "name": "Estádio Sagrada Esperança",
+      "capacity": 7000
+    },
+    "players": [
+      {"playerId": "player_ao1_010_01", "name": "Adalberto Cacusso", "number": 12, "position": "GK", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_010_02", "name": "Dieu David", "number": 2, "position": "RB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_010_03", "name": "Afonso Binga", "number": 21, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_010_04", "name": "Sozito", "number": 4, "position": "CB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_010_05", "name": "Yuri", "number": 3, "position": "LB", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_010_06", "name": "Zonzo", "number": 6, "position": "CDM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_010_07", "name": "Jota", "number": 8, "position": "CM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_010_08", "name": "Cláudio Kylla", "number": 10, "position": "CAM", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_010_09", "name": "Pedro Agostinho", "number": 7, "position": "RW", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_010_10", "name": "Manucho", "number": 9, "position": "ST", "country": "AO", "status": "starter"},
+      {"playerId": "player_ao1_010_11", "name": "Fuca", "number": 11, "position": "LW", "country": "AO", "status": "starter"},
+  
+      {"playerId": "player_ao1_010_12", "name": "Ervenécio Bicho", "number": 1, "position": "GK", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_010_13", "name": "Kibuata", "number": 13, "position": "CB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_010_14", "name": "Nonó", "number": 14, "position": "LB", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_010_15", "name": "Fredy Xangongo", "number": 15, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_010_16", "name": "Platini", "number": 16, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_010_17", "name": "Domingos Ximba", "number": 17, "position": "CAM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_010_18", "name": "Vado Miguel", "number": 18, "position": "CM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_010_19", "name": "Maranata Vunge", "number": 19, "position": "CAM", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_010_20", "name": "Neymar", "number": 20, "position": "RW", "country": "AO", "status": "bench"},
+      {"playerId": "player_ao1_010_21", "name": "Nico", "number": 22, "position": "ST", "country": "AO", "status": "bench"},
+  
+      {"playerId": "player_ao1_010_22", "name": "Angola", "number": 41, "position": "GK", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_010_23", "name": "Joca", "number": 23, "position": "ST", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_010_24", "name": "Magrinho", "number": 24, "position": "LW", "country": "AO", "status": "reserve"},
+      {"playerId": "player_ao1_010_25", "name": "Jepson", "number": 25, "position": "ST", "country": "AO", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 12,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 10,
+        "cornerRight": 10
+      }
+    }
   }
-}
