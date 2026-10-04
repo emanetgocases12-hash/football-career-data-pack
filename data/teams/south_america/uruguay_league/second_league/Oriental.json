@@ -1,12 +1,41 @@
 {
-  "teamKey": "Orient",
+    "teamKey": "Orient",
+    "name": "Club Oriental",
+    "logo": "assets/logos/south_america/uruguay/Orient.png",
+    "manager": {"name": "Darío Flores", "country": "UY"},
+    "stadium": {"name": "Parque Oriental", "capacity": 1500},
+    "players": [
+      {"playerId": "player_uy2_008_01", "name": "Adriel da Silva", "number": 12, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_uy2_008_02", "name": "Ángelo Gabrielli", "number": 4, "position": "RB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_008_03", "name": "Gabriel Chocobar", "number": 3, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_uy2_008_04", "name": "Nicolás Kozlovsky", "number": 15, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_uy2_008_05", "name": "Enzo Fernández", "number": 22, "position": "LB", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_008_06", "name": "Claudio Innella", "number": 20, "position": "CDM", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_008_07", "name": "Facundo Briñón", "number": 10, "position": "CM", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_008_08", "name": "Renato Alexandrino", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_uy2_008_09", "name": "Christian Paiva", "number": 8, "position": "CAM", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_008_10", "name": "Nahuel Gómez", "number": 14, "position": "LW", "country": "UY", "status": "starter"},
+      {"playerId": "player_uy2_008_11", "name": "Matías Rigoleto", "number": 9, "position": "ST", "country": "UY", "status": "starter"},
 
-  "name": "Club Oriental",
+      {"playerId": "player_uy2_008_12", "name": "Lucero Álvarez", "number": 1, "position": "GK", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_008_13", "name": "Nicolás Rodríguez", "number": 2, "position": "CB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_008_14", "name": "Kauê Marques", "number": 23, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_uy2_008_15", "name": "Joaquín Viera", "number": 21, "position": "LB", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_008_16", "name": "Lautaro Ultra", "number": 19, "position": "CDM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_008_17", "name": "Juan Pablo Viré", "number": 6, "position": "CDM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_008_18", "name": "Enzo Vlaeminch", "number": 5, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_uy2_008_19", "name": "Ezequiel Silva", "number": 18, "position": "RM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_008_20", "name": "Franco Tejera", "number": 27, "position": "CAM", "country": "UY", "status": "bench"},
+      {"playerId": "player_uy2_008_21", "name": "Martín Vallejo", "number": 30, "position": "LW", "country": "UY", "status": "bench"},
 
-  "logo": "assets/logos/south_america/uruguay/Orient.png",
-
-  "stadium": {
-    "name": "Parque Oriental",
-    "capacity": 1500
+      {"playerId": "player_uy2_008_22", "name": "Braian Galván", "number": 29, "position": "RW", "country": "AR", "status": "reserve"},
+      {"playerId": "player_uy2_008_23", "name": "Cristian Franco", "number": 17, "position": "ST", "country": "UY", "status": "reserve"},
+      {"playerId": "player_uy2_008_24", "name": "Bruno Motta", "number": 31, "position": "ST", "country": "UY", "status": "reserve"},
+      {"playerId": "player_uy2_008_25", "name": "Julio Caballero", "number": 7, "position": "LW", "country": "UY", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 20,
+      "setPieces": {"penalty": 9, "freeKick": 10, "cornerLeft": 14, "cornerRight": 11}
+    }
   }
-}
