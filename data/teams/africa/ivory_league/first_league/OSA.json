@@ -1,12 +1,58 @@
 {
-  "teamKey": "OSA",
-
-  "name": "FC OSA",
-
-  "logo": "assets/logos/africa/ivory/OSA.png",
-
-  "stadium": {
-    "name": "Stade Robert Champroux",
-    "capacity": 3000
+    "teamKey": "OSA",
+  
+    "name": "FC OSA",
+  
+    "logo": "assets/logos/africa/ivory/OSA.png",
+  
+    "manager": {
+      "name": "Por definir",
+      "country": "CI"
+    },
+  
+    "stadium": {
+      "name": "Stade Robert Champroux",
+      "capacity": 3000
+    },
+  
+    "players": [
+      {"playerId": "player_ci1_008_01", "name": "Seck Aboubakar Diabagaté", "number": 1, "position": "GK", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_008_02", "name": "Abroulaye Soumahoro", "number": 2, "position": "RB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_008_03", "name": "Ge Valy Koné", "number": 4, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_008_04", "name": "Cheick Hassane Sanogo", "number": 5, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_008_05", "name": "Kouakou Jean Fabrice N'Guessan", "number": 3, "position": "LB", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_008_06", "name": "Mounan Osée Niegbo", "number": 6, "position": "CDM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_008_07", "name": "Salif Ibrahim Coulibaly", "number": 8, "position": "CM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_008_08", "name": "Josue Gaba", "number": 7, "position": "RW", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_008_09", "name": "Mamadou Koné", "number": 10, "position": "CAM", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_008_10", "name": "Kouassi Yao", "number": 11, "position": "LW", "country": "CI", "status": "starter"},
+      {"playerId": "player_ci1_008_11", "name": "Ibrahim Touré", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
+  
+      {"playerId": "player_ci1_008_12", "name": "Mamadou Sylla", "number": 12, "position": "GK", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_008_13", "name": "Abdoul Karim Coulibaly", "number": 13, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_008_14", "name": "Yannick Koffi", "number": 14, "position": "RB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_008_15", "name": "Souleymane Diomandé", "number": 15, "position": "LB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_008_16", "name": "Ismaël Traoré", "number": 16, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_008_17", "name": "Moussa Konaté", "number": 17, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_008_18", "name": "Kader Ouattara", "number": 18, "position": "CDM", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_008_19", "name": "Franck Kouamé", "number": 19, "position": "RW", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_008_20", "name": "Abdoulaye Camara", "number": 20, "position": "LW", "country": "CI", "status": "bench"},
+      {"playerId": "player_ci1_008_21", "name": "Yacouba Bamba", "number": 21, "position": "ST", "country": "CI", "status": "bench"},
+  
+      {"playerId": "player_ci1_008_22", "name": "Mory Kone", "number": 22, "position": "CB", "country": "CI", "status": "reserve"},
+      {"playerId": "player_ci1_008_23", "name": "Koffi Nguessan", "number": 23, "position": "CM", "country": "CI", "status": "reserve"},
+      {"playerId": "player_ci1_008_24", "name": "Jean Evrard Kouassi", "number": 24, "position": "RW", "country": "CI", "status": "reserve"},
+      {"playerId": "player_ci1_008_25", "name": "Mahamadou Diamoutene", "number": 25, "position": "CB", "country": "CI", "status": "reserve"}
+    ],
+  
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
