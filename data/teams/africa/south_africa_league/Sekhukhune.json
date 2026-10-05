@@ -1,12 +1,52 @@
 {
   "teamKey": "Sekhuk",
-
   "name": "Sekhukhune United",
-
   "logo": "assets/logos/africa/south_africa/Sekhuk.png",
-
+  "manager": {
+    "name": "Cédric Kaze",
+    "country": "BI"
+  },
   "stadium": {
     "name": "Peter Mokaba Stadium",
     "capacity": 45500
+  },
+  "players": [
+    {"playerId": "player_za1_013_01", "name": "Toaster Nsabata", "number": 1, "position": "GK", "country": "ZM", "status": "starter"},
+    {"playerId": "player_za1_013_02", "name": "Nyiko Mobbie", "number": 2, "position": "RB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_013_03", "name": "Daniel Cardoso", "number": 4, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_013_04", "name": "S. O'Neil", "number": 14, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_013_05", "name": "T. Mashiloane", "number": 17, "position": "LB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_013_06", "name": "S. Mkhize", "number": 15, "position": "CDM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_013_07", "name": "T. Mokoane", "number": 31, "position": "CM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_013_08", "name": "B. Muzeu", "number": 41, "position": "RW", "country": "NA", "status": "starter"},
+    {"playerId": "player_za1_013_09", "name": "V. Mncube", "number": 10, "position": "CAM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_013_10", "name": "L. Mojela", "number": 21, "position": "LW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_013_11", "name": "C. Ohizu", "number": 34, "position": "ST", "country": "NG", "status": "starter"},
+
+    {"playerId": "player_za1_013_12", "name": "Melusi Buthelezi", "number": 30, "position": "GK", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_013_13", "name": "N. Rammala", "number": 11, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_013_14", "name": "V. Letlapa", "number": 25, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_013_15", "name": "A. Mcaba", "number": 26, "position": "LB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_013_16", "name": "D. Kazeem", "number": 29, "position": "RB", "country": "NG", "status": "bench"},
+    {"playerId": "player_za1_013_17", "name": "T. Khiba", "number": 12, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_013_18", "name": "M. Vandala", "number": 13, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_013_19", "name": "G. Khoto", "number": 42, "position": "CAM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_013_20", "name": "T. Diomande", "number": 3, "position": "LW", "country": "CI", "status": "bench"},
+    {"playerId": "player_za1_013_21", "name": "T. Mahlangu", "number": 9, "position": "ST", "country": "ZA", "status": "bench"},
+
+    {"playerId": "player_za1_013_22", "name": "Manuel Sapunga", "number": 23, "position": "GK", "country": "GQ", "status": "reserve"},
+    {"playerId": "player_za1_013_23", "name": "O. Mandi", "number": 22, "position": "RW", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_013_24", "name": "T. Nkwana", "number": 5, "position": "ST", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_013_25", "name": "M. Ramabu", "number": 7, "position": "LW", "country": "ZA", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 34,
+      "freeKick": 41,
+      "cornerLeft": 41,
+      "cornerRight": 10
+    }
   }
 }
