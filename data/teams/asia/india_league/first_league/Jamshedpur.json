@@ -1,12 +1,52 @@
 {
-  "teamKey": "Jamshe",
+    "teamKey": "Jamshe",
+    "name": "Jamshedpur Football Club",
+    "logo": "assets/logos/asia/india/Jamshedpur.png",
+    "manager": {
+      "name": "Kaizad Ambapardiwalla",
+      "country": "IN"
+    },
+    "stadium": {
+      "name": "JRD Tata Sports Complex",
+      "capacity": 25000
+    },
+    "players": [
+      {"playerId": "player_in1_006_01", "name": "Albino Gomes", "number": 1, "position": "GK", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_006_02", "name": "Nikhil Barla", "number": 2, "position": "RB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_006_03", "name": "Pratik Chaudhari", "number": 4, "position": "CB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_006_04", "name": "Sarthak Golui", "number": 5, "position": "CB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_006_05", "name": "Abhishek Ambekar", "number": 3, "position": "LB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_006_06", "name": "Pronay Halder", "number": 8, "position": "CDM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_006_07", "name": "Raynier Fernandes", "number": 10, "position": "CM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_006_08", "name": "Lawmsangzuala", "number": 6, "position": "CM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_006_09", "name": "Sreekuttan VS", "number": 7, "position": "RW", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_006_10", "name": "Rosenberg Gilbert Gabriel", "number": 11, "position": "LW", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_006_11", "name": "Devendra Dhaku Murgaokar", "number": 9, "position": "ST", "country": "IN", "status": "starter"},
 
-  "name": "Jamshedpur Football Club",
+      {"playerId": "player_in1_006_12", "name": "Amrit Gope", "number": 13, "position": "GK", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_006_13", "name": "Provat Lakra", "number": 15, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_006_14", "name": "Leewan Castanha", "number": 16, "position": "LB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_006_15", "name": "Ayangsana Meitei", "number": 17, "position": "RB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_006_16", "name": "Sourav Das", "number": 18, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_006_17", "name": "Aman CK", "number": 20, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_006_18", "name": "Shagolsem Rashithoi Meetei", "number": 21, "position": "RW", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_006_19", "name": "Sachin Singh", "number": 22, "position": "CAM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_006_20", "name": "Rayan C", "number": 23, "position": "LW", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_006_21", "name": "Heeranganba Seram", "number": 19, "position": "ST", "country": "IN", "status": "bench"},
 
-  "logo": "assets/logos/asia/india/Jamshedpur.png",
-
-  "stadium": {
-    "name": "JRD Tata Sports Complex",
-    "capacity": 25000
+      {"playerId": "player_in1_006_22", "name": "Ritabrata Sarkar", "number": 31, "position": "GK", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_006_23", "name": "Ronaldo Singh", "number": 24, "position": "RB", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_006_24", "name": "Satyajit Das", "number": 25, "position": "CB", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_006_25", "name": "Alvin Eshaan Khyriem", "number": 29, "position": "ST", "country": "IN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
