@@ -1,12 +1,52 @@
-{
-  "teamKey": "D Wand",
+ {
+    "teamKey": "D Wand",
+    "name": "Dhaka Wanderers Club",
+    "logo": "assets/logos/asia/bangladesh/Dhaka.png",
+    "manager": {
+      "name": "Laurent Anies",
+      "country": "FR"
+    },
+    "stadium": {
+      "name": "Chandpur Stadium",
+      "capacity": 10000
+    },
+    "players": [
+      {"playerId": "player_bd1_008_01", "name": "Mohiuddin Ranu", "number": 1, "position": "GK", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_008_02", "name": "Monir Hossain", "number": 2, "position": "RB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_008_03", "name": "Obono Biloa", "number": 5, "position": "CB", "country": "CM", "status": "starter"},
+      {"playerId": "player_bd1_008_04", "name": "Shakil Ahmed", "number": 3, "position": "CB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_008_05", "name": "Rasedul Islam Rased", "number": 21, "position": "LB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_008_06", "name": "Angus Bailey", "number": 10, "position": "CDM", "country": "AU", "status": "starter"},
+      {"playerId": "player_bd1_008_07", "name": "Hemanta Vincent Biswas", "number": 99, "position": "CM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_008_08", "name": "Abu Shaeid", "number": 7, "position": "RW", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_008_09", "name": "Yubraj Dhakal", "number": 11, "position": "CAM", "country": "NP", "status": "starter"},
+      {"playerId": "player_bd1_008_10", "name": "Mahadud Fahim", "number": 8, "position": "LW", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_008_11", "name": "Mannaf Rabby", "number": 9, "position": "ST", "country": "BD", "status": "starter"},
 
-  "name": "Dhaka Wanderers Club",
+      {"playerId": "player_bd1_008_12", "name": "Md Jasim Uddin", "number": 22, "position": "GK", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_008_13", "name": "Md Apon Shorker", "number": 25, "position": "LB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_008_14", "name": "Tanvirul Islam", "number": 31, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_008_15", "name": "Mohammad Asif", "number": 41, "position": "RB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_008_16", "name": "Tariqul Islam", "number": 13, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_008_17", "name": "Akkas Ali", "number": 19, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_008_18", "name": "Md Jamim Hossain", "number": 26, "position": "RM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_008_19", "name": "Akash Ahammed", "number": 27, "position": "LM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_008_20", "name": "Shawon Ritchil", "number": 12, "position": "LW", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_008_21", "name": "Jobayer Ahmed", "number": 16, "position": "ST", "country": "BD", "status": "bench"},
 
-  "logo": "assets/logos/asia/bangladesh/Dhaka.png",
-
-  "stadium": {
-    "name": "Chandpur Stadium",
-    "capacity": 10000
+      {"playerId": "player_bd1_008_22", "name": "Saurav Bikram Karki", "number": 24, "position": "GK", "country": "NP", "status": "reserve"},
+      {"playerId": "player_bd1_008_23", "name": "Rony Mia", "number": 30, "position": "ST", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_008_24", "name": "Arifur Rahman Raju", "number": 55, "position": "ST", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_008_25", "name": "Rafayatullah Mashrafi", "number": 34, "position": "RW", "country": "BD", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 99,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
