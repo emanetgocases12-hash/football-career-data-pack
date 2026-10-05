@@ -1,12 +1,44 @@
-{
-  "teamKey": "T Sour",
-
-  "name": "Tadamon Sour Sporting Club",
-
-  "logo": "assets/logos/asia/lebanon/Radamon.png",
-
-  "stadium": {
-    "name": "Sour Municipal Stadium",
-    "capacity": 6500
+ {
+    "teamKey": "T Sour",
+    "name": "Tadamon Sour Sporting Club",
+    "logo": "assets/logos/asia/lebanon/Radamon.png",
+    "manager": {"name": "Khalil Watfa", "country": "LB"},
+    "stadium": {"name": "Sour Municipal Stadium", "capacity": 6500},
+    "players": [
+      {"playerId": "player_lb1_011_01", "name": "Afif Zreik", "number": 1, "position": "GK", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_011_02", "name": "Ali Fahs", "number": 2, "position": "RB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_011_03", "name": "Ichaka Diarra", "number": 3, "position": "CB", "country": "ML", "status": "starter"},
+      {"playerId": "player_lb1_011_04", "name": "Hussein Mhaydle", "number": 4, "position": "CB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_011_05", "name": "Hussein Kaawar", "number": 5, "position": "LB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_011_06", "name": "Mohamad Ghamloush", "number": 6, "position": "CDM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_011_07", "name": "Bilal Najdi", "number": 7, "position": "CM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_011_08", "name": "Pedro Cardoso", "number": 8, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_lb1_011_09", "name": "Pedrinho", "number": 9, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_lb1_011_10", "name": "Gildo", "number": 10, "position": "LW", "country": "AO", "status": "starter"},
+      {"playerId": "player_lb1_011_11", "name": "Hassan Bazzi", "number": 11, "position": "ST", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_011_12", "name": "Ahmad Manaa", "number": 12, "position": "GK", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_011_13", "name": "Shadi Skaf", "number": 13, "position": "CB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_011_14", "name": "Wael Youssef", "number": 14, "position": "CB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_011_15", "name": "Abbas Sherkawi", "number": 15, "position": "RB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_011_16", "name": "Mohammad Dbouk", "number": 16, "position": "CDM", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_011_17", "name": "Ali Bitar", "number": 17, "position": "LB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_011_18", "name": "Godfred Yeboah", "number": 18, "position": "CM", "country": "GH", "status": "bench"},
+      {"playerId": "player_lb1_011_19", "name": "Mohamad Bechara", "number": 19, "position": "RW", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_011_20", "name": "Shareef Azaki", "number": 20, "position": "ST", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_011_21", "name": "Hassan Daher", "number": 21, "position": "ST", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_011_22", "name": "Zaher El Amin", "number": 22, "position": "GK", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_011_23", "name": "Jihad Hallak", "number": 23, "position": "CB", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_011_24", "name": "Hadi Madi", "number": 24, "position": "CM", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_011_25", "name": "Ali Siblini", "number": 25, "position": "LW", "country": "LB", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 9,
+        "cornerLeft": 10,
+        "cornerRight": 8
+      }
+    }
   }
-}
