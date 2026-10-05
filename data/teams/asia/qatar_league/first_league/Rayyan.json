@@ -1,12 +1,50 @@
 {
-  "teamKey": "Rayyan",
-
-  "name": "Al Rayyan",
-
-  "logo": "assets/logos/asia/qatar/Rayyan.png",
-
-  "stadium": {
-    "name": "Ahmad bin Ali Stadium",
-    "capacity": 45032
+    "teamKey": "Rayyan",
+    "name": "Al Rayyan",
+    "logo": "assets/logos/asia/qatar/Rayyan.png",
+    "manager": {
+      "name": "Vicente Moreno",
+      "country": "ES"
+    },
+    "stadium": {
+      "name": "Ahmad bin Ali Stadium",
+      "capacity": 45032
+    },
+    "players": [
+      {"playerId": "player_qa1_008_01", "name": "Mahmoud Abu Nada", "number": 57, "position": "GK", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_008_02", "name": "André Amaro", "number": 13, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_qa1_008_03", "name": "David Garcia", "number": 5, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_qa1_008_04", "name": "Hazem Shehata", "number": 3, "position": "LB", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_008_05", "name": "Abdullah Yousef", "number": 2, "position": "RB", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_008_06", "name": "Gregore da Silva", "number": 40, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_qa1_008_07", "name": "Julien De Sart", "number": 4, "position": "CM", "country": "BE", "status": "starter"},
+      {"playerId": "player_qa1_008_08", "name": "Abdulaziz Hatim", "number": 6, "position": "CM", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_008_09", "name": "Gabriel Pereira", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_qa1_008_10", "name": "Róger Guedes", "number": 10, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_qa1_008_11", "name": "Aleksandar Mitrovic", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+      {"playerId": "player_qa1_008_12", "name": "Sami Beldi", "number": 22, "position": "GK", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_008_13", "name": "Sami Mazen", "number": 35, "position": "GK", "country": "QA", "status": "reserve"},
+      {"playerId": "player_qa1_008_14", "name": "Jassim Jaber", "number": 8, "position": "CB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_008_15", "name": "Ahmed Al Menhali", "number": 12, "position": "RB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_008_16", "name": "Jassem Al Sharshani", "number": 14, "position": "LB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_008_17", "name": "Diogo Amaro", "number": 31, "position": "CB", "country": "PT", "status": "bench"},
+      {"playerId": "player_qa1_008_18", "name": "Youssef Ayman", "number": 17, "position": "CB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_008_19", "name": "Daoud Soliman", "number": 33, "position": "RB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_008_20", "name": "Mohammad Saleh", "number": 55, "position": "CM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_008_21", "name": "Khaled Ali", "number": 20, "position": "CM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_008_22", "name": "Mostafa Essam", "number": 25, "position": "CAM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_008_23", "name": "Ahmed Alaaeldin", "number": 30, "position": "ST", "country": "QA", "status": "reserve"},
+      {"playerId": "player_qa1_008_24", "name": "Wesley Ribeiro", "number": 7, "position": "RW", "country": "BR", "status": "reserve"},
+      {"playerId": "player_qa1_008_25", "name": "Ahmad Al Rawi", "number": 19, "position": "ST", "country": "QA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 57,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
