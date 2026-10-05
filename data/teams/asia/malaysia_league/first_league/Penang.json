@@ -1,12 +1,35 @@
 {
-  "teamKey": "Penang",
-
-  "name": "Penang FC",
-
-  "logo": "assets/logos/asia/malaysia/Penang.png",
-
-  "stadium": {
-    "name": "City Stadium Penang",
-    "capacity": 20000
+    "teamKey": "Penang",
+    "name": "Penang FC",
+    "logo": "assets/logos/asia/malaysia/Penang.png",
+    "manager": {"name": "Wan Rohaimi Wan Ismail", "country": "MY"},
+    "stadium": {"name": "City Stadium Penang", "capacity": 20000},
+    "players": [
+      {"playerId": "player_my1_008_01", "name": "Khairulazhan Khalid", "number": 1, "position": "GK", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_008_02", "name": "Mohammed Juzaerul Jasmi", "number": 50, "position": "RB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_008_03", "name": "Stefano Brundo", "number": 15, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_my1_008_04", "name": "Khairul Akmal Rokisham", "number": 6, "position": "CB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_008_05", "name": "Fazly Mazlan", "number": 3, "position": "LB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_008_06", "name": "Izzat Zikri Iziruddin", "number": 80, "position": "CM", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_008_07", "name": "Aliff Haiqal", "number": 92, "position": "CM", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_008_08", "name": "OJ Porteria", "number": 8, "position": "RW", "country": "PH", "status": "starter"},
+      {"playerId": "player_my1_008_09", "name": "Ruo Han", "number": 19, "position": "CAM", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_008_10", "name": "Akid Zamri", "number": 28, "position": "LW", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_008_11", "name": "Javier Gayoso", "number": 11, "position": "ST", "country": "PH", "status": "starter"},
+      {"playerId": "player_my1_008_12", "name": "Ramadhan Hamid", "number": 22, "position": "GK", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_008_13", "name": "Faith Friday Obilor", "number": 55, "position": "CB", "country": "NG", "status": "bench"},
+      {"playerId": "player_my1_008_14", "name": "Rakesh Munusamy", "number": 18, "position": "CB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_008_15", "name": "Durrkeswaran Ganesan", "number": 2, "position": "RB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_008_16", "name": "Fahmi Daniel", "number": 67, "position": "LB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_008_17", "name": "Firdaus Saiyadi", "number": 14, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_008_18", "name": "Danial Haqim Deraman", "number": 20, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_008_19", "name": "Bakhtiyorjon Kasymov", "number": 77, "position": "CDM", "country": "UZ", "status": "bench"},
+      {"playerId": "player_my1_008_20", "name": "Khalaif Naskam", "number": 13, "position": "RW", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_008_21", "name": "Suhaimi Abu", "number": 29, "position": "ST", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_008_22", "name": "Ashriq Izzat Mazlan", "number": 36, "position": "GK", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_008_23", "name": "Nor Hakeem Hamidun", "number": 46, "position": "GK", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_008_24", "name": "Danie Asyraf Fadzli", "number": 17, "position": "ST", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_008_25", "name": "Ad'dha Nazman", "number": 5, "position": "CB", "country": "MY", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 15, "setPieces": {"penalty": 11, "freeKick": 19, "cornerLeft": 28, "cornerRight": 8}}
   }
-}
