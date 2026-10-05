@@ -1,12 +1,52 @@
-{
-  "teamKey": "Punjab",
+  {
+    "teamKey": "Punjab",
+    "name": "Punjab FC",
+    "logo": "assets/logos/asia/india/Punjab.png",
+    "manager": {
+      "name": "Pavlos Dermitzakis",
+      "country": "GR"
+    },
+    "stadium": {
+      "name": "Jawaharlal Nehru Stadium Delhi",
+      "capacity": 60254
+    },
+    "players": [
+      {"playerId": "player_in1_014_01", "name": "Arshdeep Singh", "number": 13, "position": "GK", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_014_02", "name": "Suresh Meitei", "number": 5, "position": "RB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_014_03", "name": "Patrick Gerard Bahanack", "number": 4, "position": "CB", "country": "CM", "status": "starter"},
+      {"playerId": "player_in1_014_04", "name": "Muhammad Uvais", "number": 2, "position": "CB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_014_05", "name": "Ngarin Shaiza", "number": 3, "position": "LB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_014_06", "name": "Nikhil Prabhu", "number": 6, "position": "CDM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_014_07", "name": "Vinit Rai", "number": 8, "position": "CM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_014_08", "name": "Khaiminthang Lhungdim", "number": 12, "position": "CAM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_014_09", "name": "Diego Raposo", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_in1_014_10", "name": "Alfred Planas", "number": 7, "position": "LW", "country": "ES", "status": "starter"},
+      {"playerId": "player_in1_014_11", "name": "Raphaël Messi Bouli", "number": 9, "position": "ST", "country": "CM", "status": "starter"},
 
-  "name": "Punjab FC",
+      {"playerId": "player_in1_014_12", "name": "Muheet Shabir", "number": 78, "position": "GK", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_014_13", "name": "Karish Soram", "number": 15, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_014_14", "name": "Mohammed Sohel Khan", "number": 22, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_014_15", "name": "Bishu Sharma", "number": 27, "position": "LB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_014_16", "name": "Rishikanta Meitei", "number": 18, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_014_17", "name": "Arshvir Singh", "number": 20, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_014_18", "name": "Mohammad Inam", "number": 10, "position": "CAM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_014_19", "name": "Muhammad Suhail", "number": 17, "position": "ST", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_014_20", "name": "Konsam Sanathoi Singh", "number": 33, "position": "RW", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_014_21", "name": "Bikash Singh Sagolsem", "number": 23, "position": "LW", "country": "IN", "status": "bench"},
 
-  "logo": "assets/logos/asia/india/Punjab.png",
-
-  "stadium": {
-    "name": "Jawaharlal Nehru Stadium Delhi",
-    "capacity": 60254
+      {"playerId": "player_in1_014_22", "name": "Ayush Deshwal", "number": 37, "position": "GK", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_014_23", "name": "Manglenthang Kipgen", "number": 19, "position": "CM", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_014_24", "name": "Vishal Yadav", "number": 14, "position": "ST", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_014_25", "name": "Gurkirat Singh", "number": 29, "position": "ST", "country": "IN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
