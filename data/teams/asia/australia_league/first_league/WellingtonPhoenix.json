@@ -1,12 +1,52 @@
-{
-  "teamKey": "Wellng",
+ {
+    "teamKey": "Wellng",
+    "name": "Wellington Phoenix",
+    "logo": "assets/logos/asia/australia/Phoenix.png",
+    "manager": {
+      "name": "Chris Greenacre",
+      "country": "GB-ENG"
+    },
+    "stadium": {
+      "name": "Hnry Stadium",
+      "capacity": 34500
+    },
+    "players": [
+      {"playerId": "player_au1_012_01", "name": "Henry Gray", "number": 13, "position": "GK", "country": "NZ", "status": "starter"},
+      {"playerId": "player_au1_012_02", "name": "Matthew Sheridan", "number": 27, "position": "RB", "country": "NZ", "status": "starter"},
+      {"playerId": "player_au1_012_03", "name": "Bill Tuiloma", "number": 28, "position": "CB", "country": "NZ", "status": "starter"},
+      {"playerId": "player_au1_012_04", "name": "Isaac Hughes", "number": 15, "position": "CB", "country": "NZ", "status": "starter"},
+      {"playerId": "player_au1_012_05", "name": "Walter Scott", "number": 5, "position": "LB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_012_06", "name": "Alex Rufer", "number": 14, "position": "CDM", "country": "NZ", "status": "starter"},
+      {"playerId": "player_au1_012_07", "name": "Max Anderson", "number": 8, "position": "CM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_au1_012_08", "name": "Kazuki Nagasawa", "number": 25, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_au1_012_09", "name": "Bryce Duke", "number": 7, "position": "CAM", "country": "US", "status": "starter"},
+      {"playerId": "player_au1_012_10", "name": "Riley Bidois", "number": 11, "position": "LW", "country": "NZ", "status": "starter"},
+      {"playerId": "player_au1_012_11", "name": "Rafael Durán", "number": 9, "position": "ST", "country": "MX", "status": "starter"},
 
-  "name": "Wellington Phoenix",
+      {"playerId": "player_au1_012_12", "name": "Alby Kelly-Heald", "number": 30, "position": "GK", "country": "NZ", "status": "bench"},
+      {"playerId": "player_au1_012_13", "name": "James McGarry", "number": 23, "position": "LB", "country": "NZ", "status": "bench"},
+      {"playerId": "player_au1_012_14", "name": "Lukas Kelly-Heald", "number": 18, "position": "CB", "country": "NZ", "status": "bench"},
+      {"playerId": "player_au1_012_15", "name": "Xuan Loke", "number": 24, "position": "RB", "country": "NZ", "status": "bench"},
+      {"playerId": "player_au1_012_16", "name": "Jayden Smith", "number": 39, "position": "CB", "country": "NZ", "status": "bench"},
+      {"playerId": "player_au1_012_17", "name": "Fin Roa Conchie", "number": 6, "position": "CM", "country": "NZ", "status": "bench"},
+      {"playerId": "player_au1_012_18", "name": "Anaru Cassidy", "number": 37, "position": "CDM", "country": "NZ", "status": "bench"},
+      {"playerId": "player_au1_012_19", "name": "Corban Piper", "number": 3, "position": "RW", "country": "NZ", "status": "bench"},
+      {"playerId": "player_au1_012_20", "name": "Nathan Walker", "number": 19, "position": "ST", "country": "NZ", "status": "bench"},
+      {"playerId": "player_au1_012_21", "name": "Fletcher Pratt", "number": 48, "position": "CAM", "country": "NZ", "status": "bench"},
 
-  "logo": "assets/logos/asia/australia/Phoenix.png",
-
-  "stadium": {
-    "name": "Hnry Stadium",
-    "capacity": 34500
+      {"playerId": "player_au1_012_22", "name": "Eamonn McCarron", "number": 40, "position": "GK", "country": "NZ", "status": "reserve"},
+      {"playerId": "player_au1_012_23", "name": "Dan Nelson", "number": 46, "position": "CB", "country": "NZ", "status": "reserve"},
+      {"playerId": "player_au1_012_24", "name": "Charlie Hale", "number": 47, "position": "RW", "country": "NZ", "status": "reserve"},
+      {"playerId": "player_au1_012_25", "name": "Willem Des Tombe", "number": 49, "position": "LW", "country": "NZ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 14,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 25,
+        "cornerRight": 7
+      }
+    }
   }
-}
