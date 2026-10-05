@@ -1,12 +1,35 @@
-{
-  "teamKey": "Brunei",
-
-  "name": "DPMM FC",
-
-  "logo": "assets/logos/asia/malaysia/Dpmm.png",
-
-  "stadium": {
-    "name": "Hassanal Bolkiah National Stadium",
-    "capacity": 28000
+ {
+    "teamKey": "Brunei",
+    "name": "DPMM FC",
+    "logo": "assets/logos/asia/malaysia/Dpmm.png",
+    "manager": {"name": "James McAllister", "country": "GB-SCT"},
+    "stadium": {"name": "Hassanal Bolkiah National Stadium", "capacity": 28000},
+    "players": [
+      {"playerId": "player_my1_001_01", "name": "Samuel Somerville", "number": 1, "position": "GK", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_001_02", "name": "Muhammad Toha", "number": 24, "position": "RB", "country": "ID", "status": "starter"},
+      {"playerId": "player_my1_001_03", "name": "Amani Aguinaldo", "number": 5, "position": "CB", "country": "PH", "status": "starter"},
+      {"playerId": "player_my1_001_04", "name": "Clark Robertson", "number": 6, "position": "CB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_my1_001_05", "name": "Tommy Mawat", "number": 3, "position": "LB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_001_06", "name": "Hanif Farhan Azman", "number": 4, "position": "CM", "country": "BN", "status": "starter"},
+      {"playerId": "player_my1_001_07", "name": "Azwan Ali Rahman", "number": 7, "position": "CM", "country": "BN", "status": "starter"},
+      {"playerId": "player_my1_001_08", "name": "Óscar Santis", "number": 18, "position": "RW", "country": "GT", "status": "starter"},
+      {"playerId": "player_my1_001_09", "name": "Miguel Oliveira", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_my1_001_10", "name": "Hakeme Yazid Said", "number": 17, "position": "LW", "country": "BN", "status": "starter"},
+      {"playerId": "player_my1_001_11", "name": "Jordan Murray", "number": 27, "position": "ST", "country": "AU", "status": "starter"},
+      {"playerId": "player_my1_001_12", "name": "Haimie Nyaring", "number": 12, "position": "GK", "country": "BN", "status": "bench"},
+      {"playerId": "player_my1_001_13", "name": "Ebenezer Abban", "number": 30, "position": "CB", "country": "GH", "status": "bench"},
+      {"playerId": "player_my1_001_14", "name": "Yura Indera Putera", "number": 23, "position": "CB", "country": "BN", "status": "bench"},
+      {"playerId": "player_my1_001_15", "name": "Nicholas Swirad", "number": 33, "position": "CB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_001_16", "name": "Syafiq Safiuddin Shariff", "number": 2, "position": "RB", "country": "BN", "status": "bench"},
+      {"playerId": "player_my1_001_17", "name": "Nazry Aiman", "number": 21, "position": "RB", "country": "BN", "status": "bench"},
+      {"playerId": "player_my1_001_18", "name": "Abdul Hariz", "number": 16, "position": "CM", "country": "BN", "status": "bench"},
+      {"playerId": "player_my1_001_19", "name": "Farris Izdiham", "number": 29, "position": "LW", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_001_20", "name": "Nazirrudin Ismail", "number": 22, "position": "LW", "country": "BN", "status": "bench"},
+      {"playerId": "player_my1_001_21", "name": "Danial Asri", "number": 9, "position": "RW", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_001_22", "name": "Ishyra Asmin", "number": 25, "position": "GK", "country": "BN", "status": "reserve"},
+      {"playerId": "player_my1_001_23", "name": "Martin Haddy", "number": 14, "position": "RB", "country": "BN", "status": "reserve"},
+      {"playerId": "player_my1_001_24", "name": "Faturrahman Embran", "number": 8, "position": "RW", "country": "BN", "status": "reserve"},
+      {"playerId": "player_my1_001_25", "name": "Dalberto", "number": 94, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 5, "setPieces": {"penalty": 27, "freeKick": 10, "cornerLeft": 17, "cornerRight": 18}}
   }
-}
