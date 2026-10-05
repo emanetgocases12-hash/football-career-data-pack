@@ -1,12 +1,52 @@
 {
-  "teamKey": "Babak",
-
-  "name": "Mes Shahr-e Babak",
-
-  "logo": "assets/logos/asia/iran/Babak.png",
-
-  "stadium": {
-    "name": "Shohada Mes Shahrbabak Stadium",
-    "capacity": 3000
+    "teamKey": "Babak",
+    "name": "Mes Shahr-e Babak",
+    "logo": "assets/logos/asia/iran/Babak.png",
+    "manager": {
+      "name": "Ghasem Shahba",
+      "country": "IR"
+    },
+    "stadium": {
+      "name": "Shohada Mes Shahrbabak Stadium",
+      "capacity": 3000
+    },
+    "players": [
+      {"playerId": "player_ir1_002_01", "name": "Mohammadreza Ghavidel", "number": 1, "position": "GK", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_002_02", "name": "Mohsen Sefid Choghaei", "number": 2, "position": "RB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_002_03", "name": "Mohammad Azhir", "number": 4, "position": "CB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_002_04", "name": "Fariborz Gerami", "number": 5, "position": "CB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_002_05", "name": "Omid Sam Kan", "number": 3, "position": "LB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_002_06", "name": "Sajjad Jafari", "number": 7, "position": "RM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_002_07", "name": "Zobeir Niknafs", "number": 8, "position": "CM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_002_08", "name": "Alireza Enayatzadeh", "number": 6, "position": "CM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_002_09", "name": "Mohammad Javad Poureyvaz", "number": 11, "position": "LM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_002_10", "name": "Amir Roustaei", "number": 9, "position": "ST", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_002_11", "name": "Alireza Valizadeh", "number": 10, "position": "ST", "country": "IR", "status": "starter"},
+  
+      {"playerId": "player_ir1_002_12", "name": "Davoud Noushi Soufiani", "number": 12, "position": "GK", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_002_13", "name": "Akbar Karbalaei", "number": 15, "position": "CB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_002_14", "name": "Mehdi Mohammadi", "number": 16, "position": "RB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_002_15", "name": "Mohsen Tarhani", "number": 17, "position": "LB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_002_16", "name": "Seyed Kazem Rahmani", "number": 18, "position": "CB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_002_17", "name": "Sadegh Rezania", "number": 20, "position": "CM", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_002_18", "name": "Mohammad Reza Firouzizadeh", "number": 21, "position": "CAM", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_002_19", "name": "Peyman Namvar", "number": 22, "position": "CDM", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_002_20", "name": "Homayoun Eftekhari", "number": 19, "position": "ST", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_002_21", "name": "Reza Khani", "number": 23, "position": "RW", "country": "IR", "status": "bench"},
+  
+      {"playerId": "player_ir1_002_22", "name": "Ali Rahimi Barfe", "number": 30, "position": "GK", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_002_23", "name": "Saman Mehrabi Zadeh", "number": 24, "position": "ST", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_002_24", "name": "Sajjad Abdoei", "number": 25, "position": "LW", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_002_25", "name": "Amirhossein Nabiyan", "number": 26, "position": "ST", "country": "IR", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-4-2",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
