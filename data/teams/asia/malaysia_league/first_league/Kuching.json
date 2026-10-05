@@ -1,12 +1,35 @@
 {
-  "teamKey": "Kuchng",
-
-  "name": "Kuching City FC",
-
-  "logo": "assets/logos/asia/malaysia/Kuching.png",
-
-  "stadium": {
-    "name": "Taha Arifin Stadium",
-    "capacity": 26000
+    "teamKey": "Kuchng",
+    "name": "Kuching City FC",
+    "logo": "assets/logos/asia/malaysia/Kuching.png",
+    "manager": {"name": "Aidil Sharin Sahak", "country": "SG"},
+    "stadium": {"name": "Taha Arifin Stadium", "capacity": 26000},
+    "players": [
+      {"playerId": "player_my1_005_01", "name": "Haziq Nadzli", "number": 20, "position": "GK", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_005_02", "name": "Ariff Farhan Isa", "number": 23, "position": "RB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_005_03", "name": "Gabriel Peres", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_my1_005_04", "name": "James Okwuosa", "number": 6, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_my1_005_05", "name": "Arif Fadzilah", "number": 3, "position": "LB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_005_06", "name": "Petrus Shitembi", "number": 10, "position": "CM", "country": "NA", "status": "starter"},
+      {"playerId": "player_my1_005_07", "name": "Kaishu Yamazaki", "number": 88, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_my1_005_08", "name": "Safawi Rasid", "number": 29, "position": "RW", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_005_09", "name": "Ahmad Israiwah", "number": 99, "position": "CAM", "country": "JO", "status": "starter"},
+      {"playerId": "player_my1_005_10", "name": "Jerome Mpacko Etame", "number": 11, "position": "LW", "country": "CM", "status": "starter"},
+      {"playerId": "player_my1_005_11", "name": "Ajdin Mujagić", "number": 24, "position": "ST", "country": "BA", "status": "starter"},
+      {"playerId": "player_my1_005_12", "name": "Shahril Saari", "number": 55, "position": "GK", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_005_13", "name": "Yuki Tanigawa", "number": 77, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_my1_005_14", "name": "Jimmy Raymond", "number": 2, "position": "RB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_005_15", "name": "Gabriel Palmero", "number": 15, "position": "LB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_005_16", "name": "Declan Lambert", "number": 5, "position": "LB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_005_17", "name": "Alif Hassan", "number": 44, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_005_18", "name": "Zharmien Ashraf", "number": 14, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_005_19", "name": "Wesley Azcang Milkias", "number": 17, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_005_20", "name": "Nazmi Faiz Mansor", "number": 8, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_005_21", "name": "Ramadhan Saifullah", "number": 7, "position": "LW", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_005_22", "name": "Wan Muhammad Azraie", "number": 86, "position": "GK", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_005_23", "name": "Diego Baggio", "number": 50, "position": "CM", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_005_24", "name": "Ronald Ngah", "number": 18, "position": "ST", "country": "CM", "status": "reserve"},
+      {"playerId": "player_my1_005_25", "name": "João Pedro", "number": 22, "position": "ST", "country": "TL", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 4, "setPieces": {"penalty": 24, "freeKick": 99, "cornerLeft": 11, "cornerRight": 29}}
   }
-}
