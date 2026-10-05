@@ -1,12 +1,44 @@
 {
-  "teamKey": "Chengd",
-
-  "name": "Chengdu Rongcheng FC",
-
-  "logo": "assets/logos/asia/china/Chengdu.png",
-
-  "stadium": {
-    "name": "Phoenix Hill Football Stadium",
-    "capacity": 50695
+    "teamKey": "Chengd",
+    "name": "Chengdu Rongcheng FC",
+    "logo": "assets/logos/asia/china/Chengdu.png",
+    "manager": {"name": "John Aloisi", "country": "AU"},
+    "stadium": {"name": "Phoenix Hill Football Stadium", "capacity": 50695},
+    "players": [
+      {"playerId": "player_cn1_002_01", "name": "Liu Dianzuo", "number": 32, "position": "GK", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_002_02", "name": "Hu Hetao", "number": 2, "position": "RB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_002_03", "name": "Christian Alexander Jojo", "number": 3, "position": "CB", "country": "HK", "status": "starter"},
+      {"playerId": "player_cn1_002_04", "name": "Egor Sorokin", "number": 28, "position": "CB", "country": "RU", "status": "starter"},
+      {"playerId": "player_cn1_002_05", "name": "Li Yang", "number": 22, "position": "LB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_002_06", "name": "Jussa", "number": 5, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_002_07", "name": "Yang Ming-Yang", "number": 16, "position": "CM", "country": "CH", "status": "starter"},
+      {"playerId": "player_cn1_002_08", "name": "Wellington Alves da Silva", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_002_09", "name": "Rômulo", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_002_10", "name": "Wei Shihao", "number": 7, "position": "LW", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_002_11", "name": "Felipe Silva", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_002_12", "name": "Tao Jian", "number": 1, "position": "GK", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_002_13", "name": "He Yiran", "number": 4, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_002_14", "name": "Han Pengfei", "number": 18, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_002_15", "name": "Wang Dongsheng", "number": 17, "position": "RB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_002_16", "name": "Liao Lisheng", "number": 23, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_002_17", "name": "Murahmetjan Muzepper", "number": 25, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_002_18", "name": "Gan Chao", "number": 39, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_002_19", "name": "Mutellip Iminqari", "number": 29, "position": "RW", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_002_20", "name": "Wang Ziming", "number": 20, "position": "ST", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_002_21", "name": "Behram Abduweli", "number": 27, "position": "ST", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_002_22", "name": "Ran Weifeng", "number": 15, "position": "GK", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_002_23", "name": "Tang Chuang", "number": 24, "position": "ST", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_002_24", "name": "Issa Kallon", "number": 47, "position": "RW", "country": "SL", "status": "reserve"},
+      {"playerId": "player_cn1_002_25", "name": "Liao Rongxiang", "number": 58, "position": "CM", "country": "CN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
