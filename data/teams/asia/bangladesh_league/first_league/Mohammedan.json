@@ -1,12 +1,52 @@
-{
-  "teamKey": "Moh Sc",
+ {
+    "teamKey": "Moh Sc",
+    "name": "Mohammedan SC",
+    "logo": "assets/logos/asia/bangladesh/MohSc.png",
+    "manager": {
+      "name": "Fernando Santiago Varela",
+      "country": "AR"
+    },
+    "stadium": {
+      "name": "Shaheed Dhirendranath Datta Stadium",
+      "capacity": 18000
+    },
+    "players": [
+      {"playerId": "player_bd1_010_01", "name": "Sujon Hossain", "number": 1, "position": "GK", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_010_02", "name": "Rahmat Mia", "number": 3, "position": "RB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_010_03", "name": "Emmanuel Tony Agbaji", "number": 5, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_bd1_010_04", "name": "Shakil Ahad Topu", "number": 2, "position": "CB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_010_05", "name": "Saad Uddin", "number": 22, "position": "LB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_010_06", "name": "Sohel Rana", "number": 6, "position": "CDM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_010_07", "name": "Muzaffar Muzaffarov", "number": 17, "position": "CM", "country": "UZ", "status": "starter"},
+      {"playerId": "player_bd1_010_08", "name": "Mojibur Rahman Jony", "number": 24, "position": "CM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_010_09", "name": "Shahriar Emon", "number": 99, "position": "RW", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_010_10", "name": "Souleymane Diabate", "number": 10, "position": "ST", "country": "ML", "status": "starter"},
+      {"playerId": "player_bd1_010_11", "name": "Foysal Ahmed Fahim", "number": 11, "position": "LW", "country": "BD", "status": "starter"},
 
-  "name": "Mohammedan SC",
+      {"playerId": "player_bd1_010_12", "name": "Ahsan Habib Bipu", "number": 13, "position": "GK", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_010_13", "name": "Jahid Hasan Shanto", "number": 33, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_010_14", "name": "Ismail Hossain", "number": 4, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_010_15", "name": "Azizul Haque Ananto", "number": 15, "position": "LB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_010_16", "name": "Minhajul Abedin Ballu", "number": 7, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_010_17", "name": "Mehedi Hasan Royal", "number": 8, "position": "CAM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_010_18", "name": "Rahim Uddin", "number": 9, "position": "ST", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_010_19", "name": "Jewel Mia", "number": 18, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_010_20", "name": "Safiul Hossain", "number": 20, "position": "RM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_010_21", "name": "Emmanuel Sunday", "number": 37, "position": "ST", "country": "NG", "status": "bench"},
 
-  "logo": "assets/logos/asia/bangladesh/MohSc.png",
-
-  "stadium": {
-    "name": "Shaheed Dhirendranath Datta Stadium",
-    "capacity": 18000
+      {"playerId": "player_bd1_010_22", "name": "Anisur Rahman Zico", "number": 23, "position": "GK", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_010_23", "name": "Rimon Hossain", "number": 71, "position": "LB", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_010_24", "name": "Amir Hakim Bappy", "number": 16, "position": "CM", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_010_25", "name": "Joy Ahmed", "number": 12, "position": "RW", "country": "BD", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 17,
+        "cornerLeft": 11,
+        "cornerRight": 99
+      }
+    }
   }
-}
