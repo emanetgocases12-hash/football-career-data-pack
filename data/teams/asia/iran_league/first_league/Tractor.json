@@ -1,12 +1,52 @@
-{
-  "teamKey": "Tractr",
-
-  "name": "Tractor SC",
-
-  "logo": "assets/logos/asia/iran/Tractor.png",
-
-  "stadium": {
-    "name": "Yadegar-e-Emam Stadium",
-    "capacity": 66833
+ {
+    "teamKey": "Tractr",
+    "name": "Tractor SC",
+    "logo": "assets/logos/asia/iran/Tractor.png",
+    "manager": {
+      "name": "Javad Nekounam",
+      "country": "IR"
+    },
+    "stadium": {
+      "name": "Yadegar-e-Emam Stadium",
+      "capacity": 66833
+    },
+    "players": [
+      {"playerId": "player_ir1_017_01", "name": "Alireza Beiranvand", "number": 1, "position": "GK", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_017_02", "name": "Danial Esmaeilifar", "number": 11, "position": "RB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_017_03", "name": "Shoja Khalilzadeh", "number": 3, "position": "CB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_017_04", "name": "Mohammad Daneshgar", "number": 4, "position": "CB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_017_05", "name": "Mohammad Naderi", "number": 22, "position": "LB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_017_06", "name": "Mehdi Torabi", "number": 9, "position": "RM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_017_07", "name": "Odiljon Xamrobekov", "number": 6, "position": "CM", "country": "UZ", "status": "starter"},
+      {"playerId": "player_ir1_017_08", "name": "Tibor Halilovic", "number": 8, "position": "CM", "country": "HR", "status": "starter"},
+      {"playerId": "player_ir1_017_09", "name": "Amirhossein Hosseinzadeh", "number": 10, "position": "LM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_017_10", "name": "Shahriyar Moghanloo", "number": 7, "position": "ST", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_017_11", "name": "Tomislav Strkalj", "number": 19, "position": "ST", "country": "HR", "status": "starter"},
+  
+      {"playerId": "player_ir1_017_12", "name": "Parsa Jafari", "number": 12, "position": "GK", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_017_13", "name": "Sadegh Moharrami", "number": 2, "position": "RB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_017_14", "name": "Milad Zakipour", "number": 18, "position": "LB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_017_15", "name": "Farshad Faraji", "number": 14, "position": "CB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_017_16", "name": "Mehdi Shiri", "number": 17, "position": "RB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_017_17", "name": "Igor Postonjski", "number": 5, "position": "CM", "country": "HR", "status": "bench"},
+      {"playerId": "player_ir1_017_18", "name": "Seyed Mehdi Hosseini", "number": 23, "position": "CM", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_017_19", "name": "Mehdi Hasheminejad", "number": 20, "position": "RW", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_017_20", "name": "Saeid Karimazar", "number": 90, "position": "CB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_017_21", "name": "Amirali Khorrami", "number": 25, "position": "ST", "country": "IR", "status": "bench"},
+  
+      {"playerId": "player_ir1_017_22", "name": "Yasin Zare", "number": 32, "position": "GK", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_017_23", "name": "Masoud Kazemayni", "number": 71, "position": "ST", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_017_24", "name": "Ali Samarivafa", "number": 21, "position": "CM", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_017_25", "name": "Hadi Habibnezhad", "number": 77, "position": "LW", "country": "IR", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-4-2",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 9,
+        "cornerLeft": 9,
+        "cornerRight": 10
+      }
+    }
   }
-}
