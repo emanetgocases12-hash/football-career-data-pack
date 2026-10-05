@@ -1,12 +1,50 @@
 {
-  "teamKey": "Uthai T",
-
-  "name": "Uthai Thani FC",
-
-  "logo": "assets/logos/asia/tailand/Uthai.png",
-
-  "stadium": {
-    "name": "Uthai Thani Province Stadium",
-    "capacity": 5500
+    "teamKey": "Uthai T",
+    "name": "Uthai Thani FC",
+    "logo": "assets/logos/asia/tailand/Uthai.png",
+    "manager": {
+      "name": "Alexandre Gama",
+      "country": "BR"
+    },
+    "stadium": {
+      "name": "Uthai Thani Province Stadium",
+      "capacity": 5500
+    },
+    "players": [
+      {"playerId": "player_th1_016_01", "name": "Caíque", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_016_02", "name": "James Beresford", "number": 4, "position": "RB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_016_03", "name": "Martin Angha", "number": 2, "position": "CB", "country": "CH", "status": "starter"},
+      {"playerId": "player_th1_016_04", "name": "Wattana Playnum", "number": 19, "position": "CB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_016_05", "name": "Thitathorn Auksornsri", "number": 65, "position": "LB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_016_06", "name": "Saharat Pongsuwan", "number": 6, "position": "CDM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_016_07", "name": "Sumanya Purisay", "number": 8, "position": "CM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_016_08", "name": "Ricardo Santos", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_016_09", "name": "Jakkrit Palapon", "number": 7, "position": "RW", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_016_10", "name": "Chayawat Srinawong", "number": 11, "position": "LW", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_016_11", "name": "Ricardo Lopes", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_016_12", "name": "Chirawat Wangthaphan", "number": 26, "position": "GK", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_016_13", "name": "Chommaphat Boonloet", "number": 31, "position": "GK", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_016_14", "name": "Charalampos Charalampous", "number": 3, "position": "LB", "country": "CY", "status": "bench"},
+      {"playerId": "player_th1_016_15", "name": "Brinner Henrique", "number": 5, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_th1_016_16", "name": "Sittichok Kannoo", "number": 14, "position": "RW", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_016_17", "name": "Nattapong Sai-ngam", "number": 15, "position": "CM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_016_18", "name": "Worachit Kanitsribampen", "number": 18, "position": "CM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_016_19", "name": "Ben Davis", "number": 20, "position": "CAM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_016_20", "name": "Adisak Kraisorn", "number": 22, "position": "ST", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_016_21", "name": "Saharat Kanyaroj", "number": 23, "position": "CM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_016_22", "name": "Boonyakait Wongsajaem", "number": 32, "position": "GK", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_016_23", "name": "Suphanat Chaiprapha", "number": 24, "position": "ST", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_016_24", "name": "Kittipong Wongma", "number": 27, "position": "RW", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_016_25", "name": "Thanawat Suengchitthawon", "number": 28, "position": "CM", "country": "TH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
