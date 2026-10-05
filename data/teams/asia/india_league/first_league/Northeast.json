@@ -1,12 +1,52 @@
 {
-  "teamKey": "NorthE",
+    "teamKey": "NorthE",
+    "name": "NorthEast United Football Club",
+    "logo": "assets/logos/asia/india/Northeast.png",
+    "manager": {
+      "name": "Juan Pedro Benali",
+      "country": "ES"
+    },
+    "stadium": {
+      "name": "Jawaharlal Nehru Stadium Shillong",
+      "capacity": 30000
+    },
+    "players": [
+      {"playerId": "player_in1_012_01", "name": "Dipesh Chauhan", "number": 20, "position": "GK", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_012_02", "name": "Asheer Akhtar", "number": 12, "position": "RB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_012_03", "name": "Dinesh Singh", "number": 2, "position": "CB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_012_04", "name": "Shubham Poonia", "number": 5, "position": "CB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_012_05", "name": "Tondonba Singh", "number": 3, "position": "LB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_012_06", "name": "Macarton Nickson", "number": 15, "position": "CDM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_012_07", "name": "Fredy Chawngthansanga", "number": 66, "position": "CM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_012_08", "name": "Nikola Ninković", "number": 10, "position": "CAM", "country": "RS", "status": "starter"},
+      {"playerId": "player_in1_012_09", "name": "Jithin MS", "number": 80, "position": "RW", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_012_10", "name": "Ethyan González", "number": 7, "position": "LW", "country": "ES", "status": "starter"},
+      {"playerId": "player_in1_012_11", "name": "Alaaeddine Ajaraie", "number": 14, "position": "ST", "country": "MA", "status": "starter"},
 
-  "name": "NorthEast United Football Club",
+      {"playerId": "player_in1_012_12", "name": "Gurmeet Singh", "number": 1, "position": "GK", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_012_13", "name": "Mukul Panwar", "number": 27, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_012_14", "name": "Robin Yadav", "number": 17, "position": "RB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_012_15", "name": "Buanthanglun Samte", "number": 77, "position": "LB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_012_16", "name": "Lalbiakdika Vanlalvunga", "number": 24, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_012_17", "name": "Thoi Singh Huidrom", "number": 19, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_012_18", "name": "Redeem Tlang", "number": 22, "position": "RW", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_012_19", "name": "Lalrinzuala Lalbiaknia", "number": 21, "position": "ST", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_012_20", "name": "Antonio Moyano", "number": 8, "position": "CM", "country": "ES", "status": "bench"},
+      {"playerId": "player_in1_012_21", "name": "Eneko Satrústegui", "number": 6, "position": "CB", "country": "ES", "status": "bench"},
 
-  "logo": "assets/logos/asia/india/Northeast.png",
-
-  "stadium": {
-    "name": "Jawaharlal Nehru Stadium Shillong",
-    "capacity": 30000
+      {"playerId": "player_in1_012_22", "name": "Arman Tamang", "number": 35, "position": "GK", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_012_23", "name": "Mohammed Arshaf", "number": 29, "position": "CB", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_012_24", "name": "Danny Meitei", "number": 30, "position": "CAM", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_012_25", "name": "Bekey Oram", "number": 23, "position": "LW", "country": "IN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 14,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 80
+      }
+    }
   }
-}
