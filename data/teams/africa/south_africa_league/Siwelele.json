@@ -1,12 +1,52 @@
 {
   "teamKey": "Siwele",
-
   "name": "Siwelele FC",
-
   "logo": "assets/logos/africa/south_africa/Siwele.png",
-
+  "manager": {
+    "name": "Lehlohonolo Seema",
+    "country": "LS"
+  },
   "stadium": {
     "name": "Dr Petrus Molemela Stadium",
     "capacity": 22000
+  },
+  "players": [
+    {"playerId": "player_za1_014_01", "name": "J. February", "number": 1, "position": "GK", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_014_02", "name": "Y. Mfolozi", "number": 2, "position": "RB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_014_03", "name": "T. Sesane", "number": 4, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_014_04", "name": "K. Khonyane", "number": 5, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_014_05", "name": "A. Baliti", "number": 29, "position": "LB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_014_06", "name": "S. Rasebotja", "number": 6, "position": "CDM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_014_07", "name": "Grant Margeman", "number": 23, "position": "CM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_014_08", "name": "M. Pule", "number": 10, "position": "RW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_014_09", "name": "T. Letshedi", "number": 36, "position": "CAM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_014_10", "name": "S. Jeza", "number": 17, "position": "LW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_014_11", "name": "C. Saile", "number": 11, "position": "ST", "country": "CD", "status": "starter"},
+
+    {"playerId": "player_za1_014_12", "name": "Rorisang Mpoza", "number": 16, "position": "GK", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_014_13", "name": "B. Baloyi", "number": 14, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_014_14", "name": "K. Lekalakala", "number": 42, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_014_15", "name": "K. Lupalule", "number": 22, "position": "LB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_014_16", "name": "N. Mokhachane", "number": 7, "position": "CM", "country": "LS", "status": "bench"},
+    {"playerId": "player_za1_014_17", "name": "R. Mokhuoane", "number": 8, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_014_18", "name": "S. Luthuli", "number": 18, "position": "CAM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_014_19", "name": "M. N'Guessan", "number": 28, "position": "LW", "country": "CI", "status": "bench"},
+    {"playerId": "player_za1_014_20", "name": "H. Issah", "number": 19, "position": "ST", "country": "GH", "status": "bench"},
+    {"playerId": "player_za1_014_21", "name": "Z. Lepasa", "number": 40, "position": "ST", "country": "ZA", "status": "bench"},
+
+    {"playerId": "player_za1_014_22", "name": "Samukelo Xulu", "number": 30, "position": "GK", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_014_23", "name": "B. Sabre", "number": 21, "position": "CM", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_014_24", "name": "J. Clifford", "number": 70, "position": "ST", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_014_25", "name": "W. Lekay", "number": 99, "position": "ST", "country": "ZA", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 36
+    }
   }
 }
