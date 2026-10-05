@@ -1,12 +1,52 @@
 {
   "teamKey": "K Chfs",
-
   "name": "Kaizer Chiefs",
-
   "logo": "assets/logos/africa/south_africa/KChfs.png",
-
+  "manager": {
+    "name": "Fernando Da Cruz",
+    "country": "FR"
+  },
   "stadium": {
     "name": "FNB Stadium",
     "capacity": 94736
+  },
+  "players": [
+    {"playerId": "player_za1_005_01", "name": "Bruce Bvuma", "number": 44, "position": "GK", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_005_02", "name": "Thabiso Monyane", "number": 2, "position": "RB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_005_03", "name": "Inácio Miguel", "number": 84, "position": "CB", "country": "AO", "status": "starter"},
+    {"playerId": "player_za1_005_04", "name": "Rushwin Dortley", "number": 14, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_005_05", "name": "Reeve Frosler", "number": 39, "position": "LB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_005_06", "name": "Sibongiseni Mthethwa", "number": 5, "position": "CDM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_005_07", "name": "Siphesihle Ndlovu", "number": 8, "position": "CM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_005_08", "name": "Mduduzi Shabalala", "number": 7, "position": "RW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_005_09", "name": "Nkosingiphile Ngcobo", "number": 12, "position": "CAM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_005_10", "name": "Pule Mmodi", "number": 13, "position": "LW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_005_11", "name": "Khanyisa Mayo", "number": 20, "position": "ST", "country": "ZA", "status": "starter"},
+
+    {"playerId": "player_za1_005_12", "name": "Brandon Petersen", "number": 1, "position": "GK", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_005_13", "name": "Zitha Kwinika", "number": 4, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_005_14", "name": "Thabo Moloisane", "number": 42, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_005_15", "name": "Dillan Solomons", "number": 18, "position": "RB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_005_16", "name": "Bradley Cross", "number": 48, "position": "LB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_005_17", "name": "Ethan Chislett", "number": 23, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_005_18", "name": "Mfundo Vilakazi", "number": 28, "position": "CAM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_005_19", "name": "Asanele Velebayi", "number": 17, "position": "LW", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_005_20", "name": "Lebohang Maboe", "number": 6, "position": "RW", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_005_21", "name": "Etiosa Ighodaro", "number": 50, "position": "ST", "country": "NG", "status": "bench"},
+
+    {"playerId": "player_za1_005_22", "name": "Takalani Mazhamba", "number": 41, "position": "GK", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_005_23", "name": "Flavio Silva", "number": 77, "position": "ST", "country": "GW", "status": "reserve"},
+    {"playerId": "player_za1_005_24", "name": "Glody Lilepo", "number": 99, "position": "LW", "country": "CD", "status": "reserve"},
+    {"playerId": "player_za1_005_25", "name": "Wandile Duba", "number": 47, "position": "ST", "country": "ZA", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 44,
+    "setPieces": {
+      "penalty": 20,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 12
+    }
   }
 }
