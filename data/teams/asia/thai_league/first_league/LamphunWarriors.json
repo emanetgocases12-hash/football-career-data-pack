@@ -1,12 +1,50 @@
 {
-  "teamKey": "L'Warri",
-
-  "name": "Lamphun Warriors",
-
-  "logo": "assets/logos/asia/tailand/Lamphun.png",
-
-  "stadium": {
-    "name": "Lamphun Warriors Stadium",
-    "capacity": 5179
+    "teamKey": "L'Warri",
+    "name": "Lamphun Warriors",
+    "logo": "assets/logos/asia/tailand/Lamphun.png",
+    "manager": {
+      "name": "Dennis Amato",
+      "country": "DE"
+    },
+    "stadium": {
+      "name": "Lamphun Warriors Stadium",
+      "capacity": 5179
+    },
+    "players": [
+      {"playerId": "player_th1_006_01", "name": "Nont Muangngam", "number": 20, "position": "GK", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_006_02", "name": "Dominik Schad", "number": 7, "position": "RB", "country": "DE", "status": "starter"},
+      {"playerId": "player_th1_006_03", "name": "Charlie Clough", "number": 23, "position": "CB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_th1_006_04", "name": "Jonas Schwabe", "number": 4, "position": "CB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_006_05", "name": "Wittaya Moonwong", "number": 2, "position": "LB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_006_06", "name": "Ralph", "number": 17, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_006_07", "name": "Baworn Tapla", "number": 32, "position": "CM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_006_08", "name": "Mohammed Osman", "number": 14, "position": "CAM", "country": "SY", "status": "starter"},
+      {"playerId": "player_th1_006_09", "name": "Surat Suriyachai", "number": 25, "position": "RW", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_006_10", "name": "Tawan Khotrsupho", "number": 19, "position": "LW", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_006_11", "name": "Rodrigo Maranhão", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_006_12", "name": "Kwanchai Suklom", "number": 26, "position": "GK", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_006_13", "name": "Anuyut Mudlem", "number": 5, "position": "CB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_006_14", "name": "Suriya Singmui", "number": 30, "position": "LB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_006_15", "name": "Nuttee Noiwilai", "number": 27, "position": "RB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_006_16", "name": "Tanakorn Navanich", "number": 15, "position": "RB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_006_17", "name": "Akarapong Pumwisat", "number": 8, "position": "CM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_006_18", "name": "Osman Sow", "number": 11, "position": "ST", "country": "SE", "status": "bench"},
+      {"playerId": "player_th1_006_19", "name": "Jeffren Suarez", "number": 10, "position": "RW", "country": "VE", "status": "bench"},
+      {"playerId": "player_th1_006_20", "name": "Charyl Chappuis", "number": 6, "position": "CM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_006_21", "name": "Anan Yodsangwal", "number": 22, "position": "LW", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_006_22", "name": "Saharat Posri", "number": 31, "position": "GK", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_006_23", "name": "Aung Thu", "number": 77, "position": "ST", "country": "MM", "status": "reserve"},
+      {"playerId": "player_th1_006_24", "name": "Nattawut Munsuwan", "number": 18, "position": "ST", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_006_25", "name": "Kawin Thamsatchanan", "number": 1, "position": "GK", "country": "TH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 20,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 14,
+        "cornerLeft": 14,
+        "cornerRight": 19
+      }
+    }
   }
-}
