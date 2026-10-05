@@ -1,12 +1,44 @@
 {
-  "teamKey": "Taishn",
-
-  "name": "Shandong Taishan FC",
-
-  "logo": "assets/logos/asia/china/Taishan.png",
-
-  "stadium": {
-    "name": "Jinan Olympic Sports Center Stadium",
-    "capacity": 56808
+    "teamKey": "Taishn",
+    "name": "Shandong Taishan FC",
+    "logo": "assets/logos/asia/china/Taishan.png",
+    "manager": {"name": "Tang Tian", "country": "CN"},
+    "stadium": {"name": "Jinan Olympic Sports Center Stadium", "capacity": 56808},
+    "players": [
+      {"playerId": "player_cn1_011_01", "name": "Wang Dalei", "number": 14, "position": "GK", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_011_02", "name": "Wang Tong", "number": 6, "position": "RB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_011_03", "name": "Pedro Álvaro", "number": 23, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_cn1_011_04", "name": "Zheng Zheng", "number": 5, "position": "CB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_011_05", "name": "Liu Yang", "number": 11, "position": "LB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_011_06", "name": "Huang Zhengyu", "number": 35, "position": "CDM", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_011_07", "name": "Li Yuanyi", "number": 22, "position": "CM", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_011_08", "name": "Xie Wenneng", "number": 7, "position": "RW", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_011_09", "name": "Vako Qazaishvili", "number": 10, "position": "CAM", "country": "GE", "status": "starter"},
+      {"playerId": "player_cn1_011_10", "name": "Chen Pu", "number": 29, "position": "LW", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_011_11", "name": "Cryzan", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_011_12", "name": "Yu Jinyong", "number": 1, "position": "GK", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_011_13", "name": "Gao Zhunyi", "number": 33, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_011_14", "name": "Yang Ruiqi", "number": 2, "position": "RB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_011_15", "name": "Shi Songchen", "number": 15, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_011_16", "name": "Guilherme Madruga", "number": 8, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_cn1_011_17", "name": "Chen Zeshi", "number": 37, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_011_18", "name": "Maiwulang Mijiti", "number": 28, "position": "LW", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_011_19", "name": "Zeca", "number": 19, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_cn1_011_20", "name": "Raphael Merkies", "number": 17, "position": "RW", "country": "FR", "status": "bench"},
+      {"playerId": "player_cn1_011_21", "name": "Yang Yang", "number": 42, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_011_22", "name": "Liu Qiwei", "number": 36, "position": "GK", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_011_23", "name": "Qi Qiancheng", "number": 44, "position": "CB", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_011_24", "name": "Wang Haobin", "number": 57, "position": "CM", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_011_25", "name": "Mei Shuaijun", "number": 40, "position": "ST", "country": "CN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 14,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 29
+      }
+    }
   }
-}
