@@ -1,12 +1,58 @@
 {
-  "teamKey": "PSIM",
+    "teamKey": "PSIM",
 
-  "name": "PSIM Yogyakarta",
+    "name": "PSIM Yogyakarta",
 
-  "logo": "assets/logos/asia/indonesia/Psim.png",
+    "logo": "assets/logos/asia/indonesia/Psim.png",
 
-  "stadium": {
-    "name": "Sultan Agung Stadium",
-    "capacity": 25000
+    "manager": {
+      "name": "Jean-Paul van Gastel",
+      "country": "NL"
+    },
+
+    "stadium": {
+      "name": "Sultan Agung Stadium",
+      "capacity": 25000
+    },
+
+    "players": [
+      { "playerId": "player_id1_012_01", "name": "Cahya Supriadi", "number": 19, "position": "GK", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_012_02", "name": "Raka Cahyana", "number": 15, "position": "RB", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_012_03", "name": "Jop van der Avert", "number": 2, "position": "CB", "country": "NL", "status": "starter" },
+      { "playerId": "player_id1_012_04", "name": "Franco Mingo", "number": 5, "position": "CB", "country": "AR", "status": "starter" },
+      { "playerId": "player_id1_012_05", "name": "Alwi Fadilah", "number": 25, "position": "LB", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_012_06", "name": "Adrian Purzycki", "number": 13, "position": "CDM", "country": "PL", "status": "starter" },
+      { "playerId": "player_id1_012_07", "name": "Muhammad Iqbal", "number": 6, "position": "CM", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_012_08", "name": "Marvin Loria", "number": 7, "position": "RW", "country": "CR", "status": "starter" },
+      { "playerId": "player_id1_012_09", "name": "Ze Valente", "number": 10, "position": "CAM", "country": "PT", "status": "starter" },
+      { "playerId": "player_id1_012_10", "name": "Norberto Ezequiel Vidal", "number": 11, "position": "LW", "country": "AR", "status": "starter" },
+      { "playerId": "player_id1_012_11", "name": "Mauro Caballero", "number": 9, "position": "ST", "country": "PY", "status": "starter" },
+
+      { "playerId": "player_id1_012_12", "name": "Harlan Suardi", "number": 26, "position": "GK", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_012_13", "name": "Yusaku Yamadera", "number": 3, "position": "CB", "country": "JP", "status": "bench" },
+      { "playerId": "player_id1_012_14", "name": "Ondrej Rudzan", "number": 24, "position": "CB", "country": "CZ", "status": "bench" },
+      { "playerId": "player_id1_012_15", "name": "Rio Hardiawan", "number": 29, "position": "RB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_012_16", "name": "Savio Sheva", "number": 8, "position": "CM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_012_17", "name": "Ahmad Agung", "number": 52, "position": "CDM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_012_18", "name": "Riyatno Abiyoso", "number": 27, "position": "LW", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_012_19", "name": "Adrian Dalmau", "number": 20, "position": "ST", "country": "ES", "status": "bench" },
+      { "playerId": "player_id1_012_20", "name": "Nermin Haljeta", "number": 99, "position": "ST", "country": "SI", "status": "bench" },
+      { "playerId": "player_id1_012_21", "name": "Andi Irfan", "number": 17, "position": "RW", "country": "ID", "status": "bench" },
+
+      { "playerId": "player_id1_012_22", "name": "Khairul Fikri", "number": 47, "position": "GK", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_012_23", "name": "Ghulam Fatkur", "number": 23, "position": "CM", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_012_24", "name": "Diandra Diaz Dewari", "number": 21, "position": "CM", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_012_25", "name": "Rendra Teddy", "number": 14, "position": "CB", "country": "ID", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
