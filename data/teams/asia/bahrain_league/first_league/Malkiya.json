@@ -1,12 +1,52 @@
 {
-  "teamKey": "Malkia",
-
-  "name": "Malkiya Club",
-
-  "logo": "assets/logos/asia/bahrain/Malkiya.png",
-
-  "stadium": {
-    "name": "Khalifa Sports City Stadium",
-    "capacity": 15000
+    "teamKey": "Malkia",
+    "name": "Malkiya Club",
+    "logo": "assets/logos/asia/bahrain/Malkiya.png",
+    "manager": {
+      "name": "Ahmed Saleh Al Dakheel",
+      "country": "BH"
+    },
+    "stadium": {
+      "name": "Khalifa Sports City Stadium",
+      "capacity": 15000
+    },
+    "players": [
+      {"playerId": "player_bh1_009_01", "name": "Sayed Abbas Jaffer", "number": 1, "position": "GK", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_009_02", "name": "Jassim Mohammed", "number": 2, "position": "RB", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_009_03", "name": "Samuel Sarfo", "number": 4, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_bh1_009_04", "name": "Hasan Isa", "number": 6, "position": "CB", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_009_05", "name": "Ali Jasim", "number": 12, "position": "LB", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_009_06", "name": "Mohamed Merza", "number": 14, "position": "CDM", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_009_07", "name": "Isa Abdul Albari", "number": 7, "position": "CM", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_009_08", "name": "Hasan Ali Helal", "number": 10, "position": "CAM", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_009_09", "name": "Husain Hasan Abdali", "number": 11, "position": "RW", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_009_10", "name": "Mohamed Faleh", "number": 30, "position": "LW", "country": "TN", "status": "starter"},
+      {"playerId": "player_bh1_009_11", "name": "Mohamed Salem Dianos", "number": 9, "position": "ST", "country": "MR", "status": "starter"},
+  
+      {"playerId": "player_bh1_009_12", "name": "Ahmed Muslem Juma", "number": 31, "position": "GK", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_009_13", "name": "Ali Ashoor Mohamed", "number": 13, "position": "CB", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_009_14", "name": "Abdulla Darwish", "number": 15, "position": "CB", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_009_15", "name": "Sayed Mohamed", "number": 24, "position": "LB", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_009_16", "name": "Ahmed Yusuf", "number": 29, "position": "RB", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_009_17", "name": "Nawaf Abdullah", "number": 27, "position": "CM", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_009_18", "name": "Welid Abdurehman Alteyeb", "number": 28, "position": "CM", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_009_19", "name": "Ali Hameed Abdulla", "number": 21, "position": "CAM", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_009_20", "name": "Madaher Ali Hasan", "number": 19, "position": "ST", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_009_21", "name": "Mahmood Matrook", "number": 18, "position": "ST", "country": "BH", "status": "bench"},
+  
+      {"playerId": "player_bh1_009_22", "name": "Hasan Taha", "number": 32, "position": "GK", "country": "BH", "status": "reserve"},
+      {"playerId": "player_bh1_009_23", "name": "Hassan Khamis", "number": 17, "position": "CB", "country": "BH", "status": "reserve"},
+      {"playerId": "player_bh1_009_24", "name": "Lukman Murad", "number": 34, "position": "CM", "country": "SE", "status": "reserve"},
+      {"playerId": "player_bh1_009_25", "name": "Mohammed Darwish", "number": 20, "position": "ST", "country": "BH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 30,
+        "cornerRight": 11
+      }
+    }
   }
-}
