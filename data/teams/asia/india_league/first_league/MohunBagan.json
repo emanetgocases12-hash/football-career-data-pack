@@ -1,12 +1,52 @@
 {
-  "teamKey": "Mohun B",
+    "teamKey": "Mohun B",
+    "name": "Mohun Bagan Super Giant",
+    "logo": "assets/logos/asia/india/Mohun.png",
+    "manager": {
+      "name": "Panagiotis Dilmperis",
+      "country": "GR"
+    },
+    "stadium": {
+      "name": "Vivekananda Yuba Bharati Krirangan",
+      "capacity": 85000
+    },
+    "players": [
+      {"playerId": "player_in1_010_01", "name": "Vishal Kaith", "number": 1, "position": "GK", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_010_02", "name": "Rahul Bheke", "number": 2, "position": "RB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_010_03", "name": "Mehtab Singh", "number": 5, "position": "CB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_010_04", "name": "Alberto Rodríguez", "number": 21, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_in1_010_05", "name": "Subhasish Bose", "number": 15, "position": "LB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_010_06", "name": "Apuia Ralte", "number": 45, "position": "CDM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_010_07", "name": "Anirudh Thapa", "number": 6, "position": "CM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_010_08", "name": "Sahal Abdul Samad", "number": 18, "position": "CAM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_010_09", "name": "Manvir Singh", "number": 11, "position": "RW", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_010_10", "name": "Liston Colaco", "number": 7, "position": "LW", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_010_11", "name": "Jamie Maclaren", "number": 29, "position": "ST", "country": "AU", "status": "starter"},
 
-  "name": "Mohun Bagan Super Giant",
+      {"playerId": "player_in1_010_12", "name": "Syed Zahid", "number": 24, "position": "GK", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_010_13", "name": "Tekcham Abhishek Singh", "number": 27, "position": "LB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_010_14", "name": "Alex Saji", "number": 40, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_010_15", "name": "Asish Rai", "number": 44, "position": "RB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_010_16", "name": "Samir Zeljković", "number": 8, "position": "CDM", "country": "BA", "status": "bench"},
+      {"playerId": "player_in1_010_17", "name": "Miguel Figueira", "number": 10, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_in1_010_18", "name": "Abhishek Suryavanshi", "number": 16, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_010_19", "name": "Lallianzuala Chhangte", "number": 17, "position": "RW", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_010_20", "name": "Dejan Dražić", "number": 71, "position": "LW", "country": "RS", "status": "bench"},
+      {"playerId": "player_in1_010_21", "name": "Suhail Bhat", "number": 72, "position": "ST", "country": "IN", "status": "bench"},
 
-  "logo": "assets/logos/asia/india/Mohun.png",
-
-  "stadium": {
-    "name": "Vivekananda Yuba Bharati Krirangan",
-    "capacity": 85000
+      {"playerId": "player_in1_010_22", "name": "Priyansh Dubey", "number": 31, "position": "GK", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_010_23", "name": "Deepak Tangri", "number": 22, "position": "CDM", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_010_24", "name": "Sayan Banerjee", "number": 14, "position": "LW", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_010_25", "name": "Kiyan Nassiri", "number": 19, "position": "RW", "country": "IN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 15,
+      "setPieces": {
+        "penalty": 29,
+        "freeKick": 18,
+        "cornerLeft": 18,
+        "cornerRight": 7
+      }
+    }
   }
-}
