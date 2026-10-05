@@ -1,12 +1,35 @@
 {
-  "teamKey": "Tadamo",
-
-  "name": "Al-Tadamon Sporting Club",
-
-  "logo": "assets/logos/asia/kuwait/Tadhamon.png",
-
-  "stadium": {
-    "name": "Farwaniya Stadium",
-    "capacity": 14000
+    "teamKey": "Tadamo",
+    "name": "Al-Tadamon Sporting Club",
+    "logo": "assets/logos/asia/kuwait/Tadhamon.png",
+    "manager": {"name": "António Miguel Leal", "country": "PT"},
+    "stadium": {"name": "Farwaniya Stadium", "capacity": 14000},
+    "players": [
+      {"playerId": "player_kw1_012_01", "name": "Abdulrahman Al-Harbi", "number": 1, "position": "GK", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_012_02", "name": "Faisal Al-Shatti", "number": 2, "position": "RB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_012_03", "name": "Zakaryia Souleymane", "number": 3, "position": "CB", "country": "NE", "status": "starter"},
+      {"playerId": "player_kw1_012_04", "name": "Mame Saher Thioune", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_kw1_012_05", "name": "Sultan Al-Faraj", "number": 5, "position": "LB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_012_06", "name": "Ahmed Al-Dali", "number": 6, "position": "CDM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_012_07", "name": "Marlon", "number": 7, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_kw1_012_08", "name": "Aboubacar Doumbia", "number": 8, "position": "CAM", "country": "CI", "status": "starter"},
+      {"playerId": "player_kw1_012_09", "name": "Mohammed Al-Sharif", "number": 9, "position": "ST", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_012_10", "name": "Saud Qassim", "number": 10, "position": "LW", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_012_11", "name": "Hassan Hasoon", "number": 11, "position": "RW", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_012_12", "name": "Dawood Al-Khalidi", "number": 12, "position": "GK", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_012_13", "name": "Talal Al-Ansari", "number": 13, "position": "CM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_012_14", "name": "Abdullah Al-Jazaf", "number": 14, "position": "CB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_012_15", "name": "Omar Al-Rashidi", "number": 15, "position": "RB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_012_16", "name": "Salman Al-Ajmi", "number": 16, "position": "LB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_012_17", "name": "Mohammed Alyan", "number": 17, "position": "CB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_012_18", "name": "Pierre Desiré Zebli", "number": 18, "position": "RM", "country": "CI", "status": "bench"},
+      {"playerId": "player_kw1_012_19", "name": "Turki Al-Yousef", "number": 19, "position": "LM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_012_20", "name": "Othman Al-Failakawi", "number": 20, "position": "CDM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_012_21", "name": "Jonathan Bumbu", "number": 21, "position": "CAM", "country": "CD", "status": "bench"},
+      {"playerId": "player_kw1_012_22", "name": "Abdulaziz Abdeen", "number": 22, "position": "GK", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_012_23", "name": "Dhari Mubarak", "number": 23, "position": "ST", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_012_24", "name": "Hamed Al-Rashidi", "number": 24, "position": "LW", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_012_25", "name": "Okiki Afolabi", "number": 25, "position": "RW", "country": "NG", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 6, "setPieces": {"penalty": 9, "freeKick": 8, "cornerLeft": 10, "cornerRight": 11}}
   }
-}
