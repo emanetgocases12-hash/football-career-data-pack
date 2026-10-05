@@ -1,12 +1,44 @@
 {
-  "teamKey": "Beirut",
-
-  "name": "Racing Club Beirut",
-
-  "logo": "assets/logos/asia/lebanon/Beirut.png",
-
-  "stadium": {
-    "name": "Fouad Chehab Stadium",
-    "capacity": 5000
+    "teamKey": "Beirut",
+    "name": "Racing Club Beirut",
+    "logo": "assets/logos/asia/lebanon/Beirut.png",
+    "manager": {"name": "James Hemaid", "country": "CH"},
+    "stadium": {"name": "Fouad Chehab Stadium", "capacity": 5000},
+    "players": [
+      {"playerId": "player_lb1_005_01", "name": "Omar Idlibi", "number": 1, "position": "GK", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_005_02", "name": "Nicolas Barbari", "number": 2, "position": "RB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_005_03", "name": "Ali Ayoub", "number": 3, "position": "CB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_005_04", "name": "Mohammad Kammouni", "number": 4, "position": "CB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_005_05", "name": "Joe Jean El Ghawi", "number": 5, "position": "LB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_005_06", "name": "Samer Al Jawhari", "number": 6, "position": "CDM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_005_07", "name": "Miguel Karam", "number": 7, "position": "CM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_005_08", "name": "Charbel Feghali", "number": 8, "position": "RW", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_005_09", "name": "Maygen Raad", "number": 9, "position": "CAM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_005_10", "name": "Julien Jamous", "number": 10, "position": "LW", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_005_11", "name": "Adam Kobeissi", "number": 11, "position": "ST", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_005_12", "name": "Hassan Moghnieh", "number": 12, "position": "GK", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_005_13", "name": "Ali El-Akbar Dia", "number": 13, "position": "CB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_005_14", "name": "Fadi Salameh", "number": 14, "position": "CB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_005_15", "name": "Hadi Fayyad", "number": 15, "position": "RB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_005_16", "name": "Georges Melki", "number": 16, "position": "LB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_005_17", "name": "Ali Daher", "number": 17, "position": "CM", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_005_18", "name": "Hussein Zein", "number": 18, "position": "CM", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_005_19", "name": "Mohamad Awada", "number": 19, "position": "RW", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_005_20", "name": "Karim Darwiche", "number": 20, "position": "ST", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_005_21", "name": "Hassan Raad", "number": 21, "position": "LW", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_005_22", "name": "Ali Sabeh", "number": 22, "position": "GK", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_005_23", "name": "Rami Hajj", "number": 23, "position": "CDM", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_005_24", "name": "Tarek Sabra", "number": 24, "position": "CAM", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_005_25", "name": "Hassan Kassem", "number": 25, "position": "ST", "country": "LB", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 9,
+        "cornerLeft": 10,
+        "cornerRight": 8
+      }
+    }
   }
-}
