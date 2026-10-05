@@ -1,12 +1,35 @@
 {
-  "teamKey": "Ramtha",
-
-  "name": "Al Ramtha",
-
-  "logo": "assets/logos/asia/jordan/Ramtha.png",
-
-  "stadium": {
-    "name": "Al Hassan Stadium",
-    "capacity": 12000
+    "teamKey": "Ramtha",
+    "name": "Al Ramtha",
+    "logo": "assets/logos/asia/jordan/Ramtha.png",
+    "manager": {"name": "Zoran Milinkovic", "country": "RS"},
+    "stadium": {"name": "Al Hassan Stadium", "capacity": 12000},
+    "players": [
+      {"playerId": "player_jo1_009_01", "name": "Malek Shalabiya", "number": 1, "position": "GK", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_009_02", "name": "Ahmad Al-Moghrabi", "number": 70, "position": "RB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_009_03", "name": "Amer Abu Hudieb", "number": 4, "position": "CB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_009_04", "name": "Kwabena Nyanteh", "number": 91, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_jo1_009_05", "name": "Moatasem Al Zoubi", "number": 13, "position": "LB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_009_06", "name": "Ahmed Al-Salman", "number": 6, "position": "CM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_009_07", "name": "Hussein Al Rushdan", "number": 8, "position": "CDM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_009_08", "name": "Mohamad Bani Domi", "number": 17, "position": "RW", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_009_09", "name": "Mus’ab Al-Laham", "number": 10, "position": "CAM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_009_10", "name": "Majd Al-Zoubi", "number": 7, "position": "LW", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_009_11", "name": "Hamza Al Dardour", "number": 20, "position": "ST", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_009_12", "name": "Omar Al Zoubi", "number": 22, "position": "GK", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_009_13", "name": "Abdallah Al-Mnayyes", "number": 23, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_009_14", "name": "Abdulrahman Al Drayseh", "number": 5, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_009_15", "name": "Ja'far Samara", "number": 2, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_009_16", "name": "Mohammad Al Baytar", "number": 30, "position": "LB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_009_17", "name": "Majd Al Zayed", "number": 18, "position": "LB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_009_18", "name": "Yazan Al Awaqleh", "number": 21, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_009_19", "name": "Yamen Abu Hudieb", "number": 15, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_009_20", "name": "Yaman Al Azayzeh", "number": 11, "position": "RW", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_009_21", "name": "Azeez Oseni", "number": 25, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_jo1_009_22", "name": "Abdullah Al-Shogran", "number": 12, "position": "GK", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_009_23", "name": "Moamen Al-Saket", "number": 77, "position": "LW", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_009_24", "name": "Robert Odu", "number": 47, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_jo1_009_25", "name": "Abdul Razzaq Al-Rifai", "number": 99, "position": "ST", "country": "JO", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 4, "setPieces": {"penalty": 20, "freeKick": 10, "cornerLeft": 7, "cornerRight": 17}}
   }
-}
