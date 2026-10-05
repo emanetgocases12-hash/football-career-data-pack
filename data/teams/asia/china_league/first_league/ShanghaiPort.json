@@ -1,12 +1,44 @@
-{
-  "teamKey": "Sh Port",
-
-  "name": "Shanghai Port FC",
-
-  "logo": "assets/logos/asia/china/Shanghai.png",
-
-  "stadium": {
-    "name": "Pudong Football Stadium",
-    "capacity": 37000
+ {
+    "teamKey": "Sh Port",
+    "name": "Shanghai Port FC",
+    "logo": "assets/logos/asia/china/Shanghai.png",
+    "manager": {"name": "Kevin Muscat", "country": "AU"},
+    "stadium": {"name": "Pudong Football Stadium", "capacity": 37000},
+    "players": [
+      {"playerId": "player_cn1_008_01", "name": "Yan Junling", "number": 1, "position": "GK", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_008_02", "name": "Wang Shenchao", "number": 4, "position": "RB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_008_03", "name": "Jiang Guangtai", "number": 3, "position": "CB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_008_04", "name": "Wei Zhen", "number": 13, "position": "CB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_008_05", "name": "Yue Xin", "number": 28, "position": "LB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_008_06", "name": "Jaume Grau", "number": 16, "position": "CDM", "country": "ES", "status": "starter"},
+      {"playerId": "player_cn1_008_07", "name": "Mateus Vital", "number": 10, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_008_08", "name": "Wu Lei", "number": 7, "position": "RW", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_008_09", "name": "Óscar Melendo", "number": 21, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_cn1_008_10", "name": "Prince Ampem", "number": 17, "position": "LW", "country": "GH", "status": "starter"},
+      {"playerId": "player_cn1_008_11", "name": "Leonardo", "number": 45, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_008_12", "name": "Chen Wei", "number": 12, "position": "GK", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_008_13", "name": "Zhang Linpeng", "number": 5, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_008_14", "name": "Alex Yang", "number": 22, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_008_15", "name": "Li Shuai", "number": 32, "position": "LB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_008_16", "name": "Yang Shiyuan", "number": 20, "position": "CDM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_008_17", "name": "Gabrielzinho", "number": 11, "position": "LW", "country": "BR", "status": "bench"},
+      {"playerId": "player_cn1_008_18", "name": "Zhang Yuan", "number": 6, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_008_19", "name": "Kuai Jiwen", "number": 47, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_008_20", "name": "Liu Ruofan", "number": 26, "position": "LW", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_008_21", "name": "Liu Zhurun", "number": 33, "position": "ST", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_008_22", "name": "Li Zhiliang", "number": 53, "position": "GK", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_008_23", "name": "Kodjo Aziangbe", "number": 8, "position": "CM", "country": "TG", "status": "reserve"},
+      {"playerId": "player_cn1_008_24", "name": "Matt Orr", "number": 14, "position": "ST", "country": "HK", "status": "reserve"},
+      {"playerId": "player_cn1_008_25", "name": "Hector Campos", "number": 44, "position": "CM", "country": "PE", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 45,
+        "freeKick": 21,
+        "cornerLeft": 7,
+        "cornerRight": 17
+      }
+    }
   }
-}
