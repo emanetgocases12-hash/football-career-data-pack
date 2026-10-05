@@ -1,12 +1,50 @@
 {
-  "teamKey": "Baniya",
-
-  "name": "Bani Yas Club",
-
-  "logo": "assets/logos/asia/uae/Baniyas.png",
-
-  "stadium": {
-    "name": "Bani Yas Stadium",
-    "capacity": 6927
+    "teamKey": "Baniya",
+    "name": "Bani Yas Club",
+    "logo": "assets/logos/asia/uae/Baniyas.png",
+    "manager": {
+      "name": "Daniel Isăilă",
+      "country": "RO"
+    },
+    "stadium": {
+      "name": "Bani Yas Stadium",
+      "capacity": 6927
+    },
+    "players": [
+      {"playerId": "player_ae1_005_01", "name": "Fahad Al-Dhanhani", "number": 55, "position": "GK", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_005_02", "name": "Abdulaziz Haikal", "number": 2, "position": "RB", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_005_03", "name": "João Victor", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_ae1_005_04", "name": "Sasha Ivkovic", "number": 5, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_ae1_005_05", "name": "Suhail Al-Noubi", "number": 7, "position": "LB", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_005_06", "name": "Fawaz Awana", "number": 6, "position": "CDM", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_005_07", "name": "Ahmed Shehda", "number": 8, "position": "CM", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_005_08", "name": "Gastón Suárez", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_ae1_005_09", "name": "Lazar Markovic", "number": 11, "position": "RW", "country": "RS", "status": "starter"},
+      {"playerId": "player_ae1_005_10", "name": "Taulant Seferi", "number": 77, "position": "LW", "country": "AL", "status": "starter"},
+      {"playerId": "player_ae1_005_11", "name": "Saviour Godwin", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+      {"playerId": "player_ae1_005_12", "name": "Mohammed Al-Hammadi", "number": 1, "position": "GK", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_005_13", "name": "Abdulla Al-Marzooqi", "number": 22, "position": "GK", "country": "AE", "status": "reserve"},
+      {"playerId": "player_ae1_005_14", "name": "Khalid Hashemi", "number": 15, "position": "CB", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_005_15", "name": "Ahmed Abunamous", "number": 18, "position": "ST", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_005_16", "name": "Yousef Al-Hammadi", "number": 17, "position": "CM", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_005_17", "name": "Mohamed Al-Rashdi", "number": 20, "position": "CM", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_005_18", "name": "Sultan Al-Shamsi", "number": 19, "position": "RW", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_005_19", "name": "Khamis Esmaeel", "number": 14, "position": "CDM", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_005_20", "name": "Abdulla Al-Blooshi", "number": 23, "position": "RB", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_005_21", "name": "Hassan Al-Muharrami", "number": 25, "position": "CB", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_005_22", "name": "Saeed Al-Marzooqi", "number": 27, "position": "LB", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_005_23", "name": "Yousef Ahmed", "number": 30, "position": "GK", "country": "AE", "status": "reserve"},
+      {"playerId": "player_ae1_005_24", "name": "Mohamed Juma", "number": 28, "position": "LW", "country": "AE", "status": "reserve"},
+      {"playerId": "player_ae1_005_25", "name": "Nasser Al-Shamsi", "number": 31, "position": "ST", "country": "AE", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 55,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 77
+      }
+    }
   }
-}
