@@ -1,12 +1,52 @@
 {
   "teamKey": "O.Prts",
-
   "name": "Orlando Pirates",
-
   "logo": "assets/logos/africa/south_africa/OPrts.png",
-
+  "manager": {
+    "name": "Abdeslam Ouaddou",
+    "country": "MA"
+  },
   "stadium": {
     "name": "Orlando Stadium",
     "capacity": 37139
+  },
+  "players": [
+    {"playerId": "player_za1_010_01", "name": "Sipho Chaine", "number": 24, "position": "GK", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_010_02", "name": "K. Sebelebele", "number": 36, "position": "RB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_010_03", "name": "Nkosinathi Sibisi", "number": 5, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_010_04", "name": "Tapelo Xoki", "number": 27, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_010_05", "name": "Neo Rapoo", "number": 19, "position": "LB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_010_06", "name": "Makhehlene Makhaula", "number": 8, "position": "CDM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_010_07", "name": "Thalente Mbatha", "number": 16, "position": "CM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_010_08", "name": "Tshepang Moremi", "number": 11, "position": "RW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_010_09", "name": "Patrick Maswanganyi", "number": 28, "position": "CAM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_010_10", "name": "Deon Hotto", "number": 7, "position": "LW", "country": "NA", "status": "starter"},
+    {"playerId": "player_za1_010_11", "name": "Evidence Makgopa", "number": 17, "position": "ST", "country": "ZA", "status": "starter"},
+
+    {"playerId": "player_za1_010_12", "name": "E. Visagie", "number": 1, "position": "GK", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_010_13", "name": "S. Zulu", "number": 37, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_010_14", "name": "M. Chabatsane", "number": 43, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_010_15", "name": "L. Seema", "number": 6, "position": "LB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_010_16", "name": "Abdoulaye Mariko", "number": 4, "position": "CDM", "country": "ML", "status": "bench"},
+    {"playerId": "player_za1_010_17", "name": "Masindi Nemtajela", "number": 15, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_010_18", "name": "Sihle Nduli", "number": 30, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_010_19", "name": "Oswin Appollis", "number": 12, "position": "LW", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_010_20", "name": "Yanela Mbuthuma", "number": 9, "position": "ST", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_010_21", "name": "Boitumelo Radiopane", "number": 25, "position": "ST", "country": "ZA", "status": "bench"},
+
+    {"playerId": "player_za1_010_22", "name": "Ghampani Lungu", "number": 23, "position": "RW", "country": "ZM", "status": "reserve"},
+    {"playerId": "player_za1_010_23", "name": "Daniel Msendami", "number": 45, "position": "LW", "country": "ZW", "status": "reserve"},
+    {"playerId": "player_za1_010_24", "name": "Bohlale Ngwato", "number": 47, "position": "RW", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_010_25", "name": "Kabelo Dlamini", "number": 18, "position": "CAM", "country": "ZA", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 24,
+    "setPieces": {
+      "penalty": 17,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 28
+    }
   }
 }
