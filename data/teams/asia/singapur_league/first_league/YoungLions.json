@@ -1,12 +1,50 @@
-{
-  "teamKey": "Young L",
-
-  "name": "Young Lions",
-
-  "logo": "assets/logos/asia/singapor/Young.png",
-
-  "stadium": {
-    "name": "Jalan Besar Stadium",
-    "capacity": 6000
+ {
+    "teamKey": "Young L",
+    "name": "Young Lions",
+    "logo": "assets/logos/asia/singapor/Young.png",
+    "manager": {
+      "name": "Firdaus Kassim",
+      "country": "SG"
+    },
+    "stadium": {
+      "name": "Jalan Besar Stadium",
+      "capacity": 6000
+    },
+    "players": [
+      {"playerId": "player_sg1_008_01", "name": "Izwan Mahbud", "number": 1, "position": "GK", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_008_02", "name": "Fairuz Fazli", "number": 2, "position": "RB", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_008_03", "name": "Shuya Yamashita", "number": 4, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_008_04", "name": "Ikram Mikhail", "number": 5, "position": "CB", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_008_05", "name": "Kai Whitmore", "number": 8, "position": "LB", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_008_06", "name": "Ajay Robson", "number": 6, "position": "CDM", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_008_07", "name": "Nathan Mao", "number": 7, "position": "CM", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_008_08", "name": "Daisuke Sakai", "number": 10, "position": "CAM", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_008_09", "name": "Hafiz Nor", "number": 11, "position": "RW", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_008_10", "name": "Toi Kagami", "number": 15, "position": "LW", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_008_11", "name": "Miyu Sato", "number": 9, "position": "ST", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_008_12", "name": "Benjamin Zerak", "number": 13, "position": "GK", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_008_13", "name": "Iryan Fandi", "number": 17, "position": "CB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_008_14", "name": "Nur Muhammad", "number": 28, "position": "RB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_008_15", "name": "Iliya Naufal", "number": 29, "position": "CB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_008_16", "name": "Kieran Tan", "number": 32, "position": "LB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_008_17", "name": "Danial Ukail", "number": 14, "position": "CM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_008_18", "name": "Andy Reefqy", "number": 16, "position": "CM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_008_19", "name": "Rae Peh", "number": 20, "position": "CM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_008_20", "name": "Joel Chew", "number": 22, "position": "CAM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_008_21", "name": "Tan-Vaissiere Louka", "number": 24, "position": "ST", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_008_22", "name": "Jeremy Quan", "number": 30, "position": "GK", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_008_23", "name": "Sahoo Garv", "number": 23, "position": "RW", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_008_24", "name": "Nyqil Iyyan", "number": 26, "position": "CM", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_008_25", "name": "Aryan Sahib", "number": 31, "position": "ST", "country": "SG", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 15
+      }
+    }
   }
-}
