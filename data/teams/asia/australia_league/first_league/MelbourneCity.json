@@ -1,12 +1,52 @@
-{
-  "teamKey": "Melbou",
+ {
+    "teamKey": "Melbou",
+    "name": "Melbourne City",
+    "logo": "assets/logos/asia/australia/Melbourne.png",
+    "manager": {
+      "name": "Aurelio Vidmar",
+      "country": "AU"
+    },
+    "stadium": {
+      "name": "AAMI Park",
+      "capacity": 30050
+    },
+    "players": [
+      {"playerId": "player_au1_007_01", "name": "Macklin Freke", "number": 1, "position": "GK", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_007_02", "name": "Nathaniel Atkinson", "number": 13, "position": "RB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_007_03", "name": "Harrison Delbridge", "number": 2, "position": "CB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_007_04", "name": "Liam Bonetig", "number": 4, "position": "CB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_007_05", "name": "Aziz Behich", "number": 16, "position": "LB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_007_06", "name": "Matheus Rossetto", "number": 5, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_au1_007_07", "name": "Alessandro Lopane", "number": 21, "position": "CM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_007_08", "name": "Emiliano Marcondes", "number": 10, "position": "CAM", "country": "DK", "status": "starter"},
+      {"playerId": "player_au1_007_09", "name": "Awer Mabil", "number": 11, "position": "RW", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_007_10", "name": "Max Caputo", "number": 9, "position": "ST", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_007_11", "name": "Mathew Leckie", "number": 7, "position": "LW", "country": "AU", "status": "starter"},
 
-  "name": "Melbourne City",
+      {"playerId": "player_au1_007_12", "name": "James Nieuwenhuizen", "number": 40, "position": "GK", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_007_13", "name": "Besian Kutleshi", "number": 14, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_007_14", "name": "Peter Antoniou", "number": 22, "position": "RB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_007_15", "name": "Mathew Baker", "number": 36, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_007_16", "name": "Jayden Necovski", "number": 34, "position": "LB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_007_17", "name": "Quinn MacNicol", "number": 19, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_007_18", "name": "Kavian Rahmani", "number": 24, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_007_19", "name": "Andrew Nabbout", "number": 15, "position": "RW", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_007_20", "name": "Ben Mazzeo", "number": 20, "position": "ST", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_007_21", "name": "Medin Memeti", "number": 23, "position": "LW", "country": "AU", "status": "bench"},
 
-  "logo": "assets/logos/asia/australia/Melbourne.png",
-
-  "stadium": {
-    "name": "AAMI Park",
-    "capacity": 30050
+      {"playerId": "player_au1_007_22", "name": "Lachie Charles", "number": 42, "position": "GK", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_007_23", "name": "Ryan Kalms", "number": 26, "position": "CB", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_007_24", "name": "Roland Ballah", "number": 39, "position": "RW", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_007_25", "name": "Takeshi Kanamori", "number": 77, "position": "LW", "country": "JP", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 16,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
