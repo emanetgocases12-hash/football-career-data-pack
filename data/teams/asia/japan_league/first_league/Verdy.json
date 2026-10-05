@@ -1,12 +1,44 @@
-{
-  "teamKey": "Verdy",
-
-  "name": "Tokyo Verdy",
-
-  "logo": "assets/logos/asia/japan/Verdy.png",
-
-  "stadium": {
-    "name": "Ajinomoto Stadium",
-    "capacity": 47851
+ {
+    "teamKey": "Verdy",
+    "name": "Tokyo Verdy",
+    "logo": "assets/logos/asia/japan/Verdy.png",
+    "manager": {"name": "Jofuku Hiroshi", "country": "JP"},
+    "stadium": {"name": "Ajinomoto Stadium", "capacity": 47851},
+    "players": [
+      {"playerId": "player_jp1_018_01", "name": "Matheus", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_jp1_018_02", "name": "Miyahara Kazuya", "number": 6, "position": "RB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_018_03", "name": "Hayashi Naoki", "number": 4, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_018_04", "name": "Inoue Ryuta", "number": 5, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_018_05", "name": "Mizoguchi Shuhei", "number": 18, "position": "LB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_018_06", "name": "Shibato Kai", "number": 2, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_018_07", "name": "Morita Koki", "number": 10, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_018_08", "name": "Saito Kosuke", "number": 8, "position": "CAM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_018_09", "name": "Yamami Hiroto", "number": 11, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_018_10", "name": "Someno Itsuki", "number": 9, "position": "ST", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_018_11", "name": "Matsuhashi Yuan", "number": 7, "position": "LW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_018_12", "name": "Nagasawa Yuya", "number": 21, "position": "GK", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_018_13", "name": "Suzuki Kaito", "number": 15, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_018_14", "name": "Uchida Yosuke", "number": 22, "position": "RB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_018_15", "name": "Sako Maaya", "number": 29, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_018_16", "name": "Tanabe Shuto", "number": 35, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_018_17", "name": "Fukuda Yuya", "number": 14, "position": "CM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_018_18", "name": "Hirakawa Rei", "number": 16, "position": "CM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_018_19", "name": "Meshino Soma", "number": 20, "position": "CAM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_018_20", "name": "Arai Yuta", "number": 40, "position": "RW", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_018_21", "name": "Kim Hyun Woo", "number": 17, "position": "ST", "country": "KR", "status": "bench"},
+      {"playerId": "player_jp1_018_22", "name": "Mawatari Hiroki", "number": 31, "position": "GK", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_018_23", "name": "Yamada Goki", "number": 13, "position": "ST", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_018_24", "name": "Kumatoriya Issei", "number": 25, "position": "ST", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_018_25", "name": "Kanda Soma", "number": 38, "position": "ST", "country": "JP", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 7
+      }
+    }
   }
-}
