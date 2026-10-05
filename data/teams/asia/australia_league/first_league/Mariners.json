@@ -1,12 +1,52 @@
-{
-  "teamKey": "Marine",
+ {
+    "teamKey": "Marine",
+    "name": "Central Coast Mariners",
+    "logo": "assets/logos/asia/australia/Mariners.png",
+    "manager": {
+      "name": "John Hutchinson",
+      "country": "AU"
+    },
+    "stadium": {
+      "name": "Polytec Stadium",
+      "capacity": 20059
+    },
+    "players": [
+      {"playerId": "player_au1_006_01", "name": "Andrew Redmayne", "number": 30, "position": "GK", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_006_02", "name": "Storm Roux", "number": 15, "position": "RB", "country": "NZ", "status": "starter"},
+      {"playerId": "player_au1_006_03", "name": "Trent Sainsbury", "number": 4, "position": "CB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_006_04", "name": "Kristian Popovic", "number": 3, "position": "CB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_006_05", "name": "Lucas Mauragis", "number": 5, "position": "LB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_006_06", "name": "Alfie McCalmont", "number": 8, "position": "CDM", "country": "GB-NIR", "status": "starter"},
+      {"playerId": "player_au1_006_07", "name": "Harrison Steele", "number": 16, "position": "CM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_006_08", "name": "Haine Eames", "number": 6, "position": "CM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_006_09", "name": "Gabriel Tilo", "number": 7, "position": "RW", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_006_10", "name": "Oli Lavale", "number": 9, "position": "ST", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_006_11", "name": "Max Naylor", "number": 17, "position": "LW", "country": "AU", "status": "starter"},
 
-  "name": "Central Coast Mariners",
+      {"playerId": "player_au1_006_12", "name": "Dylan Peraic-Cullen", "number": 40, "position": "GK", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_006_13", "name": "Diesel Herrington", "number": 24, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_006_14", "name": "Noah McCann", "number": 2, "position": "CB", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_au1_006_15", "name": "Stevan Rujak", "number": 18, "position": "LB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_006_16", "name": "Shumba Mutokoyi", "number": 41, "position": "RB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_006_17", "name": "Bradley Tapp", "number": 26, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_006_18", "name": "Arthur De Lima", "number": 22, "position": "CAM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_006_19", "name": "Laurence Taylor", "number": 42, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_006_20", "name": "Alex Bolton", "number": 10, "position": "CAM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_006_21", "name": "Presley Ortiz", "number": 11, "position": "ST", "country": "AU", "status": "bench"},
 
-  "logo": "assets/logos/asia/australia/Mariners.png",
-
-  "stadium": {
-    "name": "Polytec Stadium",
-    "capacity": 20059
+      {"playerId": "player_au1_006_22", "name": "Rufai Abubakar", "number": 1, "position": "GK", "country": "NG", "status": "reserve"},
+      {"playerId": "player_au1_006_23", "name": "Oli O'Carroll", "number": 14, "position": "CM", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_006_24", "name": "Jesse Mantell", "number": 23, "position": "CAM", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_006_25", "name": "Daniel Scarlett", "number": 19, "position": "LW", "country": "JM", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 7,
+        "cornerRight": 17
+      }
+    }
   }
-}
