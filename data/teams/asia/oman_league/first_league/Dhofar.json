@@ -1,12 +1,50 @@
-{
-  "teamKey": "Dhofar",
-
-  "name": "Dhofar Club",
-
-  "logo": "assets/logos/asia/oman/Dhofar.png",
-
-  "stadium": {
-    "name": "Al Saada Stadium",
-    "capacity": 12000
+ {
+    "teamKey": "Dhofar",
+    "name": "Dhofar Club",
+    "logo": "assets/logos/asia/oman/Dhofar.png",
+    "manager": {
+      "name": "Grigore Sichitiu",
+      "country": "RO"
+    },
+    "stadium": {
+      "name": "Al Saada Stadium",
+      "capacity": 12000
+    },
+    "players": [
+      {"playerId": "player_om1_002_01", "name": "Mazin Al-Kasbi", "number": 1, "position": "GK", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_002_02", "name": "Ahmed Al-Suri", "number": 32, "position": "CB", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_002_03", "name": "Khalid Talal", "number": 4, "position": "CB", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_002_04", "name": "Salim Al-Shakal", "number": 3, "position": "LB", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_002_05", "name": "Ali Salim Al-Nahar", "number": 8, "position": "RB", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_002_06", "name": "Mohammed Al-Najashi", "number": 5, "position": "CDM", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_002_07", "name": "Abdullah Al-Habashi", "number": 12, "position": "CM", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_002_08", "name": "Marwan Talal", "number": 31, "position": "CAM", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_002_09", "name": "Hamood Al-Saadi", "number": 14, "position": "LW", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_002_10", "name": "Said Al-Barami", "number": 18, "position": "RW", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_002_11", "name": "Ahmed Said", "number": 36, "position": "ST", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_002_12", "name": "Said Al-Sinani", "number": 22, "position": "GK", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_002_13", "name": "Mohammed Al-Mahri", "number": 15, "position": "CB", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_002_14", "name": "Sloum Al-Maskri", "number": 2, "position": "CB", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_002_15", "name": "Mohammed Ahmed", "number": 6, "position": "CB", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_002_16", "name": "Salem Al-Maghani", "number": 20, "position": "CM", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_002_17", "name": "Mohammed Al-Marzouq", "number": 30, "position": "CM", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_002_18", "name": "Said Al-Araibi", "number": 47, "position": "ST", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_002_19", "name": "Hussain Al-Rawas", "number": 7, "position": "RW", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_002_20", "name": "Abdulrahman Al-Ghassani", "number": 90, "position": "ST", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_002_21", "name": "Ali Al-Rawas", "number": 10, "position": "CAM", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_002_22", "name": "Salem Amin Suleiman", "number": 98, "position": "GK", "country": "OM", "status": "reserve"},
+      {"playerId": "player_om1_002_23", "name": "Yaqoub Al-Sabahi", "number": 11, "position": "LW", "country": "OM", "status": "reserve"},
+      {"playerId": "player_om1_002_24", "name": "Mahmoud Al-Mushaifri", "number": 19, "position": "ST", "country": "OM", "status": "reserve"},
+      {"playerId": "player_om1_002_25", "name": "Abdullah Al-Saadi", "number": 21, "position": "CM", "country": "OM", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 36,
+        "freeKick": 31,
+        "cornerLeft": 31,
+        "cornerRight": 18
+      }
+    }
   }
-}
