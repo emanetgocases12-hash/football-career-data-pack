@@ -1,12 +1,52 @@
 {
-  "teamKey": "PWD",
+    "teamKey": "PWD",
+    "name": "PWD Sports Club",
+    "logo": "assets/logos/asia/bangladesh/PWD.png",
+    "manager": {
+      "name": "Md Anawer Hossain",
+      "country": "BD"
+    },
+    "stadium": {
+      "name": "Shaheed Barkat Stadium",
+      "capacity": 5000
+    },
+    "players": [
+      {"playerId": "player_bd1_011_01", "name": "Saju Ahamed", "number": 1, "position": "GK", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_011_02", "name": "Mobinur Rashid", "number": 2, "position": "RB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_011_03", "name": "Sumon Kumar Das", "number": 4, "position": "CB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_011_04", "name": "Flodyn Baloki", "number": 20, "position": "CB", "country": "DE", "status": "starter"},
+      {"playerId": "player_bd1_011_05", "name": "Ikramul Islam", "number": 5, "position": "LB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_011_06", "name": "Sabbir Hossain", "number": 6, "position": "CDM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_011_07", "name": "Janmejay Dhami", "number": 8, "position": "CM", "country": "NP", "status": "starter"},
+      {"playerId": "player_bd1_011_08", "name": "Nihat Jaman Ucchash", "number": 7, "position": "RW", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_011_09", "name": "Kheled Reda Abobakr Ahmed Aly", "number": 10, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_bd1_011_10", "name": "Nazim Uddin", "number": 11, "position": "LW", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_011_11", "name": "Yohan Thewole Mbida", "number": 9, "position": "ST", "country": "CM", "status": "starter"},
 
-  "name": "PWD Sports Club",
+      {"playerId": "player_bd1_011_12", "name": "Rahul Hossen", "number": 28, "position": "GK", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_011_13", "name": "Ihsan Habib Riduan", "number": 3, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_011_14", "name": "Naasrullah Sheikh", "number": 15, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_011_15", "name": "Imadul Haque", "number": 25, "position": "RB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_011_16", "name": "Md Ratul", "number": 13, "position": "LB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_011_17", "name": "Khandaker Khalid Hasan", "number": 32, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_011_18", "name": "Rakibul Islam Rakib", "number": 23, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_011_19", "name": "Mahin Sheikh", "number": 21, "position": "RM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_011_20", "name": "Yasin Arafat Sifit", "number": 17, "position": "LW", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_011_21", "name": "Jubayer Ahmad", "number": 12, "position": "ST", "country": "BD", "status": "bench"},
 
-  "logo": "assets/logos/asia/bangladesh/PWD.png",
-
-  "stadium": {
-    "name": "Shaheed Barkat Stadium",
-    "capacity": 5000
+      {"playerId": "player_bd1_011_22", "name": "Anik Ahamed", "number": 22, "position": "GK", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_011_23", "name": "Md Manik", "number": 19, "position": "CM", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_011_24", "name": "Yamin Rana", "number": 18, "position": "RW", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_011_25", "name": "Raisul Islam Rahid", "number": 40, "position": "ST", "country": "BD", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
