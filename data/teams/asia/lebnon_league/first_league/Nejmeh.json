@@ -1,12 +1,44 @@
-{
-  "teamKey": "Nejmeh",
-
-  "name": "Nejmeh Sporting Club",
-
-  "logo": "assets/logos/asia/lebanon/Nejmeh.png",
-
-  "stadium": {
-    "name": "Rafic Hariri Stadium",
-    "capacity": 5000
+ {
+    "teamKey": "Nejmeh",
+    "name": "Nejmeh Sporting Club",
+    "logo": "assets/logos/asia/lebanon/Nejmeh.png",
+    "manager": {"name": "Lassaad Dridi", "country": "TN"},
+    "stadium": {"name": "Rafic Hariri Stadium", "capacity": 5000},
+    "players": [
+      {"playerId": "player_lb1_008_01", "name": "Mostafa Matar", "number": 1, "position": "GK", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_008_02", "name": "Ali Ismail", "number": 2, "position": "RB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_008_03", "name": "Khalil Khamis", "number": 3, "position": "CB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_008_04", "name": "Kassem El Zein", "number": 4, "position": "CB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_008_05", "name": "Hassan Chaito", "number": 5, "position": "LB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_008_06", "name": "Hussein Monzer", "number": 6, "position": "CDM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_008_07", "name": "Mohamad Safwan", "number": 7, "position": "CM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_008_08", "name": "Rabih Ataya", "number": 8, "position": "RW", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_008_09", "name": "Mohamad Omar Sadek", "number": 9, "position": "CAM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_008_10", "name": "Ali Kassas", "number": 10, "position": "LW", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_008_11", "name": "Fadel Antar", "number": 11, "position": "ST", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_008_12", "name": "Antoine Douaihy", "number": 12, "position": "GK", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_008_13", "name": "Felix Michel Melki", "number": 13, "position": "CB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_008_14", "name": "Abdallah Moughrabi", "number": 14, "position": "CB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_008_15", "name": "Hasan Sharqawi", "number": 15, "position": "RB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_008_16", "name": "Said Awada", "number": 16, "position": "LB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_008_17", "name": "Ali El Fadl", "number": 17, "position": "CM", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_008_18", "name": "Hassan Kourani", "number": 18, "position": "CM", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_008_19", "name": "Mohammad Markabawi", "number": 19, "position": "RW", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_008_20", "name": "Bilal Al-Sabbagh", "number": 20, "position": "ST", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_008_21", "name": "Mohamad Haidar", "number": 21, "position": "CAM", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_008_22", "name": "Emilio Rizk", "number": 22, "position": "GK", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_008_23", "name": "Mohamad Bechara", "number": 23, "position": "GK", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_008_24", "name": "Hussein Siblini", "number": 24, "position": "LW", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_008_25", "name": "Mohammad Safadi", "number": 25, "position": "ST", "country": "LB", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 9,
+        "cornerLeft": 10,
+        "cornerRight": 8
+      }
+    }
   }
-}
