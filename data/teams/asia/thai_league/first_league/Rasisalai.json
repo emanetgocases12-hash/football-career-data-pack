@@ -1,12 +1,50 @@
 {
-  "teamKey": "Rasisa",
-
-  "name": "Rasisalai United",
-
-  "logo": "assets/logos/asia/tailand/Rasisalai.png",
-
-  "stadium": {
-    "name": "Sisaket Provincial Stadium",
-    "capacity": 15000
+    "teamKey": "Rasisa",
+    "name": "Rasisalai United",
+    "logo": "assets/logos/asia/tailand/Rasisalai.png",
+    "manager": {
+      "name": "Sirisak Yodyadthai",
+      "country": "TH"
+    },
+    "stadium": {
+      "name": "Sisaket Provincial Stadium",
+      "capacity": 15000
+    },
+    "players": [
+      {"playerId": "player_th1_011_01", "name": "Sakkongpop Sukprasert", "number": 99, "position": "GK", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_011_02", "name": "Yingyong Butngam", "number": 55, "position": "RB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_011_03", "name": "Thitiphong Photumtha", "number": 30, "position": "CB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_011_04", "name": "Ramon Rodrigues", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_011_05", "name": "Aphisit Nusonsala", "number": 19, "position": "LB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_011_06", "name": "Wichit Tanee", "number": 20, "position": "CDM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_011_07", "name": "Natchanon Yongsakool", "number": 8, "position": "CM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_011_08", "name": "Jirawat Chingchaiyaphum", "number": 23, "position": "CM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_011_09", "name": "Alberto Gouvea", "number": 37, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_011_10", "name": "Supab Muengchan", "number": 27, "position": "LW", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_011_11", "name": "Nattapon Yongsakool", "number": 77, "position": "ST", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_011_12", "name": "Pongsakorn Buatab", "number": 42, "position": "GK", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_011_13", "name": "Hamed Bakhtiari", "number": 40, "position": "CB", "country": "IR", "status": "bench"},
+      {"playerId": "player_th1_011_14", "name": "Natthaphob Chaimongkhon", "number": 56, "position": "CB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_011_15", "name": "Chawanthananchai Sirichoo", "number": 25, "position": "LB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_011_16", "name": "Apirak Thongjan", "number": 21, "position": "RB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_011_17", "name": "Somyot Pongsuwan", "number": 32, "position": "CM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_011_18", "name": "Thanongsak Khrutthasarn", "number": 28, "position": "CM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_011_19", "name": "Apinat Suksanguan", "number": 34, "position": "CM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_011_20", "name": "Tayawat Nomrawee", "number": 47, "position": "CM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_011_21", "name": "Chatchai Nanthawichianrit", "number": 11, "position": "LW", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_011_22", "name": "Kiattisak Pimyotha", "number": 1, "position": "GK", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_011_23", "name": "Wichit Kongsinkaew", "number": 44, "position": "ST", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_011_24", "name": "Gilberto Macena", "number": 10, "position": "ST", "country": "BR", "status": "reserve"},
+      {"playerId": "player_th1_011_25", "name": "Phitchanon Chanluang", "number": 22, "position": "ST", "country": "TH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 99,
+      "setPieces": {
+        "penalty": 77,
+        "freeKick": 37,
+        "cornerLeft": 37,
+        "cornerRight": 27
+      }
+    }
   }
-}
