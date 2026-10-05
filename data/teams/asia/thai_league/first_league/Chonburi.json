@@ -1,12 +1,50 @@
 {
-  "teamKey": "Chonbu",
-
-  "name": "Chonburi FC",
-
-  "logo": "assets/logos/asia/tailand/Chonburi.png",
-
-  "stadium": {
-    "name": "Chonburi Daikin Stadium",
-    "capacity": 8680
+    "teamKey": "Chonbu",
+    "name": "Chonburi FC",
+    "logo": "assets/logos/asia/tailand/Chonburi.png",
+    "manager": {
+      "name": "Rangsan Viwatchaichok",
+      "country": "TH"
+    },
+    "stadium": {
+      "name": "Chonburi Daikin Stadium",
+      "capacity": 8680
+    },
+    "players": [
+      {"playerId": "player_th1_005_01", "name": "Kevin Ray Mendoza", "number": 1, "position": "GK", "country": "PH", "status": "starter"},
+      {"playerId": "player_th1_005_02", "name": "Santiphap Channgom", "number": 23, "position": "RB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_005_03", "name": "Kike Linares", "number": 2, "position": "CB", "country": "PH", "status": "starter"},
+      {"playerId": "player_th1_005_04", "name": "Nattapong Sayriya", "number": 5, "position": "CB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_005_05", "name": "Phongsakon Trisat", "number": 19, "position": "LB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_005_06", "name": "Saharat Sontisawat", "number": 15, "position": "CDM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_005_07", "name": "Rachata Moraksa", "number": 32, "position": "CM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_005_08", "name": "Channarong Promsrikaew", "number": 10, "position": "CAM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_005_09", "name": "Jorge Fellipe", "number": 47, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_005_10", "name": "Stenio Junior", "number": 18, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_005_11", "name": "Dennis Murillo", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_005_12", "name": "Noppakun Kadtoon", "number": 46, "position": "GK", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_005_13", "name": "Bukkoree Lemdee", "number": 20, "position": "RB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_005_14", "name": "Jakkrapong Sanmahung", "number": 4, "position": "CB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_005_15", "name": "Songchai Thongcham", "number": 37, "position": "CB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_005_16", "name": "Richmond Darko", "number": 28, "position": "CDM", "country": "GH", "status": "bench"},
+      {"playerId": "player_th1_005_17", "name": "Chaowat Veerachart", "number": 8, "position": "CM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_005_18", "name": "Bruno Ritter", "number": 6, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_th1_005_19", "name": "Sittichok Paso", "number": 7, "position": "CAM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_005_20", "name": "Korawich Tasa", "number": 21, "position": "RW", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_005_21", "name": "Apiwat Chuprai", "number": 11, "position": "LW", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_005_22", "name": "Thanawat Panthong", "number": 87, "position": "GK", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_005_23", "name": "Wellington Priori", "number": 14, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_th1_005_24", "name": "Yotsakorn Burapha", "number": 99, "position": "ST", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_005_25", "name": "Roengchai Kesada", "number": 27, "position": "LW", "country": "TH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 18
+      }
+    }
   }
-}
