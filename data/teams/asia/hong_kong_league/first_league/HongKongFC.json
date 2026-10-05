@@ -1,12 +1,50 @@
 {
-  "teamKey": "HK FC",
-
-  "name": "Hong Kong FC",
-
-  "logo": "assets/logos/asia/hong_kong/HKFC.png",
-
-  "stadium": {
-    "name": "Hong Kong Football Club Stadium",
-    "capacity": 2750
+    "teamKey": "HK FC",
+    "name": "Hong Kong FC",
+    "logo": "assets/logos/asia/hong_kong/HKFC.png",
+    "manager": {
+      "name": "Darren James Arnott",
+      "country": "GB-ENG"
+    },
+    "stadium": {
+      "name": "Hong Kong Football Club Stadium",
+      "capacity": 2750
+    },
+    "players": [
+      {"playerId": "player_hk1_003_01", "name": "Poon Sheung Hei", "number": 25, "position": "GK", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_003_02", "name": "Calum Bloxham", "number": 3, "position": "RB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_003_03", "name": "Dominic Sy Johns", "number": 11, "position": "CB", "country": "AU", "status": "starter"},
+      {"playerId": "player_hk1_003_04", "name": "Alexandre Dujardin", "number": 4, "position": "CB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_003_05", "name": "Yiu Ho Ming", "number": 19, "position": "LB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_003_06", "name": "Mamadou Habib Bah", "number": 6, "position": "CDM", "country": "GN", "status": "starter"},
+      {"playerId": "player_hk1_003_07", "name": "Leonardo Manuel Montesinos", "number": 7, "position": "CDM", "country": "US", "status": "starter"},
+      {"playerId": "player_hk1_003_08", "name": "Charlie Weston", "number": 8, "position": "CM", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_hk1_003_09", "name": "Cian Coleman", "number": 10, "position": "CAM", "country": "IE", "status": "starter"},
+      {"playerId": "player_hk1_003_10", "name": "Oscar Junior Benavides Medeiros", "number": 16, "position": "LW", "country": "CL", "status": "starter"},
+      {"playerId": "player_hk1_003_11", "name": "Manuel Bleda Rodríguez", "number": 9, "position": "ST", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_003_12", "name": "Wong Tsz Chung", "number": 95, "position": "GK", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_003_13", "name": "Ryota Hayashi", "number": 5, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_hk1_003_14", "name": "Kwan Hoi Chun", "number": 12, "position": "CB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_003_15", "name": "William Salomon Mirwasser", "number": 75, "position": "LB", "country": "FR", "status": "bench"},
+      {"playerId": "player_hk1_003_16", "name": "Jim Ho Chun", "number": 22, "position": "RB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_003_17", "name": "Andy Clement Wong", "number": 28, "position": "RM", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_003_18", "name": "Pau Anglada", "number": 36, "position": "CM", "country": "ES", "status": "bench"},
+      {"playerId": "player_hk1_003_19", "name": "Nicholas Kedwards", "number": 40, "position": "CAM", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_hk1_003_20", "name": "Ho Tung Lam", "number": 23, "position": "RW", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_003_21", "name": "Cai Gabriel McGunnigle", "number": 67, "position": "ST", "country": "GB-SCT", "status": "bench"},
+      {"playerId": "player_hk1_003_22", "name": "Chan Yu-Chun", "number": 66, "position": "GK", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_003_23", "name": "Max Chan", "number": 24, "position": "CAM", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_003_24", "name": "Jack John Bennie", "number": 44, "position": "LW", "country": "AU", "status": "reserve"},
+      {"playerId": "player_hk1_003_25", "name": "Rishaan Rohit Kulkarni", "number": 55, "position": "RW", "country": "IN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 9,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 16,
+        "cornerRight": 8
+      }
+    }
   }
-}
