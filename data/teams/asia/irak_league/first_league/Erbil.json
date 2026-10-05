@@ -1,12 +1,52 @@
 {
-  "teamKey": "Erbil",
+    "teamKey": "Erbil",
+    "name": "Erbil SC",
+    "logo": "assets/logos/asia/irak/Erbil.png",
+    "manager": {
+      "name": "Luay Salah",
+      "country": "IQ"
+    },
+    "stadium": {
+      "name": "Franso Hariri Stadium",
+      "capacity": 28000
+    },
+    "players": [
+      {"playerId": "player_iq1_004_01", "name": "Kumel Al-Rekabe", "number": 1, "position": "GK", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_004_02", "name": "Halgurd Qais Jaafer", "number": 2, "position": "RB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_004_03", "name": "Sigitas Olberkis", "number": 4, "position": "CB", "country": "LT", "status": "starter"},
+      {"playerId": "player_iq1_004_04", "name": "Harwan Al-Zubaidi", "number": 5, "position": "CB", "country": "YE", "status": "starter"},
+      {"playerId": "player_iq1_004_05", "name": "Safin Mansor", "number": 3, "position": "LB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_004_06", "name": "Ako Hzair", "number": 6, "position": "CDM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_004_07", "name": "Bzhar Mahdi", "number": 8, "position": "CM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_004_08", "name": "Ibrahim Bayesh", "number": 7, "position": "RW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_004_09", "name": "Ali Shakhowan Omar", "number": 10, "position": "CAM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_004_10", "name": "Sherko Karim", "number": 11, "position": "LW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_004_11", "name": "Aso Rostam", "number": 9, "position": "ST", "country": "IQ", "status": "starter"},
 
-  "name": "Erbil SC",
+      {"playerId": "player_iq1_004_12", "name": "Mohammed Hasan", "number": 12, "position": "GK", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_004_13", "name": "Essien Ededem", "number": 14, "position": "CDM", "country": "NG", "status": "bench"},
+      {"playerId": "player_iq1_004_14", "name": "Sipan Sediq", "number": 15, "position": "RB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_004_15", "name": "Hawri Anwar", "number": 16, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_004_16", "name": "Sidad Haji Nori", "number": 17, "position": "CAM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_004_17", "name": "Baker Amer", "number": 18, "position": "LW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_004_18", "name": "Ali Saad", "number": 20, "position": "ST", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_004_19", "name": "Sivan Omar", "number": 21, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_004_20", "name": "Dana Mustafa", "number": 22, "position": "ST", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_004_21", "name": "Dler Hatem Kheder", "number": 19, "position": "CB", "country": "IQ", "status": "bench"},
 
-  "logo": "assets/logos/asia/irak/Erbil.png",
-
-  "stadium": {
-    "name": "Franso Hariri Stadium",
-    "capacity": 28000
+      {"playerId": "player_iq1_004_22", "name": "Rebaz Abdulla Abubakr", "number": 23, "position": "GK", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_004_23", "name": "Haval Ibrahim", "number": 24, "position": "CB", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_004_24", "name": "Karim Darwish", "number": 25, "position": "CM", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_004_25", "name": "Shwan Jalal", "number": 27, "position": "RW", "country": "IQ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
