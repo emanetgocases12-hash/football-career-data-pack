@@ -1,12 +1,52 @@
 {
-  "teamKey": "Bizert",
+    "teamKey": "Bizert",
+    "name": "CA Bizertin",
+    "logo": "assets/logos/africa/tunusia/Bizert.png",
+    "manager": {
+      "name": "Mohamed Azaiez",
+      "country": "TN"
+    },
+    "stadium": {
+      "name": "Stade du 15 Octobre",
+      "capacity": 20000
+    },
+    "players": [
+      {"playerId": "player_tn1_003_01", "name": "Youssef Maktouf", "number": 22, "position": "GK", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_003_02", "name": "Mohamd Aziz Gasmi", "number": 31, "position": "RB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_003_03", "name": "Mohamed Amine Allela", "number": 24, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_003_04", "name": "Hani Amamou", "number": 4, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_003_05", "name": "Rayane Rehimi", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_003_06", "name": "Achref Ferchichi", "number": 5, "position": "CDM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_003_07", "name": "Aymen Amri", "number": 7, "position": "CM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_003_08", "name": "Wassim Chihi", "number": 10, "position": "CAM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_003_09", "name": "Momar Diop", "number": 18, "position": "LW", "country": "SN", "status": "starter"},
+      {"playerId": "player_tn1_003_10", "name": "Ahmed Amri", "number": 9, "position": "ST", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_003_11", "name": "Wahid Timi", "number": 11, "position": "RW", "country": "TN", "status": "starter"},
 
-  "name": "CA Bizertin",
+      {"playerId": "player_tn1_003_12", "name": "Moatez Hanzouli", "number": 16, "position": "GK", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_003_13", "name": "Malek Doukali", "number": 20, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_003_14", "name": "Farouk Bougatfa", "number": 2, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_003_15", "name": "Yassine Kchouk", "number": 23, "position": "RB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_003_16", "name": "Aziz Gueblia", "number": 6, "position": "RB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_003_17", "name": "Bonaventure Fonseca", "number": 15, "position": "CDM", "country": "SN", "status": "bench"},
+      {"playerId": "player_tn1_003_18", "name": "Firas Ben Othman", "number": 21, "position": "CDM", "country": "FR", "status": "bench"},
+      {"playerId": "player_tn1_003_19", "name": "Iyed Midani", "number": 17, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_003_20", "name": "Mohamed Aziz Chaabane", "number": 27, "position": "CAM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_003_21", "name": "Olamilekan Nurudeen Ayinde", "number": 28, "position": "ST", "country": "NG", "status": "bench"},
 
-  "logo": "assets/logos/africa/tunusia/Bizert.png",
-
-  "stadium": {
-    "name": "Stade du 15 Octobre",
-    "capacity": 20000
+      {"playerId": "player_tn1_003_22", "name": "Sabri Saidi", "number": 25, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_003_23", "name": "Alaeddine Dridi", "number": 14, "position": "CM", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_003_24", "name": "Zied Berrima", "number": 29, "position": "ST", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_003_25", "name": "Marius Glo", "number": 32, "position": "ST", "country": "TG", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 18,
+        "cornerRight": 11
+      }
+    }
   }
-}
