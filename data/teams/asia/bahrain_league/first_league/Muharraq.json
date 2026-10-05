@@ -1,12 +1,52 @@
 {
-  "teamKey": "Muharr",
-
-  "name": "Muharraq SC",
-
-  "logo": "assets/logos/asia/bahrain/Muharraq.png",
-
-  "stadium": {
-    "name": "Al Muharraq Stadium",
-    "capacity": 20000
+    "teamKey": "Muharr",
+    "name": "Muharraq SC",
+    "logo": "assets/logos/asia/bahrain/Muharraq.png",
+    "manager": {
+      "name": "Hélder Cristóvão",
+      "country": "PT"
+    },
+    "stadium": {
+      "name": "Al Muharraq Stadium",
+      "capacity": 20000
+    },
+    "players": [
+      {"playerId": "player_bh1_011_01", "name": "Vladan Djekic", "number": 1, "position": "GK", "country": "RS", "status": "starter"},
+      {"playerId": "player_bh1_011_02", "name": "Abdulla Al Khalasi", "number": 32, "position": "RB", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_011_03", "name": "Waleed Al Hayam", "number": 3, "position": "CB", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_011_04", "name": "Amine Benadi", "number": 5, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_bh1_011_05", "name": "Bruno Santos", "number": 13, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_bh1_011_06", "name": "Mahdi Al Hardan", "number": 8, "position": "CDM", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_011_07", "name": "Arthur Rezende", "number": 80, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_bh1_011_08", "name": "Rijad Kobiljar", "number": 96, "position": "CAM", "country": "BA", "status": "starter"},
+      {"playerId": "player_bh1_011_09", "name": "Elliot Simoes", "number": 99, "position": "RW", "country": "AO", "status": "starter"},
+      {"playerId": "player_bh1_011_10", "name": "Ahmed Al Sherooqi", "number": 7, "position": "LW", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_011_11", "name": "Facundo Tobares", "number": 9, "position": "ST", "country": "AR", "status": "starter"},
+  
+      {"playerId": "player_bh1_011_12", "name": "Sayed Jaafar", "number": 21, "position": "GK", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_011_13", "name": "Husain Jameel", "number": 2, "position": "CB", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_011_14", "name": "Gervasio Olivera", "number": 26, "position": "CB", "country": "UY", "status": "bench"},
+      {"playerId": "player_bh1_011_15", "name": "Ahmed Bughammar", "number": 4, "position": "LB", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_011_16", "name": "Mohamed Al Banna", "number": 27, "position": "RB", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_011_17", "name": "Bryant Ortega", "number": 15, "position": "CAM", "country": "VE", "status": "bench"},
+      {"playerId": "player_bh1_011_18", "name": "Anderson Leite", "number": 29, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_bh1_011_19", "name": "Abdulwahab Al Malood", "number": 10, "position": "CM", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_011_20", "name": "Edimar Ribeiro", "number": 37, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_bh1_011_21", "name": "Hussein Abdulkarim", "number": 18, "position": "RW", "country": "BH", "status": "bench"},
+  
+      {"playerId": "player_bh1_011_22", "name": "Ashraf Al Sebaie", "number": 24, "position": "GK", "country": "BH", "status": "reserve"},
+      {"playerId": "player_bh1_011_23", "name": "Mohamed Salah Matar", "number": 45, "position": "CB", "country": "BH", "status": "reserve"},
+      {"playerId": "player_bh1_011_24", "name": "Lucas Morelatto", "number": 23, "position": "CAM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_bh1_011_25", "name": "Soufian Mahrouq", "number": 11, "position": "ST", "country": "MA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 96,
+        "cornerLeft": 7,
+        "cornerRight": 99
+      }
+    }
   }
-}
