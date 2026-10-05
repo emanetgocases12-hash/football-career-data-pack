@@ -1,12 +1,50 @@
 {
-  "teamKey": "Jurong",
-
-  "name": "FC Jurong",
-
-  "logo": "assets/logos/asia/singapor/Jurong.png",
-
-  "stadium": {
-    "name": "Jurong East Stadium",
-    "capacity": 2700
+    "teamKey": "Jurong",
+    "name": "FC Jurong",
+    "logo": "assets/logos/asia/singapor/Jurong.png",
+    "manager": {
+      "name": "Jaswinder Singh",
+      "country": "SG"
+    },
+    "stadium": {
+      "name": "Jurong East Stadium",
+      "capacity": 2700
+    },
+    "players": [
+      {"playerId": "player_sg1_004_01", "name": "Lee Jinwoo", "number": 1, "position": "GK", "country": "KR", "status": "starter"},
+      {"playerId": "player_sg1_004_02", "name": "Kim Yoonsik", "number": 2, "position": "RB", "country": "KR", "status": "starter"},
+      {"playerId": "player_sg1_004_03", "name": "Seo Seungwoo", "number": 5, "position": "CB", "country": "KR", "status": "starter"},
+      {"playerId": "player_sg1_004_04", "name": "Delwinder Singh", "number": 23, "position": "CB", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_004_05", "name": "Christopher Van Huizen", "number": 32, "position": "LB", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_004_06", "name": "Keisuke Honda", "number": 4, "position": "CDM", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_004_07", "name": "Yuma Tsuzurabara", "number": 6, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_004_08", "name": "Seiya Satsukida", "number": 7, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_004_09", "name": "Kodai Dohi", "number": 8, "position": "CAM", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_004_10", "name": "Takuma Yamaguchi", "number": 10, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_004_11", "name": "Mizuki Ando", "number": 9, "position": "ST", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_004_12", "name": "Hassan Sunny", "number": 18, "position": "GK", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_004_13", "name": "Shunsuke Ono", "number": 3, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_sg1_004_14", "name": "Akram Azman", "number": 19, "position": "RB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_004_15", "name": "Sim Jun Yen", "number": 20, "position": "CB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_004_16", "name": "Andrew Aw", "number": 24, "position": "LB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_004_17", "name": "Jaden Heng", "number": 14, "position": "CM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_004_18", "name": "Syed Firdaus", "number": 15, "position": "CM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_004_19", "name": "Toa Suenaga", "number": 11, "position": "LW", "country": "JP", "status": "bench"},
+      {"playerId": "player_sg1_004_20", "name": "Liska Iskandar", "number": 16, "position": "RW", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_004_21", "name": "Helmi Shahrol", "number": 17, "position": "ST", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_004_22", "name": "Firman Nabil", "number": 25, "position": "GK", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_004_23", "name": "Nicky Melvin Singh", "number": 22, "position": "ST", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_004_24", "name": "Haziq Kamarudin", "number": 42, "position": "CB", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_004_25", "name": "Shakthi Vinagavijayan", "number": 30, "position": "ST", "country": "SG", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 10
+      }
+    }
   }
-}
