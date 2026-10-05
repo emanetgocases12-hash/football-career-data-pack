@@ -1,12 +1,52 @@
 {
   "teamKey": "Rchrds",
-
   "name": "Richards Bay FC",
-
   "logo": "assets/logos/africa/south_africa/Rchrds.png",
-
+  "manager": {
+    "name": "Ronnie Gabriel",
+    "country": "ZA"
+  },
   "stadium": {
     "name": "Richards Bay Stadium",
     "capacity": 10500
+  },
+  "players": [
+    {"playerId": "player_za1_012_01", "name": "Salim Magoola", "number": 16, "position": "GK", "country": "UG", "status": "starter"},
+    {"playerId": "player_za1_012_02", "name": "Lwandile Mabuya", "number": 22, "position": "RB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_012_03", "name": "Simphiwe Mcineka", "number": 25, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_012_04", "name": "Thabani Zuke", "number": 8, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_012_05", "name": "Tshepo Mabua", "number": 72, "position": "LB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_012_06", "name": "Baggio Nashixwa", "number": 45, "position": "CDM", "country": "NA", "status": "starter"},
+    {"playerId": "player_za1_012_07", "name": "Olwethu Mbambo", "number": 31, "position": "CM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_012_08", "name": "Sanele Barns", "number": 30, "position": "RW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_012_09", "name": "Moses Mthembu", "number": 20, "position": "CAM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_012_10", "name": "Vincent Oburu", "number": 11, "position": "LW", "country": "KE", "status": "starter"},
+    {"playerId": "player_za1_012_11", "name": "Gabadinho Mhango", "number": 7, "position": "ST", "country": "MW", "status": "starter"},
+
+    {"playerId": "player_za1_012_12", "name": "Ian Otieno", "number": 1, "position": "GK", "country": "KE", "status": "bench"},
+    {"playerId": "player_za1_012_13", "name": "Fezile Gcaba", "number": 4, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_012_14", "name": "Sanele Zulu", "number": 37, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_012_15", "name": "Sbani Khumalo", "number": 47, "position": "LB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_012_16", "name": "Thembela Sikhakhane", "number": 5, "position": "RB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_012_17", "name": "Lindokuhle Zikhali", "number": 36, "position": "CAM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_012_18", "name": "Siyabonga Nzama", "number": 19, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_012_19", "name": "Thulani Gumede", "number": 17, "position": "RW", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_012_20", "name": "Knox Mutizwa", "number": 18, "position": "ST", "country": "ZW", "status": "bench"},
+    {"playerId": "player_za1_012_21", "name": "Lundi Mahala", "number": 14, "position": "ST", "country": "ZA", "status": "bench"},
+
+    {"playerId": "player_za1_012_22", "name": "Siphesihle Mtshali", "number": 32, "position": "GK", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_012_23", "name": "Kitso Mangolo", "number": 12, "position": "LB", "country": "BW", "status": "reserve"},
+    {"playerId": "player_za1_012_24", "name": "Wandile Ngema", "number": 33, "position": "RW", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_012_25", "name": "Ntlonelo Bomelo", "number": 9, "position": "ST", "country": "ZA", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 16,
+    "setPieces": {
+      "penalty": 7,
+      "freeKick": 30,
+      "cornerLeft": 30,
+      "cornerRight": 20
+    }
   }
 }
