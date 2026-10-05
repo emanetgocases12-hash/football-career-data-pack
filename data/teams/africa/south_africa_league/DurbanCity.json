@@ -1,12 +1,52 @@
 {
   "teamKey": "Durban",
-
   "name": "Durban City",
-
   "logo": "assets/logos/africa/south_africa/Durban.png",
-
+  "manager": {
+    "name": "Khalil Ben Youssef",
+    "country": "TN"
+  },
   "stadium": {
     "name": "Chatsworth Stadium",
     "capacity": 22000
+  },
+  "players": [
+    {"playerId": "player_za1_003_01", "name": "Fredrick Asare", "number": 33, "position": "GK", "country": "GH", "status": "starter"},
+    {"playerId": "player_za1_003_02", "name": "B. Shandu", "number": 2, "position": "RB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_003_03", "name": "S. Ncanana", "number": 5, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_003_04", "name": "F. Gcaba", "number": 4, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_003_05", "name": "K. Jurgens", "number": 17, "position": "LB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_003_06", "name": "T. Nodada", "number": 26, "position": "CDM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_003_07", "name": "H. Domingo", "number": 7, "position": "CM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_003_08", "name": "S. Msomi", "number": 27, "position": "RW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_003_09", "name": "G. Sirino", "number": 8, "position": "CAM", "country": "UY", "status": "starter"},
+    {"playerId": "player_za1_003_10", "name": "S. Maseko", "number": 10, "position": "LW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_003_11", "name": "T. Morris", "number": 9, "position": "ST", "country": "ZA", "status": "starter"},
+
+    {"playerId": "player_za1_003_12", "name": "Darren Keet", "number": 1, "position": "GK", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_003_13", "name": "T. Sanger", "number": 23, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_003_14", "name": "J. Mokone", "number": 24, "position": "RB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_003_15", "name": "M. Mkhize", "number": 30, "position": "LB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_003_16", "name": "B. Poggenpoel", "number": 18, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_003_17", "name": "E. Brooks", "number": 28, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_003_18", "name": "L. Sifumba", "number": 35, "position": "CAM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_003_19", "name": "J. Lwamba", "number": 20, "position": "ST", "country": "CD", "status": "bench"},
+    {"playerId": "player_za1_003_20", "name": "S. Green", "number": 13, "position": "LW", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_003_21", "name": "N. Madonsela", "number": 50, "position": "ST", "country": "ZA", "status": "bench"},
+
+    {"playerId": "player_za1_003_22", "name": "A. Jodwana", "number": 6, "position": "CB", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_003_23", "name": "A. Doumbia", "number": 29, "position": "CM", "country": "CI", "status": "reserve"},
+    {"playerId": "player_za1_003_24", "name": "L. Makua", "number": 16, "position": "RW", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_003_25", "name": "B. Mokwena", "number": 15, "position": "ST", "country": "ZA", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 33,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 27,
+      "cornerLeft": 27,
+      "cornerRight": 8
+    }
   }
 }
