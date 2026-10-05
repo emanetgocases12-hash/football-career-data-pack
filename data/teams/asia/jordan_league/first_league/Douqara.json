@@ -1,12 +1,35 @@
 {
-  "teamKey": "Duqara",
-
-  "name": "Douqara",
-
-  "logo": "assets/logos/asia/jordan/Duqara.png",
-
-  "stadium": {
-    "name": "Al Hassan Stadium",
-    "capacity": 12000
+    "teamKey": "Duqara",
+    "name": "Douqara",
+    "logo": "assets/logos/asia/jordan/Duqara.png",
+    "manager": {"name": "Ahmed Abdel-Qader", "country": "JO"},
+    "stadium": {"name": "Al Hassan Stadium", "capacity": 12000},
+    "players": [
+      {"playerId": "player_jo1_004_01", "name": "Asil Al-Sayaheen", "number": 1, "position": "GK", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_004_02", "name": "Bassam Daldoum", "number": 2, "position": "RB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_004_03", "name": "Abdullah Al-Manasrah", "number": 4, "position": "CB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_004_04", "name": "Adnan Nofal", "number": 5, "position": "CB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_004_05", "name": "Laith Abu Rahal", "number": 3, "position": "LB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_004_06", "name": "Murad Al-Qadoumi", "number": 6, "position": "CDM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_004_07", "name": "Abdulrahman Marie", "number": 8, "position": "CM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_004_08", "name": "Hamza Al-Saifi", "number": 11, "position": "RW", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_004_09", "name": "Saeed Murjan", "number": 10, "position": "CAM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_004_10", "name": "Faris Ghatasha", "number": 7, "position": "LW", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_004_11", "name": "Suhaib Abu Hashhash", "number": 9, "position": "ST", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_004_12", "name": "Ahmad Malkawi", "number": 22, "position": "GK", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_004_13", "name": "Ahmad Qatmish", "number": 14, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_004_14", "name": "Omar Qandil", "number": 15, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_004_15", "name": "Ward Al-Barri", "number": 17, "position": "RB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_004_16", "name": "Omar Al-Khatib", "number": 24, "position": "LB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_004_17", "name": "Ahed Al-Shahadat", "number": 25, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_004_18", "name": "Ahmad Tannous", "number": 16, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_004_19", "name": "Mahmoud Bishtawi", "number": 18, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_004_20", "name": "Mohammad Diami", "number": 20, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_004_21", "name": "Matheus Amaral", "number": 21, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_jo1_004_22", "name": "Ahmad Al Sghair", "number": 99, "position": "GK", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_004_23", "name": "Mohammad Jamal", "number": 27, "position": "CM", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_004_24", "name": "Mohammad Al-Khaldi", "number": 28, "position": "CM", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_004_25", "name": "Breno Teixeira", "number": 19, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 10, "setPieces": {"penalty": 9, "freeKick": 10, "cornerLeft": 7, "cornerRight": 11}}
   }
-}
