@@ -1,12 +1,50 @@
 {
-  "teamKey": "HK Rang",
-
-  "name": "BC Rangers",
-
-  "logo": "assets/logos/asia/hong_kong/Rangers.png",
-
-  "stadium": {
-    "name": "Tsing Yi Sports Ground —",
-    "capacity": 1458
+    "teamKey": "HK Rang",
+    "name": "BC Rangers",
+    "logo": "assets/logos/asia/hong_kong/Rangers.png",
+    "manager": {
+      "name": "Szeto Man Chun",
+      "country": "HK"
+    },
+    "stadium": {
+      "name": "Tsing Yi Sports Ground —",
+      "capacity": 1458
+    },
+    "players": [
+      {"playerId": "player_hk1_009_01", "name": "Yip Ka Yu", "number": 70, "position": "GK", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_009_02", "name": "Leung Wai Fung", "number": 4, "position": "RB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_009_03", "name": "Antenor Junior", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_hk1_009_04", "name": "Abdolreza Zarei", "number": 5, "position": "CB", "country": "IR", "status": "starter"},
+      {"playerId": "player_hk1_009_05", "name": "Tsang Cheuk Yin", "number": 17, "position": "LB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_009_06", "name": "Nathan Lourenço", "number": 6, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_hk1_009_07", "name": "Paulinho Souza", "number": 25, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_hk1_009_08", "name": "Ho Chun Ting", "number": 10, "position": "CAM", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_009_09", "name": "Ibrahim Yakubu Nassam", "number": 21, "position": "RW", "country": "GH", "status": "starter"},
+      {"playerId": "player_hk1_009_10", "name": "Lau Chi Lok", "number": 7, "position": "LW", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_009_11", "name": "Flavio Ticó", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_hk1_009_12", "name": "Wong Hiu Long", "number": 99, "position": "GK", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_009_13", "name": "Fernando Lopes", "number": 33, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_hk1_009_14", "name": "Lam Chin Yu", "number": 35, "position": "CB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_009_15", "name": "Ma Chin Ho", "number": 26, "position": "RB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_009_16", "name": "Yung Ho", "number": 23, "position": "CM", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_009_17", "name": "Chen Hao", "number": 11, "position": "RM", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_009_18", "name": "Cheung Ching Wan", "number": 20, "position": "CM", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_009_19", "name": "Matheus Pato", "number": 12, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_hk1_009_20", "name": "Hong Joo-yong", "number": 77, "position": "ST", "country": "KR", "status": "bench"},
+      {"playerId": "player_hk1_009_21", "name": "Ma Yung Sang", "number": 14, "position": "ST", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_009_22", "name": "Tong Chun Hung", "number": 19, "position": "GK", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_009_23", "name": "Milos Wong", "number": 28, "position": "CB", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_009_24", "name": "Li Wing Ho", "number": 32, "position": "RB", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_009_25", "name": "Owen Cheung", "number": 96, "position": "ST", "country": "HK", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 7,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 21,
+        "cornerRight": 25
+      }
+    }
   }
-}
