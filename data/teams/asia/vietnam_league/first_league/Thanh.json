@@ -1,12 +1,50 @@
-{
-  "teamKey": "Thanh",
-
-  "name": "Thanh Hóa FC",
-
-  "logo": "assets/logos/asia/vietnam/Thanh.png",
-
-  "stadium": {
-    "name": "Thanh Hóa Stadium",
-    "capacity": 14000
+  {
+    "teamKey": "Thanh",
+    "name": "Thanh Hóa FC",
+    "logo": "assets/logos/asia/vietnam/Thanh.png",
+    "manager": {
+      "name": "Nguyễn Anh Đức",
+      "country": "VN"
+    },
+    "stadium": {
+      "name": "Thanh Hóa Stadium",
+      "capacity": 14000
+    },
+    "players": [
+      {"playerId": "player_vn1_011_01", "name": "Trịnh Xuân Hoàng", "number": 67, "position": "GK", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_011_02", "name": "Lê Văn Thắng", "number": 7, "position": "RB", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_011_03", "name": "Gustavo Santos", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_vn1_011_04", "name": "Nguyễn Thanh Long", "number": 5, "position": "CB", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_011_05", "name": "Nguyễn Sỹ Nam", "number": 3, "position": "LB", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_011_06", "name": "Odilzhon Abdurakhmanov", "number": 8, "position": "CM", "country": "KG", "status": "starter"},
+      {"playerId": "player_vn1_011_07", "name": "A Mít", "number": 6, "position": "CM", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_011_08", "name": "Luiz Antonio", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_vn1_011_09", "name": "Lâm Ti Phông", "number": 11, "position": "RW", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_011_10", "name": "Nguyễn Trọng Hùng", "number": 17, "position": "LW", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_011_11", "name": "Rimario Gordon", "number": 9, "position": "ST", "country": "JM", "status": "starter"},
+      {"playerId": "player_vn1_011_12", "name": "Nguyễn Thanh Diệp", "number": 1, "position": "GK", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_011_13", "name": "Lương Bá Sơn", "number": 25, "position": "GK", "country": "VN", "status": "reserve"},
+      {"playerId": "player_vn1_011_14", "name": "Đinh Tiến Thành", "number": 15, "position": "CB", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_011_15", "name": "Nguyễn Thái Sơn", "number": 14, "position": "CM", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_011_16", "name": "Doãn Ngọc Tân", "number": 34, "position": "CDM", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_011_17", "name": "Nguyễn Hữu Dũng", "number": 18, "position": "CM", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_011_18", "name": "Lê Quốc Phương", "number": 19, "position": "LW", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_011_19", "name": "Nguyễn Văn Lợi", "number": 20, "position": "CB", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_011_20", "name": "Hoàng Đình Tùng", "number": 22, "position": "ST", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_011_21", "name": "Phạm Trùm Tỉnh", "number": 23, "position": "CAM", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_011_22", "name": "Nguyễn Văn Tùng", "number": 24, "position": "ST", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_011_23", "name": "Nguyễn Minh Tùng", "number": 27, "position": "CB", "country": "VN", "status": "reserve"},
+      {"playerId": "player_vn1_011_24", "name": "Đinh Văn Lợi", "number": 29, "position": "RW", "country": "VN", "status": "reserve"},
+      {"playerId": "player_vn1_011_25", "name": "Nguyễn Trọng Hùng", "number": 2, "position": "LW", "country": "VN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 67,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 17
+      }
+    }
   }
-}
