@@ -1,12 +1,44 @@
-{
-  "teamKey": "Shenhu",
-
-  "name": "Shanghai Shenhua FC",
-
-  "logo": "assets/logos/asia/china/Shenhua.png",
-
-  "stadium": {
-    "name": "Shanghai Stadium",
-    "capacity": 72436
+  {
+    "teamKey": "Shenhu",
+    "name": "Shanghai Shenhua FC",
+    "logo": "assets/logos/asia/china/Shenhua.png",
+    "manager": {"name": "Vladan Milojević", "country": "RS"},
+    "stadium": {"name": "Shanghai Stadium", "capacity": 72436},
+    "players": [
+      {"playerId": "player_cn1_009_01", "name": "Xue Qinghao", "number": 1, "position": "GK", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_009_02", "name": "Wilson Manafá", "number": 13, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_cn1_009_03", "name": "Jiang Shenglong", "number": 4, "position": "CB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_009_04", "name": "Zhu Chenjie", "number": 5, "position": "CB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_009_05", "name": "Shinichi Chan", "number": 27, "position": "LB", "country": "HK", "status": "starter"},
+      {"playerId": "player_cn1_009_06", "name": "Wu Xi", "number": 15, "position": "CDM", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_009_07", "name": "Gao Tianyi", "number": 17, "position": "CM", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_009_08", "name": "Xie Pengfei", "number": 30, "position": "RW", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_009_09", "name": "João Carlos Teixeira", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_cn1_009_10", "name": "Rafael Ratão", "number": 9, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_009_11", "name": "Luis Asué", "number": 19, "position": "ST", "country": "GQ", "status": "starter"},
+      {"playerId": "player_cn1_009_12", "name": "Ma Zhen", "number": 24, "position": "GK", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_009_13", "name": "Wang Shilong", "number": 2, "position": "RB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_009_14", "name": "Jin Shunkai", "number": 3, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_009_15", "name": "Yang Zexiang", "number": 16, "position": "RB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_009_16", "name": "Li Songyi", "number": 6, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_009_17", "name": "Li Ke", "number": 8, "position": "CDM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_009_18", "name": "Xu Haoyang", "number": 21, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_009_19", "name": "Wang Haijian", "number": 33, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_009_20", "name": "Liu Chengyu", "number": 18, "position": "ST", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_009_21", "name": "Makhtar Gueye", "number": 29, "position": "ST", "country": "SN", "status": "bench"},
+      {"playerId": "player_cn1_009_22", "name": "Wang Hanyi", "number": 31, "position": "GK", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_009_23", "name": "Zhu Yue", "number": 25, "position": "LB", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_009_24", "name": "Yang Shuai", "number": 26, "position": "CB", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_009_25", "name": "Huang Ming", "number": 36, "position": "CB", "country": "CN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 15,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 10,
+        "cornerLeft": 30,
+        "cornerRight": 9
+      }
+    }
   }
-}
