@@ -1,12 +1,52 @@
 {
-  "teamKey": "ESS",
+    "teamKey": "ESS",
+    "name": "Étoile du Sahel",
+    "logo": "assets/logos/africa/tunusia/ESS.png",
+    "manager": {
+      "name": "Christian Bracconi",
+      "country": "FR"
+    },
+    "stadium": {
+      "name": "Stade Olympique de Sousse",
+      "capacity": 50000
+    },
+    "players": [
+      {"playerId": "player_tn1_007_01", "name": "Sabri Ben Hessen", "number": 32, "position": "GK", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_007_02", "name": "Wajdi Kechrida", "number": 28, "position": "RB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_007_03", "name": "Nassim Hnid", "number": 5, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_007_04", "name": "Houssem Dagdoug", "number": 33, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_007_05", "name": "Ghofrane Naouali", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_007_06", "name": "Cedrik Gbo", "number": 6, "position": "CDM", "country": "CI", "status": "starter"},
+      {"playerId": "player_tn1_007_07", "name": "Mohamed Amine Ben Amor", "number": 29, "position": "CM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_007_08", "name": "Oussama Abid", "number": 10, "position": "CAM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_007_09", "name": "Zinedine Boutmène", "number": 7, "position": "RW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_tn1_007_10", "name": "Moussa Senghor", "number": 11, "position": "ST", "country": "SN", "status": "starter"},
+      {"playerId": "player_tn1_007_11", "name": "Oumar Bah", "number": 31, "position": "LW", "country": "ML", "status": "starter"},
 
-  "name": "Étoile du Sahel",
+      {"playerId": "player_tn1_007_12", "name": "Raed Gazzeh", "number": 1, "position": "GK", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_007_13", "name": "Alphonce Omija", "number": 2, "position": "CB", "country": "KE", "status": "bench"},
+      {"playerId": "player_tn1_007_14", "name": "Najeh Ferjani", "number": 21, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_007_15", "name": "Mokhles Chouchane", "number": 13, "position": "CDM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_007_16", "name": "Mohamed Aziz Jebali", "number": 8, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_007_17", "name": "Fedi Ben Choug", "number": 25, "position": "CAM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_007_18", "name": "Mohamed Rayane Anane", "number": 30, "position": "LW", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_007_19", "name": "Nizar Smichi", "number": 17, "position": "RW", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_007_20", "name": "Mohamed Yassine Chaabani", "number": 9, "position": "ST", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_007_21", "name": "Mohamed Saïd Benmazouz", "number": 14, "position": "ST", "country": "DZ", "status": "bench"},
 
-  "logo": "assets/logos/africa/tunusia/ESS.png",
-
-  "stadium": {
-    "name": "Stade Olympique de Sousse",
-    "capacity": 50000
+      {"playerId": "player_tn1_007_22", "name": "Khaled Youssef", "number": 16, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_007_23", "name": "Ahmed Horchani", "number": 22, "position": "RB", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_007_24", "name": "Zied Boughattas", "number": 15, "position": "CB", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_007_25", "name": "Adem Ouertani", "number": 23, "position": "CM", "country": "TN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 29,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 10
+      }
+    }
   }
-}
