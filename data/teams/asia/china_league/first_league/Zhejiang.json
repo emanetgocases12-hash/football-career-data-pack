@@ -1,12 +1,44 @@
-{
-  "teamKey": "Zhejia",
-
-  "name": "Zhejiang Professional FC",
-
-  "logo": "assets/logos/asia/china/Zhejiang.png",
-
-  "stadium": {
-    "name": "Huanglong Sports Center Stadium",
-    "capacity": 51971
+ {
+    "teamKey": "Zhejia",
+    "name": "Zhejiang Professional FC",
+    "logo": "assets/logos/asia/china/Zhejiang.png",
+    "manager": {"name": "Ross Aloisi", "country": "AU"},
+    "stadium": {"name": "Huanglong Sports Center Stadium", "capacity": 51971},
+    "players": [
+      {"playerId": "player_cn1_016_01", "name": "Zhao Bo", "number": 33, "position": "GK", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_016_02", "name": "Tong Lei", "number": 16, "position": "RB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_016_03", "name": "Lucas", "number": 36, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_016_04", "name": "Liu Haofan", "number": 5, "position": "CB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_016_05", "name": "Sun Guowen", "number": 26, "position": "LB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_016_06", "name": "Park Jin-seob", "number": 4, "position": "CDM", "country": "KR", "status": "starter"},
+      {"playerId": "player_cn1_016_07", "name": "Cheng Jin", "number": 22, "position": "CM", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_016_08", "name": "Wang Yudong", "number": 11, "position": "RW", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_016_09", "name": "Marko Tolić", "number": 10, "position": "CAM", "country": "HR", "status": "starter"},
+      {"playerId": "player_cn1_016_10", "name": "Alexandru Mitriță", "number": 28, "position": "LW", "country": "RO", "status": "starter"},
+      {"playerId": "player_cn1_016_11", "name": "Saúl Guarirapa", "number": 23, "position": "ST", "country": "VE", "status": "starter"},
+      {"playerId": "player_cn1_016_12", "name": "Dong Chunyu", "number": 1, "position": "GK", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_016_13", "name": "Wang Yang", "number": 3, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_016_14", "name": "Wang Shiqin", "number": 17, "position": "LB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_016_15", "name": "Bao Shengxin", "number": 6, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_016_16", "name": "Qian Jiegei", "number": 8, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_016_17", "name": "Wu Wei", "number": 14, "position": "CDM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_016_18", "name": "Zhang Jiaqi", "number": 29, "position": "CDM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_016_19", "name": "Tao Qianglong", "number": 7, "position": "RW", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_016_20", "name": "Gao Di", "number": 9, "position": "ST", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_016_21", "name": "Felippe Cardoso", "number": 27, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_cn1_016_22", "name": "Huo Shenping", "number": 32, "position": "GK", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_016_23", "name": "Abdusalam Ablikim", "number": 19, "position": "CM", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_016_24", "name": "Fang Hao", "number": 18, "position": "ST", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_016_25", "name": "Gao Tianyu", "number": 41, "position": "LM", "country": "JP", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 22,
+      "setPieces": {
+        "penalty": 23,
+        "freeKick": 10,
+        "cornerLeft": 28,
+        "cornerRight": 11
+      }
+    }
   }
-}
