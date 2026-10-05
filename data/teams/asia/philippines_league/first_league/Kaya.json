@@ -1,12 +1,50 @@
-{
-  "teamKey": "Kaya FC",
-
-  "name": "Kaya FC-Iloilo",
-
-  "logo": "assets/logos/asia/philippines/Kaya.png",
-
-  "stadium": {
-    "name": "Iloilo Sports Complex",
-    "capacity": 7000
+ {
+    "teamKey": "Kaya FC",
+    "name": "Kaya FC-Iloilo",
+    "logo": "assets/logos/asia/philippines/Kaya.png",
+    "manager": {
+      "name": "Bobae Park",
+      "country": "KR"
+    },
+    "stadium": {
+      "name": "Iloilo Sports Complex",
+      "capacity": 7000
+    },
+    "players": [
+      {"playerId": "player_ph1_004_01", "name": "Patrick Deyto", "number": 40, "position": "GK", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_004_02", "name": "Fitch Arboleda", "number": 22, "position": "RB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_004_03", "name": "Marco Casambre", "number": 15, "position": "CB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_004_04", "name": "Audie Menzi", "number": 44, "position": "CB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_004_05", "name": "Mar Diano", "number": 12, "position": "LB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_004_06", "name": "Eric Esso", "number": 25, "position": "CDM", "country": "GH", "status": "starter"},
+      {"playerId": "player_ph1_004_07", "name": "Mike Ott", "number": 5, "position": "CM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_004_08", "name": "Justin Peña", "number": 8, "position": "CAM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_004_09", "name": "Martini Rey", "number": 77, "position": "LW", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_004_10", "name": "Kentaro Fujikawa", "number": 79, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_ph1_004_11", "name": "Jesus Melliza", "number": 10, "position": "ST", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_004_12", "name": "Lance Bencio", "number": 16, "position": "GK", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_004_13", "name": "Gabriel Guimarães", "number": 4, "position": "CB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_004_14", "name": "Jaime Rosquillo", "number": 14, "position": "CB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_004_15", "name": "Emanuel Enriquez", "number": 35, "position": "LB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_004_16", "name": "Kim Sung-jin", "number": 70, "position": "RB", "country": "KR", "status": "bench"},
+      {"playerId": "player_ph1_004_17", "name": "Antoine Ortega", "number": 6, "position": "CM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_004_18", "name": "Sebastian Avanzini", "number": 19, "position": "CM", "country": "IT", "status": "bench"},
+      {"playerId": "player_ph1_004_19", "name": "Marc Alipoon", "number": 92, "position": "CAM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_004_20", "name": "Chris Valderrama", "number": 20, "position": "LW", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_004_21", "name": "Na Seung-eun", "number": 21, "position": "ST", "country": "KR", "status": "bench"},
+      {"playerId": "player_ph1_004_22", "name": "Iddrisu Natogma", "number": 31, "position": "GK", "country": "GH", "status": "reserve"},
+      {"playerId": "player_ph1_004_23", "name": "Ricardo Verza", "number": 9, "position": "ST", "country": "BR", "status": "reserve"},
+      {"playerId": "player_ph1_004_24", "name": "Paolo Bugas", "number": 39, "position": "CM", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_004_25", "name": "Kevin Ebene Moukouta", "number": 11, "position": "RW", "country": "CM", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 40,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 79
+      }
+    }
   }
-}
