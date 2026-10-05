@@ -1,12 +1,44 @@
 {
-  "teamKey": "Varen",
-
-  "name": "V-Varen Nagasaki",
-
-  "logo": "assets/logos/asia/japan/Varen.png",
-
-  "stadium": {
-    "name": "PEACE STADIUM Connected by SoftBank",
-    "capacity": 20268
+    "teamKey": "Varen",
+    "name": "V-Varen Nagasaki",
+    "logo": "assets/logos/asia/japan/Varen.png",
+    "manager": {"name": "Takagi Takuya", "country": "JP"},
+    "stadium": {"name": "PEACE STADIUM Connected by SoftBank", "capacity": 20268},
+    "players": [
+      {"playerId": "player_jp1_017_01", "name": "Goto Masaaki", "number": 1, "position": "GK", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_017_02", "name": "Yoneda Shunya", "number": 23, "position": "RB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_017_03", "name": "Eduardo", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_jp1_017_04", "name": "Ominami Takuma", "number": 25, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_017_05", "name": "Takahata Keita", "number": 17, "position": "LB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_017_06", "name": "Yamaguchi Hotaru", "number": 5, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_017_07", "name": "Diego Pituca", "number": 21, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_jp1_017_08", "name": "Matheus Jesus", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_jp1_017_09", "name": "Iwasaki Yuto", "number": 8, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_017_10", "name": "Thiago Santana", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_jp1_017_11", "name": "Masuyama Asahi", "number": 88, "position": "LW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_017_12", "name": "Hatano Go", "number": 13, "position": "GK", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_017_13", "name": "Egawa Yusei", "number": 6, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_017_14", "name": "Arai Ikki", "number": 29, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_017_15", "name": "Doi Kanta", "number": 31, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_017_16", "name": "Shindo Ryosuke", "number": 50, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_017_17", "name": "Yasuda Kenshin", "number": 7, "position": "CM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_017_18", "name": "Emerson", "number": 16, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_jp1_017_19", "name": "Nakamura Keita", "number": 20, "position": "CAM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_017_20", "name": "Hasegawa Motoki", "number": 41, "position": "CAM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_017_21", "name": "Norman Campbell", "number": 11, "position": "ST", "country": "JM", "status": "bench"},
+      {"playerId": "player_jp1_017_22", "name": "Luka Radotic", "number": 30, "position": "GK", "country": "RS", "status": "reserve"},
+      {"playerId": "player_jp1_017_23", "name": "Nagura Takumi", "number": 14, "position": "CAM", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_017_24", "name": "Yamasaki Ryogo", "number": 18, "position": "ST", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_017_25", "name": "Jonathan Junior", "number": 99, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 88
+      }
+    }
   }
-}
