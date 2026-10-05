@@ -1,12 +1,44 @@
 {
-  "teamKey": "JEF",
-
-  "name": "JEF United Chiba",
-
-  "logo": "assets/logos/asia/japan/Jef.png",
-
-  "stadium": {
-    "name": "Fukuda Denshi Arena",
-    "capacity": 19470
+    "teamKey": "JEF",
+    "name": "JEF United Chiba",
+    "logo": "assets/logos/asia/japan/Jef.png",
+    "manager": {"name": "Kobayashi Yoshiyuki", "country": "JP"},
+    "stadium": {"name": "Fukuda Denshi Arena", "capacity": 19470},
+    "players": [
+      {"playerId": "player_jp1_005_01", "name": "Jose Suarez", "number": 19, "position": "GK", "country": "ES", "status": "starter"},
+      {"playerId": "player_jp1_005_02", "name": "Kawano Takashi", "number": 11, "position": "RB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_005_03", "name": "Suzuki Daisuke", "number": 13, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_005_04", "name": "Daniel Hall", "number": 66, "position": "CB", "country": "AU", "status": "starter"},
+      {"playerId": "player_jp1_005_05", "name": "Mae Takayuki", "number": 15, "position": "LB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_005_06", "name": "Taguchi Taishi", "number": 4, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_005_07", "name": "Tsukui Takumi", "number": 8, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_005_08", "name": "Matheus Indio", "number": 25, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_jp1_005_09", "name": "Tanaka Kazuki", "number": 7, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_005_10", "name": "Ishikawa Daichi", "number": 20, "position": "ST", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_005_11", "name": "Hidaka Masaru", "number": 67, "position": "LW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_005_12", "name": "Usui Haruto", "number": 21, "position": "GK", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_005_13", "name": "Kuboniwa Ryota", "number": 3, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_005_14", "name": "Toriumi Koji", "number": 24, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_005_15", "name": "Ueda Yuta", "number": 45, "position": "LB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_005_16", "name": "Ishio Rikuto", "number": 39, "position": "RB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_005_17", "name": "Kobayashi Yusuke", "number": 5, "position": "CM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_005_18", "name": "Eduardo", "number": 6, "position": "CDM", "country": "BR", "status": "bench"},
+      {"playerId": "player_jp1_005_19", "name": "Sugiyama Naohiro", "number": 18, "position": "RM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_005_20", "name": "Issaka Zain", "number": 14, "position": "RW", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_005_21", "name": "Goya Hiroto", "number": 9, "position": "ST", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_005_22", "name": "Suzuki Ryota", "number": 23, "position": "GK", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_005_23", "name": "Amagasa Taiki", "number": 22, "position": "CM", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_005_24", "name": "Shinada Manato", "number": 44, "position": "CM", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_005_25", "name": "Erison", "number": 10, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 13,
+      "setPieces": {
+        "penalty": 20,
+        "freeKick": 25,
+        "cornerLeft": 25,
+        "cornerRight": 67
+      }
+    }
   }
-}
