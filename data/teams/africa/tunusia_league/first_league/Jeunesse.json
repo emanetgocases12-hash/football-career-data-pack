@@ -1,12 +1,52 @@
 {
-  "teamKey": "Jeunes",
+    "teamKey": "Jeunes",
+    "name": "Jeunesse Sportive Omrane",
+    "logo": "assets/logos/africa/tunusia/Jeunes.png",
+    "manager": {
+      "name": "Amine Beji",
+      "country": "TN"
+    },
+    "stadium": {
+      "name": " Stade Taieb Ben Ammar",
+      "capacity": 2000
+    },
+    "players": [
+      {"playerId": "player_tn1_009_01", "name": "Oussema Hanzouli", "number": 22, "position": "GK", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_009_02", "name": "Moustapha Souissi", "number": 2, "position": "RB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_009_03", "name": "Samer Marouani", "number": 5, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_009_04", "name": "Kabil Othmani", "number": 4, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_009_05", "name": "Omar Zouaghi", "number": 26, "position": "LB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_009_06", "name": "Aly Casmir Chinonso", "number": 6, "position": "CDM", "country": "NG", "status": "starter"},
+      {"playerId": "player_tn1_009_07", "name": "Mohamed Amine Ben Amor", "number": 19, "position": "CM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_009_08", "name": "Ghaith Ben Hamida", "number": 10, "position": "CAM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_009_09", "name": "Lionel Mondesir", "number": 21, "position": "RW", "country": "CI", "status": "starter"},
+      {"playerId": "player_tn1_009_10", "name": "Bilel Touati", "number": 9, "position": "ST", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_009_11", "name": "Ouday Belhaj", "number": 11, "position": "LW", "country": "TN", "status": "starter"},
 
-  "name": "Jeunesse Sportive Omrane",
+      {"playerId": "player_tn1_009_12", "name": "Seif Nahdi", "number": 13, "position": "GK", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_009_13", "name": "Haroune Kouki", "number": 30, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_009_14", "name": "Aziz Gharbi", "number": 15, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_009_15", "name": "Sami Hammami", "number": 20, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_009_16", "name": "Chigozie Eruchukwu", "number": 18, "position": "CB", "country": "NG", "status": "bench"},
+      {"playerId": "player_tn1_009_17", "name": "Sabeur Ben Messaoud", "number": 3, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_009_18", "name": "Yassine Nahdi", "number": 87, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_009_19", "name": "Firas Mahdouani", "number": 14, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_009_20", "name": "Souhaieb Abdelli", "number": 7, "position": "LM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_009_21", "name": "Mohamed Askri", "number": 28, "position": "LW", "country": "TN", "status": "bench"},
 
-  "logo": "assets/logos/africa/tunusia/Jeunes.png",
-
-  "stadium": {
-    "name": " Stade Taieb Ben Ammar",
-    "capacity": 2000
+      {"playerId": "player_tn1_009_22", "name": "Wassim Karoui", "number": 16, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_009_23", "name": "Saber Hammami", "number": 8, "position": "CAM", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_009_24", "name": "Malek Jammel", "number": 25, "position": "RW", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_009_25", "name": "Chiheb Zoughlami", "number": 17, "position": "ST", "country": "TN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 21
+      }
+    }
   }
-}
