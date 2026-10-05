@@ -1,12 +1,35 @@
-{
-  "teamKey": "Al Qadi",
-
-  "name": "Qadsia Sporting Club",
-
-  "logo": "assets/logos/asia/kuwait/Qadisah.png",
-
-  "stadium": {
-    "name": "Mohammed Al-Hamad Stadium",
-    "capacity": 22000
+ {
+    "teamKey": "Al Qadi",
+    "name": "Qadsia Sporting Club",
+    "logo": "assets/logos/asia/kuwait/Qadisah.png",
+    "manager": {"name": "Abdullah Al-Haqqan", "country": "KW"},
+    "stadium": {"name": "Mohammed Al-Hamad Stadium", "capacity": 22000},
+    "players": [
+      {"playerId": "player_kw1_008_01", "name": "Hameed Al-Qallaf", "number": 33, "position": "GK", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_008_02", "name": "Moaath Al-Dhafeeri", "number": 2, "position": "RB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_008_03", "name": "Khaled Sabah", "number": 3, "position": "CB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_008_04", "name": "Khaled Ebrahim", "number": 4, "position": "CB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_008_05", "name": "Rashed Al-Dosari", "number": 5, "position": "LB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_008_06", "name": "Eid Al-Rashidi", "number": 6, "position": "CDM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_008_07", "name": "Jean-Cédric Gbo", "number": 7, "position": "CM", "country": "CI", "status": "starter"},
+      {"playerId": "player_kw1_008_08", "name": "Dahman", "number": 8, "position": "CAM", "country": "OM", "status": "starter"},
+      {"playerId": "player_kw1_008_09", "name": "Bader Al-Mutawa", "number": 17, "position": "ST", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_008_10", "name": "Hamza Khabba", "number": 9, "position": "LW", "country": "MA", "status": "starter"},
+      {"playerId": "player_kw1_008_11", "name": "Gabriel Orok", "number": 10, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_kw1_008_12", "name": "Abdulaziz Al-Bahar", "number": 60, "position": "GK", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_008_13", "name": "Talal Al-Fadhel", "number": 11, "position": "CM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_008_14", "name": "Yousef Al-Haqqan", "number": 12, "position": "CB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_008_15", "name": "Mohamed Al-Sherifi", "number": 13, "position": "RB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_008_16", "name": "Ahmed Al-Yahya", "number": 14, "position": "LB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_008_17", "name": "Bader Jamal", "number": 15, "position": "CB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_008_18", "name": "Jasem Al-Mutar", "number": 16, "position": "RM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_008_19", "name": "Ayoub Lakhdar", "number": 18, "position": "LM", "country": "MA", "status": "bench"},
+      {"playerId": "player_kw1_008_20", "name": "Abdullah Motawe", "number": 19, "position": "CDM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_008_21", "name": "Abdulrahman Al-Dhafeeri", "number": 20, "position": "CAM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_008_22", "name": "Mohammad Al-Kandari", "number": 21, "position": "GK", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_008_23", "name": "Athbi Shehab", "number": 22, "position": "ST", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_008_24", "name": "Mohammed Al-Sharif", "number": 23, "position": "LW", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_008_25", "name": "Abdullah Al-Awadhi", "number": 24, "position": "RW", "country": "KW", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 6, "setPieces": {"penalty": 17, "freeKick": 8, "cornerLeft": 9, "cornerRight": 10}}
   }
-}
