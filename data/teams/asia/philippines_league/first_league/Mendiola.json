@@ -1,12 +1,50 @@
 {
-  "teamKey": "Mendio",
-
-  "name": "Mendiola FC",
-
-  "logo": "assets/logos/asia/philippines/Mendio.png",
-
-  "stadium": {
-    "name": "City of Imus Grandstand and Track Oval",
-    "capacity": 4800
+    "teamKey": "Mendio",
+    "name": "Mendiola FC",
+    "logo": "assets/logos/asia/philippines/Mendio.png",
+    "manager": {
+      "name": "Jeffrey Cuaycong",
+      "country": "PH"
+    },
+    "stadium": {
+      "name": "City of Imus Grandstand and Track Oval",
+      "capacity": 4800
+    },
+    "players": [
+      {"playerId": "player_ph1_007_01", "name": "Marc Pellejo", "number": 1, "position": "GK", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_007_02", "name": "Yuya Kashiwabara", "number": 2, "position": "RB", "country": "JP", "status": "starter"},
+      {"playerId": "player_ph1_007_03", "name": "B. Magumda", "number": 4, "position": "CB", "country": "UG", "status": "starter"},
+      {"playerId": "player_ph1_007_04", "name": "Tom Unsworth", "number": 5, "position": "CB", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_ph1_007_05", "name": "Julian Perilla", "number": 3, "position": "LB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_007_06", "name": "Rhys Williams", "number": 6, "position": "CDM", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_ph1_007_07", "name": "Amir Aningalan", "number": 8, "position": "CM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_007_08", "name": "Nikko Arañas", "number": 10, "position": "CAM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_007_09", "name": "Remedy Zlehwolo", "number": 11, "position": "LW", "country": "LR", "status": "starter"},
+      {"playerId": "player_ph1_007_10", "name": "John Tirado", "number": 7, "position": "RW", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_007_11", "name": "Tristan Mendoza", "number": 9, "position": "ST", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_007_12", "name": "Christian Molina", "number": 22, "position": "GK", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_007_13", "name": "Eun-soo Park", "number": 12, "position": "CB", "country": "KR", "status": "bench"},
+      {"playerId": "player_ph1_007_14", "name": "Amirmohammad Azadnouran", "number": 14, "position": "CM", "country": "IR", "status": "bench"},
+      {"playerId": "player_ph1_007_15", "name": "Yohann Fofana", "number": 15, "position": "ST", "country": "CI", "status": "bench"},
+      {"playerId": "player_ph1_007_16", "name": "Jay Soberano", "number": 16, "position": "CM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_007_17", "name": "George Pitkeathly", "number": 17, "position": "CB", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_ph1_007_18", "name": "Caelan McLeod", "number": 18, "position": "LB", "country": "CA", "status": "bench"},
+      {"playerId": "player_ph1_007_19", "name": "Ivan Ouano", "number": 19, "position": "RW", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_007_20", "name": "Eric Giganto", "number": 20, "position": "LW", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_007_21", "name": "Daniel Oppong", "number": 21, "position": "CDM", "country": "GH", "status": "bench"},
+      {"playerId": "player_ph1_007_22", "name": "Paolo Pascual", "number": 30, "position": "GK", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_007_23", "name": "Jhomaray Sapal", "number": 24, "position": "ST", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_007_24", "name": "Reggie Sulit", "number": 25, "position": "RB", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_007_25", "name": "Kurt Joven", "number": 27, "position": "LB", "country": "PH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
