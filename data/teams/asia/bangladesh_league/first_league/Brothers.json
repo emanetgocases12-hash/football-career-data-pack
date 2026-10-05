@@ -1,12 +1,52 @@
-{
-  "teamKey": "Brothe",
+ {
+    "teamKey": "Brothe",
+    "name": "Brothers Union",
+    "logo": "assets/logos/asia/bangladesh/Brothers.png",
+    "manager": {
+      "name": "Omar Sise",
+      "country": "GM"
+    },
+    "stadium": {
+      "name": "Gopalganj Old Stadium",
+      "capacity": 5000
+    },
+    "players": [
+      {"playerId": "player_bd1_005_01", "name": "Rasel Liton", "number": 1, "position": "GK", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_005_02", "name": "Sanish Shrestha", "number": 2, "position": "RB", "country": "NP", "status": "starter"},
+      {"playerId": "player_bd1_005_03", "name": "Mouhamed Becaye Diarra", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_bd1_005_04", "name": "Tutul Hossain Badsha", "number": 73, "position": "CB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_005_05", "name": "Yeasin Arafat", "number": 77, "position": "LB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_005_06", "name": "Jamal Bhuyan", "number": 6, "position": "CDM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_005_07", "name": "Arik Bista", "number": 12, "position": "CM", "country": "NP", "status": "starter"},
+      {"playerId": "player_bd1_005_08", "name": "Kpehi Didier Brossou", "number": 20, "position": "CM", "country": "CI", "status": "starter"},
+      {"playerId": "player_bd1_005_09", "name": "Yogesh Gurung", "number": 19, "position": "RW", "country": "NP", "status": "starter"},
+      {"playerId": "player_bd1_005_10", "name": "Aminur Rahman Sajib", "number": 9, "position": "ST", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_005_11", "name": "Yeasin Arafat Sifat", "number": 27, "position": "LW", "country": "BD", "status": "starter"},
 
-  "name": "Brothers Union",
+      {"playerId": "player_bd1_005_12", "name": "Ishaque Ali", "number": 22, "position": "GK", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_005_13", "name": "Mojammel Hossain Nira", "number": 3, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_005_14", "name": "Nabil Khandaker Joy", "number": 28, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_005_15", "name": "Sirajul Islam Rana", "number": 60, "position": "LB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_005_16", "name": "Abu Shaeid", "number": 7, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_005_17", "name": "Kawshik Barua", "number": 13, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_005_18", "name": "Kawser Ali Rabbi", "number": 17, "position": "RM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_005_19", "name": "Monaem Raju Khan", "number": 21, "position": "CAM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_005_20", "name": "Anjan Bista", "number": 14, "position": "ST", "country": "NP", "status": "bench"},
+      {"playerId": "player_bd1_005_21", "name": "Fernando Presentado", "number": 11, "position": "ST", "country": "PY", "status": "bench"},
 
-  "logo": "assets/logos/asia/bangladesh/Brothers.png",
-
-  "stadium": {
-    "name": "Gopalganj Old Stadium",
-    "capacity": 5000
+      {"playerId": "player_bd1_005_22", "name": "Shanto Kumar Ray", "number": 25, "position": "GK", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_005_23", "name": "Mohammed Emon Mahmoud", "number": 29, "position": "CM", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_005_24", "name": "Mannaf Rabby", "number": 18, "position": "ST", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_005_25", "name": "Assan Njie", "number": 30, "position": "ST", "country": "GM", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 6,
+        "cornerLeft": 19,
+        "cornerRight": 27
+      }
+    }
   }
-}
