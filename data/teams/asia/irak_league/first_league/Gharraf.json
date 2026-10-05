@@ -1,12 +1,52 @@
 {
-  "teamKey": "Gharra",
+    "teamKey": "Gharra",
+    "name": "Al-Gharraf SC",
+    "logo": "assets/logos/asia/irak/Gharraf.png",
+    "manager": {
+      "name": "Haider Obeid",
+      "country": "IQ"
+    },
+    "stadium": {
+      "name": "Al-Nasiriya International Stadium",
+      "capacity": 20000
+    },
+    "players": [
+      {"playerId": "player_iq1_005_01", "name": "Hussein Ali", "number": 1, "position": "GK", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_005_02", "name": "Ahmed Abbas", "number": 2, "position": "RB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_005_03", "name": "Ali Faez", "number": 4, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_005_04", "name": "Mustafa Nadhim", "number": 5, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_005_05", "name": "Haidar Hussein", "number": 3, "position": "LB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_005_06", "name": "Mohammed Saad", "number": 6, "position": "CDM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_005_07", "name": "Ali Karim", "number": 8, "position": "CM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_005_08", "name": "Hussein Ali Jabbar", "number": 7, "position": "RW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_005_09", "name": "Ahmed Yasin", "number": 10, "position": "CAM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_005_10", "name": "Mohammed Qasim", "number": 11, "position": "LW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_005_11", "name": "Hassan Abdulkarim", "number": 9, "position": "ST", "country": "IQ", "status": "starter"},
 
-  "name": "Al-Gharraf SC",
+      {"playerId": "player_iq1_005_12", "name": "Mustafa Karim", "number": 12, "position": "GK", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_005_13", "name": "Sajad Jassim", "number": 14, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_005_14", "name": "Ali Sabah", "number": 15, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_005_15", "name": "Karrar Amer", "number": 16, "position": "RB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_005_16", "name": "Mohammed Jawad", "number": 17, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_005_17", "name": "Abbas Qasim", "number": 18, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_005_18", "name": "Ahmed Sabri", "number": 20, "position": "LW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_005_19", "name": "Hussein Najm", "number": 21, "position": "RW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_005_20", "name": "Mohanad Abdul-Rahim", "number": 22, "position": "ST", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_005_21", "name": "Samuel Attah Kumi", "number": 19, "position": "ST", "country": "GH", "status": "bench"},
 
-  "logo": "assets/logos/asia/irak/Gharraf.png",
-
-  "stadium": {
-    "name": "Al-Nasiriya International Stadium",
-    "capacity": 20000
+      {"playerId": "player_iq1_005_22", "name": "Ali Kadhim", "number": 23, "position": "GK", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_005_23", "name": "Omar Noori", "number": 24, "position": "CB", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_005_24", "name": "Haidar Ali", "number": 25, "position": "CM", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_005_25", "name": "Wakaa Rammdan", "number": 27, "position": "ST", "country": "IQ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
