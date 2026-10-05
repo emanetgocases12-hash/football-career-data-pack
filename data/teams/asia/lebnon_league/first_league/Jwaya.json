@@ -1,12 +1,44 @@
-{
-  "teamKey": "Jwaya",
-
-  "name": "Jwaya Sporting Club",
-
-  "logo": "assets/logos/asia/lebanon/Jwaya.png",
-
-  "stadium": {
-    "name": "Fouad Chehab Stadium",
-    "capacity": 5000
+ {
+    "teamKey": "Jwaya",
+    "name": "Jwaya Sporting Club",
+    "logo": "assets/logos/asia/lebanon/Jwaya.png",
+    "manager": {"name": "Miloud Hamdi", "country": "DZ"},
+    "stadium": {"name": "Fouad Chehab Stadium", "capacity": 5000},
+    "players": [
+      {"playerId": "player_lb1_006_01", "name": "Ali Sabeh", "number": 1, "position": "GK", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_006_02", "name": "Hassan Kaafarani", "number": 2, "position": "RB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_006_03", "name": "Ali Hamam", "number": 3, "position": "CB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_006_04", "name": "Said Awada", "number": 4, "position": "CB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_006_05", "name": "Zein Farran", "number": 5, "position": "LB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_006_06", "name": "Walid Shour", "number": 6, "position": "CDM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_006_07", "name": "Hasan Srour", "number": 7, "position": "CM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_006_08", "name": "Jihad Ayoub", "number": 8, "position": "RW", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_006_09", "name": "Hussein Monzer", "number": 9, "position": "CAM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_006_10", "name": "Hassan Maatouk", "number": 10, "position": "LW", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_006_11", "name": "Hassan Bazzi", "number": 11, "position": "ST", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_006_12", "name": "Hassan Moghnieh", "number": 12, "position": "GK", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_006_13", "name": "Mohammad Safwan", "number": 13, "position": "CB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_006_14", "name": "Ali Fakieh", "number": 14, "position": "ST", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_006_15", "name": "Kitwa Kalowa", "number": 15, "position": "ST", "country": "CD", "status": "bench"},
+      {"playerId": "player_lb1_006_16", "name": "Ordy Simete", "number": 16, "position": "CB", "country": "CD", "status": "bench"},
+      {"playerId": "player_lb1_006_17", "name": "Jonathan Kanu", "number": 17, "position": "RW", "country": "NG", "status": "bench"},
+      {"playerId": "player_lb1_006_18", "name": "Rachidi Musinga", "number": 18, "position": "CM", "country": "CD", "status": "bench"},
+      {"playerId": "player_lb1_006_19", "name": "Karim Abou Zeid", "number": 19, "position": "CM", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_006_20", "name": "Adnan Melhem", "number": 20, "position": "LB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_006_21", "name": "Zein Farran Jr", "number": 21, "position": "RW", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_006_22", "name": "Rabih Salha", "number": 22, "position": "GK", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_006_23", "name": "Mohamad Chaito", "number": 23, "position": "CAM", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_006_24", "name": "Hussein Awada", "number": 24, "position": "LW", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_006_25", "name": "Mahmoud Siblini", "number": 25, "position": "CDM", "country": "LB", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 9,
+        "cornerLeft": 10,
+        "cornerRight": 8
+      }
+    }
   }
-}
