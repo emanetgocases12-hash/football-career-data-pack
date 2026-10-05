@@ -1,12 +1,52 @@
 {
-  "teamKey": "Bashun",
+    "teamKey": "Bashun",
+    "name": "Bashundhara Kings",
+    "logo": "assets/logos/asia/bangladesh/Bashun.png",
+    "manager": {
+      "name": "Victor Tița",
+      "country": "RO"
+    },
+    "stadium": {
+      "name": "Bashundhara Kings Arena",
+      "capacity": 6000
+    },
+    "players": [
+      {"playerId": "player_bd1_004_01", "name": "Anisur Rahman Zico", "number": 1, "position": "GK", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_004_02", "name": "Bishwanath Ghosh", "number": 12, "position": "RB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_004_03", "name": "Topu Barman", "number": 4, "position": "CB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_004_04", "name": "Emmanuel Tony Agbaji", "number": 2, "position": "CB", "country": "NG", "status": "starter"},
+      {"playerId": "player_bd1_004_05", "name": "M. Yousuf Ali", "number": 28, "position": "LB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_004_06", "name": "Rohit Chand", "number": 23, "position": "CDM", "country": "NP", "status": "starter"},
+      {"playerId": "player_bd1_004_07", "name": "Chandon Roy", "number": 14, "position": "CM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_004_08", "name": "Mojibur Rahman Jony", "number": 24, "position": "CM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_004_09", "name": "Robinho", "number": 10, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_bd1_004_10", "name": "Caique", "number": 19, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_bd1_004_11", "name": "M. Fahim", "number": 11, "position": "LW", "country": "BD", "status": "starter"},
 
-  "name": "Bashundhara Kings",
+      {"playerId": "player_bd1_004_12", "name": "Shahin Mollah", "number": 27, "position": "GK", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_004_13", "name": "Tanvir Hossain", "number": 5, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_004_14", "name": "Md Taj Uddin", "number": 15, "position": "RB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_004_15", "name": "Jahid Hossain", "number": 18, "position": "LB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_004_16", "name": "Rimon Hossain", "number": 71, "position": "LB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_004_17", "name": "Mohsin Ahmed", "number": 31, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_004_18", "name": "S. Raksam", "number": 42, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_004_19", "name": "M. Miah Zoni", "number": 44, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_004_20", "name": "Akmol Hossain", "number": 47, "position": "CAM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_004_21", "name": "Dori", "number": 9, "position": "ST", "country": "BR", "status": "bench"},
 
-  "logo": "assets/logos/asia/bangladesh/Bashun.png",
-
-  "stadium": {
-    "name": "Bashundhara Kings Arena",
-    "capacity": 6000
+      {"playerId": "player_bd1_004_22", "name": "M. Hasan", "number": 30, "position": "GK", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_004_23", "name": "U. Marma", "number": 66, "position": "CM", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_004_24", "name": "E. Sunday", "number": 37, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_bd1_004_25", "name": "Abu Yousuf Sifat", "number": 77, "position": "RW", "country": "BD", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
