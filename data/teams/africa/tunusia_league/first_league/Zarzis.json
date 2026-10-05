@@ -1,12 +1,52 @@
 {
-  "teamKey": "Zarzis",
+    "teamKey": "Zarzis",
+    "name": "ES Zarzis",
+    "logo": "assets/logos/africa/tunusia/Zarzis.png",
+    "manager": {
+      "name": "Chokri Khatoui",
+      "country": "TN"
+    },
+    "stadium": {
+      "name": "Stade Abdessalem Kazouz",
+      "capacity": 10000
+    },
+    "players": [
+      {"playerId": "player_tn1_016_01", "name": "Hamza Ghanmi", "number": 32, "position": "GK", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_016_02", "name": "Adem Taous", "number": 21, "position": "RB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_016_03", "name": "Samba Diouf", "number": 29, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_tn1_016_04", "name": "Sadok Touj", "number": 30, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_016_05", "name": "Yassine Laariadh", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_016_06", "name": "Ousseynou Touré", "number": 6, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_tn1_016_07", "name": "Khalil Kassab", "number": 13, "position": "CM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_016_08", "name": "David Ningo", "number": 17, "position": "CAM", "country": "CM", "status": "starter"},
+      {"playerId": "player_tn1_016_09", "name": "Amir Tajouri", "number": 27, "position": "RW", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_016_10", "name": "Kebba Sowe", "number": 9, "position": "ST", "country": "GM", "status": "starter"},
+      {"playerId": "player_tn1_016_11", "name": "Jassem Belkilani", "number": 25, "position": "LW", "country": "TN", "status": "starter"},
 
-  "name": "ES Zarzis",
+      {"playerId": "player_tn1_016_12", "name": "Wassim Maghzaoui", "number": 1, "position": "GK", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_016_13", "name": "Lamjed Rjili", "number": 28, "position": "RB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_016_14", "name": "Hazem Benhamed Mounadi", "number": 35, "position": "RB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_016_15", "name": "Youssef Bouskaya", "number": 20, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_016_16", "name": "Pape Mamour Diallo", "number": 22, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_tn1_016_17", "name": "Mohamed Mokhtar Zidi", "number": 24, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_016_18", "name": "Alseny Touré", "number": 64, "position": "CM", "country": "GN", "status": "bench"},
+      {"playerId": "player_tn1_016_19", "name": "Yakubu Sadik Abubakar", "number": 14, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_tn1_016_20", "name": "Mohamed Rayan Smaali", "number": 23, "position": "CDM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_016_21", "name": "Mohamed Hedi Jertila", "number": 10, "position": "ST", "country": "TN", "status": "bench"},
 
-  "logo": "assets/logos/africa/tunusia/Zarzis.png",
-
-  "stadium": {
-    "name": "Stade Abdessalem Kazouz",
-    "capacity": 10000
+      {"playerId": "player_tn1_016_22", "name": "Seifeddine Charfi", "number": 16, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_016_23", "name": "Adepoju Oluwaseun", "number": 15, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_tn1_016_24", "name": "Hamdi Labidi", "number": 7, "position": "ST", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_016_25", "name": "Adam Garreb", "number": 11, "position": "LW", "country": "TN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 13,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 13,
+        "cornerLeft": 27,
+        "cornerRight": 27
+      }
+    }
   }
-}
