@@ -1,12 +1,50 @@
-{
-  "teamKey": "Balest",
-
-  "name": "Balestier Khalsa FC",
-
-  "logo": "assets/logos/asia/singapor/Balestier.png",
-
-  "stadium": {
-    "name": "Bishan Stadium",
-    "capacity": 6254
+ {
+    "teamKey": "Balest",
+    "name": "Balestier Khalsa FC",
+    "logo": "assets/logos/asia/singapor/Balestier.png",
+    "manager": {
+      "name": "Marko Kraljević",
+      "country": "HR"
+    },
+    "stadium": {
+      "name": "Bishan Stadium",
+      "capacity": 6254
+    },
+    "players": [
+      {"playerId": "player_sg1_001_01", "name": "Hafiz Ahmad", "number": 21, "position": "GK", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_001_02", "name": "Tajeli Salamat", "number": 3, "position": "RB", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_001_03", "name": "Shakir Hamzah", "number": 4, "position": "CB", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_001_04", "name": "Danial Scott Crichton", "number": 5, "position": "CB", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_001_05", "name": "Jun Kobayashi", "number": 15, "position": "LB", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_001_06", "name": "Yushin Otake", "number": 18, "position": "CDM", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_001_07", "name": "Hiro Mizuguchi", "number": 14, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_001_08", "name": "Marin Kuzminski", "number": 10, "position": "CAM", "country": "HR", "status": "starter"},
+      {"playerId": "player_sg1_001_09", "name": "Daniel Goh", "number": 7, "position": "RW", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_001_10", "name": "Tin Matic", "number": 17, "position": "LW", "country": "HR", "status": "starter"},
+      {"playerId": "player_sg1_001_11", "name": "Zikos Chua", "number": 19, "position": "ST", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_001_12", "name": "Mario Mustapic", "number": 71, "position": "GK", "country": "HR", "status": "bench"},
+      {"playerId": "player_sg1_001_13", "name": "Azim Akbar", "number": 2, "position": "RB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_001_14", "name": "Fudhil I'yadh", "number": 20, "position": "CB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_001_15", "name": "Bah Bill Mamadou", "number": 23, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sg1_001_16", "name": "Syafi Nur Hilman", "number": 25, "position": "LB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_001_17", "name": "Woo Chun Wei", "number": 12, "position": "CM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_001_18", "name": "Ilyasin Zayan", "number": 24, "position": "CM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_001_19", "name": "Zamani Zamri", "number": 77, "position": "CAM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_001_20", "name": "Jakov Katusa", "number": 22, "position": "ST", "country": "HR", "status": "bench"},
+      {"playerId": "player_sg1_001_21", "name": "Ifat Sha'aban", "number": 30, "position": "RW", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_001_22", "name": "Dany Irfan", "number": 80, "position": "GK", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_001_23", "name": "Timothy Cheng", "number": 32, "position": "ST", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_001_24", "name": "Ethan Henry Pinto", "number": 33, "position": "CM", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_001_25", "name": "Firdaus Roslan", "number": 27, "position": "LB", "country": "SG", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 17
+      }
+    }
   }
-}
