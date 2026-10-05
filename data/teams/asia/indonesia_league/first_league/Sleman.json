@@ -1,12 +1,58 @@
 {
-  "teamKey": "Sleman",
+    "teamKey": "Sleman",
 
-  "name": "PSS Sleman",
+    "name": "PSS Sleman",
 
-  "logo": "assets/logos/asia/indonesia/Sleman.png",
+    "logo": "assets/logos/asia/indonesia/Sleman.png",
 
-  "stadium": {
-    "name": "Maguwoharjo Stadium",
-    "capacity": 20594
+    "manager": {
+      "name": "Pieter Huistra",
+      "country": "NL"
+    },
+
+    "stadium": {
+      "name": "Maguwoharjo Stadium",
+      "capacity": 20594
+    },
+
+    "players": [
+      { "playerId": "player_id1_016_01", "name": "Pedro Caracoci de Oliveira", "number": 1, "position": "GK", "country": "BR", "status": "starter" },
+      { "playerId": "player_id1_016_02", "name": "Stefan Ashkovski", "number": 15, "position": "RB", "country": "MK", "status": "starter" },
+      { "playerId": "player_id1_016_03", "name": "Cleberson", "number": 4, "position": "CB", "country": "BR", "status": "starter" },
+      { "playerId": "player_id1_016_04", "name": "Lucao", "number": 3, "position": "CB", "country": "BR", "status": "starter" },
+      { "playerId": "player_id1_016_05", "name": "Muhammad Salman Alfarid", "number": 16, "position": "LB", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_016_06", "name": "Christophe Nduwarugira", "number": 55, "position": "CDM", "country": "BI", "status": "starter" },
+      { "playerId": "player_id1_016_07", "name": "Hiromu Tanaka", "number": 7, "position": "CM", "country": "JP", "status": "starter" },
+      { "playerId": "player_id1_016_08", "name": "Moussa Bagayoko", "number": 8, "position": "CM", "country": "ML", "status": "starter" },
+      { "playerId": "player_id1_016_09", "name": "Riko Simanjuntak", "number": 25, "position": "RW", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_016_10", "name": "Melvyn Lorenzen", "number": 88, "position": "LW", "country": "UG", "status": "starter" },
+      { "playerId": "player_id1_016_11", "name": "Dimas Drajad", "number": 97, "position": "ST", "country": "ID", "status": "starter" },
+
+      { "playerId": "player_id1_016_12", "name": "Ega Rizky", "number": 43, "position": "GK", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_016_13", "name": "Fachruddin Aryanto", "number": 19, "position": "CB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_016_14", "name": "Kevin Gomes", "number": 6, "position": "LB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_016_15", "name": "Saiful Djoge", "number": 17, "position": "CB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_016_16", "name": "Kim Jeffrey Kurniawan", "number": 23, "position": "CM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_016_17", "name": "Arda Alfareza", "number": 28, "position": "CM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_016_18", "name": "Dominikus Dion", "number": 76, "position": "CM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_016_19", "name": "Matheus Fornazari", "number": 18, "position": "ST", "country": "BR", "status": "bench" },
+      { "playerId": "player_id1_016_20", "name": "Gustavo Tocantins", "number": 11, "position": "RW", "country": "BR", "status": "bench" },
+      { "playerId": "player_id1_016_21", "name": "Jajang Mulyana", "number": 73, "position": "ST", "country": "ID", "status": "bench" },
+
+      { "playerId": "player_id1_016_22", "name": "Safaat Romadhona", "number": 31, "position": "GK", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_016_23", "name": "Muhammad Isfandyar", "number": 30, "position": "CM", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_016_24", "name": "Ferrel Arda", "number": 26, "position": "CM", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_016_25", "name": "Relosa Rivan", "number": 36, "position": "RW", "country": "ID", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 97,
+        "freeKick": 25,
+        "cornerLeft": 7,
+        "cornerRight": 8
+      }
+    }
   }
-}
