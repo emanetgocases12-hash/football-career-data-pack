@@ -1,12 +1,52 @@
 {
-  "teamKey": "Golan",
+    "teamKey": "Golan",
+    "name": "Al-Jolan SC",
+    "logo": "assets/logos/asia/irak/Jolan.png",
+    "manager": {
+      "name": "Osama Ali",
+      "country": "IQ"
+    },
+    "stadium": {
+      "name": "Al-Jolan Stadium",
+      "capacity": 6000
+    },
+    "players": [
+      {"playerId": "player_iq1_008_01", "name": "Ahmed Salman", "number": 1, "position": "GK", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_008_02", "name": "Mustafa Karim", "number": 2, "position": "RB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_008_03", "name": "Ali Nasser", "number": 4, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_008_04", "name": "Hussein Kadhim", "number": 5, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_008_05", "name": "Mohammed Abbas", "number": 3, "position": "LB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_008_06", "name": "Sajad Karim", "number": 6, "position": "CDM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_008_07", "name": "Ahmed Ali", "number": 8, "position": "CM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_008_08", "name": "Karrar Hassan", "number": 7, "position": "RW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_008_09", "name": "Mohammed Yasin", "number": 10, "position": "CAM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_008_10", "name": "Haidar Saad", "number": 11, "position": "LW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_008_11", "name": "Ali Jabbar", "number": 9, "position": "ST", "country": "IQ", "status": "starter"},
 
-  "name": "Al-Jolan SC",
+      {"playerId": "player_iq1_008_12", "name": "Hassan Naji", "number": 12, "position": "GK", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_008_13", "name": "Mustafa Abbas", "number": 14, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_008_14", "name": "Ahmed Kadhim", "number": 15, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_008_15", "name": "Hussein Salim", "number": 16, "position": "LB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_008_16", "name": "Mohammed Kareem", "number": 17, "position": "RB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_008_17", "name": "Ali Hamid", "number": 18, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_008_18", "name": "Sajad Fadhil", "number": 20, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_008_19", "name": "Karrar Naji", "number": 21, "position": "RW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_008_20", "name": "Ahmed Sabah", "number": 22, "position": "LW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_008_21", "name": "Mohammed Hussein", "number": 19, "position": "ST", "country": "IQ", "status": "bench"},
 
-  "logo": "assets/logos/asia/irak/Jolan.png",
-
-  "stadium": {
-    "name": "Al-Jolan Stadium",
-    "capacity": 6000
+      {"playerId": "player_iq1_008_22", "name": "Ali Talib", "number": 23, "position": "GK", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_008_23", "name": "Mustafa Raad", "number": 24, "position": "CB", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_008_24", "name": "Haidar Jassim", "number": 25, "position": "CM", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_008_25", "name": "Hussein Younis", "number": 27, "position": "ST", "country": "IQ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
