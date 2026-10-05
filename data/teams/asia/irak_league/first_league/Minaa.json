@@ -1,12 +1,52 @@
 {
-  "teamKey": "Al Mina",
+    "teamKey": "Al Mina",
+    "name": "Al-Minaa SC",
+    "logo": "assets/logos/asia/irak/Minaa.png",
+    "manager": {
+      "name": "Hussein Abdulwahid",
+      "country": "IQ"
+    },
+    "stadium": {
+      "name": "Al-Minaa Olympic Stadium",
+      "capacity": 30000
+    },
+    "players": [
+      {"playerId": "player_iq1_013_01", "name": "Abid Salim", "number": 1, "position": "GK", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_013_02", "name": "Ahmed Yahya Alwan", "number": 2, "position": "RB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_013_03", "name": "Gerald Takwara", "number": 4, "position": "CB", "country": "ZW", "status": "starter"},
+      {"playerId": "player_iq1_013_04", "name": "Abdullah Mohsen", "number": 5, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_013_05", "name": "Ammar Abdulhussein", "number": 3, "position": "LB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_013_06", "name": "Abdulrazzaq Qasim", "number": 6, "position": "CDM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_013_07", "name": "Alaa Abdul Zahra", "number": 8, "position": "CM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_013_08", "name": "Hameed Ali", "number": 7, "position": "RW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_013_09", "name": "Karrar Lateef", "number": 10, "position": "CAM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_013_10", "name": "Abbas Mohammad", "number": 11, "position": "LW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_013_11", "name": "Mohannad Abdulraheem", "number": 9, "position": "ST", "country": "IQ", "status": "starter"},
 
-  "name": "Al-Minaa SC",
+      {"playerId": "player_iq1_013_12", "name": "Ridha Abdulaziz", "number": 12, "position": "GK", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_013_13", "name": "Ali Abadi", "number": 14, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_013_14", "name": "Bahaa Jameel", "number": 15, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_013_15", "name": "Mustafa Saadoon", "number": 16, "position": "RB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_013_16", "name": "Ali Kareem", "number": 17, "position": "LB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_013_17", "name": "Mohammed Qasim", "number": 18, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_013_18", "name": "Ali Jasim", "number": 20, "position": "CAM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_013_19", "name": "Hussein Ali", "number": 21, "position": "RW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_013_20", "name": "Ahmed Yasin", "number": 22, "position": "LW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_013_21", "name": "Ali Yousif", "number": 19, "position": "ST", "country": "IQ", "status": "bench"},
 
-  "logo": "assets/logos/asia/irak/Minaa.png",
-
-  "stadium": {
-    "name": "Al-Minaa Olympic Stadium",
-    "capacity": 30000
+      {"playerId": "player_iq1_013_22", "name": "Hussam Mahdi", "number": 23, "position": "GK", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_013_23", "name": "Sajad Jassim", "number": 24, "position": "CB", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_013_24", "name": "Haidar Ali", "number": 25, "position": "CM", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_013_25", "name": "Saif Rasheed", "number": 27, "position": "ST", "country": "IQ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
