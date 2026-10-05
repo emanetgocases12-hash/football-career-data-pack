@@ -1,12 +1,50 @@
 {
-  "teamKey": "Kitche",
-
-  "name": "Kitchee SC",
-
-  "logo": "assets/logos/asia/hong_kong/Kitchee.png",
-
-  "stadium": {
-    "name": "Tseung Kwan O Sports Ground",
-    "capacity": 3500
+    "teamKey": "Kitche",
+    "name": "Kitchee SC",
+    "logo": "assets/logos/asia/hong_kong/Kitchee.png",
+    "manager": {
+      "name": "Íñigo Calderón",
+      "country": "ES"
+    },
+    "stadium": {
+      "name": "Tseung Kwan O Sports Ground",
+      "capacity": 3500
+    },
+    "players": [
+      {"playerId": "player_hk1_004_01", "name": "Pong Cheuk Hei", "number": 17, "position": "GK", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_004_02", "name": "Jay Haddow", "number": 6, "position": "RB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_004_03", "name": "Roger Riera", "number": 3, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_hk1_004_04", "name": "Marcos Santos", "number": 2, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_hk1_004_05", "name": "Callum Beattie", "number": 22, "position": "LB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_004_06", "name": "Asier Illarramendi", "number": 5, "position": "CDM", "country": "ES", "status": "starter"},
+      {"playerId": "player_hk1_004_07", "name": "Tan Chun Lok", "number": 16, "position": "CM", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_004_08", "name": "Víctor Camarasa", "number": 15, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_hk1_004_09", "name": "Everton Camargo", "number": 18, "position": "RW", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_004_10", "name": "Ruslan Mingazov", "number": 7, "position": "LW", "country": "TM", "status": "starter"},
+      {"playerId": "player_hk1_004_11", "name": "Koldo Obieta", "number": 21, "position": "ST", "country": "ES", "status": "starter"},
+      {"playerId": "player_hk1_004_12", "name": "Tuscany Shek", "number": 23, "position": "GK", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_004_13", "name": "Luis Eduardo Nunes", "number": 20, "position": "CB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_004_14", "name": "Jason Kam", "number": 14, "position": "CB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_004_15", "name": "Jordan Lam", "number": 27, "position": "LB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_004_16", "name": "Kendy Leira", "number": 10, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_hk1_004_17", "name": "Yumemi Kanda", "number": 11, "position": "CAM", "country": "JP", "status": "bench"},
+      {"playerId": "player_hk1_004_18", "name": "Cheng Chin-Lung", "number": 8, "position": "CM", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_004_19", "name": "Juninho", "number": 30, "position": "LW", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_004_20", "name": "Adrián Revilla", "number": 9, "position": "ST", "country": "ES", "status": "bench"},
+      {"playerId": "player_hk1_004_21", "name": "Cheung Yiu-Hin", "number": 42, "position": "RW", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_004_22", "name": "Enikar Mehmud", "number": 13, "position": "GK", "country": "CN", "status": "reserve"},
+      {"playerId": "player_hk1_004_23", "name": "Yu Ching-Wai", "number": 47, "position": "CB", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_004_24", "name": "Li Siu-Hin", "number": 40, "position": "CAM", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_004_25", "name": "Chan Shing-Chun", "number": 37, "position": "CAM", "country": "HK", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 21,
+        "freeKick": 15,
+        "cornerLeft": 7,
+        "cornerRight": 18
+      }
+    }
   }
-}
