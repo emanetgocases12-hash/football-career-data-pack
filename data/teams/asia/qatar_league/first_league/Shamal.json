@@ -1,12 +1,50 @@
-{
-  "teamKey": "Shamal",
-
-  "name": "Al Shamal",
-
-  "logo": "assets/logos/asia/qatar/Shamal.png",
-
-  "stadium": {
-    "name": "Al Shamal SC Stadium",
-    "capacity": 5000
+ {
+    "teamKey": "Shamal",
+    "name": "Al Shamal",
+    "logo": "assets/logos/asia/qatar/Shamal.png",
+    "manager": {
+      "name": "David Prats",
+      "country": "ES"
+    },
+    "stadium": {
+      "name": "Al Shamal SC Stadium",
+      "capacity": 5000
+    },
+    "players": [
+      {"playerId": "player_qa1_010_01", "name": "Ali Ghalis", "number": 1, "position": "GK", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_010_02", "name": "Youssouf Sabaly", "number": 20, "position": "RB", "country": "SN", "status": "starter"},
+      {"playerId": "player_qa1_010_03", "name": "Pablo Mari", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_qa1_010_04", "name": "Jeison Murillo", "number": 24, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_qa1_010_05", "name": "Abdulkarim Hassan", "number": 3, "position": "LB", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_010_06", "name": "Mohamed Rabie Hrimat", "number": 34, "position": "CDM", "country": "MA", "status": "starter"},
+      {"playerId": "player_qa1_010_07", "name": "Mohamed Ben Romdhan", "number": 5, "position": "CM", "country": "TN", "status": "starter"},
+      {"playerId": "player_qa1_010_08", "name": "Alex Collado", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_qa1_010_09", "name": "Tamer Seyam", "number": 17, "position": "LW", "country": "PS", "status": "starter"},
+      {"playerId": "player_qa1_010_10", "name": "Mohamad Omar", "number": 7, "position": "RW", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_010_11", "name": "Baghdad Bounedjah", "number": 11, "position": "ST", "country": "DZ", "status": "starter"},
+      {"playerId": "player_qa1_010_12", "name": "Babacar Seck", "number": 95, "position": "GK", "country": "SN", "status": "bench"},
+      {"playerId": "player_qa1_010_13", "name": "Abdullah Al-Rady", "number": 45, "position": "GK", "country": "QA", "status": "reserve"},
+      {"playerId": "player_qa1_010_14", "name": "Moufak Awad", "number": 2, "position": "RB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_010_15", "name": "Musaab Khder", "number": 6, "position": "RB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_010_16", "name": "Milad Termanini", "number": 23, "position": "CB", "country": "PS", "status": "bench"},
+      {"playerId": "player_qa1_010_17", "name": "Hussain Bahzad", "number": 15, "position": "CB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_010_18", "name": "Federico Joaquin", "number": 16, "position": "CB", "country": "AR", "status": "bench"},
+      {"playerId": "player_qa1_010_19", "name": "Wesley Said", "number": 22, "position": "RW", "country": "FR", "status": "bench"},
+      {"playerId": "player_qa1_010_20", "name": "Ahmed Hagana", "number": 33, "position": "CB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_010_21", "name": "Fahad Waad", "number": 47, "position": "LB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_010_22", "name": "Omar Ali", "number": 14, "position": "CM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_010_23", "name": "Ali Asad", "number": 8, "position": "CAM", "country": "QA", "status": "reserve"},
+      {"playerId": "player_qa1_010_24", "name": "Ahmed Bader Sayyar", "number": 27, "position": "CM", "country": "QA", "status": "reserve"},
+      {"playerId": "player_qa1_010_25", "name": "Tiago Silva", "number": 70, "position": "CM", "country": "PT", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 11,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
