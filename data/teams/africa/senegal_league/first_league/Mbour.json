@@ -1,12 +1,52 @@
 {
-  "teamKey": "Mbour",
-
-  "name": "Stade de Mbour",
-
-  "logo": "assets/logos/africa/senegal/Mbour.png",
-
-  "stadium": {
-    "name": "Stade Caroline Faye",
-    "capacity": 5000
+    "teamKey": "Mbour",
+    "name": "Stade de Mbour",
+    "logo": "assets/logos/africa/senegal/Mbour.png",
+    "manager": {
+      "name": "Ansou Diadhiou",
+      "country": "SN"
+    },
+    "stadium": {
+      "name": "Stade Caroline Faye",
+      "capacity": 5000
+    },
+    "players": [
+      {"playerId": "player_sn1_011_01", "name": "Boubacar Nguer", "number": 16, "position": "GK", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_011_02", "name": "Abo Ka", "number": 2, "position": "RB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_011_03", "name": "Pape Cham", "number": 17, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_011_04", "name": "Lamine Bodian", "number": 29, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_011_05", "name": "Ibrahima Sarr", "number": 3, "position": "LB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_011_06", "name": "Asso Ndiaye", "number": 25, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_011_07", "name": "Mouhamed Coly", "number": 8, "position": "CM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_011_08", "name": "Pape Camara", "number": 7, "position": "RW", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_011_09", "name": "Landing Sagna", "number": 10, "position": "CAM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_011_10", "name": "Amadou Gaye", "number": 15, "position": "LW", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_011_11", "name": "Fadel Diouf", "number": 9, "position": "ST", "country": "SN", "status": "starter"},
+  
+      {"playerId": "player_sn1_011_12", "name": "Dib Faye", "number": 1, "position": "GK", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_011_13", "name": "Boubacar Faye", "number": 24, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_011_14", "name": "Ousmane Touré", "number": 14, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_011_15", "name": "Mouhamadou Mbaye", "number": 22, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_011_16", "name": "Thierno Sakho", "number": 6, "position": "LB", "country": "GM", "status": "bench"},
+      {"playerId": "player_sn1_011_17", "name": "Abib Dieme", "number": 19, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_011_18", "name": "François Mendy", "number": 20, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_011_19", "name": "Cheikh Tamba", "number": 12, "position": "CAM", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_011_20", "name": "Babacar Ba", "number": 18, "position": "RW", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_011_21", "name": "Amath Cissokho", "number": 26, "position": "ST", "country": "SN", "status": "bench"},
+  
+      {"playerId": "player_sn1_011_22", "name": "François Preira", "number": 4, "position": "CB", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_011_23", "name": "Daouda Konaté", "number": 21, "position": "CM", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_011_24", "name": "Sény Ndiaye", "number": 23, "position": "RW", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_011_25", "name": "Djim Cissé", "number": 27, "position": "ST", "country": "SN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 16,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 15
+      }
+    }
   }
-}
