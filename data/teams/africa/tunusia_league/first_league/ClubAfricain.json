@@ -1,12 +1,52 @@
 {
-  "teamKey": "Club Af",
+    "teamKey": "Club Af",
+    "name": "Club Africain",
+    "logo": "assets/logos/africa/tunusia/ClubAf.png",
+    "manager": {
+      "name": "Maher Kanzari",
+      "country": "TN"
+    },
+    "stadium": {
+      "name": "Stade Olympique Hammadi Agrebi",
+      "capacity": 65000
+    },
+    "players": [
+      {"playerId": "player_tn1_004_01", "name": "Abdelmouhib Chamakh", "number": 1, "position": "GK", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_004_02", "name": "Ghaith Zaalouni", "number": 17, "position": "RB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_004_03", "name": "Ismaïla Simpara", "number": 36, "position": "CB", "country": "ML", "status": "starter"},
+      {"playerId": "player_tn1_004_04", "name": "Ammar Abdelhak", "number": 6, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_004_05", "name": "Ghassen Mahressi", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_004_06", "name": "Saidou Khan", "number": 28, "position": "CDM", "country": "GM", "status": "starter"},
+      {"playerId": "player_tn1_004_07", "name": "Mootez Zaddem", "number": 30, "position": "CM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_004_08", "name": "Osama Elsharimi", "number": 32, "position": "CM", "country": "LY", "status": "starter"},
+      {"playerId": "player_tn1_004_09", "name": "Phillippe Kinzumbi", "number": 18, "position": "RW", "country": "CD", "status": "starter"},
+      {"playerId": "player_tn1_004_10", "name": "Sadok Kadida", "number": 40, "position": "ST", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_004_11", "name": "Hamza Khadhraoui", "number": 7, "position": "LW", "country": "TN", "status": "starter"},
 
-  "name": "Club Africain",
+      {"playerId": "player_tn1_004_12", "name": "Ghaith Yeferni", "number": 16, "position": "GK", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_004_13", "name": "Yassine Meriah", "number": 2, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_004_14", "name": "Yassine Bouabid", "number": 4, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_004_15", "name": "Houssem Ben Ali", "number": 33, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_004_16", "name": "Houssem Hassen Romdhane", "number": 24, "position": "RB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_004_17", "name": "Charfeddine Ouni", "number": 13, "position": "CDM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_004_18", "name": "Mohamed Sadok Mahmoud", "number": 10, "position": "CDM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_004_19", "name": "Alain Kanté", "number": 8, "position": "CAM", "country": "BF", "status": "bench"},
+      {"playerId": "player_tn1_004_20", "name": "Aymen Harzi", "number": 31, "position": "LW", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_004_21", "name": "Bassem Srarfi", "number": 19, "position": "RW", "country": "TN", "status": "bench"},
 
-  "logo": "assets/logos/africa/tunusia/ClubAf.png",
-
-  "stadium": {
-    "name": "Stade Olympique Hammadi Agrebi",
-    "capacity": 65000
+      {"playerId": "player_tn1_004_22", "name": "Malek Saada", "number": 22, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_004_23", "name": "Bilel Aït Malek", "number": 21, "position": "LW", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_004_24", "name": "Oussema Bouguerra", "number": 29, "position": "LW", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_004_25", "name": "Taddeus Nkeng Fomakwang", "number": 34, "position": "ST", "country": "CM", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 30,
+      "setPieces": {
+        "penalty": 40,
+        "freeKick": 7,
+        "cornerLeft": 18,
+        "cornerRight": 7
+      }
+    }
   }
-}
