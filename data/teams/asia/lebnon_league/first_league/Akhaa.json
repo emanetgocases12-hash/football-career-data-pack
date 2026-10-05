@@ -1,12 +1,44 @@
 {
-  "teamKey": "Akhaa",
-
-  "name": "Akhaa Ahli Aley Football Club",
-
-  "logo": "assets/logos/asia/lebanon/Akhaa.png",
-
-  "stadium": {
-    "name": "Amin AbdelNour Stadium",
-    "capacity": 3500
+    "teamKey": "Akhaa",
+    "name": "Akhaa Ahli Aley Football Club",
+    "logo": "assets/logos/asia/lebanon/Akhaa.png",
+    "manager": {"name": "Hussein Soufan", "country": "LB"},
+    "stadium": {"name": "Amin AbdelNour Stadium", "capacity": 3500},
+    "players": [
+      {"playerId": "player_lb1_003_01", "name": "Rabih Salha", "number": 1, "position": "GK", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_003_02", "name": "Mohammad Shoumar", "number": 2, "position": "RB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_003_03", "name": "Mamadou Toure", "number": 3, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_lb1_003_04", "name": "Ahmad El Khatib", "number": 4, "position": "CB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_003_05", "name": "Jad Flayti", "number": 5, "position": "LB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_003_06", "name": "Issa Ndiaye", "number": 6, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_lb1_003_07", "name": "Samer El Jawhari", "number": 7, "position": "CM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_003_08", "name": "Wael Abdelkhalek", "number": 8, "position": "RW", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_003_09", "name": "Omar El Kurdi", "number": 9, "position": "CAM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_003_10", "name": "Chadi Abdelkhalek", "number": 10, "position": "LW", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_003_11", "name": "Boucounta Sarr", "number": 11, "position": "ST", "country": "SN", "status": "starter"},
+      {"playerId": "player_lb1_003_12", "name": "Ali Hjayrat", "number": 12, "position": "GK", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_003_13", "name": "Saad Fayad", "number": 13, "position": "CB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_003_14", "name": "Ali Al Moussa", "number": 14, "position": "CB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_003_15", "name": "Daniel Abbas", "number": 15, "position": "RB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_003_16", "name": "Rayan Bou Chahine", "number": 16, "position": "LB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_003_17", "name": "Mohammed Qasem", "number": 17, "position": "CM", "country": "PS", "status": "bench"},
+      {"playerId": "player_lb1_003_18", "name": "Mohamad Haddadeh", "number": 18, "position": "CM", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_003_19", "name": "Adam Kobeissi", "number": 19, "position": "ST", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_003_20", "name": "Mohammad El Saleh", "number": 20, "position": "ST", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_003_21", "name": "Karim Tarhini", "number": 21, "position": "LW", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_003_22", "name": "Zein Saab", "number": 22, "position": "GK", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_003_23", "name": "Paul Khater", "number": 23, "position": "CDM", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_003_24", "name": "Dani Al Jurdi", "number": 24, "position": "RW", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_003_25", "name": "Ali Karaki", "number": 25, "position": "ST", "country": "LB", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 9,
+        "cornerLeft": 10,
+        "cornerRight": 8
+      }
+    }
   }
-}
