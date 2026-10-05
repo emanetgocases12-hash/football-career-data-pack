@@ -1,12 +1,44 @@
-{
-  "teamKey": "Qingda",
-
-  "name": "Qingdao West Coast FC",
-
-  "logo": "assets/logos/asia/china/QingdaoWest.png",
-
-  "stadium": {
-    "name": "Qingdao West Coast University City Sports Center",
-    "capacity": 27000
+  {
+    "teamKey": "Qingda",
+    "name": "Qingdao West Coast FC",
+    "logo": "assets/logos/asia/china/QingdaoWest.png",
+    "manager": {"name": "Zheng Zhi", "country": "CN"},
+    "stadium": {"name": "Qingdao West Coast University City Sports Center", "capacity": 27000},
+    "players": [
+      {"playerId": "player_cn1_007_01", "name": "Li Hao", "number": 16, "position": "GK", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_007_02", "name": "Song Bowei", "number": 2, "position": "RB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_007_03", "name": "Samir Memišević", "number": 5, "position": "CB", "country": "BA", "status": "starter"},
+      {"playerId": "player_cn1_007_04", "name": "Sun Jie", "number": 36, "position": "CB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_007_05", "name": "Zhao Honglue", "number": 3, "position": "LB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_007_06", "name": "Zhang Xiuwei", "number": 8, "position": "CM", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_007_07", "name": "Barak Braunshtain", "number": 18, "position": "CM", "country": "HK", "status": "starter"},
+      {"playerId": "player_cn1_007_08", "name": "Afrden Asqer", "number": 27, "position": "RW", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_007_09", "name": "Davidson", "number": 11, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_007_10", "name": "Nelson da Luz", "number": 10, "position": "LW", "country": "AO", "status": "starter"},
+      {"playerId": "player_cn1_007_11", "name": "Aziz Yakubu", "number": 9, "position": "ST", "country": "GH", "status": "starter"},
+      {"playerId": "player_cn1_007_12", "name": "Shi Xiaotian", "number": 35, "position": "GK", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_007_13", "name": "Bruno Viana", "number": 12, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_cn1_007_14", "name": "Pei Shuai", "number": 25, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_007_15", "name": "Ding Haifeng", "number": 32, "position": "LB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_007_16", "name": "Dong Yu", "number": 19, "position": "RB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_007_17", "name": "Peng Xinli", "number": 6, "position": "CAM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_007_18", "name": "He Longhai", "number": 20, "position": "RW", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_007_19", "name": "Zhang Chengdong", "number": 28, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_007_20", "name": "Shan Huanhuan", "number": 29, "position": "ST", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_007_21", "name": "He Xiaoke", "number": 45, "position": "ST", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_007_22", "name": "Dong Hang", "number": 37, "position": "GK", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_007_23", "name": "Song Nan", "number": 44, "position": "CAM", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_007_24", "name": "Yang Zhanpeng", "number": 30, "position": "CAM", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_007_25", "name": "Yan Qihang", "number": 99, "position": "ST", "country": "CN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 36,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 27,
+        "cornerRight": 10
+      }
+    }
   }
-}
