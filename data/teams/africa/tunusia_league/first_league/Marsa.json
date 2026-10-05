@@ -1,12 +1,52 @@
 {
-  "teamKey": "Marsa",
+    "teamKey": "Marsa",
+    "name": "AS Marsa",
+    "logo": "assets/logos/africa/tunusia/Masra.png",
+    "manager": {
+      "name": "Imed Ben Younes",
+      "country": "TN"
+    },
+    "stadium": {
+      "name": "Stade Abdelaziz Chtioui",
+      "capacity": 6000
+    },
+    "players": [
+      {"playerId": "player_tn1_010_01", "name": "Hamza Ben Cherifia", "number": 16, "position": "GK", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_010_02", "name": "Oussama Jebali", "number": 17, "position": "RB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_010_03", "name": "Mohamed Aziz Chaouech", "number": 2, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_010_04", "name": "Oussama Bahri", "number": 5, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_010_05", "name": "Mohamed Amine Kechiche", "number": 34, "position": "LB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_010_06", "name": "Kouni Khalfa", "number": 6, "position": "CDM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_010_07", "name": "Philip Adejoh Ojonugwa", "number": 21, "position": "CM", "country": "NG", "status": "starter"},
+      {"playerId": "player_tn1_010_08", "name": "Ricky Hans Gneba", "number": 15, "position": "CAM", "country": "CI", "status": "starter"},
+      {"playerId": "player_tn1_010_09", "name": "Rayen Hamrouni", "number": 10, "position": "RW", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_010_10", "name": "Youssouf Dao", "number": 25, "position": "ST", "country": "CI", "status": "starter"},
+      {"playerId": "player_tn1_010_11", "name": "Firas Iffia", "number": 7, "position": "LW", "country": "TN", "status": "starter"},
 
-  "name": "AS Marsa",
+      {"playerId": "player_tn1_010_12", "name": "Mohamed Amine Ben Braiek", "number": 1, "position": "GK", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_010_13", "name": "Mohamed Aziz Traidi", "number": 13, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_010_14", "name": "Mohamed Amine Khaloui", "number": 27, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_010_15", "name": "Omar Traidi", "number": 11, "position": "CAM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_010_16", "name": "Nour Mani", "number": 18, "position": "ST", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_010_17", "name": "Amanallah Ben Hamida", "number": 28, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_010_18", "name": "Victorino Polaco", "number": 26, "position": "ST", "country": "AO", "status": "bench"},
+      {"playerId": "player_tn1_010_19", "name": "Baligh Jemmali", "number": 3, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_010_20", "name": "Omar Bouraoui", "number": 20, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_010_21", "name": "Yassine Werzli", "number": 24, "position": "CB", "country": "TN", "status": "bench"},
 
-  "logo": "assets/logos/africa/tunusia/Masra.png",
-
-  "stadium": {
-    "name": "Stade Abdelaziz Chtioui",
-    "capacity": 6000
+      {"playerId": "player_tn1_010_22", "name": "Sami Helal", "number": 23, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_010_23", "name": "Mohamed Bechir Abbassi", "number": 22, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_010_24", "name": "Abdelkader Guesmi", "number": 8, "position": "CM", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_010_25", "name": "Yassine Zouari", "number": 19, "position": "RW", "country": "TN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 25,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 10
+      }
+    }
   }
-}
