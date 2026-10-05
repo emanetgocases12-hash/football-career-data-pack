@@ -1,12 +1,52 @@
 {
-  "teamKey": "Sakiet",
+    "teamKey": "Sakiet",
+    "name": "Progrès Sportif de Sakiet Eddaïer",
+    "logo": "assets/logos/africa/tunusia/Sakiet.png",
+    "manager": {
+      "name": "Hatem Khcharem",
+      "country": "TN"
+    },
+    "stadium": {
+      "name": "Stade Taïeb Mhiri",
+      "capacity": 12600
+    },
+    "players": [
+      {"playerId": "player_tn1_012_01", "name": "Abdelkader Chouaya", "number": 44, "position": "GK", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_012_02", "name": "Hamza Rebaii", "number": 34, "position": "RB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_012_03", "name": "Bertrand Bationo", "number": 5, "position": "CB", "country": "BF", "status": "starter"},
+      {"playerId": "player_tn1_012_04", "name": "Aymen Azzaza", "number": 26, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_012_05", "name": "Amadou Ba", "number": 2, "position": "LB", "country": "SN", "status": "starter"},
+      {"playerId": "player_tn1_012_06", "name": "Frej Ajroudi", "number": 25, "position": "CDM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_012_07", "name": "Mossaab Laajili Trabelsi", "number": 22, "position": "CM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_012_08", "name": "Lassad Bouraoui", "number": 10, "position": "CAM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_012_09", "name": "Haroun Ben Ameur", "number": 7, "position": "RW", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_012_10", "name": "Amir Jaouadi", "number": 18, "position": "ST", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_012_11", "name": "Sadok Lingazou", "number": 11, "position": "LW", "country": "TN", "status": "starter"},
 
-  "name": "Progrès Sportif de Sakiet Eddaïer",
+      {"playerId": "player_tn1_012_12", "name": "Majdi Moncer", "number": 1, "position": "GK", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_012_13", "name": "Wassim Attig", "number": 21, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_012_14", "name": "Mohamed Amine Naoui", "number": 17, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_012_15", "name": "Hamdi Sellami", "number": 29, "position": "RB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_012_16", "name": "Dhia Maatougui", "number": 3, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_012_17", "name": "Heni Abdelhedi", "number": 6, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_012_18", "name": "Amine Njah", "number": 20, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_012_19", "name": "Achref Jaziri", "number": 12, "position": "CAM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_012_20", "name": "Fedi Derguech", "number": 13, "position": "LW", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_012_21", "name": "Akram Bahloul", "number": 30, "position": "ST", "country": "TN", "status": "bench"},
 
-  "logo": "assets/logos/africa/tunusia/Sakiet.png",
-
-  "stadium": {
-    "name": "Stade Taïeb Mhiri",
-    "capacity": 12600
+      {"playerId": "player_tn1_012_22", "name": "Youssef Touj", "number": 33, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_012_23", "name": "Obinna Samuel Junior", "number": 15, "position": "ST", "country": "NG", "status": "reserve"},
+      {"playerId": "player_tn1_012_24", "name": "Mohamed Ali Omri", "number": 9, "position": "ST", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_012_25", "name": "Bahaeddine Mouelhi", "number": 23, "position": "ST", "country": "TN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 25,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
