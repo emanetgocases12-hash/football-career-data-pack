@@ -1,12 +1,52 @@
 {
-  "teamKey": "Chenna",
+    "teamKey": "Chenna",
+    "name": "Chennaiyin FC",
+    "logo": "assets/logos/asia/india/Chennaiyin.png",
+    "manager": {
+      "name": "Clifford Miranda",
+      "country": "IN"
+    },
+    "stadium": {
+      "name": "Jawaharlal Nehru Stadium Chennai",
+      "capacity": 40000
+    },
+    "players": [
+      {"playerId": "player_in1_002_01", "name": "Mohammad Nawaz", "number": 1, "position": "GK", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_002_02", "name": "Namgyal Bhutia", "number": 2, "position": "RB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_002_03", "name": "Dippendu Biswas", "number": 4, "position": "CB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_002_04", "name": "Nuno Reis", "number": 5, "position": "CB", "country": "PT", "status": "starter"},
+      {"playerId": "player_in1_002_05", "name": "Vignesh Dakshinamurthy", "number": 3, "position": "LB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_002_06", "name": "Glan Martins", "number": 6, "position": "CDM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_002_07", "name": "Ayush Chhetri", "number": 8, "position": "CM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_002_08", "name": "Madih Talal", "number": 10, "position": "CAM", "country": "FR", "status": "starter"},
+      {"playerId": "player_in1_002_09", "name": "Brison Fernandes", "number": 7, "position": "RW", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_002_10", "name": "Irfan Yadwad", "number": 11, "position": "LW", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_002_11", "name": "Ramon Tanque", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
 
-  "name": "Chennaiyin FC",
+      {"playerId": "player_in1_002_12", "name": "Samik Mitra", "number": 31, "position": "GK", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_002_13", "name": "PC Laldinpuia", "number": 27, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_002_14", "name": "Jahangir Ahmed Shagoo", "number": 17, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_002_15", "name": "Emmanuel Imanishimwe", "number": 23, "position": "LB", "country": "RW", "status": "bench"},
+      {"playerId": "player_in1_002_16", "name": "Jiteshwor Singh", "number": 14, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_002_17", "name": "Maheson Singh", "number": 18, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_002_18", "name": "Nikola Stojanovic", "number": 20, "position": "CAM", "country": "RS", "status": "bench"},
+      {"playerId": "player_in1_002_19", "name": "Prakadeswaran", "number": 19, "position": "RW", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_002_20", "name": "Bryce Miranda", "number": 25, "position": "LW", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_002_21", "name": "Harmandeep Singh", "number": 29, "position": "ST", "country": "IN", "status": "bench"},
 
-  "logo": "assets/logos/asia/india/Chennaiyin.png",
-
-  "stadium": {
-    "name": "Jawaharlal Nehru Stadium Chennai",
-    "capacity": 40000
+      {"playerId": "player_in1_002_22", "name": "Devansh Dabas", "number": 13, "position": "GK", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_002_23", "name": "Vivek S", "number": 16, "position": "CB", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_002_24", "name": "Muhammed Saheef", "number": 24, "position": "LB", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_002_25", "name": "Shubham Rawat", "number": 30, "position": "ST", "country": "IN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
