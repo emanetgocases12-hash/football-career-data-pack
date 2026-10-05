@@ -1,12 +1,44 @@
 {
-  "teamKey": "Tripol",
-
-  "name": "Tripoli Sporting Club",
-
-  "logo": "assets/logos/asia/lebanon/Tripoli.png",
-
-  "stadium": {
-    "name": "Tripoli Municipal Stadium",
-    "capacity": 10000
+    "teamKey": "Tripol",
+    "name": "Tripoli Sporting Club",
+    "logo": "assets/logos/asia/lebanon/Tripoli.png",
+    "manager": {"name": "Fadi Al Khatib", "country": "LB"},
+    "stadium": {"name": "Tripoli Municipal Stadium", "capacity": 10000},
+    "players": [
+      {"playerId": "player_lb1_012_01", "name": "Ahmad Taktouk", "number": 1, "position": "GK", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_012_02", "name": "Abdallah Aich", "number": 2, "position": "LB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_012_03", "name": "Abdul Razzak Dakramanji", "number": 3, "position": "CB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_012_04", "name": "Nour Mansour", "number": 4, "position": "CB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_012_05", "name": "Ali Hamam", "number": 5, "position": "RB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_012_06", "name": "Mohammed Qasem", "number": 6, "position": "CM", "country": "PS", "status": "starter"},
+      {"playerId": "player_lb1_012_07", "name": "Akram Moghrabi", "number": 7, "position": "CDM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_012_08", "name": "Khaled Al-Takaji", "number": 8, "position": "RW", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_012_09", "name": "Abu Baker Al-Mal", "number": 9, "position": "CAM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_012_10", "name": "Edmond Chehade", "number": 10, "position": "LW", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_012_11", "name": "Mohammad Ghaddar", "number": 11, "position": "ST", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_012_12", "name": "Hassan Moghnieh", "number": 12, "position": "GK", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_012_13", "name": "Bilal Najjarin", "number": 13, "position": "CB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_012_14", "name": "Hussein Dakik", "number": 14, "position": "LB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_012_15", "name": "Ali Tneich", "number": 15, "position": "CM", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_012_16", "name": "Walid Shour", "number": 16, "position": "CDM", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_012_17", "name": "Hassan Maatouk", "number": 17, "position": "RW", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_012_18", "name": "Mahmoud Siblini", "number": 18, "position": "LW", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_012_19", "name": "Karim Darwich", "number": 19, "position": "ST", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_012_20", "name": "Ali Fakieh", "number": 20, "position": "ST", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_012_21", "name": "Samer El Jawhari", "number": 21, "position": "CM", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_012_22", "name": "Rabih Salha", "number": 22, "position": "GK", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_012_23", "name": "Hassan Kourani", "number": 23, "position": "CAM", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_012_24", "name": "Hussein Awada", "number": 24, "position": "LW", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_012_25", "name": "Mohamad Chahrour", "number": 25, "position": "RB", "country": "LB", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 9,
+        "cornerLeft": 10,
+        "cornerRight": 8
+      }
+    }
   }
-}
