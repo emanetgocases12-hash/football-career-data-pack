@@ -1,12 +1,52 @@
 {
-  "teamKey": "Sfaxie",
+    "teamKey": "Sfaxie",
+    "name": "CS Sfaxien",
+    "logo": "assets/logos/africa/tunusia/Sfaxie.png",
+    "manager": {
+      "name": "Nabil Kouki",
+      "country": "TN"
+    },
+    "stadium": {
+      "name": "Stade Taïeb Mhiri",
+      "capacity": 12600
+    },
+    "players": [
+      {"playerId": "player_tn1_013_01", "name": "Aymen Dahmen", "number": 30, "position": "GK", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_013_02", "name": "Hamza Mathlouthi", "number": 24, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_013_03", "name": "Youssef Habchia", "number": 14, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_013_04", "name": "Kévin Mondeko", "number": 15, "position": "CB", "country": "CD", "status": "starter"},
+      {"playerId": "player_tn1_013_05", "name": "Rayen Derbeli", "number": 13, "position": "RM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_013_06", "name": "Ali Maâloul", "number": 10, "position": "LM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_013_07", "name": "Ammar Taifour", "number": 6, "position": "CDM", "country": "SD", "status": "starter"},
+      {"playerId": "player_tn1_013_08", "name": "Mohamed Trabelsi", "number": 33, "position": "CM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_013_09", "name": "Travis Mutyaba", "number": 12, "position": "CAM", "country": "UG", "status": "starter"},
+      {"playerId": "player_tn1_013_10", "name": "Emmanuel Ogbole", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+      {"playerId": "player_tn1_013_11", "name": "Mohamed Mehdi Kachouri", "number": 11, "position": "ST", "country": "TN", "status": "starter"},
 
-  "name": "CS Sfaxien",
+      {"playerId": "player_tn1_013_12", "name": "Mohamed Ali Jamia", "number": 31, "position": "GK", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_013_13", "name": "Hichem Baccar", "number": 21, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_013_14", "name": "Mohamed Amine Ben Ali", "number": 4, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_013_15", "name": "Hasamadou Ouédraogo", "number": 32, "position": "CDM", "country": "BF", "status": "bench"},
+      {"playerId": "player_tn1_013_16", "name": "Firas Sekkouhi", "number": 18, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_013_17", "name": "Mohamed Absi", "number": 22, "position": "CAM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_013_18", "name": "Mohamed Aziz Sekrafi", "number": 23, "position": "CAM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_013_19", "name": "Mohamed Salah Mhadhebi", "number": 17, "position": "RB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_013_20", "name": "Ameur Jouini", "number": 7, "position": "LW", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_013_21", "name": "Boua Diarra", "number": 28, "position": "RW", "country": "ML", "status": "bench"},
 
-  "logo": "assets/logos/africa/tunusia/Sfaxie.png",
-
-  "stadium": {
-    "name": "Stade Taïeb Mhiri",
-    "capacity": 12600
+      {"playerId": "player_tn1_013_22", "name": "Mohamed Hedi Gaaloul", "number": 1, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_013_23", "name": "Abdessalem Akid", "number": 5, "position": "CB", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_013_24", "name": "Ahmed Ajjal", "number": 2, "position": "RB", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_013_25", "name": "Jasser Maaroufi", "number": 8, "position": "CM", "country": "TN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "3-5-2",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 10,
+        "cornerLeft": 12,
+        "cornerRight": 10
+      }
+    }
   }
-}
