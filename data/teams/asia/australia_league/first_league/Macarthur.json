@@ -1,12 +1,52 @@
 {
-  "teamKey": "Macart",
+    "teamKey": "Macart",
+    "name": "Macarthur FC",
+    "logo": "assets/logos/asia/australia/Macarthur.png",
+    "manager": {
+      "name": "Sasa Ognenovski",
+      "country": "AU"
+    },
+    "stadium": {
+      "name": "Campbelltown Sports Stadium",
+      "capacity": 17500
+    },
+    "players": [
+      {"playerId": "player_au1_005_01", "name": "Alexander Robinson", "number": 1, "position": "GK", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_005_02", "name": "Callum Talbot", "number": 25, "position": "RB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_005_03", "name": "Tatsuki Nara", "number": 3, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_au1_005_04", "name": "Jonathan Aspropotamitis", "number": 5, "position": "CB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_005_05", "name": "Harry Politidis", "number": 19, "position": "LB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_005_06", "name": "Kosta Grozos", "number": 23, "position": "CDM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_005_07", "name": "Liam Rose", "number": 22, "position": "CM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_005_08", "name": "Kai Kennedy", "number": 6, "position": "RW", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_au1_005_09", "name": "Ryan Fraser", "number": 10, "position": "CAM", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_au1_005_10", "name": "Connor Pain", "number": 7, "position": "LW", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_005_11", "name": "Apostolos Stamatelopoulos", "number": 16, "position": "ST", "country": "AU", "status": "starter"},
 
-  "name": "Macarthur FC",
+      {"playerId": "player_au1_005_12", "name": "James Hilton", "number": 13, "position": "GK", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_005_13", "name": "Nathan Paull", "number": 21, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_005_14", "name": "Sebastian Krslovic", "number": 31, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_005_15", "name": "Will McKay", "number": 32, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_005_16", "name": "Oliver Randazzo", "number": 17, "position": "RW", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_005_17", "name": "Dylan Rose", "number": 18, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_005_18", "name": "Luke Vickery", "number": 8, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_005_19", "name": "Ben Gibson", "number": 9, "position": "ST", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_au1_005_20", "name": "Bernardo Oliveira", "number": 11, "position": "CAM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_005_21", "name": "Jing Reec", "number": 27, "position": "RW", "country": "AU", "status": "bench"},
 
-  "logo": "assets/logos/asia/australia/Macarthur.png",
-
-  "stadium": {
-    "name": "Campbelltown Sports Stadium",
-    "capacity": 17500
+      {"playerId": "player_au1_005_22", "name": "Joshua Lakkis", "number": 30, "position": "GK", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_005_23", "name": "Harry Menham", "number": 33, "position": "CB", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_005_24", "name": "Henrique Oliveira", "number": 20, "position": "LW", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_005_25", "name": "Musa Touré", "number": 99, "position": "ST", "country": "AU", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 16,
+        "freeKick": 10,
+        "cornerLeft": 6,
+        "cornerRight": 10
+      }
+    }
   }
-}
