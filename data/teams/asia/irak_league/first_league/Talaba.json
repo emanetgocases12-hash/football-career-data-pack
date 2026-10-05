@@ -1,12 +1,52 @@
-{
-  "teamKey": "Talaba",
+ {
+    "teamKey": "Talaba",
+    "name": "Al-Talaba SC",
+    "logo": "assets/logos/asia/irak/Talaba.png",
+    "manager": {
+      "name": "Alireza Mansourian",
+      "country": "IR"
+    },
+    "stadium": {
+      "name": "Al-Madina International Stadium",
+      "capacity": 32000
+    },
+    "players": [
+      {"playerId": "player_iq1_018_01", "name": "Fahad Talib", "number": 1, "position": "GK", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_018_02", "name": "Hussein Ammar Al-Sawad", "number": 2, "position": "RB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_018_03", "name": "Masies Artien", "number": 4, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_018_04", "name": "Milad Badragheh", "number": 5, "position": "CB", "country": "IR", "status": "starter"},
+      {"playerId": "player_iq1_018_05", "name": "Mustafa Maan Al-Ezirej", "number": 3, "position": "LB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_018_06", "name": "Zaid Ismail", "number": 6, "position": "CDM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_018_07", "name": "Mohammed Mezher", "number": 8, "position": "CM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_018_08", "name": "Habib Oueslati", "number": 7, "position": "RW", "country": "TN", "status": "starter"},
+      {"playerId": "player_iq1_018_09", "name": "Alaa Abdul-Zahra", "number": 10, "position": "CAM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_018_10", "name": "Simon Msuva", "number": 11, "position": "LW", "country": "TZ", "status": "starter"},
+      {"playerId": "player_iq1_018_11", "name": "Karim Aribi", "number": 9, "position": "ST", "country": "DZ", "status": "starter"},
 
-  "name": "Al-Talaba SC",
+      {"playerId": "player_iq1_018_12", "name": "Ahmed Basil", "number": 12, "position": "GK", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_018_13", "name": "Ali Qasim Hameed", "number": 14, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_018_14", "name": "Khudhor Ali", "number": 15, "position": "RB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_018_15", "name": "Ali Saleh Mahdi", "number": 16, "position": "RB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_018_16", "name": "Mahdi Kamil", "number": 17, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_018_17", "name": "Karrar Nabeel", "number": 18, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_018_18", "name": "Mohammed Faisal", "number": 20, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_018_19", "name": "Ali Yousif Najatee", "number": 21, "position": "ST", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_018_20", "name": "Saif Rasheed", "number": 22, "position": "ST", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_018_21", "name": "Taif Emad", "number": 19, "position": "LW", "country": "IQ", "status": "bench"},
 
-  "logo": "assets/logos/asia/irak/Talaba.png",
-
-  "stadium": {
-    "name": "Al-Madina International Stadium",
-    "capacity": 32000
+      {"playerId": "player_iq1_018_22", "name": "Mohammed Kareem", "number": 23, "position": "GK", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_018_23", "name": "Hamza Adnan", "number": 24, "position": "CB", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_018_24", "name": "Hisham Mohammad", "number": 25, "position": "CM", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_018_25", "name": "Kais Abdelkazem", "number": 27, "position": "CAM", "country": "IQ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
