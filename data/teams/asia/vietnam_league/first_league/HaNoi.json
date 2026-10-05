@@ -1,12 +1,50 @@
-{
-  "teamKey": "Ha Noi",
-
-  "name": "Hà Nội FC",
-
-  "logo": "assets/logos/asia/vietnam/HaNoi.png",
-
-  "stadium": {
-    "name": "Hàng Đẫy Stadium",
-    "capacity": 19500
+  {
+    "teamKey": "Ha Noi",
+    "name": "Hà Nội FC",
+    "logo": "assets/logos/asia/vietnam/HaNoi.png",
+    "manager": {
+      "name": "Harry Kewell",
+      "country": "AU"
+    },
+    "stadium": {
+      "name": "Hàng Đẫy Stadium",
+      "capacity": 19500
+    },
+    "players": [
+      {"playerId": "player_vn1_005_01", "name": "Nguyễn Văn Hoàng", "number": 5, "position": "GK", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_005_02", "name": "Phạm Xuân Mạnh", "number": 7, "position": "RB", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_005_03", "name": "Đỗ Duy Mạnh", "number": 2, "position": "CB", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_005_04", "name": "Nguyễn Thành Chung", "number": 16, "position": "CB", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_005_05", "name": "Nguyễn Văn Dũng", "number": 6, "position": "LB", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_005_06", "name": "Đậu Văn Toàn", "number": 8, "position": "CDM", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_005_07", "name": "Nguyễn Hai Long", "number": 14, "position": "CM", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_005_08", "name": "Nguyễn Văn Quyết", "number": 10, "position": "CAM", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_005_09", "name": "Nguyễn Văn Toàn", "number": 17, "position": "RW", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_005_10", "name": "Nguyễn Xuân Tú", "number": 20, "position": "LW", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_005_11", "name": "Phạm Tuấn Hải", "number": 9, "position": "ST", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_005_12", "name": "Quan Văn Chuẩn", "number": 13, "position": "GK", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_005_13", "name": "Bùi Tấn Trường", "number": 1, "position": "GK", "country": "VN", "status": "reserve"},
+      {"playerId": "player_vn1_005_14", "name": "Vũ Tiến Long", "number": 27, "position": "CB", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_005_15", "name": "Đỗ Hùng Dũng", "number": 88, "position": "CM", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_005_16", "name": "Nguyễn Công Nhật", "number": 22, "position": "CM", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_005_17", "name": "Nguyễn Văn Trường", "number": 19, "position": "CAM", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_005_18", "name": "Joel Tagueu", "number": 11, "position": "ST", "country": "CM", "status": "bench"},
+      {"playerId": "player_vn1_005_19", "name": "Lucão do Break", "number": 77, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_vn1_005_20", "name": "Nguyễn Văn Tùng", "number": 23, "position": "ST", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_005_21", "name": "Đặng Văn Tới", "number": 4, "position": "CB", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_005_22", "name": "Trần Văn Kiên", "number": 3, "position": "RB", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_005_23", "name": "Nguyễn Văn Đức", "number": 18, "position": "LW", "country": "VN", "status": "reserve"},
+      {"playerId": "player_vn1_005_24", "name": "Lê Xuân Tú", "number": 24, "position": "ST", "country": "VN", "status": "reserve"},
+      {"playerId": "player_vn1_005_25", "name": "Nguyễn Văn Trường", "number": 12, "position": "CM", "country": "VN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 20
+      }
+    }
   }
-}
