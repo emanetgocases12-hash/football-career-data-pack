@@ -1,12 +1,35 @@
 {
-  "teamKey": "Ordon",
-
-  "name": "Shabab Al Ordon",
-
-  "logo": "assets/logos/asia/jordan/Ordon.png",
-
-  "stadium": {
-    "name": "Amman International Stadium",
-    "capacity": 18000
+    "teamKey": "Ordon",
+    "name": "Shabab Al Ordon",
+    "logo": "assets/logos/asia/jordan/Ordon.png",
+    "manager": {"name": "Carlos Echeverry", "country": "CO"},
+    "stadium": {"name": "Amman International Stadium", "capacity": 18000},
+    "players": [
+      {"playerId": "player_jo1_008_01", "name": "Salameh Salman", "number": 1, "position": "GK", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_008_02", "name": "Yazeed Mahfouz", "number": 2, "position": "RB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_008_03", "name": "Amer Al-Majdoubah", "number": 14, "position": "CB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_008_04", "name": "Ali Rabaei", "number": 15, "position": "CB", "country": "PS", "status": "starter"},
+      {"playerId": "player_jo1_008_05", "name": "Mohammad Taha Abu Ghoush", "number": 3, "position": "LB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_008_06", "name": "Saif Suleiman Tamari", "number": 8, "position": "CDM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_008_07", "name": "Mustafa Al-Saifi", "number": 9, "position": "CM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_008_08", "name": "Moaz Al-Alaimat", "number": 11, "position": "RW", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_008_09", "name": "Iyed Belgacem", "number": 27, "position": "CAM", "country": "TN", "status": "starter"},
+      {"playerId": "player_jo1_008_10", "name": "Ayham Hisham", "number": 10, "position": "LW", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_008_11", "name": "Maikel Caicedo", "number": 28, "position": "ST", "country": "EC", "status": "starter"},
+      {"playerId": "player_jo1_008_12", "name": "Noureddine Al-Torman", "number": 12, "position": "GK", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_008_13", "name": "Hassan Holwah", "number": 5, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_008_14", "name": "Qusai Tannous", "number": 16, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_008_15", "name": "Saúl Castro", "number": 29, "position": "CB", "country": "EC", "status": "bench"},
+      {"playerId": "player_jo1_008_16", "name": "Salem Al Ajalin", "number": 33, "position": "LB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_008_17", "name": "Anas Zabout", "number": 4, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_008_18", "name": "Hamza Al-Shamali", "number": 6, "position": "CAM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_008_19", "name": "Anas Zara", "number": 23, "position": "CAM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_008_20", "name": "Mohamad Al-Absi", "number": 77, "position": "CAM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_008_21", "name": "Adham Al-Refaei", "number": 7, "position": "LW", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_008_22", "name": "Waleed Issam", "number": 99, "position": "GK", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_008_23", "name": "Ahmad Khaled", "number": 26, "position": "CM", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_008_24", "name": "Fayez Draghmeh", "number": 88, "position": "CM", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_008_25", "name": "Khaldoon Sabra", "number": 90, "position": "ST", "country": "JO", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 14, "setPieces": {"penalty": 28, "freeKick": 10, "cornerLeft": 27, "cornerRight": 11}}
   }
-}
