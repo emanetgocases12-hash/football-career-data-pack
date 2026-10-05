@@ -1,12 +1,35 @@
 {
-  "teamKey": "Negeri",
-
-  "name": "Negeri Sembilan FC",
-
-  "logo": "assets/logos/asia/malaysia/Negeri.png",
-
-  "stadium": {
-    "name": "Tuanku Abdul Rahman Stadium",
-    "capacity": 25550
+    "teamKey": "Negeri",
+    "name": "Negeri Sembilan FC",
+    "logo": "assets/logos/asia/malaysia/Negeri.png",
+    "manager": {"name": "Daniel Gimenez Alcaniz", "country": "ES"},
+    "stadium": {"name": "Tuanku Abdul Rahman Stadium", "capacity": 25550},
+    "players": [
+      {"playerId": "player_my1_007_01", "name": "Muhammad Azri Abdul Ghani", "number": 30, "position": "GK", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_007_02", "name": "Yi-Young Park", "number": 4, "position": "RB", "country": "KR", "status": "starter"},
+      {"playerId": "player_my1_007_03", "name": "Kei Oshiro", "number": 5, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_my1_007_04", "name": "Ryaan Sanizal", "number": 3, "position": "CB", "country": "SG", "status": "starter"},
+      {"playerId": "player_my1_007_05", "name": "Ariff Ar-Rasyid", "number": 28, "position": "LB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_007_06", "name": "Yuichi Hirano", "number": 24, "position": "CDM", "country": "JP", "status": "starter"},
+      {"playerId": "player_my1_007_07", "name": "Takumi Sasaki", "number": 7, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_my1_007_08", "name": "Akhyar Rashid", "number": 32, "position": "RW", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_007_09", "name": "Luqman Hakim", "number": 10, "position": "CAM", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_007_10", "name": "Jovan Motika", "number": 9, "position": "LW", "country": "BA", "status": "starter"},
+      {"playerId": "player_my1_007_11", "name": "Yusuke Minagawa", "number": 13, "position": "ST", "country": "JP", "status": "starter"},
+      {"playerId": "player_my1_007_12", "name": "Syahmi Adib Haikal", "number": 1, "position": "GK", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_007_13", "name": "Ahmad Khuzaimi Piee", "number": 18, "position": "CB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_007_14", "name": "Raimi Shamsul", "number": 2, "position": "RB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_007_15", "name": "Jamil Zainal Abidin", "number": 27, "position": "CB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_007_16", "name": "Filip Andersen", "number": 23, "position": "CB", "country": "MN", "status": "bench"},
+      {"playerId": "player_my1_007_17", "name": "Mio Tsuneyasu", "number": 20, "position": "RW", "country": "JP", "status": "bench"},
+      {"playerId": "player_my1_007_18", "name": "Wai Linn Aung", "number": 8, "position": "CM", "country": "MM", "status": "bench"},
+      {"playerId": "player_my1_007_19", "name": "Akram Mahinan", "number": 14, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_007_20", "name": "Afiq Fitri", "number": 12, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_007_21", "name": "Javabilaarivin Nyanasegar", "number": 19, "position": "LW", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_007_22", "name": "Aqil Abdul Razak", "number": 22, "position": "GK", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_007_23", "name": "Abdul Rahman Daud", "number": 16, "position": "RW", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_007_24", "name": "Haiqal Haqeemi", "number": 71, "position": "CM", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_007_25", "name": "Oday Kharoub", "number": 21, "position": "CDM", "country": "PS", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 5, "setPieces": {"penalty": 13, "freeKick": 10, "cornerLeft": 9, "cornerRight": 32}}
   }
-}
