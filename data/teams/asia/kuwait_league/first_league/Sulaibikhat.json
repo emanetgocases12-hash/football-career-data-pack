@@ -1,12 +1,35 @@
 {
-  "teamKey": "Sulaib",
-
-  "name": "Al-Sulaibikhat Sporting Club",
-
-  "logo": "assets/logos/asia/kuwait/Sulaib.png",
-
-  "stadium": {
-    "name": "Jaber Al-Mubarak Al-Hamad Stadium",
-    "capacity": 15000
+    "teamKey": "Sulaib",
+    "name": "Al-Sulaibikhat Sporting Club",
+    "logo": "assets/logos/asia/kuwait/Sulaib.png",
+    "manager": {"name": "António Miranda", "country": "PT"},
+    "stadium": {"name": "Jaber Al-Mubarak Al-Hamad Stadium", "capacity": 15000},
+    "players": [
+      {"playerId": "player_kw1_011_01", "name": "Abdulrahman Al-Sharifi", "number": 22, "position": "GK", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_011_02", "name": "Ahmad Al-Fahad", "number": 2, "position": "RB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_011_03", "name": "Musaed Al-Enezi", "number": 3, "position": "CB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_011_04", "name": "Mohammed Safar", "number": 4, "position": "CB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_011_05", "name": "Elielson Cardoso Bebê", "number": 5, "position": "LB", "country": "BR", "status": "starter"},
+      {"playerId": "player_kw1_011_06", "name": "Bruno Domingues", "number": 6, "position": "CDM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_011_07", "name": "Nasser Al-Faylakawi", "number": 7, "position": "CM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_011_08", "name": "Abdulaziz Al-Beshar", "number": 8, "position": "CAM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_011_09", "name": "Christian Irobiso", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+      {"playerId": "player_kw1_011_10", "name": "Abdullah Al-Awadhi", "number": 10, "position": "LW", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_011_11", "name": "Welves", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_kw1_011_12", "name": "Abdullah Abbas", "number": 12, "position": "GK", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_011_13", "name": "Bandar Al-Dheferi", "number": 13, "position": "CM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_011_14", "name": "Abdulaziz Al-Qattan", "number": 14, "position": "CB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_011_15", "name": "Ali Al-Mousawy", "number": 15, "position": "RB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_011_16", "name": "Khaled Al-Rashidi", "number": 16, "position": "LB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_011_17", "name": "Saleh Khamees Al-Enezi", "number": 17, "position": "CB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_011_18", "name": "Othman Al-Failakawi", "number": 18, "position": "RM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_011_19", "name": "Ahmed Daham", "number": 19, "position": "LM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_011_20", "name": "Fahad Al-Houli", "number": 20, "position": "CDM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_011_21", "name": "Mohammed Hamdan", "number": 21, "position": "CAM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_011_22", "name": "Abdullah Eissa", "number": 23, "position": "GK", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_011_23", "name": "Daniel Silva Santos", "number": 24, "position": "ST", "country": "BR", "status": "reserve"},
+      {"playerId": "player_kw1_011_24", "name": "Ali Salman Alaaeddine", "number": 25, "position": "LW", "country": "LB", "status": "reserve"},
+      {"playerId": "player_kw1_011_25", "name": "Fahad Zuwaid", "number": 26, "position": "RW", "country": "KW", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 6, "setPieces": {"penalty": 9, "freeKick": 8, "cornerLeft": 10, "cornerRight": 11}}
   }
-}
