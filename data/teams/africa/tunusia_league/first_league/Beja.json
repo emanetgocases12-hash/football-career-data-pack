@@ -1,12 +1,52 @@
 {
-  "teamKey": "Beja",
+    "teamKey": "Beja",
+    "name": "Olympique Béja",
+    "logo": "assets/logos/africa/tunusia/Beja.png",
+    "manager": {
+      "name": "Jamel Ben Salem",
+      "country": "TN"
+    },
+    "stadium": {
+      "name": "Stade Boujemaa Kmiti",
+      "capacity": 15000
+    },
+    "players": [
+      {"playerId": "player_tn1_001_01", "name": "Achraf Krir", "number": 1, "position": "GK", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_001_02", "name": "Rayan Hammami", "number": 2, "position": "RB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_001_03", "name": "Mehrez Ben Rajeh", "number": 4, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_001_04", "name": "Elyes Mejri", "number": 5, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_001_05", "name": "Aziz Gharbi", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_001_06", "name": "Mohamed Amine Dhouibi", "number": 6, "position": "CDM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_001_07", "name": "Sadate Abdoulsalam Miziyawa", "number": 8, "position": "CM", "country": "BJ", "status": "starter"},
+      {"playerId": "player_tn1_001_08", "name": "Naman Keita", "number": 10, "position": "CAM", "country": "ML", "status": "starter"},
+      {"playerId": "player_tn1_001_09", "name": "Nnamdi Ofufu Ibeh", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_tn1_001_10", "name": "Mohamed Ali Omri", "number": 9, "position": "ST", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_001_11", "name": "Baha Cherni", "number": 11, "position": "LW", "country": "TN", "status": "starter"},
 
-  "name": "Olympique Béja",
+      {"playerId": "player_tn1_001_12", "name": "Chahine Smaoui", "number": 16, "position": "GK", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_001_13", "name": "Islem Chelghoumi", "number": 12, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_001_14", "name": "Ayoub Ouji", "number": 13, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_001_15", "name": "Heni Daghbouji", "number": 14, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_001_16", "name": "Hamza Soumer", "number": 15, "position": "RB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_001_17", "name": "Chérif Camara", "number": 17, "position": "CB", "country": "GN", "status": "bench"},
+      {"playerId": "player_tn1_001_18", "name": "Nassim Hosni", "number": 18, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_001_19", "name": "Fares Labidi", "number": 19, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_001_20", "name": "Seif Jebri", "number": 20, "position": "RW", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_001_21", "name": "Mohamed Hedi Hadouchi", "number": 21, "position": "ST", "country": "TN", "status": "bench"},
 
-  "logo": "assets/logos/africa/tunusia/Beja.png",
-
-  "stadium": {
-    "name": "Stade Boujemaa Kmiti",
-    "capacity": 15000
+      {"playerId": "player_tn1_001_22", "name": "Ahmed Fatnassi", "number": 33, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_001_23", "name": "Ayoub Saidi", "number": 22, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_001_24", "name": "Bechir Hasni", "number": 23, "position": "ST", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_001_25", "name": "Bachir Mkaddem", "number": 24, "position": "ST", "country": "TN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
