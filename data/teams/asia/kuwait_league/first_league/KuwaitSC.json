@@ -1,12 +1,35 @@
-{
-  "teamKey": "Al Kuwa",
-
-  "name": "Kuwait Sporting Club",
-
-  "logo": "assets/logos/asia/kuwait/Kuwait.png",
-
-  "stadium": {
-    "name": "Jaber Al-Mubarak Al-Hamad Stadium",
-    "capacity": 15000
+  {
+    "teamKey": "Al Kuwa",
+    "name": "Kuwait Sporting Club",
+    "logo": "assets/logos/asia/kuwait/Kuwait.png",
+    "manager": {"name": "Nebojša Jovović", "country": "ME"},
+    "stadium": {"name": "Jaber Al-Mubarak Al-Hamad Stadium", "capacity": 15000},
+    "players": [
+      {"playerId": "player_kw1_007_01", "name": "Khaled Al-Rashidi", "number": 1, "position": "GK", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_007_02", "name": "Oumar Gonzalez", "number": 2, "position": "RB", "country": "CM", "status": "starter"},
+      {"playerId": "player_kw1_007_03", "name": "Malik Zola", "number": 3, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_kw1_007_04", "name": "Hassan Hamdan Al-Enezi", "number": 4, "position": "CB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_007_05", "name": "Meshari Ghanam", "number": 5, "position": "LB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_007_06", "name": "Mohammad Daham", "number": 11, "position": "CDM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_007_07", "name": "Faisal Zaid", "number": 6, "position": "CM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_007_08", "name": "Mohamed Marhoon", "number": 7, "position": "CAM", "country": "BH", "status": "starter"},
+      {"playerId": "player_kw1_007_09", "name": "Taha Yassine Khenissi", "number": 27, "position": "ST", "country": "TN", "status": "starter"},
+      {"playerId": "player_kw1_007_10", "name": "Yousef Nasser", "number": 20, "position": "LW", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_007_11", "name": "Amr Abdulfattah", "number": 8, "position": "RW", "country": "EG", "status": "starter"},
+      {"playerId": "player_kw1_007_12", "name": "Saud Al-Hoshan", "number": 9, "position": "GK", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_007_13", "name": "Yousef Al-Khubaizi", "number": 10, "position": "CM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_007_14", "name": "Sami Al-Sanea", "number": 12, "position": "CB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_007_15", "name": "Mohammad Freih", "number": 13, "position": "RB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_007_16", "name": "Mohsen Falah", "number": 14, "position": "LB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_007_17", "name": "Fawaz Al-Saab", "number": 15, "position": "CB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_007_18", "name": "Mehdi Berrahma", "number": 16, "position": "RM", "country": "MA", "status": "bench"},
+      {"playerId": "player_kw1_007_19", "name": "Ali Hussain", "number": 17, "position": "LM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_007_20", "name": "Ahmad Al-Dhefiri", "number": 18, "position": "CDM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_007_21", "name": "Reda Hani", "number": 19, "position": "CAM", "country": "DZ", "status": "bench"},
+      {"playerId": "player_kw1_007_22", "name": "Abdulrahman Kameel", "number": 21, "position": "GK", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_007_23", "name": "Salman Al-Awadhi", "number": 22, "position": "ST", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_007_24", "name": "Khaled Al-Kharqawi", "number": 23, "position": "LW", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_007_25", "name": "Fahad Al-Rashidi", "number": 24, "position": "RW", "country": "KW", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 11, "setPieces": {"penalty": 27, "freeKick": 7, "cornerLeft": 20, "cornerRight": 8}}
   }
-}
