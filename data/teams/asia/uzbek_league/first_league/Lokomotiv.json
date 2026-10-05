@@ -1,12 +1,50 @@
-{
-  "teamKey": "Lok Tsh",
-
-  "name": "Lokomotiv Tashkent",
-
-  "logo": "assets/logos/asia/uzbekistan/Lokomotiv.png",
-
-  "stadium": {
-    "name": "Lokomotiv Stadium",
-    "capacity": 8000
+ {
+    "teamKey": "Lok Tsh",
+    "name": "Lokomotiv Tashkent",
+    "logo": "assets/logos/asia/uzbekistan/Lokomotiv.png",
+    "manager": {
+      "name": "Server Djeparov",
+      "country": "UZ"
+    },
+    "stadium": {
+      "name": "Lokomotiv Stadium",
+      "capacity": 8000
+    },
+    "players": [
+      {"playerId": "player_uz1_008_01", "name": "Aleksey Kozlov", "number": 1, "position": "GK", "country": "RU", "status": "starter"},
+      {"playerId": "player_uz1_008_02", "name": "Oleg Zoteev", "number": 2, "position": "RB", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_008_03", "name": "Islom Tukhtakhujaev", "number": 4, "position": "CB", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_008_04", "name": "Rustam Ashurmatov", "number": 5, "position": "CB", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_008_05", "name": "Sherzod Nasrullayev", "number": 3, "position": "LB", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_008_06", "name": "Ifeanyi Ifeanyi", "number": 6, "position": "CDM", "country": "NG", "status": "starter"},
+      {"playerId": "player_uz1_008_07", "name": "Sardor Mirzayev", "number": 8, "position": "CM", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_008_08", "name": "Jasurbek Yaxshiboyev", "number": 10, "position": "CAM", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_008_09", "name": "Dostonbek Khamdamov", "number": 7, "position": "RW", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_008_10", "name": "Shodiyor Shodiboyev", "number": 11, "position": "LW", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_008_11", "name": "Humoyun Murtozayev", "number": 9, "position": "ST", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_008_12", "name": "Nikita Shevchenko", "number": 12, "position": "GK", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_008_13", "name": "Abbos Muminov", "number": 35, "position": "GK", "country": "UZ", "status": "reserve"},
+      {"playerId": "player_uz1_008_14", "name": "Toxirbek To'xtasinov", "number": 14, "position": "CM", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_008_15", "name": "Ibrohim Ganixonov", "number": 15, "position": "ST", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_008_16", "name": "Ahrorbek Rahimov", "number": 16, "position": "CM", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_008_17", "name": "Akmal Mozgovoy", "number": 17, "position": "CM", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_008_18", "name": "Javokhir Sidikov", "number": 18, "position": "CAM", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_008_19", "name": "Sardor Rashidov", "number": 19, "position": "LW", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_008_20", "name": "Diyor Kholmurodov", "number": 20, "position": "CB", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_008_21", "name": "Bobur Akbarov", "number": 21, "position": "RB", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_008_22", "name": "Murod Kholmukhamedov", "number": 22, "position": "CM", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_008_23", "name": "Azizbek Turgunboev", "number": 23, "position": "RW", "country": "UZ", "status": "reserve"},
+      {"playerId": "player_uz1_008_24", "name": "Temurkhodja Abdukholikov", "number": 24, "position": "ST", "country": "UZ", "status": "reserve"},
+      {"playerId": "player_uz1_008_25", "name": "Fakhriddin Muhammadov", "number": 29, "position": "CB", "country": "UZ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
