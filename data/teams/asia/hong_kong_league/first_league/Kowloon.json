@@ -1,12 +1,50 @@
-{
-  "teamKey": "Kowloo",
-
-  "name": "Wofoo Kowloon City",
-
-  "logo": "assets/logos/asia/hong_kong/Kowloon.png",
-
-  "stadium": {
-    "name": "Sham Shui Po Sports Ground",
-    "capacity": 2101
+ {
+    "teamKey": "Kowloo",
+    "name": "Wofoo Kowloon City",
+    "logo": "assets/logos/asia/hong_kong/Kowloon.png",
+    "manager": {
+      "name": "Fung Hoi Man",
+      "country": "HK"
+    },
+    "stadium": {
+      "name": "Sham Shui Po Sports Ground",
+      "capacity": 2101
+    },
+    "players": [
+      {"playerId": "player_hk1_005_01", "name": "Cheung Kwai Wa", "number": 1, "position": "GK", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_005_02", "name": "Tsang Kam To", "number": 21, "position": "RB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_005_03", "name": "Kang Jun-Hyeon", "number": 4, "position": "CB", "country": "KR", "status": "starter"},
+      {"playerId": "player_hk1_005_04", "name": "Yim Kai-Cheuk", "number": 20, "position": "CB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_005_05", "name": "Yu Pui Hong", "number": 2, "position": "LB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_005_06", "name": "Diego Eli", "number": 5, "position": "CDM", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_005_07", "name": "Chiu Wan Chun", "number": 8, "position": "CM", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_005_08", "name": "Ho Lung Ho", "number": 23, "position": "CAM", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_005_09", "name": "Chen Ngo Hin", "number": 11, "position": "RW", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_005_10", "name": "Rikelmi Emanuel Leandro dos Santos", "number": 10, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_hk1_005_11", "name": "Nikola Popović", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+      {"playerId": "player_hk1_005_12", "name": "Kwong Tin Lok", "number": 22, "position": "GK", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_005_13", "name": "Wong Lok Yat", "number": 91, "position": "LB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_005_14", "name": "Law Cheuk Hei", "number": 12, "position": "CDM", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_005_15", "name": "Kim Min-sub", "number": 14, "position": "CAM", "country": "KR", "status": "bench"},
+      {"playerId": "player_hk1_005_16", "name": "S. Lucena", "number": 24, "position": "CM", "country": "VE", "status": "bench"},
+      {"playerId": "player_hk1_005_17", "name": "Fung Tin Wing", "number": 95, "position": "CAM", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_005_18", "name": "Luizinho", "number": 37, "position": "LW", "country": "BR", "status": "bench"},
+      {"playerId": "player_hk1_005_19", "name": "Kwok Chun Nok", "number": 17, "position": "ST", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_005_20", "name": "Matthew Luke Slattery", "number": 18, "position": "ST", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_005_21", "name": "Yang Chao-Jing", "number": 25, "position": "ST", "country": "TW", "status": "bench"},
+      {"playerId": "player_hk1_005_22", "name": "Leung Hiu Yeung Anthony", "number": 66, "position": "GK", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_005_23", "name": "Wong Hiu Laam", "number": 31, "position": "LB", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_005_24", "name": "Lee Chak-Hin Sunny", "number": 92, "position": "CB", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_005_25", "name": "Yu Wai-Yip", "number": 30, "position": "LM", "country": "HK", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 23
+      }
+    }
   }
-}
