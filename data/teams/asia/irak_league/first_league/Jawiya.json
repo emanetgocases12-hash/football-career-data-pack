@@ -1,12 +1,52 @@
-{
-  "teamKey": "Jawiya",
+ {
+    "teamKey": "Jawiya",
+    "name": "Al-Quwa Al-Jawiya",
+    "logo": "assets/logos/asia/irak/Jawiya.png",
+    "manager": {
+      "name": "Fathi Al-Jabal",
+      "country": "TN"
+    },
+    "stadium": {
+      "name": "Al-Madina International Stadium",
+      "capacity": 32000
+    },
+    "players": [
+      {"playerId": "player_iq1_007_01", "name": "Mohammed Salih", "number": 1, "position": "GK", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_007_02", "name": "Mohanad Jeahze", "number": 2, "position": "LB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_007_03", "name": "Ruslan Hanoon", "number": 4, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_007_04", "name": "Muslim Moussa", "number": 5, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_007_05", "name": "Abbas Adel", "number": 3, "position": "RB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_007_06", "name": "Saad Abdul-Amir", "number": 6, "position": "CDM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_007_07", "name": "Al Hareth Hatam", "number": 8, "position": "CM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_007_08", "name": "Eid Al-Rashidi", "number": 7, "position": "RW", "country": "KW", "status": "starter"},
+      {"playerId": "player_iq1_007_09", "name": "Mohammed Jawad", "number": 10, "position": "CAM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_007_10", "name": "Aminu Umar", "number": 11, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_iq1_007_11", "name": "Haythem Jouini", "number": 9, "position": "ST", "country": "TN", "status": "starter"},
 
-  "name": "Al-Quwa Al-Jawiya",
+      {"playerId": "player_iq1_007_12", "name": "Zainulabdeen Nassif", "number": 12, "position": "GK", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_007_13", "name": "Achref Boudrama", "number": 14, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_iq1_007_14", "name": "Saed Al-Rosan", "number": 15, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_iq1_007_15", "name": "Sipan Sediq", "number": 16, "position": "RB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_007_16", "name": "Moses Orkuma", "number": 17, "position": "CDM", "country": "NG", "status": "bench"},
+      {"playerId": "player_iq1_007_17", "name": "Mohammed Sami", "number": 18, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_007_18", "name": "Franco Atchou", "number": 20, "position": "CM", "country": "TG", "status": "bench"},
+      {"playerId": "player_iq1_007_19", "name": "Issam Al-Sabhi", "number": 21, "position": "RW", "country": "OM", "status": "bench"},
+      {"playerId": "player_iq1_007_20", "name": "Anthony Okpotu", "number": 22, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_iq1_007_21", "name": "Ahmed Maher", "number": 19, "position": "LW", "country": "IQ", "status": "bench"},
 
-  "logo": "assets/logos/asia/irak/Jawiya.png",
-
-  "stadium": {
-    "name": "Al-Madina International Stadium",
-    "capacity": 32000
+      {"playerId": "player_iq1_007_22", "name": "Abbas Fawzi", "number": 23, "position": "GK", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_007_23", "name": "Ali Saad", "number": 24, "position": "ST", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_007_24", "name": "Maytham Waad", "number": 25, "position": "CAM", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_007_25", "name": "Murad Mohammad", "number": 27, "position": "RW", "country": "IQ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
