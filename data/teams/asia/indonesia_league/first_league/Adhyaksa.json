@@ -1,12 +1,58 @@
 {
-  "teamKey": "Banten",
+    "teamKey": "Banten",
 
-  "name": "Adhyaksa FC Banten",
+    "name": "Adhyaksa FC Banten",
 
-  "logo": "assets/logos/asia/indonesia/Banten.png",
+    "logo": "assets/logos/asia/indonesia/Banten.png",
 
-  "stadium": {
-    "name": "Banten International Stadium",
-    "capacity": 30000
+    "manager": {
+      "name": "Mundari Karya",
+      "country": "ID"
+    },
+
+    "stadium": {
+      "name": "Banten International Stadium",
+      "capacity": 30000
+    },
+
+    "players": [
+      { "playerId": "player_id1_001_01", "name": "Luan Frigeri", "number": 1, "position": "GK", "country": "BR", "status": "starter" },
+      { "playerId": "player_id1_001_02", "name": "Fayrushi", "number": 13, "position": "RB", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_001_03", "name": "Lelis", "number": 4, "position": "CB", "country": "BR", "status": "starter" },
+      { "playerId": "player_id1_001_04", "name": "Kenji Nishioka", "number": 14, "position": "CB", "country": "PH", "status": "starter" },
+      { "playerId": "player_id1_001_05", "name": "Fernandez", "number": 23, "position": "LB", "country": "BO", "status": "starter" },
+      { "playerId": "player_id1_001_06", "name": "Galuh Nata", "number": 34, "position": "CDM", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_001_07", "name": "Shafa Abdillah", "number": 8, "position": "CM", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_001_08", "name": "M. Manneh", "number": 12, "position": "RW", "country": "GM", "status": "starter" },
+      { "playerId": "player_id1_001_09", "name": "Makan Konate", "number": 10, "position": "CAM", "country": "ML", "status": "starter" },
+      { "playerId": "player_id1_001_10", "name": "Gufroni Al Maruf", "number": 66, "position": "LW", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_001_11", "name": "Adilson Silva", "number": 7, "position": "ST", "country": "PT", "status": "starter" },
+
+      { "playerId": "player_id1_001_12", "name": "Jefri Wibowo", "number": 85, "position": "GK", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_001_13", "name": "Harli Cahya", "number": 5, "position": "CB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_001_14", "name": "Ardi Ramdani", "number": 18, "position": "CB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_001_15", "name": "Indra Feri", "number": 31, "position": "CB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_001_16", "name": "Brayen Pondaag", "number": 30, "position": "CAM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_001_17", "name": "Firman", "number": 37, "position": "CM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_001_18", "name": "Ridwan", "number": 9, "position": "LW", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_001_19", "name": "Satrio", "number": 19, "position": "RW", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_001_20", "name": "Rafly Ariyanto", "number": 67, "position": "ST", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_001_21", "name": "Douglas Cruz", "number": 74, "position": "RW", "country": "BR", "status": "bench" },
+
+      { "playerId": "player_id1_001_22", "name": "Adre Arido", "number": 89, "position": "GK", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_001_23", "name": "Madon", "number": 90, "position": "CM", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_001_24", "name": "V. Baiano", "number": 97, "position": "ST", "country": "BR", "status": "reserve" },
+      { "playerId": "player_id1_001_25", "name": "Sergio Mendonca", "number": 99, "position": "ST", "country": "BR", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 10,
+        "cornerLeft": 12,
+        "cornerRight": 66
+      }
+    }
   }
-}
