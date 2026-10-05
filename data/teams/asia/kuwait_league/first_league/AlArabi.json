@@ -1,12 +1,35 @@
 {
-  "teamKey": "Arabi",
-
-  "name": "Al-Arabi Sporting Club",
-
-  "logo": "assets/logos/asia/kuwait/Arabi.png",
-
-  "stadium": {
-    "name": "Sabah Al Salem Stadium",
-    "capacity": 23000
+    "teamKey": "Arabi",
+    "name": "Al-Arabi Sporting Club",
+    "logo": "assets/logos/asia/kuwait/Arabi.png",
+    "manager": {"name": "Goran Sablić", "country": "HR"},
+    "stadium": {"name": "Sabah Al Salem Stadium", "capacity": 23000},
+    "players": [
+      {"playerId": "player_kw1_002_01", "name": "Sulaiman Abdulghafour", "number": 22, "position": "GK", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_002_02", "name": "Joher Khadim Rassoul", "number": 2, "position": "RB", "country": "SN", "status": "starter"},
+      {"playerId": "player_kw1_002_03", "name": "Mohammad Khaled", "number": 3, "position": "CB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_002_04", "name": "Abdulwahab Awadi", "number": 4, "position": "CB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_002_05", "name": "Hamad Al-Harbi", "number": 5, "position": "LB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_002_06", "name": "Yousef Majed", "number": 6, "position": "CDM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_002_07", "name": "Canaan Markneh", "number": 7, "position": "CM", "country": "ET", "status": "starter"},
+      {"playerId": "player_kw1_002_08", "name": "Hussain Ashkanani", "number": 8, "position": "CAM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_002_09", "name": "Zaid Qunbar", "number": 9, "position": "ST", "country": "PS", "status": "starter"},
+      {"playerId": "player_kw1_002_10", "name": "Anayo Iwuala", "number": 10, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_kw1_002_11", "name": "Ali Khalaf", "number": 11, "position": "RW", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_002_12", "name": "Ahmad Aadi", "number": 12, "position": "GK", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_002_13", "name": "Nayef Al-Shammari", "number": 13, "position": "CM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_002_14", "name": "Jomaa Aboud", "number": 14, "position": "CB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_002_15", "name": "Leonardo Sheldon", "number": 15, "position": "RB", "country": "BR", "status": "bench"},
+      {"playerId": "player_kw1_002_16", "name": "Abdullah Al-Bloushi Ammar", "number": 16, "position": "LB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_002_17", "name": "Hamad Al-Qallaf", "number": 17, "position": "CB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_002_18", "name": "Ali Hasan Muhaisen", "number": 18, "position": "RB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_002_19", "name": "Bader Tareq", "number": 19, "position": "RM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_002_20", "name": "Ali Porusaniei", "number": 20, "position": "LM", "country": "IR", "status": "bench"},
+      {"playerId": "player_kw1_002_21", "name": "Bader Al-Mutairi", "number": 21, "position": "CDM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_002_22", "name": "Abdullah Al-Ayoub", "number": 23, "position": "GK", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_002_23", "name": "Bandar Al-Salama", "number": 24, "position": "ST", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_002_24", "name": "Hussain Al-Aryan", "number": 25, "position": "LW", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_002_25", "name": "Lucas Shallon", "number": 26, "position": "RW", "country": "BR", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 6, "setPieces": {"penalty": 9, "freeKick": 8, "cornerLeft": 10, "cornerRight": 11}}
   }
-}
