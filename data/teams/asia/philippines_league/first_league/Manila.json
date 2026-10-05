@@ -1,12 +1,50 @@
-{
-  "teamKey": "Manila",
-
-  "name": "Manila Digger FC",
-
-  "logo": "assets/logos/asia/philippines/Manila.png",
-
-  "stadium": {
-    "name": "Rizal Memorial Stadium",
-    "capacity": 12873
+  {
+    "teamKey": "Manila",
+    "name": "Manila Digger FC",
+    "logo": "assets/logos/asia/philippines/Manila.png",
+    "manager": {
+      "name": "Joan Esteva",
+      "country": "ES"
+    },
+    "stadium": {
+      "name": "Rizal Memorial Stadium",
+      "capacity": 12873
+    },
+    "players": [
+      {"playerId": "player_ph1_006_01", "name": "Omar Njie", "number": 16, "position": "GK", "country": "GM", "status": "starter"},
+      {"playerId": "player_ph1_006_02", "name": "Zachary Taningco", "number": 22, "position": "RB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_006_03", "name": "David Sambou", "number": 23, "position": "CB", "country": "GM", "status": "starter"},
+      {"playerId": "player_ph1_006_04", "name": "Modou Joof", "number": 20, "position": "CB", "country": "GM", "status": "starter"},
+      {"playerId": "player_ph1_006_05", "name": "Charles Dabao III", "number": 30, "position": "LB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_006_06", "name": "Dylan De Bruycker", "number": 17, "position": "CDM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_006_07", "name": "Shirmar Felongco", "number": 6, "position": "CM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_006_08", "name": "Denzel Vasquez", "number": 10, "position": "CAM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_006_09", "name": "Rico Andes", "number": 9, "position": "LW", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_006_10", "name": "K. Pryde", "number": 7, "position": "RW", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_006_11", "name": "Dini Ouattara", "number": 11, "position": "ST", "country": "CI", "status": "starter"},
+      {"playerId": "player_ph1_006_12", "name": "Michael Asong", "number": 1, "position": "GK", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_006_13", "name": "Daniel Ashley", "number": 2, "position": "CB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_006_14", "name": "Johnmar Barsanilla", "number": 19, "position": "CB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_006_15", "name": "Kevin Ingreso", "number": 8, "position": "CM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_006_16", "name": "Amani Aguinaldo", "number": 15, "position": "CB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_006_17", "name": "Jordan Jarvis", "number": 12, "position": "RB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_006_18", "name": "Camelo Tacusalme", "number": 14, "position": "CM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_006_19", "name": "OJ Clarino", "number": 27, "position": "LB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_006_20", "name": "Troy Limbo", "number": 18, "position": "CM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_006_21", "name": "M. Manneh", "number": 21, "position": "ST", "country": "GM", "status": "bench"},
+      {"playerId": "player_ph1_006_22", "name": "Nelson Gasic", "number": 28, "position": "GK", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_006_23", "name": "Miguel Tanton", "number": 24, "position": "CAM", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_006_24", "name": "Yrick Gallantes", "number": 25, "position": "RW", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_006_25", "name": "Sandro Reyes", "number": 26, "position": "CM", "country": "PH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 16,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
