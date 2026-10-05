@@ -1,12 +1,50 @@
-{
-  "teamKey": "Al Taaw",
-
-  "name": "Al Taawoun",
-
-  "logo": "assets/logos/asia/saudi_arabia/Tawoun.png",
-
-  "stadium": {
-    "name": "Wolves Park",
-    "capacity": 7500
+  {
+    "teamKey": "Al Taaw",
+    "name": "Al Taawoun",
+    "logo": "assets/logos/asia/saudi_arabia/Tawoun.png",
+    "manager": {
+      "name": "Zarko Lazetic",
+      "country": "RS"
+    },
+    "stadium": {
+      "name": "Wolves Park",
+      "capacity": 7500
+    },
+    "players": [
+      {"playerId": "player_sa1_016_01", "name": "Mailson", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+      {"playerId": "player_sa1_016_02", "name": "Bassam Al Hurayji", "number": 6, "position": "RB", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa1_016_03", "name": "Zineddine Belaid", "number": 5, "position": "CB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_sa1_016_04", "name": "Muteb Al Mufarrij", "number": 32, "position": "CB", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa1_016_05", "name": "Abdulrahman Hindi", "number": 70, "position": "LB", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa1_016_06", "name": "Aschraf El Mahdioui", "number": 18, "position": "CDM", "country": "MA", "status": "starter"},
+      {"playerId": "player_sa1_016_07", "name": "Oscar Dorley", "number": 19, "position": "CM", "country": "LR", "status": "starter"},
+      {"playerId": "player_sa1_016_08", "name": "Nedim Bajrami", "number": 10, "position": "CAM", "country": "AL", "status": "starter"},
+      {"playerId": "player_sa1_016_09", "name": "Marin Petkov", "number": 88, "position": "RW", "country": "BG", "status": "starter"},
+      {"playerId": "player_sa1_016_10", "name": "Mishal Al Aqel", "number": 17, "position": "LW", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa1_016_11", "name": "Abderrazak Hamdallah", "number": 9, "position": "ST", "country": "MA", "status": "starter"},
+      {"playerId": "player_sa1_016_12", "name": "Abdullah Al Jadani", "number": 30, "position": "GK", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_016_13", "name": "Abdulquddus Attiah", "number": 39, "position": "GK", "country": "SA", "status": "reserve"},
+      {"playerId": "player_sa1_016_14", "name": "Moustapha Sembene", "number": 24, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sa1_016_15", "name": "Parfait Guiagon", "number": 8, "position": "CAM", "country": "CI", "status": "bench"},
+      {"playerId": "player_sa1_016_16", "name": "Fares Al Ghamdi", "number": 16, "position": "CM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_016_17", "name": "Younes El Bahraoui", "number": 47, "position": "ST", "country": "MA", "status": "bench"},
+      {"playerId": "player_sa1_016_18", "name": "Mohammed Al Kuwaykibi", "number": 7, "position": "RW", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_016_19", "name": "Mohammed Al Saadi", "number": 45, "position": "CM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_016_20", "name": "Rakan Al Tulayhi", "number": 23, "position": "CM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_016_21", "name": "Ibrahim Mahnashi", "number": 40, "position": "CM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_016_22", "name": "Nasser Al Hulayil", "number": 4, "position": "CB", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_016_23", "name": "Awn Al Saluli", "number": 93, "position": "CB", "country": "SA", "status": "reserve"},
+      {"playerId": "player_sa1_016_24", "name": "Jair Collahuazo", "number": 55, "position": "CB", "country": "EC", "status": "reserve"},
+      {"playerId": "player_sa1_016_25", "name": "Saad Rajab", "number": 14, "position": "CM", "country": "SA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 17
+      }
+    }
   }
-}
