@@ -1,12 +1,50 @@
 {
-  "teamKey": "P Army",
-
-  "name": "Philippine Army FC",
-
-  "logo": "assets/logos/asia/philippines/PArmy.png",
-
-  "stadium": {
-    "name": "Rizal Memorial Stadium",
-    "capacity": 12873
+    "teamKey": "P Army",
+    "name": "Philippine Army FC",
+    "logo": "assets/logos/asia/philippines/PArmy.png",
+    "manager": {
+      "name": "Ronel Gener",
+      "country": "PH"
+    },
+    "stadium": {
+      "name": "Rizal Memorial Stadium",
+      "capacity": 12873
+    },
+    "players": [
+      {"playerId": "player_ph1_008_01", "name": "M. Anthony", "number": 25, "position": "GK", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_008_02", "name": "Renz Razon", "number": 2, "position": "RB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_008_03", "name": "Miller Akiapat", "number": 44, "position": "CB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_008_04", "name": "Jhomaray Sapal", "number": 55, "position": "CB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_008_05", "name": "Ian Clarino", "number": 3, "position": "LB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_008_06", "name": "Roykent Bedia", "number": 31, "position": "CDM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_008_07", "name": "Nestorio Margarse", "number": 23, "position": "CM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_008_08", "name": "Jomar Acedo", "number": 10, "position": "CAM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_008_09", "name": "John Art Lunaspe", "number": 14, "position": "LW", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_008_10", "name": "J. Villaseñor", "number": 11, "position": "RW", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_008_11", "name": "J. Gumban", "number": 90, "position": "ST", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_008_12", "name": "John Kent Delariarte", "number": 22, "position": "GK", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_008_13", "name": "Carl Viray", "number": 5, "position": "CB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_008_14", "name": "M. Cortes", "number": 47, "position": "CB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_008_15", "name": "M. Soriano", "number": 6, "position": "CDM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_008_16", "name": "R. Palacio Jr.", "number": 8, "position": "CM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_008_17", "name": "M. Gatinao", "number": 24, "position": "RB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_008_18", "name": "M. Celiz", "number": 28, "position": "CM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_008_19", "name": "R. Palacio", "number": 77, "position": "RW", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_008_20", "name": "J. Ariola", "number": 27, "position": "ST", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_008_21", "name": "J. Jupiter", "number": 18, "position": "GK", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_008_22", "name": "R. Gener Jr.", "number": 33, "position": "GK", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_008_23", "name": "A. Reyes", "number": 19, "position": "LB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_008_24", "name": "P. Marasigan", "number": 21, "position": "CM", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_008_25", "name": "E. Santos", "number": 29, "position": "ST", "country": "PH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 25,
+      "setPieces": {
+        "penalty": 90,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
