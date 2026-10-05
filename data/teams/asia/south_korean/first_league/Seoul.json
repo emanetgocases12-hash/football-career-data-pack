@@ -1,12 +1,50 @@
-{
-  "teamKey": "Seoul",
-
-  "name": "FC Seoul",
-
-  "logo": "assets/logos/asia/south_korean/Suoul.png",
-
-  "stadium": {
-    "name": "Seoul World Cup Stadium",
-    "capacity": 66704
+ {
+    "teamKey": "Seoul",
+    "name": "FC Seoul",
+    "logo": "assets/logos/asia/south_korean/Suoul.png",
+    "manager": {
+      "name": "Kim Gi-dong",
+      "country": "KR"
+    },
+    "stadium": {
+      "name": "Seoul World Cup Stadium",
+      "capacity": 66704
+    },
+    "players": [
+      {"playerId": "player_kr1_011_01", "name": "Lim Jun-seob", "number": 1, "position": "GK", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_011_02", "name": "Choi Jun", "number": 16, "position": "RB", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_011_03", "name": "Lee Sang-min", "number": 4, "position": "CB", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_011_04", "name": "Yazan Al-Arab", "number": 5, "position": "CB", "country": "JO", "status": "starter"},
+      {"playerId": "player_kr1_011_05", "name": "Ahn Jae-min", "number": 17, "position": "LB", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_011_06", "name": "Hrvoje Babec", "number": 6, "position": "CDM", "country": "HR", "status": "starter"},
+      {"playerId": "player_kr1_011_07", "name": "Jung Seung-won", "number": 7, "position": "CM", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_011_08", "name": "Lee Seung-mo", "number": 8, "position": "CM", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_011_09", "name": "Lucas Rodrigues", "number": 9, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_kr1_011_10", "name": "Moon Seon-min", "number": 27, "position": "LW", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_011_11", "name": "Cho Young-wook", "number": 11, "position": "ST", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_011_12", "name": "Gu Sung-yun", "number": 25, "position": "GK", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_011_13", "name": "Kang Hyeon-mu", "number": 31, "position": "GK", "country": "KR", "status": "reserve"},
+      {"playerId": "player_kr1_011_14", "name": "Lee Han-do", "number": 20, "position": "CB", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_011_15", "name": "Kim Jin-su", "number": 22, "position": "LB", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_011_16", "name": "Park Seong-hun", "number": 40, "position": "CB", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_011_17", "name": "Ki Sung-yueng", "number": 10, "position": "CM", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_011_18", "name": "Jesse Lingard", "number": 13, "position": "CAM", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_kr1_011_19", "name": "Kim Shin-jin", "number": 19, "position": "ST", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_011_20", "name": "Kang Sung-jin", "number": 2, "position": "RW", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_011_21", "name": "Willyan", "number": 94, "position": "LW", "country": "BR", "status": "bench"},
+      {"playerId": "player_kr1_011_22", "name": "Stanislav Iljutcenko", "number": 90, "position": "ST", "country": "DE", "status": "bench"},
+      {"playerId": "player_kr1_011_23", "name": "Son Jung-beom", "number": 32, "position": "CM", "country": "KR", "status": "reserve"},
+      {"playerId": "player_kr1_011_24", "name": "Kim Jee-won", "number": 36, "position": "CM", "country": "KR", "status": "reserve"},
+      {"playerId": "player_kr1_011_25", "name": "Juan Antonio Ros", "number": 37, "position": "CM", "country": "ES", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 9,
+        "cornerLeft": 9,
+        "cornerRight": 27
+      }
+    }
   }
-}
