@@ -1,12 +1,52 @@
 {
-  "teamKey": "Aali",
-
-  "name": "A'Ali CSC",
-
-  "logo": "assets/logos/asia/bahrain/Aali.png",
-
-  "stadium": {
-    "name": "Bahrain National Stadium",
-    "capacity": 24000
+    "teamKey": "Aali",
+    "name": "A'Ali CSC",
+    "logo": "assets/logos/asia/bahrain/Aali.png",
+    "manager": {
+      "name": "Vinícius Eutrópio",
+      "country": "BR"
+    },
+    "stadium": {
+      "name": "Bahrain National Stadium",
+      "capacity": 24000
+    },
+    "players": [
+      {"playerId": "player_bh1_001_01", "name": "Omar Salem", "number": 22, "position": "GK", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_001_02", "name": "Jordão Cardoso", "number": 13, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_bh1_001_03", "name": "Michel Rocha", "number": 29, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_bh1_001_04", "name": "Mohamed Salah Matar", "number": 93, "position": "CB", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_001_05", "name": "Faisal Ghazi", "number": 97, "position": "LB", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_001_06", "name": "Sunday Abalo", "number": 4, "position": "CDM", "country": "NG", "status": "starter"},
+      {"playerId": "player_bh1_001_07", "name": "Jasim Khelaif", "number": 8, "position": "CM", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_001_08", "name": "Robson", "number": 80, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_bh1_001_09", "name": "Layton Ndukwu", "number": 10, "position": "RW", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_bh1_001_10", "name": "Yassine Ben Mansour", "number": 14, "position": "LW", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_001_11", "name": "Diego Cardoso", "number": 30, "position": "ST", "country": "BR", "status": "starter"},
+  
+      {"playerId": "player_bh1_001_12", "name": "Mohamed Hasan", "number": 1, "position": "GK", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_001_13", "name": "Clyde O'Connell", "number": 2, "position": "CB", "country": "IE", "status": "bench"},
+      {"playerId": "player_bh1_001_14", "name": "Musab Omar", "number": 27, "position": "LB", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_001_15", "name": "Ali Kamel", "number": 23, "position": "CDM", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_001_16", "name": "Matheus Lima", "number": 50, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_bh1_001_17", "name": "Riad Idbouiguiguine", "number": 17, "position": "CAM", "country": "MA", "status": "bench"},
+      {"playerId": "player_bh1_001_18", "name": "Hasan Omar", "number": 11, "position": "RW", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_001_19", "name": "Mahmood Al Hayki", "number": 77, "position": "LW", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_001_20", "name": "Yusuf Mohamed", "number": 49, "position": "ST", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_001_21", "name": "Yazid Abdullah", "number": 24, "position": "CM", "country": "BH", "status": "bench"},
+  
+      {"playerId": "player_bh1_001_22", "name": "Yusuf Al-Khateeb", "number": 31, "position": "GK", "country": "BH", "status": "reserve"},
+      {"playerId": "player_bh1_001_23", "name": "Rafael Werneck", "number": 5, "position": "CB", "country": "BR", "status": "reserve"},
+      {"playerId": "player_bh1_001_24", "name": "Prince Eshun", "number": 28, "position": "CM", "country": "GH", "status": "reserve"},
+      {"playerId": "player_bh1_001_25", "name": "Ahmed Ali", "number": 18, "position": "LW", "country": "BH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 30,
+        "freeKick": 10,
+        "cornerLeft": 14,
+        "cornerRight": 80
+      }
+    }
   }
-}
