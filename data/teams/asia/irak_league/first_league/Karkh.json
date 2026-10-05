@@ -1,12 +1,52 @@
-{
-  "teamKey": "Karkh",
+ {
+    "teamKey": "Karkh",
+    "name": "Al-Karkh SC",
+    "logo": "assets/logos/asia/irak/Karkh.png",
+    "manager": {
+      "name": "Ahmed Abdul-Jabar",
+      "country": "IQ"
+    },
+    "stadium": {
+      "name": "Sharar Haidar Stadium",
+      "capacity": 5150
+    },
+    "players": [
+      {"playerId": "player_iq1_011_01", "name": "Mohammed Shakir", "number": 1, "position": "GK", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_011_02", "name": "Mustafa Irmayyidh", "number": 2, "position": "RB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_011_03", "name": "Naude Zeguei", "number": 4, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_iq1_011_04", "name": "Mohammed Mustafa", "number": 5, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_011_05", "name": "Hussein Fahim", "number": 3, "position": "LB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_011_06", "name": "Hayder Ahmed Salim", "number": 6, "position": "CDM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_011_07", "name": "Elie Sou", "number": 8, "position": "CM", "country": "BF", "status": "starter"},
+      {"playerId": "player_iq1_011_08", "name": "Mushab Jamal", "number": 7, "position": "RW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_011_09", "name": "Yannick Zakri", "number": 10, "position": "CAM", "country": "CI", "status": "starter"},
+      {"playerId": "player_iq1_011_10", "name": "Suhaib Raad", "number": 11, "position": "LW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_011_11", "name": "Mamadou Soro", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
 
-  "name": "Al-Karkh SC",
+      {"playerId": "player_iq1_011_12", "name": "Jaafer Shenaishil", "number": 12, "position": "GK", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_011_13", "name": "Omar Noori", "number": 14, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_011_14", "name": "Moussa Alaa", "number": 15, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_011_15", "name": "Abbas Yas", "number": 16, "position": "RB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_011_16", "name": "Muamal Rashed", "number": 17, "position": "RB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_011_17", "name": "Alioune Faye", "number": 18, "position": "CDM", "country": "SN", "status": "bench"},
+      {"playerId": "player_iq1_011_18", "name": "Noor Al-Hussein", "number": 20, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_011_19", "name": "Ameer Hassan", "number": 21, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_011_20", "name": "Mahdi Abbas", "number": 22, "position": "CAM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_011_21", "name": "Sajjad Alaa", "number": 19, "position": "ST", "country": "IQ", "status": "bench"},
 
-  "logo": "assets/logos/asia/irak/Karkh.png",
-
-  "stadium": {
-    "name": "Sharar Haidar Stadium",
-    "capacity": 5150
+      {"playerId": "player_iq1_011_22", "name": "Mohammed Ahmed Hadi", "number": 23, "position": "GK", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_011_23", "name": "Hussein Lawendy", "number": 24, "position": "ST", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_011_24", "name": "Haider Hussein", "number": 25, "position": "ST", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_011_25", "name": "Haidar Ali", "number": 27, "position": "ST", "country": "IQ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
