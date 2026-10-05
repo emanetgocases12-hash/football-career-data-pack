@@ -1,12 +1,44 @@
 {
-  "teamKey": "Kashma",
-
-  "name": "Kashima Antlers",
-
-  "logo": "assets/logos/asia/japan/Kashima.png",
-
-  "stadium": {
-    "name": "Mercari Stadium",
-    "capacity": 39095
+    "teamKey": "Kashma",
+    "name": "Kashima Antlers",
+    "logo": "assets/logos/asia/japan/Kashima.png",
+    "manager": {"name": "Oniki Toru", "country": "JP"},
+    "stadium": {"name": "Mercari Stadium", "capacity": 39095},
+    "players": [
+      {"playerId": "player_jp1_006_01", "name": "Hayakawa Tomoki", "number": 1, "position": "GK", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_006_02", "name": "Ogawa Ryoya", "number": 7, "position": "RB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_006_03", "name": "Sekigawa Ikuma", "number": 5, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_006_04", "name": "Ueda Naomichi", "number": 55, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_006_05", "name": "Anzai Koki", "number": 2, "position": "LB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_006_06", "name": "Misao Kento", "number": 6, "position": "CDM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_006_07", "name": "Shibasaki Gaku", "number": 10, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_006_08", "name": "Higuchi Yuta", "number": 14, "position": "CAM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_006_09", "name": "Yan Matheus", "number": 18, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_jp1_006_10", "name": "Leo Ceara", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_jp1_006_11", "name": "Elber", "number": 17, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_jp1_006_12", "name": "Yamada Taiki", "number": 21, "position": "GK", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_006_13", "name": "Kim Tae Hyeon", "number": 3, "position": "CB", "country": "KR", "status": "bench"},
+      {"playerId": "player_jp1_006_14", "name": "Chida Kaito", "number": 4, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_006_15", "name": "Tsukui Keisuke", "number": 23, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_006_16", "name": "Koike Ryuta", "number": 25, "position": "RB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_006_17", "name": "Matheus Bueno", "number": 8, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_jp1_006_18", "name": "Matsumura Yuta", "number": 27, "position": "RW", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_006_19", "name": "Tagawa Kyosuke", "number": 11, "position": "ST", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_006_20", "name": "Suzuki Yuma", "number": 40, "position": "ST", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_006_21", "name": "Cavric", "number": 77, "position": "RW", "country": "RS", "status": "bench"},
+      {"playerId": "player_jp1_006_22", "name": "Kajikawa Yuji", "number": 29, "position": "GK", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_006_23", "name": "Omori Sho", "number": 19, "position": "LB", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_006_24", "name": "Yoshida Minato", "number": 30, "position": "ST", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_006_25", "name": "Tokuda Homare", "number": 34, "position": "ST", "country": "JP", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 14,
+        "cornerLeft": 14,
+        "cornerRight": 17
+      }
+    }
   }
-}
