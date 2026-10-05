@@ -1,12 +1,50 @@
-{
-  "teamKey": "Gangwo",
-
-  "name": "Gangwon FC",
-
-  "logo": "assets/logos/asia/south_korean/Gangwon.png",
-
-  "stadium": {
-    "name": "Gangneung Stadium",
-    "capacity": 22333
+ {
+    "teamKey": "Gangwo",
+    "name": "Gangwon FC",
+    "logo": "assets/logos/asia/south_korean/Gangwon.png",
+    "manager": {
+      "name": "Chung Kyung-ho",
+      "country": "KR"
+    },
+    "stadium": {
+      "name": "Gangneung Stadium",
+      "capacity": 22333
+    },
+    "players": [
+      {"playerId": "player_kr1_004_01", "name": "Park Cheong-hyo", "number": 1, "position": "GK", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_004_02", "name": "Kim Do-hyun", "number": 27, "position": "RB", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_004_03", "name": "Jeong Seung-bin", "number": 3, "position": "CB", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_004_04", "name": "Abdelkarim Mammar", "number": 5, "position": "CB", "country": "SE", "status": "starter"},
+      {"playerId": "player_kr1_004_05", "name": "Hong Chul", "number": 33, "position": "LB", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_004_06", "name": "Seo Min-woo", "number": 4, "position": "CDM", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_004_07", "name": "Kim Dong-hyun", "number": 6, "position": "CM", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_004_08", "name": "Lee Seung-won", "number": 8, "position": "CM", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_004_09", "name": "Kim Tae-hwan", "number": 16, "position": "RM", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_004_10", "name": "Kim Dae-won", "number": 7, "position": "LW", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_004_11", "name": "Kim Gun-hee", "number": 9, "position": "ST", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_004_12", "name": "Kim Jung-hoon", "number": 21, "position": "GK", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_004_13", "name": "Hong Jin-hyeok", "number": 31, "position": "GK", "country": "KR", "status": "reserve"},
+      {"playerId": "player_kr1_004_14", "name": "Jo Hyun-tae", "number": 20, "position": "CB", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_004_15", "name": "Marko Tuci", "number": 23, "position": "CB", "country": "ME", "status": "bench"},
+      {"playerId": "player_kr1_004_16", "name": "Park Ho-young", "number": 24, "position": "CB", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_004_17", "name": "Goh Young-jun", "number": 11, "position": "CAM", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_004_18", "name": "Lee Ki-hyuk", "number": 13, "position": "CM", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_004_19", "name": "Kang Yun-gu", "number": 14, "position": "CM", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_004_20", "name": "Mo Jae-hyeon", "number": 10, "position": "RW", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_004_21", "name": "Jin Jun-seo", "number": 15, "position": "ST", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_004_22", "name": "Park Sang-hyeok", "number": 19, "position": "ST", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_004_23", "name": "Yoo Byung-heon", "number": 22, "position": "ST", "country": "KR", "status": "reserve"},
+      {"playerId": "player_kr1_004_24", "name": "Jesse Sekidika", "number": 70, "position": "RW", "country": "NG", "status": "reserve"},
+      {"playerId": "player_kr1_004_25", "name": "Abdalla Halaihal", "number": 77, "position": "ST", "country": "IL", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 7
+      }
+    }
   }
-}
