@@ -1,12 +1,50 @@
-{
-  "teamKey": "Sailiy",
-
-  "name": "Al Sailiya",
-
-  "logo": "assets/logos/asia/qatar/Sailiya.png",
-
-  "stadium": {
-    "name": "Hamad bin Khalifa Stadium",
-    "capacity": 12000
+ {
+    "teamKey": "Sailiy",
+    "name": "Al Sailiya",
+    "logo": "assets/logos/asia/qatar/Sailiya.png",
+    "manager": {
+      "name": "Mirghani Al Zain",
+      "country": "QA"
+    },
+    "stadium": {
+      "name": "Hamad bin Khalifa Stadium",
+      "capacity": 12000
+    },
+    "players": [
+      {"playerId": "player_qa1_009_01", "name": "Bautista Burke", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+      {"playerId": "player_qa1_009_02", "name": "Kellian Van der Kaap", "number": 55, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_qa1_009_03", "name": "Matias Nani", "number": 15, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_qa1_009_04", "name": "Abdulaziz Mitwali", "number": 14, "position": "LB", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_009_05", "name": "Moaz Abdulla", "number": 77, "position": "RB", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_009_06", "name": "Mathias Normann", "number": 17, "position": "CDM", "country": "NO", "status": "starter"},
+      {"playerId": "player_qa1_009_07", "name": "Ahmad Moein Doozandeh", "number": 8, "position": "CM", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_009_08", "name": "Younès Belhanda", "number": 20, "position": "CAM", "country": "MA", "status": "starter"},
+      {"playerId": "player_qa1_009_09", "name": "Mohamed Taabouni", "number": 10, "position": "LW", "country": "NL", "status": "starter"},
+      {"playerId": "player_qa1_009_10", "name": "Anwar El Ghazi", "number": 21, "position": "RW", "country": "NL", "status": "starter"},
+      {"playerId": "player_qa1_009_11", "name": "Ali Alwan", "number": 9, "position": "ST", "country": "JO", "status": "starter"},
+      {"playerId": "player_qa1_009_12", "name": "Youssef Mohamed Sayed", "number": 50, "position": "GK", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_009_13", "name": "Motasem Al Bustami", "number": 31, "position": "GK", "country": "QA", "status": "reserve"},
+      {"playerId": "player_qa1_009_14", "name": "Salem Al Sufiani", "number": 99, "position": "CB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_009_15", "name": "Ibrahim Majed", "number": 4, "position": "CB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_009_16", "name": "Mohamed Yasser Ahmed", "number": 34, "position": "RB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_009_17", "name": "Awab El Awad", "number": 18, "position": "CM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_009_18", "name": "Ali Ahmed Al Amri", "number": 32, "position": "CM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_009_19", "name": "Mohab Mohammed Eissa", "number": 7, "position": "RW", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_009_20", "name": "Abdulrahman Mohammed", "number": 5, "position": "CDM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_009_21", "name": "Osama Al Tairy", "number": 16, "position": "CM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_009_22", "name": "Andri Syahputra", "number": 22, "position": "CM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_009_23", "name": "Raoul Sanda", "number": 25, "position": "CAM", "country": "FR", "status": "reserve"},
+      {"playerId": "player_qa1_009_24", "name": "Hadi Ali", "number": 11, "position": "LW", "country": "QA", "status": "reserve"},
+      {"playerId": "player_qa1_009_25", "name": "Abdulaziz Mohamd Albakri", "number": 19, "position": "ST", "country": "QA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 20,
+        "cornerLeft": 20,
+        "cornerRight": 21
+      }
+    }
   }
-}
