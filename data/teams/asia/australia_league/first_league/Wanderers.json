@@ -1,12 +1,52 @@
-{
-  "teamKey": "WS Wand",
+ {
+    "teamKey": "WS Wand",
+    "name": "Western Sydney Wanderers",
+    "logo": "assets/logos/asia/australia/Wanderers.png",
+    "manager": {
+      "name": "Ufuk Talay",
+      "country": "AU"
+    },
+    "stadium": {
+      "name": "CommBank Stadium",
+      "capacity": 30000
+    },
+    "players": [
+      {"playerId": "player_au1_011_01", "name": "Lawrence Thomas", "number": 20, "position": "GK", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_011_02", "name": "Panashe Madanha", "number": 2, "position": "RB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_011_03", "name": "Germán Ferreyra", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+      {"playerId": "player_au1_011_04", "name": "Nathan Barrie", "number": 24, "position": "CB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_011_05", "name": "Alex Gersbach", "number": 3, "position": "LB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_011_06", "name": "Dylan Scicluna", "number": 5, "position": "CDM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_011_07", "name": "Angus Thurgate", "number": 32, "position": "CM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_011_08", "name": "Brandon Borrello", "number": 26, "position": "RW", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_011_09", "name": "Nicolas Milanovic", "number": 14, "position": "CAM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_011_10", "name": "Jarrod Carluccio", "number": 17, "position": "LW", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_011_11", "name": "Hiroshi Ibusuki", "number": 11, "position": "ST", "country": "JP", "status": "starter"},
 
-  "name": "Western Sydney Wanderers",
+      {"playerId": "player_au1_011_12", "name": "Jordan Holmes", "number": 30, "position": "GK", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_011_13", "name": "Anthony Pantazopoulos", "number": 22, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_011_14", "name": "Ricky Fransen", "number": 34, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_011_15", "name": "Steven Ugarkovic", "number": 8, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_011_16", "name": "Miguel Di Pizio", "number": 7, "position": "RW", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_011_17", "name": "Oscar Morrison", "number": 10, "position": "CAM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_011_18", "name": "Aydan Hammond", "number": 21, "position": "RW", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_011_19", "name": "Alaat Abdul-Rahman", "number": 37, "position": "LW", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_011_20", "name": "Awan Lual", "number": 39, "position": "ST", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_011_21", "name": "Atiya Waraga", "number": 9, "position": "ST", "country": "AU", "status": "bench"},
 
-  "logo": "assets/logos/asia/australia/Wanderers.png",
-
-  "stadium": {
-    "name": "CommBank Stadium",
-    "capacity": 30000
+      {"playerId": "player_au1_011_22", "name": "Tristan Vidackovic", "number": 40, "position": "GK", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_011_23", "name": "Joshua Cetinic", "number": 6, "position": "CM", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_011_24", "name": "Liam Gillion", "number": 19, "position": "LW", "country": "NZ", "status": "reserve"},
+      {"playerId": "player_au1_011_25", "name": "Jai Rose", "number": 38, "position": "CM", "country": "AU", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 20,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 14,
+        "cornerLeft": 26,
+        "cornerRight": 14
+      }
+    }
   }
-}
