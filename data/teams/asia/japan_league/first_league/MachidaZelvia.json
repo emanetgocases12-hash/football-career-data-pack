@@ -1,12 +1,44 @@
-{
-  "teamKey": "Zelvia",
-
-  "name": "FC Machida Zelvia",
-
-  "logo": "assets/logos/asia/japan/Zevia.png",
-
-  "stadium": {
-    "name": "Machida GION Stadium",
-    "capacity": 15320
+ {
+    "teamKey": "Zelvia",
+    "name": "FC Machida Zelvia",
+    "logo": "assets/logos/asia/japan/Zevia.png",
+    "manager": {"name": "Kuroda Go", "country": "JP"},
+    "stadium": {"name": "Machida GION Stadium", "capacity": 15320},
+    "players": [
+      {"playerId": "player_jp1_010_01", "name": "Tani Kosei", "number": 1, "position": "GK", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_010_02", "name": "Nakamura Hotaka", "number": 88, "position": "RB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_010_03", "name": "Shoji Gen", "number": 3, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_010_04", "name": "Okamura Daihachi", "number": 50, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_010_05", "name": "Nakayama Yuta", "number": 19, "position": "LB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_010_06", "name": "Mae Hiroyuki", "number": 16, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_010_07", "name": "Neta Lavi", "number": 31, "position": "CDM", "country": "IL", "status": "starter"},
+      {"playerId": "player_jp1_010_08", "name": "Nishimura Takuma", "number": 20, "position": "CAM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_010_09", "name": "Soma Yuki", "number": 7, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_010_10", "name": "Ogawa Koki", "number": 9, "position": "ST", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_010_11", "name": "Matsuo Yusuke", "number": 14, "position": "LW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_010_12", "name": "Morita Tatsuya", "number": 13, "position": "GK", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_010_13", "name": "Kikuchi David Ryuho", "number": 4, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_010_14", "name": "Dresevic", "number": 5, "position": "CB", "country": "XK", "status": "bench"},
+      {"playerId": "player_jp1_010_15", "name": "Mochizuki Henry Heroki", "number": 6, "position": "RB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_010_16", "name": "Kim Min Tae", "number": 24, "position": "CB", "country": "KR", "status": "bench"},
+      {"playerId": "player_jp1_010_17", "name": "Shimoda Hokuto", "number": 18, "position": "CM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_010_18", "name": "Shirasaki Ryohei", "number": 23, "position": "CM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_010_19", "name": "Mitchell Duke", "number": 15, "position": "ST", "country": "AU", "status": "bench"},
+      {"playerId": "player_jp1_010_20", "name": "EriK", "number": 27, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_jp1_010_21", "name": "Tete Yengi", "number": 99, "position": "ST", "country": "AU", "status": "bench"},
+      {"playerId": "player_jp1_010_22", "name": "Koch Aki", "number": 66, "position": "GK", "country": "DE", "status": "reserve"},
+      {"playerId": "player_jp1_010_23", "name": "Cha Je Hoon", "number": 28, "position": "CM", "country": "KR", "status": "reserve"},
+      {"playerId": "player_jp1_010_24", "name": "Masuyama Asahi", "number": 11, "position": "RM", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_010_25", "name": "Fujio Shota", "number": 34, "position": "ST", "country": "JP", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "3-4-2-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 20,
+        "cornerLeft": 20,
+        "cornerRight": 14
+      }
+    }
   }
-}
