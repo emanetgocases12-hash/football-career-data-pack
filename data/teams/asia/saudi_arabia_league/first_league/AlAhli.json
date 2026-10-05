@@ -1,12 +1,50 @@
 {
-  "teamKey": "Al Ahli",
-
-  "name": "Al Ahli",
-
-  "logo": "assets/logos/asia/saudi_arabia/Ahli.png",
-
-  "stadium": {
-    "name": "Alinma Stadium",
-    "capacity": 62345
+    "teamKey": "Al Ahli",
+    "name": "Al Ahli",
+    "logo": "assets/logos/asia/saudi_arabia/Ahli.png",
+    "manager": {
+      "name": "Marino Pusic",
+      "country": "BA"
+    },
+    "stadium": {
+      "name": "Alinma Stadium",
+      "capacity": 62345
+    },
+    "players": [
+      {"playerId": "player_sa1_002_01", "name": "Edouard Mendy", "number": 16, "position": "GK", "country": "SN", "status": "starter"},
+      {"playerId": "player_sa1_002_02", "name": "Ali Majrashi", "number": 27, "position": "RB", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa1_002_03", "name": "Merih Demiral", "number": 28, "position": "CB", "country": "TR", "status": "starter"},
+      {"playerId": "player_sa1_002_04", "name": "Roger Ibanez", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_sa1_002_05", "name": "Saad Balobaid", "number": 31, "position": "LB", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa1_002_06", "name": "Artem Bondarenko", "number": 19, "position": "CM", "country": "UA", "status": "starter"},
+      {"playerId": "player_sa1_002_07", "name": "Ibrahima Diaby", "number": 4, "position": "CDM", "country": "CI", "status": "starter"},
+      {"playerId": "player_sa1_002_08", "name": "Eduard Spertsyan", "number": 8, "position": "CAM", "country": "AM", "status": "starter"},
+      {"playerId": "player_sa1_002_09", "name": "Francisco Trincao", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+      {"playerId": "player_sa1_002_10", "name": "Galeno", "number": 13, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_sa1_002_11", "name": "Firas Al Buraikan", "number": 9, "position": "ST", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa1_002_12", "name": "Abdulrahman Al Sanbi", "number": 1, "position": "GK", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_002_13", "name": "Saad Al Jadany", "number": 72, "position": "GK", "country": "SA", "status": "reserve"},
+      {"playerId": "player_sa1_002_14", "name": "Mohammed Sulaiman", "number": 5, "position": "CB", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_002_15", "name": "Zakaria Al Hawsawi", "number": 2, "position": "LB", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_002_16", "name": "Ziyad Al Johani", "number": 30, "position": "CM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_002_17", "name": "Naif Masoud", "number": 66, "position": "CM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_002_18", "name": "Ivan Toney", "number": 17, "position": "ST", "country": "GB-ENG", "status": "bench"},
+      {"playerId": "player_sa1_002_19", "name": "Matheus Goncalves", "number": 20, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_sa1_002_20", "name": "Abdullah Radif", "number": 21, "position": "ST", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_002_21", "name": "Saleh Abu Al-Shamat", "number": 47, "position": "RW", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_002_22", "name": "Saad Baattia", "number": 15, "position": "CM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_002_23", "name": "Meshal Al Mutairi", "number": 11, "position": "RW", "country": "SA", "status": "reserve"},
+      {"playerId": "player_sa1_002_24", "name": "Ammar Abdulrahman", "number": 29, "position": "CB", "country": "SA", "status": "reserve"},
+      {"playerId": "player_sa1_002_25", "name": "Fahad Fallatah", "number": 25, "position": "CM", "country": "SA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 16,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 13
+      }
+    }
   }
-}
