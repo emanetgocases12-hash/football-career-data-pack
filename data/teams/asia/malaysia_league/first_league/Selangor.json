@@ -1,12 +1,35 @@
 {
-  "teamKey": "Selang",
-
-  "name": "Selangor FC",
-
-  "logo": "assets/logos/asia/malaysia/Selangor.png",
-
-  "stadium": {
-    "name": "Petaling Jaya Stadium",
-    "capacity": 25000
+    "teamKey": "Selang",
+    "name": "Selangor FC",
+    "logo": "assets/logos/asia/malaysia/Selangor.png",
+    "manager": {"name": "Kim Pan-gon", "country": "KR"},
+    "stadium": {"name": "Petaling Jaya Stadium", "capacity": 25000},
+    "players": [
+      {"playerId": "player_my1_010_01", "name": "Sikh Izhan", "number": 31, "position": "GK", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_010_02", "name": "Quentin Cheng", "number": 2, "position": "RB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_010_03", "name": "Arbenit Xhemajli", "number": 5, "position": "CB", "country": "XK", "status": "starter"},
+      {"playerId": "player_my1_010_04", "name": "Safuwan Baharudin", "number": 21, "position": "CB", "country": "SG", "status": "starter"},
+      {"playerId": "player_my1_010_05", "name": "Adib Ra'op", "number": 46, "position": "LB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_010_06", "name": "Nooa Laine", "number": 6, "position": "CM", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_010_07", "name": "Peter Makrillos", "number": 8, "position": "CM", "country": "AU", "status": "starter"},
+      {"playerId": "player_my1_010_08", "name": "Faisal Halim", "number": 7, "position": "LW", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_010_09", "name": "Eduardo Sosa", "number": 10, "position": "CAM", "country": "VE", "status": "starter"},
+      {"playerId": "player_my1_010_10", "name": "Hugo Boumous", "number": 9, "position": "RW", "country": "FR", "status": "starter"},
+      {"playerId": "player_my1_010_11", "name": "Chrigor Moraes", "number": 91, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_my1_010_12", "name": "Kalamullah Al-Hafiz", "number": 33, "position": "GK", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_010_13", "name": "Richmond Ankrah", "number": 4, "position": "CB", "country": "GH", "status": "bench"},
+      {"playerId": "player_my1_010_14", "name": "Jefferson Tabinas", "number": 40, "position": "LB", "country": "PH", "status": "bench"},
+      {"playerId": "player_my1_010_15", "name": "Sharul Nazeem", "number": 44, "position": "CB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_010_16", "name": "Harith Haiqal", "number": 55, "position": "CB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_010_17", "name": "Zikri Khalili", "number": 14, "position": "LB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_010_18", "name": "Azam Azih", "number": 19, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_010_19", "name": "Alexander Agyarkwa", "number": 24, "position": "CM", "country": "GH", "status": "bench"},
+      {"playerId": "player_my1_010_20", "name": "Mukhairi Ajmal", "number": 29, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_010_21", "name": "Kay Tejan", "number": 11, "position": "ST", "country": "NL", "status": "bench"},
+      {"playerId": "player_my1_010_22", "name": "Azim Al Amin", "number": 20, "position": "GK", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_010_23", "name": "Muhammad Khalil", "number": 28, "position": "CM", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_010_24", "name": "Syahir Bashah", "number": 43, "position": "CM", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_010_25", "name": "Vitor Pernambuco", "number": 98, "position": "RW", "country": "BR", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 5, "setPieces": {"penalty": 91, "freeKick": 10, "cornerLeft": 7, "cornerRight": 9}}
   }
-}
