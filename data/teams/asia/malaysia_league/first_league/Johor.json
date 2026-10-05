@@ -1,12 +1,35 @@
-{
-  "teamKey": "Jojor",
-
-  "name": "Johor Darul Ta'zim",
-
-  "logo": "assets/logos/asia/malaysia/Johor.png",
-
-  "stadium": {
-    "name": "Sultan Ibrahim Stadium",
-    "capacity": 40000
+ {
+    "teamKey": "Jojor",
+    "name": "Johor Darul Ta'zim",
+    "logo": "assets/logos/asia/malaysia/Johor.png",
+    "manager": {"name": "Xisco Muñoz", "country": "ES"},
+    "stadium": {"name": "Sultan Ibrahim Stadium", "capacity": 40000},
+    "players": [
+      {"playerId": "player_my1_002_01", "name": "Syihan Hazmi", "number": 16, "position": "GK", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_002_02", "name": "Matthew Davies", "number": 2, "position": "RB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_002_03", "name": "Feroz Baharudin", "number": 15, "position": "CB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_002_04", "name": "Shahrul Saad", "number": 3, "position": "CB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_002_05", "name": "La'Vere Corbin-Ong", "number": 22, "position": "LB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_002_06", "name": "Nené", "number": 18, "position": "CDM", "country": "PT", "status": "starter"},
+      {"playerId": "player_my1_002_07", "name": "Dejan Petrovič", "number": 21, "position": "CM", "country": "SI", "status": "starter"},
+      {"playerId": "player_my1_002_08", "name": "Arif Aiman", "number": 42, "position": "RW", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_002_09", "name": "Nacho Méndez", "number": 28, "position": "CAM", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_002_10", "name": "Óscar Arribas", "number": 24, "position": "LW", "country": "PH", "status": "starter"},
+      {"playerId": "player_my1_002_11", "name": "Bérgson", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_my1_002_12", "name": "Andoni Zubiaurre", "number": 58, "position": "GK", "country": "ES", "status": "bench"},
+      {"playerId": "player_my1_002_13", "name": "Eddy Israfilov", "number": 23, "position": "CB", "country": "AZ", "status": "bench"},
+      {"playerId": "player_my1_002_14", "name": "Jonathan Silva", "number": 33, "position": "LB", "country": "AR", "status": "bench"},
+      {"playerId": "player_my1_002_15", "name": "Raúl Parra", "number": 36, "position": "RB", "country": "ES", "status": "bench"},
+      {"playerId": "player_my1_002_16", "name": "Syahmi Safari", "number": 91, "position": "RB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_002_17", "name": "Hong Wan", "number": 6, "position": "CDM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_002_18", "name": "Stuart Wilkin", "number": 12, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_002_19", "name": "Afiq Fazail", "number": 4, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_002_20", "name": "Hector Hevel", "number": 8, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_002_21", "name": "Marcos Guilherme", "number": 95, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_my1_002_22", "name": "Christian Abad", "number": 1, "position": "GK", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_002_23", "name": "Teto Martín", "number": 20, "position": "LW", "country": "PH", "status": "reserve"},
+      {"playerId": "player_my1_002_24", "name": "Jairo", "number": 11, "position": "ST", "country": "BR", "status": "reserve"},
+      {"playerId": "player_my1_002_25", "name": "Shahab Zahedi", "number": 99, "position": "ST", "country": "IR", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 15, "setPieces": {"penalty": 9, "freeKick": 28, "cornerLeft": 24, "cornerRight": 42}}
   }
-}
