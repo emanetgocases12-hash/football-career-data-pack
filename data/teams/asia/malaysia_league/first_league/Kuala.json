@@ -1,12 +1,35 @@
 {
-  "teamKey": "Kuala L",
-
-  "name": "Kuala Lumpur City FC",
-
-  "logo": "assets/logos/asia/malaysia/Kuala.png",
-
-  "stadium": {
-    "name": "Kuala Lumpur Football Stadium",
-    "capacity": 18000
+    "teamKey": "Kuala L",
+    "name": "Kuala Lumpur City FC",
+    "logo": "assets/logos/asia/malaysia/Kuala.png",
+    "manager": {"name": "Dollah Salleh", "country": "MY"},
+    "stadium": {"name": "Kuala Lumpur Football Stadium", "capacity": 18000},
+    "players": [
+      {"playerId": "player_my1_004_01", "name": "Quincy Kammeraad", "number": 1, "position": "GK", "country": "PH", "status": "starter"},
+      {"playerId": "player_my1_004_02", "name": "Kamal Azizi", "number": 4, "position": "RB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_004_03", "name": "Adam Nor Azlin", "number": 3, "position": "CB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_004_04", "name": "Dmytro Lytvyn", "number": 96, "position": "CB", "country": "UA", "status": "starter"},
+      {"playerId": "player_my1_004_05", "name": "Syazwan Andik", "number": 6, "position": "LB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_004_06", "name": "Giancarlo Gallifuoco", "number": 9, "position": "CDM", "country": "AU", "status": "starter"},
+      {"playerId": "player_my1_004_07", "name": "Gary Steven Robbat", "number": 20, "position": "CM", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_004_08", "name": "Syafiq Ahmad", "number": 7, "position": "RW", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_004_09", "name": "Paulo Josué", "number": 28, "position": "CAM", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_004_10", "name": "Reagy Ofosu", "number": 10, "position": "LW", "country": "DE", "status": "starter"},
+      {"playerId": "player_my1_004_11", "name": "Fareed Sadat", "number": 25, "position": "ST", "country": "AF", "status": "starter"},
+      {"playerId": "player_my1_004_12", "name": "Ameerul Eqhwan", "number": 13, "position": "GK", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_004_13", "name": "Kenny Pallraj", "number": 21, "position": "CB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_004_14", "name": "Azrif Nasrulhaq", "number": 29, "position": "RB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_004_15", "name": "Mohammad Amer Saidin", "number": 26, "position": "CB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_004_16", "name": "Firdaus Faudzi", "number": 5, "position": "LB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_004_17", "name": "Ibrahim Manusi", "number": 30, "position": "CDM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_004_18", "name": "Sharvin Selvakumaran", "number": 77, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_004_19", "name": "Amirul Husaini Zamri", "number": 14, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_004_20", "name": "Izreen Izwandy", "number": 18, "position": "CAM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_004_21", "name": "Rafie Mat Yaacob", "number": 17, "position": "RW", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_004_22", "name": "Mohammad Hafizy Nadzli", "number": 31, "position": "GK", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_004_23", "name": "Adam Mukriz", "number": 24, "position": "CM", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_004_24", "name": "Amreel Iqbal", "number": 23, "position": "LM", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_004_25", "name": "Haziq Fitri", "number": 35, "position": "GK", "country": "MY", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 3, "setPieces": {"penalty": 25, "freeKick": 28, "cornerLeft": 10, "cornerRight": 7}}
   }
-}
