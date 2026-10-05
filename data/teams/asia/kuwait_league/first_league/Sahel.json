@@ -1,12 +1,35 @@
 {
-  "teamKey": "Sahel",
-
-  "name": "Al-Sahel Sporting Club",
-
-  "logo": "assets/logos/asia/kuwait/Sahel.png",
-
-  "stadium": {
-    "name": "Abu Halifa City Stadium",
-    "capacity":2000
+    "teamKey": "Sahel",
+    "name": "Al-Sahel Sporting Club",
+    "logo": "assets/logos/asia/kuwait/Sahel.png",
+    "manager": {"name": "Yousef Mudhaf", "country": "KW"},
+    "stadium": {"name": "Abu Halifa City Stadium", "capacity": 2000},
+    "players": [
+      {"playerId": "player_kw1_009_01", "name": "Meshal Al-Rashidi", "number": 1, "position": "GK", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_009_02", "name": "Lucas Marreta", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+      {"playerId": "player_kw1_009_03", "name": "Mauricio", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_kw1_009_04", "name": "João Moura", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_kw1_009_05", "name": "Khaled Al-Qahtani", "number": 5, "position": "LB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_009_06", "name": "Lucas Lucena", "number": 6, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_kw1_009_07", "name": "Ghazi Al-Otaibi", "number": 7, "position": "CM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_009_08", "name": "Leonardo Silva", "number": 8, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_kw1_009_09", "name": "Allan Paulista", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_kw1_009_10", "name": "Omar El-Hanoudi", "number": 10, "position": "LW", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_009_11", "name": "Cleiton Padilha", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_kw1_009_12", "name": "Fawaz Al-Dosari", "number": 12, "position": "GK", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_009_13", "name": "Shaheen Alkhamees", "number": 13, "position": "CM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_009_14", "name": "Nasser Al-Qahtani", "number": 14, "position": "CB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_009_15", "name": "Abdulaziz Murad", "number": 15, "position": "RB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_009_16", "name": "Meshari Al-Kandari", "number": 16, "position": "LB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_009_17", "name": "Ali Ford", "number": 17, "position": "CB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_009_18", "name": "Ali Jawhar", "number": 18, "position": "RM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_009_19", "name": "Aiman Al-Hagri", "number": 19, "position": "LM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_009_20", "name": "Meshari Fayad", "number": 20, "position": "CDM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_009_21", "name": "Mohammed Zenefer Al-Dawsari", "number": 21, "position": "CAM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_009_22", "name": "Dhari Al-Masri", "number": 22, "position": "GK", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_009_23", "name": "Abdullah Bather", "number": 23, "position": "ST", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_009_24", "name": "Mohammed Al-Aladhi", "number": 24, "position": "LW", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_009_25", "name": "Farhan Saad", "number": 25, "position": "RW", "country": "KW", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 6, "setPieces": {"penalty": 9, "freeKick": 8, "cornerLeft": 10, "cornerRight": 11}}
   }
-}
