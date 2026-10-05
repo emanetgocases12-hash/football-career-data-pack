@@ -1,12 +1,50 @@
 {
-  "teamKey": "Tanjon",
-
-  "name": "Tanjong Pagar United FC",
-
-  "logo": "assets/logos/asia/singapor/Tanjong.png",
-
-  "stadium": {
-    "name": "Jurong East Stadium",
-    "capacity": 2700
+    "teamKey": "Tanjon",
+    "name": "Tanjong Pagar United FC",
+    "logo": "assets/logos/asia/singapor/Tanjong.png",
+    "manager": {
+      "name": "Miki Lladó",
+      "country": "ES"
+    },
+    "stadium": {
+      "name": "Jurong East Stadium",
+      "capacity": 2700
+    },
+    "players": [
+      {"playerId": "player_sg1_007_01", "name": "Kenji Rusydi", "number": 12, "position": "GK", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_007_02", "name": "Yuki Aizu", "number": 8, "position": "RB", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_007_03", "name": "Madhu Mohana", "number": 6, "position": "CB", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_007_04", "name": "Syed Muhd Akmal", "number": 5, "position": "CB", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_007_05", "name": "Marvin Jose Pallaruelo", "number": 20, "position": "LB", "country": "ES", "status": "starter"},
+      {"playerId": "player_sg1_007_06", "name": "Jared Gallagher", "number": 4, "position": "CDM", "country": "IE", "status": "starter"},
+      {"playerId": "player_sg1_007_07", "name": "Alejandro Martin Masogo", "number": 18, "position": "CM", "country": "ES", "status": "starter"},
+      {"playerId": "player_sg1_007_08", "name": "Masahiro Sugita", "number": 10, "position": "CAM", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_007_09", "name": "Riku Fukashiro", "number": 11, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_007_10", "name": "Taufik Suparno", "number": 13, "position": "LW", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_007_11", "name": "Boris Kopitovic", "number": 9, "position": "ST", "country": "ME", "status": "starter"},
+      {"playerId": "player_sg1_007_12", "name": "Liantian Yue", "number": 27, "position": "GK", "country": "CN", "status": "bench"},
+      {"playerId": "player_sg1_007_13", "name": "Marcus Mosses", "number": 15, "position": "CB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_007_14", "name": "Kieran Teo", "number": 21, "position": "RB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_007_15", "name": "Syahrul Sazali", "number": 22, "position": "CB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_007_16", "name": "Haziq Zulkifli", "number": 26, "position": "LB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_007_17", "name": "Lazar Vujanic", "number": 7, "position": "CM", "country": "RS", "status": "bench"},
+      {"playerId": "player_sg1_007_18", "name": "Fathullah Rahmat", "number": 23, "position": "CM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_007_19", "name": "Shahreez Basheer", "number": 32, "position": "CM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_007_20", "name": "Naqiuddin Eunos", "number": 17, "position": "RW", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_007_21", "name": "Samuel Pillai", "number": 19, "position": "ST", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_007_22", "name": "Travis Ang", "number": 72, "position": "GK", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_007_23", "name": "Zahil Abdul Rahman", "number": 28, "position": "LW", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_007_24", "name": "Adly Irfan", "number": 31, "position": "ST", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_007_25", "name": "Anaqi Ismit", "number": 66, "position": "ST", "country": "SG", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 13
+      }
+    }
   }
-}
