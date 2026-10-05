@@ -1,12 +1,52 @@
 {
-  "teamKey": "Sydney",
+    "teamKey": "Sydney",
+    "name": "Sydney FC",
+    "logo": "assets/logos/asia/australia/Sydney.png",
+    "manager": {
+      "name": "Patrick Kisnorbo",
+      "country": "AU"
+    },
+    "stadium": {
+      "name": "Allianz Stadium",
+      "capacity": 42500
+    },
+    "players": [
+      {"playerId": "player_au1_010_01", "name": "Gus Hoefsloot", "number": 1, "position": "GK", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_010_02", "name": "Rhyan Grant", "number": 23, "position": "RB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_010_03", "name": "Marcel Tisserand", "number": 32, "position": "CB", "country": "CD", "status": "starter"},
+      {"playerId": "player_au1_010_04", "name": "Jordan Courtney-Perkins", "number": 4, "position": "CB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_010_05", "name": "Jacob Farrell", "number": 5, "position": "LB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_010_06", "name": "Wataru Kamijo", "number": 8, "position": "CDM", "country": "JP", "status": "starter"},
+      {"playerId": "player_au1_010_07", "name": "Jake Hollman", "number": 15, "position": "CM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_010_08", "name": "Takahiro Sekine", "number": 14, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_au1_010_09", "name": "Akol Akon", "number": 7, "position": "CAM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_010_10", "name": "Abel Walatee", "number": 11, "position": "LW", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_010_11", "name": "Oriola Sunday", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
 
-  "name": "Sydney FC",
+      {"playerId": "player_au1_010_12", "name": "Harrison Devenish-Meares", "number": 12, "position": "GK", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_010_13", "name": "James Overy", "number": 2, "position": "RB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_010_14", "name": "Ben Garuccio", "number": 17, "position": "LB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_010_15", "name": "Ethan Dyer", "number": 28, "position": "CB", "country": "NZ", "status": "bench"},
+      {"playerId": "player_au1_010_16", "name": "Zach Harrison", "number": 18, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_010_17", "name": "Tiago Quintal", "number": 20, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_010_18", "name": "Mathias Macallister", "number": 22, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_010_19", "name": "Joe Lacey", "number": 29, "position": "CAM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_010_20", "name": "Gabriel Popovic", "number": 16, "position": "ST", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_010_21", "name": "Al Hassan Toure", "number": 35, "position": "RW", "country": "AU", "status": "bench"},
 
-  "logo": "assets/logos/asia/australia/Sydney.png",
-
-  "stadium": {
-    "name": "Allianz Stadium",
-    "capacity": 42500
+      {"playerId": "player_au1_010_22", "name": "Sandy Zaverdinos", "number": 30, "position": "GK", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_010_23", "name": "Marin France", "number": 33, "position": "CM", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_010_24", "name": "Nikolas Alfaro", "number": 26, "position": "LW", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_010_25", "name": "Sam Lancaster", "number": 38, "position": "ST", "country": "AU", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 23,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 14,
+        "cornerLeft": 14,
+        "cornerRight": 7
+      }
+    }
   }
-}
