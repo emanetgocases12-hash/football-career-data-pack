@@ -1,12 +1,58 @@
 {
-  "teamKey": "Samari",
+    "teamKey": "Samari",
 
-  "name": "Borneo FC Samarinda",
+    "name": "Borneo FC Samarinda",
 
-  "logo": "assets/logos/asia/indonesia/Borneo.png",
+    "logo": "assets/logos/asia/indonesia/Borneo.png",
 
-  "stadium": {
-    "name": "Segiri Stadium",
-    "capacity": 13000
+    "manager": {
+      "name": "Mauro Alexandre Tavares Jeronimo",
+      "country": "PT"
+    },
+
+    "stadium": {
+      "name": "Segiri Stadium",
+      "capacity": 13000
+    },
+
+    "players": [
+      { "playerId": "player_id1_004_01", "name": "Kadu", "number": 41, "position": "GK", "country": "AO", "status": "starter" },
+      { "playerId": "player_id1_004_02", "name": "Muhammad Rifad Marasabessy", "number": 12, "position": "RB", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_004_03", "name": "Caxambu", "number": 23, "position": "CB", "country": "BR", "status": "starter" },
+      { "playerId": "player_id1_004_04", "name": "Iago Mendonca", "number": 35, "position": "CB", "country": "BR", "status": "starter" },
+      { "playerId": "player_id1_004_05", "name": "Reva Adi Utama", "number": 33, "position": "LB", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_004_06", "name": "Komang Teguh Putra", "number": 16, "position": "CDM", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_004_07", "name": "Marcos Astina", "number": 8, "position": "CM", "country": "AR", "status": "starter" },
+      { "playerId": "player_id1_004_08", "name": "Rodrigo Varanda", "number": 7, "position": "RW", "country": "BR", "status": "starter" },
+      { "playerId": "player_id1_004_09", "name": "Juan Ruiz", "number": 10, "position": "CAM", "country": "CO", "status": "starter" },
+      { "playerId": "player_id1_004_10", "name": "Hugo Samir", "number": 18, "position": "LW", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_004_11", "name": "Rubio", "number": 9, "position": "ST", "country": "ES", "status": "starter" },
+
+      { "playerId": "player_id1_004_12", "name": "Andhika Setiawan", "number": 27, "position": "GK", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_004_13", "name": "Diego Michiels", "number": 24, "position": "RB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_004_14", "name": "Achmad Figo", "number": 4, "position": "CB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_004_15", "name": "Rei Okada", "number": 22, "position": "CB", "country": "JP", "status": "bench" },
+      { "playerId": "player_id1_004_16", "name": "Aditya Warman", "number": 36, "position": "CM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_004_17", "name": "Ikhsan Nul Zikrak", "number": 6, "position": "CM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_004_18", "name": "Gabriel Oliveira", "number": 65, "position": "CAM", "country": "BR", "status": "bench" },
+      { "playerId": "player_id1_004_19", "name": "Muhammad Redzuan Fachgi", "number": 17, "position": "RW", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_004_20", "name": "Moussa Diarra", "number": 19, "position": "ST", "country": "ML", "status": "bench" },
+      { "playerId": "player_id1_004_21", "name": "Kablan N'Goma", "number": 58, "position": "LW", "country": "FR", "status": "bench" },
+
+      { "playerId": "player_id1_004_22", "name": "Muhammad Ridho", "number": 20, "position": "GK", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_004_23", "name": "Dwiky Hardiansyah", "number": 66, "position": "CM", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_004_24", "name": "Habibi Jusuf", "number": 68, "position": "RW", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_004_25", "name": "Dika Nurdiansyah", "number": 94, "position": "ST", "country": "ID", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 8
+      }
+    }
   }
-}
