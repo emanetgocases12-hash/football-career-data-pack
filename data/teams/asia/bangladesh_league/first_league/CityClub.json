@@ -1,12 +1,52 @@
-{
-  "teamKey": "City Cl",
+  {
+    "teamKey": "City Cl",
+    "name": "City Club",
+    "logo": "assets/logos/asia/bangladesh/CityClub.png",
+    "manager": {
+      "name": "Abdul Kayum",
+      "country": "BD"
+    },
+    "stadium": {
+      "name": "Shaheed Barkat Stadium",
+      "capacity": 5000
+    },
+    "players": [
+      {"playerId": "player_bd1_007_01", "name": "Ishaque Ali", "number": 1, "position": "GK", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_007_02", "name": "Mohamed Meya", "number": 2, "position": "RB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_007_03", "name": "Foday Darboe", "number": 4, "position": "CB", "country": "GM", "status": "starter"},
+      {"playerId": "player_bd1_007_04", "name": "Tanvir Hossain", "number": 5, "position": "CB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_007_05", "name": "Yogesh Gurung", "number": 3, "position": "LB", "country": "NP", "status": "starter"},
+      {"playerId": "player_bd1_007_06", "name": "Mohamed Abeden", "number": 27, "position": "CM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_007_07", "name": "Enamul Islam Gazi", "number": 12, "position": "CM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_007_08", "name": "Khairul Islam", "number": 37, "position": "CM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_007_09", "name": "Mohamed Sayde", "number": 7, "position": "CAM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_007_10", "name": "Solomon King Kanform", "number": 10, "position": "ST", "country": "GM", "status": "starter"},
+      {"playerId": "player_bd1_007_11", "name": "Onyakachi Okafor", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
 
-  "name": "City Club",
+      {"playerId": "player_bd1_007_12", "name": "SP Rafiz", "number": 31, "position": "GK", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_007_13", "name": "Rasel Ahmmed", "number": 28, "position": "RB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_007_14", "name": "Istekharul Alam Shakil", "number": 26, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_007_15", "name": "Kamacai Marma Aky", "number": 30, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_007_16", "name": "Afroj Ali", "number": 21, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_007_17", "name": "Mithu Bhuiyan", "number": 8, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_007_18", "name": "Shayak Dost", "number": 88, "position": "LM", "country": "PK", "status": "bench"},
+      {"playerId": "player_bd1_007_19", "name": "Ashraful Haque Asif", "number": 23, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_007_20", "name": "Piash Ahmed Nova", "number": 17, "position": "ST", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_007_21", "name": "Rafiqul Islam", "number": 11, "position": "LW", "country": "BD", "status": "bench"},
 
-  "logo": "assets/logos/asia/bangladesh/CityClub.png",
-
-  "stadium": {
-    "name": "Shaheed Barkat Stadium",
-    "capacity": 5000
+      {"playerId": "player_bd1_007_22", "name": "Shakib Al Hasan", "number": 22, "position": "GK", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_007_23", "name": "Mohammad Hossain", "number": 34, "position": "CM", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_007_24", "name": "Opu Rahman", "number": 14, "position": "ST", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_007_25", "name": "Shahriar Shuvo", "number": 39, "position": "ST", "country": "BD", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-1-2",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 12
+      }
+    }
   }
-}
