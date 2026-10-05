@@ -1,12 +1,50 @@
 {
-  "teamKey": "UFC",
-
-  "name": "United FC",
-
-  "logo": "assets/logos/asia/uae/UFC.png",
-
-  "stadium": {
-    "name": "Al Maktoum Stadium",
-    "capacity": 15022
+    "teamKey": "UFC",
+    "name": "United FC",
+    "logo": "assets/logos/asia/uae/UFC.png",
+    "manager": {
+      "name": "Andrea Pirlo",
+      "country": "IT"
+    },
+    "stadium": {
+      "name": "Al Maktoum Stadium",
+      "capacity": 15022
+    },
+    "players": [
+      {"playerId": "player_ae1_013_01", "name": "Salam Khairi", "number": 1, "position": "GK", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_013_02", "name": "João Moreira", "number": 2, "position": "RB", "country": "PT", "status": "starter"},
+      {"playerId": "player_ae1_013_03", "name": "Papa Gassama", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_ae1_013_04", "name": "Mohammad Dirar", "number": 33, "position": "CB", "country": "JO", "status": "starter"},
+      {"playerId": "player_ae1_013_05", "name": "Ahmed Rashid", "number": 19, "position": "LB", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_013_06", "name": "Baidy Kane", "number": 6, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_ae1_013_07", "name": "Mohamed Al-Hammadi", "number": 8, "position": "CM", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_013_08", "name": "Abdulla Al-Marzooqi", "number": 10, "position": "CAM", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_013_09", "name": "Willy Semedo", "number": 11, "position": "RW", "country": "CV", "status": "starter"},
+      {"playerId": "player_ae1_013_10", "name": "Abdulla Kazim", "number": 7, "position": "LW", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_013_11", "name": "Abdulla Al-Mansoori", "number": 20, "position": "ST", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_013_12", "name": "Mayamé Sissoko", "number": 22, "position": "GK", "country": "ML", "status": "bench"},
+      {"playerId": "player_ae1_013_13", "name": "Willy Noa", "number": 30, "position": "GK", "country": "CM", "status": "reserve"},
+      {"playerId": "player_ae1_013_14", "name": "Ebrahim Hassan", "number": 51, "position": "CB", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_013_15", "name": "Gian Marco Ferrari", "number": 31, "position": "CB", "country": "IT", "status": "bench"},
+      {"playerId": "player_ae1_013_16", "name": "Malick Atanda", "number": 5, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_ae1_013_17", "name": "Marcos Moraes", "number": 73, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_ae1_013_18", "name": "Hussain Abbas", "number": 52, "position": "LB", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_013_19", "name": "Ahmed Ibrahim", "number": 14, "position": "CM", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_013_20", "name": "Yousef Al-Jabri", "number": 17, "position": "RW", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_013_21", "name": "Ali Eid", "number": 18, "position": "CM", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_013_22", "name": "Inayat Noor", "number": 13, "position": "GK", "country": "PK", "status": "reserve"},
+      {"playerId": "player_ae1_013_23", "name": "Moosa Al-Balooshi", "number": 50, "position": "GK", "country": "AE", "status": "reserve"},
+      {"playerId": "player_ae1_013_24", "name": "Sultan Al-Suwaidi", "number": 24, "position": "CM", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_013_25", "name": "Mohamed Al-Nuaimi", "number": 27, "position": "ST", "country": "AE", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 20,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
