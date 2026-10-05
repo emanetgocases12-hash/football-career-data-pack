@@ -1,12 +1,50 @@
 {
-  "teamKey": "Andijm",
-
-  "name": "Andijon",
-
-  "logo": "assets/logos/asia/uzbekistan/Andijon.png",
-
-  "stadium": {
-    "name": "Bobur Arena",
-    "capacity": 18500
+    "teamKey": "Andijm",
+    "name": "Andijon",
+    "logo": "assets/logos/asia/uzbekistan/Andijon.png",
+    "manager": {
+      "name": "Islam Akhmedov",
+      "country": "UZ"
+    },
+    "stadium": {
+      "name": "Bobur Arena",
+      "capacity": 18500
+    },
+    "players": [
+      {"playerId": "player_uz1_002_01", "name": "Abdumavlon Abdujalilov", "number": 1, "position": "GK", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_002_02", "name": "Khojiakbar Alijonov", "number": 3, "position": "RB", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_002_03", "name": "Odilbek Abdumajidov", "number": 4, "position": "CB", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_002_04", "name": "Rustam Ashurmatov", "number": 5, "position": "CB", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_002_05", "name": "Ibrohim Yuldashev", "number": 2, "position": "LB", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_002_06", "name": "Aleksandre Andronikashvili", "number": 8, "position": "CM", "country": "GE", "status": "starter"},
+      {"playerId": "player_uz1_002_07", "name": "Murod Khujanov", "number": 14, "position": "CM", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_002_08", "name": "Jasurbek Yakhshiboev", "number": 10, "position": "CAM", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_002_09", "name": "Azizbek Turgunboev", "number": 7, "position": "RW", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_002_10", "name": "Damir Temirov", "number": 11, "position": "LW", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_002_11", "name": "Pulatxuja Kholdorxonov", "number": 9, "position": "ST", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_002_12", "name": "Ignatiy Nesterov", "number": 12, "position": "GK", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_002_13", "name": "Azizbek Amanov", "number": 35, "position": "GK", "country": "UZ", "status": "reserve"},
+      {"playerId": "player_uz1_002_14", "name": "Sherzod Azamov", "number": 6, "position": "CB", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_002_15", "name": "Jamshid Boltaboev", "number": 15, "position": "CM", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_002_16", "name": "Akmal Mozgovoy", "number": 16, "position": "CDM", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_002_17", "name": "Doston Tursunov", "number": 17, "position": "CB", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_002_18", "name": "Shokhruz Norbekov", "number": 18, "position": "ST", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_002_19", "name": "Bektemir Melikuziev", "number": 19, "position": "RW", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_002_20", "name": "Sarvar Giyosov", "number": 20, "position": "CM", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_002_21", "name": "Javokhir Sokhibov", "number": 21, "position": "CM", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_002_22", "name": "Temurkhodja Abdukholikov", "number": 22, "position": "ST", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_002_23", "name": "Abbos Gulomov", "number": 23, "position": "LW", "country": "UZ", "status": "reserve"},
+      {"playerId": "player_uz1_002_24", "name": "Diyor Kholmurodov", "number": 24, "position": "LB", "country": "UZ", "status": "reserve"},
+      {"playerId": "player_uz1_002_25", "name": "Akbar Ismatullaev", "number": 25, "position": "CB", "country": "UZ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
