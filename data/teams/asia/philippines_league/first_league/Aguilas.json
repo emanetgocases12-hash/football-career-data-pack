@@ -1,12 +1,50 @@
 {
-  "teamKey": "Aguila",
-
-  "name": "Aguilas-UMak FC",
-
-  "logo": "assets/logos/asia/philippines/Aguilas.png",
-
-  "stadium": {
-    "name": "University of Makati Stadium",
-    "capacity": 3295
+    "teamKey": "Aguila",
+    "name": "Aguilas-UMak FC",
+    "logo": "assets/logos/asia/philippines/Aguilas.png",
+    "manager": {
+      "name": "Jang Min Seok",
+      "country": "KR"
+    },
+    "stadium": {
+      "name": "University of Makati Stadium",
+      "capacity": 3295
+    },
+    "players": [
+      {"playerId": "player_ph1_001_01", "name": "Enrico Mangaoang", "number": 1, "position": "GK", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_001_02", "name": "Richard Talaroc", "number": 2, "position": "RB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_001_03", "name": "Jun-young Park", "number": 4, "position": "CB", "country": "KR", "status": "starter"},
+      {"playerId": "player_ph1_001_04", "name": "Charles Pickering", "number": 5, "position": "CB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_001_05", "name": "Marco Casambre", "number": 3, "position": "LB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_001_06", "name": "Arnel Amita", "number": 8, "position": "CM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_001_07", "name": "Paolo Bugas", "number": 6, "position": "CM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_001_08", "name": "Chima Uzoka", "number": 10, "position": "CAM", "country": "NG", "status": "starter"},
+      {"playerId": "player_ph1_001_09", "name": "Destiny Gandaho", "number": 11, "position": "LW", "country": "BJ", "status": "starter"},
+      {"playerId": "player_ph1_001_10", "name": "Ju-hyuk Choi", "number": 7, "position": "RW", "country": "KR", "status": "starter"},
+      {"playerId": "player_ph1_001_11", "name": "Jovin Bedic", "number": 9, "position": "ST", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_001_12", "name": "Kenry Balobo", "number": 22, "position": "GK", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_001_13", "name": "Troy Limbo", "number": 12, "position": "RB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_001_14", "name": "Serge Kaole", "number": 15, "position": "CB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_001_15", "name": "Amani Aguinaldo", "number": 18, "position": "CB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_001_16", "name": "Ashley Flores", "number": 24, "position": "LB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_001_17", "name": "Jorrel Aristorenas", "number": 14, "position": "CM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_001_18", "name": "Val Jurao", "number": 17, "position": "CM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_001_19", "name": "Dominique Canonigo", "number": 20, "position": "LM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_001_20", "name": "Michael Menzi", "number": 21, "position": "RM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_001_21", "name": "Rico Andes", "number": 19, "position": "ST", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_001_22", "name": "Joshua Dutosme", "number": 30, "position": "GK", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_001_23", "name": "Nickael Ferrer", "number": 23, "position": "ST", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_001_24", "name": "Christian Castillo", "number": 27, "position": "RW", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_001_25", "name": "John Celiz", "number": 29, "position": "LW", "country": "PH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
