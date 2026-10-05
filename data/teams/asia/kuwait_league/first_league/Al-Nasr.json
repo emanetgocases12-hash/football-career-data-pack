@@ -1,12 +1,35 @@
 {
-  "teamKey": "Naser",
-
-  "name": "Al-Nasr Sporting Club",
-
-  "logo": "assets/logos/asia/kuwait/Nasr.png",
-
-  "stadium": {
-    "name": "Ali Al-Salem Stadium",
-    "capacity": 10000
+    "teamKey": "Naser",
+    "name": "Al-Nasr Sporting Club",
+    "logo": "assets/logos/asia/kuwait/Nasr.png",
+    "manager": {"name": "Djamel Belkacem", "country": "TN"},
+    "stadium": {"name": "Ali Al-Salem Stadium", "capacity": 10000},
+    "players": [
+      {"playerId": "player_kw1_001_01", "name": "Mohammad Hadi", "number": 1, "position": "GK", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_001_02", "name": "Jasem Ateeq", "number": 2, "position": "RB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_001_03", "name": "Nasser Khader Al-Enezi", "number": 3, "position": "CB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_001_04", "name": "Mohammad Al-Fares", "number": 4, "position": "CB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_001_05", "name": "Nemanja Kojčić", "number": 5, "position": "LB", "country": "RS", "status": "starter"},
+      {"playerId": "player_kw1_001_06", "name": "Rashed Al-Mutairi", "number": 6, "position": "CDM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_001_07", "name": "Abdulrahman Al-Naief", "number": 7, "position": "CM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_001_08", "name": "Zaid Zakaria", "number": 8, "position": "CAM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_001_09", "name": "Mohammad Jazzaa Al-Shammari", "number": 9, "position": "ST", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_001_10", "name": "Fawaz Al-Mbelesh", "number": 10, "position": "LW", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_001_11", "name": "Houssem Habbassi", "number": 11, "position": "RW", "country": "TN", "status": "starter"},
+      {"playerId": "player_kw1_001_12", "name": "Khaled Al-Ajaji", "number": 12, "position": "GK", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_001_13", "name": "Meshaal Al-Sulaili", "number": 13, "position": "CM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_001_14", "name": "Ahmed Guettaf", "number": 14, "position": "CB", "country": "DZ", "status": "bench"},
+      {"playerId": "player_kw1_001_15", "name": "Ahmad Sameer Al-Rimawi", "number": 15, "position": "RB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_001_16", "name": "Salman Bormeya", "number": 16, "position": "LB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_001_17", "name": "Nasser Al-Ajmi", "number": 17, "position": "RM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_001_18", "name": "Mohammad Abd Al-Hadi", "number": 18, "position": "LM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_001_19", "name": "Humood Ayed Al-Rashidi", "number": 19, "position": "CDM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_001_20", "name": "Ahmad Al-Nasar", "number": 20, "position": "CAM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_001_21", "name": "Fahad Saleh Al-Enezi", "number": 21, "position": "CM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_001_22", "name": "Mohammad Al-Husainan", "number": 22, "position": "GK", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_001_23", "name": "Jus Anderson", "number": 23, "position": "ST", "country": "BR", "status": "reserve"},
+      {"playerId": "player_kw1_001_24", "name": "Babatunde", "number": 24, "position": "LW", "country": "NG", "status": "reserve"},
+      {"playerId": "player_kw1_001_25", "name": "Talal Al-Mutairi", "number": 25, "position": "RW", "country": "KW", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 6, "setPieces": {"penalty": 9, "freeKick": 8, "cornerLeft": 10, "cornerRight": 11}}
   }
-}
