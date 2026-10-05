@@ -1,12 +1,50 @@
 {
-  "teamKey": "Duhail",
-
-  "name": "Al Duhail",
-
-  "logo": "assets/logos/asia/qatar/Duhail.png",
-
-  "stadium": {
-    "name": "Abdullah bin Khalifa Stadium",
-    "capacity": 10221
+    "teamKey": "Duhail",
+    "name": "Al Duhail",
+    "logo": "assets/logos/asia/qatar/Duhail.png",
+    "manager": {
+      "name": "Djamel Belmadi",
+      "country": "DZ"
+    },
+    "stadium": {
+      "name": "Abdullah bin Khalifa Stadium",
+      "capacity": 10221
+    },
+    "players": [
+      {"playerId": "player_qa1_004_01", "name": "Salah Zakaria", "number": 1, "position": "GK", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_004_02", "name": "Bassam Alrawi", "number": 9, "position": "CB", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_004_03", "name": "Lucas Tuta", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_qa1_004_04", "name": "Sultan Al Brake", "number": 18, "position": "LB", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_004_05", "name": "Jean Castelletto", "number": 21, "position": "RB", "country": "CM", "status": "starter"},
+      {"playerId": "player_qa1_004_06", "name": "Boubakary Soumare", "number": 34, "position": "CDM", "country": "FR", "status": "starter"},
+      {"playerId": "player_qa1_004_07", "name": "Marco Verratti", "number": 6, "position": "CM", "country": "IT", "status": "starter"},
+      {"playerId": "player_qa1_004_08", "name": "Karim Boudiaf", "number": 12, "position": "CM", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_004_09", "name": "Edmilson Junior", "number": 10, "position": "LW", "country": "BE", "status": "starter"},
+      {"playerId": "player_qa1_004_10", "name": "Tahsin Mohammed", "number": 11, "position": "RW", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_004_11", "name": "Almoez Ali", "number": 19, "position": "ST", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_004_12", "name": "Fahad Younis", "number": 26, "position": "GK", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_004_13", "name": "Jassim Babiker Sarour", "number": 38, "position": "GK", "country": "QA", "status": "reserve"},
+      {"playerId": "player_qa1_004_14", "name": "Amidou Doumbouya", "number": 30, "position": "CB", "country": "GN", "status": "bench"},
+      {"playerId": "player_qa1_004_15", "name": "Ibrahima Bamba", "number": 22, "position": "CB", "country": "IT", "status": "bench"},
+      {"playerId": "player_qa1_004_16", "name": "Assim Madibo", "number": 23, "position": "CDM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_004_17", "name": "Mubarak Shanan", "number": 8, "position": "RW", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_004_18", "name": "Omar Sekou", "number": 7, "position": "ST", "country": "GN", "status": "bench"},
+      {"playerId": "player_qa1_004_19", "name": "Rashid Al-Abdullah", "number": 29, "position": "LW", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_004_20", "name": "Adem Belmadi", "number": 97, "position": "CAM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_004_21", "name": "Ziad El Jaouni", "number": 37, "position": "CM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_004_22", "name": "Mohammed Muntari", "number": 20, "position": "ST", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_004_23", "name": "Ali Almoez", "number": 15, "position": "RB", "country": "QA", "status": "reserve"},
+      {"playerId": "player_qa1_004_24", "name": "Yousef Ayman", "number": 24, "position": "CB", "country": "QA", "status": "reserve"},
+      {"playerId": "player_qa1_004_25", "name": "Abdullah Al Ahrak", "number": 17, "position": "CM", "country": "QA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 19,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
