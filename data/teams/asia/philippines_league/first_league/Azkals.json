@@ -1,12 +1,50 @@
-{
-  "teamKey": "Azkals",
-
-  "name": "Azkals Development Club",
-
-  "logo": "assets/logos/asia/philippines/Azkals.png",
-
-  "stadium": {
-    "name": "Rizal Memorial Stadium",
-    "capacity": 12873
+ {
+    "teamKey": "Azkals",
+    "name": "Azkals Development Club",
+    "logo": "assets/logos/asia/philippines/Azkals.png",
+    "manager": {
+      "name": "Ernani Regis",
+      "country": "PH"
+    },
+    "stadium": {
+      "name": "Rizal Memorial Stadium",
+      "capacity": 12873
+    },
+    "players": [
+      {"playerId": "player_ph1_002_01", "name": "Joshua Jalog", "number": 1, "position": "GK", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_002_02", "name": "Shirmar Felongco", "number": 2, "position": "RB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_002_03", "name": "Christian Vendiola", "number": 4, "position": "CB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_002_04", "name": "Justin Baas", "number": 5, "position": "CB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_002_05", "name": "Marvin Angeles", "number": 3, "position": "LB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_002_06", "name": "Jacob Maniti", "number": 6, "position": "CDM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_002_07", "name": "Joaquin Cañas", "number": 8, "position": "CM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_002_08", "name": "Sandro Reyes", "number": 10, "position": "CAM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_002_09", "name": "Pocholo Bugas", "number": 11, "position": "LW", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_002_10", "name": "Dennis Chung", "number": 7, "position": "RW", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_002_11", "name": "Andres Aldeguer", "number": 9, "position": "ST", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_002_12", "name": "Hayeson Pepito", "number": 22, "position": "GK", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_002_13", "name": "Yrick Gallantes", "number": 12, "position": "RB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_002_14", "name": "John Lloyd Jalique", "number": 15, "position": "CB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_002_15", "name": "Kieran Hayes", "number": 16, "position": "CB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_002_16", "name": "Kurt Joven", "number": 17, "position": "LB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_002_17", "name": "Matthew Custodio", "number": 18, "position": "CM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_002_18", "name": "Oskari Kekkonen", "number": 19, "position": "CM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_002_19", "name": "Ramil Adden", "number": 20, "position": "CAM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_002_20", "name": "Jarvey Gayoso", "number": 21, "position": "RW", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_002_21", "name": "Dov Cariño", "number": 23, "position": "ST", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_002_22", "name": "Zachary Ford", "number": 30, "position": "GK", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_002_23", "name": "Jose Montelibano", "number": 24, "position": "CM", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_002_24", "name": "Kamil Amirul", "number": 25, "position": "CB", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_002_25", "name": "Nathan Alquiros", "number": 27, "position": "LW", "country": "PH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
