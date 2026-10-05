@@ -1,12 +1,44 @@
-{
-  "teamKey": "3Towns",
-
-  "name": "Wuhan Three Towns FC",
-
-  "logo": "assets/logos/asia/china/Three.png",
-
-  "stadium": {
-    "name": "Wuhan Sports Center Stadium",
-    "capacity": 56201
+  {
+    "teamKey": "3Towns",
+    "name": "Wuhan Three Towns FC",
+    "logo": "assets/logos/asia/china/Three.png",
+    "manager": {"name": "Ricardo Soares", "country": "PT"},
+    "stadium": {"name": "Wuhan Sports Center Stadium", "capacity": 56201},
+    "players": [
+      {"playerId": "player_cn1_012_01", "name": "Fang Jingqi", "number": 22, "position": "GK", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_012_02", "name": "Xu Haofeng", "number": 4, "position": "RB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_012_03", "name": "Mbouri Basile Yamkam", "number": 3, "position": "CB", "country": "CM", "status": "starter"},
+      {"playerId": "player_cn1_012_04", "name": "Ren Hang", "number": 23, "position": "CB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_012_05", "name": "Li Shenyuan", "number": 5, "position": "LB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_012_06", "name": "Adriano Firmino", "number": 20, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_012_07", "name": "Zhang Xiaobin", "number": 18, "position": "CM", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_012_08", "name": "Gustavo Sauer", "number": 7, "position": "RM", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_012_09", "name": "Kilian Bevis", "number": 10, "position": "LM", "country": "FR", "status": "starter"},
+      {"playerId": "player_cn1_012_10", "name": "Jhonder Cádiz", "number": 29, "position": "ST", "country": "VE", "status": "starter"},
+      {"playerId": "player_cn1_012_11", "name": "Zheng Haoqian", "number": 9, "position": "ST", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_012_12", "name": "Guo Jiayu", "number": 31, "position": "GK", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_012_13", "name": "He Guan", "number": 2, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_012_14", "name": "Liu Yiming", "number": 19, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_012_15", "name": "Tian Ming", "number": 12, "position": "RB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_012_16", "name": "Chen Zhechao", "number": 15, "position": "CDM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_012_17", "name": "Long Wei", "number": 6, "position": "CDM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_012_18", "name": "Zhong Jinbao", "number": 30, "position": "RM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_012_19", "name": "Wang Jinxian", "number": 8, "position": "LM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_012_20", "name": "Xia Xiaoxi", "number": 14, "position": "LW", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_012_21", "name": "Liu Binbin", "number": 33, "position": "LW", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_012_22", "name": "He Jianqiu", "number": 1, "position": "GK", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_012_23", "name": "Denny Wang", "number": 28, "position": "RB", "country": "IT", "status": "reserve"},
+      {"playerId": "player_cn1_012_24", "name": "Xiong Jizheng", "number": 21, "position": "RW", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_012_25", "name": "Jiang Lixun", "number": 24, "position": "ST", "country": "CN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-4-2",
+      "captain": 23,
+      "setPieces": {
+        "penalty": 29,
+        "freeKick": 7,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
