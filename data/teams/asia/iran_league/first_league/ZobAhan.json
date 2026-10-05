@@ -1,12 +1,52 @@
-{
-  "teamKey": "Zob Ahn",
-
-  "name": "Zob Ahan",
-
-  "logo": "assets/logos/asia/iran/ZobAhan.png",
-
-  "stadium": {
-    "name": "Foolad Shahr Stadium",
-    "capacity": 20000
+  {
+    "teamKey": "Zob Ahn",
+    "name": "Zob Ahan",
+    "logo": "assets/logos/asia/iran/ZobAhan.png",
+    "manager": {
+      "name": "Abdollah Veisi",
+      "country": "IR"
+    },
+    "stadium": {
+      "name": "Foolad Shahr Stadium",
+      "capacity": 20000
+    },
+    "players": [
+      {"playerId": "player_ir1_018_01", "name": "Davoud Noushi Soufiani", "number": 20, "position": "GK", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_018_02", "name": "Ali Shojaei", "number": 2, "position": "RB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_018_03", "name": "Saeed Karimi", "number": 3, "position": "CB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_018_04", "name": "Arash Ghaderi", "number": 4, "position": "CB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_018_05", "name": "Pedram Ghazipour", "number": 23, "position": "LB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_018_06", "name": "Mohammad Mohammadi", "number": 5, "position": "CDM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_018_07", "name": "Hassan Shoushtari", "number": 88, "position": "CM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_018_08", "name": "Ehsan Pahlevan", "number": 10, "position": "RW", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_018_09", "name": "Sobhan Khaghani", "number": 79, "position": "CAM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_018_10", "name": "Rahman Jafari", "number": 11, "position": "LW", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_018_11", "name": "Jalaledin Alimohammadi", "number": 17, "position": "ST", "country": "IR", "status": "starter"},
+  
+      {"playerId": "player_ir1_018_12", "name": "Ashkan Rashedi", "number": 22, "position": "GK", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_018_13", "name": "Amir Hossein Rangraz Jeddi", "number": 24, "position": "CB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_018_14", "name": "Behnam Teymourian", "number": 55, "position": "LB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_018_15", "name": "Seyed Abolfazl Hosseini Far", "number": 75, "position": "RB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_018_16", "name": "Pooya Mokhtari Hezarrood", "number": 14, "position": "CM", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_018_17", "name": "Farshid Esmaeili", "number": 8, "position": "CAM", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_018_18", "name": "Mahmood GhaedRahmati", "number": 99, "position": "CM", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_018_19", "name": "Omid Latifi", "number": 70, "position": "ST", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_018_20", "name": "Arash Mortazavi", "number": 71, "position": "RW", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_018_21", "name": "Alireza Kazemi", "number": 77, "position": "ST", "country": "IR", "status": "bench"},
+  
+      {"playerId": "player_ir1_018_22", "name": "Seyed Soheil Mirlohi", "number": 41, "position": "GK", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_018_23", "name": "Hadi Baghban", "number": 49, "position": "ST", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_018_24", "name": "Shahin Taher Khani", "number": 57, "position": "LW", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_018_25", "name": "Nader Mohammadi", "number": 26, "position": "CB", "country": "IR", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 17,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
