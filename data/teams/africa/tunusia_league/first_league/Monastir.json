@@ -1,12 +1,52 @@
 {
-  "teamKey": "Monast",
+    "teamKey": "Monast",
+    "name": "US Monastir",
+    "logo": "assets/logos/africa/tunusia/Monast.png",
+    "manager": {
+      "name": "Romain Folz",
+      "country": "FR"
+    },
+    "stadium": {
+      "name": "Stade Mustapha Ben Jannet",
+      "capacity": 20000
+    },
+    "players": [
+      {"playerId": "player_tn1_011_01", "name": "Ahmed Slimane", "number": 24, "position": "GK", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_011_02", "name": "Raed Bouchniba", "number": 21, "position": "RB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_011_03", "name": "Nour Zamen Zammouri", "number": 4, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_011_04", "name": "Rayan Boukadida", "number": 5, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_011_05", "name": "Youssef Herch", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_011_06", "name": "Ousmane Diané", "number": 6, "position": "CDM", "country": "GN", "status": "starter"},
+      {"playerId": "player_tn1_011_07", "name": "Salah Barhoumi", "number": 20, "position": "CM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_011_08", "name": "Chaïm El Djebali", "number": 23, "position": "CM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_011_09", "name": "Yassine Amri", "number": 8, "position": "RW", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_011_10", "name": "Youssef Abdelli", "number": 9, "position": "ST", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_011_11", "name": "Béchir Yacoub", "number": 11, "position": "LW", "country": "TN", "status": "starter"},
 
-  "name": "US Monastir",
+      {"playerId": "player_tn1_011_12", "name": "Rayen Besbes", "number": 1, "position": "GK", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_011_13", "name": "Bayram Nouicer", "number": 14, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_011_14", "name": "Ayman Ben Mohamed", "number": 16, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_011_15", "name": "Mahmoud Ghorbel", "number": 2, "position": "RB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_011_16", "name": "Behaja Tsirava", "number": 40, "position": "CDM", "country": "MG", "status": "bench"},
+      {"playerId": "player_tn1_011_17", "name": "Malek Mehri", "number": 17, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_011_18", "name": "Mehdi Ganouni", "number": 19, "position": "CAM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_011_19", "name": "Nassim Douihech", "number": 27, "position": "CAM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_011_20", "name": "Samy Bouali", "number": 30, "position": "RW", "country": "DZ", "status": "bench"},
+      {"playerId": "player_tn1_011_21", "name": "Ibrahim Gadiaga", "number": 29, "position": "ST", "country": "ML", "status": "bench"},
 
-  "logo": "assets/logos/africa/tunusia/Monast.png",
-
-  "stadium": {
-    "name": "Stade Mustapha Ben Jannet",
-    "capacity": 20000
+      {"playerId": "player_tn1_011_22", "name": "Dries Arfaoui", "number": 22, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_011_23", "name": "Mustapha Samb", "number": 25, "position": "CDM", "country": "SN", "status": "reserve"},
+      {"playerId": "player_tn1_011_24", "name": "Salem Bizid", "number": 12, "position": "RW", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_011_25", "name": "Ibrahim Souissi", "number": 18, "position": "ST", "country": "TN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 11,
+        "cornerRight": 8
+      }
+    }
   }
-}
