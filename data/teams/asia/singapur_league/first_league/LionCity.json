@@ -1,12 +1,50 @@
-{
-  "teamKey": "Lion Ci",
-
-  "name": "Lion City Sailors FC",
-
-  "logo": "assets/logos/asia/singapor/Lion.png",
-
-  "stadium": {
-    "name": "Jalan Besar Stadium",
-    "capacity": 6000
+ {
+    "teamKey": "Lion Ci",
+    "name": "Lion City Sailors FC",
+    "logo": "assets/logos/asia/singapor/Lion.png",
+    "manager": {
+      "name": "Mark Jackson",
+      "country": "GB-ENG"
+    },
+    "stadium": {
+      "name": "Jalan Besar Stadium",
+      "capacity": 6000
+    },
+    "players": [
+      {"playerId": "player_sg1_005_01", "name": "Victor Aznar Ussen", "number": 1, "position": "GK", "country": "ES", "status": "starter"},
+      {"playerId": "player_sg1_005_02", "name": "Ryhan Stewart", "number": 18, "position": "RB", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_005_03", "name": "Bailey Colin Wright", "number": 26, "position": "CB", "country": "AU", "status": "starter"},
+      {"playerId": "player_sg1_005_04", "name": "Toni Datkovic", "number": 4, "position": "CB", "country": "HR", "status": "starter"},
+      {"playerId": "player_sg1_005_05", "name": "Nur Adam Abdullah", "number": 20, "position": "LB", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_005_06", "name": "William Tsiy Ndenge", "number": 6, "position": "CDM", "country": "DE", "status": "starter"},
+      {"playerId": "player_sg1_005_07", "name": "Kyoga Nakamura", "number": 8, "position": "CM", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_005_08", "name": "Song Uiyoung", "number": 15, "position": "CM", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_005_09", "name": "Bart Ramselaar", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
+      {"playerId": "player_sg1_005_10", "name": "Matthias Jean Phaeton", "number": 23, "position": "LW", "country": "GP", "status": "starter"},
+      {"playerId": "player_sg1_005_11", "name": "Lennart Thy", "number": 9, "position": "ST", "country": "DE", "status": "starter"},
+      {"playerId": "player_sg1_005_12", "name": "Ivan Susak", "number": 25, "position": "GK", "country": "HR", "status": "bench"},
+      {"playerId": "player_sg1_005_13", "name": "Hugo Domingos Gomes", "number": 3, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_sg1_005_14", "name": "Lionel Tan", "number": 5, "position": "CB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_005_15", "name": "Hariss Harun", "number": 14, "position": "CDM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_005_16", "name": "Jeorge Karseladze", "number": 2, "position": "RB", "country": "GE", "status": "bench"},
+      {"playerId": "player_sg1_005_17", "name": "Glenn Kweh", "number": 11, "position": "RW", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_005_18", "name": "Hami Syahin", "number": 16, "position": "CM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_005_19", "name": "Farhan Zulkifli", "number": 19, "position": "RW", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_005_20", "name": "Giovanni Antoine Haag", "number": 24, "position": "CM", "country": "FR", "status": "bench"},
+      {"playerId": "player_sg1_005_21", "name": "Shawal Anuar", "number": 7, "position": "ST", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_005_22", "name": "Adib Nur Hakim", "number": 13, "position": "GK", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_005_23", "name": "Antonio Mance", "number": 12, "position": "ST", "country": "HR", "status": "reserve"},
+      {"playerId": "player_sg1_005_24", "name": "Ilhan Fandi", "number": 17, "position": "ST", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_005_25", "name": "Abdul Rasaq", "number": 21, "position": "RW", "country": "SG", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 23
+      }
+    }
   }
-}
