@@ -1,12 +1,52 @@
 {
   "teamKey": "Chippa",
-
   "name": "Chippa United",
-
   "logo": "assets/logos/africa/south_africa/Chippa.png",
-
+  "manager": {
+    "name": "M. Sambu",
+    "country": "ZA"
+  },
   "stadium": {
     "name": "Buffalo City Stadium",
     "capacity": 16000
+  },
+  "players": [
+    {"playerId": "player_za1_002_01", "name": "Elson Sithole", "number": 18, "position": "GK", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_002_02", "name": "Sirgio Kammies", "number": 25, "position": "RB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_002_03", "name": "Abbubaker Mobara", "number": 22, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_002_04", "name": "Thabang Molaoa", "number": 30, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_002_05", "name": "Gadinkame Modise", "number": 27, "position": "LB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_002_06", "name": "Sammy Seabi", "number": 21, "position": "CDM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_002_07", "name": "Azola Tshobeni", "number": 15, "position": "CM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_002_08", "name": "Khaya Mfecane", "number": 8, "position": "RW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_002_09", "name": "Azola Matrose", "number": 10, "position": "CAM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_002_10", "name": "Somila Ntsundwana", "number": 45, "position": "LW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_002_11", "name": "Justice Figuareido", "number": 9, "position": "ST", "country": "SZ", "status": "starter"},
+
+    {"playerId": "player_za1_002_12", "name": "Dumsani Msibi", "number": 19, "position": "GK", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_002_13", "name": "Seun Ndlovu", "number": 5, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_002_14", "name": "Isheanesu Mauchi", "number": 66, "position": "CB", "country": "ZW", "status": "bench"},
+    {"playerId": "player_za1_002_15", "name": "Bongani Sam", "number": 50, "position": "LB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_002_16", "name": "Boy Madingwane", "number": 28, "position": "RB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_002_17", "name": "Ayabulela Konqobe", "number": 24, "position": "CAM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_002_18", "name": "Banele Hlophe", "number": 11, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_002_19", "name": "Giovanni Philander", "number": 17, "position": "LW", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_002_20", "name": "Bandile Dlamini", "number": 26, "position": "RW", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_002_21", "name": "Bienvenu Eva Nga", "number": 7, "position": "ST", "country": "CM", "status": "bench"},
+
+    {"playerId": "player_za1_002_22", "name": "Kewen Prince", "number": 1, "position": "GK", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_002_23", "name": "Kerwin Peters", "number": 31, "position": "LB", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_002_24", "name": "Thamsanqa Magwaza", "number": 44, "position": "RW", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_002_25", "name": "Asanele Bonani", "number": 36, "position": "CAM", "country": "ZA", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 18,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 8,
+      "cornerLeft": 8,
+      "cornerRight": 10
+    }
   }
 }
