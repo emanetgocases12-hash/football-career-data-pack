@@ -1,12 +1,35 @@
 {
-  "teamKey": "Maleka",
-
-  "name": "Melaka FC",
-
-  "logo": "assets/logos/asia/malaysia/Meleka.png",
-
-  "stadium": {
-    "name": "Hang Jebat Stadium",
-    "capacity": 40000
+    "teamKey": "Maleka",
+    "name": "Melaka FC",
+    "logo": "assets/logos/asia/malaysia/Meleka.png",
+    "manager": {"name": "Elavarasan Elangowan", "country": "MY"},
+    "stadium": {"name": "Hang Jebat Stadium", "capacity": 40000},
+    "players": [
+      {"playerId": "player_my1_006_01", "name": "Khairul Fahmi", "number": 19, "position": "GK", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_006_02", "name": "Simen Lyngbø", "number": 3, "position": "RB", "country": "PH", "status": "starter"},
+      {"playerId": "player_my1_006_03", "name": "Argzim Redžović", "number": 24, "position": "CB", "country": "ME", "status": "starter"},
+      {"playerId": "player_my1_006_04", "name": "Shin-Hoo Kim", "number": 5, "position": "CB", "country": "KR", "status": "starter"},
+      {"playerId": "player_my1_006_05", "name": "Ruventhiran Vengadesan", "number": 68, "position": "LB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_006_06", "name": "Syahir Abdul Rashid", "number": 80, "position": "CM", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_006_07", "name": "Shahdan Sulaiman", "number": 21, "position": "CM", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_006_08", "name": "Dong-Hyun Do", "number": 8, "position": "RW", "country": "KR", "status": "starter"},
+      {"playerId": "player_my1_006_09", "name": "Ali Nouri", "number": 10, "position": "CAM", "country": "IR", "status": "starter"},
+      {"playerId": "player_my1_006_10", "name": "Hein Htet Aung", "number": 17, "position": "LW", "country": "MM", "status": "starter"},
+      {"playerId": "player_my1_006_11", "name": "Kpah Sherman", "number": 9, "position": "ST", "country": "LR", "status": "starter"},
+      {"playerId": "player_my1_006_12", "name": "Muhammad Firdaus Irman", "number": 29, "position": "GK", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_006_13", "name": "Aroon Kumar Ramaloo", "number": 4, "position": "CB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_006_14", "name": "Mohamad Azwan Aripin", "number": 23, "position": "CB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_006_15", "name": "Che Rashid Che Halim", "number": 2, "position": "RB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_006_16", "name": "Kwang-Il Park", "number": 7, "position": "RB", "country": "KR", "status": "bench"},
+      {"playerId": "player_my1_006_17", "name": "Noel Agbre", "number": 33, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_my1_006_18", "name": "Thaanush Sithiravelu", "number": 39, "position": "LB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_006_19", "name": "Mahali Jasuli", "number": 18, "position": "RM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_006_20", "name": "Chan Aung Nyein", "number": 14, "position": "CM", "country": "MM", "status": "bench"},
+      {"playerId": "player_my1_006_21", "name": "Michael Onyekachi Ozor", "number": 6, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_my1_006_22", "name": "Muhammad Hafiz Azizi", "number": 31, "position": "GK", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_006_23", "name": "Christian de Souza André", "number": 30, "position": "ST", "country": "BR", "status": "reserve"},
+      {"playerId": "player_my1_006_24", "name": "Jafri Firdaus Chew", "number": 11, "position": "ST", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_006_25", "name": "Alif Ikmalrizal Anuar", "number": 99, "position": "ST", "country": "MY", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 24, "setPieces": {"penalty": 9, "freeKick": 10, "cornerLeft": 17, "cornerRight": 8}}
   }
-}
