@@ -1,12 +1,52 @@
 {
   "teamKey": "Mamelo",
-
   "name": "Mamelodi Sundowns",
-
   "logo": "assets/logos/africa/south_africa/Mamelo.png",
-
+  "manager": {
+    "name": "Miguel Cardoso",
+    "country": "PT"
+  },
   "stadium": {
     "name": "Loftus Versfeld Stadium",
     "capacity": 51762
+  },
+  "players": [
+    {"playerId": "player_za1_007_01", "name": "Ronwen Williams", "number": 30, "position": "GK", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_007_02", "name": "Khuliso Mudau", "number": 25, "position": "RB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_007_03", "name": "Khulumani Ndamane", "number": 3, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_007_04", "name": "Grant Kekana", "number": 20, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_007_05", "name": "Aubrey Modiba", "number": 6, "position": "LB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_007_06", "name": "Teboho Mokoena", "number": 4, "position": "CDM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_007_07", "name": "Jayden Adams", "number": 8, "position": "CM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_007_08", "name": "Tashreeq Matthews", "number": 17, "position": "RW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_007_09", "name": "Marcelo Allende", "number": 11, "position": "CAM", "country": "CL", "status": "starter"},
+    {"playerId": "player_za1_007_10", "name": "Fawaaz Basadien", "number": 23, "position": "LW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_007_11", "name": "Iqraam Rayners", "number": 13, "position": "ST", "country": "ZA", "status": "starter"},
+
+    {"playerId": "player_za1_007_12", "name": "Ricardo Goss", "number": 31, "position": "GK", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_007_13", "name": "Kegan Johannes", "number": 37, "position": "RB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_007_14", "name": "Thapelo Morena", "number": 27, "position": "RB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_007_15", "name": "Divine Lunga", "number": 29, "position": "LB", "country": "ZW", "status": "bench"},
+    {"playerId": "player_za1_007_16", "name": "Bathusi Aubaas", "number": 15, "position": "CDM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_007_17", "name": "Sphelele Mkhulise", "number": 21, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_007_18", "name": "Themba Zwane", "number": 18, "position": "CAM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_007_19", "name": "Nuno Santos", "number": 10, "position": "RW", "country": "PT", "status": "bench"},
+    {"playerId": "player_za1_007_20", "name": "Miguel Reisinho", "number": 7, "position": "CM", "country": "PT", "status": "bench"},
+    {"playerId": "player_za1_007_21", "name": "Arthur Sales", "number": 9, "position": "ST", "country": "BR", "status": "bench"},
+
+    {"playerId": "player_za1_007_22", "name": "Cassius Mailula", "number": 33, "position": "ST", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_007_23", "name": "Kutlwano Letlhaku", "number": 43, "position": "RW", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_007_24", "name": "Lebo Mothiba", "number": 35, "position": "ST", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_007_25", "name": "Monnapule Saleng", "number": 14, "position": "LW", "country": "ZA", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 30,
+    "setPieces": {
+      "penalty": 13,
+      "freeKick": 17,
+      "cornerLeft": 17,
+      "cornerRight": 11
+    }
   }
 }
