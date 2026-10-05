@@ -1,12 +1,44 @@
 {
-  "teamKey": "Mito",
-
-  "name": "Mito HollyHock",
-
-  "logo": "assets/logos/asia/japan/Mito.png",
-
-  "stadium": {
-    "name": "MITO SHINKIN BANK STADIUM",
-    "capacity": 17034
+    "teamKey": "Mito",
+    "name": "Mito HollyHock",
+    "logo": "assets/logos/asia/japan/Mito.png",
+    "manager": {"name": "Kimori Daisuke", "country": "JP"},
+    "stadium": {"name": "MITO SHINKIN BANK STADIUM", "capacity": 17034},
+    "players": [
+      {"playerId": "player_jp1_011_01", "name": "Nishikawa Konosuke", "number": 34, "position": "GK", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_011_02", "name": "Mase Takumi", "number": 25, "position": "RB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_011_03", "name": "Kimoto Yasuki", "number": 15, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_011_04", "name": "Osaki Koshi", "number": 3, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_011_05", "name": "Iida Takahiro", "number": 6, "position": "LB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_011_06", "name": "Semba Taishi", "number": 19, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_011_07", "name": "Funabashi Yu", "number": 20, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_011_08", "name": "Torikai Yoshiki", "number": 11, "position": "CAM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_011_09", "name": "Yamamoto Hayata", "number": 39, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_011_10", "name": "Watanabe Arata", "number": 10, "position": "ST", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_011_11", "name": "Kato Chihiro", "number": 8, "position": "LW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_011_12", "name": "Matsubara Shuhei", "number": 21, "position": "GK", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_011_13", "name": "Yamashita Yuto", "number": 4, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_011_14", "name": "Omori Nagisa", "number": 7, "position": "LB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_011_15", "name": "Hayakawa Ubrigt", "number": 5, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_011_16", "name": "Tada Keisuke", "number": 32, "position": "RB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_011_17", "name": "Arai Mizuki", "number": 14, "position": "CM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_011_18", "name": "Okumura Jin", "number": 30, "position": "CM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_011_19", "name": "Taniguchi Kaito", "number": 22, "position": "ST", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_011_20", "name": "Uchino Kotaro", "number": 18, "position": "ST", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_011_21", "name": "Nemoto Ryo", "number": 9, "position": "ST", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_011_22", "name": "Jakub Slowik", "number": 27, "position": "GK", "country": "PL", "status": "reserve"},
+      {"playerId": "player_jp1_011_23", "name": "Kamiya Minato", "number": 37, "position": "GK", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_011_24", "name": "Fofana Malik", "number": 96, "position": "ST", "country": "CI", "status": "reserve"},
+      {"playerId": "player_jp1_011_25", "name": "Matheus Leiria", "number": 88, "position": "RW", "country": "BR", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 15,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 11,
+        "cornerLeft": 11,
+        "cornerRight": 8
+      }
+    }
   }
-}
