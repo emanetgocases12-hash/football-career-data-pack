@@ -1,12 +1,52 @@
 {
-  "teamKey": "Fortis",
+    "teamKey": "Fortis",
+    "name": "Fortis FC",
+    "logo": "assets/logos/asia/bangladesh/fortis.png",
+    "manager": {
+      "name": "Masud Parvez Kaiser",
+      "country": "BD"
+    },
+    "stadium": {
+      "name": "Bashundhara Kings Arena",
+      "capacity": 6000
+    },
+    "players": [
+      {"playerId": "player_bd1_009_01", "name": "Sujan Perera", "number": 1, "position": "GK", "country": "LK", "status": "starter"},
+      {"playerId": "player_bd1_009_02", "name": "Rasel Hossain", "number": 2, "position": "RB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_009_03", "name": "Mithun Chowdhury", "number": 3, "position": "CB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_009_04", "name": "Ananta Tamang", "number": 44, "position": "CB", "country": "NP", "status": "starter"},
+      {"playerId": "player_bd1_009_05", "name": "Abu Sayed", "number": 35, "position": "LB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_009_06", "name": "Monir Alam", "number": 23, "position": "CDM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_009_07", "name": "Arik Bista", "number": 8, "position": "CM", "country": "NP", "status": "starter"},
+      {"playerId": "player_bd1_009_08", "name": "Insan Hossen", "number": 21, "position": "CM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_009_09", "name": "Noriki Akada", "number": 73, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_bd1_009_10", "name": "Pa Omar Babou", "number": 10, "position": "ST", "country": "GM", "status": "starter"},
+      {"playerId": "player_bd1_009_11", "name": "Essa Jallow", "number": 4, "position": "LW", "country": "GM", "status": "starter"},
 
-  "name": "Fortis FC",
+      {"playerId": "player_bd1_009_12", "name": "Md Atick Hossain Sourav", "number": 30, "position": "GK", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_009_13", "name": "Md Emon Babu Jibon", "number": 15, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_009_14", "name": "Sheikh Sangram", "number": 24, "position": "RB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_009_15", "name": "Atiqur Fahad", "number": 13, "position": "LB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_009_16", "name": "Md Sharif", "number": 14, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_009_17", "name": "Mohammad Ibrahim", "number": 19, "position": "CAM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_009_18", "name": "Shafiq Tihim", "number": 17, "position": "LM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_009_19", "name": "Shanto Tudu", "number": 6, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_009_20", "name": "Ariful Islam Shanto", "number": 26, "position": "RW", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_009_21", "name": "Mohammad Rony", "number": 11, "position": "ST", "country": "BD", "status": "bench"},
 
-  "logo": "assets/logos/asia/bangladesh/fortis.png",
-
-  "stadium": {
-    "name": "Bashundhara Kings Arena",
-    "capacity": 6000
+      {"playerId": "player_bd1_009_22", "name": "Md Mehedi Islam Rabbani", "number": 25, "position": "GK", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_009_23", "name": "Rafayel Tudu", "number": 20, "position": "LW", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_009_24", "name": "Mominul Fakir", "number": 27, "position": "CM", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_009_25", "name": "Borhan Uddin", "number": 77, "position": "ST", "country": "BD", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 8,
+        "cornerLeft": 73,
+        "cornerRight": 4
+      }
+    }
   }
-}
