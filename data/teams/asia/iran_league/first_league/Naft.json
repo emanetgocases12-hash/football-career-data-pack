@@ -1,12 +1,52 @@
 {
-  "teamKey": "Naft",
-
-  "name": "Sanat Naft Abadan",
-
-  "logo": "assets/logos/asia/iran/Naft.png",
-
-  "stadium": {
-    "name": "Takhti Stadium",
-    "capacity": 8000
+    "teamKey": "Naft",
+    "name": "Sanat Naft Abadan",
+    "logo": "assets/logos/asia/iran/Naft.png",
+    "manager": {
+      "name": "Mohammad Nouri",
+      "country": "IR"
+    },
+    "stadium": {
+      "name": "Takhti Stadium",
+      "capacity": 8000
+    },
+    "players": [
+      {"playerId": "player_ir1_010_01", "name": "Ahmad Gohari", "number": 1, "position": "GK", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_010_02", "name": "Mohammad Aghajanpour", "number": 2, "position": "RB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_010_03", "name": "Mohammad Ahleshakheh", "number": 4, "position": "CB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_010_04", "name": "Hossein Baghlani", "number": 15, "position": "CB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_010_05", "name": "Matin Karimzadeh", "number": 78, "position": "LB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_010_06", "name": "Amirhossein Farhadi", "number": 24, "position": "RM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_010_07", "name": "Taleb Reykani", "number": 10, "position": "CM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_010_08", "name": "Ali Taheran", "number": 6, "position": "CM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_010_09", "name": "Mehdi Momeni", "number": 8, "position": "LM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_010_10", "name": "Ali Dashti", "number": 9, "position": "ST", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_010_11", "name": "Fakher Tahami", "number": 30, "position": "ST", "country": "IR", "status": "starter"},
+  
+      {"playerId": "player_ir1_010_12", "name": "Reza Yazdandoost", "number": 12, "position": "GK", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_010_13", "name": "Mohammad Hossein Fallah", "number": 77, "position": "CB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_010_14", "name": "Meysam Teymouri", "number": 13, "position": "LB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_010_15", "name": "Meysam Tohidast", "number": 33, "position": "CB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_010_16", "name": "Milad Fakhreddini", "number": 34, "position": "RB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_010_17", "name": "Mohammad Abbasi", "number": 48, "position": "CM", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_010_18", "name": "Eric Bocoum", "number": 90, "position": "CAM", "country": "GA", "status": "bench"},
+      {"playerId": "player_ir1_010_19", "name": "Mohammad Dindar", "number": 18, "position": "CM", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_010_20", "name": "Mehdi Hanafi", "number": 19, "position": "RW", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_010_21", "name": "Ali Alekasir", "number": 20, "position": "ST", "country": "IR", "status": "bench"},
+  
+      {"playerId": "player_ir1_010_22", "name": "Parsa Afzali", "number": 22, "position": "GK", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_010_23", "name": "Khashayar Zebarjad", "number": 28, "position": "CM", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_010_24", "name": "Abbas Bozar", "number": 26, "position": "LM", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_010_25", "name": "Danial Bahramitabar", "number": 27, "position": "RW", "country": "IR", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-4-2",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 30,
+        "freeKick": 24,
+        "cornerLeft": 24,
+        "cornerRight": 8
+      }
+    }
   }
-}
