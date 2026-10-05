@@ -1,12 +1,50 @@
-{
-  "teamKey": "Shahan",
-
-  "name": "Al Shahania",
-
-  "logo": "assets/logos/asia/qatar/Shanania.png",
-
-  "stadium": {
-    "name": "Grand Hamad Stadium",
-    "capacity": 13000
+ {
+    "teamKey": "Shahan",
+    "name": "Al Shahania",
+    "logo": "assets/logos/asia/qatar/Shanania.png",
+    "manager": {
+      "name": "Younes Ali",
+      "country": "QA"
+    },
+    "stadium": {
+      "name": "Grand Hamad Stadium",
+      "capacity": 13000
+    },
+    "players": [
+      {"playerId": "player_qa1_011_01", "name": "Shehab Ellethy", "number": 99, "position": "GK", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_011_02", "name": "Andreas Van Beek", "number": 22, "position": "RB", "country": "NL", "status": "starter"},
+      {"playerId": "player_qa1_011_03", "name": "Marc Muniesa", "number": 5, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_qa1_011_04", "name": "Mohamed Bader Sayyar", "number": 4, "position": "CB", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_011_05", "name": "Khalid Muftah", "number": 32, "position": "LB", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_011_06", "name": "Ibrahima Diallo", "number": 27, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_qa1_011_07", "name": "Alvaro Sanz", "number": 6, "position": "CM", "country": "ES", "status": "starter"},
+      {"playerId": "player_qa1_011_08", "name": "Francesco Antonucci", "number": 10, "position": "CAM", "country": "BE", "status": "starter"},
+      {"playerId": "player_qa1_011_09", "name": "Jawad El Jemili", "number": 11, "position": "LW", "country": "ES", "status": "starter"},
+      {"playerId": "player_qa1_011_10", "name": "Abdulrahman Mosed Alrayashi", "number": 7, "position": "RW", "country": "QA", "status": "starter"},
+      {"playerId": "player_qa1_011_11", "name": "Abdoulaye Traoré", "number": 9, "position": "ST", "country": "ML", "status": "starter"},
+      {"playerId": "player_qa1_011_12", "name": "Majed Ayad", "number": 1, "position": "GK", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_011_13", "name": "Mohammad Kadik", "number": 16, "position": "GK", "country": "QA", "status": "reserve"},
+      {"playerId": "player_qa1_011_14", "name": "Yuosuf Hany Al-Raeesi", "number": 77, "position": "RB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_011_15", "name": "Mohamed Alaaeldin", "number": 2, "position": "CB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_011_16", "name": "Bahaa Ellethy", "number": 3, "position": "CB", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_011_17", "name": "Moameen Mutasem", "number": 88, "position": "CM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_011_18", "name": "Mohamad Hany Al-Raeesi", "number": 96, "position": "CM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_011_19", "name": "Ali Qaderi", "number": 20, "position": "CM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_011_20", "name": "Adel Alawi", "number": 18, "position": "CAM", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_011_21", "name": "Amenallah Meherzi", "number": 12, "position": "ST", "country": "TN", "status": "bench"},
+      {"playerId": "player_qa1_011_22", "name": "Mohammed Seraj", "number": 14, "position": "LW", "country": "QA", "status": "bench"},
+      {"playerId": "player_qa1_011_23", "name": "Abdullah Al Sulaiti", "number": 15, "position": "CB", "country": "QA", "status": "reserve"},
+      {"playerId": "player_qa1_011_24", "name": "Ali Al Amri", "number": 24, "position": "CM", "country": "QA", "status": "reserve"},
+      {"playerId": "player_qa1_011_25", "name": "Yousef Al Shammari", "number": 30, "position": "ST", "country": "QA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 99,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
