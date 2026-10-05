@@ -1,12 +1,52 @@
-{
-  "teamKey": "Kahrba",
+ {
+    "teamKey": "Kahrba",
+    "name": "Al-Kahrabaa SC",
+    "logo": "assets/logos/asia/irak/Kahrabaa.png",
+    "manager": {
+      "name": "Hassan Ahmed",
+      "country": "IQ"
+    },
+    "stadium": {
+      "name": "Al-Zawraa Stadium",
+      "capacity": 15443
+    },
+    "players": [
+      {"playerId": "player_iq1_009_01", "name": "Amjad Rahim", "number": 1, "position": "GK", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_009_02", "name": "Hamid Ali", "number": 2, "position": "RB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_009_03", "name": "Melo Ndiaye", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_iq1_009_04", "name": "Abbas Adnan Al-Mohammed", "number": 5, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_009_05", "name": "Ahmed Nadhim", "number": 3, "position": "LB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_009_06", "name": "Khemais Maaouani", "number": 6, "position": "CDM", "country": "TN", "status": "starter"},
+      {"playerId": "player_iq1_009_07", "name": "Ali Mahdi", "number": 8, "position": "CM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_009_08", "name": "Diego Carioca", "number": 7, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_iq1_009_09", "name": "Ameer Ayad", "number": 10, "position": "CAM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_009_10", "name": "Mustafa Salah", "number": 11, "position": "LW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_009_11", "name": "Mohanad Abdul-Rahim", "number": 9, "position": "ST", "country": "IQ", "status": "starter"},
 
-  "name": "Al-Kahrabaa SC",
+      {"playerId": "player_iq1_009_12", "name": "Mohammed Ahmed", "number": 12, "position": "GK", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_009_13", "name": "Thameur Salhi", "number": 14, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_iq1_009_14", "name": "Abbas Qasim", "number": 15, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_009_15", "name": "Sajjad Khalil", "number": 16, "position": "LB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_009_16", "name": "Hussein Naaim", "number": 17, "position": "RB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_009_17", "name": "Reuben Acquah", "number": 18, "position": "CDM", "country": "GH", "status": "bench"},
+      {"playerId": "player_iq1_009_18", "name": "Abbas Majid", "number": 20, "position": "CDM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_009_19", "name": "Ahmed Ayyed", "number": 21, "position": "RW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_009_20", "name": "Hussein Najm", "number": 22, "position": "RW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_009_21", "name": "Samuel Attah Kumi", "number": 19, "position": "ST", "country": "GH", "status": "bench"},
 
-  "logo": "assets/logos/asia/irak/Kahrabaa.png",
-
-  "stadium": {
-    "name": "Al-Zawraa Stadium",
-    "capacity": 15443
+      {"playerId": "player_iq1_009_22", "name": "Ahmed Khudhair", "number": 23, "position": "GK", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_009_23", "name": "Abdullah Abdulameer", "number": 24, "position": "CM", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_009_24", "name": "Lucas Esquerdinha", "number": 25, "position": "ST", "country": "BR", "status": "reserve"},
+      {"playerId": "player_iq1_009_25", "name": "Ali Jassim", "number": 27, "position": "CAM", "country": "IQ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
