@@ -1,12 +1,44 @@
 {
-  "teamKey": "Jinmen",
-
-  "name": "Tianjin Jinmen Tiger FC",
-
-  "logo": "assets/logos/asia/china/Tianjin.png",
-
-  "stadium": {
-    "name": "TEDA Soccer Stadium",
-    "capacity": 36390
+    "teamKey": "Jinmen",
+    "name": "Tianjin Jinmen Tiger FC",
+    "logo": "assets/logos/asia/china/Tianjin.png",
+    "manager": {"name": "Yu Genwei", "country": "CN"},
+    "stadium": {"name": "TEDA Soccer Stadium", "capacity": 36390},
+    "players": [
+      {"playerId": "player_cn1_013_01", "name": "Yan Bingliang", "number": 25, "position": "GK", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_013_02", "name": "Wang Zhenghao", "number": 3, "position": "RB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_013_03", "name": "Aitor Córdoba", "number": 18, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_cn1_013_04", "name": "Wang Xianjun", "number": 6, "position": "CB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_013_05", "name": "Huang Jiahui", "number": 14, "position": "LB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_013_06", "name": "Cristian Salvador", "number": 10, "position": "CM", "country": "ES", "status": "starter"},
+      {"playerId": "player_cn1_013_07", "name": "Wang Qiuming", "number": 30, "position": "CM", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_013_08", "name": "Xadas", "number": 8, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_cn1_013_09", "name": "Ba Dun", "number": 29, "position": "RW", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_013_10", "name": "Xie Weijun", "number": 11, "position": "LW", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_013_11", "name": "Guilherme Schettine", "number": 7, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_013_12", "name": "Qi Yuxi", "number": 21, "position": "GK", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_013_13", "name": "Yang Wei", "number": 4, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_013_14", "name": "Li Shuaiqi", "number": 38, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_013_15", "name": "Cai Chengjun", "number": 39, "position": "RB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_013_16", "name": "Wu Xinghan", "number": 17, "position": "LM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_013_17", "name": "Liu Junxian", "number": 19, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_013_18", "name": "Ji Shengpan", "number": 20, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_013_19", "name": "Guo Hao", "number": 28, "position": "CDM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_013_20", "name": "Alberto Quiles", "number": 9, "position": "ST", "country": "ES", "status": "bench"},
+      {"playerId": "player_cn1_013_21", "name": "Sun Ming Him", "number": 31, "position": "RW", "country": "HK", "status": "bench"},
+      {"playerId": "player_cn1_013_22", "name": "Li Yuefeng", "number": 1, "position": "GK", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_013_23", "name": "Chen Zhexuan", "number": 24, "position": "CM", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_013_24", "name": "Li Yongjia", "number": 22, "position": "CM", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_013_25", "name": "Shi Yan", "number": 40, "position": "RW", "country": "CN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 30,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 8,
+        "cornerLeft": 29,
+        "cornerRight": 8
+      }
+    }
   }
-}
