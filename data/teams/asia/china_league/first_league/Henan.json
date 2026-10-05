@@ -1,12 +1,44 @@
 {
-  "teamKey": "Henan",
-
-  "name": "Henan FC",
-
-  "logo": "assets/logos/asia/china/Henan.png",
-
-  "stadium": {
-    "name": "Hanghai Stadium",
-    "capacity": 29860
+    "teamKey": "Henan",
+    "name": "Henan FC",
+    "logo": "assets/logos/asia/china/Henan.png",
+    "manager": {"name": "Daniel Ramos", "country": "PT"},
+    "stadium": {"name": "Hanghai Stadium", "capacity": 29860},
+    "players": [
+      {"playerId": "player_cn1_004_01", "name": "Wang Guoming", "number": 18, "position": "GK", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_004_02", "name": "Shinar Yeljan", "number": 4, "position": "RB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_004_03", "name": "Iago Maidana", "number": 2, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_004_04", "name": "Oliver Gerbig", "number": 3, "position": "CB", "country": "HK", "status": "starter"},
+      {"playerId": "player_cn1_004_05", "name": "Liu Yixin", "number": 27, "position": "LB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_004_06", "name": "Wang Shangyuan", "number": 6, "position": "CDM", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_004_07", "name": "He Chao", "number": 21, "position": "CM", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_004_08", "name": "Nebijan Muhmet", "number": 11, "position": "RW", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_004_09", "name": "Bruno Nazário", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_004_10", "name": "Zhong Yihao", "number": 7, "position": "LW", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_004_11", "name": "Gustavo", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_004_12", "name": "Xu Jiamin", "number": 26, "position": "GK", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_004_13", "name": "Liu Jiahui", "number": 5, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_004_14", "name": "Yang Kuo", "number": 16, "position": "RB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_004_15", "name": "Lucas Maia", "number": 23, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_cn1_004_16", "name": "Huang Ruifeng", "number": 22, "position": "CDM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_004_17", "name": "Haliq Ablahan", "number": 15, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_004_18", "name": "Chen Keqiang", "number": 20, "position": "CAM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_004_19", "name": "Yang Yilin", "number": 25, "position": "RW", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_004_20", "name": "Yin Congyao", "number": 24, "position": "LW", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_004_21", "name": "Zheng Dalun", "number": 29, "position": "RW", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_004_22", "name": "Wang Jinshuai", "number": 17, "position": "GK", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_004_23", "name": "Abudulam Abdurasul", "number": 13, "position": "CM", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_004_24", "name": "Fan Xulin", "number": 30, "position": "CM", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_004_25", "name": "Zheng Junwei", "number": 37, "position": "ST", "country": "CN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
