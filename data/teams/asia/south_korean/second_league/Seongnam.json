@@ -1,12 +1,50 @@
-{
-  "teamKey": "Sngnam",
-
-  "name": "Seongnam FC",
-
-  "logo": "assets/logos/asia/south_korean/Seongnam.png",
-
-  "stadium": {
-    "name": "Tancheon Stadium",
-    "capacity": 16146
+ {
+    "teamKey": "Sngnam",
+    "name": "Seongnam FC",
+    "logo": "assets/logos/asia/south_korean/Seongnam.png",
+    "manager": {
+      "name": "Lee Ki-hyung",
+      "country": "KR"
+    },
+    "stadium": {
+      "name": "Tancheon Stadium",
+      "capacity": 16146
+    },
+    "players": [
+      {"playerId": "player_kr2_014_01", "name": "Choi Pil-su", "number": 1, "position": "GK", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr2_014_02", "name": "Lee Ji-hoon", "number": 18, "position": "RB", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr2_014_03", "name": "Kang Eui-bin", "number": 4, "position": "CB", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr2_014_04", "name": "Kwak Kwang-seon", "number": 20, "position": "CB", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr2_014_05", "name": "Kim Su-beom", "number": 3, "position": "LB", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr2_014_06", "name": "Lee Jeong-bin", "number": 8, "position": "CM", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr2_014_07", "name": "Elionay", "number": 14, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_kr2_014_08", "name": "Ryu Jun-sun", "number": 16, "position": "CM", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr2_014_09", "name": "Seo Bo-min", "number": 11, "position": "RM", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr2_014_10", "name": "Park Sang-hyeok", "number": 17, "position": "LW", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr2_014_11", "name": "Park Yong-ji", "number": 9, "position": "ST", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr2_014_12", "name": "Kim Young-kwang", "number": 41, "position": "GK", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr2_014_13", "name": "Yang Han-been", "number": 21, "position": "GK", "country": "KR", "status": "reserve"},
+      {"playerId": "player_kr2_014_14", "name": "Jang Hyo-jun", "number": 29, "position": "CB", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr2_014_15", "name": "Venicio", "number": 5, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_kr2_014_16", "name": "Lee Sang-min", "number": 2, "position": "CM", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr2_014_17", "name": "Ahn Jin-beom", "number": 22, "position": "CM", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr2_014_18", "name": "Yu Ju-an", "number": 23, "position": "CAM", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr2_014_19", "name": "Lee Jong-ho", "number": 10, "position": "ST", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr2_014_20", "name": "Hong Hyun-seung", "number": 19, "position": "RW", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr2_014_21", "name": "Kim Bum-soo", "number": 7, "position": "LW", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr2_014_22", "name": "Rodrigo Angelotti", "number": 24, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_kr2_014_23", "name": "Paul Villero", "number": 27, "position": "ST", "country": "CO", "status": "reserve"},
+      {"playerId": "player_kr2_014_24", "name": "Lee Jun-sang", "number": 30, "position": "ST", "country": "KR", "status": "reserve"},
+      {"playerId": "player_kr2_014_25", "name": "Jeon Min-gyu", "number": 32, "position": "ST", "country": "KR", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 17,
+        "cornerLeft": 17,
+        "cornerRight": 17
+      }
+    }
   }
-}
