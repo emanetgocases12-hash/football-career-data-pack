@@ -1,12 +1,52 @@
 {
-  "teamKey": "Stade T",
+    "teamKey": "Stade T",
+    "name": "Stade Tunisien",
+    "logo": "assets/logos/africa/tunusia/StadeT.png",
+    "manager": {
+      "name": "Tozé Marreco",
+      "country": "PT"
+    },
+    "stadium": {
+      "name": "Stade Hédi Ennaifer",
+      "capacity": 11000
+    },
+    "players": [
+      {"playerId": "player_tn1_015_01", "name": "Atef Dkhili", "number": 1, "position": "GK", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_015_02", "name": "Rayed Derbali", "number": 2, "position": "RB", "country": "FR", "status": "starter"},
+      {"playerId": "player_tn1_015_03", "name": "Aziz Saihi", "number": 4, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_015_04", "name": "Wael Werghemmi", "number": 5, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_015_05", "name": "Fedi Abdi", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_015_06", "name": "Papa Aboubacar Diop", "number": 6, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_tn1_015_07", "name": "Mame Saliou Thioune", "number": 8, "position": "CM", "country": "SN", "status": "starter"},
+      {"playerId": "player_tn1_015_08", "name": "Youssef Saafi", "number": 10, "position": "CAM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_015_09", "name": "Baraket Hmidi", "number": 7, "position": "RW", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_015_10", "name": "Fakhreddine Ben Youssef", "number": 9, "position": "ST", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_015_11", "name": "Youssef Dhaflaoui", "number": 11, "position": "LW", "country": "TN", "status": "starter"},
 
-  "name": "Stade Tunisien",
+      {"playerId": "player_tn1_015_12", "name": "Mehdi Ben Mrad", "number": 22, "position": "GK", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_015_13", "name": "Hassine Refai", "number": 12, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_015_14", "name": "Skander Sghaier", "number": 15, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_015_15", "name": "Mounir Jelassi", "number": 17, "position": "RB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_015_16", "name": "Hadi Khalfa", "number": 18, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_015_17", "name": "Boubacar Camara", "number": 14, "position": "CDM", "country": "SN", "status": "bench"},
+      {"playerId": "player_tn1_015_18", "name": "Yusuf Touré", "number": 20, "position": "CM", "country": "CI", "status": "bench"},
+      {"playerId": "player_tn1_015_19", "name": "Zakaria El Ayeb", "number": 13, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_015_20", "name": "Wael Bellakhal", "number": 16, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_015_21", "name": "Amadou Dia Ndiaye", "number": 19, "position": "ST", "country": "SN", "status": "bench"},
 
-  "logo": "assets/logos/africa/tunusia/StadeT.png",
-
-  "stadium": {
-    "name": "Stade Hédi Ennaifer",
-    "capacity": 11000
+      {"playerId": "player_tn1_015_22", "name": "Noureddine Farhati", "number": 21, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_015_23", "name": "Hazem Khemiri", "number": 23, "position": "CM", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_015_24", "name": "Moncef Gharbi", "number": 24, "position": "ST", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_015_25", "name": "Mohamed Amine Khemissi", "number": 25, "position": "ST", "country": "TN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
