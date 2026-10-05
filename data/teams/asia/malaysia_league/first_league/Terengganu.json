@@ -1,12 +1,35 @@
-{
-  "teamKey": "Tereng",
-
-  "name": "Terengganu FC",
-
-  "logo": "assets/logos/asia/malaysia/Tereng.png",
-
-  "stadium": {
-    "name": "Sultan Mizan Zainal Abidin Stadium",
-    "capacity": 50000
+ {
+    "teamKey": "Tereng",
+    "name": "Terengganu FC",
+    "logo": "assets/logos/asia/malaysia/Tereng.png",
+    "manager": {"name": "Nafuzi Zain", "country": "MY"},
+    "stadium": {"name": "Sultan Mizan Zainal Abidin Stadium", "capacity": 50000},
+    "players": [
+      {"playerId": "player_my1_012_01", "name": "Rahadiazli Rahalim", "number": 1, "position": "GK", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_012_02", "name": "Safwan Mazlan", "number": 2, "position": "RB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_012_03", "name": "Shahrulnizam Ros Hasni", "number": 5, "position": "CB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_012_04", "name": "Ngweni Ndasi", "number": 4, "position": "CB", "country": "CM", "status": "starter"},
+      {"playerId": "player_my1_012_05", "name": "Faris Rifqi Abdul Rashid", "number": 12, "position": "LB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_012_06", "name": "Ubaidullah Shamsul Fazili", "number": 3, "position": "CDM", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_012_07", "name": "Manuel Ott", "number": 8, "position": "CM", "country": "PH", "status": "starter"},
+      {"playerId": "player_my1_012_08", "name": "Elvis Kamsoba", "number": 7, "position": "RW", "country": "BI", "status": "starter"},
+      {"playerId": "player_my1_012_09", "name": "Victor Ruiz", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_my1_012_10", "name": "Mateus Gustavo", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_my1_012_11", "name": "Gervane Kastaneer", "number": 9, "position": "ST", "country": "CW", "status": "starter"},
+      {"playerId": "player_my1_012_12", "name": "Syed Nasrulhaq Syed Bidin", "number": 22, "position": "GK", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_012_13", "name": "Azam Azmi Murad", "number": 23, "position": "RB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_012_14", "name": "Pape Abdoulaye Diakite", "number": 15, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_my1_012_15", "name": "Alif Zakaria", "number": 19, "position": "LB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_012_16", "name": "Zachary Zahidadil", "number": 24, "position": "RB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_012_17", "name": "Daniel Mohd Nor", "number": 6, "position": "CDM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_012_18", "name": "Danial Amier Norhisham", "number": 14, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_012_19", "name": "Habib Haroon", "number": 18, "position": "CDM", "country": "BH", "status": "bench"},
+      {"playerId": "player_my1_012_20", "name": "Faiz Mazlan", "number": 20, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_012_21", "name": "Romel Morales", "number": 17, "position": "ST", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_012_22", "name": "Suhaimi Husin", "number": 31, "position": "GK", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_012_23", "name": "Ahmad Haziq Kutty Abba", "number": 13, "position": "CM", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_012_24", "name": "Jordan Mintah", "number": 25, "position": "ST", "country": "GH", "status": "reserve"},
+      {"playerId": "player_my1_012_25", "name": "Nazul Izamil Zulkifli", "number": 29, "position": "GK", "country": "MY", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 5, "setPieces": {"penalty": 9, "freeKick": 10, "cornerLeft": 11, "cornerRight": 7}}
   }
-}
