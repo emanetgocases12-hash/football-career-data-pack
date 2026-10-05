@@ -1,12 +1,44 @@
 {
-  "teamKey": "Hainiu",
-
-  "name": "Qingdao Hainiu FC",
-
-  "logo": "assets/logos/asia/china/Qingdao.png",
-
-  "stadium": {
-    "name": "Qingdao Youth Football Stadium",
-    "capacity": 50097
+    "teamKey": "Hainiu",
+    "name": "Qingdao Hainiu FC",
+    "logo": "assets/logos/asia/china/Qingdao.png",
+    "manager": {"name": "Milan Ristić", "country": "RS"},
+    "stadium": {"name": "Qingdao Youth Football Stadium", "capacity": 50097},
+    "players": [
+      {"playerId": "player_cn1_006_01", "name": "Mou Pengfei", "number": 28, "position": "GK", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_006_02", "name": "Li Hailong", "number": 16, "position": "RB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_006_03", "name": "Nemanja Andjelković", "number": 26, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_cn1_006_04", "name": "Liu Junshuai", "number": 3, "position": "CB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_006_05", "name": "Song Long", "number": 23, "position": "LB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_006_06", "name": "Malcom Edjouma", "number": 6, "position": "CDM", "country": "FR", "status": "starter"},
+      {"playerId": "player_cn1_006_07", "name": "Ahmed El Messaoudi", "number": 11, "position": "CM", "country": "BE", "status": "starter"},
+      {"playerId": "player_cn1_006_08", "name": "Yaw Yeboah", "number": 7, "position": "RW", "country": "GH", "status": "starter"},
+      {"playerId": "player_cn1_006_09", "name": "Lazar Tufegdžić", "number": 32, "position": "CAM", "country": "RS", "status": "starter"},
+      {"playerId": "player_cn1_006_10", "name": "Hu Jinghang", "number": 24, "position": "LW", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_006_11", "name": "Carlos Strandberg", "number": 10, "position": "ST", "country": "SE", "status": "starter"},
+      {"playerId": "player_cn1_006_12", "name": "Liu Jun", "number": 1, "position": "GK", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_006_13", "name": "Jin Yangyang", "number": 4, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_006_14", "name": "Sun Zhengao", "number": 14, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_006_15", "name": "Zhang Wei", "number": 2, "position": "RB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_006_16", "name": "Lin Chuangyi", "number": 8, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_006_17", "name": "Luo Senwen", "number": 31, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_006_18", "name": "Jin Yonghao", "number": 34, "position": "CAM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_006_19", "name": "Che Shiwei", "number": 30, "position": "RM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_006_20", "name": "Song Wenjie", "number": 19, "position": "ST", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_006_21", "name": "Liu Xinyu", "number": 9, "position": "ST", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_006_22", "name": "Mewlan Jappar", "number": 43, "position": "GK", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_006_23", "name": "Mustapa Tash", "number": 5, "position": "CB", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_006_24", "name": "Jiang Ning", "number": 21, "position": "CAM", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_006_25", "name": "Ho Chun Wong", "number": 38, "position": "RW", "country": "HK", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 11,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 32,
+        "cornerLeft": 7,
+        "cornerRight": 24
+      }
+    }
   }
-}
