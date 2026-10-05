@@ -1,12 +1,52 @@
 {
-  "teamKey": "E Bengl",
+    "teamKey": "E Bengl",
+    "name": "East Bengal Football Club",
+    "logo": "assets/logos/asia/india/EBengal.png",
+    "manager": {
+      "name": "Antonio López Habas",
+      "country": "ES"
+    },
+    "stadium": {
+      "name": "Vivekananda Yuba Bharati Krirangan",
+      "capacity": 85000
+    },
+    "players": [
+      {"playerId": "player_in1_004_01", "name": "Phurba Lachenpa", "number": 1, "position": "GK", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_004_02", "name": "Boris Singh", "number": 17, "position": "RB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_004_03", "name": "Anwar Ali", "number": 4, "position": "CB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_004_04", "name": "Lalchungnunga", "number": 5, "position": "CB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_004_05", "name": "Jay Gupta", "number": 3, "position": "LB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_004_06", "name": "Jeakson Singh", "number": 6, "position": "CDM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_004_07", "name": "Rohit Kumar", "number": 8, "position": "CM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_004_08", "name": "Daniel Ramírez", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_in1_004_09", "name": "Chris Ikonomidis", "number": 7, "position": "RW", "country": "AU", "status": "starter"},
+      {"playerId": "player_in1_004_10", "name": "PV Vishnu", "number": 11, "position": "LW", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_004_11", "name": "Ake Arnaud Loba", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
 
-  "name": "East Bengal Football Club",
+      {"playerId": "player_in1_004_12", "name": "Prabhsukhan Gill", "number": 13, "position": "GK", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_004_13", "name": "Narender Gahlot", "number": 2, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_004_14", "name": "Diego Živulić", "number": 24, "position": "CB", "country": "HR", "status": "bench"},
+      {"playerId": "player_in1_004_15", "name": "Sandip Mandi", "number": 16, "position": "LB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_004_16", "name": "Raynier Fernandes", "number": 14, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_004_17", "name": "Th Bipin Singh", "number": 18, "position": "LW", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_004_18", "name": "Mohammed Basim Rashid", "number": 20, "position": "CAM", "country": "PS", "status": "bench"},
+      {"playerId": "player_in1_004_19", "name": "Nsungusi Effiong", "number": 19, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_in1_004_20", "name": "Łukasz Zwoliński", "number": 99, "position": "ST", "country": "PL", "status": "bench"},
+      {"playerId": "player_in1_004_21", "name": "David Lalhlansanga", "number": 21, "position": "ST", "country": "IN", "status": "bench"},
 
-  "logo": "assets/logos/asia/india/EBengal.png",
-
-  "stadium": {
-    "name": "Vivekananda Yuba Bharati Krirangan",
-    "capacity": 85000
+      {"playerId": "player_in1_004_22", "name": "Subrata Santra", "number": 31, "position": "GK", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_004_23", "name": "Souvik Chakrabarti", "number": 23, "position": "CDM", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_004_24", "name": "Edmund Lalrindika", "number": 12, "position": "RW", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_004_25", "name": "Rohit Danu", "number": 22, "position": "RW", "country": "IN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
