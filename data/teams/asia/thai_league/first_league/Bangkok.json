@@ -1,12 +1,50 @@
 {
-  "teamKey": "Bngkok",
-
-  "name": "Bangkok United",
-
-  "logo": "assets/logos/asia/tailand/Bangkok.png",
-
-  "stadium": {
-    "name": "True BG Stadium",
-    "capacity": 15114
+    "teamKey": "Bngkok",
+    "name": "Bangkok United",
+    "logo": "assets/logos/asia/tailand/Bangkok.png",
+    "manager": {
+      "name": "Totchtawan Sripan",
+      "country": "TH"
+    },
+    "stadium": {
+      "name": "True BG Stadium",
+      "capacity": 15114
+    },
+    "players": [
+      {"playerId": "player_th1_002_01", "name": "Patiwat Khammai", "number": 1, "position": "GK", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_002_02", "name": "Nitipong Selanon", "number": 6, "position": "RB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_002_03", "name": "Everton Gonçalves", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_002_04", "name": "Manuel Bihr", "number": 4, "position": "CB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_002_05", "name": "Peerapat Notchaiya", "number": 2, "position": "LB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_002_06", "name": "Thitipan Puangchan", "number": 18, "position": "CM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_002_07", "name": "Pokklaw Anan", "number": 39, "position": "CM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_002_08", "name": "Bassel Jradi", "number": 10, "position": "CAM", "country": "LB", "status": "starter"},
+      {"playerId": "player_th1_002_09", "name": "Mahmoud Eid", "number": 93, "position": "RW", "country": "PS", "status": "starter"},
+      {"playerId": "player_th1_002_10", "name": "Rungrath Poomchantuek", "number": 11, "position": "LW", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_002_11", "name": "Richairo Živković", "number": 30, "position": "ST", "country": "CW", "status": "starter"},
+      {"playerId": "player_th1_002_12", "name": "Phuwadol Pholsongkram", "number": 29, "position": "GK", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_002_13", "name": "Suphan Thongsong", "number": 26, "position": "CB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_002_14", "name": "James Beresford", "number": 5, "position": "RB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_002_15", "name": "Wanchai Jarunongkran", "number": 24, "position": "LB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_002_16", "name": "Weerathep Pomphan", "number": 27, "position": "CDM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_002_17", "name": "Chayawat Srinawong", "number": 7, "position": "RW", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_002_18", "name": "Vander Luiz", "number": 20, "position": "LW", "country": "BR", "status": "bench"},
+      {"playerId": "player_th1_002_19", "name": "Willen Mota", "number": 9, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_th1_002_20", "name": "Tosawat Limwanasthian", "number": 28, "position": "CM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_002_21", "name": "Wisut Wasri", "number": 15, "position": "CB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_002_22", "name": "Warut Mekmusik", "number": 31, "position": "GK", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_002_23", "name": "Kritsada Kaman", "number": 8, "position": "CDM", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_002_24", "name": "Nattawut Suksum", "number": 19, "position": "ST", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_002_25", "name": "Aris Zarifović", "number": 14, "position": "CB", "country": "SI", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 30,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
