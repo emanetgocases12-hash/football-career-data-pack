@@ -1,12 +1,50 @@
 {
-  "teamKey": "Geylan",
-
-  "name": "Geylang International FC",
-
-  "logo": "assets/logos/asia/singapor/Geylang.png",
-
-  "stadium": {
-    "name": "Our Tampines Hub",
-    "capacity": 5000
+    "teamKey": "Geylan",
+    "name": "Geylang International FC",
+    "logo": "assets/logos/asia/singapor/Geylang.png",
+    "manager": {
+      "name": "Mohd Noor Ali",
+      "country": "SG"
+    },
+    "stadium": {
+      "name": "Our Tampines Hub",
+      "capacity": 5000
+    },
+    "players": [
+      {"playerId": "player_sg1_002_01", "name": "Milos Cupic", "number": 1, "position": "GK", "country": "RS", "status": "starter"},
+      {"playerId": "player_sg1_002_02", "name": "Darren Teh", "number": 2, "position": "RB", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_002_03", "name": "Cho Eunsu", "number": 3, "position": "CB", "country": "KR", "status": "starter"},
+      {"playerId": "player_sg1_002_04", "name": "Kim Taeuk", "number": 4, "position": "CB", "country": "KR", "status": "starter"},
+      {"playerId": "player_sg1_002_05", "name": "Nazrul Nazari", "number": 23, "position": "LB", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_002_06", "name": "Anumanthan Kumar", "number": 6, "position": "CDM", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_002_07", "name": "Joshua Pereira", "number": 8, "position": "CM", "country": "SG", "status": "starter"},
+      {"playerId": "player_sg1_002_08", "name": "Naoki Yoshioka", "number": 5, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_002_09", "name": "Ryoya Taniguchi", "number": 10, "position": "CAM", "country": "JP", "status": "starter"},
+      {"playerId": "player_sg1_002_10", "name": "Yang Hyeonju", "number": 18, "position": "RW", "country": "KR", "status": "starter"},
+      {"playerId": "player_sg1_002_11", "name": "Dejan Racic", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+      {"playerId": "player_sg1_002_12", "name": "Aniq Matin", "number": 13, "position": "GK", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_002_13", "name": "Harith Kanadi", "number": 11, "position": "RB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_002_14", "name": "SC Denilson", "number": 15, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_sg1_002_15", "name": "Shafrel Ariel", "number": 20, "position": "CB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_002_16", "name": "Mustaqim Mulyadi", "number": 33, "position": "LB", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_002_17", "name": "Kaisei Ogawa", "number": 7, "position": "CM", "country": "JP", "status": "bench"},
+      {"playerId": "player_sg1_002_18", "name": "Ali Manaf", "number": 14, "position": "CM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_002_19", "name": "Prince Rio Rifae'i", "number": 17, "position": "RW", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_002_20", "name": "Raiyan Noor", "number": 19, "position": "LM", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_002_21", "name": "Sahil Suhaimi", "number": 32, "position": "ST", "country": "SG", "status": "bench"},
+      {"playerId": "player_sg1_002_22", "name": "Dylan Pereira", "number": 25, "position": "GK", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_002_23", "name": "Putera Nur Muhd", "number": 16, "position": "ST", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_002_24", "name": "Diego Aspiras", "number": 24, "position": "CM", "country": "SG", "status": "reserve"},
+      {"playerId": "player_sg1_002_25", "name": "David Sassarak", "number": 39, "position": "ST", "country": "SG", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 18
+      }
+    }
   }
-}
