@@ -1,12 +1,52 @@
 {
-  "teamKey": "Karma",
+    "teamKey": "Karma",
+    "name": "Al-Karma SC",
+    "logo": "assets/logos/asia/irak/Karma.png",
+    "manager": {
+      "name": "Momen Soliman",
+      "country": "EG"
+    },
+    "stadium": {
+      "name": "Al-Jolan Stadium",
+      "capacity": 6000
+    },
+    "players": [
+      {"playerId": "player_iq1_012_01", "name": "Fahad Talib", "number": 1, "position": "GK", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_012_02", "name": "Halo Fayaq", "number": 2, "position": "RB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_012_03", "name": "Kerrar Amer", "number": 4, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_012_04", "name": "Ayoub Mouddane", "number": 5, "position": "CB", "country": "MA", "status": "starter"},
+      {"playerId": "player_iq1_012_05", "name": "Ahmed Maknzi", "number": 3, "position": "LB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_012_06", "name": "Daniel Ajibola", "number": 6, "position": "CDM", "country": "NG", "status": "starter"},
+      {"playerId": "player_iq1_012_07", "name": "Ibrahim Saadeh", "number": 8, "position": "CM", "country": "JO", "status": "starter"},
+      {"playerId": "player_iq1_012_08", "name": "Samuel Amadi", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_iq1_012_09", "name": "Amoori Faisal", "number": 10, "position": "CAM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_012_10", "name": "Ahmed Sabri", "number": 11, "position": "LW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_012_11", "name": "Marwan Hamdi", "number": 9, "position": "ST", "country": "EG", "status": "starter"},
 
-  "name": "Al-Karma SC",
+      {"playerId": "player_iq1_012_12", "name": "Laith Sajid", "number": 12, "position": "GK", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_012_13", "name": "Mohammed Al-Baqir", "number": 14, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_012_14", "name": "Yousef Al-Alousi", "number": 15, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_iq1_012_15", "name": "Mohammad Abu Hasheesh", "number": 16, "position": "LB", "country": "JO", "status": "bench"},
+      {"playerId": "player_iq1_012_16", "name": "Sajad Jassim", "number": 17, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_012_17", "name": "Younis Ghani", "number": 18, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_012_18", "name": "Ali Mokhalad", "number": 20, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_012_19", "name": "Alaa Saad", "number": 21, "position": "CAM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_012_20", "name": "Moamel Abdulridha", "number": 22, "position": "RW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_012_21", "name": "Paul Bassène", "number": 19, "position": "ST", "country": "SN", "status": "bench"},
 
-  "logo": "assets/logos/asia/irak/Karma.png",
-
-  "stadium": {
-    "name": "Al-Jolan Stadium",
-    "capacity": 6000
+      {"playerId": "player_iq1_012_22", "name": "Fahad Neamah", "number": 23, "position": "GK", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_012_23", "name": "Wakaa Rammdan", "number": 24, "position": "ST", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_012_24", "name": "Wilden Bokouya", "number": 25, "position": "ST", "country": "CG", "status": "reserve"},
+      {"playerId": "player_iq1_012_25", "name": "Ali Karim", "number": 27, "position": "LW", "country": "IQ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
