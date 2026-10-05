@@ -1,12 +1,52 @@
 {
-  "teamKey": "Abahan",
+    "teamKey": "Abahan",
+    "name": "Abahani Limited Dhaka",
+    "logo": "assets/logos/asia/bangladesh/Abahani.png",
+    "manager": {
+      "name": "Maruful Haque",
+      "country": "BD"
+    },
+    "stadium": {
+      "name": "Shaheed Dhirendranath Datta Stadium",
+      "capacity": 18000
+    },
+    "players": [
+      {"playerId": "player_bd1_001_01", "name": "Mahfuz Hasan Pritom", "number": 1, "position": "GK", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_001_02", "name": "Abdullah Omar Sajib", "number": 14, "position": "RB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_001_03", "name": "Assaduzzaman Bablu", "number": 3, "position": "CB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_001_04", "name": "Hasan Murad Tipu", "number": 2, "position": "CB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_001_05", "name": "Kamrul Islam", "number": 13, "position": "LB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_001_06", "name": "Papon Singh", "number": 6, "position": "CDM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_001_07", "name": "Rabiul Hasan", "number": 15, "position": "CM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_001_08", "name": "Michael Babatunde", "number": 12, "position": "RW", "country": "NG", "status": "starter"},
+      {"playerId": "player_bd1_001_09", "name": "Shekh Morsalin", "number": 10, "position": "CAM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_001_10", "name": "Chinedu Matthew", "number": 11, "position": "LW", "country": "NG", "status": "starter"},
+      {"playerId": "player_bd1_001_11", "name": "Mirajul Islam", "number": 7, "position": "ST", "country": "BD", "status": "starter"},
 
-  "name": "Abahani Limited Dhaka",
+      {"playerId": "player_bd1_001_12", "name": "Shamim Hossen", "number": 22, "position": "GK", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_001_13", "name": "Sabuz Hossain", "number": 5, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_001_14", "name": "Masud Rana", "number": 25, "position": "LB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_001_15", "name": "Iftiar Hossain", "number": 16, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_001_16", "name": "Asadul Molla", "number": 17, "position": "RM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_001_17", "name": "Nazmul Huda Faysal", "number": 18, "position": "LW", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_001_18", "name": "Emtiyaz Raihan", "number": 19, "position": "RW", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_001_19", "name": "Hedayet Ullah", "number": 21, "position": "CDM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_001_20", "name": "Abdul Riyad Fahim", "number": 23, "position": "RB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_001_21", "name": "Anthony Okachi", "number": 99, "position": "ST", "country": "NG", "status": "bench"},
 
-  "logo": "assets/logos/asia/bangladesh/Abahani.png",
-
-  "stadium": {
-    "name": "Shaheed Dhirendranath Datta Stadium",
-    "capacity": 18000
+      {"playerId": "player_bd1_001_22", "name": "Mitul Marma", "number": 30, "position": "GK", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_001_23", "name": "Md Amir Ali", "number": 20, "position": "CB", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_001_24", "name": "Moin Ahmed", "number": 77, "position": "CM", "country": "PK", "status": "reserve"},
+      {"playerId": "player_bd1_001_25", "name": "Al-Amin", "number": 9, "position": "ST", "country": "BD", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 3,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 12
+      }
+    }
   }
-}
