@@ -1,12 +1,50 @@
 {
-  "teamKey": "Rayong",
-
-  "name": "Rayong FC",
-
-  "logo": "assets/logos/asia/tailand/Rayong.png",
-
-  "stadium": {
-    "name": "WHA Rayong Stadium",
-    "capacity": 7500
+    "teamKey": "Rayong",
+    "name": "Rayong FC",
+    "logo": "assets/logos/asia/tailand/Rayong.png",
+    "manager": {
+      "name": "Akthaporn Chalitaporn",
+      "country": "TH"
+    },
+    "stadium": {
+      "name": "WHA Rayong Stadium",
+      "capacity": 7500
+    },
+    "players": [
+      {"playerId": "player_th1_013_01", "name": "Kawin Thamsatchanan", "number": 1, "position": "GK", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_013_02", "name": "Adisorn Promrak", "number": 25, "position": "RB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_013_03", "name": "Amani Aguinaldo", "number": 5, "position": "CB", "country": "PH", "status": "starter"},
+      {"playerId": "player_th1_013_04", "name": "Somporn Yos", "number": 4, "position": "CB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_013_05", "name": "Jakkit Wachpirom", "number": 3, "position": "LB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_013_06", "name": "Saharat Pongsuwan", "number": 6, "position": "CDM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_013_07", "name": "Yodrak Namueangrak", "number": 8, "position": "CM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_013_08", "name": "Mateus Lima", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_013_09", "name": "Stenio Junior", "number": 7, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_013_10", "name": "Tana", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_013_11", "name": "Gustavinho", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_th1_013_12", "name": "Kritsana Klanklin", "number": 22, "position": "GK", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_013_13", "name": "Pongsakorn Samathanered", "number": 2, "position": "RB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_013_14", "name": "Chaiwat Burans", "number": 14, "position": "LB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_013_15", "name": "Mateus Cunha", "number": 15, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_th1_013_16", "name": "Krittin Kerdkaew", "number": 16, "position": "CB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_013_17", "name": "Kittiphong Wongma", "number": 17, "position": "CM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_013_18", "name": "Chutipol Thongtae", "number": 18, "position": "CM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_013_19", "name": "Thanawat Pimyotha", "number": 19, "position": "CAM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_013_20", "name": "Apichart Denman", "number": 20, "position": "RW", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_013_21", "name": "Sittichok Kannoo", "number": 21, "position": "ST", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_013_22", "name": "Nattawut Munsuwan", "number": 31, "position": "GK", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_013_23", "name": "Worachit Kanitsribampen", "number": 23, "position": "CM", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_013_24", "name": "Adisak Kraisorn", "number": 27, "position": "ST", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_013_25", "name": "Jakkapan Pornsai", "number": 77, "position": "RW", "country": "TH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
