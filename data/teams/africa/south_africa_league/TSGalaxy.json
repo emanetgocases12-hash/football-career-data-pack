@@ -1,12 +1,52 @@
 {
   "teamKey": "TS Galxy",
-
   "name": "TS Galaxy",
-
   "logo": "assets/logos/africa/south_africa/TSGalaxy.png",
-
+  "manager": {
+    "name": "Bernard Parker",
+    "country": "ZA"
+  },
   "stadium": {
     "name": "Mbombela Stadium",
     "capacity": 43500
+  },
+  "players": [
+    {"playerId": "player_za1_016_01", "name": "E. Tape", "number": 16, "position": "GK", "country": "CI", "status": "starter"},
+    {"playerId": "player_za1_016_02", "name": "M. Mvelase", "number": 2, "position": "RB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_016_03", "name": "M. Mahlangu", "number": 4, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_016_04", "name": "I. Salatiel", "number": 5, "position": "CB", "country": "CM", "status": "starter"},
+    {"playerId": "player_za1_016_05", "name": "V. Zulu", "number": 45, "position": "LB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_016_06", "name": "N. Nkosi", "number": 6, "position": "CDM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_016_07", "name": "S. Ngobeni", "number": 33, "position": "CM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_016_08", "name": "A. Williams", "number": 11, "position": "RW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_016_09", "name": "S. Maduna", "number": 10, "position": "CAM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_016_10", "name": "S. Mahlambi", "number": 7, "position": "LW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_016_11", "name": "S. George", "number": 19, "position": "ST", "country": "ZA", "status": "starter"},
+
+    {"playerId": "player_za1_016_12", "name": "S. Maseti", "number": 1, "position": "GK", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_016_13", "name": "L. Motaung", "number": 22, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_016_14", "name": "P. Fisher", "number": 23, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_016_15", "name": "L. Mathebula", "number": 24, "position": "LB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_016_16", "name": "K. Mhlongo", "number": 25, "position": "RB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_016_17", "name": "T. Kakora", "number": 14, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_016_18", "name": "C. Mdevulana", "number": 36, "position": "CAM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_016_19", "name": "M. Ouamri", "number": 13, "position": "LW", "country": "DZ", "status": "bench"},
+    {"playerId": "player_za1_016_20", "name": "J. Zindoga", "number": 21, "position": "RW", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_016_21", "name": "E. Khumalo", "number": 28, "position": "ST", "country": "ZA", "status": "bench"},
+
+    {"playerId": "player_za1_016_22", "name": "K. Bankole", "number": 38, "position": "GK", "country": "NG", "status": "reserve"},
+    {"playerId": "player_za1_016_23", "name": "Paulinho", "number": 20, "position": "ST", "country": "BR", "status": "reserve"},
+    {"playerId": "player_za1_016_24", "name": "S. Nguessan", "number": 29, "position": "LW", "country": "CI", "status": "reserve"},
+    {"playerId": "player_za1_016_25", "name": "T. Tshikweta", "number": 30, "position": "ST", "country": "ZA", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 16,
+    "setPieces": {
+      "penalty": 19,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 10
+    }
   }
 }
