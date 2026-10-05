@@ -1,12 +1,44 @@
-{
-  "teamKey": "Ansar",
-
-  "name": "Al Ansar Football Club",
-
-  "logo": "assets/logos/asia/lebanon/Ansar.png",
-
-  "stadium": {
-    "name": "Beirut Municipal Stadium",
-    "capacity": 18000
+ {
+    "teamKey": "Ansar",
+    "name": "Al Ansar Football Club",
+    "logo": "assets/logos/asia/lebanon/Ansar.png",
+    "manager": {"name": "Dragan Jovanovic", "country": "RS"},
+    "stadium": {"name": "Beirut Municipal Stadium", "capacity": 18000},
+    "players": [
+      {"playerId": "player_lb1_004_01", "name": "Hadi Kanj", "number": 1, "position": "GK", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_004_02", "name": "Mohamad El-Dor", "number": 2, "position": "RB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_004_03", "name": "Nassar Nassar", "number": 3, "position": "CB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_004_04", "name": "Abbas Sharqawi", "number": 4, "position": "CB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_004_05", "name": "Khalil Bader", "number": 5, "position": "LB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_004_06", "name": "Ali Tneich", "number": 6, "position": "CDM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_004_07", "name": "Nader Matar", "number": 7, "position": "CM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_004_08", "name": "Majed Osman", "number": 8, "position": "RW", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_004_09", "name": "Mahdi Zein", "number": 9, "position": "CAM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_004_10", "name": "Hichem Khalfallah", "number": 10, "position": "LW", "country": "TN", "status": "starter"},
+      {"playerId": "player_lb1_004_11", "name": "Elhadji Malick Tall", "number": 11, "position": "ST", "country": "SN", "status": "starter"},
+      {"playerId": "player_lb1_004_12", "name": "William Sanan", "number": 12, "position": "GK", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_004_13", "name": "Maxime Aoun", "number": 13, "position": "CB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_004_14", "name": "Abbas Ballout", "number": 14, "position": "CB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_004_15", "name": "Mohammad Choumer", "number": 15, "position": "RB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_004_16", "name": "Mostafa Kassab", "number": 16, "position": "LB", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_004_17", "name": "Mouhammed-Ali Dhaini", "number": 17, "position": "CDM", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_004_18", "name": "Rafik Mednini", "number": 18, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_lb1_004_19", "name": "Abubakar Jibrin Akuki", "number": 19, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_lb1_004_20", "name": "Samuel Mensah Konney", "number": 20, "position": "ST", "country": "GH", "status": "bench"},
+      {"playerId": "player_lb1_004_21", "name": "Mohammad Hboos", "number": 21, "position": "RW", "country": "PS", "status": "bench"},
+      {"playerId": "player_lb1_004_22", "name": "Nazih Assaad", "number": 22, "position": "GK", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_004_23", "name": "Khaled Al-Hajjar", "number": 23, "position": "LW", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_004_24", "name": "Karim Tarhini", "number": 24, "position": "ST", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_004_25", "name": "Mohammad Al-Massri", "number": 25, "position": "ST", "country": "LB", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 9,
+        "cornerLeft": 10,
+        "cornerRight": 8
+      }
+    }
   }
-}
