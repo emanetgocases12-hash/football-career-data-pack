@@ -1,12 +1,52 @@
-{
-  "teamKey": "Chatto",
+ {
+    "teamKey": "Chatto",
+    "name": "Chattogram City FC",
+    "logo": "assets/logos/asia/bangladesh/Chatto.png",
+    "manager": {
+      "name": "Julio Moreno Rayneld-Franco",
+      "country": "CL"
+    },
+    "stadium": {
+      "name": "Munshiganj Stadium",
+      "capacity": 10000
+    },
+    "players": [
+      {"playerId": "player_bd1_006_01", "name": "Shanto Kumar Ray", "number": 25, "position": "GK", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_006_02", "name": "Shakir Ahmed", "number": 18, "position": "RB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_006_03", "name": "Diwakar Chaudhary", "number": 5, "position": "CB", "country": "NP", "status": "starter"},
+      {"playerId": "player_bd1_006_04", "name": "Kofi Dabanka", "number": 27, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_bd1_006_05", "name": "Sanjay Sardar Sandul Karim", "number": 28, "position": "LB", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_006_06", "name": "Shahidul Islam", "number": 20, "position": "CM", "country": "BD", "status": "starter"},
+      {"playerId": "player_bd1_006_07", "name": "Aashish Sonam", "number": 14, "position": "CM", "country": "NP", "status": "starter"},
+      {"playerId": "player_bd1_006_08", "name": "Mostafa Kahraba", "number": 98, "position": "CAM", "country": "EG", "status": "starter"},
+      {"playerId": "player_bd1_006_09", "name": "Kenta Hara", "number": 7, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_bd1_006_10", "name": "Raphael Onwrebe", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+      {"playerId": "player_bd1_006_11", "name": "Sumon Reza", "number": 19, "position": "LW", "country": "BD", "status": "starter"},
 
-  "name": "Chattogram City FC",
+      {"playerId": "player_bd1_006_12", "name": "Iftiar Farhad", "number": 30, "position": "GK", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_006_13", "name": "Mahbub Alam", "number": 31, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_006_14", "name": "Mohammad Alam", "number": 44, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_006_15", "name": "Nikson Chakma", "number": 4, "position": "CB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_006_16", "name": "Rasel Hossain", "number": 6, "position": "LB", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_006_17", "name": "Asadul Ataul", "number": 45, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_006_18", "name": "Kawshik Barua", "number": 13, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_006_19", "name": "Tonmoy Das", "number": 37, "position": "CM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_006_20", "name": "Radowan Hasan", "number": 47, "position": "RM", "country": "BD", "status": "bench"},
+      {"playerId": "player_bd1_006_21", "name": "Jafar Iqbal", "number": 17, "position": "LW", "country": "BD", "status": "bench"},
 
-  "logo": "assets/logos/asia/bangladesh/Chatto.png",
-
-  "stadium": {
-    "name": "Munshiganj Stadium",
-    "capacity": 10000
+      {"playerId": "player_bd1_006_22", "name": "Sarwar Jahan", "number": 1, "position": "GK", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_006_23", "name": "Mohamed Habib", "number": 50, "position": "ST", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_006_24", "name": "Noman Dipu", "number": 66, "position": "ST", "country": "BD", "status": "reserve"},
+      {"playerId": "player_bd1_006_25", "name": "Mohammed Shadin", "number": 11, "position": "LW", "country": "BD", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 28,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 98,
+        "cornerLeft": 7,
+        "cornerRight": 14
+      }
+    }
   }
-}
