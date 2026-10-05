@@ -1,12 +1,50 @@
-{
-  "teamKey": "Samail",
-
-  "name": "Samail Club",
-
-  "logo": "assets/logos/asia/oman/Samail.png",
-
-  "stadium": {
-    "name": "Nizwa Sports Complex",
-    "capacity": 10000
+ {
+    "teamKey": "Samail",
+    "name": "Samail Club",
+    "logo": "assets/logos/asia/oman/Samail.png",
+    "manager": {
+      "name": "Said Al-Balushi",
+      "country": "OM"
+    },
+    "stadium": {
+      "name": "Nizwa Sports Complex",
+      "capacity": 10000
+    },
+    "players": [
+      {"playerId": "player_om1_010_01", "name": "Alaa Al-Hamdani", "number": 31, "position": "GK", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_010_02", "name": "Ahmed Al-Balushi", "number": 4, "position": "CB", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_010_03", "name": "Mohammed Al-Habsi", "number": 5, "position": "CB", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_010_04", "name": "Said Al-Maawali", "number": 3, "position": "LB", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_010_05", "name": "Khalid Al-Mamari", "number": 2, "position": "RB", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_010_06", "name": "Salim Al-Rawahi", "number": 6, "position": "CDM", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_010_07", "name": "Abdullah Al-Hinai", "number": 8, "position": "CM", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_010_08", "name": "Nasser Al-Riyami", "number": 10, "position": "CAM", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_010_09", "name": "Sulaiman Al-Farsi", "number": 11, "position": "LW", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_010_10", "name": "Yaqoub Al-Aghbari", "number": 7, "position": "RW", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_010_11", "name": "Ahmed Al-Saadi", "number": 9, "position": "ST", "country": "OM", "status": "starter"},
+      {"playerId": "player_om1_010_12", "name": "Al-Khadur Al-Balushi", "number": 30, "position": "GK", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_010_13", "name": "Mohammed Al-Kiyumi", "number": 14, "position": "CB", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_010_14", "name": "Hussain Al-Habsi", "number": 15, "position": "CB", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_010_15", "name": "Ali Al-Busaidi", "number": 16, "position": "RB", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_010_16", "name": "Saeed Al-Mukhaini", "number": 17, "position": "CDM", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_010_17", "name": "Mubarak Al-Yahyaei", "number": 18, "position": "CM", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_010_18", "name": "Khalfan Al-Mamari", "number": 19, "position": "CM", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_010_19", "name": "Amjad Al-Rashdi", "number": 20, "position": "CAM", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_010_20", "name": "Yousef Al-Balushi", "number": 21, "position": "LW", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_010_21", "name": "Nasser Al-Shibli", "number": 22, "position": "ST", "country": "OM", "status": "bench"},
+      {"playerId": "player_om1_010_22", "name": "Salem Al-Jabri", "number": 32, "position": "GK", "country": "OM", "status": "reserve"},
+      {"playerId": "player_om1_010_23", "name": "Zahran Al-Jabri", "number": 1, "position": "GK", "country": "OM", "status": "reserve"},
+      {"playerId": "player_om1_010_24", "name": "Ahmed Al-Farsi", "number": 23, "position": "LW", "country": "OM", "status": "reserve"},
+      {"playerId": "player_om1_010_25", "name": "Mohammed Al-Araimi", "number": 24, "position": "ST", "country": "OM", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 31,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
