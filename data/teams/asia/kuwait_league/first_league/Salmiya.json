@@ -1,12 +1,35 @@
-{
-  "teamKey": "Salmiy",
-
-  "name": "Al-Salmiya Sporting Club",
-
-  "logo": "assets/logos/asia/kuwait/Salmiya.png",
-
-  "stadium": {
-    "name": "Thamir Stadium",
-    "capacity": 16105
+  {
+    "teamKey": "Salmiy",
+    "name": "Al-Salmiya Sporting Club",
+    "logo": "assets/logos/asia/kuwait/Salmiya.png",
+    "manager": {"name": "Ali Ashoor", "country": "BH"},
+    "stadium": {"name": "Thamir Stadium", "capacity": 16105},
+    "players": [
+      {"playerId": "player_kw1_010_01", "name": "Abdulrahman Al-Fadhli", "number": 1, "position": "GK", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_010_02", "name": "Shakhzod Azmiddinov", "number": 2, "position": "RB", "country": "UZ", "status": "starter"},
+      {"playerId": "player_kw1_010_03", "name": "Trésor Yamba", "number": 3, "position": "CB", "country": "CD", "status": "starter"},
+      {"playerId": "player_kw1_010_04", "name": "Pierre Sang Mendy", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_kw1_010_05", "name": "Eissa Waleed", "number": 5, "position": "LB", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_010_06", "name": "Fawaz Ayedh Al-Otaibi", "number": 6, "position": "CDM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_010_07", "name": "Ahmed Awadh", "number": 7, "position": "CM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_010_08", "name": "Badr Jalal", "number": 8, "position": "CAM", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_010_09", "name": "Mahmoud Al-Aswad", "number": 9, "position": "ST", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_010_10", "name": "Abdulla Al-Yusuf", "number": 10, "position": "LW", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_010_11", "name": "Mubarak Al-Faneni", "number": 11, "position": "RW", "country": "KW", "status": "starter"},
+      {"playerId": "player_kw1_010_12", "name": "Yousef Al-Kandari", "number": 12, "position": "GK", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_010_13", "name": "Aqeel Al-Hazeem", "number": 13, "position": "CM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_010_14", "name": "Mohammed Al-Huwaidi", "number": 14, "position": "CB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_010_15", "name": "Bader Jamal", "number": 15, "position": "RB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_010_16", "name": "Mahdi Dashti", "number": 16, "position": "LB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_010_17", "name": "Ahmad Bomaryoum", "number": 17, "position": "CB", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_010_18", "name": "Abdullah Al-Shamali", "number": 18, "position": "RM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_010_19", "name": "Muaath Al-Asaimea", "number": 19, "position": "LM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_010_20", "name": "Abdulmohsen Al-Turkomani", "number": 20, "position": "CDM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_010_21", "name": "Naif Zuwaid", "number": 21, "position": "CAM", "country": "KW", "status": "bench"},
+      {"playerId": "player_kw1_010_22", "name": "Fawaz Al-Dosari", "number": 22, "position": "GK", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_010_23", "name": "Moath Al-Enezi", "number": 23, "position": "ST", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_010_24", "name": "Omar Ali", "number": 24, "position": "LW", "country": "KW", "status": "reserve"},
+      {"playerId": "player_kw1_010_25", "name": "Youssef Al-Enezan", "number": 25, "position": "RW", "country": "KW", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 6, "setPieces": {"penalty": 9, "freeKick": 8, "cornerLeft": 10, "cornerRight": 11}}
   }
-}
