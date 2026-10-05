@@ -1,12 +1,50 @@
-{
-  "teamKey": "Cebu FC",
-
-  "name": "Dynamic Herb Cebu FC",
-
-  "logo": "assets/logos/asia/philippines/Cebu.png",
-
-  "stadium": {
-    "name": "Dynamic Herb Sports Complex",
-    "capacity": 550
+ {
+    "teamKey": "Cebu FC",
+    "name": "Dynamic Herb Cebu FC",
+    "logo": "assets/logos/asia/philippines/Cebu.png",
+    "manager": {
+      "name": "Glenn Ramos",
+      "country": "PH"
+    },
+    "stadium": {
+      "name": "Dynamic Herb Sports Complex",
+      "capacity": 550
+    },
+    "players": [
+      {"playerId": "player_ph1_003_01", "name": "Rami Jeridi", "number": 1, "position": "GK", "country": "TN", "status": "starter"},
+      {"playerId": "player_ph1_003_02", "name": "Roberto Corsame", "number": 20, "position": "RB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_003_03", "name": "Gyles Encabo", "number": 34, "position": "CB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_003_04", "name": "Joshua Dutosme", "number": 4, "position": "CB", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_003_05", "name": "Kennedy Uzoka", "number": 3, "position": "LB", "country": "NG", "status": "starter"},
+      {"playerId": "player_ph1_003_06", "name": "Daniel Gadia", "number": 6, "position": "CDM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_003_07", "name": "Joshua Broce", "number": 41, "position": "CM", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_003_08", "name": "Victor Luis", "number": 36, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_ph1_003_09", "name": "Kazuha Sudo", "number": 35, "position": "LW", "country": "JP", "status": "starter"},
+      {"playerId": "player_ph1_003_10", "name": "Kaito Asano", "number": 10, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_ph1_003_11", "name": "Daisuke Sato", "number": 9, "position": "ST", "country": "PH", "status": "starter"},
+      {"playerId": "player_ph1_003_12", "name": "Joseph Ceniza", "number": 23, "position": "GK", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_003_13", "name": "J. Semblante", "number": 22, "position": "CB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_003_14", "name": "Mark Hartmann", "number": 14, "position": "CM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_003_15", "name": "Marius Kore", "number": 15, "position": "CB", "country": "DE", "status": "bench"},
+      {"playerId": "player_ph1_003_16", "name": "John Lucero", "number": 16, "position": "RB", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_003_17", "name": "Jared Peña", "number": 17, "position": "CM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_003_18", "name": "Jacob Liao", "number": 18, "position": "CM", "country": "PH", "status": "bench"},
+      {"playerId": "player_ph1_003_19", "name": "Yuki Ueda", "number": 19, "position": "CAM", "country": "JP", "status": "bench"},
+      {"playerId": "player_ph1_003_20", "name": "Arda Çinkir", "number": 24, "position": "ST", "country": "TR", "status": "bench"},
+      {"playerId": "player_ph1_003_21", "name": "Bienvenido Marañón", "number": 27, "position": "ST", "country": "ES", "status": "bench"},
+      {"playerId": "player_ph1_003_22", "name": "Paolo Pascual", "number": 30, "position": "GK", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_003_23", "name": "Takashi Odawara", "number": 29, "position": "CDM", "country": "JP", "status": "reserve"},
+      {"playerId": "player_ph1_003_24", "name": "Jhan-Jhan Melliza", "number": 31, "position": "LW", "country": "PH", "status": "reserve"},
+      {"playerId": "player_ph1_003_25", "name": "Miguel Clarino", "number": 32, "position": "CB", "country": "PH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 36,
+        "cornerLeft": 36,
+        "cornerRight": 10
+      }
+    }
   }
-}
