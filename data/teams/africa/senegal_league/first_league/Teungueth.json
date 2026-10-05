@@ -1,12 +1,52 @@
 {
-  "teamKey": "Teungu",
-
-  "name": "Teungueth FC",
-
-  "logo": "assets/logos/africa/senegal/Teungu.png",
-
-  "stadium": {
-    "name": "Stade Ngalandou Diouf",
-    "capacity": 7500
+    "teamKey": "Teungu",
+    "name": "Teungueth FC",
+    "logo": "assets/logos/africa/senegal/Teungu.png",
+    "manager": {
+      "name": "Malick Daf",
+      "country": "SN"
+    },
+    "stadium": {
+      "name": "Stade Ngalandou Diouf",
+      "capacity": 7500
+    },
+    "players": [
+      {"playerId": "player_sn1_015_01", "name": "Pape Dieng", "number": 16, "position": "GK", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_015_02", "name": "Alfred Gomis", "number": 25, "position": "RB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_015_03", "name": "Moustapha Guèye", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_015_04", "name": "Pa Joe Clément Diouf", "number": 6, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_015_05", "name": "Mbaye Ndiaye", "number": 3, "position": "LB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_015_06", "name": "Raphaël Ndong", "number": 8, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_015_07", "name": "Ousmane Thiombane", "number": 47, "position": "CM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_015_08", "name": "Ebrima Seckan", "number": 32, "position": "RW", "country": "GM", "status": "starter"},
+      {"playerId": "player_sn1_015_09", "name": "Pape Seydou Ndione", "number": 10, "position": "CAM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_015_10", "name": "Patrick Basse", "number": 17, "position": "LW", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_015_11", "name": "Mouhamed Ben Diouf", "number": 31, "position": "ST", "country": "SN", "status": "starter"},
+  
+      {"playerId": "player_sn1_015_12", "name": "Gorgui Diop", "number": 1, "position": "GK", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_015_13", "name": "Alassane Ly", "number": 5, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_015_14", "name": "Sydi Loum", "number": 22, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_015_15", "name": "Pa Diouf", "number": 90, "position": "LB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_015_16", "name": "Balla Ba", "number": 2, "position": "LB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_015_17", "name": "Ousmane Ba", "number": 14, "position": "CDM", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_015_18", "name": "Dame Diop", "number": 20, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_015_19", "name": "Mame Biram Diaw", "number": 88, "position": "CAM", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_015_20", "name": "Ibrahima Aïdara", "number": 11, "position": "RW", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_015_21", "name": "Albert Bougazelli", "number": 7, "position": "LW", "country": "SN", "status": "bench"},
+  
+      {"playerId": "player_sn1_015_22", "name": "Pape Gaye", "number": 19, "position": "LW", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_015_23", "name": "Ousseynou Ndiaye", "number": 21, "position": "RW", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_015_24", "name": "Abdoul Aziz Cissé", "number": 70, "position": "ST", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_015_25", "name": "Adama Diarra", "number": 9, "position": "ST", "country": "SN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 16,
+      "setPieces": {
+        "penalty": 31,
+        "freeKick": 32,
+        "cornerLeft": 32,
+        "cornerRight": 17
+      }
+    }
   }
-}
