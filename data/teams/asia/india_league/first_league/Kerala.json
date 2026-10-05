@@ -1,12 +1,52 @@
-{
-  "teamKey": "Kerala",
+ {
+    "teamKey": "Kerala",
+    "name": "Kerala Blasters Football Club",
+    "logo": "assets/logos/asia/india/Kerala.png",
+    "manager": {
+      "name": "Ashley Westwood",
+      "country": "GB-ENG"
+    },
+    "stadium": {
+      "name": "Jawaharlal Nehru International Stadium",
+      "capacity": 39000
+    },
+    "players": [
+      {"playerId": "player_in1_008_01", "name": "Amrinder Singh", "number": 1, "position": "GK", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_008_02", "name": "Sandeep Singh", "number": 3, "position": "RB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_008_03", "name": "Bikash Yumnam", "number": 63, "position": "CB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_008_04", "name": "Aibanbha Dohling", "number": 27, "position": "CB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_008_05", "name": "Naocha Huidrom Singh", "number": 50, "position": "LB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_008_06", "name": "Vibin Mohanan", "number": 8, "position": "CDM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_008_07", "name": "Danish Farooq", "number": 13, "position": "CM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_008_08", "name": "Marlon Roos-Trujillo", "number": 10, "position": "CAM", "country": "DE", "status": "starter"},
+      {"playerId": "player_in1_008_09", "name": "Mohammad Yasir", "number": 23, "position": "RW", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_008_10", "name": "Andre Green", "number": 7, "position": "LW", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_in1_008_11", "name": "Victor Bertomeu", "number": 9, "position": "ST", "country": "ES", "status": "starter"},
 
-  "name": "Kerala Blasters Football Club",
+      {"playerId": "player_in1_008_12", "name": "Sachin Suresh", "number": 31, "position": "GK", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_008_13", "name": "Oumar Bah", "number": 2, "position": "CB", "country": "GN", "status": "bench"},
+      {"playerId": "player_in1_008_14", "name": "Hormipam Ruivah", "number": 4, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_008_15", "name": "Muhammed Saheef", "number": 5, "position": "LB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_008_16", "name": "Freddy Lallawmawma", "number": 6, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_008_17", "name": "Rowllin Borges", "number": 22, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_008_18", "name": "Matías Hernández", "number": 21, "position": "CAM", "country": "ES", "status": "bench"},
+      {"playerId": "player_in1_008_19", "name": "Korou Singh", "number": 11, "position": "RW", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_008_20", "name": "Kevin Yoke", "number": 39, "position": "LW", "country": "FR", "status": "bench"},
+      {"playerId": "player_in1_008_21", "name": "R Lalthanmawia", "number": 97, "position": "ST", "country": "IN", "status": "bench"},
 
-  "logo": "assets/logos/asia/india/Kerala.png",
-
-  "stadium": {
-    "name": "Jawaharlal Nehru International Stadium",
-    "capacity": 39000
+      {"playerId": "player_in1_008_22", "name": "Arsh Anwer Shaikh", "number": 44, "position": "GK", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_008_23", "name": "Jaganath Jayan", "number": 15, "position": "CB", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_008_24", "name": "Taison Singh Loitongbam", "number": 26, "position": "CM", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_008_25", "name": "Ebindas Yesudasan", "number": 47, "position": "RW", "country": "IN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 63,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 23,
+        "cornerRight": 7
+      }
+    }
   }
-}
