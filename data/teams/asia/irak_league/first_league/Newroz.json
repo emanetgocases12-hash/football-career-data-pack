@@ -1,12 +1,52 @@
-{
-  "teamKey": "Newroz",
+ {
+    "teamKey": "Newroz",
+    "name": "Newroz SC",
+    "logo": "assets/logos/asia/irak/Newroz.png",
+    "manager": {
+      "name": "Wali Kareem",
+      "country": "IQ"
+    },
+    "stadium": {
+      "name": "Newroz Stadium",
+      "capacity": 14500
+    },
+    "players": [
+      {"playerId": "player_iq1_016_01", "name": "Ali Kadhim", "number": 1, "position": "GK", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_016_02", "name": "Rastgo Fariq", "number": 2, "position": "RB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_016_03", "name": "Mohammad Dlawer", "number": 4, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_016_04", "name": "Lamin Moro", "number": 5, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_iq1_016_05", "name": "Wael Ben Othman", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
+      {"playerId": "player_iq1_016_06", "name": "Ahmad Mahmoud", "number": 6, "position": "CDM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_016_07", "name": "Sivan Omar", "number": 8, "position": "CM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_016_08", "name": "Shawan Saleh", "number": 7, "position": "RW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_016_09", "name": "Ibrahim Mohammad", "number": 10, "position": "CAM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_016_10", "name": "Claudio Oliveira de Souza", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_iq1_016_11", "name": "Marwan Hussein", "number": 9, "position": "ST", "country": "IQ", "status": "starter"},
 
-  "name": "Newroz SC",
+      {"playerId": "player_iq1_016_12", "name": "Choman Ahmad", "number": 12, "position": "GK", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_016_13", "name": "Mohammad Hussein Zureigat", "number": 14, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_iq1_016_14", "name": "Belal Belmbarak", "number": 15, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_016_15", "name": "Abbas Yas", "number": 16, "position": "RB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_016_16", "name": "Hawri Anwar", "number": 17, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_016_17", "name": "Ali Saleh", "number": 18, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_016_18", "name": "Ashur Wissam", "number": 20, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_016_19", "name": "Dana Mustafa", "number": 21, "position": "LW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_016_20", "name": "Diyar Ali", "number": 22, "position": "ST", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_016_21", "name": "Aso Rustom", "number": 19, "position": "ST", "country": "IQ", "status": "bench"},
 
-  "logo": "assets/logos/asia/irak/Newroz.png",
-
-  "stadium": {
-    "name": "Newroz Stadium",
-    "capacity": 14500
+      {"playerId": "player_iq1_016_22", "name": "Abdulkareem Jassam", "number": 23, "position": "GK", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_016_23", "name": "Mortada Hodib", "number": 24, "position": "CAM", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_016_24", "name": "Abdullah Wasfi", "number": 25, "position": "ST", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_016_25", "name": "Ahmad Saeed", "number": 27, "position": "RW", "country": "IQ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
