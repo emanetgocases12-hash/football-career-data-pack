@@ -1,12 +1,52 @@
 {
-  "teamKey": "Melbo V",
+    "teamKey": "Melbo V",
+    "name": "Melbourne Victory",
+    "logo": "assets/logos/asia/australia/Victory.png",
+    "manager": {
+      "name": "Giovanni Savarese",
+      "country": "VE"
+    },
+    "stadium": {
+      "name": "AAMI Park",
+      "capacity": 30050
+    },
+    "players": [
+      {"playerId": "player_au1_008_01", "name": "Jack Warshawsky", "number": 40, "position": "GK", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_008_02", "name": "Harry Shillington", "number": 3, "position": "RB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_008_03", "name": "Tom Lockyer", "number": 4, "position": "CB", "country": "GB-WLS", "status": "starter"},
+      {"playerId": "player_au1_008_04", "name": "Philipp Ziereis", "number": 6, "position": "CB", "country": "DE", "status": "starter"},
+      {"playerId": "player_au1_008_05", "name": "Jason Davidson", "number": 2, "position": "LB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_008_06", "name": "Louis D'Arrigo", "number": 27, "position": "CDM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_008_07", "name": "Jordi Valadon", "number": 8, "position": "CM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_008_08", "name": "Clerismario Santos Rodrigues", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_au1_008_09", "name": "Denis Genreau", "number": 10, "position": "CAM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_008_10", "name": "Matthew Grimaldi", "number": 14, "position": "LW", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_008_11", "name": "Guillermo May", "number": 19, "position": "ST", "country": "UY", "status": "starter"},
 
-  "name": "Melbourne Victory",
+      {"playerId": "player_au1_008_12", "name": "Jack Duncan", "number": 25, "position": "GK", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_008_13", "name": "Brendan Hamill", "number": 5, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_008_14", "name": "Joshua Inserra", "number": 16, "position": "RB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_008_15", "name": "Franco Lino", "number": 18, "position": "LB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_008_16", "name": "Keegan Jelacic", "number": 23, "position": "CAM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_008_17", "name": "Xavier Stella", "number": 34, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_008_18", "name": "Mikey Ghossaini", "number": 9, "position": "ST", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_008_19", "name": "Charles Nduka", "number": 44, "position": "ST", "country": "JP", "status": "bench"},
+      {"playerId": "player_au1_008_20", "name": "Harrison Sawyer", "number": 17, "position": "ST", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_008_21", "name": "Malik Olukhale", "number": 21, "position": "RW", "country": "AU", "status": "bench"},
 
-  "logo": "assets/logos/asia/australia/Victory.png",
-
-  "stadium": {
-    "name": "AAMI Park",
-    "capacity": 30050
+      {"playerId": "player_au1_008_22", "name": "Daniel Graskoski", "number": 30, "position": "GK", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_008_23", "name": "Oliver Dragicevic", "number": 29, "position": "CM", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_008_24", "name": "William Kengni", "number": 32, "position": "LB", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_008_25", "name": "Jack Mihailidis", "number": 33, "position": "CAM", "country": "AU", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 19,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
