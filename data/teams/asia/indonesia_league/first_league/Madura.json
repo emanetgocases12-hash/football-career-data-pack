@@ -1,12 +1,58 @@
 {
-  "teamKey": "Madura",
+    "teamKey": "Madura",
 
-  "name": "Madura United FC",
+    "name": "Madura United FC",
 
-  "logo": "assets/logos/asia/indonesia/Madura.png",
+    "logo": "assets/logos/asia/indonesia/Madura.png",
 
-  "stadium": {
-    "name": "Gelora Ratu Pamelingan Stadium",
-    "capacity": 7000
+    "manager": {
+      "name": "Jose Manuel Gomes da Silva",
+      "country": "PT"
+    },
+
+    "stadium": {
+      "name": "Gelora Ratu Pamelingan Stadium",
+      "capacity": 7000
+    },
+
+    "players": [
+      { "playerId": "player_id1_009_01", "name": "Angga Saputro", "number": 1, "position": "GK", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_009_02", "name": "Dede Sapari", "number": 29, "position": "RB", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_009_03", "name": "Pedro Monteiro", "number": 3, "position": "CB", "country": "PT", "status": "starter" },
+      { "playerId": "player_id1_009_04", "name": "Jorge Ambrosio Mendonca", "number": 95, "position": "CB", "country": "BR", "status": "starter" },
+      { "playerId": "player_id1_009_05", "name": "Ardi Idrus", "number": 33, "position": "LB", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_009_06", "name": "Jordy Wehrmann", "number": 4, "position": "CDM", "country": "NL", "status": "starter" },
+      { "playerId": "player_id1_009_07", "name": "Danilo Santacruz", "number": 8, "position": "CM", "country": "PY", "status": "starter" },
+      { "playerId": "player_id1_009_08", "name": "Gali Freitas", "number": 21, "position": "RW", "country": "TL", "status": "starter" },
+      { "playerId": "player_id1_009_09", "name": "Jaja", "number": 23, "position": "CAM", "country": "BR", "status": "starter" },
+      { "playerId": "player_id1_009_10", "name": "Iran Junior", "number": 10, "position": "LW", "country": "BR", "status": "starter" },
+      { "playerId": "player_id1_009_11", "name": "Dimitar Mitkov", "number": 9, "position": "ST", "country": "BG", "status": "starter" },
+
+      { "playerId": "player_id1_009_12", "name": "Aditya Harlan", "number": 26, "position": "GK", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_009_13", "name": "Brandon Scheunemann", "number": 16, "position": "CB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_009_14", "name": "Giovani Numberi", "number": 15, "position": "RB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_009_15", "name": "Mario Yagalo", "number": 28, "position": "CB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_009_16", "name": "Taufany Muslihuddin", "number": 24, "position": "CM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_009_17", "name": "Paulo Sitanggang", "number": 17, "position": "CM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_009_18", "name": "Lulinha", "number": 11, "position": "CAM", "country": "BR", "status": "bench" },
+      { "playerId": "player_id1_009_19", "name": "Riski Afrisal", "number": 25, "position": "LW", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_009_20", "name": "Balotelli", "number": 77, "position": "ST", "country": "GW", "status": "bench" },
+      { "playerId": "player_id1_009_21", "name": "Aji Kusuma", "number": 99, "position": "ST", "country": "ID", "status": "bench" },
+
+      { "playerId": "player_id1_009_22", "name": "Diky Indriyana", "number": 20, "position": "GK", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_009_23", "name": "Ahmad Rusadi", "number": 68, "position": "CB", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_009_24", "name": "Feby Ramzy Wirawan", "number": 42, "position": "CM", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_009_25", "name": "Rifqi Ray", "number": 78, "position": "RW", "country": "ID", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 23,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 23,
+        "cornerLeft": 10,
+        "cornerRight": 21
+      }
+    }
   }
-}
