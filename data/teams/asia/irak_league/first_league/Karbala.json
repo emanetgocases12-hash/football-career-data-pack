@@ -1,12 +1,52 @@
-{
-  "teamKey": "Karbal",
+ {
+    "teamKey": "Karbal",
+    "name": "Karbala SC",
+    "logo": "assets/logos/asia/irak/Karbala.png",
+    "manager": {
+      "name": "Ali Wahab",
+      "country": "IQ"
+    },
+    "stadium": {
+      "name": "Karbala International Stadium",
+      "capacity": 30000
+    },
+    "players": [
+      {"playerId": "player_iq1_010_01", "name": "Abdullah Faisal", "number": 1, "position": "GK", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_010_02", "name": "Mustafa Saadoon", "number": 2, "position": "RB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_010_03", "name": "Ali Hussein", "number": 4, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_010_04", "name": "Godfred Agyemang Yeboah", "number": 5, "position": "CB", "country": "GH", "status": "starter"},
+      {"playerId": "player_iq1_010_05", "name": "Ahmed Yahya", "number": 3, "position": "LB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_010_06", "name": "Hussein Ammar", "number": 6, "position": "CDM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_010_07", "name": "Mohammed Mezher", "number": 8, "position": "CM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_010_08", "name": "Ahmed Sabri", "number": 7, "position": "RW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_010_09", "name": "Ali Qasim", "number": 10, "position": "CAM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_010_10", "name": "Haidar Abdulrahim", "number": 11, "position": "LW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_010_11", "name": "Mohannad Abdulraheem", "number": 9, "position": "ST", "country": "IQ", "status": "starter"},
 
-  "name": "Karbala SC",
+      {"playerId": "player_iq1_010_12", "name": "Waleed Khalid", "number": 12, "position": "GK", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_010_13", "name": "Sajad Jassim", "number": 14, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_010_14", "name": "Mustafa Nadhim", "number": 15, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_010_15", "name": "Hassan Raed", "number": 16, "position": "RB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_010_16", "name": "Ali Noori", "number": 17, "position": "LB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_010_17", "name": "Karrar Nabeel", "number": 18, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_010_18", "name": "Zaid Ismail", "number": 20, "position": "CDM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_010_19", "name": "Ammar Dakhel", "number": 21, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_010_20", "name": "Hussein Younis", "number": 22, "position": "RW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_010_21", "name": "Ali Yousif", "number": 19, "position": "ST", "country": "IQ", "status": "bench"},
 
-  "logo": "assets/logos/asia/irak/Karbala.png",
-
-  "stadium": {
-    "name": "Karbala International Stadium",
-    "capacity": 30000
+      {"playerId": "player_iq1_010_22", "name": "Mohammed Kareem", "number": 23, "position": "GK", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_010_23", "name": "Haidar Ali", "number": 24, "position": "CB", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_010_24", "name": "Mustafa Qassim", "number": 25, "position": "CM", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_010_25", "name": "Saif Rasheed", "number": 27, "position": "ST", "country": "IQ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
