@@ -1,12 +1,35 @@
-{
-  "teamKey": "Wehdat",
-
-  "name": "Al Wehdat",
-
-  "logo": "assets/logos/asia/jordan/Wehdat.png",
-
-  "stadium": {
-    "name": "King Abdullah II Stadium",
-    "capacity": 14000
+ {
+    "teamKey": "Wehdat",
+    "name": "Al Wehdat",
+    "logo": "assets/logos/asia/jordan/Wehdat.png",
+    "manager": {"name": "Emad El-Nahhas", "country": "EG"},
+    "stadium": {"name": "King Abdullah II Stadium", "capacity": 14000},
+    "players": [
+      {"playerId": "player_jo1_010_01", "name": "Mohammed Al-Emwase", "number": 12, "position": "GK", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_010_02", "name": "Feras Shelbaieh", "number": 16, "position": "RB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_010_03", "name": "Arafat Al-Haj", "number": 2, "position": "CB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_010_04", "name": "Mostafa Moawad", "number": 47, "position": "CB", "country": "EG", "status": "starter"},
+      {"playerId": "player_jo1_010_05", "name": "Mustafa Kamal", "number": 21, "position": "LB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_010_06", "name": "Saleh Ratib", "number": 10, "position": "CM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_010_07", "name": "Ahmed Thaer Dawood", "number": 23, "position": "CDM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_010_08", "name": "Anas Al-Awadat", "number": 15, "position": "RW", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_010_09", "name": "Ahmad Sabrah", "number": 18, "position": "CAM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_010_10", "name": "Muhannad Samreen", "number": 11, "position": "LW", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_010_11", "name": "Benjamin Okoronkwo", "number": 20, "position": "ST", "country": "NG", "status": "starter"},
+      {"playerId": "player_jo1_010_12", "name": "Ahmad Erbash", "number": 1, "position": "GK", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_010_13", "name": "Ayham Al-Samamreh", "number": 3, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_010_14", "name": "Danial Afaneh", "number": 4, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_010_15", "name": "Omar Hasanain", "number": 5, "position": "CB", "country": "PS", "status": "bench"},
+      {"playerId": "player_jo1_010_16", "name": "Shoqi Al-Quz’a", "number": 22, "position": "RB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_010_17", "name": "Nouraldain Yaseen", "number": 24, "position": "LB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_010_18", "name": "Mahmoud Shawkat", "number": 8, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_010_19", "name": "Omar Al Azazmeh", "number": 7, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_010_20", "name": "Mohammad Salah Al Osad", "number": 19, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_010_21", "name": "Mohammed Al Mawaly", "number": 9, "position": "RW", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_010_22", "name": "Mohammad Al-Tarayreh", "number": 33, "position": "GK", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_010_23", "name": "Sherwin Seedorf", "number": 17, "position": "LW", "country": "NL", "status": "reserve"},
+      {"playerId": "player_jo1_010_24", "name": "Karam Abu Shaban", "number": 26, "position": "ST", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_010_25", "name": "Baker Kalbouneh", "number": 90, "position": "ST", "country": "JO", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 10, "setPieces": {"penalty": 20, "freeKick": 10, "cornerLeft": 15, "cornerRight": 18}}
   }
-}
