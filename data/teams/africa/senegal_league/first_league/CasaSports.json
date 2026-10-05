@@ -1,12 +1,52 @@
 {
-  "teamKey": "Casa",
-
-  "name": "Casa Sports",
-
-  "logo": "assets/logos/africa/senegal/Casa.png",
-
-  "stadium": {
-    "name": "Stade Aline Sitoé Diatta",
-    "capacity": 10000
+    "teamKey": "Casa",
+    "name": "Casa Sports",
+    "logo": "assets/logos/africa/senegal/Casa.png",
+    "manager": {
+      "name": "Balla Djiba",
+      "country": "SN"
+    },
+    "stadium": {
+      "name": "Stade Aline Sitoé Diatta",
+      "capacity": 10000
+    },
+    "players": [
+      {"playerId": "player_sn1_003_01", "name": "Moustapha Diatta", "number": 1, "position": "GK", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_003_02", "name": "Woula Sané", "number": 12, "position": "RB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_003_03", "name": "Léon Ndong", "number": 3, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_003_04", "name": "Leopold Badji", "number": 6, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_003_05", "name": "Elhadji Badji", "number": 19, "position": "LB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_003_06", "name": "Khalifa Ba", "number": 4, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_003_07", "name": "Mamadou Mané", "number": 14, "position": "CM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_003_08", "name": "Pape Sané", "number": 7, "position": "RW", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_003_09", "name": "Malick Sambou", "number": 15, "position": "CAM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_003_10", "name": "Aliou Diémé", "number": 11, "position": "LW", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_003_11", "name": "Boubacar Coly", "number": 9, "position": "ST", "country": "SN", "status": "starter"},
+  
+      {"playerId": "player_sn1_003_12", "name": "Alfred Gomis", "number": 30, "position": "GK", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_003_13", "name": "Daouda Signaté", "number": 93, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_003_14", "name": "Seydou Bodian", "number": 18, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_003_15", "name": "Omar Diouf", "number": 2, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_003_16", "name": "Mamadou Coly", "number": 27, "position": "LB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_003_17", "name": "Waly Kamara", "number": 22, "position": "RB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_003_18", "name": "Landing Diatta", "number": 44, "position": "CDM", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_003_19", "name": "Ibrahima Kouyaté", "number": 13, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_003_20", "name": "Abdou Sylla", "number": 21, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_003_21", "name": "Mouhamed Seck", "number": 77, "position": "ST", "country": "SN", "status": "bench"},
+  
+      {"playerId": "player_sn1_003_22", "name": "Pierre Lopy", "number": 5, "position": "LB", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_003_23", "name": "Pascal Napel", "number": 17, "position": "RB", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_003_24", "name": "Yaya Sané", "number": 20, "position": "CDM", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_003_25", "name": "Sulayman Faal", "number": 25, "position": "ST", "country": "GM", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
