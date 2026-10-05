@@ -1,12 +1,52 @@
 {
-  "teamKey": "Adelai",
+    "teamKey": "Adelai",
+    "name": "Adelaide United",
+    "logo": "assets/logos/asia/australia/Adelaide.png",
+    "manager": {
+      "name": "Airton Andrioli",
+      "country": "BR"
+    },
+    "stadium": {
+      "name": "Coopers Stadium",
+      "capacity": 16500
+    },
+    "players": [
+      {"playerId": "player_au1_001_01", "name": "Joshua Smits", "number": 22, "position": "GK", "country": "NL", "status": "starter"},
+      {"playerId": "player_au1_001_02", "name": "Dylan Pierias", "number": 20, "position": "RB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_001_03", "name": "Bart Vriends", "number": 3, "position": "CB", "country": "NL", "status": "starter"},
+      {"playerId": "player_au1_001_04", "name": "Panagiotis Kikianis", "number": 4, "position": "CB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_001_05", "name": "Ryan Kitto", "number": 7, "position": "LB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_001_06", "name": "Ethan Alagich", "number": 55, "position": "CDM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_001_07", "name": "Jonny Yull", "number": 12, "position": "CM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_001_08", "name": "Ben Folami", "number": 17, "position": "RW", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_001_09", "name": "Juan Muñiz", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_au1_001_10", "name": "Craig Goodwin", "number": 11, "position": "LW", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_001_11", "name": "Ajak Riak", "number": 99, "position": "ST", "country": "AU", "status": "starter"},
 
-  "name": "Adelaide United",
+      {"playerId": "player_au1_001_12", "name": "Max Vartuli", "number": 13, "position": "GK", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_001_13", "name": "Sotirios Phillis", "number": 52, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_001_14", "name": "Vinko Stanisic", "number": 71, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_001_15", "name": "Israel Mbula-Monga", "number": 15, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_001_16", "name": "Jay Barnett", "number": 14, "position": "CDM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_001_17", "name": "Luke Duzel", "number": 23, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_001_18", "name": "Ryan White", "number": 44, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_001_19", "name": "Anselmo de Moraes", "number": 87, "position": "CAM", "country": "BR", "status": "bench"},
+      {"playerId": "player_au1_001_20", "name": "Jacob Brazete", "number": 21, "position": "RW", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_001_21", "name": "Mitchell Smith", "number": 27, "position": "ST", "country": "AU", "status": "bench"},
 
-  "logo": "assets/logos/asia/australia/Adelaide.png",
-
-  "stadium": {
-    "name": "Coopers Stadium",
-    "capacity": 16500
+      {"playerId": "player_au1_001_22", "name": "Ethan Cox", "number": 40, "position": "GK", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_001_23", "name": "Fabian Talladira", "number": 62, "position": "CM", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_001_24", "name": "Jake Najdovski", "number": 18, "position": "ST", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_001_25", "name": "Amlani Tatu", "number": 74, "position": "LW", "country": "AU", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 11,
+      "setPieces": {
+        "penalty": 99,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
