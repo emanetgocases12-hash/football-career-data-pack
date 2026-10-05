@@ -1,12 +1,58 @@
 {
-  "teamKey": "Persis",
+    "teamKey": "Persis",
 
-  "name": "Persis Solo",
+    "name": "Persis Solo",
 
-  "logo": "assets/logos/asia/indonesia/Persis.png",
+    "logo": "assets/logos/asia/indonesia/Persis.png",
 
-  "stadium": {
-    "name": "Manahan Stadium",
-    "capacity": 20000
+    "manager": {
+      "name": "Ricky Nelson",
+      "country": "ID"
+    },
+
+    "stadium": {
+      "name": "Manahan Stadium",
+      "capacity": 20000
+    },
+
+    "players": [
+      { "playerId": "player_id1_015_01", "name": "Teguh Amiruddin", "number": 1, "position": "GK", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_015_02", "name": "Eky Taufik", "number": 30, "position": "RB", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_015_03", "name": "Slavko Damjanovic", "number": 4, "position": "CB", "country": "ME", "status": "starter" },
+      { "playerId": "player_id1_015_04", "name": "Kadek Raditya", "number": 5, "position": "CB", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_015_05", "name": "Novan Sasongko", "number": 22, "position": "LB", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_015_06", "name": "Asep Berlian", "number": 6, "position": "CDM", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_015_07", "name": "Samuel Balinsa", "number": 14, "position": "CM", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_015_08", "name": "Terens Puhiri", "number": 7, "position": "RW", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_015_09", "name": "Wbeymar Angulo", "number": 8, "position": "CAM", "country": "AM", "status": "starter" },
+      { "playerId": "player_id1_015_10", "name": "Feby Eka", "number": 11, "position": "LW", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_015_11", "name": "Henry Doumbia", "number": 9, "position": "ST", "country": "CI", "status": "starter" },
+
+      { "playerId": "player_id1_015_12", "name": "Rizky Maulana", "number": 23, "position": "GK", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_015_13", "name": "Riswan Lauhin", "number": 15, "position": "CB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_015_14", "name": "Hasim Kipuw", "number": 16, "position": "CB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_015_15", "name": "Oliver Leeming", "number": 2, "position": "RB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_015_16", "name": "Daffa Habibullah", "number": 12, "position": "LB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_015_17", "name": "Rizky Nasution", "number": 18, "position": "CM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_015_18", "name": "Fandi Ahmad", "number": 20, "position": "CM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_015_19", "name": "Irsyad Maulana", "number": 10, "position": "LW", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_015_20", "name": "Andy Harjito", "number": 21, "position": "ST", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_015_21", "name": "Saldi Amiruddin", "number": 19, "position": "RW", "country": "ID", "status": "bench" },
+
+      { "playerId": "player_id1_015_22", "name": "Risnanda Rafa", "number": 31, "position": "GK", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_015_23", "name": "Alkelvin Baghi", "number": 24, "position": "CM", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_015_24", "name": "Oktafianus Fernando", "number": 27, "position": "RW", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_015_25", "name": "Theodore Leeming", "number": 28, "position": "ST", "country": "ID", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
