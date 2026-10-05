@@ -1,12 +1,52 @@
 {
-  "teamKey": "Perth G",
+    "teamKey": "Perth G",
+    "name": "Perth Glory",
+    "logo": "assets/logos/asia/australia/Glory.png",
+    "manager": {
+      "name": "Adam Griffiths",
+      "country": "AU"
+    },
+    "stadium": {
+      "name": "HBF Park",
+      "capacity": 20500
+    },
+    "players": [
+      {"playerId": "player_au1_009_01", "name": "Matt Sutton", "number": 1, "position": "GK", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_009_02", "name": "Charbel Shamoon", "number": 2, "position": "RB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_au1_009_03", "name": "Brian Kaltak", "number": 45, "position": "CB", "country": "VU", "status": "starter"},
+      {"playerId": "player_au1_009_04", "name": "Lachlan Jackson", "number": 5, "position": "CB", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_009_05", "name": "Sam Sutton", "number": 3, "position": "LB", "country": "NZ", "status": "starter"},
+      {"playerId": "player_au1_009_06", "name": "Brandon O'Neill", "number": 6, "position": "CDM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_009_07", "name": "Lucas Scicluna", "number": 16, "position": "CM", "country": "MT", "status": "starter"},
+      {"playerId": "player_au1_009_08", "name": "Stefan Colakovski", "number": 7, "position": "RW", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_009_09", "name": "Henry Hore", "number": 13, "position": "CAM", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_009_10", "name": "Sebastian Despotovski", "number": 25, "position": "LW", "country": "AU", "status": "starter"},
+      {"playerId": "player_au1_009_11", "name": "Jaiden Kucharski", "number": 9, "position": "ST", "country": "AU", "status": "starter"},
 
-  "name": "Perth Glory",
+      {"playerId": "player_au1_009_12", "name": "Daniel Solsky", "number": 29, "position": "GK", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_009_13", "name": "Tadi Kuzamba", "number": 30, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_009_14", "name": "Riley Foxe", "number": 44, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_009_15", "name": "Matt Dench", "number": 12, "position": "CB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_009_16", "name": "Cher Deng", "number": 18, "position": "LB", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_009_17", "name": "Trent Ostler", "number": 20, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_009_18", "name": "William Freney", "number": 27, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_009_19", "name": "Calem Nieuwenhof", "number": 8, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_au1_009_20", "name": "Matt Ellis", "number": 21, "position": "RW", "country": "NZ", "status": "bench"},
+      {"playerId": "player_au1_009_21", "name": "Pieter Jacobsz", "number": 17, "position": "ST", "country": "AU", "status": "bench"},
 
-  "logo": "assets/logos/asia/australia/Glory.png",
-
-  "stadium": {
-    "name": "HBF Park",
-    "capacity": 20500
+      {"playerId": "player_au1_009_22", "name": "Ryan Warner", "number": 40, "position": "GK", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_009_23", "name": "Anthony Didulica", "number": 23, "position": "CM", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_009_24", "name": "Tom Lawrence", "number": 34, "position": "ST", "country": "AU", "status": "reserve"},
+      {"playerId": "player_au1_009_25", "name": "Sebastian Kukucka", "number": 11, "position": "LW", "country": "AU", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 13,
+        "cornerLeft": 7,
+        "cornerRight": 13
+      }
+    }
   }
-}
