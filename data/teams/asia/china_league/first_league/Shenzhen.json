@@ -1,12 +1,44 @@
-{
-  "teamKey": "Shenzh",
-
-  "name": "Shenzhen Peng City FC",
-
-  "logo": "assets/logos/asia/china/Shenzhen.png",
-
-  "stadium": {
-    "name": "Shenzhen Sports Center Stadium",
-    "capacity": 45000
+ {
+    "teamKey": "Shenzh",
+    "name": "Shenzhen Peng City FC",
+    "logo": "assets/logos/asia/china/Shenzhen.png",
+    "manager": {"name": "Robbie Neilson", "country": "GB-SCT"},
+    "stadium": {"name": "Shenzhen Sports Center Stadium", "capacity": 45000},
+    "players": [
+      {"playerId": "player_cn1_010_01", "name": "Peng Peng", "number": 13, "position": "GK", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_010_02", "name": "Tian Yifan", "number": 2, "position": "RB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_010_03", "name": "Gabriel Xavier", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_010_04", "name": "Filip Benković", "number": 32, "position": "CB", "country": "HR", "status": "starter"},
+      {"playerId": "player_cn1_010_05", "name": "Jiang Zhipeng", "number": 4, "position": "LB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_010_06", "name": "Eden Karzev", "number": 36, "position": "CDM", "country": "IL", "status": "starter"},
+      {"playerId": "player_cn1_010_07", "name": "Tim Chow", "number": 8, "position": "CM", "country": "TW", "status": "starter"},
+      {"playerId": "player_cn1_010_08", "name": "Deabeas Owusu-Sekyere", "number": 31, "position": "RW", "country": "NL", "status": "starter"},
+      {"playerId": "player_cn1_010_09", "name": "Dai Wai-Tsun", "number": 10, "position": "CAM", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_010_10", "name": "Albion Ademi", "number": 11, "position": "LW", "country": "AL", "status": "starter"},
+      {"playerId": "player_cn1_010_11", "name": "Wesley Moraes", "number": 7, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_010_12", "name": "Ji Jiabao", "number": 1, "position": "GK", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_010_13", "name": "Hu Ruibao", "number": 5, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_010_14", "name": "Yang Yiming", "number": 23, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_010_15", "name": "Xuan Zhijian", "number": 20, "position": "LB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_010_16", "name": "Zhang Xiaobin", "number": 12, "position": "CDM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_010_17", "name": "Yao Junsheng", "number": 6, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_010_18", "name": "Li Long", "number": 14, "position": "CAM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_010_19", "name": "Nan Song", "number": 21, "position": "CAM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_010_20", "name": "Shahzat Ghojaehmet", "number": 34, "position": "ST", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_010_21", "name": "Xia Dalong", "number": 29, "position": "ST", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_010_22", "name": "Wei Minzhe", "number": 35, "position": "GK", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_010_23", "name": "Yu Rui", "number": 15, "position": "CB", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_010_24", "name": "Shen Huanming", "number": 46, "position": "CB", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_010_25", "name": "Yao Junyi", "number": 54, "position": "ST", "country": "CN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 7,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 31
+      }
+    }
   }
-}
