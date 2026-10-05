@@ -1,12 +1,44 @@
 {
-  "teamKey": "Liaoni",
-
-  "name": "Liaoning Tieren FC",
-
-  "logo": "assets/logos/asia/china/Liaoning.png",
-
-  "stadium": {
-    "name": "Tiexi Stadium",
-    "capacity": 40000
+    "teamKey": "Liaoni",
+    "name": "Liaoning Tieren FC",
+    "logo": "assets/logos/asia/china/Liaoning.png",
+    "manager": {"name": "Seo Jung-won", "country": "KR"},
+    "stadium": {"name": "Tiexi Stadium", "capacity": 40000},
+    "players": [
+      {"playerId": "player_cn1_005_01", "name": "Han Rongze", "number": 21, "position": "GK", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_005_02", "name": "Pan Ximing", "number": 3, "position": "RB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_005_03", "name": "Felipe Ferreira", "number": 15, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_cn1_005_04", "name": "Yuan Mincheng", "number": 26, "position": "CB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_005_05", "name": "Xu Dong", "number": 28, "position": "LB", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_005_06", "name": "Tian Yinong", "number": 33, "position": "CDM", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_005_07", "name": "Yan Dinghao", "number": 8, "position": "CM", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_005_08", "name": "Kouame Ange", "number": 7, "position": "RW", "country": "TW", "status": "starter"},
+      {"playerId": "player_cn1_005_09", "name": "Takahiro Kunimoto", "number": 10, "position": "CAM", "country": "JP", "status": "starter"},
+      {"playerId": "player_cn1_005_10", "name": "Zang Yifeng", "number": 14, "position": "LW", "country": "CN", "status": "starter"},
+      {"playerId": "player_cn1_005_11", "name": "Guy Mbenza", "number": 9, "position": "ST", "country": "CG", "status": "starter"},
+      {"playerId": "player_cn1_005_12", "name": "Zhang Yan", "number": 29, "position": "GK", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_005_13", "name": "Li Peng", "number": 5, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_005_14", "name": "Dilmurat Mawlanyaz", "number": 6, "position": "RB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_005_15", "name": "Gao Jiarun", "number": 27, "position": "CB", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_005_16", "name": "Li Tixiang", "number": 18, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_005_17", "name": "Zheng Zhiyun", "number": 41, "position": "CM", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_005_18", "name": "Liu Guobo", "number": 22, "position": "RW", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_005_19", "name": "Jefferson Ruan Jeffinho", "number": 47, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_cn1_005_20", "name": "Lei Yongchi", "number": 13, "position": "ST", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_005_21", "name": "Tian Yuda", "number": 17, "position": "ST", "country": "CN", "status": "bench"},
+      {"playerId": "player_cn1_005_22", "name": "Kudirat Ablet", "number": 1, "position": "GK", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_005_23", "name": "Chen Binbin", "number": 11, "position": "LM", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_005_24", "name": "Li Haoran", "number": 35, "position": "CB", "country": "CN", "status": "reserve"},
+      {"playerId": "player_cn1_005_25", "name": "Mao Kaiyu", "number": 32, "position": "CB", "country": "CN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 14,
+        "cornerRight": 7
+      }
+    }
   }
-}
