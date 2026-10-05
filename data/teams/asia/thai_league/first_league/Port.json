@@ -1,12 +1,50 @@
-{
-  "teamKey": "Port",
-
-  "name": "Port FC",
-
-  "logo": "assets/logos/asia/tailand/Port.png",
-
-  "stadium": {
-    "name": "PAT Stadium",
-    "capacity": 6250
+ {
+    "teamKey": "Port",
+    "name": "Port FC",
+    "logo": "assets/logos/asia/tailand/Port.png",
+    "manager": {
+      "name": "Alexandre Gama",
+      "country": "BR"
+    },
+    "stadium": {
+      "name": "PAT Stadium",
+      "capacity": 6250
+    },
+    "players": [
+      {"playerId": "player_th1_009_01", "name": "Somporn Yos", "number": 1, "position": "GK", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_009_02", "name": "Suphanan Bureerat", "number": 4, "position": "RB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_009_03", "name": "Frans Putros", "number": 5, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_th1_009_04", "name": "Chalermsak Aukkee", "number": 6, "position": "CB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_009_05", "name": "Kevin Deeromram", "number": 23, "position": "LB", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_009_06", "name": "Tanaboon Kesarat", "number": 8, "position": "CDM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_009_07", "name": "Worachit Kanitsribampen", "number": 10, "position": "CM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_009_08", "name": "Peeradol Chamrasamee", "number": 44, "position": "CM", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_009_09", "name": "Pathompol Charoenrattanapirom", "number": 18, "position": "RW", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_009_10", "name": "Bordin Phala", "number": 7, "position": "LW", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_009_11", "name": "Teerasak Poeiphimai", "number": 14, "position": "ST", "country": "TH", "status": "starter"},
+      {"playerId": "player_th1_009_12", "name": "Barros Tardeli", "number": 37, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_th1_009_13", "name": "Michael Falkesgaard", "number": 93, "position": "GK", "country": "PH", "status": "bench"},
+      {"playerId": "player_th1_009_14", "name": "Sarawut Konglap", "number": 35, "position": "GK", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_009_15", "name": "Isaac Honny", "number": 34, "position": "CB", "country": "GH", "status": "bench"},
+      {"playerId": "player_th1_009_16", "name": "Asnawi Mangkualam", "number": 2, "position": "RB", "country": "ID", "status": "bench"},
+      {"playerId": "player_th1_009_17", "name": "Theerathon Bunmathan", "number": 3, "position": "LB", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_009_18", "name": "Ben Davis", "number": 17, "position": "CAM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_009_19", "name": "Jaroensak Wonggorn", "number": 11, "position": "RW", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_009_20", "name": "Hamilton Soares", "number": 25, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_th1_009_21", "name": "Nelson Bonilla", "number": 9, "position": "ST", "country": "SV", "status": "bench"},
+      {"playerId": "player_th1_009_22", "name": "Tanapat Hongkhiao", "number": 30, "position": "CAM", "country": "TH", "status": "bench"},
+      {"playerId": "player_th1_009_23", "name": "Wisarut Imura", "number": 16, "position": "CDM", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_009_24", "name": "Kanin Ketkaew", "number": 29, "position": "GK", "country": "TH", "status": "reserve"},
+      {"playerId": "player_th1_009_25", "name": "Nattawut Sombatyotha", "number": 77, "position": "LW", "country": "TH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 14,
+        "freeKick": 18,
+        "cornerLeft": 18,
+        "cornerRight": 7
+      }
+    }
   }
-}
