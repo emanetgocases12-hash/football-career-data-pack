@@ -1,12 +1,44 @@
-{
-  "teamKey": "Gamba",
-
-  "name": "Gamba Osaka",
-
-  "logo": "assets/logos/asia/japan/Gamba.png",
-
-  "stadium": {
-    "name": "Panasonic Stadium Suita",
-    "capacity": 39694
+  {
+    "teamKey": "Gamba",
+    "name": "Gamba Osaka",
+    "logo": "assets/logos/asia/japan/Gamba.png",
+    "manager": {"name": "Myojin Tomokazu", "country": "JP"},
+    "stadium": {"name": "Panasonic Stadium Suita", "capacity": 39694},
+    "players": [
+      {"playerId": "player_jp1_004_01", "name": "Ichimori Jun", "number": 22, "position": "GK", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_004_02", "name": "Handa Riku", "number": 3, "position": "RB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_004_03", "name": "Nakatani Shinnosuke", "number": 4, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_004_04", "name": "Miura Genta", "number": 5, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_004_05", "name": "Hatsuse Ryo", "number": 21, "position": "LB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_004_06", "name": "Abe Shuto", "number": 13, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_004_07", "name": "Mito Rin", "number": 27, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_004_08", "name": "Kurata Shu", "number": 10, "position": "CAM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_004_09", "name": "Yamashita Ryoya", "number": 17, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_004_10", "name": "Issam Jebali", "number": 11, "position": "ST", "country": "TN", "status": "starter"},
+      {"playerId": "player_jp1_004_11", "name": "Deniz Hummet", "number": 23, "position": "LW", "country": "SE", "status": "starter"},
+      {"playerId": "player_jp1_004_12", "name": "Higashiguchi Masaaki", "number": 1, "position": "GK", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_004_13", "name": "Fukuoka Shota", "number": 2, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_004_14", "name": "Kishimoto Takeru", "number": 15, "position": "RB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_004_15", "name": "Ali Camara", "number": 25, "position": "LB", "country": "GN", "status": "bench"},
+      {"playerId": "player_jp1_004_16", "name": "Nakano Shinya", "number": 47, "position": "LB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_004_17", "name": "Suzuki Tokuma", "number": 16, "position": "CM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_004_18", "name": "Eli Adams", "number": 20, "position": "CM", "country": "AU", "status": "bench"},
+      {"playerId": "player_jp1_004_19", "name": "Okunuki Kanji", "number": 44, "position": "LW", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_004_20", "name": "Juanpe", "number": 78, "position": "CDM", "country": "ES", "status": "bench"},
+      {"playerId": "player_jp1_004_21", "name": "Tono Taiki", "number": 35, "position": "CAM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_004_22", "name": "Araki Rui", "number": 18, "position": "GK", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_004_23", "name": "Zhang Aolin", "number": 31, "position": "GK", "country": "CN", "status": "reserve"},
+      {"playerId": "player_jp1_004_24", "name": "Yoshihara Yuki", "number": 32, "position": "CM", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_004_25", "name": "Sumi Kohshiro", "number": 39, "position": "RW", "country": "JP", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 23
+      }
+    }
   }
-}
