@@ -1,12 +1,50 @@
 {
-  "teamKey": "S Dist",
-
-  "name": "Kwoon Chung Southern",
-
-  "logo": "assets/logos/asia/hong_kong/Southern.png",
-
-  "stadium": {
-    "name": "Aberdeen Sports Ground",
-    "capacity": 9000
+    "teamKey": "S Dist",
+    "name": "Kwoon Chung Southern",
+    "logo": "assets/logos/asia/hong_kong/Southern.png",
+    "manager": {
+      "name": "Yeung Ching Kwong",
+      "country": "HK"
+    },
+    "stadium": {
+      "name": "Aberdeen Sports Ground",
+      "capacity": 9000
+    },
+    "players": [
+      {"playerId": "player_hk1_006_01", "name": "Ng Wai Him", "number": 1, "position": "GK", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_006_02", "name": "Calum Hall", "number": 2, "position": "RB", "country": "GB-SCT", "status": "starter"},
+      {"playerId": "player_hk1_006_03", "name": "Kota Kawase", "number": 4, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_hk1_006_04", "name": "Fábio Erins", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_hk1_006_05", "name": "Chak Ting Fung", "number": 16, "position": "LB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_006_06", "name": "Ching Lee", "number": 14, "position": "CDM", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_006_07", "name": "Lee Ka Yiu", "number": 8, "position": "CM", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_006_08", "name": "Ho-Chun Anson Wong", "number": 10, "position": "CAM", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_006_09", "name": "Poon Pui Hin", "number": 9, "position": "RW", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_006_10", "name": "Tatsuya Inoue", "number": 18, "position": "LW", "country": "JP", "status": "starter"},
+      {"playerId": "player_hk1_006_11", "name": "Stefan Golubović", "number": 22, "position": "ST", "country": "RS", "status": "starter"},
+      {"playerId": "player_hk1_006_12", "name": "Ngan Ngo Tin", "number": 31, "position": "GK", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_006_13", "name": "Danilo Santos da Silva", "number": 5, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_hk1_006_14", "name": "Cheung Pak Wing", "number": 24, "position": "RB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_006_15", "name": "Cheng Tsz-Sum", "number": 99, "position": "LB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_006_16", "name": "Igor Cesar", "number": 6, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_hk1_006_17", "name": "Shu Sasaki", "number": 11, "position": "CAM", "country": "JP", "status": "bench"},
+      {"playerId": "player_hk1_006_18", "name": "Aidan Chong Tsun", "number": 19, "position": "CAM", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_006_19", "name": "Lucas Agueiro", "number": 33, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_hk1_006_20", "name": "Stefan Pereira", "number": 7, "position": "ST", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_006_21", "name": "Kayron", "number": 27, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_hk1_006_22", "name": "Arsene Hui Pak-Wai", "number": 32, "position": "GK", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_006_23", "name": "Lai Kak Yi", "number": 12, "position": "CDM", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_006_24", "name": "Javen Leung", "number": 17, "position": "CAM", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_006_25", "name": "Balraj Landa", "number": 63, "position": "CAM", "country": "GB-ENG", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 22,
+        "freeKick": 10,
+        "cornerLeft": 9,
+        "cornerRight": 18
+      }
+    }
   }
-}
