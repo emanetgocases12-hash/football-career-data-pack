@@ -1,12 +1,52 @@
 {
-  "teamKey": "Estghl",
-
-  "name": "Esteghlal FC",
-
-  "logo": "assets/logos/asia/iran/Esteghlall.png",
-
-  "stadium": {
-    "name": "Shahr-e Qods Stadium",
-    "capacity": 8000
+    "teamKey": "Estghl",
+    "name": "Esteghlal FC",
+    "logo": "assets/logos/asia/iran/Esteghlall.png",
+    "manager": {
+      "name": "Sohrab Bakhtiarizadeh",
+      "country": "IR"
+    },
+    "stadium": {
+      "name": "Shahr-e Qods Stadium",
+      "capacity": 8000
+    },
+    "players": [
+      {"playerId": "player_ir1_004_01", "name": "Habib Far Abbasi", "number": 76, "position": "GK", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_004_02", "name": "Saleh Hardani", "number": 2, "position": "CB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_004_03", "name": "Rustam Ashurmatov", "number": 5, "position": "CB", "country": "UZ", "status": "starter"},
+      {"playerId": "player_ir1_004_04", "name": "Saman Fallah", "number": 6, "position": "CB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_004_05", "name": "Ramin Rezaeian", "number": 10, "position": "RM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_004_06", "name": "Amirmohammad Razaghinia", "number": 8, "position": "CM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_004_07", "name": "Mehran Ahmadi", "number": 88, "position": "CM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_004_08", "name": "Hossein Goudarzi", "number": 27, "position": "LM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_004_09", "name": "Jasir Asani", "number": 77, "position": "CAM", "country": "AL", "status": "starter"},
+      {"playerId": "player_ir1_004_10", "name": "Jaloliddin Masharipov", "number": 14, "position": "CAM", "country": "UZ", "status": "starter"},
+      {"playerId": "player_ir1_004_11", "name": "Saeed Saharkhizan", "number": 11, "position": "ST", "country": "IR", "status": "starter"},
+  
+      {"playerId": "player_ir1_004_12", "name": "Mohammad Khalifeh", "number": 1, "position": "GK", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_004_13", "name": "Aref Aghasi", "number": 33, "position": "CB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_004_14", "name": "Aref Gholami", "number": 4, "position": "CB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_004_15", "name": "Saman Touranian", "number": 22, "position": "RB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_004_16", "name": "Roozbeh Cheshmi", "number": 18, "position": "CDM", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_004_17", "name": "Mohammadhossein Eslami", "number": 80, "position": "RW", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_004_18", "name": "Alireza Kooshki", "number": 20, "position": "LW", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_004_19", "name": "Esmaeil Gholizadeh", "number": 87, "position": "RW", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_004_20", "name": "Mohammad Reza Azadi", "number": 7, "position": "ST", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_004_21", "name": "Abolfazl Zamani", "number": 15, "position": "CM", "country": "IR", "status": "bench"},
+  
+      {"playerId": "player_ir1_004_22", "name": "Seyed Hosseinifar", "number": 60, "position": "GK", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_004_23", "name": "Ehsan Kheradpisheh", "number": 91, "position": "GK", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_004_24", "name": "Abolfazl Zoleikhaei", "number": 3, "position": "LB", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_004_25", "name": "Bahram Goudarzi", "number": 19, "position": "CAM", "country": "IR", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "3-4-2-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 14
+      }
+    }
   }
-}
