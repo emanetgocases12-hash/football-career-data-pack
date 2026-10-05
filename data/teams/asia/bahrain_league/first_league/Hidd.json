@@ -1,12 +1,52 @@
 {
-  "teamKey": "Al-Hid",
-
-  "name": "Hidd SCC",
-
-  "logo": "assets/logos/asia/bahrain/Hidd.png",
-
-  "stadium": {
-    "name": "Bahrain National Stadium",
-    "capacity": 24000
+    "teamKey": "Al-Hid",
+    "name": "Hidd SCC",
+    "logo": "assets/logos/asia/bahrain/Hidd.png",
+    "manager": {
+      "name": "Chokri Bejaoui",
+      "country": "TN"
+    },
+    "stadium": {
+      "name": "Bahrain National Stadium",
+      "capacity": 24000
+    },
+    "players": [
+      {"playerId": "player_bh1_006_01", "name": "Abbas Khamis", "number": 1, "position": "GK", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_006_02", "name": "Ahmed Yusuf Hasan", "number": 12, "position": "RB", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_006_03", "name": "Nemanja Kojičić", "number": 3, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_bh1_006_04", "name": "Sayed Adnan Hussain", "number": 16, "position": "CB", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_006_05", "name": "Ali Bureshaid", "number": 27, "position": "LB", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_006_06", "name": "Mohamed Jamal", "number": 18, "position": "CDM", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_006_07", "name": "Mubarak Mohamed", "number": 20, "position": "CM", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_006_08", "name": "Ali Abdulla", "number": 7, "position": "CAM", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_006_09", "name": "Oussama Bellatreche", "number": 11, "position": "RW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_bh1_006_10", "name": "Ebrahim Al-Khatal", "number": 14, "position": "LW", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_006_11", "name": "Samy Frioui", "number": 9, "position": "ST", "country": "DZ", "status": "starter"},
+  
+      {"playerId": "player_bh1_006_12", "name": "Ali Khalifa", "number": 22, "position": "GK", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_006_13", "name": "Moosa Ahmed Merza", "number": 5, "position": "CB", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_006_14", "name": "Hani Taha", "number": 34, "position": "CB", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_006_15", "name": "Husain Rayan", "number": 4, "position": "LB", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_006_16", "name": "Ahmed Jaleel", "number": 6, "position": "CM", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_006_17", "name": "Mohamed Abdulwahab", "number": 8, "position": "CM", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_006_18", "name": "Abdulla Duaij", "number": 10, "position": "CAM", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_006_19", "name": "Saad Al Amer", "number": 17, "position": "RW", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_006_20", "name": "Ifedayo Olusegun", "number": 25, "position": "ST", "country": "NG", "status": "bench"},
+      {"playerId": "player_bh1_006_21", "name": "Mohamed Qambar", "number": 19, "position": "ST", "country": "BH", "status": "bench"},
+  
+      {"playerId": "player_bh1_006_22", "name": "Abdulla Salem", "number": 31, "position": "GK", "country": "BH", "status": "reserve"},
+      {"playerId": "player_bh1_006_23", "name": "Mohamed Isa Hasan", "number": 15, "position": "CB", "country": "BH", "status": "reserve"},
+      {"playerId": "player_bh1_006_24", "name": "Duaij Al Thawadi", "number": 24, "position": "CM", "country": "BH", "status": "reserve"},
+      {"playerId": "player_bh1_006_25", "name": "Nawaf Al Khaldi", "number": 33, "position": "ST", "country": "BH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 20,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 11,
+        "cornerLeft": 14,
+        "cornerRight": 7
+      }
+    }
   }
-}
