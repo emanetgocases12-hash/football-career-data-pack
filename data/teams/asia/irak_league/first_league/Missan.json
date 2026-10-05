@@ -1,12 +1,52 @@
-{
-  "teamKey": "Missan",
+ {
+    "teamKey": "Missan",
+    "name": "Naft Maysan SC",
+    "logo": "assets/logos/asia/irak/Missan.png",
+    "manager": {
+      "name": "Haider Obeid",
+      "country": "IQ"
+    },
+    "stadium": {
+      "name": "Maysan Olympic Stadium",
+      "capacity": 25000
+    },
+    "players": [
+      {"playerId": "player_iq1_014_01", "name": "Ali Khaled", "number": 1, "position": "GK", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_014_02", "name": "Mustafa Mohammad Jaber", "number": 2, "position": "RB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_014_03", "name": "Dabila Ouattara", "number": 4, "position": "CB", "country": "CI", "status": "starter"},
+      {"playerId": "player_iq1_014_04", "name": "Rami Ali Al Wasmani", "number": 5, "position": "CB", "country": "YE", "status": "starter"},
+      {"playerId": "player_iq1_014_05", "name": "Ali Lateef Mohammed", "number": 3, "position": "LB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_014_06", "name": "Abd Al Mohaimen Jabar", "number": 6, "position": "CDM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_014_07", "name": "Ali Abd Al Kadhem", "number": 8, "position": "CM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_014_08", "name": "Ahmed Abdulhakim Al-Sarori", "number": 7, "position": "RW", "country": "YE", "status": "starter"},
+      {"playerId": "player_iq1_014_09", "name": "Mahdi Abduljabbar", "number": 10, "position": "CAM", "country": "BH", "status": "starter"},
+      {"playerId": "player_iq1_014_10", "name": "Daouda Gueye Dieme", "number": 11, "position": "LW", "country": "SN", "status": "starter"},
+      {"playerId": "player_iq1_014_11", "name": "Hassan Ali", "number": 9, "position": "ST", "country": "IQ", "status": "starter"},
 
-  "name": "Naft Maysan SC",
+      {"playerId": "player_iq1_014_12", "name": "Hassan Najm", "number": 12, "position": "GK", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_014_13", "name": "Alaa Khaleel", "number": 14, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_014_14", "name": "Ahmed Kadhim", "number": 15, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_014_15", "name": "Mustafa Salim", "number": 16, "position": "RB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_014_16", "name": "Ali Naji", "number": 17, "position": "LB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_014_17", "name": "Hussein Abbas", "number": 18, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_014_18", "name": "Karrar Jassim", "number": 20, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_014_19", "name": "Mohammed Saad", "number": 21, "position": "RW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_014_20", "name": "Ahmed Younis", "number": 22, "position": "LW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_014_21", "name": "Ali Jabbar", "number": 19, "position": "ST", "country": "IQ", "status": "bench"},
 
-  "logo": "assets/logos/asia/irak/Missan.png",
-
-  "stadium": {
-    "name": "Maysan Olympic Stadium",
-    "capacity": 25000
+      {"playerId": "player_iq1_014_22", "name": "Haidar Kareem", "number": 23, "position": "GK", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_014_23", "name": "Mustafa Qassim", "number": 24, "position": "CB", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_014_24", "name": "Sajad Ali", "number": 25, "position": "CM", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_014_25", "name": "Hussein Hamid", "number": 27, "position": "ST", "country": "IQ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
