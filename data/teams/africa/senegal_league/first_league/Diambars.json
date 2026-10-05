@@ -1,12 +1,52 @@
 {
-  "teamKey": "Diamba",
-
-  "name": "Diambars FC",
-
-  "logo": "assets/logos/africa/senegal/Diamba.png",
-
-  "stadium": {
-    "name": "Stade Lat-Dior",
-    "capacity": 10000
+    "teamKey": "Diamba",
+    "name": "Diambars FC",
+    "logo": "assets/logos/africa/senegal/Diamba.png",
+    "manager": {
+      "name": "Assane Faye",
+      "country": "SN"
+    },
+    "stadium": {
+      "name": "Stade Lat-Dior",
+      "capacity": 10000
+    },
+    "players": [
+      {"playerId": "player_sn1_004_01", "name": "Mamadou Diabaté Guèye", "number": 1, "position": "GK", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_004_02", "name": "Soulèye Faye", "number": 2, "position": "RB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_004_03", "name": "Ahmadou Bamba Kane", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_004_04", "name": "El Hadji Malick Cissé", "number": 5, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_004_05", "name": "Samba Diattara", "number": 3, "position": "LB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_004_06", "name": "Ousmane Bâ", "number": 6, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_004_07", "name": "Daouda Cissé", "number": 8, "position": "CM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_004_08", "name": "Doudou Diouf", "number": 7, "position": "RW", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_004_09", "name": "Mamadou Ciré Niang", "number": 10, "position": "CAM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_004_10", "name": "Moustapha Lô", "number": 11, "position": "LW", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_004_11", "name": "Seny Manga", "number": 9, "position": "ST", "country": "SN", "status": "starter"},
+  
+      {"playerId": "player_sn1_004_12", "name": "Alioune Diop", "number": 16, "position": "GK", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_004_13", "name": "Jérémie Sabaly", "number": 12, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_004_14", "name": "Ablaye Faye", "number": 13, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_004_15", "name": "Yankhoba Diallo", "number": 14, "position": "LB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_004_16", "name": "Ibrahima Aïdara", "number": 15, "position": "RB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_004_17", "name": "Thierno Seydou Doucouré", "number": 18, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_004_18", "name": "Mahamet Ba", "number": 20, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_004_19", "name": "Cheikh Omar Dieye", "number": 17, "position": "RW", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_004_20", "name": "Mouhamed Wagne", "number": 19, "position": "ST", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_004_21", "name": "Sidy Barhama Ndiaye", "number": 21, "position": "ST", "country": "SN", "status": "bench"},
+  
+      {"playerId": "player_sn1_004_22", "name": "Cheikh Fall", "number": 22, "position": "GK", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_004_23", "name": "Cheikh Dieng", "number": 23, "position": "CB", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_004_24", "name": "Insa Boye", "number": 24, "position": "CM", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_004_25", "name": "Mamadou Bangoura", "number": 25, "position": "ST", "country": "SN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 7,
+        "cornerRight": 11
+      }
+    }
   }
-}
