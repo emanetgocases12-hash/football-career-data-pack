@@ -1,12 +1,52 @@
 {
   "teamKey": "Kruger",
-
   "name": "Kruger United",
-
   "logo": "assets/logos/africa/south_africa/Kruger.png",
-
+  "manager": {
+    "name": "Abram Mongoya",
+    "country": "ZA"
+  },
   "stadium": {
     "name": "KaNyamazane Stadium",
     "capacity": 10000
+  },
+  "players": [
+    {"playerId": "player_za1_006_01", "name": "Marcel Dandjinou", "number": 16, "position": "GK", "country": "BJ", "status": "starter"},
+    {"playerId": "player_za1_006_02", "name": "T. Mukumela", "number": 18, "position": "RB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_006_03", "name": "K. Seriba", "number": 4, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_006_04", "name": "K. Mohamme", "number": 26, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_006_05", "name": "S. Saralina", "number": 3, "position": "LB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_006_06", "name": "K. Zitha", "number": 6, "position": "CDM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_006_07", "name": "N. Makhubela", "number": 10, "position": "CM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_006_08", "name": "L. Kapinga", "number": 74, "position": "RW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_006_09", "name": "C. Ngema", "number": 20, "position": "CAM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_006_10", "name": "M. Zwane", "number": 7, "position": "LW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_006_11", "name": "T. Sibanyoni", "number": 25, "position": "ST", "country": "ZA", "status": "starter"},
+
+    {"playerId": "player_za1_006_12", "name": "Philasande Manqele", "number": 1, "position": "GK", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_006_13", "name": "B. Malatjie", "number": 12, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_006_14", "name": "N. Nxadi", "number": 27, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_006_15", "name": "R. Malepe", "number": 88, "position": "LB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_006_16", "name": "B. Maphumulo", "number": 15, "position": "RB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_006_17", "name": "M. Nel", "number": 8, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_006_18", "name": "T. Tavengwa", "number": 44, "position": "CM", "country": "ZW", "status": "bench"},
+    {"playerId": "player_za1_006_19", "name": "W. Makhubu", "number": 9, "position": "CAM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_006_20", "name": "K. Ndlovu", "number": 22, "position": "ST", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_006_21", "name": "D. Mapfumo", "number": 49, "position": "ST", "country": "ZW", "status": "bench"},
+
+    {"playerId": "player_za1_006_22", "name": "Andile Mbanjwa", "number": 2, "position": "GK", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_006_23", "name": "K. Malinga", "number": 5, "position": "LW", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_006_24", "name": "N. Thwala", "number": 28, "position": "RW", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_006_25", "name": "H. Sereetsi", "number": 47, "position": "ST", "country": "ZA", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 16,
+    "setPieces": {
+      "penalty": 25,
+      "freeKick": 74,
+      "cornerLeft": 74,
+      "cornerRight": 20
+    }
   }
 }
