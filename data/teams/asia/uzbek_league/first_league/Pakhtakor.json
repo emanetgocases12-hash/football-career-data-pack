@@ -1,12 +1,50 @@
-{
-  "teamKey": "Pakhta",
-
-  "name": "Pakhtakor Tashkent",
-
-  "logo": "assets/logos/asia/uzbekistan/Pakhtakor.png",
-
-  "stadium": {
-    "name": "Pakhtakor Central Stadium",
-    "capacity": 35000
+ {
+    "teamKey": "Pakhta",
+    "name": "Pakhtakor Tashkent",
+    "logo": "assets/logos/asia/uzbekistan/Pakhtakor.png",
+    "manager": {
+      "name": "Kamoliddin Tojiyev",
+      "country": "UZ"
+    },
+    "stadium": {
+      "name": "Pakhtakor Central Stadium",
+      "capacity": 35000
+    },
+    "players": [
+      {"playerId": "player_uz1_012_01", "name": "Vladimir Nazarov", "number": 12, "position": "GK", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_012_02", "name": "Hojiakbar Alijonov", "number": 3, "position": "RB", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_012_03", "name": "Mukhammadkodir Khamraliev", "number": 5, "position": "CB", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_012_04", "name": "Zaid Tahseen", "number": 4, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_uz1_012_05", "name": "Sherzod Nasrullayev", "number": 2, "position": "LB", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_012_06", "name": "Sardor Sobirkhodjayev", "number": 29, "position": "CM", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_012_07", "name": "Akmal Mozgovoy", "number": 6, "position": "CDM", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_012_08", "name": "Bashar Resan", "number": 10, "position": "CAM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_uz1_012_09", "name": "Dostonbek Hamdamov", "number": 17, "position": "RW", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_012_10", "name": "Ibrohim Ibragimov", "number": 7, "position": "LW", "country": "UZ", "status": "starter"},
+      {"playerId": "player_uz1_012_11", "name": "Ayman Hussein", "number": 18, "position": "ST", "country": "IQ", "status": "starter"},
+      {"playerId": "player_uz1_012_12", "name": "Sanzhar Kuvvatov", "number": 35, "position": "GK", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_012_13", "name": "Abbos Muminov", "number": 1, "position": "GK", "country": "UZ", "status": "reserve"},
+      {"playerId": "player_uz1_012_14", "name": "Flamarion Jovino", "number": 11, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_uz1_012_15", "name": "Dragan Ceran", "number": 9, "position": "ST", "country": "RS", "status": "bench"},
+      {"playerId": "player_uz1_012_16", "name": "Pulatxuja Kholdorxonov", "number": 20, "position": "ST", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_012_17", "name": "Muhammadjon Hakimov", "number": 14, "position": "CM", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_012_18", "name": "Azizbek Turgunboev", "number": 23, "position": "RW", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_012_19", "name": "Abdulfayz Bobomurodov", "number": 24, "position": "CB", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_012_20", "name": "Diyor Abdunazarov", "number": 27, "position": "CM", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_012_21", "name": "Javokhir Sidikov", "number": 8, "position": "CAM", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_012_22", "name": "Islom Anvarov", "number": 15, "position": "RB", "country": "UZ", "status": "bench"},
+      {"playerId": "player_uz1_012_23", "name": "Shahzod Toirov", "number": 33, "position": "CB", "country": "UZ", "status": "reserve"},
+      {"playerId": "player_uz1_012_24", "name": "Oybek Rustamov", "number": 21, "position": "CM", "country": "UZ", "status": "reserve"},
+      {"playerId": "player_uz1_012_25", "name": "Bekjon Rahmatov", "number": 19, "position": "LB", "country": "UZ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 12,
+      "setPieces": {
+        "penalty": 18,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
