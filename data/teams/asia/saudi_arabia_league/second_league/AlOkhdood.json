@@ -1,12 +1,50 @@
 {
-  "teamKey": "Al Okhd",
-
-  "name": "Al Okhdood",
-
-  "logo": "assets/logos/asia/saudi_arabia/AlOkhd.png",
-
-  "stadium": {
-    "name": "Prince Hathloul bin Abdulaziz Sports City",
-    "capacity": 12000
+    "teamKey": "Al Okhd",
+    "name": "Al Okhdood",
+    "logo": "assets/logos/asia/saudi_arabia/AlOkhd.png",
+    "manager": {
+      "name": "Fabiano José Costa Flora",
+      "country": "PT"
+    },
+    "stadium": {
+      "name": "Prince Hathloul bin Abdulaziz Sports City",
+      "capacity": 12000
+    },
+    "players": [
+      {"playerId": "player_sa2_008_01", "name": "Rakan Al Najjar", "number": 1, "position": "GK", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa2_008_02", "name": "Mohammed Abo Abd", "number": 21, "position": "RB", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa2_008_03", "name": "Abdullah Hazazi", "number": 4, "position": "CB", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa2_008_04", "name": "Alex de Oliveira Nascimento", "number": 5, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_sa2_008_05", "name": "Nawaf Al Hawsawi", "number": 50, "position": "LB", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa2_008_06", "name": "Nasser Al Bishi", "number": 15, "position": "CDM", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa2_008_07", "name": "Saud Salem", "number": 19, "position": "CM", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa2_008_08", "name": "Rui Pedro", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+      {"playerId": "player_sa2_008_09", "name": "Jae Dambelly Sidibeh", "number": 7, "position": "LW", "country": "ES", "status": "starter"},
+      {"playerId": "player_sa2_008_10", "name": "Balla Sangaré", "number": 9, "position": "RW", "country": "CI", "status": "starter"},
+      {"playerId": "player_sa2_008_11", "name": "Khaled Al Lazam", "number": 37, "position": "ST", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa2_008_12", "name": "Ali Al Amri", "number": 28, "position": "GK", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa2_008_13", "name": "Saad Al Qarni", "number": 92, "position": "GK", "country": "SA", "status": "reserve"},
+      {"playerId": "player_sa2_008_14", "name": "Naif Assiri", "number": 3, "position": "CB", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa2_008_15", "name": "Youssef Al Zaraia", "number": 24, "position": "CB", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa2_008_16", "name": "Hussain Al Zabdani", "number": 2, "position": "RB", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa2_008_17", "name": "Ali Al Hassan Al Makrami", "number": 13, "position": "LB", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa2_008_18", "name": "Saif Al Qareh", "number": 29, "position": "CM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa2_008_19", "name": "Ibrahim Ashi", "number": 88, "position": "RM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa2_008_20", "name": "Mohammed Al Qahtani", "number": 11, "position": "CM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa2_008_21", "name": "Ahmed Al Daghrir", "number": 22, "position": "CM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa2_008_22", "name": "Saif Ba Al Harith", "number": 12, "position": "CM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa2_008_23", "name": "Ahmed Majrashi", "number": 96, "position": "RW", "country": "SA", "status": "reserve"},
+      {"playerId": "player_sa2_008_24", "name": "Saleh Al Abbas", "number": 14, "position": "ST", "country": "SA", "status": "reserve"},
+      {"playerId": "player_sa2_008_25", "name": "Faisal Al Hadri", "number": 18, "position": "CB", "country": "SA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 37,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 9
+      }
+    }
   }
-}
