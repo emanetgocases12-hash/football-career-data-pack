@@ -1,12 +1,44 @@
-{
-  "teamKey": "Nagoya",
-
-  "name": "Nagoya Grampus",
-
-  "logo": "assets/logos/asia/japan/Nagoya.png",
-
-  "stadium": {
-    "name": "Toyota Stadium",
-    "capacity": 42753
+ {
+    "teamKey": "Nagoya",
+    "name": "Nagoya Grampus",
+    "logo": "assets/logos/asia/japan/Nagoya.png",
+    "manager": {"name": "Mihailo Petrovic", "country": "AT"},
+    "stadium": {"name": "Toyota Stadium", "capacity": 42753},
+    "players": [
+      {"playerId": "player_jp1_012_01", "name": "Pisano Alex Kouto Horio", "number": 35, "position": "GK", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_012_02", "name": "Nogami Yuki", "number": 2, "position": "RB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_012_03", "name": "Fujii Haruya", "number": 13, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_012_04", "name": "Sato Yota", "number": 3, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_012_05", "name": "Tokumoto Shuhei", "number": 55, "position": "LB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_012_06", "name": "Inagaki Sho", "number": 15, "position": "CDM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_012_07", "name": "Takamine Tomoki", "number": 31, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_012_08", "name": "Morishima Tsukasa", "number": 14, "position": "CAM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_012_09", "name": "Asano Yuya", "number": 9, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_012_10", "name": "Matheus Castro", "number": 10, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_jp1_012_11", "name": "Nakayama Katsuhiro", "number": 27, "position": "LW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_012_12", "name": "Schmidt Daniel", "number": 1, "position": "GK", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_012_13", "name": "Kawazura Akinari", "number": 6, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_012_14", "name": "Hara Teruki", "number": 70, "position": "RB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_012_15", "name": "Kubo Harumu", "number": 37, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_012_16", "name": "Uchida Takuya", "number": 17, "position": "CM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_012_17", "name": "Koda Hidemasa", "number": 19, "position": "RM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_012_18", "name": "Kikuchi Taichi", "number": 33, "position": "CAM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_012_19", "name": "Ono Masahito", "number": 41, "position": "LM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_012_20", "name": "Nagai Kensuke", "number": 18, "position": "ST", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_012_21", "name": "Kimura Yudai", "number": 22, "position": "ST", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_012_22", "name": "Takeda Yohei", "number": 16, "position": "GK", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_012_23", "name": "Koyamatsu Tomoya", "number": 58, "position": "LW", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_012_24", "name": "Yamanaka Ryosuke", "number": 60, "position": "LB", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_012_25", "name": "Marcos Vinicius", "number": 25, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 13,
+      "setPieces": {
+        "penalty": 10,
+        "freeKick": 14,
+        "cornerLeft": 14,
+        "cornerRight": 27
+      }
+    }
   }
-}
