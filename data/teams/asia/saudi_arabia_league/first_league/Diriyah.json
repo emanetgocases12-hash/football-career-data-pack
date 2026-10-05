@@ -1,12 +1,50 @@
-{
-  "teamKey": "Al Diri",
-
-  "name": "Diriyah Club",
-
-  "logo": "assets/logos/asia/saudi_arabia/Diriyah.png",
-
-  "stadium": {
-    "name": "Al Awwal Park",
-    "capacity": 26004
+ {
+    "teamKey": "Al Diri",
+    "name": "Diriyah Club",
+    "logo": "assets/logos/asia/saudi_arabia/Diriyah.png",
+    "manager": {
+      "name": "Bruno Lage",
+      "country": "PT"
+    },
+    "stadium": {
+      "name": "Al Awwal Park",
+      "capacity": 26004
+    },
+    "players": [
+      {"playerId": "player_sa1_017_01", "name": "Nikola Vasilj", "number": 1, "position": "GK", "country": "BA", "status": "starter"},
+      {"playerId": "player_sa1_017_02", "name": "Mohammed Al Burayk", "number": 2, "position": "RB", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa1_017_03", "name": "Chancel Mbemba", "number": 4, "position": "CB", "country": "CD", "status": "starter"},
+      {"playerId": "player_sa1_017_04", "name": "Berat Djimsiti", "number": 6, "position": "CB", "country": "AL", "status": "starter"},
+      {"playerId": "player_sa1_017_05", "name": "Hussain Al Sibyani", "number": 24, "position": "LB", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa1_017_06", "name": "Idrissa Gana Gueye", "number": 8, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sa1_017_07", "name": "Enzo Millot", "number": 20, "position": "CM", "country": "FR", "status": "starter"},
+      {"playerId": "player_sa1_017_08", "name": "Oscar", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+      {"playerId": "player_sa1_017_09", "name": "Hattan Bahebri", "number": 7, "position": "RW", "country": "SA", "status": "starter"},
+      {"playerId": "player_sa1_017_10", "name": "Adil Boulbina", "number": 11, "position": "LW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_sa1_017_11", "name": "Darwin Nunez", "number": 9, "position": "ST", "country": "UY", "status": "starter"},
+      {"playerId": "player_sa1_017_12", "name": "Walid Abdullah", "number": 22, "position": "GK", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_017_13", "name": "Amin Bukhari", "number": 30, "position": "GK", "country": "SA", "status": "reserve"},
+      {"playerId": "player_sa1_017_14", "name": "Saeed Al Rubaie", "number": 3, "position": "CB", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_017_15", "name": "Qassem Lajami", "number": 5, "position": "CB", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_017_16", "name": "Abdulellah Al Malki", "number": 14, "position": "CM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_017_17", "name": "Hussain Al Qahtani", "number": 18, "position": "CM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_017_18", "name": "Abdullah Al Zaid", "number": 27, "position": "CM", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_017_19", "name": "Mathys de Carvalho", "number": 17, "position": "CM", "country": "FR", "status": "bench"},
+      {"playerId": "player_sa1_017_20", "name": "Lovro Chelfi", "number": 19, "position": "RW", "country": "HR", "status": "bench"},
+      {"playerId": "player_sa1_017_21", "name": "Saleh Al Abbas", "number": 15, "position": "ST", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_017_22", "name": "Mohammed Al Saiari", "number": 23, "position": "ST", "country": "SA", "status": "bench"},
+      {"playerId": "player_sa1_017_23", "name": "Faisal Al Mutairi", "number": 25, "position": "CM", "country": "SA", "status": "reserve"},
+      {"playerId": "player_sa1_017_24", "name": "Abdullah Bin Subait", "number": 26, "position": "CM", "country": "SA", "status": "reserve"},
+      {"playerId": "player_sa1_017_25", "name": "Abdulaziz Al Jebreen", "number": 16, "position": "CDM", "country": "SA", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 11
+      }
+    }
   }
-}
