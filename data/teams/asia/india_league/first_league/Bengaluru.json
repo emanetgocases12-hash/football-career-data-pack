@@ -1,12 +1,52 @@
 {
-  "teamKey": "Benglu",
+    "teamKey": "Benglu",
+    "name": "Bengaluru FC",
+    "logo": "assets/logos/asia/india/Bengaluru.png",
+    "manager": {
+      "name": "Pep Muñoz",
+      "country": "ES"
+    },
+    "stadium": {
+      "name": "Sree Kanteerava Stadium",
+      "capacity": 25810
+    },
+    "players": [
+      {"playerId": "player_in1_001_01", "name": "Gurpreet Singh Sandhu", "number": 1, "position": "GK", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_001_02", "name": "Nikhil Poojary", "number": 27, "position": "RB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_001_03", "name": "Rahul Bheke", "number": 2, "position": "CB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_001_04", "name": "Chinglensana Singh", "number": 4, "position": "CB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_001_05", "name": "Naorem Roshan Singh", "number": 32, "position": "LB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_001_06", "name": "Suresh Singh Wangjam", "number": 8, "position": "CDM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_001_07", "name": "Sirojiddin Kuziev", "number": 6, "position": "CM", "country": "UZ", "status": "starter"},
+      {"playerId": "player_in1_001_08", "name": "Braian Sánchez", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+      {"playerId": "player_in1_001_09", "name": "Ryan Williams", "number": 7, "position": "RW", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_001_10", "name": "Ashique Kuruniyan", "number": 22, "position": "LW", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_001_11", "name": "Sunil Chhetri", "number": 11, "position": "ST", "country": "IN", "status": "starter"},
 
-  "name": "Bengaluru FC",
+      {"playerId": "player_in1_001_12", "name": "Lalthuammawia Ralte", "number": 28, "position": "GK", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_001_13", "name": "Mohamed Salah", "number": 12, "position": "LB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_001_14", "name": "Harsh Palande", "number": 26, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_001_15", "name": "Namgyal Bhutia", "number": 25, "position": "RB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_001_16", "name": "Haobam Ricky Meetei", "number": 18, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_001_17", "name": "Vinith Venkatesh", "number": 31, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_001_18", "name": "Lalremtluanga Fanai", "number": 23, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_001_19", "name": "Ningthoukhongjam Rishi Singh", "number": 38, "position": "CAM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_001_20", "name": "Sivasakthi Narayanan", "number": 39, "position": "ST", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_001_21", "name": "Taorem Kelvin Singh", "number": 37, "position": "RW", "country": "IN", "status": "bench"},
 
-  "logo": "assets/logos/asia/india/Bengaluru.png",
-
-  "stadium": {
-    "name": "Sree Kanteerava Stadium",
-    "capacity": 25810
+      {"playerId": "player_in1_001_22", "name": "Jaspreet Singh", "number": 13, "position": "GK", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_001_23", "name": "Soham Varshneya", "number": 14, "position": "CM", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_001_24", "name": "Monirul Molla", "number": 17, "position": "ST", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_001_25", "name": "Serto Worneilen Kom", "number": 29, "position": "LW", "country": "IN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 11,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
