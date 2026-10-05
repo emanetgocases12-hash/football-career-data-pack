@@ -1,12 +1,35 @@
-{
-  "teamKey": "Al-Jaze",
-
-  "name": "Al Jazeera",
-
-  "logo": "assets/logos/asia/jordan/Jaze.png",
-
-  "stadium": {
-    "name": "Amman International Stadium",
-    "capacity": 18000
+ {
+    "teamKey": "Al-Jaze",
+    "name": "Al Jazeera",
+    "logo": "assets/logos/asia/jordan/Jaze.png",
+    "manager": {"name": "Raed Al-Daoud", "country": "JO"},
+    "stadium": {"name": "Amman International Stadium", "capacity": 18000},
+    "players": [
+      {"playerId": "player_jo1_007_01", "name": "Qais Abassi", "number": 1, "position": "GK", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_007_02", "name": "Malek Khalefah", "number": 29, "position": "RB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_007_03", "name": "Abdeldjalil Mancer", "number": 4, "position": "CB", "country": "DZ", "status": "starter"},
+      {"playerId": "player_jo1_007_04", "name": "Rawad Abu Khizran", "number": 23, "position": "CB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_007_05", "name": "Abdullah Shabana", "number": 2, "position": "LB", "country": "PS", "status": "starter"},
+      {"playerId": "player_jo1_007_06", "name": "Mohammed Abu Al-Doush", "number": 28, "position": "CDM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_007_07", "name": "Hamad Al-Balawneh", "number": 6, "position": "CM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_007_08", "name": "Rashid Shawahna", "number": 10, "position": "RW", "country": "PS", "status": "starter"},
+      {"playerId": "player_jo1_007_09", "name": "Qusai Khaled", "number": 18, "position": "CAM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_007_10", "name": "Yaseen Al-Bakheet", "number": 7, "position": "LW", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_007_11", "name": "Yahya Al-Bakheet", "number": 21, "position": "ST", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_007_12", "name": "Saif Abu Hazeem", "number": 33, "position": "GK", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_007_13", "name": "Alaa Werq", "number": 3, "position": "LB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_007_14", "name": "Iyad Tommalieh", "number": 20, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_007_15", "name": "Bakary N'Diaye", "number": 40, "position": "CB", "country": "MR", "status": "bench"},
+      {"playerId": "player_jo1_007_16", "name": "Ziad Al-Naqib", "number": 32, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_007_17", "name": "Abdalla Tannous", "number": 8, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_007_18", "name": "Hasan Al Sobany", "number": 12, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_007_19", "name": "Karam Abu Shaban", "number": 14, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_007_20", "name": "Mo’men Qazaqza", "number": 70, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_007_21", "name": "Faraj Al-Muzaini", "number": 19, "position": "RW", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_007_22", "name": "Qusai Al-Mariha", "number": 99, "position": "GK", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_007_23", "name": "Saif Al-Taher", "number": 98, "position": "CAM", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_007_24", "name": "Abdulrahman Al-Zaghaiba", "number": 15, "position": "ST", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_007_25", "name": "Ibrahim Al-Jwabri", "number": 30, "position": "RW", "country": "JO", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 6, "setPieces": {"penalty": 21, "freeKick": 18, "cornerLeft": 7, "cornerRight": 10}}
   }
-}
