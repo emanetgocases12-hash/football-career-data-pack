@@ -1,12 +1,52 @@
-{
-  "teamKey": "Al-Rifa",
-
-  "name": "Al Riffa SC",
-
-  "logo": "assets/logos/asia/bahrain/Riffa.png",
-
-  "stadium": {
-    "name": "Bahrain National Stadium",
-    "capacity": 24000
+ {
+    "teamKey": "Al-Rifa",
+    "name": "Al Riffa SC",
+    "logo": "assets/logos/asia/bahrain/Riffa.png",
+    "manager": {
+      "name": "Mohamed Mashaan",
+      "country": "KW"
+    },
+    "stadium": {
+      "name": "Bahrain National Stadium",
+      "capacity": 24000
+    },
+    "players": [
+      {"playerId": "player_bh1_004_01", "name": "Abdulkarim Fardan", "number": 24, "position": "GK", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_004_02", "name": "Saud Al Asam", "number": 2, "position": "RB", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_004_03", "name": "Hamad Al Shamsan", "number": 15, "position": "CB", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_004_04", "name": "Samuel Toscas", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_bh1_004_05", "name": "Moayad Ajan", "number": 30, "position": "LB", "country": "SY", "status": "starter"},
+      {"playerId": "player_bh1_004_06", "name": "Saleh Mohamed Alashban", "number": 4, "position": "CDM", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_004_07", "name": "Jassim Al Shaikh", "number": 13, "position": "CM", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_004_08", "name": "Komail Hasan Al Aswad", "number": 10, "position": "CAM", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_004_09", "name": "Ali Madan", "number": 7, "position": "RW", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_004_10", "name": "Tayeb Meziani", "number": 11, "position": "LW", "country": "DZ", "status": "starter"},
+      {"playerId": "player_bh1_004_11", "name": "Dejan Georgijevic", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+  
+      {"playerId": "player_bh1_004_12", "name": "Džiugas Bartkus", "number": 29, "position": "GK", "country": "LT", "status": "bench"},
+      {"playerId": "player_bh1_004_13", "name": "Sayed Mahmood Al Moosawi", "number": 5, "position": "CB", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_004_14", "name": "Ali Faraj", "number": 6, "position": "CB", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_004_15", "name": "Abbas Fadhel Al Asfoor", "number": 8, "position": "CM", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_004_16", "name": "Ali Hasan Saeed Isa", "number": 18, "position": "CM", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_004_17", "name": "Walid Derardja", "number": 26, "position": "RW", "country": "DZ", "status": "bench"},
+      {"playerId": "player_bh1_004_18", "name": "Hasan Jaafar Madan", "number": 17, "position": "LW", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_004_19", "name": "Mahdi Abduljabbar", "number": 19, "position": "ST", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_004_20", "name": "Omer Malki", "number": 20, "position": "ST", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_004_21", "name": "Wellington Moreira", "number": 12, "position": "CAM", "country": "BR", "status": "bench"},
+  
+      {"playerId": "player_bh1_004_22", "name": "Abdullah Ali Frieh", "number": 1, "position": "GK", "country": "BH", "status": "reserve"},
+      {"playerId": "player_bh1_004_23", "name": "Hamad Yaser", "number": 22, "position": "CB", "country": "BH", "status": "reserve"},
+      {"playerId": "player_bh1_004_24", "name": "Rodrigo Yuri", "number": 14, "position": "CM", "country": "BR", "status": "reserve"},
+      {"playerId": "player_bh1_004_25", "name": "Vinicius Vargas", "number": 21, "position": "LW", "country": "BR", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 13,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
