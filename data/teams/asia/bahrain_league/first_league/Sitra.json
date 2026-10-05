@@ -1,12 +1,52 @@
 {
-  "teamKey": "Sitra",
-
-  "name": "Sitra Club",
-
-  "logo": "assets/logos/asia/bahrain/Sitra.png",
-
-  "stadium": {
-    "name": "Bahrain National Stadium",
-    "capacity": 24000
+    "teamKey": "Sitra",
+    "name": "Sitra Club",
+    "logo": "assets/logos/asia/bahrain/Sitra.png",
+    "manager": {
+      "name": "Issa Al Sadoun",
+      "country": "BH"
+    },
+    "stadium": {
+      "name": "Bahrain National Stadium",
+      "capacity": 24000
+    },
+    "players": [
+      {"playerId": "player_bh1_012_01", "name": "Hamad Al-Doseri", "number": 1, "position": "GK", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_012_02", "name": "Vincent Emmanuel", "number": 31, "position": "RB", "country": "BH", "status": "starter"},
+      {"playerId": "player_bh1_012_03", "name": "Cavafe", "number": 3, "position": "CB", "country": "CU", "status": "starter"},
+      {"playerId": "player_bh1_012_04", "name": "Maicon Douglas", "number": 33, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_bh1_012_05", "name": "Mohammed Likram", "number": 17, "position": "LB", "country": "MA", "status": "starter"},
+      {"playerId": "player_bh1_012_06", "name": "Judá", "number": 6, "position": "CDM", "country": "BR", "status": "starter"},
+      {"playerId": "player_bh1_012_07", "name": "Rayan Fourgi", "number": 77, "position": "CM", "country": "SA", "status": "starter"},
+      {"playerId": "player_bh1_012_08", "name": "Abdulwasea Al-Matari", "number": 7, "position": "CAM", "country": "YE", "status": "starter"},
+      {"playerId": "player_bh1_012_09", "name": "Kennyd", "number": 99, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_bh1_012_10", "name": "Karl Namnganda", "number": 91, "position": "LW", "country": "CF", "status": "starter"},
+      {"playerId": "player_bh1_012_11", "name": "Yassine Chamakhi", "number": 9, "position": "ST", "country": "TN", "status": "starter"},
+  
+      {"playerId": "player_bh1_012_12", "name": "Abbas Ahmed", "number": 22, "position": "GK", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_012_13", "name": "Ibrahim Jamal", "number": 5, "position": "CB", "country": "SA", "status": "bench"},
+      {"playerId": "player_bh1_012_14", "name": "Imran Ilyas Bakur Adam", "number": 16, "position": "LB", "country": "SA", "status": "bench"},
+      {"playerId": "player_bh1_012_15", "name": "Abdulrahman Oumar", "number": 2, "position": "RB", "country": "SA", "status": "bench"},
+      {"playerId": "player_bh1_012_16", "name": "Ramzi Abdulla", "number": 19, "position": "RB", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_012_17", "name": "Ali Nasser", "number": 8, "position": "CDM", "country": "YE", "status": "bench"},
+      {"playerId": "player_bh1_012_18", "name": "Ali Isa", "number": 14, "position": "CM", "country": "BH", "status": "bench"},
+      {"playerId": "player_bh1_012_19", "name": "Bekaye Wade", "number": 11, "position": "RW", "country": "MR", "status": "bench"},
+      {"playerId": "player_bh1_012_20", "name": "Bruno Bezerra", "number": 18, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_bh1_012_21", "name": "Othman Al-Haj", "number": 10, "position": "ST", "country": "SA", "status": "bench"},
+  
+      {"playerId": "player_bh1_012_22", "name": "Yusuf Habib", "number": 32, "position": "GK", "country": "BH", "status": "reserve"},
+      {"playerId": "player_bh1_012_23", "name": "Ahmed Al-Basri", "number": 66, "position": "RB", "country": "BH", "status": "reserve"},
+      {"playerId": "player_bh1_012_24", "name": "Saleh Al-Zubaidi", "number": 12, "position": "RW", "country": "BH", "status": "reserve"},
+      {"playerId": "player_bh1_012_25", "name": "Ali Abdulrasol Al-Asfoor", "number": 20, "position": "RW", "country": "BH", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 7,
+        "cornerLeft": 91,
+        "cornerRight": 99
+      }
+    }
   }
-}
