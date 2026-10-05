@@ -1,12 +1,44 @@
-{
-  "teamKey": "Shimzu",
-
-  "name": "Shimizu S-Pulse",
-
-  "logo": "assets/logos/asia/japan/Shimizu.png",
-
-  "stadium": {
-    "name": "IAI Stadium Nihondaira",
-    "capacity": 19594
+ {
+    "teamKey": "Shimzu",
+    "name": "Shimizu S-Pulse",
+    "logo": "assets/logos/asia/japan/Shimizu.png",
+    "manager": {"name": "Yoshida Takayuki", "country": "JP"},
+    "stadium": {"name": "IAI Stadium Nihondaira", "capacity": 19594},
+    "players": [
+      {"playerId": "player_jp1_014_01", "name": "Oki Yuya", "number": 1, "position": "GK", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_014_02", "name": "Sugai Hidehiro", "number": 24, "position": "RB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_014_03", "name": "Hasukawa Sodai", "number": 4, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_014_04", "name": "Mateus Brunetti", "number": 25, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_jp1_014_05", "name": "Yoshida Yutaka", "number": 28, "position": "LB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_014_06", "name": "Yumiba Masaki", "number": 17, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_014_07", "name": "Koizumi Kei", "number": 37, "position": "CM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_014_08", "name": "Shimamoto Yudai", "number": 47, "position": "CAM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_014_09", "name": "Fujii Tomoya", "number": 50, "position": "RW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_014_10", "name": "Kinoshita Kosuke", "number": 23, "position": "ST", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_014_11", "name": "Germain Ryo", "number": 9, "position": "LW", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_014_12", "name": "Umeda Togo", "number": 16, "position": "GK", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_014_13", "name": "Takahashi Yuji", "number": 3, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_014_14", "name": "Park Seung Wook", "number": 14, "position": "CB", "country": "KR", "status": "bench"},
+      {"playerId": "player_jp1_014_15", "name": "Honda Yuki", "number": 15, "position": "CB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_014_16", "name": "Um Joo Young", "number": 20, "position": "CB", "country": "KR", "status": "bench"},
+      {"playerId": "player_jp1_014_17", "name": "Dieguinho", "number": 2, "position": "RM", "country": "BR", "status": "bench"},
+      {"playerId": "player_jp1_014_18", "name": "Matsuzaki Kai", "number": 19, "position": "RW", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_014_19", "name": "Capixaba", "number": 7, "position": "LW", "country": "BR", "status": "bench"},
+      {"playerId": "player_jp1_014_20", "name": "Ohata Rio", "number": 8, "position": "CM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_014_21", "name": "Kitagawa Koya", "number": 49, "position": "ST", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_014_22", "name": "Ishikawa Kei", "number": 22, "position": "GK", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_014_23", "name": "Sasaki Tomotaro", "number": 30, "position": "GK", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_014_24", "name": "Suzuki Keigo", "number": 41, "position": "CM", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_014_25", "name": "Inoue Kenta", "number": 11, "position": "RM", "country": "JP", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 23,
+        "freeKick": 47,
+        "cornerLeft": 47,
+        "cornerRight": 9
+      }
+    }
   }
-}
