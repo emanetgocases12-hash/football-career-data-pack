@@ -1,12 +1,52 @@
 {
-  "teamKey": "La Ling",
-
-  "name": "ASC La Linguère",
-
-  "logo": "assets/logos/africa/senegal/LaLing.png",
-
-  "stadium": {
-    "name": "Stade Mawade Wade",
-    "capacity": 1200
+    "teamKey": "La Ling",
+    "name": "ASC La Linguère",
+    "logo": "assets/logos/africa/senegal/LaLing.png",
+    "manager": {
+      "name": "Amara Traoré",
+      "country": "SN"
+    },
+    "stadium": {
+      "name": "Stade Mawade Wade",
+      "capacity": 1200
+    },
+    "players": [
+      {"playerId": "player_sn1_010_01", "name": "El Hadji Mamadou Gueye", "number": 1, "position": "GK", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_010_02", "name": "Papa Guèye", "number": 7, "position": "RB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_010_03", "name": "Ousmane Sèye", "number": 2, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_010_04", "name": "Bakary Sakho", "number": 13, "position": "CB", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_010_05", "name": "Mamadou Jallow", "number": 15, "position": "LB", "country": "GM", "status": "starter"},
+      {"playerId": "player_sn1_010_06", "name": "Baba Ngom", "number": 8, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_010_07", "name": "Ousmane Cissé", "number": 52, "position": "CM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_010_08", "name": "El Hadji Fall", "number": 19, "position": "RW", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_010_09", "name": "Amadou Guèye", "number": 25, "position": "CAM", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_010_10", "name": "Abdoualye Sylla", "number": 11, "position": "LW", "country": "SN", "status": "starter"},
+      {"playerId": "player_sn1_010_11", "name": "Babacar Faye", "number": 9, "position": "ST", "country": "SN", "status": "starter"},
+  
+      {"playerId": "player_sn1_010_12", "name": "Serigne Fall", "number": 27, "position": "GK", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_010_13", "name": "Oumar Senghor", "number": 6, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_010_14", "name": "Papa Diop", "number": 4, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_010_15", "name": "Souleymane Sarr", "number": 22, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_010_16", "name": "Modou Séne", "number": 24, "position": "LB", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_010_17", "name": "Ibrahima Diop", "number": 26, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_010_18", "name": "Abdoulaye Fam", "number": 14, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_010_19", "name": "Mouhamed Mbaye", "number": 35, "position": "CM", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_010_20", "name": "Aliou Keita", "number": 17, "position": "RW", "country": "SN", "status": "bench"},
+      {"playerId": "player_sn1_010_21", "name": "Abdoulie Bah", "number": 10, "position": "ST", "country": "GM", "status": "bench"},
+  
+      {"playerId": "player_sn1_010_22", "name": "Yatma Gueye", "number": 20, "position": "CDM", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_010_23", "name": "Oumar Sarr", "number": 23, "position": "CM", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_010_24", "name": "Famara Badji", "number": 28, "position": "ST", "country": "SN", "status": "reserve"},
+      {"playerId": "player_sn1_010_25", "name": "Macoura Thiaw", "number": 18, "position": "ST", "country": "SN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 19,
+        "cornerLeft": 19,
+        "cornerRight": 11
+      }
+    }
   }
-}
