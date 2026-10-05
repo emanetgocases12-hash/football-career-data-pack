@@ -1,12 +1,52 @@
 {
-  "teamKey": "USBG",
+    "teamKey": "USBG",
+    "name": "US Ben Guerdane",
+    "logo": "assets/logos/africa/tunusia/USBG.png",
+    "manager": {
+      "name": "Sofiène Hidoussi",
+      "country": "TN"
+    },
+    "stadium": {
+      "name": "Stade du 7 Mars",
+      "capacity": 10000
+    },
+    "players": [
+      {"playerId": "player_tn1_002_01", "name": "Lassad Hammami", "number": 31, "position": "GK", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_002_02", "name": "Mohamed Habib Yeken", "number": 2, "position": "RB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_002_03", "name": "Saleh Harabi", "number": 4, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_002_04", "name": "Rayene Haddad", "number": 5, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_002_05", "name": "Wael Salhi", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_002_06", "name": "Jassem Abcha", "number": 6, "position": "CDM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_002_07", "name": "Ghazi Ayadi", "number": 8, "position": "CDM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_002_08", "name": "Idriss Mhirssi", "number": 10, "position": "CAM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_002_09", "name": "Ayoub Mchareg", "number": 7, "position": "RW", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_002_10", "name": "Momodou Lamine Touray", "number": 9, "position": "ST", "country": "GM", "status": "starter"},
+      {"playerId": "player_tn1_002_11", "name": "Fedi Hmizi", "number": 11, "position": "LW", "country": "TN", "status": "starter"},
 
-  "name": "US Ben Guerdane",
+      {"playerId": "player_tn1_002_12", "name": "Mohamed Karkouba", "number": 16, "position": "GK", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_002_13", "name": "Skander Bouaicha", "number": 12, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_002_14", "name": "Oussama Amri", "number": 13, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_002_15", "name": "Iyed Touis", "number": 15, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_002_16", "name": "Mohamed Ataa Akrout", "number": 17, "position": "RB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_002_17", "name": "Khemais Maaouani", "number": 18, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_002_18", "name": "Mustapha Samb", "number": 20, "position": "CDM", "country": "SN", "status": "bench"},
+      {"playerId": "player_tn1_002_19", "name": "Daniel Oboh", "number": 14, "position": "CM", "country": "NG", "status": "bench"},
+      {"playerId": "player_tn1_002_20", "name": "Fakhreddine Ouji", "number": 19, "position": "ST", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_002_21", "name": "Anas Bouatay", "number": 21, "position": "RW", "country": "TN", "status": "bench"},
 
-  "logo": "assets/logos/africa/tunusia/USBG.png",
-
-  "stadium": {
-    "name": "Stade du 7 Mars",
-    "capacity": 10000
+      {"playerId": "player_tn1_002_22", "name": "Bacem Zemzem", "number": 30, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_002_23", "name": "Chedly Kacem", "number": 23, "position": "CM", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_002_24", "name": "Louay Ben Dahnous", "number": 24, "position": "ST", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_002_25", "name": "Abdallah Amri", "number": 25, "position": "CM", "country": "TN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 8,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
