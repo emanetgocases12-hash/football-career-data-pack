@@ -1,12 +1,52 @@
-{
-  "teamKey": "Foolad",
-
-  "name": "Foolad FC",
-
-  "logo": "assets/logos/asia/iran/Fooland.png",
-
-  "stadium": {
-    "name": "Foolad Arena",
-    "capacity": 30655
+  {
+    "teamKey": "Foolad",
+    "name": "Foolad FC",
+    "logo": "assets/logos/asia/iran/Fooland.png",
+    "manager": {
+      "name": "Hamid Motahari",
+      "country": "IR"
+    },
+    "stadium": {
+      "name": "Foolad Arena",
+      "capacity": 30655
+    },
+    "players": [
+      {"playerId": "player_ir1_006_01", "name": "Hamed Lak", "number": 81, "position": "GK", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_006_02", "name": "Ramin Rezaeian", "number": 69, "position": "RB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_006_03", "name": "Mohammad Ghoreishi", "number": 24, "position": "CB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_006_04", "name": "Mohammad Ali Kazemi Ahari", "number": 26, "position": "CB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_006_05", "name": "Abolfazl Razzaghpour", "number": 2, "position": "LB", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_006_06", "name": "Milad Sarlak", "number": 10, "position": "CDM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_006_07", "name": "Omid Hamedifar", "number": 6, "position": "CM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_006_08", "name": "Farshad Ahmadzadeh", "number": 80, "position": "RW", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_006_09", "name": "Amirhossein Jolani", "number": 78, "position": "CAM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_006_10", "name": "Mehrdad Mohammadi", "number": 7, "position": "LW", "country": "IR", "status": "starter"},
+      {"playerId": "player_ir1_006_11", "name": "Sasan Ansari", "number": 3, "position": "ST", "country": "IR", "status": "starter"},
+  
+      {"playerId": "player_ir1_006_12", "name": "Mohsen Forouzan", "number": 1, "position": "GK", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_006_13", "name": "Arman Akvan", "number": 4, "position": "CB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_006_14", "name": "Arash Akbarzadeh", "number": 30, "position": "CB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_006_15", "name": "Amin Saedi", "number": 5, "position": "LB", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_006_16", "name": "Milad Badragheh", "number": 70, "position": "CM", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_006_17", "name": "Ghasem Latifi", "number": 29, "position": "CM", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_006_18", "name": "Soheil Sarkari", "number": 27, "position": "CAM", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_006_19", "name": "Ehsan Mahroughi", "number": 9, "position": "ST", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_006_20", "name": "Yousef Mazrae", "number": 20, "position": "RW", "country": "IR", "status": "bench"},
+      {"playerId": "player_ir1_006_21", "name": "Arshia Bagheri", "number": 23, "position": "ST", "country": "IR", "status": "bench"},
+  
+      {"playerId": "player_ir1_006_22", "name": "Alireza Nazi", "number": 22, "position": "GK", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_006_23", "name": "Abolfazl Zadehattar", "number": 71, "position": "LW", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_006_24", "name": "Mohammadreza Keshavarzi", "number": 77, "position": "ST", "country": "IR", "status": "reserve"},
+      {"playerId": "player_ir1_006_25", "name": "Amir Moavi", "number": 18, "position": "CM", "country": "IR", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 24,
+      "setPieces": {
+        "penalty": 3,
+        "freeKick": 80,
+        "cornerLeft": 80,
+        "cornerRight": 7
+      }
+    }
   }
-}
