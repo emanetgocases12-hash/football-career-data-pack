@@ -1,12 +1,35 @@
-{
-  "teamKey": "Irbid",
-
-  "name": "Al Hussein Irbid",
-
-  "logo": "assets/logos/asia/jordan/Irbid.png",
-
-  "stadium": {
-    "name": "Al Hassan Stadium",
-    "capacity": 12000
+  {
+    "teamKey": "Irbid",
+    "name": "Al Hussein Irbid",
+    "logo": "assets/logos/asia/jordan/Irbid.png",
+    "manager": {"name": "Bashar Bani Yaseen", "country": "JO"},
+    "stadium": {"name": "Al Hassan Stadium", "capacity": 12000},
+    "players": [
+      {"playerId": "player_jo1_006_01", "name": "Yazeed Abulaila", "number": 1, "position": "GK", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_006_02", "name": "Ehsan Haddad", "number": 23, "position": "RB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_006_03", "name": "Pedro Henrique", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_jo1_006_04", "name": "Yousef Abu Al-Jazar", "number": 70, "position": "CB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_006_05", "name": "Ali Hajabi", "number": 5, "position": "LB", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_006_06", "name": "Rajaei Ayed", "number": 8, "position": "CM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_006_07", "name": "Latyr Fall", "number": 19, "position": "CDM", "country": "SN", "status": "starter"},
+      {"playerId": "player_jo1_006_08", "name": "Aref Al-Haj", "number": 11, "position": "RW", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_006_09", "name": "Youssef Jalbosh Sisa", "number": 98, "position": "CAM", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_006_10", "name": "Mahmoud Al Mardi", "number": 13, "position": "LW", "country": "JO", "status": "starter"},
+      {"playerId": "player_jo1_006_11", "name": "Luis Kaçorri", "number": 74, "position": "ST", "country": "AL", "status": "starter"},
+      {"playerId": "player_jo1_006_12", "name": "Mahmoud Al-Kawamleh", "number": 22, "position": "GK", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_006_13", "name": "Saleem Obaid", "number": 21, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_006_14", "name": "Ahmed Saffah Obeidat", "number": 55, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_006_15", "name": "Adham Al Quraishi", "number": 17, "position": "RB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_006_16", "name": "Ahmad Assaf", "number": 66, "position": "RB", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_006_17", "name": "Hashem Al-Mubaidin", "number": 6, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_006_18", "name": "Wasim Rialat", "number": 10, "position": "CM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_006_19", "name": "Faris Ghatasha", "number": 16, "position": "CAM", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_006_20", "name": "Ahmed Bani", "number": 14, "position": "RW", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_006_21", "name": "Reziq Bani Hani", "number": 20, "position": "ST", "country": "JO", "status": "bench"},
+      {"playerId": "player_jo1_006_22", "name": "Murad Al-Faluji", "number": 99, "position": "GK", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_006_23", "name": "Yousef Qashi", "number": 29, "position": "CM", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_006_24", "name": "Obieda Al-Namarneh", "number": 33, "position": "LW", "country": "JO", "status": "reserve"},
+      {"playerId": "player_jo1_006_25", "name": "Khaldoon Sabra", "number": 90, "position": "ST", "country": "JO", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 23, "setPieces": {"penalty": 74, "freeKick": 98, "cornerLeft": 13, "cornerRight": 11}}
   }
-}
