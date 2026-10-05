@@ -1,12 +1,35 @@
 {
-  "teamKey": "Star Ct",
-
-  "name": "Star City FC",
-
-  "logo": "assets/logos/asia/malaysia/Star.png",
-
-  "stadium": {
-    "name": "Tuanku Syed Putra Stadium",
-    "capacity": 20000
+    "teamKey": "Star Ct",
+    "name": "Star City FC",
+    "logo": "assets/logos/asia/malaysia/Star.png",
+    "manager": {"name": "Mehmet Duraković", "country": "AU"},
+    "stadium": {"name": "Tuanku Syed Putra Stadium", "capacity": 20000},
+    "players": [
+      {"playerId": "player_my1_011_01", "name": "Hafizul Hakim", "number": 23, "position": "GK", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_011_02", "name": "Rizal Ghazali", "number": 15, "position": "RB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_011_03", "name": "Rafael Vitor", "number": 17, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_my1_011_04", "name": "Harith Samsuri", "number": 4, "position": "CB", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_011_05", "name": "Noah Leddel", "number": 2, "position": "LB", "country": "DE", "status": "starter"},
+      {"playerId": "player_my1_011_06", "name": "Moses Atede", "number": 7, "position": "CDM", "country": "BH", "status": "starter"},
+      {"playerId": "player_my1_011_07", "name": "Endrick dos Santos", "number": 14, "position": "CM", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_011_08", "name": "Saravanan Thirumurugan", "number": 8, "position": "RW", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_011_09", "name": "Pedro Santos", "number": 5, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_my1_011_10", "name": "Nik Akif Syahiran", "number": 33, "position": "LW", "country": "MY", "status": "starter"},
+      {"playerId": "player_my1_011_11", "name": "Pedro Henrique", "number": 10, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_my1_011_12", "name": "Shaiful Wazizi", "number": 20, "position": "GK", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_011_13", "name": "Mohd Akmal Md Zahir", "number": 3, "position": "CB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_011_14", "name": "Aiman Yusni", "number": 12, "position": "RB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_011_15", "name": "Loqman Hakim", "number": 13, "position": "CB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_011_16", "name": "Anwar Ibrahim", "number": 25, "position": "CB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_011_17", "name": "Heshamudin Ahmad", "number": 30, "position": "LB", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_011_18", "name": "Nur Azfar Fikri", "number": 6, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_011_19", "name": "Mior Dani Armin", "number": 19, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_011_20", "name": "Zulfahmi Arifin", "number": 29, "position": "CM", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_011_21", "name": "Syafik Ismail", "number": 18, "position": "ST", "country": "MY", "status": "bench"},
+      {"playerId": "player_my1_011_22", "name": "Farhan Abdul Majid", "number": 43, "position": "GK", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_011_23", "name": "Engku Nur Shakir", "number": 22, "position": "CM", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_011_24", "name": "Muhammad Syahmi Zamri", "number": 26, "position": "ST", "country": "MY", "status": "reserve"},
+      {"playerId": "player_my1_011_25", "name": "Douglas Oliveira", "number": 97, "position": "ST", "country": "BR", "status": "reserve"}
+    ],
+    "tactics": {"formation": "4-2-3-1", "captain": 17, "setPieces": {"penalty": 10, "freeKick": 5, "cornerLeft": 33, "cornerRight": 8}}
   }
-}
