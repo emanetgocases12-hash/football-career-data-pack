@@ -1,12 +1,52 @@
-{
-  "teamKey": "Mumbai",
+ {
+    "teamKey": "Mumbai",
+    "name": "Mumbai City FC",
+    "logo": "assets/logos/asia/india/Mumbai.png",
+    "manager": {
+      "name": "Manolo Márquez",
+      "country": "ES"
+    },
+    "stadium": {
+      "name": "Mumbai Football Arena",
+      "capacity": 7000
+    },
+    "players": [
+      {"playerId": "player_in1_011_01", "name": "TP Rehenesh", "number": 23, "position": "GK", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_011_02", "name": "Hmingthanmawia Ralte", "number": 3, "position": "RB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_011_03", "name": "Carlos Delgado", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_in1_011_04", "name": "Lazar Ćirković", "number": 5, "position": "CB", "country": "RS", "status": "starter"},
+      {"playerId": "player_in1_011_05", "name": "Akash Mishra", "number": 31, "position": "LB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_011_06", "name": "Sergio Llamas Pardo", "number": 34, "position": "CDM", "country": "ES", "status": "starter"},
+      {"playerId": "player_in1_011_07", "name": "Brandon Fernandes", "number": 10, "position": "CM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_011_08", "name": "Vikram Partap Singh", "number": 6, "position": "CAM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_011_09", "name": "Noufal PN", "number": 92, "position": "RW", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_011_10", "name": "Leandro Otormín", "number": 7, "position": "LW", "country": "UY", "status": "starter"},
+      {"playerId": "player_in1_011_11", "name": "Wilmar Jordan Gil", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
 
-  "name": "Mumbai City FC",
+      {"playerId": "player_in1_011_12", "name": "Ahan Prakash", "number": 32, "position": "GK", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_011_13", "name": "Amandeep Vrish Bhan", "number": 18, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_011_14", "name": "Bijay Chhetri", "number": 17, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_011_15", "name": "Sahil Panwar", "number": 36, "position": "LB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_011_16", "name": "Nathan Rodrigues", "number": 27, "position": "RB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_011_17", "name": "Franklin Nazareth", "number": 16, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_011_18", "name": "Gyamar Nikum", "number": 77, "position": "CAM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_011_19", "name": "Zothanpuia", "number": 45, "position": "CM", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_011_20", "name": "Muhammed Ajsal", "number": 19, "position": "ST", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_011_21", "name": "Yuvraj Kadam", "number": 29, "position": "LW", "country": "IN", "status": "bench"},
 
-  "logo": "assets/logos/asia/india/Mumbai.png",
-
-  "stadium": {
-    "name": "Mumbai Football Arena",
-    "capacity": 7000
+      {"playerId": "player_in1_011_22", "name": "Ashish Sibi", "number": 1, "position": "GK", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_011_23", "name": "Dhruv Alva", "number": 20, "position": "RB", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_011_24", "name": "Ishaan Shishodia", "number": 25, "position": "CM", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_011_25", "name": "Lalnuntluanga Bawitlung", "number": 14, "position": "CM", "country": "IN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 7
+      }
+    }
   }
-}
