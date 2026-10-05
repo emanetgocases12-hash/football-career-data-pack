@@ -1,12 +1,50 @@
 {
-  "teamKey": "E Dist",
-
-  "name": "Eastern District",
-
-  "logo": "assets/logos/asia/hong_kong/East.png",
-
-  "stadium": {
-    "name": "Siu Sai Wan Sports Ground",
-    "capacity": 11981
+    "teamKey": "E Dist",
+    "name": "Eastern District",
+    "logo": "assets/logos/asia/hong_kong/East.png",
+    "manager": {
+      "name": "Ng Wai Chiu",
+      "country": "HK"
+    },
+    "stadium": {
+      "name": "Siu Sai Wan Sports Ground",
+      "capacity": 11981
+    },
+    "players": [
+      {"playerId": "player_hk1_002_01", "name": "Paulo César da Silva Argolo", "number": 1, "position": "GK", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_002_02", "name": "Li Ngai Hoi", "number": 4, "position": "LB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_002_03", "name": "Hélio Gonçalves", "number": 5, "position": "CB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_002_04", "name": "Leon Jones", "number": 2, "position": "CB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_002_05", "name": "Yiu Cho Joe Chan", "number": 22, "position": "RB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_002_06", "name": "Charlie Scott", "number": 8, "position": "CM", "country": "GB-ENG", "status": "starter"},
+      {"playerId": "player_hk1_002_07", "name": "Ieong Lek Hang", "number": 14, "position": "CM", "country": "MO", "status": "starter"},
+      {"playerId": "player_hk1_002_08", "name": "Waseem Razeek", "number": 7, "position": "RW", "country": "LK", "status": "starter"},
+      {"playerId": "player_hk1_002_09", "name": "Luiz Humberto Dutra dos Santos", "number": 16, "position": "CAM", "country": "BR", "status": "starter"},
+      {"playerId": "player_hk1_002_10", "name": "Michel Renner Lopes Antunes", "number": 10, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_hk1_002_11", "name": "Lucas", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_hk1_002_12", "name": "Yat Chun Li", "number": 31, "position": "GK", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_002_13", "name": "Bruno de Oliveira Bianconi", "number": 6, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_hk1_002_14", "name": "Na Yun-ho", "number": 35, "position": "CB", "country": "KR", "status": "bench"},
+      {"playerId": "player_hk1_002_15", "name": "Daniel Almazan Vera", "number": 15, "position": "CB", "country": "ES", "status": "bench"},
+      {"playerId": "player_hk1_002_16", "name": "Wang Ngai Kohki Takizawa Sung", "number": 18, "position": "RB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_002_17", "name": "Cheuk Kwan Yeung", "number": 19, "position": "CM", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_002_18", "name": "Yik-Lai Maximilian Leung", "number": 17, "position": "CM", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_002_19", "name": "Krisna R Korani", "number": 20, "position": "LW", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_002_20", "name": "Leonardo José Peres", "number": 11, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_hk1_002_21", "name": "Valentino Yuel", "number": 24, "position": "RW", "country": "SS", "status": "bench"},
+      {"playerId": "player_hk1_002_22", "name": "Dipen Gurung", "number": 23, "position": "GK", "country": "GB-ENG", "status": "reserve"},
+      {"playerId": "player_hk1_002_23", "name": "Lobi Manzoki", "number": 99, "position": "ST", "country": "CF", "status": "reserve"},
+      {"playerId": "player_hk1_002_24", "name": "Si Hou In", "number": 12, "position": "ST", "country": "MO", "status": "reserve"},
+      {"playerId": "player_hk1_002_25", "name": "Tsz Kaai Kwok", "number": 21, "position": "CM", "country": "HK", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 5,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 7,
+        "cornerRight": 16
+      }
+    }
   }
-}
