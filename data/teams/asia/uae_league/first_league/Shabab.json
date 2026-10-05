@@ -1,12 +1,50 @@
 {
-  "teamKey": "Shabab",
-
-  "name": "Shabab Al Ahli",
-
-  "logo": "assets/logos/asia/uae/Shabab.png",
-
-  "stadium": {
-    "name": "Rashid Stadium",
-    "capacity": 8015
+    "teamKey": "Shabab",
+    "name": "Shabab Al Ahli",
+    "logo": "assets/logos/asia/uae/Shabab.png",
+    "manager": {
+      "name": "André Jardine",
+      "country": "BR"
+    },
+    "stadium": {
+      "name": "Rashid Stadium",
+      "capacity": 8015
+    },
+    "players": [
+      {"playerId": "player_ae1_011_01", "name": "Hamad Al-Meqbaali", "number": 22, "position": "GK", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_011_02", "name": "Sultan Al-Ghannam", "number": 3, "position": "RB", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_011_03", "name": "Renan", "number": 13, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_ae1_011_04", "name": "Kaiky", "number": 15, "position": "CB", "country": "BR", "status": "starter"},
+      {"playerId": "player_ae1_011_05", "name": "Bader Nasser", "number": 2, "position": "LB", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_011_06", "name": "Damián García", "number": 14, "position": "CDM", "country": "UY", "status": "starter"},
+      {"playerId": "player_ae1_011_07", "name": "Saeed Ezatolahi", "number": 6, "position": "CDM", "country": "IR", "status": "starter"},
+      {"playerId": "player_ae1_011_08", "name": "Nemanja Maksimovic", "number": 88, "position": "CM", "country": "RS", "status": "starter"},
+      {"playerId": "player_ae1_011_09", "name": "Fede Cartabia", "number": 10, "position": "RW", "country": "AR", "status": "starter"},
+      {"playerId": "player_ae1_011_10", "name": "Guilherme Bala", "number": 77, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_ae1_011_11", "name": "Sardar Azmoun", "number": 20, "position": "ST", "country": "IR", "status": "starter"},
+      {"playerId": "player_ae1_011_12", "name": "Hassan Hamza", "number": 12, "position": "GK", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_011_13", "name": "Rakaan Al-Menhali", "number": 1, "position": "GK", "country": "AE", "status": "reserve"},
+      {"playerId": "player_ae1_011_14", "name": "Igor Gomes", "number": 25, "position": "CB", "country": "BR", "status": "bench"},
+      {"playerId": "player_ae1_011_15", "name": "Bogdan Planic", "number": 4, "position": "CB", "country": "RS", "status": "bench"},
+      {"playerId": "player_ae1_011_16", "name": "Walid Abbas", "number": 5, "position": "CB", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_011_17", "name": "Breno Lemos", "number": 80, "position": "CM", "country": "BR", "status": "bench"},
+      {"playerId": "player_ae1_011_18", "name": "Sebastián González", "number": 28, "position": "CM", "country": "EC", "status": "bench"},
+      {"playerId": "player_ae1_011_19", "name": "Yahya Al-Ghassani", "number": 11, "position": "LW", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_011_20", "name": "Thiago Scarpino", "number": 70, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_ae1_011_21", "name": "João Marcelo", "number": 79, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_ae1_011_22", "name": "Munas Dabbur", "number": 9, "position": "ST", "country": "IL", "status": "bench"},
+      {"playerId": "player_ae1_011_23", "name": "Eid Khamis", "number": 26, "position": "CM", "country": "AE", "status": "reserve"},
+      {"playerId": "player_ae1_011_24", "name": "Hareb Abdalla", "number": 7, "position": "RW", "country": "AE", "status": "reserve"},
+      {"playerId": "player_ae1_011_25", "name": "Abdalla Ramadan", "number": 8, "position": "CM", "country": "AE", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 22,
+      "setPieces": {
+        "penalty": 20,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 77
+      }
+    }
   }
-}
