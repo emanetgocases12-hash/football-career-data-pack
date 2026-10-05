@@ -1,12 +1,44 @@
-{
-  "teamKey": "Mabarr",
-
-  "name": "Al Mabarrah Sporting Club",
-
-  "logo": "assets/logos/asia/lebanon/Mabarra.png",
-
-  "stadium": {
-    "name": "Fouad Chehab Stadium",
-    "capacity": 5000
+ {
+    "teamKey": "Mabarr",
+    "name": "Al Mabarrah Sporting Club",
+    "logo": "assets/logos/asia/lebanon/Mabarra.png",
+    "manager": {"name": "Malek Hassoun", "country": "LB"},
+    "stadium": {"name": "Fouad Chehab Stadium", "capacity": 5000},
+    "players": [
+      {"playerId": "player_lb1_007_01", "name": "Ahmad Taktouk", "number": 1, "position": "GK", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_007_02", "name": "Ibrahim Hoteit", "number": 2, "position": "RB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_007_03", "name": "Kassem Watfa", "number": 3, "position": "CB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_007_04", "name": "Mohammad Farhat", "number": 4, "position": "CB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_007_05", "name": "Ali Abboud", "number": 5, "position": "LB", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_007_06", "name": "Hussein Ibrahim", "number": 6, "position": "CDM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_007_07", "name": "Hussein Bajouk", "number": 7, "position": "CM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_007_08", "name": "Hassan Chaito", "number": 8, "position": "CAM", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_007_09", "name": "Mohammad Rachid", "number": 9, "position": "RW", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_007_10", "name": "Karim Tarhini", "number": 10, "position": "LW", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_007_11", "name": "Karim Slim", "number": 11, "position": "ST", "country": "LB", "status": "starter"},
+      {"playerId": "player_lb1_007_12", "name": "Ali Daher", "number": 12, "position": "GK", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_007_13", "name": "Yves Constant Legre", "number": 13, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_lb1_007_14", "name": "Mohamed Kone", "number": 14, "position": "CB", "country": "CI", "status": "bench"},
+      {"playerId": "player_lb1_007_15", "name": "Qossay Battat", "number": 15, "position": "RB", "country": "PS", "status": "bench"},
+      {"playerId": "player_lb1_007_16", "name": "Ahmad Hijazi", "number": 16, "position": "ST", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_007_17", "name": "Mahmoud Zbib", "number": 17, "position": "CM", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_007_18", "name": "Ali Tneich", "number": 18, "position": "CDM", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_007_19", "name": "Omar Bahlawan", "number": 19, "position": "ST", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_007_20", "name": "Hassan Kourani", "number": 20, "position": "RW", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_007_21", "name": "Samer Harb", "number": 21, "position": "LW", "country": "LB", "status": "bench"},
+      {"playerId": "player_lb1_007_22", "name": "Hassan Hazime", "number": 22, "position": "GK", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_007_23", "name": "Hussein Awada", "number": 23, "position": "ST", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_007_24", "name": "Mohamad Kassem", "number": 24, "position": "CM", "country": "LB", "status": "reserve"},
+      {"playerId": "player_lb1_007_25", "name": "Ali Moussa", "number": 25, "position": "LB", "country": "LB", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 2,
+      "setPieces": {
+        "penalty": 11,
+        "freeKick": 9,
+        "cornerLeft": 10,
+        "cornerRight": 8
+      }
+    }
   }
-}
