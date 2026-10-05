@@ -1,12 +1,44 @@
 {
-  "teamKey": "Cerezo",
-
-  "name": "Cerezo Osaka",
-
-  "logo": "assets/logos/asia/japan/Cerezo.png",
-
-  "stadium": {
-    "name": "YANMAR HANASAKA STADIUM",
-    "capacity": 24481
+    "teamKey": "Cerezo",
+    "name": "Cerezo Osaka",
+    "logo": "assets/logos/asia/japan/Cerezo.png",
+    "manager": {"name": "Pablo Machin", "country": "ES"},
+    "stadium": {"name": "YANMAR HANASAKA STADIUM", "capacity": 24481},
+    "players": [
+      {"playerId": "player_jp1_002_01", "name": "Nakamura Kosuke", "number": 23, "position": "GK", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_002_02", "name": "Nakamura Takumi", "number": 2, "position": "RB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_002_03", "name": "Inoue Rikito", "number": 4, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_002_04", "name": "Hatanaka Shinnosuke", "number": 44, "position": "CB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_002_05", "name": "Ohata Ayumu", "number": 66, "position": "LB", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_002_06", "name": "Tanaka Shunta", "number": 10, "position": "CDM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_002_07", "name": "Jackson Irvine", "number": 36, "position": "CM", "country": "AU", "status": "starter"},
+      {"playerId": "player_jp1_002_08", "name": "Kagawa Shinji", "number": 8, "position": "CAM", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_002_09", "name": "Lucas Fernandes", "number": 77, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_jp1_002_10", "name": "Sakuragawa Solomon", "number": 9, "position": "ST", "country": "JP", "status": "starter"},
+      {"playerId": "player_jp1_002_11", "name": "Thiago Andrade", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_jp1_002_12", "name": "Kambayashi Go", "number": 1, "position": "GK", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_002_13", "name": "Noborizato Kyohei", "number": 6, "position": "LB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_002_14", "name": "Javi Hernandez", "number": 15, "position": "CB", "country": "ES", "status": "bench"},
+      {"playerId": "player_jp1_002_15", "name": "Okuda Hayato", "number": 16, "position": "RB", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_002_16", "name": "Dion Cools", "number": 27, "position": "CB", "country": "MY", "status": "bench"},
+      {"playerId": "player_jp1_002_17", "name": "Uejo Satoki", "number": 7, "position": "CAM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_002_18", "name": "Yokoyama Yumeki", "number": 14, "position": "RW", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_002_19", "name": "Okazawa Kosei", "number": 28, "position": "CM", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_002_20", "name": "Pablo Sabbag", "number": 19, "position": "ST", "country": "CO", "status": "bench"},
+      {"playerId": "player_jp1_002_21", "name": "Komi Yota", "number": 41, "position": "LW", "country": "JP", "status": "bench"},
+      {"playerId": "player_jp1_002_22", "name": "Abe Koto", "number": 31, "position": "GK", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_002_23", "name": "Kimura Seinosuke", "number": 33, "position": "CB", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_002_24", "name": "Shibayama Masaya", "number": 48, "position": "CAM", "country": "JP", "status": "reserve"},
+      {"playerId": "player_jp1_002_25", "name": "Sakata Reiya", "number": 17, "position": "CM", "country": "JP", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 8,
+        "cornerLeft": 8,
+        "cornerRight": 11
+      }
+    }
   }
-}
