@@ -1,12 +1,50 @@
-{
-  "teamKey": "N Dist",
-
-  "name": "Golik North District",
-
-  "logo": "assets/logos/asia/hong_kong/North.png",
-
-  "stadium": {
-    "name": "North District Sports Ground",
-    "capacity": 2500
+ {
+    "teamKey": "N Dist",
+    "name": "Golik North District",
+    "logo": "assets/logos/asia/hong_kong/North.png",
+    "manager": {
+      "name": "Sin Ka Yu",
+      "country": "MO"
+    },
+    "stadium": {
+      "name": "North District Sports Ground",
+      "capacity": 2500
+    },
+    "players": [
+      {"playerId": "player_hk1_008_01", "name": "Chan Kun Sun", "number": 13, "position": "GK", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_008_02", "name": "Wong Chun Ho", "number": 3, "position": "RB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_008_03", "name": "Carlos Páez", "number": 5, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_hk1_008_04", "name": "Kleimar Mosquera", "number": 16, "position": "CB", "country": "CO", "status": "starter"},
+      {"playerId": "player_hk1_008_05", "name": "Wong Tsz Ho", "number": 37, "position": "LB", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_008_06", "name": "Fung Kwun-Ming", "number": 4, "position": "CM", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_008_07", "name": "Kayke David Pereira", "number": 20, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_hk1_008_08", "name": "Yilber Arboleda", "number": 22, "position": "CAM", "country": "CO", "status": "starter"},
+      {"playerId": "player_hk1_008_09", "name": "Weverton Guilherme", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
+      {"playerId": "player_hk1_008_10", "name": "Jahangir Khan", "number": 19, "position": "LW", "country": "HK", "status": "starter"},
+      {"playerId": "player_hk1_008_11", "name": "Samuel Granada", "number": 28, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_hk1_008_12", "name": "Li Hon Ho", "number": 63, "position": "GK", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_008_13", "name": "Tsang Chun Hin", "number": 6, "position": "CB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_008_14", "name": "Wong Ho Yin", "number": 15, "position": "CB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_008_15", "name": "Kiranbir Singh", "number": 2, "position": "RB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_008_16", "name": "Chan Chun Hei Alvan", "number": 21, "position": "LB", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_008_17", "name": "Law Hiu Chung", "number": 10, "position": "CM", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_008_18", "name": "Lo Kong Wai", "number": 9, "position": "LM", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_008_19", "name": "Dai Tsz Hin Marcus", "number": 18, "position": "CM", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_008_20", "name": "Vinicius Soares dos Santos", "number": 8, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_hk1_008_21", "name": "Yuen Sai-Kit", "number": 7, "position": "RW", "country": "HK", "status": "bench"},
+      {"playerId": "player_hk1_008_22", "name": "Yuen Wang Chun", "number": 1, "position": "GK", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_008_23", "name": "Nam Siu Chung", "number": 23, "position": "CB", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_008_24", "name": "Yau Tsz Yin", "number": 24, "position": "LB", "country": "HK", "status": "reserve"},
+      {"playerId": "player_hk1_008_25", "name": "Tsui Long", "number": 87, "position": "CM", "country": "HK", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 4,
+      "setPieces": {
+        "penalty": 28,
+        "freeKick": 22,
+        "cornerLeft": 19,
+        "cornerRight": 11
+      }
+    }
   }
-}
