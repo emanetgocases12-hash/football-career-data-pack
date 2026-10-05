@@ -1,12 +1,52 @@
 {
-  "teamKey": "Kashi",
+    "teamKey": "Kashi",
+    "name": "Inter Kashi FC",
+    "logo": "assets/logos/asia/india/Kashi.png",
+    "manager": {
+      "name": "Abhijit Mondal",
+      "country": "IN"
+    },
+    "stadium": {
+      "name": "Kishore Bharati Krirangan",
+      "capacity": 12000
+    },
+    "players": [
+      {"playerId": "player_in1_007_01", "name": "Shubham Dhas", "number": 1, "position": "GK", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_007_02", "name": "Prabir Das", "number": 24, "position": "RB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_007_03", "name": "Narender Gahlot", "number": 18, "position": "CB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_007_04", "name": "David Humanes", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+      {"playerId": "player_in1_007_05", "name": "Nishu Kumar", "number": 22, "position": "LB", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_007_06", "name": "Jayesh Rane", "number": 10, "position": "CDM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_007_07", "name": "Karthik Panicker", "number": 14, "position": "CM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_007_08", "name": "Asif Khan", "number": 20, "position": "CAM", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_007_09", "name": "Prasanth K", "number": 8, "position": "RW", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_007_10", "name": "Seiminlen Doungel", "number": 12, "position": "LW", "country": "IN", "status": "starter"},
+      {"playerId": "player_in1_007_11", "name": "Mario Barco", "number": 26, "position": "ST", "country": "ES", "status": "starter"},
 
-  "name": "Inter Kashi FC",
+      {"playerId": "player_in1_007_12", "name": "Lluis Tarrés", "number": 13, "position": "GK", "country": "ES", "status": "bench"},
+      {"playerId": "player_in1_007_13", "name": "Wayne Vaz", "number": 5, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_007_14", "name": "Ashray Bhardwaj", "number": 15, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_007_15", "name": "Aritra Das", "number": 3, "position": "LB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_007_16", "name": "Deepak Devrani", "number": 16, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_007_17", "name": "Anil Chawan", "number": 17, "position": "CB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_007_18", "name": "Sandip Mandi", "number": 6, "position": "LB", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_007_19", "name": "Ashish Jha", "number": 19, "position": "LW", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_007_20", "name": "Rohit Danu", "number": 9, "position": "RW", "country": "IN", "status": "bench"},
+      {"playerId": "player_in1_007_21", "name": "Sumeet Passi", "number": 25, "position": "ST", "country": "IN", "status": "bench"},
 
-  "logo": "assets/logos/asia/india/Kashi.png",
-
-  "stadium": {
-    "name": "Kishore Bharati Krirangan",
-    "capacity": 12000
+      {"playerId": "player_in1_007_22", "name": "Mohit Singh Dhami", "number": 21, "position": "GK", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_007_23", "name": "Lalrindika Ralte", "number": 7, "position": "CM", "country": "IN", "status": "reserve"},
+      {"playerId": "player_in1_007_24", "name": "Bilel Saidani", "number": 23, "position": "CDM", "country": "TN", "status": "reserve"},
+      {"playerId": "player_in1_007_25", "name": "Abhash Thapa", "number": 28, "position": "RB", "country": "IN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-3-3",
+      "captain": 18,
+      "setPieces": {
+        "penalty": 26,
+        "freeKick": 10,
+        "cornerLeft": 8,
+        "cornerRight": 12
+      }
+    }
   }
-}
