@@ -1,12 +1,50 @@
 {
-  "teamKey": "Al-Ain",
-
-  "name": "Al Ain FC",
-
-  "logo": "assets/logos/asia/uae/Ain.png",
-
-  "stadium": {
-    "name": "Hazza bin Zayed Stadium",
-    "capacity": 23905
+    "teamKey": "Al-Ain",
+    "name": "Al Ain FC",
+    "logo": "assets/logos/asia/uae/Ain.png",
+    "manager": {
+      "name": "Vladimir Ivić",
+      "country": "RS"
+    },
+    "stadium": {
+      "name": "Hazza bin Zayed Stadium",
+      "capacity": 23905
+    },
+    "players": [
+      {"playerId": "player_ae1_002_01", "name": "Khalid Eisa", "number": 17, "position": "GK", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_002_02", "name": "Erik Jorgens", "number": 2, "position": "RB", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_002_03", "name": "Marcel Ratnik", "number": 14, "position": "CB", "country": "SI", "status": "starter"},
+      {"playerId": "player_ae1_002_04", "name": "Kouame Autonne Kouadio", "number": 3, "position": "CB", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_002_05", "name": "Solomon Sosu", "number": 16, "position": "LB", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_002_06", "name": "Yahia Nader", "number": 6, "position": "CDM", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_002_07", "name": "Park Yong-woo", "number": 5, "position": "CM", "country": "KR", "status": "starter"},
+      {"playerId": "player_ae1_002_08", "name": "Kaku", "number": 10, "position": "CAM", "country": "PY", "status": "starter"},
+      {"playerId": "player_ae1_002_09", "name": "Alejandro Romero Gamarra", "number": 7, "position": "RW", "country": "PY", "status": "starter"},
+      {"playerId": "player_ae1_002_10", "name": "Mohamed Abbas", "number": 20, "position": "LW", "country": "AE", "status": "starter"},
+      {"playerId": "player_ae1_002_11", "name": "Soufiane Rahimi", "number": 21, "position": "ST", "country": "MA", "status": "starter"},
+      {"playerId": "player_ae1_002_12", "name": "Mohammed Bu Senda", "number": 1, "position": "GK", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_002_13", "name": "Hassan Muhammed", "number": 35, "position": "GK", "country": "NG", "status": "reserve"},
+      {"playerId": "player_ae1_002_14", "name": "Yahya Benkhaleq", "number": 4, "position": "CB", "country": "MA", "status": "bench"},
+      {"playerId": "player_ae1_002_15", "name": "Amadou Niang", "number": 56, "position": "CB", "country": "SN", "status": "bench"},
+      {"playerId": "player_ae1_002_16", "name": "Ramy Rabia", "number": 25, "position": "CB", "country": "EG", "status": "bench"},
+      {"playerId": "player_ae1_002_17", "name": "Bandar Al-Ahbabi", "number": 23, "position": "RB", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_002_18", "name": "Matias Palacios", "number": 8, "position": "CM", "country": "AR", "status": "bench"},
+      {"playerId": "player_ae1_002_19", "name": "Sékou Gassama", "number": 11, "position": "RW", "country": "ML", "status": "bench"},
+      {"playerId": "player_ae1_002_20", "name": "Hazem Mohammad", "number": 30, "position": "RW", "country": "AE", "status": "bench"},
+      {"playerId": "player_ae1_002_21", "name": "Rilwanu Sarki", "number": 77, "position": "RW", "country": "NG", "status": "bench"},
+      {"playerId": "player_ae1_002_22", "name": "Houssine Rahimi", "number": 13, "position": "ST", "country": "MA", "status": "bench"},
+      {"playerId": "player_ae1_002_23", "name": "Dramane Koumare", "number": 46, "position": "CB", "country": "ML", "status": "reserve"},
+      {"playerId": "player_ae1_002_24", "name": "Ahmed Barman", "number": 18, "position": "CM", "country": "AE", "status": "reserve"},
+      {"playerId": "player_ae1_002_25", "name": "Khalid Al-Baloushi", "number": 19, "position": "CM", "country": "AE", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 17,
+      "setPieces": {
+        "penalty": 21,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 20
+      }
+    }
   }
-}
