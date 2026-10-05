@@ -1,12 +1,50 @@
-{
-  "teamKey": "Jeju",
-
-  "name": "Jeju SK",
-
-  "logo": "assets/logos/asia/south_korean/Jeju.png",
-
-  "stadium": {
-    "name": "Jeju World Cup Stadium",
-    "capacity": 29791
+ {
+    "teamKey": "Jeju",
+    "name": "Jeju SK",
+    "logo": "assets/logos/asia/south_korean/Jeju.png",
+    "manager": {
+      "name": "Sergio Costa",
+      "country": "PT"
+    },
+    "stadium": {
+      "name": "Jeju World Cup Stadium",
+      "capacity": 29791
+    },
+    "players": [
+      {"playerId": "player_kr1_008_01", "name": "Kim Dong-jun", "number": 1, "position": "GK", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_008_02", "name": "Kim Tae-hwan", "number": 2, "position": "RB", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_008_03", "name": "Kim Joo-won", "number": 4, "position": "CB", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_008_04", "name": "Hong Sung-wook", "number": 5, "position": "CB", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_008_05", "name": "Kim Ryun-sung", "number": 6, "position": "LB", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_008_06", "name": "Kim Jung-min", "number": 8, "position": "CM", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_008_07", "name": "Italo", "number": 10, "position": "CM", "country": "BR", "status": "starter"},
+      {"playerId": "player_kr1_008_08", "name": "Nam Tae-hee", "number": 18, "position": "CAM", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_008_09", "name": "Seo Jin-su", "number": 14, "position": "RW", "country": "KR", "status": "starter"},
+      {"playerId": "player_kr1_008_10", "name": "Reis", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+      {"playerId": "player_kr1_008_11", "name": "Yuri Jonathan", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+      {"playerId": "player_kr1_008_12", "name": "Ahn Chan-gi", "number": 21, "position": "GK", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_008_13", "name": "Kim Geun-bae", "number": 41, "position": "GK", "country": "KR", "status": "reserve"},
+      {"playerId": "player_kr1_008_14", "name": "Lim Chae-min", "number": 26, "position": "CB", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_008_15", "name": "Chung Woon", "number": 13, "position": "LB", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_008_16", "name": "Ahn Tae-hyun", "number": 22, "position": "RB", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_008_17", "name": "Galego", "number": 7, "position": "RW", "country": "BR", "status": "bench"},
+      {"playerId": "player_kr1_008_18", "name": "Jin Sung-wook", "number": 19, "position": "ST", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_008_19", "name": "Kim Ju-gong", "number": 27, "position": "ST", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_008_20", "name": "Han Jong-moo", "number": 30, "position": "CM", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_008_21", "name": "Koo Ja-cheol", "number": 3, "position": "CM", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_008_22", "name": "Kim Geon-woong", "number": 15, "position": "CDM", "country": "KR", "status": "bench"},
+      {"playerId": "player_kr1_008_23", "name": "Park Jin-seong", "number": 17, "position": "LB", "country": "KR", "status": "reserve"},
+      {"playerId": "player_kr1_008_24", "name": "Jeong Woon", "number": 23, "position": "CB", "country": "KR", "status": "reserve"},
+      {"playerId": "player_kr1_008_25", "name": "Kim Hyun-woo", "number": 77, "position": "RW", "country": "KR", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 1,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 18,
+        "cornerLeft": 18,
+        "cornerRight": 11
+      }
+    }
   }
-}
