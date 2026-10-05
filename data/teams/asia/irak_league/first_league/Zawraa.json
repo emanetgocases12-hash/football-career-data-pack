@@ -1,12 +1,52 @@
 {
-  "teamKey": "Zawraa",
+    "teamKey": "Zawraa",
+    "name": "Al-Zawraa SC",
+    "logo": "assets/logos/asia/irak/Zawraa.png",
+    "manager": {
+      "name": "Basim Qasim",
+      "country": "IQ"
+    },
+    "stadium": {
+      "name": "Al-Zawraa Stadium",
+      "capacity": 15443
+    },
+    "players": [
+      {"playerId": "player_iq1_020_01", "name": "Ahmed Basil Fadhil", "number": 1, "position": "GK", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_020_02", "name": "Mustafa Saadoon", "number": 2, "position": "RB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_020_03", "name": "Maytham Jabbar", "number": 4, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_020_04", "name": "Omar Noori", "number": 5, "position": "CB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_020_05", "name": "Dhurgham Ismail", "number": 3, "position": "LB", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_020_06", "name": "Mohammed Qasim", "number": 6, "position": "CDM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_020_07", "name": "Sajad Jassim", "number": 8, "position": "CM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_020_08", "name": "Ali Jasim", "number": 7, "position": "RW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_020_09", "name": "Ahmed Yasin", "number": 10, "position": "CAM", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_020_10", "name": "Ibrahim Bayesh", "number": 11, "position": "LW", "country": "IQ", "status": "starter"},
+      {"playerId": "player_iq1_020_11", "name": "Mohannad Ali", "number": 9, "position": "ST", "country": "IQ", "status": "starter"},
 
-  "name": "Al-Zawraa SC",
+      {"playerId": "player_iq1_020_12", "name": "Hussein Hasan", "number": 12, "position": "GK", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_020_13", "name": "Mohammed Kadhim", "number": 14, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_020_14", "name": "Akam Hashem", "number": 15, "position": "CB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_020_15", "name": "Abdallah Nasib", "number": 16, "position": "CB", "country": "JO", "status": "bench"},
+      {"playerId": "player_iq1_020_16", "name": "Sajjad Mohammed Mahdi", "number": 17, "position": "LB", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_020_17", "name": "Amjad Attwan", "number": 18, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_020_18", "name": "Karrar Nabeel", "number": 20, "position": "CM", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_020_19", "name": "Haidar Abdulrahim", "number": 21, "position": "RW", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_020_20", "name": "Ali Yousif", "number": 22, "position": "ST", "country": "IQ", "status": "bench"},
+      {"playerId": "player_iq1_020_21", "name": "Saif Rasheed", "number": 19, "position": "ST", "country": "IQ", "status": "bench"},
 
-  "logo": "assets/logos/asia/irak/Zawraa.png",
-
-  "stadium": {
-    "name": "Al-Zawraa Stadium",
-    "capacity": 15443
+      {"playerId": "player_iq1_020_22", "name": "Jalal Hassan", "number": 23, "position": "GK", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_020_23", "name": "Mustafa Nadhim", "number": 24, "position": "CB", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_020_24", "name": "Hussein Ali", "number": 25, "position": "CM", "country": "IQ", "status": "reserve"},
+      {"playerId": "player_iq1_020_25", "name": "Ahmed Sabri", "number": 27, "position": "LW", "country": "IQ", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 6,
+      "setPieces": {
+        "penalty": 9,
+        "freeKick": 10,
+        "cornerLeft": 11,
+        "cornerRight": 7
+      }
+    }
   }
-}
