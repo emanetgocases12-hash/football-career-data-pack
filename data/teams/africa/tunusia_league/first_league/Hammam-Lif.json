@@ -1,12 +1,52 @@
 {
-  "teamKey": "H-Lif",
+    "teamKey": "H-Lif",
+    "name": "CS Hammam-Lif",
+    "logo": "assets/logos/africa/tunusia/HLif.png",
+    "manager": {
+      "name": "Chamseddine Dhaouadi",
+      "country": "TN"
+    },
+    "stadium": {
+      "name": "Stade Municipal de Hammam-Lif",
+      "capacity": 7200
+    },
+    "players": [
+      {"playerId": "player_tn1_008_01", "name": "Moez Ben Cherifia", "number": 40, "position": "GK", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_008_02", "name": "Firas Ben Ammar", "number": 23, "position": "RB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_008_03", "name": "Bahaeddine Sellami", "number": 26, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_008_04", "name": "Aymen Abassi", "number": 2, "position": "CB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_008_05", "name": "Habib Ghrairi", "number": 10, "position": "LB", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_008_06", "name": "Wael Barhoumi", "number": 25, "position": "CDM", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_008_07", "name": "Namory Sangaré", "number": 6, "position": "CM", "country": "ML", "status": "starter"},
+      {"playerId": "player_tn1_008_08", "name": "Aboubacar Sidiki Bérété", "number": 11, "position": "CAM", "country": "GN", "status": "starter"},
+      {"playerId": "player_tn1_008_09", "name": "Mohamed Aziz Yaakoubi", "number": 33, "position": "LW", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_008_10", "name": "Mohamed Ali Mejri", "number": 21, "position": "ST", "country": "TN", "status": "starter"},
+      {"playerId": "player_tn1_008_11", "name": "Ahmed Ben Tiba", "number": 7, "position": "RW", "country": "TN", "status": "starter"},
 
-  "name": "CS Hammam-Lif",
+      {"playerId": "player_tn1_008_12", "name": "Iheb Ben Mansour", "number": 1, "position": "GK", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_008_13", "name": "Iheb Dridi", "number": 29, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_008_14", "name": "Mohamed Yassine Ben Soltana", "number": 44, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_008_15", "name": "Aziz Boukeba", "number": 13, "position": "CB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_008_16", "name": "Mohamed Aziz Ben Omar", "number": 4, "position": "LB", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_008_17", "name": "Chedly Kacem", "number": 20, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_008_18", "name": "Rabie Karouia", "number": 30, "position": "CAM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_008_19", "name": "Oubaid Allah Meskini", "number": 8, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_008_20", "name": "Youssef Mosrati", "number": 18, "position": "CM", "country": "TN", "status": "bench"},
+      {"playerId": "player_tn1_008_21", "name": "Pa Omar Jobe", "number": 14, "position": "ST", "country": "GM", "status": "bench"},
 
-  "logo": "assets/logos/africa/tunusia/HLif.png",
-
-  "stadium": {
-    "name": "Stade Municipal de Hammam-Lif",
-    "capacity": 7200
+      {"playerId": "player_tn1_008_22", "name": "Iyed El Abed", "number": 22, "position": "GK", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_008_23", "name": "Wahib Serghini", "number": 17, "position": "CB", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_008_24", "name": "Hassen Manai", "number": 24, "position": "ST", "country": "TN", "status": "reserve"},
+      {"playerId": "player_tn1_008_25", "name": "Bechir Mkadem", "number": 9, "position": "ST", "country": "TN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 25,
+      "setPieces": {
+        "penalty": 21,
+        "freeKick": 7,
+        "cornerLeft": 33,
+        "cornerRight": 11
+      }
+    }
   }
-}
