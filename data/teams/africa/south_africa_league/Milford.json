@@ -1,12 +1,52 @@
 {
   "teamKey": "Milfrd",
-
   "name": "Milford FC",
-
   "logo": "assets/logos/africa/south_africa/Milfrd.png",
-
+  "manager": {
+    "name": "E. Mchunu",
+    "country": "ZA"
+  },
   "stadium": {
     "name": "Mhlathuze Sports Complex",
     "capacity": 10000
+  },
+  "players": [
+    {"playerId": "player_za1_009_01", "name": "S. Hleza", "number": 32, "position": "GK", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_009_02", "name": "T. Bhengu", "number": 23, "position": "RB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_009_03", "name": "V. Mthabela", "number": 5, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_009_04", "name": "O. Cele", "number": 22, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_009_05", "name": "P. Ngxongo", "number": 13, "position": "LB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_009_06", "name": "B. Mthiyane", "number": 4, "position": "CDM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_009_07", "name": "M. Mkhize", "number": 8, "position": "CM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_009_08", "name": "C. Mthethwa", "number": 55, "position": "RW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_009_09", "name": "M. Chili", "number": 10, "position": "CAM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_009_10", "name": "K. Radebe", "number": 50, "position": "LW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_009_11", "name": "S. Masilela", "number": 90, "position": "ST", "country": "ZA", "status": "starter"},
+
+    {"playerId": "player_za1_009_12", "name": "M. Madondo", "number": 30, "position": "GK", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_009_13", "name": "U. Somabhele", "number": 7, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_009_14", "name": "K. Khwanya", "number": 18, "position": "LB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_009_15", "name": "S. Siyaya", "number": 20, "position": "RB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_009_16", "name": "B. Sigomoshe", "number": 2, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_009_17", "name": "S. Joyi", "number": 6, "position": "CM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_009_18", "name": "A. Zuma", "number": 33, "position": "CAM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_009_19", "name": "Y. Nomandela", "number": 38, "position": "LW", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_009_20", "name": "S. Mdluli", "number": 14, "position": "ST", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_009_21", "name": "J. Gxakoshe", "number": 17, "position": "ST", "country": "ZA", "status": "bench"},
+
+    {"playerId": "player_za1_009_22", "name": "P. Jwara", "number": 12, "position": "ST", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_009_23", "name": "S. Ndlabi", "number": 21, "position": "RW", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_009_24", "name": "C. Sibiya", "number": 28, "position": "LW", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_009_25", "name": "B. Nyambe", "number": 47, "position": "ST", "country": "ZA", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 32,
+    "setPieces": {
+      "penalty": 90,
+      "freeKick": 55,
+      "cornerLeft": 55,
+      "cornerRight": 10
+    }
   }
 }
