@@ -1,12 +1,58 @@
 {
-  "teamKey": "Dewa",
+    "teamKey": "Dewa",
 
-  "name": "Dewa United Banten FC",
+    "name": "Dewa United Banten FC",
 
-  "logo": "assets/logos/asia/indonesia/Dewa.png",
+    "logo": "assets/logos/asia/indonesia/Dewa.png",
 
-  "stadium": {
-    "name": "Banten International Stadium",
-    "capacity": 30000
+    "manager": {
+      "name": "Osmar Loss Vieira",
+      "country": "BR"
+    },
+
+    "stadium": {
+      "name": "Banten International Stadium",
+      "capacity": 30000
+    },
+
+    "players": [
+      { "playerId": "player_id1_005_01", "name": "Sonny Stevens", "number": 92, "position": "GK", "country": "NL", "status": "starter" },
+      { "playerId": "player_id1_005_02", "name": "Ady Setiawan", "number": 23, "position": "RB", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_005_03", "name": "Nick Kuipers", "number": 2, "position": "CB", "country": "NL", "status": "starter" },
+      { "playerId": "player_id1_005_04", "name": "Johnathan", "number": 4, "position": "CB", "country": "BR", "status": "starter" },
+      { "playerId": "player_id1_005_05", "name": "Altariq Ballah", "number": 37, "position": "LB", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_005_06", "name": "Jean Mangabeira", "number": 5, "position": "CDM", "country": "BR", "status": "starter" },
+      { "playerId": "player_id1_005_07", "name": "Ivar Jenner", "number": 6, "position": "CM", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_005_08", "name": "Egy Maulana Vikri", "number": 10, "position": "RW", "country": "ID", "status": "starter" },
+      { "playerId": "player_id1_005_09", "name": "Alexis Messidoro", "number": 28, "position": "CAM", "country": "AR", "status": "starter" },
+      { "playerId": "player_id1_005_10", "name": "Taisei Marukawa", "number": 11, "position": "LW", "country": "JP", "status": "starter" },
+      { "playerId": "player_id1_005_11", "name": "Rafael Struick", "number": 27, "position": "ST", "country": "ID", "status": "starter" },
+
+      { "playerId": "player_id1_005_12", "name": "Muhamad Riyandi", "number": 1, "position": "GK", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_005_13", "name": "Damion Lowe", "number": 17, "position": "CB", "country": "JM", "status": "bench" },
+      { "playerId": "player_id1_005_14", "name": "Ko Myeong-seok", "number": 22, "position": "CB", "country": "KR", "status": "bench" },
+      { "playerId": "player_id1_005_15", "name": "Alfharezzi Buffon", "number": 25, "position": "CB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_005_16", "name": "Kafiatur Rizky", "number": 16, "position": "CM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_005_17", "name": "Ricky Kambuaya", "number": 19, "position": "CM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_005_18", "name": "Denilson Pereira", "number": 7, "position": "RW", "country": "BR", "status": "bench" },
+      { "playerId": "player_id1_005_19", "name": "Ripal Wahyudi", "number": 63, "position": "CM", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_005_20", "name": "Edo Febriansyah", "number": 97, "position": "LB", "country": "ID", "status": "bench" },
+      { "playerId": "player_id1_005_21", "name": "Noah Sadaoui", "number": 9, "position": "RW", "country": "MA", "status": "bench" },
+
+      { "playerId": "player_id1_005_22", "name": "Fais Iqbal", "number": 98, "position": "GK", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_005_23", "name": "Carlos Iury", "number": 70, "position": "ST", "country": "BR", "status": "reserve" },
+      { "playerId": "player_id1_005_24", "name": "Nofalio Ardanan", "number": 90, "position": "ST", "country": "ID", "status": "reserve" },
+      { "playerId": "player_id1_005_25", "name": "Husain Anshori", "number": 88, "position": "CM", "country": "ID", "status": "reserve" }
+    ],
+
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 10,
+      "setPieces": {
+        "penalty": 27,
+        "freeKick": 28,
+        "cornerLeft": 11,
+        "cornerRight": 10
+      }
+    }
   }
-}
