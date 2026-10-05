@@ -1,12 +1,52 @@
 {
   "teamKey": "Polokw",
-
   "name": "Polokwane City",
-
   "logo": "assets/logos/africa/south_africa/Polokw.png",
-
+  "manager": {
+    "name": "W. Moloto",
+    "country": "ZA"
+  },
   "stadium": {
     "name": "Old Peter Mokaba Stadium",
     "capacity": 15000
+  },
+  "players": [
+    {"playerId": "player_za1_011_01", "name": "Brian Bwire", "number": 50, "position": "GK", "country": "KE", "status": "starter"},
+    {"playerId": "player_za1_011_02", "name": "Thabang Matuludi", "number": 2, "position": "RB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_011_03", "name": "Mpho Mvundlela", "number": 5, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_011_04", "name": "Bulelani Nikani", "number": 4, "position": "CB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_011_05", "name": "Tlou Nkwe", "number": 3, "position": "LB", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_011_06", "name": "Sapholwethu Kelepu", "number": 6, "position": "CDM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_011_07", "name": "Ndamulelo Maphangule", "number": 14, "position": "CM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_011_08", "name": "Bonginkosi Dlamini", "number": 17, "position": "RW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_011_09", "name": "Puleng Marema", "number": 10, "position": "CAM", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_011_10", "name": "Giovanni Philander", "number": 18, "position": "LW", "country": "ZA", "status": "starter"},
+    {"playerId": "player_za1_011_11", "name": "Raymond Daniels", "number": 20, "position": "ST", "country": "ZA", "status": "starter"},
+
+    {"playerId": "player_za1_011_12", "name": "Lindokuhle Mathebula", "number": 40, "position": "GK", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_011_13", "name": "Edwin Ramaja", "number": 22, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_011_14", "name": "Lebohang Nkaki", "number": 34, "position": "CB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_011_15", "name": "Gadinkame Modise", "number": 27, "position": "LB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_011_16", "name": "Surprise Manthosi", "number": 42, "position": "RB", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_011_17", "name": "Manuel Kambala", "number": 21, "position": "CDM", "country": "MZ", "status": "bench"},
+    {"playerId": "player_za1_011_18", "name": "Juan Mutudza", "number": 36, "position": "CM", "country": "ZW", "status": "bench"},
+    {"playerId": "player_za1_011_19", "name": "Banele Mnguni", "number": 35, "position": "CAM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_011_20", "name": "Keorapetse Sebone", "number": 25, "position": "RW", "country": "ZA", "status": "bench"},
+    {"playerId": "player_za1_011_21", "name": "Sibusiso Tshabalala", "number": 29, "position": "ST", "country": "ZA", "status": "bench"},
+
+    {"playerId": "player_za1_011_22", "name": "Mashudu Makhavhu", "number": 30, "position": "GK", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_011_23", "name": "Monty Batlhabane", "number": 47, "position": "CM", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_011_24", "name": "Keagile Malepe", "number": 39, "position": "LW", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_011_25", "name": "Lucky Mahlatsi", "number": 28, "position": "ST", "country": "ZA", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 50,
+    "setPieces": {
+      "penalty": 20,
+      "freeKick": 17,
+      "cornerLeft": 17,
+      "cornerRight": 10
+    }
   }
 }
