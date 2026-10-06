@@ -1,58 +1,58 @@
 {
-    "teamKey": "PAOK II",
-  
-    "name": "PAOK Thessaloniki B",
-  
-    "logo": "assets/logos/europe/greek/Paok2.png",
-  
-    "manager": {
-      "name": "Dani Ponz",
-      "country": "ES"
-    },
-  
-    "stadium": {
-      "name": "Vasilis Triantafyllidis",
-      "capacity": 6500
-    },
-  
-    "players": [
-      {"playerId": "player_gr2_014_01", "name": "Dimitrios Monastirlis", "number": 41, "position": "GK", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_014_02", "name": "Dimitrios Tsopouroglou", "number": 33, "position": "RB", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_014_03", "name": "Konstantinos Vyrsokinos", "number": 51, "position": "CB", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_014_04", "name": "Pavel Apetenok", "number": 97, "position": "CB", "country": "BY", "status": "starter"},
-      {"playerId": "player_gr2_014_05", "name": "Athanasios Leonidopoulos", "number": 3, "position": "LB", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_014_06", "name": "Vasilios Papageorgiou", "number": 6, "position": "CDM", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_014_07", "name": "Pavlos Tsiotas", "number": 8, "position": "CM", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_014_08", "name": "Adrian Caragea", "number": 30, "position": "RW", "country": "RO", "status": "starter"},
-      {"playerId": "player_gr2_014_09", "name": "Christos Kostoglou", "number": 10, "position": "CAM", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_014_10", "name": "Nikolaos Spyrakos", "number": 11, "position": "LW", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_014_11", "name": "Mark Sifneos", "number": 49, "position": "ST", "country": "GR", "status": "starter"},
-  
-      {"playerId": "player_gr2_014_12", "name": "Vasileios Nikolakoulis", "number": 81, "position": "GK", "country": "GR", "status": "bench"},
-      {"playerId": "player_gr2_014_13", "name": "Georgios Sideras", "number": 4, "position": "CB", "country": "GR", "status": "bench"},
-      {"playerId": "player_gr2_014_14", "name": "Evagjelos Gjoka", "number": 5, "position": "CB", "country": "AL", "status": "bench"},
-      {"playerId": "player_gr2_014_15", "name": "Konstantinos Toursounidis", "number": 2, "position": "RB", "country": "GR", "status": "bench"},
-      {"playerId": "player_gr2_014_16", "name": "Athanasios Papanikopoulos", "number": 18, "position": "CM", "country": "GR", "status": "bench"},
-      {"playerId": "player_gr2_014_17", "name": "Vasilios Eleftheriadis", "number": 20, "position": "CM", "country": "GR", "status": "bench"},
-      {"playerId": "player_gr2_014_18", "name": "Dimitrios Berdos", "number": 39, "position": "CAM", "country": "GR", "status": "bench"},
-      {"playerId": "player_gr2_014_19", "name": "Hicham Kanis", "number": 9, "position": "RW", "country": "MA", "status": "bench"},
-      {"playerId": "player_gr2_014_20", "name": "Paschalis Stylos", "number": 80, "position": "ST", "country": "GR", "status": "bench"},
-      {"playerId": "player_gr2_014_21", "name": "Vangelis Gravvanis", "number": 70, "position": "ST", "country": "GR", "status": "bench"},
-  
-      {"playerId": "player_gr2_014_22", "name": "Efstathios Beleris", "number": 62, "position": "GK", "country": "GR", "status": "reserve"},
-      {"playerId": "player_gr2_014_23", "name": "Eleftherios Manasidis", "number": 63, "position": "GK", "country": "GR", "status": "reserve"},
-      {"playerId": "player_gr2_014_24", "name": "Axel Galeano", "number": 24, "position": "CB", "country": "PY", "status": "reserve"},
-      {"playerId": "player_gr2_014_25", "name": "Karel Mustmaa", "number": 17, "position": "LW", "country": "EE", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 41,
-      "setPieces": {
-        "penalty": 49,
-        "freeKick": 10,
-        "cornerLeft": 30,
-        "cornerRight": 11
-      }
+  "teamKey": "PAOK II",
+
+  "name": "PAOK Thessaloniki B",
+
+  "logo": "assets/logos/europe/greek/Paok2.png",
+
+  "manager": {
+    "name": "Dani Ponz",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "Vasilis Triantafyllidis",
+    "capacity": 6500
+  },
+
+  "players": [
+    {"playerId": "player_gr2_014_01", "name": "Dimitrios Monastirlis", "number": 41, "position": "GK", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_014_02", "name": "Dimitrios Tsopouroglou", "number": 33, "position": "RB", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_014_03", "name": "Konstantinos Vyrsokinos", "number": 51, "position": "CB", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_014_04", "name": "Pavel Apetenok", "number": 97, "position": "CB", "country": "BY", "status": "starter"},
+    {"playerId": "player_gr2_014_05", "name": "Athanasios Leonidopoulos", "number": 3, "position": "LB", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_014_06", "name": "Vasilios Papageorgiou", "number": 6, "position": "CDM", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_014_07", "name": "Pavlos Tsiotas", "number": 8, "position": "CM", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_014_08", "name": "Adrian Caragea", "number": 30, "position": "RW", "country": "RO", "status": "starter"},
+    {"playerId": "player_gr2_014_09", "name": "Christos Kostoglou", "number": 10, "position": "CAM", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_014_10", "name": "Nikolaos Spyrakos", "number": 11, "position": "LW", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_014_11", "name": "Mark Sifneos", "number": 49, "position": "ST", "country": "GR", "status": "starter"},
+
+    {"playerId": "player_gr2_014_12", "name": "Vasileios Nikolakoulis", "number": 81, "position": "GK", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_014_13", "name": "Georgios Sideras", "number": 4, "position": "CB", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_014_14", "name": "Evagjelos Gjoka", "number": 5, "position": "CB", "country": "AL", "status": "bench"},
+    {"playerId": "player_gr2_014_15", "name": "Konstantinos Toursounidis", "number": 2, "position": "RB", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_014_16", "name": "Athanasios Papanikopoulos", "number": 18, "position": "CM", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_014_17", "name": "Vasilios Eleftheriadis", "number": 20, "position": "CM", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_014_18", "name": "Dimitrios Berdos", "number": 39, "position": "CAM", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_014_19", "name": "Hicham Kanis", "number": 9, "position": "RW", "country": "MA", "status": "bench"},
+    {"playerId": "player_gr2_014_20", "name": "Paschalis Stylos", "number": 80, "position": "ST", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_014_21", "name": "Vangelis Gravvanis", "number": 70, "position": "ST", "country": "GR", "status": "bench"},
+
+    {"playerId": "player_gr2_014_22", "name": "Efstathios Beleris", "number": 62, "position": "GK", "country": "GR", "status": "reserve"},
+    {"playerId": "player_gr2_014_26", "name": "Georgios Kosidis", "number": 78, "position": "CB", "country": "GR", "status": "reserve"},
+    {"playerId": "player_gr2_014_24", "name": "Axel Galeano", "number": 24, "position": "CB", "country": "PY", "status": "reserve"},
+    {"playerId": "player_gr2_014_25", "name": "Karel Mustmaa", "number": 17, "position": "LW", "country": "EE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 41,
+    "setPieces": {
+      "penalty": 49,
+      "freeKick": 10,
+      "cornerLeft": 30,
+      "cornerRight": 11
     }
   }
+}
