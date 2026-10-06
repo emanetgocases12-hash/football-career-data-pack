@@ -1,58 +1,58 @@
 {
-    "teamKey": "Tivat",
-  
-    "name": "Arsenal Tivat",
-  
-    "logo": "assets/logos/europe/montengro/Tivat.png",
-  
-    "manager": {
-      "name": "Radislav Dragićević",
-      "country": "ME"
-    },
-  
-    "stadium": {
-      "name": "Stadion u Parku",
-      "capacity": 1000
-    },
-  
-    "players": [
-      {"playerId": "player_me1_010_01", "name": "B. Zogović", "number": 1, "position": "GK", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_010_02", "name": "G. Petović", "number": 2, "position": "RB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_010_03", "name": "Z. Mikijelj", "number": 4, "position": "CB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_010_04", "name": "P. Mališić", "number": 5, "position": "CB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_010_05", "name": "M. Maraš", "number": 3, "position": "LB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_010_06", "name": "Irfan Šahman", "number": 6, "position": "CM", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_010_07", "name": "M. Živanović", "number": 8, "position": "CM", "country": "RS", "status": "starter"},
-      {"playerId": "player_me1_010_08", "name": "R. Kaneda", "number": 7, "position": "RW", "country": "JP", "status": "starter"},
-      {"playerId": "player_me1_010_09", "name": "A. Macanović", "number": 10, "position": "CAM", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_010_10", "name": "R. Rozin", "number": 11, "position": "LW", "country": "IL", "status": "starter"},
-      {"playerId": "player_me1_010_11", "name": "Staniša Mandić", "number": 9, "position": "ST", "country": "ME", "status": "starter"},
-  
-      {"playerId": "player_me1_010_12", "name": "I. Božinović", "number": 12, "position": "GK", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_010_13", "name": "M. Čobanov", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_010_14", "name": "P. Ražnatović", "number": 15, "position": "CM", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_010_15", "name": "K. Vujačić", "number": 16, "position": "CM", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_010_16", "name": "A. Abdullahi", "number": 17, "position": "CM", "country": "SO", "status": "bench"},
-      {"playerId": "player_me1_010_17", "name": "V. Kašćelan", "number": 18, "position": "CM", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_010_18", "name": "N. Eraković", "number": 20, "position": "CM", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_010_19", "name": "N. Bojanić", "number": 21, "position": "CM", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_010_20", "name": "A. Golub", "number": 19, "position": "ST", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_010_21", "name": "M. Đukanović", "number": 22, "position": "ST", "country": "ME", "status": "bench"},
-  
-      {"playerId": "player_me1_010_22", "name": "Igor Vukčević", "number": 23, "position": "ST", "country": "ME", "status": "reserve"},
-      {"playerId": "player_me1_010_23", "name": "S. Sesay", "number": 24, "position": "ST", "country": "SL", "status": "reserve"},
-      {"playerId": "player_me1_010_24", "name": "N. Gluščević", "number": 25, "position": "ST", "country": "ME", "status": "reserve"},
-      {"playerId": "player_me1_010_25", "name": "P. Šoškić", "number": 27, "position": "ST", "country": "RS", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 10,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 10,
-        "cornerLeft": 7,
-        "cornerRight": 11
-      }
+  "teamKey": "Tivat",
+
+  "name": "Arsenal Tivat",
+
+  "logo": "assets/logos/europe/montengro/Tivat.png",
+
+  "manager": {
+    "name": "Radislav Dragićević",
+    "country": "ME"
+  },
+
+  "stadium": {
+    "name": "Stadion u Parku",
+    "capacity": 1000
+  },
+
+  "players": [
+    {"playerId": "player_me1_010_01", "name": "B. Zogović", "number": 1, "position": "GK", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_010_02", "name": "G. Petović", "number": 2, "position": "RB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_010_03", "name": "Z. Mikijelj", "number": 4, "position": "CB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_010_04", "name": "P. Mališić", "number": 5, "position": "CB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_010_05", "name": "M. Maraš", "number": 3, "position": "LB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_010_06", "name": "Irfan Šahman", "number": 6, "position": "CM", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_010_07", "name": "M. Živanović", "number": 8, "position": "CM", "country": "RS", "status": "starter"},
+    {"playerId": "player_me1_010_08", "name": "R. Kaneda", "number": 7, "position": "RW", "country": "JP", "status": "starter"},
+    {"playerId": "player_me1_010_09", "name": "A. Macanović", "number": 10, "position": "CAM", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_010_10", "name": "R. Rozin", "number": 11, "position": "LW", "country": "IL", "status": "starter"},
+    {"playerId": "player_me1_010_11", "name": "Staniša Mandić", "number": 9, "position": "ST", "country": "ME", "status": "starter"},
+
+    {"playerId": "player_me1_010_12", "name": "I. Božinović", "number": 12, "position": "GK", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_010_13", "name": "M. Čobanov", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_010_14", "name": "P. Ražnatović", "number": 15, "position": "CM", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_010_15", "name": "K. Vujačić", "number": 16, "position": "CM", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_010_16", "name": "A. Abdullahi", "number": 17, "position": "CM", "country": "SO", "status": "bench"},
+    {"playerId": "player_me1_010_17", "name": "V. Kašćelan", "number": 18, "position": "CM", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_010_18", "name": "N. Eraković", "number": 20, "position": "CM", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_010_19", "name": "N. Bojanić", "number": 21, "position": "CM", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_010_20", "name": "A. Golub", "number": 19, "position": "ST", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_010_21", "name": "M. Đukanović", "number": 22, "position": "ST", "country": "ME", "status": "bench"},
+
+    {"playerId": "player_me1_010_26", "name": "Luka Petković", "number": 30, "position": "GK", "country": "ME", "status": "reserve"},
+    {"playerId": "player_me1_010_22", "name": "Igor Vukčević", "number": 23, "position": "ST", "country": "ME", "status": "reserve"},
+    {"playerId": "player_me1_010_23", "name": "S. Sesay", "number": 24, "position": "ST", "country": "SL", "status": "reserve"},
+    {"playerId": "player_me1_010_24", "name": "N. Gluščević", "number": 25, "position": "ST", "country": "ME", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 7,
+      "cornerRight": 11
     }
   }
+}
