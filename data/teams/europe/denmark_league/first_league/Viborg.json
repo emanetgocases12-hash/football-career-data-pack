@@ -1,58 +1,58 @@
 {
-    "teamKey": "Viborg",
-  
-    "name": "Viborg FF",
-  
-    "logo": "assets/logos/europe/denmark/Viborg.png",
-  
-    "manager": {
-      "name": "Nickolai Lund",
-      "country": "DK"
-    },
-  
-    "stadium": {
-      "name": "Energi Viborg Arena",
-      "capacity": 9566
-    },
-  
-    "players": [
-      {"playerId": "player_dk1_012_01", "name": "Kasper Kiilerich", "number": 20, "position": "GK", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk1_012_02", "name": "Lukas Emil Kirkegaard", "number": 4, "position": "RB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk1_012_03", "name": "Zan Zaletel", "number": 5, "position": "CB", "country": "SI", "status": "starter"},
-      {"playerId": "player_dk1_012_04", "name": "Daniel Anyembe", "number": 24, "position": "CB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk1_012_05", "name": "Oliver Bundgaard", "number": 23, "position": "LB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk1_012_06", "name": "Jeppe Grønning", "number": 13, "position": "CDM", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk1_012_07", "name": "Asker Beck", "number": 8, "position": "CM", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk1_012_08", "name": "Mads Søndergaard", "number": 6, "position": "CM", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk1_012_09", "name": "Charly Nouck", "number": 11, "position": "RW", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk1_012_10", "name": "Dorian Junior", "number": 19, "position": "ST", "country": "GQ", "status": "starter"},
-      {"playerId": "player_dk1_012_11", "name": "Sami Jalal Karchoud", "number": 10, "position": "LW", "country": "DK", "status": "starter"},
-  
-      {"playerId": "player_dk1_012_12", "name": "Lucas Lund", "number": 1, "position": "GK", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk1_012_13", "name": "Valgeir Lunddal", "number": 3, "position": "RB", "country": "IS", "status": "bench"},
-      {"playerId": "player_dk1_012_14", "name": "Mohamed Iyadh Riahi", "number": 2, "position": "RB", "country": "TN", "status": "bench"},
-      {"playerId": "player_dk1_012_15", "name": "Hjalte Bidstrup", "number": 26, "position": "CB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk1_012_16", "name": "Emil Monrad", "number": 38, "position": "CB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk1_012_17", "name": "Ruben Alte", "number": 18, "position": "CM", "country": "NO", "status": "bench"},
-      {"playerId": "player_dk1_012_18", "name": "Lasso Coulibaly", "number": 28, "position": "RM", "country": "GH", "status": "bench"},
-      {"playerId": "player_dk1_012_19", "name": "Frederik Damkjer", "number": 33, "position": "CM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk1_012_20", "name": "Philip Keller", "number": 34, "position": "CM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk1_012_21", "name": "Yonis Njoh", "number": 7, "position": "LW", "country": "FR", "status": "bench"},
-  
-      {"playerId": "player_dk1_012_22", "name": "Tim Freriks", "number": 9, "position": "ST", "country": "NL", "status": "reserve"},
-      {"playerId": "player_dk1_012_23", "name": "Giulio", "number": 25, "position": "ST", "country": "BR", "status": "reserve"},
-      {"playerId": "player_dk1_012_24", "name": "Roald Mitchell", "number": 29, "position": "ST", "country": "TT", "status": "reserve"},
-      {"playerId": "player_dk1_012_25", "name": "Adam Kleis-Kristoffersen", "number": 36, "position": "RW", "country": "DK", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-3-3",
-      "captain": 13,
-      "setPieces": {
-        "penalty": 19,
-        "freeKick": 10,
-        "cornerLeft": 11,
-        "cornerRight": 8
-      }
+  "teamKey": "Viborg",
+
+  "name": "Viborg FF",
+
+  "logo": "assets/logos/europe/denmark/Viborg.png",
+
+  "manager": {
+    "name": "Nickolai Lund",
+    "country": "DK"
+  },
+
+  "stadium": {
+    "name": "Energi Viborg Arena",
+    "capacity": 9566
+  },
+
+  "players": [
+    {"playerId": "player_dk1_012_01", "name": "Kasper Kiilerich", "number": 20, "position": "GK", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk1_012_02", "name": "Lukas Emil Kirkegaard", "number": 4, "position": "RB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk1_012_03", "name": "Zan Zaletel", "number": 5, "position": "CB", "country": "SI", "status": "starter"},
+    {"playerId": "player_dk1_012_04", "name": "Daniel Anyembe", "number": 24, "position": "CB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk1_012_05", "name": "Oliver Bundgaard", "number": 23, "position": "LB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk1_012_06", "name": "Jeppe Grønning", "number": 13, "position": "CDM", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk1_012_07", "name": "Asker Beck", "number": 8, "position": "CM", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk1_012_08", "name": "Mads Søndergaard", "number": 6, "position": "CM", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk1_012_09", "name": "Charly Nouck", "number": 11, "position": "RW", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk1_012_10", "name": "Dorian Junior", "number": 19, "position": "ST", "country": "GQ", "status": "starter"},
+    {"playerId": "player_dk1_012_11", "name": "Sami Jalal Karchoud", "number": 10, "position": "LW", "country": "DK", "status": "starter"},
+
+    {"playerId": "player_dk1_012_12", "name": "Lucas Lund", "number": 1, "position": "GK", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk1_012_13", "name": "Valgeir Lunddal", "number": 3, "position": "RB", "country": "IS", "status": "bench"},
+    {"playerId": "player_dk1_012_14", "name": "Mohamed Iyadh Riahi", "number": 2, "position": "RB", "country": "TN", "status": "bench"},
+    {"playerId": "player_dk1_012_15", "name": "Hjalte Bidstrup", "number": 26, "position": "CB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk1_012_16", "name": "Emil Monrad", "number": 38, "position": "CB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk1_012_17", "name": "Ruben Alte", "number": 18, "position": "CM", "country": "NO", "status": "bench"},
+    {"playerId": "player_dk1_012_18", "name": "Lasso Coulibaly", "number": 28, "position": "RM", "country": "GH", "status": "bench"},
+    {"playerId": "player_dk1_012_19", "name": "Frederik Damkjer", "number": 33, "position": "CM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk1_012_20", "name": "Philip Keller", "number": 34, "position": "CM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk1_012_21", "name": "Yonis Njoh", "number": 7, "position": "LW", "country": "FR", "status": "bench"},
+
+    {"playerId": "player_dk1_012_25", "name": "Filip Djukic", "number": 16, "position": "GK", "country": "ME", "status": "reserve"},
+    {"playerId": "player_dk1_012_22", "name": "Tim Freriks", "number": 9, "position": "ST", "country": "NL", "status": "reserve"},
+    {"playerId": "player_dk1_012_23", "name": "Giulio", "number": 25, "position": "ST", "country": "BR", "status": "reserve"},
+    {"playerId": "player_dk1_012_24", "name": "Roald Mitchell", "number": 29, "position": "ST", "country": "TT", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 13,
+    "setPieces": {
+      "penalty": 19,
+      "freeKick": 10,
+      "cornerLeft": 11,
+      "cornerRight": 8
     }
   }
+}
