@@ -1,0 +1,58 @@
+{
+  "teamKey": "Slavia II",
+
+  "name": "SK Slavia Prague B",
+
+  "logo": "assets/logos/europe/czechia/Slavia2.png",
+
+  "manager": {
+    "name": "Tomáš Heidenreich",
+    "country": "CZ"
+  },
+
+  "stadium": {
+    "name": "Stadion Josefa Rady",
+    "capacity": 1500
+  },
+
+  "players": [
+    {"playerId": "player_cz2_011_01", "name": "Nazar Domčak", "number": 1, "position": "GK", "country": "UA", "status": "starter"},
+    {"playerId": "player_cz2_011_02", "name": "František Herák", "number": 27, "position": "RB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_011_03", "name": "Pavel Behenský", "number": 12, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_011_04", "name": "Matyáš Mervard", "number": 28, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_011_05", "name": "Jakub Kolísek", "number": 24, "position": "LB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_011_06", "name": "Izuchukwu Okonkwo", "number": 18, "position": "CM", "country": "NG", "status": "starter"},
+    {"playerId": "player_cz2_011_07", "name": "Adam Rajnoha", "number": 20, "position": "CM", "country": "SK", "status": "starter"},
+    {"playerId": "player_cz2_011_08", "name": "Lazar Savović", "number": 7, "position": "CAM", "country": "ME", "status": "starter"},
+    {"playerId": "player_cz2_011_09", "name": "Karel Belžík", "number": 14, "position": "RW", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_011_10", "name": "Abel Cedergren", "number": 19, "position": "LW", "country": "NO", "status": "starter"},
+    {"playerId": "player_cz2_011_11", "name": "Dan Kohout", "number": 15, "position": "ST", "country": "CZ", "status": "starter"},
+
+    {"playerId": "player_cz2_011_12", "name": "Adam Rezek", "number": 29, "position": "GK", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_011_13", "name": "David Barčot", "number": 4, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_011_14", "name": "Eliáš Piták", "number": 16, "position": "RB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_011_15", "name": "Jáchym Palivec", "number": 2, "position": "LB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_011_16", "name": "Miguel Solarte", "number": 6, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_cz2_011_17", "name": "Štěpán Chaluš", "number": 23, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_011_18", "name": "Divine Teah", "number": 21, "position": "CM", "country": "LR", "status": "bench"},
+    {"playerId": "player_cz2_011_19", "name": "David Mikulanda", "number": 11, "position": "CAM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_011_20", "name": "Bartosz Szywala", "number": 10, "position": "RW", "country": "PL", "status": "bench"},
+    {"playerId": "player_cz2_011_21", "name": "Tomáš Necid", "number": 9, "position": "ST", "country": "CZ", "status": "bench"},
+
+    {"playerId": "player_cz2_011_22", "name": "Oleksandr Petrenko", "number": 30, "position": "GK", "country": "UA", "status": "reserve"},
+    {"playerId": "player_cz2_011_23", "name": "Martin Kovář", "number": 5, "position": "CB", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz2_011_24", "name": "Ondřej Frolík", "number": 26, "position": "CM", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz2_011_25", "name": "Victor Uduebo", "number": 8, "position": "ST", "country": "NG", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 12,
+    "setPieces": {
+      "penalty": 15,
+      "freeKick": 14,
+      "cornerLeft": 14,
+      "cornerRight": 7
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "Č.Lípa",
+
+  "name": "FK Arsenal Ceska Lipa",
+
+  "logo": "assets/logos/europe/czechia/Lipa.png",
+
+  "manager": {
+    "name": "Petr Mathauser",
+    "country": "CZ"
+  },
+
+  "stadium": {
+    "name": "Městský stadion u Ploučnice",
+    "capacity": 5000
+  },
+
+  "players": [
+    {"playerId": "player_cz2_007_01", "name": "Radek Novák", "number": 1, "position": "GK", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_007_02", "name": "Patrik Haitl", "number": 7, "position": "RB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_007_03", "name": "Martin Kouřil", "number": 22, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_007_04", "name": "František Matys", "number": 33, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_007_05", "name": "Václav Dudl", "number": 8, "position": "LB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_007_06", "name": "Adam Ondráček", "number": 14, "position": "RM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_007_07", "name": "Filip Blecha", "number": 20, "position": "CM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_007_08", "name": "Filip Havelka", "number": 45, "position": "CAM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_007_09", "name": "Jan Vostřel", "number": 24, "position": "LM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_007_10", "name": "Marek Červenka", "number": 10, "position": "ST", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_007_11", "name": "Matěj Simon", "number": 19, "position": "ST", "country": "CZ", "status": "starter"},
+
+    {"playerId": "player_cz2_007_12", "name": "Jan Šťovíček", "number": 13, "position": "GK", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_007_13", "name": "Adam Zouhar", "number": 44, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_007_14", "name": "Dominik Mašek", "number": 2, "position": "LB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_007_15", "name": "Matěj Vlk", "number": 4, "position": "RB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_007_16", "name": "Ondřej Zezulka", "number": 18, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_007_17", "name": "Riad Šuta", "number": 6, "position": "CB", "country": "BA", "status": "bench"},
+    {"playerId": "player_cz2_007_18", "name": "Ondřej Vencl", "number": 23, "position": "CM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_007_19", "name": "Ladislav Dufek", "number": 11, "position": "LM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_007_20", "name": "Alain Guei", "number": 5, "position": "RW", "country": "CI", "status": "bench"},
+    {"playerId": "player_cz2_007_21", "name": "Daniel Michl", "number": 9, "position": "ST", "country": "CZ", "status": "bench"},
+
+    {"playerId": "player_cz2_007_22", "name": "Olivier Vliegen", "number": 99, "position": "GK", "country": "BE", "status": "reserve"},
+    {"playerId": "player_cz2_007_23", "name": "Patrick Slanina", "number": 17, "position": "CM", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz2_007_24", "name": "Uzair Alhassan", "number": 3, "position": "CM", "country": "GH", "status": "reserve"},
+    {"playerId": "player_cz2_007_25", "name": "Patrik Schön", "number": 37, "position": "RW", "country": "CZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-4-1-1",
+    "captain": 22,
+    "setPieces": {
+      "penalty": 19,
+      "freeKick": 45,
+      "cornerLeft": 24,
+      "cornerRight": 14
+    }
+  }
+}

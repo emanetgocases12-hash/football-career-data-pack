@@ -1,0 +1,58 @@
+{
+  "teamKey": "Kladno",
+
+  "name": "SK Kladno",
+
+  "logo": "assets/logos/europe/czechia/Kladno.png",
+
+  "manager": {
+    "name": "Zdeněk Hašek",
+    "country": "CZ"
+  },
+
+  "stadium": {
+    "name": "Stadion Frantiska Kloze",
+    "capacity": 4000
+  },
+
+  "players": [
+    {"playerId": "player_cz2_006_01", "name": "Filip Náležinek", "number": 1, "position": "GK", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_006_02", "name": "Jan Kozojed", "number": 27, "position": "RB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_006_03", "name": "Martin Toml", "number": 25, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_006_04", "name": "Matyáš Jedlička", "number": 6, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_006_05", "name": "Marco Tulio", "number": 12, "position": "LB", "country": "BR", "status": "starter"},
+    {"playerId": "player_cz2_006_06", "name": "Daniel Samek", "number": 22, "position": "CDM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_006_07", "name": "Jakub Chalupa", "number": 4, "position": "CM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_006_08", "name": "Dominik Gembický", "number": 17, "position": "RW", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_006_09", "name": "Tadeáš Pospíšil", "number": 10, "position": "CAM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_006_10", "name": "Jan Lacko", "number": 18, "position": "LW", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_006_11", "name": "David Jurčenko", "number": 9, "position": "ST", "country": "CZ", "status": "starter"},
+
+    {"playerId": "player_cz2_006_12", "name": "Albert Kotlin", "number": 30, "position": "GK", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_006_13", "name": "Karel Hrubeš", "number": 15, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_006_14", "name": "Pavel Hrdlička", "number": 5, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_006_15", "name": "Radek Fojt", "number": 20, "position": "LB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_006_16", "name": "Enes Osmani", "number": 23, "position": "LM", "country": "AL", "status": "bench"},
+    {"playerId": "player_cz2_006_17", "name": "Hynek Hruška", "number": 7, "position": "CM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_006_18", "name": "Jiří Hudec", "number": 21, "position": "CM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_006_19", "name": "Tomáš Smejkal", "number": 26, "position": "RM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_006_20", "name": "Filip Růžička", "number": 13, "position": "LW", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_006_21", "name": "Ondřej Novotný", "number": 11, "position": "ST", "country": "CZ", "status": "bench"},
+
+    {"playerId": "player_cz2_006_22", "name": "Daniel Špilka", "number": 61, "position": "GK", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz2_006_23", "name": "Vojtěch Cítek", "number": 8, "position": "CB", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz2_006_24", "name": "Sulaiman Shehu", "number": 19, "position": "CM", "country": "NG", "status": "reserve"},
+    {"playerId": "player_cz2_006_25", "name": "Vítězslav Klimeš", "number": 14, "position": "ST", "country": "CZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 25,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 18,
+      "cornerRight": 17
+    }
+  }
+}

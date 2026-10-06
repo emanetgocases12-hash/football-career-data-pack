@@ -1,0 +1,58 @@
+{
+  "teamKey": "Opava",
+
+  "name": "Slezsky FC Opava",
+
+  "logo": "assets/logos/europe/czechia/Opava.png",
+
+  "manager": {
+    "name": "Svatopluk Habanec",
+    "country": "CZ"
+  },
+
+  "stadium": {
+    "name": "Simply Arena",
+    "capacity": 7758
+  },
+
+  "players": [
+    {"playerId": "player_cz2_008_01", "name": "Jiří Ciupa", "number": 31, "position": "GK", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_008_02", "name": "Ondřej Lehoczki", "number": 23, "position": "RB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_008_03", "name": "Amadou Aidara", "number": 5, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_cz2_008_04", "name": "Jiří Janoščín", "number": 6, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_008_05", "name": "Matěj Helešic", "number": 22, "position": "LB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_008_06", "name": "Marcel Novák", "number": 14, "position": "CM", "country": "SK", "status": "starter"},
+    {"playerId": "player_cz2_008_07", "name": "Felix Čejka", "number": 7, "position": "CM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_008_08", "name": "Barnabáš Lacíík", "number": 10, "position": "CAM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_008_09", "name": "Roman Zálešák", "number": 20, "position": "RW", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_008_10", "name": "Babacar Sy", "number": 25, "position": "LW", "country": "SN", "status": "starter"},
+    {"playerId": "player_cz2_008_11", "name": "Peter Juritka", "number": 77, "position": "ST", "country": "SK", "status": "starter"},
+
+    {"playerId": "player_cz2_008_12", "name": "Stefan Jovanoski", "number": 83, "position": "GK", "country": "MK", "status": "bench"},
+    {"playerId": "player_cz2_008_13", "name": "Adam Buchta", "number": 3, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_008_14", "name": "Filip Štěpánek", "number": 8, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_008_15", "name": "Jaromír Srubek", "number": 4, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_008_16", "name": "Denis Darmovzal", "number": 17, "position": "CAM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_008_17", "name": "Dennis Owusu", "number": 27, "position": "RM", "country": "DE", "status": "bench"},
+    {"playerId": "player_cz2_008_18", "name": "Elias Barteska", "number": 16, "position": "CAM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_008_19", "name": "Timotej Múdry", "number": 26, "position": "CM", "country": "SK", "status": "bench"},
+    {"playerId": "player_cz2_008_20", "name": "Lukáš Branecký", "number": 11, "position": "ST", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_008_21", "name": "Aliou Diao", "number": 99, "position": "ST", "country": "SN", "status": "bench"},
+
+    {"playerId": "player_cz2_008_22", "name": "Dominik Maitner", "number": 30, "position": "GK", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz2_008_23", "name": "David Krch", "number": 18, "position": "CAM", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz2_008_24", "name": "Nikola Turanjanin", "number": 21, "position": "CAM", "country": "BA", "status": "reserve"},
+    {"playerId": "player_cz2_008_25", "name": "Hamza Abdullahi", "number": 40, "position": "ST", "country": "NG", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 6,
+    "setPieces": {
+      "penalty": 77,
+      "freeKick": 10,
+      "cornerLeft": 25,
+      "cornerRight": 20
+    }
+  }
+}

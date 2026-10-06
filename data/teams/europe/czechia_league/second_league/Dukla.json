@@ -1,0 +1,58 @@
+{
+  "teamKey": "Dukla",
+
+  "name": "FK Dukla Prague",
+
+  "logo": "assets/logos/europe/czechia/Dıkla.png",
+
+  "manager": {
+    "name": "Pavel Šustr",
+    "country": "CZ"
+  },
+
+  "stadium": {
+    "name": "Stadion Juliska",
+    "capacity": 8150
+  },
+
+  "players": [
+    {"playerId": "player_cz2_002_01", "name": "Adam Jágrik", "number": 31, "position": "GK", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_002_02", "name": "Michal Tomič", "number": 37, "position": "RB", "country": "SK", "status": "starter"},
+    {"playerId": "player_cz2_002_03", "name": "Jaroslav Svozil", "number": 23, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_002_04", "name": "Daniel Kozma", "number": 39, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_002_05", "name": "Matěj Hanousek", "number": 15, "position": "LB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_002_06", "name": "Diego Velasquez", "number": 5, "position": "CDM", "country": "US", "status": "starter"},
+    {"playerId": "player_cz2_002_07", "name": "Denis Zamazal", "number": 16, "position": "CM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz2_002_08", "name": "Rajmund Mikuš", "number": 10, "position": "RW", "country": "SK", "status": "starter"},
+    {"playerId": "player_cz2_002_09", "name": "Jakub Kadák", "number": 26, "position": "CAM", "country": "SK", "status": "starter"},
+    {"playerId": "player_cz2_002_10", "name": "Seif Ali Hindi", "number": 21, "position": "LW", "country": "SE", "status": "starter"},
+    {"playerId": "player_cz2_002_11", "name": "Boubou Diallo", "number": 11, "position": "ST", "country": "ML", "status": "starter"},
+
+    {"playerId": "player_cz2_002_12", "name": "Hugo Jan Bačkovský", "number": 59, "position": "GK", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_002_13", "name": "Antoni Franke", "number": 27, "position": "CB", "country": "PL", "status": "bench"},
+    {"playerId": "player_cz2_002_14", "name": "Ondřej Lilling", "number": 6, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_002_15", "name": "Mateo Karamatic", "number": 34, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_cz2_002_16", "name": "Christian Bacinsky", "number": 32, "position": "CM", "country": "SK", "status": "bench"},
+    {"playerId": "player_cz2_002_17", "name": "Jakub Plšek", "number": 20, "position": "CM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_002_18", "name": "Martin Ambler", "number": 12, "position": "LM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_002_19", "name": "Pavel Gaszczyk", "number": 8, "position": "CAM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz2_002_20", "name": "Olatoundji Tessilimi", "number": 17, "position": "RW", "country": "BJ", "status": "bench"},
+    {"playerId": "player_cz2_002_21", "name": "Ante Matic", "number": 77, "position": "ST", "country": "HR", "status": "bench"},
+
+    {"playerId": "player_cz2_002_22", "name": "Filip Vácha", "number": 44, "position": "GK", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz2_002_23", "name": "Jonathan Okebugwu", "number": 25, "position": "LM", "country": "NG", "status": "reserve"},
+    {"playerId": "player_cz2_002_24", "name": "Diego Zarate", "number": 28, "position": "LW", "country": "US", "status": "reserve"},
+    {"playerId": "player_cz2_002_25", "name": "Chinonso Emeka", "number": 7, "position": "ST", "country": "NG", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 23,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 10,
+      "cornerLeft": 21,
+      "cornerRight": 10
+    }
+  }
+}
