@@ -1,0 +1,50 @@
+{
+  "teamKey": "Cottbu",
+  "name": "Energie Cottbus",
+  "logo": "assets/logos/europe/germany/Cottbus.png",
+  "manager": {
+    "name": "Claus-Dieter Wollitz",
+    "country": "DE"
+  },
+  "stadium": {
+    "name": "LEAG Energie Stadion",
+    "capacity": 20602
+  },
+  "players": [
+    {"playerId": "player_de2_004_01", "name": "Marcel Lotka", "number": 1, "position": "GK", "country": "PL", "status": "starter"},
+    {"playerId": "player_de2_004_02", "name": "King Manu", "number": 2, "position": "RB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_004_03", "name": "Axel Borgmann", "number": 20, "position": "CB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_004_04", "name": "Ryan Malone", "number": 16, "position": "CB", "country": "US", "status": "starter"},
+    {"playerId": "player_de2_004_05", "name": "Anderson Lucoqui", "number": 24, "position": "LB", "country": "AO", "status": "starter"},
+    {"playerId": "player_de2_004_06", "name": "Dominik Pelivan", "number": 5, "position": "CDM", "country": "HR", "status": "starter"},
+    {"playerId": "player_de2_004_07", "name": "Lukas Michelbrink", "number": 8, "position": "CM", "country": "LT", "status": "starter"},
+    {"playerId": "player_de2_004_08", "name": "Christian Kinsombi", "number": 7, "position": "RW", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_004_09", "name": "Tolcay Ciğerci", "number": 10, "position": "CAM", "country": "TR", "status": "starter"},
+    {"playerId": "player_de2_004_10", "name": "Julian Guttau", "number": 17, "position": "LW", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_004_11", "name": "Lucas Copado", "number": 9, "position": "ST", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_004_12", "name": "Kevin Kratzsch", "number": 29, "position": "GK", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_004_14", "name": "Henry Rorig", "number": 3, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_004_15", "name": "Tim Campulka", "number": 4, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_004_16", "name": "Luca Erlein", "number": 21, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_004_17", "name": "Fousseny Doumbia", "number": 23, "position": "CM", "country": "ML", "status": "bench"},
+    {"playerId": "player_de2_004_18", "name": "Leonardo Bittencourt", "number": 32, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_004_19", "name": "Moritz Hannemann", "number": 11, "position": "RW", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_004_20", "name": "Dmytro Bogdanov", "number": 13, "position": "ST", "country": "UA", "status": "bench"},
+    {"playerId": "player_de2_004_21", "name": "Erik Engelhardt", "number": 18, "position": "ST", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_004_22", "name": "Justin Butler", "number": 31, "position": "ST", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_004_13", "name": "Max Böhnke", "number": 30, "position": "GK", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de2_004_23", "name": "Aaron Reschke", "number": 43, "position": "CM", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de2_004_24", "name": "Joey Taubeneck", "number": 47, "position": "CB", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de2_004_26", "name": "Jonas Hofmann", "number": 6, "position": "CM", "country": "DE", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 20,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "teamKey": "Bielef",
+  "name": "Arminia Bielefeld",
+  "logo": "assets/logos/europe/germany/Bielefeld.png",
+  "manager": {
+    "name": "Oliver Kirch",
+    "country": "DE"
+  },
+  "stadium": {
+    "name": "SchücoArena",
+    "capacity": 26750
+  },
+  "players": [
+    {"playerId": "player_de2_001_01", "name": "Jonas Kersken", "number": 1, "position": "GK", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_001_02", "name": "Felix Hagmann", "number": 2, "position": "RB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_001_03", "name": "Maximilian Bauer", "number": 5, "position": "CB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_001_04", "name": "Joel Felix", "number": 3, "position": "CB", "country": "DK", "status": "starter"},
+    {"playerId": "player_de2_001_05", "name": "Arne Sicker", "number": 17, "position": "LB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_001_06", "name": "Lukas Kunze", "number": 13, "position": "CDM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_001_07", "name": "Marvin Mehlem", "number": 6, "position": "CM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_001_08", "name": "Benjamin Boakye", "number": 27, "position": "RW", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_001_09", "name": "Jannik Rochelt", "number": 10, "position": "CAM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_001_10", "name": "Marius Wörl", "number": 38, "position": "LW", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_001_11", "name": "David Min", "number": 9, "position": "ST", "country": "KR", "status": "starter"},
+    {"playerId": "player_de2_001_12", "name": "Leo Oppermann", "number": 18, "position": "GK", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_001_13", "name": "Maximilian Großer", "number": 19, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_001_14", "name": "Leon Schneider", "number": 23, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_001_15", "name": "Tim Handwerker", "number": 29, "position": "LB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_001_16", "name": "Henri Koudossou", "number": 7, "position": "RB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_001_17", "name": "Sam Schreck", "number": 8, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_001_18", "name": "Stefano Russo", "number": 21, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_001_19", "name": "Leon Jensen", "number": 31, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_001_20", "name": "Joel Grodowski", "number": 11, "position": "ST", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_001_21", "name": "Monju Momuluh", "number": 14, "position": "RW", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_001_23", "name": "Philip Hildesheim", "number": 47, "position": "GK", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de2_001_22", "name": "Isaiah Young", "number": 30, "position": "LW", "country": "US", "status": "reserve"},
+    {"playerId": "player_de2_001_24", "name": "Till Wegener", "number": 42, "position": "CM", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de2_001_25", "name": "Daniel Richter", "number": 43, "position": "CM", "country": "DE", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 5,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 27,
+      "cornerLeft": 27,
+      "cornerRight": 27
+    }
+  }
+}

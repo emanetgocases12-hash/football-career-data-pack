@@ -1,0 +1,50 @@
+{
+  "teamKey": "Karlsr",
+  "name": "Karlsruher SC",
+  "logo": "assets/logos/europe/germany/Karlsruher.png",
+  "manager": {
+    "name": "Maximilian Senft",
+    "country": "AT"
+  },
+  "stadium": {
+    "name": "BBBank Wildpark",
+    "capacity": 33180
+  },
+  "players": [
+    {"playerId": "player_de2_013_01", "name": "Mads Hermansen Bernat", "number": 1, "position": "GK", "country": "DK", "status": "starter"},
+    {"playerId": "player_de2_013_02", "name": "Sebastian Jung", "number": 2, "position": "RB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_013_03", "name": "Héliton", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_de2_013_04", "name": "Marcel Franke", "number": 28, "position": "CB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_013_05", "name": "David Herold", "number": 3, "position": "LB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_013_06", "name": "Dženis Burnić", "number": 6, "position": "CDM", "country": "BA", "status": "starter"},
+    {"playerId": "player_de2_013_07", "name": "Marvin Wanitzek", "number": 10, "position": "CM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_013_08", "name": "Efe-Kaan Sihlaroglu", "number": 7, "position": "RW", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_013_09", "name": "Lilian Egloff", "number": 25, "position": "CAM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_013_10", "name": "Fabian Schleusener", "number": 11, "position": "LW", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_013_11", "name": "Moritz Broschinski", "number": 9, "position": "ST", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_013_12", "name": "Gebert", "number": 18, "position": "GK", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_013_14", "name": "Paul Scholl", "number": 15, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_013_15", "name": "Christoph Kobald", "number": 22, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_de2_013_16", "name": "Lil Trémoulet", "number": 24, "position": "LB", "country": "FR", "status": "bench"},
+    {"playerId": "player_de2_013_17", "name": "Kwon", "number": 5, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_de2_013_18", "name": "Väänänen", "number": 8, "position": "CM", "country": "FI", "status": "bench"},
+    {"playerId": "player_de2_013_19", "name": "Civeja", "number": 23, "position": "CM", "country": "AL", "status": "bench"},
+    {"playerId": "player_de2_013_20", "name": "Fukuda", "number": 13, "position": "ST", "country": "JP", "status": "bench"},
+    {"playerId": "player_de2_013_21", "name": "Ben Farhat", "number": 19, "position": "LW", "country": "TN", "status": "bench"},
+    {"playerId": "player_de2_013_22", "name": "John Meyer", "number": 27, "position": "ST", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_013_13", "name": "Robin Himmelmann", "number": 30, "position": "GK", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de2_013_23", "name": "Ponente-Ramirez", "number": 37, "position": "RW", "country": "IT", "status": "reserve"},
+    {"playerId": "player_de2_013_24", "name": "Pedrosa", "number": 36, "position": "CB", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de2_013_25", "name": "Zor", "number": 26, "position": "CM", "country": "DE", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}

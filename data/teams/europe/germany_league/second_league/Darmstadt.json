@@ -1,0 +1,50 @@
+{
+  "teamKey": "Darms",
+  "name": "SV Darmstadt 98",
+  "logo": "assets/logos/europe/germany/Darmstadt.png",
+  "manager": {
+    "name": "Florian Kohfeldt",
+    "country": "DE"
+  },
+  "stadium": {
+    "name": "Merck-Stadion am Böllenfalltor",
+    "capacity": 17810
+  },
+  "players": [
+    {"playerId": "player_de2_005_01", "name": "Marcel Schuhen", "number": 1, "position": "GK", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_005_02", "name": "Matthias Bader", "number": 26, "position": "RB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_005_03", "name": "Patric Pfeiffer", "number": 6, "position": "CB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_005_04", "name": "Aleksandar Drešković", "number": 14, "position": "CB", "country": "ME", "status": "starter"},
+    {"playerId": "player_de2_005_05", "name": "Florian Kleinhansl", "number": 3, "position": "LB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_005_06", "name": "Merveille Papela", "number": 21, "position": "CDM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_005_07", "name": "Braydon Manu Richter", "number": 5, "position": "CM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_005_08", "name": "Oscar Vilhelmsson", "number": 7, "position": "RW", "country": "SE", "status": "starter"},
+    {"playerId": "player_de2_005_09", "name": "Marco Verkooijen", "number": 10, "position": "CAM", "country": "BE", "status": "starter"},
+    {"playerId": "player_de2_005_10", "name": "Marseiler", "number": 8, "position": "LW", "country": "DE", "status": "starter"},
+    {"playerId": "player_de2_005_11", "name": "Lee Ho-jae", "number": 9, "position": "ST", "country": "KR", "status": "starter"},
+    {"playerId": "player_de2_005_12", "name": "Brunst", "number": 30, "position": "GK", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_005_14", "name": "Dettoni", "number": 4, "position": "CB", "country": "US", "status": "bench"},
+    {"playerId": "player_de2_005_15", "name": "Vukotić", "number": 20, "position": "CB", "country": "ME", "status": "bench"},
+    {"playerId": "player_de2_005_16", "name": "Petretta", "number": 18, "position": "LB", "country": "CH", "status": "bench"},
+    {"playerId": "player_de2_005_17", "name": "Mikelbrencis", "number": 25, "position": "RB", "country": "FR", "status": "bench"},
+    {"playerId": "player_de2_005_18", "name": "Akiyama", "number": 16, "position": "CM", "country": "JP", "status": "bench"},
+    {"playerId": "player_de2_005_19", "name": "Klefisch", "number": 17, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_005_20", "name": "Duijvestijn", "number": 41, "position": "CAM", "country": "NL", "status": "bench"},
+    {"playerId": "player_de2_005_21", "name": "Lakenmacher", "number": 19, "position": "ST", "country": "DE", "status": "bench"},
+    {"playerId": "player_de2_005_22", "name": "Milan Smit", "number": 36, "position": "ST", "country": "NL", "status": "bench"},
+    {"playerId": "player_de2_005_13", "name": "Börner", "number": 24, "position": "GK", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de2_005_23", "name": "Yosuke Furukawa", "number": 44, "position": "RW", "country": "JP", "status": "reserve"},
+    {"playerId": "player_de2_005_24", "name": "Herbst", "number": 47, "position": "CM", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de2_005_25", "name": "Merx", "number": 48, "position": "CM", "country": "DE", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 6,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}
