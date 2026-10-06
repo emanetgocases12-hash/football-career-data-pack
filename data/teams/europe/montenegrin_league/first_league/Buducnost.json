@@ -1,58 +1,58 @@
 {
-    "teamKey": "Buducn",
-  
-    "name": "Buducnost Podgorica",
-  
-    "logo": "assets/logos/europe/montengro/Buducnost.png",
-  
-    "manager": {
-      "name": "Srđan Radonjić",
-      "country": "ME"
-    },
-  
-    "stadium": {
-      "name": "Pod Goricom",
-      "capacity": 11080
-    },
-  
-    "players": [
-      {"playerId": "player_me1_002_01", "name": "Milan Mijatović", "number": 1, "position": "GK", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_002_02", "name": "Momčilo Raspopović", "number": 2, "position": "RB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_002_03", "name": "Adnan Orahovac", "number": 4, "position": "CB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_002_04", "name": "Miloš Milović", "number": 5, "position": "CB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_002_05", "name": "Zoran Mugoša", "number": 3, "position": "LB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_002_06", "name": "Miomir Đuričković", "number": 6, "position": "CDM", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_002_07", "name": "Stefan Đukanović", "number": 8, "position": "CM", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_002_08", "name": "Igor Ivanović", "number": 10, "position": "RW", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_002_09", "name": "Milan Vušurović", "number": 11, "position": "CAM", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_002_10", "name": "Ivan Bojović", "number": 7, "position": "LW", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_002_11", "name": "I. Bulatović", "number": 9, "position": "ST", "country": "ME", "status": "starter"},
-  
-      {"playerId": "player_me1_002_12", "name": "F. Domazetović", "number": 12, "position": "GK", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_002_13", "name": "A. Pupović", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_002_14", "name": "G. Makridakis", "number": 15, "position": "CB", "country": "GR", "status": "bench"},
-      {"playerId": "player_me1_002_15", "name": "L. Popović", "number": 16, "position": "CB", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_002_16", "name": "I. Serikov", "number": 17, "position": "CB", "country": "RU", "status": "bench"},
-      {"playerId": "player_me1_002_17", "name": "S. Osman", "number": 18, "position": "CM", "country": "GH", "status": "bench"},
-      {"playerId": "player_me1_002_18", "name": "S. Radojević", "number": 20, "position": "CM", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_002_19", "name": "D. Vukanić", "number": 21, "position": "CM", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_002_20", "name": "C. Ondong Mba", "number": 19, "position": "ST", "country": "FR", "status": "bench"},
-      {"playerId": "player_me1_002_21", "name": "A. Camaj", "number": 22, "position": "ST", "country": "ME", "status": "bench"},
-  
-      {"playerId": "player_me1_002_22", "name": "P. Jašović", "number": 23, "position": "ST", "country": "ME", "status": "reserve"},
-      {"playerId": "player_me1_002_23", "name": "M. Šćepanović", "number": 24, "position": "ST", "country": "ME", "status": "reserve"},
-      {"playerId": "player_me1_002_24", "name": "V. Kračković", "number": 25, "position": "ST", "country": "ME", "status": "reserve"},
-      {"playerId": "player_me1_002_25", "name": "N. Kovinić", "number": 27, "position": "ST", "country": "ME", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 10,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 10,
-        "cornerLeft": 11,
-        "cornerRight": 7
-      }
+  "teamKey": "Buducn",
+
+  "name": "Buducnost Podgorica",
+
+  "logo": "assets/logos/europe/montengro/Buducnost.png",
+
+  "manager": {
+    "name": "Srđan Radonjić",
+    "country": "ME"
+  },
+
+  "stadium": {
+    "name": "Pod Goricom",
+    "capacity": 11080
+  },
+
+  "players": [
+    {"playerId": "player_me1_002_01", "name": "Milan Mijatović", "number": 1, "position": "GK", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_002_02", "name": "Momčilo Raspopović", "number": 2, "position": "RB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_002_03", "name": "Adnan Orahovac", "number": 4, "position": "CB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_002_04", "name": "Miloš Milović", "number": 5, "position": "CB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_002_05", "name": "Zoran Mugoša", "number": 3, "position": "LB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_002_06", "name": "Miomir Đuričković", "number": 6, "position": "CDM", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_002_07", "name": "Stefan Đukanović", "number": 8, "position": "CM", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_002_08", "name": "Igor Ivanović", "number": 10, "position": "RW", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_002_09", "name": "Milan Vušurović", "number": 11, "position": "CAM", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_002_10", "name": "Ivan Bojović", "number": 7, "position": "LW", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_002_11", "name": "I. Bulatović", "number": 9, "position": "ST", "country": "ME", "status": "starter"},
+
+    {"playerId": "player_me1_002_12", "name": "F. Domazetović", "number": 12, "position": "GK", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_002_13", "name": "A. Pupović", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_002_14", "name": "G. Makridakis", "number": 15, "position": "CB", "country": "GR", "status": "bench"},
+    {"playerId": "player_me1_002_15", "name": "L. Popović", "number": 16, "position": "CB", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_002_16", "name": "I. Serikov", "number": 17, "position": "CB", "country": "RU", "status": "bench"},
+    {"playerId": "player_me1_002_17", "name": "S. Osman", "number": 18, "position": "CM", "country": "GH", "status": "bench"},
+    {"playerId": "player_me1_002_18", "name": "S. Radojević", "number": 20, "position": "CM", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_002_19", "name": "D. Vukanić", "number": 21, "position": "CM", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_002_20", "name": "C. Ondong Mba", "number": 19, "position": "ST", "country": "FR", "status": "bench"},
+    {"playerId": "player_me1_002_21", "name": "A. Camaj", "number": 22, "position": "ST", "country": "ME", "status": "bench"},
+
+    {"playerId": "player_me1_002_26", "name": "Đorđije Pavličić", "number": 31, "position": "GK", "country": "ME", "status": "reserve"},
+    {"playerId": "player_me1_002_22", "name": "P. Jašović", "number": 23, "position": "ST", "country": "ME", "status": "reserve"},
+    {"playerId": "player_me1_002_23", "name": "M. Šćepanović", "number": 24, "position": "ST", "country": "ME", "status": "reserve"},
+    {"playerId": "player_me1_002_24", "name": "V. Kračković", "number": 25, "position": "ST", "country": "ME", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 11,
+      "cornerRight": 7
     }
   }
+}
