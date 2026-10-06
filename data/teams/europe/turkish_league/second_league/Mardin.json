@@ -1,0 +1,58 @@
+{
+  "teamKey": "Mardin",
+
+  "name": "Mardin 1969 Spor",
+
+  "logo": "assets/logos/europe/turkey/Mardin.png",
+
+  "manager": {
+    "name": "Ahmet Cingöz",
+    "country": "TR"
+  },
+
+  "stadium": {
+    "name": "21 Kasım Şehir Stadyumu",
+    "capacity": 5700
+  },
+
+  "players": [
+    { "playerId": "player_tr2_014_01", "name": "Erce Kardeşler", "number": 1, "position": "GK", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr2_014_02", "name": "Kerim Alıcı", "number": 27, "position": "RB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr2_014_03", "name": "Mustafa Şengül", "number": 25, "position": "CB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr2_014_04", "name": "Uğur Adem Gezer", "number": 15, "position": "CB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr2_014_05", "name": "Emre Taşdemir", "number": 33, "position": "LB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr2_014_06", "name": "Dorde Denic", "number": 8, "position": "CDM", "country": "RS", "status": "starter" },
+    { "playerId": "player_tr2_014_07", "name": "Baba Alhassan", "number": 42, "position": "CM", "country": "GH", "status": "starter" },
+    { "playerId": "player_tr2_014_08", "name": "Zdravko Dimitrov", "number": 10, "position": "RW", "country": "BG", "status": "starter" },
+    { "playerId": "player_tr2_014_09", "name": "Tonio Teklic", "number": 91, "position": "CAM", "country": "HR", "status": "starter" },
+    { "playerId": "player_tr2_014_10", "name": "Mallik Rashaun Coley Wilks", "number": 47, "position": "LW", "country": "GB-ENG", "status": "starter" },
+    { "playerId": "player_tr2_014_11", "name": "Olarenwaju Ayobami Kayode", "number": 9, "position": "ST", "country": "NG", "status": "starter" },
+
+    { "playerId": "player_tr2_014_21", "name": "Osman Yıldırım", "number": 45, "position": "GK", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_014_12", "name": "Adem Eren Kabak", "number": 16, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_014_13", "name": "Ahmet Ülük", "number": 19, "position": "RB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_014_14", "name": "Berkay Doğan", "number": 64, "position": "LB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_014_15", "name": "Bünyamin Balat", "number": 11, "position": "CDM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_014_16", "name": "Emir Kireççi", "number": 31, "position": "CM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_014_17", "name": "Enes Erol", "number": 70, "position": "CAM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_014_18", "name": "Eray Korkmaz", "number": 17, "position": "RW", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_014_19", "name": "Metin Zanyar Başaran", "number": 2, "position": "LW", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_014_20", "name": "Nafican Yardımcı", "number": 3, "position": "ST", "country": "TR", "status": "bench" },
+
+    { "playerId": "player_tr2_014_22", "name": "Ömer Kahveci", "number": 29, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr2_014_23", "name": "Ömer Karslıoğlu", "number": 4, "position": "RW", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr2_014_24", "name": "Şahverdi Çetin", "number": 7, "position": "ST", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr2_014_25", "name": "Muammer Denizhan Taşkan", "number": 77, "position": "LB", "country": "TR", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 25,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 91,
+      "cornerLeft": 47,
+      "cornerRight": 10
+    }
+  }
+}

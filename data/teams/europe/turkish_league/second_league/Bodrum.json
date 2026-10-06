@@ -1,0 +1,58 @@
+{
+  "teamKey": "Bodrum",
+
+  "name": "Bodrum FK",
+
+  "logo": "assets/logos/europe/turkey/Bodrum.png",
+
+  "manager": {
+    "name": "Burhan Eşer",
+    "country": "TR"
+  },
+
+  "stadium": {
+    "name": "Bodrum İlçe Stadyumu",
+    "capacity": 4243
+  },
+
+  "players": [
+    { "playerId": "player_tr2_004_01", "name": "Diogo Sousa", "number": 1, "position": "GK", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr2_004_02", "name": "Celal Dumanlı", "number": 48, "position": "RB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr2_004_03", "name": "Arlind Ajeti", "number": 5, "position": "CB", "country": "AL", "status": "starter" },
+    { "playerId": "player_tr2_004_04", "name": "Ali Şahin Yılmaz", "number": 4, "position": "CB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr2_004_05", "name": "Emre Kaplan", "number": 75, "position": "LB", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr2_004_06", "name": "João Tomas de Sousa Moreira Cruz", "number": 6, "position": "CDM", "country": "PT", "status": "starter" },
+    { "playerId": "player_tr2_004_07", "name": "Florian Loshaj", "number": 14, "position": "CM", "country": "XK", "status": "starter" },
+    { "playerId": "player_tr2_004_08", "name": "Ege Bilsel", "number": 11, "position": "RW", "country": "TR", "status": "starter" },
+    { "playerId": "player_tr2_004_09", "name": "Fernando Andrade", "number": 10, "position": "CAM", "country": "BR", "status": "starter" },
+    { "playerId": "player_tr2_004_10", "name": "Ruben Providence", "number": 80, "position": "LW", "country": "FR", "status": "starter" },
+    { "playerId": "player_tr2_004_11", "name": "Vincent Aboubakar", "number": 26, "position": "ST", "country": "CM", "status": "starter" },
+
+    { "playerId": "player_tr2_004_15", "name": "Bahri Can Tosun", "number": 32, "position": "GK", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_004_12", "name": "Adem Metin Türk", "number": 25, "position": "CB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_004_13", "name": "Ahmet Aslan", "number": 21, "position": "RB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_004_14", "name": "Ali Aytemur", "number": 34, "position": "LB", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_004_16", "name": "Berkay Aslan", "number": 19, "position": "CM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_004_17", "name": "Berşan Yavuzay", "number": 77, "position": "CAM", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_004_18", "name": "Devrim Şahin", "number": 52, "position": "RW", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_004_19", "name": "Elvir Gashijan", "number": 30, "position": "LW", "country": "XK", "status": "bench" },
+    { "playerId": "player_tr2_004_20", "name": "Enes Koç", "number": 70, "position": "ST", "country": "TR", "status": "bench" },
+    { "playerId": "player_tr2_004_21", "name": "Furkan Apaydın", "number": 23, "position": "CB", "country": "TR", "status": "bench" },
+
+    { "playerId": "player_tr2_004_25", "name": "Rüzgar Mehmet Adıyaman", "number": 54, "position": "GK", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr2_004_22", "name": "İsmail Tarım", "number": 68, "position": "CM", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr2_004_23", "name": "Kenan Fakılı", "number": 42, "position": "RW", "country": "TR", "status": "reserve" },
+    { "playerId": "player_tr2_004_24", "name": "Mustafa Erdilman", "number": 8, "position": "ST", "country": "TR", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 5,
+    "setPieces": {
+      "penalty": 26,
+      "freeKick": 10,
+      "cornerLeft": 80,
+      "cornerRight": 11
+    }
+  }
+}
