@@ -1,0 +1,58 @@
+{
+  "teamKey": "Admira",
+
+  "name": "Admira Wacker",
+
+  "logo": "assets/logos/europe/austria/Admira.png",
+
+  "manager": {
+    "name": "Harald Suchard",
+    "country": "AT"
+  },
+
+  "stadium": {
+    "name": "Datenpol Arena",
+    "capacity": 12000
+  },
+
+  "players": [
+    {"playerId": "player_at2_001_01", "name": "Jörg Siebenhandl", "number": 27, "position": "GK", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_001_02", "name": "Josef Weberbauer", "number": 23, "position": "RB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_001_03", "name": "Matteo Meisl", "number": 5, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_001_04", "name": "Fabian Feiner", "number": 6, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_001_05", "name": "Felix Holzhacker", "number": 22, "position": "LB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_001_06", "name": "Turgay Gemicibasi", "number": 8, "position": "CDM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_001_07", "name": "Nadir Ajanovic", "number": 7, "position": "CM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_001_08", "name": "Benjamin Dzanovic", "number": 11, "position": "RW", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_001_09", "name": "Marco Wagner", "number": 17, "position": "CAM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_001_10", "name": "Benjamin Nyarko", "number": 14, "position": "LW", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_001_11", "name": "Alexander Schmidt", "number": 10, "position": "ST", "country": "AT", "status": "starter"},
+
+    {"playerId": "player_at2_001_12", "name": "Clemens Steinbauer", "number": 1, "position": "GK", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_001_13", "name": "Sergej Savic", "number": 3, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_001_14", "name": "August Tscheppe", "number": 4, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_001_15", "name": "Lars De Wit", "number": 21, "position": "LB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_001_16", "name": "Julian Juric", "number": 24, "position": "RB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_001_17", "name": "Sandro Steiner", "number": 16, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_001_18", "name": "Xavi Woudstra", "number": 18, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_001_19", "name": "Tim Jagersberger", "number": 33, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_001_20", "name": "Justin Forst", "number": 9, "position": "ST", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_001_21", "name": "Denis Lorint", "number": 20, "position": "ST", "country": "AT", "status": "bench"},
+
+    {"playerId": "player_at2_001_22", "name": "Sandali Conde", "number": 31, "position": "GK", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at2_001_23", "name": "Emmanuel Michael", "number": 29, "position": "LB", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at2_001_24", "name": "Mateja Bubanj", "number": 77, "position": "ST", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at2_001_25", "name": "Aristot Tambwe-Kasengele", "number": 36, "position": "CB", "country": "AT", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 27,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 17,
+      "cornerLeft": 11,
+      "cornerRight": 17
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "Strm Grz II",
+
+  "name": "SK Sturm Graz II",
+
+  "logo": "assets/logos/europe/austria/Sturm2.png",
+
+  "manager": {
+    "name": "Christoph Wurm",
+    "country": "AT"
+  },
+
+  "stadium": {
+    "name": "Solarstadion Gleisdorf",
+    "capacity": 700
+  },
+
+  "players": [
+    {"playerId": "player_at2_013_01", "name": "Nils Donat", "number": 1, "position": "GK", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_013_02", "name": "Jonas Wolf", "number": 13, "position": "RB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_013_03", "name": "Bastian Maierhofer", "number": 5, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_013_04", "name": "Gabriel Haider", "number": 6, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_013_05", "name": "Smail Bakhty", "number": 2, "position": "LB", "country": "FR", "status": "starter"},
+    {"playerId": "player_at2_013_06", "name": "Julian Halwachs", "number": 8, "position": "CDM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_013_07", "name": "Jonas Löcker", "number": 17, "position": "CM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_013_08", "name": "Thomas Gurmann", "number": 11, "position": "RW", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_013_09", "name": "Janne Gratzei", "number": 20, "position": "CAM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_013_10", "name": "Abdoulie Kante", "number": 44, "position": "LW", "country": "GM", "status": "starter"},
+    {"playerId": "player_at2_013_11", "name": "Niklas Lang", "number": 9, "position": "ST", "country": "AT", "status": "starter"},
+
+    {"playerId": "player_at2_013_12", "name": "Jonas Kollar", "number": 24, "position": "GK", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_013_13", "name": "Elijah Paco Roche", "number": 15, "position": "CB", "country": "US", "status": "bench"},
+    {"playerId": "player_at2_013_14", "name": "Kelechi Nnamdi", "number": 19, "position": "CB", "country": "NG", "status": "bench"},
+    {"playerId": "player_at2_013_15", "name": "Mate Grgic", "number": 21, "position": "RB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_013_16", "name": "Barne Pernot", "number": 31, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_013_17", "name": "Wisler Lazarre", "number": 33, "position": "CM", "country": "HT", "status": "bench"},
+    {"playerId": "player_at2_013_18", "name": "Connor Hönlein", "number": 50, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_013_19", "name": "Dijon Shala", "number": 52, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_013_20", "name": "Richmond Osayantin", "number": 47, "position": "ST", "country": "NG", "status": "bench"},
+    {"playerId": "player_at2_013_21", "name": "Timo Petritsch", "number": 54, "position": "ST", "country": "AT", "status": "bench"},
+
+    {"playerId": "player_at2_013_22", "name": "Christoph Wiener-Pucher", "number": 32, "position": "GK", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at2_013_23", "name": "Paul Lechner", "number": 51, "position": "CB", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at2_013_24", "name": "Peter Moser", "number": 53, "position": "CM", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at2_013_25", "name": "Luca Morgenstern", "number": 66, "position": "CM", "country": "AT", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 17,
+      "cornerLeft": 11,
+      "cornerRight": 17
+    }
+  }
+}

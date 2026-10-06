@@ -1,0 +1,58 @@
+{
+  "teamKey": "BW Lnz",
+
+  "name": "FC Blau-Weiss Linz",
+
+  "logo": "assets/logos/europe/austria/Linz.png",
+
+  "manager": {
+    "name": "Michael Köllner",
+    "country": "DE"
+  },
+
+  "stadium": {
+    "name": "Hofmann Personal Stadion",
+    "capacity": 5595
+  },
+
+  "players": [
+    {"playerId": "player_at2_005_01", "name": "Valentin Oelz", "number": 1, "position": "GK", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_005_02", "name": "Fabio Varesi-Strauss", "number": 2, "position": "RB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_005_03", "name": "Manuel Maranda", "number": 15, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_005_04", "name": "Alem Pasic", "number": 17, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_005_05", "name": "David Riegler", "number": 22, "position": "LB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_005_06", "name": "Jonas Mayer", "number": 6, "position": "CDM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_005_07", "name": "Karim Conte", "number": 8, "position": "CM", "country": "GN", "status": "starter"},
+    {"playerId": "player_at2_005_08", "name": "Erik Weinhauer", "number": 7, "position": "RW", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_005_09", "name": "Filip Ristanic", "number": 10, "position": "CAM", "country": "RS", "status": "starter"},
+    {"playerId": "player_at2_005_10", "name": "Dominik Frieser", "number": 28, "position": "LW", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_005_11", "name": "Ronivaldo", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+
+    {"playerId": "player_at2_005_12", "name": "Marcel Köstenbauer", "number": 12, "position": "GK", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_005_13", "name": "Matthias Wetschka", "number": 32, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_005_14", "name": "Felix Ruschke", "number": 29, "position": "LB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_005_15", "name": "Diego Madritsch", "number": 18, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_005_16", "name": "Lukas Fabian", "number": 20, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_005_17", "name": "Felix Gerstmayer", "number": 21, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_005_18", "name": "Thomas Schiestl", "number": 27, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_005_19", "name": "Anton Tsarenko", "number": 30, "position": "CAM", "country": "UA", "status": "bench"},
+    {"playerId": "player_at2_005_20", "name": "Romeo Vucic", "number": 11, "position": "ST", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_005_21", "name": "Mauro Hämmerle", "number": 24, "position": "ST", "country": "AT", "status": "bench"},
+
+    {"playerId": "player_at2_005_22", "name": "Christopher Giuliani", "number": 26, "position": "GK", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at2_005_23", "name": "Nico Grimbs", "number": 5, "position": "CM", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at2_005_24", "name": "Dario Kreiker", "number": 47, "position": "LW", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at2_005_25", "name": "Jacob Collmann", "number": 33, "position": "ST", "country": "AT", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 9,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 7,
+      "cornerRight": 10
+    }
+  }
+}

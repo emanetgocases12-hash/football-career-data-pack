@@ -1,0 +1,58 @@
+{
+  "teamKey": "Bregen",
+
+  "name": "Schwarz-Weiß Bregenz",
+
+  "logo": "assets/logos/europe/austria/Bregenz.png",
+
+  "manager": {
+    "name": "Martin Brenner",
+    "country": "UY"
+  },
+
+  "stadium": {
+    "name": "ImmoAgentur Stadion",
+    "capacity": 12000
+  },
+
+  "players": [
+    {"playerId": "player_at2_006_01", "name": "Joao Paulo", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+    {"playerId": "player_at2_006_02", "name": "Rodrigo Souza", "number": 16, "position": "RB", "country": "BR", "status": "starter"},
+    {"playerId": "player_at2_006_03", "name": "Dragan Marceta", "number": 5, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_006_04", "name": "Micha Fröde", "number": 12, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_006_05", "name": "William Rodrigues", "number": 3, "position": "LB", "country": "BR", "status": "starter"},
+    {"playerId": "player_at2_006_06", "name": "Yusei Shima", "number": 6, "position": "CDM", "country": "JP", "status": "starter"},
+    {"playerId": "player_at2_006_07", "name": "Lars Nussbaumer", "number": 8, "position": "CM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_006_08", "name": "Genta Omotehara", "number": 14, "position": "RW", "country": "JP", "status": "starter"},
+    {"playerId": "player_at2_006_09", "name": "Nicolas Rossi", "number": 7, "position": "CAM", "country": "UY", "status": "starter"},
+    {"playerId": "player_at2_006_10", "name": "George Davies", "number": 25, "position": "LW", "country": "SL", "status": "starter"},
+    {"playerId": "player_at2_006_11", "name": "Anteo Fetahu", "number": 10, "position": "ST", "country": "XK", "status": "starter"},
+
+    {"playerId": "player_at2_006_12", "name": "Dominik Samardzija", "number": 27, "position": "GK", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_006_13", "name": "Dredon Kelly", "number": 4, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_006_14", "name": "Henrique Torelli", "number": 13, "position": "CB", "country": "BR", "status": "bench"},
+    {"playerId": "player_at2_006_15", "name": "Musa Bangura", "number": 30, "position": "LB", "country": "SL", "status": "bench"},
+    {"playerId": "player_at2_006_16", "name": "Daigo Araki", "number": 18, "position": "CM", "country": "JP", "status": "bench"},
+    {"playerId": "player_at2_006_17", "name": "Gabryel Monteiro", "number": 20, "position": "CM", "country": "BR", "status": "bench"},
+    {"playerId": "player_at2_006_18", "name": "Atsushi Zaizen", "number": 24, "position": "CM", "country": "JP", "status": "bench"},
+    {"playerId": "player_at2_006_19", "name": "Lucas Dantas", "number": 47, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_006_20", "name": "Keita Saito", "number": 29, "position": "RW", "country": "JP", "status": "bench"},
+    {"playerId": "player_at2_006_21", "name": "Damian Maksimovic", "number": 21, "position": "ST", "country": "RS", "status": "bench"},
+
+    {"playerId": "player_at2_006_22", "name": "Peter Aizawa", "number": 31, "position": "GK", "country": "JP", "status": "reserve"},
+    {"playerId": "player_at2_006_23", "name": "Mika Mettler", "number": 32, "position": "CB", "country": "CH", "status": "reserve"},
+    {"playerId": "player_at2_006_24", "name": "Mateus Cecchini Muller", "number": 80, "position": "CM", "country": "BR", "status": "reserve"},
+    {"playerId": "player_at2_006_25", "name": "La'Sean Sealey", "number": 23, "position": "ST", "country": "AT", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 12,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 7,
+      "cornerLeft": 14,
+      "cornerRight": 7
+    }
+  }
+}

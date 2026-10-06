@@ -1,0 +1,58 @@
+{
+  "teamKey": "Wacker",
+
+  "name": "FC Wacker Innsbruck",
+
+  "logo": "assets/logos/europe/austria/Wacker.png",
+
+  "manager": {
+    "name": "Sebastian Siller",
+    "country": "AT"
+  },
+
+  "stadium": {
+    "name": "Tivoli Stadion Tirol",
+    "capacity": 16005
+  },
+
+  "players": [
+    {"playerId": "player_at2_015_01", "name": "Lukas Tauber", "number": 1, "position": "GK", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_015_02", "name": "Max Köchl", "number": 2, "position": "RB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_015_03", "name": "Phil Kunze", "number": 5, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_015_04", "name": "Manuel Petutschnig", "number": 6, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_015_05", "name": "Alexander Böck", "number": 3, "position": "LB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_015_06", "name": "Daniel Francis", "number": 4, "position": "CDM", "country": "NG", "status": "starter"},
+    {"playerId": "player_at2_015_07", "name": "Matthew Dominic Evans", "number": 8, "position": "CM", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_at2_015_08", "name": "Adrian Wibowo", "number": 7, "position": "RW", "country": "ID", "status": "starter"},
+    {"playerId": "player_at2_015_09", "name": "Rami Tekir", "number": 10, "position": "CAM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_015_10", "name": "Raphael Galle", "number": 11, "position": "LW", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_015_11", "name": "Okan Yilmaz", "number": 9, "position": "ST", "country": "AT", "status": "starter"},
+
+    {"playerId": "player_at2_015_12", "name": "Benjamin Ballis", "number": 30, "position": "GK", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_015_13", "name": "Alexander Joppich", "number": 16, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_015_14", "name": "Florian Kopp", "number": 19, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_015_15", "name": "Robin Littig", "number": 21, "position": "LB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_015_16", "name": "Tobias Berger", "number": 25, "position": "RB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_015_17", "name": "Mouhamed Sy", "number": 15, "position": "CM", "country": "SN", "status": "bench"},
+    {"playerId": "player_at2_015_18", "name": "Christopher Weinzierl", "number": 17, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_015_19", "name": "Adrian Lechl", "number": 18, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_015_20", "name": "Luis Gstrein", "number": 22, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_015_21", "name": "Gabriele Biancheri", "number": 20, "position": "ST", "country": "IT", "status": "bench"},
+
+    {"playerId": "player_at2_015_22", "name": "Gerald Kirchebner", "number": 31, "position": "GK", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at2_015_23", "name": "Bright Owusu", "number": 24, "position": "ST", "country": "GH", "status": "reserve"},
+    {"playerId": "player_at2_015_24", "name": "Anderson Rodríguez", "number": 29, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_at2_015_25", "name": "Yanis Guermouche", "number": 99, "position": "ST", "country": "DZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 6,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 7,
+      "cornerRight": 10
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "Liefer",
+
+  "name": "FC Liefering",
+
+  "logo": "assets/logos/europe/austria/Liefering.png",
+
+  "manager": {
+    "name": "Danny Galm",
+    "country": "DE"
+  },
+
+  "stadium": {
+    "name": "Red Bull Arena",
+    "capacity": 31800
+  },
+
+  "players": [
+    {"playerId": "player_at2_010_01", "name": "Benjamin Ozegovic", "number": 1, "position": "GK", "country": "BA", "status": "starter"},
+    {"playerId": "player_at2_010_02", "name": "Rafael Feldinger", "number": 2, "position": "RB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_010_03", "name": "Ifeanyichukwu Onwuzulike", "number": 44, "position": "CB", "country": "NG", "status": "starter"},
+    {"playerId": "player_at2_010_04", "name": "Jakob Pokorny", "number": 13, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_010_05", "name": "Nico Masching", "number": 45, "position": "LB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_010_06", "name": "Dovas Grudzinskas", "number": 6, "position": "CDM", "country": "LT", "status": "starter"},
+    {"playerId": "player_at2_010_07", "name": "Ilia Ivanschitz", "number": 16, "position": "CM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_010_08", "name": "Josh O`Dwyer", "number": 8, "position": "CM", "country": "AU", "status": "starter"},
+    {"playerId": "player_at2_010_09", "name": "Yerwin Sulbaran", "number": 7, "position": "RW", "country": "VE", "status": "starter"},
+    {"playerId": "player_at2_010_10", "name": "Kenneth Adejenughure", "number": 11, "position": "LW", "country": "AT", "status": "starter"},
+    {"playerId": "player_at2_010_11", "name": "Said Nisic", "number": 9, "position": "ST", "country": "BA", "status": "starter"},
+
+    {"playerId": "player_at2_010_12", "name": "Teo Hupfauf", "number": 30, "position": "GK", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_010_13", "name": "Jakob Zangerl", "number": 24, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_010_14", "name": "Emil Ganser", "number": 27, "position": "RB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_010_15", "name": "Lassina Traore", "number": 28, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_010_16", "name": "Mayker Palacios", "number": 18, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_at2_010_17", "name": "Filip Aleksic", "number": 20, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_010_18", "name": "Miha Matjasec", "number": 22, "position": "CM", "country": "SI", "status": "bench"},
+    {"playerId": "player_at2_010_19", "name": "Christoph Schaider", "number": 23, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at2_010_20", "name": "Riquelme Reis Almeida de Jesus Santos", "number": 25, "position": "CAM", "country": "BR", "status": "bench"},
+    {"playerId": "player_at2_010_21", "name": "Raphael Kosakiewic", "number": 17, "position": "ST", "country": "AT", "status": "bench"},
+
+    {"playerId": "player_at2_010_22", "name": "Alexander Hillebrand", "number": 32, "position": "GK", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at2_010_23", "name": "Julian Hussauf", "number": 47, "position": "CB", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at2_010_24", "name": "Yuri Silva Leles de Souza", "number": 37, "position": "ST", "country": "BR", "status": "reserve"},
+    {"playerId": "player_at2_010_25", "name": "Benedict Scharner", "number": 26, "position": "CM", "country": "AT", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 16,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 11,
+      "cornerRight": 7
+    }
+  }
+}
