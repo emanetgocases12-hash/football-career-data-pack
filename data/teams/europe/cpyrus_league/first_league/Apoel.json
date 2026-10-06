@@ -1,58 +1,58 @@
 {
-    "teamKey": "APOEL",
+  "teamKey": "APOEL",
 
-    "name": "APOEL Nicosia",
+  "name": "APOEL Nicosia",
 
-    "logo": "assets/logos/europe/cpyrus/Apoel.png",
+  "logo": "assets/logos/europe/cpyrus/Apoel.png",
 
-    "manager": {
-      "name": "Nikolaos Papadopoulos",
-      "country": "GR"
-    },
+  "manager": {
+    "name": "Nikolaos Papadopoulos",
+    "country": "GR"
+  },
 
-    "stadium": {
-      "name": "GSP Stadium",
-      "capacity": 22859
-    },
+  "stadium": {
+    "name": "GSP Stadium",
+    "capacity": 22859
+  },
 
-    "players": [
-      { "playerId": "player_cy1_003_01", "name": "Vid Belec", "number": 27, "position": "GK", "country": "SI", "status": "starter" },
-      { "playerId": "player_cy1_003_02", "name": "Joan Sastre", "number": 25, "position": "RB", "country": "ES", "status": "starter" },
-      { "playerId": "player_cy1_003_03", "name": "Miloš Degenek", "number": 5, "position": "CB", "country": "AU", "status": "starter" },
-      { "playerId": "player_cy1_003_04", "name": "Konstantinos Laifis", "number": 34, "position": "CB", "country": "CY", "status": "starter" },
-      { "playerId": "player_cy1_003_05", "name": "Kostas Stafylidis", "number": 3, "position": "LB", "country": "GR", "status": "starter" },
-      { "playerId": "player_cy1_003_06", "name": "Stelios Vrontis", "number": 6, "position": "CDM", "country": "CY", "status": "starter" },
-      { "playerId": "player_cy1_003_07", "name": "Antonín Barák", "number": 72, "position": "CM", "country": "CZ", "status": "starter" },
-      { "playerId": "player_cy1_003_08", "name": "Daniel Mancini", "number": 7, "position": "RW", "country": "AR", "status": "starter" },
-      { "playerId": "player_cy1_003_09", "name": "Tasos Bakasetas", "number": 9, "position": "CAM", "country": "GR", "status": "starter" },
-      { "playerId": "player_cy1_003_10", "name": "Marquinhos", "number": 10, "position": "LW", "country": "BR", "status": "starter" },
-      { "playerId": "player_cy1_003_11", "name": "Pieros Sotiriou", "number": 79, "position": "ST", "country": "CY", "status": "starter" },
+  "players": [
+    {"playerId": "player_cy1_003_01", "name": "Vid Belec", "number": 27, "position": "GK", "country": "SI", "status": "starter"},
+    {"playerId": "player_cy1_003_02", "name": "Joan Sastre", "number": 25, "position": "RB", "country": "ES", "status": "starter"},
+    {"playerId": "player_cy1_003_03", "name": "Miloš Degenek", "number": 5, "position": "CB", "country": "AU", "status": "starter"},
+    {"playerId": "player_cy1_003_04", "name": "Konstantinos Laifis", "number": 34, "position": "CB", "country": "CY", "status": "starter"},
+    {"playerId": "player_cy1_003_05", "name": "Kostas Stafylidis", "number": 3, "position": "LB", "country": "GR", "status": "starter"},
+    {"playerId": "player_cy1_003_06", "name": "Stelios Vrontis", "number": 6, "position": "CDM", "country": "CY", "status": "starter"},
+    {"playerId": "player_cy1_003_07", "name": "Antonín Barák", "number": 72, "position": "CM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cy1_003_08", "name": "Daniel Mancini", "number": 7, "position": "RW", "country": "AR", "status": "starter"},
+    {"playerId": "player_cy1_003_09", "name": "Tasos Bakasetas", "number": 9, "position": "CAM", "country": "GR", "status": "starter"},
+    {"playerId": "player_cy1_003_10", "name": "Marquinhos", "number": 10, "position": "LW", "country": "BR", "status": "starter"},
+    {"playerId": "player_cy1_003_11", "name": "Pieros Sotiriou", "number": 79, "position": "ST", "country": "CY", "status": "starter"},
 
-      { "playerId": "player_cy1_003_12", "name": "Oliver Zelenika", "number": 1, "position": "GK", "country": "HR", "status": "bench" },
-      { "playerId": "player_cy1_003_13", "name": "Nikolas Georgiou Angelopoulos", "number": 4, "position": "CB", "country": "CY", "status": "bench" },
-      { "playerId": "player_cy1_003_14", "name": "Ángel García", "number": 14, "position": "LB", "country": "ES", "status": "bench" },
-      { "playerId": "player_cy1_003_15", "name": "Álvaro Carrillo", "number": 16, "position": "CB", "country": "ES", "status": "bench" },
-      { "playerId": "player_cy1_003_16", "name": "Dálcio", "number": 8, "position": "CM", "country": "GW", "status": "bench" },
-      { "playerId": "player_cy1_003_17", "name": "Panagiotis Kattirtzis", "number": 23, "position": "CM", "country": "CY", "status": "bench" },
-      { "playerId": "player_cy1_003_18", "name": "Filip Đuričić", "number": 31, "position": "CAM", "country": "RS", "status": "bench" },
-      { "playerId": "player_cy1_003_19", "name": "Dimitris Limnios", "number": 18, "position": "RW", "country": "GR", "status": "bench" },
-      { "playerId": "player_cy1_003_20", "name": "Gabriel Maioli", "number": 11, "position": "RW", "country": "BR", "status": "bench" },
-      { "playerId": "player_cy1_003_21", "name": "Fabricio Pedrozo", "number": 15, "position": "ST", "country": "AR", "status": "bench" },
+    {"playerId": "player_cy1_003_12", "name": "Oliver Zelenika", "number": 1, "position": "GK", "country": "HR", "status": "bench"},
+    {"playerId": "player_cy1_003_13", "name": "Nikolas Georgiou Angelopoulos", "number": 4, "position": "CB", "country": "CY", "status": "bench"},
+    {"playerId": "player_cy1_003_14", "name": "Ángel García", "number": 14, "position": "LB", "country": "ES", "status": "bench"},
+    {"playerId": "player_cy1_003_15", "name": "Álvaro Carrillo", "number": 16, "position": "CB", "country": "ES", "status": "bench"},
+    {"playerId": "player_cy1_003_16", "name": "Dálcio", "number": 8, "position": "CM", "country": "GW", "status": "bench"},
+    {"playerId": "player_cy1_003_17", "name": "Panagiotis Kattirtzis", "number": 23, "position": "CM", "country": "CY", "status": "bench"},
+    {"playerId": "player_cy1_003_18", "name": "Filip Đuričić", "number": 31, "position": "CAM", "country": "RS", "status": "bench"},
+    {"playerId": "player_cy1_003_19", "name": "Dimitris Limnios", "number": 18, "position": "RW", "country": "GR", "status": "bench"},
+    {"playerId": "player_cy1_003_20", "name": "Gabriel Maioli", "number": 11, "position": "RW", "country": "BR", "status": "bench"},
+    {"playerId": "player_cy1_003_21", "name": "Fabricio Pedrozo", "number": 15, "position": "ST", "country": "AR", "status": "bench"},
 
-      { "playerId": "player_cy1_003_22", "name": "Ioannis Avramidis", "number": 32, "position": "CM", "country": "CY", "status": "reserve" },
-      { "playerId": "player_cy1_003_23", "name": "Gustavo Heinzen Manduca", "number": 19, "position": "RW", "country": "BR", "status": "reserve" },
-      { "playerId": "player_cy1_003_24", "name": "Stavros Georgiou", "number": 70, "position": "ST", "country": "CY", "status": "reserve" },
-      { "playerId": "player_cy1_003_25", "name": "Facundo Pérez", "number": 99, "position": "ST", "country": "AR", "status": "reserve" }
-    ],
+    {"playerId": "player_cy1_003_22", "name": "Andreas Christodoulou", "number": 22, "position": "GK", "country": "CY", "status": "reserve"},
+    {"playerId": "player_cy1_003_23", "name": "Gustavo Heinzen Manduca", "number": 19, "position": "RW", "country": "BR", "status": "reserve"},
+    {"playerId": "player_cy1_003_24", "name": "Stavros Georgiou", "number": 70, "position": "ST", "country": "CY", "status": "reserve"},
+    {"playerId": "player_cy1_003_25", "name": "Facundo Pérez", "number": 99, "position": "ST", "country": "AR", "status": "reserve"}
+  ],
 
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 34,
-      "setPieces": {
-        "penalty": 79,
-        "freeKick": 9,
-        "cornerLeft": 10,
-        "cornerRight": 7
-      }
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 34,
+    "setPieces": {
+      "penalty": 79,
+      "freeKick": 9,
+      "cornerLeft": 10,
+      "cornerRight": 7
     }
   }
+}
