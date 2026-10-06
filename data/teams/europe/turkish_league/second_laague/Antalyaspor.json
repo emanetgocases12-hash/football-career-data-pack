@@ -1,0 +1,58 @@
+{
+  "teamKey": "Antalya",
+
+  "name": "Antalyaspor",
+
+  "logo": "assets/logos/europe/turkey/Antalya.png",
+
+  "manager": {
+    "name": "Bülent Korkmaz",
+    "country": "TR"
+  },
+
+  "stadium": {
+    "name": "Corendon Airlines Park Antalya Stadı",
+    "capacity": 29307
+  },
+
+  "players": [
+    {"playerId": "player_tr2_001_01", "name": "Abdullah Yiğiter", "number": 21, "position": "GK", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_001_03", "name": "Veysel Sarı", "number": 89, "position": "CB", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_001_08", "name": "Doğukan Sinik", "number": 70, "position": "RW", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_001_09", "name": "Alexander Gerard van de Streek", "number": 22, "position": "CAM", "country": "NL", "status": "starter"},
+    {"playerId": "player_tr2_001_10", "name": "Erdoğan Yeşilyurt", "number": 17, "position": "LW", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_001_11", "name": "Nuno Miguel da Costa Joia", "number": 9, "position": "ST", "country": "CV", "status": "starter"},
+    {"playerId": "player_tr2_001_02", "name": "Bünyamin Balcı", "number": 7, "position": "RB", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_001_04", "name": "Arif Kocaman", "number": 43, "position": "CB", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_001_05", "name": "Güray Vural", "number": 11, "position": "LB", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_001_06", "name": "Soner Dikmen", "number": 6, "position": "CDM", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_001_07", "name": "Ramzi Safuri", "number": 8, "position": "CM", "country": "IL", "status": "starter"},
+
+    {"playerId": "player_tr2_001_15", "name": "Fotios Pseftis", "number": 77, "position": "GK", "country": "GR", "status": "bench"},
+    {"playerId": "player_tr2_001_12", "name": "Ahmet Sağat", "number": 23, "position": "CB", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_001_13", "name": "Arda Altun", "number": 81, "position": "RB", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_001_14", "name": "Ensar Buğra Tivsiz", "number": 4, "position": "LB", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_001_16", "name": "Francis Nzaba", "number": 15, "position": "CM", "country": "CG", "status": "bench"},
+    {"playerId": "player_tr2_001_17", "name": "Hasan Ürkmez", "number": 92, "position": "CAM", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_001_18", "name": "Hasan Yakub İlçin", "number": 20, "position": "RW", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_001_19", "name": "Ismail Taieb Chehaima", "number": 44, "position": "LW", "country": "TN", "status": "bench"},
+    {"playerId": "player_tr2_001_20", "name": "Jesper Ismaila Ceesay", "number": 35, "position": "ST", "country": "GM", "status": "bench"},
+    {"playerId": "player_tr2_001_21", "name": "Ömer Faruk Beyaz", "number": 5, "position": "CB", "country": "TR", "status": "bench"},
+
+    {"playerId": "player_tr2_001_25", "name": "Doğukan Özkan", "number": 13, "position": "GK", "country": "TR", "status": "reserve"},
+    {"playerId": "player_tr2_001_22", "name": "Pedro Filipe Barbosa Moreira", "number": 14, "position": "CM", "country": "PT", "status": "reserve"},
+    {"playerId": "player_tr2_001_23", "name": "Samet Karakoç", "number": 19, "position": "RW", "country": "TR", "status": "reserve"},
+    {"playerId": "player_tr2_001_24", "name": "Samet Yalçın", "number": 18, "position": "ST", "country": "TR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 89,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 22,
+      "cornerLeft": 17,
+      "cornerRight": 70
+    }
+  }
+}

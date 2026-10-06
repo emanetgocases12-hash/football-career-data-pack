@@ -1,0 +1,58 @@
+{
+  "teamKey": "İstanbul",
+
+  "name": "İstanbulspor",
+
+  "logo": "assets/logos/europe/turkey/Istanbulspor.png",
+
+  "manager": {
+    "name": "Barış Kanbak",
+    "country": "TR"
+  },
+
+  "stadium": {
+    "name": "Esenyurt Necmi Kadıoğlu Stadyumu",
+    "capacity": 4274
+  },
+
+  "players": [
+    {"playerId": "player_tr2_009_01", "name": "İsa Doğan", "number": 1, "position": "GK", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_009_03", "name": "Michael Ologo Inainfe", "number": 5, "position": "CB", "country": "NG", "status": "starter"},
+    {"playerId": "player_tr2_009_08", "name": "Phellipe Cardoso Araujo", "number": 7, "position": "RW", "country": "BR", "status": "starter"},
+    {"playerId": "player_tr2_009_09", "name": "Ilian Ilianov Iliev", "number": 10, "position": "CAM", "country": "BG", "status": "starter"},
+    {"playerId": "player_tr2_009_10", "name": "Mamadou Fall", "number": 27, "position": "LW", "country": "SN", "status": "starter"},
+    {"playerId": "player_tr2_009_11", "name": "Mustafa Sol", "number": 9, "position": "ST", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_009_02", "name": "Abdullah Dijlan Aydın", "number": 21, "position": "RB", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_009_04", "name": "Emrecan Uzunhan", "number": 89, "position": "CB", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_009_05", "name": "Yusuf Ali Özer", "number": 3, "position": "LB", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_009_06", "name": "Kubilay Sönmez", "number": 12, "position": "CDM", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_009_07", "name": "Aytaç Kara", "number": 34, "position": "CM", "country": "TR", "status": "starter"},
+
+    {"playerId": "player_tr2_009_25", "name": "Mücahit Serbest", "number": 26, "position": "GK", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_009_12", "name": "Alieu Cham", "number": 30, "position": "CB", "country": "GM", "status": "bench"},
+    {"playerId": "player_tr2_009_13", "name": "Ali Akman", "number": 81, "position": "RB", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_009_14", "name": "Alp Tutar", "number": 28, "position": "LB", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_009_15", "name": "Batuhan Yavuz", "number": 25, "position": "CDM", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_009_16", "name": "Berk Ali Nizam", "number": 11, "position": "CM", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_009_17", "name": "Duran Şahin", "number": 4, "position": "CAM", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_009_18", "name": "Elvin Mendy", "number": 15, "position": "RW", "country": "SN", "status": "bench"},
+    {"playerId": "player_tr2_009_19", "name": "Enver Azmi Sarıalioğlu", "number": 61, "position": "LW", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_009_20", "name": "Erdem Seçgin", "number": 44, "position": "ST", "country": "TR", "status": "bench"},
+
+    {"playerId": "player_tr2_009_24", "name": "Alp Arda", "number": 59, "position": "GK", "country": "TR", "status": "reserve"},
+    {"playerId": "player_tr2_009_21", "name": "Essap Njie", "number": 17, "position": "CB", "country": "GM", "status": "reserve"},
+    {"playerId": "player_tr2_009_22", "name": "İsa Dayaklı", "number": 6, "position": "CM", "country": "TR", "status": "reserve"},
+    {"playerId": "player_tr2_009_23", "name": "Mario Krstovski", "number": 77, "position": "RW", "country": "MK", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 5,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 27,
+      "cornerRight": 7
+    }
+  }
+}
