@@ -1,58 +1,58 @@
 {
-    "teamKey": "Banska",
-  
-    "name": "MFK Dukla Banska Bystrica",
-  
-    "logo": "assets/logos/europe/slovakia/Banska.png",
-  
-    "manager": {
-      "name": "Juraj Jarábek",
-      "country": "SK"
-    },
-  
-    "stadium": {
-      "name": "Štadión SNP Štiavničky",
-      "capacity": 7381
-    },
-  
-    "players": [
-      {"playerId": "player_sk1_001_01", "name": "Jakub Trefil", "number": 1, "position": "GK", "country": "CZ", "status": "starter"},
-      {"playerId": "player_sk1_001_02", "name": "Adewale Alabi", "number": 2, "position": "RB", "country": "NG", "status": "starter"},
-      {"playerId": "player_sk1_001_03", "name": "Adam Baláž", "number": 4, "position": "CB", "country": "SK", "status": "starter"},
-      {"playerId": "player_sk1_001_04", "name": "Nicolas Šikula", "number": 5, "position": "CB", "country": "SK", "status": "starter"},
-      {"playerId": "player_sk1_001_05", "name": "João Vitor Miranda", "number": 3, "position": "LB", "country": "BR", "status": "starter"},
-      {"playerId": "player_sk1_001_06", "name": "Dávid Richtárech", "number": 6, "position": "CDM", "country": "SK", "status": "starter"},
-      {"playerId": "player_sk1_001_07", "name": "Jakub Považanec", "number": 8, "position": "CM", "country": "SK", "status": "starter"},
-      {"playerId": "player_sk1_001_08", "name": "Tibor Slebodník", "number": 7, "position": "RW", "country": "SK", "status": "starter"},
-      {"playerId": "player_sk1_001_09", "name": "Kristián Vallo", "number": 10, "position": "CAM", "country": "SK", "status": "starter"},
-      {"playerId": "player_sk1_001_10", "name": "Rego Szantho", "number": 11, "position": "ST", "country": "HU", "status": "starter"},
-      {"playerId": "player_sk1_001_11", "name": "Róbert Polievka", "number": 9, "position": "LW", "country": "SK", "status": "starter"},
-  
-      {"playerId": "player_sk1_001_12", "name": "Lukáš Hroššo", "number": 12, "position": "GK", "country": "SK", "status": "bench"},
-      {"playerId": "player_sk1_001_13", "name": "Ľubomír Willwéber", "number": 14, "position": "CB", "country": "SK", "status": "bench"},
-      {"playerId": "player_sk1_001_14", "name": "Kazeem Bolaji", "number": 15, "position": "RB", "country": "NG", "status": "bench"},
-      {"playerId": "player_sk1_001_15", "name": "Adrián Sivíček", "number": 16, "position": "LW", "country": "SK", "status": "bench"},
-      {"playerId": "player_sk1_001_16", "name": "Dominik Veselovský", "number": 17, "position": "CM", "country": "SK", "status": "bench"},
-      {"playerId": "player_sk1_001_17", "name": "Mikuláš Bakaľa", "number": 18, "position": "RM", "country": "SK", "status": "bench"},
-      {"playerId": "player_sk1_001_18", "name": "Viktor Tóth", "number": 19, "position": "LM", "country": "SK", "status": "bench"},
-      {"playerId": "player_sk1_001_19", "name": "Branko Pindura", "number": 20, "position": "RW", "country": "SK", "status": "bench"},
-      {"playerId": "player_sk1_001_20", "name": "Praisegod Okechukwu", "number": 21, "position": "ST", "country": "NG", "status": "bench"},
-      {"playerId": "player_sk1_001_21", "name": "Nikolas Kubala", "number": 22, "position": "ST", "country": "SK", "status": "bench"},
-  
-      {"playerId": "player_sk1_001_22", "name": "Michal Trnovský", "number": 30, "position": "GK", "country": "SK", "status": "reserve"},
-      {"playerId": "player_sk1_001_23", "name": "Michal Lukáč", "number": 23, "position": "GK", "country": "SK", "status": "reserve"},
-      {"playerId": "player_sk1_001_24", "name": "Enzo Arevalo", "number": 24, "position": "RW", "country": "CO", "status": "reserve"},
-      {"playerId": "player_sk1_001_25", "name": "Michal Ďuriš", "number": 25, "position": "LW", "country": "SK", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 4,
-      "setPieces": {
-        "penalty": 11,
-        "freeKick": 8,
-        "cornerLeft": 7,
-        "cornerRight": 7
-      }
+  "teamKey": "Banska",
+
+  "name": "MFK Dukla Banska Bystrica",
+
+  "logo": "assets/logos/europe/slovakia/Banska.png",
+
+  "manager": {
+    "name": "Juraj Jarábek",
+    "country": "SK"
+  },
+
+  "stadium": {
+    "name": "Štadión SNP Štiavničky",
+    "capacity": 7381
+  },
+
+  "players": [
+    {"playerId": "player_sk1_001_01", "name": "Jakub Trefil", "number": 1, "position": "GK", "country": "CZ", "status": "starter"},
+    {"playerId": "player_sk1_001_02", "name": "Adewale Alabi", "number": 2, "position": "RB", "country": "NG", "status": "starter"},
+    {"playerId": "player_sk1_001_03", "name": "Adam Baláž", "number": 4, "position": "CB", "country": "SK", "status": "starter"},
+    {"playerId": "player_sk1_001_04", "name": "Nicolas Šikula", "number": 5, "position": "CB", "country": "SK", "status": "starter"},
+    {"playerId": "player_sk1_001_05", "name": "João Vitor Miranda", "number": 3, "position": "LB", "country": "BR", "status": "starter"},
+    {"playerId": "player_sk1_001_06", "name": "Dávid Richtárech", "number": 6, "position": "CDM", "country": "SK", "status": "starter"},
+    {"playerId": "player_sk1_001_07", "name": "Jakub Považanec", "number": 8, "position": "CM", "country": "SK", "status": "starter"},
+    {"playerId": "player_sk1_001_08", "name": "Tibor Slebodník", "number": 7, "position": "RW", "country": "SK", "status": "starter"},
+    {"playerId": "player_sk1_001_09", "name": "Kristián Vallo", "number": 10, "position": "CAM", "country": "SK", "status": "starter"},
+    {"playerId": "player_sk1_001_10", "name": "Rego Szantho", "number": 11, "position": "ST", "country": "HU", "status": "starter"},
+    {"playerId": "player_sk1_001_11", "name": "Róbert Polievka", "number": 9, "position": "LW", "country": "SK", "status": "starter"},
+
+    {"playerId": "player_sk1_001_12", "name": "Lukáš Hroššo", "number": 12, "position": "GK", "country": "SK", "status": "bench"},
+    {"playerId": "player_sk1_001_13", "name": "Ľubomír Willwéber", "number": 14, "position": "CB", "country": "SK", "status": "bench"},
+    {"playerId": "player_sk1_001_14", "name": "Kazeem Bolaji", "number": 15, "position": "RB", "country": "NG", "status": "bench"},
+    {"playerId": "player_sk1_001_15", "name": "Adrián Sivíček", "number": 16, "position": "LW", "country": "SK", "status": "bench"},
+    {"playerId": "player_sk1_001_16", "name": "Dominik Veselovský", "number": 17, "position": "CM", "country": "SK", "status": "bench"},
+    {"playerId": "player_sk1_001_17", "name": "Mikuláš Bakaľa", "number": 18, "position": "RM", "country": "SK", "status": "bench"},
+    {"playerId": "player_sk1_001_18", "name": "Viktor Tóth", "number": 19, "position": "LM", "country": "SK", "status": "bench"},
+    {"playerId": "player_sk1_001_19", "name": "Branko Pindura", "number": 20, "position": "RW", "country": "SK", "status": "bench"},
+    {"playerId": "player_sk1_001_20", "name": "Praisegod Okechukwu", "number": 21, "position": "ST", "country": "NG", "status": "bench"},
+    {"playerId": "player_sk1_001_21", "name": "Nikolas Kubala", "number": 22, "position": "ST", "country": "SK", "status": "bench"},
+
+    {"playerId": "player_sk1_001_22", "name": "Michal Trnovský", "number": 30, "position": "GK", "country": "SK", "status": "reserve"},
+    {"playerId": "player_sk1_001_23", "name": "Martin Gjorgievski", "number": 28, "position": "CM", "country": "MK", "status": "reserve"},
+    {"playerId": "player_sk1_001_24", "name": "Enzo Arevalo", "number": 24, "position": "RW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_sk1_001_25", "name": "Michal Ďuriš", "number": 25, "position": "LW", "country": "SK", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 8,
+      "cornerLeft": 7,
+      "cornerRight": 7
     }
   }
+}
