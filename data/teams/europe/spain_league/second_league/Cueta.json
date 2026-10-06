@@ -1,0 +1,58 @@
+{
+  "teamKey": "Cueta",
+
+  "name": "AD Ceuta FC",
+
+  "logo": "assets/logos/europe/spain/Cueta.png",
+
+  "manager": {
+    "name": "José Juan Romero",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "Alfonso Murube",
+    "capacity": 6500
+  },
+
+  "players": [
+    {"playerId": "player_es2_009_01", "name": "Pedro López", "number": 1, "position": "GK", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_009_02", "name": "Álex Petxarroman", "number": 2, "position": "RB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_009_03", "name": "Albert Caparrós", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_009_04", "name": "Carlos Hernández", "number": 5, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_009_05", "name": "José Matos", "number": 3, "position": "LB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_009_06", "name": "Yann Bodiger", "number": 8, "position": "CM", "country": "FR", "status": "starter"},
+    {"playerId": "player_es2_009_07", "name": "Victor Corral", "number": 14, "position": "CM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_009_08", "name": "Marino Illescas", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_009_09", "name": "Kenneth Mamah", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+    {"playerId": "player_es2_009_10", "name": "Cedric Teguia", "number": 11, "position": "LW", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_009_11", "name": "Omar Sadik", "number": 9, "position": "ST", "country": "MA", "status": "starter"},
+
+    {"playerId": "player_es2_009_12", "name": "Guillermo Vallejo", "number": 13, "position": "GK", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_009_13", "name": "Toni Abad", "number": 22, "position": "RB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_009_14", "name": "Adrián Lapeña", "number": 15, "position": "CB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_009_15", "name": "Carlos Redru", "number": 17, "position": "LB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_009_16", "name": "Alejandro Meléndez", "number": 19, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_009_17", "name": "Mawuli Mensah", "number": 28, "position": "CM", "country": "GH", "status": "bench"},
+    {"playerId": "player_es2_009_18", "name": "Joaquín González", "number": 6, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_009_19", "name": "Kuki Zalazar", "number": 18, "position": "CAM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_009_20", "name": "Anuar", "number": 24, "position": "RW", "country": "MA", "status": "bench"},
+    {"playerId": "player_es2_009_21", "name": "Salvi Sánchez", "number": 12, "position": "RW", "country": "ES", "status": "bench"},
+
+    {"playerId": "player_es2_009_22", "name": "Pery", "number": 26, "position": "GK", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es2_009_23", "name": "Alex Camacho", "number": 16, "position": "RW", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es2_009_24", "name": "Kialy Abdoul Kone", "number": 23, "position": "LW", "country": "CI", "status": "reserve"},
+    {"playerId": "player_es2_009_25", "name": "Jordi Escobar", "number": 29, "position": "ST", "country": "ES", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 7,
+      "cornerRight": 11
+    }
+  }
+}

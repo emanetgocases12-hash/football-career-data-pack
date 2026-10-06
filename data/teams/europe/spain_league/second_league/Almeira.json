@@ -1,0 +1,58 @@
+{
+  "teamKey": "Almeri",
+
+  "name": "UD Almería",
+
+  "logo": "assets/logos/europe/spain/Almeira.png",
+
+  "manager": {
+    "name": "García Pimienta",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "UD Almería Stadium",
+    "capacity": 18331
+  },
+
+  "players": [
+    {"playerId": "player_es2_002_01", "name": "Fernando Martínez", "number": 1, "position": "GK", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_002_02", "name": "Marc Pubill", "number": 2, "position": "RB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_002_03", "name": "Álex Centelles", "number": 3, "position": "LB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_002_04", "name": "Chumi", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_002_05", "name": "Edgar González", "number": 5, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_002_06", "name": "Mikel Vesga", "number": 6, "position": "CDM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_002_07", "name": "Dion Lopy", "number": 8, "position": "CM", "country": "SN", "status": "starter"},
+    {"playerId": "player_es2_002_08", "name": "Sergio Arribas", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_002_09", "name": "Lázaro", "number": 7, "position": "RW", "country": "BR", "status": "starter"},
+    {"playerId": "player_es2_002_10", "name": "Adri Embarba", "number": 11, "position": "LW", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_002_11", "name": "Leo Baptistão", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+
+    {"playerId": "player_es2_002_12", "name": "Bruno Iribarne", "number": 13, "position": "GK", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_002_13", "name": "Kaiky", "number": 15, "position": "CB", "country": "BR", "status": "bench"},
+    {"playerId": "player_es2_002_14", "name": "Aleksandar Radovanović", "number": 16, "position": "CB", "country": "RS", "status": "bench"},
+    {"playerId": "player_es2_002_15", "name": "Gonzalo Melero", "number": 14, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_002_16", "name": "Lucas Robertone", "number": 19, "position": "CM", "country": "AR", "status": "bench"},
+    {"playerId": "player_es2_002_17", "name": "Gui Guedes", "number": 28, "position": "CM", "country": "PT", "status": "bench"},
+    {"playerId": "player_es2_002_18", "name": "Arnau Puigmal", "number": 17, "position": "RW", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_002_19", "name": "Nico Melamed", "number": 23, "position": "LW", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_002_20", "name": "Luis Suárez", "number": 12, "position": "ST", "country": "CO", "status": "bench"},
+    {"playerId": "player_es2_002_21", "name": "Marko Milovanović", "number": 18, "position": "ST", "country": "RS", "status": "bench"},
+
+    {"playerId": "player_es2_002_22", "name": "Giorgi Yaakobishvili", "number": 31, "position": "GK", "country": "HU", "status": "reserve"},
+    {"playerId": "player_es2_002_23", "name": "Marezi", "number": 29, "position": "ST", "country": "AL", "status": "reserve"},
+    {"playerId": "player_es2_002_24", "name": "Bruno Langa", "number": 21, "position": "LB", "country": "MZ", "status": "reserve"},
+    {"playerId": "player_es2_002_25", "name": "Houboulang Mendes", "number": 22, "position": "RB", "country": "GW", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 7,
+      "cornerRight": 11
+    }
+  }
+}

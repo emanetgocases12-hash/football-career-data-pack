@@ -1,0 +1,58 @@
+{
+  "teamKey": "Legané",
+
+  "name": "CD Leganés",
+
+  "logo": "assets/logos/europe/spain/Leganes.png",
+
+  "manager": {
+    "name": "Rubén Albés",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "Ontime Butarque",
+    "capacity": 14422
+  },
+
+  "players": [
+    {"playerId": "player_es2_016_01", "name": "Raúl Fernández", "number": 1, "position": "GK", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_016_02", "name": "Rubén Peña", "number": 2, "position": "RB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_016_03", "name": "Marvel", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_016_04", "name": "Lalo Aguilar", "number": 5, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_016_05", "name": "Enric Franquesa", "number": 3, "position": "LB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_016_06", "name": "Amadou Diawara", "number": 6, "position": "CDM", "country": "GN", "status": "starter"},
+    {"playerId": "player_es2_016_07", "name": "Miguel Atienza", "number": 8, "position": "CM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_016_08", "name": "Naim García", "number": 7, "position": "RW", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_016_09", "name": "Dani Rodríguez", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_016_10", "name": "Ismaël Gharbi", "number": 11, "position": "LW", "country": "TN", "status": "starter"},
+    {"playerId": "player_es2_016_11", "name": "Álex Millán", "number": 9, "position": "ST", "country": "ES", "status": "starter"},
+
+    {"playerId": "player_es2_016_12", "name": "Luca Zidane", "number": 13, "position": "GK", "country": "DZ", "status": "bench"},
+    {"playerId": "player_es2_016_13", "name": "Álvaro Tejero", "number": 22, "position": "RB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_016_14", "name": "Rubén Pulido", "number": 15, "position": "CB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_016_15", "name": "Ignasi Miquel", "number": 16, "position": "CB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_016_16", "name": "Javi Montero", "number": 20, "position": "CB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_016_17", "name": "Zico Buurmeester", "number": 14, "position": "CM", "country": "NL", "status": "bench"},
+    {"playerId": "player_es2_016_18", "name": "Yassine Kechta", "number": 19, "position": "CM", "country": "MA", "status": "bench"},
+    {"playerId": "player_es2_016_19", "name": "Patrick Soko", "number": 17, "position": "RW", "country": "CM", "status": "bench"},
+    {"playerId": "player_es2_016_20", "name": "Álex Sancris", "number": 24, "position": "RW", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_016_21", "name": "Andrés Campos", "number": 23, "position": "LW", "country": "ES", "status": "bench"},
+
+    {"playerId": "player_es2_016_22", "name": "Nico Lozano", "number": 31, "position": "GK", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es2_016_23", "name": "Unax del Cura", "number": 12, "position": "ST", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es2_016_24", "name": "Álvaro Morata", "number": 18, "position": "ST", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es2_016_25", "name": "Diego García", "number": 29, "position": "ST", "country": "ES", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 11
+    }
+  }
+}

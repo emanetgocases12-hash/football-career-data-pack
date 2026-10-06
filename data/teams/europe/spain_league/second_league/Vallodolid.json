@@ -1,0 +1,58 @@
+{
+  "teamKey": "Vallad",
+
+  "name": "Real Valladolid CF",
+
+  "logo": "assets/logos/europe/spain/Valladolid.png",
+
+  "manager": {
+    "name": "Fran Escribá",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "José Zorrilla",
+    "capacity": 27618
+  },
+
+  "players": [
+    {"playerId": "player_es2_022_01", "name": "Guilherme Fernandes", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+    {"playerId": "player_es2_022_02", "name": "Luis Pérez", "number": 2, "position": "RB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_022_03", "name": "Javi Sánchez", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_022_04", "name": "David Torres", "number": 5, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_022_05", "name": "Stanko Jurić", "number": 6, "position": "CDM", "country": "HR", "status": "starter"},
+    {"playerId": "player_es2_022_06", "name": "Mario Martín", "number": 8, "position": "CM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_022_07", "name": "Amath Ndiaye", "number": 7, "position": "RW", "country": "SN", "status": "starter"},
+    {"playerId": "player_es2_022_08", "name": "Raúl Moro", "number": 11, "position": "LW", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_022_09", "name": "Marcos André", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+    {"playerId": "player_es2_022_10", "name": "Chuki", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_022_11", "name": "Javi Jiménez", "number": 3, "position": "LB", "country": "ES", "status": "starter"},
+
+    {"playerId": "player_es2_022_12", "name": "André Ferreira", "number": 13, "position": "GK", "country": "PT", "status": "bench"},
+    {"playerId": "player_es2_022_13", "name": "Iván Fresneda", "number": 22, "position": "RB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_022_14", "name": "Víctor Meseguer", "number": 14, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_022_15", "name": "Kike Pérez", "number": 19, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_022_16", "name": "Anuar", "number": 23, "position": "LW", "country": "MA", "status": "bench"},
+    {"playerId": "player_es2_022_17", "name": "Darwin Machís", "number": 12, "position": "LW", "country": "VE", "status": "bench"},
+    {"playerId": "player_es2_022_18", "name": "Mamadou Sylla", "number": 18, "position": "ST", "country": "SN", "status": "bench"},
+    {"playerId": "player_es2_022_19", "name": "Juanmi Latasa", "number": 29, "position": "ST", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_022_20", "name": "Cédric Omoigui", "number": 99, "position": "ST", "country": "NG", "status": "bench"},
+    {"playerId": "player_es2_022_21", "name": "Lucas Rosa", "number": 24, "position": "RB", "country": "BR", "status": "bench"},
+
+    {"playerId": "player_es2_022_22", "name": "A. Aceves", "number": 31, "position": "GK", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es2_022_23", "name": "Selim Amallah", "number": 20, "position": "CAM", "country": "MA", "status": "reserve"},
+    {"playerId": "player_es2_022_24", "name": "Cenk Özkacar", "number": 15, "position": "CB", "country": "TR", "status": "reserve"},
+    {"playerId": "player_es2_022_25", "name": "Tunde Akinsola", "number": 17, "position": "RW", "country": "NG", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 11
+    }
+  }
+}

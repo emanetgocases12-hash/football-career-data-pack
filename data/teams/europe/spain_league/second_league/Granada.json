@@ -1,0 +1,58 @@
+{
+  "teamKey": "Granad",
+
+  "name": "Granada CF",
+
+  "logo": "assets/logos/europe/spain/Granada.png",
+
+  "manager": {
+    "name": "Pacheta",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "Nuevo Los Cármenes",
+    "capacity": 19336
+  },
+
+  "players": [
+    {"playerId": "player_es2_014_01", "name": "Alberto Flores", "number": 1, "position": "GK", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_014_02", "name": "Sergio López", "number": 2, "position": "RB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_014_03", "name": "Juanjo Flores", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_014_04", "name": "Manu Lama", "number": 5, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_014_05", "name": "Diego Hormigo", "number": 3, "position": "LB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_014_06", "name": "Gerard Gumbau", "number": 6, "position": "CDM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_014_07", "name": "Rubén Alcaraz", "number": 8, "position": "CM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_014_08", "name": "José Manuel Arnáiz", "number": 11, "position": "LW", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_014_09", "name": "Jorge Pascual", "number": 9, "position": "ST", "country": "ES", "status": "starter"},
+    {"playerId": "player_es2_014_10", "name": "Reinier", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+    {"playerId": "player_es2_014_11", "name": "Pau Casadesús", "number": 22, "position": "RB", "country": "ES", "status": "starter"},
+
+    {"playerId": "player_es2_014_12", "name": "Raúl Lizoain", "number": 13, "position": "GK", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_014_13", "name": "Benedikt Gimber", "number": 15, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_es2_014_14", "name": "Bourama Dembélé", "number": 16, "position": "CB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_014_15", "name": "Baïla Diallo", "number": 17, "position": "LB", "country": "SN", "status": "bench"},
+    {"playerId": "player_es2_014_16", "name": "Diego Pampín", "number": 21, "position": "LB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_014_17", "name": "Pedro Alemañ", "number": 14, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_014_18", "name": "Abdoul Kader Bamba", "number": 7, "position": "LW", "country": "FR", "status": "bench"},
+    {"playerId": "player_es2_014_19", "name": "Sergio Rodelas", "number": 19, "position": "LW", "country": "ES", "status": "bench"},
+    {"playerId": "player_es2_014_20", "name": "Alejandro Marqués", "number": 12, "position": "ST", "country": "VE", "status": "bench"},
+    {"playerId": "player_es2_014_21", "name": "Chinaza Onouha", "number": 18, "position": "ST", "country": "NG", "status": "bench"},
+
+    {"playerId": "player_es2_014_22", "name": "Iker García", "number": 31, "position": "GK", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es2_014_23", "name": "Ricard Sánchez", "number": 24, "position": "RB", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es2_014_24", "name": "Miguel Brau", "number": 23, "position": "LB", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es2_014_25", "name": "Lucas Boyé", "number": 29, "position": "ST", "country": "AR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 11
+    }
+  }
+}
