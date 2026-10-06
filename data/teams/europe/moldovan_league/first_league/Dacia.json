@@ -1,58 +1,58 @@
 {
-    "teamKey": "Dacia",
-  
-    "name": "Dacia Buiucani",
-  
-    "logo": "assets/logos/europe/moldovan/Dacia.png",
-  
-    "manager": {
-      "name": "Igor Negrescu",
-      "country": "MD"
-    },
-  
-    "stadium": {
-      "name": "Joma Arena",
-      "capacity": 300
-    },
-  
-    "players": [
-      {"playerId": "player_md1_002_01", "name": "Roman Dumenco", "number": 12, "position": "GK", "country": "MD", "status": "starter"},
-      {"playerId": "player_md1_002_02", "name": "Doru Calestru", "number": 2, "position": "RB", "country": "MD", "status": "starter"},
-      {"playerId": "player_md1_002_03", "name": "Cristian Ghedroutan", "number": 4, "position": "CB", "country": "MD", "status": "starter"},
-      {"playerId": "player_md1_002_04", "name": "Stefan Efros", "number": 20, "position": "CB", "country": "MD", "status": "starter"},
-      {"playerId": "player_md1_002_05", "name": "Denis Baciu", "number": 3, "position": "LB", "country": "MD", "status": "starter"},
-      {"playerId": "player_md1_002_06", "name": "Igor Lambarschi", "number": 8, "position": "CM", "country": "MD", "status": "starter"},
-      {"playerId": "player_md1_002_07", "name": "Roman Novicov", "number": 23, "position": "CM", "country": "MD", "status": "starter"},
-      {"playerId": "player_md1_002_08", "name": "Vitalie Dumbrava", "number": 7, "position": "RW", "country": "MD", "status": "starter"},
-      {"playerId": "player_md1_002_09", "name": "Valeriu Gurgurov", "number": 21, "position": "CAM", "country": "MD", "status": "starter"},
-      {"playerId": "player_md1_002_10", "name": "Cristian Nagurnea", "number": 17, "position": "LW", "country": "MD", "status": "starter"},
-      {"playerId": "player_md1_002_11", "name": "Serghei Turcan", "number": 27, "position": "ST", "country": "MD", "status": "starter"},
-  
-      {"playerId": "player_md1_002_12", "name": "Ciprian Tuhar", "number": 35, "position": "GK", "country": "MD", "status": "bench"},
-      {"playerId": "player_md1_002_13", "name": "Dumitru Straistaru", "number": 66, "position": "CB", "country": "MD", "status": "bench"},
-      {"playerId": "player_md1_002_14", "name": "Marius-Nicolae Rosioru", "number": 29, "position": "LB", "country": "MD", "status": "bench"},
-      {"playerId": "player_md1_002_15", "name": "Alexandru Muntean", "number": 16, "position": "CM", "country": "MD", "status": "bench"},
-      {"playerId": "player_md1_002_16", "name": "Daniel Popovici", "number": 18, "position": "CM", "country": "MD", "status": "bench"},
-      {"playerId": "player_md1_002_17", "name": "Vlad Lupasco", "number": 9, "position": "ST", "country": "MD", "status": "bench"},
-      {"playerId": "player_md1_002_18", "name": "Viorel Varzaru", "number": 11, "position": "RW", "country": "MD", "status": "bench"},
-      {"playerId": "player_md1_002_19", "name": "Ion Ciobanu", "number": 30, "position": "CM", "country": "MD", "status": "bench"},
-      {"playerId": "player_md1_002_20", "name": "Vlad Colis", "number": 70, "position": "LW", "country": "MD", "status": "bench"},
-      {"playerId": "player_md1_002_21", "name": "Artiom Dijinari", "number": 90, "position": "CB", "country": "MD", "status": "bench"},
-  
-      {"playerId": "player_md1_002_22", "name": "Antonii Josan", "number": 91, "position": "ST", "country": "MD", "status": "reserve"},
-      {"playerId": "player_md1_002_23", "name": "Iulian Potlog", "number": 22, "position": "CM", "country": "MD", "status": "reserve"},
-      {"playerId": "player_md1_002_24", "name": "Nichita Covali", "number": 24, "position": "CM", "country": "MD", "status": "reserve"},
-      {"playerId": "player_md1_002_25", "name": "Denis Furtuna", "number": 13, "position": "GK", "country": "MD", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 8,
-      "setPieces": {
-        "penalty": 27,
-        "freeKick": 8,
-        "cornerLeft": 7,
-        "cornerRight": 17
-      }
+  "teamKey": "Dacia",
+
+  "name": "Dacia Buiucani",
+
+  "logo": "assets/logos/europe/moldovan/Dacia.png",
+
+  "manager": {
+    "name": "Igor Negrescu",
+    "country": "MD"
+  },
+
+  "stadium": {
+    "name": "Joma Arena",
+    "capacity": 300
+  },
+
+  "players": [
+    { "playerId": "player_md1_002_01", "name": "Roman Dumenco", "number": 12, "position": "GK", "country": "MD", "status": "starter" },
+    { "playerId": "player_md1_002_02", "name": "Doru Calestru", "number": 2, "position": "RB", "country": "MD", "status": "starter" },
+    { "playerId": "player_md1_002_03", "name": "Cristian Ghedroutan", "number": 4, "position": "CB", "country": "MD", "status": "starter" },
+    { "playerId": "player_md1_002_04", "name": "Stefan Efros", "number": 20, "position": "CB", "country": "MD", "status": "starter" },
+    { "playerId": "player_md1_002_05", "name": "Denis Baciu", "number": 3, "position": "LB", "country": "MD", "status": "starter" },
+    { "playerId": "player_md1_002_06", "name": "Igor Lambarschi", "number": 8, "position": "CM", "country": "MD", "status": "starter" },
+    { "playerId": "player_md1_002_07", "name": "Roman Novicov", "number": 23, "position": "CM", "country": "MD", "status": "starter" },
+    { "playerId": "player_md1_002_08", "name": "Vitalie Dumbrava", "number": 7, "position": "RW", "country": "MD", "status": "starter" },
+    { "playerId": "player_md1_002_09", "name": "Valeriu Gurgurov", "number": 21, "position": "CAM", "country": "MD", "status": "starter" },
+    { "playerId": "player_md1_002_10", "name": "Cristian Nagurnea", "number": 17, "position": "LW", "country": "MD", "status": "starter" },
+    { "playerId": "player_md1_002_11", "name": "Serghei Turcan", "number": 27, "position": "ST", "country": "MD", "status": "starter" },
+
+    { "playerId": "player_md1_002_12", "name": "Ciprian Tuhar", "number": 35, "position": "GK", "country": "MD", "status": "bench" },
+    { "playerId": "player_md1_002_13", "name": "Dumitru Straistaru", "number": 66, "position": "CB", "country": "MD", "status": "bench" },
+    { "playerId": "player_md1_002_14", "name": "Marius-Nicolae Rosioru", "number": 29, "position": "LB", "country": "MD", "status": "bench" },
+    { "playerId": "player_md1_002_15", "name": "Alexandru Muntean", "number": 16, "position": "CM", "country": "MD", "status": "bench" },
+    { "playerId": "player_md1_002_16", "name": "Daniel Popovici", "number": 18, "position": "CM", "country": "MD", "status": "bench" },
+    { "playerId": "player_md1_002_17", "name": "Vlad Lupasco", "number": 9, "position": "ST", "country": "MD", "status": "bench" },
+    { "playerId": "player_md1_002_18", "name": "Viorel Varzaru", "number": 11, "position": "RW", "country": "MD", "status": "bench" },
+    { "playerId": "player_md1_002_19", "name": "Ion Ciobanu", "number": 30, "position": "CM", "country": "MD", "status": "bench" },
+    { "playerId": "player_md1_002_20", "name": "Vlad Colis", "number": 70, "position": "LW", "country": "MD", "status": "bench" },
+    { "playerId": "player_md1_002_21", "name": "Artiom Dijinari", "number": 90, "position": "CB", "country": "MD", "status": "bench" },
+
+    { "playerId": "player_md1_002_25", "name": "Denis Furtuna", "number": 13, "position": "GK", "country": "MD", "status": "reserve" },
+    { "playerId": "player_md1_002_22", "name": "Antonii Josan", "number": 91, "position": "ST", "country": "MD", "status": "reserve" },
+    { "playerId": "player_md1_002_23", "name": "Iulian Potlog", "number": 22, "position": "CM", "country": "MD", "status": "reserve" },
+    { "playerId": "player_md1_002_24", "name": "Nichita Covali", "number": 24, "position": "CM", "country": "MD", "status": "reserve" }
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 27,
+      "freeKick": 8,
+      "cornerLeft": 7,
+      "cornerRight": 17
     }
   }
+}
