@@ -1,0 +1,56 @@
+{
+  "teamKey": "D Brst",
+
+  "name": "Dynamo Brest",
+
+  "logo": "assets/logos/europe/belarus/Brest.png",
+
+  "manager": {
+    "name": "Aleksandr Sednev",
+    "country": "BY"
+  },
+
+  "stadium": {
+    "name": "GOSK Brestskiy",
+    "capacity": 10169
+  },
+
+  "players": [
+    {"playerId": "player_by1_005_01", "name": "Maksim Belov", "number": 1, "position": "GK", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_005_02", "name": "Roman Yuzepchuk", "number": 77, "position": "RB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_005_03", "name": "Mikhail Kovel", "number": 5, "position": "CB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_005_04", "name": "Aleksandr Pavlovets", "number": 22, "position": "CB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_005_05", "name": "Konstantin Glushchenkov", "number": 3, "position": "LB", "country": "RU", "status": "starter"},
+    {"playerId": "player_by1_005_06", "name": "Aleksandr Butarevich", "number": 44, "position": "CDM", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_005_07", "name": "Dmitry Grechikho", "number": 19, "position": "CM", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_005_08", "name": "Artem Rylach", "number": 2, "position": "RW", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_005_09", "name": "Aleksandr Spasov", "number": 20, "position": "CAM", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_005_10", "name": "Danijel Bakić", "number": 7, "position": "LW", "country": "ME", "status": "starter"},
+    {"playerId": "player_by1_005_11", "name": "Evgeniy Kortsov", "number": 24, "position": "ST", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_005_12", "name": "Aleksandr Nechaev", "number": 21, "position": "GK", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_005_13", "name": "Nikita Burak", "number": 42, "position": "CM", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_005_15", "name": "Evgeniy Khralenkov", "number": 6, "position": "CB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_005_16", "name": "Dmitry Levitskiy", "number": 11, "position": "LB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_005_17", "name": "Nikita Stepanov", "number": 18, "position": "CB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_005_18", "name": "Vladislav Lyakh", "number": 23, "position": "RB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_005_19", "name": "Guilherme Guedes", "number": 36, "position": "LB", "country": "BR", "status": "bench"},
+    {"playerId": "player_by1_005_20", "name": "Aleksandr Lavrik", "number": 55, "position": "CB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_005_21", "name": "Željko Popović", "number": 4, "position": "CM", "country": "ME", "status": "bench"},
+    {"playerId": "player_by1_005_22", "name": "Ivan Zenkov", "number": 99, "position": "CM", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_005_14", "name": "Ivan Malashchitskiy", "number": 35, "position": "GK", "country": "BY", "status": "reserve"},
+    {"playerId": "player_by1_005_23", "name": "Ruslan Gritskevich", "number": 17, "position": "ST", "country": "BY", "status": "reserve"},
+    {"playerId": "player_by1_005_24", "name": "Vladislav Lozhkin", "number": 25, "position": "ST", "country": "BY", "status": "reserve"},
+    {"playerId": "player_by1_005_25", "name": "Dmitry Kovalevich", "number": 88, "position": "ST", "country": "BY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 5,
+    "setPieces": {
+      "penalty": 24,
+      "freeKick": 2,
+      "cornerLeft": 2,
+      "cornerRight": 2
+    }
+  }
+}

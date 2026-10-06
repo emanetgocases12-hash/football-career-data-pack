@@ -1,0 +1,56 @@
+{
+  "teamKey": "Vtebsk",
+
+  "name": "ML Vitebsk",
+
+  "logo": "assets/logos/europe/belarus/Vitebsk.png",
+
+  "manager": {
+    "name": "Sergey Alekseev",
+    "country": "BY"
+  },
+
+  "stadium": {
+    "name": "ZSK Vitebskiy",
+    "capacity": 8350
+  },
+
+  "players": [
+    {"playerId": "player_by1_016_01", "name": "Pavel Pavlyuchenko", "number": 1, "position": "GK", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_016_02", "name": "Sergey Balanovich", "number": 23, "position": "RB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_016_03", "name": "Zakhar Volkov", "number": 4, "position": "CB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_016_04", "name": "Nikita Baranok", "number": 5, "position": "CB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_016_05", "name": "Milad Mohammadi", "number": 3, "position": "LB", "country": "IR", "status": "starter"},
+    {"playerId": "player_by1_016_06", "name": "Valeriy Bocherov", "number": 6, "position": "CDM", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_016_07", "name": "Valeri Gromyko", "number": 10, "position": "CM", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_016_08", "name": "Denilho Cleonise", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
+    {"playerId": "player_by1_016_09", "name": "Artem Kontsevoy", "number": 17, "position": "CAM", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_016_10", "name": "Silas Gnaka", "number": 11, "position": "LW", "country": "CI", "status": "starter"},
+    {"playerId": "player_by1_016_11", "name": "Shamar Nicholson", "number": 9, "position": "ST", "country": "JM", "status": "starter"},
+    {"playerId": "player_by1_016_12", "name": "Pavel Shcherbachenya", "number": 12, "position": "GK", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_016_14", "name": "Kirill Gomanov", "number": 14, "position": "CB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_016_15", "name": "Ilya Moskalenchik", "number": 15, "position": "CB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_016_16", "name": "Yan Skibskiy", "number": 16, "position": "LB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_016_17", "name": "Vladislav Zhuk", "number": 18, "position": "RB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_016_18", "name": "Daniil Galyata", "number": 19, "position": "CM", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_016_19", "name": "Nikita Glushkov", "number": 20, "position": "CM", "country": "RU", "status": "bench"},
+    {"playerId": "player_by1_016_20", "name": "Bassékou Diabaté", "number": 21, "position": "ST", "country": "ML", "status": "bench"},
+    {"playerId": "player_by1_016_21", "name": "Timur Ivanov", "number": 22, "position": "CM", "country": "RU", "status": "bench"},
+    {"playerId": "player_by1_016_22", "name": "Roko Bosić", "number": 24, "position": "RW", "country": "RS", "status": "bench"},
+    {"playerId": "player_by1_016_13", "name": "Daniil Kotov", "number": 30, "position": "GK", "country": "BY", "status": "reserve"},
+    {"playerId": "player_by1_016_23", "name": "Aleksa Mesarović", "number": 25, "position": "CAM", "country": "RS", "status": "reserve"},
+    {"playerId": "player_by1_016_24", "name": "Aleksandr Ode", "number": 26, "position": "CM", "country": "NG", "status": "reserve"},
+    {"playerId": "player_by1_016_25", "name": "Maksim Bulanov", "number": 27, "position": "ST", "country": "BY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "teamKey": "Neman",
+
+  "name": "Neman Grodno",
+
+  "logo": "assets/logos/europe/belarus/Neman.png",
+
+  "manager": {
+    "name": "Igor Kovalevich",
+    "country": "BY"
+  },
+
+  "stadium": {
+    "name": "Stadion GOKTsOR",
+    "capacity": 8479
+  },
+
+  "players": [
+    {"playerId": "player_by1_014_01", "name": "Aleksandr Malievskiy", "number": 1, "position": "GK", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_014_02", "name": "Vladislav Tonkevich", "number": 2, "position": "RB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_014_03", "name": "Aleksandr Vasiljev", "number": 4, "position": "CB", "country": "RU", "status": "starter"},
+    {"playerId": "player_by1_014_04", "name": "Igor Sadovnichiy", "number": 20, "position": "CB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_014_05", "name": "Ivan Kirko", "number": 22, "position": "LB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_014_06", "name": "Aleksandr Nazarenko", "number": 6, "position": "CDM", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_014_07", "name": "Pavel Savitskiy", "number": 88, "position": "CM", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_014_08", "name": "Yuri Pantea", "number": 8, "position": "RW", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_014_09", "name": "Dmitry Lisakovich", "number": 10, "position": "CAM", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_014_10", "name": "Dumitru Spătaru", "number": 33, "position": "LW", "country": "MD", "status": "starter"},
+    {"playerId": "player_by1_014_11", "name": "Andrej Ratković", "number": 7, "position": "ST", "country": "RS", "status": "starter"},
+    {"playerId": "player_by1_014_12", "name": "Nikita Matysyuk", "number": 16, "position": "GK", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_014_14", "name": "Suleiman Jimoh", "number": 14, "position": "CB", "country": "CI", "status": "bench"},
+    {"playerId": "player_by1_014_15", "name": "Aleksandr Shalashnikov", "number": 50, "position": "CB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_014_16", "name": "Daniil Girs", "number": 55, "position": "CB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_014_17", "name": "Oleg Evdokimov", "number": 15, "position": "CM", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_014_18", "name": "Aleksandr Suchkov", "number": 17, "position": "CM", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_014_19", "name": "Aleksandr Dayneko", "number": 19, "position": "CM", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_014_20", "name": "Terry Yormie", "number": 23, "position": "CM", "country": "LR", "status": "bench"},
+    {"playerId": "player_by1_014_21", "name": "Aleksandr Yakimov", "number": 24, "position": "CM", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_014_22", "name": "Aleksandr Ednach", "number": 30, "position": "CM", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_014_13", "name": "Kirill Veydyger", "number": 35, "position": "GK", "country": "BY", "status": "reserve"},
+    {"playerId": "player_by1_014_23", "name": "Maksim Kozlov", "number": 47, "position": "CM", "country": "BY", "status": "reserve"},
+    {"playerId": "player_by1_014_24", "name": "Sergey Pushnyakov", "number": 9, "position": "ST", "country": "BY", "status": "reserve"},
+    {"playerId": "player_by1_014_25", "name": "Maksim Kravtsov", "number": 18, "position": "ST", "country": "BY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 7,
+      "freeKick": 8,
+      "cornerLeft": 8,
+      "cornerRight": 8
+    }
+  }
+}

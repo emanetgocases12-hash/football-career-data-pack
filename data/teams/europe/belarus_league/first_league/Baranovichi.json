@@ -1,0 +1,56 @@
+{
+  "teamKey": "Barano",
+
+  "name": "FC Baranovichi",
+
+  "logo": "assets/logos/europe/belarus/Baranovichi.png",
+
+  "manager": {
+    "name": "Roman Kirenkin",
+    "country": "BY"
+  },
+
+  "stadium": {
+    "name": "Lokomotiv",
+    "capacity": 3749
+  },
+
+  "players": [
+    {"playerId": "player_by1_002_01", "name": "Dmitry Shapko", "number": 12, "position": "GK", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_002_02", "name": "Sergey Kendysh", "number": 2, "position": "RB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_002_03", "name": "Vladislav Karpenya", "number": 4, "position": "CB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_002_04", "name": "Vladislav Fedotov", "number": 5, "position": "CB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_002_05", "name": "Aleksandr Bruy", "number": 19, "position": "LB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_002_06", "name": "Alibi Tuzakbaev", "number": 6, "position": "CDM", "country": "KZ", "status": "starter"},
+    {"playerId": "player_by1_002_07", "name": "Filipp Lebedev", "number": 10, "position": "CM", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_002_08", "name": "Timur Pukhov", "number": 7, "position": "RW", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_002_09", "name": "Vladislav Balbukh", "number": 8, "position": "CAM", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_002_10", "name": "Maksim Shevchenko", "number": 17, "position": "LW", "country": "UA", "status": "starter"},
+    {"playerId": "player_by1_002_11", "name": "Sergey Stefanovich", "number": 9, "position": "ST", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_002_12", "name": "Dmitry Shpakovskiy", "number": 26, "position": "GK", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_002_14", "name": "Nikita Ryabykh", "number": 11, "position": "CB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_002_15", "name": "Vladimir Vasilenko", "number": 23, "position": "CB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_002_16", "name": "Kirill Muzychenko", "number": 33, "position": "LB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_002_17", "name": "Timofey Tkachev", "number": 97, "position": "RB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_002_18", "name": "Evgeniy Lapun", "number": 14, "position": "CM", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_002_19", "name": "Maksim Bondarenko", "number": 22, "position": "CM", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_002_20", "name": "Aleksandr Petrenko", "number": 34, "position": "CAM", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_002_21", "name": "Maksim Artyukh", "number": 77, "position": "RW", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_002_22", "name": "Vladislav Potorocha", "number": 96, "position": "LW", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_002_13", "name": "Aleksandr Dresmanis", "number": 93, "position": "GK", "country": "BY", "status": "reserve"},
+    {"playerId": "player_by1_002_23", "name": "Sergey Penchuk", "number": 29, "position": "ST", "country": "BY", "status": "reserve"},
+    {"playerId": "player_by1_002_24", "name": "Ivan Kopat", "number": 35, "position": "ST", "country": "BY", "status": "reserve"},
+    {"playerId": "player_by1_002_25", "name": "Ersultan Torekul", "number": 45, "position": "ST", "country": "KZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}

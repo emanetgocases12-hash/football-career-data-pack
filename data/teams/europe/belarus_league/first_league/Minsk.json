@@ -1,0 +1,56 @@
+{
+  "teamKey": "Minsk",
+
+  "name": "FK Minsk",
+
+  "logo": "assets/logos/europe/belarus/Minsk.png",
+
+  "manager": {
+    "name": "Artem Chelyadinskiy",
+    "country": "BY"
+  },
+
+  "stadium": {
+    "name": "Stadion FK Minsk",
+    "capacity": 3000
+  },
+
+  "players": [
+    {"playerId": "player_by1_011_01", "name": "Aleksandr Gutor", "number": 30, "position": "GK", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_011_02", "name": "Valentin Dikhtievskiy", "number": 2, "position": "RB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_011_03", "name": "Artem Sokol", "number": 3, "position": "CB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_011_04", "name": "Ruslan Khadarkevich", "number": 4, "position": "CB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_011_05", "name": "Konstantin Kuchinskiy", "number": 19, "position": "LB", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_011_06", "name": "Felix Abena", "number": 6, "position": "CDM", "country": "CM", "status": "starter"},
+    {"playerId": "player_by1_011_07", "name": "Ilya Aleksievich", "number": 13, "position": "CM", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_011_08", "name": "Gleb Zherdev", "number": 10, "position": "RW", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_011_09", "name": "Aleksandr Ksenofontov", "number": 80, "position": "CAM", "country": "BY", "status": "starter"},
+    {"playerId": "player_by1_011_10", "name": "Honore Gomis", "number": 7, "position": "LW", "country": "SN", "status": "starter"},
+    {"playerId": "player_by1_011_11", "name": "Mamadou Dieye", "number": 9, "position": "ST", "country": "SN", "status": "starter"},
+    {"playerId": "player_by1_011_12", "name": "Maksim Gerashchenko", "number": 16, "position": "GK", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_011_13", "name": "Dmitri Osipenko", "number": 77, "position": "ST", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_011_15", "name": "Abdul Kabiya", "number": 5, "position": "CB", "country": "SL", "status": "bench"},
+    {"playerId": "player_by1_011_16", "name": "Francisco Campo", "number": 15, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_by1_011_17", "name": "Park Ji-Hun", "number": 24, "position": "RB", "country": "KR", "status": "bench"},
+    {"playerId": "player_by1_011_18", "name": "Ilya Sviridenko", "number": 79, "position": "CB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_011_19", "name": "Prokhor Sheremet", "number": 22, "position": "CB", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_011_20", "name": "Vladislav Varaksa", "number": 26, "position": "CM", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_011_21", "name": "Ivan Volchok", "number": 29, "position": "CM", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_011_22", "name": "Dmitry Morozov", "number": 18, "position": "CM", "country": "BY", "status": "bench"},
+    {"playerId": "player_by1_011_14", "name": "Matvey Sukharenko", "number": 37, "position": "GK", "country": "BY", "status": "reserve"},
+    {"playerId": "player_by1_011_23", "name": "Artem Turich", "number": 23, "position": "CM", "country": "BY", "status": "reserve"},
+    {"playerId": "player_by1_011_24", "name": "Emir Ernisov", "number": 33, "position": "CM", "country": "KG", "status": "reserve"},
+    {"playerId": "player_by1_011_25", "name": "Vladislav Yatskevich", "number": 17, "position": "ST", "country": "BY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 3,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 10
+    }
+  }
+}
