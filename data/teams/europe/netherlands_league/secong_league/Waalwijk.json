@@ -1,58 +1,58 @@
- {
-    "teamKey": "Waalwi",
-  
-    "name": "RKC Waalwijk",
-  
-    "logo": "assets/logos/europe/netherlands/Waalwijk.png",
-  
-    "manager": {
-      "name": "Sander Duits",
-      "country": "NL"
-    },
-  
-    "stadium": {
-      "name": "Mandemakers Stadion",
-      "capacity": 7186
-    },
-  
-    "players": [
-      {"playerId": "player_nl2_020_01", "name": "Niek Schiks", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl2_020_02", "name": "Faissal Al Mazyani", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl2_020_03", "name": "Liam Van Gelderen", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl2_020_04", "name": "Juan Familia-Castillo", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl2_020_05", "name": "Navajo Bakboord", "number": 3, "position": "LB", "country": "SR", "status": "starter"},
-      {"playerId": "player_nl2_020_06", "name": "Azzedine Dkidak", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl2_020_07", "name": "Thijs van Leeuwen", "number": 8, "position": "CM", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl2_020_08", "name": "Ryan Fage", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl2_020_09", "name": "Tim van de Loo", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl2_020_10", "name": "Virgil Misidjan", "number": 9, "position": "ST", "country": "SR", "status": "starter"},
-      {"playerId": "player_nl2_020_11", "name": "Keyan Varela", "number": 17, "position": "RW", "country": "CV", "status": "starter"},
-  
-      {"playerId": "player_nl2_020_12", "name": "Mark Spenkelink", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl2_020_13", "name": "Jordy de Wijs", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl2_020_14", "name": "Nazjir Held", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl2_020_15", "name": "Sven van der Plas", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl2_020_16", "name": "Loek Postma", "number": 23, "position": "CB", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl2_020_17", "name": "Rein van Hedel", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl2_020_18", "name": "Jochem Nap", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl2_020_19", "name": "Jesse van de Haar", "number": 19, "position": "LW", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl2_020_20", "name": "Finn Stokkers", "number": 29, "position": "ST", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl2_020_21", "name": "Roy Kuijpers", "number": 99, "position": "ST", "country": "NL", "status": "bench"},
-  
-      {"playerId": "player_nl2_020_22", "name": "Luuk Vogels", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
-      {"playerId": "player_nl2_020_23", "name": "Xander Mulder", "number": 31, "position": "GK", "country": "NL", "status": "reserve"},
-      {"playerId": "player_nl2_020_24", "name": "Bjarn Zorgdrager", "number": 24, "position": "CB", "country": "NL", "status": "reserve"},
-      {"playerId": "player_nl2_020_25", "name": "Bart Kemmeren", "number": 25, "position": "RB", "country": "NL", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 4,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 8,
-        "cornerLeft": 7,
-        "cornerRight": 7
-      }
+{
+  "teamKey": "Waalwi",
+
+  "name": "RKC Waalwijk",
+
+  "logo": "assets/logos/europe/netherlands/Waalwijk.png",
+
+  "manager": {
+    "name": "Sander Duits",
+    "country": "NL"
+  },
+
+  "stadium": {
+    "name": "Mandemakers Stadion",
+    "capacity": 7186
+  },
+
+  "players": [
+    {"playerId": "player_nl2_020_01", "name": "Niek Schiks", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl2_020_02", "name": "Faissal Al Mazyani", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl2_020_03", "name": "Liam Van Gelderen", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl2_020_04", "name": "Juan Familia-Castillo", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl2_020_05", "name": "Navajo Bakboord", "number": 3, "position": "LB", "country": "SR", "status": "starter"},
+    {"playerId": "player_nl2_020_06", "name": "Azzedine Dkidak", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl2_020_07", "name": "Thijs van Leeuwen", "number": 8, "position": "CM", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl2_020_08", "name": "Ryan Fage", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl2_020_09", "name": "Tim van de Loo", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl2_020_10", "name": "Virgil Misidjan", "number": 9, "position": "ST", "country": "SR", "status": "starter"},
+    {"playerId": "player_nl2_020_11", "name": "Keyan Varela", "number": 17, "position": "RW", "country": "CV", "status": "starter"},
+
+    {"playerId": "player_nl2_020_12", "name": "Mark Spenkelink", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl2_020_13", "name": "Jordy de Wijs", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl2_020_14", "name": "Nazjir Held", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl2_020_15", "name": "Sven van der Plas", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl2_020_16", "name": "Loek Postma", "number": 23, "position": "CB", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl2_020_17", "name": "Rein van Hedel", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl2_020_18", "name": "Jochem Nap", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl2_020_19", "name": "Jesse van de Haar", "number": 19, "position": "LW", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl2_020_20", "name": "Finn Stokkers", "number": 29, "position": "ST", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl2_020_21", "name": "Roy Kuijpers", "number": 99, "position": "ST", "country": "NL", "status": "bench"},
+
+    {"playerId": "player_nl2_020_22", "name": "Luuk Vogels", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
+    {"playerId": "player_nl2_006_26", "name": "Amin El Harchaoui", "number": 45, "position": "CM", "country": "NL", "status": "reserve"},
+    {"playerId": "player_nl2_020_24", "name": "Bjarn Zorgdrager", "number": 24, "position": "CB", "country": "NL", "status": "reserve"},
+    {"playerId": "player_nl2_020_25", "name": "Bart Kemmeren", "number": 25, "position": "RB", "country": "NL", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 8,
+      "cornerLeft": 7,
+      "cornerRight": 7
     }
   }
+}
