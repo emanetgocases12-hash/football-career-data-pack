@@ -1,0 +1,58 @@
+{
+  "teamKey": "Alaves",
+
+  "name": "Deportivo Alavés",
+
+  "logo": "assets/logos/europe/spain/Alaves.png",
+
+  "manager": {
+    "name": "Quique Sánchez Flores",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "Mendizorroza",
+    "capacity": 19840
+  },
+
+  "players": [
+    {"playerId": "player_es_001_01", "name": "Antonio Sivera", "number": 1, "position": "GK", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_001_02", "name": "Nahuel Tenaglia", "number": 14, "position": "RB", "country": "AR", "status": "starter"},
+    {"playerId": "player_es_001_03", "name": "Nicolás Valentini", "number": 2, "position": "CB", "country": "AR", "status": "starter"},
+    {"playerId": "player_es_001_04", "name": "Facundo Garcés", "number": 5, "position": "CB", "country": "MY", "status": "starter"},
+    {"playerId": "player_es_001_05", "name": "Jonny Otto", "number": 17, "position": "LB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_001_06", "name": "Antonio Blanco", "number": 8, "position": "CDM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_001_07", "name": "Ander Guevara", "number": 6, "position": "CM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_001_08", "name": "Carles Aleñá", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_001_09", "name": "Hugo Novoa", "number": 12, "position": "RW", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_001_10", "name": "Abde Rebbach", "number": 21, "position": "LW", "country": "DZ", "status": "starter"},
+    {"playerId": "player_es_001_11", "name": "Lucas Boyé", "number": 15, "position": "ST", "country": "AR", "status": "starter"},
+
+    {"playerId": "player_es_001_12", "name": "Adrián Rodríguez", "number": 13, "position": "GK", "country": "AR", "status": "bench"},
+    {"playerId": "player_es_001_13", "name": "Youssef Lekhedim", "number": 3, "position": "LB", "country": "MA", "status": "bench"},
+    {"playerId": "player_es_001_14", "name": "Ville Koski", "number": 16, "position": "CB", "country": "FI", "status": "bench"},
+    {"playerId": "player_es_001_15", "name": "Ángel Pérez", "number": 7, "position": "RB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_001_16", "name": "Denis Suárez", "number": 4, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_001_17", "name": "Pablo Ibáñez", "number": 19, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_001_18", "name": "Carlos Protesoni", "number": 23, "position": "CDM", "country": "UY", "status": "bench"},
+    {"playerId": "player_es_001_19", "name": "Miguel Rodríguez", "number": 22, "position": "RW", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_001_20", "name": "Toni Martínez", "number": 11, "position": "ST", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_001_21", "name": "Mariano Díaz", "number": 9, "position": "ST", "country": "DO", "status": "bench"},
+
+    {"playerId": "player_es_001_22", "name": "Grégoire Swiderski", "number": 31, "position": "GK", "country": "CA", "status": "reserve"},
+    {"playerId": "player_es_001_23", "name": "Mikel Rodríguez", "number": 18, "position": "CM", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es_001_24", "name": "Aitor Mañas", "number": 20, "position": "ST", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es_001_25", "name": "Xanet Oláiz", "number": 27, "position": "CB", "country": "ES", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 15,
+      "freeKick": 10,
+      "cornerLeft": 12,
+      "cornerRight": 21
+    }
+  }
+}

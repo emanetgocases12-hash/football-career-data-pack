@@ -1,0 +1,58 @@
+{
+  "teamKey": "Valenc",
+
+  "name": "Valencia CF",
+
+  "logo": "assets/logos/europe/spain/Valencia.png",
+
+  "manager": {
+    "name": "Carlos Corberán",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "Mestalla",
+    "capacity": 49430
+  },
+
+  "players": [
+    {"playerId": "player_es_019_01", "name": "Stole Dimitrievski", "number": 1, "position": "GK", "country": "MK", "status": "starter"},
+    {"playerId": "player_es_019_02", "name": "Pablo Maffeo", "number": 24, "position": "RB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_019_03", "name": "César Tárrega", "number": 5, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_019_04", "name": "Copete", "number": 3, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_019_05", "name": "José Gayà", "number": 14, "position": "LB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_019_06", "name": "Guido Rodríguez", "number": 2, "position": "CDM", "country": "AR", "status": "starter"},
+    {"playerId": "player_es_019_07", "name": "Javi Guerra", "number": 8, "position": "CM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_019_08", "name": "Harvey Elliott", "number": 22, "position": "CAM", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_es_019_09", "name": "Arnaut Danjuma", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
+    {"playerId": "player_es_019_10", "name": "Luis Rioja", "number": 11, "position": "LW", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_019_11", "name": "Hugo Duro", "number": 9, "position": "ST", "country": "ES", "status": "starter"},
+
+    {"playerId": "player_es_019_12", "name": "Cristian Rivero", "number": 13, "position": "GK", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_019_13", "name": "Mouctar Diakhaby", "number": 4, "position": "CB", "country": "GN", "status": "bench"},
+    {"playerId": "player_es_019_14", "name": "Dimitri Foulquier", "number": 20, "position": "RB", "country": "GP", "status": "bench"},
+    {"playerId": "player_es_019_15", "name": "Arnau Martínez", "number": 10, "position": "RB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_019_16", "name": "Jesús Vázquez", "number": 21, "position": "LB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_019_17", "name": "Pepelu", "number": 18, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_019_18", "name": "Filip Ugrinic", "number": 23, "position": "CM", "country": "CH", "status": "bench"},
+    {"playerId": "player_es_019_19", "name": "Aliou Dieng", "number": 15, "position": "CDM", "country": "ML", "status": "bench"},
+    {"playerId": "player_es_019_20", "name": "Diego López", "number": 16, "position": "RW", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_019_21", "name": "Umar Sadiq", "number": 6, "position": "ST", "country": "NG", "status": "bench"},
+
+    {"playerId": "player_es_019_22", "name": "Kayne van Oevelen", "number": 25, "position": "GK", "country": "NL", "status": "reserve"},
+    {"playerId": "player_es_019_23", "name": "Alberto Marí", "number": 17, "position": "ST", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es_019_24", "name": "Dani Raba", "number": 19, "position": "RW", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es_019_25", "name": "David Otorbi", "number": 27, "position": "LW", "country": "ES", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 14,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 22,
+      "cornerLeft": 7,
+      "cornerRight": 11
+    }
+  }
+}

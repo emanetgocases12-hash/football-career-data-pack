@@ -1,0 +1,58 @@
+{
+  "teamKey": "Malaga",
+
+  "name": "Málaga CF",
+
+  "logo": "assets/logos/europe/spain/Malaga.png",
+
+  "manager": {
+    "name": "Juan Francisco Funes",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "La Rosaleda",
+    "capacity": 30044
+  },
+
+  "players": [
+    {"playerId": "player_es_011_01", "name": "Alfonso Herrero", "number": 1, "position": "GK", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_011_02", "name": "Carlos Puga", "number": 3, "position": "RB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_011_03", "name": "Einar Galilea", "number": 4, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_011_04", "name": "Fernando Calero", "number": 20, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_011_05", "name": "José Salinas", "number": 12, "position": "LB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_011_06", "name": "Ramón Enríquez", "number": 6, "position": "CDM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_011_07", "name": "Carlos Dotor", "number": 8, "position": "CM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_011_08", "name": "David Larrubia", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_011_09", "name": "Haitam Abaida", "number": 7, "position": "RW", "country": "MA", "status": "starter"},
+    {"playerId": "player_es_011_10", "name": "Juan Cruz", "number": 19, "position": "LW", "country": "AR", "status": "starter"},
+    {"playerId": "player_es_011_11", "name": "Chupete", "number": 9, "position": "ST", "country": "ES", "status": "starter"},
+
+    {"playerId": "player_es_011_12", "name": "Carlos López", "number": 13, "position": "GK", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_011_13", "name": "Álex Pastor", "number": 5, "position": "CB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_011_14", "name": "Moussa Diarra", "number": 15, "position": "CB", "country": "ML", "status": "bench"},
+    {"playerId": "player_es_011_15", "name": "Diego Murillo", "number": 16, "position": "CB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_011_16", "name": "Ángel Recio", "number": 36, "position": "CB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_011_17", "name": "Rafa Rodríguez", "number": 14, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_011_18", "name": "Dani Lorenzo", "number": 22, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_011_19", "name": "Izan Merino", "number": 23, "position": "CDM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_011_20", "name": "Joaquín Muñoz", "number": 11, "position": "RW", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_011_21", "name": "Eneko Jauregi", "number": 17, "position": "ST", "country": "ES", "status": "bench"},
+
+    {"playerId": "player_es_011_22", "name": "Andrés Céspedes", "number": 30, "position": "GK", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es_011_23", "name": "Pablo Martínez", "number": 18, "position": "CM", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es_011_24", "name": "Adrián Niño", "number": 21, "position": "ST", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es_011_25", "name": "Julen Lobete", "number": 24, "position": "LW", "country": "ES", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 6,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 7,
+      "cornerRight": 19
+    }
+  }
+}

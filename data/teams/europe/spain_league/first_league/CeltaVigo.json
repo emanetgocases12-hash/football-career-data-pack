@@ -1,0 +1,58 @@
+{
+  "teamKey": "Celta",
+
+  "name": "Celta de Vigo",
+
+  "logo": "assets/logos/europe/spain/CeltaVigo.png",
+
+  "manager": {
+    "name": "Claudio Giráldez",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "Abanca Balaídos",
+    "capacity": 22803
+  },
+
+  "players": [
+    {"playerId": "player_es_005_01", "name": "Altay Bayındır", "number": 1, "position": "GK", "country": "TR", "status": "starter"},
+    {"playerId": "player_es_005_02", "name": "Sergio Carreira", "number": 5, "position": "RB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_005_03", "name": "Carl Starfelt", "number": 2, "position": "CB", "country": "SE", "status": "starter"},
+    {"playerId": "player_es_005_04", "name": "Abdoulaye Faye", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_es_005_05", "name": "Javi Galán", "number": 22, "position": "LB", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_005_06", "name": "Ilaix Moriba", "number": 6, "position": "CDM", "country": "GN", "status": "starter"},
+    {"playerId": "player_es_005_07", "name": "Aleix Febas", "number": 14, "position": "CM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_005_08", "name": "Iago Aspas", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_005_09", "name": "Williot Swedberg", "number": 19, "position": "RW", "country": "SE", "status": "starter"},
+    {"playerId": "player_es_005_10", "name": "Hugo Álvarez", "number": 23, "position": "LW", "country": "ES", "status": "starter"},
+    {"playerId": "player_es_005_11", "name": "Borja Iglesias", "number": 7, "position": "ST", "country": "ES", "status": "starter"},
+
+    {"playerId": "player_es_005_12", "name": "Andrei Radu", "number": 13, "position": "GK", "country": "RO", "status": "bench"},
+    {"playerId": "player_es_005_13", "name": "Marcos Alonso", "number": 3, "position": "LB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_005_14", "name": "Álvaro Núñez", "number": 15, "position": "RB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_005_15", "name": "Javi Rueda", "number": 17, "position": "RB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_005_16", "name": "Javi Rodríguez", "number": 20, "position": "CB", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_005_17", "name": "Miguel Román", "number": 8, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_005_18", "name": "Hugo González", "number": 16, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_005_19", "name": "Pablo Durán", "number": 11, "position": "RW", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_005_20", "name": "Ferran Jutglà", "number": 9, "position": "ST", "country": "ES", "status": "bench"},
+    {"playerId": "player_es_005_21", "name": "Jones El-Abdellaoui", "number": 39, "position": "LW", "country": "MA", "status": "bench"},
+
+    {"playerId": "player_es_005_22", "name": "Iván Villar", "number": 25, "position": "GK", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es_005_23", "name": "Enrique Ribes", "number": 27, "position": "CB", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es_005_24", "name": "Andrés Antañón", "number": 28, "position": "CM", "country": "ES", "status": "reserve"},
+    {"playerId": "player_es_005_25", "name": "Yoel Lago", "number": 29, "position": "CB", "country": "ES", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 7,
+      "freeKick": 10,
+      "cornerLeft": 19,
+      "cornerRight": 23
+    }
+  }
+}
