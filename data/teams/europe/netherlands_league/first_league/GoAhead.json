@@ -1,58 +1,58 @@
 {
-    "teamKey": "GoAhea",
-  
-    "name": "Go Ahead Eagles",
-  
-    "logo": "assets/logos/europe/netherlands/GoAgead.png",
-  
-    "manager": {
-      "name": "Joseph Oosting",
-      "country": "NL"
-    },
-  
-    "stadium": {
-      "name": "De Adelaarshorst",
-      "capacity": 10400
-    },
-  
-    "players": [
-      {"playerId": "player_nl1_008_01", "name": "Kjetil Haug", "number": 1, "position": "GK", "country": "NO", "status": "starter"},
-      {"playerId": "player_nl1_008_02", "name": "Dean James", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl1_008_03", "name": "Tomas Galvez", "number": 4, "position": "CB", "country": "FI", "status": "starter"},
-      {"playerId": "player_nl1_008_04", "name": "Alfons Sampsted", "number": 5, "position": "CB", "country": "IS", "status": "starter"},
-      {"playerId": "player_nl1_008_05", "name": "Joris Kramer", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl1_008_06", "name": "Mathis Suray", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl1_008_07", "name": "Søren Tengstedt", "number": 8, "position": "CM", "country": "DK", "status": "starter"},
-      {"playerId": "player_nl1_008_08", "name": "Melle Meulensteen", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl1_008_09", "name": "Yassir Rahmouni", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl1_008_10", "name": "Victor Edvardsen", "number": 9, "position": "ST", "country": "SE", "status": "starter"},
-      {"playerId": "player_nl1_008_11", "name": "Richonell Margaret", "number": 17, "position": "RW", "country": "NL", "status": "starter"},
-  
-      {"playerId": "player_nl1_008_12", "name": "Nick Marsman", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl1_008_13", "name": "Eus Waayers", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl1_008_14", "name": "Julius Dirksen", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl1_008_15", "name": "Tino Jukić", "number": 16, "position": "LB", "country": "HR", "status": "bench"},
-      {"playerId": "player_nl1_008_16", "name": "Gerrit Nauber", "number": 23, "position": "CB", "country": "DE", "status": "bench"},
-      {"playerId": "player_nl1_008_17", "name": "Evert Linthorst", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl1_008_18", "name": "Robbin Weijenberg", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl1_008_19", "name": "Stefán Ingi Sigurðarson", "number": 19, "position": "LW", "country": "IS", "status": "bench"},
-      {"playerId": "player_nl1_008_20", "name": "Oskar Siira Sivertsen", "number": 29, "position": "ST", "country": "NO", "status": "bench"},
-      {"playerId": "player_nl1_008_21", "name": "Erik Flataker", "number": 99, "position": "ST", "country": "NO", "status": "bench"},
-  
-      {"playerId": "player_nl1_008_22", "name": "Nando Verdoni", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
-      {"playerId": "player_nl1_008_23", "name": "Thomas Hulleman", "number": 31, "position": "GK", "country": "NL", "status": "reserve"},
-      {"playerId": "player_nl1_008_24", "name": "Giovanni van Zwam", "number": 24, "position": "RB", "country": "NL", "status": "reserve"},
-      {"playerId": "player_nl1_008_25", "name": "Pim Saathof", "number": 25, "position": "CB", "country": "NL", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 4,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 8,
-        "cornerLeft": 7,
-        "cornerRight": 7
-      }
+  "teamKey": "GoAhea",
+
+  "name": "Go Ahead Eagles",
+
+  "logo": "assets/logos/europe/netherlands/GoAgead.png",
+
+  "manager": {
+    "name": "Joseph Oosting",
+    "country": "NL"
+  },
+
+  "stadium": {
+    "name": "De Adelaarshorst",
+    "capacity": 10400
+  },
+
+  "players": [
+    {"playerId": "player_nl1_008_01", "name": "Kjetil Haug", "number": 1, "position": "GK", "country": "NO", "status": "starter"},
+    {"playerId": "player_nl1_008_02", "name": "Dean James", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl1_008_03", "name": "Tomas Galvez", "number": 4, "position": "CB", "country": "FI", "status": "starter"},
+    {"playerId": "player_nl1_008_04", "name": "Alfons Sampsted", "number": 5, "position": "CB", "country": "IS", "status": "starter"},
+    {"playerId": "player_nl1_008_05", "name": "Joris Kramer", "number": 3, "position": "LB", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl1_008_06", "name": "Mathis Suray", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl1_008_07", "name": "Søren Tengstedt", "number": 8, "position": "CM", "country": "DK", "status": "starter"},
+    {"playerId": "player_nl1_008_08", "name": "Melle Meulensteen", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl1_008_09", "name": "Yassir Rahmouni", "number": 10, "position": "CAM", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl1_008_10", "name": "Victor Edvardsen", "number": 9, "position": "ST", "country": "SE", "status": "starter"},
+    {"playerId": "player_nl1_008_11", "name": "Richonell Margaret", "number": 17, "position": "RW", "country": "NL", "status": "starter"},
+
+    {"playerId": "player_nl1_008_12", "name": "Nick Marsman", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl1_008_13", "name": "Eus Waayers", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl1_008_14", "name": "Julius Dirksen", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl1_008_15", "name": "Tino Jukić", "number": 16, "position": "LB", "country": "HR", "status": "bench"},
+    {"playerId": "player_nl1_008_16", "name": "Gerrit Nauber", "number": 23, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_nl1_008_17", "name": "Evert Linthorst", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl1_008_18", "name": "Robbin Weijenberg", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl1_008_19", "name": "Stefán Ingi Sigurðarson", "number": 19, "position": "LW", "country": "IS", "status": "bench"},
+    {"playerId": "player_nl1_008_20", "name": "Oskar Siira Sivertsen", "number": 29, "position": "ST", "country": "NO", "status": "bench"},
+    {"playerId": "player_nl1_008_21", "name": "Erik Flataker", "number": 99, "position": "ST", "country": "NO", "status": "bench"},
+
+    {"playerId": "player_nl1_008_22", "name": "Nando Verdoni", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
+    {"playerId": "player_nl1_005_26", "name": "Dani Tijman", "number": 31, "position": "RW", "country": "NL", "status": "reserve"},
+    {"playerId": "player_nl1_008_24", "name": "Giovanni van Zwam", "number": 24, "position": "RB", "country": "NL", "status": "reserve"},
+    {"playerId": "player_nl1_008_25", "name": "Pim Saathof", "number": 25, "position": "CB", "country": "NL", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 8,
+      "cornerLeft": 7,
+      "cornerRight": 7
     }
   }
+}
