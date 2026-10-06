@@ -23,7 +23,7 @@
     {"playerId": "player_es_016_05", "name": "Marc Cucurella", "number": 17, "position": "LB", "country": "ES", "status": "starter"},
     {"playerId": "player_es_016_06", "name": "Aurélien Tchouaméni", "number": 14, "position": "CDM", "country": "FR", "status": "starter"},
     {"playerId": "player_es_016_07", "name": "Federico Valverde", "number": 8, "position": "CM", "country": "UY", "status": "starter"},
-    {"playerId": "player_es_016_08", "name": "Bernardo Silva", "number": 20, "position": "CAM", "country": "PT", "status": "starter"},
+    {"playerId": "player_es_016_19", "name": "Arda Güler", "number": 15, "position": "CAM", "country": "TR", "status": "starter"},
     {"playerId": "player_es_016_09", "name": "Rodrygo", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
     {"playerId": "player_es_016_10", "name": "Vinícius Júnior", "number": 7, "position": "LW", "country": "BR", "status": "starter"},
     {"playerId": "player_es_016_11", "name": "Kylian Mbappé", "number": 10, "position": "ST", "country": "FR", "status": "starter"},
@@ -38,7 +38,7 @@
     {"playerId": "player_es_016_19", "name": "Arda Güler", "number": 15, "position": "CAM", "country": "TR", "status": "bench"},
     {"playerId": "player_es_016_20", "name": "Brahim Díaz", "number": 21, "position": "RW", "country": "MA", "status": "bench"},
     {"playerId": "player_es_016_21", "name": "Endrick", "number": 9, "position": "ST", "country": "BR", "status": "bench"},
-
+    {"playerId": "player_es_016_08", "name": "Bernardo Silva", "number": 20, "position": "CAM", "country": "PT", "status": "bench"},
     {"playerId": "player_es_016_22", "name": "Sergio Mestre", "number": 26, "position": "GK", "country": "ES", "status": "reserve"},
     {"playerId": "player_es_016_23", "name": "Raúl Asencio", "number": 2, "position": "CB", "country": "ES", "status": "reserve"},
     {"playerId": "player_es_016_24", "name": "Ferland Mendy", "number": 23, "position": "LB", "country": "FR", "status": "reserve"},
