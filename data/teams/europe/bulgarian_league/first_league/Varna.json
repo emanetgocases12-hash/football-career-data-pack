@@ -1,58 +1,58 @@
 {
-    "teamKey": "S Varna",
+  "teamKey": "S Varna",
 
-    "name": "Spartak Varna",
+  "name": "Spartak Varna",
 
-    "logo": "assets/logos/europe/bulgaria/Varna.png",
+  "logo": "assets/logos/europe/bulgaria/Varna.png",
 
-    "manager": {
-      "name": "Vasil Petrov",
-      "country": "BG"
-    },
+  "manager": {
+    "name": "Vasil Petrov",
+    "country": "BG"
+  },
 
-    "stadium": {
-      "name": "Spartak",
-      "capacity": 8000
-    },
+  "stadium": {
+    "name": "Spartak",
+    "capacity": 8000
+  },
 
-    "players": [
-      { "playerId": "player_bg1_013_01", "name": "Plamen Iliev", "number": 23, "position": "GK", "country": "BG", "status": "starter" },
-      { "playerId": "player_bg1_013_02", "name": "David Valverde", "number": 76, "position": "RB", "country": "ES", "status": "starter" },
-      { "playerId": "player_bg1_013_03", "name": "Boris Ivanov", "number": 4, "position": "CB", "country": "BG", "status": "starter" },
-      { "playerId": "player_bg1_013_04", "name": "Angel Granchov", "number": 44, "position": "CB", "country": "BG", "status": "starter" },
-      { "playerId": "player_bg1_013_05", "name": "Joey Tshitoku", "number": 45, "position": "LB", "country": "NL", "status": "starter" },
-      { "playerId": "player_bg1_013_06", "name": "Ricardo Sousa", "number": 6, "position": "CDM", "country": "PT", "status": "starter" },
-      { "playerId": "player_bg1_013_07", "name": "Tomás Silva", "number": 82, "position": "CM", "country": "PT", "status": "starter" },
-      { "playerId": "player_bg1_013_08", "name": "Buá", "number": 7, "position": "RW", "country": "BR", "status": "starter" },
-      { "playerId": "player_bg1_013_09", "name": "João Lopes", "number": 10, "position": "CAM", "country": "PT", "status": "starter" },
-      { "playerId": "player_bg1_013_10", "name": "Boubacar Hanne", "number": 11, "position": "LW", "country": "PT", "status": "starter" },
-      { "playerId": "player_bg1_013_11", "name": "Tsvetelin Chunchukov", "number": 9, "position": "ST", "country": "BG", "status": "starter" },
+  "players": [
+    {"playerId": "player_bg1_013_01", "name": "Plamen Iliev", "number": 23, "position": "GK", "country": "BG", "status": "starter"},
+    {"playerId": "player_bg1_013_02", "name": "David Valverde", "number": 76, "position": "RB", "country": "ES", "status": "starter"},
+    {"playerId": "player_bg1_013_03", "name": "Boris Ivanov", "number": 4, "position": "CB", "country": "BG", "status": "starter"},
+    {"playerId": "player_bg1_013_04", "name": "Angel Granchov", "number": 44, "position": "CB", "country": "BG", "status": "starter"},
+    {"playerId": "player_bg1_013_05", "name": "Joey Tshitoku", "number": 45, "position": "LB", "country": "NL", "status": "starter"},
+    {"playerId": "player_bg1_013_06", "name": "Ricardo Sousa", "number": 6, "position": "CDM", "country": "PT", "status": "starter"},
+    {"playerId": "player_bg1_013_07", "name": "Tomás Silva", "number": 82, "position": "CM", "country": "PT", "status": "starter"},
+    {"playerId": "player_bg1_013_08", "name": "Buá", "number": 7, "position": "RW", "country": "BR", "status": "starter"},
+    {"playerId": "player_bg1_013_09", "name": "João Lopes", "number": 10, "position": "CAM", "country": "PT", "status": "starter"},
+    {"playerId": "player_bg1_013_10", "name": "Boubacar Hanne", "number": 11, "position": "LW", "country": "PT", "status": "starter"},
+    {"playerId": "player_bg1_013_11", "name": "Tsvetelin Chunchukov", "number": 9, "position": "ST", "country": "BG", "status": "starter"},
 
-      { "playerId": "player_bg1_013_12", "name": "Pedro Victor", "number": 1, "position": "GK", "country": "BR", "status": "bench" },
-      { "playerId": "player_bg1_013_13", "name": "M. Jurić-Petrašilo", "number": 3, "position": "CB", "country": "HR", "status": "bench" },
-      { "playerId": "player_bg1_013_14", "name": "D. Krastev", "number": 5, "position": "CB", "country": "BG", "status": "bench" },
-      { "playerId": "player_bg1_013_15", "name": "J. Cuero", "number": 21, "position": "LB", "country": "CO", "status": "bench" },
-      { "playerId": "player_bg1_013_16", "name": "Edson Silva", "number": 16, "position": "CM", "country": "GW", "status": "bench" },
-      { "playerId": "player_bg1_013_17", "name": "S. Major", "number": 19, "position": "CM", "country": "HU", "status": "bench" },
-      { "playerId": "player_bg1_013_18", "name": "D. Lozev", "number": 20, "position": "CM", "country": "BG", "status": "bench" },
-      { "playerId": "player_bg1_013_19", "name": "Á. Gomes", "number": 80, "position": "LW", "country": "VE", "status": "bench" },
-      { "playerId": "player_bg1_013_20", "name": "G. Stojanovski", "number": 90, "position": "ST", "country": "MK", "status": "bench" },
-      { "playerId": "player_bg1_013_21", "name": "G. Trifonov", "number": 99, "position": "ST", "country": "BG", "status": "bench" },
+    {"playerId": "player_bg1_013_12", "name": "Pedro Victor", "number": 1, "position": "GK", "country": "BR", "status": "bench"},
+    {"playerId": "player_bg1_013_13", "name": "M. Jurić-Petrašilo", "number": 3, "position": "CB", "country": "HR", "status": "bench"},
+    {"playerId": "player_bg1_013_14", "name": "D. Krastev", "number": 5, "position": "CB", "country": "BG", "status": "bench"},
+    {"playerId": "player_bg1_013_15", "name": "J. Cuero", "number": 21, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_bg1_013_16", "name": "Edson Silva", "number": 16, "position": "CM", "country": "GW", "status": "bench"},
+    {"playerId": "player_bg1_013_17", "name": "S. Major", "number": 19, "position": "CM", "country": "HU", "status": "bench"},
+    {"playerId": "player_bg1_013_18", "name": "D. Lozev", "number": 20, "position": "CM", "country": "BG", "status": "bench"},
+    {"playerId": "player_bg1_013_19", "name": "Á. Gomes", "number": 80, "position": "LW", "country": "VE", "status": "bench"},
+    {"playerId": "player_bg1_013_20", "name": "G. Stojanovski", "number": 90, "position": "ST", "country": "MK", "status": "bench"},
+    {"playerId": "player_bg1_013_21", "name": "G. Trifonov", "number": 99, "position": "ST", "country": "BG", "status": "bench"},
 
-      { "playerId": "player_bg1_013_22", "name": "Z. Tindano", "number": 29, "position": "CB", "country": "CI", "status": "reserve" },
-      { "playerId": "player_bg1_013_23", "name": "Vasco Oliveira", "number": 72, "position": "CB", "country": "PT", "status": "reserve" },
-      { "playerId": "player_bg1_013_24", "name": "A. Ahmedov", "number": 70, "position": "ST", "country": "BG", "status": "reserve" },
-      { "playerId": "player_bg1_013_25", "name": "A. Ivanov", "number": 77, "position": "RW", "country": "BG", "status": "reserve" }
-    ],
+    {"playerId": "player_bg1_013_22", "name": "Samuil Dechev", "number": 12, "position": "GK", "country": "BG", "status": "reserve"},
+    {"playerId": "player_bg1_013_23", "name": "Vasco Oliveira", "number": 72, "position": "CB", "country": "PT", "status": "reserve"},
+    {"playerId": "player_bg1_013_24", "name": "A. Ahmedov", "number": 70, "position": "ST", "country": "BG", "status": "reserve"},
+    {"playerId": "player_bg1_013_25", "name": "A. Ivanov", "number": 77, "position": "RW", "country": "BG", "status": "reserve"}
+  ],
 
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 4,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 7,
-        "cornerLeft": 7,
-        "cornerRight": 7
-      }
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
     }
   }
+}
