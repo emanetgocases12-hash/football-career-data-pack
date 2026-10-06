@@ -1,58 +1,58 @@
 {
-    "teamKey": "Mlados",
-  
-    "name": "FK Mladost Donja Gorica",
-  
-    "logo": "assets/logos/europe/montengro/Podgorica.png",
-  
-    "manager": {
-      "name": "Aleksandar Nedović",
-      "country": "ME"
-    },
-  
-    "stadium": {
-      "name": "DG Arena",
-      "capacity": 4300
-    },
-  
-    "players": [
-      {"playerId": "player_me1_005_01", "name": "P. Radulović", "number": 1, "position": "GK", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_005_02", "name": "Stefan Radinović", "number": 2, "position": "RB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_005_03", "name": "L. Uskoković", "number": 4, "position": "CB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_005_04", "name": "Zvonko Ceklić", "number": 5, "position": "CB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_005_05", "name": "L. Pejović", "number": 3, "position": "LB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_005_06", "name": "Jovan Nikolić", "number": 6, "position": "CM", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_005_07", "name": "A. Čepić", "number": 8, "position": "CM", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_005_08", "name": "Andelko Jovanovic", "number": 11, "position": "RW", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_005_09", "name": "N. Cordoba", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
-      {"playerId": "player_me1_005_10", "name": "D. Mugoša", "number": 7, "position": "LW", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_005_11", "name": "Stephano Almeida", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
-  
-      {"playerId": "player_me1_005_12", "name": "O. Milović", "number": 12, "position": "GK", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_005_13", "name": "M. Lalević", "number": 22, "position": "ST", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_005_14", "name": "S. Mijović", "number": 23, "position": "ST", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_005_15", "name": "M. Račić", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_005_16", "name": "O. Đinović", "number": 15, "position": "CB", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_005_17", "name": "N. Jovičić", "number": 16, "position": "CB", "country": "RS", "status": "bench"},
-      {"playerId": "player_me1_005_18", "name": "M. Badnjar", "number": 17, "position": "CB", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_005_19", "name": "J. Vujisić", "number": 18, "position": "CB", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_005_20", "name": "V. Mijović", "number": 20, "position": "CM", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_005_21", "name": "K. Radunović", "number": 21, "position": "CM", "country": "ME", "status": "bench"},
-  
-      {"playerId": "player_me1_005_22", "name": "B. Radanović", "number": 30, "position": "GK", "country": "ME", "status": "reserve"},
-      {"playerId": "player_me1_005_23", "name": "U. Jovanović", "number": 31, "position": "GK", "country": "ME", "status": "reserve"},
-      {"playerId": "player_me1_005_24", "name": "L. Knežević", "number": 24, "position": "ST", "country": "ME", "status": "reserve"},
-      {"playerId": "player_me1_005_25", "name": "N. Pavičević", "number": 25, "position": "ST", "country": "ME", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 10,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 10,
-        "cornerLeft": 11,
-        "cornerRight": 7
-      }
+  "teamKey": "Mlados",
+
+  "name": "FK Mladost Donja Gorica",
+
+  "logo": "assets/logos/europe/montengro/Podgorica.png",
+
+  "manager": {
+    "name": "Aleksandar Nedović",
+    "country": "ME"
+  },
+
+  "stadium": {
+    "name": "DG Arena",
+    "capacity": 4300
+  },
+
+  "players": [
+    {"playerId": "player_me1_005_01", "name": "P. Radulović", "number": 1, "position": "GK", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_005_02", "name": "Stefan Radinović", "number": 2, "position": "RB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_005_03", "name": "L. Uskoković", "number": 4, "position": "CB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_005_04", "name": "Zvonko Ceklić", "number": 5, "position": "CB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_005_05", "name": "L. Pejović", "number": 3, "position": "LB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_005_06", "name": "Jovan Nikolić", "number": 6, "position": "CM", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_005_07", "name": "A. Čepić", "number": 8, "position": "CM", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_005_08", "name": "Andelko Jovanovic", "number": 11, "position": "RW", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_005_09", "name": "N. Cordoba", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_me1_005_10", "name": "D. Mugoša", "number": 7, "position": "LW", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_005_11", "name": "Stephano Almeida", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+
+    {"playerId": "player_me1_005_12", "name": "O. Milović", "number": 12, "position": "GK", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_005_13", "name": "M. Lalević", "number": 22, "position": "ST", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_005_14", "name": "S. Mijović", "number": 23, "position": "ST", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_005_15", "name": "M. Račić", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_005_16", "name": "O. Đinović", "number": 15, "position": "CB", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_005_17", "name": "N. Jovičić", "number": 16, "position": "CB", "country": "RS", "status": "bench"},
+    {"playerId": "player_me1_005_18", "name": "M. Badnjar", "number": 17, "position": "CB", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_005_19", "name": "J. Vujisić", "number": 18, "position": "CB", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_005_20", "name": "V. Mijović", "number": 20, "position": "CM", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_005_21", "name": "K. Radunović", "number": 21, "position": "CM", "country": "ME", "status": "bench"},
+
+    {"playerId": "player_me1_005_22", "name": "B. Radanović", "number": 30, "position": "GK", "country": "ME", "status": "reserve"},
+    {"playerId": "player_me1_005_24", "name": "L. Knežević", "number": 24, "position": "ST", "country": "ME", "status": "reserve"},
+    {"playerId": "player_me1_005_25", "name": "N. Pavičević", "number": 25, "position": "ST", "country": "ME", "status": "reserve"},
+    {"playerId": "player_me1_005_26", "name": "V. Vicković", "number": 26, "position": "CB", "country": "ME", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 11,
+      "cornerRight": 7
     }
   }
+}
