@@ -1,0 +1,54 @@
+{
+  "teamKey": "Udines",
+  "name": "Udinese Calcio",
+  "logo": "assets/logos/europe/italy/Udinese.png",
+
+  "manager": {
+    "name": "Kosta Runjaić",
+    "country": "DE"
+  },
+
+  "stadium": {
+    "name": "Bluenergy Stadium",
+    "capacity": 25144
+  },
+
+  "players": [
+    {"playerId": "player_it1_019_01", "name": "Maduka Okoye", "number": 40, "position": "GK", "country": "NG", "status": "starter"},
+    {"playerId": "player_it1_019_02", "name": "Nicolò Bertola", "number": 13, "position": "CB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_019_03", "name": "Christian Kabasele", "number": 27, "position": "CB", "country": "BE", "status": "starter"},
+    {"playerId": "player_it1_019_04", "name": "James Abankwah", "number": 14, "position": "CB", "country": "IE", "status": "starter"},
+    {"playerId": "player_it1_019_05", "name": "Kingsley Ehizibue", "number": 19, "position": "RM", "country": "NL", "status": "starter"},
+    {"playerId": "player_it1_019_06", "name": "Jesper Karlström", "number": 8, "position": "CM", "country": "SE", "status": "starter"},
+    {"playerId": "player_it1_019_07", "name": "Jakub Piotrowski", "number": 6, "position": "CM", "country": "PL", "status": "starter"},
+    {"playerId": "player_it1_019_08", "name": "Hassane Kamara", "number": 11, "position": "LM", "country": "CI", "status": "starter"},
+    {"playerId": "player_it1_019_09", "name": "Jurgen Ekkelenkamp", "number": 32, "position": "CAM", "country": "NL", "status": "starter"},
+    {"playerId": "player_it1_019_10", "name": "Keinan Davis", "number": 9, "position": "ST", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_it1_019_11", "name": "Vakoun Bayo", "number": 15, "position": "ST", "country": "CI", "status": "starter"},
+    {"playerId": "player_it1_019_12", "name": "Bartosz Mrozek", "number": 41, "position": "GK", "country": "PL", "status": "bench"},
+    {"playerId": "player_it1_019_14", "name": "Enzo Ebosse", "number": 77, "position": "CB", "country": "CM", "status": "bench"},
+    {"playerId": "player_it1_019_15", "name": "Matteo Palma", "number": 16, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_it1_019_16", "name": "Thomas Kristensen", "number": 31, "position": "CB", "country": "DK", "status": "bench"},
+    {"playerId": "player_it1_019_17", "name": "Arthur Atta", "number": 1, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_it1_019_18", "name": "Sandi Lovrić", "number": 4, "position": "CM", "country": "SI", "status": "bench"},
+    {"playerId": "player_it1_019_19", "name": "Oier Zarraga", "number": 24, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_it1_019_20", "name": "Iker Bravo", "number": 21, "position": "ST", "country": "ES", "status": "bench"},
+    {"playerId": "player_it1_019_21", "name": "Lorenzo Lucca", "number": 17, "position": "ST", "country": "IT", "status": "bench"},
+    {"playerId": "player_it1_019_22", "name": "Damián Pizarro", "number": 99, "position": "ST", "country": "CL", "status": "bench"},
+    {"playerId": "player_it1_019_13", "name": "Daniele Padelli", "number": 93, "position": "GK", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it1_019_23", "name": "Rui Modesto", "number": 22, "position": "RM", "country": "AO", "status": "reserve"},
+    {"playerId": "player_it1_019_24", "name": "Jordan Zemura", "number": 33, "position": "LB", "country": "ZW", "status": "reserve"},
+    {"playerId": "player_it1_019_25", "name": "David Pejičić", "number": 26, "position": "CAM", "country": "SI", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "3-5-2",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 32,
+      "cornerLeft": 32,
+      "cornerRight": 11
+    }
+  }
+}

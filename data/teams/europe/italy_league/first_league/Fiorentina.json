@@ -1,0 +1,54 @@
+{
+  "teamKey": "Fioren",
+  "name": "ACF Fiorentina",
+  "logo": "assets/logos/europe/italy/Fiorentina.png",
+
+  "manager": {
+    "name": "Paolo Vanoli",
+    "country": "IT"
+  },
+
+  "stadium": {
+    "name": "Artemio Franchi",
+    "capacity": 43147
+  },
+
+  "players": [
+    {"playerId": "player_it1_005_01", "name": "David de Gea", "number": 43, "position": "GK", "country": "ES", "status": "starter"},
+    {"playerId": "player_it1_005_02", "name": "Dodô", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+    {"playerId": "player_it1_005_03", "name": "Radu Drăgușin", "number": 3, "position": "CB", "country": "RO", "status": "starter"},
+    {"playerId": "player_it1_005_04", "name": "Luca Ranieri", "number": 6, "position": "CB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_005_05", "name": "Fabiano Parisi", "number": 65, "position": "LB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_005_06", "name": "Nicolò Fagioli", "number": 44, "position": "CDM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_005_07", "name": "Cher Ndour", "number": 27, "position": "CM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_005_08", "name": "Pedro Gonçalves", "number": 10, "position": "RW", "country": "PT", "status": "starter"},
+    {"playerId": "player_it1_005_09", "name": "Franco Mastantuono", "number": 30, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_it1_005_10", "name": "Wilfried Gnonto", "number": 11, "position": "LW", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_005_11", "name": "Mateo Pellegrino", "number": 32, "position": "ST", "country": "AR", "status": "starter"},
+    {"playerId": "player_it1_005_12", "name": "Oliver Christensen", "number": 53, "position": "GK", "country": "DK", "status": "bench"},
+    {"playerId": "player_it1_005_14", "name": "Marin Pongračić", "number": 5, "position": "CB", "country": "HR", "status": "bench"},
+    {"playerId": "player_it1_005_15", "name": "Álex Jiménez", "number": 20, "position": "RB", "country": "ES", "status": "bench"},
+    {"playerId": "player_it1_005_16", "name": "Víctor Valdepeñas", "number": 21, "position": "CB", "country": "ES", "status": "bench"},
+    {"playerId": "player_it1_005_17", "name": "Marco Brescianini", "number": 4, "position": "CM", "country": "IT", "status": "bench"},
+    {"playerId": "player_it1_005_18", "name": "Arthur Atta", "number": 14, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_it1_005_19", "name": "Christ Inao Oulaï", "number": 42, "position": "CM", "country": "CI", "status": "bench"},
+    {"playerId": "player_it1_005_20", "name": "João Mário", "number": 17, "position": "RW", "country": "PT", "status": "bench"},
+    {"playerId": "player_it1_005_21", "name": "Beto", "number": 9, "position": "ST", "country": "GW", "status": "bench"},
+    {"playerId": "player_it1_005_22", "name": "Riccardo Sottil", "number": 7, "position": "LW", "country": "IT", "status": "bench"},
+    {"playerId": "player_it1_005_13", "name": "Luca Lezzerini", "number": 19, "position": "GK", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it1_005_23", "name": "Alieu Njie", "number": 18, "position": "RW", "country": "SE", "status": "reserve"},
+    {"playerId": "player_it1_005_24", "name": "Viery", "number": 33, "position": "CB", "country": "BR", "status": "reserve"},
+    {"playerId": "player_it1_005_25", "name": "Sulayman Jallow", "number": 71, "position": "ST", "country": "GM", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 6,
+    "setPieces": {
+      "penalty": 32,
+      "freeKick": 30,
+      "cornerLeft": 10,
+      "cornerRight": 30
+    }
+  }
+}

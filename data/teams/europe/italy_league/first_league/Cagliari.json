@@ -1,0 +1,54 @@
+{
+  "teamKey": "Caglia",
+  "name": "Cagliari Calcio",
+  "logo": "assets/logos/europe/italy/Cagliari.png",
+
+  "manager": {
+    "name": "Fabio Pisacane",
+    "country": "IT"
+  },
+
+  "stadium": {
+    "name": "Unipol Domus",
+    "capacity": 16416
+  },
+
+  "players": [
+    {"playerId": "player_it1_003_01", "name": "Elia Caprile", "number": 1, "position": "GK", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_003_02", "name": "Yukinari Sugawara", "number": 20, "position": "RB", "country": "JP", "status": "starter"},
+    {"playerId": "player_it1_003_03", "name": "Yerry Mina", "number": 26, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_it1_003_04", "name": "Adam Obert", "number": 33, "position": "CB", "country": "SK", "status": "starter"},
+    {"playerId": "player_it1_003_05", "name": "Riyad Idrissi", "number": 3, "position": "LB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_003_06", "name": "Michel Adopo", "number": 8, "position": "CDM", "country": "FR", "status": "starter"},
+    {"playerId": "player_it1_003_07", "name": "Harry Winks", "number": 6, "position": "CM", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_it1_003_08", "name": "Mattia Felici", "number": 17, "position": "RW", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_003_09", "name": "Daniel Maldini", "number": 10, "position": "CAM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_003_11", "name": "Paul Mendy", "number": 31, "position": "ST", "country": "SN", "status": "starter"},
+    {"playerId": "player_it1_003_18", "name": "Alessandro Deiola", "number": 14, "position": "CM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_003_12", "name": "Boris Radunović", "number": 23, "position": "GK", "country": "RS", "status": "bench"},
+    {"playerId": "player_it1_003_10", "name": "Alessandro Romano", "number": 18, "position": "LW", "country": "IT", "status": "bench"},
+    {"playerId": "player_it1_003_14", "name": "Zé Pedro", "number": 2, "position": "CB", "country": "PT", "status": "bench"},
+    {"playerId": "player_it1_003_15", "name": "Juan Rodríguez", "number": 15, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_it1_003_16", "name": "Giuseppe Aurelio", "number": 24, "position": "LB", "country": "IT", "status": "bench"},
+    {"playerId": "player_it1_003_17", "name": "Raphael Kofler", "number": 22, "position": "CB", "country": "IT", "status": "bench"},
+    {"playerId": "player_it1_003_19", "name": "Antoine Makoumbou", "number": 29, "position": "CDM", "country": "CG", "status": "bench"},
+    {"playerId": "player_it1_003_20", "name": "Kevin Carlos", "number": 9, "position": "ST", "country": "ES", "status": "bench"},
+    {"playerId": "player_it1_003_21", "name": "M'Bala Nzola", "number": 30, "position": "ST", "country": "AO", "status": "bench"},
+    {"playerId": "player_it1_003_22", "name": "Yael Trepy", "number": 19, "position": "LW", "country": "FR", "status": "bench"},
+    {"playerId": "player_it1_003_13", "name": "Alen Sherri", "number": 12, "position": "GK", "country": "AL", "status": "reserve"},
+    {"playerId": "player_it1_003_23", "name": "Nicola Grandu", "number": 36, "position": "RB", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it1_003_24", "name": "Alessandro Sugamele", "number": 35, "position": "RW", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it1_003_25", "name": "Nadir Zortea", "number": 28, "position": "RM", "country": "IT", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 14,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 10,
+      "cornerLeft": 17,
+      "cornerRight": 10
+    }
+  }
+}

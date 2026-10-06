@@ -1,0 +1,54 @@
+{
+  "teamKey": "Lecce",
+  "name": "US Lecce",
+  "logo": "assets/logos/europe/italy/Lecce.png",
+
+  "manager": {
+    "name": "Eusebio Di Francesco",
+    "country": "IT"
+  },
+
+  "stadium": {
+    "name": "Ettore Giardiniero",
+    "capacity": 31559
+  },
+
+  "players": [
+    {"playerId": "player_it1_011_01", "name": "Wladimiro Falcone", "number": 30, "position": "GK", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_011_02", "name": "Danilo Veiga", "number": 17, "position": "RB", "country": "PT", "status": "starter"},
+    {"playerId": "player_it1_011_03", "name": "Kialonda Gaspar", "number": 4, "position": "CB", "country": "AO", "status": "starter"},
+    {"playerId": "player_it1_011_04", "name": "Jamil Siebert", "number": 5, "position": "CB", "country": "DE", "status": "starter"},
+    {"playerId": "player_it1_011_05", "name": "Antonino Gallo", "number": 25, "position": "LB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_011_06", "name": "Lassana Coulibaly", "number": 29, "position": "CDM", "country": "ML", "status": "starter"},
+    {"playerId": "player_it1_011_07", "name": "Ylber Ramadani", "number": 20, "position": "CM", "country": "AL", "status": "starter"},
+    {"playerId": "player_it1_011_08", "name": "Santiago Pierotti", "number": 50, "position": "RW", "country": "AR", "status": "starter"},
+    {"playerId": "player_it1_011_09", "name": "Medon Berisha", "number": 10, "position": "CAM", "country": "AL", "status": "starter"},
+    {"playerId": "player_it1_011_10", "name": "Konan N'Dri", "number": 11, "position": "LW", "country": "CI", "status": "starter"},
+    {"playerId": "player_it1_011_11", "name": "Nikola Štulić", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+    {"playerId": "player_it1_011_12", "name": "Christian Früchtl", "number": 1, "position": "GK", "country": "DE", "status": "bench"},
+    {"playerId": "player_it1_011_14", "name": "Tiago Gabriel", "number": 44, "position": "CB", "country": "PT", "status": "bench"},
+    {"playerId": "player_it1_011_15", "name": "Ali Dembélé", "number": 2, "position": "RB", "country": "FR", "status": "bench"},
+    {"playerId": "player_it1_011_16", "name": "Corrie Ndaba", "number": 3, "position": "LB", "country": "IE", "status": "bench"},
+    {"playerId": "player_it1_011_17", "name": "Olaf Gorter", "number": 8, "position": "CM", "country": "NL", "status": "bench"},
+    {"playerId": "player_it1_011_18", "name": "Balthazar Pierret", "number": 75, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_it1_011_19", "name": "Tete Morente", "number": 7, "position": "LW", "country": "ES", "status": "bench"},
+    {"playerId": "player_it1_011_20", "name": "Lameck Banda", "number": 22, "position": "LW", "country": "ZM", "status": "bench"},
+    {"playerId": "player_it1_011_21", "name": "Francesco Camarda", "number": 19, "position": "ST", "country": "IT", "status": "bench"},
+    {"playerId": "player_it1_011_22", "name": "Plamen Penev", "number": 33, "position": "CB", "country": "BG", "status": "bench"},
+    {"playerId": "player_it1_011_13", "name": "Marco Bleve", "number": 12, "position": "GK", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it1_011_23", "name": "Willem Geubbels", "number": 69, "position": "ST", "country": "FR", "status": "reserve"},
+    {"playerId": "player_it1_011_24", "name": "Vernon Addo", "number": 23, "position": "CB", "country": "NL", "status": "reserve"},
+    {"playerId": "player_it1_011_25", "name": "Sebastian Esposito", "number": 27, "position": "CB", "country": "AU", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 30,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 50,
+      "cornerRight": 10
+    }
+  }
+}

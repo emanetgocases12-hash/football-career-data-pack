@@ -1,0 +1,54 @@
+{
+  "teamKey": "Torino",
+  "name": "Torino FC",
+  "logo": "assets/logos/europe/italy/Torino.png",
+
+  "manager": {
+    "name": "Ignazio Abate",
+    "country": "IT"
+  },
+
+  "stadium": {
+    "name": "Olimpico Grande Torino",
+    "capacity": 28177
+  },
+
+  "players": [
+    {"playerId": "player_it1_018_01", "name": "Lucas Perri", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+    {"playerId": "player_it1_018_02", "name": "Nathan Patterson", "number": 2, "position": "RB", "country": "GB-SCT", "status": "starter"},
+    {"playerId": "player_it1_018_03", "name": "Saúl Coco", "number": 23, "position": "CB", "country": "GQ", "status": "starter"},
+    {"playerId": "player_it1_018_04", "name": "Pietro Comuzzo", "number": 15, "position": "CB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_018_05", "name": "Cristiano Biraghi", "number": 3, "position": "LB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_018_06", "name": "Cesare Casadei", "number": 22, "position": "CM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_018_07", "name": "Kian Fitz-Jim", "number": 28, "position": "CM", "country": "NL", "status": "starter"},
+    {"playerId": "player_it1_018_08", "name": "Zakaria Aboukhlal", "number": 7, "position": "RW", "country": "MA", "status": "starter"},
+    {"playerId": "player_it1_018_09", "name": "Nikola Vlašić", "number": 10, "position": "CAM", "country": "HR", "status": "starter"},
+    {"playerId": "player_it1_018_10", "name": "Gaetano Oristanio", "number": 11, "position": "LW", "country": "IT", "status": "starter"},
+    {"playerId": "player_it1_018_11", "name": "Giovanni Simeone", "number": 18, "position": "ST", "country": "AR", "status": "starter"},
+    {"playerId": "player_it1_018_12", "name": "Franco Israel", "number": 81, "position": "GK", "country": "UY", "status": "bench"},
+    {"playerId": "player_it1_018_14", "name": "Eray Cömert", "number": 5, "position": "CB", "country": "CH", "status": "bench"},
+    {"playerId": "player_it1_018_15", "name": "Ardian Ismajli", "number": 44, "position": "CB", "country": "AL", "status": "bench"},
+    {"playerId": "player_it1_018_16", "name": "Rafik Belghali", "number": 21, "position": "RB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_it1_018_17", "name": "Gvidas Gineitis", "number": 66, "position": "CM", "country": "LT", "status": "bench"},
+    {"playerId": "player_it1_018_18", "name": "Daniel Bragança", "number": 8, "position": "CM", "country": "PT", "status": "bench"},
+    {"playerId": "player_it1_018_19", "name": "Emirhan İlkhan", "number": 6, "position": "CM", "country": "TR", "status": "bench"},
+    {"playerId": "player_it1_018_20", "name": "Sandro Kulenović", "number": 17, "position": "ST", "country": "HR", "status": "bench"},
+    {"playerId": "player_it1_018_21", "name": "Ché Adams", "number": 19, "position": "ST", "country": "GB-SCT", "status": "bench"},
+    {"playerId": "player_it1_018_22", "name": "Alessio Cacciamani", "number": 77, "position": "LW", "country": "IT", "status": "bench"},
+    {"playerId": "player_it1_018_13", "name": "Diego Mascardi", "number": 26, "position": "GK", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it1_018_23", "name": "Tino Anjorin", "number": 76, "position": "CM", "country": "GB", "status": "reserve"},
+    {"playerId": "player_it1_018_24", "name": "Mattia Pellini", "number": 25, "position": "CB", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it1_018_25", "name": "Andrea Luongo", "number": 79, "position": "CM", "country": "IT", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 18,
+      "freeKick": 10,
+      "cornerLeft": 11,
+      "cornerRight": 10
+    }
+  }
+}
