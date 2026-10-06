@@ -1,58 +1,58 @@
 {
-    "teamKey": "K.Zalg",
-  
-    "name": "FK Kauno Zalgiris",
-  
-    "logo": "assets/logos/europe/litvanya/Kauno.png",
-  
-    "manager": {
-      "name": "Željko Sopić",
-      "country": "HR"
-    },
-  
-    "stadium": {
-      "name": "Dariaus ir Girėno stadionas",
-      "capacity": 15000
-    },
-  
-    "players": [
-      {"playerId": "player_lt1_004_01", "name": "Tomas Švedkauskas", "number": 55, "position": "GK", "country": "LT", "status": "starter"},
-      {"playerId": "player_lt1_004_02", "name": "Joris Moutachy", "number": 45, "position": "RB", "country": "MQ", "status": "starter"},
-      {"playerId": "player_lt1_004_03", "name": "Rokas Lekiatas", "number": 77, "position": "CB", "country": "LT", "status": "starter"},
-      {"playerId": "player_lt1_004_04", "name": "Marko Konatar", "number": 33, "position": "CB", "country": "RS", "status": "starter"},
-      {"playerId": "player_lt1_004_05", "name": "Nosa Edokpolor", "number": 37, "position": "LB", "country": "AT", "status": "starter"},
-      {"playerId": "player_lt1_004_06", "name": "Vykintas Slivka", "number": 14, "position": "CM", "country": "LT", "status": "starter"},
-      {"playerId": "player_lt1_004_07", "name": "Franco Baldassarra", "number": 32, "position": "CM", "country": "AR", "status": "starter"},
-      {"playerId": "player_lt1_004_08", "name": "Amine Benchaib", "number": 7, "position": "RW", "country": "BE", "status": "starter"},
-      {"playerId": "player_lt1_004_09", "name": "Ivan Fiolić", "number": 17, "position": "CAM", "country": "HR", "status": "starter"},
-      {"playerId": "player_lt1_004_10", "name": "Fabien Ourega", "number": 70, "position": "LW", "country": "FR", "status": "starter"},
-      {"playerId": "player_lt1_004_11", "name": "Leon Kreković", "number": 9, "position": "ST", "country": "HR", "status": "starter"},
-  
-      {"playerId": "player_lt1_004_12", "name": "Deividas Mikelionis", "number": 22, "position": "GK", "country": "LT", "status": "bench"},
-      {"playerId": "player_lt1_004_13", "name": "Anton Tolordava", "number": 3, "position": "CB", "country": "GE", "status": "bench"},
-      {"playerId": "player_lt1_004_14", "name": "Aldayr Hernandez", "number": 23, "position": "CB", "country": "CO", "status": "bench"},
-      {"playerId": "player_lt1_004_15", "name": "Lirim Kastrati", "number": 62, "position": "RB", "country": "XK", "status": "bench"},
-      {"playerId": "player_lt1_004_16", "name": "Léo Ribeiro", "number": 15, "position": "CM", "country": "BR", "status": "bench"},
-      {"playerId": "player_lt1_004_17", "name": "Yukiyoshi Karashima", "number": 8, "position": "CM", "country": "JP", "status": "bench"},
-      {"playerId": "player_lt1_004_18", "name": "Anthony Kalik", "number": 20, "position": "CM", "country": "AU", "status": "bench"},
-      {"playerId": "player_lt1_004_19", "name": "Gratas Sirgėdas", "number": 10, "position": "CAM", "country": "LT", "status": "bench"},
-      {"playerId": "player_lt1_004_20", "name": "Renan Oliveira", "number": 19, "position": "ST", "country": "BR", "status": "bench"},
-      {"playerId": "player_lt1_004_21", "name": "Gabriel Debeljuh", "number": 27, "position": "ST", "country": "HR", "status": "bench"},
-  
-      {"playerId": "player_lt1_004_22", "name": "Markas Racius", "number": 34, "position": "GK", "country": "LT", "status": "reserve"},
-      {"playerId": "player_lt1_004_23", "name": "Motiejus Burba", "number": 24, "position": "ST", "country": "LT", "status": "reserve"},
-      {"playerId": "player_lt1_004_24", "name": "Titas Milius", "number": 96, "position": "CM", "country": "LT", "status": "reserve"},
-      {"playerId": "player_lt1_004_25", "name": "Vilius Dovydas", "number": 35, "position": "GK", "country": "LT", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 14,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 17,
-        "cornerLeft": 7,
-        "cornerRight": 17
-      }
+  "teamKey": "K.Zalg",
+
+  "name": "FK Kauno Zalgiris",
+
+  "logo": "assets/logos/europe/litvanya/Kauno.png",
+
+  "manager": {
+    "name": "Željko Sopić",
+    "country": "HR"
+  },
+
+  "stadium": {
+    "name": "Dariaus ir Girėno stadionas",
+    "capacity": 15000
+  },
+
+  "players": [
+    {"playerId": "player_lt1_004_01", "name": "Tomas Švedkauskas", "number": 55, "position": "GK", "country": "LT", "status": "starter"},
+    {"playerId": "player_lt1_004_02", "name": "Joris Moutachy", "number": 45, "position": "RB", "country": "MQ", "status": "starter"},
+    {"playerId": "player_lt1_004_03", "name": "Rokas Lekiatas", "number": 77, "position": "CB", "country": "LT", "status": "starter"},
+    {"playerId": "player_lt1_004_04", "name": "Marko Konatar", "number": 33, "position": "CB", "country": "RS", "status": "starter"},
+    {"playerId": "player_lt1_004_05", "name": "Nosa Edokpolor", "number": 37, "position": "LB", "country": "AT", "status": "starter"},
+    {"playerId": "player_lt1_004_06", "name": "Vykintas Slivka", "number": 14, "position": "CM", "country": "LT", "status": "starter"},
+    {"playerId": "player_lt1_004_07", "name": "Franco Baldassarra", "number": 32, "position": "CM", "country": "AR", "status": "starter"},
+    {"playerId": "player_lt1_004_08", "name": "Amine Benchaib", "number": 7, "position": "RW", "country": "BE", "status": "starter"},
+    {"playerId": "player_lt1_004_09", "name": "Ivan Fiolić", "number": 17, "position": "CAM", "country": "HR", "status": "starter"},
+    {"playerId": "player_lt1_004_10", "name": "Fabien Ourega", "number": 70, "position": "LW", "country": "FR", "status": "starter"},
+    {"playerId": "player_lt1_004_11", "name": "Leon Kreković", "number": 9, "position": "ST", "country": "HR", "status": "starter"},
+
+    {"playerId": "player_lt1_004_12", "name": "Deividas Mikelionis", "number": 22, "position": "GK", "country": "LT", "status": "bench"},
+    {"playerId": "player_lt1_004_13", "name": "Anton Tolordava", "number": 3, "position": "CB", "country": "GE", "status": "bench"},
+    {"playerId": "player_lt1_004_14", "name": "Aldayr Hernandez", "number": 23, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_lt1_004_15", "name": "Lirim Kastrati", "number": 62, "position": "RB", "country": "XK", "status": "bench"},
+    {"playerId": "player_lt1_004_16", "name": "Léo Ribeiro", "number": 15, "position": "CM", "country": "BR", "status": "bench"},
+    {"playerId": "player_lt1_004_17", "name": "Yukiyoshi Karashima", "number": 8, "position": "CM", "country": "JP", "status": "bench"},
+    {"playerId": "player_lt1_004_18", "name": "Anthony Kalik", "number": 20, "position": "CM", "country": "AU", "status": "bench"},
+    {"playerId": "player_lt1_004_19", "name": "Gratas Sirgėdas", "number": 10, "position": "CAM", "country": "LT", "status": "bench"},
+    {"playerId": "player_lt1_004_20", "name": "Renan Oliveira", "number": 19, "position": "ST", "country": "BR", "status": "bench"},
+    {"playerId": "player_lt1_004_21", "name": "Gabriel Debeljuh", "number": 27, "position": "ST", "country": "HR", "status": "bench"},
+
+    {"playerId": "player_lt1_004_22", "name": "Joris Aliukonis", "number": 1, "position": "GK", "country": "LT", "status": "reserve"},
+    {"playerId": "player_lt1_004_23", "name": "Motiejus Burba", "number": 24, "position": "ST", "country": "LT", "status": "reserve"},
+    {"playerId": "player_lt1_004_24", "name": "Titas Milius", "number": 96, "position": "CM", "country": "LT", "status": "reserve"},
+    {"playerId": "player_lt1_004_25", "name": "Luka Račić", "number": 4, "position": "CB", "country": "DK", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 14,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 17,
+      "cornerLeft": 7,
+      "cornerRight": 17
     }
   }
+}
