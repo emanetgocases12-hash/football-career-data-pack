@@ -50,9 +50,9 @@
     "captain": 8,
     "setPieces": {
       "penalty": 10,
-      "freeKick": 20,
+      "freeKick": 15,
       "cornerLeft": 11,
-      "cornerRight": 20
+      "cornerRight": 15
     }
   }
 }
