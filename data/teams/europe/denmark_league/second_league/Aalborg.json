@@ -1,58 +1,58 @@
 {
-    "teamKey": "Aalbrg",
-  
-    "name": "Aalborg BK",
-  
-    "logo": "assets/logos/europe/denmark/Aab.png",
-  
-    "manager": {
-      "name": "Steffen Højer",
-      "country": "DK"
-    },
-  
-    "stadium": {
-      "name": "Aalborg Portland Park",
-      "capacity": 13310
-    },
-  
-    "players": [
-      {"playerId": "player_dk2_001_01", "name": "Vincent Müller", "number": 1, "position": "GK", "country": "DE", "status": "starter"},
-      {"playerId": "player_dk2_001_02", "name": "Tibo Persyn", "number": 16, "position": "RB", "country": "BE", "status": "starter"},
-      {"playerId": "player_dk2_001_03", "name": "Benjamin Hansen", "number": 4, "position": "CB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_001_04", "name": "Elison Makolli", "number": 33, "position": "CB", "country": "SE", "status": "starter"},
-      {"playerId": "player_dk2_001_05", "name": "Nóel Atli Arnórsson", "number": 24, "position": "LB", "country": "IS", "status": "starter"},
-      {"playerId": "player_dk2_001_06", "name": "Frederik Børsting", "number": 25, "position": "CM", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_001_07", "name": "Markus Kaasa", "number": 23, "position": "CM", "country": "NO", "status": "starter"},
-      {"playerId": "player_dk2_001_08", "name": "Mathias Nordestgaard Kubel", "number": 14, "position": "RW", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_001_09", "name": "Andres Jasson", "number": 17, "position": "CAM", "country": "US", "status": "starter"},
-      {"playerId": "player_dk2_001_10", "name": "Kornelius Hansen", "number": 11, "position": "LW", "country": "NO", "status": "starter"},
-      {"playerId": "player_dk2_001_11", "name": "Uche Brian Seo Nwadike", "number": 19, "position": "ST", "country": "JP", "status": "starter"},
-  
-      {"playerId": "player_dk2_001_12", "name": "Bertil Grønkjær", "number": 40, "position": "GK", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_001_13", "name": "Marc Nielsen", "number": 5, "position": "LB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_001_14", "name": "Philip Søndergaard", "number": 21, "position": "CB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_001_15", "name": "Cornelius Axel Olsson", "number": 15, "position": "CB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_001_16", "name": "Alexander Håpnes", "number": 8, "position": "CM", "country": "NO", "status": "bench"},
-      {"playerId": "player_dk2_001_17", "name": "Valdemar Møller", "number": 28, "position": "CM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_001_18", "name": "Mathijs Tielemans", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
-      {"playerId": "player_dk2_001_19", "name": "Jubril Adedeji", "number": 7, "position": "LW", "country": "GB-ENG", "status": "bench"},
-      {"playerId": "player_dk2_001_20", "name": "Kelvin John", "number": 27, "position": "RW", "country": "TZ", "status": "bench"},
-      {"playerId": "player_dk2_001_21", "name": "Nicklas Helenius", "number": 9, "position": "ST", "country": "DK", "status": "bench"},
-  
-      {"playerId": "player_dk2_001_22", "name": "Marcus Bonde", "number": 26, "position": "CM", "country": "DK", "status": "reserve"},
-      {"playerId": "player_dk2_001_23", "name": "William Hoffenzitz Thomsen", "number": 30, "position": "LM", "country": "DK", "status": "reserve"},
-      {"playerId": "player_dk2_001_24", "name": "Mikkel Kallesøe", "number": 2, "position": "RB", "country": "DK", "status": "reserve"},
-      {"playerId": "player_dk2_001_25", "name": "Mads Bomholt", "number": 6, "position": "CM", "country": "DK", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 25,
-      "setPieces": {
-        "penalty": 19,
-        "freeKick": 23,
-        "cornerLeft": 17,
-        "cornerRight": 14
-      }
+  "teamKey": "Aalbrg",
+
+  "name": "Aalborg BK",
+
+  "logo": "assets/logos/europe/denmark/Aab.png",
+
+  "manager": {
+    "name": "Steffen Højer",
+    "country": "DK"
+  },
+
+  "stadium": {
+    "name": "Aalborg Portland Park",
+    "capacity": 13310
+  },
+
+  "players": [
+    {"playerId": "player_dk2_001_01", "name": "Vincent Müller", "number": 1, "position": "GK", "country": "DE", "status": "starter"},
+    {"playerId": "player_dk2_001_02", "name": "Tibo Persyn", "number": 16, "position": "RB", "country": "BE", "status": "starter"},
+    {"playerId": "player_dk2_001_03", "name": "Benjamin Hansen", "number": 4, "position": "CB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_001_04", "name": "Elison Makolli", "number": 33, "position": "CB", "country": "SE", "status": "starter"},
+    {"playerId": "player_dk2_001_05", "name": "Nóel Atli Arnórsson", "number": 24, "position": "LB", "country": "IS", "status": "starter"},
+    {"playerId": "player_dk2_001_06", "name": "Frederik Børsting", "number": 25, "position": "CM", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_001_07", "name": "Markus Kaasa", "number": 23, "position": "CM", "country": "NO", "status": "starter"},
+    {"playerId": "player_dk2_001_08", "name": "Mathias Nordestgaard Kubel", "number": 14, "position": "RW", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_001_09", "name": "Andres Jasson", "number": 17, "position": "CAM", "country": "US", "status": "starter"},
+    {"playerId": "player_dk2_001_10", "name": "Kornelius Hansen", "number": 11, "position": "LW", "country": "NO", "status": "starter"},
+    {"playerId": "player_dk2_001_11", "name": "Uche Brian Seo Nwadike", "number": 19, "position": "ST", "country": "JP", "status": "starter"},
+
+    {"playerId": "player_dk2_001_12", "name": "Bertil Grønkjær", "number": 40, "position": "GK", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_001_13", "name": "Marc Nielsen", "number": 5, "position": "LB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_001_14", "name": "Philip Søndergaard", "number": 21, "position": "CB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_001_15", "name": "Cornelius Axel Olsson", "number": 15, "position": "CB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_001_16", "name": "Alexander Håpnes", "number": 8, "position": "CM", "country": "NO", "status": "bench"},
+    {"playerId": "player_dk2_001_17", "name": "Valdemar Møller", "number": 28, "position": "CM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_001_18", "name": "Mathijs Tielemans", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+    {"playerId": "player_dk2_001_19", "name": "Jubril Adedeji", "number": 7, "position": "LW", "country": "GB-ENG", "status": "bench"},
+    {"playerId": "player_dk2_001_20", "name": "Kelvin John", "number": 27, "position": "RW", "country": "TZ", "status": "bench"},
+    {"playerId": "player_dk2_001_21", "name": "Nicklas Helenius", "number": 9, "position": "ST", "country": "DK", "status": "bench"},
+
+    {"playerId": "player_dk2_001_23", "name": "Rody de Boer", "number": 22, "position": "GK", "country": "NL", "status": "reserve"},
+    {"playerId": "player_dk2_001_22", "name": "Marcus Bonde", "number": 26, "position": "CM", "country": "DK", "status": "reserve"},
+    {"playerId": "player_dk2_001_24", "name": "Mikkel Kallesøe", "number": 2, "position": "RB", "country": "DK", "status": "reserve"},
+    {"playerId": "player_dk2_001_25", "name": "Mads Bomholt", "number": 6, "position": "CM", "country": "DK", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 25,
+    "setPieces": {
+      "penalty": 19,
+      "freeKick": 23,
+      "cornerLeft": 17,
+      "cornerRight": 14
     }
   }
+}
