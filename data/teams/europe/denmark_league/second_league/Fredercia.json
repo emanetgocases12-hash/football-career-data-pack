@@ -1,58 +1,58 @@
 {
-    "teamKey": "Freder",
-  
-    "name": "FC Fredericia",
-  
-    "logo": "assets/logos/europe/denmark/Fredercia.png",
-  
-    "manager": {
-      "name": "Michael Hansen",
-      "country": "DK"
-    },
-  
-    "stadium": {
-      "name": "Monjasa Park",
-      "capacity": 6000
-    },
-  
-    "players": [
-      {"playerId": "player_dk2_004_01", "name": "Etienne Green", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter"},
-      {"playerId": "player_dk2_004_02", "name": "Svenn Crone", "number": 12, "position": "RB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_004_03", "name": "Frederik Thykær Rieper", "number": 4, "position": "CB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_004_04", "name": "Jeppe Kudsk Pedersen", "number": 5, "position": "CB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_004_05", "name": "Jakob Vestergaard Jessen", "number": 15, "position": "LB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_004_06", "name": "Felix Vrede Winther", "number": 6, "position": "CDM", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_004_07", "name": "Daniel Bisgard Haarbo", "number": 20, "position": "CM", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_004_08", "name": "Emilio Simonsen", "number": 11, "position": "RW", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_004_09", "name": "Moses Opondo", "number": 8, "position": "CAM", "country": "UG", "status": "starter"},
-      {"playerId": "player_dk2_004_10", "name": "Agon Muçolli", "number": 10, "position": "LW", "country": "AL", "status": "starter"},
-      {"playerId": "player_dk2_004_11", "name": "Elias Hansborg-Sørensen", "number": 19, "position": "ST", "country": "DK", "status": "starter"},
-  
-      {"playerId": "player_dk2_004_12", "name": "Christoffer Petersen", "number": 16, "position": "GK", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_004_13", "name": "Anders Dahl", "number": 2, "position": "RB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_004_14", "name": "Malthe Riis Ladefoged", "number": 3, "position": "CB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_004_15", "name": "Adam Nygaard Andersen", "number": 13, "position": "CB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_004_16", "name": "William Madsen", "number": 18, "position": "CM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_004_17", "name": "Lauritz Dauerhøj", "number": 7, "position": "CM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_004_18", "name": "Patrick Egelund", "number": 9, "position": "ST", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_004_19", "name": "Eskild Munk Dall", "number": 17, "position": "ST", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_004_20", "name": "Friday Etim", "number": 24, "position": "ST", "country": "NG", "status": "bench"},
-      {"playerId": "player_dk2_004_21", "name": "Nemo Thomsen", "number": 22, "position": "ST", "country": "GL", "status": "bench"},
-  
-      {"playerId": "player_dk2_004_22", "name": "Mads Krogsøe Eriksen", "number": 31, "position": "GK", "country": "DK", "status": "reserve"},
-      {"playerId": "player_dk2_004_23", "name": "Valdemar Birkso Thorsen", "number": 30, "position": "GK", "country": "DK", "status": "reserve"},
-      {"playerId": "player_dk2_004_24", "name": "Mathias Hell", "number": 26, "position": "LW", "country": "DK", "status": "reserve"},
-      {"playerId": "player_dk2_004_25", "name": "Oscar Buch", "number": 29, "position": "LW", "country": "DK", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 4,
-      "setPieces": {
-        "penalty": 19,
-        "freeKick": 10,
-        "cornerLeft": 11,
-        "cornerRight": 20
-      }
+  "teamKey": "Freder",
+
+  "name": "FC Fredericia",
+
+  "logo": "assets/logos/europe/denmark/Fredercia.png",
+
+  "manager": {
+    "name": "Michael Hansen",
+    "country": "DK"
+  },
+
+  "stadium": {
+    "name": "Monjasa Park",
+    "capacity": 6000
+  },
+
+  "players": [
+    {"playerId": "player_dk2_004_01", "name": "Etienne Green", "number": 1, "position": "GK", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_dk2_004_02", "name": "Svenn Crone", "number": 12, "position": "RB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_004_03", "name": "Frederik Thykær Rieper", "number": 4, "position": "CB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_004_04", "name": "Jeppe Kudsk Pedersen", "number": 5, "position": "CB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_004_05", "name": "Jakob Vestergaard Jessen", "number": 15, "position": "LB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_004_06", "name": "Felix Vrede Winther", "number": 6, "position": "CDM", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_004_07", "name": "Daniel Bisgard Haarbo", "number": 20, "position": "CM", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_004_08", "name": "Emilio Simonsen", "number": 11, "position": "RW", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_004_09", "name": "Moses Opondo", "number": 8, "position": "CAM", "country": "UG", "status": "starter"},
+    {"playerId": "player_dk2_004_10", "name": "Agon Muçolli", "number": 10, "position": "LW", "country": "AL", "status": "starter"},
+    {"playerId": "player_dk2_004_11", "name": "Elias Hansborg-Sørensen", "number": 19, "position": "ST", "country": "DK", "status": "starter"},
+
+    {"playerId": "player_dk2_004_12", "name": "Christoffer Petersen", "number": 16, "position": "GK", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_004_13", "name": "Anders Dahl", "number": 2, "position": "RB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_004_14", "name": "Malthe Riis Ladefoged", "number": 3, "position": "CB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_004_15", "name": "Adam Nygaard Andersen", "number": 13, "position": "CB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_004_16", "name": "William Madsen", "number": 18, "position": "CM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_004_17", "name": "Lauritz Dauerhøj", "number": 7, "position": "CM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_004_18", "name": "Patrick Egelund", "number": 9, "position": "ST", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_004_19", "name": "Eskild Munk Dall", "number": 17, "position": "ST", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_004_20", "name": "Friday Etim", "number": 24, "position": "ST", "country": "NG", "status": "bench"},
+    {"playerId": "player_dk2_004_21", "name": "Nemo Thomsen", "number": 22, "position": "ST", "country": "GL", "status": "bench"},
+
+    {"playerId": "player_dk2_004_22", "name": "Mads Krogsøe Eriksen", "number": 31, "position": "GK", "country": "DK", "status": "reserve"},
+    {"playerId": "player_dk2_004_23", "name": "Jonatan Lindekilde", "number": 23, "position": "CM", "country": "DK", "status": "reserve"},
+    {"playerId": "player_dk2_004_24", "name": "Mathias Hell", "number": 26, "position": "LW", "country": "DK", "status": "reserve"},
+    {"playerId": "player_dk2_004_25", "name": "Oscar Buch", "number": 29, "position": "LW", "country": "DK", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 19,
+      "freeKick": 10,
+      "cornerLeft": 11,
+      "cornerRight": 20
     }
   }
+}
