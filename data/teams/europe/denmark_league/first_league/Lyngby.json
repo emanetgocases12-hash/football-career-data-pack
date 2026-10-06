@@ -1,58 +1,58 @@
 {
-    "teamKey": "Lyngby",
-  
-    "name": "Lyngby Boldklub",
-  
-    "logo": "assets/logos/europe/denmark/Lyngby.png",
-  
-    "manager": {
-      "name": "Mikkel Jespersen",
-      "country": "DK"
-    },
-  
-    "stadium": {
-      "name": "Lyngby Stadion",
-      "capacity": 10000
-    },
-  
-    "players": [
-      {"playerId": "player_dk1_005_01", "name": "Diego Kochen", "number": 31, "position": "GK", "country": "US", "status": "starter"},
-      {"playerId": "player_dk1_005_02", "name": "Oskar Buur", "number": 2, "position": "RB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk1_005_03", "name": "Munashe Garananga", "number": 24, "position": "CB", "country": "ZW", "status": "starter"},
-      {"playerId": "player_dk1_005_04", "name": "Mikkel Fischer", "number": 30, "position": "CB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk1_005_05", "name": "Renzo Tytens", "number": 25, "position": "LB", "country": "BE", "status": "starter"},
-      {"playerId": "player_dk1_005_06", "name": "Lauge Sandgrav", "number": 14, "position": "CDM", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk1_005_07", "name": "Simon Colyn", "number": 7, "position": "CM", "country": "CA", "status": "starter"},
-      {"playerId": "player_dk1_005_08", "name": "Mathias Hebo", "number": 8, "position": "CAM", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk1_005_09", "name": "William Steindorsson", "number": 17, "position": "RW", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk1_005_10", "name": "Oliver Højer", "number": 5, "position": "LW", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk1_005_11", "name": "Ísak Snær Þorvaldsson", "number": 10, "position": "ST", "country": "IS", "status": "starter"},
-  
-      {"playerId": "player_dk1_005_12", "name": "Jonathan Ægidius", "number": 1, "position": "GK", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk1_005_13", "name": "Cornelius Allen", "number": 4, "position": "CB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk1_005_14", "name": "Daníel Freyr Kristjánsson", "number": 6, "position": "CB", "country": "IS", "status": "bench"},
-      {"playerId": "player_dk1_005_15", "name": "David Helgi Aronsson", "number": 12, "position": "LB", "country": "IS", "status": "bench"},
-      {"playerId": "player_dk1_005_16", "name": "Jens Jakob Thomasen", "number": 18, "position": "CM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk1_005_17", "name": "Gustav Fraulo", "number": 19, "position": "CM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk1_005_18", "name": "Sanders Ngabo", "number": 22, "position": "CAM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk1_005_19", "name": "Zidan Sertdemir", "number": 16, "position": "CAM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk1_005_20", "name": "Frederik Gytkjær", "number": 26, "position": "ST", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk1_005_21", "name": "Markus Anderson", "number": 35, "position": "RW", "country": "US", "status": "bench"},
-  
-      {"playerId": "player_dk1_005_22", "name": "Oskar Snorre", "number": 21, "position": "GK", "country": "DK", "status": "reserve"},
-      {"playerId": "player_dk1_005_23", "name": "Arttu Hoskonen", "number": 3, "position": "CB", "country": "FI", "status": "reserve"},
-      {"playerId": "player_dk1_005_24", "name": "Jón Sölvi Símonarson", "number": 32, "position": "GK", "country": "IS", "status": "reserve"},
-      {"playerId": "player_dk1_005_25", "name": "Mathias Kaarsbo", "number": 20, "position": "ST", "country": "DK", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 7,
-      "setPieces": {
-        "penalty": 10,
-        "freeKick": 7,
-        "cornerLeft": 7,
-        "cornerRight": 8
-      }
+  "teamKey": "Lyngby",
+
+  "name": "Lyngby Boldklub",
+
+  "logo": "assets/logos/europe/denmark/Lyngby.png",
+
+  "manager": {
+    "name": "Mikkel Jespersen",
+    "country": "DK"
+  },
+
+  "stadium": {
+    "name": "Lyngby Stadion",
+    "capacity": 10000
+  },
+
+  "players": [
+    {"playerId": "player_dk1_005_01", "name": "Diego Kochen", "number": 31, "position": "GK", "country": "US", "status": "starter"},
+    {"playerId": "player_dk1_005_02", "name": "Oskar Buur", "number": 2, "position": "RB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk1_005_03", "name": "Munashe Garananga", "number": 24, "position": "CB", "country": "ZW", "status": "starter"},
+    {"playerId": "player_dk1_005_04", "name": "Mikkel Fischer", "number": 30, "position": "CB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk1_005_05", "name": "Renzo Tytens", "number": 25, "position": "LB", "country": "BE", "status": "starter"},
+    {"playerId": "player_dk1_005_06", "name": "Lauge Sandgrav", "number": 14, "position": "CDM", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk1_005_07", "name": "Simon Colyn", "number": 7, "position": "CM", "country": "CA", "status": "starter"},
+    {"playerId": "player_dk1_005_08", "name": "Mathias Hebo", "number": 8, "position": "CAM", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk1_005_09", "name": "William Steindorsson", "number": 17, "position": "RW", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk1_005_10", "name": "Oliver Højer", "number": 5, "position": "LW", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk1_005_11", "name": "Ísak Snær Þorvaldsson", "number": 10, "position": "ST", "country": "IS", "status": "starter"},
+
+    {"playerId": "player_dk1_005_12", "name": "Jonathan Ægidius", "number": 1, "position": "GK", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk1_005_13", "name": "Cornelius Allen", "number": 4, "position": "CB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk1_005_14", "name": "Daníel Freyr Kristjánsson", "number": 6, "position": "CB", "country": "IS", "status": "bench"},
+    {"playerId": "player_dk1_005_15", "name": "David Helgi Aronsson", "number": 12, "position": "LB", "country": "IS", "status": "bench"},
+    {"playerId": "player_dk1_005_16", "name": "Jens Jakob Thomasen", "number": 18, "position": "CM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk1_005_17", "name": "Gustav Fraulo", "number": 19, "position": "CM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk1_005_18", "name": "Sanders Ngabo", "number": 22, "position": "CAM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk1_005_19", "name": "Zidan Sertdemir", "number": 16, "position": "CAM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk1_005_20", "name": "Frederik Gytkjær", "number": 26, "position": "ST", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk1_005_21", "name": "Markus Anderson", "number": 35, "position": "RW", "country": "US", "status": "bench"},
+
+    {"playerId": "player_dk1_005_22", "name": "Oskar Snorre", "number": 21, "position": "GK", "country": "DK", "status": "reserve"},
+    {"playerId": "player_dk1_005_23", "name": "Arttu Hoskonen", "number": 3, "position": "CB", "country": "FI", "status": "reserve"},
+    {"playerId": "player_dk1_005_24", "name": "Nicolai Hjulmand", "number": 27, "position": "CM", "country": "DK", "status": "reserve"},
+    {"playerId": "player_dk1_005_25", "name": "Mathias Kaarsbo", "number": 20, "position": "ST", "country": "DK", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 7,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 8
     }
   }
+}
