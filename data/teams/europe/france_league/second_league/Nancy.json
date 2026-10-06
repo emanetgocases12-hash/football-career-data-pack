@@ -1,0 +1,56 @@
+{
+  "teamKey": "Nancy",
+
+  "name": "AS Nancy-Lorraine",
+
+  "logo": "assets/logos/europe/france/Nancy.png",
+
+  "manager": {
+    "name": "Oswald Tanchot",
+    "country": "FR"
+  },
+
+  "stadium": {
+    "name": "Stade Marcel-Picot",
+    "capacity": 20087
+  },
+
+  "players": [
+    {"playerId": "player_fr2_012_01", "name": "Enzo Basilio", "number": 1, "position": "GK", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_012_02", "name": "Thierno Baldé", "number": 19, "position": "RB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_012_03", "name": "Nicolas Saint-Ruf", "number": 14, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_012_04", "name": "Nehemiah Fernandez", "number": 4, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_012_05", "name": "Logan Ndenbe", "number": 22, "position": "LB", "country": "BE", "status": "starter"},
+    {"playerId": "player_fr2_012_06", "name": "Mamadou Fofana", "number": 17, "position": "CDM", "country": "ML", "status": "starter"},
+    {"playerId": "player_fr2_012_07", "name": "Kouroufia Kébé", "number": 6, "position": "CM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_012_08", "name": "Zakaria Fdaouch", "number": 7, "position": "RW", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_012_09", "name": "Nordine Kandil", "number": 70, "position": "CAM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_012_10", "name": "Sidi Cissé", "number": 11, "position": "LW", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_012_11", "name": "Pape Meissa Ba", "number": 5, "position": "ST", "country": "SN", "status": "starter"},
+    {"playerId": "player_fr2_012_12", "name": "Geoffrey Lembet", "number": 30, "position": "GK", "country": "CF", "status": "bench"},
+    {"playerId": "player_fr2_012_14", "name": "Jérémy Gelin", "number": 25, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_012_15", "name": "Elydjah Mendy", "number": 21, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_012_16", "name": "Yannis Nahounou", "number": 77, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_012_17", "name": "Walid Bouabdeli", "number": 8, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_012_18", "name": "Hugo Barbier", "number": 18, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_012_19", "name": "Ylan El Hadary", "number": 12, "position": "CM", "country": "MG", "status": "bench"},
+    {"playerId": "player_fr2_012_20", "name": "Yanis Delaveau", "number": 24, "position": "CM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_fr2_012_21", "name": "Issam Bouaoune", "number": 28, "position": "CM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_fr2_012_22", "name": "Ilyes Housni", "number": 9, "position": "ST", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_012_13", "name": "Yanis Kouini", "number": 40, "position": "GK", "country": "MA", "status": "reserve"},
+    {"playerId": "player_fr2_012_23", "name": "Adrian Dabasse", "number": 10, "position": "ST", "country": "FR", "status": "reserve"},
+    {"playerId": "player_fr2_012_24", "name": "Zakaria Ztouti", "number": 26, "position": "RW", "country": "FR", "status": "reserve"},
+    {"playerId": "player_fr2_012_25", "name": "Noam Obougou", "number": 29, "position": "ST", "country": "FR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 14,
+    "setPieces": {
+      "penalty": 5,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}

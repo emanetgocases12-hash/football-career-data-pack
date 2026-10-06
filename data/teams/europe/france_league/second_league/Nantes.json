@@ -1,0 +1,56 @@
+{
+  "teamKey": "Nantes",
+
+  "name": "FC Nantes",
+
+  "logo": "assets/logos/europe/france/Nantes.png",
+
+  "manager": {
+    "name": "Grégory Poirier",
+    "country": "FR"
+  },
+
+  "stadium": {
+    "name": "Stade de la Beaujoire",
+    "capacity": 35322
+  },
+
+  "players": [
+    {"playerId": "player_fr2_013_01", "name": "Maxime Dupé", "number": 1, "position": "GK", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_013_02", "name": "Frédéric Guilbert", "number": 24, "position": "RB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_013_03", "name": "Saïdou Sow", "number": 4, "position": "CB", "country": "GN", "status": "starter"},
+    {"playerId": "player_fr2_013_04", "name": "Lucas Perrin", "number": 5, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_013_05", "name": "Ryad Hachem", "number": 26, "position": "LB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_013_06", "name": "Ibrahima Sissoko", "number": 28, "position": "CDM", "country": "ML", "status": "starter"},
+    {"playerId": "player_fr2_013_07", "name": "Johann Lepenant", "number": 8, "position": "CM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_013_08", "name": "Mathieu Cafaro", "number": 20, "position": "RW", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_013_09", "name": "Dehmaine Tabibou", "number": 17, "position": "CAM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_013_10", "name": "Antoine Joujou", "number": 7, "position": "LW", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_013_11", "name": "Thomas Robinet", "number": 27, "position": "ST", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_013_12", "name": "Alexis Mirbach", "number": 16, "position": "GK", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_013_14", "name": "Fodé Doucouré", "number": 13, "position": "RB", "country": "ML", "status": "bench"},
+    {"playerId": "player_fr2_013_15", "name": "Amine Cherni", "number": 75, "position": "LB", "country": "TN", "status": "bench"},
+    {"playerId": "player_fr2_013_16", "name": "Enzo Mongo", "number": 46, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_013_17", "name": "Tylel Tati", "number": 78, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_013_18", "name": "Kelvin Amian", "number": 98, "position": "RB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_013_19", "name": "Lamine Diack", "number": 14, "position": "CM", "country": "SN", "status": "bench"},
+    {"playerId": "player_fr2_013_20", "name": "Louis Leroux", "number": 19, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_013_21", "name": "Wilitty Younoussa", "number": 23, "position": "CM", "country": "CM", "status": "bench"},
+    {"playerId": "player_fr2_013_22", "name": "Killian Corredor", "number": 12, "position": "ST", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_013_13", "name": "Patrik Carlgren", "number": 30, "position": "GK", "country": "SE", "status": "reserve"},
+    {"playerId": "player_fr2_013_23", "name": "Ignatius Ganago", "number": 37, "position": "ST", "country": "CM", "status": "reserve"},
+    {"playerId": "player_fr2_013_24", "name": "Moustapha Dabo", "number": 47, "position": "ST", "country": "FR", "status": "reserve"},
+    {"playerId": "player_fr2_013_25", "name": "Junior Koné", "number": 49, "position": "ST", "country": "FR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 27,
+      "freeKick": 20,
+      "cornerLeft": 20,
+      "cornerRight": 20
+    }
+  }
+}

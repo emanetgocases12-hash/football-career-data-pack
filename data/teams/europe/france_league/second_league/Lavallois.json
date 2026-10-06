@@ -1,0 +1,56 @@
+{
+  "teamKey": "Lavall",
+
+  "name": "Stade Lavallois",
+
+  "logo": "assets/logos/europe/france/Lavallois.png",
+
+  "manager": {
+    "name": "David Vignes",
+    "country": "FR"
+  },
+
+  "stadium": {
+    "name": "Stade Francis Le Basser",
+    "capacity": 11107
+  },
+
+  "players": [
+    {"playerId": "player_fr2_009_01", "name": "Maxime Hautbois", "number": 1, "position": "GK", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_009_02", "name": "Mattéo Commaret", "number": 2, "position": "RB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_009_03", "name": "William Bianda", "number": 3, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_009_04", "name": "Sidi Bane", "number": 24, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_fr2_009_05", "name": "Jules Gaudin", "number": 22, "position": "LB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_009_06", "name": "Francis Coquelin", "number": 13, "position": "CDM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_009_07", "name": "Sam Sanna", "number": 6, "position": "CM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_009_08", "name": "Chafik Gourichy", "number": 7, "position": "RW", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_009_09", "name": "Julien Maggiotti", "number": 5, "position": "CAM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_009_10", "name": "Corentin Fatou", "number": 17, "position": "LW", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_009_11", "name": "Trevis Dago", "number": 11, "position": "ST", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_009_12", "name": "Mamadou Samassa", "number": 30, "position": "GK", "country": "ML", "status": "bench"},
+    {"playerId": "player_fr2_009_13", "name": "Esteban Mouton", "number": 23, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_009_14", "name": "Mamadou Sidibé", "number": 29, "position": "CB", "country": "GN", "status": "bench"},
+    {"playerId": "player_fr2_009_15", "name": "Layousse Samb", "number": 35, "position": "LB", "country": "SN", "status": "bench"},
+    {"playerId": "player_fr2_009_16", "name": "Teddy Bouriaud", "number": 8, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_009_17", "name": "Cyril Mandouki", "number": 14, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_009_18", "name": "Hermann Esmel", "number": 26, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_009_19", "name": "Alpha Diallo", "number": 27, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_009_20", "name": "Ethan Clavreul", "number": 20, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_009_21", "name": "Aboubakary Kanté", "number": 28, "position": "ST", "country": "GM", "status": "bench"},
+    {"playerId": "player_fr2_009_22", "name": "Esteban Pourcher", "number": 40, "position": "GK", "country": "FR", "status": "reserve"},
+    {"playerId": "player_fr2_009_23", "name": "Yanis Court", "number": 32, "position": "CM", "country": "FR", "status": "reserve"},
+    {"playerId": "player_fr2_009_24", "name": "Sacha Mellier", "number": 33, "position": "CM", "country": "FR", "status": "reserve"},
+    {"playerId": "player_fr2_009_25", "name": "Alessio Beaudouin", "number": 21, "position": "CAM", "country": "FR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 3,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}

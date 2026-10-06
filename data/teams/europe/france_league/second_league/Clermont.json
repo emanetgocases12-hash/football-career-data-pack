@@ -1,0 +1,56 @@
+{
+  "teamKey": "Clermo",
+
+  "name": "Clermont Foot 63",
+
+  "logo": "assets/logos/europe/france/Clermont.png",
+
+  "manager": {
+    "name": "David Guion",
+    "country": "FR"
+  },
+
+  "stadium": {
+    "name": "Stade Gabriel-Montpied",
+    "capacity": 10800
+  },
+
+  "players": [
+    {"playerId": "player_fr2_004_01", "name": "Massamba Ndiaye", "number": 16, "position": "GK", "country": "SN", "status": "starter"},
+    {"playerId": "player_fr2_004_02", "name": "Junior Sambia", "number": 10, "position": "RB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_004_03", "name": "Andy Pelmard", "number": 3, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_004_04", "name": "Yoann Salmier", "number": 21, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_004_05", "name": "Vital N'Simba", "number": 12, "position": "LB", "country": "AO", "status": "starter"},
+    {"playerId": "player_fr2_004_06", "name": "Rominigue Kouamé", "number": 26, "position": "CDM", "country": "ML", "status": "starter"},
+    {"playerId": "player_fr2_004_07", "name": "Yuliwes Bellache", "number": 8, "position": "CM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_004_08", "name": "Florian Bianchini", "number": 7, "position": "RW", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_004_09", "name": "Adrien Hunou", "number": 23, "position": "CAM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_004_10", "name": "Maïdine Douane", "number": 11, "position": "LW", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_004_11", "name": "Luís Hemir", "number": 9, "position": "ST", "country": "PT", "status": "starter"},
+    {"playerId": "player_fr2_004_12", "name": "Théo Guivarch", "number": 30, "position": "GK", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_004_14", "name": "Ethan Kena Kabeya", "number": 4, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_004_15", "name": "Ilyes Hamdia", "number": 35, "position": "CB", "country": "MA", "status": "bench"},
+    {"playerId": "player_fr2_004_16", "name": "Ivan M'Bahia", "number": 28, "position": "RB", "country": "CI", "status": "bench"},
+    {"playerId": "player_fr2_004_17", "name": "Jean Grillot", "number": 5, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_004_18", "name": "El Hadj Koné", "number": 6, "position": "CM", "country": "CI", "status": "bench"},
+    {"playerId": "player_fr2_004_19", "name": "Abdellah Baallal", "number": 2, "position": "CAM", "country": "MA", "status": "bench"},
+    {"playerId": "player_fr2_004_20", "name": "Julien Astic", "number": 13, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_004_21", "name": "Stan Berkani", "number": 24, "position": "CM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_fr2_004_22", "name": "Ousmane Diop", "number": 17, "position": "ST", "country": "SN", "status": "bench"},
+    {"playerId": "player_fr2_004_13", "name": "Joan Raynaud", "number": 60, "position": "GK", "country": "FR", "status": "reserve"},
+    {"playerId": "player_fr2_004_23", "name": "Arthur Saintorens", "number": 29, "position": "ST", "country": "FR", "status": "reserve"},
+    {"playerId": "player_fr2_004_24", "name": "Enzo Cantero", "number": 77, "position": "LW", "country": "FR", "status": "reserve"},
+    {"playerId": "player_fr2_004_25", "name": "Christ Okou", "number": 90, "position": "ST", "country": "FR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 3,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "teamKey": "Montpl",
+
+  "name": "Montpellier HSC",
+
+  "logo": "assets/logos/europe/france/Motpellier.png",
+
+  "manager": {
+    "name": "Zoumana Camara",
+    "country": "FR"
+  },
+
+  "stadium": {
+    "name": "Stade de la Mosson",
+    "capacity": 22000
+  },
+
+  "players": [
+    {"playerId": "player_fr2_011_01", "name": "Mathieu Michel", "number": 1, "position": "GK", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_011_02", "name": "Alpha Sissoko", "number": 58, "position": "RB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_011_03", "name": "Yaël Mouanga", "number": 6, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_011_04", "name": "Julien Laporte", "number": 15, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_011_05", "name": "Théo Sainte-Luce", "number": 17, "position": "LB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_011_06", "name": "Florian Tardieu", "number": 5, "position": "CDM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_011_07", "name": "Nabil Homssa", "number": 8, "position": "CM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_011_08", "name": "Yassine Benhattab", "number": 10, "position": "RW", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_011_09", "name": "Everson Junior", "number": 77, "position": "CAM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_011_10", "name": "Mamadou Camara", "number": 11, "position": "LW", "country": "ML", "status": "starter"},
+    {"playerId": "player_fr2_011_11", "name": "Laciné Megnan-Pavé", "number": 9, "position": "ST", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_011_12", "name": "Simon Ngapandouetnbu", "number": 31, "position": "GK", "country": "CM", "status": "bench"},
+    {"playerId": "player_fr2_011_14", "name": "Naoufel El Hannach", "number": 3, "position": "CB", "country": "MA", "status": "bench"},
+    {"playerId": "player_fr2_011_15", "name": "Oscar Etoundi", "number": 12, "position": "RB", "country": "CM", "status": "bench"},
+    {"playerId": "player_fr2_011_16", "name": "Wilfried Ndollo", "number": 25, "position": "LB", "country": "CM", "status": "bench"},
+    {"playerId": "player_fr2_011_17", "name": "Daylam Meddah", "number": 27, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_011_18", "name": "Yvan Djemba-Mbappe", "number": 26, "position": "CM", "country": "CM", "status": "bench"},
+    {"playerId": "player_fr2_011_19", "name": "Théo Chennahi", "number": 44, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_011_20", "name": "Grégory Ayem", "number": 90, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_011_21", "name": "Axel Gueguin", "number": 22, "position": "RW", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_011_22", "name": "Nicolas Pays", "number": 18, "position": "ST", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_011_13", "name": "Viktor Džodić", "number": 50, "position": "GK", "country": "RS", "status": "reserve"},
+    {"playerId": "player_fr2_011_23", "name": "Nordan Mukiele", "number": 19, "position": "ST", "country": "FR", "status": "reserve"},
+    {"playerId": "player_fr2_011_24", "name": "Daryll Benlahlou", "number": 23, "position": "LW", "country": "DZ", "status": "reserve"},
+    {"playerId": "player_fr2_011_25", "name": "Jérémy Hatchi", "number": 39, "position": "ST", "country": "FR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 6,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 10
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "teamKey": "RedStr",
+
+  "name": "Red Star FC",
+
+  "logo": "assets/logos/europe/france/RedStar.png",
+
+  "manager": {
+    "name": "Damien Perrinelle",
+    "country": "FR"
+  },
+
+  "stadium": {
+    "name": "Stade Bauer",
+    "capacity": 5600
+  },
+
+  "players": [
+    {"playerId": "player_fr2_015_01", "name": "Yanis Benchaouch", "number": 1, "position": "GK", "country": "MA", "status": "starter"},
+    {"playerId": "player_fr2_015_02", "name": "Théo Magnin", "number": 2, "position": "RB", "country": "CH", "status": "starter"},
+    {"playerId": "player_fr2_015_03", "name": "Elyaz Zidane", "number": 4, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_015_04", "name": "Josué Escartin", "number": 5, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_015_05", "name": "Matthieu Huard", "number": 3, "position": "LB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_015_06", "name": "Mahamadou Diawara", "number": 14, "position": "CDM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_015_07", "name": "Guillaume Trani", "number": 8, "position": "CM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_015_08", "name": "Damien Durand", "number": 7, "position": "RW", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_015_09", "name": "Saïf Khaoui", "number": 10, "position": "CAM", "country": "TN", "status": "starter"},
+    {"playerId": "player_fr2_015_10", "name": "Kévin Cabral", "number": 91, "position": "LW", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_015_11", "name": "Ilija Despotović", "number": 9, "position": "ST", "country": "CH", "status": "starter"},
+    {"playerId": "player_fr2_015_12", "name": "Gaëtan Poussin", "number": 16, "position": "GK", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_015_13", "name": "Bradley Danger", "number": 6, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_015_14", "name": "Dylan Durivaux", "number": 20, "position": "RB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_015_15", "name": "Pierre Lemonnier", "number": 24, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_015_16", "name": "Leonardo Buta", "number": 25, "position": "LB", "country": "PT", "status": "bench"},
+    {"playerId": "player_fr2_015_17", "name": "Samuel Renel", "number": 17, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_015_18", "name": "Islamdine Halifa", "number": 19, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_015_19", "name": "Idrissa Sabaly", "number": 21, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_015_20", "name": "Godson Kyeremeh", "number": 27, "position": "CAM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_015_21", "name": "Cheick Konaté", "number": 45, "position": "CM", "country": "CI", "status": "bench"},
+    {"playerId": "player_fr2_015_22", "name": "Mouez Hassen", "number": 40, "position": "GK", "country": "TN", "status": "reserve"},
+    {"playerId": "player_fr2_015_23", "name": "Jovany Ikanga", "number": 23, "position": "ST", "country": "FR", "status": "reserve"},
+    {"playerId": "player_fr2_015_24", "name": "Sekou Guindo", "number": 12, "position": "RB", "country": "FR", "status": "reserve"},
+    {"playerId": "player_fr2_015_25", "name": "Côme Bianay Balcot", "number": 80, "position": "CB", "country": "FR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}

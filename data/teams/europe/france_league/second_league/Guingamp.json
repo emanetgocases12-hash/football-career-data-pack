@@ -1,0 +1,56 @@
+{
+  "teamKey": "Guinga",
+
+  "name": "EA Guingamp",
+
+  "logo": "assets/logos/europe/france/Guingamp.png",
+
+  "manager": {
+    "name": "Sylvain Ripoll",
+    "country": "FR"
+  },
+
+  "stadium": {
+    "name": "Stade de Roudourou",
+    "capacity": 18462
+  },
+
+  "players": [
+    {"playerId": "player_fr2_008_01", "name": "Teddy Bartouche", "number": 1, "position": "GK", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_008_02", "name": "Erwin Koffi", "number": 2, "position": "RB", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_008_03", "name": "Donatien Gomis", "number": 7, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_fr2_008_04", "name": "Jeovanni Dianganga", "number": 24, "position": "CB", "country": "BE", "status": "starter"},
+    {"playerId": "player_fr2_008_05", "name": "Tuomas Ollila", "number": 5, "position": "LB", "country": "FI", "status": "starter"},
+    {"playerId": "player_fr2_008_06", "name": "Dylan Louiserre", "number": 4, "position": "CDM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_008_07", "name": "Tom Ducrocq", "number": 25, "position": "CM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_008_08", "name": "Teddy Averlant", "number": 11, "position": "RW", "country": "GA", "status": "starter"},
+    {"playerId": "player_fr2_008_09", "name": "Amine Hemia", "number": 10, "position": "CAM", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_008_10", "name": "Gautier Ott", "number": 30, "position": "LW", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_008_11", "name": "Amadou Samoura", "number": 17, "position": "ST", "country": "FR", "status": "starter"},
+    {"playerId": "player_fr2_008_12", "name": "Adrián Ortolà", "number": 16, "position": "GK", "country": "ES", "status": "bench"},
+    {"playerId": "player_fr2_008_14", "name": "Jérémie Matumona", "number": 3, "position": "LB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_008_15", "name": "Ibrahima Diakité", "number": 32, "position": "RB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_008_16", "name": "Nathan Fondja", "number": 35, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_008_17", "name": "Darly N'Landu", "number": 6, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_008_18", "name": "Florent Sanchez", "number": 8, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_008_19", "name": "Tanguy Ahilé", "number": 21, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_008_20", "name": "Jasser Chamakh", "number": 23, "position": "CAM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_008_21", "name": "Joël Matondo", "number": 31, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_008_22", "name": "Stanislas Kielt", "number": 18, "position": "ST", "country": "FR", "status": "bench"},
+    {"playerId": "player_fr2_008_13", "name": "Noah Marec", "number": 40, "position": "GK", "country": "FR", "status": "reserve"},
+    {"playerId": "player_fr2_008_23", "name": "Samir Ben Brahim", "number": 20, "position": "RW", "country": "FR", "status": "reserve"},
+    {"playerId": "player_fr2_008_24", "name": "Brandon Bokangu", "number": 22, "position": "ST", "country": "CD", "status": "reserve"},
+    {"playerId": "player_fr2_008_25", "name": "Jean-Yves Djegou", "number": 37, "position": "ST", "country": "FR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 7,
+    "setPieces": {
+      "penalty": 17,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 11
+    }
+  }
+}
