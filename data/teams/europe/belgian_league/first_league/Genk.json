@@ -1,0 +1,58 @@
+{
+  "teamKey": "Genk",
+
+  "name": "KRC Genk",
+
+  "logo": "assets/logos/europe/belgian/Genk.png",
+
+  "manager": {
+    "name": "Jess Thorup",
+    "country": "DK"
+  },
+
+  "stadium": {
+    "name": "Cegeka Arena",
+    "capacity": 23718
+  },
+
+  "players": [
+    {"playerId": "player_be1_006_01", "name": "Tobe Leysen", "number": 1, "position": "GK", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_006_02", "name": "Kevin Amaro", "number": 20, "position": "RB", "country": "UY", "status": "starter"},
+    {"playerId": "player_be1_006_03", "name": "Matte Smets", "number": 6, "position": "CB", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_006_04", "name": "Christiaan Ravych", "number": 5, "position": "CB", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_006_05", "name": "Yaimar Medina", "number": 19, "position": "LB", "country": "EC", "status": "starter"},
+    {"playerId": "player_be1_006_06", "name": "Benjamin Tahirović", "number": 4, "position": "CDM", "country": "BA", "status": "starter"},
+    {"playerId": "player_be1_006_07", "name": "Bryan Heynen", "number": 8, "position": "CM", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_006_08", "name": "Junya Ito", "number": 10, "position": "RW", "country": "JP", "status": "starter"},
+    {"playerId": "player_be1_006_09", "name": "Daan Heymans", "number": 38, "position": "CAM", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_006_10", "name": "Ayumu Yokoyama", "number": 30, "position": "LW", "country": "JP", "status": "starter"},
+    {"playerId": "player_be1_006_11", "name": "Rafiu Durosinmi", "number": 17, "position": "ST", "country": "NG", "status": "starter"},
+
+    {"playerId": "player_be1_006_12", "name": "Emile Doucouré", "number": 97, "position": "GK", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_006_13", "name": "Josue Kongolo", "number": 44, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_006_14", "name": "Christian Akpan", "number": 65, "position": "CB", "country": "NG", "status": "bench"},
+    {"playerId": "player_be1_006_15", "name": "Elie Mbavu", "number": 73, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_006_16", "name": "Joris Kayembe", "number": 18, "position": "LB", "country": "CD", "status": "bench"},
+    {"playerId": "player_be1_006_17", "name": "Ibrahima Sory Bangoura", "number": 21, "position": "CM", "country": "GN", "status": "bench"},
+    {"playerId": "player_be1_006_18", "name": "Jeppe Erenbjerg", "number": 11, "position": "CM", "country": "DK", "status": "bench"},
+    {"playerId": "player_be1_006_19", "name": "August De Wannemacker", "number": 56, "position": "CM", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_006_20", "name": "Kenan Haroun", "number": 86, "position": "CAM", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_006_21", "name": "Noah Adedeji-Sternberg", "number": 32, "position": "RW", "country": "BE", "status": "bench"},
+
+    {"playerId": "player_be1_006_24", "name": "Lucca Brughmans", "number": 28, "position": "GK", "country": "BE", "status": "reserve"},
+    {"playerId": "player_be1_006_22", "name": "Aaron Bibout", "number": 23, "position": "ST", "country": "CM", "status": "reserve"},
+    {"playerId": "player_be1_006_23", "name": "Jerry Afriyie", "number": 33, "position": "ST", "country": "GH", "status": "reserve"},
+    {"playerId": "player_be1_006_25", "name": "Bastien Meupiyou", "number": 24, "position": "CB", "country": "FR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 17,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 10
+    }
+  }
+}

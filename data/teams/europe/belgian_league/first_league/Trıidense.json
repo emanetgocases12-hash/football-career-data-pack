@@ -1,0 +1,58 @@
+{
+  "teamKey": "S'Truid'",
+
+  "name": "Sint-Truidense VV",
+
+  "logo": "assets/logos/europe/belgian/Truidense.png",
+
+  "manager": {
+    "name": "Frédéric De Meyer",
+    "country": "BE"
+  },
+
+  "stadium": {
+    "name": "Daio Wasabi Stayen Stadium",
+    "capacity": 11337
+  },
+
+  "players": [
+    {"playerId": "player_be1_014_01", "name": "Leo Kokubo", "number": 16, "position": "GK", "country": "JP", "status": "starter"},
+    {"playerId": "player_be1_014_02", "name": "Taiga Hata", "number": 3, "position": "RB", "country": "JP", "status": "starter"},
+    {"playerId": "player_be1_014_03", "name": "Kota Takai", "number": 4, "position": "CB", "country": "JP", "status": "starter"},
+    {"playerId": "player_be1_014_04", "name": "Shogo Taniguchi", "number": 5, "position": "CB", "country": "JP", "status": "starter"},
+    {"playerId": "player_be1_014_05", "name": "Robert-Jan Vanwesemael", "number": 60, "position": "LB", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_014_06", "name": "Abdoulaye Sissako", "number": 8, "position": "CDM", "country": "FR", "status": "starter"},
+    {"playerId": "player_be1_014_07", "name": "Ryan Merlen", "number": 14, "position": "CM", "country": "FR", "status": "starter"},
+    {"playerId": "player_be1_014_08", "name": "Nathanaël Mbuku", "number": 11, "position": "RW", "country": "CD", "status": "starter"},
+    {"playerId": "player_be1_014_09", "name": "Ilias Sebaoui", "number": 10, "position": "CAM", "country": "MA", "status": "starter"},
+    {"playerId": "player_be1_014_10", "name": "Arbnor Muja", "number": 7, "position": "LW", "country": "XK", "status": "starter"},
+    {"playerId": "player_be1_014_11", "name": "Samed Baždar", "number": 9, "position": "ST", "country": "BA", "status": "starter"},
+
+    {"playerId": "player_be1_014_12", "name": "Matt Lendfers", "number": 21, "position": "GK", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_014_14", "name": "Wolke Janssens", "number": 22, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_014_15", "name": "Joedrick Pupe", "number": 23, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_014_16", "name": "Visar Musliu", "number": 26, "position": "CB", "country": "MK", "status": "bench"},
+    {"playerId": "player_be1_014_17", "name": "Jeremy Kandje Mbambi", "number": 27, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_014_18", "name": "Alouis Diriken", "number": 33, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_014_19", "name": "Rune Verheyden", "number": 39, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_014_20", "name": "Nelson Ishiwatari", "number": 18, "position": "CM", "country": "JP", "status": "bench"},
+    {"playerId": "player_be1_014_21", "name": "Ryotaro Araki", "number": 71, "position": "CAM", "country": "JP", "status": "bench"},
+    {"playerId": "player_be1_014_22", "name": "Kaito Matsuzawa", "number": 38, "position": "RW", "country": "JP", "status": "bench"},
+
+    {"playerId": "player_be1_014_13", "name": "Ahmad Aburasyin", "number": 25, "position": "GK", "country": "SA", "status": "reserve"},
+    {"playerId": "player_be1_014_23", "name": "Frédéric Soèllé Soèllé", "number": 19, "position": "ST", "country": "BE", "status": "reserve"},
+    {"playerId": "player_be1_014_24", "name": "Oumar Diouf", "number": 77, "position": "ST", "country": "SN", "status": "reserve"},
+    {"playerId": "player_be1_014_25", "name": "Shion Shinkawa", "number": 99, "position": "CAM", "country": "JP", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 16,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 11
+    }
+  }
+}

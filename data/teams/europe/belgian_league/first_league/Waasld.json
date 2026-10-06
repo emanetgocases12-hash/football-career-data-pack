@@ -1,0 +1,58 @@
+{
+  "teamKey": "Waasld",
+
+  "name": "SK Beveren",
+
+  "logo": "assets/logos/europe/belgian/Beveren.png",
+
+  "manager": {
+    "name": "Tim Bakens",
+    "country": "NL"
+  },
+
+  "stadium": {
+    "name": "Freethielstadion",
+    "capacity": 8156
+  },
+
+  "players": [
+    {"playerId": "player_be1_016_01", "name": "Johannes Schenk", "number": 1, "position": "GK", "country": "DE", "status": "starter"},
+    {"playerId": "player_be1_016_02", "name": "Laurent Jans", "number": 21, "position": "RB", "country": "LU", "status": "starter"},
+    {"playerId": "player_be1_016_03", "name": "Viktor Boone", "number": 3, "position": "CB", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_016_04", "name": "Bruno Godeau", "number": 31, "position": "CB", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_016_05", "name": "Dominic Thompson", "number": 2, "position": "LB", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_be1_016_06", "name": "Sieben Dewaele", "number": 18, "position": "CDM", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_016_07", "name": "Arno Verschueren", "number": 24, "position": "CM", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_016_08", "name": "Junior Diouf", "number": 11, "position": "RW", "country": "SN", "status": "starter"},
+    {"playerId": "player_be1_016_09", "name": "Guillaume De Schryver", "number": 10, "position": "CAM", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_016_10", "name": "Jearl Margaritha", "number": 17, "position": "LW", "country": "CW", "status": "starter"},
+    {"playerId": "player_be1_016_11", "name": "Elohim Kaboré", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
+
+    {"playerId": "player_be1_016_12", "name": "Maxim Deman", "number": 16, "position": "GK", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_016_14", "name": "Christophe Janssens", "number": 4, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_016_15", "name": "Cheick Oumar Konaté", "number": 25, "position": "RB", "country": "ML", "status": "bench"},
+    {"playerId": "player_be1_016_16", "name": "Yoni Gomis", "number": 35, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_be1_016_17", "name": "Jannik Robatsch", "number": 48, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_be1_016_18", "name": "Noah Mawete", "number": 26, "position": "CM", "country": "CD", "status": "bench"},
+    {"playerId": "player_be1_016_19", "name": "Chris Lokesa", "number": 5, "position": "CAM", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_016_20", "name": "Ferre Slegers", "number": 8, "position": "RW", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_016_21", "name": "Léandre Kuavita", "number": 14, "position": "CM", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_016_22", "name": "Christian Brüls", "number": 22, "position": "CAM", "country": "BE", "status": "bench"},
+
+    {"playerId": "player_be1_016_13", "name": "Josua Lusamba", "number": 84, "position": "GK", "country": "CD", "status": "reserve"},
+    {"playerId": "player_be1_016_23", "name": "Cheick Condé", "number": 44, "position": "CM", "country": "GN", "status": "reserve"},
+    {"playerId": "player_be1_016_24", "name": "Kurt Abrahams", "number": 34, "position": "ST", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_be1_016_25", "name": "Ilyes Najim", "number": 7, "position": "LW", "country": "FR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 11
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "Brugge",
+
+  "name": "Club Brugge KV",
+
+  "logo": "assets/logos/europe/belgian/Brugge.png",
+
+  "manager": {
+    "name": "Ivan Leko",
+    "country": "HR"
+  },
+
+  "stadium": {
+    "name": "Jan Breydelstadion",
+    "capacity": 29062
+  },
+
+  "players": [
+    {"playerId": "player_be1_005_01", "name": "Yann Sommer", "number": 1, "position": "GK", "country": "CH", "status": "starter"},
+    {"playerId": "player_be1_005_02", "name": "Hugo Siquet", "number": 41, "position": "RB", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_005_03", "name": "Joel Ordóñez", "number": 4, "position": "CB", "country": "EC", "status": "starter"},
+    {"playerId": "player_be1_005_04", "name": "Brandon Mechele", "number": 44, "position": "CB", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_005_05", "name": "Joaquin Seys", "number": 65, "position": "LB", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_005_06", "name": "Freddie Potts", "number": 8, "position": "CDM", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_be1_005_07", "name": "Hans Vanaken", "number": 20, "position": "CM", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_005_08", "name": "Carlos Forbs", "number": 9, "position": "RW", "country": "PT", "status": "starter"},
+    {"playerId": "player_be1_005_09", "name": "Hugo Vetlesen", "number": 10, "position": "CAM", "country": "NO", "status": "starter"},
+    {"playerId": "player_be1_005_10", "name": "Jan Virgili", "number": 11, "position": "LW", "country": "ES", "status": "starter"},
+    {"playerId": "player_be1_005_11", "name": "Romeo Vermant", "number": 17, "position": "ST", "country": "BE", "status": "starter"},
+
+    {"playerId": "player_be1_005_12", "name": "Nordin Jackers", "number": 29, "position": "GK", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_005_14", "name": "Lee Han-Beom", "number": 3, "position": "CB", "country": "KR", "status": "bench"},
+    {"playerId": "player_be1_005_15", "name": "Matteo Dams", "number": 32, "position": "LB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_005_16", "name": "Kyriani Sabbe", "number": 64, "position": "RB", "country": "NL", "status": "bench"},
+    {"playerId": "player_be1_005_17", "name": "Jorne Spileers", "number": 58, "position": "CB", "country": "NL", "status": "bench"},
+    {"playerId": "player_be1_005_18", "name": "Cheveyo Tsawa", "number": 16, "position": "CM", "country": "CH", "status": "bench"},
+    {"playerId": "player_be1_005_19", "name": "Lynnt Audoor", "number": 62, "position": "CM", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_005_20", "name": "Félix Lemaréchal", "number": 80, "position": "CAM", "country": "FR", "status": "bench"},
+    {"playerId": "player_be1_005_21", "name": "Mamadou Diakhon", "number": 67, "position": "LW", "country": "FR", "status": "bench"},
+    {"playerId": "player_be1_005_22", "name": "Wisdom Mike", "number": 27, "position": "RW", "country": "DE", "status": "bench"},
+
+    {"playerId": "player_be1_005_13", "name": "Argus Vanden Driessche", "number": 81, "position": "GK", "country": "BE", "status": "reserve"},
+    {"playerId": "player_be1_005_23", "name": "Andrej Vasović", "number": 77, "position": "ST", "country": "CH", "status": "reserve"},
+    {"playerId": "player_be1_005_24", "name": "Tian Nai Koren", "number": 85, "position": "CM", "country": "SI", "status": "reserve"},
+    {"playerId": "player_be1_005_25", "name": "Gianluca Okon-Engstler", "number": 86, "position": "CM", "country": "IT", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 17,
+      "freeKick": 9,
+      "cornerLeft": 9,
+      "cornerRight": 9
+    }
+  }
+}

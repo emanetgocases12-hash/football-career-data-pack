@@ -1,0 +1,58 @@
+{
+  "teamKey": "Mechel",
+
+  "name": "KV Mechelen",
+
+  "logo": "assets/logos/europe/belgian/Mechelen.png",
+
+  "manager": {
+    "name": "Frederik Vanderbiest",
+    "country": "BE"
+  },
+
+  "stadium": {
+    "name": "Achter de Kazerne",
+    "capacity": 16672
+  },
+
+  "players": [
+    {"playerId": "player_be1_011_01", "name": "Ortwin De Wolf", "number": 1, "position": "GK", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_011_02", "name": "Thérence Koudou", "number": 7, "position": "RB", "country": "FR", "status": "starter"},
+    {"playerId": "player_be1_011_03", "name": "Gora Diouf", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_be1_011_04", "name": "Leo Hjelde", "number": 5, "position": "CB", "country": "NO", "status": "starter"},
+    {"playerId": "player_be1_011_05", "name": "José Marsà", "number": 3, "position": "LB", "country": "ES", "status": "starter"},
+    {"playerId": "player_be1_011_06", "name": "Dikeni Salifou", "number": 8, "position": "CDM", "country": "TG", "status": "starter"},
+    {"playerId": "player_be1_011_07", "name": "Dennis Praet", "number": 26, "position": "CM", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_011_08", "name": "Bill Antonio", "number": 29, "position": "RW", "country": "ZW", "status": "starter"},
+    {"playerId": "player_be1_011_09", "name": "Bilal Bafdili", "number": 11, "position": "CAM", "country": "BE", "status": "starter"},
+    {"playerId": "player_be1_011_10", "name": "Myron van Brederode", "number": 9, "position": "LW", "country": "NL", "status": "starter"},
+    {"playerId": "player_be1_011_11", "name": "Halil Özdemir", "number": 21, "position": "ST", "country": "TR", "status": "starter"},
+
+    {"playerId": "player_be1_011_12", "name": "Nacho Miras", "number": 13, "position": "GK", "country": "ES", "status": "bench"},
+    {"playerId": "player_be1_011_14", "name": "Luc Marijnissen", "number": 2, "position": "CB", "country": "NL", "status": "bench"},
+    {"playerId": "player_be1_011_15", "name": "Kobe Corbanie", "number": 20, "position": "RB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_011_16", "name": "Ian Struyf", "number": 18, "position": "LB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_011_17", "name": "Fredrik Hammar", "number": 6, "position": "CM", "country": "SE", "status": "bench"},
+    {"playerId": "player_be1_011_18", "name": "Simion Michez", "number": 23, "position": "RW", "country": "CM", "status": "bench"},
+    {"playerId": "player_be1_011_19", "name": "Keano Vanrafelghem", "number": 27, "position": "LW", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_011_20", "name": "Maxim Kireev", "number": 10, "position": "CAM", "country": "BY", "status": "bench"},
+    {"playerId": "player_be1_011_21", "name": "Benito Raman", "number": 14, "position": "ST", "country": "BE", "status": "bench"},
+    {"playerId": "player_be1_011_22", "name": "Adeshina Ayodele", "number": 16, "position": "ST", "country": "NG", "status": "bench"},
+
+    {"playerId": "player_be1_011_13", "name": "Tijn Van Ingelgom", "number": 15, "position": "GK", "country": "BE", "status": "reserve"},
+    {"playerId": "player_be1_011_23", "name": "Cedric Van Meirvenne", "number": 17, "position": "ST", "country": "BE", "status": "reserve"},
+    {"playerId": "player_be1_011_24", "name": "Malcolm Lohunanu-Mbasi", "number": 19, "position": "ST", "country": "BE", "status": "reserve"},
+    {"playerId": "player_be1_011_25", "name": "Bouke Boersma", "number": 28, "position": "ST", "country": "NL", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 21,
+      "freeKick": 29,
+      "cornerLeft": 29,
+      "cornerRight": 29
+    }
+  }
+}
