@@ -35,10 +35,10 @@
     {"playerId": "player_es_016_16", "name": "Álvaro Carreras", "number": 18, "position": "LB", "country": "ES", "status": "bench"},
     {"playerId": "player_es_016_17", "name": "Eduardo Camavinga", "number": 6, "position": "CM", "country": "FR", "status": "bench"},
     {"playerId": "player_es_016_18", "name": "Jude Bellingham", "number": 5, "position": "CM", "country": "GB-ENG", "status": "bench"},
-    {"playerId": "player_es_016_19", "name": "Arda Güler", "number": 15, "position": "CAM", "country": "TR", "status": "bench"},
     {"playerId": "player_es_016_20", "name": "Brahim Díaz", "number": 21, "position": "RW", "country": "MA", "status": "bench"},
     {"playerId": "player_es_016_21", "name": "Endrick", "number": 9, "position": "ST", "country": "BR", "status": "bench"},
     {"playerId": "player_es_016_08", "name": "Bernardo Silva", "number": 20, "position": "CAM", "country": "PT", "status": "bench"},
+    
     {"playerId": "player_es_016_22", "name": "Sergio Mestre", "number": 26, "position": "GK", "country": "ES", "status": "reserve"},
     {"playerId": "player_es_016_23", "name": "Raúl Asencio", "number": 2, "position": "CB", "country": "ES", "status": "reserve"},
     {"playerId": "player_es_016_24", "name": "Ferland Mendy", "number": 23, "position": "LB", "country": "FR", "status": "reserve"},
