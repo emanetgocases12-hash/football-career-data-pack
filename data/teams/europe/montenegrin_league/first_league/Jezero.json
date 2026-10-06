@@ -1,58 +1,58 @@
 {
-    "teamKey": "Jezero",
-  
-    "name": "FK Jezero",
-  
-    "logo": "assets/logos/europe/montengro/Jezero.png",
-  
-    "manager": {
-      "name": "Miodrag Džudović",
-      "country": "ME"
-    },
-  
-    "stadium": {
-      "name": "Gradski stadion Plav",
-      "capacity": 3000
-    },
-  
-    "players": [
-      {"playerId": "player_me1_004_01", "name": "I. Asanović", "number": 1, "position": "GK", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_004_02", "name": "M. Kojić", "number": 2, "position": "RB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_004_03", "name": "M. Ilić", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
-      {"playerId": "player_me1_004_04", "name": "E. Alić", "number": 5, "position": "CB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_004_05", "name": "A. Osmanović", "number": 3, "position": "LB", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_004_06", "name": "D. Kontić", "number": 8, "position": "CM", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_004_07", "name": "P. Pavlićević", "number": 6, "position": "CM", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_004_08", "name": "R. Wakabayashi", "number": 7, "position": "RW", "country": "JP", "status": "starter"},
-      {"playerId": "player_me1_004_09", "name": "I. Okamoto", "number": 10, "position": "CAM", "country": "JP", "status": "starter"},
-      {"playerId": "player_me1_004_10", "name": "S. Bošković", "number": 11, "position": "LW", "country": "ME", "status": "starter"},
-      {"playerId": "player_me1_004_11", "name": "Đ. Maksimović", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
-  
-      {"playerId": "player_me1_004_12", "name": "S. Kastratović", "number": 12, "position": "GK", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_004_13", "name": "M. Bojović", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_004_14", "name": "D. Šabović", "number": 15, "position": "CB", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_004_15", "name": "M. Ćuković", "number": 16, "position": "CB", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_004_16", "name": "B. Boričić", "number": 17, "position": "CM", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_004_17", "name": "S. Radenović", "number": 18, "position": "CM", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_004_18", "name": "E. Redžepagić", "number": 20, "position": "CM", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_004_19", "name": "V. Martinović", "number": 21, "position": "CM", "country": "RS", "status": "bench"},
-      {"playerId": "player_me1_004_20", "name": "M. Perović", "number": 19, "position": "CM", "country": "ME", "status": "bench"},
-      {"playerId": "player_me1_004_21", "name": "N. Jovićević", "number": 22, "position": "CM", "country": "ME", "status": "bench"},
-  
-      {"playerId": "player_me1_004_22", "name": "M. Raičević", "number": 23, "position": "CM", "country": "ME", "status": "reserve"},
-      {"playerId": "player_me1_004_23", "name": "A. Đešević", "number": 24, "position": "CM", "country": "ME", "status": "reserve"},
-      {"playerId": "player_me1_004_24", "name": "A. Julević", "number": 25, "position": "ST", "country": "ME", "status": "reserve"},
-      {"playerId": "player_me1_004_25", "name": "S. Milić", "number": 27, "position": "ST", "country": "ME", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 8,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 10,
-        "cornerLeft": 7,
-        "cornerRight": 11
-      }
+  "teamKey": "Jezero",
+
+  "name": "FK Jezero",
+
+  "logo": "assets/logos/europe/montengro/Jezero.png",
+
+  "manager": {
+    "name": "Miodrag Džudović",
+    "country": "ME"
+  },
+
+  "stadium": {
+    "name": "Gradski stadion Plav",
+    "capacity": 3000
+  },
+
+  "players": [
+    {"playerId": "player_me1_004_01", "name": "I. Asanović", "number": 1, "position": "GK", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_004_02", "name": "M. Kojić", "number": 2, "position": "RB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_004_03", "name": "M. Ilić", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+    {"playerId": "player_me1_004_04", "name": "E. Alić", "number": 5, "position": "CB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_004_05", "name": "A. Osmanović", "number": 3, "position": "LB", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_004_06", "name": "D. Kontić", "number": 8, "position": "CM", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_004_07", "name": "P. Pavlićević", "number": 6, "position": "CM", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_004_08", "name": "R. Wakabayashi", "number": 7, "position": "RW", "country": "JP", "status": "starter"},
+    {"playerId": "player_me1_004_09", "name": "I. Okamoto", "number": 10, "position": "CAM", "country": "JP", "status": "starter"},
+    {"playerId": "player_me1_004_10", "name": "S. Bošković", "number": 11, "position": "LW", "country": "ME", "status": "starter"},
+    {"playerId": "player_me1_004_11", "name": "Đ. Maksimović", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+
+    {"playerId": "player_me1_004_12", "name": "S. Kastratović", "number": 12, "position": "GK", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_004_13", "name": "M. Bojović", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_004_14", "name": "D. Šabović", "number": 15, "position": "CB", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_004_15", "name": "M. Ćuković", "number": 16, "position": "CB", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_004_16", "name": "B. Boričić", "number": 17, "position": "CM", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_004_17", "name": "S. Radenović", "number": 18, "position": "CM", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_004_18", "name": "E. Redžepagić", "number": 20, "position": "CM", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_004_19", "name": "V. Martinović", "number": 21, "position": "CM", "country": "RS", "status": "bench"},
+    {"playerId": "player_me1_004_20", "name": "M. Perović", "number": 19, "position": "CM", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_004_21", "name": "N. Jovićević", "number": 22, "position": "CM", "country": "ME", "status": "bench"},
+
+    {"playerId": "player_me1_004_26", "name": "Dino Redžepagić", "number": 60, "position": "GK", "country": "ME", "status": "reserve"},
+    {"playerId": "player_me1_004_22", "name": "M. Raičević", "number": 23, "position": "CM", "country": "ME", "status": "reserve"},
+    {"playerId": "player_me1_004_23", "name": "A. Đešević", "number": 24, "position": "CM", "country": "ME", "status": "reserve"},
+    {"playerId": "player_me1_004_24", "name": "A. Julević", "number": 25, "position": "ST", "country": "ME", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 7,
+      "cornerRight": 11
     }
   }
+}
