@@ -1,0 +1,58 @@
+{
+  "teamKey": "Lkeren",
+
+  "name": "KSC Lokeren",
+
+  "logo": "assets/logos/europe/belgian/Lokeren.png",
+
+  "manager": {
+    "name": "Stijn Vreven",
+    "country": "BE"
+  },
+
+  "stadium": {
+    "name": "Daknamstadion",
+    "capacity": 12478
+  },
+
+  "players": [
+    {"playerId": "player_be2_009_01", "name": "Jorn Brondeel", "number": 1, "position": "GK", "country": "BE", "status": "starter"},
+    {"playerId": "player_be2_009_02", "name": "Robin Denuit", "number": 2, "position": "RB", "country": "BE", "status": "starter"},
+    {"playerId": "player_be2_009_03", "name": "Djovkar Doudaev", "number": 3, "position": "CB", "country": "BE", "status": "starter"},
+    {"playerId": "player_be2_009_04", "name": "Andreas Spegelaere", "number": 29, "position": "CB", "country": "BE", "status": "starter"},
+    {"playerId": "player_be2_009_05", "name": "Matias Lloci", "number": 19, "position": "LB", "country": "BE", "status": "starter"},
+    {"playerId": "player_be2_009_06", "name": "Luan Simnica", "number": 8, "position": "CDM", "country": "AL", "status": "starter"},
+    {"playerId": "player_be2_009_07", "name": "Toon Janssen", "number": 14, "position": "CM", "country": "BE", "status": "starter"},
+    {"playerId": "player_be2_009_08", "name": "Anisse Brrou", "number": 7, "position": "RW", "country": "MA", "status": "starter"},
+    {"playerId": "player_be2_009_09", "name": "Maxime Pau", "number": 10, "position": "CAM", "country": "FR", "status": "starter"},
+    {"playerId": "player_be2_009_10", "name": "Salim Ben Seghir", "number": 21, "position": "LW", "country": "FR", "status": "starter"},
+    {"playerId": "player_be2_009_11", "name": "Aboubacar Dindane", "number": 17, "position": "ST", "country": "CI", "status": "starter"},
+
+    {"playerId": "player_be2_009_12", "name": "Céryl De Schrijver", "number": 81, "position": "GK", "country": "BE", "status": "bench"},
+    {"playerId": "player_be2_009_14", "name": "Jarno Vervaque", "number": 26, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be2_009_15", "name": "Jonas Lietaert", "number": 76, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be2_009_16", "name": "Jordi Palacios", "number": 16, "position": "LB", "country": "ES", "status": "bench"},
+    {"playerId": "player_be2_009_17", "name": "Jérôme Arens", "number": 25, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be2_009_18", "name": "Rune Van Den Bergh", "number": 27, "position": "CDM", "country": "BE", "status": "bench"},
+    {"playerId": "player_be2_009_19", "name": "Jassim Mazouz", "number": 34, "position": "CAM", "country": "BE", "status": "bench"},
+    {"playerId": "player_be2_009_20", "name": "Ademola Ola-Adebomi", "number": 20, "position": "ST", "country": "GB-ENG", "status": "bench"},
+    {"playerId": "player_be2_009_21", "name": "Ilyas Zerioh", "number": 75, "position": "ST", "country": "BE", "status": "bench"},
+    {"playerId": "player_be2_009_22", "name": "Jorden Aigboje", "number": 9, "position": "RW", "country": "DE", "status": "bench"},
+
+    {"playerId": "player_be2_009_13", "name": "Simon Vervacke", "number": 56, "position": "GK", "country": "BE", "status": "reserve"},
+    {"playerId": "player_be2_009_23", "name": "Modeste Duku", "number": 80, "position": "LW", "country": "FR", "status": "reserve"},
+    {"playerId": "player_be2_009_24", "name": "Sam Van Aerschot", "number": 55, "position": "LW", "country": "BE", "status": "reserve"},
+    {"playerId": "player_be2_009_25", "name": "Vancy Mabanza", "number": 11, "position": "ST", "country": "BI", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 17,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}

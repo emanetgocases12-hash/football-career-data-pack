@@ -1,0 +1,58 @@
+{
+  "teamKey": "Dender",
+
+  "name": "FCV Dender EH",
+
+  "logo": "assets/logos/europe/belgian/Dender.png",
+
+  "manager": {
+    "name": "Jonathan Alves",
+    "country": "PT"
+  },
+
+  "stadium": {
+    "name": "Dender Football Complex",
+    "capacity": 8548
+  },
+
+  "players": [
+    {"playerId": "player_be2_003_01", "name": "Julien Devriendt", "number": 30, "position": "GK", "country": "BE", "status": "starter"},
+    {"playerId": "player_be2_003_02", "name": "Ilias Breugelmans", "number": 2, "position": "RB", "country": "BE", "status": "starter"},
+    {"playerId": "player_be2_003_03", "name": "Kobe Cools", "number": 21, "position": "CB", "country": "BE", "status": "starter"},
+    {"playerId": "player_be2_003_04", "name": "Luc Marijnissen", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
+    {"playerId": "player_be2_003_05", "name": "Martin Expérience", "number": 3, "position": "LB", "country": "HT", "status": "starter"},
+    {"playerId": "player_be2_003_06", "name": "Malcolm Viltard", "number": 8, "position": "CDM", "country": "FR", "status": "starter"},
+    {"playerId": "player_be2_003_07", "name": "Krzysztof Koton", "number": 15, "position": "CM", "country": "PL", "status": "starter"},
+    {"playerId": "player_be2_003_08", "name": "Nathan Rôdes", "number": 11, "position": "RW", "country": "BE", "status": "starter"},
+    {"playerId": "player_be2_003_09", "name": "Amine Daali", "number": 45, "position": "CAM", "country": "MA", "status": "starter"},
+    {"playerId": "player_be2_003_10", "name": "Abdoulaye Yahaya", "number": 7, "position": "LW", "country": "CM", "status": "starter"},
+    {"playerId": "player_be2_003_11", "name": "David Toshevski", "number": 9, "position": "ST", "country": "MK", "status": "starter"},
+
+    {"playerId": "player_be2_003_12", "name": "Louis Fortin", "number": 1, "position": "GK", "country": "BE", "status": "bench"},
+    {"playerId": "player_be2_003_13", "name": "Bo De Kerf", "number": 6, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be2_003_14", "name": "Marsoni Sambu", "number": 4, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be2_003_15", "name": "Fabio Ferraro", "number": 88, "position": "RB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be2_003_16", "name": "Oskar Szulc", "number": 14, "position": "CDM", "country": "PL", "status": "bench"},
+    {"playerId": "player_be2_003_17", "name": "Roman Kvet", "number": 16, "position": "CM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_be2_003_18", "name": "David Hrncar", "number": 20, "position": "RM", "country": "SK", "status": "bench"},
+    {"playerId": "player_be2_003_19", "name": "Kembo Diliwidi", "number": 17, "position": "LW", "country": "FR", "status": "bench"},
+    {"playerId": "player_be2_003_20", "name": "Mohamed Berte", "number": 90, "position": "ST", "country": "CI", "status": "bench"},
+    {"playerId": "player_be2_003_21", "name": "Emmanuel Mballa Amougou", "number": 19, "position": "ST", "country": "CM", "status": "bench"},
+
+    {"playerId": "player_be2_003_24", "name": "Kenny Omekoko", "number": 31, "position": "GK", "country": "BE", "status": "reserve"},
+    {"playerId": "player_be2_003_22", "name": "Milan De Mey", "number": 23, "position": "CM", "country": "BE", "status": "reserve"},
+    {"playerId": "player_be2_003_23", "name": "Jordi Meeus", "number": 24, "position": "RW", "country": "BE", "status": "reserve"},
+    {"playerId": "player_be2_003_25", "name": "Noah Mbamba", "number": 27, "position": "CM", "country": "BE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "5-3-2",
+    "captain": 30,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 11
+    }
+  }
+}

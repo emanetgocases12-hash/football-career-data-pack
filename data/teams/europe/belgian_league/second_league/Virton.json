@@ -1,0 +1,58 @@
+{
+  "teamKey": "Virton",
+
+  "name": "Royal Excelsior Virton",
+
+  "logo": "assets/logos/europe/belgian/Virton.png",
+
+  "manager": {
+    "name": "Drazen Brncic",
+    "country": "BE"
+  },
+
+  "stadium": {
+    "name": "Stade Yvan Georges",
+    "capacity": 4572
+  },
+
+  "players": [
+    {"playerId": "player_be2_014_01", "name": "Célestin De Schrevel", "number": 1, "position": "GK", "country": "BE", "status": "starter"},
+    {"playerId": "player_be2_014_02", "name": "Brad-Hamilton Mantsounga", "number": 2, "position": "RB", "country": "GA", "status": "starter"},
+    {"playerId": "player_be2_014_03", "name": "Allan Tchaptchet", "number": 3, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_be2_014_04", "name": "Ehsan Kari", "number": 4, "position": "CB", "country": "MG", "status": "starter"},
+    {"playerId": "player_be2_014_05", "name": "Junior Ntenda", "number": 18, "position": "LB", "country": "FR", "status": "starter"},
+    {"playerId": "player_be2_014_06", "name": "Maxime Guillaume", "number": 6, "position": "CDM", "country": "BE", "status": "starter"},
+    {"playerId": "player_be2_014_07", "name": "Gaëtan Arib", "number": 8, "position": "CM", "country": "FR", "status": "starter"},
+    {"playerId": "player_be2_014_08", "name": "Abdelsamad Hachem", "number": 11, "position": "RW", "country": "FR", "status": "starter"},
+    {"playerId": "player_be2_014_09", "name": "Paul Wade", "number": 10, "position": "CAM", "country": "FR", "status": "starter"},
+    {"playerId": "player_be2_014_10", "name": "Tyrone Tormin", "number": 17, "position": "LW", "country": "FR", "status": "starter"},
+    {"playerId": "player_be2_014_11", "name": "Marks Inchaud", "number": 9, "position": "ST", "country": "FR", "status": "starter"},
+
+    {"playerId": "player_be2_014_12", "name": "Nicolas Closset", "number": 16, "position": "GK", "country": "BE", "status": "bench"},
+    {"playerId": "player_be2_014_14", "name": "Teddy Mézague", "number": 5, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_be2_014_15", "name": "Steeven Assengue", "number": 22, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be2_014_16", "name": "Hugo Lambotte", "number": 24, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_be2_014_17", "name": "Valentin Sanson", "number": 26, "position": "LB", "country": "FR", "status": "bench"},
+    {"playerId": "player_be2_014_18", "name": "Yassine Ben Hamed", "number": 28, "position": "RB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_be2_014_19", "name": "Alliou Dembélé", "number": 13, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_be2_014_20", "name": "Luca Maiorano", "number": 14, "position": "CM", "country": "NO", "status": "bench"},
+    {"playerId": "player_be2_014_21", "name": "Ihab Goudani El Baraka", "number": 19, "position": "CM", "country": "ES", "status": "bench"},
+    {"playerId": "player_be2_014_22", "name": "Antoine Valério", "number": 21, "position": "CM", "country": "FR", "status": "bench"},
+
+    {"playerId": "player_be2_014_13", "name": "Aladin Bizimana", "number": 30, "position": "GK", "country": "BI", "status": "reserve"},
+    {"playerId": "player_be2_014_23", "name": "Adama Diop", "number": 23, "position": "CM", "country": "MR", "status": "reserve"},
+    {"playerId": "player_be2_014_24", "name": "William Simba", "number": 25, "position": "CM", "country": "BE", "status": "reserve"},
+    {"playerId": "player_be2_014_25", "name": "Noah Bailen-Cobo", "number": 39, "position": "ST", "country": "BE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 11
+    }
+  }
+}
