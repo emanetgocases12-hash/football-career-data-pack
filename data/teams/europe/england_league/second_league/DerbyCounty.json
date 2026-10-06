@@ -1,58 +1,58 @@
 {
-    "teamKey": "Derby",
+  "teamKey": "Derby",
 
-    "name": "Derby County",
+  "name": "Derby County",
 
-    "logo": "assets/logos/europe/england/Derby.png",
+  "logo": "assets/logos/europe/england/Derby.png",
 
-    "manager": {
-      "name": "John Eustace",
-      "country": "GB-ENG"
-    },
+  "manager": {
+    "name": "John Eustace",
+    "country": "GB-ENG"
+  },
 
-    "stadium": {
-      "name": "Pride Park Stadium",
-      "capacity": 33597
-    },
+  "stadium": {
+    "name": "Pride Park Stadium",
+    "capacity": 33597
+  },
 
-    "players": [
-      { "playerId": "player_en2_008_01", "name": "Jacob Widell Zetterström", "number": 1, "position": "GK", "country": "SE", "status": "starter" },
-      { "playerId": "player_en2_008_02", "name": "Max Johnston", "number": 22, "position": "RB", "country": "GB-SCT", "status": "starter" },
-      { "playerId": "player_en2_008_03", "name": "Matthew Clarke", "number": 5, "position": "CB", "country": "GB-ENG", "status": "starter" },
-      { "playerId": "player_en2_008_04", "name": "Sondre Langås", "number": 6, "position": "CB", "country": "NO", "status": "starter" },
-      { "playerId": "player_en2_008_05", "name": "Craig Forsyth", "number": 3, "position": "LB", "country": "GB-SCT", "status": "starter" },
-      { "playerId": "player_en2_008_06", "name": "David Ozoh", "number": 4, "position": "CDM", "country": "GB-ENG", "status": "starter" },
-      { "playerId": "player_en2_008_07", "name": "Alex Mowatt", "number": 20, "position": "CM", "country": "GB-ENG", "status": "starter" },
-      { "playerId": "player_en2_008_08", "name": "Ryan Hedges", "number": 26, "position": "RW", "country": "GB-WLS", "status": "starter" },
-      { "playerId": "player_en2_008_09", "name": "Sammie Szmodics", "number": 11, "position": "CAM", "country": "IE", "status": "starter" },
-      { "playerId": "player_en2_008_10", "name": "Mohammed Fuseini", "number": 16, "position": "LW", "country": "GH", "status": "starter" },
-      { "playerId": "player_en2_008_11", "name": "Carlton Morris", "number": 9, "position": "ST", "country": "GB-ENG", "status": "starter" },
+  "players": [
+    {"playerId": "player_en2_008_01", "name": "Jacob Widell Zetterström", "number": 1, "position": "GK", "country": "SE", "status": "starter"},
+    {"playerId": "player_en2_008_02", "name": "Max Johnston", "number": 22, "position": "RB", "country": "GB-SCT", "status": "starter"},
+    {"playerId": "player_en2_008_03", "name": "Matthew Clarke", "number": 5, "position": "CB", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_en2_008_04", "name": "Sondre Langås", "number": 6, "position": "CB", "country": "NO", "status": "starter"},
+    {"playerId": "player_en2_008_05", "name": "Craig Forsyth", "number": 3, "position": "LB", "country": "GB-SCT", "status": "starter"},
+    {"playerId": "player_en2_008_06", "name": "David Ozoh", "number": 4, "position": "CDM", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_en2_008_07", "name": "Alex Mowatt", "number": 20, "position": "CM", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_en2_008_08", "name": "Ryan Hedges", "number": 26, "position": "RW", "country": "GB-WLS", "status": "starter"},
+    {"playerId": "player_en2_008_09", "name": "Sammie Szmodics", "number": 11, "position": "CAM", "country": "IE", "status": "starter"},
+    {"playerId": "player_en2_008_10", "name": "Mohammed Fuseini", "number": 16, "position": "LW", "country": "GH", "status": "starter"},
+    {"playerId": "player_en2_008_11", "name": "Carlton Morris", "number": 9, "position": "ST", "country": "GB-ENG", "status": "starter"},
 
-      { "playerId": "player_en2_008_12", "name": "Richard O'Donnell", "number": 12, "position": "GK", "country": "GB-ENG", "status": "bench" },
-      { "playerId": "player_en2_008_13", "name": "Derry John Murkin", "number": 2, "position": "LB", "country": "GB-ENG", "status": "bench" },
-      { "playerId": "player_en2_008_14", "name": "Dion Sanderson", "number": 28, "position": "CB", "country": "GB-ENG", "status": "bench" },
-      { "playerId": "player_en2_008_15", "name": "Ryan Nyambe", "number": 24, "position": "RB", "country": "NA", "status": "bench" },
-      { "playerId": "player_en2_008_16", "name": "Bobby Clark", "number": 8, "position": "CM", "country": "GB-ENG", "status": "bench" },
-      { "playerId": "player_en2_008_17", "name": "Joe Ward", "number": 23, "position": "CM", "country": "GB-ENG", "status": "bench" },
-      { "playerId": "player_en2_008_18", "name": "Lewis Travis", "number": 27, "position": "CDM", "country": "GB-ENG", "status": "bench" },
-      { "playerId": "player_en2_008_19", "name": "Rhian Brewster", "number": 10, "position": "ST", "country": "GB-ENG", "status": "bench" },
-      { "playerId": "player_en2_008_20", "name": "Patrick Agyemang", "number": 7, "position": "ST", "country": "US", "status": "bench" },
-      { "playerId": "player_en2_008_21", "name": "Filip Bilbija", "number": 13, "position": "ST", "country": "DE", "status": "bench" },
+    {"playerId": "player_en2_008_12", "name": "Richard O'Donnell", "number": 12, "position": "GK", "country": "GB-ENG", "status": "bench"},
+    {"playerId": "player_en2_008_13", "name": "Derry John Murkin", "number": 2, "position": "LB", "country": "GB-ENG", "status": "bench"},
+    {"playerId": "player_en2_008_14", "name": "Dion Sanderson", "number": 28, "position": "CB", "country": "GB-ENG", "status": "bench"},
+    {"playerId": "player_en2_008_15", "name": "Ryan Nyambe", "number": 24, "position": "RB", "country": "NA", "status": "bench"},
+    {"playerId": "player_en2_008_16", "name": "Bobby Clark", "number": 8, "position": "CM", "country": "GB-ENG", "status": "bench"},
+    {"playerId": "player_en2_008_17", "name": "Joe Ward", "number": 23, "position": "CM", "country": "GB-ENG", "status": "bench"},
+    {"playerId": "player_en2_008_18", "name": "Lewis Travis", "number": 27, "position": "CDM", "country": "GB-ENG", "status": "bench"},
+    {"playerId": "player_en2_008_19", "name": "Rhian Brewster", "number": 10, "position": "ST", "country": "GB-ENG", "status": "bench"},
+    {"playerId": "player_en2_008_20", "name": "Patrick Agyemang", "number": 7, "position": "ST", "country": "US", "status": "bench"},
+    {"playerId": "player_en2_008_21", "name": "Filip Bilbija", "number": 13, "position": "ST", "country": "DE", "status": "bench"},
 
-      { "playerId": "player_en2_008_22", "name": "Lars-Jørgen Salvesen", "number": 15, "position": "ST", "country": "NO", "status": "reserve" },
-      { "playerId": "player_en2_008_23", "name": "Henrik Meister", "number": 19, "position": "ST", "country": "DK", "status": "reserve" },
-      { "playerId": "player_en2_008_24", "name": "Kane Wilson", "number": 25, "position": "RB", "country": "GB-ENG", "status": "reserve" },
-      { "playerId": "player_en2_008_25", "name": "Callum Elder", "number": 32, "position": "LB", "country": "AU", "status": "reserve" }
-    ],
+    {"playerId": "player_en2_008_25", "name": "Josh Vickers", "number": 31, "position": "GK", "country": "GB-ENG", "status": "reserve"},
+    {"playerId": "player_en2_008_22", "name": "Lars-Jørgen Salvesen", "number": 15, "position": "ST", "country": "NO", "status": "reserve"},
+    {"playerId": "player_en2_008_23", "name": "Henrik Meister", "number": 19, "position": "ST", "country": "DK", "status": "reserve"},
+    {"playerId": "player_en2_008_24", "name": "Kane Wilson", "number": 25, "position": "RB", "country": "GB-ENG", "status": "reserve"}
+  ],
 
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 3,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 11,
-        "cornerLeft": 26,
-        "cornerRight": 11
-      }
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 3,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 26,
+      "cornerRight": 11
     }
   }
+}
