@@ -1,0 +1,225 @@
+{
+  "teamKey": "Skënde",
+  "name": "KF Skënderbeu",
+  "logo": "assets/logos/europe/albania/Skenderbeu.png",
+  "manager": {
+    "name": "Julian Ahmataj",
+    "country": "AL"
+  },
+  "stadium": {
+    "name": "Stadiumi Skënderbeu",
+    "capacity": 12373
+  },
+  "players": [
+    {
+      "playerId": "player_al1_006_01",
+      "name": "Marco Alia",
+      "number": 71,
+      "position": "GK",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_006_02",
+      "name": "R. Kurti",
+      "number": 2,
+      "position": "RB",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_006_03",
+      "name": "G. Lagonidis",
+      "number": 4,
+      "position": "CB",
+      "country": "GR",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_006_04",
+      "name": "Kosta Vangjeli",
+      "number": 21,
+      "position": "CB",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_006_05",
+      "name": "L. Lleshi",
+      "number": 3,
+      "position": "LB",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_006_06",
+      "name": "Victor Braga",
+      "number": 16,
+      "position": "CDM",
+      "country": "BR",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_006_07",
+      "name": "D. Jahiji",
+      "number": 14,
+      "position": "CM",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_006_08",
+      "name": "Amadou Diallo",
+      "number": 11,
+      "position": "RW",
+      "country": "GN",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_006_09",
+      "name": "Saleh Nasr",
+      "number": 10,
+      "position": "CAM",
+      "country": "EG",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_006_10",
+      "name": "D. Moussavou",
+      "number": 7,
+      "position": "LW",
+      "country": "GA",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_006_11",
+      "name": "Nikola Velichkovski",
+      "number": 9,
+      "position": "ST",
+      "country": "MK",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_006_12",
+      "name": "Ilir Dobjani",
+      "number": 12,
+      "position": "GK",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_006_13",
+      "name": "S. Nasto",
+      "number": 5,
+      "position": "CB",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_006_14",
+      "name": "S. Kocibelli",
+      "number": 15,
+      "position": "CB",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_006_15",
+      "name": "M. Doda",
+      "number": 23,
+      "position": "LB",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_006_16",
+      "name": "K. Grazhdani",
+      "number": 27,
+      "position": "RB",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_006_17",
+      "name": "Ergi Zenullari",
+      "number": 32,
+      "position": "CB",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_006_18",
+      "name": "Klevis Shaqe",
+      "number": 77,
+      "position": "CB",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_006_19",
+      "name": "A. Seydi",
+      "number": 97,
+      "position": "CB",
+      "country": "SN",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_006_20",
+      "name": "E. Agolli",
+      "number": 19,
+      "position": "CM",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_006_21",
+      "name": "D. Janaqi",
+      "number": 25,
+      "position": "CM",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_006_24",
+      "name": "Kristian Rroku",
+      "number": 28,
+      "position": "GK",
+      "country": "AL",
+      "status": "reserve"
+    },
+    {
+      "playerId": "player_al1_006_22",
+      "name": "O. Drame",
+      "number": 26,
+      "position": "CM",
+      "country": "SN",
+      "status": "reserve"
+    },
+    {
+      "playerId": "player_al1_006_23",
+      "name": "Salim Abubakar",
+      "number": 70,
+      "position": "CM",
+      "country": "NG",
+      "status": "reserve"
+    },
+    {
+      "playerId": "player_al1_006_25",
+      "name": "B. Charles",
+      "number": 17,
+      "position": "ST",
+      "country": "NG",
+      "status": "reserve"
+    }
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 11
+    }
+  }
+}

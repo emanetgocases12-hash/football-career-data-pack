@@ -1,0 +1,225 @@
+{
+  "teamKey": "Partiz",
+  "name": "FK Partizani",
+  "logo": "assets/logos/europe/albania/Partizani.png",
+  "manager": {
+    "name": "Florin Daniel Bratu",
+    "country": "RO"
+  },
+  "stadium": {
+    "name": "Arena e Demave",
+    "capacity": 4500
+  },
+  "players": [
+    {
+      "playerId": "player_al1_005_01",
+      "name": "P. Qirko",
+      "number": 1,
+      "position": "GK",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_005_02",
+      "name": "Andi Marku",
+      "number": 2,
+      "position": "RB",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_005_03",
+      "name": "A. Janjeva",
+      "number": 5,
+      "position": "CB",
+      "country": "XK",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_005_04",
+      "name": "O. Pašagić",
+      "number": 4,
+      "position": "CB",
+      "country": "BA",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_005_05",
+      "name": "D. Atanaskoski",
+      "number": 3,
+      "position": "LB",
+      "country": "MK",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_005_06",
+      "name": "Valentino Murataj",
+      "number": 8,
+      "position": "CDM",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_005_07",
+      "name": "R. Ismaili",
+      "number": 6,
+      "position": "CM",
+      "country": "XK",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_005_08",
+      "name": "A. Doumbia",
+      "number": 11,
+      "position": "RW",
+      "country": "CI",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_005_09",
+      "name": "R. Human",
+      "number": 10,
+      "position": "CAM",
+      "country": "ZA",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_005_10",
+      "name": "D. Vata",
+      "number": 7,
+      "position": "LW",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_005_11",
+      "name": "Xhuliano Skuka",
+      "number": 9,
+      "position": "ST",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_005_12",
+      "name": "S. Tahri",
+      "number": 12,
+      "position": "GK",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_005_14",
+      "name": "Ersi Kapo",
+      "number": 13,
+      "position": "CB",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_005_15",
+      "name": "A. Diallo",
+      "number": 15,
+      "position": "CB",
+      "country": "SN",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_005_16",
+      "name": "M. Preka",
+      "number": 24,
+      "position": "CB",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_005_17",
+      "name": "P. Buxhelaj",
+      "number": 22,
+      "position": "LB",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_005_18",
+      "name": "A. Mija",
+      "number": 21,
+      "position": "CM",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_005_19",
+      "name": "K. Ogunleye",
+      "number": 18,
+      "position": "CM",
+      "country": "NG",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_005_20",
+      "name": "B. Jatta",
+      "number": 20,
+      "position": "CM",
+      "country": "GM",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_005_21",
+      "name": "T. Malaj",
+      "number": 19,
+      "position": "CM",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_005_22",
+      "name": "Altin Aliu",
+      "number": 17,
+      "position": "RW",
+      "country": "XK",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_005_13",
+      "name": "D. Zadeja",
+      "number": 30,
+      "position": "GK",
+      "country": "AL",
+      "status": "reserve"
+    },
+    {
+      "playerId": "player_al1_005_23",
+      "name": "Endri Çelaj",
+      "number": 14,
+      "position": "LW",
+      "country": "AL",
+      "status": "reserve"
+    },
+    {
+      "playerId": "player_al1_005_24",
+      "name": "S. Sidibe",
+      "number": 25,
+      "position": "ST",
+      "country": "BE",
+      "status": "reserve"
+    },
+    {
+      "playerId": "player_al1_005_25",
+      "name": "A. Bintsouka",
+      "number": 27,
+      "position": "ST",
+      "country": "CG",
+      "status": "reserve"
+    }
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 5,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 11
+    }
+  }
+}

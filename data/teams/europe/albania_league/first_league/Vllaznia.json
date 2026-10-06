@@ -1,0 +1,225 @@
+{
+  "teamKey": "Vllazn",
+  "name": "KF Vllaznia",
+  "logo": "assets/logos/europe/albania/Vllaznia.png",
+  "manager": {
+    "name": "Edi Martinaj",
+    "country": "AL"
+  },
+  "stadium": {
+    "name": "Loro Boriçi",
+    "capacity": 15942
+  },
+  "players": [
+    {
+      "playerId": "player_al1_009_01",
+      "name": "Aron Jukaj",
+      "number": 1,
+      "position": "GK",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_009_02",
+      "name": "Erdenis Gurishta",
+      "number": 2,
+      "position": "RB",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_009_03",
+      "name": "Gledjan Pusi",
+      "number": 3,
+      "position": "CB",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_009_04",
+      "name": "F. Dulysse",
+      "number": 13,
+      "position": "CB",
+      "country": "HT",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_009_05",
+      "name": "Emiljano Musta",
+      "number": 29,
+      "position": "LB",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_009_06",
+      "name": "Cristian Dros",
+      "number": 6,
+      "position": "CDM",
+      "country": "MD",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_009_07",
+      "name": "Klinti Qato",
+      "number": 25,
+      "position": "CM",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_009_08",
+      "name": "Edon Murataj",
+      "number": 11,
+      "position": "RW",
+      "country": "BE",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_009_09",
+      "name": "H. Marku",
+      "number": 21,
+      "position": "CAM",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_009_10",
+      "name": "A. Mehmeti",
+      "number": 17,
+      "position": "LW",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_009_11",
+      "name": "Bekim Balaj",
+      "number": 9,
+      "position": "ST",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_009_12",
+      "name": "C. Avram",
+      "number": 12,
+      "position": "GK",
+      "country": "MD",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_009_14",
+      "name": "Fatbardh Latifi",
+      "number": 5,
+      "position": "CB",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_009_15",
+      "name": "B. Brajkovic",
+      "number": 14,
+      "position": "CB",
+      "country": "ME",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_009_16",
+      "name": "Randy Dwumfour",
+      "number": 18,
+      "position": "CB",
+      "country": "GH",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_009_17",
+      "name": "Obinna Nwokporo Emmanuel",
+      "number": 15,
+      "position": "CM",
+      "country": "NG",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_009_18",
+      "name": "S. Bizi",
+      "number": 22,
+      "position": "CM",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_009_19",
+      "name": "A. Kthupi",
+      "number": 30,
+      "position": "CM",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_009_20",
+      "name": "X. Avduli",
+      "number": 33,
+      "position": "CM",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_009_21",
+      "name": "K. Halili",
+      "number": 70,
+      "position": "CM",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_009_22",
+      "name": "X. Hajdari",
+      "number": 80,
+      "position": "CM",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_009_13",
+      "name": "Rezart Bunjaj",
+      "number": 31,
+      "position": "GK",
+      "country": "AL",
+      "status": "reserve"
+    },
+    {
+      "playerId": "player_al1_009_23",
+      "name": "P. Bardhi",
+      "number": 7,
+      "position": "LW",
+      "country": "AL",
+      "status": "reserve"
+    },
+    {
+      "playerId": "player_al1_009_24",
+      "name": "Aris Ara",
+      "number": 19,
+      "position": "ST",
+      "country": "AL",
+      "status": "reserve"
+    },
+    {
+      "playerId": "player_al1_009_25",
+      "name": "M. Tounkara",
+      "number": 45,
+      "position": "ST",
+      "country": "GN",
+      "status": "reserve"
+    }
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 3,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 11
+    }
+  }
+}

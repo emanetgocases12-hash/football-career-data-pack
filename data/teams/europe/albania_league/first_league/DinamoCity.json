@@ -1,0 +1,225 @@
+{
+  "teamKey": "D.City",
+  "name": "FC Dinamo City",
+  "logo": "assets/logos/europe/albania/DinamoCity.png",
+  "manager": {
+    "name": "Ilir Daja",
+    "country": "AL"
+  },
+  "stadium": {
+    "name": "Qemal Stafa",
+    "capacity": 19600
+  },
+  "players": [
+    {
+      "playerId": "player_al1_001_01",
+      "name": "Aldo Teqja",
+      "number": 77,
+      "position": "GK",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_001_02",
+      "name": "Ysni Ismaili",
+      "number": 2,
+      "position": "RB",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_001_03",
+      "name": "Bekim Maliqi",
+      "number": 5,
+      "position": "CB",
+      "country": "XK",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_001_04",
+      "name": "Lorran Quintana",
+      "number": 4,
+      "position": "CB",
+      "country": "BR",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_001_05",
+      "name": "Naser Aliji",
+      "number": 27,
+      "position": "LB",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_001_06",
+      "name": "Bruno Dita",
+      "number": 22,
+      "position": "CDM",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_001_07",
+      "name": "Klevi Qefalija",
+      "number": 21,
+      "position": "CM",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_001_08",
+      "name": "Ruben Silva-Richards",
+      "number": 11,
+      "position": "RW",
+      "country": "CA",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_001_09",
+      "name": "Eridon Qardaku",
+      "number": 8,
+      "position": "CAM",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_001_10",
+      "name": "Lorenco Vila",
+      "number": 10,
+      "position": "LW",
+      "country": "AL",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_001_11",
+      "name": "Ibrahim Mustapha",
+      "number": 19,
+      "position": "ST",
+      "country": "NG",
+      "status": "starter"
+    },
+    {
+      "playerId": "player_al1_001_12",
+      "name": "Edmir Sali",
+      "number": 1,
+      "position": "GK",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_001_14",
+      "name": "S. Meta",
+      "number": 13,
+      "position": "CB",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_001_15",
+      "name": "Erjon Hoxhallari",
+      "number": 6,
+      "position": "LB",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_001_16",
+      "name": "F. Neziri",
+      "number": 24,
+      "position": "CB",
+      "country": "XK",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_001_17",
+      "name": "Bakari Goudiaby",
+      "number": 14,
+      "position": "CM",
+      "country": "SN",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_001_18",
+      "name": "Malomo Ayodeji",
+      "number": 20,
+      "position": "CM",
+      "country": "NG",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_001_19",
+      "name": "Flamur Ruçi",
+      "number": 88,
+      "position": "CM",
+      "country": "AL",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_001_20",
+      "name": "Adamu Alhassan",
+      "number": 16,
+      "position": "CM",
+      "country": "NG",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_001_21",
+      "name": "Almir Ajzeraj",
+      "number": 7,
+      "position": "RW",
+      "country": "XK",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_001_22",
+      "name": "Hekuran Berisha",
+      "number": 29,
+      "position": "ST",
+      "country": "XK",
+      "status": "bench"
+    },
+    {
+      "playerId": "player_al1_001_13",
+      "name": "Tomas Kiri",
+      "number": 97,
+      "position": "GK",
+      "country": "AL",
+      "status": "reserve"
+    },
+    {
+      "playerId": "player_al1_001_23",
+      "name": "Dejvi Metaj",
+      "number": 18,
+      "position": "ST",
+      "country": "AL",
+      "status": "reserve"
+    },
+    {
+      "playerId": "player_al1_001_24",
+      "name": "Florenc Farruku",
+      "number": 45,
+      "position": "RW",
+      "country": "AL",
+      "status": "reserve"
+    },
+    {
+      "playerId": "player_al1_001_25",
+      "name": "Bright James",
+      "number": 9,
+      "position": "ST",
+      "country": "NG",
+      "status": "reserve"
+    }
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 5,
+    "setPieces": {
+      "penalty": 19,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 11
+    }
+  }
+}
