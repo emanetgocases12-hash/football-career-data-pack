@@ -1,58 +1,58 @@
 {
-    "teamKey": "Esbjrg",
-  
-    "name": "Esbjerg fB",
-  
-    "logo": "assets/logos/europe/denmark/Esjberg.png",
-  
-    "manager": {
-      "name": "Hjalte Nørregaard",
-      "country": "DK"
-    },
-  
-    "stadium": {
-      "name": "Blue Water Arena",
-      "capacity": 17442
-    },
-  
-    "players": [
-      {"playerId": "player_dk2_003_01", "name": "William Lykke", "number": 1, "position": "GK", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_003_02", "name": "Frode Aronsson", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
-      {"playerId": "player_dk2_003_03", "name": "Gustav Bjerge", "number": 25, "position": "CB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_003_04", "name": "Jonathan Foss", "number": 5, "position": "CB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_003_05", "name": "Sander Strand", "number": 19, "position": "LB", "country": "NO", "status": "starter"},
-      {"playerId": "player_dk2_003_06", "name": "Mikail Maden", "number": 8, "position": "CM", "country": "NO", "status": "starter"},
-      {"playerId": "player_dk2_003_07", "name": "Benjamin Hvidt", "number": 22, "position": "CM", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_003_08", "name": "Nicklas Strunck", "number": 7, "position": "RW", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_003_09", "name": "Oskar Boesen", "number": 10, "position": "CAM", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_003_10", "name": "John Kolawole", "number": 14, "position": "LW", "country": "NG", "status": "starter"},
-      {"playerId": "player_dk2_003_11", "name": "Muamer Brajanac", "number": 80, "position": "ST", "country": "DK", "status": "starter"},
-  
-      {"playerId": "player_dk2_003_12", "name": "Emil Jørgensen", "number": 34, "position": "GK", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_003_13", "name": "Patrick Tjørnelund", "number": 4, "position": "CB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_003_14", "name": "Anders Sønderskov", "number": 15, "position": "CB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_003_15", "name": "Nicolai Blicher", "number": 32, "position": "LB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_003_16", "name": "Marcus Hansen", "number": 18, "position": "RM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_003_17", "name": "Peter Bjur", "number": 11, "position": "LM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_003_18", "name": "Martin Kruse", "number": 30, "position": "CM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_003_19", "name": "Andreas Kristiansen", "number": 36, "position": "CM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_003_20", "name": "James Ampofo", "number": 9, "position": "ST", "country": "GH", "status": "bench"},
-      {"playerId": "player_dk2_003_21", "name": "Adam Ahmad", "number": 99, "position": "RW", "country": "PS", "status": "bench"},
-  
-      {"playerId": "player_dk2_003_22", "name": "Rasmus Zwinge", "number": 33, "position": "CB", "country": "DK", "status": "reserve"},
-      {"playerId": "player_dk2_003_23", "name": "Jonas Heinze", "number": 31, "position": "CM", "country": "DK", "status": "reserve"},
-      {"playerId": "player_dk2_003_24", "name": "Julius Lucena", "number": 17, "position": "ST", "country": "DK", "status": "reserve"},
-      {"playerId": "player_dk2_003_25", "name": "Noah Strandby", "number": 39, "position": "LW", "country": "DK", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 7,
-      "setPieces": {
-        "penalty": 80,
-        "freeKick": 10,
-        "cornerLeft": 14,
-        "cornerRight": 7
-      }
+  "teamKey": "Esbjrg",
+
+  "name": "Esbjerg fB",
+
+  "logo": "assets/logos/europe/denmark/Esjberg.png",
+
+  "manager": {
+    "name": "Hjalte Nørregaard",
+    "country": "DK"
+  },
+
+  "stadium": {
+    "name": "Blue Water Arena",
+    "capacity": 17442
+  },
+
+  "players": [
+    {"playerId": "player_dk2_003_01", "name": "William Lykke", "number": 1, "position": "GK", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_003_02", "name": "Frode Aronsson", "number": 2, "position": "RB", "country": "SE", "status": "starter"},
+    {"playerId": "player_dk2_003_03", "name": "Gustav Bjerge", "number": 25, "position": "CB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_003_04", "name": "Jonathan Foss", "number": 5, "position": "CB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_003_05", "name": "Sander Strand", "number": 19, "position": "LB", "country": "NO", "status": "starter"},
+    {"playerId": "player_dk2_003_06", "name": "Mikail Maden", "number": 8, "position": "CM", "country": "NO", "status": "starter"},
+    {"playerId": "player_dk2_003_07", "name": "Benjamin Hvidt", "number": 22, "position": "CM", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_003_08", "name": "Nicklas Strunck", "number": 7, "position": "RW", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_003_09", "name": "Oskar Boesen", "number": 10, "position": "CAM", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_003_10", "name": "John Kolawole", "number": 14, "position": "LW", "country": "NG", "status": "starter"},
+    {"playerId": "player_dk2_003_11", "name": "Muamer Brajanac", "number": 80, "position": "ST", "country": "DK", "status": "starter"},
+
+    {"playerId": "player_dk2_003_12", "name": "Emil Jørgensen", "number": 34, "position": "GK", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_003_13", "name": "Patrick Tjørnelund", "number": 4, "position": "CB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_003_14", "name": "Anders Sønderskov", "number": 15, "position": "CB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_003_15", "name": "Nicolai Blicher", "number": 32, "position": "LB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_003_16", "name": "Marcus Hansen", "number": 18, "position": "RM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_003_17", "name": "Peter Bjur", "number": 11, "position": "LM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_003_18", "name": "Martin Kruse", "number": 30, "position": "CM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_003_19", "name": "Andreas Kristiansen", "number": 36, "position": "CM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_003_20", "name": "James Ampofo", "number": 9, "position": "ST", "country": "GH", "status": "bench"},
+    {"playerId": "player_dk2_003_21", "name": "Adam Ahmad", "number": 99, "position": "RW", "country": "PS", "status": "bench"},
+
+    {"playerId": "player_dk2_003_25", "name": "Laurids Friis", "number": 40, "position": "GK", "country": "DK", "status": "reserve"},
+    {"playerId": "player_dk2_003_22", "name": "Rasmus Zwinge", "number": 33, "position": "CB", "country": "DK", "status": "reserve"},
+    {"playerId": "player_dk2_003_23", "name": "Jonas Heinze", "number": 31, "position": "CM", "country": "DK", "status": "reserve"},
+    {"playerId": "player_dk2_003_24", "name": "Julius Lucena", "number": 17, "position": "ST", "country": "DK", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 7,
+    "setPieces": {
+      "penalty": 80,
+      "freeKick": 10,
+      "cornerLeft": 14,
+      "cornerRight": 7
     }
   }
+}
