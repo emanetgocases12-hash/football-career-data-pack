@@ -1,0 +1,58 @@
+{
+  "teamKey": "Qarab",
+
+  "name": "Qarabağ FK",
+
+  "logo": "assets/logos/europe/azerbaycan/Karabag.png",
+
+  "manager": {
+    "name": "Qurban Qurbanov",
+    "country": "AZ"
+  },
+
+  "stadium": {
+    "name": "Azersun Arena",
+    "capacity": 4677
+  },
+
+  "players": [
+    {"playerId": "player_az1_004_01", "name": "Mateusz Kochalski", "number": 99, "position": "GK", "country": "PL", "status": "starter"},
+    {"playerId": "player_az1_004_02", "name": "Matheus Silva", "number": 2, "position": "RB", "country": "BR", "status": "starter"},
+    {"playerId": "player_az1_004_03", "name": "Bence Várkonyi", "number": 4, "position": "CB", "country": "HU", "status": "starter"},
+    {"playerId": "player_az1_004_04", "name": "Badavi Hüseynov", "number": 55, "position": "CB", "country": "AZ", "status": "starter"},
+    {"playerId": "player_az1_004_05", "name": "Elvin Jafarguliyev", "number": 44, "position": "LB", "country": "AZ", "status": "starter"},
+    {"playerId": "player_az1_004_06", "name": "Marko Janković", "number": 8, "position": "CDM", "country": "ME", "status": "starter"},
+    {"playerId": "player_az1_004_07", "name": "Pedro Bicalho", "number": 35, "position": "CM", "country": "BR", "status": "starter"},
+    {"playerId": "player_az1_004_08", "name": "Olexiy Kashchuk", "number": 21, "position": "RW", "country": "UA", "status": "starter"},
+    {"playerId": "player_az1_004_09", "name": "Kady Borges", "number": 20, "position": "CAM", "country": "BR", "status": "starter"},
+    {"playerId": "player_az1_004_10", "name": "Abdellah Zoubir", "number": 10, "position": "LW", "country": "FR", "status": "starter"},
+    {"playerId": "player_az1_004_11", "name": "Zakaria Sawo", "number": 11, "position": "ST", "country": "SE", "status": "starter"},
+
+    {"playerId": "player_az1_004_12", "name": "Shakhrudin Magomedaliyev", "number": 1, "position": "GK", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_004_14", "name": "Bruno Langa", "number": 5, "position": "LB", "country": "MZ", "status": "bench"},
+    {"playerId": "player_az1_004_15", "name": "Bahlul Mustafazade", "number": 13, "position": "CB", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_004_16", "name": "Dani Bolt", "number": 18, "position": "CB", "country": "BR", "status": "bench"},
+    {"playerId": "player_az1_004_17", "name": "Jean Marcelin Gnali", "number": 24, "position": "CB", "country": "CG", "status": "bench"},
+    {"playerId": "player_az1_004_18", "name": "Abbas Hüseynov", "number": 30, "position": "RB", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_004_19", "name": "Čebrails Makreckis", "number": 25, "position": "RM", "country": "LV", "status": "bench"},
+    {"playerId": "player_az1_004_20", "name": "Jaly Mouaddib", "number": 7, "position": "RW", "country": "FR", "status": "bench"},
+    {"playerId": "player_az1_004_21", "name": "Joni Montiel", "number": 9, "position": "CAM", "country": "ES", "status": "bench"},
+    {"playerId": "player_az1_004_22", "name": "Samuel Lobato", "number": 88, "position": "CM", "country": "PT", "status": "bench"},
+
+    {"playerId": "player_az1_004_13", "name": "Martin Zlomislić", "number": 23, "position": "GK", "country": "BA", "status": "reserve"},
+    {"playerId": "player_az1_004_23", "name": "Musa Gurbanli", "number": 22, "position": "ST", "country": "AZ", "status": "reserve"},
+    {"playerId": "player_az1_004_24", "name": "Renaldo Cephas", "number": 29, "position": "LW", "country": "JM", "status": "reserve"},
+    {"playerId": "player_az1_004_25", "name": "Hikmat Jabrayilzade", "number": 32, "position": "CM", "country": "AZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 20,
+      "cornerLeft": 10,
+      "cornerRight": 21
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "Şamahı",
+
+  "name": "FC Shamakhi",
+
+  "logo": "assets/logos/europe/azerbaycan/Samaxi.png",
+
+  "manager": {
+    "name": "Azər Bağırov",
+    "country": "AZ"
+  },
+
+  "stadium": {
+    "name": "Shamakhy City Stadium",
+    "capacity": 2200
+  },
+
+  "players": [
+    {"playerId": "player_az1_008_01", "name": "Ricardo Fernandes", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+    {"playerId": "player_az1_008_02", "name": "Farid Xeyrullayev", "number": 2, "position": "RB", "country": "AZ", "status": "starter"},
+    {"playerId": "player_az1_008_03", "name": "Rui Pacheco", "number": 4, "position": "CB", "country": "PT", "status": "starter"},
+    {"playerId": "player_az1_008_04", "name": "David Santos", "number": 44, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_az1_008_05", "name": "Jota", "number": 3, "position": "LB", "country": "PT", "status": "starter"},
+    {"playerId": "player_az1_008_06", "name": "Daniel Dego", "number": 8, "position": "CDM", "country": "IL", "status": "starter"},
+    {"playerId": "player_az1_008_07", "name": "Ricardo Apolinário", "number": 13, "position": "CM", "country": "PT", "status": "starter"},
+    {"playerId": "player_az1_008_08", "name": "Edgar Süleymanov", "number": 7, "position": "RW", "country": "AZ", "status": "starter"},
+    {"playerId": "player_az1_008_09", "name": "Edgar Adilxanov", "number": 10, "position": "CAM", "country": "AZ", "status": "starter"},
+    {"playerId": "player_az1_008_10", "name": "Ayoub Bouali", "number": 11, "position": "LW", "country": "MA", "status": "starter"},
+    {"playerId": "player_az1_008_11", "name": "Tornike Akhvlediani", "number": 9, "position": "ST", "country": "GE", "status": "starter"},
+
+    {"playerId": "player_az1_008_12", "name": "Aqil Seyidəhmədov", "number": 62, "position": "GK", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_008_14", "name": "Emin Rüstəmov", "number": 5, "position": "CB", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_008_15", "name": "Sadiq Muradlı", "number": 17, "position": "RB", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_008_16", "name": "Rahman Moumini", "number": 52, "position": "CB", "country": "BJ", "status": "bench"},
+    {"playerId": "player_az1_008_17", "name": "Cavid Bağırzadə", "number": 66, "position": "CB", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_008_18", "name": "Hajiali Şirəliyev", "number": 88, "position": "LB", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_008_19", "name": "Filipe Marques", "number": 25, "position": "CM", "country": "PT", "status": "bench"},
+    {"playerId": "player_az1_008_20", "name": "Orxan Təhməzlı", "number": 77, "position": "CM", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_008_21", "name": "Hüseyn İsmayılov", "number": 80, "position": "CM", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_008_22", "name": "Oruc Məmmədov", "number": 97, "position": "CM", "country": "AZ", "status": "bench"},
+
+    {"playerId": "player_az1_008_13", "name": "Nicat Qaragözlü", "number": 96, "position": "GK", "country": "AZ", "status": "reserve"},
+    {"playerId": "player_az1_008_23", "name": "Uğur Cahangirov", "number": 14, "position": "ST", "country": "AZ", "status": "reserve"},
+    {"playerId": "player_az1_008_24", "name": "Abdullahi Shuaibu", "number": 19, "position": "ST", "country": "NG", "status": "reserve"},
+    {"playerId": "player_az1_008_25", "name": "Nicat Həsənov", "number": 31, "position": "CM", "country": "AZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 11,
+      "cornerRight": 13
+    }
+  }
+}

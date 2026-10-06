@@ -1,0 +1,58 @@
+{
+  "teamKey": "Qabala",
+
+  "name": "FK Gabala",
+
+  "logo": "assets/logos/europe/azerbaycan/Qabala.png",
+
+  "manager": {
+    "name": "Amil Ağacanov",
+    "country": "AZ"
+  },
+
+  "stadium": {
+    "name": "Qabala City Stadium",
+    "capacity": 3500
+  },
+
+  "players": [
+    {"playerId": "player_az1_006_01", "name": "Salahat Ağayev", "number": 1, "position": "GK", "country": "AZ", "status": "starter"},
+    {"playerId": "player_az1_006_02", "name": "Aqşin Yaqubov", "number": 2, "position": "RB", "country": "AZ", "status": "starter"},
+    {"playerId": "player_az1_006_03", "name": "Natan Monzango", "number": 5, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_az1_006_04", "name": "Edson Eduardo", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_az1_006_05", "name": "Kouya Mabea", "number": 12, "position": "LB", "country": "CI", "status": "starter"},
+    {"playerId": "player_az1_006_06", "name": "Jaime Sierra", "number": 6, "position": "CDM", "country": "ES", "status": "starter"},
+    {"playerId": "player_az1_006_07", "name": "Elvin Jamalov", "number": 4, "position": "CM", "country": "AZ", "status": "starter"},
+    {"playerId": "player_az1_006_08", "name": "Bruno Silva", "number": 7, "position": "RW", "country": "PT", "status": "starter"},
+    {"playerId": "player_az1_006_09", "name": "Asif Mammadov", "number": 11, "position": "CAM", "country": "AZ", "status": "starter"},
+    {"playerId": "player_az1_006_10", "name": "Meshack Ubochioma", "number": 80, "position": "LW", "country": "NG", "status": "starter"},
+    {"playerId": "player_az1_006_11", "name": "Karim Rossi", "number": 9, "position": "ST", "country": "CH", "status": "starter"},
+
+    {"playerId": "player_az1_006_12", "name": "Arthur Motta", "number": 32, "position": "GK", "country": "BR", "status": "bench"},
+    {"playerId": "player_az1_006_14", "name": "Nicat Əliyev", "number": 13, "position": "CB", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_006_15", "name": "Isaac Amoah", "number": 16, "position": "CB", "country": "GH", "status": "bench"},
+    {"playerId": "player_az1_006_16", "name": "Eşqin Əhmədov", "number": 27, "position": "RB", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_006_17", "name": "Cavid Hüseynov", "number": 30, "position": "CB", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_006_18", "name": "Emin Mustafayev", "number": 36, "position": "CM", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_006_19", "name": "Süleyman Ələsgərov", "number": 44, "position": "CM", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_006_20", "name": "Nuğay Rəşidov", "number": 66, "position": "LB", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_006_21", "name": "Süleyman Damadayev", "number": 74, "position": "CB", "country": "AZ", "status": "bench"},
+    {"playerId": "player_az1_006_22", "name": "Şahin Şahniyarov", "number": 10, "position": "CAM", "country": "AZ", "status": "bench"},
+
+    {"playerId": "player_az1_006_13", "name": "Həbib Hüşənov", "number": 94, "position": "GK", "country": "AZ", "status": "reserve"},
+    {"playerId": "player_az1_006_23", "name": "Ziya Şəkərxanov", "number": 21, "position": "CM", "country": "AZ", "status": "reserve"},
+    {"playerId": "player_az1_006_24", "name": "Fərid İsgəndərov", "number": 22, "position": "ST", "country": "AZ", "status": "reserve"},
+    {"playerId": "player_az1_006_25", "name": "Ismael Akinade", "number": 24, "position": "ST", "country": "NG", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 11
+    }
+  }
+}
