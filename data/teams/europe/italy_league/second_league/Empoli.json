@@ -1,0 +1,54 @@
+{
+  "teamKey": "Empoli",
+  "name": "Empoli FC",
+  "logo": "assets/logos/europe/italy/Empoli.png",
+
+  "manager": {
+    "name": "Guido Pagliuca",
+    "country": "IT"
+  },
+
+  "stadium": {
+    "name": "Carlo Castellani",
+    "capacity": 19847
+  },
+
+  "players": [
+    {"playerId": "player_it2_009_01", "name": "Jacopo Seghetti", "number": 12, "position": "GK", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_009_02", "name": "Niccolò Corrado", "number": 91, "position": "CB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_009_03", "name": "Marco Curto", "number": 25, "position": "CB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_009_04", "name": "Cristian Căuz", "number": 33, "position": "CB", "country": "RO", "status": "starter"},
+    {"playerId": "player_it2_009_05", "name": "Matteo Egan", "number": 35, "position": "RM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_009_06", "name": "Luca Magnino", "number": 8, "position": "CM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_009_07", "name": "Gerard Yepes", "number": 21, "position": "CM", "country": "ES", "status": "starter"},
+    {"playerId": "player_it2_009_08", "name": "Karim Zedadka", "number": 98, "position": "LM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_it2_009_09", "name": "Edoardo Saporiti", "number": 10, "position": "CAM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_009_10", "name": "Filippo Distefano", "number": 20, "position": "CAM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_009_11", "name": "Stiven Shpendi", "number": 11, "position": "ST", "country": "AL", "status": "starter"},
+    {"playerId": "player_it2_009_12", "name": "Samuele Perisan", "number": 1, "position": "GK", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_009_14", "name": "Simone Romagnoli", "number": 6, "position": "CB", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_009_15", "name": "Gabriele Indragoli", "number": 28, "position": "CB", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_009_16", "name": "Roberto Berizzi", "number": 40, "position": "RB", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_009_17", "name": "Luca Belardinelli", "number": 57, "position": "CM", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_009_18", "name": "Lapo Deli", "number": 44, "position": "CM", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_009_19", "name": "Andrea Orlandi", "number": 45, "position": "CM", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_009_20", "name": "Edoardo Biondini", "number": 39, "position": "CM", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_009_21", "name": "Mattia Huqi", "number": 38, "position": "CM", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_009_22", "name": "Bogdan Popov", "number": 77, "position": "ST", "country": "UA", "status": "bench"},
+    {"playerId": "player_it2_009_13", "name": "Emiliano Filippis", "number": 13, "position": "GK", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it2_009_23", "name": "Giuseppe Ambrosino", "number": 9, "position": "ST", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it2_009_24", "name": "Sebastiano Esposito", "number": 7, "position": "ST", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it2_009_25", "name": "Lorenzo Tosto", "number": 29, "position": "CB", "country": "IT", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "3-4-2-1",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 10,
+      "cornerLeft": 98,
+      "cornerRight": 10
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "teamKey": "Cesena",
+  "name": "Cesena FC",
+  "logo": "assets/logos/europe/italy/Cesena.png",
+
+  "manager": {
+    "name": "Alessandro Diamanti",
+    "country": "IT"
+  },
+
+  "stadium": {
+    "name": "Orogel Stadium - Dino Manuzzi",
+    "capacity": 23860
+  },
+
+  "players": [
+    {"playerId": "player_it2_007_01", "name": "Alessandro Siano", "number": 1, "position": "GK", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_007_02", "name": "Andrea Ciofi", "number": 15, "position": "RB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_007_03", "name": "Jacopo Gelli", "number": 4, "position": "CB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_007_04", "name": "Mihajlo Ilić", "number": 6, "position": "CB", "country": "RS", "status": "starter"},
+    {"playerId": "player_it2_007_05", "name": "Gianluca Frabotta", "number": 7, "position": "LB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_007_06", "name": "Matteo Guidi", "number": 18, "position": "CDM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_007_07", "name": "Dimitri Bisoli", "number": 25, "position": "CM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_007_08", "name": "Antonio Fiori", "number": 80, "position": "RW", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_007_09", "name": "Riccardo Pagano", "number": 10, "position": "CAM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_007_10", "name": "Massimiliano Mangraviti", "number": 24, "position": "LW", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_007_11", "name": "Cristian Shpendi", "number": 9, "position": "ST", "country": "AL", "status": "starter"},
+    {"playerId": "player_it2_007_12", "name": "Luca Ferretti", "number": 40, "position": "GK", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_007_14", "name": "Mark Natta", "number": 2, "position": "CB", "country": "AU", "status": "bench"},
+    {"playerId": "player_it2_007_15", "name": "Antonio David", "number": 3, "position": "LB", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_007_16", "name": "Matteo Piacentini", "number": 26, "position": "CB", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_007_17", "name": "Matteo Francesconi", "number": 8, "position": "CM", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_007_18", "name": "Xavello Druiventak", "number": 14, "position": "CM", "country": "NL", "status": "bench"},
+    {"playerId": "player_it2_007_19", "name": "Luca Schirone", "number": 5, "position": "CM", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_007_20", "name": "Emil Bohinen", "number": 32, "position": "CM", "country": "NO", "status": "bench"},
+    {"playerId": "player_it2_007_21", "name": "Luca D'Andrea", "number": 16, "position": "RW", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_007_22", "name": "Alessandro Debenedetti", "number": 91, "position": "ST", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_007_13", "name": "Matteo Pisseri", "number": 13, "position": "GK", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it2_007_23", "name": "Giacomo Vrioni", "number": 22, "position": "ST", "country": "AL", "status": "reserve"},
+    {"playerId": "player_it2_007_24", "name": "Marco Dalla Vecchia", "number": 27, "position": "CM", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it2_007_25", "name": "Riccardo Ciervo", "number": 11, "position": "RW", "country": "IT", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 25,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 80,
+      "cornerRight": 10
+    }
+  }
+}

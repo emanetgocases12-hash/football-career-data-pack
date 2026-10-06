@@ -1,0 +1,54 @@
+{
+  "teamKey": "Verona",
+  "name": "Hellas Verona",
+  "logo": "assets/logos/europe/italy/Verona.png",
+
+  "manager": {
+    "name": "Marco Baroni",
+    "country": "IT"
+  },
+
+  "stadium": {
+    "name": "Marcantonio Bentegodi",
+    "capacity": 39211
+  },
+
+  "players": [
+    {"playerId": "player_it2_011_01", "name": "Nicola Leali", "number": 1, "position": "GK", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_011_02", "name": "Gabriele Zappa", "number": 4, "position": "CB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_011_03", "name": "Andrias Edmundsson", "number": 5, "position": "CB", "country": "FO", "status": "starter"},
+    {"playerId": "player_it2_011_04", "name": "Domagoj Bradarić", "number": 6, "position": "CB", "country": "HR", "status": "starter"},
+    {"playerId": "player_it2_011_05", "name": "Tobias Slotsager", "number": 28, "position": "RM", "country": "DK", "status": "starter"},
+    {"playerId": "player_it2_011_06", "name": "Andréa Le Borgne", "number": 17, "position": "CM", "country": "FR", "status": "starter"},
+    {"playerId": "player_it2_011_07", "name": "Abdou Harroui", "number": 21, "position": "CM", "country": "MA", "status": "starter"},
+    {"playerId": "player_it2_011_08", "name": "Antoine Bernede", "number": 24, "position": "CM", "country": "FR", "status": "starter"},
+    {"playerId": "player_it2_011_09", "name": "Mattia Compagnon", "number": 11, "position": "LM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_011_10", "name": "Amin Sarr", "number": 9, "position": "ST", "country": "SE", "status": "starter"},
+    {"playerId": "player_it2_011_11", "name": "Samuele Mulattieri", "number": 19, "position": "ST", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_011_12", "name": "Simone Perilli", "number": 34, "position": "GK", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_011_14", "name": "Seid Korač", "number": 48, "position": "CB", "country": "ME", "status": "bench"},
+    {"playerId": "player_it2_011_15", "name": "Nicolò Calabrese", "number": 37, "position": "CB", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_011_16", "name": "Davide De Battisti", "number": 71, "position": "RB", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_011_17", "name": "Fallou Cham", "number": 70, "position": "CB", "country": "SN", "status": "bench"},
+    {"playerId": "player_it2_011_18", "name": "Paweł Dawidowicz", "number": 27, "position": "CB", "country": "PL", "status": "bench"},
+    {"playerId": "player_it2_011_19", "name": "Nunzio Lella", "number": 23, "position": "CM", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_011_20", "name": "Grigoris Kastanos", "number": 20, "position": "CAM", "country": "CY", "status": "bench"},
+    {"playerId": "player_it2_011_21", "name": "Tomáš Suslov", "number": 10, "position": "CAM", "country": "SK", "status": "bench"},
+    {"playerId": "player_it2_011_22", "name": "Dailon Livramento", "number": 14, "position": "ST", "country": "CV", "status": "bench"},
+    {"playerId": "player_it2_011_13", "name": "Giacomo Toniolo", "number": 22, "position": "GK", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it2_011_23", "name": "Salvatore Cerbone", "number": 35, "position": "ST", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it2_011_24", "name": "Ioan Vermeșan", "number": 90, "position": "ST", "country": "RO", "status": "reserve"},
+    {"playerId": "player_it2_011_25", "name": "Kacper Sezonienko", "number": 79, "position": "RW", "country": "PL", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "3-5-2",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 24,
+      "cornerLeft": 11,
+      "cornerRight": 24
+    }
+  }
+}

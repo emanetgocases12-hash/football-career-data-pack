@@ -1,0 +1,54 @@
+{
+  "teamKey": "Cremo",
+  "name": "US Cremonese",
+  "logo": "assets/logos/europe/italy/Cremonese.png",
+
+  "manager": {
+    "name": "Fabio Pecchia",
+    "country": "IT"
+  },
+
+  "stadium": {
+    "name": "Giovanni Zini",
+    "capacity": 16003
+  },
+
+  "players": [
+    {"playerId": "player_it2_008_01", "name": "Federico Agazzi", "number": 22, "position": "GK", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_008_02", "name": "Alessandro Vogliacco", "number": 38, "position": "CB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_008_03", "name": "Matteo Bianchetti", "number": 15, "position": "CB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_008_04", "name": "Sebastiano Luperto", "number": 5, "position": "CB", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_008_05", "name": "Salvatore Elia", "number": 71, "position": "RM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_008_06", "name": "Fabio Gerli", "number": 16, "position": "CM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_008_07", "name": "Simone Pontisso", "number": 20, "position": "CM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_008_08", "name": "Jari Vandeputte", "number": 27, "position": "CM", "country": "BE", "status": "starter"},
+    {"playerId": "player_it2_008_09", "name": "Giuseppe Pezzella", "number": 3, "position": "LM", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_008_10", "name": "Federico Bonazzoli", "number": 90, "position": "ST", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_008_11", "name": "Manuel De Luca", "number": 9, "position": "ST", "country": "IT", "status": "starter"},
+    {"playerId": "player_it2_008_12", "name": "Marco Festa", "number": 12, "position": "GK", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_008_13", "name": "Federico Baschirotto", "number": 6, "position": "CB", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_008_14", "name": "Francesco Folino", "number": 23, "position": "CB", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_008_15", "name": "Eddy Cabianca", "number": 35, "position": "CB", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_008_16", "name": "Fellipe Jack", "number": 13, "position": "CB", "country": "BR", "status": "bench"},
+    {"playerId": "player_it2_008_17", "name": "Dachi Lordkipanidze", "number": 25, "position": "CM", "country": "GE", "status": "bench"},
+    {"playerId": "player_it2_008_18", "name": "Simone Lottici Tessadri", "number": 8, "position": "CM", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_008_19", "name": "Tommaso Berti", "number": 14, "position": "CM", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_008_20", "name": "Michele Collocolo", "number": 18, "position": "CM", "country": "IT", "status": "bench"},
+    {"playerId": "player_it2_008_21", "name": "Adin Ličina", "number": 17, "position": "RW", "country": "DE", "status": "bench"},
+    {"playerId": "player_it2_008_25", "name": "Andrea Fulignati", "number": 1, "position": "GK", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it2_008_22", "name": "Marco Nasti", "number": 19, "position": "ST", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it2_008_23", "name": "Riccardo Liberali", "number": 59, "position": "CAM", "country": "IT", "status": "reserve"},
+    {"playerId": "player_it2_008_24", "name": "Milan Đurić", "number": 11, "position": "ST", "country": "BA", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "3-5-2",
+    "captain": 15,
+    "setPieces": {
+      "penalty": 90,
+      "freeKick": 27,
+      "cornerLeft": 71,
+      "cornerRight": 27
+    }
+  }
+}
