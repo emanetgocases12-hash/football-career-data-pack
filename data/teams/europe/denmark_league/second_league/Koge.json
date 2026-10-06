@@ -1,58 +1,58 @@
 {
-    "teamKey": "Køge",
-  
-    "name": "HB Köge",
-  
-    "logo": "assets/logos/europe/denmark/Koge.png",
-  
-    "manager": {
-      "name": "Nicklas Pedersen",
-      "country": "DK"
-    },
-  
-    "stadium": {
-      "name": "Capelli Sport Stadion",
-      "capacity": 4000
-    },
-  
-    "players": [
-      {"playerId": "player_dk2_009_01", "name": "Noah Sømmergaard", "number": 1, "position": "GK", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_009_02", "name": "Laurits Bust Sørensen", "number": 2, "position": "CB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_009_03", "name": "Silas Hald", "number": 4, "position": "CB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_009_04", "name": "Mattias Jakobsen", "number": 22, "position": "CB", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_009_05", "name": "Rasmus Brodersen", "number": 6, "position": "LM", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_009_06", "name": "Marcel Rømer", "number": 8, "position": "CM", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_009_07", "name": "Mike Jensen", "number": 7, "position": "CM", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_009_08", "name": "Mads Schütt Rasmussen", "number": 24, "position": "RM", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_009_09", "name": "Magnus Warming", "number": 11, "position": "LW", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_009_10", "name": "Tobias Thomsen", "number": 9, "position": "ST", "country": "DK", "status": "starter"},
-      {"playerId": "player_dk2_009_11", "name": "Erkan Semovski", "number": 19, "position": "RW", "country": "MK", "status": "starter"},
-  
-      {"playerId": "player_dk2_009_12", "name": "Casper Mols", "number": 16, "position": "GK", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_009_13", "name": "Gabriel Culhaci", "number": 5, "position": "LB", "country": "NL", "status": "bench"},
-      {"playerId": "player_dk2_009_14", "name": "Mads Westergren", "number": 23, "position": "CB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_009_15", "name": "Emil Villumsen", "number": 30, "position": "RB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_009_16", "name": "Lukas Achton", "number": 17, "position": "RB", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_009_17", "name": "Viktor Løvgren Sørensen", "number": 14, "position": "RM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_009_18", "name": "Niklas Jakobsen", "number": 21, "position": "LM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_009_19", "name": "Christian Tue Jensen", "number": 10, "position": "CAM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_009_20", "name": "Ibrahim Figuigui", "number": 20, "position": "CM", "country": "DK", "status": "bench"},
-      {"playerId": "player_dk2_009_21", "name": "Mustafa Salah", "number": 18, "position": "RW", "country": "DK", "status": "bench"},
-  
-      {"playerId": "player_dk2_009_22", "name": "Mathias Fris Hansen", "number": 32, "position": "CB", "country": "DK", "status": "reserve"},
-      {"playerId": "player_dk2_009_23", "name": "Fisnik Isaki", "number": 25, "position": "CAM", "country": "MK", "status": "reserve"},
-      {"playerId": "player_dk2_009_24", "name": "Noah Stolshøj", "number": 27, "position": "ST", "country": "DK", "status": "reserve"},
-      {"playerId": "player_dk2_009_25", "name": "Sebastian Rosenwanger", "number": 29, "position": "CB", "country": "DK", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "3-4-3",
-      "captain": 7,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 7,
-        "cornerLeft": 11,
-        "cornerRight": 24
-      }
+  "teamKey": "Køge",
+
+  "name": "HB Køge",
+
+  "logo": "assets/logos/europe/denmark/Koge.png",
+
+  "manager": {
+    "name": "Nicklas Pedersen",
+    "country": "DK"
+  },
+
+  "stadium": {
+    "name": "Capelli Sport Stadion",
+    "capacity": 4000
+  },
+
+  "players": [
+    {"playerId": "player_dk2_009_01", "name": "Noah Sømmergaard", "number": 1, "position": "GK", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_009_02", "name": "Laurits Bust Sørensen", "number": 2, "position": "CB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_009_03", "name": "Silas Hald", "number": 4, "position": "CB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_009_04", "name": "Mattias Jakobsen", "number": 22, "position": "CB", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_009_05", "name": "Rasmus Brodersen", "number": 6, "position": "LM", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_009_06", "name": "Marcel Rømer", "number": 8, "position": "CM", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_009_07", "name": "Mike Jensen", "number": 7, "position": "CM", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_009_08", "name": "Mads Schütt Rasmussen", "number": 24, "position": "RM", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_009_09", "name": "Magnus Warming", "number": 11, "position": "LW", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_009_10", "name": "Tobias Thomsen", "number": 9, "position": "ST", "country": "DK", "status": "starter"},
+    {"playerId": "player_dk2_009_11", "name": "Erkan Semovski", "number": 19, "position": "RW", "country": "MK", "status": "starter"},
+
+    {"playerId": "player_dk2_009_12", "name": "Casper Mols", "number": 16, "position": "GK", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_009_13", "name": "Gabriel Culhaci", "number": 5, "position": "LB", "country": "NL", "status": "bench"},
+    {"playerId": "player_dk2_009_14", "name": "Mads Westergren", "number": 23, "position": "CB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_009_15", "name": "Emil Villumsen", "number": 30, "position": "RB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_009_16", "name": "Lukas Achton", "number": 17, "position": "RB", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_009_17", "name": "Viktor Løvgren Sørensen", "number": 14, "position": "RM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_009_18", "name": "Niklas Jakobsen", "number": 21, "position": "LM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_009_19", "name": "Christian Tue Jensen", "number": 10, "position": "CAM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_009_20", "name": "Ibrahim Figuigui", "number": 20, "position": "CM", "country": "DK", "status": "bench"},
+    {"playerId": "player_dk2_009_21", "name": "Mustafa Salah", "number": 18, "position": "RW", "country": "DK", "status": "bench"},
+
+    {"playerId": "player_dk2_009_25", "name": "Bertram Løwe Larsen", "number": 40, "position": "GK", "country": "DK", "status": "reserve"},
+    {"playerId": "player_dk2_009_22", "name": "Mathias Fris Hansen", "number": 32, "position": "CB", "country": "DK", "status": "reserve"},
+    {"playerId": "player_dk2_009_23", "name": "Fisnik Isaki", "number": 25, "position": "CAM", "country": "MK", "status": "reserve"},
+    {"playerId": "player_dk2_009_24", "name": "Noah Stolshøj", "number": 27, "position": "ST", "country": "DK", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "3-4-3",
+    "captain": 7,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 11,
+      "cornerRight": 24
     }
   }
+}
