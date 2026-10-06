@@ -1,0 +1,58 @@
+{
+  "teamKey": "Pardub",
+
+  "name": "FK Pardubice",
+
+  "logo": "assets/logos/europe/czechia/Padrubice.png",
+
+  "manager": {
+    "name": "Jan Trousil",
+    "country": "CZ"
+  },
+
+  "stadium": {
+    "name": "Stadion Arnošta Košťála",
+    "capacity": 4620
+  },
+
+  "players": [
+    {"playerId": "player_cz1_008_01", "name": "Vladimír Neuman", "number": 46, "position": "GK", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_008_02", "name": "Jason Noslin", "number": 43, "position": "CB", "country": "NL", "status": "starter"},
+    {"playerId": "player_cz1_008_03", "name": "Jan Tredl", "number": 12, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_008_04", "name": "Mouhamed Tidjane Traoré", "number": 21, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_cz1_008_05", "name": "Emmanuel Godwin", "number": 15, "position": "RM", "country": "NG", "status": "starter"},
+    {"playerId": "player_cz1_008_06", "name": "Samuel Šimek", "number": 8, "position": "CM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_008_07", "name": "Tomáš Jelínek", "number": 16, "position": "CM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_008_08", "name": "Michal Hlavatý", "number": 19, "position": "LM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_008_09", "name": "Tobias Boledovič", "number": 40, "position": "CAM", "country": "SK", "status": "starter"},
+    {"playerId": "player_cz1_008_10", "name": "Abdullahi Tanko", "number": 20, "position": "CAM", "country": "NG", "status": "starter"},
+    {"playerId": "player_cz1_008_11", "name": "Václav Drchal", "number": 17, "position": "ST", "country": "CZ", "status": "starter"},
+
+    {"playerId": "player_cz1_008_12", "name": "Aleš Mandous", "number": 30, "position": "GK", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_008_13", "name": "David Krčík", "number": 37, "position": "CB", "country": "SK", "status": "bench"},
+    {"playerId": "player_cz1_008_14", "name": "Denis Halinský", "number": 33, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_008_15", "name": "Ryan Mahuta", "number": 7, "position": "LW", "country": "FR", "status": "bench"},
+    {"playerId": "player_cz1_008_16", "name": "Vojtěch Patrák", "number": 10, "position": "LW", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_008_17", "name": "Victor Samuel", "number": 35, "position": "ST", "country": "NG", "status": "bench"},
+    {"playerId": "player_cz1_008_18", "name": "André Leipold", "number": 22, "position": "RW", "country": "DE", "status": "bench"},
+    {"playerId": "player_cz1_008_19", "name": "Arouna Ouattara", "number": 25, "position": "CM", "country": "BF", "status": "bench"},
+    {"playerId": "player_cz1_008_20", "name": "Kahuan Vinícius", "number": 14, "position": "RW", "country": "BR", "status": "bench"},
+    {"playerId": "player_cz1_008_21", "name": "Marek Icha", "number": 6, "position": "RM", "country": "CZ", "status": "bench"},
+
+    {"playerId": "player_cz1_008_22", "name": "Jan Stejskal", "number": 13, "position": "GK", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz1_008_23", "name": "Robi Saarma", "number": 77, "position": "RW", "country": "EE", "status": "reserve"},
+    {"playerId": "player_cz1_008_24", "name": "Dominique Simon", "number": 11, "position": "CAM", "country": "FR", "status": "reserve"},
+    {"playerId": "player_cz1_008_25", "name": "Muhammed Suso", "number": 9, "position": "ST", "country": "GM", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "3-4-2-1",
+    "captain": 19,
+    "setPieces": {
+      "penalty": 17,
+      "freeKick": 40,
+      "cornerLeft": 40,
+      "cornerRight": 40
+    }
+  }
+}

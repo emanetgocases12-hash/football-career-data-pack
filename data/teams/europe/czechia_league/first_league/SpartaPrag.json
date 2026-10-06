@@ -1,0 +1,58 @@
+{
+  "teamKey": "Sparta",
+
+  "name": "AC Sparta Prague",
+
+  "logo": "assets/logos/europe/czechia/Sparta.png",
+
+  "manager": {
+    "name": "Brian Priske",
+    "country": "DK"
+  },
+
+  "stadium": {
+    "name": "epet Arena",
+    "capacity": 18243
+  },
+
+  "players": [
+    {"playerId": "player_cz1_014_01", "name": "Jakub Surovčík", "number": 44, "position": "GK", "country": "SK", "status": "starter"},
+    {"playerId": "player_cz1_014_02", "name": "Adam Ševínský", "number": 19, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_014_03", "name": "Jakub Martinec", "number": 4, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_014_04", "name": "Tobias Guddal", "number": 6, "position": "CB", "country": "NO", "status": "starter"},
+    {"playerId": "player_cz1_014_05", "name": "Ki-Jana Hoever", "number": 25, "position": "RM", "country": "NL", "status": "starter"},
+    {"playerId": "player_cz1_014_06", "name": "Sivert Mannsverk", "number": 20, "position": "CM", "country": "NO", "status": "starter"},
+    {"playerId": "player_cz1_014_07", "name": "Roman Macek", "number": 28, "position": "CM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_014_08", "name": "Matěj Ryneš", "number": 11, "position": "LM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_014_09", "name": "Adam Karabec", "number": 10, "position": "CAM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_014_10", "name": "John Mercado", "number": 17, "position": "CAM", "country": "EC", "status": "starter"},
+    {"playerId": "player_cz1_014_11", "name": "Jonatan Braut Brunes", "number": 14, "position": "ST", "country": "NO", "status": "starter"},
+
+    {"playerId": "player_cz1_014_12", "name": "Krisztián Hegyi", "number": 47, "position": "GK", "country": "HU", "status": "bench"},
+    {"playerId": "player_cz1_014_13", "name": "Elias Cobbaut", "number": 33, "position": "CB", "country": "BE", "status": "bench"},
+    {"playerId": "player_cz1_014_14", "name": "Emmanuel Uchenna", "number": 16, "position": "CB", "country": "NG", "status": "bench"},
+    {"playerId": "player_cz1_014_15", "name": "Jaroslav Zelený", "number": 30, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_014_16", "name": "Loïc Mbe Soh", "number": 22, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_cz1_014_17", "name": "Viktor Vitályos", "number": 15, "position": "LB", "country": "HU", "status": "bench"},
+    {"playerId": "player_cz1_014_18", "name": "Andrew Irving", "number": 18, "position": "CM", "country": "GB-SCT", "status": "bench"},
+    {"playerId": "player_cz1_014_19", "name": "Martin Suchomel", "number": 2, "position": "RM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_014_20", "name": "Pavel Kadeřábek", "number": 3, "position": "RM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_014_21", "name": "Santiago Eneme", "number": 5, "position": "CAM", "country": "GQ", "status": "bench"},
+
+    {"playerId": "player_cz1_014_22", "name": "Hugo Sochůrek", "number": 38, "position": "GK", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz1_014_23", "name": "Josimar Alcócer", "number": 7, "position": "LW", "country": "CR", "status": "reserve"},
+    {"playerId": "player_cz1_014_24", "name": "Matěj Jurásek", "number": 31, "position": "RW", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz1_014_25", "name": "Matyáš Vojta", "number": 29, "position": "ST", "country": "CZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "3-4-2-1",
+    "captain": 44,
+    "setPieces": {
+      "penalty": 14,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 10
+    }
+  }
+}

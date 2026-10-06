@@ -1,0 +1,58 @@
+{
+  "teamKey": "B Ostr",
+
+  "name": "FC Banik Ostrava",
+
+  "logo": "assets/logos/europe/czechia/Banik.png",
+
+  "manager": {
+    "name": "Roman Skuhravý",
+    "country": "CZ"
+  },
+
+  "stadium": {
+    "name": "Městský stadion - Vitkovice Aréna",
+    "capacity": 15123
+  },
+
+  "players": [
+    {"playerId": "player_cz1_002_01", "name": "Martin Jedlička", "number": 23, "position": "GK", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_002_02", "name": "Jevgenij Skyba", "number": 44, "position": "CB", "country": "UA", "status": "starter"},
+    {"playerId": "player_cz1_002_03", "name": "Jiří Míček", "number": 42, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_002_04", "name": "Roan Nogha", "number": 83, "position": "CB", "country": "CM", "status": "starter"},
+    {"playerId": "player_cz1_002_05", "name": "Abdullahi Bewene", "number": 34, "position": "RM", "country": "NG", "status": "starter"},
+    {"playerId": "player_cz1_002_06", "name": "Jiří Boula", "number": 5, "position": "CM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_002_07", "name": "Aboubacar Traoré", "number": 8, "position": "CM", "country": "CI", "status": "starter"},
+    {"playerId": "player_cz1_002_08", "name": "Vlasij Siňavskij", "number": 99, "position": "LM", "country": "EE", "status": "starter"},
+    {"playerId": "player_cz1_002_09", "name": "Filip Kubala", "number": 28, "position": "CAM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_002_10", "name": "Abdallah Gning", "number": 12, "position": "CAM", "country": "SN", "status": "starter"},
+    {"playerId": "player_cz1_002_11", "name": "Václav Jurečka", "number": 15, "position": "ST", "country": "CZ", "status": "starter"},
+
+    {"playerId": "player_cz1_002_12", "name": "Matouš Babka", "number": 77, "position": "GK", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_002_13", "name": "Maksym Djačuk", "number": 16, "position": "CB", "country": "UA", "status": "bench"},
+    {"playerId": "player_cz1_002_14", "name": "Michal Frydrych", "number": 17, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_002_15", "name": "Matěj Chaluš", "number": 37, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_002_16", "name": "Matúš Kmeť", "number": 81, "position": "RB", "country": "SK", "status": "bench"},
+    {"playerId": "player_cz1_002_17", "name": "Daniel Holzer", "number": 95, "position": "LM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_002_18", "name": "Dantaye Gilbert", "number": 7, "position": "CAM", "country": "TT", "status": "bench"},
+    {"playerId": "player_cz1_002_19", "name": "Michal Kohút", "number": 21, "position": "CAM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_002_20", "name": "Artúr Musák", "number": 55, "position": "CM", "country": "HU", "status": "bench"},
+    {"playerId": "player_cz1_002_21", "name": "David Planka", "number": 18, "position": "CM", "country": "CZ", "status": "bench"},
+
+    {"playerId": "player_cz1_002_22", "name": "Viktor Budinský", "number": 1, "position": "GK", "country": "SK", "status": "reserve"},
+    {"playerId": "player_cz1_002_23", "name": "Filip Šancl", "number": 19, "position": "CAM", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz1_002_24", "name": "Vit Škrkoň", "number": 22, "position": "ST", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz1_002_25", "name": "Rhodri Smith", "number": 26, "position": "CB", "country": "CH", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "3-4-2-1",
+    "captain": 5,
+    "setPieces": {
+      "penalty": 15,
+      "freeKick": 28,
+      "cornerLeft": 28,
+      "cornerRight": 28
+    }
+  }
+}

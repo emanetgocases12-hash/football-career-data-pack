@@ -1,0 +1,58 @@
+{
+  "teamKey": "Sigma",
+
+  "name": "SK Sigma Olomouc",
+
+  "logo": "assets/logos/europe/czechia/Sigma.png",
+
+  "manager": {
+    "name": "Pavel Hapal",
+    "country": "CZ"
+  },
+
+  "stadium": {
+    "name": "Andrův stadion",
+    "capacity": 12451
+  },
+
+  "players": [
+    {"playerId": "player_cz1_010_01", "name": "Jan Koutný", "number": 91, "position": "GK", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_010_02", "name": "Abdoulaye Sylla", "number": 2, "position": "CB", "country": "GN", "status": "starter"},
+    {"playerId": "player_cz1_010_03", "name": "Matúš Malý", "number": 33, "position": "CB", "country": "SK", "status": "starter"},
+    {"playerId": "player_cz1_010_04", "name": "Louis Lurvink", "number": 3, "position": "CB", "country": "NL", "status": "starter"},
+    {"playerId": "player_cz1_010_05", "name": "Ahmad Ghali", "number": 70, "position": "RM", "country": "NG", "status": "starter"},
+    {"playerId": "player_cz1_010_06", "name": "Péter Baráth", "number": 88, "position": "CM", "country": "HU", "status": "starter"},
+    {"playerId": "player_cz1_010_07", "name": "Michal Beran", "number": 7, "position": "CM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_010_08", "name": "Anton Ekeroth", "number": 29, "position": "LM", "country": "SE", "status": "starter"},
+    {"playerId": "player_cz1_010_09", "name": "Dominik Janošek", "number": 39, "position": "RW", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_010_10", "name": "Václav Sejk", "number": 10, "position": "ST", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_010_11", "name": "David Tkáč", "number": 24, "position": "LW", "country": "CZ", "status": "starter"},
+
+    {"playerId": "player_cz1_010_12", "name": "Anthony Pavlesic", "number": 1, "position": "GK", "country": "AU", "status": "bench"},
+    {"playerId": "player_cz1_010_13", "name": "Tomáš Huk", "number": 5, "position": "CB", "country": "SK", "status": "bench"},
+    {"playerId": "player_cz1_010_14", "name": "Léo Borges", "number": 22, "position": "LB", "country": "BR", "status": "bench"},
+    {"playerId": "player_cz1_010_15", "name": "Adam Dohnálek", "number": 14, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_010_16", "name": "Marko Soldo", "number": 6, "position": "CM", "country": "HR", "status": "bench"},
+    {"playerId": "player_cz1_010_17", "name": "Tihomir Kostadinov", "number": 16, "position": "CM", "country": "MK", "status": "bench"},
+    {"playerId": "player_cz1_010_18", "name": "Hilmir Rafn Mikaelsson", "number": 9, "position": "ST", "country": "IS", "status": "bench"},
+    {"playerId": "player_cz1_010_19", "name": "Fabijan Krivak", "number": 11, "position": "CAM", "country": "SK", "status": "bench"},
+    {"playerId": "player_cz1_010_20", "name": "Igor Brzyski", "number": 17, "position": "LW", "country": "PL", "status": "bench"},
+    {"playerId": "player_cz1_010_21", "name": "Stéphane Noumbissie", "number": 18, "position": "CM", "country": "FR", "status": "bench"},
+
+    {"playerId": "player_cz1_010_22", "name": "Tadeáš Stoppen", "number": 32, "position": "GK", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz1_010_23", "name": "Jan Fiala", "number": 8, "position": "CM", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz1_010_24", "name": "Filip Uriča", "number": 19, "position": "LW", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz1_010_25", "name": "Jan Kliment", "number": 20, "position": "ST", "country": "CZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "3-4-3",
+    "captain": 7,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 39,
+      "cornerLeft": 39,
+      "cornerRight": 39
+    }
+  }
+}

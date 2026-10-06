@@ -1,0 +1,58 @@
+{
+  "teamKey": "Mlada",
+
+  "name": "FK Mlada Boleslav",
+
+  "logo": "assets/logos/europe/czechia/Mlada.png",
+
+  "manager": {
+    "name": "Aleš Majer",
+    "country": "CZ"
+  },
+
+  "stadium": {
+    "name": "Lokotrans Arena",
+    "capacity": 5000
+  },
+
+  "players": [
+    {"playerId": "player_cz1_007_01", "name": "Jiří Floder", "number": 59, "position": "GK", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_007_02", "name": "Denis Donát", "number": 13, "position": "RB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_007_03", "name": "Ondřej Karafiát", "number": 44, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_007_04", "name": "Martin Králik", "number": 3, "position": "CB", "country": "SK", "status": "starter"},
+    {"playerId": "player_cz1_007_05", "name": "Matěj Hybš", "number": 11, "position": "LB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_007_06", "name": "David Kozel", "number": 19, "position": "CDM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_007_07", "name": "Jan Zíka", "number": 76, "position": "CM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_007_08", "name": "Solomon John", "number": 20, "position": "RW", "country": "NG", "status": "starter"},
+    {"playerId": "player_cz1_007_09", "name": "Daniel Langhamer", "number": 28, "position": "CAM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_007_10", "name": "Martin Šubert", "number": 21, "position": "LW", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_007_11", "name": "Jiří Klíma", "number": 23, "position": "ST", "country": "CZ", "status": "starter"},
+
+    {"playerId": "player_cz1_007_12", "name": "Vojtěch Vorel", "number": 1, "position": "GK", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_007_13", "name": "Marek Suchý", "number": 17, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_007_14", "name": "Adam Kadlec", "number": 2, "position": "RB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_007_15", "name": "Filip Matoušek", "number": 8, "position": "CM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_007_16", "name": "Jan Buryán", "number": 10, "position": "CAM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_007_17", "name": "Samuel Grygar", "number": 6, "position": "CM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_007_18", "name": "Lukáš Letenay", "number": 9, "position": "ST", "country": "SK", "status": "bench"},
+    {"playerId": "player_cz1_007_19", "name": "Filip Špatenka", "number": 7, "position": "LW", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_007_20", "name": "Vojtěch Hora", "number": 18, "position": "RW", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_007_21", "name": "Marek Havran", "number": 15, "position": "CM", "country": "CZ", "status": "bench"},
+
+    {"playerId": "player_cz1_007_22", "name": "Matěj Zachoval", "number": 30, "position": "GK", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz1_007_23", "name": "Nicolas Penner", "number": 14, "position": "LW", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz1_007_24", "name": "Tomáš Král", "number": 5, "position": "CB", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz1_007_25", "name": "Lukáš Fila", "number": 24, "position": "ST", "country": "CZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 44,
+    "setPieces": {
+      "penalty": 23,
+      "freeKick": 20,
+      "cornerLeft": 20,
+      "cornerRight": 20
+    }
+  }
+}

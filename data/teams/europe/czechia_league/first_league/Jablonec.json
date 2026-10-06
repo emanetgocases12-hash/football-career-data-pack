@@ -1,0 +1,58 @@
+{
+  "teamKey": "Jablon",
+
+  "name": "FK Jablonec",
+
+  "logo": "assets/logos/europe/czechia/Jablonec.png",
+
+  "manager": {
+    "name": "Luboš Kozel",
+    "country": "CZ"
+  },
+
+  "stadium": {
+    "name": "Střelnice",
+    "capacity": 6108
+  },
+
+  "players": [
+    {"playerId": "player_cz1_006_01", "name": "Jan Hanuš", "number": 1, "position": "GK", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_006_02", "name": "Martin Cedidla", "number": 18, "position": "RB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_006_03", "name": "Nemanja Tekijaški", "number": 4, "position": "CB", "country": "RS", "status": "starter"},
+    {"playerId": "player_cz1_006_04", "name": "Dušan Pavlović", "number": 15, "position": "CB", "country": "RS", "status": "starter"},
+    {"playerId": "player_cz1_006_05", "name": "Vachtang Čanturišvili", "number": 7, "position": "LB", "country": "GE", "status": "starter"},
+    {"playerId": "player_cz1_006_06", "name": "Jiří Sláma", "number": 20, "position": "CDM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_006_07", "name": "Richard Sedláček", "number": 13, "position": "CM", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_006_08", "name": "Nelson Okeke", "number": 6, "position": "RW", "country": "NG", "status": "starter"},
+    {"playerId": "player_cz1_006_09", "name": "Sebastian Nebyla", "number": 25, "position": "CAM", "country": "SK", "status": "starter"},
+    {"playerId": "player_cz1_006_10", "name": "Matěj Polidar", "number": 21, "position": "LW", "country": "CZ", "status": "starter"},
+    {"playerId": "player_cz1_006_11", "name": "Lamin Jawo", "number": 44, "position": "ST", "country": "GM", "status": "starter"},
+
+    {"playerId": "player_cz1_006_12", "name": "Jan Štěpánek", "number": 30, "position": "GK", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_006_13", "name": "Jakub Martinec", "number": 22, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_006_14", "name": "David Štěpánek", "number": 5, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_006_15", "name": "Michal Beran", "number": 8, "position": "CM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_006_16", "name": "Jan Suchan", "number": 10, "position": "CM", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_006_17", "name": "Alexis Alégué", "number": 17, "position": "RW", "country": "CM", "status": "bench"},
+    {"playerId": "player_cz1_006_18", "name": "Antonín Rusek", "number": 9, "position": "ST", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_006_19", "name": "Filip Vecheta", "number": 19, "position": "ST", "country": "CZ", "status": "bench"},
+    {"playerId": "player_cz1_006_20", "name": "Dominik Hollý", "number": 11, "position": "CAM", "country": "SK", "status": "bench"},
+    {"playerId": "player_cz1_006_21", "name": "Samuel Obinaya", "number": 14, "position": "CM", "country": "UA", "status": "bench"},
+
+    {"playerId": "player_cz1_006_23", "name": "Adam Ritter", "number": 33, "position": "GK", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz1_006_22", "name": "Vojtěch Kubista", "number": 27, "position": "CDM", "country": "CZ", "status": "reserve"},
+    {"playerId": "player_cz1_006_24", "name": "Jakub Považanec", "number": 3, "position": "CM", "country": "SK", "status": "reserve"},
+    {"playerId": "player_cz1_006_25", "name": "Petr Ševčík", "number": 16, "position": "CM", "country": "CZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 44,
+      "freeKick": 6,
+      "cornerLeft": 6,
+      "cornerRight": 6
+    }
+  }
+}
