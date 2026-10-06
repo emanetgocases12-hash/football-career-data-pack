@@ -1,0 +1,58 @@
+{
+  "teamKey": "Altach",
+
+  "name": "SCR Altach",
+
+  "logo": "assets/logos/europe/austria/Altach.png",
+
+  "manager": {
+    "name": "Ognjen Zaric",
+    "country": "RS"
+  },
+
+  "stadium": {
+    "name": "Schnabelholz",
+    "capacity": 8500
+  },
+
+  "players": [
+    {"playerId": "player_at1_001_01", "name": "Dejan Stojanovic", "number": 1, "position": "GK", "country": "MK", "status": "starter"},
+    {"playerId": "player_at1_001_02", "name": "Lukas Jäger", "number": 17, "position": "RB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_001_03", "name": "Benedikt Zech", "number": 23, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_001_04", "name": "Filip Milojevic", "number": 27, "position": "CB", "country": "RS", "status": "starter"},
+    {"playerId": "player_at1_001_05", "name": "Benjamin Böckle", "number": 37, "position": "LB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_001_06", "name": "Vesel Demaku", "number": 6, "position": "CDM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_001_07", "name": "Mike Bähre", "number": 8, "position": "CM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_001_08", "name": "Niklas Niehoff", "number": 29, "position": "RW", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_001_09", "name": "Patrick Greil", "number": 18, "position": "CAM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_001_10", "name": "Yann Massombo", "number": 28, "position": "LW", "country": "FR", "status": "starter"},
+    {"playerId": "player_at1_001_11", "name": "Ousmane Diawara", "number": 10, "position": "ST", "country": "ML", "status": "starter"},
+
+    {"playerId": "player_at1_001_12", "name": "Daniel Antosch", "number": 31, "position": "GK", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_001_13", "name": "Henrique Bell", "number": 4, "position": "CB", "country": "BR", "status": "bench"},
+    {"playerId": "player_at1_001_14", "name": "Rassa Rahmani", "number": 16, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_001_15", "name": "Jakob Brandtner", "number": 21, "position": "RB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_001_16", "name": "Denizcan Cosgun", "number": 7, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_001_17", "name": "Johannes Naschberger", "number": 14, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_001_18", "name": "Yanis Eisschill", "number": 22, "position": "CAM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_001_19", "name": "Srdjan Hrstic", "number": 19, "position": "ST", "country": "RS", "status": "bench"},
+    {"playerId": "player_at1_001_20", "name": "Rodney Elongo-Yombo", "number": 39, "position": "ST", "country": "DE", "status": "bench"},
+    {"playerId": "player_at1_001_21", "name": "Shingo Nakano", "number": 11, "position": "LW", "country": "AT", "status": "bench"},
+
+    {"playerId": "player_at1_001_22", "name": "Elias Scherf", "number": 30, "position": "GK", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at1_001_23", "name": "Erkin Yalcin", "number": 20, "position": "CM", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at1_001_24", "name": "Adrian Vonbrül", "number": 34, "position": "CM", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at1_001_25", "name": "Marko Raguz", "number": 9, "position": "ST", "country": "AT", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 23,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 18,
+      "cornerLeft": 29,
+      "cornerRight": 18
+    }
+  }
+}

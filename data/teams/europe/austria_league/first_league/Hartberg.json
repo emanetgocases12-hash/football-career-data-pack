@@ -1,0 +1,58 @@
+{
+  "teamKey": "Hartbe",
+
+  "name": "TSV Hartberg",
+
+  "logo": "assets/logos/europe/austria/Hartberg.png",
+
+  "manager": {
+    "name": "Markus Schopp",
+    "country": "AT"
+  },
+
+  "stadium": {
+    "name": "Profertil Arena Hartberg",
+    "capacity": 5024
+  },
+
+  "players": [
+    {"playerId": "player_at1_004_01", "name": "Luka Maric", "number": 21, "position": "GK", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_004_02", "name": "Luca Pazourek", "number": 2, "position": "RB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_004_03", "name": "Paul Komposch", "number": 14, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_004_04", "name": "Lukas Spendlhofer", "number": 19, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_004_05", "name": "Manuel Pfeifer", "number": 12, "position": "LB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_004_06", "name": "Youba Diarra", "number": 5, "position": "CDM", "country": "ML", "status": "starter"},
+    {"playerId": "player_at1_004_07", "name": "Tobias Kainz", "number": 23, "position": "CM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_004_08", "name": "Jed Drew", "number": 11, "position": "RW", "country": "AU", "status": "starter"},
+    {"playerId": "player_at1_004_09", "name": "Oliver Lukic", "number": 10, "position": "CAM", "country": "HR", "status": "starter"},
+    {"playerId": "player_at1_004_10", "name": "Angelo Gattermayer", "number": 7, "position": "LW", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_004_11", "name": "Lukas Fridrikas", "number": 30, "position": "ST", "country": "AT", "status": "starter"},
+
+    {"playerId": "player_at1_004_12", "name": "Armin Pecsi", "number": 91, "position": "GK", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_004_13", "name": "Simon Freund", "number": 3, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_004_14", "name": "Habib Anas Coulibaly", "number": 6, "position": "CB", "country": "CI", "status": "bench"},
+    {"playerId": "player_at1_004_15", "name": "Magnus Dalpiaz", "number": 16, "position": "RB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_004_16", "name": "Benjamin Markuš", "number": 4, "position": "CM", "country": "SI", "status": "bench"},
+    {"playerId": "player_at1_004_17", "name": "Jonas Karner", "number": 17, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_004_18", "name": "Paul Bratschko", "number": 20, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_004_19", "name": "Florian Gerstl", "number": 28, "position": "CAM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_004_20", "name": "Augustin Urrutia", "number": 9, "position": "ST", "country": "AR", "status": "bench"},
+    {"playerId": "player_at1_004_21", "name": "Andrija Radulovic", "number": 49, "position": "RW", "country": "RS", "status": "bench"},
+
+    {"playerId": "player_at1_004_22", "name": "Harald Postl", "number": 44, "position": "GK", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at1_004_23", "name": "Matthias Postl", "number": 8, "position": "CM", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at1_004_24", "name": "Chilohem Onuoha", "number": 70, "position": "ST", "country": "DE", "status": "reserve"},
+    {"playerId": "player_at1_004_25", "name": "David Korherr", "number": 77, "position": "RW", "country": "AT", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 23,
+    "setPieces": {
+      "penalty": 30,
+      "freeKick": 10,
+      "cornerLeft": 11,
+      "cornerRight": 10
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "Tirol",
+
+  "name": "WSG Tirol",
+
+  "logo": "assets/logos/europe/austria/Tirol.png",
+
+  "manager": {
+    "name": "Philipp Semlic",
+    "country": "AT"
+  },
+
+  "stadium": {
+    "name": "Tivoli Stadion Tirol",
+    "capacity": 15400
+  },
+
+  "players": [
+    {"playerId": "player_at1_011_01", "name": "Salko Hamzic", "number": 1, "position": "GK", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_011_02", "name": "David Jaunegg", "number": 27, "position": "RB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_011_03", "name": "David Gugganig", "number": 3, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_011_04", "name": "Marco Boras", "number": 23, "position": "CB", "country": "HR", "status": "starter"},
+    {"playerId": "player_at1_011_05", "name": "Michael Neuner", "number": 31, "position": "LB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_011_06", "name": "Marc Striednig", "number": 6, "position": "CDM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_011_07", "name": "Matthäus Taferner", "number": 30, "position": "CM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_011_08", "name": "Quincy Butler", "number": 7, "position": "RW", "country": "US", "status": "starter"},
+    {"playerId": "player_at1_011_09", "name": "Thomas Sabitzer", "number": 10, "position": "CAM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_011_10", "name": "Husein Balic", "number": 18, "position": "LW", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_011_11", "name": "Nikolai Baden Frederiksen", "number": 8, "position": "ST", "country": "DK", "status": "starter"},
+
+    {"playerId": "player_at1_011_12", "name": "Alexander Eckmayr", "number": 13, "position": "GK", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_011_13", "name": "Drew Murray", "number": 5, "position": "CB", "country": "US", "status": "bench"},
+    {"playerId": "player_at1_011_14", "name": "David Kubatta", "number": 14, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_011_15", "name": "Jaden Mazou Bambara", "number": 15, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_011_16", "name": "David Falkner", "number": 22, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_011_17", "name": "Moritz Oswald", "number": 28, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_011_18", "name": "Thomas Goiginger", "number": 36, "position": "RW", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_011_19", "name": "Moritz Wels", "number": 37, "position": "CAM", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_011_20", "name": "Michael Olakigbe", "number": 17, "position": "LW", "country": "GB-ENG", "status": "bench"},
+    {"playerId": "player_at1_011_21", "name": "Lukas Hinterseer", "number": 16, "position": "ST", "country": "AT", "status": "bench"},
+
+    {"playerId": "player_at1_011_22", "name": "Felix Libiseller", "number": 34, "position": "GK", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at1_011_23", "name": "Nemanja Celic", "number": 43, "position": "CM", "country": "RS", "status": "reserve"},
+    {"playerId": "player_at1_011_24", "name": "Simon Wieser", "number": 38, "position": "CM", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at1_011_25", "name": "Ademola Ola-Adebomi", "number": 9, "position": "ST", "country": "GB-ENG", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 3,
+    "setPieces": {
+      "penalty": 8,
+      "freeKick": 10,
+      "cornerLeft": 7,
+      "cornerRight": 10
+    }
+  }
+}

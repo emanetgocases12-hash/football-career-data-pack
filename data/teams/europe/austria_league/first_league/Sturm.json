@@ -1,0 +1,58 @@
+{
+  "teamKey": "Sturm",
+
+  "name": "SK Sturm Graz",
+
+  "logo": "assets/logos/europe/austria/Sturm.png",
+
+  "manager": {
+    "name": "Fabio Ingolitsch",
+    "country": "AT"
+  },
+
+  "stadium": {
+    "name": "Merkur Arena",
+    "capacity": 16364
+  },
+
+  "players": [
+    {"playerId": "player_at1_010_01", "name": "Ammar Helac", "number": 22, "position": "GK", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_010_02", "name": "Jürgen Heil", "number": 28, "position": "RB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_010_03", "name": "Albert Vallci", "number": 5, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_010_04", "name": "Paul-Friedrich Koller", "number": 30, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_010_05", "name": "Emran Soglo", "number": 18, "position": "LB", "country": "FR", "status": "starter"},
+    {"playerId": "player_at1_010_06", "name": "Jon Gorenc Stankovic", "number": 4, "position": "CDM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_010_07", "name": "Otar Kiteishvili", "number": 10, "position": "CM", "country": "GE", "status": "starter"},
+    {"playerId": "player_at1_010_08", "name": "Jacob Hödl", "number": 43, "position": "CM", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_010_09", "name": "Belmin Beganovic", "number": 26, "position": "RW", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_010_10", "name": "Simon Seidl", "number": 19, "position": "LW", "country": "AT", "status": "starter"},
+    {"playerId": "player_at1_010_11", "name": "Seedy Jatta", "number": 20, "position": "ST", "country": "NO", "status": "starter"},
+
+    {"playerId": "player_at1_010_12", "name": "Elias Lorenz", "number": 41, "position": "GK", "country": "AT", "status": "bench"},
+    {"playerId": "player_at1_010_13", "name": "Joshua Quarshie", "number": 2, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_at1_010_14", "name": "Petar Petrovic", "number": 21, "position": "CB", "country": "RS", "status": "bench"},
+    {"playerId": "player_at1_010_15", "name": "Arjan Malic", "number": 23, "position": "CB", "country": "BA", "status": "bench"},
+    {"playerId": "player_at1_010_16", "name": "Luis Balbo", "number": 27, "position": "LB", "country": "UY", "status": "bench"},
+    {"playerId": "player_at1_010_17", "name": "Filip Rózga", "number": 8, "position": "CM", "country": "PL", "status": "bench"},
+    {"playerId": "player_at1_010_18", "name": "Gizo Mamageishvili", "number": 15, "position": "CM", "country": "GE", "status": "bench"},
+    {"playerId": "player_at1_010_19", "name": "Axel Kayombo", "number": 11, "position": "RW", "country": "FR", "status": "bench"},
+    {"playerId": "player_at1_010_20", "name": "Oumar Diakite", "number": 14, "position": "ST", "country": "CI", "status": "bench"},
+    {"playerId": "player_at1_010_21", "name": "Nelson Weiper", "number": 44, "position": "ST", "country": "DE", "status": "bench"},
+
+    {"playerId": "player_at1_010_22", "name": "Daniil Khudiakov", "number": 53, "position": "GK", "country": "AT", "status": "reserve"},
+    {"playerId": "player_at1_010_23", "name": "Szymon Wlodarczyk", "number": 17, "position": "ST", "country": "PL", "status": "reserve"},
+    {"playerId": "player_at1_010_24", "name": "Valmir Matoshi", "number": 78, "position": "CAM", "country": "XK", "status": "reserve"},
+    {"playerId": "player_at1_010_25", "name": "Luca Weinhandl", "number": 39, "position": "CM", "country": "AT", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 20,
+      "freeKick": 10,
+      "cornerLeft": 19,
+      "cornerRight": 10
+    }
+  }
+}
