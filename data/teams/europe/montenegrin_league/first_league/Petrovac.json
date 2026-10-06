@@ -32,17 +32,17 @@
     {"playerId": "player_me1_008_13", "name": "J. Vukićević", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
     {"playerId": "player_me1_008_14", "name": "R. Gjelaj", "number": 23, "position": "CB", "country": "ME", "status": "bench"},
     {"playerId": "player_me1_008_15", "name": "D. Boljević", "number": 33, "position": "CB", "country": "ME", "status": "bench"},
-    {"playerId": "player_me1_008_16", "name": "A. Kapisoda", "number": 5, "position": "CB", "country": "ME", "status": "bench"},
-    {"playerId": "player_me1_008_17", "name": "N. Balević", "number": 14, "position": "CM", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_008_16", "name": "A. Kapisoda", "number": 16, "position": "CB", "country": "ME", "status": "bench"},
+    {"playerId": "player_me1_008_17", "name": "N. Balević", "number": 26, "position": "CM", "country": "ME", "status": "bench"},
     {"playerId": "player_me1_008_18", "name": "D. Miranović", "number": 22, "position": "CM", "country": "ME", "status": "bench"},
     {"playerId": "player_me1_008_19", "name": "S. Fićović", "number": 18, "position": "CM", "country": "RS", "status": "bench"},
     {"playerId": "player_me1_008_20", "name": "Đ. Fabris", "number": 27, "position": "CM", "country": "ME", "status": "bench"},
     {"playerId": "player_me1_008_21", "name": "B. Đorđević", "number": 9, "position": "ST", "country": "ME", "status": "bench"},
 
-    {"playerId": "player_me1_008_26", "name": "Strahinja Božović", "number": 31, "position": "GK", "country": "ME", "status": "reserve"},
-    {"playerId": "player_me1_008_22", "name": "S. Arambašić", "number": 17, "position": "ST", "country": "RS", "status": "reserve"},
-    {"playerId": "player_me1_008_23", "name": "N. Janjić", "number": 30, "position": "CB", "country": "ME", "status": "reserve"},
-    {"playerId": "player_me1_008_24", "name": "R. Faust", "number": 21, "position": "ST", "country": "AR", "status": "reserve"}
+    {"playerId": "player_me1_008_22", "name": "Strahinja Božović", "number": 31, "position": "GK", "country": "ME", "status": "reserve"},
+    {"playerId": "player_me1_008_23", "name": "S. Arambašić", "number": 17, "position": "ST", "country": "RS", "status": "reserve"},
+    {"playerId": "player_me1_008_24", "name": "N. Janjić", "number": 30, "position": "CB", "country": "ME", "status": "reserve"},
+    {"playerId": "player_me1_008_25", "name": "R. Faust", "number": 21, "position": "ST", "country": "AR", "status": "reserve"}
   ],
 
   "tactics": {
