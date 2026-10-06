@@ -1,58 +1,58 @@
 {
-    "teamKey": "Heeren",
-  
-    "name": "SC Heerenveen",
-  
-    "logo": "assets/logos/europe/netherlands/Heerenveen.png",
-  
-    "manager": {
-      "name": "Robin Veldman",
-      "country": "NL"
-    },
-  
-    "stadium": {
-      "name": "Abe Lenstra Stadion",
-      "capacity": 27224
-    },
-  
-    "players": [
-      {"playerId": "player_nl1_010_01", "name": "Andries Noppert", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl1_010_02", "name": "Mees Hilgers", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl1_010_03", "name": "Hristiyan Petrov", "number": 4, "position": "CB", "country": "BG", "status": "starter"},
-      {"playerId": "player_nl1_010_04", "name": "Oliver Braude", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl1_010_05", "name": "Vasilios Zagaritis", "number": 3, "position": "LB", "country": "GR", "status": "starter"},
-      {"playerId": "player_nl1_010_06", "name": "Marko Farji", "number": 6, "position": "CDM", "country": "IQ", "status": "starter"},
-      {"playerId": "player_nl1_010_07", "name": "Jacob Trenskow", "number": 8, "position": "CM", "country": "DK", "status": "starter"},
-      {"playerId": "player_nl1_010_08", "name": "Ringo Meerveld", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl1_010_09", "name": "Luca Oyen", "number": 10, "position": "CAM", "country": "BE", "status": "starter"},
-      {"playerId": "player_nl1_010_10", "name": "Dylan Vente", "number": 9, "position": "ST", "country": "NL", "status": "starter"},
-      {"playerId": "player_nl1_010_11", "name": "Roberts Uldriķis", "number": 17, "position": "RW", "country": "LV", "status": "starter"},
-  
-      {"playerId": "player_nl1_010_12", "name": "Bernt Klaverboer", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl1_010_13", "name": "Mats Egbring", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl1_010_14", "name": "Maas Willemsen", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl1_010_15", "name": "Sam Kersten", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl1_010_16", "name": "Darling Bladi", "number": 23, "position": "CB", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl1_010_17", "name": "Marcus Linday", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl1_010_18", "name": "Dirk Wanner Proper", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl1_010_19", "name": "Maxence Rivera", "number": 20, "position": "CAM", "country": "FR", "status": "bench"},
-      {"playerId": "player_nl1_010_20", "name": "Nolhan Courtens", "number": 21, "position": "RM", "country": "NL", "status": "bench"},
-      {"playerId": "player_nl1_010_21", "name": "Levi Smans", "number": 22, "position": "LM", "country": "NL", "status": "bench"},
-  
-      {"playerId": "player_nl1_010_22", "name": "Sten Kremers", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
-      {"playerId": "player_nl1_010_23", "name": "Lanroy Machine", "number": 19, "position": "LW", "country": "NL", "status": "reserve"},
-      {"playerId": "player_nl1_010_24", "name": "Timo Schreuder", "number": 31, "position": "GK", "country": "NL", "status": "reserve"},
-      {"playerId": "player_nl1_010_25", "name": "Jimte Scholten", "number": 24, "position": "RB", "country": "NL", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 4,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 8,
-        "cornerLeft": 7,
-        "cornerRight": 7
-      }
+  "teamKey": "Heeren",
+
+  "name": "SC Heerenveen",
+
+  "logo": "assets/logos/europe/netherlands/Heerenveen.png",
+
+  "manager": {
+    "name": "Robin Veldman",
+    "country": "NL"
+  },
+
+  "stadium": {
+    "name": "Abe Lenstra Stadion",
+    "capacity": 27224
+  },
+
+  "players": [
+    {"playerId": "player_nl1_010_01", "name": "Andries Noppert", "number": 1, "position": "GK", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl1_010_02", "name": "Mees Hilgers", "number": 2, "position": "RB", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl1_010_03", "name": "Hristiyan Petrov", "number": 4, "position": "CB", "country": "BG", "status": "starter"},
+    {"playerId": "player_nl1_010_04", "name": "Oliver Braude", "number": 5, "position": "CB", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl1_010_05", "name": "Vasilios Zagaritis", "number": 3, "position": "LB", "country": "GR", "status": "starter"},
+    {"playerId": "player_nl1_010_06", "name": "Marko Farji", "number": 6, "position": "CDM", "country": "IQ", "status": "starter"},
+    {"playerId": "player_nl1_010_07", "name": "Jacob Trenskow", "number": 8, "position": "CM", "country": "DK", "status": "starter"},
+    {"playerId": "player_nl1_010_08", "name": "Ringo Meerveld", "number": 7, "position": "RW", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl1_010_09", "name": "Luca Oyen", "number": 10, "position": "CAM", "country": "BE", "status": "starter"},
+    {"playerId": "player_nl1_010_10", "name": "Dylan Vente", "number": 9, "position": "ST", "country": "NL", "status": "starter"},
+    {"playerId": "player_nl1_010_11", "name": "Roberts Uldriķis", "number": 17, "position": "RW", "country": "LV", "status": "starter"},
+
+    {"playerId": "player_nl1_010_12", "name": "Bernt Klaverboer", "number": 12, "position": "GK", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl1_010_13", "name": "Mats Egbring", "number": 14, "position": "CB", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl1_010_14", "name": "Maas Willemsen", "number": 15, "position": "RB", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl1_010_15", "name": "Sam Kersten", "number": 16, "position": "LB", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl1_010_16", "name": "Darling Bladi", "number": 23, "position": "CB", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl1_010_17", "name": "Marcus Linday", "number": 11, "position": "LW", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl1_010_18", "name": "Dirk Wanner Proper", "number": 18, "position": "CM", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl1_010_19", "name": "Maxence Rivera", "number": 20, "position": "CAM", "country": "FR", "status": "bench"},
+    {"playerId": "player_nl1_010_20", "name": "Nolhan Courtens", "number": 21, "position": "RM", "country": "NL", "status": "bench"},
+    {"playerId": "player_nl1_010_21", "name": "Levi Smans", "number": 22, "position": "LM", "country": "NL", "status": "bench"},
+
+    {"playerId": "player_nl1_010_22", "name": "Sten Kremers", "number": 30, "position": "GK", "country": "NL", "status": "reserve"},
+    {"playerId": "player_nl1_010_23", "name": "Lanroy Machine", "number": 19, "position": "LW", "country": "NL", "status": "reserve"},
+    {"playerId": "player_nl1_006_26", "name": "Amir Ismaïl", "number": 25, "position": "LW", "country": "NL", "status": "reserve"},
+    {"playerId": "player_nl1_010_25", "name": "Jimte Scholten", "number": 24, "position": "RB", "country": "NL", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 8,
+      "cornerLeft": 7,
+      "cornerRight": 7
     }
   }
+}
