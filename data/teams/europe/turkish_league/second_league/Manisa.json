@@ -1,0 +1,58 @@
+{
+  "teamKey": "Manisa",
+
+  "name": "Manisa FK",
+
+  "logo": "assets/logos/europe/turkey/Manisa.png",
+
+  "manager": {
+    "name": "Ahmet Pektaş",
+    "country": "TR"
+  },
+
+  "stadium": {
+    "name": "Manisa 19 Mayıs Stadyumu",
+    "capacity": 16597
+  },
+
+  "players": [
+    {"playerId": "player_tr2_013_01", "name": "Vedat Karakuş", "number": 1, "position": "GK", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_013_02", "name": "Yunus Emre Köse", "number": 2, "position": "RB", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_013_03", "name": "Christophe Herelle", "number": 5, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_tr2_013_04", "name": "Atakan Rıdvan Çankaya", "number": 6, "position": "CB", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_013_05", "name": "Yasin Güreler", "number": 27, "position": "LB", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_013_06", "name": "Birama Toure", "number": 60, "position": "CDM", "country": "ML", "status": "starter"},
+    {"playerId": "player_tr2_013_07", "name": "Jonathan Lindseth", "number": 10, "position": "CM", "country": "NO", "status": "starter"},
+    {"playerId": "player_tr2_013_08", "name": "Pascal Lemina", "number": 11, "position": "RW", "country": "GA", "status": "starter"},
+    {"playerId": "player_tr2_013_09", "name": "Yassine Otmane Benrahou", "number": 20, "position": "CAM", "country": "MA", "status": "starter"},
+    {"playerId": "player_tr2_013_10", "name": "Waldir Alenis Vargas Valentin", "number": 70, "position": "LW", "country": "PA", "status": "starter"},
+    {"playerId": "player_tr2_013_11", "name": "Cheickne Sylla", "number": 9, "position": "ST", "country": "GN", "status": "starter"},
+
+    {"playerId": "player_tr2_013_12", "name": "Ahmet Şen", "number": 25, "position": "GK", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_013_13", "name": "Ada İbik", "number": 45, "position": "CB", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_013_14", "name": "Bican Tibukoğlu", "number": 96, "position": "LB", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_013_15", "name": "Emre Akboğa", "number": 21, "position": "CDM", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_013_16", "name": "Fırat İnal", "number": 4, "position": "CM", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_013_17", "name": "Julien Anziani", "number": 23, "position": "CAM", "country": "FR", "status": "bench"},
+    {"playerId": "player_tr2_013_18", "name": "Kadir Kaan Yurdakul", "number": 22, "position": "RW", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_013_19", "name": "Kerem Arık", "number": 8, "position": "LW", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_013_20", "name": "Metehan Başar", "number": 99, "position": "ST", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_013_21", "name": "Oğuzhan Yurtdaş", "number": 29, "position": "CB", "country": "TR", "status": "bench"},
+
+    {"playerId": "player_tr2_013_22", "name": "Saim Sarp Bodur", "number": 3, "position": "GK", "country": "TR", "status": "reserve"},
+    {"playerId": "player_tr2_013_23", "name": "Osman Kahraman", "number": 17, "position": "CM", "country": "TR", "status": "reserve"},
+    {"playerId": "player_tr2_013_24", "name": "Osman Kaynak", "number": 7, "position": "RW", "country": "TR", "status": "reserve"},
+    {"playerId": "player_tr2_013_25", "name": "Sami Yusuf Tüncer", "number": 98, "position": "ST", "country": "TR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 5,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 20,
+      "cornerLeft": 70,
+      "cornerRight": 11
+    }
+  }
+}

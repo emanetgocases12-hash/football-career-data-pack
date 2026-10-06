@@ -1,0 +1,58 @@
+{
+  "teamKey": "Keçiören",
+
+  "name": "Ankara Keçiörengücü",
+
+  "logo": "assets/logos/europe/turkey/Keci.png",
+
+  "manager": {
+    "name": "Osman Zeki Korkmaz",
+    "country": "TR"
+  },
+
+  "stadium": {
+    "name": "Aktepe Stadı",
+    "capacity": 4519
+  },
+
+  "players": [
+    {"playerId": "player_tr2_012_01", "name": "Mehmet Erdoğan", "number": 1, "position": "GK", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_012_02", "name": "Yunus Bahadır", "number": 2, "position": "RB", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_012_03", "name": "Wellington Ferreira Nascimento", "number": 3, "position": "CB", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_012_04", "name": "Abdullah Çelik", "number": 4, "position": "CB", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_012_05", "name": "Süleyman Luş", "number": 33, "position": "LB", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_012_06", "name": "Erkam Develi", "number": 6, "position": "CDM", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_012_07", "name": "İshak Karaoğul", "number": 8, "position": "CM", "country": "TR", "status": "starter"},
+    {"playerId": "player_tr2_012_08", "name": "Odise Roshi", "number": 7, "position": "RW", "country": "AL", "status": "starter"},
+    {"playerId": "player_tr2_012_09", "name": "Jefferson Nogueira Junior", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+    {"playerId": "player_tr2_012_10", "name": "Moryke Fofana", "number": 77, "position": "LW", "country": "CI", "status": "starter"},
+    {"playerId": "player_tr2_012_11", "name": "Mame Biram Diouf", "number": 55, "position": "ST", "country": "SN", "status": "starter"},
+
+    {"playerId": "player_tr2_012_12", "name": "Emre Satılmış", "number": 18, "position": "GK", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_012_13", "name": "Berkan Mahmut Keskin", "number": 12, "position": "RB", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_012_14", "name": "Alcídio Davide Edmundo Raice", "number": 20, "position": "CB", "country": "MZ", "status": "bench"},
+    {"playerId": "player_tr2_012_15", "name": "Enes Yılmaz", "number": 19, "position": "CM", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_012_16", "name": "Halil Can Ayan", "number": 22, "position": "CAM", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_012_17", "name": "Herculano Bucancil Nabian", "number": 45, "position": "RW", "country": "GW", "status": "bench"},
+    {"playerId": "player_tr2_012_18", "name": "İbrahim Akdağ", "number": 14, "position": "LW", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_012_19", "name": "Muhammed Taha Tahiroğlu", "number": 61, "position": "ST", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_012_20", "name": "Oğuzcan Çalışkan", "number": 5, "position": "CB", "country": "TR", "status": "bench"},
+    {"playerId": "player_tr2_012_21", "name": "Oğuzhan Ayaydın", "number": 16, "position": "CM", "country": "TR", "status": "bench"},
+
+    {"playerId": "player_tr2_012_22", "name": "Efe Kaan Yıldız", "number": 40, "position": "GK", "country": "TR", "status": "reserve"},
+    {"playerId": "player_tr2_012_23", "name": "Okwuchukwu Francis Ezeh", "number": 21, "position": "RW", "country": "NG", "status": "reserve"},
+    {"playerId": "player_tr2_012_24", "name": "Ömer Faruk Demirel", "number": 9, "position": "ST", "country": "TR", "status": "reserve"},
+    {"playerId": "player_tr2_012_25", "name": "Recep Berat Taşbakır", "number": 17, "position": "LB", "country": "TR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 3,
+    "setPieces": {
+      "penalty": 55,
+      "freeKick": 10,
+      "cornerLeft": 77,
+      "cornerRight": 7
+    }
+  }
+}
