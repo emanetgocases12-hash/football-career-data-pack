@@ -1,0 +1,50 @@
+{
+  "teamKey": "Freibu",
+  "name": "SC Freiburg",
+  "logo": "assets/logos/europe/germany/Freiburg.png",
+  "manager": {
+    "name": "Julian Schuster",
+    "country": "DE"
+  },
+  "stadium": {
+    "name": "Europa-Park Stadion",
+    "capacity": 34700
+  },
+  "players": [
+    {"playerId": "player_de1_006_01", "name": "Mio Backhaus", "number": 1, "position": "GK", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_006_02", "name": "Lukas Kübler", "number": 17, "position": "RB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_006_03", "name": "Matthias Ginter", "number": 28, "position": "CB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_006_04", "name": "Philipp Lienhart", "number": 3, "position": "CB", "country": "AT", "status": "starter"},
+    {"playerId": "player_de1_006_05", "name": "Christian Günter", "number": 30, "position": "LB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_006_06", "name": "Patrick Osterhage", "number": 6, "position": "CDM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_006_07", "name": "Maximilian Eggestein", "number": 8, "position": "CM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_006_08", "name": "Yuito Suzuki", "number": 14, "position": "RW", "country": "JP", "status": "starter"},
+    {"playerId": "player_de1_006_09", "name": "Vincenzo Grifo", "number": 32, "position": "CAM", "country": "IT", "status": "starter"},
+    {"playerId": "player_de1_006_10", "name": "Jan-Niklas Beste", "number": 19, "position": "LW", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_006_11", "name": "Igor Matanović", "number": 31, "position": "ST", "country": "HR", "status": "starter"},
+    {"playerId": "player_de1_006_12", "name": "Florian Müller", "number": 21, "position": "GK", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_006_14", "name": "Anthony Jung", "number": 5, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_006_15", "name": "Berkay Yilmaz", "number": 27, "position": "LB", "country": "TR", "status": "bench"},
+    {"playerId": "player_de1_006_16", "name": "Philipp Treu", "number": 29, "position": "RB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_006_17", "name": "Jordy Makengo", "number": 33, "position": "LB", "country": "FR", "status": "bench"},
+    {"playerId": "player_de1_006_18", "name": "Max Rosenfelder", "number": 37, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_006_19", "name": "Yannik Engelhardt", "number": 16, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_006_20", "name": "Rihito Yamamoto", "number": 20, "position": "CM", "country": "JP", "status": "bench"},
+    {"playerId": "player_de1_006_21", "name": "Derry Scherhant", "number": 7, "position": "LW", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_006_22", "name": "Lucas Höler", "number": 9, "position": "ST", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_006_13", "name": "Jannik Huth", "number": 24, "position": "GK", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de1_006_23", "name": "Eren Dinkçi", "number": 18, "position": "RW", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de1_006_24", "name": "Cyriaque Irié", "number": 22, "position": "RW", "country": "BF", "status": "reserve"},
+    {"playerId": "player_de1_006_25", "name": "Keisuke Goto", "number": 42, "position": "ST", "country": "JP", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 28,
+    "setPieces": {
+      "penalty": 31,
+      "freeKick": 14,
+      "cornerLeft": 14,
+      "cornerRight": 14
+    }
+  }
+}

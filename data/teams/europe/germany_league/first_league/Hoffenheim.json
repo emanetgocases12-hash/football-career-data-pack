@@ -1,0 +1,50 @@
+{
+  "teamKey": "Hoffen",
+  "name": "TSG 1899 Hoffenheim",
+  "logo": "assets/logos/europe/germany/Hoffenheim.png",
+  "manager": {
+    "name": "Christian Ilzer",
+    "country": "AT"
+  },
+  "stadium": {
+    "name": "PreZero Arena",
+    "capacity": 30150
+  },
+  "players": [
+    {"playerId": "player_de1_008_01", "name": "Oliver Baumann", "number": 1, "position": "GK", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_008_02", "name": "Vladimír Coufal", "number": 34, "position": "RB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_de1_008_03", "name": "Ozan Kabak", "number": 5, "position": "CB", "country": "TR", "status": "starter"},
+    {"playerId": "player_de1_008_04", "name": "Kōki Machida", "number": 28, "position": "CB", "country": "JP", "status": "starter"},
+    {"playerId": "player_de1_008_05", "name": "Alexander Prass", "number": 22, "position": "LB", "country": "AT", "status": "starter"},
+    {"playerId": "player_de1_008_06", "name": "Leon Avdullahu", "number": 7, "position": "CDM", "country": "XK", "status": "starter"},
+    {"playerId": "player_de1_008_07", "name": "Wouter Burger", "number": 18, "position": "CM", "country": "NL", "status": "starter"},
+    {"playerId": "player_de1_008_08", "name": "Patrick Wimmer", "number": 8, "position": "RW", "country": "AT", "status": "starter"},
+    {"playerId": "player_de1_008_09", "name": "Andrej Kramarić", "number": 27, "position": "CAM", "country": "HR", "status": "starter"},
+    {"playerId": "player_de1_008_10", "name": "Adam Hložek", "number": 10, "position": "LW", "country": "CZ", "status": "starter"},
+    {"playerId": "player_de1_008_11", "name": "Fisnik Asllani", "number": 11, "position": "ST", "country": "XK", "status": "starter"},
+    {"playerId": "player_de1_008_12", "name": "Lukas Petersson", "number": 36, "position": "GK", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_008_14", "name": "Robin Hranac", "number": 2, "position": "CB", "country": "CZ", "status": "bench"},
+    {"playerId": "player_de1_008_15", "name": "Sean Dulic", "number": 4, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_008_16", "name": "Valentin Gendrey", "number": 15, "position": "RB", "country": "FR", "status": "bench"},
+    {"playerId": "player_de1_008_17", "name": "Albian Hajdari", "number": 21, "position": "CB", "country": "CH", "status": "bench"},
+    {"playerId": "player_de1_008_18", "name": "Bernardo", "number": 13, "position": "LB", "country": "BR", "status": "bench"},
+    {"playerId": "player_de1_008_19", "name": "Luis Engelns", "number": 16, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_008_20", "name": "Nathan De Cat", "number": 17, "position": "CM", "country": "BE", "status": "bench"},
+    {"playerId": "player_de1_008_21", "name": "Umut Tohumcu", "number": 25, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_008_22", "name": "Max Moerstedt", "number": 9, "position": "ST", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_008_13", "name": "Luca Philipp", "number": 37, "position": "GK", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de1_008_23", "name": "Adam Daghim", "number": 14, "position": "RW", "country": "DK", "status": "reserve"},
+    {"playerId": "player_de1_008_24", "name": "Tim Lemperle", "number": 19, "position": "ST", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de1_008_25", "name": "Bambasé Conté", "number": 20, "position": "CAM", "country": "DE", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 5,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 8,
+      "cornerLeft": 8,
+      "cornerRight": 8
+    }
+  }
+}

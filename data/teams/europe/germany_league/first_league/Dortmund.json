@@ -1,0 +1,50 @@
+{
+  "teamKey": "Dortmu",
+  "name": "Borussia Dortmund",
+  "logo": "assets/logos/europe/germany/Dortmund.png",
+  "manager": {
+    "name": "Niko Kovač",
+    "country": "HR"
+  },
+  "stadium": {
+    "name": "SIGNAL IDUNA PARK",
+    "capacity": 81365
+  },
+  "players": [
+    {"playerId": "player_de1_003_01", "name": "Gregor Kobel", "number": 1, "position": "GK", "country": "CH", "status": "starter"},
+    {"playerId": "player_de1_003_02", "name": "Julian Ryerson", "number": 26, "position": "RB", "country": "NO", "status": "starter"},
+    {"playerId": "player_de1_003_03", "name": "Waldemar Anton", "number": 3, "position": "CB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_003_04", "name": "Nico Schlotterbeck", "number": 4, "position": "CB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_003_05", "name": "Daniel Svensson", "number": 24, "position": "LB", "country": "SE", "status": "starter"},
+    {"playerId": "player_de1_003_06", "name": "Felix Nmecha", "number": 8, "position": "CDM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_003_07", "name": "Joey Veerman", "number": 25, "position": "CM", "country": "NL", "status": "starter"},
+    {"playerId": "player_de1_003_08", "name": "Konstantinos Karetsas", "number": 19, "position": "RW", "country": "BE", "status": "starter"},
+    {"playerId": "player_de1_003_09", "name": "Ethan Nwaneri", "number": 18, "position": "CAM", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_de1_003_10", "name": "Carney Chukwuemeka", "number": 17, "position": "LW", "country": "AT", "status": "starter"},
+    {"playerId": "player_de1_003_11", "name": "Serhou Guirassy", "number": 9, "position": "ST", "country": "GN", "status": "starter"},
+    {"playerId": "player_de1_003_12", "name": "Patrick Drewes", "number": 30, "position": "GK", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_003_14", "name": "Ramy Bensebaini", "number": 5, "position": "CB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_de1_003_15", "name": "Joane Gadou", "number": 22, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_de1_003_16", "name": "Kauã Prates", "number": 36, "position": "LB", "country": "BR", "status": "bench"},
+    {"playerId": "player_de1_003_17", "name": "Jobe Bellingham", "number": 7, "position": "CM", "country": "GB-ENG", "status": "bench"},
+    {"playerId": "player_de1_003_18", "name": "Marcel Sabitzer", "number": 20, "position": "CM", "country": "AT", "status": "bench"},
+    {"playerId": "player_de1_003_19", "name": "Emre Can", "number": 23, "position": "CDM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_003_20", "name": "Giannis Konstantelias", "number": 45, "position": "CAM", "country": "GR", "status": "bench"},
+    {"playerId": "player_de1_003_21", "name": "Maximilian Beier", "number": 14, "position": "ST", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_003_22", "name": "Fábio Silva", "number": 21, "position": "ST", "country": "PT", "status": "bench"},
+    {"playerId": "player_de1_003_13", "name": "Alexander Meyer", "number": 33, "position": "GK", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de1_003_23", "name": "Justin Lerma", "number": 28, "position": "CM", "country": "EC", "status": "reserve"},
+    {"playerId": "player_de1_003_24", "name": "Filippo Mané", "number": 39, "position": "CB", "country": "IT", "status": "reserve"},
+    {"playerId": "player_de1_003_25", "name": "Samuele Inácio", "number": 40, "position": "RW", "country": "IT", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 3,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 19,
+      "cornerLeft": 19,
+      "cornerRight": 19
+    }
+  }
+}

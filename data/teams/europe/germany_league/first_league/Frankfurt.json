@@ -1,0 +1,50 @@
+{
+  "teamKey": "Frankf",
+  "name": "Eintracht Frankfurt",
+  "logo": "assets/logos/europe/germany/Frankfurt.png",
+  "manager": {
+    "name": "Adi Hütter",
+    "country": "AT"
+  },
+  "stadium": {
+    "name": "Deutsche Bank Park",
+    "capacity": 59500
+  },
+  "players": [
+    {"playerId": "player_de1_005_01", "name": "Noah Atubolu", "number": 1, "position": "GK", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_005_02", "name": "Elias Baum", "number": 2, "position": "RB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_005_03", "name": "Robin Koch", "number": 4, "position": "CB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_005_04", "name": "Lilian Brassier", "number": 3, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_de1_005_05", "name": "Keita Kosugi", "number": 26, "position": "LB", "country": "JP", "status": "starter"},
+    {"playerId": "player_de1_005_06", "name": "Raphael Onyedika", "number": 25, "position": "CDM", "country": "NG", "status": "starter"},
+    {"playerId": "player_de1_005_07", "name": "Oscar Højlund", "number": 6, "position": "CM", "country": "DK", "status": "starter"},
+    {"playerId": "player_de1_005_08", "name": "Ritsu Doan", "number": 20, "position": "RW", "country": "JP", "status": "starter"},
+    {"playerId": "player_de1_005_09", "name": "Can Uzun", "number": 42, "position": "CAM", "country": "TR", "status": "starter"},
+    {"playerId": "player_de1_005_10", "name": "Farès Chaïbi", "number": 8, "position": "LW", "country": "DZ", "status": "starter"},
+    {"playerId": "player_de1_005_11", "name": "Jonathan Burkardt", "number": 9, "position": "ST", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_005_12", "name": "Kauã Santos", "number": 40, "position": "GK", "country": "BR", "status": "bench"},
+    {"playerId": "player_de1_005_14", "name": "Otávio", "number": 5, "position": "CB", "country": "BR", "status": "bench"},
+    {"playerId": "player_de1_005_15", "name": "Nnamdi Collins", "number": 34, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_005_16", "name": "Timmy Chandler", "number": 22, "position": "RB", "country": "US", "status": "bench"},
+    {"playerId": "player_de1_005_17", "name": "Noël Aséko Nkili", "number": 15, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_005_18", "name": "Mario Götze", "number": 27, "position": "CAM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_005_19", "name": "Love Arrhov", "number": 31, "position": "CM", "country": "SE", "status": "bench"},
+    {"playerId": "player_de1_005_20", "name": "Jeremiah Maluze", "number": 37, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_005_21", "name": "Ansgar Knauff", "number": 7, "position": "RW", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_005_22", "name": "Younes Ebnoutalib", "number": 11, "position": "ST", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_005_13", "name": "Jens Grahl", "number": 33, "position": "GK", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de1_005_23", "name": "Ayoube Amaimouni-Echghouyab", "number": 29, "position": "LW", "country": "MA", "status": "reserve"},
+    {"playerId": "player_de1_005_24", "name": "Malik Pimpong", "number": 35, "position": "ST", "country": "DK", "status": "reserve"},
+    {"playerId": "player_de1_005_25", "name": "Jessic Ngankam", "number": 44, "position": "ST", "country": "DE", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 20,
+      "cornerLeft": 20,
+      "cornerRight": 20
+    }
+  }
+}

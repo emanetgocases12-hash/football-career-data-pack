@@ -1,0 +1,50 @@
+{
+  "teamKey": "B Mön",
+  "name": "Borussia Mönchengladbach",
+  "logo": "assets/logos/europe/germany/Monchengladbach.png",
+  "manager": {
+    "name": "Alexander Blessin",
+    "country": "DE"
+  },
+  "stadium": {
+    "name": "Stadion im Borussia-Park",
+    "capacity": 54042
+  },
+  "players": [
+    {"playerId": "player_de1_013_01", "name": "Moritz Nicolas", "number": 1, "position": "GK", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_013_02", "name": "Joe Scally", "number": 29, "position": "RB", "country": "US", "status": "starter"},
+    {"playerId": "player_de1_013_03", "name": "Kevin Diks", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+    {"playerId": "player_de1_013_04", "name": "Ko Itakura", "number": 6, "position": "CB", "country": "JP", "status": "starter"},
+    {"playerId": "player_de1_013_05", "name": "Lukas Ullrich", "number": 26, "position": "LB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_013_06", "name": "Philipp Sander", "number": 16, "position": "CDM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_013_07", "name": "Enzo Leopold", "number": 8, "position": "CM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_013_08", "name": "Franck Honorat", "number": 9, "position": "RW", "country": "FR", "status": "starter"},
+    {"playerId": "player_de1_013_09", "name": "Kevin Stöger", "number": 7, "position": "CAM", "country": "AT", "status": "starter"},
+    {"playerId": "player_de1_013_10", "name": "Robin Hack", "number": 25, "position": "LW", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_013_11", "name": "Tim Kleindienst", "number": 11, "position": "ST", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_013_12", "name": "Tobias Sippel", "number": 21, "position": "GK", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_013_14", "name": "Fabio Chiarodia", "number": 2, "position": "CB", "country": "IT", "status": "bench"},
+    {"playerId": "player_de1_013_15", "name": "Jan Leszczyński", "number": 5, "position": "CB", "country": "PL", "status": "bench"},
+    {"playerId": "player_de1_013_16", "name": "Daiki Hashioka", "number": 14, "position": "RB", "country": "JP", "status": "bench"},
+    {"playerId": "player_de1_013_17", "name": "Yukhym Konoplya", "number": 22, "position": "RB", "country": "UA", "status": "bench"},
+    {"playerId": "player_de1_013_18", "name": "Jens Castrop", "number": 17, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_de1_013_19", "name": "Florian Neuhaus", "number": 10, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_013_20", "name": "Nicolas Kühn", "number": 19, "position": "RW", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_013_21", "name": "Hugo Bolin", "number": 38, "position": "CAM", "country": "SE", "status": "bench"},
+    {"playerId": "player_de1_013_22", "name": "Shuto Machino", "number": 18, "position": "ST", "country": "JP", "status": "bench"},
+    {"playerId": "player_de1_013_13", "name": "Daniel Batz", "number": 33, "position": "GK", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de1_013_23", "name": "Isac Lidberg", "number": 3, "position": "ST", "country": "SE", "status": "reserve"},
+    {"playerId": "player_de1_013_24", "name": "Fritz Fleck", "number": 27, "position": "CM", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de1_013_25", "name": "Zento Uno", "number": 47, "position": "CM", "country": "JP", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 9,
+      "cornerLeft": 9,
+      "cornerRight": 9
+    }
+  }
+}

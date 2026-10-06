@@ -1,0 +1,50 @@
+{
+  "teamKey": "Elvers",
+  "name": "SV 07 Elversberg",
+  "logo": "assets/logos/europe/germany/Elversberg.png",
+  "manager": {
+    "name": "Vincent Wagner",
+    "country": "DE"
+  },
+  "stadium": {
+    "name": "Ursapharm-Arena an der Kaiserlinde",
+    "capacity": 9307
+  },
+  "players": [
+    {"playerId": "player_de1_004_01", "name": "Nicolas Kristof", "number": 20, "position": "GK", "country": "AT", "status": "starter"},
+    {"playerId": "player_de1_004_02", "name": "Nicholas Mickelson", "number": 2, "position": "RB", "country": "NO", "status": "starter"},
+    {"playerId": "player_de1_004_03", "name": "Florian Le Joncour", "number": 3, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_de1_004_04", "name": "Maximilian Rohr", "number": 31, "position": "CB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_004_05", "name": "Lasse Günther", "number": 21, "position": "LB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_004_06", "name": "Amara Condé", "number": 6, "position": "CDM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_004_07", "name": "Łukasz Poręba", "number": 8, "position": "CM", "country": "PL", "status": "starter"},
+    {"playerId": "player_de1_004_08", "name": "Cole Campbell", "number": 39, "position": "RW", "country": "US", "status": "starter"},
+    {"playerId": "player_de1_004_09", "name": "Noah Darvich", "number": 10, "position": "CAM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_004_10", "name": "Maurice Krattenmacher", "number": 7, "position": "LW", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_004_11", "name": "Noel Futkeu", "number": 9, "position": "ST", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_004_12", "name": "Frank Lehmann", "number": 1, "position": "GK", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_004_14", "name": "Luis Seifert", "number": 4, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_004_15", "name": "Lukas Pinckert", "number": 19, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_004_16", "name": "Jan Gyamerah", "number": 30, "position": "RB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_004_17", "name": "Sima Suso", "number": 5, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_004_18", "name": "Raif Adam", "number": 15, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_004_19", "name": "Frederik Schmahl", "number": 17, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_004_20", "name": "Lukas Petkov", "number": 25, "position": "CAM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_004_21", "name": "Tom Zimmerschied", "number": 29, "position": "LW", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_004_22", "name": "Luca Pfeiffer", "number": 16, "position": "ST", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_004_13", "name": "Tim Boss", "number": 28, "position": "GK", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de1_004_23", "name": "Luca Schnellbacher", "number": 24, "position": "ST", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de1_004_24", "name": "Francis Onyeka", "number": 40, "position": "ST", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de1_004_25", "name": "David Mokwa", "number": 42, "position": "ST", "country": "FR", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 3,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 39,
+      "cornerLeft": 39,
+      "cornerRight": 39
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "teamKey": "Augsbu",
+  "name": "FC Augsburg",
+  "logo": "assets/logos/europe/germany/Augsburg.png",
+  "manager": {
+    "name": "Manuel Baum",
+    "country": "DE"
+  },
+  "stadium": {
+    "name": "WWK ARENA",
+    "capacity": 30660
+  },
+  "players": [
+    {"playerId": "player_de1_001_01", "name": "Finn Dahmen", "number": 1, "position": "GK", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_001_02", "name": "Marius Wolf", "number": 27, "position": "RB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_001_03", "name": "Chrislain Matsima", "number": 5, "position": "CB", "country": "FR", "status": "starter"},
+    {"playerId": "player_de1_001_04", "name": "Jeffrey Gouweleeuw", "number": 6, "position": "CB", "country": "NL", "status": "starter"},
+    {"playerId": "player_de1_001_05", "name": "Seol Young-Woo", "number": 7, "position": "LB", "country": "KR", "status": "starter"},
+    {"playerId": "player_de1_001_06", "name": "Kristijan Jakić", "number": 17, "position": "CDM", "country": "HR", "status": "starter"},
+    {"playerId": "player_de1_001_07", "name": "Han-Noah Massengo", "number": 4, "position": "CM", "country": "FR", "status": "starter"},
+    {"playerId": "player_de1_001_08", "name": "Anton Kade", "number": 30, "position": "RW", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_001_09", "name": "Mert Kömür", "number": 10, "position": "CAM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_001_10", "name": "Alexis Claude-Maurice", "number": 20, "position": "LW", "country": "FR", "status": "starter"},
+    {"playerId": "player_de1_001_11", "name": "Michael Gregoritsch", "number": 11, "position": "ST", "country": "AT", "status": "starter"},
+    {"playerId": "player_de1_001_12", "name": "Nediljko Labrović", "number": 22, "position": "GK", "country": "HR", "status": "bench"},
+    {"playerId": "player_de1_001_13", "name": "Calvin Brackelmann", "number": 2, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_001_14", "name": "Juma Bah", "number": 35, "position": "CB", "country": "SL", "status": "bench"},
+    {"playerId": "player_de1_001_15", "name": "Hennes Behrens", "number": 16, "position": "RB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_001_16", "name": "Lasse Günther", "number": 21, "position": "LB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_001_17", "name": "Yannik Keitel", "number": 14, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_001_18", "name": "Tim Breithaupt", "number": 18, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_001_19", "name": "Robin Fellhauer", "number": 19, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_001_20", "name": "Fabian Rieder", "number": 32, "position": "CAM", "country": "CH", "status": "bench"},
+    {"playerId": "player_de1_001_21", "name": "Arijon Ibrahimović", "number": 24, "position": "LW", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_001_26", "name": "Tom Wisbereit", "number": 48, "position": "GK", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de1_001_22", "name": "Rodrigo Ribeiro", "number": 9, "position": "ST", "country": "PT", "status": "reserve"},
+    {"playerId": "player_de1_001_23", "name": "Steve Mounié", "number": 15, "position": "ST", "country": "BJ", "status": "reserve"},
+    {"playerId": "player_de1_001_25", "name": "Noahkai Banks", "number": 40, "position": "CB", "country": "US", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 5,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 30,
+      "cornerLeft": 30,
+      "cornerRight": 30
+    }
+  }
+}

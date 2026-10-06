@@ -1,0 +1,50 @@
+{
+  "teamKey": "U Brln",
+  "name": "1.FC Union Berlin",
+  "logo": "assets/logos/europe/germany/Union.png",
+  "manager": {
+    "name": "Mauro Lustrinelli",
+    "country": "CH"
+  },
+  "stadium": {
+    "name": "Stadion An der Alten Försterei",
+    "capacity": 22012
+  },
+  "players": [
+    {"playerId": "player_de1_017_01", "name": "Frederik Rønnow", "number": 1, "position": "GK", "country": "DK", "status": "starter"},
+    {"playerId": "player_de1_017_02", "name": "Josip Juranović", "number": 18, "position": "RB", "country": "HR", "status": "starter"},
+    {"playerId": "player_de1_017_03", "name": "Felix Uduokhai", "number": 2, "position": "CB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_017_04", "name": "Zeno Van Den Bosch", "number": 4, "position": "CB", "country": "BE", "status": "starter"},
+    {"playerId": "player_de1_017_05", "name": "Derrick Köhn", "number": 17, "position": "LB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_017_06", "name": "Rani Khedira", "number": 8, "position": "CDM", "country": "TN", "status": "starter"},
+    {"playerId": "player_de1_017_07", "name": "Michel Aebischer", "number": 20, "position": "CM", "country": "CH", "status": "starter"},
+    {"playerId": "player_de1_017_08", "name": "Robert Skov", "number": 24, "position": "RW", "country": "DK", "status": "starter"},
+    {"playerId": "player_de1_017_09", "name": "Jeong Woo-Yeong", "number": 11, "position": "CAM", "country": "KR", "status": "starter"},
+    {"playerId": "player_de1_017_10", "name": "Oliver Burke", "number": 7, "position": "LW", "country": "GB-SCT", "status": "starter"},
+    {"playerId": "player_de1_017_11", "name": "Emmanuel Latte Lath", "number": 29, "position": "ST", "country": "CI", "status": "starter"},
+    {"playerId": "player_de1_017_12", "name": "Carl Klaus", "number": 25, "position": "GK", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_017_14", "name": "Marvin Friedrich", "number": 5, "position": "CB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_017_15", "name": "Leopold Querfeld", "number": 14, "position": "CB", "country": "AT", "status": "bench"},
+    {"playerId": "player_de1_017_16", "name": "Tom Rothe", "number": 15, "position": "LB", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_017_17", "name": "Stanley Nsoki", "number": 34, "position": "CB", "country": "FR", "status": "bench"},
+    {"playerId": "player_de1_017_18", "name": "Aljoscha Kemlein", "number": 6, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_017_19", "name": "András Schäfer", "number": 13, "position": "CM", "country": "HU", "status": "bench"},
+    {"playerId": "player_de1_017_20", "name": "Janik Haberer", "number": 19, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_017_21", "name": "Tim Skarke", "number": 21, "position": "RW", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_017_22", "name": "Andrej Ilić", "number": 23, "position": "ST", "country": "RS", "status": "bench"},
+    {"playerId": "player_de1_017_13", "name": "Matheo Raab", "number": 31, "position": "GK", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de1_017_23", "name": "Marin Ljubičić", "number": 27, "position": "ST", "country": "HR", "status": "reserve"},
+    {"playerId": "player_de1_017_24", "name": "Kastriot Imeri", "number": 30, "position": "CAM", "country": "CH", "status": "reserve"},
+    {"playerId": "player_de1_017_25", "name": "Livan Burcu", "number": 9, "position": "LW", "country": "TR", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 2,
+    "setPieces": {
+      "penalty": 29,
+      "freeKick": 24,
+      "cornerLeft": 24,
+      "cornerRight": 24
+    }
+  }
+}

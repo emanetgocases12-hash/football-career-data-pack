@@ -1,0 +1,50 @@
+{
+  "teamKey": "Hambrg",
+  "name": "Hamburger SV",
+  "logo": "assets/logos/europe/germany/Hamburg.png",
+  "manager": {
+    "name": "Merlin Polzin",
+    "country": "DE"
+  },
+  "stadium": {
+    "name": "Volksparkstadion",
+    "capacity": 57000
+  },
+  "players": [
+    {"playerId": "player_de1_007_01", "name": "Daniel Heuer Fernandes", "number": 1, "position": "GK", "country": "PT", "status": "starter"},
+    {"playerId": "player_de1_007_02", "name": "Zakaria El Ouahdi", "number": 7, "position": "RB", "country": "MA", "status": "starter"},
+    {"playerId": "player_de1_007_03", "name": "Sebastiaan Bornauw", "number": 33, "position": "CB", "country": "BE", "status": "starter"},
+    {"playerId": "player_de1_007_04", "name": "Jordan Torunarigha", "number": 23, "position": "CB", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_007_05", "name": "David Møller Wolfe", "number": 3, "position": "LB", "country": "NO", "status": "starter"},
+    {"playerId": "player_de1_007_06", "name": "Albert Sambi Lokonga", "number": 6, "position": "CDM", "country": "BE", "status": "starter"},
+    {"playerId": "player_de1_007_07", "name": "Nicolai Remberg", "number": 21, "position": "CM", "country": "DE", "status": "starter"},
+    {"playerId": "player_de1_007_08", "name": "Bakery Jatta", "number": 18, "position": "RW", "country": "GM", "status": "starter"},
+    {"playerId": "player_de1_007_09", "name": "Fábio Vieira", "number": 20, "position": "CAM", "country": "PT", "status": "starter"},
+    {"playerId": "player_de1_007_10", "name": "Albert Grønbæk", "number": 11, "position": "LW", "country": "DK", "status": "starter"},
+    {"playerId": "player_de1_007_11", "name": "Terem Moffi", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+    {"playerId": "player_de1_007_12", "name": "Sander Tangvik", "number": 12, "position": "GK", "country": "NO", "status": "bench"},
+    {"playerId": "player_de1_007_14", "name": "Warmed Omari", "number": 17, "position": "CB", "country": "KM", "status": "bench"},
+    {"playerId": "player_de1_007_15", "name": "Nicolás Capaldo", "number": 24, "position": "RB", "country": "AR", "status": "bench"},
+    {"playerId": "player_de1_007_16", "name": "Miro Muheim", "number": 28, "position": "LB", "country": "CH", "status": "bench"},
+    {"playerId": "player_de1_007_17", "name": "Bilal Nadir", "number": 4, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_de1_007_18", "name": "Martin Adeline", "number": 5, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_de1_007_19", "name": "Immanuel Pherai", "number": 10, "position": "CAM", "country": "NL", "status": "bench"},
+    {"playerId": "player_de1_007_20", "name": "Kofi Amoako", "number": 22, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_de1_007_21", "name": "Yussuf Poulsen", "number": 15, "position": "ST", "country": "DK", "status": "bench"},
+    {"playerId": "player_de1_007_22", "name": "Patson Daka", "number": 27, "position": "ST", "country": "ZM", "status": "bench"},
+    {"playerId": "player_de1_007_13", "name": "Elias Lahti", "number": 40, "position": "GK", "country": "FI", "status": "reserve"},
+    {"playerId": "player_de1_007_23", "name": "Otto Stange", "number": 19, "position": "ST", "country": "DE", "status": "reserve"},
+    {"playerId": "player_de1_007_24", "name": "Alexander Røssing-Lelesiit", "number": 38, "position": "LW", "country": "NO", "status": "reserve"},
+    {"playerId": "player_de1_007_25", "name": "Kelvin Ojo", "number": 46, "position": "CM", "country": "DE", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 33,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 18,
+      "cornerLeft": 18,
+      "cornerRight": 18
+    }
+  }
+}
