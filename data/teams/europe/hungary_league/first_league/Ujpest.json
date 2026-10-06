@@ -1,58 +1,56 @@
 {
-    "teamKey": "Újpest",
-  
-    "name": "Újpest FC",
-  
-    "logo": "assets/logos/europe/hungary/Ujpest.png",
-  
-    "manager": {
-      "name": "Zoltán Szélesi",
-      "country": "HU"
-    },
-  
-    "stadium": {
-      "name": "Szusza Ferenc Stadion",
-      "capacity": 12670
-    },
-  
-    "players": [
-      {"playerId": "player_hu1_010_01", "name": "Péter Szappanos", "number": 1, "position": "GK", "country": "HU", "status": "starter"},
-      {"playerId": "player_hu1_010_02", "name": "Attila Fiola", "number": 5, "position": "RB", "country": "HU", "status": "starter"},
-      {"playerId": "player_hu1_010_03", "name": "João Nunes", "number": 30, "position": "CB", "country": "PT", "status": "starter"},
-      {"playerId": "player_hu1_010_04", "name": "Patrizio Stronati", "number": 94, "position": "CB", "country": "CZ", "status": "starter"},
-      {"playerId": "player_hu1_010_05", "name": "Gergő Bodnár", "number": 2, "position": "LB", "country": "HU", "status": "starter"},
-      {"playerId": "player_hu1_010_06", "name": "Arijan Ademi", "number": 6, "position": "CDM", "country": "MK", "status": "starter"},
-      {"playerId": "player_hu1_010_07", "name": "Matko Aljosa", "number": 8, "position": "CM", "country": "SI", "status": "starter"},
-      {"playerId": "player_hu1_010_08", "name": "Lirim Kastrati", "number": 17, "position": "RW", "country": "XK", "status": "starter"},
-      {"playerId": "player_hu1_010_09", "name": "Krisztián Simon", "number": 10, "position": "CAM", "country": "HU", "status": "starter"},
-      {"playerId": "player_hu1_010_10", "name": "Krisztián Tamás", "number": 11, "position": "LW", "country": "HU", "status": "starter"},
-      {"playerId": "player_hu1_010_11", "name": "Etienne Amenyido", "number": 9, "position": "ST", "country": "TG", "status": "starter"},
-  
-      {"playerId": "player_hu1_010_12", "name": "Dávid Banai", "number": 23, "position": "GK", "country": "HU", "status": "bench"},
-      {"playerId": "player_hu1_010_13", "name": "Csaba Bukta", "number": 7, "position": "LW", "country": "HU", "status": "bench"},
-      {"playerId": "player_hu1_010_14", "name": "Muhamed Tijani", "number": 26, "position": "ST", "country": "NG", "status": "bench"},
-      {"playerId": "player_hu1_010_15", "name": "Prince Manu Balladom", "number": 19, "position": "ST", "country": "GH", "status": "bench"},
-      {"playerId": "player_hu1_010_16", "name": "Marcell Gyánó", "number": 91, "position": "CB", "country": "HU", "status": "bench"},
-      {"playerId": "player_hu1_010_17", "name": "Márk Dékei", "number": 15, "position": "CB", "country": "HU", "status": "bench"},
-      {"playerId": "player_hu1_010_18", "name": "Aboubakar Keita", "number": 16, "position": "CM", "country": "CI", "status": "bench"},
-      {"playerId": "player_hu1_010_19", "name": "Márk Mucsányi", "number": 22, "position": "CM", "country": "HU", "status": "bench"},
-      {"playerId": "player_hu1_010_20", "name": "Máté Tajti", "number": 18, "position": "CAM", "country": "HU", "status": "bench"},
-      {"playerId": "player_hu1_010_21", "name": "Georgios Neofytidis", "number": 20, "position": "CM", "country": "CY", "status": "bench"},
-  
-      {"playerId": "player_hu1_010_22", "name": "Ádám Szentmihályi", "number": 40, "position": "GK", "country": "HU", "status": "reserve"},
-      {"playerId": "player_hu1_010_23", "name": "Dávid Dombó", "number": 32, "position": "GK", "country": "HU", "status": "reserve"},
-      {"playerId": "player_hu1_010_24", "name": "Bence Geiger", "number": 14, "position": "RW", "country": "HU", "status": "reserve"},
-      {"playerId": "player_hu1_010_25", "name": "Bence Gergényi", "number": 3, "position": "LB", "country": "HU", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 5,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 10,
-        "cornerLeft": 17,
-        "cornerRight": 11
-      }
+  "teamKey": "Újpest",
+
+  "name": "Újpest FC",
+
+  "logo": "assets/logos/europe/hungary/Ujpest.png",
+
+  "manager": {
+    "name": "Zoltán Szélesi",
+    "country": "HU"
+  },
+
+  "stadium": {
+    "name": "Szusza Ferenc Stadion",
+    "capacity": 12670
+  },
+
+  "players": [
+    {"playerId": "player_hu1_010_01", "name": "Péter Szappanos", "number": 1, "position": "GK", "country": "HU", "status": "starter"},
+    {"playerId": "player_hu1_010_02", "name": "Attila Fiola", "number": 5, "position": "RB", "country": "HU", "status": "starter"},
+    {"playerId": "player_hu1_010_03", "name": "João Nunes", "number": 30, "position": "CB", "country": "PT", "status": "starter"},
+    {"playerId": "player_hu1_010_04", "name": "Patrizio Stronati", "number": 94, "position": "CB", "country": "CZ", "status": "starter"},
+    {"playerId": "player_hu1_010_05", "name": "Gergő Bodnár", "number": 2, "position": "LB", "country": "HU", "status": "starter"},
+    {"playerId": "player_hu1_010_06", "name": "Arijan Ademi", "number": 6, "position": "CDM", "country": "MK", "status": "starter"},
+    {"playerId": "player_hu1_010_07", "name": "Matko Aljosa", "number": 8, "position": "CM", "country": "SI", "status": "starter"},
+    {"playerId": "player_hu1_010_08", "name": "Lirim Kastrati", "number": 17, "position": "RW", "country": "XK", "status": "starter"},
+    {"playerId": "player_hu1_010_09", "name": "Krisztián Simon", "number": 10, "position": "CAM", "country": "HU", "status": "starter"},
+    {"playerId": "player_hu1_010_10", "name": "Krisztián Tamás", "number": 11, "position": "LW", "country": "HU", "status": "starter"},
+    {"playerId": "player_hu1_010_11", "name": "Etienne Amenyido", "number": 9, "position": "ST", "country": "TG", "status": "starter"},
+    {"playerId": "player_hu1_010_12", "name": "Dávid Banai", "number": 23, "position": "GK", "country": "HU", "status": "bench"},
+    {"playerId": "player_hu1_010_13", "name": "Csaba Bukta", "number": 7, "position": "LW", "country": "HU", "status": "bench"},
+    {"playerId": "player_hu1_010_14", "name": "Muhamed Tijani", "number": 26, "position": "ST", "country": "NG", "status": "bench"},
+    {"playerId": "player_hu1_010_15", "name": "Prince Manu Balladom", "number": 19, "position": "ST", "country": "GH", "status": "bench"},
+    {"playerId": "player_hu1_010_16", "name": "Marcell Gyánó", "number": 91, "position": "CB", "country": "HU", "status": "bench"},
+    {"playerId": "player_hu1_010_17", "name": "Márk Dékei", "number": 15, "position": "CB", "country": "HU", "status": "bench"},
+    {"playerId": "player_hu1_010_18", "name": "Aboubakar Keita", "number": 16, "position": "CM", "country": "CI", "status": "bench"},
+    {"playerId": "player_hu1_010_19", "name": "Márk Mucsányi", "number": 22, "position": "CM", "country": "HU", "status": "bench"},
+    {"playerId": "player_hu1_010_20", "name": "Máté Tajti", "number": 18, "position": "CAM", "country": "HU", "status": "bench"},
+    {"playerId": "player_hu1_010_21", "name": "Georgios Neofytidis", "number": 20, "position": "CM", "country": "CY", "status": "bench"},
+    {"playerId": "player_hu1_010_23", "name": "Dávid Dombó", "number": 32, "position": "GK", "country": "HU", "status": "reserve"},
+    {"playerId": "player_hu1_010_24", "name": "Bence Geiger", "number": 14, "position": "RW", "country": "HU", "status": "reserve"},
+    {"playerId": "player_hu1_010_25", "name": "Bence Gergényi", "number": 3, "position": "LB", "country": "HU", "status": "reserve"},
+    {"playerId": "player_hu1_010_22", "name": "Ferenc Ujváry", "number": 36, "position": "RB", "country": "HU", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 5,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 17,
+      "cornerRight": 11
     }
   }
+}
