@@ -1,50 +1,58 @@
 {
-    "teamKey": "Surkho",
-    "name": "Surkhon Termez",
-    "logo": "assets/logos/asia/uzbekistan/Termiz.png",
-    "manager": {
-      "name": "Fevzi Davletov",
-      "country": "UZ"
-    },
-    "stadium": {
-      "name": "Surkhon Arena",
-      "capacity": 10600
-    },
-    "players": [
-      {"playerId": "player_uz1_015_01", "name": "Davron Merganov", "number": 86, "position": "GK", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_015_02", "name": "Dilshod Saitov", "number": 12, "position": "RB", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_015_03", "name": "Bekhzod Shamsiev", "number": 6, "position": "CB", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_015_04", "name": "Nodirkhon Nematkhonov", "number": 4, "position": "CB", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_015_05", "name": "Ibrohim Yuldashev", "number": 2, "position": "LB", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_015_06", "name": "Akmal Mozgovoy", "number": 8, "position": "CM", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_015_07", "name": "Pavel Bureyev", "number": 14, "position": "CM", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_015_08", "name": "Javokhir Sidikov", "number": 10, "position": "CAM", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_015_09", "name": "Sardorbek Bahromov", "number": 7, "position": "RW", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_015_10", "name": "Asadbek Karimov", "number": 77, "position": "LW", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_015_11", "name": "Zafarbek Akramov", "number": 9, "position": "ST", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_015_12", "name": "Otabek Boymurodov", "number": 25, "position": "GK", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_015_13", "name": "Artem Potapov", "number": 1, "position": "GK", "country": "RU", "status": "reserve"},
-      {"playerId": "player_uz1_015_14", "name": "Dilshod Yuldoshev", "number": 16, "position": "GK", "country": "UZ", "status": "reserve"},
-      {"playerId": "player_uz1_015_15", "name": "Dzhamaldin Khodzhaniyazov", "number": 5, "position": "CB", "country": "TM", "status": "bench"},
-      {"playerId": "player_uz1_015_16", "name": "Bekhruz Dzhumatov", "number": 3, "position": "CB", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_015_17", "name": "Asadbek Rahimjonov", "number": 17, "position": "CM", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_015_18", "name": "Muhammadali Musaxonov", "number": 18, "position": "CM", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_015_19", "name": "Behruz Shukurullayev", "number": 19, "position": "LW", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_015_20", "name": "Azamjon Temirxonov", "number": 20, "position": "ST", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_015_21", "name": "Komiljon Tojiddinov", "number": 21, "position": "CB", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_015_22", "name": "Farruhjon Qodirov", "number": 22, "position": "CM", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_015_23", "name": "Abbos Gulomov", "number": 23, "position": "RW", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_015_24", "name": "Jasurbek Yoqubov", "number": 24, "position": "CB", "country": "UZ", "status": "reserve"},
-      {"playerId": "player_uz1_015_25", "name": "Shohruh Gadoyev", "number": 27, "position": "LW", "country": "UZ", "status": "reserve"}
-    ],
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 86,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 10,
-        "cornerLeft": 10,
-        "cornerRight": 77
-      }
+  "teamKey": "Surkho",
+
+  "name": "Surkhon Termez",
+
+  "logo": "assets/logos/asia/uzbekistan/Termiz.png",
+
+  "manager": {
+    "name": "Fevzi Davletov",
+    "country": "UZ"
+  },
+
+  "stadium": {
+    "name": "Surkhon Arena",
+    "capacity": 10600
+  },
+
+  "players": [
+    {"playerId": "player_uz1_015_01", "name": "Davron Merganov", "number": 86, "position": "GK", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_015_02", "name": "Dilshod Saitov", "number": 12, "position": "RB", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_015_03", "name": "Bekhzod Shamsiev", "number": 6, "position": "CB", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_015_04", "name": "Nodirkhon Nematkhonov", "number": 4, "position": "CB", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_015_05", "name": "Ibrohim Yuldashev", "number": 2, "position": "LB", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_015_06", "name": "Akmal Mozgovoy", "number": 8, "position": "CM", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_015_07", "name": "Pavel Bureyev", "number": 14, "position": "CM", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_015_08", "name": "Javokhir Sidikov", "number": 10, "position": "CAM", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_015_09", "name": "Sardorbek Bahromov", "number": 7, "position": "RW", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_015_10", "name": "Asadbek Karimov", "number": 77, "position": "LW", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_015_11", "name": "Zafarbek Akramov", "number": 9, "position": "ST", "country": "UZ", "status": "starter"},
+
+    {"playerId": "player_uz1_015_12", "name": "Otabek Boymurodov", "number": 25, "position": "GK", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_015_13", "name": "Dzhamaldin Khodzhaniyazov", "number": 5, "position": "CB", "country": "TM", "status": "bench"},
+    {"playerId": "player_uz1_015_14", "name": "Bekhruz Dzhumatov", "number": 3, "position": "CB", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_015_15", "name": "Asadbek Rahimjonov", "number": 17, "position": "CM", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_015_16", "name": "Muhammadali Musaxonov", "number": 18, "position": "CM", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_015_17", "name": "Behruz Shukurullayev", "number": 19, "position": "LW", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_015_18", "name": "Azamjon Temirxonov", "number": 20, "position": "ST", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_015_19", "name": "Komiljon Tojiddinov", "number": 21, "position": "CB", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_015_20", "name": "Farruhjon Qodirov", "number": 22, "position": "CM", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_015_21", "name": "Abbos Gulomov", "number": 23, "position": "RW", "country": "UZ", "status": "bench"},
+
+    {"playerId": "player_uz1_015_22", "name": "Artem Potapov", "number": 1, "position": "GK", "country": "RU", "status": "reserve"},
+    {"playerId": "player_uz1_015_23", "name": "Bekhruz Shaydulov", "number": 66, "position": "LB", "country": "UZ", "status": "reserve"},
+    {"playerId": "player_uz1_015_24", "name": "Jasurbek Yoqubov", "number": 24, "position": "CB", "country": "UZ", "status": "reserve"},
+    {"playerId": "player_uz1_015_25", "name": "Shohruh Gadoyev", "number": 27, "position": "LW", "country": "UZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 86,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 77
     }
   }
+}
