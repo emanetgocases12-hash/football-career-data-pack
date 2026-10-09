@@ -6,7 +6,7 @@
   "logo": "assets/logos/asia/oman/Samail.png",
 
   "manager": {
-    "name": "Abdul Halime Oureimi",
+    "name": "Said Al-Balushi",
     "country": "OM"
   },
 
@@ -40,9 +40,9 @@
     {"playerId": "player_om1_010_21", "name": "Nasser Al-Shibli", "number": 22, "position": "ST", "country": "OM", "status": "bench"},
 
     {"playerId": "player_om1_010_22", "name": "Salem Al-Jabri", "number": 32, "position": "GK", "country": "OM", "status": "reserve"},
-    {"playerId": "player_om1_010_23", "name": "Suleiman Salem Al-Mamari", "number": 33, "position": "CB", "country": "OM", "status": "reserve"},
-    {"playerId": "player_om1_010_24", "name": "Ahmed Al-Farsi", "number": 23, "position": "LW", "country": "OM", "status": "reserve"},
-    {"playerId": "player_om1_010_25", "name": "Mohammed Al-Araimi", "number": 24, "position": "ST", "country": "OM", "status": "reserve"}
+    {"playerId": "player_om1_010_23", "name": "Ahmed Al-Farsi", "number": 23, "position": "LW", "country": "OM", "status": "reserve"},
+    {"playerId": "player_om1_010_24", "name": "Mohammed Al-Araimi", "number": 24, "position": "ST", "country": "OM", "status": "reserve"},
+    {"playerId": "player_om1_010_25", "name": "Bader Al-Jabri", "number": 77, "position": "CDM", "country": "OM", "status": "reserve"}
   ],
 
   "tactics": {
