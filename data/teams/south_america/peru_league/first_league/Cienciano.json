@@ -1,0 +1,58 @@
+{
+  "teamKey": "Cienci",
+
+  "name": "Club Cienciano",
+
+  "logo": "assets/logos/south_america/peru/Cienci.png",
+
+  "manager": {
+    "name": "Horacio Melgarejo",
+    "country": "AR"
+  },
+
+  "stadium": {
+    "name": "Estadio Garcilaso de la Vega",
+    "capacity": 42056
+  },
+
+  "players": [
+    {"playerId": "player_pe1_004_01", "name": "Gonzalo Falcón", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+    {"playerId": "player_pe1_004_02", "name": "Carlos Cabello", "number": 2, "position": "RB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_004_03", "name": "Claudio Núñez", "number": 3, "position": "CB", "country": "PY", "status": "starter"},
+    {"playerId": "player_pe1_004_04", "name": "Freddy Yovera", "number": 4, "position": "CB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_004_05", "name": "Kevin Becerra", "number": 5, "position": "LB", "country": "EC", "status": "starter"},
+    {"playerId": "player_pe1_004_06", "name": "Ademar Robles", "number": 6, "position": "CDM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_004_07", "name": "Gerson Barreto", "number": 7, "position": "CM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_004_08", "name": "Henry Caparó", "number": 8, "position": "CAM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_004_09", "name": "Junior Aguirre", "number": 9, "position": "RW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_004_10", "name": "Santiago Arias", "number": 10, "position": "LW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_004_11", "name": "Carlos Garcés", "number": 11, "position": "ST", "country": "EC", "status": "starter"},
+
+    {"playerId": "player_pe1_004_12", "name": "Italo Espinoza", "number": 31, "position": "GK", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_004_13", "name": "Marcos Martinich", "number": 13, "position": "CB", "country": "AR", "status": "bench"},
+    {"playerId": "player_pe1_004_14", "name": "Maximiliano Amondarain", "number": 14, "position": "RB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_004_15", "name": "Renzo Salazar", "number": 15, "position": "LB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_004_16", "name": "Sebastián Cavero", "number": 16, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_004_17", "name": "Didier La Torre", "number": 17, "position": "CM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_004_18", "name": "Alejandro Hohberg", "number": 18, "position": "CAM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_004_19", "name": "Cristian Souza", "number": 19, "position": "RM", "country": "UY", "status": "bench"},
+    {"playerId": "player_pe1_004_20", "name": "Juan Succar", "number": 20, "position": "LW", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_004_21", "name": "Nadhir Colunga", "number": 21, "position": "RW", "country": "PE", "status": "bench"},
+
+    {"playerId": "player_pe1_004_22", "name": "Jean Franco Roncal", "number": 30, "position": "GK", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_004_23", "name": "Neri Bandiera", "number": 22, "position": "ST", "country": "AR", "status": "reserve"},
+    {"playerId": "player_pe1_004_24", "name": "Ray Sandoval", "number": 23, "position": "LW", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_004_25", "name": "Alejandro Hohberg González", "number": 24, "position": "RW", "country": "PE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 7,
+      "cornerLeft": 8,
+      "cornerRight": 9
+    }
+  }
+}

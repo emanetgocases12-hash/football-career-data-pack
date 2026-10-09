@@ -1,0 +1,58 @@
+{
+  "teamKey": "Chanka",
+
+  "name": "CD Los Chankas",
+
+  "logo": "assets/logos/south_america/peru/Chanka.png",
+
+  "manager": {
+    "name": "Juan Carlos Bazalar",
+    "country": "PE"
+  },
+
+  "stadium": {
+    "name": "Estadio Los Chankas",
+    "capacity": 14000
+  },
+
+  "players": [
+    {"playerId": "player_pe1_003_01", "name": "Hairo Camacho", "number": 1, "position": "GK", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_003_02", "name": "Ayrthon Quintana", "number": 2, "position": "RB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_003_03", "name": "Brayan Guevara", "number": 3, "position": "CB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_003_04", "name": "Carlos Pimienta", "number": 4, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_pe1_003_05", "name": "David Gonzales", "number": 5, "position": "LB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_003_06", "name": "Abdiel Ayarza", "number": 6, "position": "CDM", "country": "PA", "status": "starter"},
+    {"playerId": "player_pe1_003_07", "name": "Christian Velarde", "number": 7, "position": "CM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_003_08", "name": "Franco Torres", "number": 8, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_pe1_003_09", "name": "Khalil Hernández", "number": 9, "position": "RW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_003_10", "name": "Jorge Palomino", "number": 10, "position": "LW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_003_11", "name": "Félix Espinoza", "number": 11, "position": "ST", "country": "PE", "status": "starter"},
+
+    {"playerId": "player_pe1_003_12", "name": "Luis Pretel", "number": 12, "position": "GK", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_003_13", "name": "Gonzalo Rizzo", "number": 13, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_003_14", "name": "Héctor González", "number": 14, "position": "RB", "country": "AR", "status": "bench"},
+    {"playerId": "player_pe1_003_15", "name": "José Cárdenas", "number": 15, "position": "LB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_003_16", "name": "Axel Chávez", "number": 16, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_003_17", "name": "Kelvin Sánchez", "number": 17, "position": "CM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_003_18", "name": "Sebastián Zarabia", "number": 18, "position": "CAM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_003_19", "name": "Lisardo Vásquez", "number": 19, "position": "RM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_003_20", "name": "Jarlin Quintero", "number": 20, "position": "LW", "country": "CO", "status": "bench"},
+    {"playerId": "player_pe1_003_21", "name": "Juan Diego Ospina", "number": 21, "position": "RW", "country": "CO", "status": "bench"},
+
+    {"playerId": "player_pe1_003_22", "name": "Franco Saravia", "number": 32, "position": "GK", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_003_23", "name": "Accel Campos", "number": 22, "position": "ST", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_003_24", "name": "Kenyi Barrios", "number": 23, "position": "LW", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_003_25", "name": "Marlon Torres", "number": 24, "position": "RW", "country": "CO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 7,
+      "cornerLeft": 8,
+      "cornerRight": 9
+    }
+  }
+}

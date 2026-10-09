@@ -1,0 +1,58 @@
+{
+  "teamKey": "Melgar",
+
+  "name": "FBC Melgar",
+
+  "logo": "assets/logos/south_america/peru/Melgar.png",
+
+  "manager": {
+    "name": "Miguel Rondelli",
+    "country": "AR"
+  },
+
+  "stadium": {
+    "name": "Estadio Monumental de la UNSA",
+    "capacity": 40370
+  },
+
+  "players": [
+    {"playerId": "player_pe1_010_01", "name": "Carlos Cáceda", "number": 12, "position": "GK", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_010_02", "name": "Alec Deneumostier", "number": 2, "position": "RB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_010_03", "name": "Jesús Alcántar", "number": 3, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_pe1_010_04", "name": "Juan Escobar", "number": 4, "position": "CB", "country": "PY", "status": "starter"},
+    {"playerId": "player_pe1_010_05", "name": "Matías Lazo", "number": 5, "position": "LB", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_010_06", "name": "Horacio Orzán", "number": 6, "position": "CDM", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_010_07", "name": "Marcos Portillo", "number": 7, "position": "CM", "country": "AR", "status": "starter"},
+    {"playerId": "player_pe1_010_08", "name": "Nicolás Quagliata", "number": 8, "position": "CAM", "country": "UY", "status": "starter"},
+    {"playerId": "player_pe1_010_09", "name": "Kevin Minda", "number": 9, "position": "RW", "country": "EC", "status": "starter"},
+    {"playerId": "player_pe1_010_10", "name": "Walter Tandazo", "number": 10, "position": "LW", "country": "PE", "status": "starter"},
+    {"playerId": "player_pe1_010_11", "name": "Bernardo Cuesta", "number": 11, "position": "ST", "country": "PE", "status": "starter"},
+
+    {"playerId": "player_pe1_010_12", "name": "Jorge Cabezudo", "number": 21, "position": "GK", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_010_13", "name": "Nelson Cabanillas", "number": 13, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_010_14", "name": "Leonel González", "number": 14, "position": "RB", "country": "AR", "status": "bench"},
+    {"playerId": "player_pe1_010_15", "name": "Ángel Obando", "number": 15, "position": "LB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_010_16", "name": "Diego Jara", "number": 16, "position": "CB", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_010_17", "name": "Gian García", "number": 17, "position": "CM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_010_18", "name": "César Doy", "number": 18, "position": "CAM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_010_19", "name": "Ian Arróspide", "number": 19, "position": "RM", "country": "PE", "status": "bench"},
+    {"playerId": "player_pe1_010_20", "name": "Brian Guzmán", "number": 20, "position": "LW", "country": "AR", "status": "bench"},
+    {"playerId": "player_pe1_010_21", "name": "Cristian Bordacahar", "number": 25, "position": "RW", "country": "PE", "status": "bench"},
+
+    {"playerId": "player_pe1_010_22", "name": "Ricardo Farro", "number": 1, "position": "GK", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_010_23", "name": "Franco Zanelatto", "number": 22, "position": "ST", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_010_24", "name": "Jefferson Cáceres", "number": 23, "position": "LW", "country": "PE", "status": "reserve"},
+    {"playerId": "player_pe1_010_25", "name": "Jhamir D’Arrigo", "number": 24, "position": "RW", "country": "PE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 12,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 7,
+      "cornerLeft": 8,
+      "cornerRight": 9
+    }
+  }
+}
