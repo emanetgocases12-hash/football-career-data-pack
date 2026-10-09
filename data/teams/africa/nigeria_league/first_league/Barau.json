@@ -1,0 +1,58 @@
+{
+  "teamKey": "Barau",
+
+  "name": "Barau FC",
+
+  "logo": "assets/logos/africa/nigeria/Barau.png",
+
+  "manager": {
+    "name": "Eugene Agagbe",
+    "country": "NG"
+  },
+
+  "stadium": {
+    "name": "Sani Abacha Stadium",
+    "capacity": 16000
+  },
+
+  "players": [
+    {"playerId": "player_ng1_002_01", "name": "Emeka Nwabulu", "number": 1, "position": "GK", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_002_02", "name": "Orji Kalu", "number": 2, "position": "RB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_002_03", "name": "Chisom Chiaha", "number": 4, "position": "CB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_002_04", "name": "Stanley Oganbor", "number": 5, "position": "CB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_002_05", "name": "Uzochukwu Ezeobi", "number": 3, "position": "LB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_002_06", "name": "Moses Tsehuan", "number": 6, "position": "CDM", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_002_07", "name": "Nura Muhammad", "number": 8, "position": "CM", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_002_08", "name": "Anthony Sunday", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_002_09", "name": "Samuel Mathias", "number": 10, "position": "CAM", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_002_10", "name": "Hillary Ekawu", "number": 11, "position": "LW", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_002_11", "name": "Joseph Atule", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+
+    {"playerId": "player_ng1_002_12", "name": "Yusuf Mohammed", "number": 30, "position": "GK", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_002_13", "name": "Saidu Idris", "number": 12, "position": "LB", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_002_14", "name": "Usman Maidubuji", "number": 13, "position": "CB", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_002_15", "name": "Chisom Nkwocha", "number": 14, "position": "CB", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_002_16", "name": "Sugau Aliyu", "number": 15, "position": "LB", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_002_17", "name": "Ebuka Nwokorie", "number": 16, "position": "CDM", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_002_18", "name": "Adamu Hussaini", "number": 17, "position": "CM", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_002_19", "name": "Ibrahim Yunusa", "number": 18, "position": "CAM", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_002_20", "name": "Uche Moses", "number": 19, "position": "RW", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_002_21", "name": "Henry Ezeonye", "number": 20, "position": "ST", "country": "NG", "status": "bench"},
+
+    {"playerId": "player_ng1_002_22", "name": "Chisom Chiaha", "number": 31, "position": "GK", "country": "NG", "status": "reserve"},
+    {"playerId": "player_ng1_002_23", "name": "Kemin Joseph", "number": 21, "position": "ST", "country": "NG", "status": "reserve"},
+    {"playerId": "player_ng1_002_24", "name": "Energy Otunuya", "number": 22, "position": "ST", "country": "NG", "status": "reserve"},
+    {"playerId": "player_ng1_002_25", "name": "Azubuike Casmir", "number": 23, "position": "RW", "country": "NG", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "Bendel",
+
+  "name": "Bendel Insurance FC",
+
+  "logo": "assets/logos/africa/nigeria/Bendel.png",
+
+  "manager": {
+    "name": "Kennedy Boboye",
+    "country": "NG"
+  },
+
+  "stadium": {
+    "name": "Samuel Ogbemudia Stadium",
+    "capacity": 19500
+  },
+
+  "players": [
+    {"playerId": "player_ng1_004_01", "name": "Anthony Cletus", "number": 1, "position": "GK", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_004_02", "name": "Christian Molokwu", "number": 2, "position": "RB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_004_03", "name": "Denis Chigozie", "number": 14, "position": "CB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_004_04", "name": "Chizoba Amaefule", "number": 35, "position": "CB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_004_05", "name": "Stanley Okorom", "number": 23, "position": "LB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_004_06", "name": "Emmanuel Akpan", "number": 5, "position": "CDM", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_004_07", "name": "Julius Emiloju Jr", "number": 4, "position": "CM", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_004_08", "name": "Wisdom Udom", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_004_09", "name": "Austin Osayande", "number": 10, "position": "CAM", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_004_10", "name": "Chinedu Nwosu", "number": 11, "position": "LW", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_004_11", "name": "Emmanuel Dung", "number": 25, "position": "ST", "country": "NG", "status": "starter"},
+
+    {"playerId": "player_ng1_004_12", "name": "Joshua Baba", "number": 12, "position": "GK", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_004_13", "name": "Henry Onyia", "number": 3, "position": "RB", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_004_14", "name": "Promise Itoro", "number": 26, "position": "CB", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_004_15", "name": "Efe Enabulele", "number": 15, "position": "CB", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_004_16", "name": "Ebuka Okoro", "number": 13, "position": "LB", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_004_17", "name": "Nnamdi Anthony", "number": 18, "position": "CDM", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_004_18", "name": "John Jacob", "number": 29, "position": "CM", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_004_19", "name": "Chijoke Nnamdi Akuneto", "number": 8, "position": "CAM", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_004_20", "name": "Prince Dewan", "number": 20, "position": "LW", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_004_21", "name": "Efe Ubiomo", "number": 37, "position": "ST", "country": "NG", "status": "bench"},
+
+    {"playerId": "player_ng1_004_22", "name": "Suleiman Solihu", "number": 32, "position": "GK", "country": "NG", "status": "reserve"},
+    {"playerId": "player_ng1_004_23", "name": "Odia Uyiosa", "number": 22, "position": "RB", "country": "NG", "status": "reserve"},
+    {"playerId": "player_ng1_004_24", "name": "Adamu Yazid", "number": 28, "position": "CM", "country": "NG", "status": "reserve"},
+    {"playerId": "player_ng1_004_25", "name": "Emmanuel Ugwu", "number": 33, "position": "CB", "country": "NG", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 25,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}

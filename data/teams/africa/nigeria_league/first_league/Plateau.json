@@ -1,0 +1,58 @@
+{
+  "teamKey": "Platea",
+
+  "name": "Plateau United FC",
+
+  "logo": "assets/logos/africa/nigeria/Platea.png",
+
+  "manager": {
+    "name": "Gbenga Ogunbote",
+    "country": "NG"
+  },
+
+  "stadium": {
+    "name": "New Jos Stadium",
+    "capacity": 44000
+  },
+
+  "players": [
+    {"playerId": "player_ng1_014_01", "name": "Domnan Panse", "number": 1, "position": "GK", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_014_02", "name": "Umar Ahmed", "number": 2, "position": "RB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_014_03", "name": "Iwueke Obiuto", "number": 4, "position": "CB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_014_04", "name": "Amietimi Enewarikpemi", "number": 5, "position": "CB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_014_05", "name": "Ikouwem Utin", "number": 3, "position": "LB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_014_06", "name": "Paul Magit", "number": 6, "position": "CDM", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_014_07", "name": "Victor Dawa", "number": 8, "position": "CM", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_014_08", "name": "Yusuf Abdullahi", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_014_09", "name": "Olasunkanmi Quadri", "number": 10, "position": "CAM", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_014_10", "name": "Samuel Lucio Kalu", "number": 11, "position": "LW", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_014_11", "name": "Sad’eeq Yusuf", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+
+    {"playerId": "player_ng1_014_12", "name": "John Amah", "number": 30, "position": "GK", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_014_13", "name": "Ibrahim Yahaya", "number": 12, "position": "RB", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_014_14", "name": "Otakho Aghahowa", "number": 13, "position": "CB", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_014_15", "name": "Paul Odeh", "number": 14, "position": "LB", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_014_16", "name": "Gift Osadebe", "number": 15, "position": "CDM", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_014_17", "name": "Jonathan Okechukwu", "number": 16, "position": "CM", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_014_18", "name": "Promise Damala", "number": 17, "position": "CAM", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_014_19", "name": "Gideon Monday", "number": 18, "position": "LW", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_014_20", "name": "Paul Samson", "number": 19, "position": "RW", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_014_21", "name": "Ofem Gimba", "number": 20, "position": "ST", "country": "NG", "status": "bench"},
+
+    {"playerId": "player_ng1_014_22", "name": "Michael George", "number": 31, "position": "GK", "country": "NG", "status": "reserve"},
+    {"playerId": "player_ng1_014_23", "name": "Jimmy Ambrose", "number": 21, "position": "CDM", "country": "NG", "status": "reserve"},
+    {"playerId": "player_ng1_014_24", "name": "Mafeng Pam", "number": 22, "position": "CM", "country": "NG", "status": "reserve"},
+    {"playerId": "player_ng1_014_25", "name": "Ajiji Seyiefa Jackson", "number": 23, "position": "ST", "country": "NG", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}

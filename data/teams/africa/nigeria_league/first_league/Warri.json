@@ -1,0 +1,58 @@
+{
+  "teamKey": "Warri",
+
+  "name": "Warri Wolves FC",
+
+  "logo": "assets/logos/africa/nigeria/Warri.png",
+
+  "manager": {
+    "name": "Hassan Abdallah",
+    "country": "NG"
+  },
+
+  "stadium": {
+    "name": "Southern Delta University Stadium",
+    "capacity": 10000
+  },
+
+  "players": [
+    {"playerId": "player_ng1_020_01", "name": "Onome Onotafe", "number": 1, "position": "GK", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_020_02", "name": "Brown Braye", "number": 2, "position": "RB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_020_03", "name": "Akpos Adubi", "number": 4, "position": "CB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_020_04", "name": "Austin Oboroakpo", "number": 5, "position": "CB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_020_05", "name": "Walter Efe Ighoakpokrire", "number": 3, "position": "LB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_020_06", "name": "Ikenna Paul Hillary", "number": 6, "position": "CDM", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_020_07", "name": "Seth Mayi", "number": 8, "position": "CM", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_020_08", "name": "Kingsley Olie", "number": 7, "position": "RW", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_020_09", "name": "Michael Okoyoh", "number": 10, "position": "CAM", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_020_10", "name": "Othuke Egbo", "number": 11, "position": "LW", "country": "NG", "status": "starter"},
+    {"playerId": "player_ng1_020_11", "name": "Chisom Orji", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
+
+    {"playerId": "player_ng1_020_12", "name": "Divine Chidera", "number": 30, "position": "GK", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_020_13", "name": "Emmanuel Bakare", "number": 12, "position": "RB", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_020_14", "name": "Olisema Ekene", "number": 13, "position": "CB", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_020_15", "name": "Chimamkpa Deruo", "number": 14, "position": "LB", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_020_16", "name": "Jude Ebhohon", "number": 15, "position": "CM", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_020_17", "name": "Obukowho Elvis", "number": 16, "position": "CAM", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_020_18", "name": "Juwon Olufemi", "number": 17, "position": "RW", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_020_19", "name": "Lucky Emariojake", "number": 18, "position": "LW", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_020_20", "name": "Uche Ihuarulam", "number": 19, "position": "ST", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_020_21", "name": "Ademola Adebambo", "number": 20, "position": "ST", "country": "NG", "status": "bench"},
+
+    {"playerId": "player_ng1_020_22", "name": "Joke Efeverha", "number": 31, "position": "GK", "country": "NG", "status": "reserve"},
+    {"playerId": "player_ng1_020_23", "name": "Godstime Edewor", "number": 21, "position": "ST", "country": "NG", "status": "reserve"},
+    {"playerId": "player_ng1_020_24", "name": "Jacob Tobore", "number": 22, "position": "CM", "country": "NG", "status": "reserve"},
+    {"playerId": "player_ng1_020_25", "name": "David Joseph", "number": 23, "position": "RW", "country": "NG", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}
