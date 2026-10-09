@@ -1,15 +1,20 @@
 {
   "teamKey": "O.Prts",
+
   "name": "Orlando Pirates",
+
   "logo": "assets/logos/africa/south_africa/OPrts.png",
+
   "manager": {
     "name": "Abdeslam Ouaddou",
     "country": "MA"
   },
+
   "stadium": {
     "name": "Orlando Stadium",
     "capacity": 37139
   },
+
   "players": [
     {"playerId": "player_za1_010_01", "name": "Sipho Chaine", "number": 24, "position": "GK", "country": "ZA", "status": "starter"},
     {"playerId": "player_za1_010_02", "name": "K. Sebelebele", "number": 36, "position": "RB", "country": "ZA", "status": "starter"},
@@ -34,11 +39,12 @@
     {"playerId": "player_za1_010_20", "name": "Yanela Mbuthuma", "number": 9, "position": "ST", "country": "ZA", "status": "bench"},
     {"playerId": "player_za1_010_21", "name": "Boitumelo Radiopane", "number": 25, "position": "ST", "country": "ZA", "status": "bench"},
 
-    {"playerId": "player_za1_010_22", "name": "Ghampani Lungu", "number": 23, "position": "RW", "country": "ZM", "status": "reserve"},
-    {"playerId": "player_za1_010_23", "name": "Daniel Msendami", "number": 45, "position": "LW", "country": "ZW", "status": "reserve"},
-    {"playerId": "player_za1_010_24", "name": "Bohlale Ngwato", "number": 47, "position": "RW", "country": "ZA", "status": "reserve"},
-    {"playerId": "player_za1_010_25", "name": "Kabelo Dlamini", "number": 18, "position": "CAM", "country": "ZA", "status": "reserve"}
+    {"playerId": "player_za1_010_22", "name": "Siyabonga Dladla", "number": 32, "position": "GK", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_010_23", "name": "Ghampani Lungu", "number": 23, "position": "RW", "country": "ZM", "status": "reserve"},
+    {"playerId": "player_za1_010_24", "name": "Daniel Msendami", "number": 45, "position": "LW", "country": "ZW", "status": "reserve"},
+    {"playerId": "player_za1_010_25", "name": "Bohlale Ngwato", "number": 47, "position": "RW", "country": "ZA", "status": "reserve"}
   ],
+
   "tactics": {
     "formation": "4-2-3-1",
     "captain": 24,
