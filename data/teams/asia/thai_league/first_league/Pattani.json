@@ -1,50 +1,58 @@
- {
-    "teamKey": "Pattan",
-    "name": "Pattani FC",
-    "logo": "assets/logos/asia/tailand/Pattani.png",
-    "manager": {
-      "name": "Harnnarong Chunhakunakorn",
-      "country": "TH"
-    },
-    "stadium": {
-      "name": "Pattani Provincial Administrative Organization Stadium",
-      "capacity": 12000
-    },
-    "players": [
-      {"playerId": "player_th1_008_01", "name": "Damyan Damyanov", "number": 1, "position": "GK", "country": "BG", "status": "starter"},
-      {"playerId": "player_th1_008_02", "name": "Abdulhafiz Bueraheng", "number": 2, "position": "RB", "country": "TH", "status": "starter"},
-      {"playerId": "player_th1_008_03", "name": "Ittipon Khampliw", "number": 19, "position": "CB", "country": "TH", "status": "starter"},
-      {"playerId": "player_th1_008_04", "name": "Marlon Silva", "number": 26, "position": "CB", "country": "BR", "status": "starter"},
-      {"playerId": "player_th1_008_05", "name": "Noppadol Kasa", "number": 5, "position": "LB", "country": "TH", "status": "starter"},
-      {"playerId": "player_th1_008_06", "name": "Thirapak Prueangna", "number": 6, "position": "CDM", "country": "TH", "status": "starter"},
-      {"playerId": "player_th1_008_07", "name": "Naruephon Proomimas", "number": 42, "position": "CM", "country": "TH", "status": "starter"},
-      {"playerId": "player_th1_008_08", "name": "Adam Lassamano", "number": 30, "position": "CM", "country": "TH", "status": "starter"},
-      {"playerId": "player_th1_008_09", "name": "Chitsanupong Phimpsang", "number": 11, "position": "RW", "country": "TH", "status": "starter"},
-      {"playerId": "player_th1_008_10", "name": "Janepob Phokhi", "number": 9, "position": "LW", "country": "TH", "status": "starter"},
-      {"playerId": "player_th1_008_11", "name": "Carlos Neto", "number": 96, "position": "ST", "country": "BR", "status": "starter"},
-      {"playerId": "player_th1_008_12", "name": "Adithep Chaisrianan", "number": 7, "position": "CAM", "country": "TH", "status": "bench"},
-      {"playerId": "player_th1_008_13", "name": "Muhammat Mamah", "number": 99, "position": "GK", "country": "TH", "status": "bench"},
-      {"playerId": "player_th1_008_14", "name": "Amran Bungosayu", "number": 25, "position": "GK", "country": "TH", "status": "reserve"},
-      {"playerId": "player_th1_008_15", "name": "Anusorn Jaipetch", "number": 4, "position": "CB", "country": "TH", "status": "bench"},
-      {"playerId": "player_th1_008_16", "name": "Sukree Etae", "number": 3, "position": "LB", "country": "TH", "status": "bench"},
-      {"playerId": "player_th1_008_17", "name": "Adisak Ganu", "number": 20, "position": "CM", "country": "TH", "status": "bench"},
-      {"playerId": "player_th1_008_18", "name": "Felipe Nunes", "number": 10, "position": "CAM", "country": "BR", "status": "bench"},
-      {"playerId": "player_th1_008_19", "name": "Imron Hayiyusoh", "number": 90, "position": "ST", "country": "TH", "status": "bench"},
-      {"playerId": "player_th1_008_20", "name": "Abdulhafis Nibu", "number": 14, "position": "CM", "country": "TH", "status": "bench"},
-      {"playerId": "player_th1_008_21", "name": "Worachit Kanitsribampen", "number": 18, "position": "CM", "country": "TH", "status": "bench"},
-      {"playerId": "player_th1_008_22", "name": "Amin Buasang", "number": 22, "position": "RB", "country": "TH", "status": "bench"},
-      {"playerId": "player_th1_008_23", "name": "Faris Saena", "number": 23, "position": "LW", "country": "TH", "status": "reserve"},
-      {"playerId": "player_th1_008_24", "name": "Saharat Kanyaroj", "number": 8, "position": "CAM", "country": "TH", "status": "reserve"},
-      {"playerId": "player_th1_008_25", "name": "Muhammad Sulaiman", "number": 17, "position": "ST", "country": "TH", "status": "reserve"}
-    ],
-    "tactics": {
-      "formation": "3-5-2",
-      "captain": 1,
-      "setPieces": {
-        "penalty": 96,
-        "freeKick": 11,
-        "cornerLeft": 11,
-        "cornerRight": 9
-      }
+{
+  "teamKey": "Pattan",
+
+  "name": "Pattani FC",
+
+  "logo": "assets/logos/asia/tailand/Pattani.png",
+
+  "manager": {
+    "name": "Harnnarong Chunhakunakorn",
+    "country": "TH"
+  },
+
+  "stadium": {
+    "name": "Pattani Provincial Administrative Organization Stadium",
+    "capacity": 12000
+  },
+
+  "players": [
+    {"playerId": "player_th1_008_01", "name": "Damyan Damyanov", "number": 1, "position": "GK", "country": "BG", "status": "starter"},
+    {"playerId": "player_th1_008_02", "name": "Abdulhafiz Bueraheng", "number": 2, "position": "RB", "country": "TH", "status": "starter"},
+    {"playerId": "player_th1_008_03", "name": "Ittipon Khampliw", "number": 19, "position": "CB", "country": "TH", "status": "starter"},
+    {"playerId": "player_th1_008_04", "name": "Marlon Silva", "number": 26, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_th1_008_05", "name": "Noppadol Kasa", "number": 5, "position": "LB", "country": "TH", "status": "starter"},
+    {"playerId": "player_th1_008_06", "name": "Thirapak Prueangna", "number": 6, "position": "CDM", "country": "TH", "status": "starter"},
+    {"playerId": "player_th1_008_07", "name": "Naruephon Proomimas", "number": 42, "position": "CM", "country": "TH", "status": "starter"},
+    {"playerId": "player_th1_008_08", "name": "Adam Lassamano", "number": 30, "position": "CM", "country": "TH", "status": "starter"},
+    {"playerId": "player_th1_008_09", "name": "Chitsanupong Phimpsang", "number": 11, "position": "RW", "country": "TH", "status": "starter"},
+    {"playerId": "player_th1_008_10", "name": "Janepob Phokhi", "number": 9, "position": "LW", "country": "TH", "status": "starter"},
+    {"playerId": "player_th1_008_11", "name": "Carlos Neto", "number": 96, "position": "ST", "country": "BR", "status": "starter"},
+
+    {"playerId": "player_th1_008_12", "name": "Muhammat Mamah", "number": 99, "position": "GK", "country": "TH", "status": "bench"},
+    {"playerId": "player_th1_008_13", "name": "Adithep Chaisrianan", "number": 7, "position": "CAM", "country": "TH", "status": "bench"},
+    {"playerId": "player_th1_008_14", "name": "Anusorn Jaipetch", "number": 4, "position": "CB", "country": "TH", "status": "bench"},
+    {"playerId": "player_th1_008_15", "name": "Sukree Etae", "number": 3, "position": "LB", "country": "TH", "status": "bench"},
+    {"playerId": "player_th1_008_16", "name": "Adisak Ganu", "number": 20, "position": "CM", "country": "TH", "status": "bench"},
+    {"playerId": "player_th1_008_17", "name": "Felipe Nunes", "number": 10, "position": "CAM", "country": "BR", "status": "bench"},
+    {"playerId": "player_th1_008_18", "name": "Imron Hayiyusoh", "number": 90, "position": "ST", "country": "TH", "status": "bench"},
+    {"playerId": "player_th1_008_19", "name": "Abdulhafis Nibu", "number": 14, "position": "CM", "country": "TH", "status": "bench"},
+    {"playerId": "player_th1_008_20", "name": "Worachit Kanitsribampen", "number": 18, "position": "CM", "country": "TH", "status": "bench"},
+    {"playerId": "player_th1_008_21", "name": "Amin Buasang", "number": 22, "position": "RB", "country": "TH", "status": "bench"},
+
+    {"playerId": "player_th1_008_22", "name": "Amran Bungosayu", "number": 25, "position": "GK", "country": "TH", "status": "reserve"},
+    {"playerId": "player_th1_008_23", "name": "Faris Saena", "number": 23, "position": "LW", "country": "TH", "status": "reserve"},
+    {"playerId": "player_th1_008_24", "name": "Saharat Kanyaroj", "number": 8, "position": "CAM", "country": "TH", "status": "reserve"},
+    {"playerId": "player_th1_008_25", "name": "Muhammad Sulaiman", "number": 17, "position": "ST", "country": "TH", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "3-5-2",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 96,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 9
     }
   }
+}
