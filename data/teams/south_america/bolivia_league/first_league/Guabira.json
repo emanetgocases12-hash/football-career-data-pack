@@ -1,0 +1,58 @@
+{
+  "teamKey": "Guabir",
+
+  "name": "Club Deportivo Guabirá",
+
+  "logo": "assets/logos/south_america/bolivia/Guabir.png",
+
+  "manager": {
+    "name": "Leonardo Egüez",
+    "country": "BO"
+  },
+
+  "stadium": {
+    "name": "Estadio Gilberto Parada",
+    "capacity": 13000
+  },
+
+  "players": [
+    {"playerId": "player_bo1_008_01", "name": "Gastón Gómez", "number": 32, "position": "GK", "country": "AR", "status": "starter"},
+    {"playerId": "player_bo1_008_02", "name": "Andrés Moreno", "number": 8, "position": "CB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_008_03", "name": "Joaquín Barro", "number": 2, "position": "CB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_008_04", "name": "Jorge Flores", "number": 19, "position": "LB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_008_05", "name": "Sergio Gil", "number": 97, "position": "RB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_008_06", "name": "Ramiro Cristóbal", "number": 5, "position": "CDM", "country": "UY", "status": "starter"},
+    {"playerId": "player_bo1_008_07", "name": "Nicolas Masskooni", "number": 29, "position": "CM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_008_08", "name": "Héctor Sánchez", "number": 10, "position": "CM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_008_09", "name": "Milton Maciel", "number": 17, "position": "CAM", "country": "PY", "status": "starter"},
+    {"playerId": "player_bo1_008_10", "name": "Gustavo Peredo", "number": 7, "position": "RW", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_008_11", "name": "Roler Ferrufino", "number": 9, "position": "ST", "country": "BO", "status": "starter"},
+
+    {"playerId": "player_bo1_008_12", "name": "Manuel Ferrel", "number": 1, "position": "GK", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_008_13", "name": "Rafael Corrales", "number": 27, "position": "CB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_008_14", "name": "Milciades Portillo", "number": 21, "position": "CB", "country": "PY", "status": "bench"},
+    {"playerId": "player_bo1_008_15", "name": "David Robles", "number": 24, "position": "CB", "country": "PY", "status": "bench"},
+    {"playerId": "player_bo1_008_16", "name": "Pablo Melgar", "number": 16, "position": "CM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_008_17", "name": "Asiel Paredes", "number": 30, "position": "CDM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_008_18", "name": "Thiago Chávez", "number": 37, "position": "CM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_008_19", "name": "Rafinha", "number": 15, "position": "CAM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_008_20", "name": "Dener Da Silva", "number": 35, "position": "LW", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_008_21", "name": "Carlos Añez", "number": 6, "position": "RW", "country": "BO", "status": "bench"},
+
+    {"playerId": "player_bo1_008_22", "name": "Roger Coronado", "number": 25, "position": "GK", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_008_23", "name": "Andrés Ruiz", "number": 4, "position": "CM", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_008_24", "name": "Yuto Baigorria", "number": 42, "position": "CAM", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_008_25", "name": "Thiago Ribeiro", "number": 77, "position": "CM", "country": "BR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 32,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 17,
+      "cornerLeft": 17,
+      "cornerRight": 7
+    }
+  }
+}

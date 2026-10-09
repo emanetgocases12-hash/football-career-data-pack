@@ -1,0 +1,58 @@
+{
+  "teamKey": "Potosí",
+
+  "name": "CA Nacional Potosí",
+
+  "logo": "assets/logos/south_america/bolivia/Potosi.png",
+
+  "manager": {
+    "name": "Alexis Márquez",
+    "country": "CO"
+  },
+
+  "stadium": {
+    "name": "Estadio Víctor Augustín Ugarte",
+    "capacity": 32105
+  },
+
+  "players": [
+    {"playerId": "player_bo1_012_01", "name": "Pedro Galindo", "number": 23, "position": "GK", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_012_02", "name": "Luis Demiquel", "number": 33, "position": "CB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_012_03", "name": "Edisson Restrepo", "number": 6, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_bo1_012_04", "name": "Juan Orellana", "number": 25, "position": "LB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_012_05", "name": "Óscar Baldomar", "number": 21, "position": "RB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_012_06", "name": "Pedro Azogue", "number": 18, "position": "CDM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_012_07", "name": "Jhojan Arce", "number": 15, "position": "CM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_012_08", "name": "Luis Zeballos", "number": 24, "position": "CAM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_012_09", "name": "Jorge Rojas", "number": 11, "position": "LW", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_012_10", "name": "Andres Torrico", "number": 16, "position": "RW", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_012_11", "name": "Willan Álvarez", "number": 19, "position": "ST", "country": "BO", "status": "starter"},
+
+    {"playerId": "player_bo1_012_12", "name": "Elder Arauz", "number": 1, "position": "GK", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_012_13", "name": "Rodrigo Ávila", "number": 2, "position": "CB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_012_14", "name": "Nelson Amarilla", "number": 3, "position": "CB", "country": "PY", "status": "bench"},
+    {"playerId": "player_bo1_012_15", "name": "Kevin Quiroz", "number": 26, "position": "RB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_012_16", "name": "Diego Hoyos", "number": 22, "position": "CM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_012_17", "name": "Luis Pavia", "number": 8, "position": "RM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_012_18", "name": "Asaf Patzi", "number": 4, "position": "LM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_012_19", "name": "Maicon Solís", "number": 7, "position": "RW", "country": "EC", "status": "bench"},
+    {"playerId": "player_bo1_012_20", "name": "Schneider Peña", "number": 28, "position": "RW", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_012_21", "name": "Denis Pinto", "number": 29, "position": "ST", "country": "BO", "status": "bench"},
+
+    {"playerId": "player_bo1_012_22", "name": "Jorge Mejía", "number": 20, "position": "GK", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_012_23", "name": "Javier Guerra", "number": 14, "position": "RB", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_012_24", "name": "Erick Cano", "number": 77, "position": "LM", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_012_25", "name": "Alfredo García", "number": 17, "position": "RW", "country": "BO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 23,
+    "setPieces": {
+      "penalty": 19,
+      "freeKick": 24,
+      "cornerLeft": 24,
+      "cornerRight": 11
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "Oruro",
+
+  "name": "Real Oruro",
+
+  "logo": "assets/logos/south_america/bolivia/Oruro.png",
+
+  "manager": {
+    "name": "Néstor Colinas",
+    "country": "BO"
+  },
+
+  "stadium": {
+    "name": "Estadio Jesús Bermúdez",
+    "capacity": 40000
+  },
+
+  "players": [
+    {"playerId": "player_bo1_011_01", "name": "Ronaldo Huanacota", "number": 25, "position": "GK", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_011_02", "name": "Wilfredo Soleto", "number": 3, "position": "CB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_011_03", "name": "Yhon Jairo Villegas", "number": 23, "position": "CB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_011_04", "name": "Joao Quiñónez", "number": 88, "position": "RB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_011_05", "name": "Daniel Castellón", "number": 15, "position": "RB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_011_06", "name": "Francisco Gatti", "number": 33, "position": "CDM", "country": "AR", "status": "starter"},
+    {"playerId": "player_bo1_011_07", "name": "Carlos Ribera", "number": 8, "position": "CM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_011_08", "name": "Ademar Rivera", "number": 6, "position": "CM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_011_09", "name": "Hernán Tifner", "number": 26, "position": "RM", "country": "AR", "status": "starter"},
+    {"playerId": "player_bo1_011_10", "name": "Alexis Bravo", "number": 65, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_bo1_011_11", "name": "Juan Montenegro", "number": 50, "position": "LW", "country": "BO", "status": "starter"},
+
+    {"playerId": "player_bo1_011_12", "name": "Israel Peña", "number": 13, "position": "GK", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_011_13", "name": "Luis Torrico", "number": 2, "position": "CB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_011_14", "name": "Iván Huayhuata", "number": 21, "position": "CDM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_011_15", "name": "Miguel Quiroga", "number": 4, "position": "CB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_011_16", "name": "Jorge Lovera", "number": 20, "position": "CDM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_011_17", "name": "Pablo Pedraza", "number": 5, "position": "CB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_011_18", "name": "Javier Sanguinetti", "number": 10, "position": "CAM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_011_19", "name": "Miguel Bianconi", "number": 9, "position": "ST", "country": "BR", "status": "bench"},
+    {"playerId": "player_bo1_011_20", "name": "Gustavo Britos", "number": 11, "position": "ST", "country": "AR", "status": "bench"},
+    {"playerId": "player_bo1_011_21", "name": "Carlos Saucedo", "number": 7, "position": "ST", "country": "BO", "status": "bench"},
+
+    {"playerId": "player_bo1_011_22", "name": "Alex Arancibia", "number": 1, "position": "GK", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_011_23", "name": "José María Méndez", "number": 17, "position": "CM", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_011_24", "name": "Diego Rivero", "number": 27, "position": "LW", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_011_25", "name": "Rafael Mollercke", "number": 19, "position": "ST", "country": "BR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 25,
+    "setPieces": {
+      "penalty": 50,
+      "freeKick": 65,
+      "cornerLeft": 65,
+      "cornerRight": 50
+    }
+  }
+}

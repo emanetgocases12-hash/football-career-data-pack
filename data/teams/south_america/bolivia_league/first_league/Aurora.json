@@ -1,0 +1,58 @@
+{
+  "teamKey": "Aurora",
+
+  "name": "Club Aurora",
+
+  "logo": "assets/logos/south_america/bolivia/Aurora.png",
+
+  "manager": {
+    "name": "David Enrique Díaz",
+    "country": "BO"
+  },
+
+  "stadium": {
+    "name": "Estadio Félix Capriles",
+    "capacity": 32303
+  },
+
+  "players": [
+    {"playerId": "player_bo1_001_01", "name": "Rubén Cordano", "number": 12, "position": "GK", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_001_02", "name": "Leandro Barro", "number": 16, "position": "CB", "country": "AR", "status": "starter"},
+    {"playerId": "player_bo1_001_03", "name": "René Barbosa", "number": 3, "position": "CB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_001_04", "name": "Miyhel Ortiz", "number": 21, "position": "LB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_001_05", "name": "Sebastian Altamirano", "number": 32, "position": "RB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_001_06", "name": "Alfredo Amarilla", "number": 5, "position": "CDM", "country": "PY", "status": "starter"},
+    {"playerId": "player_bo1_001_07", "name": "Erwin Sánchez", "number": 19, "position": "CM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_001_08", "name": "Fabian Pinedo", "number": 77, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_bo1_001_09", "name": "Rodrigo Ramallo", "number": 10, "position": "LW", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_001_10", "name": "Alan Terrazas", "number": 69, "position": "RW", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_001_11", "name": "Michael Rangel", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+
+    {"playerId": "player_bo1_001_12", "name": "Joel Terrazas", "number": 1, "position": "GK", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_001_13", "name": "Enrique Troncoso", "number": 33, "position": "CB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_001_14", "name": "Julián Velázquez", "number": 4, "position": "CB", "country": "AR", "status": "bench"},
+    {"playerId": "player_bo1_001_15", "name": "José Córdova", "number": 15, "position": "CB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_001_16", "name": "Iván Vidaurre", "number": 24, "position": "LB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_001_17", "name": "Miguel Aguada", "number": 2, "position": "RB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_001_18", "name": "Ariel Flores", "number": 27, "position": "CM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_001_19", "name": "Jaime Cornejo", "number": 17, "position": "RM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_001_20", "name": "Leonardo Viviani", "number": 8, "position": "LW", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_001_21", "name": "José Verdún", "number": 11, "position": "ST", "country": "PY", "status": "bench"},
+
+    {"playerId": "player_bo1_001_22", "name": "Cristhian Chilo", "number": 30, "position": "GK", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_001_23", "name": "Oscar Vaca", "number": 28, "position": "LB", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_001_24", "name": "Alvaro Rios", "number": 25, "position": "CM", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_001_25", "name": "Sergio Ferreira", "number": 18, "position": "ST", "country": "BO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 12,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 77,
+      "cornerLeft": 77,
+      "cornerRight": 10
+    }
+  }
+}

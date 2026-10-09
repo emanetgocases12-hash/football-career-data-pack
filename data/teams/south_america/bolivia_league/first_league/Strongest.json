@@ -1,0 +1,58 @@
+{
+  "teamKey": "Strong",
+
+  "name": "The Strongest La Paz",
+
+  "logo": "assets/logos/south_america/bolivia/Strong.png",
+
+  "manager": {
+    "name": "Antonio Carlos Zago",
+    "country": "BR"
+  },
+
+  "stadium": {
+    "name": "Estadio Hernando Siles",
+    "capacity": 42000
+  },
+
+  "players": [
+    {"playerId": "player_bo1_014_01", "name": "Rodrigo Banegas", "number": 1, "position": "GK", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_014_02", "name": "José Moya", "number": 2, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_bo1_014_03", "name": "Adrián Jusino", "number": 5, "position": "CB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_014_04", "name": "Carlos Roca", "number": 19, "position": "LB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_014_05", "name": "Widen Saucedo", "number": 22, "position": "RB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_014_06", "name": "Santiago Arce", "number": 15, "position": "CDM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_014_07", "name": "Raúl Castro", "number": 10, "position": "CM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_014_08", "name": "Kevin Salvatierra", "number": 8, "position": "CAM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_014_09", "name": "Jaime Arrascaita", "number": 30, "position": "LW", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_014_10", "name": "Adrián Estacio", "number": 17, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_bo1_014_11", "name": "Darwin Lom", "number": 14, "position": "ST", "country": "GT", "status": "starter"},
+
+    {"playerId": "player_bo1_014_12", "name": "Diego Valdivia", "number": 12, "position": "GK", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_014_13", "name": "Pablo Pedraza", "number": 3, "position": "CB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_014_14", "name": "Yamil Portuncho", "number": 29, "position": "CB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_014_15", "name": "Martín Chiatti", "number": 4, "position": "CB", "country": "AR", "status": "bench"},
+    {"playerId": "player_bo1_014_16", "name": "Kevin Romay", "number": 7, "position": "LB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_014_17", "name": "Jovani Welch", "number": 6, "position": "CDM", "country": "PA", "status": "bench"},
+    {"playerId": "player_bo1_014_18", "name": "Víctor Cuellar", "number": 16, "position": "CDM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_014_19", "name": "Jonathan Bustos", "number": 18, "position": "CAM", "country": "AR", "status": "bench"},
+    {"playerId": "player_bo1_014_20", "name": "Fabricio Quaglio", "number": 21, "position": "LW", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_014_21", "name": "Víctor Ábrego", "number": 77, "position": "ST", "country": "BO", "status": "bench"},
+
+    {"playerId": "player_bo1_014_22", "name": "Sebastián Arismendi", "number": 23, "position": "GK", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_014_23", "name": "Dilan Saavedra", "number": 27, "position": "CM", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_014_24", "name": "Juan Santacruz", "number": 25, "position": "CM", "country": "CO", "status": "reserve"},
+    {"playerId": "player_bo1_014_25", "name": "Juan Cuellar", "number": 31, "position": "LW", "country": "BO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 14,
+      "freeKick": 8,
+      "cornerLeft": 8,
+      "cornerRight": 30
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "R.Potos",
+
+  "name": "Real Potosí",
+
+  "logo": "assets/logos/south_america/bolivia/RPotos.png",
+
+  "manager": {
+    "name": "Flabio Torres",
+    "country": "CO"
+  },
+
+  "stadium": {
+    "name": "Estadio Víctor Agustín Ugarte",
+    "capacity": 32000
+  },
+
+  "players": [
+    {"playerId": "player_bo1_013_01", "name": "David Akologo", "number": 99, "position": "GK", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_013_02", "name": "Bleiner Agrón", "number": 5, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_bo1_013_03", "name": "Carlos Chore", "number": 16, "position": "CB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_013_04", "name": "Luis Rodríguez", "number": 28, "position": "LB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_013_05", "name": "Juan Carlos Zampiery", "number": 2, "position": "RB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_013_06", "name": "Jairo Thomas", "number": 6, "position": "CM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_013_07", "name": "Imanol Cárdenas", "number": 8, "position": "CM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_013_08", "name": "Jose Alipaz", "number": 30, "position": "LM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_013_09", "name": "John Vargas", "number": 13, "position": "CAM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_013_10", "name": "Jeferson Rivas", "number": 18, "position": "ST", "country": "CO", "status": "starter"},
+    {"playerId": "player_bo1_013_11", "name": "Alejandro Cervantes", "number": 9, "position": "ST", "country": "BO", "status": "starter"},
+
+    {"playerId": "player_bo1_013_12", "name": "Christian Martínez", "number": 1, "position": "GK", "country": "AR", "status": "bench"},
+    {"playerId": "player_bo1_013_13", "name": "Sebastián Gamarra", "number": 24, "position": "CM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_013_14", "name": "Daniel Mancilla", "number": 4, "position": "CB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_013_15", "name": "Limberg Gutiérrez", "number": 20, "position": "CAM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_013_16", "name": "Roly Sejas", "number": 15, "position": "CM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_013_17", "name": "Daniel Cuellar", "number": 17, "position": "ST", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_013_18", "name": "Fabricio Suárez", "number": 7, "position": "ST", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_013_19", "name": "Jairo Sánchez", "number": 11, "position": "ST", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_013_20", "name": "Ronald Gallegos", "number": 10, "position": "CAM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_013_21", "name": "Miguel Quiroga", "number": 22, "position": "RB", "country": "BO", "status": "bench"},
+
+    {"playerId": "player_bo1_013_22", "name": "Juan Carvajal", "number": 29, "position": "GK", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_013_23", "name": "Carlos Mendoza", "number": 27, "position": "LW", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_013_24", "name": "Luis Garnica", "number": 14, "position": "CB", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_013_25", "name": "Stiven Plaza", "number": 12, "position": "ST", "country": "EC", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 99,
+    "setPieces": {
+      "penalty": 18,
+      "freeKick": 13,
+      "cornerLeft": 13,
+      "cornerRight": 13
+    }
+  }
+}

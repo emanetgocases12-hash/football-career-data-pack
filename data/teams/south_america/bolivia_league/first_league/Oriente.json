@@ -1,0 +1,58 @@
+{
+  "teamKey": "Orinte",
+
+  "name": "Club Deportivo Oriente Petrolero",
+
+  "logo": "assets/logos/south_america/bolivia/Orinte.png",
+
+  "manager": {
+    "name": "David González",
+    "country": "CO"
+  },
+
+  "stadium": {
+    "name": "Estadio Ramón Tahuichi Aguilera",
+    "capacity": 38000
+  },
+
+  "players": [
+    {"playerId": "player_bo1_010_01", "name": "Alejandro Torres", "number": 1, "position": "GK", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_010_02", "name": "Sebastián Álvarez", "number": 27, "position": "CB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_010_03", "name": "Andrés Ariza", "number": 2, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_bo1_010_04", "name": "Manuel Bonilla", "number": 4, "position": "LB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_010_05", "name": "Marco Velasco", "number": 24, "position": "RB", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_010_06", "name": "Jorge Lovera", "number": 20, "position": "CDM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_010_07", "name": "Jamir Berdecio", "number": 30, "position": "CM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_010_08", "name": "Franz Gonzales", "number": 15, "position": "CM", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_010_09", "name": "Joel Contreras", "number": 23, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_bo1_010_10", "name": "Leonardo Vaca", "number": 11, "position": "RW", "country": "BO", "status": "starter"},
+    {"playerId": "player_bo1_010_11", "name": "Kévin Soni", "number": 10, "position": "ST", "country": "CM", "status": "starter"},
+
+    {"playerId": "player_bo1_010_12", "name": "Joel Bernal", "number": 13, "position": "GK", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_010_13", "name": "Danco", "number": 3, "position": "CB", "country": "DO", "status": "bench"},
+    {"playerId": "player_bo1_010_14", "name": "Dico Roca", "number": 42, "position": "LB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_010_15", "name": "Jhon Velasco", "number": 28, "position": "LB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_010_16", "name": "Roberto Diez", "number": 22, "position": "RB", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_010_17", "name": "Mirko Tomianovic", "number": 17, "position": "CM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_010_18", "name": "Luciano Ursino", "number": 88, "position": "CM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_010_19", "name": "Celin Padilla", "number": 32, "position": "CAM", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_010_20", "name": "José Flores", "number": 7, "position": "RW", "country": "BO", "status": "bench"},
+    {"playerId": "player_bo1_010_21", "name": "Gilbert Álvarez", "number": 19, "position": "ST", "country": "BO", "status": "bench"},
+
+    {"playerId": "player_bo1_010_22", "name": "Leonardo Vaca", "number": 12, "position": "GK", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_010_23", "name": "Manuel Reyes", "number": 36, "position": "CB", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_010_24", "name": "Enrique Taborga", "number": 14, "position": "LB", "country": "BO", "status": "reserve"},
+    {"playerId": "player_bo1_010_25", "name": "Gary Rea", "number": 16, "position": "LW", "country": "BO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 23,
+      "cornerLeft": 23,
+      "cornerRight": 11
+    }
+  }
+}
