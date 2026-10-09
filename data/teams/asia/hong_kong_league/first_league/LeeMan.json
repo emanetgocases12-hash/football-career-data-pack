@@ -1,50 +1,58 @@
- {
-    "teamKey": "Lee Man",
-    "name": "Lee Man FC",
-    "logo": "assets/logos/asia/hong_kong/LeeMan.png",
-    "manager": {
-      "name": "Giancarlo Italiano",
-      "country": "AU"
-    },
-    "stadium": {
-      "name": "Mong Kok Stadium",
-      "capacity": 6600
-    },
-    "players": [
-      {"playerId": "player_hk1_007_01", "name": "Chan Ka Ho", "number": 28, "position": "GK", "country": "HK", "status": "starter"},
-      {"playerId": "player_hk1_007_02", "name": "Chan Yun Tung", "number": 5, "position": "RB", "country": "HK", "status": "starter"},
-      {"playerId": "player_hk1_007_03", "name": "Willian Gaucho", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
-      {"playerId": "player_hk1_007_04", "name": "Dostonbek Tursunov", "number": 44, "position": "CB", "country": "UZ", "status": "starter"},
-      {"playerId": "player_hk1_007_05", "name": "Ryoya Tachibana", "number": 4, "position": "LB", "country": "JP", "status": "starter"},
-      {"playerId": "player_hk1_007_06", "name": "Wu Chun Ming", "number": 6, "position": "CDM", "country": "HK", "status": "starter"},
-      {"playerId": "player_hk1_007_07", "name": "Elian Villalobos", "number": 32, "position": "CM", "country": "CO", "status": "starter"},
-      {"playerId": "player_hk1_007_08", "name": "Bozhidar Kraev", "number": 10, "position": "CAM", "country": "BG", "status": "starter"},
-      {"playerId": "player_hk1_007_09", "name": "Sohgo Ichikawa", "number": 11, "position": "RW", "country": "HK", "status": "starter"},
-      {"playerId": "player_hk1_007_10", "name": "Chung Wai Keung", "number": 80, "position": "LW", "country": "HK", "status": "starter"},
-      {"playerId": "player_hk1_007_11", "name": "Noah Baffoe", "number": 7, "position": "ST", "country": "ES", "status": "starter"},
-      {"playerId": "player_hk1_007_12", "name": "Leung Hing Kit", "number": 1, "position": "GK", "country": "HK", "status": "bench"},
-      {"playerId": "player_hk1_007_13", "name": "Tsang Yi Hang Ellison", "number": 22, "position": "CB", "country": "HK", "status": "bench"},
-      {"playerId": "player_hk1_007_14", "name": "Yung Hui To", "number": 31, "position": "LB", "country": "HK", "status": "bench"},
-      {"playerId": "player_hk1_007_15", "name": "Merabi Gigauri", "number": 77, "position": "CDM", "country": "GE", "status": "bench"},
-      {"playerId": "player_hk1_007_16", "name": "Ngan Lok Fung", "number": 16, "position": "CDM", "country": "HK", "status": "bench"},
-      {"playerId": "player_hk1_007_17", "name": "Yu Jesse Joy Yin", "number": 14, "position": "CAM", "country": "HK", "status": "bench"},
-      {"playerId": "player_hk1_007_18", "name": "Borja Martinez", "number": 8, "position": "CAM", "country": "ES", "status": "bench"},
-      {"playerId": "player_hk1_007_19", "name": "Luis Phelipe", "number": 19, "position": "ST", "country": "BR", "status": "bench"},
-      {"playerId": "player_hk1_007_20", "name": "Michael Udebuluzor", "number": 99, "position": "ST", "country": "HK", "status": "bench"},
-      {"playerId": "player_hk1_007_21", "name": "Lau Yu Ho", "number": 27, "position": "ST", "country": "HK", "status": "bench"},
-      {"playerId": "player_hk1_007_22", "name": "Hui Siu Chung", "number": 30, "position": "CM", "country": "HK", "status": "reserve"},
-      {"playerId": "player_hk1_007_23", "name": "Cheng Pak Kiu", "number": 40, "position": "CM", "country": "HK", "status": "reserve"},
-      {"playerId": "player_hk1_007_24", "name": "Cheng Tsz Ho Chester", "number": 41, "position": "CB", "country": "HK", "status": "reserve"},
-      {"playerId": "player_hk1_007_25", "name": "Hung James Kyle Sing Fu", "number": 42, "position": "RW", "country": "HK", "status": "reserve"}
-    ],
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 6,
-      "setPieces": {
-        "penalty": 7,
-        "freeKick": 10,
-        "cornerLeft": 11,
-        "cornerRight": 10
-      }
+{
+  "teamKey": "Lee Man",
+
+  "name": "Lee Man FC",
+
+  "logo": "assets/logos/asia/hong_kong/LeeMan.png",
+
+  "manager": {
+    "name": "Giancarlo Italiano",
+    "country": "AU"
+  },
+
+  "stadium": {
+    "name": "Mong Kok Stadium",
+    "capacity": 6600
+  },
+
+  "players": [
+    {"playerId": "player_hk1_007_01", "name": "Chan Ka Ho", "number": 28, "position": "GK", "country": "HK", "status": "starter"},
+    {"playerId": "player_hk1_007_02", "name": "Chan Yun Tung", "number": 5, "position": "RB", "country": "HK", "status": "starter"},
+    {"playerId": "player_hk1_007_03", "name": "Willian Gaucho", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_hk1_007_04", "name": "Dostonbek Tursunov", "number": 44, "position": "CB", "country": "UZ", "status": "starter"},
+    {"playerId": "player_hk1_007_05", "name": "Ryoya Tachibana", "number": 4, "position": "LB", "country": "JP", "status": "starter"},
+    {"playerId": "player_hk1_007_06", "name": "Wu Chun Ming", "number": 6, "position": "CDM", "country": "HK", "status": "starter"},
+    {"playerId": "player_hk1_007_07", "name": "Elian Villalobos", "number": 32, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_hk1_007_08", "name": "Bozhidar Kraev", "number": 10, "position": "CAM", "country": "BG", "status": "starter"},
+    {"playerId": "player_hk1_007_09", "name": "Sohgo Ichikawa", "number": 11, "position": "RW", "country": "HK", "status": "starter"},
+    {"playerId": "player_hk1_007_10", "name": "Chung Wai Keung", "number": 80, "position": "LW", "country": "HK", "status": "starter"},
+    {"playerId": "player_hk1_007_11", "name": "Noah Baffoe", "number": 7, "position": "ST", "country": "ES", "status": "starter"},
+
+    {"playerId": "player_hk1_007_12", "name": "Leung Hing Kit", "number": 1, "position": "GK", "country": "HK", "status": "bench"},
+    {"playerId": "player_hk1_007_13", "name": "Tsang Yi Hang Ellison", "number": 22, "position": "CB", "country": "HK", "status": "bench"},
+    {"playerId": "player_hk1_007_14", "name": "Yung Hui To", "number": 31, "position": "LB", "country": "HK", "status": "bench"},
+    {"playerId": "player_hk1_007_15", "name": "Merabi Gigauri", "number": 77, "position": "CDM", "country": "GE", "status": "bench"},
+    {"playerId": "player_hk1_007_16", "name": "Ngan Lok Fung", "number": 16, "position": "CDM", "country": "HK", "status": "bench"},
+    {"playerId": "player_hk1_007_17", "name": "Yu Jesse Joy Yin", "number": 14, "position": "CAM", "country": "HK", "status": "bench"},
+    {"playerId": "player_hk1_007_18", "name": "Borja Martinez", "number": 8, "position": "CAM", "country": "ES", "status": "bench"},
+    {"playerId": "player_hk1_007_19", "name": "Luis Phelipe", "number": 19, "position": "ST", "country": "BR", "status": "bench"},
+    {"playerId": "player_hk1_007_20", "name": "Michael Udebuluzor", "number": 99, "position": "ST", "country": "HK", "status": "bench"},
+    {"playerId": "player_hk1_007_21", "name": "Lau Yu Ho", "number": 27, "position": "ST", "country": "HK", "status": "bench"},
+
+    {"playerId": "player_hk1_007_22", "name": "Reco Lo Kin Fung", "number": 33, "position": "GK", "country": "HK", "status": "reserve"},
+    {"playerId": "player_hk1_007_23", "name": "Hui Siu Chung", "number": 30, "position": "CM", "country": "HK", "status": "reserve"},
+    {"playerId": "player_hk1_007_24", "name": "Cheng Pak Kiu", "number": 40, "position": "CM", "country": "HK", "status": "reserve"},
+    {"playerId": "player_hk1_007_25", "name": "Cheng Tsz Ho Chester", "number": 41, "position": "CB", "country": "HK", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 6,
+    "setPieces": {
+      "penalty": 7,
+      "freeKick": 10,
+      "cornerLeft": 11,
+      "cornerRight": 10
     }
   }
+}
