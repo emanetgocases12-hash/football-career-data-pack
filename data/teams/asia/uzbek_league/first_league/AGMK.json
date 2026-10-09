@@ -1,50 +1,58 @@
 {
-    "teamKey": "OKMK",
-    "name": "AGMK",
-    "logo": "assets/logos/asia/uzbekistan/Agmk.png",
-    "manager": {
-      "name": "Mirjalol Qosimov",
-      "country": "UZ"
-    },
-    "stadium": {
-      "name": "AGMK Stadium",
-      "capacity": 12000
-    },
-    "players": [
-      {"playerId": "player_uz1_001_01", "name": "Javokhir Ilyosov", "number": 35, "position": "GK", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_001_02", "name": "Sanjar Tursunov", "number": 2, "position": "RB", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_001_03", "name": "Islom Tukhtakhujaev", "number": 4, "position": "CB", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_001_04", "name": "Oleg Zoteev", "number": 5, "position": "CB", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_001_05", "name": "Sherzod Nasrullayev", "number": 3, "position": "LB", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_001_06", "name": "Mirjamol Qosimov", "number": 6, "position": "CM", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_001_07", "name": "Jahongir Abdusalomov", "number": 8, "position": "CM", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_001_08", "name": "Khurshed Giyosov", "number": 10, "position": "CAM", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_001_09", "name": "Jasur Hasanov", "number": 7, "position": "RW", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_001_10", "name": "Muhammadali Aliqulov", "number": 11, "position": "LW", "country": "UZ", "status": "starter"},
-      {"playerId": "player_uz1_001_11", "name": "Rubin Hebaj", "number": 9, "position": "ST", "country": "AL", "status": "starter"},
-      {"playerId": "player_uz1_001_12", "name": "Khamidullo Abdunabiev", "number": 23, "position": "GK", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_001_13", "name": "Shahzod Toirov", "number": 33, "position": "GK", "country": "UZ", "status": "reserve"},
-      {"playerId": "player_uz1_001_14", "name": "Avazbek Ulmasaliyev", "number": 12, "position": "CB", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_001_15", "name": "Diyor Kholmatov", "number": 14, "position": "CM", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_001_16", "name": "Behruz Shukurullayev", "number": 17, "position": "RW", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_001_17", "name": "Asadbek Sobirjonov", "number": 18, "position": "CM", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_001_18", "name": "Javokhir Sidikov", "number": 19, "position": "CAM", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_001_19", "name": "Sardor Rakhmonov", "number": 20, "position": "CB", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_001_20", "name": "Muhammadali Musaxonov", "number": 21, "position": "CM", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_001_21", "name": "Azamjon Temirxonov", "number": 22, "position": "ST", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_001_22", "name": "Dilshod Saitov", "number": 24, "position": "RB", "country": "UZ", "status": "bench"},
-      {"playerId": "player_uz1_001_23", "name": "Bobur Abdukholikov", "number": 27, "position": "ST", "country": "UZ", "status": "reserve"},
-      {"playerId": "player_uz1_001_24", "name": "Drago Bumbar", "number": 30, "position": "CM", "country": "RS", "status": "reserve"},
-      {"playerId": "player_uz1_001_25", "name": "Sanzhar Kuvvatov", "number": 99, "position": "GK", "country": "UZ", "status": "reserve"}
-    ],
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 35,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 10,
-        "cornerLeft": 10,
-        "cornerRight": 11
-      }
+  "teamKey": "OKMK",
+
+  "name": "AGMK",
+
+  "logo": "assets/logos/asia/uzbekistan/Agmk.png",
+
+  "manager": {
+    "name": "Mirjalol Qosimov",
+    "country": "UZ"
+  },
+
+  "stadium": {
+    "name": "AGMK Stadium",
+    "capacity": 12000
+  },
+
+  "players": [
+    {"playerId": "player_uz1_001_01", "name": "Javokhir Ilyosov", "number": 35, "position": "GK", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_001_02", "name": "Sanjar Tursunov", "number": 2, "position": "RB", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_001_03", "name": "Islom Tukhtakhujaev", "number": 4, "position": "CB", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_001_04", "name": "Oleg Zoteev", "number": 5, "position": "CB", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_001_05", "name": "Sherzod Nasrullayev", "number": 3, "position": "LB", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_001_06", "name": "Mirjamol Qosimov", "number": 6, "position": "CM", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_001_07", "name": "Jahongir Abdusalomov", "number": 8, "position": "CM", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_001_08", "name": "Khurshed Giyosov", "number": 10, "position": "CAM", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_001_09", "name": "Jasur Hasanov", "number": 7, "position": "RW", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_001_10", "name": "Muhammadali Aliqulov", "number": 11, "position": "LW", "country": "UZ", "status": "starter"},
+    {"playerId": "player_uz1_001_11", "name": "Rubin Hebaj", "number": 9, "position": "ST", "country": "AL", "status": "starter"},
+
+    {"playerId": "player_uz1_001_12", "name": "Khamidullo Abdunabiev", "number": 23, "position": "GK", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_001_13", "name": "Avazbek Ulmasaliyev", "number": 12, "position": "CB", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_001_14", "name": "Diyor Kholmatov", "number": 14, "position": "CM", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_001_15", "name": "Behruz Shukurullayev", "number": 17, "position": "RW", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_001_16", "name": "Asadbek Sobirjonov", "number": 18, "position": "CM", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_001_17", "name": "Javokhir Sidikov", "number": 19, "position": "CAM", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_001_18", "name": "Sardor Rakhmonov", "number": 20, "position": "CB", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_001_19", "name": "Muhammadali Musaxonov", "number": 21, "position": "CM", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_001_20", "name": "Azamjon Temirxonov", "number": 22, "position": "ST", "country": "UZ", "status": "bench"},
+    {"playerId": "player_uz1_001_21", "name": "Dilshod Saitov", "number": 24, "position": "RB", "country": "UZ", "status": "bench"},
+
+    {"playerId": "player_uz1_001_22", "name": "Umid Ergashev", "number": 99, "position": "GK", "country": "UZ", "status": "reserve"},
+    {"playerId": "player_uz1_001_23", "name": "Asadbek Akhmadjonov", "number": 33, "position": "CM", "country": "UZ", "status": "reserve"},
+    {"playerId": "player_uz1_001_24", "name": "Bobur Abdukholikov", "number": 27, "position": "ST", "country": "UZ", "status": "reserve"},
+    {"playerId": "player_uz1_001_25", "name": "Drago Bumbar", "number": 30, "position": "CM", "country": "RS", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 35,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 11
     }
   }
+}
