@@ -1,0 +1,58 @@
+{
+  "teamKey": "Orlnd C",
+
+  "name": "Orlando City SC",
+
+  "logo": "assets/logos/north_america/usa/Orlando.png",
+
+  "manager": {
+    "name": "Martín Perelman",
+    "country": "AR"
+  },
+
+  "stadium": {
+    "name": "Inter&Co Stadium",
+    "capacity": 25500
+  },
+
+  "players": [
+    {"playerId": "player_us1_020_01", "name": "Maxime Crépeau", "number": 71, "position": "GK", "country": "CA", "status": "starter"},
+    {"playerId": "player_us1_020_02", "name": "Dagur Dan Þórhallsson", "number": 17, "position": "RB", "country": "IS", "status": "starter"},
+    {"playerId": "player_us1_020_03", "name": "Robin Jansson", "number": 6, "position": "CB", "country": "SE", "status": "starter"},
+    {"playerId": "player_us1_020_04", "name": "David Brekalo", "number": 4, "position": "CB", "country": "SI", "status": "starter"},
+    {"playerId": "player_us1_020_05", "name": "Adrián Marín", "number": 3, "position": "LB", "country": "ES", "status": "starter"},
+    {"playerId": "player_us1_020_06", "name": "Wilder Cartagena", "number": 16, "position": "CDM", "country": "PE", "status": "starter"},
+    {"playerId": "player_us1_020_07", "name": "Eduard Atuesta", "number": 20, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_us1_020_08", "name": "Martín Ojeda", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_us1_020_09", "name": "Marco Pašalić", "number": 87, "position": "RW", "country": "HR", "status": "starter"},
+    {"playerId": "player_us1_020_10", "name": "Iván Angulo", "number": 77, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_us1_020_11", "name": "Duncan McGuire", "number": 13, "position": "ST", "country": "US", "status": "starter"},
+
+    {"playerId": "player_us1_020_12", "name": "Javier Otero", "number": 12, "position": "GK", "country": "VE", "status": "bench"},
+    {"playerId": "player_us1_020_13", "name": "Rodrigo Schlegel", "number": 15, "position": "CB", "country": "AR", "status": "bench"},
+    {"playerId": "player_us1_020_14", "name": "Kyle Smith", "number": 24, "position": "RB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_020_15", "name": "Rafael Santos", "number": 1, "position": "LB", "country": "BR", "status": "bench"},
+    {"playerId": "player_us1_020_16", "name": "Joran Gerbet", "number": 35, "position": "CDM", "country": "FR", "status": "bench"},
+    {"playerId": "player_us1_020_17", "name": "Colin Guske", "number": 25, "position": "CDM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_020_18", "name": "Gustavo Caraballo", "number": 65, "position": "CAM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_020_19", "name": "Tyrese Spicer", "number": 14, "position": "LW", "country": "TT", "status": "bench"},
+    {"playerId": "player_us1_020_20", "name": "Tiago", "number": 11, "position": "LW", "country": "BR", "status": "bench"},
+    {"playerId": "player_us1_020_21", "name": "Yutaro Tsukada", "number": 34, "position": "LW", "country": "JP", "status": "bench"},
+
+    {"playerId": "player_us1_020_22", "name": "Pedro Gallese", "number": 2, "position": "GK", "country": "PE", "status": "reserve"},
+    {"playerId": "player_us1_020_23", "name": "Harvey Sarajian", "number": 23, "position": "RW", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_020_24", "name": "Justin Ellis", "number": 22, "position": "ST", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_020_25", "name": "Nicolás Rodríguez", "number": 7, "position": "RW", "country": "CO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 6,
+    "setPieces": {
+      "penalty": 13,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 87
+    }
+  }
+}

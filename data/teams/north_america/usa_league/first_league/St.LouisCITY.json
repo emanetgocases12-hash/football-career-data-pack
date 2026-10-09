@@ -1,0 +1,58 @@
+{
+  "teamKey": "S'Louis",
+
+  "name": "St. Louis CITY SC",
+
+  "logo": "assets/logos/north_america/usa/SyLouis.png",
+
+  "manager": {
+    "name": "Yoann Damet",
+    "country": "FR"
+  },
+
+  "stadium": {
+    "name": "Energizer Park",
+    "capacity": 22500
+  },
+
+  "players": [
+    {"playerId": "player_us1_028_01", "name": "Roman Bürki", "number": 1, "position": "GK", "country": "CH", "status": "starter"},
+    {"playerId": "player_us1_028_02", "name": "Tomas Totland", "number": 14, "position": "RB", "country": "NO", "status": "starter"},
+    {"playerId": "player_us1_028_03", "name": "Joakim Nilsson", "number": 4, "position": "CB", "country": "SE", "status": "starter"},
+    {"playerId": "player_us1_028_04", "name": "Henry Kessler", "number": 5, "position": "CB", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_028_05", "name": "Jannes Horn", "number": 38, "position": "LB", "country": "DE", "status": "starter"},
+    {"playerId": "player_us1_028_06", "name": "Eduard Löwen", "number": 10, "position": "CM", "country": "DE", "status": "starter"},
+    {"playerId": "player_us1_028_07", "name": "Chris Durkin", "number": 8, "position": "CDM", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_028_08", "name": "Marcel Hartel", "number": 17, "position": "CAM", "country": "DE", "status": "starter"},
+    {"playerId": "player_us1_028_09", "name": "Cedric Teuchert", "number": 36, "position": "RW", "country": "DE", "status": "starter"},
+    {"playerId": "player_us1_028_10", "name": "João Klauss", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+    {"playerId": "player_us1_028_11", "name": "Simon Becher", "number": 11, "position": "LW", "country": "US", "status": "starter"},
+
+    {"playerId": "player_us1_028_12", "name": "Ben Lundt", "number": 39, "position": "GK", "country": "DE", "status": "bench"},
+    {"playerId": "player_us1_028_13", "name": "Kyle Hiebert", "number": 22, "position": "CB", "country": "CA", "status": "bench"},
+    {"playerId": "player_us1_028_14", "name": "Akil Watts", "number": 20, "position": "RB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_028_15", "name": "Anthony Markanich", "number": 13, "position": "LB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_028_16", "name": "Indiana Vassilev", "number": 19, "position": "CM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_028_17", "name": "Njabulo Blom", "number": 6, "position": "CDM", "country": "ZA", "status": "bench"},
+    {"playerId": "player_us1_028_18", "name": "Rasmus Alm", "number": 21, "position": "RW", "country": "SE", "status": "bench"},
+    {"playerId": "player_us1_028_19", "name": "Célio Pompeu", "number": 12, "position": "LW", "country": "BR", "status": "bench"},
+    {"playerId": "player_us1_028_20", "name": "Nökkvi Þórisson", "number": 29, "position": "LW", "country": "IS", "status": "bench"},
+    {"playerId": "player_us1_028_21", "name": "Jake Girdwood-Reich", "number": 3, "position": "CB", "country": "AU", "status": "bench"},
+
+    {"playerId": "player_us1_028_22", "name": "Christian Olivares", "number": 31, "position": "GK", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_028_23", "name": "John Klein", "number": 41, "position": "CAM", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_028_24", "name": "Miguel Perez", "number": 28, "position": "CM", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_028_25", "name": "Max Schneider", "number": 18, "position": "CM", "country": "DE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 17,
+      "cornerLeft": 17,
+      "cornerRight": 36
+    }
+  }
+}

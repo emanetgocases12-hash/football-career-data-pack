@@ -1,0 +1,58 @@
+{
+  "teamKey": "NE Revo",
+
+  "name": "New England Revolution",
+
+  "logo": "assets/logos/north_america/usa/NewEngland.png",
+
+  "manager": {
+    "name": "Marko Mitrović",
+    "country": "RS"
+  },
+
+  "stadium": {
+    "name": "Gillette Stadium",
+    "capacity": 68756
+  },
+
+  "players": [
+    {"playerId": "player_us1_018_01", "name": "Matt Turner", "number": 30, "position": "GK", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_018_02", "name": "Ilay Feingold", "number": 12, "position": "RB", "country": "IL", "status": "starter"},
+    {"playerId": "player_us1_018_03", "name": "Mamadou Fofana", "number": 2, "position": "CB", "country": "ML", "status": "starter"},
+    {"playerId": "player_us1_018_04", "name": "Brayan Ceballos", "number": 3, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_us1_018_05", "name": "Peyton Miller", "number": 25, "position": "LB", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_018_06", "name": "Matt Polster", "number": 8, "position": "CDM", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_018_07", "name": "Jackson Yueill", "number": 14, "position": "CM", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_018_08", "name": "Carles Gil", "number": 10, "position": "CAM", "country": "ES", "status": "starter"},
+    {"playerId": "player_us1_018_09", "name": "Griffin Yow", "number": 7, "position": "RW", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_018_10", "name": "Luca Langoni", "number": 41, "position": "LW", "country": "AR", "status": "starter"},
+    {"playerId": "player_us1_018_11", "name": "Leonardo Campana", "number": 9, "position": "ST", "country": "EC", "status": "starter"},
+
+    {"playerId": "player_us1_018_12", "name": "Donovan Parisian", "number": 33, "position": "GK", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_018_13", "name": "Tanner Beason", "number": 4, "position": "CB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_018_14", "name": "Keegan Hughes", "number": 5, "position": "CB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_018_15", "name": "Will Sands", "number": 23, "position": "LB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_018_16", "name": "Alhassan Yusuf", "number": 80, "position": "CM", "country": "NG", "status": "bench"},
+    {"playerId": "player_us1_018_17", "name": "Brooklyn Raines", "number": 21, "position": "CM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_018_18", "name": "Allan Oyirwoth", "number": 18, "position": "CDM", "country": "UG", "status": "bench"},
+    {"playerId": "player_us1_018_19", "name": "Diego Fagundez", "number": 77, "position": "CAM", "country": "UY", "status": "bench"},
+    {"playerId": "player_us1_018_20", "name": "Malcolm Fry", "number": 32, "position": "LW", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_018_21", "name": "Jack Panayotou", "number": 22, "position": "CM", "country": "US", "status": "bench"},
+
+    {"playerId": "player_us1_018_22", "name": "John David Gunn", "number": 73, "position": "GK", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_018_23", "name": "Cristiano Oliveira", "number": 35, "position": "RW", "country": "BR", "status": "reserve"},
+    {"playerId": "player_us1_018_24", "name": "Eric Klein", "number": 38, "position": "CM", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_018_25", "name": "Damario McIntosh", "number": 19, "position": "RB", "country": "US", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 7
+    }
+  }
+}

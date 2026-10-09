@@ -1,0 +1,58 @@
+{
+  "teamKey": "RSLCty",
+
+  "name": "Real Salt Lake City",
+
+  "logo": "assets/logos/north_america/usa/RealSalt.png",
+
+  "manager": {
+    "name": "Pablo Mastroeni",
+    "country": "US"
+  },
+
+  "stadium": {
+    "name": "America First Field",
+    "capacity": 20213
+  },
+
+  "players": [
+    {"playerId": "player_us1_023_01", "name": "Rafael Cabral", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+    {"playerId": "player_us1_023_02", "name": "DeAndre Yedlin", "number": 2, "position": "RB", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_023_03", "name": "Justen Glad", "number": 15, "position": "CB", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_023_04", "name": "Philip Quinton", "number": 26, "position": "CB", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_023_05", "name": "Lukas Engel", "number": 4, "position": "LB", "country": "DK", "status": "starter"},
+    {"playerId": "player_us1_023_06", "name": "Stijn Spierings", "number": 6, "position": "CDM", "country": "NL", "status": "starter"},
+    {"playerId": "player_us1_023_07", "name": "Noel Caliskan", "number": 92, "position": "CM", "country": "DE", "status": "starter"},
+    {"playerId": "player_us1_023_08", "name": "Diego Luna", "number": 10, "position": "CAM", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_023_09", "name": "Zavier Gozo", "number": 72, "position": "RW", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_023_10", "name": "Morgan Guilavogui", "number": 9, "position": "LW", "country": "GN", "status": "starter"},
+    {"playerId": "player_us1_023_11", "name": "Sergi Solans", "number": 22, "position": "ST", "country": "ES", "status": "starter"},
+
+    {"playerId": "player_us1_023_12", "name": "Mason Stajduhar", "number": 31, "position": "GK", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_023_13", "name": "Kobi Henry", "number": 3, "position": "CB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_023_14", "name": "Sam Junqua", "number": 29, "position": "LB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_023_15", "name": "Alexandros Katranis", "number": 98, "position": "LB", "country": "GR", "status": "bench"},
+    {"playerId": "player_us1_023_16", "name": "Pablo Ruiz", "number": 7, "position": "CM", "country": "AR", "status": "bench"},
+    {"playerId": "player_us1_023_17", "name": "Juan Manuel Sanabria", "number": 8, "position": "CM", "country": "UY", "status": "bench"},
+    {"playerId": "player_us1_023_18", "name": "Emeka Eneli", "number": 14, "position": "CDM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_023_19", "name": "Zach Booth", "number": 23, "position": "RW", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_023_20", "name": "Aiden Hezarkhani", "number": 39, "position": "CAM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_023_21", "name": "Dominik Marczuk", "number": 11, "position": "RW", "country": "PL", "status": "bench"},
+
+    {"playerId": "player_us1_023_22", "name": "Max Kerkvliet", "number": 24, "position": "GK", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_023_23", "name": "Victor Olatunji", "number": 17, "position": "ST", "country": "NG", "status": "reserve"},
+    {"playerId": "player_us1_023_24", "name": "Ariath Piol", "number": 19, "position": "ST", "country": "SS", "status": "reserve"},
+    {"playerId": "player_us1_023_25", "name": "Luca Moisa", "number": 34, "position": "CM", "country": "US", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 22,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 72
+    }
+  }
+}

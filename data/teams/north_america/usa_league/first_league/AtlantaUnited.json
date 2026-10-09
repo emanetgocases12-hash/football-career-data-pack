@@ -1,0 +1,58 @@
+{
+  "teamKey": "Atlnt U",
+
+  "name": "Atlanta United FC",
+
+  "logo": "assets/logos/north_america/usa/AtlntU.png",
+
+  "manager": {
+    "name": "Gerardo Martino",
+    "country": "AR"
+  },
+
+  "stadium": {
+    "name": "Mercedes-Benz Stadium",
+    "capacity": 73019
+  },
+
+  "players": [
+    {"playerId": "player_us1_001_01", "name": "Lucas Hoyos", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+    {"playerId": "player_us1_001_02", "name": "Ronald Hernández", "number": 2, "position": "RB", "country": "VE", "status": "starter"},
+    {"playerId": "player_us1_001_03", "name": "Stian Gregersen", "number": 5, "position": "CB", "country": "NO", "status": "starter"},
+    {"playerId": "player_us1_001_04", "name": "Enea Mihaj", "number": 4, "position": "CB", "country": "AL", "status": "starter"},
+    {"playerId": "player_us1_001_05", "name": "Pedro Amador", "number": 18, "position": "LB", "country": "PT", "status": "starter"},
+    {"playerId": "player_us1_001_06", "name": "Tristan Muyumba", "number": 8, "position": "CDM", "country": "FR", "status": "starter"},
+    {"playerId": "player_us1_001_07", "name": "Matías Galarza", "number": 88, "position": "CM", "country": "AR", "status": "starter"},
+    {"playerId": "player_us1_001_08", "name": "Miguel Almirón", "number": 10, "position": "RW", "country": "PY", "status": "starter"},
+    {"playerId": "player_us1_001_09", "name": "Aleksei Miranchuk", "number": 59, "position": "CAM", "country": "RU", "status": "starter"},
+    {"playerId": "player_us1_001_10", "name": "Saba Lobzhanidze", "number": 11, "position": "LW", "country": "GE", "status": "starter"},
+    {"playerId": "player_us1_001_11", "name": "Emmanuel Latte Lath", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
+
+    {"playerId": "player_us1_001_12", "name": "Jayden Hibbert", "number": 42, "position": "GK", "country": "JM", "status": "bench"},
+    {"playerId": "player_us1_001_13", "name": "Juan Berrocal", "number": 6, "position": "CB", "country": "ES", "status": "bench"},
+    {"playerId": "player_us1_001_14", "name": "Elías Báez", "number": 3, "position": "LB", "country": "AR", "status": "bench"},
+    {"playerId": "player_us1_001_15", "name": "Matthew Edwards", "number": 47, "position": "LB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_001_16", "name": "Steven Alzate", "number": 7, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_us1_001_17", "name": "Ajani Fortune", "number": 35, "position": "CAM", "country": "TT", "status": "bench"},
+    {"playerId": "player_us1_001_18", "name": "Will Reilly", "number": 28, "position": "CM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_001_19", "name": "Fafà Picault", "number": 22, "position": "LW", "country": "HT", "status": "bench"},
+    {"playerId": "player_us1_001_20", "name": "Tomás Jacob", "number": 55, "position": "CDM", "country": "AR", "status": "bench"},
+    {"playerId": "player_us1_001_21", "name": "Luke Brennan", "number": 20, "position": "LW", "country": "US", "status": "bench"},
+
+    {"playerId": "player_us1_001_22", "name": "Jonathan Ransom", "number": 51, "position": "GK", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_001_23", "name": "Adyn Torres", "number": 23, "position": "CDM", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_001_24", "name": "Cooper Sanchez", "number": 48, "position": "CM", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_001_25", "name": "Sérgio Santos", "number": 19, "position": "ST", "country": "BR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 59
+    }
+  }
+}

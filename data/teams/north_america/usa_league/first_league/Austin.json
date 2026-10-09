@@ -1,0 +1,58 @@
+{
+  "teamKey": "Austin",
+
+  "name": "Austin FC",
+
+  "logo": "assets/logos/north_america/usa/Austin.png",
+
+  "manager": {
+    "name": "Nico Estévez",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "Q2 Stadium",
+    "capacity": 20738
+  },
+
+  "players": [
+    {"playerId": "player_us1_002_01", "name": "Brad Stuver", "number": 1, "position": "GK", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_002_02", "name": "Mikkel Desler", "number": 3, "position": "RB", "country": "DK", "status": "starter"},
+    {"playerId": "player_us1_002_03", "name": "Brendan Hines-Ike", "number": 4, "position": "CB", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_002_04", "name": "Oleksandr Svatok", "number": 5, "position": "CB", "country": "UA", "status": "starter"},
+    {"playerId": "player_us1_002_05", "name": "Joseph Rosales", "number": 30, "position": "LB", "country": "HN", "status": "starter"},
+    {"playerId": "player_us1_002_06", "name": "Nicolás Dubersarsky", "number": 8, "position": "CDM", "country": "AR", "status": "starter"},
+    {"playerId": "player_us1_002_07", "name": "Owen Wolff", "number": 33, "position": "CM", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_002_08", "name": "Facundo Torres", "number": 11, "position": "RW", "country": "UY", "status": "starter"},
+    {"playerId": "player_us1_002_09", "name": "Myrto Uzuni", "number": 10, "position": "CAM", "country": "AL", "status": "starter"},
+    {"playerId": "player_us1_002_10", "name": "Jayden Nelson", "number": 7, "position": "LW", "country": "CA", "status": "starter"},
+    {"playerId": "player_us1_002_11", "name": "Brandon Vázquez", "number": 9, "position": "ST", "country": "US", "status": "starter"},
+
+    {"playerId": "player_us1_002_12", "name": "Damian Las", "number": 12, "position": "GK", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_002_13", "name": "Jon Bell", "number": 15, "position": "CB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_002_14", "name": "Jon Gallagher", "number": 17, "position": "LB", "country": "IE", "status": "bench"},
+    {"playerId": "player_us1_002_15", "name": "Riley Thomas", "number": 2, "position": "RB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_002_16", "name": "Mateja Djordjević", "number": 6, "position": "CB", "country": "RS", "status": "bench"},
+    {"playerId": "player_us1_002_17", "name": "Ilie Sánchez", "number": 16, "position": "CDM", "country": "ES", "status": "bench"},
+    {"playerId": "player_us1_002_18", "name": "Micah Burton", "number": 32, "position": "CAM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_002_19", "name": "Ervin Torres", "number": 38, "position": "CM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_002_20", "name": "CJ Fodrey", "number": 19, "position": "LW", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_002_21", "name": "Christian Ramirez", "number": 21, "position": "ST", "country": "US", "status": "bench"},
+
+    {"playerId": "player_us1_002_22", "name": "Stefan Cleveland", "number": 24, "position": "GK", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_002_23", "name": "Daniel Pereira", "number": 18, "position": "CM", "country": "VE", "status": "reserve"},
+    {"playerId": "player_us1_002_24", "name": "Jáder Obrian", "number": 13, "position": "RW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_us1_002_25", "name": "Osman Bukari", "number": 14, "position": "RW", "country": "GH", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 10
+    }
+  }
+}

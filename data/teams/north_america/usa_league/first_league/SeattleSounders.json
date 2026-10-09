@@ -1,0 +1,58 @@
+{
+  "teamKey": "Sttle S",
+
+  "name": "Seattle Sounders FC",
+
+  "logo": "assets/logos/north_america/usa/Seattle.png",
+
+  "manager": {
+    "name": "Brian Schmetzer",
+    "country": "US"
+  },
+
+  "stadium": {
+    "name": "Lumen Field",
+    "capacity": 68740
+  },
+
+  "players": [
+    {"playerId": "player_us1_027_01", "name": "Stefan Frei", "number": 24, "position": "GK", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_027_02", "name": "Alex Roldan", "number": 16, "position": "RB", "country": "SV", "status": "starter"},
+    {"playerId": "player_us1_027_03", "name": "Yeimar Gómez Andrade", "number": 28, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_us1_027_04", "name": "Jackson Ragen", "number": 25, "position": "CB", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_027_05", "name": "Nouhou Tolo", "number": 5, "position": "LB", "country": "CM", "status": "starter"},
+    {"playerId": "player_us1_027_06", "name": "Obed Vargas", "number": 18, "position": "CM", "country": "MX", "status": "starter"},
+    {"playerId": "player_us1_027_07", "name": "João Paulo", "number": 6, "position": "CDM", "country": "BR", "status": "starter"},
+    {"playerId": "player_us1_027_08", "name": "Albert Rusnák", "number": 11, "position": "CAM", "country": "SK", "status": "starter"},
+    {"playerId": "player_us1_027_09", "name": "Pedro de la Vega", "number": 10, "position": "LW", "country": "AR", "status": "starter"},
+    {"playerId": "player_us1_027_10", "name": "Jordan Morris", "number": 13, "position": "ST", "country": "US", "status": "starter"},
+    {"playerId": "player_us1_027_11", "name": "Jesús Ferreira", "number": 9, "position": "RW", "country": "US", "status": "starter"},
+
+    {"playerId": "player_us1_027_12", "name": "Andrew Thomas", "number": 26, "position": "GK", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_027_13", "name": "Nathan Cardoso", "number": 4, "position": "CB", "country": "BR", "status": "bench"},
+    {"playerId": "player_us1_027_14", "name": "Reed Baker-Whiting", "number": 21, "position": "LB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_027_15", "name": "Kalani Kossa-Rienzi", "number": 85, "position": "RB", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_027_16", "name": "Cristian Roldan", "number": 7, "position": "CM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_027_17", "name": "Danny Leyva", "number": 75, "position": "CM", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_027_18", "name": "Paul Rothrock", "number": 14, "position": "LW", "country": "US", "status": "bench"},
+    {"playerId": "player_us1_027_19", "name": "Georgi Minoungou", "number": 93, "position": "LW", "country": "BF", "status": "bench"},
+    {"playerId": "player_us1_027_20", "name": "Raúl Ruidíaz", "number": 99, "position": "ST", "country": "PE", "status": "bench"},
+    {"playerId": "player_us1_027_21", "name": "Braudílio Rodrigues", "number": 17, "position": "ST", "country": "CV", "status": "bench"},
+
+    {"playerId": "player_us1_027_22", "name": "Jacob Castro", "number": 29, "position": "GK", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_027_23", "name": "Sota Kitahara", "number": 45, "position": "CM", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_027_24", "name": "Cody Baker", "number": 33, "position": "CB", "country": "US", "status": "reserve"},
+    {"playerId": "player_us1_027_25", "name": "Snyder Brunell", "number": 37, "position": "CM", "country": "US", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 24,
+    "setPieces": {
+      "penalty": 13,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 10
+    }
+  }
+}
