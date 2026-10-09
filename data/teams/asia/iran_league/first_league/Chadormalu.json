@@ -1,52 +1,58 @@
- {
-    "teamKey": "Chador",
-    "name": "Chadormalu Ardakan",
-    "logo": "assets/logos/asia/iran/Chadormalu.png",
-    "manager": {
-      "name": "Mohammad Akhbari",
-      "country": "IR"
-    },
-    "stadium": {
-      "name": "Shahid Nassiri Stadium",
-      "capacity": 11365
-    },
-    "players": [
-      {"playerId": "player_ir1_003_01", "name": "Edson Mardden", "number": 12, "position": "GK", "country": "BR", "status": "starter"},
-      {"playerId": "player_ir1_003_02", "name": "Saeid Mohammadfar", "number": 2, "position": "RB", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_003_03", "name": "Alireza Arta", "number": 3, "position": "CB", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_003_04", "name": "Aref Gholami", "number": 8, "position": "CB", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_003_05", "name": "Segundo Portocarrero", "number": 33, "position": "LB", "country": "EC", "status": "starter"},
-      {"playerId": "player_ir1_003_06", "name": "Diego Torres", "number": 6, "position": "CDM", "country": "PY", "status": "starter"},
-      {"playerId": "player_ir1_003_07", "name": "Amir Reza Mahmoud Abadi", "number": 13, "position": "CM", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_003_08", "name": "Renny Simisterra", "number": 11, "position": "RW", "country": "EC", "status": "starter"},
-      {"playerId": "player_ir1_003_09", "name": "Mohammadhossein Khosravi", "number": 78, "position": "CAM", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_003_10", "name": "Reza Dehghan", "number": 76, "position": "LW", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_003_11", "name": "Reza Mirzaei", "number": 9, "position": "ST", "country": "IR", "status": "starter"},
-  
-      {"playerId": "player_ir1_003_12", "name": "Hojjat Sedghi", "number": 1, "position": "GK", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_003_13", "name": "Sirous Sadeghian", "number": 5, "position": "CB", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_003_14", "name": "Mobin Ghojoghi", "number": 69, "position": "LB", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_003_15", "name": "Alireza Safari", "number": 70, "position": "CM", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_003_16", "name": "Taha Farahani", "number": 66, "position": "CM", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_003_17", "name": "Mohammadtaha Tabatabaei", "number": 72, "position": "RW", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_003_18", "name": "Sajjad Mashhadi", "number": 88, "position": "ST", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_003_19", "name": "Ali Kamali", "number": 14, "position": "ST", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_003_20", "name": "Iliya Negahdari", "number": 17, "position": "LW", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_003_21", "name": "Amirreza Eslamtalab", "number": 97, "position": "ST", "country": "IR", "status": "bench"},
-  
-      {"playerId": "player_ir1_003_22", "name": "Amirhossein Asiabanpour", "number": 90, "position": "GK", "country": "IR", "status": "reserve"},
-      {"playerId": "player_ir1_003_23", "name": "Amirhossein Ahmadsadeghi", "number": 99, "position": "GK", "country": "IR", "status": "reserve"},
-      {"playerId": "player_ir1_003_24", "name": "Mohammad Asadi", "number": 19, "position": "ST", "country": "IR", "status": "reserve"},
-      {"playerId": "player_ir1_003_25", "name": "Alireza Safari Jr", "number": 24, "position": "RM", "country": "IR", "status": "reserve"}
-    ],
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 3,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 11,
-        "cornerLeft": 11,
-        "cornerRight": 76
-      }
+{
+  "teamKey": "Chador",
+
+  "name": "Chadormalu Ardakan",
+
+  "logo": "assets/logos/asia/iran/Chadormalu.png",
+
+  "manager": {
+    "name": "Mohammad Akhbari",
+    "country": "IR"
+  },
+
+  "stadium": {
+    "name": "Shahid Nassiri Stadium",
+    "capacity": 11365
+  },
+
+  "players": [
+    {"playerId": "player_ir1_003_01", "name": "Edson Mardden", "number": 12, "position": "GK", "country": "BR", "status": "starter"},
+    {"playerId": "player_ir1_003_02", "name": "Saeid Mohammadfar", "number": 2, "position": "RB", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_003_03", "name": "Alireza Arta", "number": 3, "position": "CB", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_003_04", "name": "Aref Gholami", "number": 8, "position": "CB", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_003_05", "name": "Segundo Portocarrero", "number": 33, "position": "LB", "country": "EC", "status": "starter"},
+    {"playerId": "player_ir1_003_06", "name": "Diego Torres", "number": 6, "position": "CDM", "country": "PY", "status": "starter"},
+    {"playerId": "player_ir1_003_07", "name": "Amir Reza Mahmoud Abadi", "number": 13, "position": "CM", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_003_08", "name": "Renny Simisterra", "number": 11, "position": "RW", "country": "EC", "status": "starter"},
+    {"playerId": "player_ir1_003_09", "name": "Mohammadhossein Khosravi", "number": 78, "position": "CAM", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_003_10", "name": "Reza Dehghan", "number": 76, "position": "LW", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_003_11", "name": "Reza Mirzaei", "number": 9, "position": "ST", "country": "IR", "status": "starter"},
+
+    {"playerId": "player_ir1_003_12", "name": "Hojjat Sedghi", "number": 1, "position": "GK", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_003_13", "name": "Sirous Sadeghian", "number": 5, "position": "CB", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_003_14", "name": "Mobin Ghojoghi", "number": 69, "position": "LB", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_003_15", "name": "Alireza Safari", "number": 70, "position": "CM", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_003_16", "name": "Taha Farahani", "number": 66, "position": "CM", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_003_17", "name": "Mohammadtaha Tabatabaei", "number": 72, "position": "RW", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_003_18", "name": "Sajjad Mashhadi", "number": 88, "position": "ST", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_003_19", "name": "Ali Kamali", "number": 14, "position": "ST", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_003_20", "name": "Iliya Negahdari", "number": 17, "position": "LW", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_003_21", "name": "Amirreza Eslamtalab", "number": 97, "position": "ST", "country": "IR", "status": "bench"},
+
+    {"playerId": "player_ir1_003_22", "name": "Amirhossein Asiabanpour", "number": 90, "position": "GK", "country": "IR", "status": "reserve"},
+    {"playerId": "player_ir1_003_23", "name": "Mohammad Asadi", "number": 19, "position": "ST", "country": "IR", "status": "reserve"},
+    {"playerId": "player_ir1_003_24", "name": "Alireza Safari Jr", "number": 24, "position": "RM", "country": "IR", "status": "reserve"},
+    {"playerId": "player_ir1_003_25", "name": "Seyed Mohammadreza Hosseini", "number": 4, "position": "CB", "country": "IR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 3,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 76
     }
   }
+}
