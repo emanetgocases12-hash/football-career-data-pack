@@ -1,52 +1,58 @@
- {
-    "teamKey": "Paykan",
-    "name": "Paykan FC",
-    "logo": "assets/logos/asia/iran/Paykan.png",
-    "manager": {
-      "name": "Saket Elhami",
-      "country": "IR"
-    },
-    "stadium": {
-      "name": "Shahid Dastgerdi Stadium",
-      "capacity": 8250
-    },
-    "players": [
-      {"playerId": "player_ir1_012_01", "name": "Hossein PourHamidi", "number": 1, "position": "GK", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_012_02", "name": "Amirhossein Gholami", "number": 2, "position": "RB", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_012_03", "name": "Saeb Mohebi", "number": 6, "position": "CB", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_012_04", "name": "Amirreza Alimoradi", "number": 16, "position": "CB", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_012_05", "name": "Nima Ahmadi", "number": 44, "position": "LB", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_012_06", "name": "Farid Amiri", "number": 11, "position": "RM", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_012_07", "name": "Farshid Bagheri", "number": 14, "position": "CM", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_012_08", "name": "Reza Shekari", "number": 10, "position": "CM", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_012_09", "name": "Hojjat Ahmadi", "number": 7, "position": "LM", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_012_10", "name": "Saman Nariman Jahan", "number": 19, "position": "ST", "country": "IR", "status": "starter"},
-      {"playerId": "player_ir1_012_11", "name": "Sajjad Ashouri", "number": 90, "position": "ST", "country": "IR", "status": "starter"},
-  
-      {"playerId": "player_ir1_012_12", "name": "Armin Abbasi", "number": 13, "position": "GK", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_012_13", "name": "Amirali Madadizadeh", "number": 18, "position": "CB", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_012_14", "name": "Behzad Salami", "number": 4, "position": "RB", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_012_15", "name": "Mehdi Najafi", "number": 8, "position": "CM", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_012_16", "name": "Hassan Shoushtari", "number": 72, "position": "CM", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_012_17", "name": "Ali Dehghan", "number": 66, "position": "CDM", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_012_18", "name": "Ehsan Hadian", "number": 88, "position": "CAM", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_012_19", "name": "Erfan Jamshidi", "number": 77, "position": "RW", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_012_20", "name": "Mohammad Pourmohammadi", "number": 98, "position": "ST", "country": "IR", "status": "bench"},
-      {"playerId": "player_ir1_012_21", "name": "Mohammadsadegh Salimi", "number": 21, "position": "ST", "country": "IR", "status": "bench"},
-  
-      {"playerId": "player_ir1_012_22", "name": "Alireza Khodadadi", "number": 99, "position": "ST", "country": "IR", "status": "reserve"},
-      {"playerId": "player_ir1_012_23", "name": "Mohammad Rafiei", "number": 79, "position": "RW", "country": "IR", "status": "reserve"},
-      {"playerId": "player_ir1_012_24", "name": "Aliasghar Aarabi", "number": 96, "position": "LW", "country": "IR", "status": "reserve"},
-      {"playerId": "player_ir1_012_25", "name": "Aidin Fathi", "number": 35, "position": "CM", "country": "IR", "status": "reserve"}
-    ],
-    "tactics": {
-      "formation": "4-4-2",
-      "captain": 6,
-      "setPieces": {
-        "penalty": 90,
-        "freeKick": 11,
-        "cornerLeft": 11,
-        "cornerRight": 7
-      }
+{
+  "teamKey": "Paykan",
+
+  "name": "Paykan FC",
+
+  "logo": "assets/logos/asia/iran/Paykan.png",
+
+  "manager": {
+    "name": "Saket Elhami",
+    "country": "IR"
+  },
+
+  "stadium": {
+    "name": "Shahid Dastgerdi Stadium",
+    "capacity": 8250
+  },
+
+  "players": [
+    {"playerId": "player_ir1_012_01", "name": "Hossein PourHamidi", "number": 1, "position": "GK", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_012_02", "name": "Amirhossein Gholami", "number": 2, "position": "RB", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_012_03", "name": "Saeb Mohebi", "number": 6, "position": "CB", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_012_04", "name": "Amirreza Alimoradi", "number": 16, "position": "CB", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_012_05", "name": "Nima Ahmadi", "number": 44, "position": "LB", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_012_06", "name": "Farid Amiri", "number": 11, "position": "RM", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_012_07", "name": "Farshid Bagheri", "number": 14, "position": "CM", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_012_08", "name": "Reza Shekari", "number": 10, "position": "CM", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_012_09", "name": "Hojjat Ahmadi", "number": 7, "position": "LM", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_012_10", "name": "Saman Nariman Jahan", "number": 19, "position": "ST", "country": "IR", "status": "starter"},
+    {"playerId": "player_ir1_012_11", "name": "Sajjad Ashouri", "number": 90, "position": "ST", "country": "IR", "status": "starter"},
+
+    {"playerId": "player_ir1_012_12", "name": "Armin Abbasi", "number": 13, "position": "GK", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_012_13", "name": "Amirali Madadizadeh", "number": 18, "position": "CB", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_012_14", "name": "Behzad Salami", "number": 4, "position": "RB", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_012_15", "name": "Mehdi Najafi", "number": 8, "position": "CM", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_012_16", "name": "Hassan Shoushtari", "number": 72, "position": "CM", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_012_17", "name": "Ali Dehghan", "number": 66, "position": "CDM", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_012_18", "name": "Ehsan Hadian", "number": 88, "position": "CAM", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_012_19", "name": "Erfan Jamshidi", "number": 77, "position": "RW", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_012_20", "name": "Mohammad Pourmohammadi", "number": 98, "position": "ST", "country": "IR", "status": "bench"},
+    {"playerId": "player_ir1_012_21", "name": "Mohammadsadegh Salimi", "number": 21, "position": "ST", "country": "IR", "status": "bench"},
+
+    {"playerId": "player_ir1_012_22", "name": "Erfan Esfandiari", "number": 22, "position": "GK", "country": "IR", "status": "reserve"},
+    {"playerId": "player_ir1_012_23", "name": "Alireza Khodadadi", "number": 99, "position": "ST", "country": "IR", "status": "reserve"},
+    {"playerId": "player_ir1_012_24", "name": "Mohammad Rafiei", "number": 79, "position": "RW", "country": "IR", "status": "reserve"},
+    {"playerId": "player_ir1_012_25", "name": "Aliasghar Aarabi", "number": 96, "position": "LW", "country": "IR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-4-2",
+    "captain": 6,
+    "setPieces": {
+      "penalty": 90,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 7
     }
   }
+}
