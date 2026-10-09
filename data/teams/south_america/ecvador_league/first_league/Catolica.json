@@ -1,0 +1,58 @@
+{
+  "teamKey": "Católi",
+
+  "name": "CD Universidad Católica",
+
+  "logo": "assets/logos/south_america/ecvador/Catoli.png",
+
+  "manager": {
+    "name": "Diego Martínez",
+    "country": "EC"
+  },
+
+  "stadium": {
+    "name": "Olímpico Atahualpa",
+    "capacity": 39861
+  },
+
+  "players": [
+    {"playerId": "player_ec1_003_01", "name": "Rafael Romo", "number": 22, "position": "GK", "country": "VE", "status": "starter"},
+    {"playerId": "player_ec1_003_02", "name": "Gregori Anangonó", "number": 29, "position": "RB", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_003_03", "name": "Jhon Chancellor", "number": 4, "position": "CB", "country": "VE", "status": "starter"},
+    {"playerId": "player_ec1_003_04", "name": "Luis Cangá", "number": 33, "position": "CB", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_003_05", "name": "Diego Palacios", "number": 6, "position": "LB", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_003_06", "name": "Jerónimo Cacciabue", "number": 5, "position": "CDM", "country": "AR", "status": "starter"},
+    {"playerId": "player_ec1_003_07", "name": "Facundo Martínez", "number": 10, "position": "CM", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_003_08", "name": "Eddy Mejía", "number": 30, "position": "RW", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_003_09", "name": "Mauro Díaz", "number": 28, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_ec1_003_10", "name": "Byron Palacios", "number": 18, "position": "LW", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_003_11", "name": "José Fajardo", "number": 7, "position": "ST", "country": "PA", "status": "starter"},
+
+    {"playerId": "player_ec1_003_12", "name": "Johan Lara", "number": 12, "position": "GK", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_003_13", "name": "Christopher Benalcázar", "number": 27, "position": "CB", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_003_14", "name": "Darwin Nazareno", "number": 24, "position": "RB", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_003_15", "name": "Emiliano Clavijo", "number": 8, "position": "CM", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_003_16", "name": "Eric Valencia", "number": 44, "position": "RW", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_003_17", "name": "Everardo Rose", "number": 13, "position": "LW", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_003_18", "name": "Luis Moreno", "number": 15, "position": "CM", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_003_19", "name": "Marcos Sevillano", "number": 19, "position": "ST", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_003_20", "name": "Mauricio Alonso", "number": 32, "position": "CAM", "country": "UY", "status": "bench"},
+    {"playerId": "player_ec1_003_21", "name": "Azarias Londoño", "number": 9, "position": "ST", "country": "PA", "status": "bench"},
+
+    {"playerId": "player_ec1_003_22", "name": "Lucas Cueva", "number": 1, "position": "GK", "country": "EC", "status": "reserve"},
+    {"playerId": "player_ec1_003_23", "name": "Andrés Rodríguez", "number": 23, "position": "CM", "country": "EC", "status": "reserve"},
+    {"playerId": "player_ec1_003_24", "name": "Said Yánez", "number": 21, "position": "RW", "country": "EC", "status": "reserve"},
+    {"playerId": "player_ec1_003_25", "name": "Jimmy Evans", "number": 11, "position": "ST", "country": "UG", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 7,
+      "freeKick": 30,
+      "cornerLeft": 30,
+      "cornerRight": 18
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "Cuenca",
+
+  "name": "Deportivo Cuenca",
+
+  "logo": "assets/logos/south_america/ecvador/Cuenca.png",
+
+  "manager": {
+    "name": "Andrés Yllana",
+    "country": "AR"
+  },
+
+  "stadium": {
+    "name": "Estadio Alejandro Serrano Aguilar",
+    "capacity": 22000
+  },
+
+  "players": [
+    {"playerId": "player_ec1_004_01", "name": "Facundo Ferrero", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+    {"playerId": "player_ec1_004_02", "name": "Andrés López", "number": 25, "position": "RB", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_004_03", "name": "Eddie Guevara", "number": 23, "position": "CB", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_004_04", "name": "Patricio Boolsen", "number": 28, "position": "CB", "country": "AR", "status": "starter"},
+    {"playerId": "player_ec1_004_05", "name": "Yeltzin Erique", "number": 3, "position": "LB", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_004_06", "name": "Edison Vega", "number": 8, "position": "CDM", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_004_07", "name": "Mateo Maccari", "number": 30, "position": "CM", "country": "AR", "status": "starter"},
+    {"playerId": "player_ec1_004_08", "name": "Carlos Arboleda", "number": 37, "position": "RW", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_004_09", "name": "Lucas Mancinelli", "number": 7, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_ec1_004_10", "name": "Romario Ibarra", "number": 10, "position": "LW", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_004_11", "name": "Nicolás Leguizamón", "number": 9, "position": "ST", "country": "AR", "status": "starter"},
+
+    {"playerId": "player_ec1_004_12", "name": "Ethan Minda", "number": 12, "position": "GK", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_004_13", "name": "Ariel Mosquera", "number": 51, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_ec1_004_14", "name": "Santiago Postel", "number": 6, "position": "CB", "country": "AR", "status": "bench"},
+    {"playerId": "player_ec1_004_15", "name": "Mateo Piedra", "number": 18, "position": "LB", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_004_16", "name": "Jeremy Mejía", "number": 16, "position": "CM", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_004_17", "name": "Melvín Díaz", "number": 19, "position": "CM", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_004_18", "name": "Matías Klimowicz", "number": 29, "position": "CAM", "country": "AR", "status": "bench"},
+    {"playerId": "player_ec1_004_19", "name": "David González", "number": 49, "position": "RW", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_004_20", "name": "Germán Rivero", "number": 11, "position": "ST", "country": "AR", "status": "bench"},
+    {"playerId": "player_ec1_004_21", "name": "Jorge Ordóñez", "number": 43, "position": "ST", "country": "EC", "status": "bench"},
+
+    {"playerId": "player_ec1_004_22", "name": "Josué Méndez", "number": 82, "position": "GK", "country": "EC", "status": "reserve"},
+    {"playerId": "player_ec1_004_23", "name": "Bryan García", "number": 20, "position": "CM", "country": "EC", "status": "reserve"},
+    {"playerId": "player_ec1_004_24", "name": "Christian Benalcázar", "number": 88, "position": "RB", "country": "EC", "status": "reserve"},
+    {"playerId": "player_ec1_004_25", "name": "Stalin Morocho", "number": 99, "position": "CM", "country": "EC", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 37,
+      "cornerLeft": 37,
+      "cornerRight": 10
+    }
+  }
+}

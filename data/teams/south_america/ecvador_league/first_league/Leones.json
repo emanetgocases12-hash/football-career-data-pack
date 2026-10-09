@@ -1,0 +1,58 @@
+{
+  "teamKey": "Leone",
+
+  "name": "Leones FC",
+
+  "logo": "assets/logos/south_america/ecvador/Leone.png",
+
+  "manager": {
+    "name": "Matías Córdoba",
+    "country": "AR"
+  },
+
+  "stadium": {
+    "name": "Estadio Olímpico de Ibarra",
+    "capacity": 18600
+  },
+
+  "players": [
+    {"playerId": "player_ec1_009_01", "name": "Leonel Nazareno", "number": 45, "position": "GK", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_009_02", "name": "Jordan Morán", "number": 2, "position": "RB", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_009_03", "name": "Frixon Vargas", "number": 3, "position": "CB", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_009_04", "name": "Emiliano Griffa", "number": 6, "position": "CB", "country": "AR", "status": "starter"},
+    {"playerId": "player_ec1_009_05", "name": "Maiky De La Cruz", "number": 16, "position": "LB", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_009_06", "name": "Tobias Coppo", "number": 5, "position": "CDM", "country": "AR", "status": "starter"},
+    {"playerId": "player_ec1_009_07", "name": "Charles Vélez", "number": 8, "position": "CM", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_009_08", "name": "Mauro Luque", "number": 7, "position": "RW", "country": "AR", "status": "starter"},
+    {"playerId": "player_ec1_009_09", "name": "Agustín Mansilla", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_ec1_009_10", "name": "Cristhian Solano", "number": 99, "position": "LW", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_009_11", "name": "Juan Luis Anangonó", "number": 40, "position": "ST", "country": "EC", "status": "starter"},
+
+    {"playerId": "player_ec1_009_12", "name": "José Luis Angulo", "number": 24, "position": "GK", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_009_13", "name": "Jonathan Arroyo", "number": 4, "position": "CB", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_009_14", "name": "Nicolás Monserrat", "number": 23, "position": "LB", "country": "AR", "status": "bench"},
+    {"playerId": "player_ec1_009_15", "name": "Brian Kreiman", "number": 25, "position": "CB", "country": "AR", "status": "bench"},
+    {"playerId": "player_ec1_009_16", "name": "Segundo Portocarrero", "number": 34, "position": "RB", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_009_17", "name": "Alexis Méndez", "number": 20, "position": "CM", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_009_18", "name": "Oscar Pepinós", "number": 19, "position": "CM", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_009_19", "name": "Patricio Madero", "number": 29, "position": "CAM", "country": "AR", "status": "bench"},
+    {"playerId": "player_ec1_009_20", "name": "Darío Pazmiño", "number": 70, "position": "LW", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_009_21", "name": "Santiago Arrieta", "number": 9, "position": "ST", "country": "AR", "status": "bench"},
+
+    {"playerId": "player_ec1_009_22", "name": "Jeferson Arroyo", "number": 22, "position": "GK", "country": "EC", "status": "reserve"},
+    {"playerId": "player_ec1_009_23", "name": "Ariel Aguas", "number": 32, "position": "CM", "country": "EC", "status": "reserve"},
+    {"playerId": "player_ec1_009_24", "name": "Néstor Caicedo", "number": 27, "position": "RW", "country": "EC", "status": "reserve"},
+    {"playerId": "player_ec1_009_25", "name": "Ronny Borja", "number": 55, "position": "LW", "country": "EC", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 40,
+    "setPieces": {
+      "penalty": 40,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 99
+    }
+  }
+}

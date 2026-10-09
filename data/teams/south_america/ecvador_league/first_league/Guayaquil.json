@@ -1,0 +1,58 @@
+{
+  "teamKey": "Guayaq",
+
+  "name": "Guayaquil City FC",
+
+  "logo": "assets/logos/south_america/ecvador/Guayaq.png",
+
+  "manager": {
+    "name": "Pool Gavilánez",
+    "country": "EC"
+  },
+
+  "stadium": {
+    "name": "Estadio Christian Benítez Betancourt",
+    "capacity": 10152
+  },
+
+  "players": [
+    {"playerId": "player_ec1_007_01", "name": "Gilmar Napa", "number": 1, "position": "GK", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_007_02", "name": "Romario Caicedo", "number": 33, "position": "RB", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_007_03", "name": "Joshue Quiñónez", "number": 29, "position": "CB", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_007_04", "name": "Yardely Rodríguez", "number": 3, "position": "CB", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_007_05", "name": "Junior Ayoví", "number": 17, "position": "LB", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_007_06", "name": "Dixon Arroyo", "number": 14, "position": "CDM", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_007_07", "name": "Miler Bolaños", "number": 23, "position": "CM", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_007_08", "name": "José Miguel Andrade", "number": 21, "position": "RW", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_007_09", "name": "Damián Díaz", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_ec1_007_10", "name": "Anderson Naula", "number": 19, "position": "LW", "country": "EC", "status": "starter"},
+    {"playerId": "player_ec1_007_11", "name": "Edison Mero", "number": 11, "position": "ST", "country": "EC", "status": "starter"},
+
+    {"playerId": "player_ec1_007_12", "name": "Rodrigo Perea", "number": 12, "position": "GK", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_007_13", "name": "Roger Arias", "number": 6, "position": "CB", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_007_14", "name": "Esnaider Cabezas", "number": 51, "position": "CB", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_007_15", "name": "Erick Ladines", "number": 4, "position": "RB", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_007_16", "name": "Jonathan Ordóñez", "number": 16, "position": "LB", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_007_17", "name": "Pablo González", "number": 80, "position": "CM", "country": "AR", "status": "bench"},
+    {"playerId": "player_ec1_007_18", "name": "Madison Julio", "number": 5, "position": "CDM", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_007_19", "name": "Jean Humanante", "number": 8, "position": "CM", "country": "EC", "status": "bench"},
+    {"playerId": "player_ec1_007_20", "name": "Santiago Laurino", "number": 15, "position": "CM", "country": "UY", "status": "bench"},
+    {"playerId": "player_ec1_007_21", "name": "Diego Dorregaray", "number": 24, "position": "ST", "country": "AR", "status": "bench"},
+
+    {"playerId": "player_ec1_007_22", "name": "Eved Sanchez", "number": 25, "position": "GK", "country": "EC", "status": "reserve"},
+    {"playerId": "player_ec1_007_23", "name": "Kevin Sambonino", "number": 20, "position": "CM", "country": "EC", "status": "reserve"},
+    {"playerId": "player_ec1_007_24", "name": "George Mancilla", "number": 70, "position": "RW", "country": "EC", "status": "reserve"},
+    {"playerId": "player_ec1_007_25", "name": "Manu Palma", "number": 9, "position": "ST", "country": "AR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 23,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 21,
+      "cornerLeft": 21,
+      "cornerRight": 19
+    }
+  }
+}
