@@ -1,0 +1,58 @@
+{
+  "teamKey": "AL Anwa",
+
+  "name": "Al Anwar",
+
+  "logo": "assets/logos/asia/saudi_arabia/Anwar.png",
+
+  "manager": {
+    "name": "Essa Al Mehyani",
+    "country": "SA"
+  },
+
+  "stadium": {
+    "name": "Al Anwar Club Stadium",
+    "capacity": 2000
+  },
+
+  "players": [
+    {"playerId": "player_sa2_002_01", "name": "Khalid Sharahili", "number": 1, "position": "GK", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_002_02", "name": "Mohammed Al Zahrani", "number": 2, "position": "RB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_002_03", "name": "Chemseddine Derradji", "number": 19, "position": "CB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_sa2_002_04", "name": "Saif Hussain", "number": 5, "position": "CB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_002_05", "name": "Rashid Awad Al Mutairi", "number": 12, "position": "LB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_002_06", "name": "Abdullah Al Samtai", "number": 6, "position": "CDM", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_002_07", "name": "Appolinaire Kack", "number": 8, "position": "CM", "country": "CM", "status": "starter"},
+    {"playerId": "player_sa2_002_08", "name": "Rida Bensayah", "number": 99, "position": "CAM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_sa2_002_09", "name": "Šime Gržan", "number": 43, "position": "RW", "country": "HR", "status": "starter"},
+    {"playerId": "player_sa2_002_10", "name": "Khalid Al Kabi", "number": 77, "position": "LW", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_002_11", "name": "Bruno Pires Bezerra", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+
+    {"playerId": "player_sa2_002_12", "name": "Nawaf Al Dous", "number": 33, "position": "GK", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_002_13", "name": "Abdullah Al Rashid", "number": 87, "position": "RB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_002_14", "name": "Mohammed Al-Ghamdi", "number": 16, "position": "RB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_002_15", "name": "Fahad Muneef", "number": 4, "position": "LB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_002_16", "name": "Hamad Al-Aguili", "number": 18, "position": "CB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_002_17", "name": "Abdulaziz Damdam", "number": 20, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_002_18", "name": "Faisal Al Mujalli", "number": 25, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_002_19", "name": "Turki Fahad Al Mutairi", "number": 88, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_002_20", "name": "Sulaiman Al Nakhli", "number": 14, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_002_21", "name": "Issa Al Dhikr Allah", "number": 7, "position": "ST", "country": "SA", "status": "bench"},
+
+    {"playerId": "player_sa2_002_22", "name": "Mazen Hussain Hazazi", "number": 75, "position": "GK", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_002_23", "name": "Mohammed Al Harthi", "number": 24, "position": "CAM", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_002_24", "name": "Mohammed Majrashi", "number": 11, "position": "ST", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_002_25", "name": "Yazeed Jawshan", "number": 27, "position": "ST", "country": "SA", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-1-4-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 99,
+      "cornerLeft": 99,
+      "cornerRight": 77
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "Al Njma",
+
+  "name": "Al Najmah",
+
+  "logo": "assets/logos/asia/saudi_arabia/AlNjma.png",
+
+  "manager": {
+    "name": "Mário Lobo Mendonça",
+    "country": "PT"
+  },
+
+  "stadium": {
+    "name": "Al Najmah Club Stadium",
+    "capacity": 3000
+  },
+
+  "players": [
+    {"playerId": "player_sa2_007_01", "name": "Khaled Al Muqaitib", "number": 22, "position": "GK", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_007_02", "name": "Khalid Al-Khathlan", "number": 15, "position": "RB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_007_03", "name": "Diogo Queirós", "number": 3, "position": "CB", "country": "PT", "status": "starter"},
+    {"playerId": "player_sa2_007_04", "name": "Abdulelah Al Shammari", "number": 8, "position": "CB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_007_05", "name": "Mohammed Al Hawsawi", "number": 17, "position": "LB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_007_06", "name": "Nabil Dunga", "number": 88, "position": "CDM", "country": "EG", "status": "starter"},
+    {"playerId": "player_sa2_007_07", "name": "Afonso Taira", "number": 5, "position": "CM", "country": "PT", "status": "starter"},
+    {"playerId": "player_sa2_007_08", "name": "João Novais", "number": 7, "position": "CAM", "country": "PT", "status": "starter"},
+    {"playerId": "player_sa2_007_09", "name": "Tožar Tijanič", "number": 43, "position": "RW", "country": "SI", "status": "starter"},
+    {"playerId": "player_sa2_007_10", "name": "Mohammed Al Marri", "number": 11, "position": "LW", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_007_11", "name": "Ammar Al Najjar", "number": 9, "position": "ST", "country": "SA", "status": "starter"},
+
+    {"playerId": "player_sa2_007_12", "name": "Waled Al Enazi", "number": 87, "position": "GK", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_007_13", "name": "Sultan Al Anazi", "number": 24, "position": "RB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_007_14", "name": "Abdullah Al Haleel", "number": 4, "position": "CB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_007_15", "name": "Ali Al Mutairi", "number": 20, "position": "LB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_007_16", "name": "Khaled Madani", "number": 70, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_007_17", "name": "Fahad Al Harbi", "number": 14, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_007_18", "name": "Abdulaziz Al Lahji", "number": 77, "position": "RW", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_007_19", "name": "Mohammed Al Shaekh", "number": 18, "position": "CAM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_007_20", "name": "Sami Al Sahlouli", "number": 23, "position": "LW", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_007_21", "name": "Yousef Al Badah", "number": 6, "position": "CM", "country": "SA", "status": "bench"},
+
+    {"playerId": "player_sa2_007_22", "name": "Azzam Al Hussain", "number": 1, "position": "GK", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_007_23", "name": "Nasser Bin Shuwayyi", "number": 10, "position": "CAM", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_007_24", "name": "Ahmed Al Dubais", "number": 19, "position": "ST", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_007_25", "name": "Rakan Al Tulayhi", "number": 27, "position": "CB", "country": "SA", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "3-5-2",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 11
+    }
+  }
+}

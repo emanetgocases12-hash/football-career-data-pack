@@ -1,0 +1,58 @@
+{
+  "teamKey": "Damac",
+
+  "name": "Damac FC",
+
+  "logo": "assets/logos/asia/saudi_arabia/Damac.png",
+
+  "manager": {
+    "name": "Abderrazek Chebbi",
+    "country": "TN"
+  },
+
+  "stadium": {
+    "name": "Damac Club Stadium",
+    "capacity": 5000
+  },
+
+  "players": [
+    {"playerId": "player_sa2_016_01", "name": "Abdulquddus Atiah", "number": 1, "position": "GK", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_016_02", "name": "Abdulaziz Al Shahrani", "number": 2, "position": "RB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_016_03", "name": "Abdelkader Bedrane", "number": 3, "position": "CB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_sa2_016_04", "name": "Hassan Rabea", "number": 5, "position": "CB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_016_05", "name": "Jawad Al Hassan", "number": 23, "position": "LB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_016_06", "name": "Morlaye Sylla", "number": 6, "position": "CM", "country": "GN", "status": "starter"},
+    {"playerId": "player_sa2_016_07", "name": "Abdulaziz Al Qarni", "number": 12, "position": "CM", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_016_08", "name": "Mohammed Al Rashidi", "number": 47, "position": "CAM", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_016_09", "name": "Abdullah Sunbul", "number": 7, "position": "LW", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_016_10", "name": "Ibrahim Al Jaberi", "number": 15, "position": "RW", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_016_11", "name": "Yakou Meïté", "number": 11, "position": "ST", "country": "CI", "status": "starter"},
+
+    {"playerId": "player_sa2_016_12", "name": "Fahad Al Yami", "number": 22, "position": "GK", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_016_13", "name": "Mansour Hawsawi", "number": 14, "position": "CB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_016_14", "name": "Nasser Al Shuqayyiqi", "number": 18, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_016_15", "name": "Abdulrahman Al Jizani", "number": 19, "position": "LB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_016_16", "name": "Faisal Al Khalaf", "number": 88, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_016_17", "name": "Sultan Al Harbi", "number": 20, "position": "RB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_016_18", "name": "Mohammed Al Omari", "number": 24, "position": "CB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_016_19", "name": "Ahmed Al Ghamdi", "number": 27, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_016_20", "name": "Rakan Al Qahtani", "number": 29, "position": "RW", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_016_21", "name": "Mishari Al Dosari", "number": 30, "position": "LW", "country": "SA", "status": "bench"},
+
+    {"playerId": "player_sa2_016_22", "name": "Saleh Al Shammari", "number": 31, "position": "GK", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_016_23", "name": "Mohammed Al Otaibi", "number": 33, "position": "ST", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_016_24", "name": "Nawaf Al Harbi", "number": 39, "position": "CM", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_016_25", "name": "Firas Al Qahtani", "number": 44, "position": "ST", "country": "SA", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-4-2",
+    "captain": 3,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 47,
+      "cornerLeft": 47,
+      "cornerRight": 15
+    }
+  }
+}

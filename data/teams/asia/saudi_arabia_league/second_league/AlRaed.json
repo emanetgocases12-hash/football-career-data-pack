@@ -1,0 +1,58 @@
+{
+  "teamKey": "Al Raed",
+
+  "name": "Al Raed",
+
+  "logo": "assets/logos/asia/saudi_arabia/AlRaed.png",
+
+  "manager": {
+    "name": "Reda Hakam",
+    "country": "MA"
+  },
+
+  "stadium": {
+    "name": "Al Raed Club Stadium",
+    "capacity": 5000
+  },
+
+  "players": [
+    {"playerId": "player_sa2_010_01", "name": "Mohammed Al Otaibi", "number": 88, "position": "GK", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_010_02", "name": "Hassan Al Asmari", "number": 12, "position": "RB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_010_03", "name": "Redouane Mennioui", "number": 13, "position": "CB", "country": "MA", "status": "starter"},
+    {"playerId": "player_sa2_010_04", "name": "Bandar Al Shamrani", "number": 4, "position": "CB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_010_05", "name": "Munif Dawshi", "number": 3, "position": "LB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_010_06", "name": "Salomon Tweh", "number": 5, "position": "CDM", "country": "LR", "status": "starter"},
+    {"playerId": "player_sa2_010_07", "name": "Claude Gnolou", "number": 79, "position": "CM", "country": "CI", "status": "starter"},
+    {"playerId": "player_sa2_010_08", "name": "Saad Alselouli", "number": 10, "position": "CAM", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_010_09", "name": "Khaled Narey", "number": 7, "position": "RW", "country": "TG", "status": "starter"},
+    {"playerId": "player_sa2_010_10", "name": "Mohamed Al Sufyani", "number": 11, "position": "LW", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_010_11", "name": "Hamoud Shammari", "number": 20, "position": "ST", "country": "SA", "status": "starter"},
+
+    {"playerId": "player_sa2_010_12", "name": "Raed Ozaybi", "number": 1, "position": "GK", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_010_13", "name": "Tamim Al Shuqayran", "number": 2, "position": "RB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_010_14", "name": "Mohammed Al Dosari", "number": 38, "position": "CB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_010_15", "name": "Abdulla Al Harbi", "number": 40, "position": "CB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_010_16", "name": "Bader Al Shardi", "number": 24, "position": "LB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_010_17", "name": "Omar Shami", "number": 8, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_010_18", "name": "Meshari Al Oufi", "number": 16, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_010_19", "name": "Yousef Al Harbi", "number": 6, "position": "CDM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_010_20", "name": "Nawaf Hazazi", "number": 77, "position": "RW", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_010_21", "name": "Ayman Al-Balawi", "number": 18, "position": "CM", "country": "SA", "status": "bench"},
+
+    {"playerId": "player_sa2_010_22", "name": "Feras Al Rajhi", "number": 22, "position": "GK", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_010_23", "name": "Abdulrahman Sahhari", "number": 87, "position": "LB", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_010_24", "name": "Moussa Koné", "number": 9, "position": "ST", "country": "SN", "status": "reserve"},
+    {"playerId": "player_sa2_010_25", "name": "Ziyad Al Refaei", "number": 33, "position": "CM", "country": "SA", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 20,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 11
+    }
+  }
+}

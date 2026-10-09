@@ -1,0 +1,58 @@
+{
+  "teamKey": "Al Zulf",
+
+  "name": "Al Zulfi",
+
+  "logo": "assets/logos/asia/saudi_arabia/Zulfi.png",
+
+  "manager": {
+    "name": "Al Habib Ben Ramadan",
+    "country": "TN"
+  },
+
+  "stadium": {
+    "name": "Al Zulfi Club Stadium",
+    "capacity": 3000
+  },
+
+  "players": [
+    {"playerId": "player_sa2_015_01", "name": "Saad Al-Saleh", "number": 22, "position": "GK", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_015_02", "name": "Mutair Al-Zahrani", "number": 15, "position": "RB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_015_03", "name": "Ryller", "number": 25, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_sa2_015_04", "name": "Abdullah Al-Nakhli", "number": 4, "position": "CB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_015_05", "name": "Mohammed Abu Shaheen", "number": 17, "position": "LB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_015_06", "name": "Abdulaziz Al Hajri", "number": 6, "position": "CDM", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_015_07", "name": "Hicham Bregu", "number": 10, "position": "CM", "country": "AL", "status": "starter"},
+    {"playerId": "player_sa2_015_08", "name": "Jehad Semreen", "number": 11, "position": "CAM", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_015_09", "name": "Mohammed Al Sharid", "number": 7, "position": "LW", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_015_10", "name": "Abdulrahman Alanzy", "number": 70, "position": "RW", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_015_11", "name": "Kermit Malango", "number": 91, "position": "ST", "country": "CD", "status": "starter"},
+
+    {"playerId": "player_sa2_015_12", "name": "Ahmed Bouamer", "number": 1, "position": "GK", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_015_13", "name": "Fahad Daqarshawi", "number": 27, "position": "CB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_015_14", "name": "Mansour Al Harbi", "number": 23, "position": "RB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_015_15", "name": "Khaled Al Shammari", "number": 3, "position": "LB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_015_16", "name": "Sultan Al Qahtani", "number": 5, "position": "CB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_015_17", "name": "Nasser Al Dosari", "number": 8, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_015_18", "name": "Abdulrahman Al Salem", "number": 14, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_015_19", "name": "Mohammed Al Otaibi", "number": 18, "position": "CAM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_015_20", "name": "Yousef Al Rashidi", "number": 19, "position": "LW", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_015_21", "name": "Faisal Al Harbi", "number": 20, "position": "RW", "country": "SA", "status": "bench"},
+
+    {"playerId": "player_sa2_015_22", "name": "Abdullah Al Enezi", "number": 33, "position": "GK", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_015_23", "name": "Nawaf Asiri", "number": 77, "position": "ST", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_015_24", "name": "Sultan Al Mutairi", "number": 9, "position": "ST", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_015_25", "name": "Ahmed Al Shammari", "number": 24, "position": "CM", "country": "SA", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 15,
+    "setPieces": {
+      "penalty": 91,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 70
+    }
+  }
+}

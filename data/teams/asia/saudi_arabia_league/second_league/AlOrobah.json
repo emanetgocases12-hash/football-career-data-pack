@@ -1,0 +1,58 @@
+{
+  "teamKey": "Al Orob",
+
+  "name": "Al Orobah",
+
+  "logo": "assets/logos/asia/saudi_arabia/AlOrob.png",
+
+  "manager": {
+    "name": "Bruno Miguel Fernandes da Costa Meneses Pereira",
+    "country": "PT"
+  },
+
+  "stadium": {
+    "name": "Al Orobah Club Stadium",
+    "capacity": 7000
+  },
+
+  "players": [
+    {"playerId": "player_sa2_009_01", "name": "Hatem Al Juhani", "number": 26, "position": "GK", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_009_02", "name": "Hamed Al Maqati", "number": 11, "position": "RB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_009_03", "name": "Ziad Al Hunaiti", "number": 4, "position": "CB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_009_04", "name": "Mohammed Krishan", "number": 5, "position": "CB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_009_05", "name": "Mohammed Al Zubaidi", "number": 16, "position": "LB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_009_06", "name": "Abdulaziz Al Harabi", "number": 6, "position": "CDM", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_009_07", "name": "Khaled Zakaria Eid", "number": 8, "position": "CM", "country": "JO", "status": "starter"},
+    {"playerId": "player_sa2_009_08", "name": "Abdellah Zoubir", "number": 10, "position": "CAM", "country": "FR", "status": "starter"},
+    {"playerId": "player_sa2_009_09", "name": "Mohammed Nizar Saeed", "number": 50, "position": "LW", "country": "SD", "status": "starter"},
+    {"playerId": "player_sa2_009_10", "name": "Abdullah Al Khail", "number": 20, "position": "RW", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa2_009_11", "name": "Famara Diédhiou", "number": 9, "position": "ST", "country": "SN", "status": "starter"},
+
+    {"playerId": "player_sa2_009_12", "name": "Rafi Al Ruwaili", "number": 1, "position": "GK", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_009_13", "name": "Loay Al Shahrani", "number": 24, "position": "RB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_009_14", "name": "Ali Al Sultan", "number": 66, "position": "LB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_009_15", "name": "Mohammed Faraj Raed", "number": 42, "position": "CB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_009_16", "name": "Rabie Hawsawi", "number": 27, "position": "CB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_009_17", "name": "Faraj Al Rashed", "number": 18, "position": "RB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_009_18", "name": "Fahad Al Rashidi", "number": 80, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_009_19", "name": "Qassem Al Hussain", "number": 28, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa2_009_20", "name": "Anass Najah", "number": 14, "position": "CM", "country": "NL", "status": "bench"},
+    {"playerId": "player_sa2_009_21", "name": "Hassan Al Solan", "number": 99, "position": "RM", "country": "SA", "status": "bench"},
+
+    {"playerId": "player_sa2_009_22", "name": "Saud Al Ruwaili", "number": 22, "position": "GK", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_009_23", "name": "Rayan Al Hazmi", "number": 17, "position": "CM", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_009_24", "name": "Omar Al Sharari", "number": 19, "position": "ST", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa2_009_25", "name": "Abdulaziz Masnom", "number": 7, "position": "ST", "country": "YE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "5-3-2",
+    "captain": 11,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 20
+    }
+  }
+}
