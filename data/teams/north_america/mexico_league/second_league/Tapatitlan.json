@@ -1,0 +1,58 @@
+{
+  "teamKey": "Tepati",
+
+  "name": "Tepatitlán FC",
+
+  "logo": "assets/logos/north_america/mexico/tepati.png",
+
+  "manager": {
+    "name": "Gustavo Olvera",
+    "country": "MX"
+  },
+
+  "stadium": {
+    "name": "Estadio Gregorio Tepa Gómez",
+    "capacity": 12500
+  },
+
+  "players": [
+    {"playerId": "player_mx2_013_01", "name": "Alain Estrada", "number": 1, "position": "GK", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_013_02", "name": "Gabriel Renteria", "number": 6, "position": "RB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_013_03", "name": "Said Ezequiel Castañeda", "number": 19, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_013_04", "name": "Salvador Rodriguez", "number": 36, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_013_05", "name": "Horace Ávila", "number": 27, "position": "LB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_013_06", "name": "Dieter Villalpando", "number": 38, "position": "CDM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_013_07", "name": "Edyairth Ortega", "number": 39, "position": "CM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_013_08", "name": "Tobías Arévalos", "number": 32, "position": "CAM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_013_09", "name": "Edson Martínez", "number": 18, "position": "RW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_013_10", "name": "Arath Moreno", "number": 40, "position": "LW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_013_11", "name": "José Godínez", "number": 41, "position": "ST", "country": "MX", "status": "starter"},
+
+    {"playerId": "player_mx2_013_12", "name": "Arturo Gatica", "number": 30, "position": "GK", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_013_13", "name": "Maximiliano Pinela", "number": 37, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_013_14", "name": "Marco Zavala", "number": 21, "position": "RB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_013_15", "name": "Ricardo Alonso", "number": 4, "position": "LB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_013_16", "name": "Luis Ángel González Calderón", "number": 13, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_013_17", "name": "Fernando Sanguinetti", "number": 22, "position": "CM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_013_18", "name": "Erick Sebastián Ruiz Domínguez", "number": 7, "position": "CDM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_013_19", "name": "Hugo Isaac Vázquez Zamudio", "number": 10, "position": "RW", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_013_20", "name": "Leonardo Jesús Bolaños Vázquez", "number": 8, "position": "CAM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_013_21", "name": "Amaury Escoto", "number": 42, "position": "LW", "country": "MX", "status": "bench"},
+
+    {"playerId": "player_mx2_013_22", "name": "Diego Rodríguez", "number": 35, "position": "GK", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx2_013_23", "name": "Jesus Vega", "number": 43, "position": "RW", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx2_013_24", "name": "Ulises Israel Cardona", "number": 44, "position": "ST", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx2_013_25", "name": "Abraham Vázquez", "number": 45, "position": "ST", "country": "MX", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 41,
+      "freeKick": 32,
+      "cornerLeft": 32,
+      "cornerRight": 32
+    }
+  }
+}

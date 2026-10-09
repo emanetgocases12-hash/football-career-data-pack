@@ -1,0 +1,58 @@
+{
+  "teamKey": "Madero",
+
+  "name": "Tampico Madero",
+
+  "logo": "assets/logos/north_america/mexico/Madero.png",
+
+  "manager": {
+    "name": "Daniel Alcántar",
+    "country": "MX"
+  },
+
+  "stadium": {
+    "name": "Estadio Tamaulipas",
+    "capacity": 19668
+  },
+
+  "players": [
+    {"playerId": "player_mx2_007_01", "name": "Gerardo Ruiz", "number": 13, "position": "GK", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_007_02", "name": "Ricardo Peña", "number": 3, "position": "RB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_007_03", "name": "Oscar Manzanares", "number": 26, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_007_04", "name": "Luciano Bocco", "number": 2, "position": "CB", "country": "AR", "status": "starter"},
+    {"playerId": "player_mx2_007_05", "name": "Ian Ramírez", "number": 17, "position": "LB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_007_06", "name": "Jesús López", "number": 21, "position": "CDM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_007_07", "name": "Jonathan Martínez", "number": 16, "position": "CM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_007_08", "name": "Ivan Ochoa", "number": 5, "position": "CAM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_007_09", "name": "Edson Torres", "number": 10, "position": "RW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_007_10", "name": "Cristian Cruz", "number": 11, "position": "LW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_007_11", "name": "Nestor Corona", "number": 14, "position": "ST", "country": "MX", "status": "starter"},
+
+    {"playerId": "player_mx2_007_12", "name": "Joel Garcia", "number": 1, "position": "GK", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_007_13", "name": "Sebastián Martínez", "number": 33, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_007_14", "name": "Axl Padilla", "number": 25, "position": "RB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_007_15", "name": "Jonathan Tovar", "number": 20, "position": "LB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_007_16", "name": "José Alberto López González", "number": 6, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_007_17", "name": "Ronaldo Gonzalez", "number": 8, "position": "CM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_007_18", "name": "Eduardo Escalante Rubio", "number": 27, "position": "CDM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_007_19", "name": "Owen Eder Méndez Cabrera", "number": 36, "position": "RW", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_007_20", "name": "Aldo Uriel Serna López", "number": 18, "position": "CAM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_007_21", "name": "Daniel López", "number": 19, "position": "LW", "country": "MX", "status": "bench"},
+
+    {"playerId": "player_mx2_007_22", "name": "Alan Flores", "number": 12, "position": "GK", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx2_007_23", "name": "Jesús Ocejo", "number": 9, "position": "RW", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx2_007_24", "name": "Deivoon Magaña", "number": 7, "position": "ST", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx2_007_25", "name": "André Ham", "number": 15, "position": "ST", "country": "MX", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 13,
+    "setPieces": {
+      "penalty": 14,
+      "freeKick": 5,
+      "cornerLeft": 5,
+      "cornerRight": 5
+    }
+  }
+}

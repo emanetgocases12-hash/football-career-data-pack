@@ -1,0 +1,58 @@
+{
+  "teamKey": "Oaxaca",
+
+  "name": "Alebrijes de Oaxaca",
+
+  "logo": "assets/logos/north_america/mexico/Oaxaca.png",
+
+  "manager": {
+    "name": "Gonzalo Bolaños",
+    "country": "MX"
+  },
+
+  "stadium": {
+    "name": "Estadio Tecnológico de Oaxaca",
+    "capacity": 17200
+  },
+
+  "players": [
+    {"playerId": "player_mx2_009_01", "name": "Octavio Paz", "number": 21, "position": "GK", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_009_02", "name": "Kristian Álvarez", "number": 4, "position": "RB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_009_03", "name": "Adrián Vázquez", "number": 14, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_009_04", "name": "Josué Reyes", "number": 12, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_009_05", "name": "Adrián Justo", "number": 3, "position": "LB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_009_06", "name": "Sebastian Vizarretea", "number": 35, "position": "CDM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_009_07", "name": "Miguel Carreón", "number": 26, "position": "CM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_009_08", "name": "Emilio Sánchez", "number": 27, "position": "CAM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_009_09", "name": "Aldo Arellano", "number": 6, "position": "RW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_009_10", "name": "Ángel Tecpanécatl", "number": 33, "position": "LW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_009_11", "name": "Adolfo Valdéz", "number": 13, "position": "ST", "country": "MX", "status": "starter"},
+
+    {"playerId": "player_mx2_009_12", "name": "Carlos Rodas", "number": 1, "position": "GK", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_009_13", "name": "Patrick Villa", "number": 15, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_009_14", "name": "Tristhan Jaimes", "number": 22, "position": "RB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_009_15", "name": "David Collazo", "number": 17, "position": "LB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_009_16", "name": "Ethan Alexander López Ponce", "number": 5, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_009_17", "name": "David Ayala", "number": 20, "position": "CM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_009_18", "name": "Luke Jeffus", "number": 28, "position": "CDM", "country": "US", "status": "bench"},
+    {"playerId": "player_mx2_009_19", "name": "Jesus Alessandro Bustos Cid", "number": 36, "position": "RW", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_009_20", "name": "Bubakarry Fadika", "number": 19, "position": "CAM", "country": "GM", "status": "bench"},
+    {"playerId": "player_mx2_009_21", "name": "Andrey Andrade", "number": 11, "position": "LW", "country": "MX", "status": "bench"},
+
+    {"playerId": "player_mx2_009_22", "name": "Óscar González", "number": 23, "position": "GK", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx2_009_23", "name": "Princewill Achinulo", "number": 24, "position": "RW", "country": "NG", "status": "reserve"},
+    {"playerId": "player_mx2_009_24", "name": "Diego Emmanuel Martinez Rodriguez", "number": 25, "position": "ST", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx2_009_25", "name": "Sergio Edwin Joshua Gallinar Bañuelos", "number": 16, "position": "ST", "country": "MX", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 21,
+    "setPieces": {
+      "penalty": 13,
+      "freeKick": 27,
+      "cornerLeft": 27,
+      "cornerRight": 27
+    }
+  }
+}

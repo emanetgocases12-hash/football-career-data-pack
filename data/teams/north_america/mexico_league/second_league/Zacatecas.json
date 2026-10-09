@@ -1,0 +1,58 @@
+{
+  "teamKey": "Zacate",
+
+  "name": "Mineros de Zacatecas",
+
+  "logo": "assets/logos/north_america/mexico/Zacate.png",
+
+  "manager": {
+    "name": "Luis Ángel Muñoz",
+    "country": "MX"
+  },
+
+  "stadium": {
+    "name": "Estadio Carlos Vega Villalba",
+    "capacity": 13820
+  },
+
+  "players": [
+    {"playerId": "player_mx2_016_01", "name": "Leonardo Durán", "number": 1, "position": "GK", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_016_02", "name": "Diego Marmolejo", "number": 4, "position": "RB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_016_03", "name": "Salvador Manríquez", "number": 3, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_016_04", "name": "Oscar Mazatán", "number": 14, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_016_05", "name": "Justing Cano", "number": 5, "position": "LB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_016_06", "name": "Paolo Ríos", "number": 6, "position": "CDM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_016_07", "name": "Luis Sandoval", "number": 11, "position": "CM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_016_08", "name": "Kevin Magaña", "number": 19, "position": "CAM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_016_09", "name": "Erick Carballo", "number": 7, "position": "RW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_016_10", "name": "José Ávila", "number": 10, "position": "LW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx2_016_11", "name": "Juan Machado", "number": 9, "position": "ST", "country": "MX", "status": "starter"},
+
+    {"playerId": "player_mx2_016_12", "name": "Julio Valenzuela", "number": 22, "position": "GK", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_016_13", "name": "Luis Cervantes", "number": 2, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_016_14", "name": "Luis Hernández", "number": 12, "position": "RB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_016_15", "name": "Weymmar Castro", "number": 20, "position": "LB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_016_16", "name": "Alonso Garcia", "number": 23, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_016_17", "name": "José Esquivel", "number": 16, "position": "CM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_016_18", "name": "Pablo Padilla", "number": 24, "position": "CDM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_016_19", "name": "Andrés Mendoza", "number": 18, "position": "RW", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_016_20", "name": "Adrián Villalobos", "number": 25, "position": "CAM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx2_016_21", "name": "Mauro Pérez", "number": 13, "position": "LW", "country": "MX", "status": "bench"},
+
+    {"playerId": "player_mx2_016_22", "name": "Héctor Méndez", "number": 21, "position": "GK", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx2_016_23", "name": "Japheth Jiménez", "number": 30, "position": "LM", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx2_016_24", "name": "Jafet Jiménez", "number": 31, "position": "RW", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx2_016_25", "name": "Emiliano García", "number": 32, "position": "ST", "country": "MX", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 19,
+      "cornerLeft": 19,
+      "cornerRight": 19
+    }
+  }
+}
