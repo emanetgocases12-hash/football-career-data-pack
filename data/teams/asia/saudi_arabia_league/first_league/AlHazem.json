@@ -1,0 +1,58 @@
+{
+  "teamKey": "Al Hazm",
+
+  "name": "Al Hazem",
+
+  "logo": "assets/logos/asia/saudi_arabia/Hazem.png",
+
+  "manager": {
+    "name": "Jalel Kadri",
+    "country": "TN"
+  },
+
+  "stadium": {
+    "name": "Al Hazem Club Stadium",
+    "capacity": 8000
+  },
+
+  "players": [
+    {"playerId": "player_sa1_007_01", "name": "Jindrich Stanek", "number": 1, "position": "GK", "country": "CZ", "status": "starter"},
+    {"playerId": "player_sa1_007_02", "name": "Abdullah Al Shammari", "number": 2, "position": "RB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa1_007_03", "name": "Abdelmounaim Boutouil", "number": 3, "position": "CB", "country": "MA", "status": "starter"},
+    {"playerId": "player_sa1_007_04", "name": "Aboubacar Diakite", "number": 4, "position": "CB", "country": "ML", "status": "starter"},
+    {"playerId": "player_sa1_007_05", "name": "Mohamed Ben Hamida", "number": 23, "position": "LB", "country": "TN", "status": "starter"},
+    {"playerId": "player_sa1_007_06", "name": "Mory Konate", "number": 6, "position": "CDM", "country": "GN", "status": "starter"},
+    {"playerId": "player_sa1_007_07", "name": "Sofiane Bendebka", "number": 8, "position": "CM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_sa1_007_08", "name": "Ayman Al Hujaili", "number": 10, "position": "CAM", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa1_007_09", "name": "Mohammed Al Hamdani", "number": 20, "position": "RW", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa1_007_10", "name": "Elton Acolatse", "number": 11, "position": "LW", "country": "NL", "status": "starter"},
+    {"playerId": "player_sa1_007_11", "name": "Afimico Pululu", "number": 9, "position": "ST", "country": "AO", "status": "starter"},
+
+    {"playerId": "player_sa1_007_12", "name": "Bruno Varela", "number": 14, "position": "GK", "country": "CV", "status": "bench"},
+    {"playerId": "player_sa1_007_13", "name": "Ahmed Al Mhemaid", "number": 5, "position": "CB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_007_14", "name": "Bonheur Mugisha", "number": 18, "position": "CM", "country": "RW", "status": "bench"},
+    {"playerId": "player_sa1_007_15", "name": "Waleed Al Shanqiti", "number": 15, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_007_16", "name": "Yousef Al Shammari", "number": 17, "position": "ST", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_007_17", "name": "Nawaf Al Habshi", "number": 25, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_007_18", "name": "Sultan Tanker", "number": 24, "position": "CB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_007_19", "name": "Abdulrahman Al Dakheel", "number": 7, "position": "LW", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_007_20", "name": "Abdulaziz Al Khalaf", "number": 19, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_007_21", "name": "Nasser Al Habashi", "number": 21, "position": "RB", "country": "SA", "status": "bench"},
+
+    {"playerId": "player_sa1_007_22", "name": "Majed Al-Ghamdi", "number": 33, "position": "GK", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa1_007_23", "name": "Abdullah Al Hawsawi", "number": 22, "position": "LB", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa1_007_24", "name": "Faris Al Aiyaf", "number": 27, "position": "ST", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa1_007_25", "name": "Farhan Al Azmi", "number": 12, "position": "CB", "country": "SA", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 11
+    }
+  }
+}

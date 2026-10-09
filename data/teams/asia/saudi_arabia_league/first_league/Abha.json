@@ -1,0 +1,58 @@
+{
+  "teamKey": "Abha",
+
+  "name": "Abha",
+
+  "logo": "assets/logos/asia/saudi_arabia/Abha.png",
+
+  "manager": {
+    "name": "Damir Buric",
+    "country": "HR"
+  },
+
+  "stadium": {
+    "name": "Prince Sultan Bin Abdulaziz Sports City",
+    "capacity": 20000
+  },
+
+  "players": [
+    {"playerId": "player_sa1_001_01", "name": "Donovan Leon", "number": 16, "position": "GK", "country": "GF", "status": "starter"},
+    {"playerId": "player_sa1_001_02", "name": "Khaled Al Shamrani", "number": 12, "position": "RB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa1_001_03", "name": "Abdou Diallo", "number": 22, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sa1_001_04", "name": "Abdulbasit Hindi", "number": 37, "position": "CB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa1_001_05", "name": "Hassan Al Zahrani", "number": 24, "position": "LB", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa1_001_06", "name": "Faisal Al Sibyani", "number": 6, "position": "CM", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa1_001_07", "name": "Bassel Al Sayyali", "number": 4, "position": "CM", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa1_001_08", "name": "Nabil Fekir", "number": 10, "position": "CAM", "country": "FR", "status": "starter"},
+    {"playerId": "player_sa1_001_09", "name": "Faisal Al Ghamdi", "number": 7, "position": "RW", "country": "SA", "status": "starter"},
+    {"playerId": "player_sa1_001_10", "name": "Alimami Gory", "number": 11, "position": "LW", "country": "FR", "status": "starter"},
+    {"playerId": "player_sa1_001_11", "name": "Michy Batshuayi", "number": 44, "position": "ST", "country": "BE", "status": "starter"},
+
+    {"playerId": "player_sa1_001_12", "name": "Mustafa Malayekah", "number": 26, "position": "GK", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_001_13", "name": "Mohammed Al-Dawsari", "number": 23, "position": "CB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_001_14", "name": "Mohammed Ali Talbi", "number": 54, "position": "CB", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_001_15", "name": "Abdulkarim Darisi", "number": 17, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_001_16", "name": "Majed Dawran", "number": 29, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_001_17", "name": "Loreintz Rosier", "number": 32, "position": "CDM", "country": "FR", "status": "bench"},
+    {"playerId": "player_sa1_001_18", "name": "Safwan Al Johani", "number": 80, "position": "CM", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_001_19", "name": "Kushaym Al Qahtani", "number": 20, "position": "LW", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_001_20", "name": "Mohammed Al Zaid", "number": 39, "position": "RW", "country": "SA", "status": "bench"},
+    {"playerId": "player_sa1_001_21", "name": "Bader Al Mutairi", "number": 28, "position": "RW", "country": "SA", "status": "bench"},
+
+    {"playerId": "player_sa1_001_22", "name": "Abdullah Al Bouq", "number": 21, "position": "GK", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa1_001_23", "name": "Ammar Al Yuhaibi", "number": 33, "position": "RB", "country": "SA", "status": "reserve"},
+    {"playerId": "player_sa1_001_24", "name": "Mateo Borrell", "number": 35, "position": "CM", "country": "ES", "status": "reserve"},
+    {"playerId": "player_sa1_001_25", "name": "Georges-Kevin N'Koudou", "number": 14, "position": "LW", "country": "CM", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 16,
+    "setPieces": {
+      "penalty": 44,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 11
+    }
+  }
+}
