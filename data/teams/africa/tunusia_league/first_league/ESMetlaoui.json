@@ -1,52 +1,58 @@
 {
-    "teamKey": "ESM",
-    "name": "ES Métlaoui",
-    "logo": "assets/logos/africa/tunusia/ESM.png",
-    "manager": {
-      "name": "Amine Gara",
-      "country": "TN"
-    },
-    "stadium": {
-      "name": "Stade Municipal de Métlaoui",
-      "capacity": 5000
-    },
-    "players": [
-      {"playerId": "player_tn1_005_01", "name": "Mohamed Aziz Bejaoui", "number": 27, "position": "GK", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_005_02", "name": "Ayoub Tlili", "number": 17, "position": "RB", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_005_03", "name": "Mohamed Amine Bouzaabia", "number": 4, "position": "CB", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_005_04", "name": "Oussama Hichri", "number": 18, "position": "CB", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_005_05", "name": "Yassine Soltani", "number": 15, "position": "LB", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_005_06", "name": "Eric Kouassi", "number": 8, "position": "CDM", "country": "CI", "status": "starter"},
-      {"playerId": "player_tn1_005_07", "name": "Mohamed Ameur Belghith", "number": 5, "position": "CM", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_005_08", "name": "Brandon Nana", "number": 14, "position": "CAM", "country": "CM", "status": "starter"},
-      {"playerId": "player_tn1_005_09", "name": "Bacem Hajji", "number": 7, "position": "RW", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_005_10", "name": "Ameur Jouini", "number": 11, "position": "ST", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_005_11", "name": "Oussama Naffati", "number": 9, "position": "LW", "country": "TN", "status": "starter"},
+  "teamKey": "ESM",
 
-      {"playerId": "player_tn1_005_12", "name": "Ahmed Yassine Mechri", "number": 1, "position": "GK", "country": "TN", "status": "bench"},
-      {"playerId": "player_tn1_005_13", "name": "Irenée Togbedji Glele", "number": 12, "position": "CB", "country": "BJ", "status": "bench"},
-      {"playerId": "player_tn1_005_14", "name": "Montasser Toumi", "number": 34, "position": "LB", "country": "TN", "status": "bench"},
-      {"playerId": "player_tn1_005_15", "name": "Aziz Ghrissi", "number": 20, "position": "RB", "country": "TN", "status": "bench"},
-      {"playerId": "player_tn1_005_16", "name": "Obaid Chebbi", "number": 19, "position": "CM", "country": "TN", "status": "bench"},
-      {"playerId": "player_tn1_005_17", "name": "Youssef Mrad", "number": 28, "position": "CM", "country": "TN", "status": "bench"},
-      {"playerId": "player_tn1_005_18", "name": "Abdoulaye Bangoura", "number": 13, "position": "CM", "country": "GN", "status": "bench"},
-      {"playerId": "player_tn1_005_19", "name": "Ismail Hermas", "number": 10, "position": "CAM", "country": "TN", "status": "bench"},
-      {"playerId": "player_tn1_005_20", "name": "Ifeanyi Ogba", "number": 29, "position": "ST", "country": "NG", "status": "bench"},
-      {"playerId": "player_tn1_005_21", "name": "Mohamed Ali Ourimi", "number": 26, "position": "ST", "country": "TN", "status": "bench"},
+  "name": "ES Métlaoui",
 
-      {"playerId": "player_tn1_005_22", "name": "Yasser Dinari", "number": 16, "position": "GK", "country": "TN", "status": "reserve"},
-      {"playerId": "player_tn1_005_23", "name": "Koussay Tlili", "number": 22, "position": "GK", "country": "TN", "status": "reserve"},
-      {"playerId": "player_tn1_005_24", "name": "Najd Dabebi", "number": 21, "position": "ST", "country": "TN", "status": "reserve"},
-      {"playerId": "player_tn1_005_25", "name": "Jaouher Dinari", "number": 23, "position": "RW", "country": "TN", "status": "reserve"}
-    ],
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 5,
-      "setPieces": {
-        "penalty": 11,
-        "freeKick": 14,
-        "cornerLeft": 7,
-        "cornerRight": 9
-      }
+  "logo": "assets/logos/africa/tunusia/ESM.png",
+
+  "manager": {
+    "name": "Amine Gara",
+    "country": "TN"
+  },
+
+  "stadium": {
+    "name": "Stade Municipal de Métlaoui",
+    "capacity": 5000
+  },
+
+  "players": [
+    {"playerId": "player_tn1_005_01", "name": "Mohamed Aziz Bejaoui", "number": 27, "position": "GK", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_005_02", "name": "Ayoub Tlili", "number": 17, "position": "RB", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_005_03", "name": "Mohamed Amine Bouzaabia", "number": 4, "position": "CB", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_005_04", "name": "Oussama Hichri", "number": 18, "position": "CB", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_005_05", "name": "Yassine Soltani", "number": 15, "position": "LB", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_005_06", "name": "Eric Kouassi", "number": 8, "position": "CDM", "country": "CI", "status": "starter"},
+    {"playerId": "player_tn1_005_07", "name": "Mohamed Ameur Belghith", "number": 5, "position": "CM", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_005_08", "name": "Brandon Nana", "number": 14, "position": "CAM", "country": "CM", "status": "starter"},
+    {"playerId": "player_tn1_005_09", "name": "Bacem Hajji", "number": 7, "position": "RW", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_005_10", "name": "Ameur Jouini", "number": 11, "position": "ST", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_005_11", "name": "Oussama Naffati", "number": 9, "position": "LW", "country": "TN", "status": "starter"},
+
+    {"playerId": "player_tn1_005_12", "name": "Ahmed Yassine Mechri", "number": 1, "position": "GK", "country": "TN", "status": "bench"},
+    {"playerId": "player_tn1_005_13", "name": "Irenée Togbedji Glele", "number": 12, "position": "CB", "country": "BJ", "status": "bench"},
+    {"playerId": "player_tn1_005_14", "name": "Montasser Toumi", "number": 34, "position": "LB", "country": "TN", "status": "bench"},
+    {"playerId": "player_tn1_005_15", "name": "Aziz Ghrissi", "number": 20, "position": "RB", "country": "TN", "status": "bench"},
+    {"playerId": "player_tn1_005_16", "name": "Obaid Chebbi", "number": 19, "position": "CM", "country": "TN", "status": "bench"},
+    {"playerId": "player_tn1_005_17", "name": "Youssef Mrad", "number": 28, "position": "CM", "country": "TN", "status": "bench"},
+    {"playerId": "player_tn1_005_18", "name": "Abdoulaye Bangoura", "number": 13, "position": "CM", "country": "GN", "status": "bench"},
+    {"playerId": "player_tn1_005_19", "name": "Ismail Hermas", "number": 10, "position": "CAM", "country": "TN", "status": "bench"},
+    {"playerId": "player_tn1_005_20", "name": "Ifeanyi Ogba", "number": 29, "position": "ST", "country": "NG", "status": "bench"},
+    {"playerId": "player_tn1_005_21", "name": "Mohamed Ali Ourimi", "number": 26, "position": "ST", "country": "TN", "status": "bench"},
+
+    {"playerId": "player_tn1_005_22", "name": "Yasser Dinari", "number": 16, "position": "GK", "country": "TN", "status": "reserve"},
+    {"playerId": "player_tn1_005_23", "name": "Najd Dabebi", "number": 21, "position": "ST", "country": "TN", "status": "reserve"},
+    {"playerId": "player_tn1_005_24", "name": "Jaouher Dinari", "number": 23, "position": "RW", "country": "TN", "status": "reserve"},
+    {"playerId": "player_tn1_005_25", "name": "Mohamed Amine Dinari", "number": 31, "position": "LB", "country": "TN", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 5,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 14,
+      "cornerLeft": 7,
+      "cornerRight": 9
     }
   }
+}
