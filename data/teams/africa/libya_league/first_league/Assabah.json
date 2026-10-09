@@ -1,0 +1,58 @@
+{
+  "teamKey": "Assaba",
+
+  "name": "Assabah SC",
+
+  "logo": "assets/logos/africa/libya/Assaba.png",
+
+  "manager": {
+    "name": "Reda Attia",
+    "country": "LY"
+  },
+
+  "stadium": {
+    "name": "Misurata Stadium",
+    "capacity": 10000
+  },
+
+  "players": [
+    {"playerId": "player_ly1_005_01", "name": "Ali Shenina", "number": 1, "position": "GK", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_005_02", "name": "Dhia Maatougui", "number": 2, "position": "RB", "country": "TN", "status": "starter"},
+    {"playerId": "player_ly1_005_03", "name": "Ameur El Omrani", "number": 4, "position": "CB", "country": "TN", "status": "starter"},
+    {"playerId": "player_ly1_005_04", "name": "Vivien Assie Koua", "number": 5, "position": "CB", "country": "CI", "status": "starter"},
+    {"playerId": "player_ly1_005_05", "name": "Aimable Nsabimana", "number": 3, "position": "LB", "country": "RW", "status": "starter"},
+    {"playerId": "player_ly1_005_06", "name": "Aymen Trabelsi", "number": 6, "position": "CDM", "country": "TN", "status": "starter"},
+    {"playerId": "player_ly1_005_07", "name": "Fayez Saad", "number": 8, "position": "CM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_005_08", "name": "Anicet Ishimwe", "number": 7, "position": "RW", "country": "RW", "status": "starter"},
+    {"playerId": "player_ly1_005_09", "name": "Mouad Abdulhakim Elkouri", "number": 10, "position": "CAM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_005_10", "name": "Abeddy Biramahire", "number": 11, "position": "LW", "country": "RW", "status": "starter"},
+    {"playerId": "player_ly1_005_11", "name": "Ahmed Krawaa", "number": 9, "position": "ST", "country": "LY", "status": "starter"},
+
+    {"playerId": "player_ly1_005_12", "name": "Abdulrahman Al Jebali", "number": 12, "position": "GK", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_005_13", "name": "Mohammed Al Kout", "number": 15, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_005_14", "name": "Abdulhai Bouleshroud", "number": 24, "position": "RB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_005_15", "name": "Abdulsalam Boutabel", "number": 16, "position": "LB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_005_16", "name": "Ali Al Meri", "number": 20, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_005_17", "name": "Moataz Agha", "number": 27, "position": "RB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_005_18", "name": "Yusuf Ouiena", "number": 23, "position": "LB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_005_19", "name": "Mohammed Al Shebli", "number": 13, "position": "CM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_005_20", "name": "Ridwan Al Swehli", "number": 14, "position": "CDM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_005_21", "name": "Abdulrahman Al Toumi", "number": 17, "position": "RM", "country": "LY", "status": "bench"},
+
+    {"playerId": "player_ly1_005_22", "name": "Mohammed Degig", "number": 22, "position": "GK", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_005_23", "name": "Ibrahim Al Malki", "number": 19, "position": "LM", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_005_24", "name": "Mohammed Al Tellisi", "number": 18, "position": "CAM", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_005_25", "name": "Tumba Tshimanga", "number": 21, "position": "CDM", "country": "CD", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 10
+    }
+  }
+}

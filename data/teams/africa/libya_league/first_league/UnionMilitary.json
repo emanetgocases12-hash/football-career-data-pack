@@ -1,0 +1,58 @@
+{
+  "teamKey": "Union M",
+
+  "name": "Union Military SC",
+
+  "logo": "assets/logos/africa/libya/UnionM.png",
+
+  "manager": {
+    "name": "Mohamed Ali Maalej",
+    "country": "TN"
+  },
+
+  "stadium": {
+    "name": "Stadium Union Military",
+    "capacity": 10000
+  },
+
+  "players": [
+    {"playerId": "player_ly1_026_01", "name": "Abdulrahman Al-Ruayed", "number": 1, "position": "GK", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_026_02", "name": "Sanad Jougrom", "number": 2, "position": "RB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_026_03", "name": "Erhun Obanor", "number": 4, "position": "CB", "country": "NG", "status": "starter"},
+    {"playerId": "player_ly1_026_04", "name": "Wajdi Hamza Said", "number": 5, "position": "CB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_026_05", "name": "Al Bahlul Bousahmin", "number": 3, "position": "LB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_026_06", "name": "Moses Orkuma", "number": 6, "position": "CDM", "country": "NG", "status": "starter"},
+    {"playerId": "player_ly1_026_07", "name": "Mohammed Al-Tuhami", "number": 8, "position": "CM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_026_08", "name": "Abdullah Almeehoub", "number": 7, "position": "RW", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_026_09", "name": "Anas Qusaybat", "number": 10, "position": "CAM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_026_10", "name": "Abdoulaye Diarra", "number": 11, "position": "LW", "country": "ML", "status": "starter"},
+    {"playerId": "player_ly1_026_11", "name": "Jairo Jean", "number": 9, "position": "ST", "country": "HT", "status": "starter"},
+
+    {"playerId": "player_ly1_026_12", "name": "Mohamed Nashnush", "number": 12, "position": "GK", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_026_13", "name": "Naji Daraa", "number": 15, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_026_14", "name": "Mohammed Saeed Omar", "number": 24, "position": "RB", "country": "YE", "status": "bench"},
+    {"playerId": "player_ly1_026_15", "name": "Najib Beleid", "number": 16, "position": "LB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_026_16", "name": "Mouad Al-Sughair", "number": 20, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_026_17", "name": "Bashier Al-Karami", "number": 27, "position": "RB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_026_18", "name": "Ahmed Al-Maghasi", "number": 23, "position": "LB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_026_19", "name": "Abdulrahman Hreibesh", "number": 25, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_026_20", "name": "Ali Salama Al-Hajiri", "number": 13, "position": "CM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_026_21", "name": "Mourad Hedhli", "number": 14, "position": "CDM", "country": "TN", "status": "bench"},
+
+    {"playerId": "player_ly1_026_22", "name": "Fathi Al-Talhy", "number": 30, "position": "GK", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_026_23", "name": "Mohammed Fathi", "number": 17, "position": "RM", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_026_24", "name": "Hussein Al-Obaidi", "number": 19, "position": "LM", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_026_25", "name": "Abdulmohaymen Belkacem", "number": 18, "position": "CAM", "country": "LY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 10
+    }
+  }
+}

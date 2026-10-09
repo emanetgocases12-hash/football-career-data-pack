@@ -1,0 +1,58 @@
+{
+  "teamKey": "Lib Std",
+
+  "name": "Libyan Stadium SC",
+
+  "logo": "assets/logos/africa/libya/LibStd.png",
+
+  "manager": {
+    "name": "Mourad Okbi",
+    "country": "TN"
+  },
+
+  "stadium": {
+    "name": "Great Man Made River Stadium",
+    "capacity": 20000
+  },
+
+  "players": [
+    {"playerId": "player_ly1_015_01", "name": "Ahmed Dardour", "number": 1, "position": "GK", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_015_02", "name": "Pape Sow", "number": 2, "position": "RB", "country": "SN", "status": "starter"},
+    {"playerId": "player_ly1_015_03", "name": "Mohamed Zaki", "number": 4, "position": "CB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_015_04", "name": "Mohammed Bousetta", "number": 5, "position": "CB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_015_05", "name": "Abdelghani Bouzidi", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
+    {"playerId": "player_ly1_015_06", "name": "Mohamed Amine Ammar", "number": 6, "position": "CDM", "country": "TN", "status": "starter"},
+    {"playerId": "player_ly1_015_07", "name": "Kelvin Andoh", "number": 8, "position": "CM", "country": "GH", "status": "starter"},
+    {"playerId": "player_ly1_015_08", "name": "Mohammed Al Tawerghi", "number": 7, "position": "RW", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_015_09", "name": "Abdulrahman Bousnina", "number": 10, "position": "CAM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_015_10", "name": "Nasim Ben Yusuf", "number": 11, "position": "LW", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_015_11", "name": "Abdulsamie Diab", "number": 9, "position": "ST", "country": "LY", "status": "starter"},
+
+    {"playerId": "player_ly1_015_12", "name": "Khairi Al Aswed", "number": 12, "position": "GK", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_015_13", "name": "Abdulqader Al Mesmari", "number": 15, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_015_14", "name": "Ali Taher Matouq", "number": 24, "position": "RB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_015_15", "name": "Ahmed Al Mezueghi", "number": 16, "position": "LB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_015_16", "name": "Abdulsalam Bousettin", "number": 20, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_015_17", "name": "Yousri Yaala", "number": 27, "position": "RB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_015_18", "name": "Mohammed Zoubik", "number": 23, "position": "LB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_015_19", "name": "Malek Al Andalusi", "number": 13, "position": "CM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_015_20", "name": "Ibrahim Mohammed", "number": 14, "position": "CDM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_015_21", "name": "Abdullatif Al Werfalli", "number": 17, "position": "RM", "country": "LY", "status": "bench"},
+
+    {"playerId": "player_ly1_015_22", "name": "Mohammed Al-Nabouli", "number": 22, "position": "GK", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_015_23", "name": "Ashraf Al Abani", "number": 19, "position": "LM", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_015_24", "name": "Muhannad Al Wasif", "number": 18, "position": "CAM", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_015_25", "name": "Jihad Bourkheis", "number": 21, "position": "CDM", "country": "LY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 10
+    }
+  }
+}

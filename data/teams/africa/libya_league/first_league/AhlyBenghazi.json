@@ -1,0 +1,58 @@
+{
+  "teamKey": "Ahly SC",
+
+  "name": "Al Ahly Benghazi",
+
+  "logo": "assets/logos/africa/libya/AhlySc.png",
+
+  "manager": {
+    "name": "Reda Hakam",
+    "country": "MA"
+  },
+
+  "stadium": {
+    "name": "Benina Martyrs Stadium",
+    "capacity": 10550
+  },
+
+  "players": [
+    {"playerId": "player_ly1_002_01", "name": "Murad Al-Wuheeshi", "number": 1, "position": "GK", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_002_02", "name": "Idumba Fasika", "number": 2, "position": "RB", "country": "CD", "status": "starter"},
+    {"playerId": "player_ly1_002_03", "name": "Malek Ben Ismael", "number": 4, "position": "CB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_002_04", "name": "Mansour Makkari", "number": 5, "position": "CB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_002_05", "name": "Mohamed Othman Karoui", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
+    {"playerId": "player_ly1_002_06", "name": "Trova Boni", "number": 6, "position": "CDM", "country": "BF", "status": "starter"},
+    {"playerId": "player_ly1_002_07", "name": "Ashraf Al-Maghasi", "number": 8, "position": "CM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_002_08", "name": "Hamam Hamza", "number": 7, "position": "RW", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_002_09", "name": "Mohammed Mersal", "number": 10, "position": "CAM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_002_10", "name": "Santiago Muñoz", "number": 11, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_ly1_002_11", "name": "Gibril Sillah", "number": 9, "position": "ST", "country": "GM", "status": "starter"},
+
+    {"playerId": "player_ly1_002_12", "name": "Redwan Tawfiq", "number": 12, "position": "GK", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_002_13", "name": "Mohammed Al-Tarhouni", "number": 15, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_002_14", "name": "Salah Fakroun", "number": 24, "position": "RB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_002_15", "name": "Sanad Elkouri", "number": 16, "position": "LB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_002_16", "name": "Osama Al-Sarit", "number": 13, "position": "CM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_002_17", "name": "Islam Merili", "number": 14, "position": "CDM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_ly1_002_18", "name": "Yassine El Ouatki", "number": 17, "position": "RM", "country": "MA", "status": "bench"},
+    {"playerId": "player_ly1_002_19", "name": "Abdallah Dagou", "number": 19, "position": "LM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_002_20", "name": "Salem Boushaala", "number": 18, "position": "CAM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_002_21", "name": "Nouredinne Al-Madani", "number": 21, "position": "CDM", "country": "LY", "status": "bench"},
+
+    {"playerId": "player_ly1_002_22", "name": "Zekeriya Girada", "number": 28, "position": "GK", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_002_23", "name": "Hussain Taktak", "number": 29, "position": "CM", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_002_24", "name": "Islam Nasr", "number": 20, "position": "ST", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_002_25", "name": "Muftah Taktak", "number": 37, "position": "LW", "country": "LY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 10
+    }
+  }
+}

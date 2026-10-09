@@ -1,0 +1,58 @@
+{
+  "teamKey": "Ahli SC",
+
+  "name": "Al Ahli Tripoli",
+
+  "logo": "assets/logos/africa/libya/AhliSC.png",
+
+  "manager": {
+    "name": "Hossam El Badry",
+    "country": "EG"
+  },
+
+  "stadium": {
+    "name": "Tripoli International Stadium",
+    "capacity": 50000
+  },
+
+  "players": [
+    {"playerId": "player_ly1_004_01", "name": "Ayman Al-Tihar", "number": 1, "position": "GK", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_004_02", "name": "Mohammed Al-Ajnaf", "number": 2, "position": "RB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_004_03", "name": "Mohamed Mounir Abdussalam", "number": 4, "position": "CB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_004_04", "name": "Ahmed Al-Trbi", "number": 5, "position": "CB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_004_05", "name": "Abdelaziz Ali Al-Suwaei", "number": 3, "position": "LB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_004_06", "name": "Abdullah Al-Arefi", "number": 6, "position": "CDM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_004_07", "name": "Abouqassim Rajab Al-Haj", "number": 8, "position": "CM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_004_08", "name": "Ezoo Al-Merimi", "number": 7, "position": "RW", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_004_09", "name": "Bashir Al-Hibeeshi", "number": 10, "position": "CAM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_004_10", "name": "Moayed Al-Lafi", "number": 11, "position": "LW", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_004_11", "name": "Ismael Tajouri-Shradi", "number": 9, "position": "ST", "country": "LY", "status": "starter"},
+
+    {"playerId": "player_ly1_004_12", "name": "Abdulhakim El Treki", "number": 12, "position": "GK", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_004_13", "name": "Sanad Al-Werfaly", "number": 15, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_004_14", "name": "Thierry Manzi", "number": 24, "position": "RB", "country": "RW", "status": "bench"},
+    {"playerId": "player_ly1_004_15", "name": "Hussein Dehiri", "number": 16, "position": "LB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_ly1_004_16", "name": "Ishaq Yakubu", "number": 20, "position": "CB", "country": "GH", "status": "bench"},
+    {"playerId": "player_ly1_004_17", "name": "Omran Al-Tawerghi", "number": 13, "position": "CM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_004_18", "name": "Mamadou Lamine Camara", "number": 14, "position": "CDM", "country": "SN", "status": "bench"},
+    {"playerId": "player_ly1_004_19", "name": "Omar El-Harek", "number": 17, "position": "RM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_004_20", "name": "Hamdou Elhouni Al-Masri", "number": 19, "position": "LM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_004_21", "name": "Blati Touré", "number": 18, "position": "CAM", "country": "BF", "status": "bench"},
+
+    {"playerId": "player_ly1_004_22", "name": "Ahmed Ayad", "number": 22, "position": "GK", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_004_23", "name": "Mostafa Shakshak", "number": 21, "position": "CDM", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_004_24", "name": "Tariq Bishara", "number": 28, "position": "ST", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_004_25", "name": "Wilden Bokouya", "number": 29, "position": "LW", "country": "CG", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 10
+    }
+  }
+}

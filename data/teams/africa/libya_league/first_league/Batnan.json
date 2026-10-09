@@ -1,0 +1,58 @@
+{
+  "teamKey": "Batnan",
+
+  "name": "Al-Batnan SC",
+
+  "logo": "assets/logos/africa/libya/Batnan.png",
+
+  "manager": {
+    "name": "Abdelbaset Shahat",
+    "country": "LY"
+  },
+
+  "stadium": {
+    "name": "Tobruk International Stadium",
+    "capacity": 8000
+  },
+
+  "players": [
+    {"playerId": "player_ly1_009_01", "name": "Jamal Al Saeti", "number": 1, "position": "GK", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_009_02", "name": "Abdulrahman Yaya", "number": 2, "position": "RB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_009_03", "name": "Younes Kioua", "number": 4, "position": "CB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_ly1_009_04", "name": "Abdelhakim Bassine", "number": 5, "position": "CB", "country": "MA", "status": "starter"},
+    {"playerId": "player_ly1_009_05", "name": "Mohammed Bousleima", "number": 3, "position": "LB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_009_06", "name": "Abdulhamid Jamal", "number": 6, "position": "CDM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_009_07", "name": "Nankoma Keita", "number": 8, "position": "CM", "country": "ML", "status": "starter"},
+    {"playerId": "player_ly1_009_08", "name": "Ahmed Al-Tobrouki", "number": 7, "position": "RW", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_009_09", "name": "Bara Fall", "number": 10, "position": "CAM", "country": "SN", "status": "starter"},
+    {"playerId": "player_ly1_009_10", "name": "Idris Razza", "number": 11, "position": "LW", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_009_11", "name": "Tareq Askenniz", "number": 9, "position": "ST", "country": "LY", "status": "starter"},
+
+    {"playerId": "player_ly1_009_12", "name": "Fathi Al-Majri", "number": 12, "position": "GK", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_009_13", "name": "Salah Deria", "number": 15, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_009_14", "name": "Hafez Bouseif", "number": 24, "position": "RB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_009_15", "name": "Suleiman Jumaa", "number": 16, "position": "LB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_009_16", "name": "Abdullah Karkoub", "number": 20, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_009_17", "name": "Imad Rakioui", "number": 13, "position": "CM", "country": "MA", "status": "bench"},
+    {"playerId": "player_ly1_009_18", "name": "Hamza Asrir", "number": 14, "position": "CDM", "country": "MA", "status": "bench"},
+    {"playerId": "player_ly1_009_19", "name": "Miftah Al-Tobrouki", "number": 17, "position": "RM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_009_20", "name": "Mohammed Al-Saiti", "number": 19, "position": "LM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_009_21", "name": "Ayman Al-Masmari", "number": 18, "position": "CAM", "country": "LY", "status": "bench"},
+
+    {"playerId": "player_ly1_009_22", "name": "Ahmed Al-Hassi", "number": 22, "position": "GK", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_009_23", "name": "Moataz Al-Orfi", "number": 28, "position": "ST", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_009_24", "name": "Abdulrahman Al-Werfalli", "number": 29, "position": "LW", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_009_25", "name": "Khaled Al-Mesmari", "number": 27, "position": "RW", "country": "LY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 10
+    }
+  }
+}

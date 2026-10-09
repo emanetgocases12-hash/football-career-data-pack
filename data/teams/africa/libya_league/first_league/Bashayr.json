@@ -1,0 +1,58 @@
+{
+  "teamKey": "Bashay",
+
+  "name": "Al Bashayr",
+
+  "logo": "assets/logos/africa/libya/Bashay.png",
+
+  "manager": {
+    "name": "Mohammed Al-Misrati",
+    "country": "LY"
+  },
+
+  "stadium": {
+    "name": "Al Shumooa Stadium",
+    "capacity": 16000
+  },
+
+  "players": [
+    {"playerId": "player_ly1_008_01", "name": "Omar Imbeis", "number": 1, "position": "GK", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_008_02", "name": "Aziz Ben Mohamed", "number": 2, "position": "RB", "country": "TN", "status": "starter"},
+    {"playerId": "player_ly1_008_03", "name": "Abubaker Al Heshani", "number": 4, "position": "CB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_008_04", "name": "Abdulrahim Al Treiki", "number": 5, "position": "CB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_008_05", "name": "Mohammed Erhouma", "number": 3, "position": "LB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_008_06", "name": "Henry Okebugwu", "number": 6, "position": "CDM", "country": "NG", "status": "starter"},
+    {"playerId": "player_ly1_008_07", "name": "Jonathan Zorrilla", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+    {"playerId": "player_ly1_008_08", "name": "Khaled Al Thaghour", "number": 7, "position": "RW", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_008_09", "name": "Mohammed Ayad Aziz", "number": 10, "position": "CAM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_008_10", "name": "Roweyd Ben Hamed", "number": 11, "position": "LW", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_008_11", "name": "Cheibane Traore", "number": 9, "position": "ST", "country": "ML", "status": "starter"},
+
+    {"playerId": "player_ly1_008_12", "name": "Abdulrazzaq Ben Efteima", "number": 12, "position": "GK", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_008_13", "name": "Mohammed Azzaz", "number": 15, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_008_14", "name": "Tareq Fakroun", "number": 24, "position": "RB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_008_15", "name": "Mohammed Ehmouda", "number": 16, "position": "LB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_008_16", "name": "Mouad Ben Omran", "number": 20, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_008_17", "name": "Mogtaby Al Mardi", "number": 13, "position": "CM", "country": "SD", "status": "bench"},
+    {"playerId": "player_ly1_008_18", "name": "Mohammed Egsheira", "number": 14, "position": "CDM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_008_19", "name": "Abdulrahman Al Ajnaf", "number": 18, "position": "ST", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_008_20", "name": "Ahmed Al Msallati", "number": 19, "position": "LW", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_008_21", "name": "Majdi Al Meslmani", "number": 17, "position": "RW", "country": "LY", "status": "bench"},
+
+    {"playerId": "player_ly1_008_22", "name": "Tehami", "number": 30, "position": "GK", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_008_23", "name": "Mohammed Aboukil", "number": 28, "position": "ST", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_008_24", "name": "Mohammed El-Mustafa", "number": 29, "position": "LW", "country": "SD", "status": "reserve"},
+    {"playerId": "player_ly1_008_25", "name": "Salem Al Qomati", "number": 27, "position": "RW", "country": "LY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 10
+    }
+  }
+}

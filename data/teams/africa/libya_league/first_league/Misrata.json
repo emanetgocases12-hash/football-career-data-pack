@@ -1,0 +1,58 @@
+{
+  "teamKey": "Misrat",
+
+  "name": "Al Ittihad Misrata",
+
+  "logo": "assets/logos/africa/libya/Misrat.png",
+
+  "manager": {
+    "name": "Jamel Khcharem",
+    "country": "TN"
+  },
+
+  "stadium": {
+    "name": "Misurata Stadium",
+    "capacity": 10000
+  },
+
+  "players": [
+    {"playerId": "player_ly1_018_01", "name": "Khaled Shenina", "number": 1, "position": "GK", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_018_02", "name": "Mohammed Al-Jadid", "number": 2, "position": "RB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_018_03", "name": "Mohammed Al-Juefi", "number": 4, "position": "CB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_018_04", "name": "Mohammed Al-Boraasi", "number": 5, "position": "CB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_018_05", "name": "Mohammed Al-Kreik", "number": 3, "position": "LB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_018_06", "name": "Malek Al-Hasi", "number": 6, "position": "CDM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_018_07", "name": "Ahmed Ben Omran", "number": 8, "position": "CM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_018_08", "name": "Mohammed Ebheih", "number": 7, "position": "RW", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_018_09", "name": "Ibrahim Al-Kreik", "number": 10, "position": "CAM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_018_10", "name": "Ahmed Al-Dehmani", "number": 11, "position": "LW", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_018_11", "name": "Ali Saleh Haggar", "number": 9, "position": "ST", "country": "LY", "status": "starter"},
+
+    {"playerId": "player_ly1_018_12", "name": "Khaled Bayouk", "number": 12, "position": "GK", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_018_13", "name": "Wael Afat", "number": 15, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_018_14", "name": "Idrees Abdulnasir Al-Dharrat", "number": 24, "position": "RB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_018_15", "name": "Ali Maymoun", "number": 16, "position": "LB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_018_16", "name": "Hussam Al-Abani", "number": 20, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_018_17", "name": "Mohammed Al-Qaed", "number": 27, "position": "RB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_018_18", "name": "Richmond Lamptey", "number": 13, "position": "CM", "country": "GH", "status": "bench"},
+    {"playerId": "player_ly1_018_19", "name": "Herenilson", "number": 14, "position": "CDM", "country": "AO", "status": "bench"},
+    {"playerId": "player_ly1_018_20", "name": "Yusuf Ouein", "number": 17, "position": "RM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_018_21", "name": "Salim Ablo", "number": 18, "position": "ST", "country": "CI", "status": "bench"},
+
+    {"playerId": "player_ly1_018_22", "name": "Hossam Embiya", "number": 22, "position": "GK", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_018_23", "name": "Muhannad Bouajeila", "number": 19, "position": "LW", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_018_24", "name": "Kaporal", "number": 33, "position": "RW", "country": "AO", "status": "reserve"},
+    {"playerId": "player_ly1_018_25", "name": "Mohammed Endara", "number": 28, "position": "ST", "country": "LY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 10
+    }
+  }
+}

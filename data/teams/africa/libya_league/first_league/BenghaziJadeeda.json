@@ -1,0 +1,58 @@
+{
+  "teamKey": "Bengha",
+
+  "name": "Benghazi Al Jadeeda",
+
+  "logo": "assets/logos/africa/libya/Bengha.png",
+
+  "manager": {
+    "name": "Issam Merdassi",
+    "country": "TN"
+  },
+
+  "stadium": {
+    "name": "Benghazi International Stadium",
+    "capacity": 42000
+  },
+
+  "players": [
+    {"playerId": "player_ly1_010_01", "name": "Mohammed Al Telli", "number": 1, "position": "GK", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_010_02", "name": "Osama Dabsha", "number": 2, "position": "RB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_010_03", "name": "Hesham Nazou", "number": 4, "position": "CB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_010_04", "name": "Mahdi Al Hasi", "number": 5, "position": "CB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_010_05", "name": "Hamza Al Gatrani", "number": 3, "position": "LB", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_010_06", "name": "Ali Al Agouri", "number": 6, "position": "CDM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_010_07", "name": "Sharafeddine Attia", "number": 8, "position": "CM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_010_08", "name": "Ali Ezzeddine", "number": 7, "position": "RW", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_010_09", "name": "Mohammed Erheima Al Tajouri", "number": 10, "position": "CAM", "country": "LY", "status": "starter"},
+    {"playerId": "player_ly1_010_10", "name": "Christ Mbondi", "number": 11, "position": "LW", "country": "CM", "status": "starter"},
+    {"playerId": "player_ly1_010_11", "name": "Munsef Al Tajouri", "number": 9, "position": "ST", "country": "LY", "status": "starter"},
+
+    {"playerId": "player_ly1_010_12", "name": "Ahmed Al-Fitouri", "number": 12, "position": "GK", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_010_13", "name": "Hasan Al Orfey", "number": 15, "position": "CB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_010_14", "name": "Ndo Al-Amami", "number": 24, "position": "RB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_010_15", "name": "Mahmoud Al-Ajil", "number": 16, "position": "LB", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_010_16", "name": "Abdulsalam Al Werfalli", "number": 13, "position": "CM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_010_17", "name": "Qosai Gargoum", "number": 14, "position": "CDM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_010_18", "name": "Mohammed Al-Mesmari", "number": 17, "position": "RM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_010_19", "name": "Mouad Al-Jehani", "number": 19, "position": "LM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_010_20", "name": "Ahmed Al-Barasi", "number": 18, "position": "CAM", "country": "LY", "status": "bench"},
+    {"playerId": "player_ly1_010_21", "name": "Mohammed Al Rishi", "number": 20, "position": "ST", "country": "LY", "status": "bench"},
+
+    {"playerId": "player_ly1_010_22", "name": "Ali Al Werfalli", "number": 30, "position": "GK", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_010_23", "name": "Fadil Al Esheiby", "number": 29, "position": "LW", "country": "LY", "status": "reserve"},
+    {"playerId": "player_ly1_010_24", "name": "Mohamed Hani Fayez", "number": 27, "position": "RW", "country": "EG", "status": "reserve"},
+    {"playerId": "player_ly1_010_25", "name": "Ibrahim Al Musrati", "number": 28, "position": "ST", "country": "LY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 10
+    }
+  }
+}
