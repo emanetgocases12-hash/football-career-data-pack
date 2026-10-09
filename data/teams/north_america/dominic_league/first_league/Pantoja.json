@@ -1,58 +1,58 @@
 {
-    "teamKey": "Pantoj",
-  
-    "name": "Atlético Pantoja",
-  
-    "logo": "assets/logos/north_america/dominic/Pantoj.png",
-  
-    "manager": {
-      "name": "Adolfo Monsalve",
-      "country": "VE"
-    },
-  
-    "stadium": {
-      "name": "Estadio Olímpico Félix Sánchez",
-      "capacity": 27000
-    },
-  
-    "players": [
-      {"playerId": "player_do1_008_01", "name": "Ubaldinho Espejo", "number": 1, "position": "GK", "country": "DO", "status": "starter"},
-      {"playerId": "player_do1_008_02", "name": "Welvin Sánchez", "number": 2, "position": "CB", "country": "DO", "status": "starter"},
-      {"playerId": "player_do1_008_03", "name": "Francisco Ortega", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
-      {"playerId": "player_do1_008_04", "name": "Oscalin Ferreras", "number": 5, "position": "CB", "country": "DO", "status": "starter"},
-      {"playerId": "player_do1_008_05", "name": "Pedro Martínez", "number": 3, "position": "RB", "country": "MX", "status": "starter"},
-      {"playerId": "player_do1_008_06", "name": "Isaac Báez", "number": 6, "position": "CDM", "country": "DO", "status": "starter"},
-      {"playerId": "player_do1_008_07", "name": "Francisco Jiménez", "number": 8, "position": "CM", "country": "DO", "status": "starter"},
-      {"playerId": "player_do1_008_08", "name": "Alexis Ossa", "number": 7, "position": "CM", "country": "CO", "status": "starter"},
-      {"playerId": "player_do1_008_09", "name": "Jason Joseph", "number": 10, "position": "CAM", "country": "DO", "status": "starter"},
-      {"playerId": "player_do1_008_10", "name": "Erick Japa", "number": 11, "position": "RW", "country": "DO", "status": "starter"},
-      {"playerId": "player_do1_008_11", "name": "Ronaldo Vásquez", "number": 9, "position": "ST", "country": "DO", "status": "starter"},
-  
-      {"playerId": "player_do1_008_12", "name": "Odalis Báez", "number": 12, "position": "GK", "country": "DO", "status": "bench"},
-      {"playerId": "player_do1_008_13", "name": "Robert Rosado", "number": 14, "position": "CB", "country": "DO", "status": "bench"},
-      {"playerId": "player_do1_008_14", "name": "Hansley Martínez", "number": 15, "position": "CB", "country": "DO", "status": "bench"},
-      {"playerId": "player_do1_008_15", "name": "Lean Torres", "number": 16, "position": "LB", "country": "DO", "status": "bench"},
-      {"playerId": "player_do1_008_16", "name": "Ernesto Trinidad", "number": 17, "position": "CB", "country": "DO", "status": "bench"},
-      {"playerId": "player_do1_008_17", "name": "Carlos Rossel", "number": 18, "position": "LB", "country": "DO", "status": "bench"},
-      {"playerId": "player_do1_008_18", "name": "Jhonmany Ramírez", "number": 19, "position": "CAM", "country": "DO", "status": "bench"},
-      {"playerId": "player_do1_008_19", "name": "Diego Reveco", "number": 20, "position": "CM", "country": "CA", "status": "bench"},
-      {"playerId": "player_do1_008_20", "name": "Josué Báez", "number": 21, "position": "ST", "country": "DO", "status": "bench"},
-      {"playerId": "player_do1_008_21", "name": "Lucas González", "number": 22, "position": "ST", "country": "AR", "status": "bench"},
-  
-      {"playerId": "player_do1_008_22", "name": "Pascual Ramírez", "number": 30, "position": "GK", "country": "DO", "status": "reserve"},
-      {"playerId": "player_do1_008_23", "name": "Erick Ozuna", "number": 23, "position": "LW", "country": "DO", "status": "reserve"},
-      {"playerId": "player_do1_008_24", "name": "Santiago Paz", "number": 24, "position": "GK", "country": "BO", "status": "reserve"},
-      {"playerId": "player_do1_008_25", "name": "Diego Almanzar", "number": 25, "position": "ST", "country": "DO", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 2,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 8,
-        "cornerLeft": 8,
-        "cornerRight": 8
-      }
+  "teamKey": "Pantoj",
+
+  "name": "Atlético Pantoja",
+
+  "logo": "assets/logos/north_america/dominic/Pantoj.png",
+
+  "manager": {
+    "name": "Adolfo Monsalve",
+    "country": "VE"
+  },
+
+  "stadium": {
+    "name": "Estadio Olímpico Félix Sánchez",
+    "capacity": 27000
+  },
+
+  "players": [
+    {"playerId": "player_do1_008_01", "name": "Ubaldinho Espejo", "number": 1, "position": "GK", "country": "DO", "status": "starter"},
+    {"playerId": "player_do1_008_02", "name": "Welvin Sánchez", "number": 2, "position": "CB", "country": "DO", "status": "starter"},
+    {"playerId": "player_do1_008_03", "name": "Francisco Ortega", "number": 4, "position": "CB", "country": "AR", "status": "starter"},
+    {"playerId": "player_do1_008_04", "name": "Oscalin Ferreras", "number": 5, "position": "CB", "country": "DO", "status": "starter"},
+    {"playerId": "player_do1_008_05", "name": "Pedro Martínez", "number": 3, "position": "RB", "country": "MX", "status": "starter"},
+    {"playerId": "player_do1_008_06", "name": "Isaac Báez", "number": 6, "position": "CDM", "country": "DO", "status": "starter"},
+    {"playerId": "player_do1_008_07", "name": "Francisco Jiménez", "number": 8, "position": "CM", "country": "DO", "status": "starter"},
+    {"playerId": "player_do1_008_08", "name": "Alexis Ossa", "number": 7, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_do1_008_09", "name": "Jason Joseph", "number": 10, "position": "CAM", "country": "DO", "status": "starter"},
+    {"playerId": "player_do1_008_10", "name": "Erick Japa", "number": 11, "position": "RW", "country": "DO", "status": "starter"},
+    {"playerId": "player_do1_008_11", "name": "Ronaldo Vásquez", "number": 9, "position": "ST", "country": "DO", "status": "starter"},
+
+    {"playerId": "player_do1_008_12", "name": "Odalis Báez", "number": 12, "position": "GK", "country": "DO", "status": "bench"},
+    {"playerId": "player_do1_008_13", "name": "Robert Rosado", "number": 14, "position": "CB", "country": "DO", "status": "bench"},
+    {"playerId": "player_do1_008_14", "name": "Hansley Martínez", "number": 15, "position": "CB", "country": "DO", "status": "bench"},
+    {"playerId": "player_do1_008_15", "name": "Lean Torres", "number": 16, "position": "LB", "country": "DO", "status": "bench"},
+    {"playerId": "player_do1_008_16", "name": "Ernesto Trinidad", "number": 17, "position": "CB", "country": "DO", "status": "bench"},
+    {"playerId": "player_do1_008_17", "name": "Carlos Rossel", "number": 18, "position": "LB", "country": "DO", "status": "bench"},
+    {"playerId": "player_do1_008_18", "name": "Jhonmany Ramírez", "number": 19, "position": "CAM", "country": "DO", "status": "bench"},
+    {"playerId": "player_do1_008_19", "name": "Diego Reveco", "number": 20, "position": "CM", "country": "CA", "status": "bench"},
+    {"playerId": "player_do1_008_20", "name": "Josué Báez", "number": 21, "position": "ST", "country": "DO", "status": "bench"},
+    {"playerId": "player_do1_008_21", "name": "Lucas González", "number": 22, "position": "ST", "country": "AR", "status": "bench"},
+
+    {"playerId": "player_do1_008_22", "name": "Pascual Ramírez", "number": 30, "position": "GK", "country": "DO", "status": "reserve"},
+    {"playerId": "player_do1_008_23", "name": "Erick Ozuna", "number": 23, "position": "LW", "country": "DO", "status": "reserve"},
+    {"playerId": "player_do1_008_24", "name": "Jayson Made", "number": 26, "position": "CB", "country": "DO", "status": "reserve"},
+    {"playerId": "player_do1_008_25", "name": "Diego Almanzar", "number": 25, "position": "ST", "country": "DO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 2,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 8,
+      "cornerLeft": 8,
+      "cornerRight": 8
     }
   }
+}
