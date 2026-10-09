@@ -1,58 +1,52 @@
 {
-    "teamKey": "Génesi",
-  
-    "name": "Génesis FC",
-  
-    "logo": "assets/logos/north_america/honduras/Genesi.png",
-  
-    "manager": {
-      "name": "Fernando Mira",
-      "country": "PT"
-    },
-  
-    "stadium": {
-      "name": "Estadio Carlos Miranda",
-      "capacity": 10000
-    },
-  
-    "players": [
-      {"playerId": "player_hn1_004_01", "name": "Dayan Rodríguez", "number": 1, "position": "GK", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_004_02", "name": "Juan Mosquera", "number": 2, "position": "RB", "country": "CO", "status": "starter"},
-      {"playerId": "player_hn1_004_03", "name": "Manuel Gamboa", "number": 4, "position": "CB", "country": "PA", "status": "starter"},
-      {"playerId": "player_hn1_004_04", "name": "Allans Vargas", "number": 5, "position": "CB", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_004_05", "name": "Luis Santos", "number": 3, "position": "LB", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_004_06", "name": "Cristopher Fonseca", "number": 6, "position": "CDM", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_004_07", "name": "Roger Sander", "number": 8, "position": "CM", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_004_08", "name": "Edwin Maldonado", "number": 7, "position": "RW", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_004_09", "name": "Joshua Nieto", "number": 10, "position": "CAM", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_004_10", "name": "Juan Riascos", "number": 11, "position": "ST", "country": "CO", "status": "starter"},
-      {"playerId": "player_hn1_004_11", "name": "Elías Alderete", "number": 9, "position": "LW", "country": "AR", "status": "starter"},
-  
-      {"playerId": "player_hn1_004_12", "name": "Ronaldo Balanta", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
-      {"playerId": "player_hn1_004_13", "name": "Josman Figueroa", "number": 14, "position": "CB", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_004_14", "name": "Gabriel Araújo", "number": 15, "position": "RB", "country": "BR", "status": "bench"},
-      {"playerId": "player_hn1_004_15", "name": "Juanes Ramos", "number": 16, "position": "LB", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_004_16", "name": "Kevin Pérez", "number": 17, "position": "CB", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_004_17", "name": "Marco Solano", "number": 18, "position": "LW", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_004_18", "name": "Ángel Sánchez", "number": 19, "position": "CM", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_004_19", "name": "Fabricio Galindo", "number": 20, "position": "RM", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_004_20", "name": "Fernando Sabillón", "number": 21, "position": "LM", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_004_21", "name": "César Guillén", "number": 22, "position": "CAM", "country": "HN", "status": "bench"},
-  
-      {"playerId": "player_hn1_004_22", "name": "Walter Martínez", "number": 30, "position": "CM", "country": "HN", "status": "reserve"},
-      {"playerId": "player_hn1_004_23", "name": "Junior Lacayo", "number": 23, "position": "RW", "country": "HN", "status": "reserve"},
-      {"playerId": "player_hn1_004_24", "name": "Daniel Meléndez", "number": 24, "position": "ST", "country": "HN", "status": "reserve"},
-      {"playerId": "player_hn1_004_25", "name": "Denilson Núñez", "number": 25, "position": "ST", "country": "HN", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 4,
-      "setPieces": {
-        "penalty": 11,
-        "freeKick": 8,
-        "cornerLeft": 7,
-        "cornerRight": 7
-      }
+  "teamKey": "Génesi",
+  "name": "Génesis FC",
+  "logo": "assets/logos/north_america/honduras/Genesi.png",
+  "manager": {
+    "name": "Fernando Mira",
+    "country": "PT"
+  },
+  "stadium": {
+    "name": "Estadio Carlos Miranda",
+    "capacity": 10000
+  },
+  "players": [
+    {"playerId": "player_hn1_004_01", "name": "Dayan Rodríguez", "number": 1, "position": "GK", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_004_02", "name": "Juan Mosquera", "number": 2, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_hn1_004_03", "name": "Manuel Gamboa", "number": 4, "position": "CB", "country": "PA", "status": "starter"},
+    {"playerId": "player_hn1_004_04", "name": "Allans Vargas", "number": 5, "position": "CB", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_004_05", "name": "Luis Santos", "number": 3, "position": "LB", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_004_06", "name": "Cristopher Fonseca", "number": 6, "position": "CDM", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_004_07", "name": "Roger Sander", "number": 8, "position": "CM", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_004_08", "name": "Edwin Maldonado", "number": 7, "position": "RW", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_004_09", "name": "Joshua Nieto", "number": 10, "position": "CAM", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_004_10", "name": "Juan Riascos", "number": 11, "position": "ST", "country": "CO", "status": "starter"},
+    {"playerId": "player_hn1_004_11", "name": "Elías Alderete", "number": 9, "position": "LW", "country": "AR", "status": "starter"},
+
+    {"playerId": "player_hn1_004_12", "name": "Ronaldo Balanta", "number": 31, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_hn1_004_13", "name": "Josman Figueroa", "number": 14, "position": "CB", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_004_14", "name": "Gabriel Araújo", "number": 15, "position": "RB", "country": "BR", "status": "bench"},
+    {"playerId": "player_hn1_004_15", "name": "Juanes Ramos", "number": 16, "position": "LB", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_004_16", "name": "Kevin Pérez", "number": 17, "position": "CB", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_004_17", "name": "Marco Solano", "number": 18, "position": "LW", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_004_18", "name": "Ángel Sánchez", "number": 19, "position": "CM", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_004_19", "name": "Fabricio Galindo", "number": 20, "position": "RM", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_004_20", "name": "Fernando Sabillón", "number": 21, "position": "LM", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_004_21", "name": "César Guillén", "number": 22, "position": "CAM", "country": "HN", "status": "bench"},
+
+    {"playerId": "player_hn1_004_22", "name": "Brion Dixon", "number": 28, "position": "GK", "country": "HN", "status": "reserve"},
+    {"playerId": "player_hn1_004_23", "name": "Junior Lacayo", "number": 23, "position": "RW", "country": "HN", "status": "reserve"},
+    {"playerId": "player_hn1_004_24", "name": "Daniel Meléndez", "number": 24, "position": "ST", "country": "HN", "status": "reserve"},
+    {"playerId": "player_hn1_004_25", "name": "Denilson Núñez", "number": 25, "position": "ST", "country": "HN", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 8,
+      "cornerLeft": 7,
+      "cornerRight": 7
     }
   }
+}
