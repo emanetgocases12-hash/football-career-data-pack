@@ -1,0 +1,58 @@
+{
+  "teamKey": "Cerrit",
+
+  "name": "CS Cerrito",
+
+  "logo": "assets/logos/south_america/uruguay/Cerrit.png",
+
+  "manager": {
+    "name": "Gustavo Piñeiro",
+    "country": "UY"
+  },
+
+  "stadium": {
+    "name": "Estadio Parque Maracaná",
+    "capacity": 3364
+  },
+
+  "players": [
+    {"playerId": "player_uy2_002_01", "name": "Luis Barbat", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_002_02", "name": "Emanuel Dall’Aglio", "number": 4, "position": "RB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_002_03", "name": "Jonathan Ferrari", "number": 3, "position": "CB", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy2_002_04", "name": "Roberto Hernández", "number": 2, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_002_05", "name": "Cristian González", "number": 32, "position": "LB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_002_06", "name": "Rodrigo Viera", "number": 8, "position": "CDM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_002_07", "name": "Rodrigo Viega", "number": 27, "position": "CM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_002_08", "name": "Owen Falconis", "number": 11, "position": "RW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_002_09", "name": "Jonathan Isasmendi", "number": 10, "position": "CAM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_002_10", "name": "Ignacio Yepez", "number": 7, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_uy2_002_11", "name": "Luis Machado", "number": 29, "position": "ST", "country": "UY", "status": "starter"},
+
+    {"playerId": "player_uy2_002_12", "name": "Francisco Casanova", "number": 12, "position": "GK", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_002_13", "name": "Matías Soto", "number": 23, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_002_14", "name": "Ezequiel Silveira", "number": 14, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_002_15", "name": "Santiago Ruiz", "number": 13, "position": "RB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_002_16", "name": "Edgardo Schetino", "number": 5, "position": "CDM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_002_17", "name": "Santiago Viera", "number": 6, "position": "CM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_002_18", "name": "Mateo Vista", "number": 18, "position": "CAM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_002_19", "name": "Agustín da Rocha", "number": 17, "position": "LW", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_002_20", "name": "Diego Rolán", "number": 19, "position": "ST", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_002_21", "name": "Joaquín Avilés", "number": 90, "position": "ST", "country": "UY", "status": "bench"},
+
+    {"playerId": "player_uy2_002_22", "name": "Esteban Giraldo", "number": 25, "position": "GK", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy2_002_23", "name": "Luciano Batista", "number": 20, "position": "RW", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy2_002_24", "name": "Washington Silva", "number": 15, "position": "LB", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy2_002_25", "name": "Simón Meza", "number": 38, "position": "ST", "country": "AR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 29,
+      "freeKick": 10,
+      "cornerLeft": 7,
+      "cornerRight": 11
+    }
+  }
+}

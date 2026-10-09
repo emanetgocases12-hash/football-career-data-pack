@@ -1,0 +1,58 @@
+{
+  "teamKey": "Tacuar",
+
+  "name": "Tacuarembó FC",
+
+  "logo": "assets/logos/south_america/uruguay/Tacuar.png",
+
+  "manager": {
+    "name": "Bernardo Giordano",
+    "country": "UY"
+  },
+
+  "stadium": {
+    "name": "Estadio Ingeniero Raúl Goyenola",
+    "capacity": 6156
+  },
+
+  "players": [
+    {"playerId": "player_uy2_013_01", "name": "Federico Pintado", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_013_02", "name": "Luciano Píriz", "number": 16, "position": "RB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_013_03", "name": "Federico Ferreira", "number": 25, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_013_04", "name": "Santiago Vargas", "number": 2, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_013_05", "name": "Martín Marta", "number": 3, "position": "LB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_013_06", "name": "Leonardo Olavarría", "number": 19, "position": "CDM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_013_07", "name": "Joaquín Moreira", "number": 23, "position": "CM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_013_08", "name": "Nicolás Gonzalez", "number": 7, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_uy2_013_09", "name": "Enzo Acosta", "number": 10, "position": "CAM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_013_10", "name": "Pablo López", "number": 14, "position": "LW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_013_11", "name": "L. Vieira", "number": 9, "position": "ST", "country": "UY", "status": "starter"},
+
+    {"playerId": "player_uy2_013_12", "name": "Silvio Samurio", "number": 12, "position": "GK", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_013_13", "name": "Álvaro San Emeterio", "number": 4, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_013_14", "name": "Maximiliano Camargo", "number": 22, "position": "RB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_013_15", "name": "Airton Castro", "number": 5, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_013_16", "name": "Esteban de Lima", "number": 6, "position": "CM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_013_17", "name": "Anderson Brum", "number": 30, "position": "CM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_013_18", "name": "Ian Lopez", "number": 11, "position": "CM", "country": "IT", "status": "bench"},
+    {"playerId": "player_uy2_013_19", "name": "Tizian Varela", "number": 17, "position": "RW", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_013_20", "name": "Alex Perdomo", "number": 18, "position": "LW", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_013_21", "name": "Lucas Lopez", "number": 20, "position": "ST", "country": "UY", "status": "bench"},
+
+    {"playerId": "player_uy2_013_22", "name": "Ángel Maciel", "number": 32, "position": "GK", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy2_013_23", "name": "Brandon Píriz", "number": 8, "position": "CDM", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy2_013_24", "name": "Mauro Estol", "number": 21, "position": "CM", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy2_013_25", "name": "Diego Méndez", "number": 24, "position": "RW", "country": "UY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 19,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 14,
+      "cornerRight": 7
+    }
+  }
+}

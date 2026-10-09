@@ -1,0 +1,58 @@
+{
+  "teamKey": "Huracá",
+
+  "name": "Huracán FC",
+
+  "logo": "assets/logos/south_america/uruguay/Guraca.png",
+
+  "manager": {
+    "name": "Pablo Marini",
+    "country": "AR"
+  },
+
+  "stadium": {
+    "name": "Parque Palermo",
+    "capacity": 4072
+  },
+
+  "players": [
+    {"playerId": "player_uy2_005_01", "name": "Nicolás Gentilio", "number": 25, "position": "GK", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_005_02", "name": "Joaquín Robatto", "number": 21, "position": "RB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_005_03", "name": "Joaquín Machado", "number": 4, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_005_04", "name": "Leonardo Osorio", "number": 15, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_005_05", "name": "Axel Müller", "number": 13, "position": "LB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_005_06", "name": "Facundo Greno", "number": 26, "position": "CDM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_005_07", "name": "Iván Salazar", "number": 5, "position": "CM", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy2_005_08", "name": "David Juárez", "number": 27, "position": "RW", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy2_005_09", "name": "Maximiliano Lombardi", "number": 16, "position": "CAM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_005_10", "name": "Franco Mederos", "number": 80, "position": "LW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy2_005_11", "name": "Sergio Cortelezzi", "number": 9, "position": "ST", "country": "UY", "status": "starter"},
+
+    {"playerId": "player_uy2_005_12", "name": "Aarón Soria", "number": 1, "position": "GK", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_005_13", "name": "Federico Alonso", "number": 17, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_005_14", "name": "Felipe Celli", "number": 2, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_005_15", "name": "Emiliano García", "number": 3, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_005_16", "name": "Julián Pedrosa", "number": 6, "position": "LB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_005_17", "name": "Jairo Coronel", "number": 8, "position": "CDM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_005_18", "name": "Maximiliano Rodríguez", "number": 11, "position": "CM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_005_19", "name": "Keiner Pérez", "number": 10, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_uy2_005_20", "name": "Anthony Cutti", "number": 20, "position": "LW", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy2_005_21", "name": "Mateo Aramburu", "number": 19, "position": "ST", "country": "UY", "status": "bench"},
+
+    {"playerId": "player_uy2_005_22", "name": "Maximiliano Barrios", "number": 12, "position": "GK", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy2_005_23", "name": "Facundo Silvera", "number": 24, "position": "LW", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy2_005_24", "name": "Rodrigo Rey", "number": 18, "position": "ST", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy2_005_25", "name": "Santiago Syzard", "number": 28, "position": "CAM", "country": "UY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 9,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 16,
+      "cornerLeft": 27,
+      "cornerRight": 16
+    }
+  }
+}
