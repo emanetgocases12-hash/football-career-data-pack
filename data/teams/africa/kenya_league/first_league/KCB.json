@@ -1,46 +1,58 @@
- {
-    "teamKey": "KCB",
-    "name": "KCB FC",
-    "logo": "assets/logos/africa/kenya/KCB.png",
-    "manager": {"name": "Robert Matano", "country": "KE"},
-    "stadium": {"name": "KCB Sports Club", "capacity": 3000},
-    "players": [
-      {"playerId": "player_ke1_006_01", "name": "Arnold Matumeri Mozombo", "number": 1, "position": "GK", "country": "KE", "status": "starter"},
-      {"playerId": "player_ke1_006_02", "name": "Mark Odour", "number": 80, "position": "RB", "country": "KE", "status": "starter"},
-      {"playerId": "player_ke1_006_03", "name": "Joshua Onyango", "number": 4, "position": "CB", "country": "KE", "status": "starter"},
-      {"playerId": "player_ke1_006_04", "name": "Jimmy Owili", "number": 2, "position": "CB", "country": "KE", "status": "starter"},
-      {"playerId": "player_ke1_006_05", "name": "Isma Kawawulo", "number": 5, "position": "LB", "country": "UG", "status": "starter"},
-      {"playerId": "player_ke1_006_06", "name": "Clyde Senaji", "number": 6, "position": "CDM", "country": "KE", "status": "starter"},
-      {"playerId": "player_ke1_006_07", "name": "Franck Nduwimana", "number": 8, "position": "CM", "country": "BI", "status": "starter"},
-      {"playerId": "player_ke1_006_08", "name": "Brian Ouru", "number": 13, "position": "CM", "country": "KE", "status": "starter"},
-      {"playerId": "player_ke1_006_09", "name": "Boniface Owino Omondi", "number": 11, "position": "RW", "country": "KE", "status": "starter"},
-      {"playerId": "player_ke1_006_10", "name": "Alfred Ochienge Ratolo", "number": 18, "position": "ST", "country": "KE", "status": "starter"},
-      {"playerId": "player_ke1_006_11", "name": "Fadhili Mwinyimvua Masoud", "number": 17, "position": "LW", "country": "TZ", "status": "starter"},
-  
-      {"playerId": "player_ke1_006_12", "name": "Elvis Ochienge Ochoro", "number": 12, "position": "GK", "country": "KE", "status": "bench"},
-      {"playerId": "player_ke1_006_13", "name": "Ernest Muhammed", "number": 3, "position": "CB", "country": "KE", "status": "bench"},
-      {"playerId": "player_ke1_006_14", "name": "Fidel Otieno", "number": 23, "position": "LB", "country": "KE", "status": "bench"},
-      {"playerId": "player_ke1_006_15", "name": "Geoffrey Ojunga Omondi", "number": 27, "position": "RB", "country": "KE", "status": "bench"},
-      {"playerId": "player_ke1_006_16", "name": "Paul Kinyanjui Mutegi", "number": 19, "position": "CM", "country": "KE", "status": "bench"},
-      {"playerId": "player_ke1_006_17", "name": "Joseph Onditi", "number": 24, "position": "CAM", "country": "KE", "status": "bench"},
-      {"playerId": "player_ke1_006_18", "name": "December Kisaka", "number": 21, "position": "CDM", "country": "KE", "status": "bench"},
-      {"playerId": "player_ke1_006_19", "name": "Allan Gerald Egaku", "number": 14, "position": "RM", "country": "UG", "status": "bench"},
-      {"playerId": "player_ke1_006_20", "name": "Evans Malo Ochienge", "number": 22, "position": "LM", "country": "KE", "status": "bench"},
-      {"playerId": "player_ke1_006_21", "name": "Batshi Mambote Assis", "number": 9, "position": "ST", "country": "CD", "status": "bench"},
-  
-      {"playerId": "player_ke1_006_22", "name": "Amatton Samunya", "number": 44, "position": "CB", "country": "KE", "status": "reserve"},
-      {"playerId": "player_ke1_006_23", "name": "Tedja Ce Face Wanumbi", "number": 7, "position": "CM", "country": "CD", "status": "reserve"},
-      {"playerId": "player_ke1_006_24", "name": "Francis Kahiro", "number": 20, "position": "ST", "country": "KE", "status": "reserve"},
-      {"playerId": "player_ke1_006_25", "name": "Rowland Makati", "number": 30, "position": "RW", "country": "KE", "status": "reserve"}
-    ],
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 4,
-      "setPieces": {
-        "penalty": 18,
-        "freeKick": 8,
-        "cornerLeft": 11,
-        "cornerRight": 17
-      }
+{
+  "teamKey": "KCB",
+
+  "name": "KCB FC",
+
+  "logo": "assets/logos/africa/kenya/KCB.png",
+
+  "manager": {
+    "name": "Robert Matano",
+    "country": "KE"
+  },
+
+  "stadium": {
+    "name": "KCB Sports Club",
+    "capacity": 3000
+  },
+
+  "players": [
+    {"playerId": "player_ke1_006_01", "name": "Arnold Matumeri Mozombo", "number": 1, "position": "GK", "country": "KE", "status": "starter"},
+    {"playerId": "player_ke1_006_02", "name": "Mark Odour", "number": 80, "position": "RB", "country": "KE", "status": "starter"},
+    {"playerId": "player_ke1_006_03", "name": "Joshua Onyango", "number": 4, "position": "CB", "country": "KE", "status": "starter"},
+    {"playerId": "player_ke1_006_04", "name": "Jimmy Owili", "number": 2, "position": "CB", "country": "KE", "status": "starter"},
+    {"playerId": "player_ke1_006_05", "name": "Isma Kawawulo", "number": 5, "position": "LB", "country": "UG", "status": "starter"},
+    {"playerId": "player_ke1_006_06", "name": "Clyde Senaji", "number": 6, "position": "CDM", "country": "KE", "status": "starter"},
+    {"playerId": "player_ke1_006_07", "name": "Franck Nduwimana", "number": 8, "position": "CM", "country": "BI", "status": "starter"},
+    {"playerId": "player_ke1_006_08", "name": "Brian Ouru", "number": 13, "position": "CM", "country": "KE", "status": "starter"},
+    {"playerId": "player_ke1_006_09", "name": "Boniface Owino Omondi", "number": 11, "position": "RW", "country": "KE", "status": "starter"},
+    {"playerId": "player_ke1_006_10", "name": "Alfred Ochienge Ratolo", "number": 18, "position": "ST", "country": "KE", "status": "starter"},
+    {"playerId": "player_ke1_006_11", "name": "Fadhili Mwinyimvua Masoud", "number": 17, "position": "LW", "country": "TZ", "status": "starter"},
+
+    {"playerId": "player_ke1_006_12", "name": "Elvis Ochienge Ochoro", "number": 12, "position": "GK", "country": "KE", "status": "bench"},
+    {"playerId": "player_ke1_006_13", "name": "Ernest Muhammed", "number": 3, "position": "CB", "country": "KE", "status": "bench"},
+    {"playerId": "player_ke1_006_14", "name": "Fidel Otieno", "number": 23, "position": "LB", "country": "KE", "status": "bench"},
+    {"playerId": "player_ke1_006_15", "name": "Geoffrey Ojunga Omondi", "number": 27, "position": "RB", "country": "KE", "status": "bench"},
+    {"playerId": "player_ke1_006_16", "name": "Paul Kinyanjui Mutegi", "number": 19, "position": "CM", "country": "KE", "status": "bench"},
+    {"playerId": "player_ke1_006_17", "name": "Joseph Onditi", "number": 24, "position": "CAM", "country": "KE", "status": "bench"},
+    {"playerId": "player_ke1_006_18", "name": "December Kisaka", "number": 21, "position": "CDM", "country": "KE", "status": "bench"},
+    {"playerId": "player_ke1_006_19", "name": "Allan Gerald Egaku", "number": 14, "position": "RM", "country": "UG", "status": "bench"},
+    {"playerId": "player_ke1_006_20", "name": "Evans Malo Ochienge", "number": 22, "position": "LM", "country": "KE", "status": "bench"},
+    {"playerId": "player_ke1_006_21", "name": "Batshi Mambote Assis", "number": 9, "position": "ST", "country": "CD", "status": "bench"},
+
+    {"playerId": "player_ke1_006_22", "name": "Arnold Shivachi", "number": 31, "position": "GK", "country": "KE", "status": "reserve"},
+    {"playerId": "player_ke1_006_23", "name": "Amatton Samunya", "number": 44, "position": "CB", "country": "KE", "status": "reserve"},
+    {"playerId": "player_ke1_006_24", "name": "Tedja Ce Face Wanumbi", "number": 7, "position": "CM", "country": "CD", "status": "reserve"},
+    {"playerId": "player_ke1_006_25", "name": "Francis Kahiro", "number": 20, "position": "ST", "country": "KE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 18,
+      "freeKick": 8,
+      "cornerLeft": 11,
+      "cornerRight": 17
     }
   }
+}
