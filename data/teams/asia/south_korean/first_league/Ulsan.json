@@ -1,0 +1,58 @@
+{
+  "teamKey": "Ulsan",
+
+  "name": "Ulsan HD",
+
+  "logo": "assets/logos/asia/south_korean/Ulsan.png",
+
+  "manager": {
+    "name": "Kim Hyun-seok",
+    "country": "KR"
+  },
+
+  "stadium": {
+    "name": "Ulsan Munsu Football Stadium",
+    "capacity": 44102
+  },
+
+  "players": [
+    {"playerId": "player_kr1_012_01", "name": "Jo Hyeon-woo", "number": 21, "position": "GK", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_012_02", "name": "Yoon Jong-gyu", "number": 2, "position": "RB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_012_03", "name": "Seo Myeong-kwan", "number": 4, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_012_04", "name": "Jung Seung-hyun", "number": 15, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_012_05", "name": "Kang Sang-woo", "number": 17, "position": "LB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_012_06", "name": "Ko Seung-beom", "number": 7, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_012_07", "name": "Lee Gyu-seong", "number": 8, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_012_08", "name": "Lee Dong-gyeong", "number": 10, "position": "CAM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_012_09", "name": "Um Won-sang", "number": 11, "position": "RW", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_012_10", "name": "Ludwigson", "number": 1, "position": "LW", "country": "SE", "status": "starter"},
+    {"playerId": "player_kr1_012_11", "name": "Yago Cariello", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+
+    {"playerId": "player_kr1_012_12", "name": "Moon Jung-in", "number": 23, "position": "GK", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_012_13", "name": "Kim Young-gwon", "number": 19, "position": "CB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_012_14", "name": "Cho Hyun-taek", "number": 26, "position": "LB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_012_15", "name": "Kim Kee-hee", "number": 44, "position": "CB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_012_16", "name": "Bo Jae-min", "number": 14, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_012_17", "name": "Matheus Sales", "number": 95, "position": "CDM", "country": "BR", "status": "bench"},
+    {"playerId": "player_kr1_012_18", "name": "Joo Min-kyu", "number": 18, "position": "ST", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_012_19", "name": "Eom Ji-sung", "number": 24, "position": "LW", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_012_20", "name": "Kim Min-jun", "number": 3, "position": "RW", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_012_21", "name": "Lee Chung-yong", "number": 72, "position": "RW", "country": "KR", "status": "bench"},
+
+    {"playerId": "player_kr1_012_22", "name": "Ryu Sung-min", "number": 13, "position": "GK", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr1_012_23", "name": "Park Chu-young", "number": 91, "position": "ST", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr1_012_24", "name": "Ataru Esaka", "number": 31, "position": "CAM", "country": "JP", "status": "reserve"},
+    {"playerId": "player_kr1_012_25", "name": "Darijan Bojanic", "number": 6, "position": "CM", "country": "SE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 21,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 1
+    }
+  }
+}

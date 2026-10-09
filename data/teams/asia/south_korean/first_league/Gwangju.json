@@ -1,0 +1,58 @@
+{
+  "teamKey": "Gwangj",
+
+  "name": "Gwangju FC",
+
+  "logo": "assets/logos/asia/south_korean/Gwangju.png",
+
+  "manager": {
+    "name": "Lee Jung-kyu",
+    "country": "KR"
+  },
+
+  "stadium": {
+    "name": "Gwangju World Cup Stadium",
+    "capacity": 40245
+  },
+
+  "players": [
+    {"playerId": "player_kr1_006_01", "name": "Kim Kyeong-min", "number": 1, "position": "GK", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_006_02", "name": "Jang Seok-hwan", "number": 2, "position": "RB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_006_03", "name": "Teun van Grunsven", "number": 4, "position": "CB", "country": "NL", "status": "starter"},
+    {"playerId": "player_kr1_006_04", "name": "Ahn Young-kyu", "number": 6, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_006_05", "name": "Lee Min-ki", "number": 3, "position": "LB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_006_06", "name": "Joo Se-jong", "number": 8, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_006_07", "name": "Yu Je-ho", "number": 14, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_006_08", "name": "Choi Kyoung-rok", "number": 10, "position": "CAM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_006_09", "name": "An Hyeok-joo", "number": 19, "position": "RW", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_006_10", "name": "Adriel Ba Loua", "number": 50, "position": "LW", "country": "CI", "status": "starter"},
+    {"playerId": "player_kr1_006_11", "name": "Ha Seung-un", "number": 9, "position": "ST", "country": "KR", "status": "starter"},
+
+    {"playerId": "player_kr1_006_12", "name": "Noh Hee-dong", "number": 21, "position": "GK", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_006_13", "name": "Kwak Sung-hoon", "number": 15, "position": "CB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_006_14", "name": "Joao Pedro", "number": 17, "position": "RB", "country": "BR", "status": "bench"},
+    {"playerId": "player_kr1_006_15", "name": "Park Won-jae", "number": 33, "position": "LB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_006_16", "name": "Ri Yong-jik", "number": 37, "position": "CDM", "country": "KP", "status": "bench"},
+    {"playerId": "player_kr1_006_17", "name": "Shin Chang-moo", "number": 40, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_006_18", "name": "Moon Min-seo", "number": 88, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_006_19", "name": "Emir Saitoski", "number": 7, "position": "LW", "country": "MK", "status": "bench"},
+    {"playerId": "player_kr1_006_20", "name": "Holmbert Fridjonsson", "number": 11, "position": "ST", "country": "IS", "status": "bench"},
+    {"playerId": "player_kr1_006_21", "name": "John Iredale", "number": 18, "position": "ST", "country": "AU", "status": "bench"},
+
+    {"playerId": "player_kr1_006_22", "name": "Kim Dong-hwa", "number": 23, "position": "GK", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr1_006_23", "name": "Kwon Sung-yun", "number": 22, "position": "RW", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr1_006_24", "name": "Hong Yong-jun", "number": 99, "position": "ST", "country": "KP", "status": "reserve"},
+    {"playerId": "player_kr1_006_25", "name": "Kim Yun-ho", "number": 25, "position": "ST", "country": "KR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 50
+    }
+  }
+}

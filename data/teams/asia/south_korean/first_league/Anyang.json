@@ -1,0 +1,58 @@
+{
+  "teamKey": "Anyang",
+
+  "name": "FC Anyang",
+
+  "logo": "assets/logos/asia/south_korean/Anyang.png",
+
+  "manager": {
+    "name": "Ryu Byeong-hoon",
+    "country": "KR"
+  },
+
+  "stadium": {
+    "name": "Anyang Stadium",
+    "capacity": 17143
+  },
+
+  "players": [
+    {"playerId": "player_kr1_001_01", "name": "Kim Tae-hun", "number": 1, "position": "GK", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_001_02", "name": "Kim Ji-hun", "number": 3, "position": "RB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_001_03", "name": "Lee Chang-yong", "number": 4, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_001_04", "name": "Kim Young-chan", "number": 5, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_001_05", "name": "Kim Dong-jin", "number": 22, "position": "LB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_001_06", "name": "Kang Ji-wan", "number": 6, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_001_07", "name": "Kim Jung-hyun", "number": 8, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_001_08", "name": "Matheus Oliveira Santos", "number": 7, "position": "CAM", "country": "BR", "status": "starter"},
+    {"playerId": "player_kr1_001_09", "name": "Kang Ji-hun", "number": 17, "position": "RM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_001_10", "name": "Park Jeong-hun", "number": 15, "position": "LW", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr1_001_11", "name": "Breno Herculano", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+
+    {"playerId": "player_kr1_001_12", "name": "Kim Jeong-hoon", "number": 23, "position": "GK", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_001_13", "name": "Hong Jae-seok", "number": 20, "position": "CB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_001_14", "name": "Kwon Kyung-won", "number": 21, "position": "CB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_001_15", "name": "Danny Bakker", "number": 33, "position": "CB", "country": "NL", "status": "bench"},
+    {"playerId": "player_kr1_001_16", "name": "Ivan Jukic", "number": 10, "position": "CAM", "country": "BA", "status": "bench"},
+    {"playerId": "player_kr1_001_17", "name": "Branislav Knezevic", "number": 18, "position": "CM", "country": "RS", "status": "bench"},
+    {"playerId": "player_kr1_001_18", "name": "Kim Bo-kyung", "number": 24, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_001_19", "name": "Jang Jung-woo", "number": 77, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr1_001_20", "name": "Airton Sousa", "number": 11, "position": "RW", "country": "BR", "status": "bench"},
+    {"playerId": "player_kr1_001_21", "name": "Lee Dong-hyun", "number": 19, "position": "ST", "country": "KR", "status": "bench"},
+
+    {"playerId": "player_kr1_001_22", "name": "Kim Da-sol", "number": 31, "position": "GK", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr1_001_23", "name": "Choi Geon-joo", "number": 27, "position": "RW", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr1_001_24", "name": "Blaise Tsague", "number": 28, "position": "ST", "country": "CM", "status": "reserve"},
+    {"playerId": "player_kr1_001_25", "name": "Joo Hyun-woo", "number": 99, "position": "LW", "country": "KR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 15
+    }
+  }
+}
