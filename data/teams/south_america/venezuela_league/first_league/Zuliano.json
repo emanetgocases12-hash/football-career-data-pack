@@ -1,0 +1,58 @@
+{
+  "teamKey": "Zulian",
+
+  "name": "Deportivo Rayo Zuliano",
+
+  "logo": "assets/logos/south_america/venezuela/Zulian.png",
+
+  "manager": {
+    "name": "Johanny García",
+    "country": "VE"
+  },
+
+  "stadium": {
+    "name": "Estadio José Encarnación",
+    "capacity": 40800
+  },
+
+  "players": [
+    {"playerId": "player_ve1_014_01", "name": "Luis Corredor", "number": 1, "position": "GK", "country": "VE", "status": "starter"},
+    {"playerId": "player_ve1_014_02", "name": "Javier Márquez", "number": 2, "position": "RB", "country": "VE", "status": "starter"},
+    {"playerId": "player_ve1_014_03", "name": "Santiago Garcés", "number": 4, "position": "CB", "country": "VE", "status": "starter"},
+    {"playerId": "player_ve1_014_04", "name": "Samuel Orejuela", "number": 22, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_ve1_014_05", "name": "Wilmer Bustamante", "number": 5, "position": "LB", "country": "VE", "status": "starter"},
+    {"playerId": "player_ve1_014_06", "name": "Frank Chávez", "number": 15, "position": "CDM", "country": "VE", "status": "starter"},
+    {"playerId": "player_ve1_014_07", "name": "Jorge Gómez", "number": 10, "position": "CM", "country": "VE", "status": "starter"},
+    {"playerId": "player_ve1_014_08", "name": "Jean Sánchez", "number": 7, "position": "RW", "country": "VE", "status": "starter"},
+    {"playerId": "player_ve1_014_09", "name": "Deiber Vásquez", "number": 11, "position": "CAM", "country": "VE", "status": "starter"},
+    {"playerId": "player_ve1_014_10", "name": "Jesús Barrios", "number": 27, "position": "LW", "country": "VE", "status": "starter"},
+    {"playerId": "player_ve1_014_11", "name": "José Ochoa", "number": 23, "position": "ST", "country": "VE", "status": "starter"},
+
+    {"playerId": "player_ve1_014_12", "name": "José Camacaro", "number": 12, "position": "GK", "country": "VE", "status": "bench"},
+    {"playerId": "player_ve1_014_13", "name": "Jaider Julio", "number": 25, "position": "RB", "country": "VE", "status": "bench"},
+    {"playerId": "player_ve1_014_14", "name": "José Morán", "number": 24, "position": "CB", "country": "VE", "status": "bench"},
+    {"playerId": "player_ve1_014_15", "name": "Fernando Díaz", "number": 34, "position": "CB", "country": "VE", "status": "bench"},
+    {"playerId": "player_ve1_014_16", "name": "Andrés Kinsler", "number": 6, "position": "CB", "country": "VE", "status": "bench"},
+    {"playerId": "player_ve1_014_17", "name": "Paolo Chacón", "number": 20, "position": "RB", "country": "VE", "status": "bench"},
+    {"playerId": "player_ve1_014_18", "name": "Jhan Vélez", "number": 13, "position": "CM", "country": "VE", "status": "bench"},
+    {"playerId": "player_ve1_014_19", "name": "Joiser Arias", "number": 8, "position": "CM", "country": "VE", "status": "bench"},
+    {"playerId": "player_ve1_014_20", "name": "Cristian Maldonado", "number": 17, "position": "ST", "country": "VE", "status": "bench"},
+    {"playerId": "player_ve1_014_21", "name": "Gilmar Martínez", "number": 19, "position": "ST", "country": "VE", "status": "bench"},
+
+    {"playerId": "player_ve1_014_22", "name": "Rafael Ramírez", "number": 30, "position": "GK", "country": "VE", "status": "reserve"},
+    {"playerId": "player_ve1_014_23", "name": "Luis Dugarte", "number": 31, "position": "CB", "country": "VE", "status": "reserve"},
+    {"playerId": "player_ve1_014_24", "name": "Luis Paz", "number": 18, "position": "CM", "country": "VE", "status": "reserve"},
+    {"playerId": "player_ve1_014_25", "name": "Jhon Mejía", "number": 26, "position": "CM", "country": "VE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 23,
+    "setPieces": {
+      "penalty": 23,
+      "freeKick": 11,
+      "cornerLeft": 7,
+      "cornerRight": 27
+    }
+  }
+}
