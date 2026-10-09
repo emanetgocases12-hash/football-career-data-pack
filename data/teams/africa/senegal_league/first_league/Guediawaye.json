@@ -1,52 +1,58 @@
 {
-    "teamKey": "Guédia",
-    "name": "Guédiawaye FC",
-    "logo": "assets/logos/africa/senegal/Guedia.png",
-    "manager": {
-      "name": "Tabane Dieng",
-      "country": "SN"
-    },
-    "stadium": {
-      "name": "Stade Amadou Barry",
-      "capacity": 5000
-    },
-    "players": [
-      {"playerId": "player_sn1_008_01", "name": "El Hadji Gueye", "number": 35, "position": "GK", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_008_02", "name": "Oumar Niabaly", "number": 12, "position": "RB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_008_03", "name": "Khadim Faye", "number": 5, "position": "CB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_008_04", "name": "Omar Diocou", "number": 14, "position": "CB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_008_05", "name": "Pape Hann", "number": 6, "position": "LB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_008_06", "name": "Lamine Sagna", "number": 2, "position": "CDM", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_008_07", "name": "Boubacar Seydi", "number": 13, "position": "CM", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_008_08", "name": "Kabiro Joof", "number": 11, "position": "RW", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_008_09", "name": "Makhmouth Diallo", "number": 7, "position": "CAM", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_008_10", "name": "Bernard Sow", "number": 10, "position": "LW", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_008_11", "name": "Fallou Faye", "number": 9, "position": "ST", "country": "SN", "status": "starter"},
-  
-      {"playerId": "player_sn1_008_12", "name": "Idy Diop", "number": 16, "position": "GK", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_008_13", "name": "Albert Mendy", "number": 3, "position": "CB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_008_14", "name": "Ibrahima Thiam", "number": 18, "position": "CB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_008_15", "name": "Chérif Kambaye", "number": 20, "position": "CB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_008_16", "name": "Bayé Diop", "number": 23, "position": "CB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_008_17", "name": "Mady Ndiaye", "number": 15, "position": "LB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_008_18", "name": "Amadou Thiaw", "number": 22, "position": "RB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_008_19", "name": "Racine Badiane", "number": 8, "position": "CDM", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_008_20", "name": "Babacar Ndiaye", "number": 19, "position": "CM", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_008_21", "name": "Moulaye Thiaw", "number": 21, "position": "LW", "country": "SN", "status": "bench"},
-  
-      {"playerId": "player_sn1_008_22", "name": "Mouhamed Sylla", "number": 24, "position": "CAM", "country": "SN", "status": "reserve"},
-      {"playerId": "player_sn1_008_23", "name": "Bécaye Ndiaye", "number": 25, "position": "RW", "country": "SN", "status": "reserve"},
-      {"playerId": "player_sn1_008_24", "name": "Abdou Manga", "number": 26, "position": "ST", "country": "SN", "status": "reserve"},
-      {"playerId": "player_sn1_008_25", "name": "Abdou Salam Ndoye", "number": 27, "position": "ST", "country": "SN", "status": "reserve"}
-    ],
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 35,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 11,
-        "cornerLeft": 11,
-        "cornerRight": 10
-      }
+  "teamKey": "Guédia",
+
+  "name": "Guédiawaye FC",
+
+  "logo": "assets/logos/africa/senegal/Guedia.png",
+
+  "manager": {
+    "name": "Tabane Dieng",
+    "country": "SN"
+  },
+
+  "stadium": {
+    "name": "Stade Amadou Barry",
+    "capacity": 5000
+  },
+
+  "players": [
+    {"playerId": "player_sn1_008_01", "name": "El Hadji Gueye", "number": 35, "position": "GK", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_008_02", "name": "Oumar Niabaly", "number": 12, "position": "RB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_008_03", "name": "Khadim Faye", "number": 5, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_008_04", "name": "Omar Diocou", "number": 14, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_008_05", "name": "Pape Hann", "number": 6, "position": "LB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_008_06", "name": "Lamine Sagna", "number": 2, "position": "CDM", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_008_07", "name": "Boubacar Seydi", "number": 13, "position": "CM", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_008_08", "name": "Kabiro Joof", "number": 11, "position": "RW", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_008_09", "name": "Makhmouth Diallo", "number": 7, "position": "CAM", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_008_10", "name": "Bernard Sow", "number": 10, "position": "LW", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_008_11", "name": "Fallou Faye", "number": 9, "position": "ST", "country": "SN", "status": "starter"},
+
+    {"playerId": "player_sn1_008_12", "name": "Idy Diop", "number": 16, "position": "GK", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_008_13", "name": "Albert Mendy", "number": 3, "position": "CB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_008_14", "name": "Ibrahima Thiam", "number": 18, "position": "CB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_008_15", "name": "Chérif Kambaye", "number": 20, "position": "CB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_008_16", "name": "Bayé Diop", "number": 23, "position": "CB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_008_17", "name": "Mady Ndiaye", "number": 15, "position": "LB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_008_18", "name": "Amadou Thiaw", "number": 22, "position": "RB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_008_19", "name": "Racine Badiane", "number": 8, "position": "CDM", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_008_20", "name": "Babacar Ndiaye", "number": 19, "position": "CM", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_008_21", "name": "Moulaye Thiaw", "number": 21, "position": "LW", "country": "SN", "status": "bench"},
+
+    {"playerId": "player_sn1_008_22", "name": "Cheikh Babou", "number": 30, "position": "GK", "country": "SN", "status": "reserve"},
+    {"playerId": "player_sn1_008_23", "name": "Mouhamed Sylla", "number": 24, "position": "CAM", "country": "SN", "status": "reserve"},
+    {"playerId": "player_sn1_008_24", "name": "Bécaye Ndiaye", "number": 25, "position": "RW", "country": "SN", "status": "reserve"},
+    {"playerId": "player_sn1_008_25", "name": "Abdou Manga", "number": 26, "position": "ST", "country": "SN", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 35,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 10
     }
   }
+}
