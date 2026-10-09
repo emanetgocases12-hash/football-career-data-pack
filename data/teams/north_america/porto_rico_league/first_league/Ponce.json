@@ -1,0 +1,58 @@
+{
+  "teamKey": "Ponce",
+
+  "name": "Ponce FC",
+
+  "logo": "assets/logos/north_america/porto_rico/Ponce.png",
+
+  "manager": {
+    "name": "Jahaziel Acosta",
+    "country": "PR"
+  },
+
+  "stadium": {
+    "name": "Parque de Fútbol Los Caobos",
+    "capacity": 1000
+  },
+
+  "players": [
+    {"playerId": "player_pr1_006_01", "name": "Juan Bustamante", "number": 12, "position": "GK", "country": "US", "status": "starter"},
+    {"playerId": "player_pr1_006_02", "name": "Mikaël Pedrani", "number": 88, "position": "RB", "country": "AR", "status": "starter"},
+    {"playerId": "player_pr1_006_03", "name": "Mandell François", "number": 2, "position": "CB", "country": "HT", "status": "starter"},
+    {"playerId": "player_pr1_006_04", "name": "Raúl Torres", "number": 4, "position": "CB", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_006_05", "name": "Stalyn Acosta", "number": 3, "position": "LB", "country": "HN", "status": "starter"},
+    {"playerId": "player_pr1_006_06", "name": "Andrés Jiménez", "number": 6, "position": "CDM", "country": "US", "status": "starter"},
+    {"playerId": "player_pr1_006_07", "name": "Edgar Guzmán", "number": 77, "position": "CM", "country": "US", "status": "starter"},
+    {"playerId": "player_pr1_006_08", "name": "Andrés Cabrero", "number": 17, "position": "CAM", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_006_09", "name": "Carlos Matos", "number": 7, "position": "RW", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_006_10", "name": "Lucas Bellomo", "number": 14, "position": "LW", "country": "NI", "status": "starter"},
+    {"playerId": "player_pr1_006_11", "name": "Jhonathan Rivas", "number": 11, "position": "ST", "country": "CO", "status": "starter"},
+
+    {"playerId": "player_pr1_006_12", "name": "Chidi Iloka", "number": 33, "position": "GK", "country": "US", "status": "bench"},
+    {"playerId": "player_pr1_006_13", "name": "Joewel Maldonado", "number": 5, "position": "CB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_006_14", "name": "Pedro Roche", "number": 13, "position": "LB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_006_15", "name": "Diego Martinez", "number": 19, "position": "RB", "country": "US", "status": "bench"},
+    {"playerId": "player_pr1_006_16", "name": "Yeriel Cartagena", "number": 20, "position": "CDM", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_006_17", "name": "Kelvin De Jesús", "number": 16, "position": "CM", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_006_18", "name": "José Valladares", "number": 18, "position": "CM", "country": "US", "status": "bench"},
+    {"playerId": "player_pr1_006_19", "name": "Philip Hernández", "number": 29, "position": "RM", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_006_20", "name": "Rodrigo López", "number": 31, "position": "RM", "country": "AR", "status": "bench"},
+    {"playerId": "player_pr1_006_21", "name": "Teo Candido", "number": 8, "position": "CAM", "country": "US", "status": "bench"},
+
+    {"playerId": "player_pr1_006_22", "name": "Philip Reis", "number": 30, "position": "GK", "country": "CA", "status": "reserve"},
+    {"playerId": "player_pr1_006_23", "name": "Dante Williams", "number": 10, "position": "CAM", "country": "PR", "status": "reserve"},
+    {"playerId": "player_pr1_006_24", "name": "Ramiro Pasotti", "number": 9, "position": "ST", "country": "ES", "status": "reserve"},
+    {"playerId": "player_pr1_006_25", "name": "Edgardo Santiago", "number": 21, "position": "ST", "country": "PR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 17,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 17,
+      "cornerLeft": 7,
+      "cornerRight": 14
+    }
+  }
+}

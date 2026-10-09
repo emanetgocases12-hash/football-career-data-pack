@@ -1,0 +1,58 @@
+{
+  "teamKey": "SanJua",
+
+  "name": "San Juan FC",
+
+  "logo": "assets/logos/north_america/porto_rico/SanJua.png",
+
+  "manager": {
+    "name": "Daniel Galindo",
+    "country": "PR"
+  },
+
+  "stadium": {
+    "name": "Parque de Fútbol Benjamin Martinez Gonzalez",
+    "capacity": 1000
+  },
+
+  "players": [
+    {"playerId": "player_pr1_009_01", "name": "Carlos Cernuda", "number": 1, "position": "GK", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_009_02", "name": "José Pérez", "number": 3, "position": "RB", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_009_03", "name": "Damean Domínguez", "number": 22, "position": "CB", "country": "US", "status": "starter"},
+    {"playerId": "player_pr1_009_04", "name": "Andrés Bartolomei", "number": 31, "position": "CB", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_009_05", "name": "Edwin Andújar", "number": 27, "position": "LB", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_009_06", "name": "Steven Vélez", "number": 21, "position": "CDM", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_009_07", "name": "Adrián Prado", "number": 10, "position": "CM", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_009_08", "name": "Marcelo Rodríguez", "number": 18, "position": "CAM", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_009_09", "name": "Quanah Brayboy", "number": 7, "position": "RW", "country": "US", "status": "starter"},
+    {"playerId": "player_pr1_009_10", "name": "Jeremy Roldán", "number": 11, "position": "LW", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_009_11", "name": "Antonio Santos", "number": 9, "position": "ST", "country": "PR", "status": "starter"},
+
+    {"playerId": "player_pr1_009_12", "name": "Kennieth Ojeda", "number": 50, "position": "GK", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_009_13", "name": "Miguel Eliza", "number": 4, "position": "CB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_009_14", "name": "Carlos Burgos", "number": 12, "position": "CB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_009_15", "name": "Jeshuan Collazo", "number": 29, "position": "CB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_009_16", "name": "Gilberto Ramírez", "number": 6, "position": "CB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_009_17", "name": "Tomas Cuiña", "number": 13, "position": "CB", "country": "US", "status": "bench"},
+    {"playerId": "player_pr1_009_18", "name": "Mauricio Ramos", "number": 2, "position": "LB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_009_19", "name": "Enrique Torres", "number": 5, "position": "CDM", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_009_20", "name": "Dyllan Arias", "number": 8, "position": "CM", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_009_21", "name": "Eliseo Gómez", "number": 23, "position": "CDM", "country": "PR", "status": "bench"},
+
+    {"playerId": "player_pr1_009_22", "name": "Ángel Álvarez", "number": 55, "position": "GK", "country": "CO", "status": "reserve"},
+    {"playerId": "player_pr1_009_23", "name": "Diego Rodríguez", "number": 14, "position": "CM", "country": "PR", "status": "reserve"},
+    {"playerId": "player_pr1_009_24", "name": "Nako Amare", "number": 17, "position": "LW", "country": "BW", "status": "reserve"},
+    {"playerId": "player_pr1_009_25", "name": "Javier Hopgood", "number": 19, "position": "LW", "country": "PR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 21,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 18,
+      "cornerLeft": 11,
+      "cornerRight": 7
+    }
+  }
+}

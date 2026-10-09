@@ -1,0 +1,58 @@
+{
+  "teamKey": "Mayagü",
+
+  "name": "FC Mayagüez",
+
+  "logo": "assets/logos/north_america/porto_rico/Mayagu.png",
+
+  "manager": {
+    "name": "Gladys Cusy Rivera",
+    "country": "PR"
+  },
+
+  "stadium": {
+    "name": "Mayagüez Athletics Stadium",
+    "capacity": 12000
+  },
+
+  "players": [
+    {"playerId": "player_pr1_004_01", "name": "Carlos Parlade", "number": 1, "position": "GK", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_004_02", "name": "Iancarlo Álvarez", "number": 5, "position": "LB", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_004_03", "name": "Juvenal Bassa", "number": 4, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_pr1_004_04", "name": "Sebastián Rodríguez", "number": 3, "position": "CB", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_004_05", "name": "Jonathan Recio", "number": 14, "position": "RB", "country": "CU", "status": "starter"},
+    {"playerId": "player_pr1_004_06", "name": "Daniel Zuñiga", "number": 18, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_pr1_004_07", "name": "Luis Toro", "number": 6, "position": "CM", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_004_08", "name": "Francisco Rodríguez", "number": 10, "position": "CAM", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_004_09", "name": "Neythan Sierra", "number": 11, "position": "RW", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_004_10", "name": "Kaleb Aponte", "number": 28, "position": "LW", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_004_11", "name": "Jhonathan Rivas", "number": 7, "position": "ST", "country": "CO", "status": "starter"},
+
+    {"playerId": "player_pr1_004_12", "name": "Dwmars Ruíz", "number": 30, "position": "GK", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_004_13", "name": "Gabriel Rosado", "number": 31, "position": "CB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_004_14", "name": "Yazid Cruz", "number": 2, "position": "RB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_004_15", "name": "Pedro Matos", "number": 75, "position": "RB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_004_16", "name": "Carlos Leyva", "number": 23, "position": "CB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_004_17", "name": "Osvaldo Ríos", "number": 24, "position": "CB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_004_18", "name": "Christian De Jesús", "number": 27, "position": "CB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_004_19", "name": "Diego Melero", "number": 8, "position": "CM", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_004_20", "name": "Sergio Cruz", "number": 9, "position": "CM", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_004_21", "name": "Sebastián Ríos", "number": 15, "position": "CM", "country": "VE", "status": "bench"},
+
+    {"playerId": "player_pr1_004_22", "name": "Matthew Miller", "number": 13, "position": "GK", "country": "US", "status": "reserve"},
+    {"playerId": "player_pr1_004_23", "name": "Franklyn Rodríguez", "number": 12, "position": "CM", "country": "PR", "status": "reserve"},
+    {"playerId": "player_pr1_004_24", "name": "Nataniel Álvarez", "number": 22, "position": "RM", "country": "PR", "status": "reserve"},
+    {"playerId": "player_pr1_004_25", "name": "Jezrrel Garcia", "number": 26, "position": "CAM", "country": "PR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 7,
+      "freeKick": 10,
+      "cornerLeft": 11,
+      "cornerRight": 28
+    }
+  }
+}

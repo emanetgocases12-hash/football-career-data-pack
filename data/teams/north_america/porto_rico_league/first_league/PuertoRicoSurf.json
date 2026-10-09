@@ -1,0 +1,58 @@
+{
+  "teamKey": "Surf",
+
+  "name": "Puerto Rico Surf",
+
+  "logo": "assets/logos/north_america/porto_rico/Surf.png",
+
+  "manager": {
+    "name": "Elismanuel Ortiz",
+    "country": "PR"
+  },
+
+  "stadium": {
+    "name": "Complejo Deportivo Torrimar",
+    "capacity": 1000
+  },
+
+  "players": [
+    {"playerId": "player_pr1_007_01", "name": "Lucas Espada", "number": 2, "position": "GK", "country": "US", "status": "starter"},
+    {"playerId": "player_pr1_007_02", "name": "Adrián Burgos", "number": 17, "position": "RB", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_007_03", "name": "Esteban Elizalde", "number": 4, "position": "CB", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_007_04", "name": "Alejandro Viera", "number": 41, "position": "CB", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_007_05", "name": "Andrés Suárez", "number": 12, "position": "LB", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_007_06", "name": "Ryan López", "number": 22, "position": "CM", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_007_07", "name": "Lorenzo Báez", "number": 7, "position": "CAM", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_007_08", "name": "Samuel Soto", "number": 27, "position": "RM", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_007_09", "name": "Cristian Hernández", "number": 14, "position": "RW", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_007_10", "name": "Adrián Faisca", "number": 18, "position": "LW", "country": "PR", "status": "starter"},
+    {"playerId": "player_pr1_007_11", "name": "Kevin Hernández", "number": 16, "position": "ST", "country": "PR", "status": "starter"},
+
+    {"playerId": "player_pr1_007_12", "name": "Gabriel Gordillo", "number": 43, "position": "GK", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_007_13", "name": "Gilbert Lebrón", "number": 3, "position": "CB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_007_14", "name": "David Marrero", "number": 8, "position": "CB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_007_15", "name": "Nikolai Zapolskikh", "number": 9, "position": "CB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_007_16", "name": "Daniel Morales", "number": 35, "position": "LB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_007_17", "name": "Kendall Pellot", "number": 26, "position": "RB", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_007_18", "name": "Christian Niño", "number": 33, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_pr1_007_19", "name": "Joseph Villafañe", "number": 13, "position": "CDM", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_007_20", "name": "Alejandro Vivoni", "number": 21, "position": "CM", "country": "PR", "status": "bench"},
+    {"playerId": "player_pr1_007_21", "name": "Carlos Sola", "number": 34, "position": "CM", "country": "PR", "status": "bench"},
+
+    {"playerId": "player_pr1_007_22", "name": "Samuel Soto", "number": 31, "position": "GK", "country": "PR", "status": "reserve"},
+    {"playerId": "player_pr1_007_23", "name": "Dereck Hernández", "number": 23, "position": "LM", "country": "PR", "status": "reserve"},
+    {"playerId": "player_pr1_007_24", "name": "Sebastián Villafañe", "number": 5, "position": "CAM", "country": "PR", "status": "reserve"},
+    {"playerId": "player_pr1_007_25", "name": "Rodrigo Ferrer", "number": 6, "position": "CAM", "country": "PR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 27,
+    "setPieces": {
+      "penalty": 16,
+      "freeKick": 7,
+      "cornerLeft": 18,
+      "cornerRight": 14
+    }
+  }
+}
