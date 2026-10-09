@@ -1,0 +1,58 @@
+{
+  "teamKey": "Herrer",
+
+  "name": "Herrera FC",
+
+  "logo": "assets/logos/north_america/panama/Herrer.png",
+
+  "manager": {
+    "name": "Isarris Nikolaos",
+    "country": "GR"
+  },
+
+  "stadium": {
+    "name": "Estadio Gustavo Posam",
+    "capacity": 300
+  },
+
+  "players": [
+    {"playerId": "player_pa1_006_01", "name": "Icker Santamaría", "number": 12, "position": "GK", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_006_02", "name": "José Rivera", "number": 27, "position": "CB", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_006_03", "name": "Blas Valencia", "number": 64, "position": "CB", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_006_04", "name": "Patrick Pérez", "number": 2, "position": "LB", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_006_05", "name": "Javier de la Espada", "number": 3, "position": "RB", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_006_06", "name": "Edmilson González", "number": 11, "position": "CDM", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_006_07", "name": "Francisco Bethancourt", "number": 6, "position": "CDM", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_006_08", "name": "Jhonny López", "number": 20, "position": "CM", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_006_09", "name": "Ronnie Villarreal", "number": 7, "position": "RW", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_006_10", "name": "Jefferson Pinilla", "number": 21, "position": "RW", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_006_11", "name": "Alejandro Peñalba", "number": 19, "position": "ST", "country": "PA", "status": "starter"},
+
+    {"playerId": "player_pa1_006_12", "name": "Jorge Concepción", "number": 31, "position": "GK", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_006_13", "name": "Kevin Quintero", "number": 15, "position": "CB", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_006_14", "name": "Samuel Batchelor", "number": 4, "position": "CB", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_006_15", "name": "David Castillo", "number": 18, "position": "CM", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_006_16", "name": "Sair Batchelor", "number": 5, "position": "CM", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_006_17", "name": "Matthews Moreno", "number": 14, "position": "CDM", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_006_18", "name": "Osman Rivera", "number": 22, "position": "CM", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_006_19", "name": "Juan Felipe Herrera", "number": 17, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_pa1_006_20", "name": "Dean Tenorio", "number": 25, "position": "CM", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_006_21", "name": "Juan González", "number": 10, "position": "RM", "country": "PA", "status": "bench"},
+
+    {"playerId": "player_pa1_006_22", "name": "José Cubilla", "number": 1, "position": "GK", "country": "PA", "status": "reserve"},
+    {"playerId": "player_pa1_006_23", "name": "Guido Rouse", "number": 28, "position": "ST", "country": "PA", "status": "reserve"},
+    {"playerId": "player_pa1_006_24", "name": "Jorge Aristizábal", "number": 29, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_pa1_006_25", "name": "Josué Concepción", "number": 26, "position": "ST", "country": "PA", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 12,
+    "setPieces": {
+      "penalty": 19,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 21
+    }
+  }
+}

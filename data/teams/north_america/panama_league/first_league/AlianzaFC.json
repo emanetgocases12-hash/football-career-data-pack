@@ -1,0 +1,58 @@
+{
+  "teamKey": "FC Pan",
+
+  "name": "Alianza FC",
+
+  "logo": "assets/logos/north_america/panama/FCPan.png",
+
+  "manager": {
+    "name": "Jair Palacios",
+    "country": "CO"
+  },
+
+  "stadium": {
+    "name": "Estadio Rommel Fernández Gutiérrez",
+    "capacity": 23000
+  },
+
+  "players": [
+    {"playerId": "player_pa1_001_01", "name": "Johan López", "number": 1, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_pa1_001_02", "name": "Adolfo Machado", "number": 31, "position": "CB", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_001_03", "name": "Fernando Landazuri", "number": 2, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_pa1_001_04", "name": "Yeison Ortega", "number": 3, "position": "LB", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_001_05", "name": "Reyniel Perdomo", "number": 18, "position": "RB", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_001_06", "name": "Manuel Rodríguez", "number": 22, "position": "CDM", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_001_07", "name": "Gilberto Rangel", "number": 8, "position": "CM", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_001_08", "name": "John Asprilla", "number": 17, "position": "CAM", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_001_09", "name": "Gabriel Chiari", "number": 10, "position": "LW", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_001_10", "name": "Jamal Garcés", "number": 26, "position": "RW", "country": "PA", "status": "starter"},
+    {"playerId": "player_pa1_001_11", "name": "Bayron Walters", "number": 9, "position": "ST", "country": "PA", "status": "starter"},
+
+    {"playerId": "player_pa1_001_12", "name": "Jean Ambuila", "number": 12, "position": "GK", "country": "VE", "status": "bench"},
+    {"playerId": "player_pa1_001_13", "name": "Oliver Campos", "number": 5, "position": "CB", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_001_14", "name": "Jhon Marquínez", "number": 23, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_pa1_001_15", "name": "Alex Gálvez", "number": 15, "position": "LB", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_001_16", "name": "Alvin Mendoza", "number": 13, "position": "RB", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_001_17", "name": "Denzel Spencer", "number": 11, "position": "RB", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_001_18", "name": "José Marengo", "number": 6, "position": "CDM", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_001_19", "name": "Roberto Berguido", "number": 14, "position": "CAM", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_001_20", "name": "Ricardo Mitre", "number": 16, "position": "LW", "country": "PA", "status": "bench"},
+    {"playerId": "player_pa1_001_21", "name": "Daniel Vargas", "number": 19, "position": "LW", "country": "PA", "status": "bench"},
+
+    {"playerId": "player_pa1_001_22", "name": "Kevin Melgar", "number": 30, "position": "GK", "country": "PA", "status": "reserve"},
+    {"playerId": "player_pa1_001_23", "name": "Edwin Tello", "number": 21, "position": "RB", "country": "CO", "status": "reserve"},
+    {"playerId": "player_pa1_001_24", "name": "John Jairo Alvarado", "number": 28, "position": "ST", "country": "PA", "status": "reserve"},
+    {"playerId": "player_pa1_001_25", "name": "Ansony Frías", "number": 27, "position": "ST", "country": "PA", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 17,
+      "cornerLeft": 17,
+      "cornerRight": 10
+    }
+  }
+}
