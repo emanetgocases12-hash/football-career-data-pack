@@ -1,0 +1,58 @@
+{
+  "teamKey": "G'Jara",
+
+  "name": "Deportivo Guadalajara",
+
+  "logo": "assets/logos/north_america/mexico/GJara.png",
+
+  "manager": {
+    "name": "Gabriel Milito",
+    "country": "AR"
+  },
+
+  "stadium": {
+    "name": "Estadio Akron",
+    "capacity": 49580
+  },
+
+  "players": [
+    {"playerId": "player_mx1_005_01", "name": "Raúl Rangel", "number": 1, "position": "GK", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_005_02", "name": "José Castillo Pérez", "number": 2, "position": "RB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_005_03", "name": "Diego Campillo", "number": 3, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_005_04", "name": "Miguel Tapias", "number": 4, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_005_05", "name": "Bryan González", "number": 5, "position": "LB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_005_06", "name": "Omar Govea", "number": 6, "position": "CDM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_005_07", "name": "Luis Romo", "number": 7, "position": "CM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_005_08", "name": "Brian Gutiérrez", "number": 11, "position": "CAM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_005_09", "name": "Hugo Camberos", "number": 14, "position": "RW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_005_10", "name": "Jonathan Pérez", "number": 18, "position": "LW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_005_11", "name": "Ángel Sepúlveda", "number": 9, "position": "ST", "country": "MX", "status": "starter"},
+
+    {"playerId": "player_mx1_005_12", "name": "Óscar Whalley", "number": 13, "position": "GK", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_005_13", "name": "Luis Gabriel Rey", "number": 16, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_005_14", "name": "Miguel Gómez", "number": 24, "position": "RB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_005_15", "name": "Richard Ledezma", "number": 37, "position": "LB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_005_16", "name": "Ángel Chávez", "number": 56, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_005_17", "name": "Kevin Castañeda", "number": 19, "position": "CM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_005_18", "name": "Daniel Aguirre", "number": 23, "position": "CDM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_005_19", "name": "Rubén González", "number": 28, "position": "RW", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_005_20", "name": "Santiago Sandoval", "number": 30, "position": "CAM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_005_21", "name": "Efraín Álvarez", "number": 10, "position": "LW", "country": "MX", "status": "bench"},
+
+    {"playerId": "player_mx1_005_22", "name": "Sebastián Liceaga", "number": 31, "position": "GK", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_005_23", "name": "Jordán Carrillo", "number": 33, "position": "LM", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_005_24", "name": "Ricardo Marín", "number": 17, "position": "RW", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_005_25", "name": "Roberto Alvarado", "number": 25, "position": "ST", "country": "MX", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 11
+    }
+  }
+}

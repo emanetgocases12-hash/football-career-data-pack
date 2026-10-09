@@ -1,0 +1,58 @@
+{
+  "teamKey": "S'Luis",
+
+  "name": "Atlético de San Luis",
+
+  "logo": "assets/logos/north_america/mexico/SLuis.png",
+
+  "manager": {
+    "name": "Diego Mejía",
+    "country": "MX"
+  },
+
+  "stadium": {
+    "name": "Estadio Alfonso Lastras Ramírez",
+    "capacity": 27029
+  },
+
+  "players": [
+    {"playerId": "player_mx1_013_01", "name": "Andrés Sánchez", "number": 1, "position": "GK", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_013_02", "name": "Román Torres", "number": 2, "position": "RB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_013_03", "name": "Robson Bambu", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_mx1_013_04", "name": "Juanpe", "number": 6, "position": "CB", "country": "ES", "status": "starter"},
+    {"playerId": "player_mx1_013_05", "name": "Lucas Esteves", "number": 16, "position": "LB", "country": "BR", "status": "starter"},
+    {"playerId": "player_mx1_013_06", "name": "Roberto Meráz", "number": 5, "position": "CDM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_013_07", "name": "Benjamín Galdames", "number": 7, "position": "CM", "country": "CL", "status": "starter"},
+    {"playerId": "player_mx1_013_08", "name": "Luis Nájera", "number": 8, "position": "CAM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_013_09", "name": "Sébastien Salles-Lamonge", "number": 10, "position": "RW", "country": "FR", "status": "starter"},
+    {"playerId": "player_mx1_013_10", "name": "David Rodríguez", "number": 11, "position": "LW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_013_11", "name": "João Pedro", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+
+    {"playerId": "player_mx1_013_12", "name": "César López", "number": 23, "position": "GK", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_013_13", "name": "Aldo Cruz", "number": 18, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_013_14", "name": "Benjamín Galindo", "number": 30, "position": "RB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_013_15", "name": "Eduardo Águila", "number": 31, "position": "LB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_013_16", "name": "Johan Caicedo", "number": 13, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_mx1_013_17", "name": "Miguel García", "number": 14, "position": "CDM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_013_18", "name": "Óscar Macías", "number": 21, "position": "RW", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_013_19", "name": "Rafa Llorente", "number": 22, "position": "CAM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_013_20", "name": "Anderson Duarte", "number": 17, "position": "LW", "country": "UY", "status": "bench"},
+    {"playerId": "player_mx1_013_21", "name": "Felipe Mora", "number": 99, "position": "RW", "country": "CL", "status": "bench"},
+
+    {"playerId": "player_mx1_013_22", "name": "Manuel Lajud", "number": 25, "position": "GK", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_013_23", "name": "Sebastián Pérez Bouquet", "number": 26, "position": "LM", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_013_24", "name": "Jesús Medina", "number": 28, "position": "RM", "country": "PY", "status": "reserve"},
+    {"playerId": "player_mx1_013_25", "name": "Santiago Muñóz", "number": 19, "position": "ST", "country": "MX", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 8,
+      "cornerLeft": 8,
+      "cornerRight": 8
+    }
+  }
+}

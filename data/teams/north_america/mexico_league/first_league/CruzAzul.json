@@ -1,0 +1,58 @@
+{
+  "teamKey": "C Azul",
+
+  "name": "CD Cruz Azul",
+
+  "logo": "assets/logos/north_america/mexico/CAzul.png",
+
+  "manager": {
+    "name": "Joel Huiqui",
+    "country": "MX"
+  },
+
+  "stadium": {
+    "name": "Estadio Olímpico Universitario",
+    "capacity": 62700
+  },
+
+  "players": [
+    {"playerId": "player_mx1_004_01", "name": "Andrés Gudiño", "number": 1, "position": "GK", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_004_02", "name": "Alan Mozo", "number": 2, "position": "RB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_004_03", "name": "Omar Campos", "number": 3, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_004_04", "name": "Willer Ditta", "number": 4, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_mx1_004_05", "name": "Jesús Orozco", "number": 5, "position": "LB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_004_06", "name": "Érik Lira", "number": 6, "position": "CDM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_004_07", "name": "Agustín Palavecino", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+    {"playerId": "player_mx1_004_08", "name": "Andrés Montaño", "number": 10, "position": "CAM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_004_09", "name": "Jeremy Márquez", "number": 16, "position": "RW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_004_10", "name": "Amaury García", "number": 17, "position": "LW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_004_11", "name": "Nicolás Ibáñez", "number": 7, "position": "ST", "country": "MX", "status": "starter"},
+
+    {"playerId": "player_mx1_004_12", "name": "Kevin Mier", "number": 23, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_mx1_004_13", "name": "Alán Montes", "number": 12, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_004_14", "name": "Ralph Orquin", "number": 15, "position": "RB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_004_15", "name": "Jorge Rodarte", "number": 22, "position": "LB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_004_16", "name": "Raymundo Rubio", "number": 28, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_004_17", "name": "Carlos Rodríguez", "number": 19, "position": "CM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_004_18", "name": "Fernando Sámano", "number": 25, "position": "CDM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_004_19", "name": "Cristian Jiménez", "number": 32, "position": "RW", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_004_20", "name": "Rogelio González", "number": 55, "position": "CAM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_004_21", "name": "Christian Ebere", "number": 11, "position": "LW", "country": "NG", "status": "bench"},
+
+    {"playerId": "player_mx1_004_22", "name": "Emmanuel Ochoa", "number": 30, "position": "GK", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_004_23", "name": "Juan Calero", "number": 14, "position": "RW", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_004_24", "name": "Luka Romero", "number": 18, "position": "ST", "country": "AR", "status": "reserve"},
+    {"playerId": "player_mx1_004_25", "name": "José Paradela", "number": 20, "position": "ST", "country": "AR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 7,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 10
+    }
+  }
+}

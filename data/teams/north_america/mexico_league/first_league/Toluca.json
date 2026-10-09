@@ -1,0 +1,58 @@
+{
+  "teamKey": "Toluca",
+
+  "name": "Deportivo Toluca",
+
+  "logo": "assets/logos/north_america/mexico/Toluca.png",
+
+  "manager": {
+    "name": "Antonio Mohamed",
+    "country": "AR"
+  },
+
+  "stadium": {
+    "name": "Estadio Nemesio Díez Riega",
+    "capacity": 31000
+  },
+
+  "players": [
+    {"playerId": "player_mx1_017_01", "name": "Hugo González", "number": 1, "position": "GK", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_017_02", "name": "Diego Barbosa", "number": 2, "position": "RB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_017_03", "name": "Antonio Briseño", "number": 3, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_017_04", "name": "Bruno Méndez", "number": 4, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_mx1_017_05", "name": "Federico Pereira", "number": 6, "position": "LB", "country": "UY", "status": "starter"},
+    {"playerId": "player_mx1_017_06", "name": "Franco Romero", "number": 5, "position": "CDM", "country": "AR", "status": "starter"},
+    {"playerId": "player_mx1_017_07", "name": "Víctor Guzmán", "number": 7, "position": "CM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_017_08", "name": "Nicolás Castro", "number": 8, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_mx1_017_09", "name": "Jesús Angulo", "number": 10, "position": "RW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_017_10", "name": "Marcel Ruiz", "number": 14, "position": "LW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_017_11", "name": "Alexis Vega", "number": 9, "position": "ST", "country": "MX", "status": "starter"},
+
+    {"playerId": "player_mx1_017_12", "name": "Ronaldo Beltrán", "number": 12, "position": "GK", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_017_13", "name": "Luan", "number": 13, "position": "CB", "country": "BR", "status": "bench"},
+    {"playerId": "player_mx1_017_14", "name": "Brian García", "number": 17, "position": "RB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_017_15", "name": "Jesús Gallardo", "number": 20, "position": "LB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_017_16", "name": "Everardo López", "number": 25, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_017_17", "name": "Pável Pérez", "number": 15, "position": "CM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_017_18", "name": "Santiago Simón", "number": 19, "position": "CDM", "country": "AR", "status": "bench"},
+    {"playerId": "player_mx1_017_19", "name": "Fernando Arce", "number": 24, "position": "RW", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_017_20", "name": "Jorge Díaz", "number": 29, "position": "CAM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_017_21", "name": "Helinho", "number": 11, "position": "LW", "country": "BR", "status": "bench"},
+
+    {"playerId": "player_mx1_017_22", "name": "Luis García", "number": 22, "position": "GK", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_017_23", "name": "Federico Viñas", "number": 16, "position": "RW", "country": "UY", "status": "reserve"},
+    {"playerId": "player_mx1_017_24", "name": "Iván López", "number": 21, "position": "ST", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_017_25", "name": "Oswaldo Virgen", "number": 23, "position": "ST", "country": "MX", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 8,
+      "cornerLeft": 8,
+      "cornerRight": 8
+    }
+  }
+}

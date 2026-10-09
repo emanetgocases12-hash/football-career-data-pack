@@ -1,0 +1,58 @@
+{
+  "teamKey": "Juárez",
+
+  "name": "FC Juárez",
+
+  "logo": "assets/logos/north_america/mexico/Juarez.png",
+
+  "manager": {
+    "name": "Gustavo Lema",
+    "country": "AR"
+  },
+
+  "stadium": {
+    "name": "Estadio Olímpico Benito Juárez",
+    "capacity": 22300
+  },
+
+  "players": [
+    {"playerId": "player_mx1_006_01", "name": "Sebastián Jurado", "number": 1, "position": "GK", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_006_02", "name": "Gilberto Sepúlveda", "number": 2, "position": "RB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_006_03", "name": "Jesús Murillo", "number": 3, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_006_04", "name": "Alejandro Mayorga", "number": 4, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_006_05", "name": "Haret Ortega", "number": 23, "position": "LB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_006_06", "name": "Denzell García", "number": 5, "position": "CDM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_006_07", "name": "Monchu", "number": 6, "position": "CM", "country": "ES", "status": "starter"},
+    {"playerId": "player_mx1_006_08", "name": "Raymundo Fulgencio", "number": 7, "position": "CAM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_006_09", "name": "Guilherme Castilho", "number": 8, "position": "RW", "country": "BR", "status": "starter"},
+    {"playerId": "player_mx1_006_10", "name": "José Luis Rodríguez", "number": 11, "position": "LW", "country": "PA", "status": "starter"},
+    {"playerId": "player_mx1_006_11", "name": "Madson", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+
+    {"playerId": "player_mx1_006_12", "name": "Benny Díaz", "number": 24, "position": "GK", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_006_13", "name": "Daniel Piña", "number": 26, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_006_14", "name": "Francisco Nevárez", "number": 33, "position": "RB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_006_15", "name": "Bryan Romero", "number": 36, "position": "LB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_006_16", "name": "Rodrigo Dourado", "number": 13, "position": "CM", "country": "BR", "status": "bench"},
+    {"playerId": "player_mx1_006_17", "name": "Eder López", "number": 14, "position": "CDM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_006_18", "name": "Lucas Romero", "number": 15, "position": "RW", "country": "AR", "status": "bench"},
+    {"playerId": "player_mx1_006_19", "name": "Juan Sigala", "number": 16, "position": "CAM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_006_20", "name": "Jairo Torres", "number": 10, "position": "LW", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_006_21", "name": "Ettson Ayón", "number": 29, "position": "RW", "country": "MX", "status": "bench"},
+
+    {"playerId": "player_mx1_006_22", "name": "Guillermo Ruiz", "number": 27, "position": "GK", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_006_23", "name": "Javier Aquino", "number": 20, "position": "LM", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_006_24", "name": "Ricardinho", "number": 21, "position": "RM", "country": "BR", "status": "reserve"},
+    {"playerId": "player_mx1_006_25", "name": "Luca Martínez Dupuy", "number": 17, "position": "ST", "country": "MX", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 7
+    }
+  }
+}

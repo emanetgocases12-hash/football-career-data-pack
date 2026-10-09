@@ -1,0 +1,58 @@
+{
+  "teamKey": "Tigres",
+
+  "name": "Tigres UANL",
+
+  "logo": "assets/logos/north_america/mexico/Tigres.png",
+
+  "manager": {
+    "name": "Víctor Manuel Vucetich",
+    "country": "MX"
+  },
+
+  "stadium": {
+    "name": "Estadio Universitario",
+    "capacity": 41886
+  },
+
+  "players": [
+    {"playerId": "player_mx1_015_01", "name": "Nahuel Guzmán", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+    {"playerId": "player_mx1_015_02", "name": "Francisco Reyes", "number": 2, "position": "RB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_015_03", "name": "Marco Farfán", "number": 3, "position": "CB", "country": "US", "status": "starter"},
+    {"playerId": "player_mx1_015_04", "name": "Jesús Garza", "number": 14, "position": "CB", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_015_05", "name": "Alan Franco", "number": 15, "position": "LB", "country": "EC", "status": "starter"},
+    {"playerId": "player_mx1_015_06", "name": "César Araújo", "number": 5, "position": "CDM", "country": "UY", "status": "starter"},
+    {"playerId": "player_mx1_015_07", "name": "Juan Vigón", "number": 6, "position": "CM", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_015_08", "name": "Fernando Gorriarán", "number": 8, "position": "CAM", "country": "UY", "status": "starter"},
+    {"playerId": "player_mx1_015_09", "name": "Juan Brunetta", "number": 11, "position": "RW", "country": "AR", "status": "starter"},
+    {"playerId": "player_mx1_015_10", "name": "Diego Lainez", "number": 16, "position": "LW", "country": "MX", "status": "starter"},
+    {"playerId": "player_mx1_015_11", "name": "Emiliano Gómez", "number": 9, "position": "ST", "country": "UY", "status": "starter"},
+
+    {"playerId": "player_mx1_015_12", "name": "Antonio Carrera", "number": 13, "position": "GK", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_015_13", "name": "Fernando Ordóñez", "number": 26, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_015_14", "name": "Jesús Angulo", "number": 27, "position": "RB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_015_15", "name": "Joaquim", "number": 28, "position": "LB", "country": "BR", "status": "bench"},
+    {"playerId": "player_mx1_015_16", "name": "Vladimir Loroña", "number": 32, "position": "CB", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_015_17", "name": "Marcelo Flores", "number": 20, "position": "CM", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_015_18", "name": "Rômulo", "number": 23, "position": "CDM", "country": "BR", "status": "bench"},
+    {"playerId": "player_mx1_015_19", "name": "Henrique Simeone", "number": 34, "position": "RW", "country": "MX", "status": "bench"},
+    {"playerId": "player_mx1_015_20", "name": "Rodrigo Aguirre", "number": 17, "position": "LW", "country": "UY", "status": "bench"},
+    {"playerId": "player_mx1_015_21", "name": "Diego Sánchez", "number": 30, "position": "RW", "country": "MX", "status": "bench"},
+
+    {"playerId": "player_mx1_015_22", "name": "Felipe Rodríguez", "number": 25, "position": "GK", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_015_23", "name": "Rafael Guerrero", "number": 33, "position": "RB", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_015_24", "name": "Mauro Laínez", "number": 19, "position": "ST", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_015_25", "name": "Ricardo Monreal", "number": 21, "position": "ST", "country": "MX", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 8,
+      "cornerLeft": 8,
+      "cornerRight": 8
+    }
+  }
+}
