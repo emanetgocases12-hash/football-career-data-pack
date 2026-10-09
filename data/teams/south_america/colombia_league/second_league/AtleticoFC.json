@@ -1,0 +1,58 @@
+{
+  "teamKey": "Atltc FC",
+
+  "name": "Atlético FC",
+
+  "logo": "assets/logos/south_america/colombia/AtltcFc.png",
+
+  "manager": {
+    "name": "Andres Sicacha",
+    "country": "CO"
+  },
+
+  "stadium": {
+    "name": "Estadio Olímpico Pascual Guerrero",
+    "capacity": 42300
+  },
+
+  "players": [
+    {"playerId": "player_co2_001_01", "name": "Juan Jaramillo", "number": 1, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_001_02", "name": "Jhonier Alomia", "number": 3, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_001_03", "name": "Fabian Villa", "number": 2, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_001_04", "name": "Jose Palacios", "number": 4, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_001_05", "name": "Claudio Rubiano", "number": 5, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_001_06", "name": "Andres Escobar", "number": 7, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_001_07", "name": "Daniel Hinojoza", "number": 16, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_001_08", "name": "Juan Munoz", "number": 17, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_001_09", "name": "Nelson Mosorongo", "number": 18, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_001_10", "name": "Kevin Garces", "number": 21, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_001_11", "name": "Erick Montano", "number": 8, "position": "ST", "country": "CO", "status": "starter"},
+
+    {"playerId": "player_co2_001_12", "name": "Miguel Suarez", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_001_13", "name": "Kevin Ventes", "number": 6, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_001_14", "name": "Danny Reales", "number": 13, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_001_15", "name": "William Delgado", "number": 15, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_001_16", "name": "Diego Navarro", "number": 20, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_001_17", "name": "Steven Hernandez", "number": 24, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_001_18", "name": "Eder Balanta", "number": 25, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_001_19", "name": "Juan Quinonez", "number": 26, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_001_20", "name": "Yubeiquer Arenas", "number": 11, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_001_21", "name": "Junior Escobar", "number": 22, "position": "LW", "country": "CO", "status": "bench"},
+
+    {"playerId": "player_co2_001_22", "name": "David Agudelo", "number": 30, "position": "GK", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_001_23", "name": "Jhon Aguas", "number": 28, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_001_24", "name": "Johan Rodallega", "number": 9, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_001_25", "name": "Edward Camacho", "number": 19, "position": "RW", "country": "CO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 8,
+      "freeKick": 17,
+      "cornerLeft": 18,
+      "cornerRight": 21
+    }
+  }
+}

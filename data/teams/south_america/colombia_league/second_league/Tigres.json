@@ -1,0 +1,58 @@
+{
+  "teamKey": "Tgrs FC",
+
+  "name": "Tigres FC",
+
+  "logo": "assets/logos/south_america/colombia/Tigres.png",
+
+  "manager": {
+    "name": "Rafael Rodriguez",
+    "country": "CO"
+  },
+
+  "stadium": {
+    "name": "Parque Estadio Olaya Herrera",
+    "capacity": 2500
+  },
+
+  "players": [
+    {"playerId": "player_co2_016_01", "name": "Victor Brid", "number": 1, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_016_02", "name": "Samuel Florez", "number": 4, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_016_03", "name": "Omar Preciado", "number": 27, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_016_04", "name": "Gustavo Benjumea", "number": 3, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_016_05", "name": "Kevin Cardenas", "number": 5, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_016_06", "name": "Luis Palacios", "number": 25, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_016_07", "name": "Cesar Salguero", "number": 8, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_016_08", "name": "Angel Mendez", "number": 10, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_016_09", "name": "Michel Mahecha", "number": 14, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_016_10", "name": "Edwin Lopez", "number": 16, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_016_11", "name": "Orles Aragon", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+
+    {"playerId": "player_co2_016_12", "name": "Aldo Montes", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_016_13", "name": "Eric Valencia", "number": 6, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_016_14", "name": "Ricardo Rosales", "number": 13, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_016_15", "name": "Jesus Cano", "number": 15, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_016_16", "name": "Christian Chaves", "number": 22, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_016_17", "name": "David Algarra", "number": 18, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_016_18", "name": "Angel Bonilla", "number": 20, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_016_19", "name": "Andres Cuadros", "number": 21, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_016_20", "name": "Brayan Manrique", "number": 11, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_016_21", "name": "Daniel Trivino", "number": 17, "position": "LW", "country": "CO", "status": "bench"},
+
+    {"playerId": "player_co2_016_22", "name": "Kevin López", "number": 30, "position": "GK", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_016_23", "name": "Omar Rodriguez", "number": 23, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_016_24", "name": "Camilo Ibarra", "number": 19, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_016_25", "name": "David Rativa", "number": 28, "position": "RW", "country": "CO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 14,
+      "cornerRight": 16
+    }
+  }
+}

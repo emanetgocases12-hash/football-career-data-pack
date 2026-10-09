@@ -1,0 +1,58 @@
+{
+  "teamKey": "Palmir",
+
+  "name": "Internacional de Palmira",
+
+  "logo": "assets/logos/south_america/colombia/Palmir.png",
+
+  "manager": {
+    "name": "Hector Cardenas",
+    "country": "CO"
+  },
+
+  "stadium": {
+    "name": "Estadio Francisco Rivera Escobar",
+    "capacity": 15300
+  },
+
+  "players": [
+    {"playerId": "player_co2_013_01", "name": "Andres Perez", "number": 1, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_013_02", "name": "Andres Alvarez", "number": 2, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_013_03", "name": "Santiago Vergara", "number": 3, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_013_04", "name": "Jaison Mina", "number": 4, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_013_05", "name": "Jaider Moreno", "number": 5, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_013_06", "name": "Maikoll Herrera", "number": 6, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_013_07", "name": "Oscar Murillo", "number": 18, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_013_08", "name": "Cristhian Fernando Canizales Vergara", "number": 39, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_013_09", "name": "Jean Colorado", "number": 8, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_013_10", "name": "Kevin Padilla", "number": 10, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_013_11", "name": "Guillermo Murillo", "number": 11, "position": "ST", "country": "CO", "status": "starter"},
+
+    {"playerId": "player_co2_013_12", "name": "William Cuesta", "number": 22, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_013_13", "name": "Manuel Caicedo", "number": 15, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_013_14", "name": "Junior Mosquera", "number": 13, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_013_15", "name": "Yacer Ariza", "number": 14, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_013_16", "name": "Amu Yair Arrechea", "number": 24, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_013_17", "name": "Carlos Franco", "number": 20, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_013_18", "name": "Brayan Cundumi", "number": 16, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_013_19", "name": "Johan Gamboa", "number": 7, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_013_20", "name": "Victor Ibarbo", "number": 23, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_013_21", "name": "Breider Villalobos", "number": 32, "position": "LW", "country": "CO", "status": "bench"},
+
+    {"playerId": "player_co2_013_22", "name": "Marco Rico Mercado", "number": 30, "position": "GK", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_013_23", "name": "Faver Marulanda", "number": 21, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_013_24", "name": "Ramiro Brochero", "number": 9, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_013_25", "name": "David Orozco", "number": 17, "position": "RW", "country": "CO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 39,
+      "cornerLeft": 8,
+      "cornerRight": 10
+    }
+  }
+}

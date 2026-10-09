@@ -1,0 +1,58 @@
+{
+  "teamKey": "Cundin",
+
+  "name": "Real Cundinamarca",
+
+  "logo": "assets/logos/south_america/colombia/Cundin.png",
+
+  "manager": {
+    "name": "David Suarez",
+    "country": "CO"
+  },
+
+  "stadium": {
+    "name": "Parque Estadio Olaya Herrera",
+    "capacity": 2500
+  },
+
+  "players": [
+    {"playerId": "player_co2_006_01", "name": "Kevin Hinestroza", "number": 1, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_006_02", "name": "Jhon Suaza", "number": 2, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_006_03", "name": "Andres Arias", "number": 19, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_006_04", "name": "Onel Acosta", "number": 20, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_006_05", "name": "Ghilbert Parra", "number": 27, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_006_06", "name": "Gianfranco Orozco", "number": 23, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_006_07", "name": "Jhon Gutierrez", "number": 30, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_006_08", "name": "Jonier Rodriguez", "number": 6, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_006_09", "name": "Aldahir Solano", "number": 8, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_006_10", "name": "Ivan Camacho", "number": 10, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co2_006_11", "name": "Kevin Arboleda", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+
+    {"playerId": "player_co2_006_12", "name": "Daniel Mosquera", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_006_13", "name": "Kevin Rivas", "number": 29, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_006_14", "name": "David Alvarez", "number": 31, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_006_15", "name": "Santiago Carvajal", "number": 3, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_006_16", "name": "Stiven Moreno", "number": 4, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_006_17", "name": "Carlos Rios", "number": 14, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_006_18", "name": "Jean Marcos Angulo", "number": 16, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_006_19", "name": "William Davila Paz", "number": 18, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_006_20", "name": "Juan Salcedo", "number": 7, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co2_006_21", "name": "Yeiler Valencia", "number": 11, "position": "LW", "country": "CO", "status": "bench"},
+
+    {"playerId": "player_co2_006_22", "name": "Juan Lemus", "number": 13, "position": "GK", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_006_23", "name": "Carlos Gomez", "number": 21, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_006_24", "name": "Manuel Bravo", "number": 17, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co2_006_25", "name": "Jesus Quintero", "number": 22, "position": "RW", "country": "CO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 6,
+      "cornerLeft": 8,
+      "cornerRight": 10
+    }
+  }
+}
