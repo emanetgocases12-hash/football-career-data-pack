@@ -39,7 +39,7 @@
     {"playerId": "player_mx1_012_20", "name": "Eduardo Pérez", "number": 26, "position": "RW", "country": "MX", "status": "bench"},
     {"playerId": "player_mx1_012_21", "name": "Claudio Robles", "number": 37, "position": "ST", "country": "MX", "status": "bench"},
 
-    {"playerId": "player_mx1_012_22", "name": "Juan Barriga", "number": 196, "position": "GK", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx1_012_22", "name": "Juan Barriga", "number": 96, "position": "GK", "country": "MX", "status": "reserve"},
     {"playerId": "player_mx1_012_23", "name": "Jesús Arellano", "number": 28, "position": "LM", "country": "MX", "status": "reserve"},
     {"playerId": "player_mx1_012_24", "name": "Waldo Madrid", "number": 29, "position": "RM", "country": "MX", "status": "reserve"},
     {"playerId": "player_mx1_012_25", "name": "Mono Martínez", "number": 30, "position": "CDM", "country": "MX", "status": "reserve"}
