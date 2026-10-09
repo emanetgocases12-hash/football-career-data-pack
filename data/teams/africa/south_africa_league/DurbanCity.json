@@ -1,15 +1,20 @@
 {
   "teamKey": "Durban",
+
   "name": "Durban City",
+
   "logo": "assets/logos/africa/south_africa/Durban.png",
+
   "manager": {
     "name": "Khalil Ben Youssef",
     "country": "TN"
   },
+
   "stadium": {
     "name": "Chatsworth Stadium",
     "capacity": 22000
   },
+
   "players": [
     {"playerId": "player_za1_003_01", "name": "Fredrick Asare", "number": 33, "position": "GK", "country": "GH", "status": "starter"},
     {"playerId": "player_za1_003_02", "name": "B. Shandu", "number": 2, "position": "RB", "country": "ZA", "status": "starter"},
@@ -34,11 +39,12 @@
     {"playerId": "player_za1_003_20", "name": "S. Green", "number": 13, "position": "LW", "country": "ZA", "status": "bench"},
     {"playerId": "player_za1_003_21", "name": "N. Madonsela", "number": 50, "position": "ST", "country": "ZA", "status": "bench"},
 
-    {"playerId": "player_za1_003_22", "name": "A. Jodwana", "number": 6, "position": "CB", "country": "ZA", "status": "reserve"},
-    {"playerId": "player_za1_003_23", "name": "A. Doumbia", "number": 29, "position": "CM", "country": "CI", "status": "reserve"},
-    {"playerId": "player_za1_003_24", "name": "L. Makua", "number": 16, "position": "RW", "country": "ZA", "status": "reserve"},
-    {"playerId": "player_za1_003_25", "name": "B. Mokwena", "number": 15, "position": "ST", "country": "ZA", "status": "reserve"}
+    {"playerId": "player_za1_003_22", "name": "Ayanda Mtshali", "number": 12, "position": "GK", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_003_23", "name": "A. Jodwana", "number": 6, "position": "CB", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_003_24", "name": "A. Doumbia", "number": 29, "position": "CM", "country": "CI", "status": "reserve"},
+    {"playerId": "player_za1_003_25", "name": "L. Makua", "number": 16, "position": "RW", "country": "ZA", "status": "reserve"}
   ],
+
   "tactics": {
     "formation": "4-2-3-1",
     "captain": 33,
