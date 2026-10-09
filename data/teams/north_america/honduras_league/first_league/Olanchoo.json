@@ -1,58 +1,52 @@
 {
-    "teamKey": "Olanch",
-  
-    "name": "Olancho FC",
-  
-    "logo": "assets/logos/north_america/honduras/Olanch.png",
-  
-    "manager": {
-      "name": "Mauro De Giobbi",
-      "country": "AR"
-    },
-  
-    "stadium": {
-      "name": "Estadio Juan Ramón Brevé Vargas",
-      "capacity": 20000
-    },
-  
-    "players": [
-      {"playerId": "player_hn1_010_01", "name": "Denovan Torres", "number": 1, "position": "GK", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_010_02", "name": "Diego Rodríguez", "number": 2, "position": "RB", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_010_03", "name": "Nelson Muñoz", "number": 4, "position": "CB", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_010_04", "name": "Óscar Almendárez", "number": 5, "position": "CB", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_010_05", "name": "Juan Diego Lasso", "number": 3, "position": "LB", "country": "CO", "status": "starter"},
-      {"playerId": "player_hn1_010_06", "name": "Ángel Velásquez", "number": 6, "position": "CDM", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_010_07", "name": "Deyron Martínez", "number": 8, "position": "CM", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_010_08", "name": "Juan Delgado", "number": 7, "position": "RW", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_010_09", "name": "César Romero", "number": 10, "position": "CAM", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_010_10", "name": "Víctor Ávila", "number": 11, "position": "ST", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_010_11", "name": "Marlon García", "number": 9, "position": "LW", "country": "HN", "status": "starter"},
-  
-      {"playerId": "player_hn1_010_12", "name": "Gerson Argueta", "number": 12, "position": "GK", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_010_13", "name": "Robertino Canavesio", "number": 14, "position": "CB", "country": "AR", "status": "bench"},
-      {"playerId": "player_hn1_010_14", "name": "Geisson Perea", "number": 15, "position": "RB", "country": "CO", "status": "bench"},
-      {"playerId": "player_hn1_010_15", "name": "Roger Reyes", "number": 16, "position": "LB", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_010_16", "name": "Darlin Murillo", "number": 17, "position": "CB", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_010_17", "name": "Samuel Pozantes", "number": 18, "position": "LW", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_010_18", "name": "Henry Gómez", "number": 19, "position": "CM", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_010_19", "name": "Ofir Padilla", "number": 20, "position": "RM", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_010_20", "name": "Dennis Andino", "number": 21, "position": "LM", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_010_21", "name": "Marcos Chávez", "number": 22, "position": "CAM", "country": "HN", "status": "bench"},
-  
-      {"playerId": "player_hn1_010_22", "name": "Joanderson de Jesus Assis", "number": 30, "position": "CM", "country": "BR", "status": "reserve"},
-      {"playerId": "player_hn1_010_23", "name": "Bryan Lesage", "number": 23, "position": "RW", "country": "HN", "status": "reserve"},
-      {"playerId": "player_hn1_010_24", "name": "Moisés Antúnez", "number": 24, "position": "ST", "country": "HN", "status": "reserve"},
-      {"playerId": "player_hn1_010_25", "name": "Clayvin Zúniga", "number": 25, "position": "ST", "country": "HN", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 4,
-      "setPieces": {
-        "penalty": 11,
-        "freeKick": 8,
-        "cornerLeft": 7,
-        "cornerRight": 7
-      }
+  "teamKey": "Olanch",
+  "name": "Olancho FC",
+  "logo": "assets/logos/north_america/honduras/Olanch.png",
+  "manager": {
+    "name": "Mauro De Giobbi",
+    "country": "AR"
+  },
+  "stadium": {
+    "name": "Estadio Juan Ramón Brevé Vargas",
+    "capacity": 20000
+  },
+  "players": [
+    {"playerId": "player_hn1_010_01", "name": "Denovan Torres", "number": 1, "position": "GK", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_010_02", "name": "Diego Rodríguez", "number": 2, "position": "RB", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_010_03", "name": "Nelson Muñoz", "number": 4, "position": "CB", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_010_04", "name": "Óscar Almendárez", "number": 5, "position": "CB", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_010_05", "name": "Juan Diego Lasso", "number": 3, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_hn1_010_06", "name": "Ángel Velásquez", "number": 6, "position": "CDM", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_010_07", "name": "Deyron Martínez", "number": 8, "position": "CM", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_010_08", "name": "Juan Delgado", "number": 7, "position": "RW", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_010_09", "name": "César Romero", "number": 10, "position": "CAM", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_010_10", "name": "Víctor Ávila", "number": 11, "position": "ST", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_010_11", "name": "Marlon García", "number": 9, "position": "LW", "country": "HN", "status": "starter"},
+
+    {"playerId": "player_hn1_010_12", "name": "Gerson Argueta", "number": 29, "position": "GK", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_010_13", "name": "Robertino Canavesio", "number": 14, "position": "CB", "country": "AR", "status": "bench"},
+    {"playerId": "player_hn1_010_14", "name": "Geisson Perea", "number": 15, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_hn1_010_15", "name": "Roger Reyes", "number": 16, "position": "LB", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_010_16", "name": "Darlin Murillo", "number": 17, "position": "CB", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_010_17", "name": "Samuel Pozantes", "number": 18, "position": "LW", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_010_18", "name": "Henry Gómez", "number": 19, "position": "CM", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_010_19", "name": "Ofir Padilla", "number": 20, "position": "RM", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_010_20", "name": "Dennis Andino", "number": 21, "position": "LM", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_010_21", "name": "Marcos Chávez", "number": 22, "position": "CAM", "country": "HN", "status": "bench"},
+
+    {"playerId": "player_hn1_010_22", "name": "Mario Quinteros", "number": 30, "position": "GK", "country": "AR", "status": "reserve"},
+    {"playerId": "player_hn1_010_23", "name": "Bryan Lesage", "number": 23, "position": "RW", "country": "HN", "status": "reserve"},
+    {"playerId": "player_hn1_010_24", "name": "Moisés Antúnez", "number": 24, "position": "ST", "country": "HN", "status": "reserve"},
+    {"playerId": "player_hn1_010_25", "name": "Clayvin Zúniga", "number": 25, "position": "ST", "country": "HN", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 8,
+      "cornerLeft": 7,
+      "cornerRight": 7
     }
   }
+}
