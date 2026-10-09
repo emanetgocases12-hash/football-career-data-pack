@@ -1,15 +1,20 @@
 {
   "teamKey": "Mamelo",
+
   "name": "Mamelodi Sundowns",
+
   "logo": "assets/logos/africa/south_africa/Mamelo.png",
+
   "manager": {
     "name": "Miguel Cardoso",
     "country": "PT"
   },
+
   "stadium": {
     "name": "Loftus Versfeld Stadium",
     "capacity": 51762
   },
+
   "players": [
     {"playerId": "player_za1_007_01", "name": "Ronwen Williams", "number": 30, "position": "GK", "country": "ZA", "status": "starter"},
     {"playerId": "player_za1_007_02", "name": "Khuliso Mudau", "number": 25, "position": "RB", "country": "ZA", "status": "starter"},
@@ -34,11 +39,12 @@
     {"playerId": "player_za1_007_20", "name": "Miguel Reisinho", "number": 7, "position": "CM", "country": "PT", "status": "bench"},
     {"playerId": "player_za1_007_21", "name": "Arthur Sales", "number": 9, "position": "ST", "country": "BR", "status": "bench"},
 
-    {"playerId": "player_za1_007_22", "name": "Cassius Mailula", "number": 33, "position": "ST", "country": "ZA", "status": "reserve"},
-    {"playerId": "player_za1_007_23", "name": "Kutlwano Letlhaku", "number": 43, "position": "RW", "country": "ZA", "status": "reserve"},
-    {"playerId": "player_za1_007_24", "name": "Lebo Mothiba", "number": 35, "position": "ST", "country": "ZA", "status": "reserve"},
-    {"playerId": "player_za1_007_25", "name": "Monnapule Saleng", "number": 14, "position": "LW", "country": "ZA", "status": "reserve"}
+    {"playerId": "player_za1_007_22", "name": "Ismail Watenga", "number": 19, "position": "GK", "country": "UG", "status": "reserve"},
+    {"playerId": "player_za1_007_23", "name": "Cassius Mailula", "number": 33, "position": "ST", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_007_24", "name": "Kutlwano Letlhaku", "number": 43, "position": "RW", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_007_25", "name": "Lebo Mothiba", "number": 35, "position": "ST", "country": "ZA", "status": "reserve"}
   ],
+
   "tactics": {
     "formation": "4-2-3-1",
     "captain": 30,
