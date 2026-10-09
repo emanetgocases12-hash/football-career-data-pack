@@ -1,52 +1,58 @@
 {
-    "teamKey": "Wally",
-    "name": "Wally Daan FC",
-    "logo": "assets/logos/africa/senegal/Wally.png",
-    "manager": {
-      "name": "Lamine Diagne",
-      "country": "SN"
-    },
-    "stadium": {
-      "name": "Stade Lat-Dior",
-      "capacity": 10000
-    },
-    "players": [
-      {"playerId": "player_sn1_016_01", "name": "Youssou Ndour", "number": 91, "position": "GK", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_016_02", "name": "Alioune Ndione", "number": 11, "position": "RB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_016_03", "name": "Lamine Diop", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_016_04", "name": "Justin Sambou", "number": 40, "position": "CB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_016_05", "name": "Mamadou Diouf", "number": 3, "position": "LB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_016_06", "name": "Abdoul Haïdara", "number": 6, "position": "CDM", "country": "ML", "status": "starter"},
-      {"playerId": "player_sn1_016_07", "name": "Mamadou Ndoye", "number": 19, "position": "CM", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_016_08", "name": "Mouhamadou Goudiaby", "number": 77, "position": "RW", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_016_09", "name": "Lamine Mbengue", "number": 10, "position": "CAM", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_016_10", "name": "Abou Bandia", "number": 9, "position": "LW", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_016_11", "name": "James Ayertey", "number": 14, "position": "ST", "country": "GH", "status": "starter"},
-  
-      {"playerId": "player_sn1_016_12", "name": "Moustapha Camara", "number": 28, "position": "GK", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_016_13", "name": "Abdourahmane Diatta", "number": 8, "position": "CB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_016_14", "name": "Alamine Dramé", "number": 15, "position": "CB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_016_15", "name": "Marcel Bakhoum", "number": 24, "position": "CB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_016_16", "name": "Mamadou Sonko", "number": 32, "position": "RB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_016_17", "name": "Folabert Njoh", "number": 13, "position": "CDM", "country": "CM", "status": "bench"},
-      {"playerId": "player_sn1_016_18", "name": "Daouda Diouf", "number": 18, "position": "CM", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_016_19", "name": "Papa Ndiaye", "number": 25, "position": "CM", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_016_20", "name": "Mouhamed Tamba", "number": 21, "position": "RW", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_016_21", "name": "Talla Gueye", "number": 20, "position": "ST", "country": "SN", "status": "bench"},
-  
-      {"playerId": "player_sn1_016_22", "name": "Khabane Sarr", "number": 44, "position": "RB", "country": "SN", "status": "reserve"},
-      {"playerId": "player_sn1_016_23", "name": "Ibrahima Samb", "number": 17, "position": "CM", "country": "SN", "status": "reserve"},
-      {"playerId": "player_sn1_016_24", "name": "Ismaila Sarjo", "number": 22, "position": "ST", "country": "GM", "status": "reserve"},
-      {"playerId": "player_sn1_016_25", "name": "Cheikh Camara", "number": 23, "position": "ST", "country": "SN", "status": "reserve"}
-    ],
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 91,
-      "setPieces": {
-        "penalty": 14,
-        "freeKick": 77,
-        "cornerLeft": 77,
-        "cornerRight": 9
-      }
+  "teamKey": "Wally",
+
+  "name": "Wally Daan FC",
+
+  "logo": "assets/logos/africa/senegal/Wally.png",
+
+  "manager": {
+    "name": "Lamine Diagne",
+    "country": "SN"
+  },
+
+  "stadium": {
+    "name": "Stade Lat-Dior",
+    "capacity": 10000
+  },
+
+  "players": [
+    {"playerId": "player_sn1_016_01", "name": "Youssou Ndour", "number": 91, "position": "GK", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_016_02", "name": "Alioune Ndione", "number": 11, "position": "RB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_016_03", "name": "Lamine Diop", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_016_04", "name": "Justin Sambou", "number": 40, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_016_05", "name": "Mamadou Diouf", "number": 3, "position": "LB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_016_06", "name": "Abdoul Haïdara", "number": 6, "position": "CDM", "country": "ML", "status": "starter"},
+    {"playerId": "player_sn1_016_07", "name": "Mamadou Ndoye", "number": 19, "position": "CM", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_016_08", "name": "Mouhamadou Goudiaby", "number": 77, "position": "RW", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_016_09", "name": "Lamine Mbengue", "number": 10, "position": "CAM", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_016_10", "name": "Abou Bandia", "number": 9, "position": "LW", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_016_11", "name": "James Ayertey", "number": 14, "position": "ST", "country": "GH", "status": "starter"},
+
+    {"playerId": "player_sn1_016_12", "name": "Moustapha Camara", "number": 28, "position": "GK", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_016_13", "name": "Abdourahmane Diatta", "number": 8, "position": "CB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_016_14", "name": "Alamine Dramé", "number": 15, "position": "CB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_016_15", "name": "Marcel Bakhoum", "number": 24, "position": "CB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_016_16", "name": "Mamadou Sonko", "number": 32, "position": "RB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_016_17", "name": "Folabert Njoh", "number": 13, "position": "CDM", "country": "CM", "status": "bench"},
+    {"playerId": "player_sn1_016_18", "name": "Daouda Diouf", "number": 18, "position": "CM", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_016_19", "name": "Papa Ndiaye", "number": 25, "position": "CM", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_016_20", "name": "Mouhamed Tamba", "number": 21, "position": "RW", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_016_21", "name": "Talla Gueye", "number": 20, "position": "ST", "country": "SN", "status": "bench"},
+
+    {"playerId": "player_sn1_016_22", "name": "Alioune Seck", "number": 33, "position": "GK", "country": "SN", "status": "reserve"},
+    {"playerId": "player_sn1_016_23", "name": "Khabane Sarr", "number": 44, "position": "RB", "country": "SN", "status": "reserve"},
+    {"playerId": "player_sn1_016_24", "name": "Ibrahima Samb", "number": 17, "position": "CM", "country": "SN", "status": "reserve"},
+    {"playerId": "player_sn1_016_25", "name": "Ismaila Sarjo", "number": 22, "position": "ST", "country": "GM", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 91,
+    "setPieces": {
+      "penalty": 14,
+      "freeKick": 77,
+      "cornerLeft": 77,
+      "cornerRight": 9
     }
   }
+}
