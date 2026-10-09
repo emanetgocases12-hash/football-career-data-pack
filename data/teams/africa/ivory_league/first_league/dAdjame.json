@@ -1,0 +1,58 @@
+{
+  "teamKey": "dAbidj",
+
+  "name": "Stade d'Abidjan",
+
+  "logo": "assets/logos/africa/ivory/dAbidj.png",
+
+  "manager": {
+    "name": "Abeslam Sikabi Salas",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "Stade Robert Champroux",
+    "capacity": 3000
+  },
+
+  "players": [
+    {"playerId": "player_ci1_016_01", "name": "Yeboua Tiémélé", "number": 1, "position": "GK", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_016_02", "name": "Babacar Guèye", "number": 2, "position": "RB", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_016_03", "name": "Ousmane Meïté", "number": 4, "position": "CB", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_016_04", "name": "Youssouf Coulibaly", "number": 5, "position": "CB", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_016_05", "name": "Kouakou Mansou", "number": 3, "position": "LB", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_016_06", "name": "Bachabi Mamoudou", "number": 6, "position": "CDM", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_016_07", "name": "Moïse Nguessan", "number": 8, "position": "CM", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_016_08", "name": "Romaric Ouattara", "number": 7, "position": "RW", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_016_09", "name": "Nadrey Dago", "number": 10, "position": "CAM", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_016_10", "name": "Roger Assalé", "number": 11, "position": "LW", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_016_11", "name": "Ben Guel Kouyaté", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
+
+    {"playerId": "player_ci1_016_12", "name": "Drissa Bamba", "number": 12, "position": "GK", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_016_13", "name": "Aboubacar Doumbia", "number": 13, "position": "CB", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_016_14", "name": "Yann Zébré", "number": 14, "position": "CB", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_016_15", "name": "Ezechiel Zaddy", "number": 15, "position": "LB", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_016_16", "name": "Adama Traoré", "number": 16, "position": "RB", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_016_17", "name": "Savinho Koné", "number": 17, "position": "CM", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_016_18", "name": "Vassouman Chérif", "number": 18, "position": "CM", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_016_19", "name": "Hermann Bolou Bi", "number": 19, "position": "RW", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_016_20", "name": "Mohamed Lamine Koné", "number": 20, "position": "LW", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_016_21", "name": "Boubacar Traoré", "number": 21, "position": "ST", "country": "ML", "status": "bench"},
+
+    {"playerId": "player_ci1_016_22", "name": "Olivares Tra Bi", "number": 30, "position": "GK", "country": "CI", "status": "reserve"},
+    {"playerId": "player_ci1_016_23", "name": "Kassoum Koné", "number": 23, "position": "ST", "country": "CI", "status": "reserve"},
+    {"playerId": "player_ci1_016_24", "name": "Eroine Agnikoi", "number": 24, "position": "CB", "country": "CI", "status": "reserve"},
+    {"playerId": "player_ci1_016_25", "name": "Abdoul Kader Kiebré", "number": 25, "position": "ST", "country": "CI", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 6,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 11,
+      "cornerRight": 7
+    }
+  }
+}

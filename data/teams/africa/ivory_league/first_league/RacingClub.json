@@ -1,0 +1,58 @@
+{
+  "teamKey": "RCA",
+
+  "name": "Racing Club d'Abidjan RCA",
+
+  "logo": "assets/logos/africa/ivory/RCA.png",
+
+  "manager": {
+    "name": "Por definir",
+    "country": "CI"
+  },
+
+  "stadium": {
+    "name": "Stade Robert Champroux",
+    "capacity": 20000
+  },
+
+  "players": [
+    {"playerId": "player_ci1_009_01", "name": "Rahman Aziz Karim", "number": 1, "position": "GK", "country": "BJ", "status": "starter"},
+    {"playerId": "player_ci1_009_02", "name": "Kevin Ahyée", "number": 2, "position": "RB", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_009_03", "name": "Cyriac Bity", "number": 4, "position": "CB", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_009_04", "name": "Younoussa Fofana", "number": 5, "position": "CB", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_009_05", "name": "Zirignon Séméné", "number": 3, "position": "LB", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_009_06", "name": "Othiniel Godo", "number": 6, "position": "CDM", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_009_07", "name": "Idrissa Ouattarra", "number": 8, "position": "CM", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_009_08", "name": "Mickael Blé", "number": 7, "position": "RW", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_009_09", "name": "Rayan Alex Cisse", "number": 10, "position": "CAM", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_009_10", "name": "Harafat Mohamed Diabate", "number": 11, "position": "LW", "country": "CI", "status": "starter"},
+    {"playerId": "player_ci1_009_11", "name": "Franck Dole", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
+
+    {"playerId": "player_ci1_009_12", "name": "Moussa Traoré", "number": 12, "position": "GK", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_009_13", "name": "Abraham Tahi", "number": 13, "position": "CB", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_009_14", "name": "Zana Hamed Coulibaly", "number": 14, "position": "CB", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_009_15", "name": "Loukmane Dembele", "number": 15, "position": "RB", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_009_16", "name": "Bema Kader Fanny", "number": 16, "position": "LB", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_009_17", "name": "Lawa Pacome Gueni", "number": 17, "position": "CM", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_009_18", "name": "Tape Jean Kanon", "number": 18, "position": "CDM", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_009_19", "name": "Issa Kone", "number": 19, "position": "CM", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_009_20", "name": "Guenalin Abraham Tahi", "number": 20, "position": "RW", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_009_21", "name": "Younoussa Fofana Junior", "number": 21, "position": "LW", "country": "CI", "status": "bench"},
+
+    {"playerId": "player_ci1_009_24", "name": "Ousmane Zombra", "number": 24, "position": "GK", "country": "CI", "status": "reserve"},
+    {"playerId": "player_ci1_009_22", "name": "Moussa Koné", "number": 22, "position": "ST", "country": "CI", "status": "reserve"},
+    {"playerId": "player_ci1_009_23", "name": "Ange Kevin Ahyee", "number": 23, "position": "CB", "country": "CI", "status": "reserve"},
+    {"playerId": "player_ci1_009_25", "name": "Othinel Ephraim Godo", "number": 25, "position": "CM", "country": "CI", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 6,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 11,
+      "cornerRight": 7
+    }
+  }
+}
