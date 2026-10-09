@@ -1,0 +1,58 @@
+{
+  "teamKey": "Bechem",
+
+  "name": "Bechem United FC",
+
+  "logo": "assets/logos/africa/ghana/Bechem.png",
+
+  "manager": {
+    "name": "Mohammed Bashar Ogba",
+    "country": "NG"
+  },
+
+  "stadium": {
+    "name": "Nana Fosu Gyeabour Park",
+    "capacity": 5000
+  },
+
+  "players": [
+    {"playerId": "player_gh1_005_01", "name": "Benjamin Asiedu Kwesi", "number": 13, "position": "GK", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_005_02", "name": "Augustine Randolf", "number": 2, "position": "RB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_005_03", "name": "Atta Derrick Afriyie", "number": 32, "position": "CB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_005_04", "name": "Baba Moro Abdulai", "number": 35, "position": "CB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_005_05", "name": "Yaw Acheampong", "number": 5, "position": "LB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_005_06", "name": "Rasco Abassah London", "number": 6, "position": "CDM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_005_07", "name": "Richard Dwamena", "number": 50, "position": "CM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_005_08", "name": "Darlvin Yeboah", "number": 9, "position": "RW", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_005_09", "name": "Augustine Okrah", "number": 10, "position": "CAM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_005_10", "name": "Isaiah Nyarko", "number": 17, "position": "LW", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_005_11", "name": "Yaw Annor", "number": 7, "position": "ST", "country": "GH", "status": "starter"},
+
+    {"playerId": "player_gh1_005_12", "name": "Dennis Votere", "number": 16, "position": "GK", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_005_13", "name": "James Yeboah", "number": 14, "position": "CB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_005_14", "name": "Emmanuel Ababio", "number": 25, "position": "CB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_005_15", "name": "Adams Sanut", "number": 3, "position": "LB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_005_16", "name": "Charles Owusu", "number": 22, "position": "RB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_005_17", "name": "Francis Twene", "number": 8, "position": "CM", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_005_18", "name": "Frank Amankwah", "number": 23, "position": "CM", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_005_19", "name": "Christian Tonah", "number": 43, "position": "CAM", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_005_20", "name": "Kelvin Appiah", "number": 29, "position": "ST", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_005_21", "name": "Foster Sakitey", "number": 27, "position": "ST", "country": "GH", "status": "bench"},
+
+    {"playerId": "player_gh1_005_25", "name": "Emmanuel Anning", "number": 1, "position": "GK", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_005_22", "name": "Godfred Yawson", "number": 39, "position": "ST", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_005_23", "name": "Samuel Okai", "number": 24, "position": "ST", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_005_24", "name": "Emmanuel Sefa", "number": 28, "position": "CM", "country": "GH", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 7,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 9
+    }
+  }
+}

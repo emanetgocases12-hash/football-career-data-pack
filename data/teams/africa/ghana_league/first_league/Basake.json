@@ -1,0 +1,58 @@
+{
+  "teamKey": "Basake",
+
+  "name": "Basake Holy Stars FC",
+
+  "logo": "assets/logos/africa/ghana/Basake.png",
+
+  "manager": {
+    "name": "Abdulai Gazale",
+    "country": "GH"
+  },
+
+  "stadium": {
+    "name": "AAK II Sports Arena",
+    "capacity": 5000
+  },
+
+  "players": [
+    {"playerId": "player_gh1_004_01", "name": "Dubi Kassi Tayi", "number": 1, "position": "GK", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_004_02", "name": "Francis Asante", "number": 55, "position": "RB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_004_03", "name": "Moses Author", "number": 4, "position": "CB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_004_04", "name": "Boniface Blay", "number": 33, "position": "CB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_004_05", "name": "Emmanuel Kwame", "number": 37, "position": "LB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_004_06", "name": "Issa Yakubu", "number": 22, "position": "CDM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_004_07", "name": "Francis Oteng", "number": 6, "position": "CM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_004_08", "name": "Victor Aidoo", "number": 7, "position": "RW", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_004_09", "name": "George Kissi Nana", "number": 32, "position": "CAM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_004_10", "name": "Prince Tweneboah", "number": 19, "position": "LW", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_004_11", "name": "Cosmos Marfo", "number": 17, "position": "ST", "country": "GH", "status": "starter"},
+
+    {"playerId": "player_gh1_004_12", "name": "Prince Asempah", "number": 42, "position": "GK", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_004_13", "name": "Abdul Dagbatey Basit", "number": 31, "position": "CB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_004_14", "name": "Sadat Zumah Ibrahim", "number": 30, "position": "CB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_004_15", "name": "Emmanuel Brace", "number": 14, "position": "RB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_004_16", "name": "Kingsford Baffoe", "number": 12, "position": "LB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_004_17", "name": "Koffie Hagan", "number": 13, "position": "CM", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_004_18", "name": "Gabriel Appiah", "number": 8, "position": "LM", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_004_19", "name": "Simba Sylvester", "number": 77, "position": "CAM", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_004_20", "name": "Patrick Ocran", "number": 10, "position": "ST", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_004_21", "name": "Bismark Teye", "number": 68, "position": "ST", "country": "GH", "status": "bench"},
+
+    {"playerId": "player_gh1_004_25", "name": "Patrick Appiah", "number": 41, "position": "GK", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_004_22", "name": "Francis Osei Owusu", "number": 21, "position": "LW", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_004_23", "name": "Prince Opoku", "number": 3, "position": "ST", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_004_24", "name": "Clement Gyapong", "number": 25, "position": "ST", "country": "GH", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 17,
+      "freeKick": 32,
+      "cornerLeft": 19,
+      "cornerRight": 7
+    }
+  }
+}

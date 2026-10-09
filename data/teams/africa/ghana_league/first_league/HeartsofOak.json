@@ -1,0 +1,58 @@
+{
+  "teamKey": "Oak",
+
+  "name": "Hearts of Oak SC",
+
+  "logo": "assets/logos/africa/ghana/Oak.png",
+
+  "manager": {
+    "name": "Nebojša Kapor",
+    "country": "BA"
+  },
+
+  "stadium": {
+    "name": "University of Ghana Sports Stadium",
+    "capacity": 10000
+  },
+
+  "players": [
+    {"playerId": "player_gh1_010_01", "name": "Benjamin Asare", "number": 16, "position": "GK", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_010_02", "name": "Ransford Mensah", "number": 2, "position": "RB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_010_03", "name": "Ali Mohammed", "number": 4, "position": "CB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_010_04", "name": "Kelvin Osei Asibey", "number": 5, "position": "CB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_010_05", "name": "Dennis Korsah", "number": 18, "position": "LB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_010_06", "name": "Abdul Karim", "number": 8, "position": "CDM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_010_07", "name": "Martin Karikari", "number": 7, "position": "CM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_010_08", "name": "Alex Banso", "number": 11, "position": "RW", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_010_09", "name": "Raphael Amponsah", "number": 10, "position": "CAM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_010_10", "name": "Yaw Amankwa Baafi", "number": 19, "position": "LW", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_010_11", "name": "John Antwi", "number": 9, "position": "ST", "country": "GH", "status": "starter"},
+
+    {"playerId": "player_gh1_010_12", "name": "Kwesi Nketia", "number": 1, "position": "GK", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_010_13", "name": "David Oppong Afrane", "number": 15, "position": "CB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_010_14", "name": "Prince Amevor", "number": 21, "position": "CB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_010_15", "name": "Emmanuel Amankwah", "number": 24, "position": "RB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_010_16", "name": "Baba Adamu", "number": 26, "position": "LB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_010_17", "name": "Mohammed Hussein", "number": 14, "position": "CM", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_010_18", "name": "George Paaku", "number": 17, "position": "CAM", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_010_19", "name": "Henry Kwaku Boateng", "number": 20, "position": "ST", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_010_20", "name": "Abdul-Aziz Adam", "number": 22, "position": "LW", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_010_21", "name": "Mamadou Kourouma", "number": 27, "position": "RW", "country": "CI", "status": "bench"},
+
+    {"playerId": "player_gh1_010_25", "name": "Solomon Agbasi", "number": 31, "position": "GK", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_010_22", "name": "Rockson Kyeremeh", "number": 29, "position": "RW", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_010_23", "name": "Ebenezer Amoh", "number": 28, "position": "CM", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_010_24", "name": "Theophilus Collison", "number": 30, "position": "CM", "country": "GH", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 16,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 11,
+      "cornerRight": 19
+    }
+  }
+}

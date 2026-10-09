@@ -1,0 +1,58 @@
+{
+  "teamKey": "Asante",
+
+  "name": "Asante Kotoko SC",
+
+  "logo": "assets/logos/africa/ghana/Asente.png",
+
+  "manager": {
+    "name": "Stanley Menzo",
+    "country": "NL"
+  },
+
+  "stadium": {
+    "name": "Baba Yara Sports Stadium",
+    "capacity": 40528
+  },
+
+  "players": [
+    {"playerId": "player_gh1_002_01", "name": "Dari Aziz Haruna", "number": 1, "position": "GK", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_002_02", "name": "Shayibu Abubakari", "number": 2, "position": "RB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_002_03", "name": "Lord Amoah", "number": 21, "position": "CB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_002_04", "name": "Musa Hamzata", "number": 5, "position": "CB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_002_05", "name": "Patrick Asiedu", "number": 17, "position": "LB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_002_06", "name": "Seth Kwadwo", "number": 20, "position": "CDM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_002_07", "name": "Emmanuel Antwi", "number": 10, "position": "CM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_002_08", "name": "Saaka Dauda", "number": 11, "position": "RW", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_002_09", "name": "Hubert Gyau", "number": 12, "position": "CAM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_002_10", "name": "Morifing Donzo", "number": 9, "position": "LW", "country": "GN", "status": "starter"},
+    {"playerId": "player_gh1_002_11", "name": "Isaac Opoku Agyemang", "number": 19, "position": "ST", "country": "GH", "status": "starter"},
+
+    {"playerId": "player_gh1_002_12", "name": "Ibrahim Danlad", "number": 16, "position": "GK", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_002_13", "name": "Emmanuel Kotei", "number": 43, "position": "RB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_002_14", "name": "Joseph Amoah", "number": 26, "position": "CB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_002_15", "name": "Avoka Kwasi Vitus", "number": 3, "position": "LB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_002_16", "name": "Andrews Ntim", "number": 25, "position": "CM", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_002_17", "name": "Lord Hilary Adabo", "number": 8, "position": "CM", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_002_18", "name": "Walid Fuseini", "number": 28, "position": "CAM", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_002_19", "name": "Philip Amoh", "number": 4, "position": "RW", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_002_20", "name": "Emmanuel Mamah", "number": 14, "position": "ST", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_002_21", "name": "Koffi Bini", "number": 6, "position": "CB", "country": "CI", "status": "bench"},
+
+    {"playerId": "player_gh1_002_25", "name": "Benjamin Twum", "number": 13, "position": "GK", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_002_22", "name": "Richard Boadu", "number": 7, "position": "CM", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_002_23", "name": "Emmanuel Sanja", "number": 22, "position": "LB", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_002_24", "name": "Solomon Nsor Asaah", "number": 30, "position": "CM", "country": "CM", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 21,
+    "setPieces": {
+      "penalty": 19,
+      "freeKick": 10,
+      "cornerLeft": 12,
+      "cornerRight": 11
+    }
+  }
+}

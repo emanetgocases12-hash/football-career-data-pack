@@ -1,0 +1,58 @@
+{
+  "teamKey": "Lions",
+
+  "name": "Heart of Lions FC",
+
+  "logo": "assets/logos/africa/ghana/Lions.png",
+
+  "manager": {
+    "name": "Kasım Gökyıldız",
+    "country": "TR"
+  },
+
+  "stadium": {
+    "name": "Kpando Sports Stadium",
+    "capacity": 5000
+  },
+
+  "players": [
+    {"playerId": "player_gh1_012_01", "name": "Lawrence Osei", "number": 1, "position": "GK", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_012_02", "name": "Kwesi Pong", "number": 2, "position": "RB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_012_03", "name": "Abdul Jalilu", "number": 5, "position": "CB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_012_04", "name": "Bismark Anim", "number": 4, "position": "CB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_012_05", "name": "Fawzi Ali", "number": 3, "position": "LB", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_012_06", "name": "Humaid Fuseini", "number": 6, "position": "CDM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_012_07", "name": "Ishmael Addo", "number": 10, "position": "CM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_012_08", "name": "Kwadwo Obeng Junior", "number": 7, "position": "RW", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_012_09", "name": "Francis Odoom", "number": 8, "position": "CAM", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_012_10", "name": "Moses Ayidem", "number": 23, "position": "LW", "country": "GH", "status": "starter"},
+    {"playerId": "player_gh1_012_11", "name": "Kelvin Asenso", "number": 18, "position": "ST", "country": "GH", "status": "starter"},
+
+    {"playerId": "player_gh1_012_12", "name": "Samson Obeng Adade", "number": 16, "position": "GK", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_012_13", "name": "Ruben Hennessy", "number": 15, "position": "CB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_012_14", "name": "Atta Kusi", "number": 20, "position": "CB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_012_15", "name": "Danso Wiredu Mensah", "number": 21, "position": "RB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_012_16", "name": "Esias Kwesi Acquah", "number": 22, "position": "LB", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_012_17", "name": "Yaw Danso", "number": 14, "position": "CM", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_012_18", "name": "Anthony Owusu", "number": 24, "position": "CM", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_012_19", "name": "Isaac Afoakwah", "number": 11, "position": "CAM", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_012_20", "name": "Mustapha Yakubu", "number": 9, "position": "ST", "country": "GH", "status": "bench"},
+    {"playerId": "player_gh1_012_21", "name": "Abednego Tetteh", "number": 19, "position": "ST", "country": "GH", "status": "bench"},
+
+    {"playerId": "player_gh1_012_25", "name": "Odartey Lamptey", "number": 50, "position": "GK", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_012_22", "name": "John Cobbinah", "number": 25, "position": "CM", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_012_23", "name": "Mohammed Amin Yussif", "number": 27, "position": "CM", "country": "GH", "status": "reserve"},
+    {"playerId": "player_gh1_012_24", "name": "Tsorhwe James Faisal", "number": 28, "position": "ST", "country": "GH", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 18,
+      "freeKick": 8,
+      "cornerLeft": 7,
+      "cornerRight": 23
+    }
+  }
+}
