@@ -1,52 +1,58 @@
 {
-    "teamKey": "Jaraaf",
-    "name": "ASC Jaraaf",
-    "logo": "assets/logos/africa/senegal/Jaraaf.png",
-    "manager": {
-      "name": "Souleymane Dieng",
-      "country": "SN"
-    },
-    "stadium": {
-      "name": "Stade de Yoff",
-      "capacity": 3000
-    },
-    "players": [
-      {"playerId": "player_sn1_009_01", "name": "Cheikh Lo Ndoye", "number": 24, "position": "GK", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_009_02", "name": "Mouctarou Ndiaye", "number": 22, "position": "RB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_009_03", "name": "Abdoulaye Diédhiou", "number": 3, "position": "CB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_009_04", "name": "Adama Wade", "number": 25, "position": "CB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_009_05", "name": "Falilou Fall", "number": 9, "position": "LB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_009_06", "name": "Pape Assane Mbodj", "number": 17, "position": "CDM", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_009_07", "name": "Mame Saër Guèye", "number": 6, "position": "CM", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_009_08", "name": "Ibrahima Sory Diallo", "number": 7, "position": "RW", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_009_09", "name": "Serigne Moctar Koite", "number": 10, "position": "CAM", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_009_10", "name": "Saliou Gueye", "number": 40, "position": "LW", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_009_11", "name": "Ameth Niang", "number": 18, "position": "ST", "country": "SN", "status": "starter"},
-  
-      {"playerId": "player_sn1_009_12", "name": "Abdoulaye Diakhate", "number": 16, "position": "GK", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_009_13", "name": "Abdou Aziz Ndiaye", "number": 2, "position": "CB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_009_14", "name": "Moustapha Gueye", "number": 4, "position": "CB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_009_15", "name": "Nouha Coly", "number": 15, "position": "LB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_009_16", "name": "Jean Bocande", "number": 21, "position": "RB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_009_17", "name": "Pape Ibrahima Ba", "number": 28, "position": "CM", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_009_18", "name": "Abdoulaye Faty", "number": 30, "position": "CM", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_009_19", "name": "Mam Sheikh Jallow", "number": 5, "position": "CDM", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_009_20", "name": "Papa S. Dione", "number": 23, "position": "ST", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_009_21", "name": "Almamy Mathew Fall", "number": 29, "position": "ST", "country": "SN", "status": "bench"},
-  
-      {"playerId": "player_sn1_009_22", "name": "Malick Sembène", "number": 12, "position": "CB", "country": "SN", "status": "reserve"},
-      {"playerId": "player_sn1_009_23", "name": "Balla Moussa Guissé", "number": 13, "position": "CB", "country": "SN", "status": "reserve"},
-      {"playerId": "player_sn1_009_24", "name": "Ousmane Sow", "number": 14, "position": "CM", "country": "SN", "status": "reserve"},
-      {"playerId": "player_sn1_009_25", "name": "Ababacar Sarr", "number": 19, "position": "ST", "country": "SN", "status": "reserve"}
-    ],
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 24,
-      "setPieces": {
-        "penalty": 18,
-        "freeKick": 7,
-        "cornerLeft": 7,
-        "cornerRight": 40
-      }
+  "teamKey": "Jaraaf",
+
+  "name": "ASC Jaraaf",
+
+  "logo": "assets/logos/africa/senegal/Jaraaf.png",
+
+  "manager": {
+    "name": "Souleymane Dieng",
+    "country": "SN"
+  },
+
+  "stadium": {
+    "name": "Stade de Yoff",
+    "capacity": 3000
+  },
+
+  "players": [
+    {"playerId": "player_sn1_009_01", "name": "Cheikh Lo Ndoye", "number": 24, "position": "GK", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_009_02", "name": "Mouctarou Ndiaye", "number": 22, "position": "RB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_009_03", "name": "Abdoulaye Diédhiou", "number": 3, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_009_04", "name": "Adama Wade", "number": 25, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_009_05", "name": "Falilou Fall", "number": 9, "position": "LB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_009_06", "name": "Pape Assane Mbodj", "number": 17, "position": "CDM", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_009_07", "name": "Mame Saër Guèye", "number": 6, "position": "CM", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_009_08", "name": "Ibrahima Sory Diallo", "number": 7, "position": "RW", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_009_09", "name": "Serigne Moctar Koite", "number": 10, "position": "CAM", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_009_10", "name": "Saliou Gueye", "number": 40, "position": "LW", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_009_11", "name": "Ameth Niang", "number": 18, "position": "ST", "country": "SN", "status": "starter"},
+
+    {"playerId": "player_sn1_009_12", "name": "Abdoulaye Diakhate", "number": 16, "position": "GK", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_009_13", "name": "Abdou Aziz Ndiaye", "number": 2, "position": "CB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_009_14", "name": "Moustapha Gueye", "number": 4, "position": "CB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_009_15", "name": "Nouha Coly", "number": 15, "position": "LB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_009_16", "name": "Jean Bocande", "number": 21, "position": "RB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_009_17", "name": "Pape Ibrahima Ba", "number": 28, "position": "CM", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_009_18", "name": "Abdoulaye Faty", "number": 30, "position": "CM", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_009_19", "name": "Mam Sheikh Jallow", "number": 5, "position": "CDM", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_009_20", "name": "Papa S. Dione", "number": 23, "position": "ST", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_009_21", "name": "Almamy Mathew Fall", "number": 29, "position": "ST", "country": "SN", "status": "bench"},
+
+    {"playerId": "player_sn1_009_22", "name": "Papa Ndiaye", "number": 1, "position": "GK", "country": "SN", "status": "reserve"},
+    {"playerId": "player_sn1_009_23", "name": "Malick Sembène", "number": 12, "position": "CB", "country": "SN", "status": "reserve"},
+    {"playerId": "player_sn1_009_24", "name": "Balla Moussa Guissé", "number": 13, "position": "CB", "country": "SN", "status": "reserve"},
+    {"playerId": "player_sn1_009_25", "name": "Ousmane Sow", "number": 14, "position": "CM", "country": "SN", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 24,
+    "setPieces": {
+      "penalty": 18,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 40
     }
   }
+}
