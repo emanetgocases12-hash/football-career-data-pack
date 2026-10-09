@@ -1,52 +1,58 @@
 {
-    "teamKey": "Odisha",
-    "name": "Odisha FC",
-    "logo": "assets/logos/asia/india/Odisha.png",
-    "manager": {
-      "name": "TG Purushothaman",
-      "country": "IN"
-    },
-    "stadium": {
-      "name": "Kalinga Stadium",
-      "capacity": 15000
-    },
-    "players": [
-      {"playerId": "player_in1_013_01", "name": "Anuj Kumar", "number": 23, "position": "GK", "country": "IN", "status": "starter"},
-      {"playerId": "player_in1_013_02", "name": "Edwin Vanspaul", "number": 33, "position": "RB", "country": "IN", "status": "starter"},
-      {"playerId": "player_in1_013_03", "name": "Subham Bhattacharya", "number": 3, "position": "CB", "country": "IN", "status": "starter"},
-      {"playerId": "player_in1_013_04", "name": "Thoiba Singh", "number": 24, "position": "CB", "country": "IN", "status": "starter"},
-      {"playerId": "player_in1_013_05", "name": "Saviour Gama", "number": 21, "position": "LB", "country": "IN", "status": "starter"},
-      {"playerId": "player_in1_013_06", "name": "Giorgi Aburjania", "number": 8, "position": "CDM", "country": "GE", "status": "starter"},
-      {"playerId": "player_in1_013_07", "name": "Puitea", "number": 7, "position": "CM", "country": "IN", "status": "starter"},
-      {"playerId": "player_in1_013_08", "name": "Hitesh Sharma", "number": 18, "position": "CM", "country": "IN", "status": "starter"},
-      {"playerId": "player_in1_013_09", "name": "Rahul KP", "number": 10, "position": "RW", "country": "IN", "status": "starter"},
-      {"playerId": "player_in1_013_10", "name": "Nandha Kumar Sekar", "number": 11, "position": "LW", "country": "IN", "status": "starter"},
-      {"playerId": "player_in1_013_11", "name": "Rahim Ali", "number": 9, "position": "ST", "country": "IN", "status": "starter"},
+  "teamKey": "Odisha",
 
-      {"playerId": "player_in1_013_12", "name": "Manas Dubey", "number": 99, "position": "GK", "country": "IN", "status": "bench"},
-      {"playerId": "player_in1_013_13", "name": "Saurabh Bhanwala", "number": 6, "position": "CB", "country": "IN", "status": "bench"},
-      {"playerId": "player_in1_013_14", "name": "Tejas Krishna", "number": 16, "position": "CB", "country": "IN", "status": "bench"},
-      {"playerId": "player_in1_013_15", "name": "Kojam Beyong", "number": 2, "position": "RB", "country": "IN", "status": "bench"},
-      {"playerId": "player_in1_013_16", "name": "Jeremy Zohminghlua", "number": 12, "position": "LB", "country": "IN", "status": "bench"},
-      {"playerId": "player_in1_013_17", "name": "Narendra Naik", "number": 39, "position": "CM", "country": "IN", "status": "bench"},
-      {"playerId": "player_in1_013_18", "name": "Aashir Vazhappilli", "number": 20, "position": "CAM", "country": "IN", "status": "bench"},
-      {"playerId": "player_in1_013_19", "name": "Suhair VP", "number": 15, "position": "RW", "country": "IN", "status": "bench"},
-      {"playerId": "player_in1_013_20", "name": "Heikrujam Sanathoi", "number": 26, "position": "ST", "country": "IN", "status": "bench"},
-      {"playerId": "player_in1_013_21", "name": "Ashangbam Aphaoba", "number": 29, "position": "ST", "country": "IN", "status": "bench"},
+  "name": "Odisha FC",
 
-      {"playerId": "player_in1_013_22", "name": "Vanlalzuidika", "number": 34, "position": "CB", "country": "IN", "status": "reserve"},
-      {"playerId": "player_in1_013_23", "name": "Tankadhar Bag", "number": 45, "position": "CB", "country": "IN", "status": "reserve"},
-      {"playerId": "player_in1_013_24", "name": "K Lalrinfela", "number": 25, "position": "CM", "country": "IN", "status": "reserve"},
-      {"playerId": "player_in1_013_25", "name": "Kartik Hantal", "number": 66, "position": "ST", "country": "IN", "status": "reserve"}
-    ],
-    "tactics": {
-      "formation": "4-3-3",
-      "captain": 7,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 8,
-        "cornerLeft": 10,
-        "cornerRight": 11
-      }
+  "logo": "assets/logos/asia/india/Odisha.png",
+
+  "manager": {
+    "name": "TG Purushothaman",
+    "country": "IN"
+  },
+
+  "stadium": {
+    "name": "Kalinga Stadium",
+    "capacity": 15000
+  },
+
+  "players": [
+    {"playerId": "player_in1_013_01", "name": "Anuj Kumar", "number": 23, "position": "GK", "country": "IN", "status": "starter"},
+    {"playerId": "player_in1_013_02", "name": "Edwin Vanspaul", "number": 33, "position": "RB", "country": "IN", "status": "starter"},
+    {"playerId": "player_in1_013_03", "name": "Subham Bhattacharya", "number": 3, "position": "CB", "country": "IN", "status": "starter"},
+    {"playerId": "player_in1_013_04", "name": "Thoiba Singh", "number": 24, "position": "CB", "country": "IN", "status": "starter"},
+    {"playerId": "player_in1_013_05", "name": "Saviour Gama", "number": 21, "position": "LB", "country": "IN", "status": "starter"},
+    {"playerId": "player_in1_013_06", "name": "Giorgi Aburjania", "number": 8, "position": "CDM", "country": "GE", "status": "starter"},
+    {"playerId": "player_in1_013_07", "name": "Puitea", "number": 7, "position": "CM", "country": "IN", "status": "starter"},
+    {"playerId": "player_in1_013_08", "name": "Hitesh Sharma", "number": 18, "position": "CM", "country": "IN", "status": "starter"},
+    {"playerId": "player_in1_013_09", "name": "Rahul KP", "number": 10, "position": "RW", "country": "IN", "status": "starter"},
+    {"playerId": "player_in1_013_10", "name": "Nandha Kumar Sekar", "number": 11, "position": "LW", "country": "IN", "status": "starter"},
+    {"playerId": "player_in1_013_11", "name": "Rahim Ali", "number": 9, "position": "ST", "country": "IN", "status": "starter"},
+
+    {"playerId": "player_in1_013_12", "name": "Manas Dubey", "number": 99, "position": "GK", "country": "IN", "status": "bench"},
+    {"playerId": "player_in1_013_13", "name": "Saurabh Bhanwala", "number": 6, "position": "CB", "country": "IN", "status": "bench"},
+    {"playerId": "player_in1_013_14", "name": "Tejas Krishna", "number": 16, "position": "CB", "country": "IN", "status": "bench"},
+    {"playerId": "player_in1_013_15", "name": "Kojam Beyong", "number": 2, "position": "RB", "country": "IN", "status": "bench"},
+    {"playerId": "player_in1_013_16", "name": "Jeremy Zohminghlua", "number": 12, "position": "LB", "country": "IN", "status": "bench"},
+    {"playerId": "player_in1_013_17", "name": "Narendra Naik", "number": 39, "position": "CM", "country": "IN", "status": "bench"},
+    {"playerId": "player_in1_013_18", "name": "Aashir Vazhappilli", "number": 20, "position": "CAM", "country": "IN", "status": "bench"},
+    {"playerId": "player_in1_013_19", "name": "Suhair VP", "number": 15, "position": "RW", "country": "IN", "status": "bench"},
+    {"playerId": "player_in1_013_20", "name": "Heikrujam Sanathoi", "number": 26, "position": "ST", "country": "IN", "status": "bench"},
+    {"playerId": "player_in1_013_21", "name": "Ashangbam Aphaoba", "number": 29, "position": "ST", "country": "IN", "status": "bench"},
+
+    {"playerId": "player_in1_013_22", "name": "Sachin A Suresh", "number": 31, "position": "GK", "country": "IN", "status": "reserve"},
+    {"playerId": "player_in1_013_23", "name": "Vanlalzuidika", "number": 34, "position": "CB", "country": "IN", "status": "reserve"},
+    {"playerId": "player_in1_013_24", "name": "Tankadhar Bag", "number": 45, "position": "CB", "country": "IN", "status": "reserve"},
+    {"playerId": "player_in1_013_25", "name": "K Lalrinfela", "number": 25, "position": "CM", "country": "IN", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 7,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 8,
+      "cornerLeft": 10,
+      "cornerRight": 11
     }
   }
+}
