@@ -1,58 +1,58 @@
- {
-    "teamKey": "Asyut",
+{
+  "teamKey": "Asyut",
 
-    "name": "Asyut Petroleum SC",
+  "name": "Asyut Petroleum SC",
 
-    "logo": "assets/logos/africa/egypt/Asyut.png",
+  "logo": "assets/logos/africa/egypt/Asyut.png",
 
-    "manager": {
-      "name": "Ahmed Abdel Maksoud",
-      "country": "EG"
-    },
+  "manager": {
+    "name": "Ahmed Abdel Maksoud",
+    "country": "EG"
+  },
 
-    "stadium": {
-      "name": "Borg El Arab Stadium",
-      "capacity": 86000
-    },
+  "stadium": {
+    "name": "Borg El Arab Stadium",
+    "capacity": 86000
+  },
 
-    "players": [
-      {"playerId": "player_eg1_003_01", "name": "Amgad Youssef", "number": 1, "position": "GK", "country": "EG", "status": "starter"},
-      {"playerId": "player_eg1_003_02", "name": "Mahmoud Ali Abdel Aleim", "number": 24, "position": "CB", "country": "EG", "status": "starter"},
-      {"playerId": "player_eg1_003_03", "name": "Che Corines Bodne", "number": 15, "position": "CB", "country": "CI", "status": "starter"},
-      {"playerId": "player_eg1_003_04", "name": "Ahmed Shokry", "number": 20, "position": "CB", "country": "EG", "status": "starter"},
-      {"playerId": "player_eg1_003_05", "name": "Ahmed Younes", "number": 7, "position": "RM", "country": "EG", "status": "starter"},
-      {"playerId": "player_eg1_003_06", "name": "Abdel Rahman El Khamisi", "number": 26, "position": "CM", "country": "EG", "status": "starter"},
-      {"playerId": "player_eg1_003_07", "name": "Ibrahim Abbas", "number": 19, "position": "CDM", "country": "EG", "status": "starter"},
-      {"playerId": "player_eg1_003_08", "name": "Mohamed Tayeb", "number": 22, "position": "CM", "country": "EG", "status": "starter"},
-      {"playerId": "player_eg1_003_09", "name": "Mostafa Ahmed Abdel Hamid", "number": 17, "position": "LM", "country": "EG", "status": "starter"},
-      {"playerId": "player_eg1_003_10", "name": "Mohamed Hesha", "number": 9, "position": "ST", "country": "EG", "status": "starter"},
-      {"playerId": "player_eg1_003_11", "name": "Mohamed Medhat", "number": 30, "position": "ST", "country": "EG", "status": "starter"},
+  "players": [
+    {"playerId": "player_eg1_003_01", "name": "Amgad Youssef", "number": 1, "position": "GK", "country": "EG", "status": "starter"},
+    {"playerId": "player_eg1_003_02", "name": "Mahmoud Ali Abdel Aleim", "number": 24, "position": "CB", "country": "EG", "status": "starter"},
+    {"playerId": "player_eg1_003_03", "name": "Che Corines Bodne", "number": 15, "position": "CB", "country": "CI", "status": "starter"},
+    {"playerId": "player_eg1_003_04", "name": "Ahmed Shokry", "number": 20, "position": "CB", "country": "EG", "status": "starter"},
+    {"playerId": "player_eg1_003_05", "name": "Ahmed Younes", "number": 7, "position": "RM", "country": "EG", "status": "starter"},
+    {"playerId": "player_eg1_003_06", "name": "Abdel Rahman El Khamisi", "number": 26, "position": "CM", "country": "EG", "status": "starter"},
+    {"playerId": "player_eg1_003_07", "name": "Ibrahim Abbas", "number": 19, "position": "CDM", "country": "EG", "status": "starter"},
+    {"playerId": "player_eg1_003_08", "name": "Mohamed Tayeb", "number": 22, "position": "CM", "country": "EG", "status": "starter"},
+    {"playerId": "player_eg1_003_09", "name": "Mostafa Ahmed Abdel Hamid", "number": 17, "position": "LM", "country": "EG", "status": "starter"},
+    {"playerId": "player_eg1_003_10", "name": "Mohamed Hesha", "number": 9, "position": "ST", "country": "EG", "status": "starter"},
+    {"playerId": "player_eg1_003_11", "name": "Mohamed Medhat", "number": 30, "position": "ST", "country": "EG", "status": "starter"},
 
-      {"playerId": "player_eg1_003_12", "name": "Mohamed Mostafa", "number": 16, "position": "GK", "country": "EG", "status": "bench"},
-      {"playerId": "player_eg1_003_13", "name": "Joshua Ejaji", "number": 38, "position": "ST", "country": "NG", "status": "bench"},
-      {"playerId": "player_eg1_003_14", "name": "Amr El Basha", "number": 3, "position": "CB", "country": "EG", "status": "bench"},
-      {"playerId": "player_eg1_003_15", "name": "Mahmoud Oukel", "number": 5, "position": "CB", "country": "EG", "status": "bench"},
-      {"playerId": "player_eg1_003_16", "name": "Khaled Abdel Aal", "number": 34, "position": "RB", "country": "EG", "status": "bench"},
-      {"playerId": "player_eg1_003_17", "name": "Ahmed Refai", "number": 2, "position": "LB", "country": "EG", "status": "bench"},
-      {"playerId": "player_eg1_003_18", "name": "Said Ekramy", "number": 11, "position": "RW", "country": "EG", "status": "bench"},
-      {"playerId": "player_eg1_003_19", "name": "Mostafa Sodfa", "number": 10, "position": "CAM", "country": "EG", "status": "bench"},
-      {"playerId": "player_eg1_003_20", "name": "Moamen Eid", "number": 8, "position": "CM", "country": "EG", "status": "bench"},
-      {"playerId": "player_eg1_003_21", "name": "Bakr Fawzy", "number": 6, "position": "CDM", "country": "EG", "status": "bench"},
+    {"playerId": "player_eg1_003_12", "name": "Mohamed Mostafa", "number": 16, "position": "GK", "country": "EG", "status": "bench"},
+    {"playerId": "player_eg1_003_13", "name": "Joshua Ejaji", "number": 38, "position": "ST", "country": "NG", "status": "bench"},
+    {"playerId": "player_eg1_003_14", "name": "Amr El Basha", "number": 3, "position": "CB", "country": "EG", "status": "bench"},
+    {"playerId": "player_eg1_003_15", "name": "Mahmoud Oukel", "number": 5, "position": "CB", "country": "EG", "status": "bench"},
+    {"playerId": "player_eg1_003_16", "name": "Khaled Abdel Aal", "number": 34, "position": "RB", "country": "EG", "status": "bench"},
+    {"playerId": "player_eg1_003_17", "name": "Ahmed Refai", "number": 2, "position": "LB", "country": "EG", "status": "bench"},
+    {"playerId": "player_eg1_003_18", "name": "Said Ekramy", "number": 11, "position": "RW", "country": "EG", "status": "bench"},
+    {"playerId": "player_eg1_003_19", "name": "Mostafa Sodfa", "number": 10, "position": "CAM", "country": "EG", "status": "bench"},
+    {"playerId": "player_eg1_003_20", "name": "Moamen Eid", "number": 8, "position": "CM", "country": "EG", "status": "bench"},
+    {"playerId": "player_eg1_003_21", "name": "Bakr Fawzy", "number": 6, "position": "CDM", "country": "EG", "status": "bench"},
 
-      {"playerId": "player_eg1_003_22", "name": "Abdo Kashkash", "number": 18, "position": "LW", "country": "EG", "status": "reserve"},
-      {"playerId": "player_eg1_003_23", "name": "Mohamed Trezika", "number": 27, "position": "CAM", "country": "EG", "status": "reserve"},
-      {"playerId": "player_eg1_003_24", "name": "Ahmed Fathy", "number": 28, "position": "RW", "country": "EG", "status": "reserve"},
-      {"playerId": "player_eg1_003_25", "name": "Abdel Aziz Ahmed", "number": 25, "position": "GK", "country": "EG", "status": "reserve"}
-    ],
+    {"playerId": "player_eg1_003_25", "name": "Abdel Aziz Ahmed", "number": 25, "position": "GK", "country": "EG", "status": "reserve"},
+    {"playerId": "player_eg1_003_22", "name": "Abdo Kashkash", "number": 18, "position": "LW", "country": "EG", "status": "reserve"},
+    {"playerId": "player_eg1_003_23", "name": "Mohamed Trezika", "number": 27, "position": "CAM", "country": "EG", "status": "reserve"},
+    {"playerId": "player_eg1_003_24", "name": "Ahmed Fathy", "number": 28, "position": "RW", "country": "EG", "status": "reserve"}
+  ],
 
-    "tactics": {
-      "formation": "3-5-2",
-      "captain": 7,
-      "setPieces": {
-          "penalty": 9,
-          "freeKick": 7,
-          "cornerLeft": 17,
-          "cornerRight": 22
-        }
-      }
+  "tactics": {
+    "formation": "3-5-2",
+    "captain": 7,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 17,
+      "cornerRight": 22
+    }
   }
+}
