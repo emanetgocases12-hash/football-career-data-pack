@@ -1,0 +1,58 @@
+{
+  "teamKey": "Kashwa",
+
+  "name": "Kashiwa Reysol",
+
+  "logo": "assets/logos/asia/japan/Kashiwa.png",
+
+  "manager": {
+    "name": "Ricardo Rodriguez",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "SANKYO FRONTIER Kashiwa Stadium",
+    "capacity": 15109
+  },
+
+  "players": [
+    {"playerId": "player_jp1_007_01", "name": "Kojima Ryosuke", "number": 25, "position": "GK", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_007_02", "name": "Harada Wataru", "number": 42, "position": "RB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_007_03", "name": "Koga Taiyo", "number": 4, "position": "CB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_007_04", "name": "Inukai Tomoya", "number": 13, "position": "CB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_007_05", "name": "Sugioka Daiki", "number": 26, "position": "LB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_007_06", "name": "Endo Keita", "number": 5, "position": "CM", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_007_07", "name": "Toshima Sachiro", "number": 28, "position": "CM", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_007_08", "name": "Koizumi Yoshio", "number": 8, "position": "CAM", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_007_09", "name": "Watai Masaki", "number": 11, "position": "RW", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_007_10", "name": "Hosoya Mao", "number": 9, "position": "ST", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_007_11", "name": "Yuruki Koya", "number": 16, "position": "LW", "country": "JP", "status": "starter"},
+
+    {"playerId": "player_jp1_007_12", "name": "Saruta Haruki", "number": 1, "position": "GK", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_007_13", "name": "Mitsumaru Hiromu", "number": 2, "position": "LB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_007_14", "name": "Asada Shogo", "number": 3, "position": "CB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_007_15", "name": "Baba Seiya", "number": 88, "position": "CB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_007_16", "name": "Yamanouchi Yusei", "number": 32, "position": "RB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_007_17", "name": "Tezuka Kohei", "number": 17, "position": "CM", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_007_18", "name": "Segawa Yusuke", "number": 20, "position": "RM", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_007_19", "name": "Konishi Yudai", "number": 21, "position": "CM", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_007_20", "name": "Kubo Tojiro", "number": 24, "position": "RW", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_007_21", "name": "Kakita Yuki", "number": 18, "position": "ST", "country": "JP", "status": "bench"},
+
+    {"playerId": "player_jp1_007_22", "name": "Nagai Kengo", "number": 29, "position": "GK", "country": "JP", "status": "reserve"},
+    {"playerId": "player_jp1_007_23", "name": "Nakama Hayato", "number": 19, "position": "LM", "country": "JP", "status": "reserve"},
+    {"playerId": "player_jp1_007_24", "name": "Harakawa Riki", "number": 40, "position": "CM", "country": "JP", "status": "reserve"},
+    {"playerId": "player_jp1_007_25", "name": "Fujio Shota", "number": 15, "position": "ST", "country": "JP", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 8,
+      "cornerLeft": 8,
+      "cornerRight": 16
+    }
+  }
+}

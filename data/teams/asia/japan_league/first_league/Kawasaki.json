@@ -1,0 +1,58 @@
+{
+  "teamKey": "Kawasa",
+
+  "name": "Kawasaki Frontale",
+
+  "logo": "assets/logos/asia/japan/Kawasaki.png",
+
+  "manager": {
+    "name": "Hasebe Shigetoshi",
+    "country": "JP"
+  },
+
+  "stadium": {
+    "name": "Uvance Todoroki Stadium by Fujitsu",
+    "capacity": 26827
+  },
+
+  "players": [
+    {"playerId": "player_jp1_008_01", "name": "Svend Brodersen", "number": 49, "position": "GK", "country": "DE", "status": "starter"},
+    {"playerId": "player_jp1_008_02", "name": "Matsunagane Yuto", "number": 2, "position": "RB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_008_03", "name": "Uremovic Filip", "number": 22, "position": "CB", "country": "HR", "status": "starter"},
+    {"playerId": "player_jp1_008_04", "name": "Pedro Romano", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_jp1_008_05", "name": "Yamahara Reon", "number": 29, "position": "LB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_008_06", "name": "Yamamoto Yuki", "number": 6, "position": "CM", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_008_07", "name": "Kawahara So", "number": 19, "position": "CDM", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_008_08", "name": "Wakizaka Yasuto", "number": 14, "position": "CAM", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_008_09", "name": "Konno Kazuya", "number": 18, "position": "RW", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_008_10", "name": "Lazar Romanic", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+    {"playerId": "player_jp1_008_11", "name": "Marcinho", "number": 23, "position": "LW", "country": "BR", "status": "starter"},
+
+    {"playerId": "player_jp1_008_12", "name": "Yamaguchi Louis", "number": 1, "position": "GK", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_008_13", "name": "Taniguchi Eito", "number": 3, "position": "CB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_008_14", "name": "Sasaki Asahi", "number": 5, "position": "CB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_008_15", "name": "Miura Sota", "number": 13, "position": "LB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_008_16", "name": "Maruyama Yuichi", "number": 28, "position": "CB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_008_17", "name": "Tachibanada Kento", "number": 8, "position": "CM", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_008_18", "name": "Oshima Ryota", "number": 10, "position": "CM", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_008_19", "name": "Ozeki Yuto", "number": 16, "position": "CAM", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_008_20", "name": "Ito Tatsuya", "number": 17, "position": "RW", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_008_21", "name": "Kobayashi Yu", "number": 11, "position": "ST", "country": "JP", "status": "bench"},
+
+    {"playerId": "player_jp1_008_22", "name": "Hayasaka Yuki", "number": 21, "position": "GK", "country": "JP", "status": "reserve"},
+    {"playerId": "player_jp1_008_23", "name": "Miyagi Ten", "number": 24, "position": "LW", "country": "JP", "status": "reserve"},
+    {"playerId": "player_jp1_008_24", "name": "Ienaga Akihiro", "number": 41, "position": "RW", "country": "JP", "status": "reserve"},
+    {"playerId": "player_jp1_008_25", "name": "Kaiki Queiroz", "number": 93, "position": "ST", "country": "BR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 22,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 14,
+      "cornerLeft": 14,
+      "cornerRight": 23
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "Fagian",
+
+  "name": "Fagiano Okayama",
+
+  "logo": "assets/logos/asia/japan/Fagiano.png",
+
+  "manager": {
+    "name": "Kiyama Takashi",
+    "country": "JP"
+  },
+
+  "stadium": {
+    "name": "JFE Harenokuni Stadium",
+    "capacity": 15479
+  },
+
+  "players": [
+    {"playerId": "player_jp1_003_01", "name": "Lennart Moser", "number": 1, "position": "GK", "country": "DE", "status": "starter"},
+    {"playerId": "player_jp1_003_02", "name": "Shirai Kosuke", "number": 51, "position": "RB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_003_03", "name": "Tatsuta Yugo", "number": 48, "position": "CB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_003_04", "name": "Suzuki Yoshitake", "number": 43, "position": "CB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_003_05", "name": "Ogawa Ryoya", "number": 4, "position": "LB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_003_06", "name": "Oberdan", "number": 80, "position": "CDM", "country": "BR", "status": "starter"},
+    {"playerId": "player_jp1_003_07", "name": "Fujita Ibuki", "number": 24, "position": "CM", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_003_08", "name": "Esaka Ataru", "number": 8, "position": "CAM", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_003_09", "name": "Na Sangho", "number": 10, "position": "RW", "country": "KR", "status": "starter"},
+    {"playerId": "player_jp1_003_10", "name": "Leo Gaucho", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+    {"playerId": "player_jp1_003_11", "name": "Nishikawa Jun", "number": 66, "position": "LW", "country": "JP", "status": "starter"},
+
+    {"playerId": "player_jp1_003_12", "name": "Matsuda Shun", "number": 13, "position": "GK", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_003_13", "name": "Ikedo Shu", "number": 5, "position": "CB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_003_14", "name": "Omori Hiroshi", "number": 6, "position": "CB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_003_15", "name": "Tagami Daichi", "number": 18, "position": "CB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_003_16", "name": "Senda Ryo", "number": 31, "position": "CB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_003_17", "name": "Takeuchi Ryo", "number": 7, "position": "CM", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_003_18", "name": "Tabei Ryo", "number": 14, "position": "CM", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_003_19", "name": "Kimura Takaya", "number": 27, "position": "LW", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_003_20", "name": "Matsumoto Masaya", "number": 28, "position": "RM", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_003_21", "name": "Kawano Kota", "number": 20, "position": "ST", "country": "JP", "status": "bench"},
+
+    {"playerId": "player_jp1_003_22", "name": "Kewin Silva", "number": 23, "position": "GK", "country": "BR", "status": "reserve"},
+    {"playerId": "player_jp1_003_23", "name": "Kamiya Yuta", "number": 33, "position": "CAM", "country": "JP", "status": "reserve"},
+    {"playerId": "player_jp1_003_24", "name": "Miyamoto Eiji", "number": 41, "position": "CM", "country": "JP", "status": "reserve"},
+    {"playerId": "player_jp1_003_25", "name": "Lucao", "number": 99, "position": "ST", "country": "BR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 48,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 8,
+      "cornerLeft": 8,
+      "cornerRight": 66
+    }
+  }
+}

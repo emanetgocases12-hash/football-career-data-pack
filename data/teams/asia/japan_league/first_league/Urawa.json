@@ -1,0 +1,58 @@
+{
+  "teamKey": "Urawa",
+
+  "name": "Urawa Red Diamonds",
+
+  "logo": "assets/logos/asia/japan/Urawa.png",
+
+  "manager": {
+    "name": "Cho Kwi Jae",
+    "country": "JP"
+  },
+
+  "stadium": {
+    "name": "Saitama Stadium 2002",
+    "capacity": 62040
+  },
+
+  "players": [
+    {"playerId": "player_jp1_016_01", "name": "Nishikawa Shusaku", "number": 1, "position": "GK", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_016_02", "name": "Yamane Miki", "number": 2, "position": "RB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_016_03", "name": "Danilo Boza", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_jp1_016_04", "name": "Nemoto Kenta", "number": 5, "position": "CB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_016_05", "name": "Watanabe Ryoma", "number": 13, "position": "LB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_016_06", "name": "Seko Tatsuki", "number": 6, "position": "CM", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_016_07", "name": "Kaneko Takuro", "number": 7, "position": "RW", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_016_08", "name": "Matheus Savio", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+    {"playerId": "player_jp1_016_09", "name": "Mizunuma Kota", "number": 8, "position": "RM", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_016_10", "name": "Thiago Santana", "number": 12, "position": "ST", "country": "BR", "status": "starter"},
+    {"playerId": "player_jp1_016_11", "name": "Matsuo Yusuke", "number": 24, "position": "LW", "country": "JP", "status": "starter"},
+
+    {"playerId": "player_jp1_016_12", "name": "Fukui Koki", "number": 23, "position": "GK", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_016_13", "name": "Miyamoto Yuta", "number": 4, "position": "RB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_016_14", "name": "Ishihara Hirokazu", "number": 14, "position": "RB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_016_15", "name": "Hoibraten Marius", "number": 20, "position": "CB", "country": "NO", "status": "bench"},
+    {"playerId": "player_jp1_016_16", "name": "Inoue Rikito", "number": 55, "position": "CB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_016_17", "name": "Gustafson Samuel", "number": 11, "position": "CDM", "country": "SE", "status": "bench"},
+    {"playerId": "player_jp1_016_18", "name": "Yasui Kaito", "number": 25, "position": "CM", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_016_19", "name": "Naganuma Yoichi", "number": 88, "position": "RM", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_016_20", "name": "Sekine Takahiro", "number": 21, "position": "RW", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_016_21", "name": "Komori Hiiro", "number": 18, "position": "ST", "country": "JP", "status": "bench"},
+
+    {"playerId": "player_jp1_016_22", "name": "Arai Yoshiaki", "number": 44, "position": "GK", "country": "JP", "status": "reserve"},
+    {"playerId": "player_jp1_016_23", "name": "Nakamura Shunta", "number": 30, "position": "CM", "country": "JP", "status": "reserve"},
+    {"playerId": "player_jp1_016_24", "name": "Okubo Tomoaki", "number": 15, "position": "RW", "country": "JP", "status": "reserve"},
+    {"playerId": "player_jp1_016_25", "name": "Haraguchi Genki", "number": 78, "position": "CAM", "country": "JP", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 3,
+    "setPieces": {
+      "penalty": 12,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 24
+    }
+  }
+}

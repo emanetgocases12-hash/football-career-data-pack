@@ -1,0 +1,58 @@
+{
+  "teamKey": "Vissel",
+
+  "name": "Vissel Kobe",
+
+  "logo": "assets/logos/asia/japan/Vissel.png",
+
+  "manager": {
+    "name": "Michael Skibbe",
+    "country": "DE"
+  },
+
+  "stadium": {
+    "name": "NOEVIR Stadium Kobe",
+    "capacity": 27974
+  },
+
+  "players": [
+    {"playerId": "player_jp1_019_01", "name": "Maekawa Daiya", "number": 1, "position": "GK", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_019_02", "name": "Yamakawa Tetsushi", "number": 4, "position": "RB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_019_03", "name": "Matheus Thuler", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_jp1_019_04", "name": "Honda Yuki", "number": 15, "position": "CB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_019_05", "name": "Nagato Katsuya", "number": 2, "position": "LB", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_019_06", "name": "IdeGuchi Yosuke", "number": 7, "position": "CM", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_019_07", "name": "Ohgihara Takahiro", "number": 6, "position": "CDM", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_019_08", "name": "Goke Yuta", "number": 5, "position": "CAM", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_019_09", "name": "Jean Patric", "number": 26, "position": "RW", "country": "BR", "status": "starter"},
+    {"playerId": "player_jp1_019_10", "name": "Osako Yuya", "number": 10, "position": "ST", "country": "JP", "status": "starter"},
+    {"playerId": "player_jp1_019_11", "name": "Diego", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+
+    {"playerId": "player_jp1_019_12", "name": "Arai Shota", "number": 21, "position": "GK", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_019_13", "name": "Hatsuse Ryo", "number": 19, "position": "LB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_019_14", "name": "Kikuchi Ryuho", "number": 81, "position": "CB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_019_15", "name": "Iwanami Takuya", "number": 55, "position": "CB", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_019_16", "name": "Iino Nanasei", "number": 32, "position": "RM", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_019_17", "name": "Yamaguchi Hotaru", "number": 96, "position": "CM", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_019_18", "name": "Sasaki Daiju", "number": 22, "position": "CAM", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_019_19", "name": "Miyashiro Taisei", "number": 9, "position": "ST", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_019_20", "name": "Muto Yoshinori", "number": 31, "position": "RW", "country": "JP", "status": "bench"},
+    {"playerId": "player_jp1_019_21", "name": "Yuruki Koya", "number": 14, "position": "LW", "country": "JP", "status": "bench"},
+
+    {"playerId": "player_jp1_019_22", "name": "Richard Monday Ubong", "number": 8, "position": "GK", "country": "NG", "status": "reserve"},
+    {"playerId": "player_jp1_019_23", "name": "Hirose Rikuto", "number": 23, "position": "RB", "country": "JP", "status": "reserve"},
+    {"playerId": "player_jp1_019_24", "name": "Kuwasaki Yuya", "number": 25, "position": "CM", "country": "JP", "status": "reserve"},
+    {"playerId": "player_jp1_019_25", "name": "Sakai Gotoku", "number": 24, "position": "RB", "country": "JP", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 3,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 5,
+      "cornerLeft": 5,
+      "cornerRight": 11
+    }
+  }
+}
