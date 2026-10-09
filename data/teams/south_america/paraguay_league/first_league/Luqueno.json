@@ -1,58 +1,58 @@
- {
-    "teamKey": "Luqueñ",
+{
+  "teamKey": "Luqueñ",
 
-    "name": "Sportivo Luqueño",
+  "name": "Sportivo Luqueño",
 
-    "logo": "assets/logos/south_america/paraguay/Luquen.png",
+  "logo": "assets/logos/south_america/paraguay/Luquen.png",
 
-    "manager": {
-      "name": "Hernán Rodrigo López",
-      "country": "UY"
-    },
+  "manager": {
+    "name": "Hernán Rodrigo López",
+    "country": "UY"
+  },
 
-    "stadium": {
-      "name": "Estadio Feliciano Cáceres",
-      "capacity": 26974
-    },
+  "stadium": {
+    "name": "Estadio Feliciano Cáceres",
+    "capacity": 26974
+  },
 
-    "players": [
-      {"playerId": "player_py1_007_01", "name": "Nicolás Campisi", "number": 30, "position": "GK", "country": "AR", "status": "starter"},
-      {"playerId": "player_py1_007_02", "name": "Santiago Ocampos", "number": 22, "position": "RB", "country": "PY", "status": "starter"},
-      {"playerId": "player_py1_007_03", "name": "Facundo Wiechniak", "number": 6, "position": "CB", "country": "AR", "status": "starter"},
-      {"playerId": "player_py1_007_04", "name": "Miguel Barreto", "number": 4, "position": "CB", "country": "PY", "status": "starter"},
-      {"playerId": "player_py1_007_05", "name": "Álvaro Martínez", "number": 34, "position": "LB", "country": "PY", "status": "starter"},
-      {"playerId": "player_py1_007_06", "name": "Ángel Benítez", "number": 16, "position": "CDM", "country": "PY", "status": "starter"},
-      {"playerId": "player_py1_007_07", "name": "Aldo Maíz", "number": 23, "position": "CM", "country": "PY", "status": "starter"},
-      {"playerId": "player_py1_007_08", "name": "Sergio Díaz", "number": 10, "position": "CAM", "country": "PY", "status": "starter"},
-      {"playerId": "player_py1_007_09", "name": "Kevin Pereira", "number": 7, "position": "RW", "country": "PY", "status": "starter"},
-      {"playerId": "player_py1_007_10", "name": "Marcelo Ojeda", "number": 27, "position": "LW", "country": "PY", "status": "starter"},
-      {"playerId": "player_py1_007_11", "name": "Iván Maggi", "number": 20, "position": "ST", "country": "AR", "status": "starter"},
+  "players": [
+    {"playerId": "player_py1_007_01", "name": "Nicolás Campisi", "number": 30, "position": "GK", "country": "AR", "status": "starter"},
+    {"playerId": "player_py1_007_02", "name": "Santiago Ocampos", "number": 22, "position": "RB", "country": "PY", "status": "starter"},
+    {"playerId": "player_py1_007_03", "name": "Facundo Wiechniak", "number": 6, "position": "CB", "country": "AR", "status": "starter"},
+    {"playerId": "player_py1_007_04", "name": "Miguel Barreto", "number": 4, "position": "CB", "country": "PY", "status": "starter"},
+    {"playerId": "player_py1_007_05", "name": "Álvaro Martínez", "number": 34, "position": "LB", "country": "PY", "status": "starter"},
+    {"playerId": "player_py1_007_06", "name": "Ángel Benítez", "number": 16, "position": "CDM", "country": "PY", "status": "starter"},
+    {"playerId": "player_py1_007_07", "name": "Aldo Maíz", "number": 23, "position": "CM", "country": "PY", "status": "starter"},
+    {"playerId": "player_py1_007_08", "name": "Sergio Díaz", "number": 10, "position": "CAM", "country": "PY", "status": "starter"},
+    {"playerId": "player_py1_007_09", "name": "Kevin Pereira", "number": 7, "position": "RW", "country": "PY", "status": "starter"},
+    {"playerId": "player_py1_007_10", "name": "Marcelo Ojeda", "number": 27, "position": "LW", "country": "PY", "status": "starter"},
+    {"playerId": "player_py1_007_11", "name": "Iván Maggi", "number": 20, "position": "ST", "country": "AR", "status": "starter"},
 
-      {"playerId": "player_py1_007_12", "name": "Francisco Mongelos", "number": 1, "position": "GK", "country": "PY", "status": "bench"},
-      {"playerId": "player_py1_007_13", "name": "Adrián Brizuela", "number": 3, "position": "CB", "country": "PY", "status": "bench"},
-      {"playerId": "player_py1_007_14", "name": "Axel Balbuena", "number": 24, "position": "LB", "country": "PY", "status": "bench"},
-      {"playerId": "player_py1_007_15", "name": "Fernando Benitez", "number": 14, "position": "CDM", "country": "PY", "status": "bench"},
-      {"playerId": "player_py1_007_16", "name": "Giovanni Bogado", "number": 8, "position": "CM", "country": "PY", "status": "bench"},
-      {"playerId": "player_py1_007_17", "name": "Sebastián Maldonado", "number": 15, "position": "CM", "country": "PY", "status": "bench"},
-      {"playerId": "player_py1_007_18", "name": "Fernando Bobadilla", "number": 21, "position": "CM", "country": "PY", "status": "bench"},
-      {"playerId": "player_py1_007_19", "name": "Óscar Ruiz", "number": 11, "position": "LW", "country": "PY", "status": "bench"},
-      {"playerId": "player_py1_007_20", "name": "Lautaro Comas", "number": 37, "position": "RW", "country": "AR", "status": "bench"},
-      {"playerId": "player_py1_007_21", "name": "Walter González", "number": 9, "position": "ST", "country": "PY", "status": "bench"},
+    {"playerId": "player_py1_007_12", "name": "Francisco Mongelos", "number": 1, "position": "GK", "country": "PY", "status": "bench"},
+    {"playerId": "player_py1_007_13", "name": "Adrián Brizuela", "number": 3, "position": "CB", "country": "PY", "status": "bench"},
+    {"playerId": "player_py1_007_14", "name": "Axel Balbuena", "number": 24, "position": "LB", "country": "PY", "status": "bench"},
+    {"playerId": "player_py1_007_15", "name": "Fernando Benitez", "number": 14, "position": "CDM", "country": "PY", "status": "bench"},
+    {"playerId": "player_py1_007_16", "name": "Giovanni Bogado", "number": 8, "position": "CM", "country": "PY", "status": "bench"},
+    {"playerId": "player_py1_007_17", "name": "Sebastián Maldonado", "number": 15, "position": "CM", "country": "PY", "status": "bench"},
+    {"playerId": "player_py1_007_18", "name": "Fernando Bobadilla", "number": 21, "position": "CM", "country": "PY", "status": "bench"},
+    {"playerId": "player_py1_007_19", "name": "Óscar Ruiz", "number": 11, "position": "LW", "country": "PY", "status": "bench"},
+    {"playerId": "player_py1_007_20", "name": "Lautaro Comas", "number": 37, "position": "RW", "country": "AR", "status": "bench"},
+    {"playerId": "player_py1_007_21", "name": "Walter González", "number": 9, "position": "ST", "country": "PY", "status": "bench"},
 
-      {"playerId": "player_py1_007_22", "name": "Angel Espinola", "number": 40, "position": "GK", "country": "PY", "status": "reserve"},
-      {"playerId": "player_py1_007_23", "name": "Alfredo Aguilar", "number": 12, "position": "GK", "country": "PY", "status": "reserve"},
-      {"playerId": "player_py1_007_24", "name": "Jonathan Ramos", "number": 25, "position": "CAM", "country": "PY", "status": "reserve"},
-      {"playerId": "player_py1_007_25", "name": "Iván Torres", "number": 18, "position": "LW", "country": "PY", "status": "reserve"}
-    ],
+    {"playerId": "player_py1_007_22", "name": "Angel Espinola", "number": 40, "position": "GK", "country": "PY", "status": "reserve"},
+    {"playerId": "player_py1_007_23", "name": "Jonathan Ramos", "number": 25, "position": "CAM", "country": "PY", "status": "reserve"},
+    {"playerId": "player_py1_007_24", "name": "Iván Torres", "number": 18, "position": "LW", "country": "PY", "status": "reserve"},
+    {"playerId": "player_py1_007_25", "name": "Lucas Morales", "number": 19, "position": "RB", "country": "UY", "status": "reserve"}
+  ],
 
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 30,
-      "setPieces": {
-        "penalty": 20,
-        "freeKick": 10,
-        "cornerLeft": 10,
-        "cornerRight": 7
-      }
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 30,
+    "setPieces": {
+      "penalty": 20,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 7
     }
   }
+}
