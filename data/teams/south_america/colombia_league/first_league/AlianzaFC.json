@@ -1,0 +1,58 @@
+{
+  "teamKey": "Alianz",
+
+  "name": "Alianza FC",
+
+  "logo": "assets/logos/south_america/colombia/Alianz.png",
+
+  "manager": {
+    "name": "Flabio Torres",
+    "country": "CO"
+  },
+
+  "stadium": {
+    "name": "Estadio Armando Maestre Pavajeau",
+    "capacity": 11500
+  },
+
+  "players": [
+    {"playerId": "player_co1_002_01", "name": "Johan Wallens", "number": 1, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_002_02", "name": "Eduard Banguero", "number": 24, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_002_03", "name": "Jesus Figueroa", "number": 22, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_002_04", "name": "Jhildrey Lasso", "number": 33, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_002_05", "name": "John Garcia", "number": 18, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_002_06", "name": "Carlos Esparragoza", "number": 15, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_002_07", "name": "Ever Meza", "number": 6, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_002_08", "name": "Fabian Cantillo", "number": 21, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_002_09", "name": "Wiston Fernandez", "number": 7, "position": "RW", "country": "UY", "status": "starter"},
+    {"playerId": "player_co1_002_10", "name": "Jesus Munoz", "number": 8, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_002_11", "name": "Misael Martinez", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+
+    {"playerId": "player_co1_002_12", "name": "Juan Chaverra", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_002_13", "name": "Joseb Mosquera", "number": 30, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_002_14", "name": "Juan Arcila", "number": 2, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_002_15", "name": "Kevin Moreno", "number": 3, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_002_16", "name": "Pedro Franco", "number": 5, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_002_17", "name": "Jeison Osorio", "number": 28, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_002_18", "name": "Edwin Torres", "number": 29, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_002_19", "name": "Yeiner Londono", "number": 11, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_002_20", "name": "Carlos Gonzalez", "number": 20, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_002_21", "name": "Eudy Perez", "number": 17, "position": "LW", "country": "CO", "status": "bench"},
+
+    {"playerId": "player_co1_002_22", "name": "Alexander Simancas", "number": 13, "position": "GK", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_002_23", "name": "Felipe Pardo", "number": 19, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_002_24", "name": "Jean Rojas", "number": 27, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_002_25", "name": "Jesus Perez", "number": 23, "position": "RW", "country": "CO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 21,
+      "cornerLeft": 7,
+      "cornerRight": 8
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "Tolima",
+
+  "name": "Deportes Tolima",
+
+  "logo": "assets/logos/south_america/colombia/Tolima.png",
+
+  "manager": {
+    "name": "Luis Fernando Suarez",
+    "country": "CO"
+  },
+
+  "stadium": {
+    "name": "Estadio Manuel Murillo Toro",
+    "capacity": 28100
+  },
+
+  "players": [
+    {"playerId": "player_co1_020_01", "name": "Neto", "number": 1, "position": "GK", "country": "BR", "status": "starter"},
+    {"playerId": "player_co1_020_02", "name": "Anderson Angulo", "number": 2, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_020_03", "name": "Jan Angulo", "number": 3, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_020_04", "name": "Daniel Pedrozo", "number": 4, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_020_05", "name": "Juan Mera", "number": 5, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_020_06", "name": "Cristian Trujillo", "number": 6, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_020_07", "name": "Luis Sanchez", "number": 10, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_020_08", "name": "Erik Alvarez", "number": 13, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_020_09", "name": "Homer Martinez", "number": 14, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_020_10", "name": "Victor Reyes", "number": 16, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_020_11", "name": "Luis Sandoval", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+
+    {"playerId": "player_co1_020_12", "name": "Juan Covilla", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_020_13", "name": "Cristian Arrieta", "number": 17, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_020_14", "name": "Junior Hernandez", "number": 20, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_020_15", "name": "Nilder Zapata", "number": 25, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_020_16", "name": "Santiago Cabezas", "number": 26, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_020_17", "name": "Yoimar Moreno", "number": 31, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_020_18", "name": "Sebastian Guzman", "number": 32, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_020_19", "name": "Brayan Rovira", "number": 80, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_020_20", "name": "Jorge Cabezas", "number": 7, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_020_21", "name": "Jader Valencia", "number": 11, "position": "LW", "country": "CO", "status": "bench"},
+
+    {"playerId": "player_co1_020_22", "name": "Luis Marquínez", "number": 22, "position": "GK", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_020_23", "name": "Ever Valencia", "number": 8, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_020_24", "name": "Sergio Aguayo", "number": 15, "position": "ST", "country": "MX", "status": "reserve"},
+    {"playerId": "player_co1_020_25", "name": "Adrian Parra", "number": 24, "position": "RW", "country": "CO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 13,
+      "cornerLeft": 14,
+      "cornerRight": 16
+    }
+  }
+}

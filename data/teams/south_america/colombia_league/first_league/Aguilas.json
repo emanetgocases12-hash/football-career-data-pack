@@ -1,0 +1,58 @@
+{
+  "teamKey": "Aguilas",
+
+  "name": "Rionegro Águilas",
+
+  "logo": "assets/logos/south_america/colombia/Aguilas.png",
+
+  "manager": {
+    "name": "Flavio Robatto",
+    "country": "AR"
+  },
+
+  "stadium": {
+    "name": "Estadio Cincuentenario",
+    "capacity": 4000
+  },
+
+  "players": [
+    {"playerId": "player_co1_001_01", "name": "Jorge Soto", "number": 1, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_001_02", "name": "John Garcia", "number": 2, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_001_03", "name": "John Ontaneda", "number": 3, "position": "CB", "country": "EC", "status": "starter"},
+    {"playerId": "player_co1_001_04", "name": "Andres Mosquera", "number": 4, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_001_05", "name": "Luis Vasquez", "number": 5, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_001_06", "name": "Ivan Rojas", "number": 6, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_001_07", "name": "Andres Ricaurte", "number": 8, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_001_08", "name": "Junior Noguera", "number": 10, "position": "CAM", "country": "PY", "status": "starter"},
+    {"playerId": "player_co1_001_09", "name": "Angel Cortes", "number": 14, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_001_10", "name": "Jaen Pineda", "number": 16, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_001_11", "name": "Eduar Arizalas", "number": 7, "position": "ST", "country": "CO", "status": "starter"},
+
+    {"playerId": "player_co1_001_12", "name": "Hector Arango", "number": 34, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_001_13", "name": "Jhon Wenceslao Melendez Murillo", "number": 13, "position": "CB", "country": "BR", "status": "bench"},
+    {"playerId": "player_co1_001_14", "name": "Frank Lozano", "number": 19, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_001_15", "name": "Alberto Higgins", "number": 20, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_001_16", "name": "Dylan Lozano", "number": 26, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_001_17", "name": "Juan Esteban Avalo", "number": 24, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_001_18", "name": "Juan Roa", "number": 25, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_001_19", "name": "Carlos Londono", "number": 27, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_001_20", "name": "Anthony Vasquez Arcila", "number": 9, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_001_21", "name": "Fabian Charales", "number": 15, "position": "LW", "country": "CO", "status": "bench"},
+
+    {"playerId": "player_co1_001_22", "name": "Sebastián Guerra", "number": 35, "position": "GK", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_001_23", "name": "Tomas Blandon", "number": 29, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_001_24", "name": "Matias Ramirez", "number": 11, "position": "ST", "country": "AR", "status": "reserve"},
+    {"playerId": "player_co1_001_25", "name": "Andres Carreno", "number": 18, "position": "RW", "country": "CO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 7,
+      "freeKick": 10,
+      "cornerLeft": 14,
+      "cornerRight": 16
+    }
+  }
+}

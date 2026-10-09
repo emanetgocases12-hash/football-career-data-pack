@@ -1,0 +1,58 @@
+{
+  "teamKey": "Jnr Fc",
+
+  "name": "Junior FC",
+
+  "logo": "assets/logos/south_america/colombia/JnrFc.png",
+
+  "manager": {
+    "name": "Sebastian Viera",
+    "country": "UY"
+  },
+
+  "stadium": {
+    "name": "Metropolitano Roberto Meléndez",
+    "capacity": 46692
+  },
+
+  "players": [
+    {"playerId": "player_co1_016_01", "name": "Mauro Silveira", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+    {"playerId": "player_co1_016_02", "name": "Jean Carlos Pestana", "number": 24, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_016_03", "name": "Jermein Pena", "number": 98, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_016_04", "name": "Lucas Monzon", "number": 33, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_co1_016_05", "name": "Daniel Rivera", "number": 5, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_016_06", "name": "Jesus Rivas", "number": 22, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_016_07", "name": "Guillermo Celis", "number": 28, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_016_08", "name": "Juan David Rios", "number": 14, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_016_09", "name": "Fabian Angel", "number": 80, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_016_10", "name": "Harold Rivera", "number": 7, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_016_11", "name": "Luis Muriel", "number": 10, "position": "ST", "country": "CO", "status": "starter"},
+
+    {"playerId": "player_co1_016_12", "name": "Jefersson Martinez", "number": 30, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_016_13", "name": "Yeison Suarez", "number": 26, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_016_14", "name": "Jhon Navia", "number": 27, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_016_15", "name": "Jhomier Guerrero", "number": 34, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_016_16", "name": "Edwin Herrera", "number": 3, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_016_17", "name": "Jannenson Sarmiento", "number": 20, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_016_18", "name": "Deiber Caicedo", "number": 25, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_016_19", "name": "Bryan Castrillon", "number": 88, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_016_20", "name": "Yimmi Chara", "number": 8, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_016_21", "name": "Cristian Barrios", "number": 77, "position": "LW", "country": "CO", "status": "bench"},
+
+    {"playerId": "player_co1_016_22", "name": "Jaime Acosta", "number": 12, "position": "GK", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_016_23", "name": "Joel Canchimbo", "number": 21, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_016_24", "name": "Kevin Perez", "number": 18, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_016_25", "name": "Guillermo Paiva", "number": 9, "position": "RW", "country": "PY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 14,
+      "cornerLeft": 80,
+      "cornerRight": 7
+    }
+  }
+}

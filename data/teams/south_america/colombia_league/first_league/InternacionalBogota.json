@@ -1,0 +1,58 @@
+{
+  "teamKey": "Bogotá",
+
+  "name": "Internacional de Bogotá",
+
+  "logo": "assets/logos/south_america/colombia/IBogota.png",
+
+  "manager": {
+    "name": "Ricardo Valino",
+    "country": "AR"
+  },
+
+  "stadium": {
+    "name": "Estadio Metropolitano de Techo",
+    "capacity": 8000
+  },
+
+  "players": [
+    {"playerId": "player_co1_014_01", "name": "Wuilker Farinez", "number": 1, "position": "GK", "country": "VE", "status": "starter"},
+    {"playerId": "player_co1_014_02", "name": "Carlos Vivas", "number": 2, "position": "RB", "country": "VE", "status": "starter"},
+    {"playerId": "player_co1_014_03", "name": "Esteban Valencia", "number": 3, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_014_04", "name": "Mateo Rodas", "number": 4, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_014_05", "name": "Miguel Amaya", "number": 6, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_014_06", "name": "Larry Vasquez", "number": 5, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_014_07", "name": "Dewar Victoria", "number": 8, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_014_08", "name": "Mateo Santamaria", "number": 14, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_014_09", "name": "Dannovi Quinones", "number": 15, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_014_10", "name": "Fabian Chaverra", "number": 17, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_014_11", "name": "Diego Duarte", "number": 9, "position": "ST", "country": "PY", "status": "starter"},
+
+    {"playerId": "player_co1_014_12", "name": "Nacho Carrasco", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_014_13", "name": "Miguel Pernia", "number": 13, "position": "CB", "country": "VE", "status": "bench"},
+    {"playerId": "player_co1_014_14", "name": "Yulian Gomez", "number": 16, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_014_15", "name": "Joan Castro", "number": 20, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_014_16", "name": "Agustin Irazoque", "number": 26, "position": "CB", "country": "AR", "status": "bench"},
+    {"playerId": "player_co1_014_17", "name": "Ruben Manjarres", "number": 24, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_014_18", "name": "Jhon Jaider Steven Palomeque Calvo", "number": 32, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_014_19", "name": "Fabricio Sanguinetti", "number": 7, "position": "RW", "country": "UY", "status": "bench"},
+    {"playerId": "player_co1_014_20", "name": "Emanuel Fernando Arboleda Hernandez", "number": 18, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_014_21", "name": "Yeider Garcia", "number": 19, "position": "LW", "country": "CO", "status": "bench"},
+
+    {"playerId": "player_co1_014_22", "name": "Kevin Cataño", "number": 33, "position": "GK", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_014_23", "name": "Facundo Bone", "number": 10, "position": "LW", "country": "UY", "status": "reserve"},
+    {"playerId": "player_co1_014_24", "name": "Yojan Garces", "number": 21, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_014_25", "name": "Johan Caballero", "number": 23, "position": "RW", "country": "CO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 14,
+      "cornerLeft": 15,
+      "cornerRight": 17
+    }
+  }
+}

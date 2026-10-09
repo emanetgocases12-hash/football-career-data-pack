@@ -1,0 +1,58 @@
+{
+  "teamKey": "O'Cldas",
+
+  "name": "Once Caldas",
+
+  "logo": "assets/logos/south_america/colombia/OCldas.png",
+
+  "manager": {
+    "name": "Carlos Valencia",
+    "country": "CO"
+  },
+
+  "stadium": {
+    "name": "Estadio Palogrande",
+    "capacity": 28678
+  },
+
+  "players": [
+    {"playerId": "player_co1_019_01", "name": "Joan Parra", "number": 99, "position": "GK", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_019_02", "name": "Jorge Cardona", "number": 2, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_019_03", "name": "Juan Castano", "number": 16, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_019_04", "name": "Kevin Cuesta", "number": 23, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_019_05", "name": "Jeider Riquett", "number": 18, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_019_06", "name": "Robert Mejia", "number": 88, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_019_07", "name": "Jaime Alvarado", "number": 15, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_019_08", "name": "Ivan Rojas", "number": 5, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_019_09", "name": "Jader Quinones", "number": 42, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_019_10", "name": "Luis Sanchez", "number": 10, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_019_11", "name": "Dayro Moreno", "number": 17, "position": "ST", "country": "CO", "status": "starter"},
+
+    {"playerId": "player_co1_019_12", "name": "James Aguirre", "number": 12, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_019_13", "name": "Leyder Moran", "number": 3, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_019_14", "name": "Juan Patino", "number": 33, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_019_15", "name": "Yeferson Rodallega", "number": 6, "position": "LB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_019_16", "name": "Efrain Navarro", "number": 4, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_019_17", "name": "Johan Beltran", "number": 8, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_019_18", "name": "Andres Roa", "number": 20, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_019_19", "name": "Juan Pablo Nieto", "number": 7, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_019_20", "name": "Jefry Zapata", "number": 14, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_019_21", "name": "Mateo Zuleta", "number": 28, "position": "LW", "country": "CO", "status": "bench"},
+
+    {"playerId": "player_co1_019_22", "name": "Juan Gallego", "number": 25, "position": "GK", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_019_23", "name": "Edwin Torres", "number": 29, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_019_24", "name": "Pipe Gomez", "number": 9, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_019_25", "name": "Michael Barrios", "number": 11, "position": "RW", "country": "CO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 17,
+    "setPieces": {
+      "penalty": 17,
+      "freeKick": 5,
+      "cornerLeft": 42,
+      "cornerRight": 10
+    }
+  }
+}

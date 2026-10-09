@@ -1,0 +1,58 @@
+{
+  "teamKey": "A.Nacnl",
+
+  "name": "Atlético Nacional",
+
+  "logo": "assets/logos/south_america/colombia/ANacnl.png",
+
+  "manager": {
+    "name": "Lucas Gonzalez",
+    "country": "CO"
+  },
+
+  "stadium": {
+    "name": "Estadio Atanasio Girardot",
+    "capacity": 45943
+  },
+
+  "players": [
+    {"playerId": "player_co1_005_01", "name": "Franco Armani", "number": 34, "position": "GK", "country": "AR", "status": "starter"},
+    {"playerId": "player_co1_005_02", "name": "Neider Parra", "number": 3, "position": "RB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_005_03", "name": "Cesar Haydar", "number": 4, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_005_04", "name": "Andres Roman", "number": 6, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_005_05", "name": "Andres Marin", "number": 14, "position": "LB", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_005_06", "name": "Mateus Uribe", "number": 8, "position": "CDM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_005_07", "name": "Edwin Cardona", "number": 10, "position": "CM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_005_08", "name": "Jorman Campuzano", "number": 21, "position": "CAM", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_005_09", "name": "Elias Cabrera", "number": 22, "position": "RW", "country": "AR", "status": "starter"},
+    {"playerId": "player_co1_005_10", "name": "James Rodriguez", "number": 23, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_co1_005_11", "name": "Alfredo Morelos", "number": 9, "position": "ST", "country": "CO", "status": "starter"},
+
+    {"playerId": "player_co1_005_12", "name": "Edimer Zea", "number": 1, "position": "GK", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_005_13", "name": "Andres Reyes", "number": 15, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_005_14", "name": "William Tesillo", "number": 16, "position": "RB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_005_15", "name": "Milton Casco", "number": 20, "position": "LB", "country": "AR", "status": "bench"},
+    {"playerId": "player_co1_005_16", "name": "Yaicar Perlaza", "number": 27, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_005_17", "name": "Elkin Rivero", "number": 26, "position": "CM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_005_18", "name": "Simon Rojas", "number": 28, "position": "CAM", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_005_19", "name": "Kevin Parra", "number": 30, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_005_20", "name": "Marlos Moreno", "number": 7, "position": "RW", "country": "CO", "status": "bench"},
+    {"playerId": "player_co1_005_21", "name": "Nicolas Rodriguez", "number": 13, "position": "LW", "country": "CO", "status": "bench"},
+
+    {"playerId": "player_co1_005_22", "name": "Luis Marquínez", "number": 25, "position": "GK", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_005_23", "name": "Juan Zapata", "number": 80, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_005_24", "name": "Cristian Arango", "number": 17, "position": "ST", "country": "CO", "status": "reserve"},
+    {"playerId": "player_co1_005_25", "name": "Juan Manuel Rengifo", "number": 19, "position": "RW", "country": "CO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 21,
+      "cornerLeft": 22,
+      "cornerRight": 23
+    }
+  }
+}
