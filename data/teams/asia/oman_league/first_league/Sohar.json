@@ -37,12 +37,12 @@
     {"playerId": "player_om1_013_18", "name": "Khalfan Al-Mamari", "number": 19, "position": "CM", "country": "OM", "status": "bench"},
     {"playerId": "player_om1_013_19", "name": "Amjad Al-Rashdi", "number": 20, "position": "CAM", "country": "OM", "status": "bench"},
     {"playerId": "player_om1_013_20", "name": "Yousef Al-Balushi", "number": 21, "position": "LW", "country": "OM", "status": "bench"},
-    {"playerId": "player_om1_013_21", "name": "Salim Al-Shabibi", "number": 25, "position": "CB", "country": "OM", "status": "bench"},
+    {"playerId": "player_om1_013_21", "name": "Nasser Al-Shibli", "number": 22, "position": "ST", "country": "OM", "status": "bench"},
 
     {"playerId": "player_om1_013_22", "name": "Mohammed Al-Ajmi", "number": 66, "position": "GK", "country": "OM", "status": "reserve"},
-    {"playerId": "player_om1_013_23", "name": "Nasser Al-Shibli", "number": 22, "position": "ST", "country": "OM", "status": "reserve"},
-    {"playerId": "player_om1_013_24", "name": "Mohammed Al-Kiyumi", "number": 23, "position": "RW", "country": "OM", "status": "reserve"},
-    {"playerId": "player_om1_013_25", "name": "Abdulrahman Al-Ghassani", "number": 24, "position": "ST", "country": "OM", "status": "reserve"}
+    {"playerId": "player_om1_013_23", "name": "Mohammed Al-Kiyumi", "number": 23, "position": "RW", "country": "OM", "status": "reserve"},
+    {"playerId": "player_om1_013_24", "name": "Abdulrahman Al-Ghassani", "number": 24, "position": "ST", "country": "OM", "status": "reserve"},
+    {"playerId": "player_om1_013_25", "name": "Khalid Al-Mujaini", "number": 25, "position": "CB", "country": "OM", "status": "reserve"}
   ],
 
   "tactics": {
