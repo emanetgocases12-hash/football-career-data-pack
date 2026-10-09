@@ -39,7 +39,7 @@
     {"playerId": "player_mx2_003_20", "name": "William Guzman", "number": 10, "position": "LW", "country": "MX", "status": "bench"},
     {"playerId": "player_mx2_003_21", "name": "Tomás Sandoval", "number": 32, "position": "RW", "country": "AR", "status": "bench"},
 
-    {"playerId": "player_mx2_003_22", "name": "Jaime Villalba", "number": 108, "position": "GK", "country": "MX", "status": "reserve"},
+    {"playerId": "player_mx2_003_22", "name": "Jaime Villalba", "number": 98, "position": "GK", "country": "MX", "status": "reserve"},
     {"playerId": "player_mx2_003_23", "name": "Emmanuel Torres", "number": 25, "position": "LM", "country": "EC", "status": "reserve"},
     {"playerId": "player_mx2_003_24", "name": "César Sosa", "number": 14, "position": "ST", "country": "MX", "status": "reserve"},
     {"playerId": "player_mx2_003_25", "name": "Juan Cantú", "number": 27, "position": "ST", "country": "MX", "status": "reserve"}
