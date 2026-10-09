@@ -1,0 +1,58 @@
+{
+  "teamKey": "Chungn",
+
+  "name": "Chungnam Asan FC",
+
+  "logo": "assets/logos/asia/south_korean/Chungnam.png",
+
+  "manager": {
+    "name": "Kim Hyun-seok",
+    "country": "KR"
+  },
+
+  "stadium": {
+    "name": "Yi Sun-sin Stadium",
+    "capacity": 19283
+  },
+
+  "players": [
+    {"playerId": "player_kr2_006_01", "name": "Park Han-geun", "number": 1, "position": "GK", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_006_02", "name": "Lee Eun-beom", "number": 2, "position": "RB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_006_03", "name": "Lee Ho-in", "number": 4, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_006_04", "name": "Jang Jun-young", "number": 5, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_006_05", "name": "Kim Seong-joo", "number": 3, "position": "LB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_006_06", "name": "Park Se-jik", "number": 6, "position": "CDM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_006_07", "name": "Hwang Ki-wook", "number": 8, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_006_08", "name": "Park Se-jun", "number": 10, "position": "CAM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_006_09", "name": "Han Kyo-won", "number": 7, "position": "RW", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_006_10", "name": "Naeem Mohammed", "number": 11, "position": "LW", "country": "GH", "status": "starter"},
+    {"playerId": "player_kr2_006_11", "name": "Kim Jong-min", "number": 9, "position": "ST", "country": "KR", "status": "starter"},
+
+    {"playerId": "player_kr2_006_12", "name": "Shin Song-hoon", "number": 21, "position": "GK", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_006_13", "name": "Kim Su-an", "number": 20, "position": "CB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_006_14", "name": "Choi Chi-won", "number": 14, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_006_15", "name": "Yoon Dong-kwon", "number": 17, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_006_16", "name": "Park Ju-young", "number": 23, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_006_17", "name": "Ahn Yong-woo", "number": 18, "position": "RW", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_006_18", "name": "Song Seung-min", "number": 19, "position": "LW", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_006_19", "name": "Jo Ju-young", "number": 22, "position": "ST", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_006_20", "name": "Charles Lokolingoy", "number": 99, "position": "ST", "country": "AU", "status": "bench"},
+    {"playerId": "player_kr2_006_21", "name": "Denisson", "number": 24, "position": "CAM", "country": "BR", "status": "bench"},
+
+    {"playerId": "player_kr2_006_22", "name": "Lee Ki-hyun", "number": 31, "position": "GK", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr2_006_23", "name": "Kim Jong-seok", "number": 25, "position": "CM", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr2_006_24", "name": "Lee Hak-min", "number": 27, "position": "RB", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr2_006_25", "name": "Park Dae-hun", "number": 28, "position": "ST", "country": "KR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 11
+    }
+  }
+}

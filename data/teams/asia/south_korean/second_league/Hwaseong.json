@@ -1,0 +1,58 @@
+{
+  "teamKey": "Hwaseo",
+
+  "name": "Hwaseong FC",
+
+  "logo": "assets/logos/asia/south_korean/Gwaseong.png",
+
+  "manager": {
+    "name": "Cha Du-ri",
+    "country": "KR"
+  },
+
+  "stadium": {
+    "name": "Hwaseong Stadium",
+    "capacity": 35270
+  },
+
+  "players": [
+    {"playerId": "player_kr2_011_01", "name": "Lee Seung-gyu", "number": 1, "position": "GK", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_011_02", "name": "Park Kyeong-min", "number": 17, "position": "RB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_011_03", "name": "Park Jun-seo", "number": 20, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_011_04", "name": "Ham Sun-woo", "number": 44, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_011_05", "name": "Cha Oh-yeon", "number": 3, "position": "LB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_011_06", "name": "Lim Chang-kyoon", "number": 14, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_011_07", "name": "Baek Seung-woo", "number": 27, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_011_08", "name": "Hur Duk-il", "number": 28, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_011_09", "name": "Jegal Jae-min", "number": 11, "position": "RW", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_011_10", "name": "Park Jun-tae", "number": 7, "position": "LW", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_011_11", "name": "Sava Petrov", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+
+    {"playerId": "player_kr2_011_12", "name": "Kim Tae-hun", "number": 21, "position": "GK", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_011_13", "name": "Aleksandar Vojnovic", "number": 5, "position": "CB", "country": "BA", "status": "bench"},
+    {"playerId": "player_kr2_011_14", "name": "Kim Min-sik", "number": 4, "position": "CB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_011_15", "name": "Luan Costa", "number": 10, "position": "CAM", "country": "BR", "status": "bench"},
+    {"playerId": "player_kr2_011_16", "name": "Hwang Jin-san", "number": 8, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_011_17", "name": "Jang Young-gi", "number": 6, "position": "CDM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_011_18", "name": "Ryu Je-hyo", "number": 18, "position": "ST", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_011_19", "name": "Cho Dong-geon", "number": 19, "position": "ST", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_011_20", "name": "Yeo Hong-gyu", "number": 22, "position": "ST", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_011_21", "name": "Kim Hyo-gi", "number": 24, "position": "RW", "country": "KR", "status": "bench"},
+
+    {"playerId": "player_kr2_011_22", "name": "Park Sung-su", "number": 31, "position": "GK", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr2_011_23", "name": "Leonard Pllana", "number": 77, "position": "LW", "country": "XK", "status": "reserve"},
+    {"playerId": "player_kr2_011_24", "name": "Jeon Ji-hyun", "number": 25, "position": "ST", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr2_011_25", "name": "Eduardo Brito", "number": 16, "position": "CAM", "country": "BR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 7
+    }
+  }
+}

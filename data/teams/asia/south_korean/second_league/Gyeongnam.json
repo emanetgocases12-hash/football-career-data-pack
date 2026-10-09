@@ -1,0 +1,58 @@
+{
+  "teamKey": "Gyngnm",
+
+  "name": "Gyeongnam FC",
+
+  "logo": "assets/logos/asia/south_korean/Gteongnam.png",
+
+  "manager": {
+    "name": "Lee Eul-yong",
+    "country": "KR"
+  },
+
+  "stadium": {
+    "name": "Changwon Football Center",
+    "capacity": 15074
+  },
+
+  "players": [
+    {"playerId": "player_kr2_010_01", "name": "Kim Min-jun", "number": 1, "position": "GK", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_010_02", "name": "Woo Ju-sung", "number": 2, "position": "RB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_010_03", "name": "Kim Hyeong-jin", "number": 5, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_010_04", "name": "Kim Young-chan", "number": 4, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_010_05", "name": "Lee Min-ki", "number": 3, "position": "LB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_010_06", "name": "Lee Uh-hyeok", "number": 6, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_010_07", "name": "Lee Chan-dong", "number": 8, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_010_08", "name": "Ko Kyung-min", "number": 19, "position": "CAM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_010_09", "name": "Cho Jin-hyuk", "number": 10, "position": "RW", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_010_10", "name": "Ruben Macedo", "number": 7, "position": "LW", "country": "PT", "status": "starter"},
+    {"playerId": "player_kr2_010_11", "name": "Yun Ju-tae", "number": 9, "position": "ST", "country": "KR", "status": "starter"},
+
+    {"playerId": "player_kr2_010_12", "name": "Go Dong-min", "number": 21, "position": "GK", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_010_13", "name": "Park Jae-hwan", "number": 15, "position": "CB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_010_14", "name": "Kim Myung-jun", "number": 20, "position": "CB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_010_15", "name": "Jang Ha-nel", "number": 26, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_010_16", "name": "Han Seok-jong", "number": 63, "position": "CDM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_010_17", "name": "Kim Beom-jin", "number": 77, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_010_18", "name": "Kim Jun-hyeok", "number": 24, "position": "ST", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_010_19", "name": "Kim Hyeon-oh", "number": 90, "position": "ST", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_010_20", "name": "Yun Il-lok", "number": 11, "position": "LW", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_010_21", "name": "Felipe Fonseca", "number": 17, "position": "ST", "country": "BR", "status": "bench"},
+
+    {"playerId": "player_kr2_010_22", "name": "Son Jung-hyun", "number": 31, "position": "GK", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr2_010_23", "name": "Song Hong-min", "number": 14, "position": "CM", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr2_010_24", "name": "Kwon Ki-pyo", "number": 12, "position": "RW", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr2_010_25", "name": "Lee Jung-min", "number": 18, "position": "ST", "country": "KR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 19,
+      "cornerLeft": 19,
+      "cornerRight": 7
+    }
+  }
+}

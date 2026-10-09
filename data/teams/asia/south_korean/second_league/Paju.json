@@ -1,0 +1,58 @@
+{
+  "teamKey": "Paju",
+
+  "name": "Paju Frontier",
+
+  "logo": "assets/logos/asia/south_korean/Paju.png",
+
+  "manager": {
+    "name": "Oh Beom-seok",
+    "country": "KR"
+  },
+
+  "stadium": {
+    "name": "Paju Stadium",
+    "capacity": 23000
+  },
+
+  "players": [
+    {"playerId": "player_kr2_013_01", "name": "Kim Young-ik", "number": 1, "position": "GK", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_013_02", "name": "Kim Min-ho", "number": 2, "position": "RB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_013_03", "name": "Lee Yong", "number": 4, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_013_04", "name": "Kim Tae-hyun", "number": 5, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_013_05", "name": "Park Jun-seo", "number": 3, "position": "LB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_013_06", "name": "Park Tae-joon", "number": 6, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_013_07", "name": "Lee Chan-dong", "number": 8, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_013_08", "name": "Kim Jong-seok", "number": 10, "position": "CAM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_013_09", "name": "Kim Seung-jun", "number": 11, "position": "RW", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_013_10", "name": "Park Seong-jin", "number": 17, "position": "LW", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_013_11", "name": "Lee Geun-ho", "number": 9, "position": "ST", "country": "KR", "status": "starter"},
+
+    {"playerId": "player_kr2_013_12", "name": "Park Tae-won", "number": 21, "position": "GK", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_013_13", "name": "Jang Hyun-soo", "number": 15, "position": "CB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_013_14", "name": "Cho Sung-won", "number": 20, "position": "RB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_013_15", "name": "Choi Jun-hyuk", "number": 14, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_013_16", "name": "Park Se-jin", "number": 16, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_013_17", "name": "Kim Min-woo", "number": 18, "position": "CDM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_013_18", "name": "Cho Young-wook", "number": 19, "position": "ST", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_013_19", "name": "Kim Do-yoon", "number": 22, "position": "ST", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_013_20", "name": "Jung Jae-hee", "number": 7, "position": "RW", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_013_21", "name": "Lee Sang-hyeon", "number": 23, "position": "LW", "country": "KR", "status": "bench"},
+
+    {"playerId": "player_kr2_013_22", "name": "Lee Joon", "number": 31, "position": "GK", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr2_013_23", "name": "Kim Sang-jin", "number": 24, "position": "CM", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr2_013_24", "name": "Park Jin-seop", "number": 25, "position": "CM", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr2_013_25", "name": "Lee Jun-seok", "number": 27, "position": "ST", "country": "KR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 17
+    }
+  }
+}

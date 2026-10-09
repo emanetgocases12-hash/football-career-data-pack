@@ -1,0 +1,58 @@
+{
+  "teamKey": "S Bluew",
+
+  "name": "Suwon Samsung Bluewings",
+
+  "logo": "assets/logos/asia/south_korean/Bluewingss.png",
+
+  "manager": {
+    "name": "Lee Jung-hyo",
+    "country": "KR"
+  },
+
+  "stadium": {
+    "name": "Suwon World Cup Stadium",
+    "capacity": 44031
+  },
+
+  "players": [
+    {"playerId": "player_kr2_002_01", "name": "Yang Hyeong-mo", "number": 21, "position": "GK", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_002_02", "name": "Jang Ho-ik", "number": 3, "position": "RB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_002_03", "name": "Jo Yoon-sung", "number": 5, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_002_04", "name": "Han Ho-gang", "number": 20, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_002_05", "name": "Lee Ki-je", "number": 23, "position": "LB", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_002_06", "name": "Ko Seung-beom", "number": 7, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_002_07", "name": "Lee Jong-sung", "number": 6, "position": "CDM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_002_08", "name": "Kim Bo-kyung", "number": 10, "position": "CAM", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_002_09", "name": "Kang Sung-jin", "number": 22, "position": "RW", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_002_10", "name": "Jeon Jin-woo", "number": 14, "position": "LW", "country": "KR", "status": "starter"},
+    {"playerId": "player_kr2_002_11", "name": "Fejsal Mulic", "number": 9, "position": "ST", "country": "RS", "status": "starter"},
+
+    {"playerId": "player_kr2_002_12", "name": "Park Ji-min", "number": 34, "position": "GK", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_002_13", "name": "Kim Ju-won", "number": 4, "position": "CB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_002_14", "name": "Kim Tae-hwan", "number": 11, "position": "RB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_002_15", "name": "Peter Makrillos", "number": 8, "position": "CM", "country": "AU", "status": "bench"},
+    {"playerId": "player_kr2_002_16", "name": "Kim Hyun", "number": 18, "position": "ST", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_002_17", "name": "Acosty", "number": 17, "position": "RW", "country": "GH", "status": "bench"},
+    {"playerId": "player_kr2_002_18", "name": "Seo Dong-han", "number": 27, "position": "ST", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_002_19", "name": "Byun Sung-hwan", "number": 33, "position": "CM", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_002_20", "name": "Son Ho-jun", "number": 13, "position": "RB", "country": "KR", "status": "bench"},
+    {"playerId": "player_kr2_002_21", "name": "Kim Sang-jun", "number": 16, "position": "CM", "country": "KR", "status": "bench"},
+
+    {"playerId": "player_kr2_002_22", "name": "Kim Min-jun", "number": 31, "position": "GK", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr2_002_23", "name": "Lee Sang-min", "number": 19, "position": "CB", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr2_002_24", "name": "Park Dae-won", "number": 24, "position": "LB", "country": "KR", "status": "reserve"},
+    {"playerId": "player_kr2_002_25", "name": "Jeong Seong-min", "number": 15, "position": "CB", "country": "KR", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 21,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 14
+    }
+  }
+}
