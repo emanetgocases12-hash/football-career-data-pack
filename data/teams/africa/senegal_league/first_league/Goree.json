@@ -1,52 +1,58 @@
- {
-    "teamKey": "Goréen",
-    "name": "US Gorée",
-    "logo": "assets/logos/africa/senegal/Goreen.png",
-    "manager": {
-      "name": "Aly Male",
-      "country": "SN"
-    },
-    "stadium": {
-      "name": "Stade de Ngor",
-      "capacity": 3000
-    },
-    "players": [
-      {"playerId": "player_sn1_007_01", "name": "Samba Mballo", "number": 1, "position": "GK", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_007_02", "name": "El Hadji Diop", "number": 12, "position": "RB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_007_03", "name": "Nestor Ndamy", "number": 2, "position": "CB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_007_04", "name": "Amadou Bally Mbaye", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_007_05", "name": "Stanislas Sarr", "number": 3, "position": "LB", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_007_06", "name": "Mor Junior Gueye", "number": 6, "position": "CDM", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_007_07", "name": "Oumar Thiam", "number": 8, "position": "CM", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_007_08", "name": "Ousmane Mbengue", "number": 7, "position": "RW", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_007_09", "name": "Vieux Cissé", "number": 18, "position": "CAM", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_007_10", "name": "Pathé Seck", "number": 13, "position": "LW", "country": "SN", "status": "starter"},
-      {"playerId": "player_sn1_007_11", "name": "Pape Badiane", "number": 17, "position": "ST", "country": "SN", "status": "starter"},
-  
-      {"playerId": "player_sn1_007_12", "name": "Mouhamed Fall", "number": 16, "position": "GK", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_007_13", "name": "Michel Grégoire Sène", "number": 22, "position": "CB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_007_14", "name": "Esaka Ducureh", "number": 5, "position": "CB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_007_15", "name": "Cheikh Sow", "number": 20, "position": "RB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_007_16", "name": "Joslain Namatan", "number": 23, "position": "CB", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_007_17", "name": "Ibrahima Dieng", "number": 10, "position": "CM", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_007_18", "name": "Mamadou Sow", "number": 19, "position": "CM", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_007_19", "name": "Badara Ali Keita", "number": 14, "position": "CAM", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_007_20", "name": "Oumar Ba", "number": 11, "position": "RW", "country": "SN", "status": "bench"},
-      {"playerId": "player_sn1_007_21", "name": "Alassane Diallo", "number": 9, "position": "ST", "country": "SN", "status": "bench"},
-  
-      {"playerId": "player_sn1_007_22", "name": "Mamadou Keita", "number": 15, "position": "LB", "country": "SN", "status": "reserve"},
-      {"playerId": "player_sn1_007_23", "name": "El Hadji Ndoye", "number": 21, "position": "CM", "country": "SN", "status": "reserve"},
-      {"playerId": "player_sn1_007_24", "name": "Huchafen Sambou", "number": 24, "position": "CM", "country": "SN", "status": "reserve"},
-      {"playerId": "player_sn1_007_25", "name": "Pape Musa Chaw", "number": 25, "position": "ST", "country": "GM", "status": "reserve"}
-    ],
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 1,
-      "setPieces": {
-        "penalty": 17,
-        "freeKick": 7,
-        "cornerLeft": 7,
-        "cornerRight": 13
-      }
+{
+  "teamKey": "Goréen",
+
+  "name": "US Gorée",
+
+  "logo": "assets/logos/africa/senegal/Goreen.png",
+
+  "manager": {
+    "name": "Aly Male",
+    "country": "SN"
+  },
+
+  "stadium": {
+    "name": "Stade de Ngor",
+    "capacity": 3000
+  },
+
+  "players": [
+    {"playerId": "player_sn1_007_01", "name": "Samba Mballo", "number": 1, "position": "GK", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_007_02", "name": "El Hadji Diop", "number": 12, "position": "RB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_007_03", "name": "Nestor Ndamy", "number": 2, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_007_04", "name": "Amadou Bally Mbaye", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_007_05", "name": "Stanislas Sarr", "number": 3, "position": "LB", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_007_06", "name": "Mor Junior Gueye", "number": 6, "position": "CDM", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_007_07", "name": "Oumar Thiam", "number": 8, "position": "CM", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_007_08", "name": "Ousmane Mbengue", "number": 7, "position": "RW", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_007_09", "name": "Vieux Cissé", "number": 18, "position": "CAM", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_007_10", "name": "Pathé Seck", "number": 13, "position": "LW", "country": "SN", "status": "starter"},
+    {"playerId": "player_sn1_007_11", "name": "Pape Badiane", "number": 17, "position": "ST", "country": "SN", "status": "starter"},
+
+    {"playerId": "player_sn1_007_12", "name": "Mouhamed Fall", "number": 16, "position": "GK", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_007_13", "name": "Michel Grégoire Sène", "number": 22, "position": "CB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_007_14", "name": "Esaka Ducureh", "number": 5, "position": "CB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_007_15", "name": "Cheikh Sow", "number": 20, "position": "RB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_007_16", "name": "Joslain Namatan", "number": 23, "position": "CB", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_007_17", "name": "Ibrahima Dieng", "number": 10, "position": "CM", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_007_18", "name": "Mamadou Sow", "number": 19, "position": "CM", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_007_19", "name": "Badara Ali Keita", "number": 14, "position": "CAM", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_007_20", "name": "Oumar Ba", "number": 11, "position": "RW", "country": "SN", "status": "bench"},
+    {"playerId": "player_sn1_007_21", "name": "Alassane Diallo", "number": 9, "position": "ST", "country": "SN", "status": "bench"},
+
+    {"playerId": "player_sn1_007_22", "name": "Pape Diagne", "number": 30, "position": "GK", "country": "SN", "status": "reserve"},
+    {"playerId": "player_sn1_007_23", "name": "Mamadou Keita", "number": 15, "position": "LB", "country": "SN", "status": "reserve"},
+    {"playerId": "player_sn1_007_24", "name": "El Hadji Ndoye", "number": 21, "position": "CM", "country": "SN", "status": "reserve"},
+    {"playerId": "player_sn1_007_25", "name": "Huchafen Sambou", "number": 24, "position": "CM", "country": "SN", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 17,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 13
     }
   }
+}
