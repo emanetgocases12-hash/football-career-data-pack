@@ -1,0 +1,58 @@
+{
+  "teamKey": "CEFC",
+
+  "name": "Central Español FC",
+
+  "logo": "assets/logos/south_america/uruguay/CEFC.png",
+
+  "manager": {
+    "name": "Antonio Pacheco",
+    "country": "UY"
+  },
+
+  "stadium": {
+    "name": "Parque Palermo",
+    "capacity": 4072
+  },
+
+  "players": [
+    {"playerId": "player_uy1_004_01", "name": "Emiliano Márquez", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_004_02", "name": "Juan Ignacio Dupont", "number": 2, "position": "RB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_004_03", "name": "Ignacio Rodríguez", "number": 4, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_004_04", "name": "Mateo Urrutia", "number": 6, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_004_05", "name": "César Nunes", "number": 26, "position": "LB", "country": "BR", "status": "starter"},
+    {"playerId": "player_uy1_004_06", "name": "Marcos Montiel", "number": 5, "position": "CDM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_004_07", "name": "Franco Muñoz", "number": 8, "position": "CM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_004_08", "name": "Fernando Camarda", "number": 11, "position": "RW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_004_09", "name": "Rodrigo Muniz", "number": 10, "position": "CAM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_004_10", "name": "Mariano Aguilera", "number": 32, "position": "LW", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy1_004_11", "name": "Facundo Milán", "number": 25, "position": "ST", "country": "UY", "status": "starter"},
+
+    {"playerId": "player_uy1_004_12", "name": "Rodolfo de Melo", "number": 39, "position": "GK", "country": "BR", "status": "bench"},
+    {"playerId": "player_uy1_004_13", "name": "Logan Ponce", "number": 13, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_004_14", "name": "Alejandro Villoldo", "number": 14, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_004_15", "name": "Ernesto Aramburú", "number": 22, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_004_16", "name": "Juan Herrera", "number": 3, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_004_17", "name": "Lucas Pino", "number": 16, "position": "CM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_004_18", "name": "Miguel Villoldo", "number": 18, "position": "CM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_004_19", "name": "Facundo Sosa", "number": 27, "position": "ST", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_004_20", "name": "Santiago Sequeira", "number": 19, "position": "ST", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_004_21", "name": "Ignacio Gonella", "number": 23, "position": "ST", "country": "UY", "status": "bench"},
+
+    {"playerId": "player_uy1_004_22", "name": "Samuel Rodríguez", "number": 12, "position": "GK", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_004_23", "name": "Facundo Borges", "number": 7, "position": "ST", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_004_24", "name": "Nicolás Campos", "number": 17, "position": "ST", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_004_25", "name": "Matías Kusmanis", "number": 21, "position": "ST", "country": "UY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 25,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 32
+    }
+  }
+}

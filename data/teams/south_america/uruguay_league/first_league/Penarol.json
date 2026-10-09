@@ -1,0 +1,58 @@
+{
+  "teamKey": "Peñaro",
+
+  "name": "CA Peñarol",
+
+  "logo": "assets/logos/south_america/uruguay/Penaro.png",
+
+  "manager": {
+    "name": "Diego Aguirre",
+    "country": "UY"
+  },
+
+  "stadium": {
+    "name": "Campeón del Siglo",
+    "capacity": 40700
+  },
+
+  "players": [
+    {"playerId": "player_uy1_013_01", "name": "Washington Aguerre", "number": 29, "position": "GK", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_013_02", "name": "Franco Escobar", "number": 2, "position": "RB", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy1_013_03", "name": "Nahuel Herrera", "number": 34, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_013_04", "name": "Lucas Ferreira", "number": 6, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_013_05", "name": "Diego Laxalt", "number": 93, "position": "LB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_013_06", "name": "Eric Remedi", "number": 5, "position": "CDM", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy1_013_07", "name": "Nicolás Fernández", "number": 8, "position": "CM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_013_08", "name": "Javier Cabrera", "number": 7, "position": "RW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_013_09", "name": "Leonardo Fernández", "number": 10, "position": "CAM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_013_10", "name": "Gastón Togni", "number": 23, "position": "LW", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy1_013_11", "name": "Matías Arezo", "number": 19, "position": "ST", "country": "UY", "status": "starter"},
+
+    {"playerId": "player_uy1_013_12", "name": "Sebastián Britos", "number": 1, "position": "GK", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_013_13", "name": "Mauricio Lemos", "number": 3, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_013_14", "name": "Andrés Madruga", "number": 26, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_013_15", "name": "Facundo Álvez", "number": 22, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_013_16", "name": "Maximiliano Olivera", "number": 15, "position": "LB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_013_17", "name": "Lucas Hernández", "number": 27, "position": "LB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_013_18", "name": "Kevin Rodríguez", "number": 14, "position": "RB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_013_19", "name": "Brian Barboza", "number": 36, "position": "RB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_013_20", "name": "Jesús Trindade", "number": 21, "position": "CDM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_013_21", "name": "Eduardo Darias", "number": 13, "position": "CM", "country": "UY", "status": "bench"},
+
+    {"playerId": "player_uy1_013_22", "name": "Paulo Da Costa", "number": 12, "position": "GK", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_013_23", "name": "Leandro Umpiérrez", "number": 32, "position": "CAM", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_013_24", "name": "Luis Angulo", "number": 77, "position": "LW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_uy1_013_25", "name": "Franco González", "number": 80, "position": "CAM", "country": "UY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 19,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 23
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "M'Wndrs",
+
+  "name": "Montevideo Wanderers",
+
+  "logo": "assets/logos/south_america/uruguay/MWndrs.png",
+
+  "manager": {
+    "name": "Mathías Corujo",
+    "country": "UY"
+  },
+
+  "stadium": {
+    "name": "Estadio Parque Alfredo Victor Viera",
+    "capacity": 10500
+  },
+
+  "players": [
+    {"playerId": "player_uy1_012_01", "name": "Agustín Buffa", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_012_02", "name": "Nahuel Furtado", "number": 31, "position": "RB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_012_03", "name": "Fabricio Formiliano", "number": 13, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_012_04", "name": "Santiago Benítez", "number": 21, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_012_05", "name": "Darlin Mencía", "number": 15, "position": "LB", "country": "HN", "status": "starter"},
+    {"playerId": "player_uy1_012_06", "name": "Nicolás Queiróz", "number": 5, "position": "CDM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_012_07", "name": "José Alberti", "number": 16, "position": "CM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_012_08", "name": "Facundo Labandeira", "number": 30, "position": "RW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_012_09", "name": "Jonás Luna", "number": 11, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy1_012_10", "name": "Rodrigo Rivero", "number": 7, "position": "LW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_012_11", "name": "Joaquín Zeballos", "number": 19, "position": "ST", "country": "UY", "status": "starter"},
+
+    {"playerId": "player_uy1_012_12", "name": "Ismael Benaderet", "number": 12, "position": "GK", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_012_13", "name": "Mateo Acosta", "number": 14, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_012_14", "name": "Leandro Zazpe", "number": 6, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_012_15", "name": "Paulo Lima", "number": 2, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_012_16", "name": "Guillermo Borthagaray", "number": 3, "position": "LB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_012_17", "name": "Lisandro Bajú", "number": 18, "position": "LB", "country": "AR", "status": "bench"},
+    {"playerId": "player_uy1_012_18", "name": "Gonzalo Freitas", "number": 25, "position": "CDM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_012_19", "name": "Martín Bértola", "number": 22, "position": "CM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_012_20", "name": "Mateo Martínez", "number": 28, "position": "CM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_012_21", "name": "Luciano Cosentino", "number": 10, "position": "RW", "country": "UY", "status": "bench"},
+
+    {"playerId": "player_uy1_012_22", "name": "Gerónimo Govea", "number": 23, "position": "GK", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_012_23", "name": "Pablo Suárez", "number": 24, "position": "RW", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_012_24", "name": "Jonathan Urretaviscaya", "number": 80, "position": "RW", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_012_25", "name": "Santiago Guzmán", "number": 20, "position": "ST", "country": "UY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 13,
+    "setPieces": {
+      "penalty": 19,
+      "freeKick": 30,
+      "cornerLeft": 30,
+      "cornerRight": 7
+    }
+  }
+}

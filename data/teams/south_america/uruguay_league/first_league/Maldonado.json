@@ -1,0 +1,58 @@
+{
+  "teamKey": "Mldndo",
+
+  "name": "Club Deportivo Maldonado",
+
+  "logo": "assets/logos/south_america/uruguay/Mldndo.png",
+
+  "manager": {
+    "name": "Gabriel Di Noia",
+    "country": "UY"
+  },
+
+  "stadium": {
+    "name": "Estadio Domingo Burgueño Miguel",
+    "capacity": 30152
+  },
+
+  "players": [
+    {"playerId": "player_uy1_011_01", "name": "Diego Segovia", "number": 25, "position": "GK", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_011_02", "name": "Juan Martín Ginzo", "number": 4, "position": "RB", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy1_011_03", "name": "Joaquín Fernández", "number": 42, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_011_04", "name": "Hernán Petryk", "number": 32, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_011_05", "name": "Juan Ramos", "number": 22, "position": "LB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_011_06", "name": "Santiago Cartagena", "number": 28, "position": "CDM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_011_07", "name": "Maximiliano González", "number": 8, "position": "CM", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy1_011_08", "name": "Christian Tabó", "number": 14, "position": "RW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_011_09", "name": "Matías Espíndola", "number": 21, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy1_011_10", "name": "Guillermo López", "number": 11, "position": "LW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_011_11", "name": "Maximiliano Noble", "number": 10, "position": "ST", "country": "UY", "status": "starter"},
+
+    {"playerId": "player_uy1_011_12", "name": "Adriano Freitas", "number": 1, "position": "GK", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_011_13", "name": "Nicolás Fuica", "number": 33, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_011_14", "name": "Hernán Menosse", "number": 3, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_011_15", "name": "Facundo Tealde", "number": 19, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_011_16", "name": "Bautista Biffi", "number": 24, "position": "CB", "country": "AR", "status": "bench"},
+    {"playerId": "player_uy1_011_17", "name": "Sebastián Tormo", "number": 20, "position": "LB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_011_18", "name": "Franco Marino", "number": 31, "position": "RB", "country": "AR", "status": "bench"},
+    {"playerId": "player_uy1_011_19", "name": "Sebastián González", "number": 15, "position": "CDM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_011_20", "name": "Lucas Núñez", "number": 5, "position": "CDM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_011_21", "name": "Adrian Vila", "number": 23, "position": "CM", "country": "UY", "status": "bench"},
+
+    {"playerId": "player_uy1_011_22", "name": "Emiliano Bermúdez", "number": 12, "position": "GK", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_011_23", "name": "Santiago Ramírez", "number": 17, "position": "LW", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_011_24", "name": "Gonzalo Larrazábal", "number": 7, "position": "LW", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_011_25", "name": "Elías de León", "number": 9, "position": "ST", "country": "UY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 32,
+    "setPieces": {
+      "penalty": 10,
+      "freeKick": 14,
+      "cornerLeft": 14,
+      "cornerRight": 11
+    }
+  }
+}

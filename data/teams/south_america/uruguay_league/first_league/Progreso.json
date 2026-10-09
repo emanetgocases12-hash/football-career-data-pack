@@ -1,0 +1,58 @@
+{
+  "teamKey": "Progre",
+
+  "name": "CA Progreso",
+
+  "logo": "assets/logos/south_america/uruguay/Progre.png",
+
+  "manager": {
+    "name": "Tabaré Silva",
+    "country": "UY"
+  },
+
+  "stadium": {
+    "name": "Parque Abraham Paladino",
+    "capacity": 5696
+  },
+
+  "players": [
+    {"playerId": "player_uy1_014_01", "name": "Andrés Mehring", "number": 1, "position": "GK", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy1_014_02", "name": "Gianfranco Trasante", "number": 16, "position": "RB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_014_03", "name": "Hernán Carroso", "number": 13, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_014_04", "name": "Mauro Martín", "number": 15, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_014_05", "name": "Ayrton Cougo", "number": 40, "position": "LB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_014_06", "name": "Agustín Pinheiro", "number": 5, "position": "CDM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_014_07", "name": "Agustin Paz", "number": 22, "position": "CM", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy1_014_08", "name": "Facundo de León", "number": 17, "position": "RW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_014_09", "name": "Ignacio Lemmo", "number": 10, "position": "CAM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_014_10", "name": "Agustín Ocampo", "number": 11, "position": "LW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_014_11", "name": "Nicolás Fernández", "number": 29, "position": "ST", "country": "UY", "status": "starter"},
+
+    {"playerId": "player_uy1_014_12", "name": "Agustín Requena", "number": 33, "position": "GK", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_014_13", "name": "Sebastián Cardozo", "number": 2, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_014_14", "name": "Federico Andueza", "number": 6, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_014_15", "name": "Gastón Silva", "number": 27, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_014_16", "name": "Federico García", "number": 3, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_014_17", "name": "Facundo Kidd", "number": 14, "position": "LB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_014_18", "name": "Emiliano Álvarez", "number": 4, "position": "RB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_014_19", "name": "Santiago Viera", "number": 24, "position": "CDM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_014_20", "name": "Gonzalo Silva", "number": 18, "position": "CAM", "country": "AR", "status": "bench"},
+    {"playerId": "player_uy1_014_21", "name": "Agustín Codagnone", "number": 30, "position": "CAM", "country": "UY", "status": "bench"},
+
+    {"playerId": "player_uy1_014_22", "name": "Lautaro Nahuel Fernández Cedrés", "number": 12, "position": "GK", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_014_23", "name": "Juan Rivero", "number": 21, "position": "LW", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_014_24", "name": "Joaquín Solleiro", "number": 19, "position": "RW", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_014_25", "name": "Matteo Copelotti", "number": 23, "position": "ST", "country": "UY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 29,
+      "freeKick": 17,
+      "cornerLeft": 17,
+      "cornerRight": 11
+    }
+  }
+}

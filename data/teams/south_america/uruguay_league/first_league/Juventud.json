@@ -1,0 +1,58 @@
+{
+  "teamKey": "Juvent",
+
+  "name": "CA Juventud",
+
+  "logo": "assets/logos/south_america/uruguay/Juvent.png",
+
+  "manager": {
+    "name": "Sergio Blanco",
+    "country": "UY"
+  },
+
+  "stadium": {
+    "name": "Estadio Juventud Parque Artigas",
+    "capacity": 6148
+  },
+
+  "players": [
+    {"playerId": "player_uy1_009_01", "name": "Sebastián Sosa", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_009_02", "name": "Mauricio Rodríguez", "number": 18, "position": "RB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_009_03", "name": "Martín Cáceres", "number": 4, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_009_04", "name": "Patricio Pernicone", "number": 2, "position": "CB", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy1_009_05", "name": "Renzo Rabino", "number": 16, "position": "LB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_009_06", "name": "Emanuel Cecchini", "number": 19, "position": "CDM", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy1_009_07", "name": "Facundo Pérez", "number": 21, "position": "CM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_009_08", "name": "Agustín Alaniz", "number": 7, "position": "RW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_009_09", "name": "Gastón Pereiro", "number": 26, "position": "CAM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_009_10", "name": "Alejo Cruz", "number": 15, "position": "LW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_009_11", "name": "Marcelo Pérez", "number": 9, "position": "ST", "country": "PY", "status": "starter"},
+
+    {"playerId": "player_uy1_009_12", "name": "Nicolás Ruotola", "number": 33, "position": "GK", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_009_13", "name": "David Morosini", "number": 5, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_009_14", "name": "Franco Risso", "number": 28, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_009_15", "name": "Axel Prado", "number": 3, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_009_16", "name": "Kevin Rolón", "number": 6, "position": "LB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_009_17", "name": "Leonel Roldán", "number": 14, "position": "CDM", "country": "AR", "status": "bench"},
+    {"playerId": "player_uy1_009_18", "name": "Ramiro Peralta", "number": 37, "position": "CM", "country": "AR", "status": "bench"},
+    {"playerId": "player_uy1_009_19", "name": "Iván Rodríguez", "number": 31, "position": "RM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_009_20", "name": "Ignacio Mujica", "number": 25, "position": "RM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_009_21", "name": "Gonzalo Gómez", "number": 30, "position": "CAM", "country": "UY", "status": "bench"},
+
+    {"playerId": "player_uy1_009_22", "name": "Nicolás Rossi", "number": 12, "position": "GK", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_009_23", "name": "Martín Boselli", "number": 27, "position": "LW", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_009_24", "name": "Renzo Sánchez", "number": 20, "position": "RW", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_009_25", "name": "Bruno Larregui", "number": 10, "position": "ST", "country": "UY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 15
+    }
+  }
+}

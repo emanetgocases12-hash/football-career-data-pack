@@ -1,0 +1,58 @@
+{
+  "teamKey": "Danbio",
+
+  "name": "Danubio FC",
+
+  "logo": "assets/logos/south_america/uruguay/Danbio.png",
+
+  "manager": {
+    "name": "Leonel Rocco",
+    "country": "UY"
+  },
+
+  "stadium": {
+    "name": "Estadio Jardines del Hipódromo María Mincheff de Lazaroff",
+    "capacity": 11118
+  },
+
+  "players": [
+    {"playerId": "player_uy1_007_01", "name": "Mauro Goicoechea", "number": 1, "position": "GK", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_007_02", "name": "Fernando Souza", "number": 4, "position": "RB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_007_03", "name": "Emiliano Velázquez", "number": 2, "position": "CB", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_007_04", "name": "Mateo Rinaldi", "number": 3, "position": "CB", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy1_007_05", "name": "Tomás Cavanagh", "number": 31, "position": "LB", "country": "AR", "status": "starter"},
+    {"playerId": "player_uy1_007_06", "name": "Máximo Cabral", "number": 6, "position": "CDM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_007_07", "name": "Joaquín Trasante", "number": 8, "position": "CM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_007_08", "name": "Maicol Ferreira", "number": 20, "position": "RW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_007_09", "name": "Mateo Peralta", "number": 10, "position": "CAM", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_007_10", "name": "Alexander Velázquez", "number": 17, "position": "LW", "country": "UY", "status": "starter"},
+    {"playerId": "player_uy1_007_11", "name": "Sebastián Fernández", "number": 30, "position": "ST", "country": "UY", "status": "starter"},
+
+    {"playerId": "player_uy1_007_12", "name": "José Río", "number": 12, "position": "GK", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_007_13", "name": "Mauro Brasil", "number": 5, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_007_14", "name": "Joaquín Pereyra", "number": 14, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_007_15", "name": "Martín Jourdan", "number": 29, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_007_16", "name": "Felipe Cabrera", "number": 25, "position": "CB", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_007_17", "name": "Emiliano Figueroa", "number": 15, "position": "CM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_007_18", "name": "Axel Montaña", "number": 22, "position": "CAM", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_007_19", "name": "Enzo Cabrera", "number": 7, "position": "RW", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_007_20", "name": "Enrique Femia", "number": 28, "position": "RW", "country": "UY", "status": "bench"},
+    {"playerId": "player_uy1_007_21", "name": "Nicolás Azambuja", "number": 21, "position": "ST", "country": "UY", "status": "bench"},
+
+    {"playerId": "player_uy1_007_22", "name": "Kevin Martínez", "number": 32, "position": "GK", "country": "UY", "status": "reserve"},
+    {"playerId": "player_uy1_007_23", "name": "John Kleber", "number": 11, "position": "ST", "country": "BR", "status": "reserve"},
+    {"playerId": "player_uy1_007_24", "name": "Ivo Costantino", "number": 9, "position": "ST", "country": "AR", "status": "reserve"},
+    {"playerId": "player_uy1_007_25", "name": "Hugo Silveira", "number": 19, "position": "ST", "country": "UY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 2,
+    "setPieces": {
+      "penalty": 30,
+      "freeKick": 20,
+      "cornerLeft": 20,
+      "cornerRight": 17
+    }
+  }
+}
