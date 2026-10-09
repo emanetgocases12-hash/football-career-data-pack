@@ -1,0 +1,58 @@
+{
+  "teamKey": "Gharaf",
+
+  "name": "Al Gharafa",
+
+  "logo": "assets/logos/asia/qatar/Gharafa.png",
+
+  "manager": {
+    "name": "Pedro Martins",
+    "country": "PT"
+  },
+
+  "stadium": {
+    "name": "Thani bin Jassim Stadium",
+    "capacity": 24826
+  },
+
+  "players": [
+    {"playerId": "player_qa1_005_01", "name": "Khalifa Abubaker", "number": 1, "position": "GK", "country": "QA", "status": "starter"},
+    {"playerId": "player_qa1_005_02", "name": "Mason Holgate", "number": 27, "position": "RB", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_qa1_005_03", "name": "Seydou Sano", "number": 4, "position": "CB", "country": "SN", "status": "starter"},
+    {"playerId": "player_qa1_005_04", "name": "Jang Hyun-soo", "number": 20, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_qa1_005_05", "name": "Abdulrahman Al Rashidi", "number": 2, "position": "LB", "country": "QA", "status": "starter"},
+    {"playerId": "player_qa1_005_06", "name": "Fabricio Díaz", "number": 29, "position": "CDM", "country": "UY", "status": "starter"},
+    {"playerId": "player_qa1_005_07", "name": "Ferjani Sassi", "number": 13, "position": "CM", "country": "TN", "status": "starter"},
+    {"playerId": "player_qa1_005_08", "name": "Ismaël Bennacer", "number": 10, "position": "CM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_qa1_005_09", "name": "Yacine Brahimi", "number": 8, "position": "LW", "country": "DZ", "status": "starter"},
+    {"playerId": "player_qa1_005_10", "name": "Adam Ounas", "number": 16, "position": "RW", "country": "DZ", "status": "starter"},
+    {"playerId": "player_qa1_005_11", "name": "Frank Magri", "number": 9, "position": "ST", "country": "TN", "status": "starter"},
+
+    {"playerId": "player_qa1_005_12", "name": "Hamad Majed", "number": 24, "position": "GK", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_005_13", "name": "Dami Terawari", "number": 6, "position": "RB", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_005_14", "name": "Saifeldeen Fadlalla", "number": 23, "position": "CB", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_005_15", "name": "Ayoub Mohamad Al-Oui", "number": 18, "position": "LB", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_005_16", "name": "Mostafa Essam Kadira", "number": 5, "position": "CB", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_005_17", "name": "Jamal Mohammad Hamad", "number": 99, "position": "CM", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_005_18", "name": "Youssef Moussa", "number": 15, "position": "CM", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_005_19", "name": "Amro Surag", "number": 11, "position": "RW", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_005_20", "name": "Mohammed Muntari", "number": 3, "position": "ST", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_005_21", "name": "Jassim Fahad", "number": 19, "position": "ST", "country": "QA", "status": "bench"},
+
+    {"playerId": "player_qa1_005_22", "name": "Mahmoud Jamal", "number": 34, "position": "GK", "country": "QA", "status": "reserve"},
+    {"playerId": "player_qa1_005_23", "name": "Rayyan Ahmad Al-Ali", "number": 26, "position": "LW", "country": "QA", "status": "reserve"},
+    {"playerId": "player_qa1_005_24", "name": "Florinel Coman", "number": 7, "position": "LW", "country": "RO", "status": "reserve"},
+    {"playerId": "player_qa1_005_25", "name": "Yousef Said", "number": 17, "position": "ST", "country": "QA", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 8,
+      "cornerLeft": 8,
+      "cornerRight": 16
+    }
+  }
+}

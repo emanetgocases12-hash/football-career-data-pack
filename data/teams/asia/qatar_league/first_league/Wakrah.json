@@ -1,0 +1,58 @@
+{
+  "teamKey": "Wakrah",
+
+  "name": "Al Wakrah",
+
+  "logo": "assets/logos/asia/qatar/Wakrah.png",
+
+  "manager": {
+    "name": "Jose Luis Sierra",
+    "country": "CL"
+  },
+
+  "stadium": {
+    "name": "Saoud bin Abdulrahman Stadium",
+    "capacity": 12000
+  },
+
+  "players": [
+    {"playerId": "player_qa1_012_01", "name": "Mohammad Al Bakri", "number": 1, "position": "GK", "country": "QA", "status": "starter"},
+    {"playerId": "player_qa1_012_02", "name": "Murad Naji", "number": 12, "position": "RB", "country": "QA", "status": "starter"},
+    {"playerId": "player_qa1_012_03", "name": "Lucas Mendes", "number": 2, "position": "CB", "country": "QA", "status": "starter"},
+    {"playerId": "player_qa1_012_04", "name": "Al Mahdi Ali", "number": 13, "position": "CB", "country": "QA", "status": "starter"},
+    {"playerId": "player_qa1_012_05", "name": "Paolo Calione", "number": 3, "position": "LB", "country": "IT", "status": "starter"},
+    {"playerId": "player_qa1_012_06", "name": "Hamdi Fathy", "number": 8, "position": "CDM", "country": "EG", "status": "starter"},
+    {"playerId": "player_qa1_012_07", "name": "Essa Laïdouni", "number": 93, "position": "CM", "country": "TN", "status": "starter"},
+    {"playerId": "player_qa1_012_08", "name": "Luis Alberto", "number": 18, "position": "CAM", "country": "ES", "status": "starter"},
+    {"playerId": "player_qa1_012_09", "name": "Ayoub Assal", "number": 7, "position": "LW", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_qa1_012_10", "name": "Amin Zahzou", "number": 75, "position": "RW", "country": "MA", "status": "starter"},
+    {"playerId": "player_qa1_012_11", "name": "Redouane Berkane", "number": 11, "position": "ST", "country": "DZ", "status": "starter"},
+
+    {"playerId": "player_qa1_012_12", "name": "Omair Al Sayyed", "number": 99, "position": "GK", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_012_13", "name": "Mohammed Ibrahim", "number": 66, "position": "CB", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_012_14", "name": "Omar Salah", "number": 6, "position": "CM", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_012_15", "name": "Nabil Irfan", "number": 16, "position": "CM", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_012_16", "name": "Yousef Al Khatib", "number": 28, "position": "CM", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_012_17", "name": "Ahmed Fadhil", "number": 5, "position": "CDM", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_012_18", "name": "Abdullah Ali Al Saai", "number": 26, "position": "CAM", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_012_19", "name": "Nasser Saleh Alyazidi", "number": 20, "position": "LW", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_012_20", "name": "Khalid Muneer", "number": 21, "position": "RW", "country": "QA", "status": "bench"},
+    {"playerId": "player_qa1_012_21", "name": "Rabeh Yahia Boussafi", "number": 17, "position": "ST", "country": "QA", "status": "bench"},
+
+    {"playerId": "player_qa1_012_22", "name": "Saoud Al Khater", "number": 22, "position": "GK", "country": "QA", "status": "reserve"},
+    {"playerId": "player_qa1_012_23", "name": "Abdullah Al Yazidi", "number": 24, "position": "LB", "country": "QA", "status": "reserve"},
+    {"playerId": "player_qa1_012_24", "name": "Jassim Al Jalabi", "number": 27, "position": "RB", "country": "QA", "status": "reserve"},
+    {"playerId": "player_qa1_012_25", "name": "Mohammed Khaled", "number": 30, "position": "ST", "country": "QA", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 18,
+      "cornerLeft": 18,
+      "cornerRight": 75
+    }
+  }
+}
