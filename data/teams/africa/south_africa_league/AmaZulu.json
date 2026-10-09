@@ -1,15 +1,20 @@
 {
   "teamKey": "AmaZlu",
+
   "name": "AmaZulu FC",
+
   "logo": "assets/logos/africa/south_africa/AmaZlu.png",
+
   "manager": {
     "name": "Arthur Zwane",
     "country": "ZA"
   },
+
   "stadium": {
     "name": "Moses Mabhida Stadium",
     "capacity": 56000
   },
+
   "players": [
     {"playerId": "player_za1_001_01", "name": "Olwethu Mzimela", "number": 1, "position": "GK", "country": "ZA", "status": "starter"},
     {"playerId": "player_za1_001_02", "name": "Keenan Phillips", "number": 33, "position": "RB", "country": "ZA", "status": "starter"},
@@ -34,11 +39,12 @@
     {"playerId": "player_za1_001_20", "name": "Ryan Moon", "number": 9, "position": "ST", "country": "ZA", "status": "bench"},
     {"playerId": "player_za1_001_21", "name": "Thandanani Mhlongo", "number": 37, "position": "ST", "country": "ZA", "status": "bench"},
 
-    {"playerId": "player_za1_001_22", "name": "N. Radebe", "number": 14, "position": "RB", "country": "ZA", "status": "reserve"},
-    {"playerId": "player_za1_001_23", "name": "B. Thabede", "number": 22, "position": "CM", "country": "ZA", "status": "reserve"},
-    {"playerId": "player_za1_001_24", "name": "O. Ncama", "number": 30, "position": "CB", "country": "ZA", "status": "reserve"},
-    {"playerId": "player_za1_001_25", "name": "Senzo Ndlovu", "number": 19, "position": "ST", "country": "ZA", "status": "reserve"}
+    {"playerId": "player_za1_001_22", "name": "Faveur Wilfried Kouassi", "number": 24, "position": "GK", "country": "CI", "status": "reserve"},
+    {"playerId": "player_za1_001_23", "name": "N. Radebe", "number": 14, "position": "RB", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_001_24", "name": "B. Thabede", "number": 22, "position": "CM", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_001_25", "name": "O. Ncama", "number": 30, "position": "CB", "country": "ZA", "status": "reserve"}
   ],
+
   "tactics": {
     "formation": "4-2-3-1",
     "captain": 1,
