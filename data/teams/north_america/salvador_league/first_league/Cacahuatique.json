@@ -1,0 +1,58 @@
+{
+  "teamKey": "Cacahu",
+
+  "name": "CD Cacahuatique",
+
+  "logo": "assets/logos/north_america/salvador/Cacahu.png",
+
+  "manager": {
+    "name": "Ángel Piazzi",
+    "country": "AR"
+  },
+
+  "stadium": {
+    "name": "Polideportivo de Chapeltique",
+    "capacity": 5000
+  },
+
+  "players": [
+    {"playerId": "player_sv1_005_01", "name": "Jeremy Rodríguez", "number": 30, "position": "GK", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_005_02", "name": "Salvador Galindo", "number": 2, "position": "RB", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_005_03", "name": "Reinaldo Aparicio", "number": 4, "position": "CB", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_005_04", "name": "Ronald Padilla", "number": 3, "position": "CB", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_005_05", "name": "Francisco Carballo", "number": 5, "position": "LB", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_005_06", "name": "Elías Umeres", "number": 6, "position": "CDM", "country": "AR", "status": "starter"},
+    {"playerId": "player_sv1_005_07", "name": "Bladimir González", "number": 28, "position": "CM", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_005_08", "name": "Herbert Sosa", "number": 14, "position": "RW", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_005_09", "name": "Misael Palacios", "number": 31, "position": "CAM", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_005_10", "name": "Jomal Williams", "number": 11, "position": "LW", "country": "TT", "status": "starter"},
+    {"playerId": "player_sv1_005_11", "name": "Danny Crete", "number": 9, "position": "ST", "country": "HT", "status": "starter"},
+
+    {"playerId": "player_sv1_005_12", "name": "Cristian Bonilla", "number": 35, "position": "GK", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_005_13", "name": "Guillermo Fuentes", "number": 24, "position": "CB", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_005_14", "name": "Eduardo Hernández", "number": 21, "position": "CB", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_005_15", "name": "William Canales", "number": 15, "position": "RB", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_005_16", "name": "Anderson Portillo", "number": 38, "position": "CM", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_005_17", "name": "Paolo Ulloa", "number": 23, "position": "RW", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_005_18", "name": "Melvin Alfaro", "number": 8, "position": "CM", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_005_19", "name": "Hernán González", "number": 7, "position": "CM", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_005_20", "name": "Wilberth Hernández", "number": 17, "position": "ST", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_005_21", "name": "Juan Sánchez", "number": 12, "position": "LW", "country": "SV", "status": "bench"},
+
+    {"playerId": "player_sv1_005_22", "name": "Wilberth Hernandez", "number": 1, "position": "GK", "country": "SV", "status": "reserve"},
+    {"playerId": "player_sv1_005_23", "name": "José Rodríguez", "number": 19, "position": "CM", "country": "SV", "status": "reserve"},
+    {"playerId": "player_sv1_005_24", "name": "Byron Mendoza", "number": 22, "position": "CM", "country": "SV", "status": "reserve"},
+    {"playerId": "player_sv1_005_25", "name": "Misael Flores", "number": 26, "position": "LB", "country": "SV", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 30,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 14,
+      "cornerLeft": 14,
+      "cornerRight": 11
+    }
+  }
+}

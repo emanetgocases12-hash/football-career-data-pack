@@ -1,0 +1,58 @@
+{
+  "teamKey": "Firpo",
+
+  "name": "CD Luis Ángel Firpo",
+
+  "logo": "assets/logos/north_america/salvador/Firpo.png",
+
+  "manager": {
+    "name": "Marvin Solano",
+    "country": "CR"
+  },
+
+  "stadium": {
+    "name": "Estadio Sergio Torres Rivera",
+    "capacity": 5000
+  },
+
+  "players": [
+    {"playerId": "player_sv1_006_01", "name": "Felipe Amaya", "number": 25, "position": "GK", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_006_02", "name": "Herson Rodríguez", "number": 14, "position": "RB", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_006_03", "name": "Lizandro Claros", "number": 5, "position": "CB", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_006_04", "name": "Wilber Arizala", "number": 3, "position": "CB", "country": "CO", "status": "starter"},
+    {"playerId": "player_sv1_006_05", "name": "Diego Flores", "number": 12, "position": "LB", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_006_06", "name": "Mauricio Cerritos", "number": 17, "position": "CDM", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_006_07", "name": "Bryan Landaverde", "number": 8, "position": "CM", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_006_08", "name": "Óscar Cerén", "number": 7, "position": "RW", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_006_09", "name": "Víctor García", "number": 10, "position": "CAM", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_006_10", "name": "Nelson Díaz", "number": 35, "position": "LW", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_006_11", "name": "Cristian Gil", "number": 19, "position": "ST", "country": "SV", "status": "starter"},
+
+    {"playerId": "player_sv1_006_12", "name": "Misael Erazo", "number": 1, "position": "GK", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_006_13", "name": "Eduardo Vigil", "number": 6, "position": "CB", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_006_14", "name": "Jonathan Jiménez", "number": 2, "position": "LB", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_006_15", "name": "Elmer Rodríguez", "number": 22, "position": "RB", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_006_16", "name": "Erivan Flores", "number": 4, "position": "CDM", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_006_17", "name": "Steven Mira", "number": 15, "position": "CDM", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_006_18", "name": "Rafael Águila", "number": 18, "position": "CM", "country": "PA", "status": "bench"},
+    {"playerId": "player_sv1_006_19", "name": "Diego Ortez", "number": 27, "position": "RM", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_006_20", "name": "Diego Guevara", "number": 20, "position": "RW", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_006_21", "name": "Styven Vásquez", "number": 11, "position": "ST", "country": "SV", "status": "bench"},
+
+    {"playerId": "player_sv1_006_22", "name": "Geonathan Barrera", "number": 13, "position": "GK", "country": "SV", "status": "reserve"},
+    {"playerId": "player_sv1_006_23", "name": "Marvin Aranda", "number": 23, "position": "LM", "country": "SV", "status": "reserve"},
+    {"playerId": "player_sv1_006_24", "name": "Elías Gumero", "number": 21, "position": "ST", "country": "SV", "status": "reserve"},
+    {"playerId": "player_sv1_006_25", "name": "José Valencia", "number": 9, "position": "ST", "country": "CO", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 25,
+    "setPieces": {
+      "penalty": 19,
+      "freeKick": 7,
+      "cornerLeft": 7,
+      "cornerRight": 35
+    }
+  }
+}

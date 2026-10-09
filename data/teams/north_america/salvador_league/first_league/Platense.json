@@ -1,0 +1,58 @@
+{
+  "teamKey": "CD Pla",
+
+  "name": "CD Platense",
+
+  "logo": "assets/logos/north_america/salvador/CDPla.png",
+
+  "manager": {
+    "name": "Martín García",
+    "country": "CO"
+  },
+
+  "stadium": {
+    "name": "Estadio Antonio Toledo Valle",
+    "capacity": 6200
+  },
+
+  "players": [
+    {"playerId": "player_sv1_011_01", "name": "Cristopher Rauda", "number": 1, "position": "GK", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_011_02", "name": "Diego Mejía", "number": 20, "position": "RB", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_011_03", "name": "Brandao Zetino", "number": 3, "position": "CB", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_011_04", "name": "Kevin Calderón", "number": 4, "position": "CB", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_011_05", "name": "Carlos Arévalo", "number": 24, "position": "LB", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_011_06", "name": "Josué Palacios", "number": 6, "position": "CDM", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_011_07", "name": "Jorge Mundo", "number": 29, "position": "CM", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_011_08", "name": "Carlos Bogotá", "number": 11, "position": "RW", "country": "CO", "status": "starter"},
+    {"playerId": "player_sv1_011_09", "name": "Anthony Roque", "number": 5, "position": "CAM", "country": "SV", "status": "starter"},
+    {"playerId": "player_sv1_011_10", "name": "Yair Arboleda", "number": 12, "position": "LW", "country": "CO", "status": "starter"},
+    {"playerId": "player_sv1_011_11", "name": "David Zayas", "number": 9, "position": "ST", "country": "SV", "status": "starter"},
+
+    {"playerId": "player_sv1_011_12", "name": "Daniel Arroyo", "number": 22, "position": "GK", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_011_13", "name": "Brayam Palacios", "number": 13, "position": "CB", "country": "CO", "status": "bench"},
+    {"playerId": "player_sv1_011_14", "name": "Xavier García", "number": 2, "position": "CB", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_011_15", "name": "Kevin Menjívar", "number": 21, "position": "RB", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_011_16", "name": "José Ventura", "number": 19, "position": "CM", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_011_17", "name": "Vinicio Muñoz", "number": 8, "position": "CM", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_011_18", "name": "Sebastian Ortiz", "number": 15, "position": "CM", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_011_19", "name": "Wilmer Novoa", "number": 7, "position": "RM", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_011_20", "name": "Isaí Aguilar", "number": 17, "position": "RM", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_011_21", "name": "Manuel González", "number": 18, "position": "LW", "country": "CO", "status": "bench"},
+
+    {"playerId": "player_sv1_011_22", "name": "Máximo Sandoval", "number": 25, "position": "GK", "country": "SV", "status": "reserve"},
+    {"playerId": "player_sv1_011_23", "name": "Beethoven Martínez", "number": 26, "position": "CM", "country": "SV", "status": "reserve"},
+    {"playerId": "player_sv1_011_24", "name": "Nayan Bello", "number": 27, "position": "RW", "country": "CO", "status": "reserve"},
+    {"playerId": "player_sv1_011_25", "name": "Luis Aguilar", "number": 16, "position": "ST", "country": "SV", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 12
+    }
+  }
+}
