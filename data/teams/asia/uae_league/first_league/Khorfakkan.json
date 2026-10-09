@@ -1,0 +1,58 @@
+{
+  "teamKey": "Fakkan",
+
+  "name": "Khorfakkan Club",
+
+  "logo": "assets/logos/asia/uae/Khor.png",
+
+  "manager": {
+    "name": "Abdulmajid Al Nemer",
+    "country": "AE"
+  },
+
+  "stadium": {
+    "name": "Saqr bin Mohammad Al Qassimi Stadium",
+    "capacity": 6132
+  },
+
+  "players": [
+    {"playerId": "player_ae1_010_01", "name": "Ahmed Al-Hosani", "number": 1, "position": "GK", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_010_02", "name": "Masoud Sulaiman", "number": 2, "position": "RB", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_010_03", "name": "Kayque Campos", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_ae1_010_04", "name": "Serano Seymor", "number": 34, "position": "CB", "country": "NL", "status": "starter"},
+    {"playerId": "player_ae1_010_05", "name": "Akram Nakach", "number": 30, "position": "LB", "country": "MA", "status": "starter"},
+    {"playerId": "player_ae1_010_06", "name": "Juninho", "number": 8, "position": "CM", "country": "BR", "status": "starter"},
+    {"playerId": "player_ae1_010_07", "name": "Omar Keita", "number": 18, "position": "CM", "country": "GN", "status": "starter"},
+    {"playerId": "player_ae1_010_08", "name": "Bruno Lamas", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+    {"playerId": "player_ae1_010_09", "name": "Waleed Ambar", "number": 7, "position": "RW", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_010_10", "name": "Lourency", "number": 11, "position": "LW", "country": "BR", "status": "starter"},
+    {"playerId": "player_ae1_010_11", "name": "Ramon Mierez", "number": 9, "position": "ST", "country": "AR", "status": "starter"},
+
+    {"playerId": "player_ae1_010_12", "name": "Rashid Abdalla Suhail", "number": 95, "position": "GK", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_010_13", "name": "Abdulrahman Yousuf", "number": 6, "position": "CB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_010_14", "name": "Mohammed Ali Shakir", "number": 4, "position": "CB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_010_15", "name": "Pedro Pavlov", "number": 16, "position": "LB", "country": "BG", "status": "bench"},
+    {"playerId": "player_ae1_010_16", "name": "Abdulla Al-Refaey", "number": 15, "position": "CB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_010_17", "name": "Mohamed Al-Jneibi", "number": 20, "position": "CM", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_010_18", "name": "Abdulla Abdu", "number": 21, "position": "ST", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_010_19", "name": "Ahmed Al-Hammadi", "number": 22, "position": "RW", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_010_20", "name": "Yousef Al-Ameri", "number": 23, "position": "LB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_010_21", "name": "Mohammed Al-Zaabi", "number": 25, "position": "CM", "country": "AE", "status": "bench"},
+
+    {"playerId": "player_ae1_010_22", "name": "Jamal Al-Hosani", "number": 48, "position": "GK", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_010_23", "name": "Sultan Al-Hosani", "number": 27, "position": "CM", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_010_24", "name": "Ali Eid", "number": 29, "position": "ST", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_010_25", "name": "Jean Nguessan", "number": 79, "position": "CM", "country": "CI", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 1,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 11
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "teamKey": "Wahda",
+
+  "name": "Al Wahda FC",
+
+  "logo": "assets/logos/asia/uae/Wahda.png",
+
+  "manager": {
+    "name": "Péricles Chamusca",
+    "country": "BR"
+  },
+
+  "stadium": {
+    "name": "Al Nahyan Stadium",
+    "capacity": 15894
+  },
+
+  "players": [
+    {"playerId": "player_ae1_004_01", "name": "Facundo Lirussi", "number": 23, "position": "GK", "country": "PY", "status": "starter"},
+    {"playerId": "player_ae1_004_02", "name": "Rubén Amaral", "number": 2, "position": "RB", "country": "PT", "status": "starter"},
+    {"playerId": "player_ae1_004_03", "name": "Alaa Zouhir", "number": 4, "position": "CB", "country": "TN", "status": "starter"},
+    {"playerId": "player_ae1_004_04", "name": "Lucas Pimenta", "number": 3, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_ae1_004_05", "name": "Khalil Ibrahim", "number": 6, "position": "LB", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_004_06", "name": "Allan", "number": 8, "position": "CDM", "country": "BR", "status": "starter"},
+    {"playerId": "player_ae1_004_07", "name": "Abdulla Hamad", "number": 12, "position": "CM", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_004_08", "name": "Facundo Kruspzky", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_ae1_004_09", "name": "Brahima Diarra", "number": 11, "position": "RW", "country": "FR", "status": "starter"},
+    {"playerId": "player_ae1_004_10", "name": "Abdulla Kazim", "number": 20, "position": "LW", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_004_11", "name": "Omar Khribin", "number": 70, "position": "ST", "country": "SY", "status": "starter"},
+
+    {"playerId": "player_ae1_004_12", "name": "Zayed Ahmed", "number": 36, "position": "GK", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_004_13", "name": "Ahmed Refaat", "number": 5, "position": "CB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_004_14", "name": "Tahnoon Al-Zaabi", "number": 7, "position": "CM", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_004_15", "name": "Ahmed Noorollahi", "number": 17, "position": "CM", "country": "IR", "status": "bench"},
+    {"playerId": "player_ae1_004_16", "name": "Mohamed Al-Menhali", "number": 19, "position": "RW", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_004_17", "name": "Ismail Matar", "number": 9, "position": "CAM", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_004_18", "name": "Ahmed Rashid", "number": 24, "position": "CB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_004_19", "name": "Mansour Al-Harbi", "number": 15, "position": "LB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_004_20", "name": "Mohamed Juma", "number": 18, "position": "ST", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_004_21", "name": "Sultan Al-Ghafri", "number": 25, "position": "CM", "country": "AE", "status": "bench"},
+
+    {"playerId": "player_ae1_004_22", "name": "Mohamed Al-Shamsi", "number": 1, "position": "GK", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_004_23", "name": "Abdulla Anwar", "number": 27, "position": "ST", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_004_24", "name": "Abdulrahman Saleh", "number": 29, "position": "RB", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_004_25", "name": "Khamis Naser", "number": 14, "position": "CM", "country": "AE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 23,
+    "setPieces": {
+      "penalty": 70,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 20
+    }
+  }
+}

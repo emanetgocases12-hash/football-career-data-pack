@@ -1,0 +1,58 @@
+{
+  "teamKey": "Ajman",
+
+  "name": "Ajman Club",
+
+  "logo": "assets/logos/asia/uae/Ajman.png",
+
+  "manager": {
+    "name": "Goran Tufegdžić",
+    "country": "RS"
+  },
+
+  "stadium": {
+    "name": "Rashid bin Saeed Stadium",
+    "capacity": 5141
+  },
+
+  "players": [
+    {"playerId": "player_ae1_001_01", "name": "Ali Al-Hosani", "number": 81, "position": "GK", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_001_02", "name": "Saoud Saeed", "number": 2, "position": "RB", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_001_03", "name": "Mohammed Ismail", "number": 4, "position": "CB", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_001_04", "name": "Abdelrahman Rakan", "number": 5, "position": "CB", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_001_05", "name": "Abdullah Saleh", "number": 3, "position": "LB", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_001_06", "name": "Bilal Yousif", "number": 6, "position": "CDM", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_001_07", "name": "Hussain Abdulrahman", "number": 8, "position": "CM", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_001_08", "name": "Rocky Marciano", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
+    {"playerId": "player_ae1_001_09", "name": "Victor Henrique", "number": 7, "position": "RW", "country": "BR", "status": "starter"},
+    {"playerId": "player_ae1_001_10", "name": "Ali Madan", "number": 11, "position": "LW", "country": "BH", "status": "starter"},
+    {"playerId": "player_ae1_001_11", "name": "Waleed Azaro", "number": 9, "position": "ST", "country": "MA", "status": "starter"},
+
+    {"playerId": "player_ae1_001_12", "name": "Abdulla Al-Tamimi", "number": 30, "position": "GK", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_001_13", "name": "Saeed Suleiman", "number": 15, "position": "CB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_001_14", "name": "Mohamed Hilal", "number": 14, "position": "CM", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_001_15", "name": "Yousef Al-Hammadi", "number": 17, "position": "RW", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_001_16", "name": "Sultan Al-Shamsi", "number": 19, "position": "ST", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_001_17", "name": "Abdulla Malallah", "number": 20, "position": "CM", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_001_18", "name": "Mohammed Yousif", "number": 23, "position": "CB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_001_19", "name": "Hassan Ibrahim", "number": 25, "position": "CM", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_001_20", "name": "Khalfan Mubarak", "number": 77, "position": "CAM", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_001_21", "name": "Abdullah Al-Raqi", "number": 27, "position": "RB", "country": "AE", "status": "bench"},
+
+    {"playerId": "player_ae1_001_22", "name": "Yousef Ahmed", "number": 22, "position": "GK", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_001_23", "name": "Mohamed Naser", "number": 28, "position": "LB", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_001_24", "name": "Ahmed Al-Hammadi", "number": 29, "position": "ST", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_001_25", "name": "Abdullah Yousef", "number": 31, "position": "CM", "country": "AE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 81,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 10,
+      "cornerRight": 11
+    }
+  }
+}

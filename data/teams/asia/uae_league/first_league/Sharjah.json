@@ -1,0 +1,58 @@
+{
+  "teamKey": "Sharjh",
+
+  "name": "Sharjah FC",
+
+  "logo": "assets/logos/asia/uae/Sharjah.png",
+
+  "manager": {
+    "name": "José Morais",
+    "country": "PT"
+  },
+
+  "stadium": {
+    "name": "Sharjah Stadium",
+    "capacity": 12499
+  },
+
+  "players": [
+    {"playerId": "player_ae1_012_01", "name": "Darwish Mohammad", "number": 26, "position": "GK", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_012_02", "name": "Khaled Ibrahim", "number": 2, "position": "RB", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_012_03", "name": "Shahin Abdulrahman", "number": 4, "position": "CB", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_012_04", "name": "Cho Yu-min", "number": 20, "position": "CB", "country": "KR", "status": "starter"},
+    {"playerId": "player_ae1_012_05", "name": "Majid Rashid", "number": 6, "position": "LB", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_012_06", "name": "Miralem Pjanic", "number": 10, "position": "CM", "country": "BA", "status": "starter"},
+    {"playerId": "player_ae1_012_07", "name": "Majed Hassan", "number": 8, "position": "CDM", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_012_08", "name": "Luanzinho", "number": 11, "position": "CAM", "country": "BR", "status": "starter"},
+    {"playerId": "player_ae1_012_09", "name": "Ousmane Camara", "number": 30, "position": "RW", "country": "GN", "status": "starter"},
+    {"playerId": "player_ae1_012_10", "name": "Caio Lucas", "number": 7, "position": "LW", "country": "BR", "status": "starter"},
+    {"playerId": "player_ae1_012_11", "name": "Paco Alcácer", "number": 9, "position": "ST", "country": "ES", "status": "starter"},
+
+    {"playerId": "player_ae1_012_12", "name": "Khaled Tawhid", "number": 1, "position": "GK", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_012_13", "name": "Maro Katinić", "number": 5, "position": "CB", "country": "HR", "status": "bench"},
+    {"playerId": "player_ae1_012_14", "name": "Marcus Meloni", "number": 22, "position": "RB", "country": "BR", "status": "bench"},
+    {"playerId": "player_ae1_012_15", "name": "Mohamed Abdulbasit", "number": 18, "position": "CM", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_012_16", "name": "Hassan Saleh", "number": 3, "position": "LB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_012_17", "name": "Abdulla Ghanim", "number": 14, "position": "CB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_012_18", "name": "Khalid Bawazir", "number": 17, "position": "CM", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_012_19", "name": "Ali Saleh", "number": 19, "position": "RW", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_012_20", "name": "Mohamed Al-Hammadi", "number": 23, "position": "CM", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_012_21", "name": "Ahmed Al-Attas", "number": 25, "position": "ST", "country": "AE", "status": "bench"},
+
+    {"playerId": "player_ae1_012_22", "name": "Adel Al-Hosani", "number": 40, "position": "GK", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_012_23", "name": "Saeed Al-Kaabi", "number": 27, "position": "LW", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_012_24", "name": "Yousef Saeed", "number": 29, "position": "ST", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_012_25", "name": "Ali Alhadidi", "number": 34, "position": "CB", "country": "AE", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 26,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 7
+    }
+  }
+}

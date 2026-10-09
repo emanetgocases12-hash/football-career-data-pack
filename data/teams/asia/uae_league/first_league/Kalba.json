@@ -1,0 +1,58 @@
+{
+  "teamKey": "Kalba",
+
+  "name": "Kalba FC",
+
+  "logo": "assets/logos/asia/uae/Ittihad.png",
+
+  "manager": {
+    "name": "Víctor Sánchez",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "Kalba Stadium",
+    "capacity": 7701
+  },
+
+  "players": [
+    {"playerId": "player_ae1_009_01", "name": "Sultan Al-Mantheri", "number": 33, "position": "GK", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_009_02", "name": "Sultan Al-Zaabi", "number": 2, "position": "RB", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_009_03", "name": "Wallace Felipe", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_ae1_009_04", "name": "Abdulaziz Al-Hamadi", "number": 5, "position": "CB", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_009_05", "name": "Abdulaziz Hussain", "number": 3, "position": "LB", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_009_06", "name": "Daniel Bessa", "number": 8, "position": "CM", "country": "IT", "status": "starter"},
+    {"playerId": "player_ae1_009_07", "name": "Habib Al-Fardan", "number": 6, "position": "CM", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_009_08", "name": "Ahmed Jashak", "number": 17, "position": "CAM", "country": "AE", "status": "starter"},
+    {"playerId": "player_ae1_009_09", "name": "Leandro Spadacio", "number": 11, "position": "RW", "country": "BR", "status": "starter"},
+    {"playerId": "player_ae1_009_10", "name": "Mehdi Ghayedi", "number": 10, "position": "LW", "country": "IR", "status": "starter"},
+    {"playerId": "player_ae1_009_11", "name": "Shahriar Moghanlou", "number": 9, "position": "ST", "country": "IR", "status": "starter"},
+
+    {"playerId": "player_ae1_009_12", "name": "Hamad Al-Mansoori", "number": 55, "position": "GK", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_009_13", "name": "Salem Rashid", "number": 23, "position": "CB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_009_14", "name": "Mohamed Sabeel", "number": 14, "position": "LB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_009_15", "name": "Abdulla Al-Naqbi", "number": 18, "position": "CM", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_009_16", "name": "Sultan Adil", "number": 19, "position": "ST", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_009_17", "name": "Ali Al-Hosani", "number": 20, "position": "RW", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_009_18", "name": "Khalid Ibrahim", "number": 21, "position": "RB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_009_19", "name": "Mohammed Subil", "number": 24, "position": "CB", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_009_20", "name": "Yaser Hassan", "number": 25, "position": "CM", "country": "AE", "status": "bench"},
+    {"playerId": "player_ae1_009_21", "name": "Abdulrahman Yousuf", "number": 27, "position": "CB", "country": "AE", "status": "bench"},
+
+    {"playerId": "player_ae1_009_22", "name": "Eisa Ahmed", "number": 1, "position": "GK", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_009_23", "name": "Ahmed Amer", "number": 29, "position": "LW", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_009_24", "name": "Saeed Al-Kaabi", "number": 77, "position": "ST", "country": "AE", "status": "reserve"},
+    {"playerId": "player_ae1_009_25", "name": "Ibrahim Cissé", "number": 26, "position": "CB", "country": "CI", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 33,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 17,
+      "cornerLeft": 17,
+      "cornerRight": 10
+    }
+  }
+}
