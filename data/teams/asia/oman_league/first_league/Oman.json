@@ -1,18 +1,18 @@
 {
-  "teamKey": "Oman",
+  "teamKey": "Oman Cl",
 
   "name": "Oman Club",
 
   "logo": "assets/logos/asia/oman/Oman.png",
 
   "manager": {
-    "name": "Mohammed Al-Araimi",
+    "name": "Mohsen Al-Balushi",
     "country": "OM"
   },
 
   "stadium": {
-    "name": "Al-Seeb Stadium",
-    "capacity": 14000
+    "name": "Sultan Qaboos Sports Complex",
+    "capacity": 28000
   },
 
   "players": [
@@ -37,12 +37,12 @@
     {"playerId": "player_om1_008_18", "name": "Nasser Al-Hinai", "number": 18, "position": "CM", "country": "OM", "status": "bench"},
     {"playerId": "player_om1_008_19", "name": "Al-Harith Al-Mukhaini", "number": 27, "position": "CAM", "country": "OM", "status": "bench"},
     {"playerId": "player_om1_008_20", "name": "Salim Al-Yahmadi", "number": 11, "position": "LW", "country": "OM", "status": "bench"},
-    {"playerId": "player_om1_008_21", "name": "Ahmed Al-Siyabi", "number": 24, "position": "LW", "country": "OM", "status": "bench"},
+    {"playerId": "player_om1_008_21", "name": "Said Al-Aghbari", "number": 7, "position": "RW", "country": "OM", "status": "bench"},
 
     {"playerId": "player_om1_008_22", "name": "Mohamed Samir Al-Balushi", "number": 1, "position": "GK", "country": "OM", "status": "reserve"},
-    {"playerId": "player_om1_008_23", "name": "Said Al-Aghbari", "number": 7, "position": "RW", "country": "OM", "status": "reserve"},
-    {"playerId": "player_om1_008_24", "name": "Abdulrahman Al-Ghassani", "number": 10, "position": "ST", "country": "OM", "status": "reserve"},
-    {"playerId": "player_om1_008_25", "name": "Mohammed Al-Hajri", "number": 20, "position": "ST", "country": "OM", "status": "reserve"}
+    {"playerId": "player_om1_008_23", "name": "Abdulrahman Al-Ghassani", "number": 10, "position": "ST", "country": "OM", "status": "reserve"},
+    {"playerId": "player_om1_008_24", "name": "Mohammed Al-Hajri", "number": 20, "position": "ST", "country": "OM", "status": "reserve"},
+    {"playerId": "player_om1_008_25", "name": "Ahmed Al-Siyabi", "number": 24, "position": "LW", "country": "OM", "status": "reserve"}
   ],
 
   "tactics": {
