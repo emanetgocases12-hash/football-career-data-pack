@@ -1,52 +1,58 @@
 {
-    "teamKey": "Sousse",
-    "name": "ES Hammam-Sousse",
-    "logo": "assets/logos/africa/tunusia/Sousse.png",
-    "manager": {
-      "name": "Ferid Chouchane",
-      "country": "TN"
-    },
-    "stadium": {
-      "name": "Stade Bou Ali Lahouar",
-      "capacity": 6500
-    },
-    "players": [
-      {"playerId": "player_tn1_014_01", "name": "Mohamed Amine Hazgui", "number": 30, "position": "GK", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_014_02", "name": "Nour El Beji", "number": 2, "position": "RB", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_014_03", "name": "Jaafer Moussa", "number": 5, "position": "CB", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_014_04", "name": "Ayoub Chaabane", "number": 19, "position": "CB", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_014_05", "name": "Ghazi Abderrazzak", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_014_06", "name": "Khalil Mechergui", "number": 26, "position": "CDM", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_014_07", "name": "Malek Baayou", "number": 20, "position": "CM", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_014_08", "name": "Mossaab Sassi", "number": 13, "position": "CAM", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_014_09", "name": "Omar Smari", "number": 7, "position": "RW", "country": "TN", "status": "starter"},
-      {"playerId": "player_tn1_014_10", "name": "Obiri Martin", "number": 24, "position": "ST", "country": "GH", "status": "starter"},
-      {"playerId": "player_tn1_014_11", "name": "Mohamed Amine Jarraya", "number": 11, "position": "LW", "country": "TN", "status": "starter"},
+  "teamKey": "Sousse",
 
-      {"playerId": "player_tn1_014_12", "name": "Charfeddine Nasreli", "number": 32, "position": "GK", "country": "TN", "status": "bench"},
-      {"playerId": "player_tn1_014_13", "name": "Mohamed Amine Helal", "number": 29, "position": "LB", "country": "TN", "status": "bench"},
-      {"playerId": "player_tn1_014_14", "name": "Moatez Ben Abdallah", "number": 15, "position": "CB", "country": "TN", "status": "bench"},
-      {"playerId": "player_tn1_014_15", "name": "Rayane Abdallah", "number": 4, "position": "CB", "country": "TN", "status": "bench"},
-      {"playerId": "player_tn1_014_16", "name": "Rayn Figo Kizito", "number": 6, "position": "CM", "country": "UG", "status": "bench"},
-      {"playerId": "player_tn1_014_17", "name": "Amine Jaziri", "number": 23, "position": "CM", "country": "TN", "status": "bench"},
-      {"playerId": "player_tn1_014_18", "name": "Ali Ben Hassine", "number": 8, "position": "CAM", "country": "TN", "status": "bench"},
-      {"playerId": "player_tn1_014_19", "name": "Iyadh Houli", "number": 34, "position": "RM", "country": "TN", "status": "bench"},
-      {"playerId": "player_tn1_014_20", "name": "Fedi Bouali Slimane", "number": 27, "position": "ST", "country": "TN", "status": "bench"},
-      {"playerId": "player_tn1_014_21", "name": "Raed Belhaj Abdallah", "number": 17, "position": "RW", "country": "TN", "status": "bench"},
+  "name": "ES Hammam-Sousse",
 
-      {"playerId": "player_tn1_014_22", "name": "Hazem Souissi", "number": 1, "position": "GK", "country": "TN", "status": "reserve"},
-      {"playerId": "player_tn1_014_23", "name": "Mohamed Aziz Sabri", "number": 16, "position": "GK", "country": "TN", "status": "reserve"},
-      {"playerId": "player_tn1_014_24", "name": "Mohamed Sadok Jemmali", "number": 10, "position": "CAM", "country": "TN", "status": "reserve"},
-      {"playerId": "player_tn1_014_25", "name": "Ahmed Ben Said", "number": 18, "position": "CM", "country": "TN", "status": "reserve"}
-    ],
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 13,
-      "setPieces": {
-        "penalty": 24,
-        "freeKick": 13,
-        "cornerLeft": 11,
-        "cornerRight": 7
-      }
+  "logo": "assets/logos/africa/tunusia/Sousse.png",
+
+  "manager": {
+    "name": "Ferid Chouchane",
+    "country": "TN"
+  },
+
+  "stadium": {
+    "name": "Stade Bou Ali Lahouar",
+    "capacity": 6500
+  },
+
+  "players": [
+    {"playerId": "player_tn1_014_01", "name": "Mohamed Amine Hazgui", "number": 30, "position": "GK", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_014_02", "name": "Nour El Beji", "number": 2, "position": "RB", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_014_03", "name": "Jaafer Moussa", "number": 5, "position": "CB", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_014_04", "name": "Ayoub Chaabane", "number": 19, "position": "CB", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_014_05", "name": "Ghazi Abderrazzak", "number": 3, "position": "LB", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_014_06", "name": "Khalil Mechergui", "number": 26, "position": "CDM", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_014_07", "name": "Malek Baayou", "number": 20, "position": "CM", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_014_08", "name": "Mossaab Sassi", "number": 13, "position": "CAM", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_014_09", "name": "Omar Smari", "number": 7, "position": "RW", "country": "TN", "status": "starter"},
+    {"playerId": "player_tn1_014_10", "name": "Obiri Martin", "number": 24, "position": "ST", "country": "GH", "status": "starter"},
+    {"playerId": "player_tn1_014_11", "name": "Mohamed Amine Jarraya", "number": 11, "position": "LW", "country": "TN", "status": "starter"},
+
+    {"playerId": "player_tn1_014_12", "name": "Charfeddine Nasreli", "number": 32, "position": "GK", "country": "TN", "status": "bench"},
+    {"playerId": "player_tn1_014_13", "name": "Mohamed Amine Helal", "number": 29, "position": "LB", "country": "TN", "status": "bench"},
+    {"playerId": "player_tn1_014_14", "name": "Moatez Ben Abdallah", "number": 15, "position": "CB", "country": "TN", "status": "bench"},
+    {"playerId": "player_tn1_014_15", "name": "Rayane Abdallah", "number": 4, "position": "CB", "country": "TN", "status": "bench"},
+    {"playerId": "player_tn1_014_16", "name": "Rayn Figo Kizito", "number": 6, "position": "CM", "country": "UG", "status": "bench"},
+    {"playerId": "player_tn1_014_17", "name": "Amine Jaziri", "number": 23, "position": "CM", "country": "TN", "status": "bench"},
+    {"playerId": "player_tn1_014_18", "name": "Ali Ben Hassine", "number": 8, "position": "CAM", "country": "TN", "status": "bench"},
+    {"playerId": "player_tn1_014_19", "name": "Iyadh Houli", "number": 34, "position": "RM", "country": "TN", "status": "bench"},
+    {"playerId": "player_tn1_014_20", "name": "Fedi Bouali Slimane", "number": 27, "position": "ST", "country": "TN", "status": "bench"},
+    {"playerId": "player_tn1_014_21", "name": "Raed Belhaj Abdallah", "number": 17, "position": "RW", "country": "TN", "status": "bench"},
+
+    {"playerId": "player_tn1_014_22", "name": "Hazem Souissi", "number": 1, "position": "GK", "country": "TN", "status": "reserve"},
+    {"playerId": "player_tn1_014_23", "name": "Mohamed Sadok Jemmali", "number": 10, "position": "CAM", "country": "TN", "status": "reserve"},
+    {"playerId": "player_tn1_014_24", "name": "Ahmed Ben Said", "number": 18, "position": "CM", "country": "TN", "status": "reserve"},
+    {"playerId": "player_tn1_014_25", "name": "Ousmane Tenguiano", "number": 16, "position": "CB", "country": "GN", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 13,
+    "setPieces": {
+      "penalty": 24,
+      "freeKick": 13,
+      "cornerLeft": 11,
+      "cornerRight": 7
     }
   }
+}
