@@ -1,58 +1,52 @@
 {
-    "teamKey": "Motagu",
-  
-    "name": "FC Motagua",
-  
-    "logo": "assets/logos/north_america/honduras/Motagu.png",
-  
-    "manager": {
-      "name": "Javier López",
-      "country": "ES"
-    },
-  
-    "stadium": {
-      "name": "Estadio Nacional José de la Paz Herrera",
-      "capacity": 35000
-    },
-  
-    "players": [
-      {"playerId": "player_hn1_009_01", "name": "Marlon Licona", "number": 1, "position": "GK", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_009_02", "name": "Cristopher Meléndez", "number": 2, "position": "RB", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_009_03", "name": "José Alejandro Reyes", "number": 4, "position": "CB", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_009_04", "name": "Jeffry Miranda", "number": 5, "position": "CB", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_009_05", "name": "Luis Vega", "number": 3, "position": "LB", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_009_06", "name": "Luis Santamaría", "number": 6, "position": "CDM", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_009_07", "name": "Jefryn Macías", "number": 8, "position": "CM", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_009_08", "name": "Aarón Barrios", "number": 7, "position": "RW", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_009_09", "name": "Jhen Portillo", "number": 10, "position": "CAM", "country": "HN", "status": "starter"},
-      {"playerId": "player_hn1_009_10", "name": "Jonathan Moya", "number": 11, "position": "ST", "country": "CR", "status": "starter"},
-      {"playerId": "player_hn1_009_11", "name": "Rodrigo Gómez", "number": 9, "position": "LW", "country": "AR", "status": "starter"},
-  
-      {"playerId": "player_hn1_009_12", "name": "Luis Ortiz", "number": 12, "position": "GK", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_009_13", "name": "Denis Meléndez", "number": 14, "position": "CB", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_009_14", "name": "Riky Zapata", "number": 15, "position": "RB", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_009_15", "name": "Pablo Cacho", "number": 16, "position": "LB", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_009_16", "name": "Andy Hernández", "number": 17, "position": "CB", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_009_17", "name": "Óscar Padilla", "number": 18, "position": "LW", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_009_18", "name": "Giancarlo Sacaza", "number": 19, "position": "CM", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_009_19", "name": "Jonathan Argueta", "number": 20, "position": "RM", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_009_20", "name": "Adner Ávila", "number": 21, "position": "LM", "country": "HN", "status": "bench"},
-      {"playerId": "player_hn1_009_21", "name": "Jordan García", "number": 22, "position": "CAM", "country": "HN", "status": "bench"},
-  
-      {"playerId": "player_hn1_009_22", "name": "Emilio Izaguirre", "number": 30, "position": "CM", "country": "HN", "status": "reserve"},
-      {"playerId": "player_hn1_009_23", "name": "Carlos Palma", "number": 23, "position": "RW", "country": "HN", "status": "reserve"},
-      {"playerId": "player_hn1_009_24", "name": "Jesús Bátiz", "number": 24, "position": "ST", "country": "HN", "status": "reserve"},
-      {"playerId": "player_hn1_009_25", "name": "Valerio Marinacci", "number": 25, "position": "ST", "country": "AR", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 4,
-      "setPieces": {
-        "penalty": 11,
-        "freeKick": 8,
-        "cornerLeft": 7,
-        "cornerRight": 7
-      }
+  "teamKey": "Motagu",
+  "name": "FC Motagua",
+  "logo": "assets/logos/north_america/honduras/Motagu.png",
+  "manager": {
+    "name": "Javier López",
+    "country": "ES"
+  },
+  "stadium": {
+    "name": "Estadio Nacional José de la Paz Herrera",
+    "capacity": 35000
+  },
+  "players": [
+    {"playerId": "player_hn1_009_01", "name": "Marlon Licona", "number": 25, "position": "GK", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_009_02", "name": "Pablo Cacho", "number": 2, "position": "RB", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_009_03", "name": "Luis Vega", "number": 4, "position": "CB", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_009_04", "name": "Cristopher Meléndez", "number": 5, "position": "CB", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_009_05", "name": "Riky Zapata", "number": 3, "position": "LB", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_009_06", "name": "Denis Meléndez", "number": 6, "position": "CDM", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_009_07", "name": "Alejandro Reyes", "number": 8, "position": "CM", "country": "HN", "status": "starter"},
+    {"playerId": "player_hn1_009_08", "name": "Jorge Serrano", "number": 7, "position": "RW", "country": "PA", "status": "starter"},
+    {"playerId": "player_hn1_009_09", "name": "Rodrigo Gómez", "number": 10, "position": "CAM", "country": "AR", "status": "starter"},
+    {"playerId": "player_hn1_009_10", "name": "Jonathan Moya", "number": 11, "position": "ST", "country": "CR", "status": "starter"},
+    {"playerId": "player_hn1_009_11", "name": "Rodrigo De Olivera", "number": 9, "position": "LW", "country": "UY", "status": "starter"},
+
+    {"playerId": "player_hn1_009_12", "name": "Luis Ortiz", "number": 12, "position": "GK", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_009_13", "name": "Luis Santamaría", "number": 14, "position": "CB", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_009_14", "name": "Clever Portillo", "number": 15, "position": "RB", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_009_15", "name": "Adner Ávila", "number": 16, "position": "LB", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_009_16", "name": "Giancarlos Sacaza", "number": 17, "position": "CB", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_009_17", "name": "Oscar Discua", "number": 18, "position": "LW", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_009_18", "name": "Jordan García", "number": 19, "position": "CM", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_009_19", "name": "Andy Hernández", "number": 20, "position": "RM", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_009_20", "name": "Jeffry Miranda", "number": 21, "position": "LM", "country": "HN", "status": "bench"},
+    {"playerId": "player_hn1_009_21", "name": "Aarón Barrios", "number": 22, "position": "CAM", "country": "HN", "status": "bench"},
+
+    {"playerId": "player_hn1_009_22", "name": "Daniel Paguada", "number": 1, "position": "GK", "country": "HN", "status": "reserve"},
+    {"playerId": "player_hn1_009_23", "name": "Emilio Izaguirre", "number": 30, "position": "CM", "country": "HN", "status": "reserve"},
+    {"playerId": "player_hn1_009_24", "name": "Carlos Palma", "number": 23, "position": "RW", "country": "HN", "status": "reserve"},
+    {"playerId": "player_hn1_009_25", "name": "Jesús Bátiz", "number": 24, "position": "ST", "country": "HN", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 8,
+      "cornerLeft": 7,
+      "cornerRight": 7
     }
   }
+}
