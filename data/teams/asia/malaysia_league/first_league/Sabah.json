@@ -1,35 +1,58 @@
 {
-    "teamKey": "Sabh FC",
-    "name": "Sabah FC",
-    "logo": "assets/logos/asia/malaysia/Sabah.png",
-    "manager": {"name": "Juan Torres Garrido", "country": "ES"},
-    "stadium": {"name": "Likas Stadium", "capacity": 35000},
-    "players": [
-      {"playerId": "player_my1_009_01", "name": "Juan Flere", "number": 22, "position": "GK", "country": "AR", "status": "starter"},
-      {"playerId": "player_my1_009_02", "name": "Dane Ingham", "number": 2, "position": "RB", "country": "NZ", "status": "starter"},
-      {"playerId": "player_my1_009_03", "name": "Dominic Tan", "number": 33, "position": "CB", "country": "MY", "status": "starter"},
-      {"playerId": "player_my1_009_04", "name": "Rawilson Batuil", "number": 3, "position": "CB", "country": "MY", "status": "starter"},
-      {"playerId": "player_my1_009_05", "name": "Enrique López Fernández", "number": 34, "position": "LB", "country": "ES", "status": "starter"},
-      {"playerId": "player_my1_009_06", "name": "Rusdi Roslan", "number": 88, "position": "CM", "country": "MY", "status": "starter"},
-      {"playerId": "player_my1_009_07", "name": "Jung-Bin Park", "number": 10, "position": "CM", "country": "KR", "status": "starter"},
-      {"playerId": "player_my1_009_08", "name": "Gonzalo Di Renzo", "number": 7, "position": "RW", "country": "AR", "status": "starter"},
-      {"playerId": "player_my1_009_09", "name": "Farhan Roslan", "number": 8, "position": "LW", "country": "MY", "status": "starter"},
-      {"playerId": "player_my1_009_10", "name": "S. Kumaahran", "number": 12, "position": "CAM", "country": "MY", "status": "starter"},
-      {"playerId": "player_my1_009_11", "name": "Darren Lok", "number": 28, "position": "ST", "country": "MY", "status": "starter"},
-      {"playerId": "player_my1_009_12", "name": "Damien Lim", "number": 31, "position": "GK", "country": "MY", "status": "bench"},
-      {"playerId": "player_my1_009_13", "name": "Ritchie Svenson", "number": 6, "position": "CB", "country": "MY", "status": "bench"},
-      {"playerId": "player_my1_009_14", "name": "R. Dinesh", "number": 13, "position": "LB", "country": "MY", "status": "bench"},
-      {"playerId": "player_my1_009_15", "name": "Ernesto Phumipha", "number": 90, "position": "LB", "country": "TH", "status": "bench"},
-      {"playerId": "player_my1_009_16", "name": "Shahrol Nizam", "number": 30, "position": "LW", "country": "MY", "status": "bench"},
-      {"playerId": "player_my1_009_17", "name": "Maxsius Musa", "number": 27, "position": "RW", "country": "MY", "status": "bench"},
-      {"playerId": "player_my1_009_18", "name": "Faheed Naqqeu", "number": 35, "position": "RW", "country": "MY", "status": "bench"},
-      {"playerId": "player_my1_009_19", "name": "Chris Marlon Ondong Mba", "number": 17, "position": "ST", "country": "GA", "status": "bench"},
-      {"playerId": "player_my1_009_20", "name": "Azhad Harraz", "number": 50, "position": "ST", "country": "MY", "status": "bench"},
-      {"playerId": "player_my1_009_21", "name": "Jafri Firdaus Chew", "number": 11, "position": "ST", "country": "MY", "status": "bench"},
-      {"playerId": "player_my1_009_22", "name": "Azlizan Azlan", "number": 25, "position": "GK", "country": "MY", "status": "reserve"},
-      {"playerId": "player_my1_009_23", "name": "Ramzi Mustakim", "number": 1, "position": "GK", "country": "MY", "status": "reserve"},
-      {"playerId": "player_my1_009_24", "name": "Amir Jef", "number": 36, "position": "GK", "country": "MY", "status": "reserve"},
-      {"playerId": "player_my1_009_25", "name": "Kervens Belfort", "number": 9, "position": "ST", "country": "HT", "status": "reserve"}
-    ],
-    "tactics": {"formation": "4-2-3-1", "captain": 33, "setPieces": {"penalty": 28, "freeKick": 12, "cornerLeft": 8, "cornerRight": 7}}
+  "teamKey": "Sabh FC",
+
+  "name": "Sabah FC",
+
+  "logo": "assets/logos/asia/malaysia/Sabah.png",
+
+  "manager": {
+    "name": "Juan Torres Garrido",
+    "country": "ES"
+  },
+
+  "stadium": {
+    "name": "Likas Stadium",
+    "capacity": 35000
+  },
+
+  "players": [
+    {"playerId": "player_my1_009_01", "name": "Juan Flere", "number": 22, "position": "GK", "country": "AR", "status": "starter"},
+    {"playerId": "player_my1_009_02", "name": "Dane Ingham", "number": 2, "position": "RB", "country": "NZ", "status": "starter"},
+    {"playerId": "player_my1_009_03", "name": "Dominic Tan", "number": 33, "position": "CB", "country": "MY", "status": "starter"},
+    {"playerId": "player_my1_009_04", "name": "Rawilson Batuil", "number": 3, "position": "CB", "country": "MY", "status": "starter"},
+    {"playerId": "player_my1_009_05", "name": "Enrique López Fernández", "number": 34, "position": "LB", "country": "ES", "status": "starter"},
+    {"playerId": "player_my1_009_06", "name": "Rusdi Roslan", "number": 88, "position": "CM", "country": "MY", "status": "starter"},
+    {"playerId": "player_my1_009_07", "name": "Jung-Bin Park", "number": 10, "position": "CM", "country": "KR", "status": "starter"},
+    {"playerId": "player_my1_009_08", "name": "Gonzalo Di Renzo", "number": 7, "position": "RW", "country": "AR", "status": "starter"},
+    {"playerId": "player_my1_009_09", "name": "Farhan Roslan", "number": 8, "position": "LW", "country": "MY", "status": "starter"},
+    {"playerId": "player_my1_009_10", "name": "S. Kumaahran", "number": 12, "position": "CAM", "country": "MY", "status": "starter"},
+    {"playerId": "player_my1_009_11", "name": "Darren Lok", "number": 28, "position": "ST", "country": "MY", "status": "starter"},
+
+    {"playerId": "player_my1_009_12", "name": "Damien Lim", "number": 31, "position": "GK", "country": "MY", "status": "bench"},
+    {"playerId": "player_my1_009_13", "name": "Ritchie Svenson", "number": 6, "position": "CB", "country": "MY", "status": "bench"},
+    {"playerId": "player_my1_009_14", "name": "R. Dinesh", "number": 13, "position": "LB", "country": "MY", "status": "bench"},
+    {"playerId": "player_my1_009_15", "name": "Ernesto Phumipha", "number": 90, "position": "LB", "country": "TH", "status": "bench"},
+    {"playerId": "player_my1_009_16", "name": "Shahrol Nizam", "number": 30, "position": "LW", "country": "MY", "status": "bench"},
+    {"playerId": "player_my1_009_17", "name": "Maxsius Musa", "number": 27, "position": "RW", "country": "MY", "status": "bench"},
+    {"playerId": "player_my1_009_18", "name": "Faheed Naqqeu", "number": 35, "position": "RW", "country": "MY", "status": "bench"},
+    {"playerId": "player_my1_009_19", "name": "Chris Marlon Ondong Mba", "number": 17, "position": "ST", "country": "GA", "status": "bench"},
+    {"playerId": "player_my1_009_20", "name": "Azhad Harraz", "number": 50, "position": "ST", "country": "MY", "status": "bench"},
+    {"playerId": "player_my1_009_21", "name": "Jafri Firdaus Chew", "number": 11, "position": "ST", "country": "MY", "status": "bench"},
+
+    {"playerId": "player_my1_009_22", "name": "Azlizan Azlan", "number": 25, "position": "GK", "country": "MY", "status": "reserve"},
+    {"playerId": "player_my1_009_23", "name": "Kervens Belfort", "number": 9, "position": "ST", "country": "HT", "status": "reserve"},
+    {"playerId": "player_my1_009_24", "name": "Dean Pelekanos", "number": 14, "position": "CM", "country": "AU", "status": "reserve"},
+    {"playerId": "player_my1_009_25", "name": "Fergus Tierney", "number": 15, "position": "ST", "country": "MY", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 33,
+    "setPieces": {
+      "penalty": 28,
+      "freeKick": 12,
+      "cornerLeft": 8,
+      "cornerRight": 7
+    }
   }
+}
