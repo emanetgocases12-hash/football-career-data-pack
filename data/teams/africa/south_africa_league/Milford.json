@@ -1,15 +1,20 @@
 {
   "teamKey": "Milfrd",
+
   "name": "Milford FC",
+
   "logo": "assets/logos/africa/south_africa/Milfrd.png",
+
   "manager": {
     "name": "E. Mchunu",
     "country": "ZA"
   },
+
   "stadium": {
     "name": "Mhlathuze Sports Complex",
     "capacity": 10000
   },
+
   "players": [
     {"playerId": "player_za1_009_01", "name": "S. Hleza", "number": 32, "position": "GK", "country": "ZA", "status": "starter"},
     {"playerId": "player_za1_009_02", "name": "T. Bhengu", "number": 23, "position": "RB", "country": "ZA", "status": "starter"},
@@ -34,11 +39,12 @@
     {"playerId": "player_za1_009_20", "name": "S. Mdluli", "number": 14, "position": "ST", "country": "ZA", "status": "bench"},
     {"playerId": "player_za1_009_21", "name": "J. Gxakoshe", "number": 17, "position": "ST", "country": "ZA", "status": "bench"},
 
-    {"playerId": "player_za1_009_22", "name": "P. Jwara", "number": 12, "position": "ST", "country": "ZA", "status": "reserve"},
-    {"playerId": "player_za1_009_23", "name": "S. Ndlabi", "number": 21, "position": "RW", "country": "ZA", "status": "reserve"},
-    {"playerId": "player_za1_009_24", "name": "C. Sibiya", "number": 28, "position": "LW", "country": "ZA", "status": "reserve"},
-    {"playerId": "player_za1_009_25", "name": "B. Nyambe", "number": 47, "position": "ST", "country": "ZA", "status": "reserve"}
+    {"playerId": "player_za1_009_22", "name": "Lebohang Nkosi", "number": 16, "position": "GK", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_009_23", "name": "P. Jwara", "number": 12, "position": "ST", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_009_24", "name": "S. Ndlabi", "number": 21, "position": "RW", "country": "ZA", "status": "reserve"},
+    {"playerId": "player_za1_009_25", "name": "C. Sibiya", "number": 28, "position": "LW", "country": "ZA", "status": "reserve"}
   ],
+
   "tactics": {
     "formation": "4-2-3-1",
     "captain": 32,
