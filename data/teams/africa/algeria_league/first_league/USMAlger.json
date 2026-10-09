@@ -1,0 +1,58 @@
+{
+  "teamKey": "USMA",
+
+  "name": "USM Alger",
+
+  "logo": "assets/logos/africa/algeria/USMA.png",
+
+  "manager": {
+    "name": "Lamine N'Diaye",
+    "country": "SN"
+  },
+
+  "stadium": {
+    "name": "Stade du 5 Juillet 1962",
+    "capacity": 64000
+  },
+
+  "players": [
+    {"playerId": "player_dz1_016_01", "name": "Oussama Benbot", "number": 30, "position": "GK", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_016_02", "name": "Saâdi Radouani", "number": 19, "position": "RB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_016_03", "name": "Che Malone Junior", "number": 4, "position": "CB", "country": "CM", "status": "starter"},
+    {"playerId": "player_dz1_016_04", "name": "Achref Abada", "number": 28, "position": "CB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_016_05", "name": "Ilyes Chetti", "number": 23, "position": "LB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_016_06", "name": "Zakaria Draoui", "number": 6, "position": "CM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_016_07", "name": "Abdelraouf Benguit", "number": 8, "position": "CM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_016_08", "name": "Ahmed Khaldi", "number": 7, "position": "RW", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_016_09", "name": "Farid Boulaya", "number": 9, "position": "CAM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_016_10", "name": "Ghiles Guenaoui", "number": 26, "position": "LW", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_016_11", "name": "Mohamed El Amine Ramdaoui", "number": 15, "position": "ST", "country": "DZ", "status": "starter"},
+
+    {"playerId": "player_dz1_016_12", "name": "Abdelmoumen Sifour", "number": 1, "position": "GK", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_016_13", "name": "Walid Kourdi", "number": 2, "position": "RB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_016_14", "name": "Imadeddine Azzi", "number": 5, "position": "CB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_016_15", "name": "Haithem Loucif", "number": 12, "position": "RB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_016_16", "name": "Rayane Abdelmadjid Mahrouz", "number": 20, "position": "LB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_016_17", "name": "Glody Likonza", "number": 11, "position": "CM", "country": "CD", "status": "bench"},
+    {"playerId": "player_dz1_016_18", "name": "Aimé Tendeng", "number": 17, "position": "CAM", "country": "SN", "status": "bench"},
+    {"playerId": "player_dz1_016_19", "name": "Ala Eddine Limane", "number": 18, "position": "CM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_016_20", "name": "Mohamed Amine Gherbi", "number": 22, "position": "ST", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_016_21", "name": "Houssam Ghacha", "number": 27, "position": "ST", "country": "DZ", "status": "bench"},
+
+    {"playerId": "player_dz1_016_22", "name": "Kamel Soufi", "number": 16, "position": "GK", "country": "DZ", "status": "reserve"},
+    {"playerId": "player_dz1_016_23", "name": "Mahdi Bouhlala", "number": 53, "position": "CAM", "country": "DZ", "status": "reserve"},
+    {"playerId": "player_dz1_016_24", "name": "Mohamed Bouderbala", "number": 24, "position": "LW", "country": "DZ", "status": "reserve"},
+    {"playerId": "player_dz1_016_25", "name": "Dramane Kamagaté", "number": 29, "position": "ST", "country": "CI", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 19,
+    "setPieces": {
+      "penalty": 15,
+      "freeKick": 9,
+      "cornerLeft": 7,
+      "cornerRight": 26
+    }
+  }
+}

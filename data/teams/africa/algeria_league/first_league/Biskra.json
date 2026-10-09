@@ -1,0 +1,58 @@
+{
+  "teamKey": "Biskra",
+
+  "name": "US Biskra",
+
+  "logo": "assets/logos/africa/algeria/Biskra.png",
+
+  "manager": {
+    "name": "Nadhir Leknaoui",
+    "country": "DZ"
+  },
+
+  "stadium": {
+    "name": "Stade du 18 Février",
+    "capacity": 35000
+  },
+
+  "players": [
+    {"playerId": "player_dz1_005_01", "name": "Imad Benchlef", "number": 1, "position": "GK", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_005_02", "name": "Oussama Gatal", "number": 2, "position": "RB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_005_03", "name": "Ahmed Oukkal", "number": 4, "position": "CB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_005_04", "name": "Mohamed El Amine Barka", "number": 5, "position": "CB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_005_05", "name": "Ezechiel Zaddy", "number": 3, "position": "LB", "country": "CI", "status": "starter"},
+    {"playerId": "player_dz1_005_06", "name": "Abdelhafid Benamara", "number": 23, "position": "CDM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_005_07", "name": "Yassine Saindou", "number": 14, "position": "CDM", "country": "KM", "status": "starter"},
+    {"playerId": "player_dz1_005_08", "name": "Oualid Ardji", "number": 9, "position": "RW", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_005_09", "name": "Yacine Medane", "number": 8, "position": "CAM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_005_10", "name": "Chouaïb Debbih", "number": 10, "position": "LW", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_005_11", "name": "Oussama Darfalou", "number": 13, "position": "ST", "country": "DZ", "status": "starter"},
+
+    {"playerId": "player_dz1_005_12", "name": "Redouane Maachou", "number": 16, "position": "GK", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_005_13", "name": "Khaled Bouhakak", "number": 17, "position": "CB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_005_14", "name": "Riadh Dahmani", "number": 20, "position": "RB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_005_15", "name": "Ibrahim Bekakchi", "number": 22, "position": "CB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_005_16", "name": "Ishak Mayouf", "number": 27, "position": "CB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_005_17", "name": "Fares Bahlouli", "number": 7, "position": "CAM", "country": "FR", "status": "bench"},
+    {"playerId": "player_dz1_005_18", "name": "Mohamed Ouassim Zerari", "number": 12, "position": "CM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_005_19", "name": "Zakarya Kemoukh", "number": 24, "position": "CDM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_005_20", "name": "Laïd Saïdi", "number": 21, "position": "LW", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_005_21", "name": "Abdelkader Ghorab", "number": 29, "position": "ST", "country": "DZ", "status": "bench"},
+
+    {"playerId": "player_dz1_005_22", "name": "Lamdjed Houssem Eddine Guessoum", "number": 30, "position": "GK", "country": "DZ", "status": "reserve"},
+    {"playerId": "player_dz1_005_23", "name": "Ilyes Djebari", "number": 11, "position": "CM", "country": "DZ", "status": "reserve"},
+    {"playerId": "player_dz1_005_24", "name": "Aristote Zeke Omwele", "number": 28, "position": "RW", "country": "CD", "status": "reserve"},
+    {"playerId": "player_dz1_005_25", "name": "Imad Eddine Diha", "number": 31, "position": "ST", "country": "DZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 13,
+      "freeKick": 8,
+      "cornerLeft": 9,
+      "cornerRight": 10
+    }
+  }
+}

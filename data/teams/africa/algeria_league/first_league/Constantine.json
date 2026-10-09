@@ -1,0 +1,58 @@
+{
+  "teamKey": "CSC",
+
+  "name": "CS Constantine",
+
+  "logo": "assets/logos/africa/algeria/CSC.png",
+
+  "manager": {
+    "name": "Mondher Kebaier",
+    "country": "TN"
+  },
+
+  "stadium": {
+    "name": "Stade Chahid Hamlaoui",
+    "capacity": 22500
+  },
+
+  "players": [
+    {"playerId": "player_dz1_008_01", "name": "Zakaria Bouhalfaya", "number": 1, "position": "GK", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_008_02", "name": "Oussama Meddahi", "number": 12, "position": "RB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_008_03", "name": "Ahmed Ait Abdesslem", "number": 4, "position": "CB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_008_04", "name": "Johnson Radjabu Atibu", "number": 6, "position": "CB", "country": "CD", "status": "starter"},
+    {"playerId": "player_dz1_008_05", "name": "Mohammed Fayez Belqourai", "number": 2, "position": "LB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_008_06", "name": "Djihad Bizimana", "number": 14, "position": "CM", "country": "RW", "status": "starter"},
+    {"playerId": "player_dz1_008_07", "name": "Miloud Rebiai", "number": 25, "position": "CDM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_008_08", "name": "Yawo Evra Agbagno", "number": 9, "position": "RW", "country": "TG", "status": "starter"},
+    {"playerId": "player_dz1_008_09", "name": "Brahim Dib", "number": 10, "position": "CAM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_008_10", "name": "Aimen Abdelaziz Lahmeri", "number": 17, "position": "LW", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_008_11", "name": "Hamid Djaouchi", "number": 19, "position": "ST", "country": "DZ", "status": "starter"},
+
+    {"playerId": "player_dz1_008_12", "name": "Oussama Mellala", "number": 16, "position": "GK", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_008_13", "name": "Yacine Zeghad", "number": 5, "position": "CB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_008_14", "name": "Imad Din Ben Musa", "number": 13, "position": "RB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_008_15", "name": "Abdelmoumen Chikhi", "number": 27, "position": "LB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_008_16", "name": "Rogers Torach", "number": 30, "position": "CB", "country": "UG", "status": "bench"},
+    {"playerId": "player_dz1_008_17", "name": "Hadji Chekal Affari", "number": 8, "position": "CM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_008_18", "name": "Mohamed Islam Bakir", "number": 11, "position": "CM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_008_19", "name": "Mostafa Berkane", "number": 15, "position": "CM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_008_20", "name": "Oualaa Moundhir Bouzekri", "number": 7, "position": "LW", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_008_21", "name": "Moslem Anatouf", "number": 20, "position": "ST", "country": "DZ", "status": "bench"},
+
+    {"playerId": "player_dz1_008_22", "name": "Abdelmalek Necir", "number": 23, "position": "GK", "country": "DZ", "status": "reserve"},
+    {"playerId": "player_dz1_008_23", "name": "Louai Bouacida", "number": 22, "position": "CDM", "country": "DZ", "status": "reserve"},
+    {"playerId": "player_dz1_008_24", "name": "Nassim L'Ghoul", "number": 26, "position": "CAM", "country": "DZ", "status": "reserve"},
+    {"playerId": "player_dz1_008_25", "name": "Abderraouf Boumala", "number": 48, "position": "ST", "country": "DZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 19,
+      "freeKick": 10,
+      "cornerLeft": 17,
+      "cornerRight": 9
+    }
+  }
+}

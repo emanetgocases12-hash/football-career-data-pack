@@ -1,0 +1,58 @@
+{
+  "teamKey": "Khench",
+
+  "name": "USM Khenchela",
+
+  "logo": "assets/logos/africa/algeria/Khench.png",
+
+  "manager": {
+    "name": "Billel Dziri",
+    "country": "DZ"
+  },
+
+  "stadium": {
+    "name": "Stade Amar Hamam",
+    "capacity": 10000
+  },
+
+  "players": [
+    {"playerId": "player_dz1_010_01", "name": "Abdelkader Morcely", "number": 1, "position": "GK", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_010_02", "name": "Mohamed Abdelali Guemroud", "number": 22, "position": "RB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_010_03", "name": "Badreddine Souyad", "number": 5, "position": "CB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_010_04", "name": "Serge Badjo", "number": 4, "position": "CB", "country": "CI", "status": "starter"},
+    {"playerId": "player_dz1_010_05", "name": "Nabil Lamara", "number": 15, "position": "LB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_010_06", "name": "Ahmida Zenasni", "number": 6, "position": "CDM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_010_07", "name": "Abdelhakim Sameur", "number": 8, "position": "CDM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_010_08", "name": "Ammar Oukil", "number": 10, "position": "RW", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_010_09", "name": "Ali Mouadh Ben Zarour", "number": 32, "position": "CAM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_010_10", "name": "Abdelhak Askar", "number": 9, "position": "LW", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_010_11", "name": "William Matam", "number": 18, "position": "ST", "country": "CM", "status": "starter"},
+
+    {"playerId": "player_dz1_010_12", "name": "Oussama Litim", "number": 16, "position": "GK", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_010_13", "name": "Wail Guerroudja", "number": 3, "position": "CB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_010_14", "name": "Abdelhamid Dris", "number": 19, "position": "CB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_010_15", "name": "Aymen Khadraoui", "number": 33, "position": "CB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_010_16", "name": "Hadji Chekal Affari", "number": 7, "position": "CM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_010_17", "name": "Zin Eddine Meddour", "number": 12, "position": "CM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_010_18", "name": "Adem Aichouche", "number": 24, "position": "CM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_010_19", "name": "Aymen Bendaoud", "number": 25, "position": "CDM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_010_20", "name": "Ayoub Qaboush", "number": 17, "position": "ST", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_010_21", "name": "Ishak Talal Boussouf", "number": 20, "position": "RW", "country": "DZ", "status": "bench"},
+
+    {"playerId": "player_dz1_010_22", "name": "Yasser Zitouni", "number": 30, "position": "GK", "country": "DZ", "status": "reserve"},
+    {"playerId": "player_dz1_010_23", "name": "Franck Etouga", "number": 21, "position": "ST", "country": "CM", "status": "reserve"},
+    {"playerId": "player_dz1_010_24", "name": "Hamid Djaouchi", "number": 27, "position": "ST", "country": "DZ", "status": "reserve"},
+    {"playerId": "player_dz1_010_25", "name": "Bougoursa Wassim", "number": 47, "position": "ST", "country": "DZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 5,
+    "setPieces": {
+      "penalty": 18,
+      "freeKick": 32,
+      "cornerLeft": 10,
+      "cornerRight": 9
+    }
+  }
+}

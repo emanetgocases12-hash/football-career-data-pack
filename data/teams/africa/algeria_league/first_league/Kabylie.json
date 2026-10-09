@@ -1,0 +1,58 @@
+{
+  "teamKey": "Kabyli",
+
+  "name": "JS Kabylie",
+
+  "logo": "assets/logos/africa/algeria/Kabyli.png",
+
+  "manager": {
+    "name": "Karim Belhocine",
+    "country": "FR"
+  },
+
+  "stadium": {
+    "name": "Stade Hocine Aït Ahmed",
+    "capacity": 50766
+  },
+
+  "players": [
+    {"playerId": "player_dz1_009_01", "name": "Alexis Guendouz", "number": 16, "position": "GK", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_009_02", "name": "Mohamed Réda Hamidi", "number": 17, "position": "RB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_009_03", "name": "Mostapha Rezkallah Bott", "number": 4, "position": "CB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_009_04", "name": "Mohamed Amine Madani", "number": 20, "position": "CB", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_009_05", "name": "Aly Abeid", "number": 13, "position": "LB", "country": "MR", "status": "starter"},
+    {"playerId": "player_dz1_009_06", "name": "Messala Merbah", "number": 5, "position": "CDM", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_009_07", "name": "Josaphat Bada", "number": 8, "position": "CM", "country": "CI", "status": "starter"},
+    {"playerId": "player_dz1_009_08", "name": "Alphonce Msanga", "number": 14, "position": "CM", "country": "TZ", "status": "starter"},
+    {"playerId": "player_dz1_009_09", "name": "Billel Messaoudi", "number": 9, "position": "RW", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_009_10", "name": "Lahlou Akhrib", "number": 11, "position": "LW", "country": "DZ", "status": "starter"},
+    {"playerId": "player_dz1_009_11", "name": "Aimen Mahious", "number": 18, "position": "ST", "country": "DZ", "status": "starter"},
+
+    {"playerId": "player_dz1_009_12", "name": "Seif Benrabah", "number": 30, "position": "GK", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_009_13", "name": "Toufik Cherifi", "number": 6, "position": "CB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_009_14", "name": "Abdellah Bendouma", "number": 19, "position": "LB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_009_15", "name": "Nouh Mohamed El Abd", "number": 23, "position": "CB", "country": "MR", "status": "bench"},
+    {"playerId": "player_dz1_009_16", "name": "Chouaib Boulkaboul", "number": 24, "position": "LB", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_009_17", "name": "Youcef Izem", "number": 15, "position": "CM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_009_18", "name": "Samy Benchama", "number": 25, "position": "CM", "country": "FR", "status": "bench"},
+    {"playerId": "player_dz1_009_19", "name": "Ayoub Sadahine", "number": 26, "position": "CDM", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_009_20", "name": "Badis Bouamama", "number": 10, "position": "RW", "country": "DZ", "status": "bench"},
+    {"playerId": "player_dz1_009_21", "name": "Yannis Lagha", "number": 12, "position": "ST", "country": "DZ", "status": "bench"},
+
+    {"playerId": "player_dz1_009_22", "name": "Imad Kesraoui", "number": 31, "position": "GK", "country": "DZ", "status": "reserve"},
+    {"playerId": "player_dz1_009_23", "name": "Mustapha Djabril Soukkou", "number": 7, "position": "LW", "country": "DZ", "status": "reserve"},
+    {"playerId": "player_dz1_009_24", "name": "Abdennour Iheb Belhocini", "number": 21, "position": "RW", "country": "DZ", "status": "reserve"},
+    {"playerId": "player_dz1_009_25", "name": "Islam Eddine Slimane Tichtich", "number": 22, "position": "RW", "country": "DZ", "status": "reserve"}
+  ],
+
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 20,
+    "setPieces": {
+      "penalty": 18,
+      "freeKick": 11,
+      "cornerLeft": 9,
+      "cornerRight": 11
+    }
+  }
+}
