@@ -1,58 +1,53 @@
+
 {
-    "teamKey": "Panthr",
-  
-    "name": "Panthrakikos",
-  
-    "logo": "assets/logos/europe/greek/Panthr.png",
-  
-    "manager": {
-      "name": "Giannis Apostolidis",
-      "country": "GR"
-    },
-  
-    "stadium": {
-      "name": "Dimotiko Stadio Komotinis",
-      "capacity": 6198
-    },
-  
-    "players": [
-      {"playerId": "player_gr2_013_01", "name": "Fotis Sgouris", "number": 1, "position": "GK", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_013_02", "name": "Paraskevas Doumanis", "number": 24, "position": "RB", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_013_03", "name": "Thanasis Giannarakis", "number": 14, "position": "CB", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_013_04", "name": "Juan Larrea", "number": 3, "position": "CB", "country": "AR", "status": "starter"},
-      {"playerId": "player_gr2_013_05", "name": "Giannis Pechlivanopoulos", "number": 6, "position": "LB", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_013_06", "name": "Giannis Peios", "number": 5, "position": "CDM", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_013_07", "name": "Christos Voutsas", "number": 8, "position": "CM", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_013_08", "name": "Florian Debrova", "number": 22, "position": "RW", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_013_09", "name": "Andreas Athanasakopoulos", "number": 21, "position": "CAM", "country": "GR", "status": "starter"},
-      {"playerId": "player_gr2_013_10", "name": "Santiago Patroni", "number": 26, "position": "LW", "country": "AR", "status": "starter"},
-      {"playerId": "player_gr2_013_11", "name": "Apostolos Sarantidis", "number": 9, "position": "ST", "country": "GR", "status": "starter"},
-  
-      {"playerId": "player_gr2_013_12", "name": "Alexis Chayka", "number": 12, "position": "GK", "country": "UA", "status": "bench"},
-      {"playerId": "player_gr2_013_13", "name": "Christos Sapnaras", "number": 4, "position": "CB", "country": "GR", "status": "bench"},
-      {"playerId": "player_gr2_013_14", "name": "Angelos Zioulis", "number": 15, "position": "CB", "country": "GR", "status": "bench"},
-      {"playerId": "player_gr2_013_15", "name": "Koroneos Sevastidis", "number": 25, "position": "CB", "country": "GR", "status": "bench"},
-      {"playerId": "player_gr2_013_16", "name": "Panagiotis Papakonstantinou", "number": 7, "position": "CDM", "country": "GR", "status": "bench"},
-      {"playerId": "player_gr2_013_17", "name": "Giorgos Tselebakis", "number": 16, "position": "CM", "country": "GR", "status": "bench"},
-      {"playerId": "player_gr2_013_18", "name": "Routsis", "number": 19, "position": "CM", "country": "GR", "status": "bench"},
-      {"playerId": "player_gr2_013_19", "name": "Ignatius", "number": 17, "position": "LW", "country": "NG", "status": "bench"},
-      {"playerId": "player_gr2_013_20", "name": "Georgios Notas", "number": 64, "position": "LW", "country": "GR", "status": "bench"},
-      {"playerId": "player_gr2_013_21", "name": "Vasilios Gordeziani", "number": 46, "position": "ST", "country": "GE", "status": "bench"},
-  
-      {"playerId": "player_gr2_013_22", "name": "Nikos Mantzaris", "number": 30, "position": "GK", "country": "GR", "status": "reserve"},
-      {"playerId": "player_gr2_013_23", "name": "Pachoumis", "number": 10, "position": "CAM", "country": "GR", "status": "reserve"},
-      {"playerId": "player_gr2_013_24", "name": "Zonios", "number": 11, "position": "LW", "country": "GR", "status": "reserve"},
-      {"playerId": "player_gr2_013_25", "name": "Pachoumis", "number": 77, "position": "ST", "country": "GR", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 14,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 21,
-        "cornerLeft": 22,
-        "cornerRight": 26
-      }
+  "teamKey": "Panthr",
+  "name": "Panthrakikos",
+  "logo": "assets/logos/europe/greek/Panthr.png",
+  "manager": {
+    "name": "Giannis Apostolidis",
+    "country": "GR"
+  },
+  "stadium": {
+    "name": "Dimotiko Stadio Komotinis",
+    "capacity": 6198
+  },
+  "players": [
+    {"playerId": "player_gr2_013_01", "name": "Fotis Sgouris", "number": 1, "position": "GK", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_013_02", "name": "Paraskevas Doumanis", "number": 24, "position": "RB", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_013_03", "name": "Thanasis Giannarakis", "number": 14, "position": "CB", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_013_04", "name": "Juan Larrea", "number": 3, "position": "CB", "country": "AR", "status": "starter"},
+    {"playerId": "player_gr2_013_05", "name": "Giannis Pechlivanopoulos", "number": 6, "position": "LB", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_013_06", "name": "Giannis Peios", "number": 5, "position": "CDM", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_013_07", "name": "Christos Voutsas", "number": 8, "position": "CM", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_013_08", "name": "Florian Debrova", "number": 22, "position": "RW", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_013_09", "name": "Andreas Athanasakopoulos", "number": 21, "position": "CAM", "country": "GR", "status": "starter"},
+    {"playerId": "player_gr2_013_10", "name": "Santiago Patroni", "number": 26, "position": "LW", "country": "AR", "status": "starter"},
+    {"playerId": "player_gr2_013_11", "name": "Apostolos Sarantidis", "number": 9, "position": "ST", "country": "GR", "status": "starter"},
+
+    {"playerId": "player_gr2_013_12", "name": "Panagiotis Paiteris", "number": 12, "position": "GK", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_013_13", "name": "Christos Sapnaras", "number": 4, "position": "CB", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_013_14", "name": "Angelos Zioulis", "number": 15, "position": "CB", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_013_15", "name": "Koroneos Sevastidis", "number": 25, "position": "CB", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_013_16", "name": "Panagiotis Papakonstantinou", "number": 7, "position": "CDM", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_013_17", "name": "Giorgos Tselebakis", "number": 16, "position": "CM", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_013_18", "name": "Routsis", "number": 19, "position": "CM", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_013_19", "name": "Ignatius", "number": 17, "position": "LW", "country": "NG", "status": "bench"},
+    {"playerId": "player_gr2_013_20", "name": "Georgios Notas", "number": 64, "position": "LW", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_013_21", "name": "Vasilios Gordeziani", "number": 46, "position": "ST", "country": "GE", "status": "bench"},
+
+    {"playerId": "player_gr2_013_22", "name": "Charalampos Tasidis", "number": 30, "position": "GK", "country": "GR", "status": "reserve"},
+    {"playerId": "player_gr2_013_23", "name": "Christos Pachoumis", "number": 10, "position": "CAM", "country": "GR", "status": "reserve"},
+    {"playerId": "player_gr2_013_24", "name": "Zonios", "number": 11, "position": "LW", "country": "GR", "status": "reserve"},
+    {"playerId": "player_gr2_013_25", "name": "Kyriakos Pachoumis", "number": 77, "position": "ST", "country": "GR", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 14,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 21,
+      "cornerLeft": 22,
+      "cornerRight": 26
     }
   }
+}
