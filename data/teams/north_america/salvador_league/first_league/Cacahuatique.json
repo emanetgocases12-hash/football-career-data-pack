@@ -1,20 +1,16 @@
+
 {
   "teamKey": "Cacahu",
-
   "name": "CD Cacahuatique",
-
   "logo": "assets/logos/north_america/salvador/Cacahu.png",
-
   "manager": {
     "name": "Ángel Piazzi",
     "country": "AR"
   },
-
   "stadium": {
     "name": "Polideportivo de Chapeltique",
     "capacity": 5000
   },
-
   "players": [
     {"playerId": "player_sv1_005_01", "name": "Jeremy Rodríguez", "number": 30, "position": "GK", "country": "SV", "status": "starter"},
     {"playerId": "player_sv1_005_02", "name": "Salvador Galindo", "number": 2, "position": "RB", "country": "SV", "status": "starter"},
@@ -36,15 +32,14 @@
     {"playerId": "player_sv1_005_17", "name": "Paolo Ulloa", "number": 23, "position": "RW", "country": "SV", "status": "bench"},
     {"playerId": "player_sv1_005_18", "name": "Melvin Alfaro", "number": 8, "position": "CM", "country": "SV", "status": "bench"},
     {"playerId": "player_sv1_005_19", "name": "Hernán González", "number": 7, "position": "CM", "country": "SV", "status": "bench"},
-    {"playerId": "player_sv1_005_20", "name": "Wilberth Hernández", "number": 17, "position": "ST", "country": "SV", "status": "bench"},
+    {"playerId": "player_sv1_005_20", "name": "Dany Javier Cetré Caicedo", "number": 17, "position": "ST", "country": "EC", "status": "bench"},
     {"playerId": "player_sv1_005_21", "name": "Juan Sánchez", "number": 12, "position": "LW", "country": "SV", "status": "bench"},
 
-    {"playerId": "player_sv1_005_22", "name": "Wilberth Hernandez", "number": 1, "position": "GK", "country": "SV", "status": "reserve"},
+    {"playerId": "player_sv1_005_22", "name": "Wilberth Hernández", "number": 1, "position": "GK", "country": "SV", "status": "reserve"},
     {"playerId": "player_sv1_005_23", "name": "José Rodríguez", "number": 19, "position": "CM", "country": "SV", "status": "reserve"},
     {"playerId": "player_sv1_005_24", "name": "Byron Mendoza", "number": 22, "position": "CM", "country": "SV", "status": "reserve"},
     {"playerId": "player_sv1_005_25", "name": "Misael Flores", "number": 26, "position": "LB", "country": "SV", "status": "reserve"}
   ],
-
   "tactics": {
     "formation": "4-2-3-1",
     "captain": 30,
