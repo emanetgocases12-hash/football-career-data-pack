@@ -1,20 +1,16 @@
+
 {
   "teamKey": "AFAD",
-
   "name": "AFAD Plateau",
-
   "logo": "assets/logos/africa/ivory/AFAD.png",
-
   "manager": {
     "name": "Koffi Firmin Kouakou",
     "country": "CI"
   },
-
   "stadium": {
     "name": "Stade Municipal d'Abidjan",
     "capacity": 1100
   },
-
   "players": [
     {"playerId": "player_ci1_001_01", "name": "Guy Franck Okahi", "number": 1, "position": "GK", "country": "CI", "status": "starter"},
     {"playerId": "player_ci1_001_02", "name": "Franck Amos Yoan", "number": 2, "position": "RB", "country": "CI", "status": "starter"},
@@ -29,14 +25,14 @@
     {"playerId": "player_ci1_001_11", "name": "Emmanuel Fabrice Zehi", "number": 9, "position": "ST", "country": "CI", "status": "starter"},
 
     {"playerId": "player_ci1_001_12", "name": "Nabil Sanguisso", "number": 12, "position": "GK", "country": "CI", "status": "bench"},
-    {"playerId": "player_ci1_001_13", "name": "Achirafou Yaya", "number": 13, "position": "CB", "country": "TG", "status": "bench"},
+    {"playerId": "player_ci1_001_13", "name": "Vianey Bregui", "number": 13, "position": "CB", "country": "CI", "status": "bench"},
     {"playerId": "player_ci1_001_14", "name": "Ismaila Sanogo", "number": 14, "position": "CB", "country": "CI", "status": "bench"},
     {"playerId": "player_ci1_001_15", "name": "Sidiki Traoré", "number": 15, "position": "LB", "country": "CI", "status": "bench"},
     {"playerId": "player_ci1_001_16", "name": "Ibrahim Riqui Koné", "number": 16, "position": "CM", "country": "CI", "status": "bench"},
     {"playerId": "player_ci1_001_17", "name": "Sanga Topio Coulibaly", "number": 17, "position": "CM", "country": "CI", "status": "bench"},
     {"playerId": "player_ci1_001_18", "name": "Yaya Bakayoko", "number": 18, "position": "CDM", "country": "CI", "status": "bench"},
     {"playerId": "player_ci1_001_19", "name": "Yomi Junior Touré", "number": 19, "position": "RW", "country": "CI", "status": "bench"},
-    {"playerId": "player_ci1_001_20", "name": "Hamed Abdel-Aziz Bamba", "number": 20, "position": "CAM", "country": "CI", "status": "bench"},
+    {"playerId": "player_ci1_001_20", "name": "Kossi Jude Adjavoin", "number": 20, "position": "CM", "country": "CI", "status": "bench"},
     {"playerId": "player_ci1_001_21", "name": "Steve Junior Agbo-Panzo", "number": 21, "position": "ST", "country": "CI", "status": "bench"},
 
     {"playerId": "player_ci1_001_22", "name": "Achirafou Yaya", "number": 30, "position": "GK", "country": "TG", "status": "reserve"},
@@ -44,7 +40,6 @@
     {"playerId": "player_ci1_001_24", "name": "Michel Amani", "number": 24, "position": "ST", "country": "CI", "status": "reserve"},
     {"playerId": "player_ci1_001_25", "name": "Jean-Marc Koicou Junior", "number": 25, "position": "LW", "country": "CI", "status": "reserve"}
   ],
-
   "tactics": {
     "formation": "4-2-3-1",
     "captain": 6,
