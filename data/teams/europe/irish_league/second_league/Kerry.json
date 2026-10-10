@@ -1,58 +1,53 @@
+
 {
-    "teamKey": "Kerry",
-  
-    "name": "Kerry Football Club",
-  
-    "logo": "assets/logos/europe/irish/Kerry.png",
-  
-    "manager": {
-      "name": "Colin Healy",
-      "country": "IE"
-    },
-  
-    "stadium": {
-      "name": "Mounthawk Park",
-      "capacity": 1200
-    },
-  
-    "players": [
-      {"playerId": "player_ie2_005_01", "name": "Antonio Tuta", "number": 1, "position": "GK", "country": "HR", "status": "starter"},
-      {"playerId": "player_ie2_005_02", "name": "Sean McGrath", "number": 2, "position": "RB", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_005_03", "name": "Darragh Foley", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_005_04", "name": "Andrew Spain", "number": 5, "position": "CB", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_005_05", "name": "Kevin Williams", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_005_06", "name": "Sean McGrath", "number": 6, "position": "CM", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_005_07", "name": "Steven Healy", "number": 8, "position": "CM", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_005_08", "name": "Ryan Kelliher", "number": 11, "position": "RW", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_005_09", "name": "Cian Brosnan", "number": 10, "position": "CAM", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_005_10", "name": "Daniel Okwute", "number": 7, "position": "LW", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_005_11", "name": "Nathan Gleeson", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
-  
-      {"playerId": "player_ie2_005_12", "name": "Wayne Guthrie", "number": 13, "position": "GK", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_005_13", "name": "Sean O'Connell", "number": 14, "position": "CB", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_005_14", "name": "Graham O'Reilly", "number": 15, "position": "CB", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_005_15", "name": "Darragh O'Sullivan", "number": 16, "position": "RB", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_005_16", "name": "Calum Walsh", "number": 17, "position": "CM", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_005_17", "name": "Aidan McCarthy", "number": 18, "position": "CM", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_005_18", "name": "Leo Gaxha", "number": 19, "position": "RW", "country": "AL", "status": "bench"},
-      {"playerId": "player_ie2_005_19", "name": "Kennedy Amechi", "number": 20, "position": "ST", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_005_20", "name": "Tomas O'Connor", "number": 21, "position": "ST", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_005_21", "name": "Graham O'Sullivan", "number": 22, "position": "LW", "country": "IE", "status": "bench"},
-  
-      {"playerId": "player_ie2_005_22", "name": "Fionn Barrett", "number": 30, "position": "GK", "country": "IE", "status": "reserve"},
-      {"playerId": "player_ie2_005_23", "name": "Sean Kennedy", "number": 23, "position": "CB", "country": "IE", "status": "reserve"},
-      {"playerId": "player_ie2_005_24", "name": "Mikey McCarthy", "number": 24, "position": "CM", "country": "IE", "status": "reserve"},
-      {"playerId": "player_ie2_005_25", "name": "Noah Falk", "number": 25, "position": "ST", "country": "IE", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 6,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 10,
-        "cornerLeft": 11,
-        "cornerRight": 7
-      }
+  "teamKey": "Kerry",
+  "name": "Kerry Football Club",
+  "logo": "assets/logos/europe/irish/Kerry.png",
+  "manager": {
+    "name": "Colin Healy",
+    "country": "IE"
+  },
+  "stadium": {
+    "name": "Mounthawk Park",
+    "capacity": 1200
+  },
+  "players": [
+    {"playerId": "player_ie2_005_01", "name": "Harry Halwax", "number": 44, "position": "GK", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_005_02", "name": "Finn Barrett", "number": 2, "position": "RB", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_005_03", "name": "Kilian Cantwell", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_005_04", "name": "Jonas Häkkinen", "number": 14, "position": "CB", "country": "FI", "status": "starter"},
+    {"playerId": "player_ie2_005_05", "name": "Sean O'Connell", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_005_06", "name": "Niall Brookwell", "number": 28, "position": "CDM", "country": "GB-ENG", "status": "starter"},
+    {"playerId": "player_ie2_005_07", "name": "Vincent Borden", "number": 24, "position": "CM", "country": "US", "status": "starter"},
+    {"playerId": "player_ie2_005_08", "name": "Daniel Okwute", "number": 11, "position": "RW", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_005_09", "name": "Sean McGrath", "number": 7, "position": "CAM", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_005_10", "name": "Cian Brosnan", "number": 17, "position": "LW", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_005_11", "name": "Ryan Kelliher", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
+
+    {"playerId": "player_ie2_005_12", "name": "Matthew Connor", "number": 1, "position": "GK", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_005_13", "name": "Samuel Aladesanusi", "number": 18, "position": "CB", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_005_14", "name": "Ewan Lee", "number": 29, "position": "CB", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_005_15", "name": "Kieran Cooney", "number": 5, "position": "RB", "country": "KN", "status": "bench"},
+    {"playerId": "player_ie2_005_16", "name": "Shayne Stack", "number": 32, "position": "CB", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_005_17", "name": "Arran Healy", "number": 35, "position": "CM", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_005_18", "name": "Ryan Perez", "number": 23, "position": "RM", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_005_19", "name": "Robert Keane", "number": 34, "position": "CAM", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_005_20", "name": "Cian Murphy", "number": 10, "position": "ST", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_005_21", "name": "Luke Palmer", "number": 21, "position": "ST", "country": "IE", "status": "bench"},
+
+    {"playerId": "player_ie2_005_22", "name": "Harvey Mangan", "number": 40, "position": "GK", "country": "IE", "status": "reserve"},
+    {"playerId": "player_ie2_005_23", "name": "Oran Horgan", "number": 22, "position": "CB", "country": "IE", "status": "reserve"},
+    {"playerId": "player_ie2_005_24", "name": "Cian Bargary", "number": 41, "position": "RW", "country": "IE", "status": "reserve"},
+    {"playerId": "player_ie2_005_25", "name": "Brandon Bermingham", "number": 19, "position": "ST", "country": "IE", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 14,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 7,
+      "cornerLeft": 11,
+      "cornerRight": 17
     }
   }
+}
