@@ -1,58 +1,53 @@
+
 {
-    "teamKey": "UC Dbln",
-  
-    "name": "University College Dublin",
-  
-    "logo": "assets/logos/europe/irish/UCD.png",
-  
-    "manager": {
-      "name": "William O'Connor",
-      "country": "IE"
-    },
-  
-    "stadium": {
-      "name": "UCD Bowl",
-      "capacity": 3000
-    },
-  
-    "players": [
-      {"playerId": "player_ie2_008_01", "name": "Lorcan Healy", "number": 1, "position": "GK", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_008_02", "name": "Harvey O'Brien", "number": 2, "position": "RB", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_008_03", "name": "Harry Whelan", "number": 4, "position": "CB", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_008_04", "name": "Alex Dunne", "number": 5, "position": "CB", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_008_05", "name": "Adam Wells", "number": 3, "position": "LB", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_008_06", "name": "Ciaran Behan", "number": 8, "position": "CM", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_008_07", "name": "Sean Brennan", "number": 6, "position": "CM", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_008_08", "name": "Mikey Raggett", "number": 11, "position": "RW", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_008_09", "name": "Donal Higgins", "number": 10, "position": "CAM", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_008_10", "name": "Jake Doyle", "number": 7, "position": "LW", "country": "IE", "status": "starter"},
-      {"playerId": "player_ie2_008_11", "name": "Mikey McCullagh", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
-  
-      {"playerId": "player_ie2_008_12", "name": "Sean Brennan", "number": 13, "position": "GK", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_008_13", "name": "Dara Keane", "number": 14, "position": "CB", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_008_14", "name": "Sam Norval", "number": 15, "position": "RB", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_008_15", "name": "Cathal McCarthy", "number": 16, "position": "CM", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_008_16", "name": "Ronan Finn", "number": 17, "position": "CM", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_008_17", "name": "Matthew Alonge", "number": 18, "position": "RW", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_008_18", "name": "David O'Connor", "number": 19, "position": "ST", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_008_19", "name": "Niall Holohan", "number": 20, "position": "CAM", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_008_20", "name": "Kyle Donoghue", "number": 21, "position": "CM", "country": "IE", "status": "bench"},
-      {"playerId": "player_ie2_008_21", "name": "Mark Dignam", "number": 22, "position": "LB", "country": "IE", "status": "bench"},
-  
-      {"playerId": "player_ie2_008_22", "name": "Conor Walsh", "number": 30, "position": "GK", "country": "IE", "status": "reserve"},
-      {"playerId": "player_ie2_008_23", "name": "Evan Caffrey", "number": 23, "position": "CM", "country": "IE", "status": "reserve"},
-      {"playerId": "player_ie2_008_24", "name": "Aaron Lennon", "number": 24, "position": "LW", "country": "IE", "status": "reserve"},
-      {"playerId": "player_ie2_008_25", "name": "Sean McGrath", "number": 25, "position": "ST", "country": "IE", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 8,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 10,
-        "cornerLeft": 11,
-        "cornerRight": 7
-      }
+  "teamKey": "UC Dbln",
+  "name": "University College Dublin",
+  "logo": "assets/logos/europe/irish/UCD.png",
+  "manager": {
+    "name": "William O'Connor",
+    "country": "IE"
+  },
+  "stadium": {
+    "name": "UCD Bowl",
+    "capacity": 3000
+  },
+  "players": [
+    {"playerId": "player_ie2_008_01", "name": "Dara Kavanagh", "number": 1, "position": "GK", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_008_02", "name": "Luke O'Regan", "number": 26, "position": "RB", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_008_03", "name": "Sean Murphy", "number": 2, "position": "CB", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_008_04", "name": "Carl Lennox", "number": 5, "position": "CB", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_008_05", "name": "Sean Mackey", "number": 36, "position": "LB", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_008_06", "name": "Adam Wells", "number": 6, "position": "CDM", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_008_07", "name": "Louis Dignam", "number": 8, "position": "CM", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_008_08", "name": "Mikey McCullagh", "number": 7, "position": "RW", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_008_09", "name": "Ciaran Behan", "number": 10, "position": "CAM", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_008_10", "name": "Tariq Almasry", "number": 29, "position": "LM", "country": "IE", "status": "starter"},
+    {"playerId": "player_ie2_008_11", "name": "Mikey Raggett", "number": 9, "position": "ST", "country": "IE", "status": "starter"},
+
+    {"playerId": "player_ie2_008_12", "name": "Noah Douglas", "number": 16, "position": "GK", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_008_13", "name": "Eoin Sheeran", "number": 27, "position": "CB", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_008_14", "name": "Harry Whelan", "number": 14, "position": "CB", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_008_15", "name": "Kyle Donoghue", "number": 35, "position": "LB", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_008_16", "name": "Thomas Morley", "number": 22, "position": "CDM", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_008_17", "name": "Stephen Mohan", "number": 31, "position": "CM", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_008_18", "name": "Jayden Goad", "number": 13, "position": "CM", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_008_19", "name": "Matthew Alonge", "number": 12, "position": "CAM", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_008_20", "name": "Odhran MacLaughlin", "number": 18, "position": "RW", "country": "IE", "status": "bench"},
+    {"playerId": "player_ie2_008_21", "name": "Hugh Smith", "number": 11, "position": "ST", "country": "IE", "status": "bench"},
+
+    {"playerId": "player_ie2_008_22", "name": "Karl Andrade", "number": 20, "position": "GK", "country": "IE", "status": "reserve"},
+    {"playerId": "player_ie2_008_23", "name": "Luca Cailloce", "number": 3, "position": "CB", "country": "IE", "status": "reserve"},
+    {"playerId": "player_ie2_008_24", "name": "Colin Bolton", "number": 19, "position": "CM", "country": "IE", "status": "reserve"},
+    {"playerId": "player_ie2_008_25", "name": "Charles Akinrintayo", "number": 15, "position": "ST", "country": "IE", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 6,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 7,
+      "cornerRight": 29
     }
   }
+}
