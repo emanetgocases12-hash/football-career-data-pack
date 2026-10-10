@@ -1,58 +1,53 @@
+
 {
-    "teamKey": "Riteri",
-  
-    "name": "FK Riteriai",
-  
-    "logo": "assets/logos/europe/litvanya/Riteriai.png",
-  
-    "manager": {
-      "name": "Ayhan Gargili",
-      "country": "TR"
-    },
-  
-    "stadium": {
-      "name": "FK Žalgiris namų stadionas",
-      "capacity": 5067
-    },
-  
-    "players": [
-      {"playerId": "player_lt1_006_01", "name": "Simone Moschin", "number": 26, "position": "GK", "country": "IT", "status": "starter"},
-      {"playerId": "player_lt1_006_02", "name": "Egidijus Vaitkūnas", "number": 2, "position": "RB", "country": "LT", "status": "starter"},
-      {"playerId": "player_lt1_006_03", "name": "Marko Karamarko", "number": 4, "position": "CB", "country": "HR", "status": "starter"},
-      {"playerId": "player_lt1_006_04", "name": "Milanas Rutkovskis", "number": 5, "position": "CB", "country": "LT", "status": "starter"},
-      {"playerId": "player_lt1_006_05", "name": "Petro Harapko", "number": 3, "position": "LB", "country": "UA", "status": "starter"},
-      {"playerId": "player_lt1_006_06", "name": "Armandas Šveistrys", "number": 6, "position": "CM", "country": "LT", "status": "starter"},
-      {"playerId": "player_lt1_006_07", "name": "Simas Civilka", "number": 10, "position": "CM", "country": "LT", "status": "starter"},
-      {"playerId": "player_lt1_006_08", "name": "Arvydas Novikovas", "number": 11, "position": "RW", "country": "LT", "status": "starter"},
-      {"playerId": "player_lt1_006_09", "name": "Deimantas Rimpa", "number": 23, "position": "CAM", "country": "LT", "status": "starter"},
-      {"playerId": "player_lt1_006_10", "name": "Tautvydas Alekna", "number": 21, "position": "LW", "country": "LT", "status": "starter"},
-      {"playerId": "player_lt1_006_11", "name": "Meinardas Mikulėnas", "number": 9, "position": "ST", "country": "LT", "status": "starter"},
-  
-      {"playerId": "player_lt1_006_12", "name": "Kajus Andraikėnas", "number": 1, "position": "GK", "country": "LT", "status": "bench"},
-      {"playerId": "player_lt1_006_13", "name": "Tautvydas Alekna", "number": 20, "position": "ST", "country": "LT", "status": "bench"},
-      {"playerId": "player_lt1_006_14", "name": "Vukašin Bulatović", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
-      {"playerId": "player_lt1_006_15", "name": "Matas Latvys", "number": 15, "position": "CB", "country": "LT", "status": "bench"},
-      {"playerId": "player_lt1_006_16", "name": "Vakaris Gurkšnys", "number": 16, "position": "LB", "country": "LT", "status": "bench"},
-      {"playerId": "player_lt1_006_17", "name": "Dominykas Gelombickas", "number": 27, "position": "CM", "country": "LT", "status": "bench"},
-      {"playerId": "player_lt1_006_18", "name": "Andrius Kaulinis", "number": 8, "position": "CM", "country": "LT", "status": "bench"},
-      {"playerId": "player_lt1_006_19", "name": "Daumantas Lipinskas", "number": 17, "position": "CM", "country": "LT", "status": "bench"},
-      {"playerId": "player_lt1_006_20", "name": "Artiomas Baftalovskis", "number": 18, "position": "CAM", "country": "LT", "status": "bench"},
-      {"playerId": "player_lt1_006_21", "name": "Jonas Usavičius", "number": 19, "position": "ST", "country": "LT", "status": "bench"},
-  
-      {"playerId": "player_lt1_006_22", "name": "Artiomas Šankinas", "number": 12, "position": "GK", "country": "LT", "status": "reserve"},
-      {"playerId": "player_lt1_006_23", "name": "Ernestas Zdanovičius", "number": 22, "position": "CM", "country": "LT", "status": "reserve"},
-      {"playerId": "player_lt1_006_24", "name": "Omer Karacagun", "number": 24, "position": "ST", "country": "TR", "status": "reserve"},
-      {"playerId": "player_lt1_006_25", "name": "Slevin Krom", "number": 25, "position": "RW", "country": "DE", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 10,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 11,
-        "cornerLeft": 23,
-        "cornerRight": 10
-      }
+  "teamKey": "Riteri",
+  "name": "FK Riteriai",
+  "logo": "assets/logos/europe/litvanya/Riteriai.png",
+  "manager": {
+    "name": "Ayhan Gargili",
+    "country": "TR"
+  },
+  "stadium": {
+    "name": "FK Žalgiris namų stadionas",
+    "capacity": 5067
+  },
+  "players": [
+    {"playerId": "player_lt1_006_01", "name": "Simone Moschin", "number": 26, "position": "GK", "country": "IT", "status": "starter"},
+    {"playerId": "player_lt1_006_02", "name": "Egidijus Vaitkūnas", "number": 2, "position": "RB", "country": "LT", "status": "starter"},
+    {"playerId": "player_lt1_006_03", "name": "Marko Karamarko", "number": 4, "position": "CB", "country": "HR", "status": "starter"},
+    {"playerId": "player_lt1_006_04", "name": "Milanas Rutkovskis", "number": 5, "position": "CB", "country": "LT", "status": "starter"},
+    {"playerId": "player_lt1_006_05", "name": "Petro Harapko", "number": 3, "position": "LB", "country": "UA", "status": "starter"},
+    {"playerId": "player_lt1_006_06", "name": "Armandas Šveistrys", "number": 6, "position": "CM", "country": "LT", "status": "starter"},
+    {"playerId": "player_lt1_006_07", "name": "Simas Civilka", "number": 10, "position": "CM", "country": "LT", "status": "starter"},
+    {"playerId": "player_lt1_006_08", "name": "Arvydas Novikovas", "number": 11, "position": "RW", "country": "LT", "status": "starter"},
+    {"playerId": "player_lt1_006_09", "name": "Deimantas Rimpa", "number": 23, "position": "CAM", "country": "LT", "status": "starter"},
+    {"playerId": "player_lt1_006_10", "name": "Michael Kedman", "number": 80, "position": "LW", "country": "TT", "status": "starter"},
+    {"playerId": "player_lt1_006_11", "name": "Meinardas Mikulėnas", "number": 9, "position": "ST", "country": "LT", "status": "starter"},
+
+    {"playerId": "player_lt1_006_12", "name": "Kajus Andraikėnas", "number": 1, "position": "GK", "country": "LT", "status": "bench"},
+    {"playerId": "player_lt1_006_13", "name": "Tautvydas Alekna", "number": 21, "position": "ST", "country": "LT", "status": "bench"},
+    {"playerId": "player_lt1_006_14", "name": "Vukašin Bulatović", "number": 14, "position": "CB", "country": "ME", "status": "bench"},
+    {"playerId": "player_lt1_006_15", "name": "Matas Latvys", "number": 15, "position": "CB", "country": "LT", "status": "bench"},
+    {"playerId": "player_lt1_006_16", "name": "Vakaris Gurkšnys", "number": 16, "position": "LB", "country": "LT", "status": "bench"},
+    {"playerId": "player_lt1_006_17", "name": "Dominykas Gelombickas", "number": 27, "position": "CM", "country": "LT", "status": "bench"},
+    {"playerId": "player_lt1_006_18", "name": "Andrius Kaulinis", "number": 8, "position": "CM", "country": "LT", "status": "bench"},
+    {"playerId": "player_lt1_006_19", "name": "Daumantas Lipinskas", "number": 17, "position": "CM", "country": "LT", "status": "bench"},
+    {"playerId": "player_lt1_006_20", "name": "Artiomas Baftalovskis", "number": 18, "position": "CAM", "country": "LT", "status": "bench"},
+    {"playerId": "player_lt1_006_21", "name": "Jonas Usavičius", "number": 19, "position": "ST", "country": "LT", "status": "bench"},
+
+    {"playerId": "player_lt1_006_22", "name": "Artiomas Šankinas", "number": 12, "position": "GK", "country": "LT", "status": "reserve"},
+    {"playerId": "player_lt1_006_23", "name": "Ernestas Zdanovičius", "number": 22, "position": "CM", "country": "LT", "status": "reserve"},
+    {"playerId": "player_lt1_006_24", "name": "Omer Karacagun", "number": 24, "position": "ST", "country": "TR", "status": "reserve"},
+    {"playerId": "player_lt1_006_25", "name": "Slevin Krom", "number": 25, "position": "RW", "country": "DE", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 10,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 23,
+      "cornerRight": 10
     }
   }
+}
