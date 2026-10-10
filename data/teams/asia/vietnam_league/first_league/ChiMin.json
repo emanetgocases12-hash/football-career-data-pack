@@ -1,0 +1,50 @@
+ {
+    "teamKey": "Chi Min",
+    "name": "Công An TP. Hồ Chí Minh",
+    "logo": "assets/logos/asia/vietnam/ChiMin.png",
+    "manager": {
+      "name": "Arthur Diles",
+      "country": "AU"
+    },
+    "stadium": {
+      "name": "Thống Nhất Stadium",
+      "capacity": 15000
+    },
+    "players": [
+      {"playerId": "player_vn1_002_01", "name": "Patrik Lê Giang", "number": 89, "position": "GK", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_002_02", "name": "Vũ Văn Thanh", "number": 17, "position": "RB", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_002_03", "name": "Quế Ngọc Hải", "number": 4, "position": "CB", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_002_04", "name": "Nguyễn Minh Tùng", "number": 5, "position": "CB", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_002_05", "name": "Nguyễn Phong Hồng Duy", "number": 7, "position": "LB", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_002_06", "name": "Nguyễn Tuấn Anh", "number": 8, "position": "CM", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_002_07", "name": "Ngô Hoàng Thịnh", "number": 6, "position": "CDM", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_002_08", "name": "Trần Phi Sơn", "number": 10, "position": "CAM", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_002_09", "name": "Lê Quốc Phương", "number": 11, "position": "RW", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_002_10", "name": "Võ Huy Toàn", "number": 16, "position": "LW", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_002_11", "name": "Nguyễn Tiến Linh", "number": 22, "position": "ST", "country": "VN", "status": "starter"},
+      {"playerId": "player_vn1_002_12", "name": "Bùi Tiến Dũng", "number": 1, "position": "GK", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_002_13", "name": "Nguyễn Văn Công", "number": 26, "position": "GK", "country": "VN", "status": "reserve"},
+      {"playerId": "player_vn1_002_14", "name": "Nguyễn Thanh Bình", "number": 3, "position": "CB", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_002_15", "name": "Hồ Tấn Tài", "number": 2, "position": "RB", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_002_16", "name": "Nguyễn Hữu Thắng", "number": 18, "position": "CM", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_002_17", "name": "Bùi Ngọc Long", "number": 19, "position": "RW", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_002_18", "name": "Nguyễn Văn Đức", "number": 14, "position": "CM", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_002_19", "name": "Wellington Nem", "number": 9, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_vn1_002_20", "name": "João Pedro", "number": 77, "position": "ST", "country": "BR", "status": "bench"},
+      {"playerId": "player_vn1_002_21", "name": "Nguyễn Thanh Thảo", "number": 20, "position": "CB", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_002_22", "name": "Huỳnh Tấn Tài", "number": 21, "position": "CM", "country": "VN", "status": "bench"},
+      {"playerId": "player_vn1_002_23", "name": "Trần Mạnh Cường", "number": 23, "position": "CB", "country": "VN", "status": "reserve"},
+      {"playerId": "player_vn1_002_24", "name": "Nguyễn Công Thành", "number": 24, "position": "LB", "country": "VN", "status": "reserve"},
+      {"playerId": "player_vn1_002_25", "name": "Lâm Thuận", "number": 25, "position": "LW", "country": "VN", "status": "reserve"}
+    ],
+    "tactics": {
+      "formation": "4-2-3-1",
+      "captain": 89,
+      "setPieces": {
+        "penalty": 22,
+        "freeKick": 10,
+        "cornerLeft": 10,
+        "cornerRight": 16
+      }
+    }
+  }

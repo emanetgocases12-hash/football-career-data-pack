@@ -1,0 +1,50 @@
+{
+  "teamKey": "Viette",
+  "name": "Thể Công Viettel",
+  "logo": "assets/logos/asia/vietnam/Viette.png",
+  "manager": {
+    "name": "Velizar Popov",
+    "country": "BG"
+  },
+  "stadium": {
+    "name": "Mỹ Đình National Stadium",
+    "capacity": 40000
+  },
+  "players": [
+    {"playerId": "player_vn1_014_01", "name": "Trần Nguyên Mạnh", "number": 26, "position": "GK", "country": "VN", "status": "starter"},
+    {"playerId": "player_vn1_014_02", "name": "Hồ Tấn Tài", "number": 7, "position": "RB", "country": "VN", "status": "starter"},
+    {"playerId": "player_vn1_014_03", "name": "Bùi Tiến Dũng", "number": 4, "position": "CB", "country": "VN", "status": "starter"},
+    {"playerId": "player_vn1_014_04", "name": "Nguyễn Thanh Bình", "number": 3, "position": "CB", "country": "VN", "status": "starter"},
+    {"playerId": "player_vn1_014_05", "name": "Phan Tuấn Tài", "number": 12, "position": "LB", "country": "VN", "status": "starter"},
+    {"playerId": "player_vn1_014_06", "name": "Đức Chiến", "number": 6, "position": "CDM", "country": "VN", "status": "starter"},
+    {"playerId": "player_vn1_014_07", "name": "Hoàng Đức", "number": 28, "position": "CM", "country": "VN", "status": "starter"},
+    {"playerId": "player_vn1_014_08", "name": "Khuất Văn Khang", "number": 11, "position": "CAM", "country": "VN", "status": "starter"},
+    {"playerId": "player_vn1_014_09", "name": "Trương Tiến Anh", "number": 17, "position": "RW", "country": "VN", "status": "starter"},
+    {"playerId": "player_vn1_014_10", "name": "Amarildo", "number": 10, "position": "LW", "country": "BR", "status": "starter"},
+    {"playerId": "player_vn1_014_11", "name": "Pedro Henrique", "number": 9, "position": "ST", "country": "BR", "status": "starter"},
+    {"playerId": "player_vn1_014_12", "name": "Phạm Văn Phong", "number": 1, "position": "GK", "country": "VN", "status": "bench"},
+    {"playerId": "player_vn1_014_13", "name": "Nguyễn Văn Việt", "number": 25, "position": "GK", "country": "VN", "status": "reserve"},
+    {"playerId": "player_vn1_014_14", "name": "Nguyễn Hữu Thắng", "number": 8, "position": "CM", "country": "VN", "status": "bench"},
+    {"playerId": "player_vn1_014_15", "name": "Nguyễn Đức Hoàng Minh", "number": 14, "position": "CM", "country": "VN", "status": "bench"},
+    {"playerId": "player_vn1_014_16", "name": "Nhâm Mạnh Dũng", "number": 18, "position": "ST", "country": "VN", "status": "bench"},
+    {"playerId": "player_vn1_014_17", "name": "Nguyễn Văn Tùng", "number": 19, "position": "ST", "country": "VN", "status": "bench"},
+    {"playerId": "player_vn1_014_18", "name": "Trần Danh Trung", "number": 20, "position": "RW", "country": "VN", "status": "bench"},
+    {"playerId": "player_vn1_014_19", "name": "Doãn Ngọc Tân", "number": 34, "position": "CM", "country": "VN", "status": "bench"},
+    {"playerId": "player_vn1_014_20", "name": "Nguyễn Công Nhật", "number": 22, "position": "CM", "country": "VN", "status": "bench"},
+    {"playerId": "player_vn1_014_21", "name": "Dương Văn Hào", "number": 23, "position": "RW", "country": "VN", "status": "bench"},
+    {"playerId": "player_vn1_014_22", "name": "Phạm Mạnh Cường", "number": 24, "position": "CB", "country": "VN", "status": "bench"},
+    {"playerId": "player_vn1_014_23", "name": "Nguyễn Đức Chiến II", "number": 27, "position": "CM", "country": "VN", "status": "reserve"},
+    {"playerId": "player_vn1_014_24", "name": "Nguyễn Văn Vĩ", "number": 29, "position": "LB", "country": "VN", "status": "reserve"},
+    {"playerId": "player_vn1_014_25", "name": "Wesley Nata Wachholz", "number": 2, "position": "CM", "country": "BR", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 26,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 11,
+      "cornerLeft": 11,
+      "cornerRight": 10
+    }
+  }
+}
