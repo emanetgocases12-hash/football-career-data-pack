@@ -1,20 +1,16 @@
+
 {
   "teamKey": "Pyrgos",
-
   "name": "Pyrgos AFC",
-
   "logo": "assets/logos/europe/greek/Pyrgos.png",
-
   "manager": {
     "name": "Nondas Koutromanos",
     "country": "GR"
   },
-
   "stadium": {
     "name": "Dimotiko Stadio Pyrgou",
     "capacity": 6750
   },
-
   "players": [
     {"playerId": "player_gr2_015_01", "name": "Makis Giannikoglou", "number": 1, "position": "GK", "country": "GR", "status": "starter"},
     {"playerId": "player_gr2_015_02", "name": "Dimitrios Mavrias", "number": 2, "position": "RB", "country": "GR", "status": "starter"},
@@ -28,7 +24,7 @@
     {"playerId": "player_gr2_015_10", "name": "Frixos Grivas", "number": 11, "position": "LW", "country": "GR", "status": "starter"},
     {"playerId": "player_gr2_015_11", "name": "Konstantinos Doumtsios", "number": 9, "position": "ST", "country": "GR", "status": "starter"},
 
-    {"playerId": "player_gr2_015_12", "name": "Aidon Shehu", "number": 12, "position": "GK", "country": "AL", "status": "bench"},
+    {"playerId": "player_gr2_015_12", "name": "Adam Tsekouras", "number": 12, "position": "GK", "country": "GR", "status": "bench"},
     {"playerId": "player_gr2_015_13", "name": "Ilias Evangelou", "number": 15, "position": "CB", "country": "GR", "status": "bench"},
     {"playerId": "player_gr2_015_14", "name": "Chrysovalantis Manos", "number": 14, "position": "RB", "country": "GR", "status": "bench"},
     {"playerId": "player_gr2_015_15", "name": "Manolis Koulousias", "number": 16, "position": "CB", "country": "GR", "status": "bench"},
@@ -37,14 +33,13 @@
     {"playerId": "player_gr2_015_18", "name": "Manssour Fofana", "number": 20, "position": "CM", "country": "CI", "status": "bench"},
     {"playerId": "player_gr2_015_19", "name": "Jon Prifti", "number": 21, "position": "CAM", "country": "AL", "status": "bench"},
     {"playerId": "player_gr2_015_20", "name": "Odysseas Lazaris", "number": 22, "position": "LW", "country": "GR", "status": "bench"},
-    {"playerId": "player_gr2_015_21", "name": "Frixos Grivas", "number": 23, "position": "RW", "country": "GR", "status": "bench"},
+    {"playerId": "player_gr2_015_21", "name": "Giannis Daskalopoulos", "number": 24, "position": "RW", "country": "GR", "status": "bench"},
 
-    {"playerId": "player_gr2_015_22", "name": "Panagiotis Karamanos", "number": 30, "position": "GK", "country": "GR", "status": "reserve"},
-    {"playerId": "player_gr2_015_26", "name": "Sotirios Markopoulos", "number": 26, "position": "LB", "country": "GR", "status": "reserve"},
+    {"playerId": "player_gr2_015_22", "name": "Georgios Birbilis", "number": 50, "position": "GK", "country": "GR", "status": "reserve"},
+    {"playerId": "player_gr2_015_23", "name": "Sotirios Markopoulos", "number": 26, "position": "LB", "country": "GR", "status": "reserve"},
     {"playerId": "player_gr2_015_24", "name": "Dimitris Vasilakos", "number": 25, "position": "CM", "country": "GR", "status": "reserve"},
-    {"playerId": "player_gr2_015_25", "name": "Giorgos Koutsias", "number": 27, "position": "ST", "country": "GR", "status": "reserve"}
+    {"playerId": "player_gr2_015_25", "name": "Aristidis Kokkoris", "number": 72, "position": "ST", "country": "GR", "status": "reserve"}
   ],
-
   "tactics": {
     "formation": "4-2-3-1",
     "captain": 10,
