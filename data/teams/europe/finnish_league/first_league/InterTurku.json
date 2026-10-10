@@ -1,58 +1,53 @@
+
 {
-    "teamKey": "ITurku",
-  
-    "name": "FC Inter Turku",
-  
-    "logo": "assets/logos/europe/finland/InterTurku.png",
-  
-    "manager": {
-      "name": "Vesa Vasara",
-      "country": "FI"
-    },
-  
-    "stadium": {
-      "name": "Veritas Stadion",
-      "capacity": 9372
-    },
-  
-    "players": [
-      {"playerId": "player_fi1_004_01", "name": "Eetu Huuhtanen", "number": 1, "position": "GK", "country": "FI", "status": "starter"},
-      {"playerId": "player_fi1_004_02", "name": "Jussi Niska", "number": 2, "position": "RB", "country": "FI", "status": "starter"},
-      {"playerId": "player_fi1_004_03", "name": "Luka Kuittinen", "number": 4, "position": "CB", "country": "FI", "status": "starter"},
-      {"playerId": "player_fi1_004_04", "name": "Juuso Hämäläinen", "number": 3, "position": "CB", "country": "FI", "status": "starter"},
-      {"playerId": "player_fi1_004_05", "name": "Darren Smith", "number": 5, "position": "LB", "country": "ZA", "status": "starter"},
-      {"playerId": "player_fi1_004_06", "name": "Prosper Ahiabu", "number": 6, "position": "CDM", "country": "GH", "status": "starter"},
-      {"playerId": "player_fi1_004_07", "name": "Janne-Pekka Laine", "number": 8, "position": "CM", "country": "FI", "status": "starter"},
-      {"playerId": "player_fi1_004_08", "name": "Matias Ojala", "number": 10, "position": "CM", "country": "FI", "status": "starter"},
-      {"playerId": "player_fi1_004_09", "name": "Dimitri Legbo", "number": 11, "position": "RW", "country": "CI", "status": "starter"},
-      {"playerId": "player_fi1_004_10", "name": "Timo Stavitski", "number": 17, "position": "LW", "country": "FI", "status": "starter"},
-      {"playerId": "player_fi1_004_11", "name": "Darren Smith", "number": 9, "position": "ST", "country": "ZA", "status": "starter"},
-  
-      {"playerId": "player_fi1_004_12", "name": "Eero Vuorjoki", "number": 12, "position": "GK", "country": "FI", "status": "bench"},
-      {"playerId": "player_fi1_004_13", "name": "Joonas Kekarainen", "number": 15, "position": "CB", "country": "FI", "status": "bench"},
-      {"playerId": "player_fi1_004_14", "name": "Riku Hämäläinen", "number": 20, "position": "LB", "country": "FI", "status": "bench"},
-      {"playerId": "player_fi1_004_15", "name": "Albin Granlund", "number": 22, "position": "RB", "country": "FI", "status": "bench"},
-      {"playerId": "player_fi1_004_16", "name": "Kevin Jansen", "number": 14, "position": "CM", "country": "NL", "status": "bench"},
-      {"playerId": "player_fi1_004_17", "name": "Florian Krebs", "number": 16, "position": "CM", "country": "DE", "status": "bench"},
-      {"playerId": "player_fi1_004_18", "name": "Eetu Mömmö", "number": 19, "position": "RW", "country": "FI", "status": "bench"},
-      {"playerId": "player_fi1_004_19", "name": "Axel Kouame", "number": 21, "position": "CAM", "country": "CI", "status": "bench"},
-      {"playerId": "player_fi1_004_20", "name": "Matias Tamminen", "number": 23, "position": "ST", "country": "FI", "status": "bench"},
-      {"playerId": "player_fi1_004_21", "name": "Jean Botué", "number": 24, "position": "ST", "country": "BF", "status": "bench"},
-  
-      {"playerId": "player_fi1_004_22", "name": "Leevi Viitala", "number": 30, "position": "GK", "country": "FI", "status": "reserve"},
-      {"playerId": "player_fi1_004_23", "name": "Aapo Mäenpää", "number": 25, "position": "CB", "country": "FI", "status": "reserve"},
-      {"playerId": "player_fi1_004_24", "name": "Juho Hyvärinen", "number": 26, "position": "RB", "country": "FI", "status": "reserve"},
-      {"playerId": "player_fi1_004_25", "name": "Niklas Pyyhtiä", "number": 27, "position": "CM", "country": "FI", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-3-3",
-      "captain": 8,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 10,
-        "cornerLeft": 11,
-        "cornerRight": 8
-      }
+  "teamKey": "ITurku",
+  "name": "FC Inter Turku",
+  "logo": "assets/logos/europe/finland/InterTurku.png",
+  "manager": {
+    "name": "Vesa Vasara",
+    "country": "FI"
+  },
+  "stadium": {
+    "name": "Veritas Stadion",
+    "capacity": 9372
+  },
+  "players": [
+    {"playerId": "player_fi1_004_01", "name": "Eetu Huuhtanen", "number": 1, "position": "GK", "country": "FI", "status": "starter"},
+    {"playerId": "player_fi1_004_02", "name": "Seth Saarinen", "number": 18, "position": "RB", "country": "FI", "status": "starter"},
+    {"playerId": "player_fi1_004_03", "name": "Luka Kuittinen", "number": 4, "position": "CB", "country": "FI", "status": "starter"},
+    {"playerId": "player_fi1_004_04", "name": "Juuso Hämäläinen", "number": 3, "position": "CB", "country": "FI", "status": "starter"},
+    {"playerId": "player_fi1_004_05", "name": "Jussi Niska", "number": 2, "position": "LB", "country": "FI", "status": "starter"},
+    {"playerId": "player_fi1_004_06", "name": "Prosper Ahiabu", "number": 6, "position": "CDM", "country": "GH", "status": "starter"},
+    {"playerId": "player_fi1_004_07", "name": "Janne-Pekka Laine", "number": 8, "position": "CM", "country": "FI", "status": "starter"},
+    {"playerId": "player_fi1_004_08", "name": "Matias Ojala", "number": 10, "position": "CM", "country": "FI", "status": "starter"},
+    {"playerId": "player_fi1_004_09", "name": "Dimitri Legbo", "number": 11, "position": "RW", "country": "CI", "status": "starter"},
+    {"playerId": "player_fi1_004_10", "name": "Timo Stavitski", "number": 17, "position": "LW", "country": "FI", "status": "starter"},
+    {"playerId": "player_fi1_004_11", "name": "Jasse Tuominen", "number": 9, "position": "ST", "country": "FI", "status": "starter"},
+
+    {"playerId": "player_fi1_004_12", "name": "Eero Vuorjoki", "number": 12, "position": "GK", "country": "FI", "status": "bench"},
+    {"playerId": "player_fi1_004_13", "name": "Joonas Kekarainen", "number": 15, "position": "CB", "country": "FI", "status": "bench"},
+    {"playerId": "player_fi1_004_14", "name": "Riku Hämäläinen", "number": 20, "position": "LB", "country": "FI", "status": "bench"},
+    {"playerId": "player_fi1_004_15", "name": "Albin Granlund", "number": 22, "position": "RB", "country": "FI", "status": "bench"},
+    {"playerId": "player_fi1_004_16", "name": "Kevin Jansen", "number": 14, "position": "CM", "country": "NL", "status": "bench"},
+    {"playerId": "player_fi1_004_17", "name": "Florian Krebs", "number": 16, "position": "CM", "country": "DE", "status": "bench"},
+    {"playerId": "player_fi1_004_18", "name": "Eetu Mömmö", "number": 19, "position": "RW", "country": "FI", "status": "bench"},
+    {"playerId": "player_fi1_004_19", "name": "Axel Kouame", "number": 21, "position": "CAM", "country": "CI", "status": "bench"},
+    {"playerId": "player_fi1_004_20", "name": "Matias Tamminen", "number": 23, "position": "ST", "country": "FI", "status": "bench"},
+    {"playerId": "player_fi1_004_21", "name": "Jean Botué", "number": 24, "position": "ST", "country": "BF", "status": "bench"},
+
+    {"playerId": "player_fi1_004_22", "name": "Ville Seppä", "number": 36, "position": "GK", "country": "FI", "status": "reserve"},
+    {"playerId": "player_fi1_004_23", "name": "Aapo Mäenpää", "number": 25, "position": "CB", "country": "FI", "status": "reserve"},
+    {"playerId": "player_fi1_004_24", "name": "Juho Hyvärinen", "number": 26, "position": "RB", "country": "FI", "status": "reserve"},
+    {"playerId": "player_fi1_004_25", "name": "Niklas Pyyhtiä", "number": 27, "position": "CM", "country": "FI", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 8,
+    "setPieces": {
+      "penalty": 9,
+      "freeKick": 10,
+      "cornerLeft": 11,
+      "cornerRight": 8
     }
   }
+}
