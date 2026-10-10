@@ -1,20 +1,16 @@
+
 {
   "teamKey": "Lbertd",
-
   "name": "Libertad FC",
-
   "logo": "assets/logos/south_america/ecvador/Lbertd.png",
-
   "manager": {
     "name": "Jorge Célico",
     "country": "AR"
   },
-
   "stadium": {
     "name": "Estadio Federativo Reina del Cisne",
     "capacity": 14935
   },
-
   "players": [
     {"playerId": "player_ec1_010_01", "name": "David Cabezas", "number": 1, "position": "GK", "country": "EC", "status": "starter"},
     {"playerId": "player_ec1_010_02", "name": "Bryan Caicedo", "number": 6, "position": "RB", "country": "EC", "status": "starter"},
@@ -39,12 +35,11 @@
     {"playerId": "player_ec1_010_20", "name": "Carlos Orejuela", "number": 18, "position": "LW", "country": "EC", "status": "bench"},
     {"playerId": "player_ec1_010_21", "name": "Enrique Caicedo", "number": 9, "position": "ST", "country": "EC", "status": "bench"},
 
-    {"playerId": "player_ec1_010_22", "name": "Johan Estacio", "number": 31, "position": "GK", "country": "EC", "status": "reserve"},
+    {"playerId": "player_ec1_010_22", "name": "Ariel Bao", "number": 52, "position": "GK", "country": "EC", "status": "reserve"},
     {"playerId": "player_ec1_010_23", "name": "Antony Chere", "number": 33, "position": "ST", "country": "EC", "status": "reserve"},
     {"playerId": "player_ec1_010_24", "name": "Dany Coronel", "number": 49, "position": "CM", "country": "EC", "status": "reserve"},
     {"playerId": "player_ec1_010_25", "name": "Edu Pineda", "number": 80, "position": "RW", "country": "EC", "status": "reserve"}
   ],
-
   "tactics": {
     "formation": "4-2-3-1",
     "captain": 23,
