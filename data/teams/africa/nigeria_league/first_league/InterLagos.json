@@ -1,20 +1,16 @@
+
 {
   "teamKey": "I Lagos",
-
   "name": "Inter Lagos FC",
-
   "logo": "assets/logos/africa/nigeria/Ilagos.png",
-
   "manager": {
     "name": "Shakiru Biodun Giwa",
     "country": "NG"
   },
-
   "stadium": {
     "name": "Mobolaji Johnson Arena",
     "capacity": 5000
   },
-
   "players": [
     {"playerId": "player_ng1_008_01", "name": "Saviour Atabi", "number": 1, "position": "GK", "country": "NG", "status": "starter"},
     {"playerId": "player_ng1_008_02", "name": "Idowu Quadri", "number": 6, "position": "RB", "country": "NG", "status": "starter"},
@@ -28,7 +24,7 @@
     {"playerId": "player_ng1_008_10", "name": "Uchenna Njoku", "number": 11, "position": "LW", "country": "NG", "status": "starter"},
     {"playerId": "player_ng1_008_11", "name": "Iyede Kewe", "number": 9, "position": "ST", "country": "NG", "status": "starter"},
 
-    {"playerId": "player_ng1_008_12", "name": "Jonathan Emmanuel", "number": 30, "position": "GK", "country": "NG", "status": "bench"},
+    {"playerId": "player_ng1_008_12", "name": "Favour Bala", "number": 28, "position": "GK", "country": "NG", "status": "bench"},
     {"playerId": "player_ng1_008_13", "name": "Kehinde Moses", "number": 12, "position": "RB", "country": "NG", "status": "bench"},
     {"playerId": "player_ng1_008_14", "name": "Bonaventure Iheanacho Chiemela", "number": 4, "position": "CB", "country": "NG", "status": "bench"},
     {"playerId": "player_ng1_008_15", "name": "Kamaldeen Lawal", "number": 14, "position": "LB", "country": "NG", "status": "bench"},
@@ -39,12 +35,11 @@
     {"playerId": "player_ng1_008_20", "name": "Ezekiel Moses", "number": 8, "position": "LW", "country": "NG", "status": "bench"},
     {"playerId": "player_ng1_008_21", "name": "Adebayo Oyedele", "number": 25, "position": "ST", "country": "NG", "status": "bench"},
 
-    {"playerId": "player_ng1_008_22", "name": "Semiu Adegboyega", "number": 21, "position": "GK", "country": "NG", "status": "reserve"},
-    {"playerId": "player_ng1_008_23", "name": "Semiu Adegboyega", "number": 34, "position": "CB", "country": "NG", "status": "reserve"},
+    {"playerId": "player_ng1_008_22", "name": "Semiu Adegboyega", "number": 34, "position": "GK", "country": "NG", "status": "reserve"},
+    {"playerId": "player_ng1_008_23", "name": "Semiu Liadi", "number": 23, "position": "CB", "country": "NG", "status": "reserve"},
     {"playerId": "player_ng1_008_24", "name": "Kehinde Salamii", "number": 22, "position": "CM", "country": "NG", "status": "reserve"},
     {"playerId": "player_ng1_008_25", "name": "Moses Amanekwe", "number": 27, "position": "ST", "country": "NG", "status": "reserve"}
   ],
-
   "tactics": {
     "formation": "4-2-3-1",
     "captain": 1,
