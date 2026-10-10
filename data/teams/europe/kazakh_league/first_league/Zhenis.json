@@ -1,58 +1,53 @@
+
 {
-    "teamKey": "Zhenis",
-  
-    "name": "Zhenis Astana",
-  
-    "logo": "assets/logos/europe/kazak/Zhenis.png",
-  
-    "manager": {
-      "name": "Ali Aliyev",
-      "country": "KZ"
-    },
-  
-    "stadium": {
-      "name": "Astana Arena",
-      "capacity": 30000
-    },
-  
-    "players": [
-      {"playerId": "player_kz1_015_01", "name": "Ilya Sotnik", "number": 1, "position": "GK", "country": "KZ", "status": "starter"},
-      {"playerId": "player_kz1_015_02", "name": "Sagadat Tursynbay", "number": 2, "position": "RB", "country": "KZ", "status": "starter"},
-      {"playerId": "player_kz1_015_03", "name": "Patrick Kpozo", "number": 4, "position": "CB", "country": "GH", "status": "starter"},
-      {"playerId": "player_kz1_015_04", "name": "Ardak Saulet", "number": 5, "position": "CB", "country": "KZ", "status": "starter"},
-      {"playerId": "player_kz1_015_05", "name": "G. Toma", "number": 3, "position": "LB", "country": "GE", "status": "starter"},
-      {"playerId": "player_kz1_015_06", "name": "Islambek Kuat", "number": 8, "position": "CM", "country": "KZ", "status": "starter"},
-      {"playerId": "player_kz1_015_07", "name": "Alexander Merkel", "number": 6, "position": "CM", "country": "KZ", "status": "starter"},
-      {"playerId": "player_kz1_015_08", "name": "Vladyslav Naumets", "number": 11, "position": "RW", "country": "UA", "status": "starter"},
-      {"playerId": "player_kz1_015_09", "name": "Gian dos Santos", "number": 10, "position": "CAM", "country": "BR", "status": "starter"},
-      {"playerId": "player_kz1_015_10", "name": "G. Toma", "number": 7, "position": "LW", "country": "GE", "status": "starter"},
-      {"playerId": "player_kz1_015_11", "name": "Andrija Filipović", "number": 9, "position": "ST", "country": "HR", "status": "starter"},
-  
-      {"playerId": "player_kz1_015_12", "name": "A. Kenzhebek", "number": 12, "position": "GK", "country": "KZ", "status": "bench"},
-      {"playerId": "player_kz1_015_13", "name": "S. Mukanov", "number": 14, "position": "CB", "country": "KZ", "status": "bench"},
-      {"playerId": "player_kz1_015_14", "name": "A. Zhumakhanov", "number": 15, "position": "CB", "country": "KZ", "status": "bench"},
-      {"playerId": "player_kz1_015_15", "name": "M. Belančić", "number": 22, "position": "RB", "country": "BA", "status": "bench"},
-      {"playerId": "player_kz1_015_16", "name": "A. Adil", "number": 18, "position": "CM", "country": "KZ", "status": "bench"},
-      {"playerId": "player_kz1_015_17", "name": "R. Orazov", "number": 20, "position": "CM", "country": "KZ", "status": "bench"},
-      {"playerId": "player_kz1_015_18", "name": "A. Ashirbek", "number": 17, "position": "CM", "country": "KZ", "status": "bench"},
-      {"playerId": "player_kz1_015_19", "name": "N. Zhagorov", "number": 19, "position": "ST", "country": "KZ", "status": "bench"},
-      {"playerId": "player_kz1_015_20", "name": "S. Iyede", "number": 29, "position": "ST", "country": "NG", "status": "bench"},
-      {"playerId": "player_kz1_015_21", "name": "M. Murtaza", "number": 27, "position": "ST", "country": "KZ", "status": "bench"},
-  
-      {"playerId": "player_kz1_015_22", "name": "N. Sarsenov", "number": 31, "position": "GK", "country": "KZ", "status": "reserve"},
-      {"playerId": "player_kz1_015_23", "name": "A. Zhilin", "number": 24, "position": "CM", "country": "KZ", "status": "reserve"},
-      {"playerId": "player_kz1_015_24", "name": "M. Omatay", "number": 25, "position": "CM", "country": "KZ", "status": "reserve"},
-      {"playerId": "player_kz1_015_25", "name": "A. Akhmetov", "number": 28, "position": "RW", "country": "KZ", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 8,
-      "setPieces": {
-        "penalty": 9,
-        "freeKick": 10,
-        "cornerLeft": 11,
-        "cornerRight": 7
-      }
+  "teamKey": "Zhenis",
+  "name": "Zhenis Astana",
+  "logo": "assets/logos/europe/kazak/Zhenis.png",
+  "manager": {
+    "name": "Ali Aliyev",
+    "country": "KZ"
+  },
+  "stadium": {
+    "name": "Astana Arena",
+    "capacity": 30000
+  },
+  "players": [
+    {"playerId": "player_kz1_015_01", "name": "Maksim Plotnikov", "number": 41, "position": "GK", "country": "BY", "status": "starter"},
+    {"playerId": "player_kz1_015_02", "name": "Marat Bystrov", "number": 4, "position": "RB", "country": "KZ", "status": "starter"},
+    {"playerId": "player_kz1_015_03", "name": "Zurab Tevzadze", "number": 5, "position": "CB", "country": "GE", "status": "starter"},
+    {"playerId": "player_kz1_015_04", "name": "Ivan Saravanja", "number": 63, "position": "CB", "country": "BA", "status": "starter"},
+    {"playerId": "player_kz1_015_05", "name": "Patrick Kpozo", "number": 3, "position": "LB", "country": "GH", "status": "starter"},
+    {"playerId": "player_kz1_015_06", "name": "Islambek Kuat", "number": 7, "position": "CDM", "country": "KZ", "status": "starter"},
+    {"playerId": "player_kz1_015_07", "name": "Gian Martins", "number": 88, "position": "CDM", "country": "BR", "status": "starter"},
+    {"playerId": "player_kz1_015_08", "name": "Samat Zharynbetov", "number": 29, "position": "CM", "country": "KZ", "status": "starter"},
+    {"playerId": "player_kz1_015_09", "name": "Adílio Santos", "number": 19, "position": "RW", "country": "BR", "status": "starter"},
+    {"playerId": "player_kz1_015_10", "name": "Luka Imnadze", "number": 10, "position": "LW", "country": "GE", "status": "starter"},
+    {"playerId": "player_kz1_015_11", "name": "Andrija Filipović", "number": 11, "position": "ST", "country": "HR", "status": "starter"},
+
+    {"playerId": "player_kz1_015_12", "name": "Ilya Sotnik", "number": 1, "position": "GK", "country": "KZ", "status": "bench"},
+    {"playerId": "player_kz1_015_13", "name": "Madi Khaseyn", "number": 8, "position": "CB", "country": "KZ", "status": "bench"},
+    {"playerId": "player_kz1_015_14", "name": "Sagadat Tursynbay", "number": 13, "position": "LB", "country": "KZ", "status": "bench"},
+    {"playerId": "player_kz1_015_15", "name": "Aldair Adilov", "number": 17, "position": "RB", "country": "KZ", "status": "bench"},
+    {"playerId": "player_kz1_015_16", "name": "Ardak Saulet", "number": 14, "position": "RW", "country": "KZ", "status": "bench"},
+    {"playerId": "player_kz1_015_17", "name": "Mikael Askarov", "number": 72, "position": "LB", "country": "KZ", "status": "bench"},
+    {"playerId": "player_kz1_015_18", "name": "Vladyslav Naumets", "number": 9, "position": "RW", "country": "UA", "status": "bench"},
+    {"playerId": "player_kz1_015_19", "name": "Nikolay Gorobchenko", "number": 30, "position": "CM", "country": "KZ", "status": "bench"},
+    {"playerId": "player_kz1_015_20", "name": "Supyan Masudov", "number": 22, "position": "CM", "country": "KZ", "status": "bench"},
+    {"playerId": "player_kz1_015_21", "name": "Élder Santana", "number": 93, "position": "ST", "country": "BR", "status": "bench"},
+
+    {"playerId": "player_kz1_015_22", "name": "Nursayat Shanshar", "number": 77, "position": "GK", "country": "KZ", "status": "reserve"},
+    {"playerId": "player_kz1_015_23", "name": "Syrym Yerbolat", "number": 71, "position": "CB", "country": "KZ", "status": "reserve"},
+    {"playerId": "player_kz1_015_24", "name": "Bayzhan Madelkhan", "number": 18, "position": "ST", "country": "KZ", "status": "reserve"},
+    {"playerId": "player_kz1_015_25", "name": "Batykhan Kamaradinov", "number": 21, "position": "ST", "country": "KZ", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-3-3",
+    "captain": 7,
+    "setPieces": {
+      "penalty": 11,
+      "freeKick": 7,
+      "cornerLeft": 10,
+      "cornerRight": 19
     }
   }
+}
