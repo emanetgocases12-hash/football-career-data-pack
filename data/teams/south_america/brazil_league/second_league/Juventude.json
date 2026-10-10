@@ -1,58 +1,53 @@
+
 {
-    "teamKey": "Juvntd",
-  
-    "name": "Juventude",
-  
-    "logo": "assets/logos/south_america/brazil/Juvntd.png",
-  
-    "manager": {
-      "name": "Maurício Barbieri",
-      "country": "BR"
-    },
-  
-    "stadium": {
-      "name": "Estádio Alfredo Jaconi",
-      "capacity": 23726
-    },
-  
-    "players": [
-      {"playerId": "player_br2_013_01", "name": "Jandrei", "number": 93, "position": "GK", "country": "BR", "status": "starter"},
-      {"playerId": "player_br2_013_02", "name": "Aderlan", "number": 13, "position": "RB", "country": "BR", "status": "starter"},
-      {"playerId": "player_br2_013_03", "name": "Messias", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
-      {"playerId": "player_br2_013_04", "name": "Marcos Paulo", "number": 47, "position": "CB", "country": "BR", "status": "starter"},
-      {"playerId": "player_br2_013_05", "name": "Patryck", "number": 30, "position": "LB", "country": "BR", "status": "starter"},
-      {"playerId": "player_br2_013_06", "name": "Lucas Mineiro", "number": 8, "position": "CDM", "country": "BR", "status": "starter"},
-      {"playerId": "player_br2_013_07", "name": "Luis Mandaca", "number": 44, "position": "CM", "country": "BR", "status": "starter"},
-      {"playerId": "player_br2_013_08", "name": "Iba Ly", "number": 26, "position": "CAM", "country": "BR", "status": "starter"},
-      {"playerId": "player_br2_013_09", "name": "Alisson Safira", "number": 25, "position": "RW", "country": "BR", "status": "starter"},
-      {"playerId": "player_br2_013_10", "name": "Manuel Castro", "number": 17, "position": "ST", "country": "BR", "status": "starter"},
-      {"playerId": "player_br2_013_11", "name": "Marcos Paulo", "number": 10, "position": "LW", "country": "BR", "status": "starter"},
-  
-      {"playerId": "player_br2_013_12", "name": "Gustavo", "number": 1, "position": "GK", "country": "BR", "status": "bench"},
-      {"playerId": "player_br2_013_13", "name": "Raí Ramos", "number": 2, "position": "RB", "country": "BR", "status": "bench"},
-      {"playerId": "player_br2_013_14", "name": "Rodrigo Sam", "number": 34, "position": "CB", "country": "BR", "status": "bench"},
-      {"playerId": "player_br2_013_15", "name": "Gabriel Pinheiro", "number": 97, "position": "LB", "country": "BR", "status": "bench"},
-      {"playerId": "player_br2_013_16", "name": "Pablo Roberto", "number": 7, "position": "CDM", "country": "BR", "status": "bench"},
-      {"playerId": "player_br2_013_17", "name": "Ray Breno", "number": 27, "position": "CM", "country": "BR", "status": "bench"},
-      {"playerId": "player_br2_013_18", "name": "Nenê", "number": 3, "position": "CAM", "country": "BR", "status": "bench"},
-      {"playerId": "player_br2_013_19", "name": "Gabriel Taliari", "number": 9, "position": "RW", "country": "BR", "status": "bench"},
-      {"playerId": "player_br2_013_20", "name": "Ênio", "number": 11, "position": "ST", "country": "BR", "status": "bench"},
-      {"playerId": "player_br2_013_21", "name": "Gilberto", "number": 99, "position": "LW", "country": "BR", "status": "bench"},
-  
-      {"playerId": "player_br2_013_22", "name": "Ruan Carneiro", "number": 12, "position": "GK", "country": "BR", "status": "reserve"},
-      {"playerId": "player_br2_013_23", "name": "Nathan", "number": 22, "position": "CB", "country": "BR", "status": "reserve"},
-      {"playerId": "player_br2_013_24", "name": "Jadson", "number": 16, "position": "CM", "country": "BR", "status": "reserve"},
-      {"playerId": "player_br2_013_25", "name": "Kelvi", "number": 19, "position": "ST", "country": "BR", "status": "reserve"}
-    ],
-  
-    "tactics": {
-      "formation": "4-2-3-1",
-      "captain": 4,
-      "setPieces": {
-        "penalty": 17,
-        "freeKick": 26,
-        "cornerLeft": 26,
-        "cornerRight": 10
-      }
+  "teamKey": "Juvntd",
+  "name": "Juventude",
+  "logo": "assets/logos/south_america/brazil/Juvntd.png",
+  "manager": {
+    "name": "Maurício Barbieri",
+    "country": "BR"
+  },
+  "stadium": {
+    "name": "Estádio Alfredo Jaconi",
+    "capacity": 23726
+  },
+  "players": [
+    {"playerId": "player_br2_013_01", "name": "Jandrei", "number": 93, "position": "GK", "country": "BR", "status": "starter"},
+    {"playerId": "player_br2_013_02", "name": "Aderlan", "number": 13, "position": "RB", "country": "BR", "status": "starter"},
+    {"playerId": "player_br2_013_03", "name": "Messias", "number": 4, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_br2_013_04", "name": "Marcos Paulo Lima Batista Silva", "number": 47, "position": "CB", "country": "BR", "status": "starter"},
+    {"playerId": "player_br2_013_05", "name": "Patryck", "number": 30, "position": "LB", "country": "BR", "status": "starter"},
+    {"playerId": "player_br2_013_06", "name": "Lucas Mineiro", "number": 8, "position": "CDM", "country": "BR", "status": "starter"},
+    {"playerId": "player_br2_013_07", "name": "Luis Mandaca", "number": 44, "position": "CM", "country": "BR", "status": "starter"},
+    {"playerId": "player_br2_013_08", "name": "Iba Ly", "number": 26, "position": "CAM", "country": "BR", "status": "starter"},
+    {"playerId": "player_br2_013_09", "name": "Alisson Safira", "number": 25, "position": "RW", "country": "BR", "status": "starter"},
+    {"playerId": "player_br2_013_10", "name": "Manuel Castro", "number": 17, "position": "ST", "country": "BR", "status": "starter"},
+    {"playerId": "player_br2_013_11", "name": "Marcos Paulo Costa do Nascimento", "number": 10, "position": "LW", "country": "BR", "status": "starter"},
+
+    {"playerId": "player_br2_013_12", "name": "Gustavo", "number": 1, "position": "GK", "country": "BR", "status": "bench"},
+    {"playerId": "player_br2_013_13", "name": "Raí Ramos", "number": 2, "position": "RB", "country": "BR", "status": "bench"},
+    {"playerId": "player_br2_013_14", "name": "Rodrigo Sam", "number": 34, "position": "CB", "country": "BR", "status": "bench"},
+    {"playerId": "player_br2_013_15", "name": "Gabriel Pinheiro", "number": 97, "position": "LB", "country": "BR", "status": "bench"},
+    {"playerId": "player_br2_013_16", "name": "Pablo Roberto", "number": 7, "position": "CDM", "country": "BR", "status": "bench"},
+    {"playerId": "player_br2_013_17", "name": "Ray Breno", "number": 27, "position": "CM", "country": "BR", "status": "bench"},
+    {"playerId": "player_br2_013_18", "name": "Nenê", "number": 3, "position": "CAM", "country": "BR", "status": "bench"},
+    {"playerId": "player_br2_013_19", "name": "Gabriel Taliari", "number": 9, "position": "RW", "country": "BR", "status": "bench"},
+    {"playerId": "player_br2_013_20", "name": "Ênio", "number": 11, "position": "ST", "country": "BR", "status": "bench"},
+    {"playerId": "player_br2_013_21", "name": "Gilberto", "number": 99, "position": "LW", "country": "BR", "status": "bench"},
+
+    {"playerId": "player_br2_013_22", "name": "Ruan Carneiro", "number": 12, "position": "GK", "country": "BR", "status": "reserve"},
+    {"playerId": "player_br2_013_23", "name": "Nathan", "number": 22, "position": "CB", "country": "BR", "status": "reserve"},
+    {"playerId": "player_br2_013_24", "name": "Jadson", "number": 16, "position": "CM", "country": "BR", "status": "reserve"},
+    {"playerId": "player_br2_013_25", "name": "Kelvi", "number": 19, "position": "ST", "country": "BR", "status": "reserve"}
+  ],
+  "tactics": {
+    "formation": "4-2-3-1",
+    "captain": 4,
+    "setPieces": {
+      "penalty": 17,
+      "freeKick": 26,
+      "cornerLeft": 26,
+      "cornerRight": 10
     }
   }
+}
