@@ -122,6 +122,11 @@
       "image": "assets/trophies/leagues/south_america/peruCup.png"
     },
     {
+  "trophy": "super_cup",
+  "league": "Peruvian League",
+  "image": "assets/trophies/leagues/south_america/peruSuper.png"
+},
+    {
       "trophy": "league_title",
       "league": "Ecuadorian League",
       "tier": 1,
