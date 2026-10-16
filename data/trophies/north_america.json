@@ -12,6 +12,11 @@
       "image": "assets/trophies/leagues/north_america/usaCup.png"
     },
     {
+  "trophy": "super_cup",
+  "league": "American League",
+  "image": "assets/trophies/leagues/north_america/usaSuper.png"
+},
+    {
       "trophy": "league_title",
       "league": "Mexican League",
       "tier": 1,
