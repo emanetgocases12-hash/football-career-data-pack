@@ -184,6 +184,11 @@
       "trophy": "national_cup",
       "league": "Bolivian League",
       "image": "assets/trophies/leagues/south_america/boliviaCup.png"
-    }
+    },
+    {
+  "trophy": "super_cup",
+  "league": "Bolivian League",
+  "image": "assets/trophies/leagues/south_america/boliviaSuper.png"
+}
   ]
 }
