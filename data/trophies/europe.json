@@ -216,6 +216,11 @@
       "image": "assets/trophies/leagues/europe/czechiaCup.png"
     },
     {
+      "trophy": "super_cup",
+      "league": "Czech League",
+      "image": "assets/trophies/leagues/europe/chechiaSuper.png"
+    },
+    {
       "trophy": "league_title",
       "league": "Greek League",
       "tier": 1,
@@ -277,6 +282,11 @@
       "image": "assets/trophies/leagues/europe/denmarkCup.png"
     },
     {
+      "trophy": "super_cup",
+      "league": "Danish League",
+      "image": "assets/trophies/leagues/europe/denmarkSuper.png"
+    },
+    {
       "trophy": "league_title",
       "league": "Norwegian League",
       "tier": 1,
@@ -292,6 +302,11 @@
       "trophy": "national_cup",
       "league": "Norwegian League",
       "image": "assets/trophies/leagues/europe/norwayCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Norwegian League",
+      "image": "assets/trophies/leagues/europe/norwaySuper.png"
     },
     {
       "trophy": "league_title",
@@ -327,6 +342,11 @@
       "image": "assets/trophies/leagues/europe/switzerlandCup.png"
     },
     {
+      "trophy": "super_cup",
+      "league": "Swiss League",
+      "image": "assets/trophies/leagues/europe/switzerlandSuper.png"
+    },
+    {
       "trophy": "league_title",
       "league": "Austrian League",
       "tier": 1,
@@ -342,6 +362,11 @@
       "trophy": "national_cup",
       "league": "Austrian League",
       "image": "assets/trophies/leagues/europe/austriaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Austrian League",
+      "image": "assets/trophies/leagues/europe/austriaSuper.png"
     },
     {
       "trophy": "league_title",
@@ -361,6 +386,11 @@
       "image": "assets/trophies/leagues/europe/scottishCup.png"
     },
     {
+      "trophy": "super_cup",
+      "league": "Scottish League",
+      "image": "assets/trophies/leagues/europe/scottlandSuper.png"
+    },
+    {
       "trophy": "league_title",
       "league": "Swedish League",
       "tier": 1,
@@ -376,6 +406,11 @@
       "trophy": "national_cup",
       "league": "Swedish League",
       "image": "assets/trophies/leagues/europe/swedenCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Swedish League",
+      "image": "assets/trophies/leagues/europe/swedenSuper.png"
     },
     {
       "trophy": "league_title",
@@ -405,6 +440,11 @@
       "image": "assets/trophies/leagues/europe/hungaryCup.png"
     },
     {
+      "trophy": "super_cup",
+      "league": "Hungarian League",
+      "image": "assets/trophies/leagues/europe/hungarySuper.png"
+    },
+    {
       "trophy": "league_title",
       "league": "Ukrainian League",
       "tier": 1,
@@ -430,6 +470,11 @@
       "trophy": "national_cup",
       "league": "Serbian League",
       "image": "assets/trophies/leagues/europe/serbiaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Serbian League",
+      "image": "assets/trophies/leagues/europe/serbiaSuper.png"
     },
     {
       "trophy": "league_title",
@@ -459,6 +504,11 @@
       "image": "assets/trophies/leagues/europe/sloveniaCup.png"
     },
     {
+      "trophy": "super_cup",
+      "league": "Slovenian League",
+      "image": "assets/trophies/leagues/europe/sloveniaSuper.png"
+    },
+    {
       "trophy": "league_title",
       "league": "Azerbaijani League",
       "tier": 1,
@@ -470,6 +520,11 @@
       "image": "assets/trophies/leagues/europe/azerbaijanCup.png"
     },
     {
+      "trophy": "super_cup",
+      "league": "Azerbaijani League",
+      "image": "assets/trophies/leagues/europe/azerbaycanSuper.png"
+    },
+    {
       "trophy": "league_title",
       "league": "Slovak League",
       "tier": 1,
@@ -479,6 +534,11 @@
       "trophy": "national_cup",
       "league": "Slovak League",
       "image": "assets/trophies/leagues/europe/slovakiaCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Slovak League",
+      "image": "assets/trophies/leagues/europe/slovakiaSuper.png"
     },
     {
       "trophy": "league_title",
@@ -560,6 +620,11 @@
       "trophy": "national_cup",
       "league": "Finnish League",
       "image": "assets/trophies/leagues/europe/finlandCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Finnish League",
+      "image": "assets/trophies/leagues/europe/finlandSuper.png"
     },
     {
       "trophy": "league_title",
@@ -669,6 +734,11 @@
       "image": "assets/trophies/leagues/europe/north_macedoniaCup.png"
     },
     {
+      "trophy": "super_cup",
+      "league": "North Macedonian league",
+      "image": "assets/trophies/leagues/europe/macedoniaSuper.png"
+    },
+    {
       "trophy": "league_title",
       "league": "Lithuanian League",
       "tier": 1,
@@ -710,6 +780,11 @@
       "trophy": "national_cup",
       "league": "Montenegrin League",
       "image": "assets/trophies/leagues/europe/montenegroCup.png"
+    },
+    {
+      "trophy": "super_cup",
+      "league": "Montenegrin League",
+      "image": "assets/trophies/leagues/europe/montenegroSuper.png"
     },
     {
       "trophy": "league_title",
